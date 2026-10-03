@@ -26,9 +26,10 @@ const CHANNELS = [
    so add a "/newsletter" line to _redirects first, then set ready to true. */
 const NEWSLETTER = {
   ready: true,
-  title: "One useful app tip every two weeks",
-  text: "Plus new deals and our latest tutorials. Free, and you can unsubscribe anytime.",
-  button: "Sign up free"
+  title: "Get our free Subscription Tracker first",
+  text: "We're building a free tool that tracks your subscriptions and reminds you before you're charged. Join to get early access, plus one useful app tip every two weeks. Unsubscribe anytime.",
+  button: "Get early access",
+  headerButton: "Free tracker: early access"
 };
 
 /* false = links open in the same tab (back button returns to this page; better on phones).
@@ -365,7 +366,11 @@ a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
 
 /* Masthead */
 header { padding: 22px 0 0; }
-.masthead { display: flex; align-items: center; gap: 12px; }
+.masthead { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.nl-cta { margin-left: auto; padding: 8px 14px; border: 2px solid var(--brass); border-radius: 999px; color: var(--text); font-weight: 700; font-size: .9rem; text-decoration: none; white-space: nowrap; }
+.nl-cta:hover { background: var(--soft); }
+.brand-text { flex: 1 1 0; min-width: 0; }
+@media (max-width: 560px) { .brand-text { flex-basis: calc(100% - 58px); } .nl-cta { margin-left: 56px; } }
 .logo { width: 44px; height: 44px; flex: none; }
 .logo .bg { fill: var(--brand); }
 .logo .ring { fill: none; stroke: var(--brass); stroke-width: 1.2; }
@@ -444,10 +449,11 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
         <rect class="ring" x="4" y="4" width="38" height="38" rx="7"/>
         <text class="amp" x="23" y="32.5" text-anchor="middle">&amp;</text>
       </svg>
-      <div>
+      <div class="brand-text">
         <p class="brand"><a href="#">Use <em>&amp;</em> Like</a></p>
         <p class="tagline">Hand-picked apps and tools, sorted by category.</p>
       </div>
+      <a class="nl-cta hidden" id="nl-cta" href="/newsletter"></a>
     </div>
     <nav class="top" aria-label="Sections">
       <a href="#" id="nav-tools">Tools</a>
@@ -723,6 +729,12 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     });
   });
   route();
+
+  if (NEWSLETTER.ready) {
+    var cta = document.getElementById("nl-cta");
+    cta.textContent = NEWSLETTER.headerButton + " \u203a";
+    cta.classList.remove("hidden");
+  }
 
   var footChannels = document.getElementById("foot-channels");
   footChannels.appendChild(document.createTextNode("Our YouTube channels: "));
