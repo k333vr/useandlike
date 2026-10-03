@@ -449,6 +449,11 @@ nav.top a[aria-current="page"] { color: var(--text); text-decoration: underline;
 .search-on { color: var(--muted); font-size: .95rem; }
 footer a { color: var(--muted); }
 .info p { max-width: 62ch; }
+.info .lead { font-size: 1.15rem; }
+.checks { list-style: none; margin: 18px 0; padding: 0; max-width: 62ch; }
+.checks li { position: relative; padding: 8px 0 8px 34px; border-bottom: 1px solid var(--line); }
+.checks li::before { content: "\2713"; position: absolute; left: 4px; top: 7px; color: var(--brass); font-weight: 700; font-size: 1.1rem; }
+.big-cta { display: inline-block; margin-top: 8px; padding: 14px 26px; font-size: 1.05rem; }
 footer { margin-top: 40px; padding: 18px 0 40px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
 footer p { margin: 0 0 6px; max-width: 62ch; }
 </style>
@@ -466,7 +471,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
         <p class="brand"><a href="#">Use <em>&amp;</em> Like</a></p>
         <p class="tagline">Hand-picked apps and tools, sorted by category.</p>
       </div>
-      <a class="nl-cta hidden" id="nl-cta" href="/newsletter"></a>
+      <a class="nl-cta hidden" id="nl-cta" href="#tracker"></a>
     </div>
     <nav class="top" aria-label="Sections">
       <a href="#" id="nav-tools">Tools</a>
@@ -677,6 +682,18 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 
   // Small text pages, linked from the footer.
   var INFO = {
+    tracker: {
+      title: "Free Subscription Tracker",
+      lead: "We're building a free tool that helps you stop paying for subscriptions you don't use.",
+      bullets: [
+        "See what all your subscriptions cost per month and per year, in one list.",
+        "Get a reminder in your own calendar a few days before each renewal or free trial ends.",
+        "Step-by-step guides to cancel, plus cheaper or free alternatives.",
+        "No account needed, and your list stays on your device."
+      ],
+      paragraphs: ["Join to get early access when it launches, plus one useful app tip every two weeks. Free, and you can unsubscribe anytime."],
+      cta: true
+    },
     about: {
       title: "About Use & Like",
       paragraphs: [
@@ -699,7 +716,18 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
   function renderInfo(view, page) {
     view.appendChild(inner("‹ All categories", "", "crumb"));
     view.appendChild(el("h1", null, page.title));
+    if (page.lead) view.appendChild(el("p", "lead", page.lead));
+    if (page.bullets) {
+      var ul = el("ul", "checks");
+      page.bullets.forEach(function (text) { ul.appendChild(el("li", null, text)); });
+      view.appendChild(ul);
+    }
     page.paragraphs.forEach(function (text) { view.appendChild(el("p", null, text)); });
+    if (page.cta && NEWSLETTER.ready) {
+      var a = el("a", "visit big-cta", NEWSLETTER.button + " \u203a");
+      a.href = "/newsletter";
+      view.appendChild(a);
+    }
     if (page.channels) {
       var p = el("p", null, "Questions? Reach us through our channels: ");
       p.appendChild(channelLinks(channelUrl));
@@ -708,7 +736,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
   }
 
   // Pages live in the address after "#": "" home, "email" a category, "videos", "videos-email",
-  // "about", "privacy".
+  // "about", "privacy", "tracker".
   // Category links keep working in YouTube descriptions, and the back button returns to the list.
   var view = document.getElementById("view");
   var homeScroll = 0, lastRoute = null;
