@@ -3,19 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Use and Like – Directory of apps and tools we use</title>
-<meta name="description" content="A directory of the apps and tools we use, sorted by category.">
+<title>Use &amp; Like – Directory of apps and tools we use</title>
+<meta name="description" content="A directory of the apps and tools we use, sorted by category, with our videos about them.">
 <meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#141414" media="(prefers-color-scheme: dark)">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23222'/%3E%3Ctext x='16' y='22' font-family='Arial,sans-serif' font-size='16' font-weight='700' fill='%23fff' text-anchor='middle'%3EU%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#1f3a5f">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='9' fill='%231f3a5f'/%3E%3Ctext x='20' y='29' font-family='Georgia,serif' font-style='italic' font-size='26' fill='%23f3e6c4' text-anchor='middle'%3E%26%3C/text%3E%3C/svg%3E">
 
 <script>
 /* =====================================================================
    EDIT HERE — everything you normally need to change is in this block.
    ===================================================================== */
 
-/* Where "Watch our video" goes. The tool name is added to the end.
+/* Where "search our channel" links go. The tool name is added to the end.
    To search only your own channel, use something like:
    "https://www.youtube.com/@YOURCHANNEL/search?query="              */
 const CHANNEL_SEARCH_URL = "https://www.youtube.com/results?search_query=";
@@ -36,20 +35,24 @@ const CATEGORIES = [
   "Online Stores & Funnels"
 ];
 
-/* All tools. "slug" is the short link: slug "hostinger" -> useandlike.com/hostinger.
-   The real affiliate links live in the _redirects file, next to this one.
-   isPick: true shows the "Our pick" label (use it on one tool per category). */
+/* All tools.
+   description: one short line, always shown.
+   why:         one neutral line about how we use it, shown under "More".
+   details:     optional longer text, shown under "More".
+   slug:        the short link: "hostinger" -> useandlike.com/hostinger.
+                The real affiliate links live in the _redirects file, next to this one.
+   isPick:      true shows the "Our pick" label (one tool per category). */
 const TOOLS = [
   // VPN & Privacy
-  { name: "Proton VPN",  category: "VPN & Privacy", description: "VPN service",
+  { name: "Proton VPN",  category: "VPN & Privacy", description: "VPN service from Proton",
     why: "We use it to encrypt our connection, especially on public Wi-Fi.",
     slug: "protonvpn", isPick: true },
-  { name: "Proton Pass", category: "VPN & Privacy", description: "Password manager",
+  { name: "Proton Pass", category: "VPN & Privacy", description: "Password manager from Proton",
     why: "We use it to store and fill our passwords across devices.",
     slug: "protonpass", isPick: false },
 
   // Email
-  { name: "Proton Mail", category: "Email", description: "Encrypted email",
+  { name: "Proton Mail", category: "Email", description: "Encrypted email from Proton",
     why: "We use it as our main email account.",
     slug: "protonmail", isPick: true },
   { name: "StartMail",   category: "Email", description: "Private email service",
@@ -57,15 +60,15 @@ const TOOLS = [
     slug: "startmail", isPick: false },
 
   // Cloud Storage
-  { name: "pCloud",      category: "Cloud Storage", description: "Cloud storage",
+  { name: "pCloud",      category: "Cloud Storage", description: "Cloud storage for your files",
     why: "We use it to store and sync files between our devices.",
     slug: "pcloud", isPick: true },
-  { name: "Proton Drive", category: "Cloud Storage", description: "Encrypted cloud storage",
+  { name: "Proton Drive", category: "Cloud Storage", description: "Encrypted cloud storage from Proton",
     why: "Cloud storage from the same company as Proton Mail.",
     slug: "protondrive", isPick: false },
 
   // Web Hosting
-  { name: "Hostinger",   category: "Web Hosting", description: "Web hosting",
+  { name: "Hostinger",   category: "Web Hosting", description: "Web hosting and domains",
     why: "We use it to host websites.",
     slug: "hostinger", isPick: true },
   { name: "HostGator",   category: "Web Hosting", description: "Web hosting",
@@ -82,58 +85,89 @@ const TOOLS = [
   // { name: "TOOL", category: "Online Stores & Funnels", description: "...",
   //   why: "...", slug: "tool", isPick: true },
 ];
+
+/* Our videos, shown in the Videos tab.
+   tool: optional — the exact tool name to list the video under. Leave it out for a
+         general video about the category (shown under "On this topic").
+   Tools without videos get a "search our channel" link instead. */
+const VIDEOS = [
+  // { title: "How we set up Proton VPN", url: "https://www.youtube.com/watch?v=XXXXXXXXXXX",
+  //   category: "VPN & Privacy", tool: "Proton VPN" },
+];
 /* ===================== END OF EDIT BLOCK ===================== */
 </script>
 
 <style>
 :root {
-  --bg: #fbfaf7;
+  --bg: #f7f5f0;
   --surface: #ffffff;
-  --text: #1d1c1a;
-  --muted: #64615b;
-  --line: #e4e0d8;
-  --line-strong: #cfc9bd;
-  --link: #1a4fa8;
-  --hover: #f3f1ec;
-  --btn-bg: #1d1c1a;
-  --btn-text: #ffffff;
-  --pick: #6b4e16;
-  --pick-line: #d8c49a;
-  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  --text: #1c1f26;
+  --muted: #5d6270;
+  --line: #e2ddd2;
+  --line-strong: #cdc6b6;
+  --brand: #1f3a5f;
+  --brand-text: #ffffff;
+  --brass: #9a7428;
+  --logo-fg: #f3e6c4;
+  --link: #1f4f8f;
+  --hover: #efece5;
+  --tile-l: 92%; --tile-fg-l: 30%; --tile-s: 30%;
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #141414;
-    --surface: #1b1b1b;
-    --text: #e8e6e1;
-    --muted: #a19d95;
-    --line: #2b2a28;
-    --line-strong: #3d3b37;
-    --link: #93b4f5;
-    --hover: #202020;
-    --btn-bg: #e8e6e1;
-    --btn-text: #141414;
-    --pick: #e3c98f;
-    --pick-line: #5c4c2a;
+    --bg: #12151b;
+    --surface: #181c24;
+    --text: #e6e4de;
+    --muted: #a0a5b0;
+    --line: #272c36;
+    --line-strong: #383e4a;
+    --brand: #9fbbe3;
+    --brand-text: #12151b;
+    --brass: #d4b06a;
+    --logo-fg: #12151b;
+    --link: #9fbef2;
+    --hover: #1c212a;
+    --tile-l: 22%; --tile-fg-l: 82%; --tile-s: 22%;
   }
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
-body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 var(--sans); }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 var(--sans); border-top: 4px solid var(--brand); }
 a { color: var(--link); }
 .wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .hidden { display: none !important; }
+ul.plain { list-style: none; margin: 0; padding: 0; }
 
 /* Masthead */
-header { padding: 28px 0 20px; border-bottom: 3px double var(--line-strong); }
-.brand { margin: 0; font: 700 1.9rem/1.1 var(--serif); letter-spacing: -0.01em; }
-.brand a { color: inherit; text-decoration: none; }
-.tagline { margin: 6px 0 0; color: var(--muted); }
+header { padding: 24px 0 0; }
+.masthead { display: flex; align-items: center; gap: 14px; }
+.logo { width: 46px; height: 46px; flex: none; }
+.logo .bg { fill: var(--brand); }
+.logo .ring { fill: none; stroke: var(--brass); stroke-width: 1.2; }
+.logo .amp { fill: var(--logo-fg); font: italic 27px Georgia, "Times New Roman", serif; }
+.brand { margin: 0; font: 700 1.85rem/1.05 var(--serif); letter-spacing: -0.01em; }
+.brand a { color: var(--text); text-decoration: none; }
+.brand em { font-weight: 400; color: var(--brass); padding: 0 .04em; }
+.tagline { margin: 3px 0 0; color: var(--muted); font-size: 0.95rem; }
+
+/* Tabs */
+.tabs { display: flex; gap: 4px; margin-top: 22px; border-bottom: 1px solid var(--line-strong); }
+.tab {
+  padding: 10px 16px 9px; margin-bottom: -1px;
+  background: none; border: 1px solid transparent; border-bottom: 0; border-radius: 6px 6px 0 0;
+  font: 600 1.05rem var(--serif); color: var(--muted); cursor: pointer;
+}
+.tab:hover { color: var(--text); }
+.tab[aria-selected="true"] {
+  color: var(--text); background: var(--bg);
+  border-color: var(--line-strong); box-shadow: inset 0 3px 0 var(--brass);
+}
 
 /* Search */
-.search { margin: 20px 0 8px; position: relative; }
+.search { margin: 18px 0 6px; position: relative; }
 .search input {
   width: 100%; padding: 12px 14px 12px 40px;
   font: inherit; color: var(--text);
@@ -142,55 +176,67 @@ header { padding: 28px 0 20px; border-bottom: 3px double var(--line-strong); }
 }
 .search input::placeholder { color: var(--muted); }
 .search svg { position: absolute; left: 13px; top: 50%; transform: translateY(-50%); color: var(--muted); }
-.summary { margin: 0 0 16px; color: var(--muted); font-size: 0.875rem; }
+.summary { margin: 0 0 12px; color: var(--muted); font-size: 0.85rem; }
 
-/* Directory */
-.directory, .results, .panel ul { list-style: none; margin: 0; padding: 0; }
-.directory { display: grid; grid-template-columns: 1fr; gap: 0 32px; }
+/* Category directory */
+.directory { display: grid; grid-template-columns: 1fr; gap: 0 36px; }
 @media (min-width: 760px) {
   .directory { grid-template-columns: 1fr 1fr; }
   .cat.open { grid-column: 1 / -1; }
 }
 .cat { border-bottom: 1px solid var(--line); }
 .cat-toggle {
-  width: 100%; display: flex; align-items: baseline; gap: 10px;
+  width: 100%; display: flex; align-items: center; gap: 10px;
   padding: 14px 2px; background: none; border: 0; color: inherit;
-  font: 600 1.125rem/1.3 var(--serif); text-align: left; cursor: pointer;
+  font: 600 1.15rem/1.3 var(--serif); text-align: left; cursor: pointer;
 }
-.cat-toggle:hover .cat-name { color: var(--link); text-decoration: underline; text-underline-offset: 3px; }
+.cat-toggle:hover .cat-name { color: var(--link); }
 .cat-name { flex: 1; }
-.cat-count { font: 0.85rem var(--sans); color: var(--muted); }
-.chev { width: 10px; flex: none; color: var(--muted); transition: transform .15s; align-self: center; }
+.cat-count {
+  font: 600 0.75rem var(--sans); color: var(--muted);
+  border: 1px solid var(--line-strong); border-radius: 999px; padding: 1px 8px;
+}
+.chev { width: 10px; height: 10px; flex: none; color: var(--muted); transition: transform .15s; }
 .cat-toggle[aria-expanded="true"] .chev { transform: rotate(90deg); }
+.cat.open .cat-toggle { border-bottom: 1px solid var(--brass); }
+.panel { padding: 4px 2px 14px; }
 
-.panel { padding: 0 2px 14px; }
-.tool { padding: 14px 0; border-top: 1px dotted var(--line-strong); }
-.tool:first-child { border-top: 0; padding-top: 4px; }
-.tool-main { min-width: 0; }
-.tool-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 10px; }
+/* Tool rows */
+.tool { display: flex; align-items: flex-start; gap: 12px; padding: 12px 0; border-top: 1px dotted var(--line-strong); }
+.tool:first-child { border-top: 0; }
+.tile {
+  --h: 215;
+  width: 38px; height: 38px; flex: none; border-radius: 8px;
+  display: grid; place-items: center;
+  font: 700 1.15rem var(--serif);
+  background: hsl(var(--h) var(--tile-s) var(--tile-l));
+  color: hsl(var(--h) 45% var(--tile-fg-l));
+}
+.tool-main { flex: 1; min-width: 0; }
+.tool-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 8px; }
 .tool-name { font-weight: 650; font-size: 1.05rem; text-decoration: none; }
 .tool-name:hover { text-decoration: underline; text-underline-offset: 3px; }
-.tool-desc { color: var(--muted); font-size: 0.95rem; }
-.tool-cat { color: var(--muted); font-size: 0.8rem; }
+.tool-title { font-weight: 650; font-size: 1.05rem; }
 .pick {
-  font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em;
-  color: var(--pick); border: 1px solid var(--pick-line); border-radius: 3px; padding: 0 5px;
+  font-size: 0.66rem; font-weight: 700; text-transform: uppercase; letter-spacing: .09em;
+  color: var(--brass); border: 1px solid currentColor; border-radius: 3px; padding: 0 5px;
 }
-.why { margin: 4px 0 0; font-size: 0.95rem; }
-.actions { display: flex; gap: 8px; margin-top: 10px; }
+.tool-desc { margin: 1px 0 0; color: var(--muted); font-size: 0.95rem; }
+.tool-cat { margin: 2px 0 0; font-size: 0.78rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+.more {
+  padding: 0; margin-left: 4px; background: none; border: 0;
+  color: var(--link); font: 600 0.9rem var(--sans); cursor: pointer; white-space: nowrap;
+}
+.more:hover { text-decoration: underline; }
+.more-body { margin-top: 8px; padding: 10px 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; font-size: 0.95rem; }
+.more-body p { margin: 0 0 6px; }
 .btn {
-  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  flex: none; display: inline-flex; align-items: center; justify-content: center;
   min-height: 40px; padding: 8px 16px; border-radius: 6px;
   font-size: 0.9rem; font-weight: 600; text-decoration: none; white-space: nowrap;
-  border: 1px solid var(--btn-bg);
+  background: var(--brand); color: var(--brand-text); border: 1px solid var(--brand);
 }
-.btn-primary { background: var(--btn-bg); color: var(--btn-text); }
-.btn-secondary { background: transparent; color: var(--text); border-color: var(--line-strong); }
-.btn:hover { opacity: .85; }
-@media (min-width: 560px) {
-  .tool { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; }
-  .actions { margin-top: 2px; flex: none; }
-}
+.btn:hover { opacity: .88; }
 .show-all {
   margin-top: 4px; padding: 8px 0; background: none; border: 0;
   color: var(--link); font: 600 0.95rem var(--sans); cursor: pointer;
@@ -198,39 +244,71 @@ header { padding: 28px 0 20px; border-bottom: 3px double var(--line-strong); }
 .show-all:hover { text-decoration: underline; }
 .empty { color: var(--muted); margin: 0; padding: 4px 0 6px; }
 
+/* Videos */
+.video-list { list-style: none; margin: 6px 0 0; padding: 0; }
+.video-list li { margin: 4px 0; }
+.video-list a, .search-link { display: inline-flex; align-items: baseline; gap: 8px; text-decoration: none; }
+.video-list a:hover, .search-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+.play { width: 10px; height: 10px; flex: none; color: var(--brass); position: relative; top: 1px; }
+.search-link { margin-top: 4px; font-size: 0.92rem; }
+.topic { padding: 8px 0 12px; border-bottom: 1px dotted var(--line-strong); }
+.topic-label { margin: 0; font-size: 0.78rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+
 /* Search results */
-.results .tool:first-child { border-top: 1px solid var(--line); padding-top: 14px; }
-.results .tool:last-child { border-bottom: 1px solid var(--line); }
+.results .tool:first-child { border-top: 1px solid var(--line); }
+.results { border-bottom: 1px solid var(--line); }
 .no-results { color: var(--muted); padding: 12px 0; }
 
 button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
 
-footer { margin-top: 40px; padding: 20px 0 40px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem; }
-footer p { margin: 0 0 8px; max-width: 60ch; }
+footer { margin-top: 40px; padding: 20px 0 40px; border-top: 3px double var(--line-strong); color: var(--muted); font-size: 0.85rem; }
+footer p { margin: 0 0 8px; max-width: 62ch; }
+footer .brand-small { font: 600 1rem var(--serif); color: var(--text); }
+footer .brand-small em { color: var(--brass); font-weight: 400; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <p class="brand"><a href="/">Use and Like</a></p>
-    <p class="tagline">A directory of the apps and tools we use, sorted by category.</p>
+    <div class="masthead">
+      <svg class="logo" viewBox="0 0 46 46" aria-hidden="true">
+        <rect class="bg" width="46" height="46" rx="10"/>
+        <rect class="ring" x="4" y="4" width="38" height="38" rx="7"/>
+        <text class="amp" x="23" y="32.5" text-anchor="middle">&amp;</text>
+      </svg>
+      <div>
+        <p class="brand"><a href="/">Use <em>&amp;</em> Like</a></p>
+        <p class="tagline">The apps and tools we use, sorted by category.</p>
+      </div>
+    </div>
+
+    <div class="tabs" role="tablist" aria-label="Sections">
+      <button class="tab" role="tab" id="tab-tools" aria-controls="view-tools" aria-selected="true" type="button">Tools</button>
+      <button class="tab" role="tab" id="tab-videos" aria-controls="view-videos" aria-selected="false" type="button" tabindex="-1">Videos</button>
+    </div>
   </header>
 
   <main>
     <div class="search" role="search">
-      <label for="q" class="sr-only">Search tools</label>
+      <label for="q" class="sr-only">Search</label>
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="7" cy="7" r="5"/><path d="M11 11l3.5 3.5" stroke-linecap="round"/></svg>
       <input id="q" type="search" placeholder="Search tools" autocomplete="off" enterkeyhint="search">
     </div>
     <p class="summary" id="summary" aria-live="polite"></p>
 
-    <ul class="directory" id="directory" role="list"></ul>
-    <ul class="results hidden" id="results" role="list"></ul>
-    <p class="no-results hidden" id="no-results">No tools match your search.</p>
+    <section id="view-tools" role="tabpanel" aria-labelledby="tab-tools">
+      <ul class="plain directory" id="tools-dir"></ul>
+    </section>
+    <section id="view-videos" role="tabpanel" aria-labelledby="tab-videos" class="hidden">
+      <ul class="plain directory" id="videos-dir"></ul>
+    </section>
+    <ul class="plain results hidden" id="results"></ul>
+    <p class="no-results hidden" id="no-results">Nothing matches your search.</p>
     <noscript><p>Please turn on JavaScript to see the directory.</p></noscript>
   </main>
 
   <footer>
+    <p class="brand-small">Use <em>&amp;</em> Like</p>
     <p>Some links on this page are affiliate links. If you sign up through them, we may earn a commission at no extra cost to you.</p>
     <p>&copy; <span id="year"></span> useandlike.com</p>
   </footer>
@@ -238,6 +316,10 @@ footer p { margin: 0 0 8px; max-width: 60ch; }
 
 <script>
 (function () {
+  var PLAY = '<svg class="play" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 1l7 4-7 4z" fill="currentColor"/></svg>';
+  var CHEV = '<svg class="chev" viewBox="0 0 10 10" aria-hidden="true"><path d="M3 1.5L6.5 5 3 8.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  var HUES = [215, 0, 150, 38, 275, 190, 20, 120];
+
   function slug(s) {
     return s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   }
@@ -257,27 +339,84 @@ footer p { margin: 0 0 8px; max-width: 60ch; }
     if (rel) a.rel = rel;
     return a;
   }
+  function tile(name) {
+    var h = 0;
+    for (var i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) >>> 0;
+    var t = el("span", "tile", name.charAt(0).toUpperCase());
+    t.style.setProperty("--h", HUES[h % HUES.length]);
+    t.setAttribute("aria-hidden", "true");
+    return t;
+  }
+  function videoList(videos) {
+    var ul = el("ul", "video-list");
+    videos.forEach(function (v) {
+      var li = el("li");
+      var a = link(v.title, v.url, null, "");
+      a.insertAdjacentHTML("afterbegin", PLAY);
+      li.appendChild(a);
+      ul.appendChild(li);
+    });
+    return ul;
+  }
+  function searchLink(t) {
+    var a = link("Search our channel for " + t.name + " videos →", CHANNEL_SEARCH_URL + encodeURIComponent(t.name), "search-link", "");
+    a.insertAdjacentHTML("afterbegin", PLAY);
+    return a;
+  }
+  function videosFor(t) {
+    return VIDEOS.filter(function (v) { return v.tool === t.name; });
+  }
 
+  // A row in the Tools tab.
   function renderTool(t, showCategory) {
     var li = el("li", "tool");
+    li.appendChild(tile(t.name));
     var main = el("div", "tool-main");
     var head = el("div", "tool-head");
     head.appendChild(link(t.name, "/" + t.slug, "tool-name", "sponsored"));
     if (t.isPick) head.appendChild(el("span", "pick", "Our pick"));
-    head.appendChild(el("span", "tool-desc", t.description));
     main.appendChild(head);
-    if (showCategory) main.appendChild(el("div", "tool-cat", t.category));
-    main.appendChild(el("p", "why", t.why));
+    if (showCategory) main.appendChild(el("p", "tool-cat", t.category));
+
+    var desc = el("p", "tool-desc", t.description);
+    var more = el("button", "more", "More");
+    more.type = "button";
+    more.setAttribute("aria-expanded", "false");
+    desc.appendChild(more);
+    main.appendChild(desc);
+
+    var body = el("div", "more-body hidden");
+    if (t.why) body.appendChild(el("p", null, t.why));
+    if (t.details) body.appendChild(el("p", null, t.details));
+    var vids = videosFor(t);
+    if (vids.length) body.appendChild(videoList(vids));
+    body.appendChild(searchLink(t));
+    main.appendChild(body);
+    more.addEventListener("click", function () {
+      var open = more.getAttribute("aria-expanded") === "true";
+      more.setAttribute("aria-expanded", String(!open));
+      more.textContent = open ? "More" : "Less";
+      body.classList.toggle("hidden", open);
+    });
     li.appendChild(main);
 
-    var actions = el("div", "actions");
-    var visit = link("Visit", "/" + t.slug, "btn btn-primary", "sponsored");
+    var visit = link("Visit", "/" + t.slug, "btn", "sponsored");
     visit.setAttribute("aria-label", "Visit " + t.name);
-    var watch = link("Watch our video", CHANNEL_SEARCH_URL + encodeURIComponent(t.name), "btn btn-secondary", "");
-    watch.setAttribute("aria-label", "Watch our video about " + t.name);
-    actions.appendChild(visit);
-    actions.appendChild(watch);
-    li.appendChild(actions);
+    li.appendChild(visit);
+    return li;
+  }
+
+  // A row in the Videos tab: the tool's own videos, then a channel search link.
+  function renderVideoTool(t, showCategory) {
+    var li = el("li", "tool");
+    li.appendChild(tile(t.name));
+    var main = el("div", "tool-main");
+    main.appendChild(el("div", "tool-title", t.name));
+    if (showCategory) main.appendChild(el("p", "tool-cat", t.category));
+    var vids = videosFor(t);
+    if (vids.length) main.appendChild(videoList(vids));
+    main.appendChild(searchLink(t));
+    li.appendChild(main);
     return li;
   }
 
@@ -287,106 +426,161 @@ footer p { margin: 0 0 8px; max-width: 60ch; }
       .sort(function (a, b) { return (b.isPick ? 1 : 0) - (a.isPick ? 1 : 0); });
   }
 
-  var directory = document.getElementById("directory");
+  // Builds one collapsible category list. idPrefix keeps the two tabs' links apart:
+  // useandlike.com/#email (Tools) and useandlike.com/#videos-email (Videos).
+  function buildDirectory(root, idPrefix, renderItem, countLabel, topicVideos) {
+    CATEGORIES.forEach(function (cat) {
+      var id = idPrefix + slug(cat);
+      var tools = toolsIn(cat);
+
+      var li = el("li", "cat");
+      li.id = id;
+      var btn = el("button", "cat-toggle");
+      btn.type = "button";
+      btn.setAttribute("aria-expanded", "false");
+      btn.setAttribute("aria-controls", id + "-panel");
+      btn.appendChild(el("span", "cat-name", cat));
+      var label = countLabel(cat, tools);
+      if (label) btn.appendChild(el("span", "cat-count", label));
+      btn.insertAdjacentHTML("beforeend", CHEV);
+      li.appendChild(btn);
+
+      var panel = el("div", "panel hidden");
+      panel.id = id + "-panel";
+
+      var topic = topicVideos ? VIDEOS.filter(function (v) { return v.category === cat && !v.tool; }) : [];
+      if (topic.length) {
+        var box = el("div", "topic");
+        box.appendChild(el("p", "topic-label", "On this topic"));
+        box.appendChild(videoList(topic));
+        panel.appendChild(box);
+      }
+
+      if (!tools.length) {
+        panel.appendChild(el("p", "empty", "Coming soon."));
+      } else {
+        var ul = el("ul", "plain");
+        tools.forEach(function (t, i) {
+          var item = renderItem(t, false);
+          if (i >= VISIBLE_COUNT) item.classList.add("hidden", "extra");
+          ul.appendChild(item);
+        });
+        panel.appendChild(ul);
+        if (tools.length > VISIBLE_COUNT) {
+          var showAll = el("button", "show-all", "Show all " + tools.length + " →");
+          showAll.type = "button";
+          showAll.addEventListener("click", function () {
+            ul.querySelectorAll(".extra").forEach(function (x) { x.classList.remove("hidden"); });
+            showAll.remove();
+          });
+          panel.appendChild(showAll);
+        }
+      }
+      li.appendChild(panel);
+
+      btn.addEventListener("click", function () {
+        var open = btn.getAttribute("aria-expanded") === "true";
+        btn.setAttribute("aria-expanded", String(!open));
+        panel.classList.toggle("hidden", open);
+        li.classList.toggle("open", !open);
+        // Keep the address bar in sync so a category can be shared.
+        history.replaceState(null, "", open ? baseHash() : "#" + id);
+      });
+      root.appendChild(li);
+    });
+  }
+
+  buildDirectory(document.getElementById("tools-dir"), "", renderTool,
+    function (cat, tools) { return tools.length ? String(tools.length) : "Soon"; }, false);
+  buildDirectory(document.getElementById("videos-dir"), "videos-", renderVideoTool,
+    function (cat) {
+      var n = VIDEOS.filter(function (v) { return v.category === cat; }).length;
+      return n ? n + (n === 1 ? " video" : " videos") : "";
+    }, true);
+
+  // Tabs
+  var tabs = { tools: document.getElementById("tab-tools"), videos: document.getElementById("tab-videos") };
+  var views = { tools: document.getElementById("view-tools"), videos: document.getElementById("view-videos") };
+  var input = document.getElementById("q");
   var results = document.getElementById("results");
   var noResults = document.getElementById("no-results");
   var summary = document.getElementById("summary");
-  var input = document.getElementById("q");
+  var current = "tools";
 
-  var catCount = CATEGORIES.filter(function (c) { return toolsIn(c).length; }).length;
-  var defaultSummary = TOOLS.length + " tools in " + catCount + (catCount === 1 ? " category" : " categories");
-  summary.textContent = defaultSummary;
+  function baseHash() { return current === "videos" ? "#videos" : location.pathname + location.search; }
 
-  CATEGORIES.forEach(function (cat) {
-    var id = slug(cat);
-    var tools = toolsIn(cat);
-
-    var li = el("li", "cat");
-    li.id = id;
-
-    var btn = el("button", "cat-toggle");
-    btn.type = "button";
-    btn.setAttribute("aria-expanded", "false");
-    btn.setAttribute("aria-controls", id + "-panel");
-    btn.appendChild(el("span", "cat-name", cat));
-    btn.appendChild(el("span", "cat-count", tools.length ? String(tools.length) : "Soon"));
-    btn.insertAdjacentHTML("beforeend", '<svg class="chev" viewBox="0 0 10 10" aria-hidden="true"><path d="M3 1.5L6.5 5 3 8.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>');
-    li.appendChild(btn);
-
-    var panel = el("div", "panel hidden");
-    panel.id = id + "-panel";
-
-    if (!tools.length) {
-      panel.appendChild(el("p", "empty", "Coming soon."));
-    } else {
-      var ul = el("ul");
-      ul.setAttribute("role", "list");
-      tools.forEach(function (t, i) {
-        var item = renderTool(t, false);
-        if (i >= VISIBLE_COUNT) item.classList.add("hidden", "extra");
-        ul.appendChild(item);
-      });
-      panel.appendChild(ul);
-
-      if (tools.length > VISIBLE_COUNT) {
-        var more = el("button", "show-all", "Show all " + tools.length + " →");
-        more.type = "button";
-        more.addEventListener("click", function () {
-          ul.querySelectorAll(".extra").forEach(function (x) { x.classList.remove("hidden"); });
-          more.remove();
-        });
-        panel.appendChild(more);
-      }
-    }
-    li.appendChild(panel);
-
-    btn.addEventListener("click", function () {
-      var open = btn.getAttribute("aria-expanded") === "true";
-      btn.setAttribute("aria-expanded", String(!open));
-      panel.classList.toggle("hidden", open);
-      li.classList.toggle("open", !open);
-      // Keep the address bar in sync so a category can be shared, e.g. useandlike.com/#email
-      history.replaceState(null, "", open ? location.pathname + location.search : "#" + id);
+  function showTab(name, updateUrl) {
+    current = name;
+    Object.keys(tabs).forEach(function (k) {
+      tabs[k].setAttribute("aria-selected", String(k === name));
+      tabs[k].tabIndex = k === name ? 0 : -1;
     });
-
-    directory.appendChild(li);
+    input.placeholder = name === "videos" ? "Search videos" : "Search tools";
+    if (updateUrl) history.replaceState(null, "", baseHash());
+    runSearch();
+  }
+  Object.keys(tabs).forEach(function (k) {
+    tabs[k].addEventListener("click", function () { showTab(k, true); });
+    tabs[k].addEventListener("keydown", function (e) {
+      if (e.key === "ArrowRight" || e.key === "ArrowLeft") {
+        var next = k === "tools" ? "videos" : "tools";
+        showTab(next, true);
+        tabs[next].focus();
+      }
+    });
   });
 
-  // Search across all tools by name, description, category and "why" line.
-  input.addEventListener("input", function () {
+  // Search: tools by name, description, category and "why";
+  // videos by title, tool and category.
+  function defaultSummary() {
+    if (current === "videos") {
+      return VIDEOS.length ? VIDEOS.length + (VIDEOS.length === 1 ? " video" : " videos") : "Our videos about each tool, by category";
+    }
+    var cats = CATEGORIES.filter(function (c) { return toolsIn(c).length; }).length;
+    return TOOLS.length + " tools in " + cats + (cats === 1 ? " category" : " categories");
+  }
+  function runSearch() {
     var q = input.value.trim().toLowerCase();
     results.textContent = "";
+    views.tools.classList.toggle("hidden", !!q || current !== "tools");
+    views.videos.classList.toggle("hidden", !!q || current !== "videos");
     if (!q) {
-      directory.classList.remove("hidden");
       results.classList.add("hidden");
       noResults.classList.add("hidden");
-      summary.textContent = defaultSummary;
+      summary.textContent = defaultSummary();
       return;
     }
     var words = q.split(/\s+/);
-    var hits = TOOLS.filter(function (t) {
-      var hay = (t.name + " " + t.description + " " + t.category + " " + t.why).toLowerCase();
-      return words.every(function (w) { return hay.indexOf(w) !== -1; });
-    });
-    hits.forEach(function (t) { results.appendChild(renderTool(t, true)); });
-    directory.classList.add("hidden");
+    function match(text) { text = text.toLowerCase(); return words.every(function (w) { return text.indexOf(w) !== -1; }); }
+    var hits;
+    if (current === "videos") {
+      hits = TOOLS.filter(function (t) {
+        var titles = videosFor(t).map(function (v) { return v.title; }).join(" ");
+        return match(t.name + " " + t.category + " " + titles);
+      });
+      hits.forEach(function (t) { results.appendChild(renderVideoTool(t, true)); });
+    } else {
+      hits = TOOLS.filter(function (t) { return match(t.name + " " + t.description + " " + t.category + " " + t.why + " " + (t.details || "")); });
+      hits.forEach(function (t) { results.appendChild(renderTool(t, true)); });
+    }
     results.classList.toggle("hidden", !hits.length);
     noResults.classList.toggle("hidden", !!hits.length);
     summary.textContent = hits.length + (hits.length === 1 ? " result" : " results");
-  });
+  }
+  input.addEventListener("input", runSearch);
 
   // Press "/" to jump to the search box (desktop).
   document.addEventListener("keydown", function (e) {
     if (e.key === "/" && document.activeElement !== input) { e.preventDefault(); input.focus(); }
   });
 
-  // Open a category directly from a link like useandlike.com/#web-hosting
-  if (location.hash) {
-    var target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
-    if (target && target.classList.contains("cat")) {
-      target.querySelector(".cat-toggle").click();
-      target.scrollIntoView();
-    }
+  // Links like useandlike.com/#web-hosting, /#videos or /#videos-web-hosting
+  var hash = decodeURIComponent(location.hash.slice(1));
+  showTab(hash.indexOf("videos") === 0 ? "videos" : "tools", false);
+  var target = hash && document.getElementById(hash);
+  if (target && target.classList.contains("cat")) {
+    target.querySelector(".cat-toggle").click();
+    target.scrollIntoView();
   }
 
   document.getElementById("year").textContent = new Date().getFullYear();

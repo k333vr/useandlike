@@ -6,7 +6,12 @@ The owner is a beginner. Explain things in plain language and do as much as poss
 - One static page: `index.html` (CSS and JS inline). No frameworks, no build step, no tracking scripts, no external requests.
 - Hosted on Cloudflare Pages from the `main` branch. Pushing to `main` deploys to useandlike.com.
 - All editable content is in the `EDIT HERE` block at the top of `index.html`:
-  `CHANNEL_SEARCH_URL`, `VISIBLE_COUNT`, `CATEGORIES`, `TOOLS`.
+  `CHANNEL_SEARCH_URL`, `OPEN_IN_NEW_TAB`, `VISIBLE_COUNT`, `CATEGORIES`, `TOOLS`, `VIDEOS`.
+- Tool fields: `description` (one short line, always shown), `why` and optional `details` (behind "More"),
+  `slug` (short link), `isPick`. Each tool row has one button, "Visit"; the tool name links to the same place.
+- `VIDEOS` feeds the Videos tab: `{ title, url, category, tool? }`. `tool` must match a tool name exactly;
+  without it the video shows under "On this topic" for the category. Tools without videos get a
+  channel-search link. Video links like `useandlike.com/#videos-email` open that category in the Videos tab.
 - Affiliate links live ONLY in `_redirects` (Cloudflare Pages short links), e.g.
   `/wise  https://wise.prf.hn/click/camref:...  302`. Each tool's `slug` in `TOOLS` points at one,
   and its Visit button goes to `/slug`. The owner also uses these short links in YouTube descriptions,
@@ -26,7 +31,7 @@ The owner is a beginner. Explain things in plain language and do as much as poss
    (it is live only once it is on `main`).
 
 ## Content rules
-- "Why we use it" lines: neutral and factual. No superlatives ("best", "cheapest", "fastest", "#1"...).
+- "description", "why" and "details": neutral and factual. No superlatives ("best", "cheapest", "fastest", "#1"...).
   Don't invent features; if unsure, keep the line generic. The check script blocks common superlatives.
 - Exactly one `isPick: true` per category that has tools; it is shown first with an "Our pick" label.
 - Visit links must keep `rel="sponsored"` (set by the render code). Links open in the same tab by default
