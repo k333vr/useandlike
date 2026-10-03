@@ -11,7 +11,7 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   one made production builds fail (commits 274c3d1, de405a4). Re-add only after seeing the build log.
   Test locally: `CLOUDFLARE_CF_FETCH_ENABLED=false npx wrangler dev --assets .` (serves `_redirects` too).
 - All editable content is in the `EDIT HERE` block at the top of `index.html`:
-  `CHANNEL_SEARCH_URL`, `OPEN_IN_NEW_TAB`, `VISIBLE_COUNT`, `CATEGORIES`, `TOOLS`, `VIDEOS`.
+  `CHANNELS`, `OPEN_IN_NEW_TAB`, `VISIBLE_COUNT`, `CATEGORIES`, `TOOLS`, `VIDEOS`.
 - Layout (owner's choice: clean, Craigslist-style, no search): the home page lists every category with its
   first `VISIBLE_COUNT` tool names as direct affiliate links, plus "All N ›". A category heading opens its
   category page (`#web-hosting`): each tool with `description`, optional `why`/`details`, "Our pick" and a
@@ -19,7 +19,7 @@ The owner is a beginner. Explain things in plain language and do as much as poss
 - Tool fields: `name`, `category`, `description`, `slug` (short link), `isPick`; optional `why`, `details`.
 - `VIDEOS` feeds the Videos tab: `{ title, url, category, tool? }`. `tool` must match a tool name exactly;
   without it the video shows under "On this topic" for the category. Tools without videos get a
-  channel-search link. `useandlike.com/#videos` and `/#videos-email` open the Videos tab.
+  "Search on:" link per channel in `CHANNELS`. `useandlike.com/#videos` and `/#videos-email` open the Videos tab.
 - Affiliate links live ONLY in `_redirects` (Cloudflare short links), e.g.
   `/wise  https://wise.prf.hn/click/camref:...  302`. Each tool's `slug` in `TOOLS` points at one,
   and its Visit button goes to `/slug`. The owner also uses these short links in YouTube descriptions,

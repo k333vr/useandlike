@@ -51,7 +51,7 @@ function readRedirects(errors, warnings) {
     await page.goto(FILE);
 
     if (scheme === "light") {
-      const data = await page.evaluate(() => ({ TOOLS, CATEGORIES, CHANNEL_SEARCH_URL, VISIBLE_COUNT, VIDEOS }));
+      const data = await page.evaluate(() => ({ TOOLS, CATEGORIES, CHANNELS, VISIBLE_COUNT, VIDEOS }));
       const names = new Set();
       for (const t of data.TOOLS) {
         const who = `"${t.name || "?"}"`;
@@ -86,9 +86,9 @@ function readRedirects(errors, warnings) {
       const used = new Set(data.TOOLS.map(t => t.slug));
       for (const slug of redirects.keys())
         if (!used.has(slug)) console.log(`info /${slug} is a short link only (not listed on the page)`);
-      if (/YOURCHANNEL/.test(data.CHANNEL_SEARCH_URL)) errors.push("CHANNEL_SEARCH_URL still contains YOURCHANNEL");
-      if (data.CHANNEL_SEARCH_URL === "https://www.youtube.com/results?search_query=")
-        warnings.push("CHANNEL_SEARCH_URL searches all of YouTube, not your channel");
+      if (!data.CHANNELS.length) warnings.push("CHANNELS is empty, so the Videos tab has no channel links");
+      for (const c of data.CHANNELS)
+        if (!c.name || !/^@[A-Za-z0-9._-]+$/.test(c.handle || "")) errors.push(`channel "${c.name || "?"}": handle should look like "@ChannelName"`);
 
       const slugOf = c => c.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
       const isSponsored = sel => page.$$eval(sel, as => as.filter(a => !a.relList.contains("sponsored")).length);

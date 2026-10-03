@@ -6,8 +6,7 @@ A one-page list of apps and tools we use, with affiliate links. Plain static fil
 
 Open `index.html`. The **EDIT HERE** block is near the top:
 
-- `CHANNEL_SEARCH_URL`: where "Watch our video" buttons go. The tool name is added to the end.
-  To search only your channel, use `https://www.youtube.com/@YOURCHANNEL/search?query=`.
+- `CHANNELS`: your YouTube channels (name and @handle). The Videos tab links to them and searches each one for a tool.
 - `VISIBLE_COUNT`: how many tool names each category shows on the home page before "All N ›".
 - `CATEGORIES`: the category list, in order.
 - `TOOLS`: one entry per tool: `description` (short line on the category page), optional `why` and `details`,

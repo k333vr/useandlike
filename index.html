@@ -14,10 +14,13 @@
    EDIT HERE — everything you normally need to change is in this block.
    ===================================================================== */
 
-/* Where "search our channel" links go (Videos tab). The tool name is added to the end.
-   To search only your own channel, use something like:
-   "https://www.youtube.com/@YOURCHANNEL/search?query="              */
-const CHANNEL_SEARCH_URL = "https://www.youtube.com/results?search_query=";
+/* Our YouTube channels. The Videos tab links to each one and lets visitors search
+   each channel for a tool. "handle" is the part after youtube.com/ (with the @). */
+const CHANNELS = [
+  { name: "How To Rocket",  handle: "@HowToRocket" },
+  { name: "Guide Glimpse",  handle: "@GuideGlimpse" },
+  { name: "Log1c Protocol", handle: "@Log1cProtocol" }
+];
 
 /* false = links open in the same tab (back button returns to this page; better on phones).
    true  = links open in a new tab. */
@@ -307,6 +310,11 @@ nav.top a[aria-current="page"] { color: var(--text); text-decoration: underline;
 .topic { margin-bottom: 8px; }
 .topic-label { margin: 0 0 4px; font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
 
+.channels-intro { margin: 18px 0 0; color: var(--muted); }
+.channels a { font-weight: 600; text-decoration: none; white-space: nowrap; }
+.channels a:hover { text-decoration: underline; }
+.search-on { color: var(--muted); font-size: .95rem; }
+footer #foot-channels a { color: var(--muted); }
 footer { margin-top: 40px; padding: 18px 0 40px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
 footer p { margin: 0 0 6px; max-width: 62ch; }
 </style>
@@ -336,6 +344,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 
   <footer>
     <p>Some links on this page are affiliate links. If you sign up through them, we may earn a commission at no extra cost to you.</p>
+    <p id="foot-channels"></p>
     <p>&copy; <span id="year"></span> useandlike.com</p>
   </footer>
 </div>
@@ -370,7 +379,17 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     return a;
   }
   function aff(t, text, cls) { return ext(text, "/" + t.slug, cls, "sponsored"); }
-  function channelSearch(t, text, cls) { return ext(text, CHANNEL_SEARCH_URL + encodeURIComponent(t.name), cls, ""); }
+  function channelUrl(c) { return "https://www.youtube.com/" + c.handle; }
+  function channelSearchUrl(c, t) { return channelUrl(c) + "/search?query=" + encodeURIComponent(t.name); }
+  // "How To Rocket · Guide Glimpse · …" as links; urlFor(channel) gives each link's address.
+  function channelLinks(urlFor) {
+    var span = el("span", "channels");
+    CHANNELS.forEach(function (c, i) {
+      if (i) span.appendChild(document.createTextNode(" · "));
+      span.appendChild(ext(c.name, urlFor(c), null, ""));
+    });
+    return span;
+  }
   function videoLink(v) {
     var a = ext(v.title, v.url, null, "");
     a.insertAdjacentHTML("afterbegin", PLAY);
@@ -388,6 +407,11 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 
   // Home of a tab: every category with its first few tools (or videos).
   function renderIndex(view, videos) {
+    if (videos) {
+      var intro = el("p", "channels-intro", "Our channels: ");
+      intro.appendChild(channelLinks(channelUrl));
+      view.appendChild(intro);
+    }
     var index = el("div", "index");
     CATEGORIES.forEach(function (cat) {
       var tools = toolsIn(cat);
@@ -402,7 +426,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
         var vids = videosIn(cat);
         vids.slice(0, VISIBLE_COUNT).forEach(function (v) { var li = el("li"); li.appendChild(videoLink(v)); ul.appendChild(li); });
         if (!vids.length) tools.slice(0, VISIBLE_COUNT).forEach(function (t) {
-          var li = el("li"); li.appendChild(channelSearch(t, t.name)); ul.appendChild(li);
+          var li = el("li"); li.appendChild(inner(t.name, "videos-" + slug(cat))); ul.appendChild(li);
         });
         total = vids.length || tools.length;
       } else {
@@ -455,7 +479,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     view.appendChild(inner("‹ All videos", "videos", "crumb"));
     view.appendChild(el("h1", null, cat + " videos"));
     var n = videosIn(cat).length;
-    view.appendChild(el("p", "count", n ? plural(n, "video") : "Search our channel for each tool"));
+    view.appendChild(el("p", "count", n ? plural(n, "video") : "Search our channels for each tool"));
     var topic = VIDEOS.filter(function (v) { return v.category === cat && !v.tool; });
     if (topic.length) {
       var box = el("div", "topic");
@@ -472,9 +496,10 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
       var vl = el("ul", "plain vlist");
       videosFor(t).forEach(function (v) { var i = el("li"); i.appendChild(videoLink(v)); vl.appendChild(i); });
       var s = el("li");
-      var search = channelSearch(t, "Search our channel for " + t.name + " ›");
-      search.insertAdjacentHTML("afterbegin", PLAY);
-      s.appendChild(search);
+      s.className = "search-on";
+      s.insertAdjacentHTML("afterbegin", PLAY);
+      s.appendChild(document.createTextNode("Search on: "));
+      s.appendChild(channelLinks(function (c) { return channelSearchUrl(c, t); }));
       vl.appendChild(s);
       li.appendChild(vl);
       ul.appendChild(li);
@@ -517,6 +542,9 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
   window.addEventListener("hashchange", route);
   route();
 
+  var footChannels = document.getElementById("foot-channels");
+  footChannels.appendChild(document.createTextNode("Our YouTube channels: "));
+  footChannels.appendChild(channelLinks(channelUrl));
   document.getElementById("year").textContent = new Date().getFullYear();
 })();
 </script>
