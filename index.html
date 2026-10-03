@@ -312,7 +312,8 @@ nav.top a[aria-current="page"] { color: var(--text); text-decoration: underline;
 .channels a { font-weight: 600; text-decoration: none; white-space: nowrap; }
 .channels a:hover { text-decoration: underline; }
 .search-on { color: var(--muted); font-size: .95rem; }
-footer #foot-channels a { color: var(--muted); }
+footer a { color: var(--muted); }
+.info p { max-width: 62ch; }
 footer { margin-top: 40px; padding: 18px 0 40px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
 footer p { margin: 0 0 6px; max-width: 62ch; }
 </style>
@@ -343,7 +344,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
   <footer>
     <p>Some links on this page are affiliate links. If you sign up through them, we may earn a commission at no extra cost to you.</p>
     <p id="foot-channels"></p>
-    <p>&copy; <span id="year"></span> useandlike.com</p>
+    <p><a href="#about">About</a> · <a href="#privacy">Privacy</a> · &copy; <span id="year"></span> useandlike.com</p>
   </footer>
 </div>
 
@@ -505,7 +506,40 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     view.appendChild(ul);
   }
 
-  // Pages live in the address after "#": "" home, "email" a category, "videos", "videos-email".
+  // Small text pages, linked from the footer.
+  var INFO = {
+    about: {
+      title: "About Use & Like",
+      paragraphs: [
+        "Use & Like is a directory of apps and tools, put together by the team behind the YouTube channels How To Rocket, Guide Glimpse and Log1c Protocol.",
+        "We make tutorials for many of these tools. This site collects them in one place, sorted by category, so you can find the right one quickly.",
+        "Some links are affiliate links: if you sign up through them, we may earn a commission at no extra cost to you."
+      ],
+      channels: true
+    },
+    privacy: {
+      title: "Privacy",
+      paragraphs: [
+        "This site does not use cookies, analytics or tracking scripts, and it does not ask for any personal data.",
+        "The site is hosted by Cloudflare, which processes technical data such as your IP address to deliver the pages and protect them against abuse.",
+        "When you click a tool or video link, you leave this site. The tool's website, its affiliate partner or YouTube may then set their own cookies, and their privacy policies apply.",
+        "Last updated: 3 October 2026."
+      ]
+    }
+  };
+  function renderInfo(view, page) {
+    view.appendChild(inner("‹ All categories", "", "crumb"));
+    view.appendChild(el("h1", null, page.title));
+    page.paragraphs.forEach(function (text) { view.appendChild(el("p", null, text)); });
+    if (page.channels) {
+      var p = el("p", null, "Questions? Reach us through our channels: ");
+      p.appendChild(channelLinks(channelUrl));
+      view.appendChild(p);
+    }
+  }
+
+  // Pages live in the address after "#": "" home, "email" a category, "videos", "videos-email",
+  // "about", "privacy".
   // Category links keep working in YouTube descriptions, and the back button returns to the list.
   var view = document.getElementById("view");
   var homeScroll = 0, lastRoute = null;
@@ -519,23 +553,27 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     var id = decodeURIComponent(location.hash.slice(1));
     var isVideos = id === "videos" || id.indexOf("videos-") === 0;
     var cat = findCat(isVideos ? id.slice(7) : id);
+    var info = INFO.hasOwnProperty(id) ? INFO[id] : null;
     if (lastRoute === "" || lastRoute === "videos") homeScroll = window.scrollY;
 
     view.textContent = "";
-    view.className = cat ? "page" : "";
-    if (isVideos && cat) renderVideoCategory(view, cat);
+    view.className = cat ? "page" : (info ? "page info" : "");
+    if (info) renderInfo(view, info);
+    else if (isVideos && cat) renderVideoCategory(view, cat);
     else if (isVideos) renderIndex(view, true);
     else if (cat) renderCategory(view, cat);
     else renderIndex(view, false);
 
-    setCurrent("nav-tools", !isVideos);
+    setCurrent("nav-tools", !isVideos && !info);
     setCurrent("nav-videos", isVideos);
-    document.title = cat ? cat + (isVideos ? " videos" : "") + " – Use & Like" : "Use & Like – Directory of apps and tools we use";
+    document.title = info ? info.title + " – Use & Like"
+      : cat ? cat + (isVideos ? " videos" : "") + " – Use & Like" : "Use & Like – Directory of apps and tools we use";
 
     // Coming back from a category page to its list returns to the same spot.
     var cameFromCategory = lastRoute !== null && lastRoute !== "" && lastRoute !== "videos";
-    window.scrollTo(0, !cat && cameFromCategory ? homeScroll : 0);
-    lastRoute = cat ? id : (isVideos ? "videos" : "");
+    var isList = !cat && !info;
+    window.scrollTo(0, isList && cameFromCategory ? homeScroll : 0);
+    lastRoute = isList ? (isVideos ? "videos" : "") : id;
   }
   window.addEventListener("hashchange", route);
   route();
