@@ -31,3 +31,9 @@ Each category has its own link, which is handy in YouTube descriptions:
 - Build command: *(leave empty)*
 - Build output directory: `/`
 - Production branch: `main`
+
+## Checking the page
+
+`node scripts/check.js` tests the page in a phone-sized browser (light and dark): data is complete, one "Our pick"
+per category, no superlatives, affiliate links marked as sponsored, no sideways scrolling.
+Add `--online` to also open every real affiliate link. `CLAUDE.md` describes the update routine for Claude.
