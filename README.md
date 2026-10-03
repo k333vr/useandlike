@@ -42,9 +42,8 @@ Each category has its own link, which is handy in YouTube descriptions:
 
 ## Cloudflare settings
 
-The site runs as a Cloudflare Worker named `useandlike` that serves the files in this folder.
-`wrangler.jsonc` holds its settings, and `.assetsignore` lists files that are not published
-(scripts, these notes, config). Pushing to `main` deploys the live site.
+The site runs as a Cloudflare Worker named `useandlike` that serves the files in this folder,
+using the build settings in the Cloudflare dashboard. Pushing to `main` deploys the live site.
 
 ## Checking the page
 

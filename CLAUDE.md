@@ -5,9 +5,11 @@ The owner is a beginner. Explain things in plain language and do as much as poss
 ## The site
 - One static page: `index.html` (CSS and JS inline). No frameworks, no build step, no tracking scripts, no external requests.
 - Hosted on Cloudflare as a Worker named `useandlike` with static assets (Workers Builds, connected to GitHub).
-  Pushing to `main` deploys to useandlike.com; other branches get preview builds.
-  `wrangler.jsonc` sets this up; `.assetsignore` keeps scripts, notes (*.md) and config off the website.
-  Test locally: `CLOUDFLARE_CF_FETCH_ENABLED=false npx wrangler dev` (serves `_redirects` too).
+  Pushing to `main` deploys to useandlike.com. Build results show as the "Workers Builds: useandlike"
+  check on each commit (`gh api repos/k333vr/useandlike/commits/<sha>/check-runs`).
+  Do NOT add a `wrangler.jsonc`: Cloudflare's dashboard settings build this repo without one, and adding
+  one made production builds fail (commits 274c3d1, de405a4). Re-add only after seeing the build log.
+  Test locally: `CLOUDFLARE_CF_FETCH_ENABLED=false npx wrangler dev --assets .` (serves `_redirects` too).
 - All editable content is in the `EDIT HERE` block at the top of `index.html`:
   `CHANNEL_SEARCH_URL`, `OPEN_IN_NEW_TAB`, `VISIBLE_COUNT`, `CATEGORIES`, `TOOLS`, `VIDEOS`.
 - Layout (owner's choice: clean, Craigslist-style, no search): the home page lists every category with its
