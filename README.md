@@ -27,7 +27,7 @@ So useandlike.com/wise sends visitors straight to the affiliate link. Use these 
 descriptions; when an affiliate link changes, update that one line and every old video still works.
 Short links only work on the live site (Cloudflare), not when opening index.html on your computer.
 
-Save, commit, and push to `main`. Cloudflare Pages updates the site within a minute or two.
+Save, commit, and push to `main`. Cloudflare updates the site within a minute or two.
 
 ## Linking straight to a category
 
@@ -40,12 +40,11 @@ Each category has its own link, which is handy in YouTube descriptions:
 - https://useandlike.com/#online-stores-and-funnels
 - Videos tab: https://useandlike.com/#videos, or one category: https://useandlike.com/#videos-email
 
-## Cloudflare Pages settings
+## Cloudflare settings
 
-- Framework preset: **None**
-- Build command: *(leave empty)*
-- Build output directory: `/`
-- Production branch: `main`
+The site runs as a Cloudflare Worker named `useandlike` that serves the files in this folder.
+`wrangler.jsonc` holds its settings, and `.assetsignore` lists files that are not published
+(scripts, these notes, config). Pushing to `main` deploys the live site.
 
 ## Checking the page
 

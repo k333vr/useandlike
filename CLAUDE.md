@@ -4,7 +4,10 @@ The owner is a beginner. Explain things in plain language and do as much as poss
 
 ## The site
 - One static page: `index.html` (CSS and JS inline). No frameworks, no build step, no tracking scripts, no external requests.
-- Hosted on Cloudflare Pages from the `main` branch. Pushing to `main` deploys to useandlike.com.
+- Hosted on Cloudflare as a Worker named `useandlike` with static assets (Workers Builds, connected to GitHub).
+  Pushing to `main` deploys to useandlike.com; other branches get preview builds.
+  `wrangler.jsonc` sets this up; `.assetsignore` keeps scripts, notes (*.md) and config off the website.
+  Test locally: `CLOUDFLARE_CF_FETCH_ENABLED=false npx wrangler dev` (serves `_redirects` too).
 - All editable content is in the `EDIT HERE` block at the top of `index.html`:
   `CHANNEL_SEARCH_URL`, `OPEN_IN_NEW_TAB`, `VISIBLE_COUNT`, `CATEGORIES`, `TOOLS`, `VIDEOS`.
 - Tool fields: `description` (one short line, always shown), `why` and optional `details` (behind "More"),
@@ -12,7 +15,7 @@ The owner is a beginner. Explain things in plain language and do as much as poss
 - `VIDEOS` feeds the Videos tab: `{ title, url, category, tool? }`. `tool` must match a tool name exactly;
   without it the video shows under "On this topic" for the category. Tools without videos get a
   channel-search link. Video links like `useandlike.com/#videos-email` open that category in the Videos tab.
-- Affiliate links live ONLY in `_redirects` (Cloudflare Pages short links), e.g.
+- Affiliate links live ONLY in `_redirects` (Cloudflare short links), e.g.
   `/wise  https://wise.prf.hn/click/camref:...  302`. Each tool's `slug` in `TOOLS` points at one,
   and its Visit button goes to `/slug`. The owner also uses these short links in YouTube descriptions,
   so never rename or remove a slug without warning them (old descriptions would break).

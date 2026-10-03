@@ -1,0 +1,9 @@
+// Cloudflare settings: this site is a Worker that only serves the static files in this folder.
+// "name" must match the Worker's name in the Cloudflare dashboard.
+{
+  "name": "useandlike",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "."
+  }
+}
