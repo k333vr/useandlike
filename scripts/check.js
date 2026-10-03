@@ -2,6 +2,7 @@
 //   --online  also visits every affiliate link to confirm it responds.
 // Needs Playwright (preinstalled in Claude Code cloud sessions).
 const path = require("path");
+const fs = require("fs");
 const { execSync } = require("child_process");
 
 function loadPlaywright() {
@@ -14,11 +15,34 @@ const ONLINE = process.argv.includes("--online");
 const FILE = "file://" + path.resolve(__dirname, "..", "index.html");
 const BANNED = /\b(best|cheapest|fastest|#1|number one|top-rated|unbeatable|perfect)\b/i;
 
+// Read _redirects: "/slug  https://target  302" per line.
+function readRedirects(errors, warnings) {
+  const map = new Map();
+  const file = path.resolve(__dirname, "..", "_redirects");
+  if (!fs.existsSync(file)) { errors.push("_redirects file is missing"); return map; }
+  fs.readFileSync(file, "utf8").split("\n").forEach((raw, i) => {
+    const line = raw.trim();
+    if (!line || line.startsWith("#")) return;
+    const where = `_redirects line ${i + 1}`;
+    const [from, to, code, extra] = line.split(/\s+/);
+    if (extra || !to) return errors.push(`${where}: expected "/short-name  https://link  302"`);
+    if (!/^\/[a-z0-9-]+$/.test(from)) return errors.push(`${where}: short name "${from}" should be lowercase letters, numbers, dashes`);
+    if (code !== "302") errors.push(`${where}: use 302 so updated links aren't cached by browsers`);
+    try { if (new URL(to).protocol !== "https:") warnings.push(`${where}: link is not https`); }
+    catch (_) { errors.push(`${where}: not a valid link: ${to}`); }
+    const slug = from.slice(1);
+    if (map.has(slug)) errors.push(`${where}: /${slug} is listed twice`);
+    if (/^(index|scripts|readme|claude)/i.test(slug)) errors.push(`${where}: /${slug} clashes with a site file`);
+    map.set(slug, to);
+  });
+  return map;
+}
+
 (async () => {
   const { chromium } = loadPlaywright();
   const browser = await chromium.launch();
   const errors = [], warnings = [];
-  let allTools = [];
+  const redirects = readRedirects(errors, warnings);
 
   for (const scheme of ["light", "dark"]) {
     const page = await browser.newPage({ viewport: { width: 390, height: 844 }, colorScheme: scheme });
@@ -28,18 +52,16 @@ const BANNED = /\b(best|cheapest|fastest|#1|number one|top-rated|unbeatable|perf
 
     if (scheme === "light") {
       const data = await page.evaluate(() => ({ TOOLS, CATEGORIES, CHANNEL_SEARCH_URL, VISIBLE_COUNT }));
-      allTools = data.TOOLS;
       const names = new Set();
       for (const t of data.TOOLS) {
         const who = `"${t.name || "?"}"`;
-        for (const k of ["name", "category", "description", "why", "url"])
+        for (const k of ["name", "category", "description", "why", "slug"])
           if (!t[k] || typeof t[k] !== "string") errors.push(`${who}: missing "${k}"`);
         if (names.has(t.name)) errors.push(`${who}: listed twice`);
         names.add(t.name);
         if (!data.CATEGORIES.includes(t.category)) errors.push(`${who}: category "${t.category}" is not in CATEGORIES`);
-        try { const u = new URL(t.url); if (u.protocol !== "https:") warnings.push(`${who}: link is not https`); }
-        catch (_) { errors.push(`${who}: link is not a valid URL: ${t.url}`); }
-        if (/example\.com/.test(t.url)) warnings.push(`${who}: still a placeholder link`);
+        if (!redirects.has(t.slug)) errors.push(`${who}: no line for /${t.slug} in _redirects`);
+        else if (/example\.com/.test(redirects.get(t.slug))) warnings.push(`${who}: /${t.slug} is still a placeholder link`);
         for (const k of ["description", "why"])
           if (BANNED.test(t[k] || "")) errors.push(`${who}: superlative in ${k}: "${t[k]}"`);
       }
@@ -49,6 +71,9 @@ const BANNED = /\b(best|cheapest|fastest|#1|number one|top-rated|unbeatable|perf
         if (!tools.length) warnings.push(`category "${c}" has no tools (shows "Coming soon")`);
         else if (picks !== 1) errors.push(`category "${c}" has ${picks} "Our pick" tools, expected 1`);
       }
+      const used = new Set(data.TOOLS.map(t => t.slug));
+      for (const slug of redirects.keys())
+        if (!used.has(slug)) console.log(`info /${slug} is a short link only (not listed on the page)`);
       if (/YOURCHANNEL/.test(data.CHANNEL_SEARCH_URL)) errors.push("CHANNEL_SEARCH_URL still contains YOURCHANNEL");
       if (data.CHANNEL_SEARCH_URL === "https://www.youtube.com/results?search_query=")
         warnings.push("CHANNEL_SEARCH_URL searches all of YouTube, not your channel");
@@ -73,14 +98,14 @@ const BANNED = /\b(best|cheapest|fastest|#1|number one|top-rated|unbeatable|perf
 
   if (ONLINE) {
     const page = await browser.newPage();
-    for (const t of allTools) {
-      if (/example\.com/.test(t.url)) continue;
+    for (const [slug, url] of redirects) {
+      if (/example\.com/.test(url)) continue;
       try {
-        const res = await page.goto(t.url, { timeout: 20000, waitUntil: "domcontentloaded" });
+        const res = await page.goto(url, { timeout: 20000, waitUntil: "domcontentloaded" });
         const status = res ? res.status() : 0;
-        if (status >= 400) warnings.push(`"${t.name}": link returned HTTP ${status} (${t.url})`);
-        else console.log(`ok   ${t.name} -> ${page.url()}`);
-      } catch (e) { warnings.push(`"${t.name}": link could not be opened (${e.message.split("\n")[0]})`); }
+        if (status >= 400) warnings.push(`/${slug}: link returned HTTP ${status} (${url})`);
+        else console.log(`ok   /${slug} -> ${page.url()}`);
+      } catch (e) { warnings.push(`/${slug}: link could not be opened (${e.message.split("\n")[0]})`); }
     }
   }
 

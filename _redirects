@@ -1,0 +1,15 @@
+# Short links -> affiliate links. Format: /short-name  https://full-affiliate-link  302
+# Always use 302 (temporary), so browsers don't remember an old link after you change it.
+# Every tool's "slug" in index.html needs a line here.
+
+/protonvpn    https://example.com/protonvpn  302
+/protonpass   https://example.com/protonpass  302
+/protonmail   https://example.com/protonmail  302
+/startmail    https://example.com/startmail  302
+/pcloud       https://example.com/pcloud  302
+/protondrive  https://example.com/protondrive  302
+/hostinger    https://example.com/hostinger  302
+/hostgator    https://example.com/hostgator  302
+/ionos        https://example.com/ionos  302
+/webhostmost  https://example.com/webhostmost  302
+/wise         https://wise.prf.hn/click/camref:1110l4ToH  302

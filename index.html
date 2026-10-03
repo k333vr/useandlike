@@ -32,50 +32,51 @@ const CATEGORIES = [
   "Online Stores & Funnels"
 ];
 
-/* All tools. Replace each "url" with your affiliate link.
+/* All tools. "slug" is the short link: slug "hostinger" -> useandlike.com/hostinger.
+   The real affiliate links live in the _redirects file, next to this one.
    isPick: true shows the "Our pick" label (use it on one tool per category). */
 const TOOLS = [
   // VPN & Privacy
   { name: "Proton VPN",  category: "VPN & Privacy", description: "VPN service",
     why: "We use it to encrypt our connection, especially on public Wi-Fi.",
-    url: "https://example.com/protonvpn", isPick: true },
+    slug: "protonvpn", isPick: true },
   { name: "Proton Pass", category: "VPN & Privacy", description: "Password manager",
     why: "We use it to store and fill our passwords across devices.",
-    url: "https://example.com/protonpass", isPick: false },
+    slug: "protonpass", isPick: false },
 
   // Email
   { name: "Proton Mail", category: "Email", description: "Encrypted email",
     why: "We use it as our main email account.",
-    url: "https://example.com/protonmail", isPick: true },
+    slug: "protonmail", isPick: true },
   { name: "StartMail",   category: "Email", description: "Private email service",
     why: "A privacy-focused email option we have tried.",
-    url: "https://example.com/startmail", isPick: false },
+    slug: "startmail", isPick: false },
 
   // Cloud Storage
   { name: "pCloud",      category: "Cloud Storage", description: "Cloud storage",
     why: "We use it to store and sync files between our devices.",
-    url: "https://example.com/pcloud", isPick: true },
+    slug: "pcloud", isPick: true },
   { name: "Proton Drive", category: "Cloud Storage", description: "Encrypted cloud storage",
     why: "Cloud storage from the same company as Proton Mail.",
-    url: "https://example.com/protondrive", isPick: false },
+    slug: "protondrive", isPick: false },
 
   // Web Hosting
   { name: "Hostinger",   category: "Web Hosting", description: "Web hosting",
     why: "We use it to host websites.",
-    url: "https://example.com/hostinger", isPick: true },
+    slug: "hostinger", isPick: true },
   { name: "HostGator",   category: "Web Hosting", description: "Web hosting",
     why: "A web hosting option we have looked at.",
-    url: "https://example.com/hostgator", isPick: false },
+    slug: "hostgator", isPick: false },
   { name: "IONOS",       category: "Web Hosting", description: "Web hosting and domains",
     why: "A web hosting and domain option we have looked at.",
-    url: "https://example.com/ionos", isPick: false },
+    slug: "ionos", isPick: false },
   { name: "WebHostMost", category: "Web Hosting", description: "Web hosting",
     why: "A web hosting option we have looked at.",
-    url: "https://example.com/webhostmost", isPick: false }
+    slug: "webhostmost", isPick: false }
 
   // Online Stores & Funnels — add tools here, e.g.:
   // { name: "TOOL", category: "Online Stores & Funnels", description: "...",
-  //   why: "...", url: "https://example.com/TOOL", isPick: true },
+  //   why: "...", slug: "tool", isPick: true },
 ];
 /* ===================== END OF EDIT BLOCK ===================== */
 </script>
@@ -218,7 +219,7 @@ footer p { margin: 0 0 8px; }
     li.appendChild(el("p", "why", t.why));
 
     var actions = el("div", "actions");
-    var visit = link("Visit", t.url, "btn btn-primary", "sponsored noopener");
+    var visit = link("Visit", "/" + t.slug, "btn btn-primary", "sponsored noopener");
     visit.setAttribute("aria-label", "Visit " + t.name);
     var watch = link("Watch our video", CHANNEL_SEARCH_URL + encodeURIComponent(t.name), "btn btn-secondary", "noopener");
     watch.setAttribute("aria-label", "Watch our video about " + t.name);

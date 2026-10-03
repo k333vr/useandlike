@@ -10,8 +10,20 @@ Open `index.html`. The **EDIT HERE** block is near the top:
   To search only your channel, use `https://www.youtube.com/@YOURCHANNEL/search?query=`.
 - `VISIBLE_COUNT`: how many tools show before the "Show all" button.
 - `CATEGORIES`: the category list, in order.
-- `TOOLS`: one entry per tool. Replace each `url` (`https://example.com/...`) with your affiliate link.
+- `TOOLS`: one entry per tool. `slug` is its short link (`slug: "hostinger"` -> useandlike.com/hostinger).
   Set `isPick: true` on one tool per category to show the "Our pick" label.
+
+## Affiliate links (short links)
+
+The real affiliate links are in `_redirects`, one per line:
+
+```
+/wise  https://wise.prf.hn/click/camref:1110l4ToH  302
+```
+
+So useandlike.com/wise sends visitors straight to the affiliate link. Use these short links in YouTube
+descriptions; when an affiliate link changes, update that one line and every old video still works.
+Short links only work on the live site (Cloudflare), not when opening index.html on your computer.
 
 Save, commit, and push to `main`. Cloudflare Pages updates the site within a minute or two.
 
