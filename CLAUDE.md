@@ -7,6 +7,9 @@ The owner is a beginner. Explain things in plain language and do as much as poss
 - Hosted on Cloudflare as a Worker named `useandlike` with static assets (Workers Builds, connected to GitHub).
   Pushing to `main` deploys to useandlike.com. Build results show as the "Workers Builds: useandlike"
   check on each commit (`gh api repos/k333vr/useandlike/commits/<sha>/check-runs`).
+  Push changes to `main` ONLY. Never push the same commit to another branch: Cloudflare then builds it once as
+  a branch preview (`npx wrangler preview`, which hangs at "Initializing" and times out) and skips the `main`
+  build, so the site does not update (this happened on 3 Oct 2026 until main-only pushes).
   Do NOT add a `wrangler.jsonc`: Cloudflare's dashboard settings build this repo without one, and adding
   one made production builds fail (commits 274c3d1, de405a4). Re-add only after seeing the build log.
   Test locally: `CLOUDFLARE_CF_FETCH_ENABLED=false npx wrangler dev --assets .` (serves `_redirects` too).
