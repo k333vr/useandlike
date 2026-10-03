@@ -51,7 +51,7 @@ function readRedirects(errors, warnings) {
     await page.goto(FILE);
 
     if (scheme === "light") {
-      const data = await page.evaluate(() => ({ TOOLS, CATEGORIES, CHANNEL_SEARCH_URL, VISIBLE_COUNT }));
+      const data = await page.evaluate(() => ({ TOOLS, CATEGORIES, CHANNEL_SEARCH_URL, VISIBLE_COUNT, VIDEOS }));
       const names = new Set();
       for (const t of data.TOOLS) {
         const who = `"${t.name || "?"}"`;
@@ -71,6 +71,17 @@ function readRedirects(errors, warnings) {
         if (!tools.length) warnings.push(`category "${c}" has no tools (shows "Coming soon")`);
         else if (picks !== 1) errors.push(`category "${c}" has ${picks} "Our pick" tools, expected 1`);
       }
+      for (const v of data.VIDEOS) {
+        const who = `video "${v.title || "?"}"`;
+        for (const k of ["title", "url", "category"])
+          if (!v[k] || typeof v[k] !== "string") errors.push(`${who}: missing "${k}"`);
+        if (!data.CATEGORIES.includes(v.category)) errors.push(`${who}: category "${v.category}" is not in CATEGORIES`);
+        if (v.tool && !names.has(v.tool)) errors.push(`${who}: tool "${v.tool}" is not in TOOLS (names must match exactly)`);
+        if (v.tool && data.TOOLS.find(t => t.name === v.tool && t.category !== v.category))
+          errors.push(`${who}: tool "${v.tool}" is in a different category`);
+        try { if (!/(^|\.)(youtube\.com|youtu\.be)$/.test(new URL(v.url).hostname)) warnings.push(`${who}: link is not a YouTube link`); }
+        catch (_) { errors.push(`${who}: not a valid link: ${v.url}`); }
+      }
       const used = new Set(data.TOOLS.map(t => t.slug));
       for (const slug of redirects.keys())
         if (!used.has(slug)) console.log(`info /${slug} is a short link only (not listed on the page)`);
@@ -87,8 +98,25 @@ function readRedirects(errors, warnings) {
         if (shown !== expected) errors.push(`category "${c}": ${shown} tools visible, expected ${expected}`);
         if (await page.$(`#${id} .show-all`)) await page.click(`#${id} .show-all`);
       }
-      const badRel = await page.$$eval("a.btn-primary", as => as.filter(a => !a.relList.contains("sponsored")).length);
-      if (badRel) errors.push(`${badRel} Visit link(s) missing rel="sponsored"`);
+      const badRel = await page.$$eval("#view-tools a.btn, #view-tools a.tool-name", as => as.filter(a => !a.relList.contains("sponsored")).length);
+      if (badRel) errors.push(`${badRel} affiliate link(s) missing rel="sponsored"`);
+      const visits = await page.$$eval("#view-tools a.btn", as => as.length);
+      if (visits !== data.TOOLS.length) errors.push(`${visits} Visit buttons for ${data.TOOLS.length} tools`);
+
+      // "More" opens the details; the Videos tab lists every tool.
+      const firstMore = await page.$("#view-tools .tool .more");
+      if (firstMore) {
+        await firstMore.click();
+        if (!(await page.$eval("#view-tools .tool .more-body", e => !!e.offsetParent))) errors.push('"More" does not open the details');
+      }
+      await page.click("#tab-videos");
+      for (const c of data.CATEGORIES) await page.click(`#videos-${c.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")} .cat-toggle`);
+      const vtools = await page.$$eval("#view-videos .tool", e => e.length);
+      if (vtools !== data.TOOLS.length) errors.push(`Videos tab lists ${vtools} tools, expected ${data.TOOLS.length}`);
+      await page.fill("#q", data.TOOLS[0] ? data.TOOLS[0].name : "x");
+      if (data.TOOLS[0] && !(await page.$$eval("#results .tool", e => e.length))) errors.push("search finds nothing for the first tool's name");
+      await page.fill("#q", "");
+      await page.click("#tab-tools");
       const tabs = await page.$$eval("a.btn", as => [...new Set(as.map(a => a.target === "_blank" ? "new" : "same"))]);
       console.log(`info links open in: ${tabs.join(", ")} tab`);
     }

@@ -10,7 +10,9 @@ Open `index.html`. The **EDIT HERE** block is near the top:
   To search only your channel, use `https://www.youtube.com/@YOURCHANNEL/search?query=`.
 - `VISIBLE_COUNT`: how many tools show before the "Show all" button.
 - `CATEGORIES`: the category list, in order.
-- `TOOLS`: one entry per tool. `slug` is its short link (`slug: "hostinger"` -> useandlike.com/hostinger).
+- `TOOLS`: one entry per tool: `description` (short line, always shown), `why` and optional `details`
+  (behind "More"), and `slug`, its short link (`slug: "hostinger"` -> useandlike.com/hostinger).
+- `VIDEOS`: your videos for the Videos tab (`title`, `url`, `category`, and optionally the `tool` name).
   Set `isPick: true` on one tool per category to show the "Our pick" label.
 
 ## Affiliate links (short links)
@@ -36,6 +38,7 @@ Each category has its own link, which is handy in YouTube descriptions:
 - https://useandlike.com/#cloud-storage
 - https://useandlike.com/#web-hosting
 - https://useandlike.com/#online-stores-and-funnels
+- Videos tab: https://useandlike.com/#videos, or one category: https://useandlike.com/#videos-email
 
 ## Cloudflare Pages settings
 
@@ -47,5 +50,5 @@ Each category has its own link, which is handy in YouTube descriptions:
 ## Checking the page
 
 `node scripts/check.js` tests the page in a phone-sized browser (light and dark): data is complete, one "Our pick"
-per category, no superlatives, affiliate links marked as sponsored, no sideways scrolling.
+per category, no superlatives, affiliate links marked as sponsored, videos point at real tools, no sideways scrolling.
 Add `--online` to also open every real affiliate link. `CLAUDE.md` describes the update routine for Claude.
