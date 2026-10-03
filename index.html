@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Use and Like – Apps and tools we use</title>
+<meta name="description" content="A simple list of the apps and tools we use and recommend, by category.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23222'/%3E%3Ctext x='16' y='22' font-family='Arial,sans-serif' font-size='16' font-weight='700' fill='%23fff' text-anchor='middle'%3EU%3C/text%3E%3C/svg%3E">
+
+<script>
+/* =====================================================================
+   EDIT HERE — everything you normally need to change is in this block.
+   ===================================================================== */
+
+/* Where "Watch our video" goes. The tool name is added to the end.
+   To search only your own channel, use something like:
+   "https://www.youtube.com/@YOURCHANNEL/search?query="              */
+const CHANNEL_SEARCH_URL = "https://www.youtube.com/results?search_query=";
+
+/* How many tools each category shows before the "Show all" button. */
+const VISIBLE_COUNT = 4;
+
+/* Category order on the homepage. A category with no tools shows "Coming soon". */
+const CATEGORIES = [
+  "VPN & Privacy",
+  "Email",
+  "Cloud Storage",
+  "Web Hosting",
+  "Online Stores & Funnels"
+];
+
+/* All tools. Replace each "url" with your affiliate link.
+   isPick: true shows the "Our pick" label (use it on one tool per category). */
+const TOOLS = [
+  // VPN & Privacy
+  { name: "Proton VPN",  category: "VPN & Privacy", description: "VPN service",
+    why: "We use it to encrypt our connection, especially on public Wi-Fi.",
+    url: "https://example.com/protonvpn", isPick: true },
+  { name: "Proton Pass", category: "VPN & Privacy", description: "Password manager",
+    why: "We use it to store and fill our passwords across devices.",
+    url: "https://example.com/protonpass", isPick: false },
+
+  // Email
+  { name: "Proton Mail", category: "Email", description: "Encrypted email",
+    why: "We use it as our main email account.",
+    url: "https://example.com/protonmail", isPick: true },
+  { name: "StartMail",   category: "Email", description: "Private email service",
+    why: "A privacy-focused email option we have tried.",
+    url: "https://example.com/startmail", isPick: false },
+
+  // Cloud Storage
+  { name: "pCloud",      category: "Cloud Storage", description: "Cloud storage",
+    why: "We use it to store and sync files between our devices.",
+    url: "https://example.com/pcloud", isPick: true },
+  { name: "Proton Drive", category: "Cloud Storage", description: "Encrypted cloud storage",
+    why: "Cloud storage from the same company as Proton Mail.",
+    url: "https://example.com/protondrive", isPick: false },
+
+  // Web Hosting
+  { name: "Hostinger",   category: "Web Hosting", description: "Web hosting",
+    why: "We use it to host websites.",
+    url: "https://example.com/hostinger", isPick: true },
+  { name: "HostGator",   category: "Web Hosting", description: "Web hosting",
+    why: "A web hosting option we have looked at.",
+    url: "https://example.com/hostgator", isPick: false },
+  { name: "IONOS",       category: "Web Hosting", description: "Web hosting and domains",
+    why: "A web hosting and domain option we have looked at.",
+    url: "https://example.com/ionos", isPick: false },
+  { name: "WebHostMost", category: "Web Hosting", description: "Web hosting",
+    why: "A web hosting option we have looked at.",
+    url: "https://example.com/webhostmost", isPick: false }
+
+  // Online Stores & Funnels — add tools here, e.g.:
+  // { name: "TOOL", category: "Online Stores & Funnels", description: "...",
+  //   why: "...", url: "https://example.com/TOOL", isPick: true },
+];
+/* ===================== END OF EDIT BLOCK ===================== */
+</script>
+
+<style>
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --muted: #5f5f5f;
+  --line: #e3e3e3;
+  --hover: #f5f5f5;
+  --accent: #0b57d0;
+  --btn-bg: #1a1a1a;
+  --btn-text: #ffffff;
+  --pick-bg: #e7f0e7;
+  --pick-text: #1f5a1f;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --text: #ececec;
+    --muted: #a3a3a3;
+    --line: #2c2c2c;
+    --hover: #1c1c1c;
+    --accent: #8ab4f8;
+    --btn-bg: #ececec;
+    --btn-text: #121212;
+    --pick-bg: #1f3320;
+    --pick-text: #a6d9a6;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.wrap { max-width: 680px; margin: 0 auto; padding: 0 16px; }
+header { padding: 28px 0 12px; }
+h1 { margin: 0; font-size: 1.5rem; letter-spacing: -0.01em; }
+.tagline { margin: 4px 0 0; color: var(--muted); }
+
+ul { list-style: none; margin: 0; padding: 0; }
+.cat { border-bottom: 1px solid var(--line); }
+.cat:first-child { border-top: 1px solid var(--line); }
+.cat-toggle {
+  width: 100%;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 16px 4px;
+  background: none; border: 0; color: inherit;
+  font: inherit; font-size: 1.1rem; font-weight: 600; text-align: left;
+  cursor: pointer;
+}
+.cat-toggle:hover { background: var(--hover); }
+.cat-meta { color: var(--muted); font-weight: 400; font-size: 0.9rem; white-space: nowrap; }
+.chev { display: inline-block; margin-left: 8px; transition: transform .15s; }
+.cat-toggle[aria-expanded="true"] .chev { transform: rotate(90deg); }
+
+.tools { padding: 0 4px 12px; }
+.tool { padding: 12px 0; border-top: 1px solid var(--line); }
+.tool:first-child { border-top: 0; }
+.tool-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; }
+.tool-name { font-weight: 600; }
+.tool-desc { color: var(--muted); }
+.pick {
+  font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: .04em;
+  padding: 1px 6px; border-radius: 4px;
+  background: var(--pick-bg); color: var(--pick-text);
+}
+.why { margin: 4px 0 10px; font-size: 0.95rem; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.btn {
+  display: inline-block; padding: 9px 16px; min-height: 40px;
+  border-radius: 6px; border: 1px solid var(--btn-bg);
+  font-size: 0.95rem; font-weight: 600; text-decoration: none; line-height: 1.4;
+}
+.btn-primary { background: var(--btn-bg); color: var(--btn-text); }
+.btn-secondary { background: transparent; color: var(--text); border-color: var(--line); }
+.btn:hover { opacity: .85; }
+.show-all {
+  margin-top: 8px; padding: 8px 0;
+  background: none; border: 0; color: var(--accent);
+  font: inherit; font-weight: 600; cursor: pointer;
+}
+.empty { color: var(--muted); padding: 4px 0 8px; margin: 0; }
+.hidden { display: none; }
+
+button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+footer { padding: 24px 0 40px; color: var(--muted); font-size: 0.85rem; }
+footer p { margin: 0 0 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Use and Like</h1>
+    <p class="tagline">Apps and tools we use. Tap a category.</p>
+  </header>
+
+  <main>
+    <ul id="categories"></ul>
+    <noscript><p>Please turn on JavaScript to see the list.</p></noscript>
+  </main>
+
+  <footer>
+    <p>Some links on this page are affiliate links. If you sign up through them, we may earn a commission at no extra cost to you.</p>
+    <p>&copy; <span id="year"></span> useandlike.com</p>
+  </footer>
+</div>
+
+<script>
+(function () {
+  function slug(s) {
+    return s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  }
+  function el(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function link(text, href, cls, rel) {
+    var a = el("a", cls, text);
+    a.href = href;
+    a.target = "_blank";
+    a.rel = rel;
+    return a;
+  }
+
+  function renderTool(t) {
+    var li = el("li", "tool");
+    var head = el("div", "tool-head");
+    head.appendChild(el("span", "tool-name", t.name));
+    if (t.isPick) head.appendChild(el("span", "pick", "Our pick"));
+    head.appendChild(el("span", "tool-desc", t.description));
+    li.appendChild(head);
+    li.appendChild(el("p", "why", t.why));
+
+    var actions = el("div", "actions");
+    var visit = link("Visit", t.url, "btn btn-primary", "sponsored noopener");
+    visit.setAttribute("aria-label", "Visit " + t.name);
+    var watch = link("Watch our video", CHANNEL_SEARCH_URL + encodeURIComponent(t.name), "btn btn-secondary", "noopener");
+    watch.setAttribute("aria-label", "Watch our video about " + t.name);
+    actions.appendChild(visit);
+    actions.appendChild(watch);
+    li.appendChild(actions);
+    return li;
+  }
+
+  var list = document.getElementById("categories");
+
+  CATEGORIES.forEach(function (cat) {
+    var id = slug(cat);
+    // Our pick first, then the rest in the order written above.
+    var tools = TOOLS.filter(function (t) { return t.category === cat; })
+      .sort(function (a, b) { return (b.isPick ? 1 : 0) - (a.isPick ? 1 : 0); });
+
+    var li = el("li", "cat");
+    li.id = id;
+
+    var btn = el("button", "cat-toggle");
+    btn.type = "button";
+    btn.setAttribute("aria-expanded", "false");
+    btn.setAttribute("aria-controls", id + "-panel");
+    btn.appendChild(el("span", null, cat));
+    var meta = el("span", "cat-meta", tools.length ? tools.length + (tools.length === 1 ? " tool" : " tools") : "Soon");
+    meta.appendChild(el("span", "chev", "›"));
+    btn.appendChild(meta);
+    li.appendChild(btn);
+
+    var panel = el("div", "tools hidden");
+    panel.id = id + "-panel";
+
+    if (!tools.length) {
+      panel.appendChild(el("p", "empty", "Coming soon."));
+    } else {
+      var ul = el("ul");
+      tools.forEach(function (t, i) {
+        var item = renderTool(t);
+        if (i >= VISIBLE_COUNT) item.classList.add("hidden", "extra");
+        ul.appendChild(item);
+      });
+      panel.appendChild(ul);
+
+      if (tools.length > VISIBLE_COUNT) {
+        var more = el("button", "show-all", "Show all " + tools.length);
+        more.type = "button";
+        more.addEventListener("click", function () {
+          ul.querySelectorAll(".extra").forEach(function (x) { x.classList.remove("hidden"); });
+          more.remove();
+        });
+        panel.appendChild(more);
+      }
+    }
+    li.appendChild(panel);
+
+    btn.addEventListener("click", function () {
+      var open = btn.getAttribute("aria-expanded") === "true";
+      btn.setAttribute("aria-expanded", String(!open));
+      panel.classList.toggle("hidden", open);
+      // Keep the address bar in sync so a category can be shared, e.g. useandlike.com/#email
+      history.replaceState(null, "", open ? location.pathname + location.search : "#" + id);
+    });
+
+    list.appendChild(li);
+  });
+
+  // Open a category directly from a link like useandlike.com/#web-hosting
+  if (location.hash) {
+    var target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (target && target.classList.contains("cat")) {
+      target.querySelector(".cat-toggle").click();
+      target.scrollIntoView();
+    }
+  }
+
+  document.getElementById("year").textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
