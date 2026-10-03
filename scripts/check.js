@@ -118,17 +118,29 @@ function readRedirects(errors, warnings) {
         if (!(await page.$(".index"))) { errors.push("back button does not return to the category list"); await page.goto(FILE); }
       }
 
-      // Videos tab: every category, and each category page lists every tool.
+      // Videos tab: a button per category plus "All", one card per video, a thumbnail for each video.
       await page.click("#nav-videos");
       await page.waitForFunction(() => location.hash === "#videos");
-      const vblocks = await page.$$eval(".index .block", e => e.length);
-      if (vblocks !== data.CATEGORIES.length) errors.push(`Videos tab lists ${vblocks} categories, expected ${data.CATEGORIES.length}`);
-      let vtools = 0;
+      await page.waitForSelector(".chips", { timeout: 3000 }).catch(() => {});
+      const chips = await page.$$eval(".chips .chip", e => e.length);
+      if (chips !== data.CATEGORIES.length + 1) errors.push(`Videos tab has ${chips} category buttons, expected ${data.CATEGORIES.length + 1}`);
+      const cards = await page.$$eval(".vgrid .vcard", e => e.length);
+      if (cards !== data.VIDEOS.length) errors.push(`Videos tab shows ${cards} videos, expected ${data.VIDEOS.length}`);
+      for (const v of data.VIDEOS) {
+        const id = (v.url.match(/[?&]v=([\w-]{11})$/) || [])[1];
+        if (!id) errors.push(`video "${v.title}": URL should end in ?v= and an 11-character video ID`);
+        else if (!fs.existsSync(path.resolve(__dirname, "..", "thumbs", id + ".jpg"))) warnings.push(`video "${v.title}": no thumbnail at thumbs/${id}.jpg`);
+      }
+      let shownVideos = 0, searchRows = 0;
       for (const c of data.CATEGORIES) {
         await page.goto(FILE + "#videos-" + slugOf(c));
-        vtools += await page.$$eval(".vrow", e => e.length);
+        shownVideos += await page.$$eval(".vgrid .vcard", e => e.length);
+        searchRows += await page.$$eval(".vrow", e => e.length);
       }
-      if (vtools !== data.TOOLS.length) errors.push(`Videos pages list ${vtools} tools, expected ${data.TOOLS.length}`);
+      const withVideos = new Set(data.VIDEOS.map(v => v.tool).filter(Boolean));
+      if (shownVideos !== data.VIDEOS.length) errors.push(`category video pages show ${shownVideos} videos, expected ${data.VIDEOS.length}`);
+      const expectSearch = data.TOOLS.filter(t => !withVideos.has(t.name)).length;
+      if (searchRows !== expectSearch) errors.push(`${searchRows} tools offer channel search, expected ${expectSearch}`);
       await page.goto(FILE + "#" + slugOf(data.CATEGORIES[0]));
       const tabs = await page.$$eval("a.visit", as => [...new Set(as.map(a => a.target === "_blank" ? "new" : "same"))]);
       console.log(`info links open in: ${tabs.join(", ")} tab`);

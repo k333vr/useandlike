@@ -22,9 +22,11 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   category page (`#web-hosting`): each tool with `description`, optional `why`/`details`, "Our pick" and a
   Visit button, then a "Watch our videos about …" link. The back button returns to the same spot.
 - Tool fields: `name`, `category`, `description`, `slug` (short link), `isPick`; optional `why`, `details`.
-- `VIDEOS` feeds the Videos tab: `{ title, url, category, tool? }`. `tool` must match a tool name exactly;
-  without it the video shows under "On this topic" for the category. Tools without videos get a
-  "Search on:" link per channel in `CHANNELS`. `useandlike.com/#videos` and `/#videos-email` open the Videos tab.
+- `VIDEOS` feeds the Videos tab: `{ title, url, channel, category, tool? }` (url = youtube.com/watch?v=<11-char id>).
+  Each video needs a thumbnail at `thumbs/<id>.jpg` (320x180, from https://i.ytimg.com/vi/<id>/mqdefault.jpg),
+  so the site makes no requests to YouTube. The Videos tab shows category buttons (side list on wide screens)
+  and a card grid; tools without videos get "Search on:" links per channel. `#videos` = all, `#videos-email` = one category.
+  Leave out video titles that undercut the affiliate offer ("premium for free", "license key", "trial reset", "free alternative").
 - Affiliate links live ONLY in `_redirects` (Cloudflare short links), e.g.
   `/wise  https://wise.prf.hn/click/camref:...  302`. Each tool's `slug` in `TOOLS` points at one,
   and its Visit button goes to `/slug`. The owner also uses these short links in YouTube descriptions,
