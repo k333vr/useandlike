@@ -51,7 +51,7 @@ function readRedirects(errors, warnings) {
     await page.goto(FILE);
 
     if (scheme === "light") {
-      const data = await page.evaluate(() => ({ TOOLS, CATEGORIES, CHANNELS, VISIBLE_COUNT, VIDEOS }));
+      const data = await page.evaluate(() => ({ TOOLS, CATEGORIES, CHANNELS, VISIBLE_COUNT, VIDEOS, NEWSLETTER }));
       const names = new Set();
       for (const t of data.TOOLS) {
         const who = `"${t.name || "?"}"`;
@@ -86,6 +86,8 @@ function readRedirects(errors, warnings) {
       const used = new Set(data.TOOLS.map(t => t.slug));
       for (const slug of redirects.keys())
         if (!used.has(slug)) console.log(`info /${slug} is a short link only (not listed on the page)`);
+      if (data.NEWSLETTER.ready && !redirects.has("newsletter"))
+        errors.push('NEWSLETTER.ready is true but _redirects has no "/newsletter" line');
       if (!data.CHANNELS.length) warnings.push("CHANNELS is empty, so the Videos tab has no channel links");
       for (const c of data.CHANNELS)
         if (!c.name || !/^@[A-Za-z0-9._-]+$/.test(c.handle || "")) errors.push(`channel "${c.name || "?"}": handle should look like "@ChannelName"`);

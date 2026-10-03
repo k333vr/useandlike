@@ -19,8 +19,17 @@
 const CHANNELS = [
   { name: "How To Rocket",  handle: "@HowToRocket" },
   { name: "Guide Glimpse",  handle: "@GuideGlimpse" },
-  { name: "Log1c Protocol", handle: "@Log1cProtocol" }
+  { name: "Logic Protocol", handle: "@Log1cProtocol" }
 ];
+
+/* Newsletter box on the home page and category pages. It links to useandlike.com/newsletter,
+   so add a "/newsletter" line to _redirects first, then set ready to true. */
+const NEWSLETTER = {
+  ready: false,
+  title: "One useful app tip every two weeks",
+  text: "Plus new deals and our latest tutorials. Free, and you can unsubscribe anytime.",
+  button: "Sign up free"
+};
 
 /* false = links open in the same tab (back button returns to this page; better on phones).
    true  = links open in a new tab. */
@@ -294,6 +303,12 @@ nav.top a[aria-current="page"] { color: var(--text); text-decoration: underline;
 .pick { margin-left: 6px; font: 700 .68rem var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--brass); border: 1px solid currentColor; border-radius: 3px; padding: 0 5px; white-space: nowrap; vertical-align: 2px; }
 .visit { flex: none; padding: 10px 18px; border-radius: 6px; background: var(--brand); color: var(--brand-text); font-weight: 700; text-decoration: none; }
 .visit:hover { opacity: .88; }
+.opening { opacity: .55; pointer-events: none; }
+.newsletter { margin: 28px 0 0; padding: 18px; border: 1px solid var(--line); border-top: 3px solid var(--brass); border-radius: 8px; background: var(--surface); display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
+.newsletter .nl-text { flex: 1 1 260px; }
+.newsletter h2 { margin: 0 0 4px; font: 700 1.15rem var(--serif); }
+.newsletter p { margin: 0; color: var(--muted); }
+.newsletter .visit { white-space: nowrap; }
 .more-videos { margin: 18px 0 0; padding: 14px 16px; background: var(--soft); border-radius: 8px; }
 .more-videos a { font-weight: 700; text-decoration: none; }
 .more-videos a:hover { text-decoration: underline; }
@@ -404,6 +419,18 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
   function videosFor(t) { return VIDEOS.filter(function (v) { return v.tool === t.name; }); }
   function plural(n, word) { return n + " " + word + (n === 1 ? "" : "s"); }
 
+  function newsletterBox() {
+    var box = el("section", "newsletter");
+    var t = el("div", "nl-text");
+    t.appendChild(el("h2", null, NEWSLETTER.title));
+    t.appendChild(el("p", null, NEWSLETTER.text));
+    box.appendChild(t);
+    var a = el("a", "visit", NEWSLETTER.button + " \u203a");
+    a.href = "/newsletter";
+    box.appendChild(a);
+    return box;
+  }
+
   // Home of a tab: every category with its first few tools (or videos).
   function renderIndex(view, videos) {
     if (videos) {
@@ -440,6 +467,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
       index.appendChild(block);
     });
     view.appendChild(index);
+    if (!videos && NEWSLETTER.ready) view.appendChild(newsletterBox());
   }
 
   // One category in the Tools tab: every tool with a description and a Visit button.
@@ -470,6 +498,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
       box.appendChild(inner("Watch our videos about " + cat + " ›", "videos-" + slug(cat)));
       view.appendChild(box);
     }
+    if (NEWSLETTER.ready) view.appendChild(newsletterBox());
   }
 
   // One category in the Videos tab: general videos, then each tool's videos and a channel search.
@@ -511,7 +540,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     about: {
       title: "About Use & Like",
       paragraphs: [
-        "Use & Like is a directory of apps and tools, put together by the team behind the YouTube channels How To Rocket, Guide Glimpse and Log1c Protocol.",
+        "Use & Like is a directory of apps and tools, put together by the team behind the YouTube channels How To Rocket, Guide Glimpse and Logic Protocol.",
         "We make tutorials for many of these tools. This site collects them in one place, sorted by category, so you can find the right one quickly.",
         "Some links are affiliate links: if you sign up through them, we may earn a commission at no extra cost to you."
       ],
@@ -576,6 +605,21 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     lastRoute = isList ? (isVideos ? "videos" : "") : id;
   }
   window.addEventListener("hashchange", route);
+
+  // Affiliate sites can take a few seconds to open (their tracking redirects), so show at once that
+  // the tap worked. Reset when coming back with the back button (the browser may restore this state).
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest('a[rel~="sponsored"]');
+    if (!a || e.ctrlKey || e.metaKey || e.shiftKey || a.target === "_blank") return;
+    if (a.classList.contains("visit")) { a.dataset.label = a.textContent; a.textContent = "Opening\u2026"; }
+    a.classList.add("opening");
+  });
+  window.addEventListener("pageshow", function () {
+    document.querySelectorAll(".opening").forEach(function (a) {
+      a.classList.remove("opening");
+      if (a.dataset.label) a.textContent = a.dataset.label;
+    });
+  });
   route();
 
   var footChannels = document.getElementById("foot-channels");

@@ -14,7 +14,9 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   one made production builds fail (commits 274c3d1, de405a4). Re-add only after seeing the build log.
   Test locally: `CLOUDFLARE_CF_FETCH_ENABLED=false npx wrangler dev --assets .` (serves `_redirects` too).
 - All editable content is in the `EDIT HERE` block at the top of `index.html`:
-  `CHANNELS`, `OPEN_IN_NEW_TAB`, `VISIBLE_COUNT`, `CATEGORIES`, `TOOLS`, `VIDEOS`.
+  `CHANNELS`, `NEWSLETTER`, `OPEN_IN_NEW_TAB`, `VISIBLE_COUNT`, `CATEGORIES`, `TOOLS`, `VIDEOS`.
+- `NEWSLETTER.ready` shows a signup box (home + category pages) linking to `/newsletter`; that line must exist
+  in `_redirects` first (the check script enforces it).
 - Layout (owner's choice: clean, Craigslist-style, no search): the home page lists every category with its
   first `VISIBLE_COUNT` tool names as direct affiliate links, plus "All N ›". A category heading opens its
   category page (`#web-hosting`): each tool with `description`, optional `why`/`details`, "Our pick" and a
