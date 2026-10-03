@@ -55,21 +55,22 @@ function readRedirects(errors, warnings) {
       const names = new Set();
       for (const t of data.TOOLS) {
         const who = `"${t.name || "?"}"`;
-        for (const k of ["name", "category", "description", "why", "slug"])
+        for (const k of ["name", "category", "description", "slug"])
           if (!t[k] || typeof t[k] !== "string") errors.push(`${who}: missing "${k}"`);
         if (names.has(t.name)) errors.push(`${who}: listed twice`);
         names.add(t.name);
         if (!data.CATEGORIES.includes(t.category)) errors.push(`${who}: category "${t.category}" is not in CATEGORIES`);
         if (!redirects.has(t.slug)) errors.push(`${who}: no line for /${t.slug} in _redirects`);
         else if (/example\.com/.test(redirects.get(t.slug))) warnings.push(`${who}: /${t.slug} is still a placeholder link`);
-        for (const k of ["description", "why"])
+        for (const k of ["description", "why", "details"])
           if (BANNED.test(t[k] || "")) errors.push(`${who}: superlative in ${k}: "${t[k]}"`);
       }
       for (const c of data.CATEGORIES) {
         const tools = data.TOOLS.filter(t => t.category === c);
         const picks = tools.filter(t => t.isPick).length;
         if (!tools.length) warnings.push(`category "${c}" has no tools (shows "Coming soon")`);
-        else if (picks !== 1) errors.push(`category "${c}" has ${picks} "Our pick" tools, expected 1`);
+        else if (picks > 1) errors.push(`category "${c}" has ${picks} "Our pick" tools, expected at most 1`);
+        else if (!picks) console.log(`info category "${c}" has no "Our pick" yet`);
       }
       for (const v of data.VIDEOS) {
         const who = `video "${v.title || "?"}"`;

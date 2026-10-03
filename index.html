@@ -32,58 +32,172 @@ const CATEGORIES = [
   "Email",
   "Cloud Storage",
   "Web Hosting",
-  "Online Stores & Funnels"
+  "Website & App Builders",
+  "Online Stores & Funnels",
+  "Video Creation",
+  "Voice & Audio",
+  "YouTube Tools",
+  "AI Writing & Research",
+  "Productivity & Design",
+  "Freelancers",
+  "Business & Legal",
+  "Money & Trading",
+  "Learning",
+  "Shopping & Mobile"
 ];
 
 /* All tools.
    description: one short line, always shown.
-   why:         one neutral line about how we use it, shown under "More".
+   why:         optional, one neutral line about how we use it, shown under "More".
    details:     optional longer text, shown under "More".
    slug:        the short link: "hostinger" -> useandlike.com/hostinger.
                 The real affiliate links live in the _redirects file, next to this one.
-   isPick:      true shows the "Our pick" label (one tool per category). */
+   isPick:      true shows the "Our pick" label (at most one tool per category). */
 const TOOLS = [
   // VPN & Privacy
-  { name: "Proton VPN",  category: "VPN & Privacy", description: "VPN service from Proton",
-    why: "We use it to encrypt our connection, especially on public Wi-Fi.",
+  { name: "Proton VPN", category: "VPN & Privacy", description: "VPN service from Proton",
     slug: "protonvpn", isPick: true },
   { name: "Proton Pass", category: "VPN & Privacy", description: "Password manager from Proton",
-    why: "We use it to store and fill our passwords across devices.",
     slug: "protonpass", isPick: false },
-
+  { name: "Malwarebytes", category: "VPN & Privacy", description: "Malware and virus protection",
+    slug: "malwarebytes", isPick: false },
+  { name: "GoLogin", category: "VPN & Privacy", description: "Browser for managing multiple online profiles",
+    slug: "gologin", isPick: false },
   // Email
   { name: "Proton Mail", category: "Email", description: "Encrypted email from Proton",
-    why: "We use it as our main email account.",
     slug: "protonmail", isPick: true },
-  { name: "StartMail",   category: "Email", description: "Private email service",
-    why: "A privacy-focused email option we have tried.",
+  { name: "StartMail", category: "Email", description: "Private email service",
     slug: "startmail", isPick: false },
-
   // Cloud Storage
-  { name: "pCloud",      category: "Cloud Storage", description: "Cloud storage for your files",
-    why: "We use it to store and sync files between our devices.",
+  { name: "pCloud", category: "Cloud Storage", description: "Cloud storage for your files",
     slug: "pcloud", isPick: true },
   { name: "Proton Drive", category: "Cloud Storage", description: "Encrypted cloud storage from Proton",
-    why: "Cloud storage from the same company as Proton Mail.",
     slug: "protondrive", isPick: false },
-
   // Web Hosting
-  { name: "Hostinger",   category: "Web Hosting", description: "Web hosting and domains",
-    why: "We use it to host websites.",
+  { name: "Hostinger", category: "Web Hosting", description: "Web hosting and domains",
     slug: "hostinger", isPick: true },
-  { name: "HostGator",   category: "Web Hosting", description: "Web hosting",
-    why: "A web hosting option we have looked at.",
+  { name: "HostGator", category: "Web Hosting", description: "Web hosting",
     slug: "hostgator", isPick: false },
-  { name: "IONOS",       category: "Web Hosting", description: "Web hosting and domains",
-    why: "A web hosting and domain option we have looked at.",
+  { name: "IONOS", category: "Web Hosting", description: "Web hosting and domains",
     slug: "ionos", isPick: false },
   { name: "WebHostMost", category: "Web Hosting", description: "Web hosting",
-    why: "A web hosting option we have looked at.",
-    slug: "webhostmost", isPick: false }
-
-  // Online Stores & Funnels — add tools here, e.g.:
-  // { name: "TOOL", category: "Online Stores & Funnels", description: "...",
-  //   why: "...", slug: "tool", isPick: true },
+    slug: "webhostmost", isPick: false },
+  // Website & App Builders
+  { name: "Lovable", category: "Website & App Builders", description: "Build apps and websites by describing them with AI",
+    slug: "lovable", isPick: false },
+  { name: "Mixo", category: "Website & App Builders", description: "AI website and landing page builder",
+    slug: "mixo", isPick: false },
+  { name: "Adalo", category: "Website & App Builders", description: "No-code app builder",
+    slug: "adalo", isPick: false },
+  // Online Stores & Funnels
+  { name: "Shopify", category: "Online Stores & Funnels", description: "Online store builder",
+    slug: "shopify", isPick: false },
+  { name: "Systeme.io", category: "Online Stores & Funnels", description: "Funnels, email marketing and online courses",
+    slug: "systeme", isPick: false },
+  { name: "ClickFunnels", category: "Online Stores & Funnels", description: "Sales funnel builder",
+    slug: "clickfunnels", isPick: false },
+  { name: "GoHighLevel", category: "Online Stores & Funnels", description: "Marketing and CRM platform for businesses and agencies",
+    slug: "gohighlevel", isPick: false },
+  { name: "AutoDS", category: "Online Stores & Funnels", description: "Dropshipping automation",
+    slug: "autods", isPick: false },
+  // Video Creation
+  { name: "CapCut", category: "Video Creation", description: "Video editor",
+    slug: "capcut", isPick: false },
+  { name: "Descript", category: "Video Creation", description: "Edit audio and video by editing text",
+    slug: "descript", isPick: false },
+  { name: "InVideo", category: "Video Creation", description: "AI video creation",
+    slug: "invideo", isPick: false },
+  { name: "Opus Clip", category: "Video Creation", description: "Turns long videos into short clips",
+    slug: "opusclip", isPick: false },
+  { name: "Klap", category: "Video Creation", description: "Turns long videos into short clips",
+    slug: "klap", isPick: false },
+  { name: "AutoShorts", category: "Video Creation", description: "AI short-form video creation",
+    slug: "autoshorts", isPick: false },
+  { name: "Syllaby", category: "Video Creation", description: "AI tools for planning and creating social media videos",
+    slug: "syllaby", isPick: false },
+  { name: "Riverside", category: "Video Creation", description: "Record podcasts and video interviews online",
+    slug: "riverside", isPick: false },
+  { name: "StreamYard", category: "Video Creation", description: "Live streaming studio in your browser",
+    slug: "streamyard", isPick: false },
+  // Voice & Audio
+  { name: "ElevenLabs", category: "Voice & Audio", description: "AI voice generation",
+    slug: "elevenlabs", isPick: false },
+  { name: "Murf AI", category: "Voice & Audio", description: "AI voice generator",
+    slug: "murf", isPick: false },
+  { name: "TTSFree", category: "Voice & Audio", description: "Online text-to-speech",
+    slug: "ttsfree", isPick: false },
+  { name: "Epidemic Sound", category: "Voice & Audio", description: "Music and sound effects for creators",
+    slug: "epidemicsound", isPick: false },
+  // YouTube Tools
+  { name: "vidIQ", category: "YouTube Tools", description: "YouTube channel research and analytics",
+    slug: "vidiq", isPick: false },
+  { name: "TubeMagic", category: "YouTube Tools", description: "AI tools for YouTube creators",
+    slug: "tubemagic", isPick: false },
+  { name: "Pikzels", category: "YouTube Tools", description: "AI thumbnail creation",
+    slug: "pikzels", isPick: false },
+  // AI Writing & Research
+  { name: "Rytr", category: "AI Writing & Research", description: "AI writing assistant",
+    slug: "rytr", isPick: false },
+  { name: "Merlin AI", category: "AI Writing & Research", description: "AI assistant",
+    slug: "merlin", isPick: false },
+  { name: "SciSpace", category: "AI Writing & Research", description: "AI assistant for research papers",
+    slug: "scispace", isPick: false },
+  { name: "Paperguide", category: "AI Writing & Research", description: "AI research assistant",
+    slug: "paperguide", isPick: false },
+  // Productivity & Design
+  { name: "Coda", category: "Productivity & Design", description: "Docs, tables and workflows in one place",
+    slug: "coda", isPick: false },
+  { name: "xTiles", category: "Productivity & Design", description: "Notes and project planning",
+    slug: "xtiles", isPick: false },
+  { name: "Visme", category: "Productivity & Design", description: "Presentations, infographics and graphics",
+    slug: "visme", isPick: false },
+  // Freelancers
+  { name: "Fiverr", category: "Freelancers", description: "Marketplace for freelance services",
+    slug: "fiverr", isPick: false },
+  { name: "Fiverr Pro", category: "Freelancers", description: "Vetted professional freelancers on Fiverr",
+    slug: "fiverrpro", isPick: false },
+  { name: "Fiverr Logo Maker", category: "Freelancers", description: "Logo design tool from Fiverr",
+    slug: "fiverrlogomaker", isPick: false },
+  { name: "Fiverr Affiliates", category: "Freelancers", description: "Fiverr's affiliate program",
+    slug: "fiverraffiliates", isPick: false },
+  // Business & Legal
+  { name: "Firstbase", category: "Business & Legal", description: "Start and run a US company",
+    slug: "firstbase", isPick: false },
+  { name: "signNow", category: "Business & Legal", description: "Electronic signatures",
+    slug: "signnow", isPick: false },
+  { name: "Nolo", category: "Business & Legal", description: "Legal forms and information",
+    slug: "nolo", isPick: false },
+  { name: "Beehiiv", category: "Business & Legal", description: "Newsletter platform",
+    slug: "beehiiv", isPick: false },
+  { name: "Baremetrics", category: "Business & Legal", description: "Subscription revenue analytics",
+    slug: "baremetrics", isPick: false },
+  { name: "Browse AI", category: "Business & Legal", description: "Collect data from websites without code",
+    slug: "browseai", isPick: false },
+  { name: "Scrupp", category: "Business & Legal", description: "Find leads and contact details",
+    slug: "scrupp", isPick: false },
+  { name: "Resume.io", category: "Business & Legal", description: "Resume builder",
+    slug: "resume", isPick: false },
+  // Money & Trading
+  { name: "Wise", category: "Money & Trading", description: "Send money abroad and hold multiple currencies",
+    slug: "wise", isPick: false },
+  { name: "TradingView", category: "Money & Trading", description: "Charts and market analysis",
+    slug: "tradingview", isPick: false },
+  { name: "Bitget", category: "Money & Trading", description: "Crypto exchange",
+    slug: "bitget", isPick: false },
+  // Learning
+  { name: "Headway", category: "Learning", description: "Book summaries app",
+    slug: "headway", isPick: false },
+  { name: "Talkpal", category: "Learning", description: "AI language learning",
+    slug: "talkpal", isPick: false },
+  // Shopping & Mobile
+  { name: "Shein", category: "Shopping & Mobile", description: "Online clothing store",
+    slug: "shein", isPick: false },
+  { name: "AT&T", category: "Shopping & Mobile", description: "Mobile phone plans",
+    slug: "att", isPick: false },
+  { name: "AmigoSIM", category: "Shopping & Mobile", description: "eSIM data for travel",
+    slug: "amigosim", isPick: false },
+  { name: "GamsGo", category: "Shopping & Mobile", description: "Subscription deals",
+    slug: "gamsgo", isPick: false }
 ];
 
 /* Our videos, shown in the Videos tab.
@@ -560,7 +674,7 @@ footer .brand-small em { color: var(--brass); font-weight: 400; }
       });
       hits.forEach(function (t) { results.appendChild(renderVideoTool(t, true)); });
     } else {
-      hits = TOOLS.filter(function (t) { return match(t.name + " " + t.description + " " + t.category + " " + t.why + " " + (t.details || "")); });
+      hits = TOOLS.filter(function (t) { return match(t.name + " " + t.description + " " + t.category + " " + (t.why || "") + " " + (t.details || "")); });
       hits.forEach(function (t) { results.appendChild(renderTool(t, true)); });
     }
     results.classList.toggle("hidden", !hits.length);
