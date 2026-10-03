@@ -90,35 +90,45 @@ function readRedirects(errors, warnings) {
       if (data.CHANNEL_SEARCH_URL === "https://www.youtube.com/results?search_query=")
         warnings.push("CHANNEL_SEARCH_URL searches all of YouTube, not your channel");
 
-      // Every category opens and shows its tools; every Visit link is marked sponsored.
-      for (const c of data.CATEGORIES) {
-        const id = c.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-        await page.click(`#${id} .cat-toggle`);
-        const shown = await page.$$eval(`#${id} .tool`, e => e.filter(x => x.offsetParent).length);
-        const expected = Math.min(data.TOOLS.filter(t => t.category === c).length, data.VISIBLE_COUNT);
-        if (shown !== expected) errors.push(`category "${c}": ${shown} tools visible, expected ${expected}`);
-        if (await page.$(`#${id} .show-all`)) await page.click(`#${id} .show-all`);
-      }
-      const badRel = await page.$$eval("#view-tools a.btn, #view-tools a.tool-name", as => as.filter(a => !a.relList.contains("sponsored")).length);
-      if (badRel) errors.push(`${badRel} affiliate link(s) missing rel="sponsored"`);
-      const visits = await page.$$eval("#view-tools a.btn", as => as.length);
-      if (visits !== data.TOOLS.length) errors.push(`${visits} Visit buttons for ${data.TOOLS.length} tools`);
+      const slugOf = c => c.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+      const isSponsored = sel => page.$$eval(sel, as => as.filter(a => !a.relList.contains("sponsored")).length);
 
-      // "More" opens the details; the Videos tab lists every tool.
-      const firstMore = await page.$("#view-tools .tool .more");
-      if (firstMore) {
-        await firstMore.click();
-        if (!(await page.$eval("#view-tools .tool .more-body", e => !!e.offsetParent))) errors.push('"More" does not open the details');
+      // Home: every category is listed with its first few tools as direct affiliate links.
+      const blocks = await page.$$eval(".index .block", e => e.length);
+      if (blocks !== data.CATEGORIES.length) errors.push(`home lists ${blocks} categories, expected ${data.CATEGORIES.length}`);
+      const homeLinks = await page.$$eval('.index li a:not(.all)', e => e.length);
+      const expectedHome = data.CATEGORIES.reduce((n, c) => n + Math.min(data.TOOLS.filter(t => t.category === c).length, data.VISIBLE_COUNT), 0);
+      if (homeLinks !== expectedHome) errors.push(`home shows ${homeLinks} tool links, expected ${expectedHome}`);
+      if (await isSponsored(".index li a:not(.all)")) errors.push('home tool links missing rel="sponsored"');
+
+      // Each category page lists all its tools with a Visit button.
+      for (const c of data.CATEGORIES) {
+        await page.click(`.index .block h2 a[href="#${slugOf(c)}"]`);
+        await page.waitForSelector("main.page h1", { timeout: 3000 }).catch(() => {});
+        const rows = await page.$$eval(".row", e => e.length);
+        const expected = data.TOOLS.filter(t => t.category === c).length;
+        if (rows !== expected) errors.push(`category page "${c}": ${rows} tools, expected ${expected}`);
+        if (await isSponsored(".row a.name, .row a.visit")) errors.push(`category page "${c}": affiliate link missing rel="sponsored"`);
+        const width = await page.evaluate(() => document.documentElement.scrollWidth);
+        if (width > 390) errors.push(`category page "${c}" scrolls sideways on a phone (${width}px wide)`);
+        await page.goBack();
+        await page.waitForSelector(".index", { timeout: 3000 }).catch(() => {});
+        if (!(await page.$(".index"))) { errors.push("back button does not return to the category list"); await page.goto(FILE); }
       }
-      await page.click("#tab-videos");
-      for (const c of data.CATEGORIES) await page.click(`#videos-${c.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")} .cat-toggle`);
-      const vtools = await page.$$eval("#view-videos .tool", e => e.length);
-      if (vtools !== data.TOOLS.length) errors.push(`Videos tab lists ${vtools} tools, expected ${data.TOOLS.length}`);
-      await page.fill("#q", data.TOOLS[0] ? data.TOOLS[0].name : "x");
-      if (data.TOOLS[0] && !(await page.$$eval("#results .tool", e => e.length))) errors.push("search finds nothing for the first tool's name");
-      await page.fill("#q", "");
-      await page.click("#tab-tools");
-      const tabs = await page.$$eval("a.btn", as => [...new Set(as.map(a => a.target === "_blank" ? "new" : "same"))]);
+
+      // Videos tab: every category, and each category page lists every tool.
+      await page.click("#nav-videos");
+      await page.waitForFunction(() => location.hash === "#videos");
+      const vblocks = await page.$$eval(".index .block", e => e.length);
+      if (vblocks !== data.CATEGORIES.length) errors.push(`Videos tab lists ${vblocks} categories, expected ${data.CATEGORIES.length}`);
+      let vtools = 0;
+      for (const c of data.CATEGORIES) {
+        await page.goto(FILE + "#videos-" + slugOf(c));
+        vtools += await page.$$eval(".vrow", e => e.length);
+      }
+      if (vtools !== data.TOOLS.length) errors.push(`Videos pages list ${vtools} tools, expected ${data.TOOLS.length}`);
+      await page.goto(FILE + "#" + slugOf(data.CATEGORIES[0]));
+      const tabs = await page.$$eval("a.visit", as => [...new Set(as.map(a => a.target === "_blank" ? "new" : "same"))]);
       console.log(`info links open in: ${tabs.join(", ")} tab`);
     }
     const width = await page.evaluate(() => document.documentElement.scrollWidth);

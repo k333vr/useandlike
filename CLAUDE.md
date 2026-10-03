@@ -10,11 +10,14 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   Test locally: `CLOUDFLARE_CF_FETCH_ENABLED=false npx wrangler dev` (serves `_redirects` too).
 - All editable content is in the `EDIT HERE` block at the top of `index.html`:
   `CHANNEL_SEARCH_URL`, `OPEN_IN_NEW_TAB`, `VISIBLE_COUNT`, `CATEGORIES`, `TOOLS`, `VIDEOS`.
-- Tool fields: `description` (one short line, always shown), `why` and optional `details` (behind "More"),
-  `slug` (short link), `isPick`. Each tool row has one button, "Visit"; the tool name links to the same place.
+- Layout (owner's choice: clean, Craigslist-style, no search): the home page lists every category with its
+  first `VISIBLE_COUNT` tool names as direct affiliate links, plus "All N ›". A category heading opens its
+  category page (`#web-hosting`): each tool with `description`, optional `why`/`details`, "Our pick" and a
+  Visit button, then a "Watch our videos about …" link. The back button returns to the same spot.
+- Tool fields: `name`, `category`, `description`, `slug` (short link), `isPick`; optional `why`, `details`.
 - `VIDEOS` feeds the Videos tab: `{ title, url, category, tool? }`. `tool` must match a tool name exactly;
   without it the video shows under "On this topic" for the category. Tools without videos get a
-  channel-search link. Video links like `useandlike.com/#videos-email` open that category in the Videos tab.
+  channel-search link. `useandlike.com/#videos` and `/#videos-email` open the Videos tab.
 - Affiliate links live ONLY in `_redirects` (Cloudflare short links), e.g.
   `/wise  https://wise.prf.hn/click/camref:...  302`. Each tool's `slug` in `TOOLS` points at one,
   and its Visit button goes to `/slug`. The owner also uses these short links in YouTube descriptions,
@@ -36,7 +39,7 @@ The owner is a beginner. Explain things in plain language and do as much as poss
 ## Content rules
 - "description", "why" and "details": neutral and factual. No superlatives ("best", "cheapest", "fastest", "#1"...).
   Don't invent features; if unsure, keep the line generic. The check script blocks common superlatives.
-- Exactly one `isPick: true` per category that has tools; it is shown first with an "Our pick" label.
+- At most one `isPick: true` per category, chosen by the owner (don't pick for them); it is shown first with an "Our pick" label.
 - Visit links must keep `rel="sponsored"` (set by the render code). Links open in the same tab by default
   (`OPEN_IN_NEW_TAB = false`; the owner chose this for phone visitors). New tab adds `target="_blank"` + `noopener`.
 - No page between the list and the affiliate site: Visit goes /slug -> affiliate link directly (owner's choice).

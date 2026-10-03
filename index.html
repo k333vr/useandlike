@@ -14,7 +14,7 @@
    EDIT HERE — everything you normally need to change is in this block.
    ===================================================================== */
 
-/* Where "search our channel" links go. The tool name is added to the end.
+/* Where "search our channel" links go (Videos tab). The tool name is added to the end.
    To search only your own channel, use something like:
    "https://www.youtube.com/@YOURCHANNEL/search?query="              */
 const CHANNEL_SEARCH_URL = "https://www.youtube.com/results?search_query=";
@@ -23,8 +23,8 @@ const CHANNEL_SEARCH_URL = "https://www.youtube.com/results?search_query=";
    true  = links open in a new tab. */
 const OPEN_IN_NEW_TAB = false;
 
-/* How many tools each category shows before the "Show all" button. */
-const VISIBLE_COUNT = 4;
+/* How many tool names each category shows on the home page before "All 9 ›". */
+const VISIBLE_COUNT = 6;
 
 /* Category order on the homepage. A category with no tools shows "Coming soon". */
 const CATEGORIES = [
@@ -47,9 +47,9 @@ const CATEGORIES = [
 ];
 
 /* All tools.
-   description: one short line, always shown.
-   why:         optional, one neutral line about how we use it, shown under "More".
-   details:     optional longer text, shown under "More".
+   description: one short line, shown on the category page.
+   why:         optional, one neutral line about how we use it, shown on the category page.
+   details:     optional longer text, shown on the category page.
    slug:        the short link: "hostinger" -> useandlike.com/hostinger.
                 The real affiliate links live in the _redirects file, next to this one.
    isPick:      true shows the "Our pick" label (at most one tool per category). */
@@ -213,172 +213,102 @@ const VIDEOS = [
 
 <style>
 :root {
-  --bg: #f7f5f0;
+  --bg: #fbfaf7;
   --surface: #ffffff;
-  --text: #1c1f26;
-  --muted: #5d6270;
-  --line: #e2ddd2;
-  --line-strong: #cdc6b6;
+  --text: #1a1c20;
+  --muted: #585d66;
+  --line: #dcd7cc;
   --brand: #1f3a5f;
   --brand-text: #ffffff;
   --brass: #9a7428;
   --logo-fg: #f3e6c4;
   --link: #1f4f8f;
-  --hover: #efece5;
-  --tile-l: 92%; --tile-fg-l: 30%; --tile-s: 30%;
-  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --soft: #f0ede6;
+  --serif: Georgia, "Times New Roman", serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #12151b;
-    --surface: #181c24;
-    --text: #e6e4de;
-    --muted: #a0a5b0;
-    --line: #272c36;
-    --line-strong: #383e4a;
-    --brand: #9fbbe3;
-    --brand-text: #12151b;
+    --bg: #121417;
+    --surface: #191c21;
+    --text: #ebe9e4;
+    --muted: #a7abb3;
+    --line: #2e333b;
+    --brand: #a9c2e6;
+    --brand-text: #121417;
     --brass: #d4b06a;
-    --logo-fg: #12151b;
-    --link: #9fbef2;
-    --hover: #1c212a;
-    --tile-l: 22%; --tile-fg-l: 82%; --tile-s: 22%;
+    --logo-fg: #121417;
+    --link: #a6c3f5;
+    --soft: #1d2127;
   }
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
-body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 var(--sans); border-top: 4px solid var(--brand); }
+body { margin: 0; background: var(--bg); color: var(--text); font: 18px/1.55 var(--sans); }
 a { color: var(--link); }
-.wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
-.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
 .hidden { display: none !important; }
 ul.plain { list-style: none; margin: 0; padding: 0; }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
 
 /* Masthead */
-header { padding: 24px 0 0; }
-.masthead { display: flex; align-items: center; gap: 14px; }
-.logo { width: 46px; height: 46px; flex: none; }
+header { padding: 22px 0 0; }
+.masthead { display: flex; align-items: center; gap: 12px; }
+.logo { width: 44px; height: 44px; flex: none; }
 .logo .bg { fill: var(--brand); }
 .logo .ring { fill: none; stroke: var(--brass); stroke-width: 1.2; }
-.logo .amp { fill: var(--logo-fg); font: italic 27px Georgia, "Times New Roman", serif; }
-.brand { margin: 0; font: 700 1.85rem/1.05 var(--serif); letter-spacing: -0.01em; }
+.logo .amp { fill: var(--logo-fg); font: italic 26px Georgia, serif; }
+.brand { margin: 0; font: 700 1.8rem/1.05 var(--serif); }
 .brand a { color: var(--text); text-decoration: none; }
-.brand em { font-weight: 400; color: var(--brass); padding: 0 .04em; }
-.tagline { margin: 3px 0 0; color: var(--muted); font-size: 0.95rem; }
+.brand em { font-weight: 400; color: var(--brass); }
+.tagline { margin: 2px 0 0; color: var(--muted); font-size: .95rem; }
+nav.top { display: flex; gap: 24px; margin-top: 14px; padding: 10px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+nav.top a { text-decoration: none; color: var(--muted); font-weight: 600; font-size: 1rem; }
+nav.top a[aria-current="page"] { color: var(--text); text-decoration: underline; text-decoration-color: var(--brass); text-decoration-thickness: 3px; text-underline-offset: 8px; }
 
-/* Tabs */
-.tabs { display: flex; gap: 4px; margin-top: 22px; border-bottom: 1px solid var(--line-strong); }
-.tab {
-  padding: 10px 16px 9px; margin-bottom: -1px;
-  background: none; border: 1px solid transparent; border-bottom: 0; border-radius: 6px 6px 0 0;
-  font: 600 1.05rem var(--serif); color: var(--muted); cursor: pointer;
-}
-.tab:hover { color: var(--text); }
-.tab[aria-selected="true"] {
-  color: var(--text); background: var(--bg);
-  border-color: var(--line-strong); box-shadow: inset 0 3px 0 var(--brass);
-}
+/* Home: Craigslist-style index */
+.index { columns: 3 260px; column-gap: 40px; margin-top: 22px; }
+.block { break-inside: avoid; margin: 0 0 26px; }
+.block h2 { margin: 0 0 6px; padding-bottom: 4px; border-bottom: 2px solid var(--brand); font: 700 1.15rem var(--serif); }
+.block h2 a { color: var(--text); text-decoration: none; }
+.block h2 a:hover { color: var(--link); text-decoration: underline; }
+.block li { padding: 3px 0; }
+.block li a { text-decoration: none; }
+.block li a:hover { text-decoration: underline; }
+.block .all { font-size: .92rem; font-weight: 700; }
+.block .soon { color: var(--muted); font-size: .95rem; }
 
-/* Search */
-.search { margin: 18px 0 6px; position: relative; }
-.search input {
-  width: 100%; padding: 12px 14px 12px 40px;
-  font: inherit; color: var(--text);
-  background: var(--surface); border: 1px solid var(--line-strong); border-radius: 6px;
-  -webkit-appearance: none; appearance: none;
-}
-.search input::placeholder { color: var(--muted); }
-.search svg { position: absolute; left: 13px; top: 50%; transform: translateY(-50%); color: var(--muted); }
-.summary { margin: 0 0 12px; color: var(--muted); font-size: 0.85rem; }
-
-/* Category directory */
-.directory { display: grid; grid-template-columns: 1fr; gap: 0 36px; }
-@media (min-width: 760px) {
-  .directory { grid-template-columns: 1fr 1fr; }
-  .cat.open { grid-column: 1 / -1; }
-}
-.cat { border-bottom: 1px solid var(--line); }
-.cat-toggle {
-  width: 100%; display: flex; align-items: center; gap: 10px;
-  padding: 14px 2px; background: none; border: 0; color: inherit;
-  font: 600 1.15rem/1.3 var(--serif); text-align: left; cursor: pointer;
-}
-.cat-toggle:hover .cat-name { color: var(--link); }
-.cat-name { flex: 1; }
-.cat-count {
-  font: 600 0.75rem var(--sans); color: var(--muted);
-  border: 1px solid var(--line-strong); border-radius: 999px; padding: 1px 8px;
-}
-.chev { width: 10px; height: 10px; flex: none; color: var(--muted); transition: transform .15s; }
-.cat-toggle[aria-expanded="true"] .chev { transform: rotate(90deg); }
-.cat.open .cat-toggle { border-bottom: 1px solid var(--brass); }
-.panel { padding: 4px 2px 14px; }
-
-/* Tool rows */
-.tool { display: flex; align-items: flex-start; gap: 12px; padding: 12px 0; border-top: 1px dotted var(--line-strong); }
-.tool:first-child { border-top: 0; }
-.tile {
-  --h: 215;
-  width: 38px; height: 38px; flex: none; border-radius: 8px;
-  display: grid; place-items: center;
-  font: 700 1.15rem var(--serif);
-  background: hsl(var(--h) var(--tile-s) var(--tile-l));
-  color: hsl(var(--h) 45% var(--tile-fg-l));
-}
-.tool-main { flex: 1; min-width: 0; }
-.tool-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 8px; }
-.tool-name { font-weight: 650; font-size: 1.05rem; text-decoration: none; }
-.tool-name:hover { text-decoration: underline; text-underline-offset: 3px; }
-.tool-title { font-weight: 650; font-size: 1.05rem; }
-.pick {
-  font-size: 0.66rem; font-weight: 700; text-transform: uppercase; letter-spacing: .09em;
-  color: var(--brass); border: 1px solid currentColor; border-radius: 3px; padding: 0 5px;
-}
-.tool-desc { margin: 1px 0 0; color: var(--muted); font-size: 0.95rem; }
-.tool-cat { margin: 2px 0 0; font-size: 0.78rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
-.more {
-  padding: 0; margin-left: 4px; background: none; border: 0;
-  color: var(--link); font: 600 0.9rem var(--sans); cursor: pointer; white-space: nowrap;
-}
-.more:hover { text-decoration: underline; }
-.more-body { margin-top: 8px; padding: 10px 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; font-size: 0.95rem; }
-.more-body p { margin: 0 0 6px; }
-.btn {
-  flex: none; display: inline-flex; align-items: center; justify-content: center;
-  min-height: 40px; padding: 8px 16px; border-radius: 6px;
-  font-size: 0.9rem; font-weight: 600; text-decoration: none; white-space: nowrap;
-  background: var(--brand); color: var(--brand-text); border: 1px solid var(--brand);
-}
-.btn:hover { opacity: .88; }
-.show-all {
-  margin-top: 4px; padding: 8px 0; background: none; border: 0;
-  color: var(--link); font: 600 0.95rem var(--sans); cursor: pointer;
-}
-.show-all:hover { text-decoration: underline; }
-.empty { color: var(--muted); margin: 0; padding: 4px 0 6px; }
+/* Category pages */
+.crumb { display: inline-block; margin: 20px 0 4px; font-size: .95rem; font-weight: 600; text-decoration: none; }
+.crumb:hover { text-decoration: underline; }
+.page h1 { margin: 0 0 4px; font: 700 1.7rem var(--serif); }
+.count { margin: 0 0 14px; color: var(--muted); }
+.rows { border-top: 1px solid var(--line); }
+.row { display: flex; align-items: center; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.row .main { flex: 1; min-width: 0; }
+.row .name { font-weight: 700; font-size: 1.1rem; text-decoration: none; }
+.row .name:hover { text-decoration: underline; }
+.row .desc { margin: 2px 0 0; color: var(--muted); }
+.row .note { margin: 4px 0 0; font-size: .95rem; }
+.pick { margin-left: 6px; font: 700 .68rem var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--brass); border: 1px solid currentColor; border-radius: 3px; padding: 0 5px; white-space: nowrap; vertical-align: 2px; }
+.visit { flex: none; padding: 10px 18px; border-radius: 6px; background: var(--brand); color: var(--brand-text); font-weight: 700; text-decoration: none; }
+.visit:hover { opacity: .88; }
+.more-videos { margin: 18px 0 0; padding: 14px 16px; background: var(--soft); border-radius: 8px; }
+.more-videos a { font-weight: 700; text-decoration: none; }
+.more-videos a:hover { text-decoration: underline; }
 
 /* Videos */
-.video-list { list-style: none; margin: 6px 0 0; padding: 0; }
-.video-list li { margin: 4px 0; }
-.video-list a, .search-link { display: inline-flex; align-items: baseline; gap: 8px; text-decoration: none; }
-.video-list a:hover, .search-link:hover { text-decoration: underline; text-underline-offset: 3px; }
-.play { width: 10px; height: 10px; flex: none; color: var(--brass); position: relative; top: 1px; }
-.search-link { margin-top: 4px; font-size: 0.92rem; }
-.topic { padding: 8px 0 12px; border-bottom: 1px dotted var(--line-strong); }
-.topic-label { margin: 0; font-size: 0.78rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+.play { width: 10px; height: 10px; margin-right: 8px; color: var(--brass); }
+.vlist li { padding: 3px 0; }
+.vlist a { text-decoration: none; }
+.vlist a:hover { text-decoration: underline; }
+.vrow { padding: 12px 0; border-bottom: 1px solid var(--line); }
+.vrow .name { font-weight: 700; font-size: 1.1rem; }
+.topic { margin-bottom: 8px; }
+.topic-label { margin: 0 0 4px; font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
 
-/* Search results */
-.results .tool:first-child { border-top: 1px solid var(--line); }
-.results { border-bottom: 1px solid var(--line); }
-.no-results { color: var(--muted); padding: 12px 0; }
-
-button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
-
-footer { margin-top: 40px; padding: 20px 0 40px; border-top: 3px double var(--line-strong); color: var(--muted); font-size: 0.85rem; }
-footer p { margin: 0 0 8px; max-width: 62ch; }
-footer .brand-small { font: 600 1rem var(--serif); color: var(--text); }
-footer .brand-small em { color: var(--brass); font-weight: 400; }
+footer { margin-top: 40px; padding: 18px 0 40px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+footer p { margin: 0 0 6px; max-width: 62ch; }
 </style>
 </head>
 <body>
@@ -391,38 +321,20 @@ footer .brand-small em { color: var(--brass); font-weight: 400; }
         <text class="amp" x="23" y="32.5" text-anchor="middle">&amp;</text>
       </svg>
       <div>
-        <p class="brand"><a href="/">Use <em>&amp;</em> Like</a></p>
+        <p class="brand"><a href="#">Use <em>&amp;</em> Like</a></p>
         <p class="tagline">The apps and tools we use, sorted by category.</p>
       </div>
     </div>
-
-    <div class="tabs" role="tablist" aria-label="Sections">
-      <button class="tab" role="tab" id="tab-tools" aria-controls="view-tools" aria-selected="true" type="button">Tools</button>
-      <button class="tab" role="tab" id="tab-videos" aria-controls="view-videos" aria-selected="false" type="button" tabindex="-1">Videos</button>
-    </div>
+    <nav class="top" aria-label="Sections">
+      <a href="#" id="nav-tools">Tools</a>
+      <a href="#videos" id="nav-videos">Videos</a>
+    </nav>
   </header>
 
-  <main>
-    <div class="search" role="search">
-      <label for="q" class="sr-only">Search</label>
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="7" cy="7" r="5"/><path d="M11 11l3.5 3.5" stroke-linecap="round"/></svg>
-      <input id="q" type="search" placeholder="Search tools" autocomplete="off" enterkeyhint="search">
-    </div>
-    <p class="summary" id="summary" aria-live="polite"></p>
-
-    <section id="view-tools" role="tabpanel" aria-labelledby="tab-tools">
-      <ul class="plain directory" id="tools-dir"></ul>
-    </section>
-    <section id="view-videos" role="tabpanel" aria-labelledby="tab-videos" class="hidden">
-      <ul class="plain directory" id="videos-dir"></ul>
-    </section>
-    <ul class="plain results hidden" id="results"></ul>
-    <p class="no-results hidden" id="no-results">Nothing matches your search.</p>
-    <noscript><p>Please turn on JavaScript to see the directory.</p></noscript>
-  </main>
+  <main id="view"></main>
+  <noscript><p>Please turn on JavaScript to see the directory.</p></noscript>
 
   <footer>
-    <p class="brand-small">Use <em>&amp;</em> Like</p>
     <p>Some links on this page are affiliate links. If you sign up through them, we may earn a commission at no extra cost to you.</p>
     <p>&copy; <span id="year"></span> useandlike.com</p>
   </footer>
@@ -431,8 +343,6 @@ footer .brand-small em { color: var(--brass); font-weight: 400; }
 <script>
 (function () {
   var PLAY = '<svg class="play" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 1l7 4-7 4z" fill="currentColor"/></svg>';
-  var CHEV = '<svg class="chev" viewBox="0 0 10 10" aria-hidden="true"><path d="M3 1.5L6.5 5 3 8.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-  var HUES = [215, 0, 150, 38, 275, 190, 20, 120];
 
   function slug(s) {
     return s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -443,7 +353,8 @@ footer .brand-small em { color: var(--brass); font-weight: 400; }
     if (text != null) e.textContent = text;
     return e;
   }
-  function link(text, href, cls, rel) {
+  // External link (affiliate or YouTube), honoring OPEN_IN_NEW_TAB.
+  function ext(text, href, cls, rel) {
     var a = el("a", cls, text);
     a.href = href;
     if (OPEN_IN_NEW_TAB) {
@@ -453,85 +364,17 @@ footer .brand-small em { color: var(--brass); font-weight: 400; }
     if (rel) a.rel = rel;
     return a;
   }
-  function tile(name) {
-    var h = 0;
-    for (var i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) >>> 0;
-    var t = el("span", "tile", name.charAt(0).toUpperCase());
-    t.style.setProperty("--h", HUES[h % HUES.length]);
-    t.setAttribute("aria-hidden", "true");
-    return t;
-  }
-  function videoList(videos) {
-    var ul = el("ul", "video-list");
-    videos.forEach(function (v) {
-      var li = el("li");
-      var a = link(v.title, v.url, null, "");
-      a.insertAdjacentHTML("afterbegin", PLAY);
-      li.appendChild(a);
-      ul.appendChild(li);
-    });
-    return ul;
-  }
-  function searchLink(t) {
-    var a = link("Search our channel for " + t.name + " videos →", CHANNEL_SEARCH_URL + encodeURIComponent(t.name), "search-link", "");
-    a.insertAdjacentHTML("afterbegin", PLAY);
+  function inner(text, hash, cls) {
+    var a = el("a", cls, text);
+    a.href = "#" + hash;
     return a;
   }
-  function videosFor(t) {
-    return VIDEOS.filter(function (v) { return v.tool === t.name; });
-  }
-
-  // A row in the Tools tab.
-  function renderTool(t, showCategory) {
-    var li = el("li", "tool");
-    li.appendChild(tile(t.name));
-    var main = el("div", "tool-main");
-    var head = el("div", "tool-head");
-    head.appendChild(link(t.name, "/" + t.slug, "tool-name", "sponsored"));
-    if (t.isPick) head.appendChild(el("span", "pick", "Our pick"));
-    main.appendChild(head);
-    if (showCategory) main.appendChild(el("p", "tool-cat", t.category));
-
-    var desc = el("p", "tool-desc", t.description);
-    var more = el("button", "more", "More");
-    more.type = "button";
-    more.setAttribute("aria-expanded", "false");
-    desc.appendChild(more);
-    main.appendChild(desc);
-
-    var body = el("div", "more-body hidden");
-    if (t.why) body.appendChild(el("p", null, t.why));
-    if (t.details) body.appendChild(el("p", null, t.details));
-    var vids = videosFor(t);
-    if (vids.length) body.appendChild(videoList(vids));
-    body.appendChild(searchLink(t));
-    main.appendChild(body);
-    more.addEventListener("click", function () {
-      var open = more.getAttribute("aria-expanded") === "true";
-      more.setAttribute("aria-expanded", String(!open));
-      more.textContent = open ? "More" : "Less";
-      body.classList.toggle("hidden", open);
-    });
-    li.appendChild(main);
-
-    var visit = link("Visit", "/" + t.slug, "btn", "sponsored");
-    visit.setAttribute("aria-label", "Visit " + t.name);
-    li.appendChild(visit);
-    return li;
-  }
-
-  // A row in the Videos tab: the tool's own videos, then a channel search link.
-  function renderVideoTool(t, showCategory) {
-    var li = el("li", "tool");
-    li.appendChild(tile(t.name));
-    var main = el("div", "tool-main");
-    main.appendChild(el("div", "tool-title", t.name));
-    if (showCategory) main.appendChild(el("p", "tool-cat", t.category));
-    var vids = videosFor(t);
-    if (vids.length) main.appendChild(videoList(vids));
-    main.appendChild(searchLink(t));
-    li.appendChild(main);
-    return li;
+  function aff(t, text, cls) { return ext(text, "/" + t.slug, cls, "sponsored"); }
+  function channelSearch(t, text, cls) { return ext(text, CHANNEL_SEARCH_URL + encodeURIComponent(t.name), cls, ""); }
+  function videoLink(v) {
+    var a = ext(v.title, v.url, null, "");
+    a.insertAdjacentHTML("afterbegin", PLAY);
+    return a;
   }
 
   // Our pick first, then the rest in the order written above.
@@ -539,163 +382,140 @@ footer .brand-small em { color: var(--brass); font-weight: 400; }
     return TOOLS.filter(function (t) { return t.category === cat; })
       .sort(function (a, b) { return (b.isPick ? 1 : 0) - (a.isPick ? 1 : 0); });
   }
+  function videosIn(cat) { return VIDEOS.filter(function (v) { return v.category === cat; }); }
+  function videosFor(t) { return VIDEOS.filter(function (v) { return v.tool === t.name; }); }
+  function plural(n, word) { return n + " " + word + (n === 1 ? "" : "s"); }
 
-  // Builds one collapsible category list. idPrefix keeps the two tabs' links apart:
-  // useandlike.com/#email (Tools) and useandlike.com/#videos-email (Videos).
-  function buildDirectory(root, idPrefix, renderItem, countLabel, topicVideos) {
+  // Home of a tab: every category with its first few tools (or videos).
+  function renderIndex(view, videos) {
+    var index = el("div", "index");
     CATEGORIES.forEach(function (cat) {
-      var id = idPrefix + slug(cat);
       var tools = toolsIn(cat);
-
-      var li = el("li", "cat");
-      li.id = id;
-      var btn = el("button", "cat-toggle");
-      btn.type = "button";
-      btn.setAttribute("aria-expanded", "false");
-      btn.setAttribute("aria-controls", id + "-panel");
-      btn.appendChild(el("span", "cat-name", cat));
-      var label = countLabel(cat, tools);
-      if (label) btn.appendChild(el("span", "cat-count", label));
-      btn.insertAdjacentHTML("beforeend", CHEV);
-      li.appendChild(btn);
-
-      var panel = el("div", "panel hidden");
-      panel.id = id + "-panel";
-
-      var topic = topicVideos ? VIDEOS.filter(function (v) { return v.category === cat && !v.tool; }) : [];
-      if (topic.length) {
-        var box = el("div", "topic");
-        box.appendChild(el("p", "topic-label", "On this topic"));
-        box.appendChild(videoList(topic));
-        panel.appendChild(box);
-      }
-
-      if (!tools.length) {
-        panel.appendChild(el("p", "empty", "Coming soon."));
-      } else {
-        var ul = el("ul", "plain");
-        tools.forEach(function (t, i) {
-          var item = renderItem(t, false);
-          if (i >= VISIBLE_COUNT) item.classList.add("hidden", "extra");
-          ul.appendChild(item);
+      var block = el("section", "block");
+      var h = el("h2");
+      h.appendChild(inner(cat, (videos ? "videos-" : "") + slug(cat)));
+      block.appendChild(h);
+      var ul = el("ul", "plain");
+      var total = tools.length;
+      if (!tools.length) ul.appendChild(el("li", "soon", "Coming soon"));
+      if (videos) {
+        var vids = videosIn(cat);
+        vids.slice(0, VISIBLE_COUNT).forEach(function (v) { var li = el("li"); li.appendChild(videoLink(v)); ul.appendChild(li); });
+        if (!vids.length) tools.slice(0, VISIBLE_COUNT).forEach(function (t) {
+          var li = el("li"); li.appendChild(channelSearch(t, t.name)); ul.appendChild(li);
         });
-        panel.appendChild(ul);
-        if (tools.length > VISIBLE_COUNT) {
-          var showAll = el("button", "show-all", "Show all " + tools.length + " →");
-          showAll.type = "button";
-          showAll.addEventListener("click", function () {
-            ul.querySelectorAll(".extra").forEach(function (x) { x.classList.remove("hidden"); });
-            showAll.remove();
-          });
-          panel.appendChild(showAll);
-        }
+        total = vids.length || tools.length;
+      } else {
+        tools.slice(0, VISIBLE_COUNT).forEach(function (t) { var li = el("li"); li.appendChild(aff(t, t.name)); ul.appendChild(li); });
       }
-      li.appendChild(panel);
-
-      btn.addEventListener("click", function () {
-        var open = btn.getAttribute("aria-expanded") === "true";
-        btn.setAttribute("aria-expanded", String(!open));
-        panel.classList.toggle("hidden", open);
-        li.classList.toggle("open", !open);
-        // Keep the address bar in sync so a category can be shared.
-        history.replaceState(null, "", open ? baseHash() : "#" + id);
-      });
-      root.appendChild(li);
-    });
-  }
-
-  buildDirectory(document.getElementById("tools-dir"), "", renderTool,
-    function (cat, tools) { return tools.length ? String(tools.length) : "Soon"; }, false);
-  buildDirectory(document.getElementById("videos-dir"), "videos-", renderVideoTool,
-    function (cat) {
-      var n = VIDEOS.filter(function (v) { return v.category === cat; }).length;
-      return n ? n + (n === 1 ? " video" : " videos") : "";
-    }, true);
-
-  // Tabs
-  var tabs = { tools: document.getElementById("tab-tools"), videos: document.getElementById("tab-videos") };
-  var views = { tools: document.getElementById("view-tools"), videos: document.getElementById("view-videos") };
-  var input = document.getElementById("q");
-  var results = document.getElementById("results");
-  var noResults = document.getElementById("no-results");
-  var summary = document.getElementById("summary");
-  var current = "tools";
-
-  function baseHash() { return current === "videos" ? "#videos" : location.pathname + location.search; }
-
-  function showTab(name, updateUrl) {
-    current = name;
-    Object.keys(tabs).forEach(function (k) {
-      tabs[k].setAttribute("aria-selected", String(k === name));
-      tabs[k].tabIndex = k === name ? 0 : -1;
-    });
-    input.placeholder = name === "videos" ? "Search videos" : "Search tools";
-    if (updateUrl) history.replaceState(null, "", baseHash());
-    runSearch();
-  }
-  Object.keys(tabs).forEach(function (k) {
-    tabs[k].addEventListener("click", function () { showTab(k, true); });
-    tabs[k].addEventListener("keydown", function (e) {
-      if (e.key === "ArrowRight" || e.key === "ArrowLeft") {
-        var next = k === "tools" ? "videos" : "tools";
-        showTab(next, true);
-        tabs[next].focus();
+      if (total > VISIBLE_COUNT) {
+        var li = el("li");
+        li.appendChild(inner("All " + total + " ›", (videos ? "videos-" : "") + slug(cat), "all"));
+        ul.appendChild(li);
       }
+      block.appendChild(ul);
+      index.appendChild(block);
     });
-  });
-
-  // Search: tools by name, description, category and "why";
-  // videos by title, tool and category.
-  function defaultSummary() {
-    if (current === "videos") {
-      return VIDEOS.length ? VIDEOS.length + (VIDEOS.length === 1 ? " video" : " videos") : "Our videos about each tool, by category";
-    }
-    var cats = CATEGORIES.filter(function (c) { return toolsIn(c).length; }).length;
-    return TOOLS.length + " tools in " + cats + (cats === 1 ? " category" : " categories");
+    view.appendChild(index);
   }
-  function runSearch() {
-    var q = input.value.trim().toLowerCase();
-    results.textContent = "";
-    views.tools.classList.toggle("hidden", !!q || current !== "tools");
-    views.videos.classList.toggle("hidden", !!q || current !== "videos");
-    if (!q) {
-      results.classList.add("hidden");
-      noResults.classList.add("hidden");
-      summary.textContent = defaultSummary();
-      return;
-    }
-    var words = q.split(/\s+/);
-    function match(text) { text = text.toLowerCase(); return words.every(function (w) { return text.indexOf(w) !== -1; }); }
-    var hits;
-    if (current === "videos") {
-      hits = TOOLS.filter(function (t) {
-        var titles = videosFor(t).map(function (v) { return v.title; }).join(" ");
-        return match(t.name + " " + t.category + " " + titles);
-      });
-      hits.forEach(function (t) { results.appendChild(renderVideoTool(t, true)); });
-    } else {
-      hits = TOOLS.filter(function (t) { return match(t.name + " " + t.description + " " + t.category + " " + (t.why || "") + " " + (t.details || "")); });
-      hits.forEach(function (t) { results.appendChild(renderTool(t, true)); });
-    }
-    results.classList.toggle("hidden", !hits.length);
-    noResults.classList.toggle("hidden", !!hits.length);
-    summary.textContent = hits.length + (hits.length === 1 ? " result" : " results");
-  }
-  input.addEventListener("input", runSearch);
 
-  // Press "/" to jump to the search box (desktop).
-  document.addEventListener("keydown", function (e) {
-    if (e.key === "/" && document.activeElement !== input) { e.preventDefault(); input.focus(); }
-  });
-
-  // Links like useandlike.com/#web-hosting, /#videos or /#videos-web-hosting
-  var hash = decodeURIComponent(location.hash.slice(1));
-  showTab(hash.indexOf("videos") === 0 ? "videos" : "tools", false);
-  var target = hash && document.getElementById(hash);
-  if (target && target.classList.contains("cat")) {
-    target.querySelector(".cat-toggle").click();
-    target.scrollIntoView();
+  // One category in the Tools tab: every tool with a description and a Visit button.
+  function renderCategory(view, cat) {
+    var tools = toolsIn(cat);
+    view.appendChild(inner("‹ All categories", "", "crumb"));
+    view.appendChild(el("h1", null, cat));
+    view.appendChild(el("p", "count", tools.length ? plural(tools.length, "tool") : "Coming soon"));
+    var ul = el("ul", "plain rows");
+    tools.forEach(function (t) {
+      var li = el("li", "row");
+      var main = el("div", "main");
+      main.appendChild(aff(t, t.name, "name"));
+      if (t.isPick) main.appendChild(el("span", "pick", "Our pick"));
+      main.appendChild(el("p", "desc", t.description));
+      if (t.why) main.appendChild(el("p", "note", t.why));
+      if (t.details) main.appendChild(el("p", "note", t.details));
+      li.appendChild(main);
+      var visit = aff(t, "Visit", "visit");
+      visit.setAttribute("aria-label", "Visit " + t.name);
+      li.appendChild(visit);
+      ul.appendChild(li);
+    });
+    view.appendChild(ul);
+    if (tools.length) {
+      var box = el("p", "more-videos");
+      box.appendChild(document.createTextNode("Want to know more? "));
+      box.appendChild(inner("Watch our videos about " + cat + " ›", "videos-" + slug(cat)));
+      view.appendChild(box);
+    }
   }
+
+  // One category in the Videos tab: general videos, then each tool's videos and a channel search.
+  function renderVideoCategory(view, cat) {
+    var tools = toolsIn(cat);
+    view.appendChild(inner("‹ All videos", "videos", "crumb"));
+    view.appendChild(el("h1", null, cat + " videos"));
+    var n = videosIn(cat).length;
+    view.appendChild(el("p", "count", n ? plural(n, "video") : "Search our channel for each tool"));
+    var topic = VIDEOS.filter(function (v) { return v.category === cat && !v.tool; });
+    if (topic.length) {
+      var box = el("div", "topic");
+      box.appendChild(el("p", "topic-label", "On this topic"));
+      var tl = el("ul", "plain vlist");
+      topic.forEach(function (v) { var li = el("li"); li.appendChild(videoLink(v)); tl.appendChild(li); });
+      box.appendChild(tl);
+      view.appendChild(box);
+    }
+    var ul = el("ul", "plain rows");
+    tools.forEach(function (t) {
+      var li = el("li", "vrow");
+      li.appendChild(el("div", "name", t.name));
+      var vl = el("ul", "plain vlist");
+      videosFor(t).forEach(function (v) { var i = el("li"); i.appendChild(videoLink(v)); vl.appendChild(i); });
+      var s = el("li");
+      var search = channelSearch(t, "Search our channel for " + t.name + " ›");
+      search.insertAdjacentHTML("afterbegin", PLAY);
+      s.appendChild(search);
+      vl.appendChild(s);
+      li.appendChild(vl);
+      ul.appendChild(li);
+    });
+    view.appendChild(ul);
+  }
+
+  // Pages live in the address after "#": "" home, "email" a category, "videos", "videos-email".
+  // Category links keep working in YouTube descriptions, and the back button returns to the list.
+  var view = document.getElementById("view");
+  var homeScroll = 0, lastRoute = null;
+  function setCurrent(navId, on) {
+    var a = document.getElementById(navId);
+    if (on) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+  }
+  function findCat(id) { return CATEGORIES.filter(function (c) { return slug(c) === id; })[0]; }
+
+  function route() {
+    var id = decodeURIComponent(location.hash.slice(1));
+    var isVideos = id === "videos" || id.indexOf("videos-") === 0;
+    var cat = findCat(isVideos ? id.slice(7) : id);
+    if (lastRoute === "" || lastRoute === "videos") homeScroll = window.scrollY;
+
+    view.textContent = "";
+    view.className = cat ? "page" : "";
+    if (isVideos && cat) renderVideoCategory(view, cat);
+    else if (isVideos) renderIndex(view, true);
+    else if (cat) renderCategory(view, cat);
+    else renderIndex(view, false);
+
+    setCurrent("nav-tools", !isVideos);
+    setCurrent("nav-videos", isVideos);
+    document.title = cat ? cat + (isVideos ? " videos" : "") + " – Use & Like" : "Use & Like – Directory of apps and tools we use";
+
+    // Coming back from a category page to its list returns to the same spot.
+    var cameFromCategory = lastRoute !== null && lastRoute !== "" && lastRoute !== "videos";
+    window.scrollTo(0, !cat && cameFromCategory ? homeScroll : 0);
+    lastRoute = cat ? id : (isVideos ? "videos" : "");
+  }
+  window.addEventListener("hashchange", route);
+  route();
 
   document.getElementById("year").textContent = new Date().getFullYear();
 })();

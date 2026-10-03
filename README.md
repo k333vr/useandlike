@@ -8,12 +8,12 @@ Open `index.html`. The **EDIT HERE** block is near the top:
 
 - `CHANNEL_SEARCH_URL`: where "Watch our video" buttons go. The tool name is added to the end.
   To search only your channel, use `https://www.youtube.com/@YOURCHANNEL/search?query=`.
-- `VISIBLE_COUNT`: how many tools show before the "Show all" button.
+- `VISIBLE_COUNT`: how many tool names each category shows on the home page before "All N ›".
 - `CATEGORIES`: the category list, in order.
-- `TOOLS`: one entry per tool: `description` (short line, always shown), `why` and optional `details`
-  (behind "More"), and `slug`, its short link (`slug: "hostinger"` -> useandlike.com/hostinger).
+- `TOOLS`: one entry per tool: `description` (short line on the category page), optional `why` and `details`,
+  and `slug`, its short link (`slug: "hostinger"` -> useandlike.com/hostinger).
 - `VIDEOS`: your videos for the Videos tab (`title`, `url`, `category`, and optionally the `tool` name).
-  Set `isPick: true` on one tool per category to show the "Our pick" label.
+  Set `isPick: true` on at most one tool per category to show the "Our pick" label.
 
 ## Affiliate links (short links)
 
@@ -48,6 +48,6 @@ The site runs as a Cloudflare Worker named `useandlike` that serves the files in
 
 ## Checking the page
 
-`node scripts/check.js` tests the page in a phone-sized browser (light and dark): data is complete, one "Our pick"
-per category, no superlatives, affiliate links marked as sponsored, videos point at real tools, no sideways scrolling.
+`node scripts/check.js` tests the page in a phone-sized browser (light and dark): data is complete, at most one
+"Our pick" per category, every category page and the back button work, no superlatives, affiliate links marked as sponsored, videos point at real tools, no sideways scrolling.
 Add `--online` to also open every real affiliate link. `CLAUDE.md` describes the update routine for Claude.
