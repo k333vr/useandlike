@@ -26,9 +26,9 @@ const CHANNELS = [
    so add a "/newsletter" line to _redirects first, then set ready to true. */
 const NEWSLETTER = {
   ready: true,
-  title: "Get our free Subscription Tracker first",
-  text: "We're building a free tool that tracks your subscriptions and reminds you before you're charged. Join to get early access, plus one useful app tip every two weeks. Unsubscribe anytime.",
-  button: "Get early access",
+  title: "Apps, tech & AI tips, every two weeks",
+  text: "Short, useful tips, new tools worth knowing, deals and our latest tutorials. Free, and you can unsubscribe anytime.",
+  button: "Sign up free",
   headerButton: "Free tracker: early access"
 };
 
@@ -724,7 +724,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     }
     page.paragraphs.forEach(function (text) { view.appendChild(el("p", null, text)); });
     if (page.cta && NEWSLETTER.ready) {
-      var a = el("a", "visit big-cta", NEWSLETTER.button + " \u203a");
+      var a = el("a", "visit big-cta", "Get early access \u203a");
       a.href = "/newsletter";
       view.appendChild(a);
     }
