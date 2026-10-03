@@ -87,8 +87,10 @@ function readRedirects(errors, warnings) {
         if (shown !== expected) errors.push(`category "${c}": ${shown} tools visible, expected ${expected}`);
         if (await page.$(`#${id} .show-all`)) await page.click(`#${id} .show-all`);
       }
-      const badRel = await page.$$eval("a.btn-primary", as => as.filter(a => a.rel !== "sponsored noopener" || a.target !== "_blank").length);
-      if (badRel) errors.push(`${badRel} Visit link(s) missing rel="sponsored noopener" / target="_blank"`);
+      const badRel = await page.$$eval("a.btn-primary", as => as.filter(a => !a.relList.contains("sponsored")).length);
+      if (badRel) errors.push(`${badRel} Visit link(s) missing rel="sponsored"`);
+      const tabs = await page.$$eval("a.btn", as => [...new Set(as.map(a => a.target === "_blank" ? "new" : "same"))]);
+      console.log(`info links open in: ${tabs.join(", ")} tab`);
     }
     const width = await page.evaluate(() => document.documentElement.scrollWidth);
     if (width > 390) errors.push(`[${scheme}] page scrolls sideways on a phone (${width}px wide)`);

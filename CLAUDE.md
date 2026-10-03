@@ -29,7 +29,9 @@ The owner is a beginner. Explain things in plain language and do as much as poss
 - "Why we use it" lines: neutral and factual. No superlatives ("best", "cheapest", "fastest", "#1"...).
   Don't invent features; if unsure, keep the line generic. The check script blocks common superlatives.
 - Exactly one `isPick: true` per category that has tools; it is shown first with an "Our pick" label.
-- Visit links must keep `rel="sponsored noopener"` and `target="_blank"` (set by the render code).
+- Visit links must keep `rel="sponsored"` (set by the render code). Links open in the same tab by default
+  (`OPEN_IN_NEW_TAB = false`; the owner chose this for phone visitors). New tab adds `target="_blank"` + `noopener`.
+- No page between the list and the affiliate site: Visit goes /slug -> affiliate link directly (owner's choice).
 - Keep the affiliate disclosure in the footer.
 - Category links are `#` + the category name in lowercase, `&` → `and`, spaces → `-`
   (e.g. `useandlike.com/#web-hosting`). Renaming a category changes its link, so warn the owner

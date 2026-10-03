@@ -20,6 +20,10 @@
    "https://www.youtube.com/@YOURCHANNEL/search?query="              */
 const CHANNEL_SEARCH_URL = "https://www.youtube.com/results?search_query=";
 
+/* false = links open in the same tab (back button returns to this page; better on phones).
+   true  = links open in a new tab. */
+const OPEN_IN_NEW_TAB = false;
+
 /* How many tools each category shows before the "Show all" button. */
 const VISIBLE_COUNT = 4;
 
@@ -204,8 +208,11 @@ footer p { margin: 0 0 8px; }
   function link(text, href, cls, rel) {
     var a = el("a", cls, text);
     a.href = href;
-    a.target = "_blank";
-    a.rel = rel;
+    if (OPEN_IN_NEW_TAB) {
+      a.target = "_blank";
+      rel = (rel + " noopener").trim();
+    }
+    if (rel) a.rel = rel;
     return a;
   }
 
@@ -219,9 +226,9 @@ footer p { margin: 0 0 8px; }
     li.appendChild(el("p", "why", t.why));
 
     var actions = el("div", "actions");
-    var visit = link("Visit", "/" + t.slug, "btn btn-primary", "sponsored noopener");
+    var visit = link("Visit", "/" + t.slug, "btn btn-primary", "sponsored");
     visit.setAttribute("aria-label", "Visit " + t.name);
-    var watch = link("Watch our video", CHANNEL_SEARCH_URL + encodeURIComponent(t.name), "btn btn-secondary", "noopener");
+    var watch = link("Watch our video", CHANNEL_SEARCH_URL + encodeURIComponent(t.name), "btn btn-secondary", "");
     watch.setAttribute("aria-label", "Watch our video about " + t.name);
     actions.appendChild(visit);
     actions.appendChild(watch);
