@@ -73,3 +73,4 @@
 # Newsletter signup (Beehiiv)
 /newsletter        https://useandlike.beehiiv.com/subscribe  302
 /tracker           https://subscriptionchef.app/             302
+/join              /#join                                    302
