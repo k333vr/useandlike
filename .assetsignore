@@ -1,0 +1,7 @@
+# Files Cloudflare should not publish (the site is index.html, _redirects, videos.js, thumbs/, img/).
+.git
+data
+scripts
+CLAUDE.md
+README.md
+.assetsignore
