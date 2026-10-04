@@ -439,6 +439,10 @@ nav.top a[aria-current="page"] { color: var(--text); text-decoration: underline;
 .vh { margin: 0 0 14px; font: 700 1.5rem var(--serif); }
 .vsub { margin: 28px 0 4px; font: 700 1.15rem var(--serif); }
 .vgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 22px 18px; }
+.tfilter { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
+.tfilter button, button.more { font: inherit; font-size: .9rem; font-weight: 600; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface, transparent); color: var(--text); cursor: pointer; }
+.tfilter button[aria-pressed="true"] { background: var(--brand); border-color: var(--brand); color: #fff; }
+button.more { display: block; margin: 22px auto 0; padding: 10px 20px; border: 2px solid var(--brass); }
 .vcard a { display: block; color: inherit; text-decoration: none; }
 .vcard img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; background: var(--soft); }
 .vcard .vt { margin: 8px 0 2px; font-weight: 700; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
@@ -545,8 +549,31 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     return TOOLS.filter(function (t) { return t.category === cat; })
       .sort(function (a, b) { return (b.isPick ? 1 : 0) - (a.isPick ? 1 : 0); });
   }
-  function videosIn(cat) { return VIDEOS.filter(function (v) { return v.category === cat; }); }
-  function videosFor(t) { return VIDEOS.filter(function (v) { return v.tool === t.name; }); }
+  // All channel videos about our tools come from videos.js (scripts/build-videos.py). It is loaded the
+  // first time the Videos tab opens, so the tool pages stay light. Videos in VIDEOS above come first.
+  var allVideos = null, videosRequested = false;
+  function loadVideos() {
+    if (videosRequested) return;
+    videosRequested = true;
+    var s = document.createElement("script");
+    s.src = "videos.js";
+    s.onload = s.onerror = function () {
+      var byName = {};
+      TOOLS.forEach(function (t) { byName[t.name] = t; });
+      var list = VIDEOS.slice();
+      (window.CHANNEL_VIDEOS || []).forEach(function (r) {
+        var t = byName[window.CHANNEL_VIDEO_TOOLS[r[3]]];
+        if (t) list.push({ title: r[1], url: "https://www.youtube.com/watch?v=" + r[0],
+          channel: window.CHANNEL_VIDEO_CHANNELS[r[2]], category: t.category, tool: t.name });
+      });
+      allVideos = list;
+      if (view.className === "videos") route();
+    };
+    document.head.appendChild(s);
+  }
+  function videos() { return allVideos || VIDEOS; }
+  function videosIn(cat) { return videos().filter(function (v) { return v.category === cat; }); }
+  function videosFor(t) { return videos().filter(function (v) { return v.tool === t.name; }); }
   function plural(n, word) { return n + " " + word + (n === 1 ? "" : "s"); }
 
   function newsletterBox() {
@@ -637,7 +664,9 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     return li;
   }
 
+  var VIDEO_PAGE = 24;   // videos shown at first, and added per "Show more" tap
   function renderVideos(view, cat) {
+    if (!allVideos) loadVideos();
     var intro = el("p", "channels-intro", "Our channels: ");
     intro.appendChild(channelLinks(channelUrl));
     view.appendChild(intro);
@@ -646,7 +675,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     var chips = el("nav", "chips");
     chips.setAttribute("aria-label", "Video categories");
     [null].concat(CATEGORIES).forEach(function (c) {
-      var n = c ? videosIn(c).length : VIDEOS.length;
+      var n = c ? videosIn(c).length : videos().length;
       var a = inner((c || "All videos") + (n ? " (" + n + ")" : ""), c ? "videos-" + slug(c) : "videos", "chip");
       if (c === cat) a.setAttribute("aria-current", "page");
       chips.appendChild(a);
@@ -655,16 +684,48 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 
     var main = el("div", "vmain");
     main.appendChild(el("h1", "vh", cat ? cat + " videos" : "All videos"));
-    var vids = cat ? videosIn(cat) : VIDEOS;
+    var vids = cat ? videosIn(cat) : videos();
+    if (!allVideos) main.appendChild(el("p", "count loading", "Loading all our videos\u2026"));
+
+    // In a category: one button per tool with videos, to show only that tool's videos.
+    var withVideos = cat ? toolsIn(cat).filter(function (t) { return videosFor(t).length; }) : [];
+    var grid = el("ul", "plain vgrid"), more = el("button", "more");
+    more.type = "button";
+    var current = vids, shown = 0;
+    function showMore() {
+      current.slice(shown, shown + VIDEO_PAGE).forEach(function (v) { grid.appendChild(videoCard(v)); });
+      shown = Math.min(current.length, shown + VIDEO_PAGE);
+      var left = current.length - shown;
+      more.textContent = "Show more videos (" + left + " more)";
+      more.classList.toggle("hidden", left <= 0);
+    }
+    function showList(list) { current = list; shown = 0; grid.textContent = ""; showMore(); }
+    more.addEventListener("click", showMore);
+    if (withVideos.length > 1) {
+      var filter = el("div", "tfilter");
+      filter.setAttribute("role", "group");
+      filter.setAttribute("aria-label", "Show videos about");
+      [null].concat(withVideos).forEach(function (t) {
+        var b = el("button", null, (t ? t.name : "All tools") + " (" + (t ? videosFor(t) : vids).length + ")");
+        b.type = "button";
+        b.setAttribute("aria-pressed", t ? "false" : "true");
+        b.addEventListener("click", function () {
+          [].forEach.call(filter.children, function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+          showList(t ? videosFor(t) : vids);
+        });
+        filter.appendChild(b);
+      });
+      main.appendChild(filter);
+    }
     if (vids.length) {
-      var grid = el("ul", "plain vgrid");
-      vids.forEach(function (v) { grid.appendChild(videoCard(v)); });
       main.appendChild(grid);
-    } else {
+      main.appendChild(more);
+      showList(vids);
+    } else if (allVideos) {
       main.appendChild(el("p", "count", "No videos listed here yet. Search our channels below."));
     }
 
-    if (cat) {
+    if (cat && allVideos) {
       var rest = toolsIn(cat).filter(function (t) { return !videosFor(t).length; });
       if (rest.length) {
         main.appendChild(el("h2", "vsub", vids.length ? "More tools: search our channels" : "Search our channels"));
@@ -684,8 +745,8 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     }
     layout.appendChild(main);
     view.appendChild(layout);
-    var current = chips.querySelector('[aria-current="page"]');
-    if (current && chips.scrollWidth > chips.clientWidth) chips.scrollLeft = current.offsetLeft - 16;
+    var currentChip = chips.querySelector('[aria-current="page"]');
+    if (currentChip && chips.scrollWidth > chips.clientWidth) chips.scrollLeft = currentChip.offsetLeft - 16;
   }
 
   // Small text pages, linked from the footer.

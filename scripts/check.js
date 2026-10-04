@@ -118,27 +118,39 @@ function readRedirects(errors, warnings) {
         if (!(await page.$(".index"))) { errors.push("back button does not return to the category list"); await page.goto(FILE); }
       }
 
-      // Videos tab: a button per category plus "All", one card per video, a thumbnail for each video.
+      // Videos tab: a button per category plus "All"; videos.js loads, cards page in with "Show more".
       await page.click("#nav-videos");
       await page.waitForFunction(() => location.hash === "#videos");
-      await page.waitForSelector(".chips", { timeout: 3000 }).catch(() => {});
+      await page.waitForFunction(() => window.CHANNEL_VIDEOS && !document.querySelector(".loading"), null, { timeout: 15000 }).catch(() => {});
+      const vdata = await page.evaluate(() => ({ n: (window.CHANNEL_VIDEOS || []).length, tools: window.CHANNEL_VIDEO_TOOLS || [], ids: (window.CHANNEL_VIDEOS || []).map(r => r[0]), used: [...new Set((window.CHANNEL_VIDEOS || []).map(r => window.CHANNEL_VIDEO_TOOLS[r[3]]))] }));
+      if (!vdata.n) errors.push("videos.js did not load (run python3 scripts/build-videos.py)");
+      const toolNames = new Set(data.TOOLS.map(t => t.name));
+      for (const t of vdata.tools) if (!toolNames.has(t)) warnings.push(`videos.js lists videos for "${t}", which is no longer in TOOLS (re-run scripts/build-videos.py)`);
+      const total = data.VIDEOS.length + vdata.n;
       const chips = await page.$$eval(".chips .chip", e => e.length);
       if (chips !== data.CATEGORIES.length + 1) errors.push(`Videos tab has ${chips} category buttons, expected ${data.CATEGORIES.length + 1}`);
       const cards = await page.$$eval(".vgrid .vcard", e => e.length);
-      if (cards !== data.VIDEOS.length) errors.push(`Videos tab shows ${cards} videos, expected ${data.VIDEOS.length}`);
+      if (cards !== Math.min(24, total)) errors.push(`Videos tab shows ${cards} videos at first, expected ${Math.min(24, total)}`);
+      const allShown = await page.evaluate(() => { const b = document.querySelector("button.more"); let i = 0;
+        while (b && !b.classList.contains("hidden") && i++ < 1000) b.click(); return document.querySelectorAll(".vgrid .vcard").length; });
+      if (allShown !== total) errors.push(`"Show more" reaches ${allShown} videos, expected ${total}`);
       for (const v of data.VIDEOS) {
         const id = (v.url.match(/[?&]v=([\w-]{11})$/) || [])[1];
         if (!id) errors.push(`video "${v.title}": URL should end in ?v= and an 11-character video ID`);
         else if (!fs.existsSync(path.resolve(__dirname, "..", "thumbs", id + ".jpg"))) warnings.push(`video "${v.title}": no thumbnail at thumbs/${id}.jpg`);
       }
-      let shownVideos = 0, searchRows = 0;
+      const noThumb = vdata.ids.filter(id => !fs.existsSync(path.resolve(__dirname, "..", "thumbs", id + ".jpg")));
+      if (noThumb.length) warnings.push(`${noThumb.length} channel videos have no thumbnail yet (run python3 scripts/build-videos.py)`);
+      let catTotal = 0, searchRows = 0;
       for (const c of data.CATEGORIES) {
         await page.goto(FILE + "#videos-" + slugOf(c));
-        shownVideos += await page.$$eval(".vgrid .vcard", e => e.length);
+        await page.waitForFunction(() => !document.querySelector(".loading"), null, { timeout: 8000 }).catch(() => {});
+        catTotal += await page.evaluate(() => { const b = document.querySelector("button.more"); let i = 0;
+          while (b && !b.classList.contains("hidden") && i++ < 1000) b.click(); return document.querySelectorAll(".vgrid .vcard").length; });
         searchRows += await page.$$eval(".vrow", e => e.length);
       }
-      const withVideos = new Set(data.VIDEOS.map(v => v.tool).filter(Boolean));
-      if (shownVideos !== data.VIDEOS.length) errors.push(`category video pages show ${shownVideos} videos, expected ${data.VIDEOS.length}`);
+      if (catTotal !== total) errors.push(`category video pages show ${catTotal} videos, expected ${total}`);
+      const withVideos = new Set(data.VIDEOS.map(v => v.tool).filter(Boolean).concat(vdata.used));
       const expectSearch = data.TOOLS.filter(t => !withVideos.has(t.name)).length;
       if (searchRows !== expectSearch) errors.push(`${searchRows} tools offer channel search, expected ${expectSearch}`);
       await page.goto(FILE + "#" + slugOf(data.CATEGORIES[0]));

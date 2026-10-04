@@ -22,7 +22,11 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   category page (`#web-hosting`): each tool with `description`, optional `why`/`details`, "Our pick" and a
   Visit button, then a "Watch our videos about …" link. The back button returns to the same spot.
 - Tool fields: `name`, `category`, `description`, `slug` (short link), `isPick`; optional `why`, `details`.
-- `VIDEOS` feeds the Videos tab: `{ title, url, channel, category, tool? }` (url = youtube.com/watch?v=<11-char id>).
+- Channel videos: `videos.js` (generated, ~2,300 videos about our tools) is loaded only when the Videos tab opens.
+  Refresh: `scripts/fetch-videos.sh` (yt-dlp, all videos of the 3 channels -> `data/channel-videos.tsv`), then
+  `python3 scripts/build-videos.py` (matches titles to TOOLS, drops Shorts and titles like cancel/refund/free alternative,
+  downloads missing thumbnails). Re-run build-videos.py after adding or renaming a tool. Videos tab pages 24 at a time.
+- `VIDEOS` (hand-picked, shown first) feeds the Videos tab too: `{ title, url, channel, category, tool? }` (url = youtube.com/watch?v=<11-char id>).
   Each video needs a thumbnail at `thumbs/<id>.jpg` (320x180, from https://i.ytimg.com/vi/<id>/mqdefault.jpg),
   so the site makes no requests to YouTube. The Videos tab shows category buttons (side list on wide screens)
   and a card grid; tools without videos get "Search on:" links per channel. `#videos` = all, `#videos-email` = one category.
