@@ -29,7 +29,7 @@ const NEWSLETTER = {
   title: "Save time and money with the right apps",
   text: "Useful app and AI tips, new tools worth knowing, deals and our latest tutorials. Only when we have something worth your time. Free, and you can unsubscribe anytime.",
   button: "Sign up free",
-  headerButton: "Free tracker: early access"
+  headerButton: "Free subscription tracker"
 };
 
 /* false = links open in the same tab (back button returns to this page; better on phones).
@@ -471,7 +471,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
         <p class="brand"><a href="#">Use <em>&amp;</em> Like</a></p>
         <p class="tagline">Hand-picked apps and tools, sorted by category.</p>
       </div>
-      <a class="nl-cta hidden" id="nl-cta" href="#tracker"></a>
+      <a class="nl-cta hidden" id="nl-cta" href="https://subscriptionchef.app/"></a>
     </div>
     <nav class="top" aria-label="Sections">
       <a href="#" id="nav-tools">Tools</a>
@@ -684,15 +684,15 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
   var INFO = {
     tracker: {
       title: "Free Subscription Tracker",
-      lead: "We're building a free tool that helps you stop paying for subscriptions you don't use.",
+      lead: "Subscription Chef is our free tool that helps you stop paying for subscriptions you don't use.",
       bullets: [
         "See what all your subscriptions cost per month and per year, in one list.",
         "Get a reminder in your own calendar a few days before each renewal or free trial ends.",
         "Step-by-step guides to cancel, plus cheaper or free alternatives.",
         "No account needed, and your list stays on your device."
       ],
-      paragraphs: ["Join to get early access when it launches, plus useful app tips and deals from time to time. Free, and you can unsubscribe anytime."],
-      cta: true
+      paragraphs: ["It's free and needs no sign-up. Open it on your phone or computer and add your first subscription."],
+      link: { text: "Open the free tracker", url: "https://subscriptionchef.app/" }
     },
     about: {
       title: "About Use & Like",
@@ -723,9 +723,9 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
       view.appendChild(ul);
     }
     page.paragraphs.forEach(function (text) { view.appendChild(el("p", null, text)); });
-    if (page.cta && NEWSLETTER.ready) {
-      var a = el("a", "visit big-cta", "Get early access \u203a");
-      a.href = "/newsletter";
+    if (page.link) {
+      var a = el("a", "visit big-cta", page.link.text + " \u203a");
+      a.href = page.link.url;
       view.appendChild(a);
     }
     if (page.channels) {
