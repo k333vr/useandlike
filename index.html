@@ -29,7 +29,8 @@ const NEWSLETTER = {
   title: "Save time and money with the right apps",
   text: "Useful app and AI tips, new tools worth knowing, deals and our latest tutorials. Only when we have something worth your time. Free, and you can unsubscribe anytime.",
   button: "Sign up free",
-  headerButton: "Free subscription tracker"
+  headerButton: "Join free",
+  trackerButton: "Free tracker"
 };
 
 /* false = links open in the same tab (back button returns to this page; better on phones).
@@ -367,10 +368,13 @@ a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
 /* Masthead */
 header { padding: 22px 0 0; }
 .masthead { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-.nl-cta { margin-left: auto; padding: 8px 14px; border: 2px solid var(--brass); border-radius: 999px; color: var(--text); font-weight: 700; font-size: .9rem; text-decoration: none; white-space: nowrap; }
+.ctas { margin-left: auto; display: flex; gap: 8px; flex-wrap: wrap; }
+.nl-cta.join { background: var(--brand); border-color: var(--brand); color: #fff; }
+.nl-cta.join:hover { background: var(--brand); filter: brightness(1.1); }
+.nl-cta { padding: 8px 14px; border: 2px solid var(--brass); border-radius: 999px; color: var(--text); font-weight: 700; font-size: .9rem; text-decoration: none; white-space: nowrap; }
 .nl-cta:hover { background: var(--soft); }
 .brand-text { flex: 1 1 0; min-width: 0; }
-@media (max-width: 560px) { .brand-text { flex-basis: calc(100% - 58px); } .nl-cta { margin-left: 56px; } }
+@media (max-width: 560px) { .brand-text { flex-basis: calc(100% - 58px); } .ctas { margin-left: 56px; } }
 .logo { width: 44px; height: 44px; flex: none; }
 .logo .bg { fill: var(--brand); }
 .logo .ring { fill: none; stroke: var(--brass); stroke-width: 1.2; }
@@ -471,7 +475,10 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
         <p class="brand"><a href="#">Use <em>&amp;</em> Like</a></p>
         <p class="tagline">Hand-picked apps and tools, sorted by category.</p>
       </div>
-      <a class="nl-cta hidden" id="nl-cta" href="https://subscriptionchef.app/"></a>
+      <div class="ctas">
+        <a class="nl-cta join hidden" id="nl-cta" href="#join"></a>
+        <a class="nl-cta hidden" id="tr-cta" href="https://subscriptionchef.app/"></a>
+      </div>
     </div>
     <nav class="top" aria-label="Sections">
       <a href="#" id="nav-tools">Tools</a>
@@ -682,6 +689,19 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 
   // Small text pages, linked from the footer.
   var INFO = {
+    join: {
+      title: "Join Use & Like, free",
+      lead: "Get the apps and tricks that save you time and money, straight to your inbox.",
+      bullets: [
+        "Useful app and AI tips you can use the same day.",
+        "New tools worth knowing, and deals when we find good ones.",
+        "Our latest tutorials from How To Rocket, Guide Glimpse and Logic Protocol.",
+        "News about our free subscription tracker, Subscription Chef.",
+        "Only when we have something worth your time. Unsubscribe anytime."
+      ],
+      paragraphs: ["It takes 10 seconds: enter your email on the next page."],
+      link: { text: "Sign up free", url: "/newsletter" }
+    },
     tracker: {
       title: "Free Subscription Tracker",
       lead: "Subscription Chef is our free tool that helps you stop paying for subscriptions you don't use.",
@@ -794,6 +814,9 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     var cta = document.getElementById("nl-cta");
     cta.textContent = NEWSLETTER.headerButton + " \u203a";
     cta.classList.remove("hidden");
+    var tr = document.getElementById("tr-cta");
+    tr.textContent = NEWSLETTER.trackerButton + " \u203a";
+    tr.classList.remove("hidden");
   }
 
   var footChannels = document.getElementById("foot-channels");
