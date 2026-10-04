@@ -22,15 +22,17 @@ const CHANNELS = [
   { name: "Logic Protocol", handle: "@Log1cProtocol" }
 ];
 
-/* Newsletter box on the home page and category pages. It links to useandlike.com/newsletter,
-   so add a "/newsletter" line to _redirects first, then set ready to true. */
+/* Newsletter: an email field at the top of every page and a box on the home and category pages.
+   The email goes straight to Beehiiv (formAction = the address Beehiiv's own signup form uses).
+   perk = what subscribers get, shown next to the field. "/newsletter" in _redirects stays as a backup link. */
 const NEWSLETTER = {
   ready: true,
   title: "Save time and money with the right apps",
   text: "Useful app and AI tips, new tools worth knowing, deals and our latest tutorials. Only when we have something worth your time. Free, and you can unsubscribe anytime.",
-  button: "Sign up free",
-  headerButton: "Join free",
-  trackerButton: "Free tracker"
+  button: "Join free",
+  formAction: "https://useandlike.beehiiv.com/create",
+  perk: "Free app tips by email, plus our free subscription tracker:",
+  perkSite: "subscriptionchef.app"
 };
 
 /* false = links open in the same tab (back button returns to this page; better on phones).
@@ -368,14 +370,18 @@ a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
 /* Masthead */
 header { padding: 22px 0 0; }
 .masthead { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-.ctas { margin-left: auto; display: flex; gap: 8px; flex-wrap: wrap; }
-.info-img { float: right; margin: 0 0 12px 16px; max-width: 40%; height: auto; }
-.nl-cta.join { background: var(--brand); border-color: var(--brand); color: #fff; }
-.nl-cta.join:hover { background: var(--brand); filter: brightness(1.1); }
-.nl-cta { padding: 8px 14px; border: 2px solid var(--brass); border-radius: 999px; color: var(--text); font-weight: 700; font-size: .9rem; text-decoration: none; white-space: nowrap; }
-.nl-cta:hover { background: var(--soft); }
+.ctas { margin-left: auto; max-width: 360px; }
+.join-form .perk { display: block; font-size: .85rem; line-height: 1.35; color: var(--muted); margin: 0 0 6px; }
+.join-form .perk b { color: var(--text); }
+.jrow { display: flex; gap: 6px; }
+.jrow input { flex: 1 1 auto; min-width: 0; padding: 9px 12px; font: inherit; font-size: .95rem; color: var(--text); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; }
+.jrow button { flex: none; padding: 9px 16px; font: inherit; font-size: .95rem; font-weight: 700; color: #fff; background: var(--brand); border: 0; border-radius: 999px; cursor: pointer; }
+.jrow button:hover { filter: brightness(1.12); }
+.jrow input:focus-visible, .jrow button:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+.newsletter .join-form { flex: 1 1 280px; }
+.nl-perk { margin-top: 6px !important; }
 .brand-text { flex: 1 1 0; min-width: 0; }
-@media (max-width: 560px) { .brand-text { flex-basis: calc(100% - 58px); } .ctas { margin-left: 56px; } }
+@media (max-width: 560px) { .brand-text { flex-basis: calc(100% - 58px); } .ctas { margin-left: 0; max-width: none; flex-basis: 100%; } }
 .logo { width: 44px; height: 44px; flex: none; }
 .logo .bg { fill: var(--brand); }
 .logo .ring { fill: none; stroke: var(--brass); stroke-width: 1.2; }
@@ -480,10 +486,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
         <p class="brand"><a href="#">Use <em>&amp;</em> Like</a></p>
         <p class="tagline">Hand-picked apps and tools, sorted by category.</p>
       </div>
-      <div class="ctas">
-        <a class="nl-cta join hidden" id="nl-cta" href="#join"></a>
-        <a class="nl-cta hidden" id="tr-cta" href="https://subscriptionchef.app/"></a>
-      </div>
+      <div class="ctas" id="header-join"></div>
     </div>
     <nav class="top" aria-label="Sections">
       <a href="#" id="nav-tools">Tools</a>
@@ -576,15 +579,45 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
   function videosFor(t) { return videos().filter(function (v) { return v.tool === t.name; }); }
   function plural(n, word) { return n + " " + word + (n === 1 ? "" : "s"); }
 
+  // Email field + Join button. Sends the address straight to Beehiiv, which shows its "Subscribed" page.
+  var formCount = 0;
+  function joinForm(withPerk) {
+    var f = el("form", "join-form");
+    f.action = NEWSLETTER.formAction;
+    f.method = "post";
+    var id = "join-email-" + (++formCount);
+    if (withPerk) {
+      var perk = el("label", "perk", NEWSLETTER.perk + " ");
+      perk.htmlFor = id;
+      perk.appendChild(el("b", null, NEWSLETTER.perkSite));
+      f.appendChild(perk);
+    }
+    var row = el("div", "jrow");
+    var input = el("input");
+    input.type = "email"; input.name = "email"; input.id = id; input.required = true;
+    input.placeholder = "Your email"; input.autocomplete = "email";
+    input.setAttribute("aria-label", "Your email");
+    row.appendChild(input);
+    var b = el("button", null, NEWSLETTER.button);
+    b.type = "submit";
+    row.appendChild(b);
+    f.appendChild(row);
+    [["sent_from_orchid", "true"], ["double_opt", "false"], ["fallback_path", "/"]].forEach(function (h) {
+      var x = el("input"); x.type = "hidden"; x.name = h[0]; x.value = h[1]; f.appendChild(x);
+    });
+    f.addEventListener("submit", function () { b.textContent = "Joining\u2026"; });
+    return f;
+  }
   function newsletterBox() {
     var box = el("section", "newsletter");
     var t = el("div", "nl-text");
     t.appendChild(el("h2", null, NEWSLETTER.title));
     t.appendChild(el("p", null, NEWSLETTER.text));
+    var p = el("p", "nl-perk", "Plus our free subscription tracker: ");
+    p.appendChild(el("b", null, NEWSLETTER.perkSite));
+    t.appendChild(p);
     box.appendChild(t);
-    var a = el("a", "visit", NEWSLETTER.button + " \u203a");
-    a.href = "/newsletter";
-    box.appendChild(a);
+    box.appendChild(joinForm(false));
     return box;
   }
 
@@ -759,11 +792,11 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
         "Useful app and AI tips you can use the same day.",
         "New tools worth knowing, and deals when we find good ones.",
         "Our latest tutorials from How To Rocket, Guide Glimpse and Logic Protocol.",
-        "News about our free subscription tracker, Subscription Chef.",
+        "Our free subscription tracker, Subscription Chef (subscriptionchef.app): see what you pay and get reminders before renewals.",
         "Only when we have something worth your time. Unsubscribe anytime."
       ],
-      paragraphs: ["It takes 10 seconds: enter your email on the next page."],
-      link: { text: "Sign up free", url: "/newsletter" }
+      paragraphs: [],
+      form: true
     },
     tracker: {
       title: "Free Subscription Tracker",
@@ -793,8 +826,9 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
       paragraphs: [
         "This site does not use cookies, analytics or tracking scripts, and it does not ask for any personal data.",
         "The site is hosted by Cloudflare, which processes technical data such as your IP address to deliver the pages and protect them against abuse.",
+        "If you join the newsletter, your email address is sent to Beehiiv, our newsletter provider, and their privacy policy applies. You can unsubscribe in any email.",
         "When you click a tool or video link, you leave this site. The tool's website, its affiliate partner or YouTube may then set their own cookies, and their privacy policies apply.",
-        "Last updated: 3 October 2026."
+        "Last updated: 4 October 2026."
       ]
     }
   };
@@ -813,6 +847,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
       view.appendChild(ul);
     }
     page.paragraphs.forEach(function (text) { view.appendChild(el("p", null, text)); });
+    if (page.form && NEWSLETTER.ready) view.appendChild(joinForm(false));
     if (page.link) {
       var a = el("a", "visit big-cta", page.link.text + " \u203a");
       a.href = page.link.url;
@@ -880,12 +915,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
   route();
 
   if (NEWSLETTER.ready) {
-    var cta = document.getElementById("nl-cta");
-    cta.textContent = NEWSLETTER.headerButton + " \u203a";
-    cta.classList.remove("hidden");
-    var tr = document.getElementById("tr-cta");
-    tr.textContent = NEWSLETTER.trackerButton + " \u203a";
-    tr.classList.remove("hidden");
+    document.getElementById("header-join").appendChild(joinForm(true));
   }
 
   var footChannels = document.getElementById("foot-channels");
