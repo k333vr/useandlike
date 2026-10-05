@@ -48,6 +48,8 @@ function readRedirects(errors, warnings) {
     const page = await browser.newPage({ viewport: { width: 390, height: 844 }, colorScheme: scheme });
     page.on("pageerror", e => errors.push(`[${scheme}] page error: ${e.message}`));
     page.on("console", m => m.type() === "error" && errors.push(`[${scheme}] console: ${m.text()}`));
+    // Beehiiv's signup form is an outside service: not loaded here, so the check works offline too.
+    await page.route("https://subscribe-forms.beehiiv.com/**", r => r.fulfill({ contentType: "text/javascript", body: "" }));
     await page.goto(FILE);
 
     if (scheme === "light") {
