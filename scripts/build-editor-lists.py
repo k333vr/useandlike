@@ -30,18 +30,14 @@ GUIDE_ALIASES = {
 }
 
 
-def main():
+def load_tools():
     src = open(os.path.join(ROOT, "index.html"), encoding="utf-8").read()
-    tools = bv.read_js_array(src, "TOOLS")
+    return bv.read_js_array(src, "TOOLS")
+
+
+def make_matcher(tools):
+    """Returns lines_for(title) -> (kind, [lines to put at the top of the description])."""
     slug_of = {t["name"]: t["slug"] for t in tools}
-    os.makedirs(os.path.join(ROOT, "editors"), exist_ok=True)
-
-    with open(os.path.join(ROOT, "editors", "tool-links.csv"), "w", newline="", encoding="utf-8") as f:
-        w = csv.writer(f)
-        w.writerow(["Tool", "Category", "Link for descriptions"])
-        for t in sorted(tools, key=lambda t: (t["category"], t["name"].lower())):
-            w.writerow([t["name"], t["category"], "useandlike.com/" + t["slug"]])
-
     guides = []
     gpath = os.path.join(ROOT, "..", "subscriptionchef", "tools")
     if os.path.isdir(gpath):
@@ -52,11 +48,35 @@ def main():
             guides += [(k, g["slug"]) for k in keys]
     guides.sort(key=lambda k: -len(k[0]))
     gpat = [(re.compile(r"(?<![a-z0-9])" + re.escape(k) + r"(?![a-z0-9])"), s) for k, s in guides]
-
     keys = [(k, t["name"]) for t in tools for k in bv.ALIASES.get(t["name"], [t["name"].lower()])]
     keys.sort(key=lambda k: -len(k[0]))
     tpat = [(re.compile(r"(?<![a-z0-9])" + re.escape(k) + r"(?![a-z0-9])"), n) for k, n in keys]
 
+    def lines_for(title):
+        tl = " " + title.lower() + " "
+        if CANCEL.search(title):
+            g = next((s for rx, s in gpat if rx.search(tl)), None)
+            if g:
+                return "cancel guide", ["👉 Step-by-step guide: subscriptionchef.app/cancel/" + g, NEWSLETTER_LINE]
+        elif not bv.EXCLUDE.search(title):
+            tool = next((n for rx, n in tpat if rx.search(tl)), None)
+            if tool:
+                return "tool", ["👉 Try %s (affiliate link): useandlike.com/%s" % (tool, slug_of[tool]), NEWSLETTER_LINE]
+        return "newsletter only", [NEWSLETTER_LINE]
+    return lines_for
+
+
+def main():
+    tools = load_tools()
+    os.makedirs(os.path.join(ROOT, "editors"), exist_ok=True)
+
+    with open(os.path.join(ROOT, "editors", "tool-links.csv"), "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["Tool", "Category", "Link for descriptions"])
+        for t in sorted(tools, key=lambda t: (t["category"], t["name"].lower())):
+            w.writerow([t["name"], t["category"], "useandlike.com/" + t["slug"]])
+
+    lines_for = make_matcher(tools)
     rows, seen = [], set()
     for line in open(os.path.join(ROOT, "data", "channel-videos.tsv"), encoding="utf-8"):
         p = line.rstrip("\n").split("\t")
@@ -69,17 +89,7 @@ def main():
                 continue
         except ValueError:
             pass
-        tl = " " + title.lower() + " "
-        first, kind = "", "newsletter only"
-        if CANCEL.search(title):
-            g = next((s for rx, s in gpat if rx.search(tl)), None)
-            if g:
-                first, kind = "👉 Step-by-step guide: subscriptionchef.app/cancel/" + g, "cancel guide"
-        elif not bv.EXCLUDE.search(title):
-            tool = next((n for rx, n in tpat if rx.search(tl)), None)
-            if tool:
-                first, kind = "👉 Try %s (affiliate link): useandlike.com/%s" % (tool, slug_of[tool]), "tool"
-        lines = [first, NEWSLETTER_LINE] if first else [NEWSLETTER_LINE]
+        kind, lines = lines_for(title)
         rows.append((int(views) if views.isdigit() else 0, channel, title, "https://youtu.be/" + vid, kind, "\n".join(lines)))
     rows.sort(key=lambda r: -r[0])
 
