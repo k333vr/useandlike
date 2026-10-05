@@ -47,10 +47,11 @@ def tool_of(lines_for, title):
 
 def main():
     lines_for = lists.make_matcher(lists.load_tools())
-    jobs = []
+    jobs, known = [], set()
     for ch, cname in CHANNELS.items():
         recent, life = load(ch + "-90days"), load(ch + "-lifetime")
         ids = set(recent) | set(life)
+        known |= ids   # includes group D, which stays out of the jobs
         vids = {}
         for vid in ids:
             v = dict(life.get(vid) or recent[vid])
@@ -99,6 +100,19 @@ def main():
         print("%s: median CTR %.1f%%, groups %s, missed clicks in A (90 days): %d"
               % (ch, med_ctr, count, sum(r[1] for r in rows if r[0] == "A")))
 
+    # Videos missing from the Studio exports (too few impressions) are group C too, so nothing is left out.
+    listed = {j[2] for j in jobs} | known
+    for line in open(os.path.join(ROOT, "data", "channel-videos.tsv"), encoding="utf-8"):
+        p = line.rstrip("\n").split("\t")
+        if len(p) < 5 or p[0] in listed or p[4] not in CHANNELS.values() or MUSIC.search(p[3]):
+            continue
+        try:
+            if 0 < float(p[2]) <= 60:
+                continue
+        except ValueError:
+            pass
+        listed.add(p[0])
+        jobs.append((order["C"], 0, p[0], p[3], tool_of(lines_for, p[3]), p[4], "C"))
     jobs.sort()
     with open(os.path.join(ROOT, "editors", "thumbnail-jobs.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
