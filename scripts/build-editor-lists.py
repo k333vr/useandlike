@@ -16,7 +16,6 @@ spec = importlib.util.spec_from_file_location("bv", os.path.join(ROOT, "scripts"
 bv = importlib.util.module_from_spec(spec); spec.loader.exec_module(bv)
 
 NEWSLETTER_LINE = "📩 Join Our Newsletter & Get Free Subscription Tracker: useandlike.com/join"
-DISCLOSURE = "(Affiliate link: we may earn a commission at no extra cost to you.)"
 CANCEL = re.compile(r"\bcancel|unsubscribe|end (your |my )?(membership|subscription)|stop (your |my )?subscription", re.I)
 # Extra ways a cancel guide's service is written in titles.
 GUIDE_ALIASES = {
@@ -79,8 +78,8 @@ def main():
         elif not bv.EXCLUDE.search(title):
             tool = next((n for rx, n in tpat if rx.search(tl)), None)
             if tool:
-                first, kind = "👉 Try %s: useandlike.com/%s" % (tool, slug_of[tool]), "tool"
-        lines = [first, NEWSLETTER_LINE, DISCLOSURE] if kind == "tool" else ([first, NEWSLETTER_LINE] if first else [NEWSLETTER_LINE])
+                first, kind = "👉 Try %s (affiliate link): useandlike.com/%s" % (tool, slug_of[tool]), "tool"
+        lines = [first, NEWSLETTER_LINE] if first else [NEWSLETTER_LINE]
         rows.append((int(views) if views.isdigit() else 0, channel, title, "https://youtu.be/" + vid, kind, "\n".join(lines)))
     rows.sort(key=lambda r: -r[0])
 
