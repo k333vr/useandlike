@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Puts our links at the top of old YouTube video descriptions, most viewed videos first.
+"""Puts our links at the top of old YouTube video descriptions: videos with a tool link first, then the rest,
+each group most viewed first. Music videos (DJ remixes etc.) are skipped.
 
 Each video gets the same lines as in the editor lists (scripts/build-editor-lists.py):
     👉 Try <Tool> (affiliate link): useandlike.com/<slug>      (only when the title names one of our tools)
@@ -12,10 +13,11 @@ Setup (once): YT_CLIENT_ID and YT_CLIENT_SECRET from a Google Cloud OAuth client
 
     python3 scripts/youtube-descriptions.py login htr      # sign in with the How To Rocket channel (code on google.com/device)
     python3 scripts/youtube-descriptions.py run htr        # preview only: writes editors/youtube-preview-htr.csv
-    python3 scripts/youtube-descriptions.py run htr --apply --limit 180
+    python3 scripts/youtube-descriptions.py run htr --apply --limit 95
 
-YouTube's free quota is 10,000 units a day per Google Cloud project: an update costs 50, reading the video
-list about 400 for 9,000 videos, so about 180 updates a day across all channels.
+YouTube's free quota is 10,000 units a day per Google Cloud project, shared by all channels (resets at midnight
+Pacific time): an update costs 50, reading one channel's video list about 200 for 5,000 videos, so about
+190 updates a day in total, e.g. --limit 95 for each of the two channels.
 Sign-in tokens are saved in ~/.config/useandlike-youtube/ (never in the repo), or read from the environment
 variable YT_REFRESH_TOKEN_<NAME> (e.g. YT_REFRESH_TOKEN_HTR).
 """
@@ -27,6 +29,8 @@ SCOPE = "https://www.googleapis.com/auth/youtube"
 API = "https://www.googleapis.com/youtube/v3/"
 MARKER = "useandlike.com/join"
 MAX_DESCRIPTION = 5000
+# Music uploads (Rajasthani/Marwadi DJ remixes on How To Rocket): their viewers are not our newsletter's audience
+MUSIC = re.compile(r"\bdj\b|remix|rajasthani|marwadi|bhajan|bhakti|dholki|bass mix|[\u0900-\u097F]", re.I)
 
 spec = importlib.util.spec_from_file_location("lists", os.path.join(ROOT, "scripts", "build-editor-lists.py"))
 lists = importlib.util.module_from_spec(spec)
@@ -136,18 +140,21 @@ def run(name, apply, limit):
     channel, videos = all_videos(token)
     print("Channel: %s, %d videos" % (channel, len(videos)))
 
-    todo = []
+    todo, seen = [], set()
     for v in videos:
         sn = v["snippet"]
-        if MARKER in sn.get("description", "") or sn.get("liveBroadcastContent", "none") != "none":
+        if v["id"] in seen or MARKER in sn.get("description", "") or sn.get("liveBroadcastContent", "none") != "none":
+            continue
+        seen.add(v["id"])
+        if MUSIC.search(sn["title"]):
             continue
         if seconds(v["contentDetails"].get("duration")) <= 60:      # Shorts: links in their descriptions can't be clicked
             continue
         kind, lines = lines_for(sn["title"])
         new = "\n".join(lines) + "\n\n" + sn.get("description", "")
         todo.append((int(v["statistics"].get("viewCount", 0)), v, kind, new))
-    todo.sort(key=lambda t: -t[0])
-    print("%d videos still need the links (most viewed first)." % len(todo))
+    todo.sort(key=lambda t: (t[2] == "newsletter only", -t[0]))
+    print("%d videos still need the links (videos with a tool link first, then most viewed)." % len(todo))
 
     os.makedirs(os.path.join(ROOT, "editors"), exist_ok=True)
     out = os.path.join(ROOT, "editors", "youtube-%s-%s.csv" % ("updated" if apply else "preview", name))
