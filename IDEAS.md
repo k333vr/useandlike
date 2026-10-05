@@ -11,3 +11,12 @@ After the 3 channels' packaging and descriptions are done:
 
 ## Website look
 - All four presenters together at the top of useandlike.com, maybe with small animations.
+
+## Subscription tracker look (owner, 5 Oct 2026)
+- Make the subscription list look like a recipe card; the fox chef holds a phone/tablet; or use the channel
+  presenters with branding and keep the fox smaller. Functions are fine as they are.
+
+## Newsletter + trend scout (owner, 5 Oct 2026)
+- Scout runs automatically (all day), collects new apps/tools/trends from many sources (incl. chosen X and
+  Instagram accounts), summarises, drafts the newsletter; owner reviews and sends at least every 2 weeks,
+  more often when there is enough worth sending. Ideas also become videos on the fitting channel (GG/HTR/LP).
