@@ -1,0 +1,5 @@
+# Private YouTube Studio exports (revenue etc.): never commit
+data/studio/
+editors/thumbnail-priority-*.csv
+editors/thumbnail-jobs.csv
+editors/youtube-*.csv
