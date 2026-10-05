@@ -381,6 +381,8 @@ header { padding: 22px 0 0; }
 .join-form .perk { margin: 0 0 8px; line-height: 1.3; }
 .perk-title { display: block; font: 700 1.05rem var(--serif); color: var(--text); }
 .perk-gift { display: inline-block; margin-top: 4px; padding: 3px 10px; border-radius: 999px; background: #e8642c; color: #fff; font-weight: 700; font-size: .92rem; }
+.info-banner { display: block; width: 100%; max-width: 560px; height: auto; margin: 4px 0 14px; border-radius: 14px; }
+.info .after { margin-top: 18px; }
 .info-img { float: right; margin: 0 0 12px 16px; max-width: 42%; height: auto; border-radius: 10px; }
 .bh-slot { min-height: 47px; }
 .joined { margin: 0; font-weight: 700; color: var(--text); }
@@ -811,6 +813,17 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 
   // Small text pages, linked from the footer.
   var INFO = {
+    // Where Beehiiv sends people after they tap "Confirm" in the confirmation email (useandlike.com/welcome).
+    welcome: {
+      title: "You're in! Welcome to Use & Like",
+      banner: { src: "img/welcome.webp", w: 800, h: 480, alt: "Lexi from How To Rocket and Hana from Guide Glimpse giving a thumbs up next to the Subscription Tracker on a phone" },
+      lead: "Thanks for confirming your email. Here's your free Subscription Tracker: see what all your subscriptions cost, get a reminder before each renewal, and find out how to cancel what you don't use.",
+      bullets: [],
+      paragraphs: [],
+      link: { text: "Open the free Subscription Tracker", url: "https://subscriptionchef.app/" },
+      after: "What's next: we'll email you app tips, new tools worth knowing and our latest videos, only when we have something worth your time. Until then, browse the tools we use, sorted by category.",
+      homeLink: "See all tools"
+    },
     join: {
       title: "Join free + get our Free Subscription Tracker",
       image: { src: "img/join-tracker.webp", w: 190, h: 221 },
@@ -866,6 +879,11 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
       img.src = page.image.src; img.alt = ""; img.width = page.image.w; img.height = page.image.h;
       view.appendChild(img);
     }
+    if (page.banner) {
+      var ban = el("img", "info-banner");
+      ban.src = page.banner.src; ban.alt = page.banner.alt; ban.width = page.banner.w; ban.height = page.banner.h;
+      view.appendChild(ban);
+    }
     view.appendChild(el("h1", null, page.title));
     if (page.lead) view.appendChild(el("p", "lead", page.lead));
     if (page.bullets) {
@@ -879,6 +897,12 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
       var a = el("a", "visit big-cta", page.link.text + " \u203a");
       a.href = page.link.url;
       view.appendChild(a);
+    }
+    if (page.after) view.appendChild(el("p", "after", page.after));
+    if (page.homeLink) {
+      var h = el("a", null, page.homeLink + " \u203a");
+      h.href = "#";
+      view.appendChild(h);
     }
     if (page.channels) {
       var p = el("p", null, "Questions? Reach us through our channels: ");
@@ -912,6 +936,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     else if (cat) renderCategory(view, cat);
     else renderIndex(view);
 
+    document.getElementById("header-join").style.display = id === "welcome" ? "none" : "";   // they just subscribed
     setCurrent("nav-tools", !isVideos && !info);
     setCurrent("nav-videos", isVideos);
     document.title = info ? info.title + " – Use & Like"
