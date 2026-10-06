@@ -6,7 +6,8 @@ Each video gets the same lines as in the editor lists (scripts/build-editor-list
     👉 Try <Tool> (affiliate link): useandlike.com/<slug>      (only when the title names one of our tools)
     📩 Join Our Newsletter & Get Free Subscription Tracker: useandlike.com/join
 followed by an empty line and the old description, unchanged. Titles, tags and everything else stay as they are.
-Videos whose description already has useandlike.com/join are skipped, so running it again is safe.
+Videos whose description already has useandlike.com/join are skipped (running it again is safe),
+except that the tool line is added on top when that video's tool was added to the site later.
 
 Setup (once): YT_CLIENT_ID and YT_CLIENT_SECRET from a Google Cloud OAuth client of type
 "TVs and Limited Input devices", with the YouTube Data API v3 enabled.
@@ -143,7 +144,7 @@ def run(name, apply, limit):
     todo, seen = [], set()
     for v in videos:
         sn = v["snippet"]
-        if v["id"] in seen or MARKER in sn.get("description", "") or sn.get("liveBroadcastContent", "none") != "none":
+        if v["id"] in seen or sn.get("liveBroadcastContent", "none") != "none":
             continue
         seen.add(v["id"])
         if MUSIC.search(sn["title"]):
@@ -151,7 +152,14 @@ def run(name, apply, limit):
         if seconds(v["contentDetails"].get("duration")) <= 60:      # Shorts: links in their descriptions can't be clicked
             continue
         kind, lines = lines_for(sn["title"])
-        new = "\n".join(lines) + "\n\n" + sn.get("description", "")
+        desc = sn.get("description", "")
+        if MARKER in desc:
+            # Already has our links: only add the tool line when the video's tool was added to the site later.
+            if kind != "tool" or "\U0001F449" in desc[:400]:
+                continue
+            new, kind = lines[0] + "\n" + desc, "tool line added"
+        else:
+            new = "\n".join(lines) + "\n\n" + desc
         todo.append((int(v["statistics"].get("viewCount", 0)), v, kind, new))
     todo.sort(key=lambda t: (t[2] == "newsletter only", -t[0]))
     print("%d videos still need the links (videos with a tool link first, then most viewed)." % len(todo))
