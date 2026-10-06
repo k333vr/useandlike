@@ -34,7 +34,7 @@ def load(name):
             continue
         imp = float(r.get("Thumbnail impressions") or 0)
         ctr = float(r.get("Thumbnail click-through rate (%)") or 0)
-        out[r["Content"]] = {"title": r["Video title"], "dur": int(r["Duration"] or 0), "imp": imp, "ctr": ctr,
+        out[r["Content"].strip()] = {"title": r["Video title"], "dur": int(r["Duration"] or 0), "imp": imp, "ctr": ctr,
                              "views": float(r.get("Views") or 0), "published": r["Video publish time"]}
     return out
 
