@@ -61,7 +61,7 @@ def make_matcher(tools):
         elif not bv.EXCLUDE.search(title):
             tool = next((n for rx, n in tpat if rx.search(tl)), None)
             if tool:
-                return "tool", ["👉 Try %s (affiliate link): useandlike.com/%s" % (tool, slug_of[tool]), NEWSLETTER_LINE]
+                return "tool", ["👉 Try %s (affiliate): useandlike.com/%s" % (tool, slug_of[tool]), NEWSLETTER_LINE]
         return "newsletter only", [NEWSLETTER_LINE]
     return lines_for
 

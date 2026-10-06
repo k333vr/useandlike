@@ -41,7 +41,7 @@ def load(name):
 
 def tool_of(lines_for, title):
     kind, lines = lines_for(title)
-    m = re.match(r"👉 Try (.+?) \(affiliate link\)", lines[0]) if kind == "tool" else None
+    m = re.match(r"👉 Try (.+?) \(affiliate\)", lines[0]) if kind == "tool" else None
     return m.group(1) if m else ""
 
 

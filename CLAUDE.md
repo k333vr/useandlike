@@ -33,7 +33,7 @@ The owner is a beginner. Explain things in plain language and do as much as poss
 - Editor lists: `python3 scripts/build-editor-lists.py` -> `editors/` (tool-links.csv, videos-<channel>.csv with the lines to paste;
   not published). `scripts/youtube-descriptions.py` (login/run, preview by default, `--apply` to change YouTube) puts the same
   lines at the top of old descriptions via the YouTube Data API, most viewed first, ~180/day; tokens live outside the repo.
-  Description format: `👉 Try <Tool> (affiliate link): useandlike.com/<slug>` then the 📩 newsletter line, then an empty line.
+  Description format: `👉 Try <Tool> (affiliate): useandlike.com/<slug>` then the 📩 newsletter line, then an empty line.
 - Affiliate links live ONLY in `_redirects` (Cloudflare short links), e.g.
   `/wise  https://wise.prf.hn/click/camref:...  302`. Each tool's `slug` in `TOOLS` points at one,
   and its Visit button goes to `/slug`. The owner also uses these short links in YouTube descriptions,

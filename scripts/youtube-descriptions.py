@@ -3,7 +3,7 @@
 each group most viewed first. Music videos (DJ remixes etc.) are skipped.
 
 Each video gets the same lines as in the editor lists (scripts/build-editor-lists.py):
-    👉 Try <Tool> (affiliate link): useandlike.com/<slug>      (only when the title names one of our tools)
+    👉 Try <Tool> (affiliate): useandlike.com/<slug>      (only when the title names one of our tools)
     📩 Join Our Newsletter & Get Free Subscription Tracker: useandlike.com/join
 followed by an empty line and the old description, unchanged. Titles, tags and everything else stay as they are.
 Videos whose description already has useandlike.com/join are skipped (running it again is safe),
