@@ -161,8 +161,8 @@ def run(name, apply, limit):
         else:
             new = "\n".join(lines) + "\n\n" + desc
         todo.append((int(v["statistics"].get("viewCount", 0)), v, kind, new))
-    todo.sort(key=lambda t: (t[2] == "newsletter only", -t[0]))
-    print("%d videos still need the links (videos with a tool link first, then most viewed)." % len(todo))
+    todo.sort(key=lambda t: -t[0])   # most viewed first (owner, 8 Oct): the newsletter line matters on every big video
+    print("%d videos still need the links (most viewed first)." % len(todo))
 
     os.makedirs(os.path.join(ROOT, "editors"), exist_ok=True)
     out = os.path.join(ROOT, "editors", "youtube-%s-%s.csv" % ("updated" if apply else "preview", name))
