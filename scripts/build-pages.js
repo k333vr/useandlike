@@ -35,7 +35,7 @@ const PAGES = [
     paragraphs: [
       "We make tutorials for many of these tools: more than 9,000 videos so far, mostly about everyday apps. This site collects the tools in one place, sorted by category, with our videos about each one, so you can see how a tool works before you sign up.",
       "We also make a free [Subscription Tracker](https://subscriptionchef.app/) and a free [app newsletter](/#join).",
-      "Use & Like is run by Kevin Redl. Contact: [" + CONTACT + "](mailto:" + CONTACT + ")",
+      "Contact: [" + CONTACT + "](mailto:" + CONTACT + ")",
       "More: [How we choose tools](/how-we-choose/) · [How we make money](/how-we-make-money/) · [Work with us](/work-with-us/) · [Privacy](/#privacy)"
     ],
     channels: true
