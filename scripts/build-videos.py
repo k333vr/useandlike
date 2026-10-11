@@ -4,6 +4,7 @@
 Input:  data/channel-videos.tsv  (id, views, seconds, title, channel) - refresh with scripts/fetch-videos.sh
 Output: videos.js                (loaded by the Videos tab only when it is opened)
         thumbs/<id>.jpg          (downloaded when missing, 320x180, so visitors never contact YouTube)
+        then runs scripts/build-pages.js (the category and tool pages list the videos too)
 
 Run: python3 scripts/build-videos.py [--no-thumbs]
 """
@@ -26,8 +27,14 @@ ALIASES = {
 }
 # Titles that would undercut the affiliate offer or don't help a buyer: left out of the site.
 EXCLUDE = re.compile(r"free alternative|alternatives?\b|for free|premium free|free premium|license key|crack|"
-                     r"trial reset|without watermark|bypass|mod apk|\bhack|cancel|refund|delete (your |my )?account|"
-                     r"unsubscribe|deactivate|close (your |my )?account|scam|wise ?agent", re.I)
+                     r"trial reset|without watermark|bypass|mod apk|\bhack|cancel|refund|delete\b[^|]{0,40}?\baccount|"
+                     r"unsubscribe|deactivate|close (your |my )?account|scam|wise ?agent|without paying a (cent|dime|penny)", re.I)
+# Other products with the same name (the tool page would show the wrong thing).
+NOT_ABOUT = {
+    "Wise": re.compile(r"wise (program )?uninstaller|auto shutdown|wise care|wisecleaner|wise (disk|registry) cleaner|"
+                       r"wise memory|wise folder|wise data recovery|wise game booster|wise duplicate|wise force deleter", re.I),
+    "Nolo": re.compile(r"nolo ?vr|nolo home|nolo sonic", re.I),
+}
 SUFFIX = re.compile(r"\s*\|\s*(HTR|GG|Guide ?Glimpse|GuideG|Rocket Guide|HTRocket|How ?To ?Rocket)\s*$", re.I)
 
 
@@ -66,7 +73,7 @@ def main():
             continue
         tl = " " + title.lower() + " "
         tool = next((name for rx, name in patterns if rx.search(tl)), None)
-        if not tool:
+        if not tool or (tool in NOT_ABOUT and NOT_ABOUT[tool].search(title)):
             continue
         rows.append((int(views) if views.isdigit() else 0, vid, SUFFIX.sub("", title).strip(), channel, tool))
     rows.sort(key=lambda r: -r[0])
@@ -84,6 +91,8 @@ def main():
 
     if "--no-thumbs" not in sys.argv:
         fetch_thumbs([r[1] for r in rows])
+    # The category and tool pages list these videos: rebuild them.
+    subprocess.run(["node", os.path.join(ROOT, "scripts", "build-pages.js")], check=True)
 
 
 def fetch_thumbs(ids):

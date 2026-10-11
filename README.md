@@ -1,6 +1,7 @@
 # useandlike.com
 
-A one-page list of apps and tools we use, with affiliate links. Plain static files: no build step, no frameworks, no tracking.
+A directory of apps and tools we use, with affiliate links: the home page (`index.html`) plus a real page per category
+and per tool, made by `node scripts/build-pages.js`. Plain static files: no frameworks, no tracking.
 
 ## How to edit the links
 
@@ -28,15 +29,14 @@ Short links only work on the live site (Cloudflare), not when opening index.html
 
 Save, commit, and push to `main`. Cloudflare updates the site within a minute or two.
 
-## Linking straight to a category
+## Pages per category and per tool
 
-Each category has its own link, which is handy in YouTube descriptions:
+After editing the EDIT HERE block, run `node scripts/build-pages.js`. It writes a page for every category and tool,
+the About / How we choose tools / How we make money / Work with us pages (their texts are at the top of the script),
+`sitemap.xml` and `robots.txt`. Handy links for YouTube descriptions:
 
-- https://useandlike.com/#vpn-and-privacy
-- https://useandlike.com/#email
-- https://useandlike.com/#cloud-storage
-- https://useandlike.com/#web-hosting
-- https://useandlike.com/#online-stores-and-funnels
+- Category: https://useandlike.com/category/web-hosting/ (the older https://useandlike.com/#web-hosting forwards there)
+- Tool: https://useandlike.com/tool/wise/ (the short link https://useandlike.com/wise still goes straight to Wise)
 - Videos tab: https://useandlike.com/#videos, or one category: https://useandlike.com/#videos-email
 
 ## Cloudflare settings
@@ -46,6 +46,8 @@ using the build settings in the Cloudflare dashboard. Pushing to `main` deploys 
 
 ## Checking the page
 
-`node scripts/check.js` tests the page in a phone-sized browser (light and dark): data is complete, at most one
-"Our pick" per category, every category page and the back button work, no superlatives, affiliate links marked as sponsored, videos point at real tools, no sideways scrolling.
+`node scripts/check.js` tests the site in a phone-sized browser (light and dark): data is complete, at most one
+"Our pick" per category, the category and tool pages are up to date and work, old # links forward, the back button
+works, no superlatives, affiliate links marked as sponsored, videos point at real tools, the sitemap lists only
+finished pages, no sideways scrolling.
 Add `--online` to also open every real affiliate link. `CLAUDE.md` describes the update routine for Claude.

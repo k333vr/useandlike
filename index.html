@@ -9,6 +9,10 @@
 <link rel="preload" href="https://subscribe-forms.beehiiv.com/api/v3/forms/2e365ed3-e1eb-488c-bd24-fb8f0709b3a4" as="fetch" crossorigin>
 <title>Use &amp; Like – Directory of apps and tools we use</title>
 <meta name="description" content="A directory of the apps and tools we use, sorted by category, with our videos about them.">
+<link rel="canonical" href="https://useandlike.com/">
+<!-- build-pages:ld -->
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://useandlike.com/#organization","name":"Use & Like","url":"https://useandlike.com/","sameAs":["https://www.youtube.com/@HowToRocket","https://www.youtube.com/@GuideGlimpse","https://www.youtube.com/@Log1cProtocol"]},{"@type":"WebSite","@id":"https://useandlike.com/#website","name":"Use & Like","url":"https://useandlike.com/","publisher":{"@id":"https://useandlike.com/#organization"}}]}</script>
+<!-- /build-pages:ld -->
 <meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="#1f3a5f">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='9' fill='%231f3a5f'/%3E%3Ctext x='20' y='29' font-family='Georgia,serif' font-style='italic' font-size='26' fill='%23f3e6c4' text-anchor='middle'%3E%26%3C/text%3E%3C/svg%3E">
@@ -447,6 +451,27 @@ nav.top a[aria-current="page"] { color: var(--text); text-decoration: underline;
 .more-videos a { font-weight: 700; text-decoration: none; }
 .more-videos a:hover { text-decoration: underline; }
 
+/* Category and tool pages (made by scripts/build-pages.js) */
+.crumbs { margin: 20px 0 6px; font-size: .95rem; color: var(--muted); }
+.crumbs a { font-weight: 600; text-decoration: none; }
+.crumbs a:hover { text-decoration: underline; }
+.tool-more { margin: 6px 0 0; font-size: .95rem; }
+.tool-more a { font-weight: 600; text-decoration: none; }
+.tool-more a:hover { text-decoration: underline; }
+.tool-head { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 28px; margin: 0 0 6px; }
+.tool-head .main { flex: 1 1 320px; min-width: 0; }
+.tool-head .lead { margin: 4px 0 0; font-size: 1.1rem; }
+.tool-head .big-cta { margin-top: 0; }
+.vsub + .vgrid { margin-top: 12px; }
+details.more-vids { margin-top: 22px; }
+details.more-vids > summary { display: table; margin: 0 auto; padding: 10px 20px; border: 2px solid var(--brass); border-radius: 999px; font-weight: 600; font-size: .9rem; cursor: pointer; list-style: none; }
+details.more-vids > summary::-webkit-details-marker { display: none; }
+details.more-vids[open] > summary { margin-bottom: 22px; }
+.related { border-top: 1px solid var(--line); }
+.related li { padding: 8px 0; border-bottom: 1px solid var(--line); color: var(--muted); }
+.related a { font-weight: 700; text-decoration: none; }
+.related a:hover { text-decoration: underline; }
+
 /* Videos */
 .vlayout { display: grid; gap: 16px 28px; margin-top: 12px; }
 @media (min-width: 900px) { .vlayout { grid-template-columns: 230px 1fr; align-items: start; } }
@@ -510,13 +535,34 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     </nav>
   </header>
 
-  <main id="view"></main>
-  <noscript><p>Please turn on JavaScript to see the directory.</p></noscript>
+  <main id="view">
+<!-- build-pages:home -->
+<div class="index">
+<section class="block"><h2><a href="/category/vpn-and-privacy/">VPN &amp; Privacy</a></h2><ul class="plain"><li><a href="/protonvpn" rel="sponsored">Proton VPN</a></li><li><a href="/protonpass" rel="sponsored">Proton Pass</a></li><li><a href="/malwarebytes" rel="sponsored">Malwarebytes</a></li><li><a href="/gologin" rel="sponsored">GoLogin</a></li></ul></section>
+<section class="block"><h2><a href="/category/email/">Email</a></h2><ul class="plain"><li><a href="/protonmail" rel="sponsored">Proton Mail</a></li><li><a href="/startmail" rel="sponsored">StartMail</a></li></ul></section>
+<section class="block"><h2><a href="/category/cloud-storage/">Cloud Storage</a></h2><ul class="plain"><li><a href="/pcloud" rel="sponsored">pCloud</a></li><li><a href="/protondrive" rel="sponsored">Proton Drive</a></li></ul></section>
+<section class="block"><h2><a href="/category/web-hosting/">Web Hosting</a></h2><ul class="plain"><li><a href="/hostinger" rel="sponsored">Hostinger</a></li><li><a href="/hostgator" rel="sponsored">HostGator</a></li><li><a href="/ionos" rel="sponsored">IONOS</a></li><li><a href="/webhostmost" rel="sponsored">WebHostMost</a></li></ul></section>
+<section class="block"><h2><a href="/category/website-and-app-builders/">Website &amp; App Builders</a></h2><ul class="plain"><li><a href="/lovable" rel="sponsored">Lovable</a></li><li><a href="/mixo" rel="sponsored">Mixo</a></li><li><a href="/adalo" rel="sponsored">Adalo</a></li></ul></section>
+<section class="block"><h2><a href="/category/online-stores-and-funnels/">Online Stores &amp; Funnels</a></h2><ul class="plain"><li><a href="/shopify" rel="sponsored">Shopify</a></li><li><a href="/systeme" rel="sponsored">Systeme.io</a></li><li><a href="/clickfunnels" rel="sponsored">ClickFunnels</a></li><li><a href="/gohighlevel" rel="sponsored">GoHighLevel</a></li><li><a href="/autods" rel="sponsored">AutoDS</a></li></ul></section>
+<section class="block"><h2><a href="/category/video-creation/">Video Creation</a></h2><ul class="plain"><li><a href="/capcut" rel="sponsored">CapCut</a></li><li><a href="/descript" rel="sponsored">Descript</a></li><li><a href="/invideo" rel="sponsored">InVideo</a></li><li><a href="/opusclip" rel="sponsored">Opus Clip</a></li><li><a href="/klap" rel="sponsored">Klap</a></li><li><a href="/autoshorts" rel="sponsored">AutoShorts</a></li><li><a class="all" href="/category/video-creation/">All 9 ›</a></li></ul></section>
+<section class="block"><h2><a href="/category/voice-and-audio/">Voice &amp; Audio</a></h2><ul class="plain"><li><a href="/elevenlabs" rel="sponsored">ElevenLabs</a></li><li><a href="/murf" rel="sponsored">Murf AI</a></li><li><a href="/ttsfree" rel="sponsored">TTSFree</a></li><li><a href="/epidemicsound" rel="sponsored">Epidemic Sound</a></li></ul></section>
+<section class="block"><h2><a href="/category/youtube-tools/">YouTube Tools</a></h2><ul class="plain"><li><a href="/vidiq" rel="sponsored">vidIQ</a></li><li><a href="/tubemagic" rel="sponsored">TubeMagic</a></li><li><a href="/pikzels" rel="sponsored">Pikzels</a></li></ul></section>
+<section class="block"><h2><a href="/category/ai-writing-and-research/">AI Writing &amp; Research</a></h2><ul class="plain"><li><a href="/rytr" rel="sponsored">Rytr</a></li><li><a href="/merlin" rel="sponsored">Merlin AI</a></li><li><a href="/scispace" rel="sponsored">SciSpace</a></li><li><a href="/paperguide" rel="sponsored">Paperguide</a></li></ul></section>
+<section class="block"><h2><a href="/category/productivity-and-design/">Productivity &amp; Design</a></h2><ul class="plain"><li><a href="/coda" rel="sponsored">Coda</a></li><li><a href="/xtiles" rel="sponsored">xTiles</a></li><li><a href="/visme" rel="sponsored">Visme</a></li></ul></section>
+<section class="block"><h2><a href="/category/freelancers/">Freelancers</a></h2><ul class="plain"><li><a href="/fiverr" rel="sponsored">Fiverr</a></li><li><a href="/fiverrpro" rel="sponsored">Fiverr Pro</a></li><li><a href="/fiverrlogomaker" rel="sponsored">Fiverr Logo Maker</a></li><li><a href="/fiverraffiliates" rel="sponsored">Fiverr Affiliates</a></li></ul></section>
+<section class="block"><h2><a href="/category/business-and-legal/">Business &amp; Legal</a></h2><ul class="plain"><li><a href="/firstbase" rel="sponsored">Firstbase</a></li><li><a href="/signnow" rel="sponsored">signNow</a></li><li><a href="/nolo" rel="sponsored">Nolo</a></li><li><a href="/beehiiv" rel="sponsored">Beehiiv</a></li><li><a href="/baremetrics" rel="sponsored">Baremetrics</a></li><li><a href="/browseai" rel="sponsored">Browse AI</a></li><li><a class="all" href="/category/business-and-legal/">All 8 ›</a></li></ul></section>
+<section class="block"><h2><a href="/category/money-and-trading/">Money &amp; Trading</a></h2><ul class="plain"><li><a href="/wise" rel="sponsored">Wise</a></li><li><a href="/tradingview" rel="sponsored">TradingView</a></li></ul></section>
+<section class="block"><h2><a href="/category/learning/">Learning</a></h2><ul class="plain"><li><a href="/headway" rel="sponsored">Headway</a></li><li><a href="/talkpal" rel="sponsored">Talkpal</a></li></ul></section>
+<section class="block"><h2><a href="/category/shopping-and-mobile/">Shopping &amp; Mobile</a></h2><ul class="plain"><li><a href="/shein" rel="sponsored">Shein</a></li><li><a href="/att" rel="sponsored">AT&amp;T</a></li><li><a href="/amigosim" rel="sponsored">AmigoSIM</a></li><li><a href="/gamsgo" rel="sponsored">GamsGo</a></li></ul></section>
+</div>
+<!-- /build-pages:home -->
+  </main>
+  <noscript><p>Please turn on JavaScript to see the videos and the newsletter signup.</p></noscript>
 
   <footer>
     <p>Some links on this page are affiliate links. If you sign up through them, we may earn a commission at no extra cost to you.</p>
     <p id="foot-channels"></p>
-    <p><a href="#about">About</a> · <a href="#privacy">Privacy</a> · &copy; <span id="year"></span> useandlike.com</p>
+    <p><a href="/about/">About</a> · <a href="/how-we-choose/">How we choose tools</a> · <a href="/how-we-make-money/">How we make money</a> · <a href="/work-with-us/">Work with us</a> · <a href="/#privacy">Privacy</a> · &copy; <span id="year"></span> useandlike.com</p>
   </footer>
 </div>
 
@@ -547,6 +593,12 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
   function inner(text, hash, cls) {
     var a = el("a", cls, text);
     a.href = "#" + hash;
+    return a;
+  }
+  // Category pages are real pages (made by scripts/build-pages.js): /category/web-hosting/
+  function catLink(text, cat, cls) {
+    var a = el("a", cls, text);
+    a.href = "/category/" + slug(cat) + "/";
     return a;
   }
   function aff(t, text, cls) { return ext(text, "/" + t.slug, cls, "sponsored"); }
@@ -593,7 +645,6 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
   function videos() { return allVideos || VIDEOS; }
   function videosIn(cat) { return videos().filter(function (v) { return v.category === cat; }); }
   function videosFor(t) { return videos().filter(function (v) { return v.tool === t.name; }); }
-  function plural(n, word) { return n + " " + word + (n === 1 ? "" : "s"); }
 
   // The signup: Beehiiv's own embedded field when NEWSLETTER.beehiivForm is set (so the email goes
   // straight in), otherwise a field whose button opens the Beehiiv signup page.
@@ -660,51 +711,20 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
       var tools = toolsIn(cat);
       var block = el("section", "block");
       var h = el("h2");
-      h.appendChild(inner(cat, slug(cat)));
+      h.appendChild(catLink(cat, cat));
       block.appendChild(h);
       var ul = el("ul", "plain");
       if (!tools.length) ul.appendChild(el("li", "soon", "Coming soon"));
       tools.slice(0, VISIBLE_COUNT).forEach(function (t) { var li = el("li"); li.appendChild(aff(t, t.name)); ul.appendChild(li); });
       if (tools.length > VISIBLE_COUNT) {
         var li = el("li");
-        li.appendChild(inner("All " + tools.length + " \u203a", slug(cat), "all"));
+        li.appendChild(catLink("All " + tools.length + " \u203a", cat, "all"));
         ul.appendChild(li);
       }
       block.appendChild(ul);
       index.appendChild(block);
     });
     view.appendChild(index);
-    if (NEWSLETTER.ready) view.appendChild(newsletterBox());
-  }
-
-  // One category in the Tools tab: every tool with a description and a Visit button.
-  function renderCategory(view, cat) {
-    var tools = toolsIn(cat);
-    view.appendChild(inner("‹ All categories", "", "crumb"));
-    view.appendChild(el("h1", null, cat));
-    view.appendChild(el("p", "count", tools.length ? plural(tools.length, "tool") : "Coming soon"));
-    var ul = el("ul", "plain rows");
-    tools.forEach(function (t) {
-      var li = el("li", "row");
-      var main = el("div", "main");
-      main.appendChild(aff(t, t.name, "name"));
-      if (t.isPick) main.appendChild(el("span", "pick", "Our pick"));
-      main.appendChild(el("p", "desc", t.description));
-      if (t.why) main.appendChild(el("p", "note", t.why));
-      if (t.details) main.appendChild(el("p", "note", t.details));
-      li.appendChild(main);
-      var visit = aff(t, "Visit", "visit");
-      visit.setAttribute("aria-label", "Visit " + t.name);
-      li.appendChild(visit);
-      ul.appendChild(li);
-    });
-    view.appendChild(ul);
-    if (tools.length) {
-      var box = el("p", "more-videos");
-      box.appendChild(document.createTextNode("Want to know more? "));
-      box.appendChild(inner("Watch our videos about " + cat + " ›", "videos-" + slug(cat)));
-      view.appendChild(box);
-    }
     if (NEWSLETTER.ready) view.appendChild(newsletterBox());
   }
 
@@ -854,15 +874,6 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
       paragraphs: ["It's free and needs no sign-up. Open it on your phone or computer and add your first subscription."],
       link: { text: "Open the free tracker", url: "https://subscriptionchef.app/" }
     },
-    about: {
-      title: "About Use & Like",
-      paragraphs: [
-        "Use & Like is a directory of apps and tools, put together by the team behind the YouTube channels How To Rocket, Guide Glimpse and Logic Protocol.",
-        "We make tutorials for many of these tools. This site collects them in one place, sorted by category, so you can find the right one quickly.",
-        "Some links are affiliate links: if you sign up through them, we may earn a commission at no extra cost to you."
-      ],
-      channels: true
-    },
     privacy: {
       title: "Privacy",
       paragraphs: [
@@ -914,9 +925,9 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     }
   }
 
-  // Pages live in the address after "#": "" home, "email" a category, "videos", "videos-email",
-  // "about", "privacy", "tracker".
-  // Category links keep working in YouTube descriptions, and the back button returns to the list.
+  // Pages live in the address after "#": "" home, "videos", "videos-email", "join", "welcome", "privacy",
+  // "tracker". Categories and About are real pages now (/category/email/, /about/): their old "#" links
+  // (e.g. in YouTube descriptions) forward there.
   var view = document.getElementById("view");
   var homeScroll = 0, lastRoute = null;
   function setCurrent(navId, on) {
@@ -928,27 +939,28 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
   function route() {
     var id = decodeURIComponent(location.hash.slice(1));
     var isVideos = id === "videos" || id.indexOf("videos-") === 0;
-    var cat = findCat(isVideos ? id.slice(7) : id);
+    if (id === "about") return location.replace("/about/");
+    if (!isVideos && findCat(id)) return location.replace("/category/" + id + "/");
+    var cat = isVideos ? findCat(id.slice(7)) : null;
     var info = INFO.hasOwnProperty(id) ? INFO[id] : null;
     if (lastRoute === "" || lastRoute === "videos") homeScroll = window.scrollY;
 
     view.textContent = "";
-    view.className = isVideos ? "videos" : cat ? "page" : (info ? "page info" : "");
+    view.className = isVideos ? "videos" : (info ? "page info" : "");
     if (info) renderInfo(view, info);
     else if (isVideos) renderVideos(view, cat || null);
-    else if (cat) renderCategory(view, cat);
     else renderIndex(view);
 
     document.getElementById("header-join").style.display = id === "welcome" ? "none" : "";   // they just subscribed
     setCurrent("nav-tools", !isVideos && !info);
     setCurrent("nav-videos", isVideos);
     document.title = info ? info.title + " – Use & Like"
-      : cat ? cat + (isVideos ? " videos" : "") + " – Use & Like" : "Use & Like – Directory of apps and tools we use";
+      : cat ? cat + " videos – Use & Like" : "Use & Like – Directory of apps and tools we use";
 
-    // Coming back from a category page to its list returns to the same spot.
-    var cameFromCategory = lastRoute !== null && lastRoute !== "" && lastRoute !== "videos";
+    // Coming back from a page (e.g. one category's videos) to its list returns to the same spot.
+    var cameFromPage = lastRoute !== null && lastRoute !== "" && lastRoute !== "videos";
     var isList = !cat && !info;
-    window.scrollTo(0, isList && cameFromCategory ? homeScroll : 0);
+    window.scrollTo(0, isList && cameFromPage ? homeScroll : 0);
     lastRoute = isList ? (isVideos ? "videos" : "") : id;
   }
   window.addEventListener("hashchange", route);

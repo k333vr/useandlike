@@ -7,3 +7,4 @@ editors/thumbnail-wave1.csv
 editors/waves/
 editors/thumbnail-waves.zip
 __pycache__/
+.wrangler/

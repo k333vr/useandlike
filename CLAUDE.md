@@ -3,7 +3,14 @@
 The owner is a beginner. Explain things in plain language and do as much as possible yourself.
 
 ## The site
-- One static page: `index.html` (CSS and JS inline). No frameworks, no build step, no tracking scripts, no external requests (except Beehiiv's signup form, see NEWSLETTER).
+- `index.html` (CSS and JS inline): the home page, the Videos tab and the small # pages (join, welcome, privacy, tracker).
+  Plus real pages made by `node scripts/build-pages.js` from the EDIT HERE block and videos.js (since 11 Oct 2026):
+  `category/<name>/`, `tool/<slug>/`, `about/`, `how-we-choose/`, `how-we-make-money/`, `work-with-us/`, `sitemap.xml`,
+  `robots.txt`. The generated files are committed (Cloudflare has no build step). It also refreshes two marked blocks in
+  index.html (`build-pages:ld` structured data, `build-pages:home` the category list as plain HTML for crawlers that
+  don't run JavaScript). No frameworks, no tracking scripts, no external requests (except Beehiiv's signup form, see NEWSLETTER).
+- After changing the EDIT HERE block, videos.js or the small pages' texts (`PAGES` at the top of scripts/build-pages.js):
+  run `node scripts/build-pages.js` (build-videos.py runs it too). check.js fails while the pages are out of date.
 - Hosted on Cloudflare as a Worker named `useandlike` with static assets (Workers Builds, connected to GitHub).
   Pushing to `main` deploys to useandlike.com. Build results show as the "Workers Builds: useandlike"
   check on each commit (`gh api repos/k333vr/useandlike/commits/<sha>/check-runs`).
@@ -12,19 +19,24 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   build, so the site does not update (this happened on 3 Oct 2026 until main-only pushes).
   Do NOT add a `wrangler.jsonc`: Cloudflare's dashboard settings build this repo without one, and adding
   one made production builds fail (commits 274c3d1, de405a4). Re-add only after seeing the build log.
-  Test locally: `CLOUDFLARE_CF_FETCH_ENABLED=false npx wrangler dev --assets .` (serves `_redirects` too).
+  Test locally from OUTSIDE the repo (wrangler keeps a .wrangler folder in the current folder; inside the repo it
+  reloads endlessly): `cd /tmp && CLOUDFLARE_CF_FETCH_ENABLED=false npx wrangler dev --assets /home/user/useandlike` (serves `_redirects` too).
 - All editable content is in the `EDIT HERE` block at the top of `index.html`:
   `CHANNELS`, `NEWSLETTER`, `OPEN_IN_NEW_TAB`, `VISIBLE_COUNT`, `CATEGORIES`, `TOOLS`, `VIDEOS`.
 - `NEWSLETTER.ready` shows the signup at the top of every page, on #join, and a box on home and category pages. With `beehiivForm` (the `data-beehiiv-form` id from Beehiiv's embed code) it loads Beehiiv's script `subscribe-forms.beehiiv.com/v3/loader.js`, which shows Beehiiv's own field (an iframe) where the signup is; this is the one allowed external request (owner's choice). Without it, the button opens the Beehiiv signup page via `/newsletter`. Beehiiv's separate attribution.js is not needed (the loader includes it). Double opt-in is on (owner is in Austria); Beehiiv's "Opt-in redirect URL" is `useandlike.com/welcome` -> `#welcome` (INFO page with `img/welcome.webp` and the tracker button), so `/welcome` must stay in `_redirects`. Posting our own form to Beehiiv's /create is blocked ("Forbidden"), so don't. `/newsletter` must stay in `_redirects` (the check script enforces it).
 - Layout (owner's choice: clean, Craigslist-style, no search): the home page lists every category with its
   first `VISIBLE_COUNT` tool names as direct affiliate links, plus "All N ›". A category heading opens its
-  category page (`#web-hosting`): each tool with `description`, optional `why`/`details`, "Our pick" and a
-  Visit button, then a "Watch our videos about …" link. The back button returns to the same spot.
+  category page (`/category/web-hosting/`): each tool with `description`, optional `why`/`details`, "Our pick", a
+  Visit button and a link to its tool page, then our videos about the category. A tool page (`/tool/wise/`): what it
+  does, Visit button, all our videos about it ("Show all" after 24), the category's other tools. Old links
+  (`useandlike.com/#web-hosting`, `#about`) forward to the real pages. Tool pages with fewer than 3 videos and no
+  `why`/`details` (and thin categories) are `noindex` and stay out of the sitemap until they have more.
 - Tool fields: `name`, `category`, `description`, `slug` (short link), `isPick`; optional `why`, `details`.
-- Channel videos: `videos.js` (generated, ~2,300 videos about our tools) is loaded only when the Videos tab opens.
+- Channel videos: `videos.js` (generated, ~2,250 videos about our tools) is loaded only when the Videos tab opens;
+  the category and tool pages list the same videos as plain HTML.
   Refresh: `scripts/fetch-videos.sh` (yt-dlp, all videos of the 3 channels -> `data/channel-videos.tsv`), then
-  `python3 scripts/build-videos.py` (matches titles to TOOLS, drops Shorts and titles like cancel/refund/free alternative,
-  downloads missing thumbnails). Re-run build-videos.py after adding or renaming a tool. Videos tab pages 24 at a time.
+  `python3 scripts/build-videos.py` (matches titles to TOOLS, drops Shorts and titles like cancel/refund/delete account/free alternative
+  and other products with the same name (NOT_ABOUT, e.g. Nolo VR, WiseCleaner), downloads missing thumbnails, rebuilds the pages). Re-run build-videos.py after adding or renaming a tool. Videos tab pages 24 at a time.
 - `VIDEOS` (hand-picked, shown first) feeds the Videos tab too: `{ title, url, channel, category, tool? }` (url = youtube.com/watch?v=<11-char id>).
   Each video needs a thumbnail at `thumbs/<id>.jpg` (320x180, from https://i.ytimg.com/vi/<id>/mqdefault.jpg),
   so the site makes no requests to YouTube. The Videos tab shows category buttons (side list on wide screens)
@@ -45,6 +57,8 @@ The owner is a beginner. Explain things in plain language and do as much as poss
    (and maybe a category in `CATEGORIES`); a link-only short link (not on the page) needs just the line.
    - Keep the link exactly as given (tracking parameters included). Slugs: short, lowercase, e.g. `/wise`.
    - If a link's tool is unclear, ask which tool it belongs to rather than guessing.
+   - Then `python3 scripts/build-videos.py` for a new or renamed tool (finds its videos, then rebuilds the pages),
+     otherwise `node scripts/build-pages.js`.
 2. Run `node scripts/check.js --online` and fix any FAIL. The cloud session's network policy may block
    affiliate hosts ("could not be opened ... TUNNEL" / 403); say the link wasn't checked, not that it's broken. Report WARN lines that matter in plain language
    (e.g. a link that does not open, or links still left as placeholders).
@@ -60,6 +74,9 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   (`OPEN_IN_NEW_TAB = false`; the owner chose this for phone visitors). New tab adds `target="_blank"` + `noopener`.
 - No page between the list and the affiliate site: Visit goes /slug -> affiliate link directly (owner's choice).
 - Keep the affiliate disclosure in the footer.
-- Category links are `#` + the category name in lowercase, `&` → `and`, spaces → `-`
-  (e.g. `useandlike.com/#web-hosting`). Renaming a category changes its link, so warn the owner
-  because old YouTube descriptions would stop opening that category.
+- Category pages are `/category/` + the category name in lowercase, `&` → `and`, spaces → `-`
+  (e.g. `useandlike.com/category/web-hosting/`); the old `useandlike.com/#web-hosting` links forward there.
+  Renaming a category changes both, so warn the owner because old YouTube descriptions would stop opening that category.
+  Tool pages use the tool's slug (`/tool/wise/`), another reason never to rename a slug.
+- The small pages (About, How we choose tools, How we make money, Work with us) follow the same rules: factual, no
+  promises the owner hasn't made, no prices or private numbers on Work with us until the owner sets them.
