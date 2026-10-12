@@ -25,7 +25,8 @@ const CHECK = process.argv.includes("--check");
    EDIT HERE: the small pages. Plain text; [label](link) makes a link.
    Neutral and factual, like the rest of the site (no "best", no claims we can't show).
    ===================================================================== */
-const CONTACT = "HTRocket@proton.me";
+const CONTACT = "HTRocket@proton.me";            // readers: questions, corrections
+const BUSINESS = "partners@useandlike.com";       // brands: goes straight into the studio's Offers desk (since 12 Oct)
 const PAGES = [
   {
     path: "about/",
@@ -92,7 +93,7 @@ const PAGES = [
     after: [
       "How it works: email us your app, who you want to reach and your timing. We reply with options, our numbers for your app and prices.",
       "Our rules: sponsored content is labeled, and we only show what a tutorial can honestly show. We don't work with gambling, adult content, get-rich schemes or cracked apps.",
-      "Email: [" + CONTACT + "](mailto:" + CONTACT + ")"
+      "Email: [" + BUSINESS + "](mailto:" + BUSINESS + ")"
     ],
     channels: true
   }
