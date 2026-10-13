@@ -244,6 +244,8 @@ function readRedirects(errors, warnings) {
         const res = await page.goto(url, { timeout: 20000, waitUntil: "domcontentloaded" });
         const status = res ? res.status() : 0;
         if (status >= 400) warnings.push(`/${slug}: link returned HTTP ${status} (${url})`);
+        // Yazing sends brands it doesn't (or no longer) carry to its general coupon page, with HTTP 200.
+        else if (/yazing\.com\/topdeals/.test(page.url())) warnings.push(`/${slug}: Yazing doesn't have this brand (any more), the link ends on its general coupon page (${url})`);
         else console.log(`ok   /${slug} -> ${page.url()}`);
       } catch (e) { warnings.push(`/${slug}: link could not be opened (${e.message.split("\n")[0]})`); }
     }
