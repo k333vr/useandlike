@@ -457,6 +457,9 @@ header { padding: 22px 0 0; }
 .bh-slot iframe { color-scheme: light; }
 .info .bh-slot { max-width: 420px; }
 .joined { margin: 0; font-weight: 700; color: var(--text); }
+/* Under the field (not in the header): Beehiiv emails a confirmation link first; the backup link opens Beehiiv's own page. */
+.bh-note { margin: 6px 0 0; font-size: .86rem; line-height: 1.4; color: var(--muted); }
+.bh-note a { color: var(--link); }
 .jrow { display: flex; gap: 6px; }
 .jrow input { flex: 1 1 auto; min-width: 0; padding: 9px 12px; font: inherit; font-size: .95rem; color: var(--text); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; }
 .jrow button { flex: none; padding: 9px 16px; font: inherit; font-size: .95rem; font-weight: 700; color: #fff; background: var(--brand); border: 0; border-radius: 999px; cursor: pointer; }
@@ -715,6 +718,16 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
   // The signup: Beehiiv's own embedded field when NEWSLETTER.beehiivForm is set (so the email goes
   // straight in), otherwise a field whose button opens the Beehiiv signup page.
   var formCount = 0;
+  // 9 in 10 people who opened /join never confirmed (12-13 Oct): say that a confirmation email follows, and offer
+  // Beehiiv's own sign-up page in case the field doesn't load (some in-app browsers block it).
+  function bhNote() {
+    var p = el("p", "bh-note", "After you subscribe, we email you a confirmation link: tap it to finish (check spam too). Field not showing? ");
+    var a = el("a", null, "Sign up here");
+    a.href = "/newsletter";
+    p.appendChild(a);
+    p.appendChild(document.createTextNode("."));
+    return p;
+  }
   function joinForm(withPerk) {
     var wrap = el("div", "join-form");
     if (withPerk) {
@@ -737,6 +750,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
       var slot = el("div", "bh-slot");   // keeps the field's space free while it loads (no jump)
       slot.appendChild(s);
       wrap.appendChild(slot);
+      if (!withPerk) wrap.appendChild(bhNote());
       return wrap;
     }
     var f = el("form");

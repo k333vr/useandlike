@@ -169,7 +169,10 @@ const channelLinks = urlFor => '<span class="channels">' +
 
 function joinForm(withPerk) {
   const perk = withPerk ? `<p class="perk"><b class="perk-title">${esc(NEWSLETTER.perkTitle)}</b><span class="perk-gift">${esc(NEWSLETTER.perkGift)}</span></p>` : "";
-  if (NEWSLETTER.beehiivForm) return `<div class="join-form">${perk}<div class="bh-slot"></div></div>`;
+  // Under the field (not in the header): a confirmation email follows, and Beehiiv's own page as a backup (as on index.html).
+  const note = withPerk ? "" : '<p class="bh-note">After you subscribe, we email you a confirmation link: tap it to finish ' +
+    '(check spam too). Field not showing? <a href="/newsletter">Sign up here</a>.</p>';
+  if (NEWSLETTER.beehiivForm) return `<div class="join-form">${perk}<div class="bh-slot"></div>${note}</div>`;
   return `<div class="join-form">${perk}<form action="/newsletter" method="get"><div class="jrow">` +
     `<input type="email" name="email" required placeholder="Your email" autocomplete="email" aria-label="Your email">` +
     `<button type="submit">${esc(NEWSLETTER.button)}</button></div></form></div>`;
