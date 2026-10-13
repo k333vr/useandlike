@@ -29,6 +29,7 @@ OWN_HOSTS = ("useandlike.com", "useandlike.beehiiv.com", "subscriptionchef.app")
 LINK_ONLY_NAMES = {"biltrx": "BiltRx", "blort": "Blort"}  # short links that aren't tools on the site
 NEW_DAYS = 7  # "New" badge
 NEWS_DAYS = 30  # how far back "What's new" and "Removed" look
+FOLD = 40  # a day in "What's new" with more than FOLD + 10 new links shows the rest behind "N more"
 CANCEL = re.compile(r"\bcancel|unsubscribe|end (your |my )?(membership|subscription)|stop (your |my )?subscription", re.I)
 # Extra ways a cancel guide's service is written in titles.
 GUIDE_ALIASES = {
@@ -113,6 +114,8 @@ def write_links_page(tools):
         if (urllib.parse.urlparse(target).hostname or "").endswith(OWN_HOSTS):
             continue
         t = by_slug.get(slug)
+        if not t and slug not in LINK_ONLY_NAMES:
+            print("WARN: /%s is a short link without a tool or a name: add it to LINK_ONLY_NAMES" % slug)
         name = t["name"] if t else LINK_ONLY_NAMES.get(slug, slug)
         links.append({"slug": slug, "name": name, "cat": t["category"] if t else "Link only (not on the site)",
                       "line": "👉 Try %s (affiliate): useandlike.com/%s" % (LINE_NAME.get(name, name), slug),
@@ -125,10 +128,10 @@ def write_links_page(tools):
             note = ('<p class="note">Written as “%s” on purpose: YouTube would turn “%s” into a direct link without our '
                     'code.</p>' % (esc(LINE_NAME[l["name"]]), esc(l["name"])))
         new = (today - date.fromisoformat(l["added"])).days < NEW_DAYS
-        return ('<div class="row" id="l-{slug}" data-line="{line}" data-q="{q}"><div class="who"><span class="name">{name}'
+        return ('<div class="row" id="l-{slug}" data-line="{line}" data-q="{q}" data-added="{iso}"><div class="who"><span class="name">{name}'
                 '</span>{badge}<span class="date">Added {day}</span></div><code class="line">{line}</code><button '
                 'type="button" data-copy aria-label="Copy the line for {name}">Copy</button>{note}</div>\n').format(
-            slug=esc(l["slug"]), line=esc(l["line"]), name=esc(l["name"]), note=note, day=nice_day(l["added"]),
+            slug=esc(l["slug"]), line=esc(l["line"]), name=esc(l["name"]), note=note, day=nice_day(l["added"]), iso=l["added"],
             q=esc(" ".join([l["name"], l["slug"], l["cat"]]).lower()), badge='<span class="badge">New</span>' if new else "")
 
     sections = []
@@ -141,9 +144,11 @@ def write_links_page(tools):
     news = []
     for d in sorted({l["added"] for l in links if l["added"] >= cutoff and l["added"] != start}, reverse=True)[:3]:
         items = sorted((l for l in links if l["added"] == d), key=lambda l: l["name"].lower())
-        news.append('<div class="day"><h3>%s <span>%d %s</span></h3><p class="chips">%s</p></div>\n' % (
-            nice_day(d), len(items), "link" if len(items) == 1 else "links", "".join(
-                '<a href="#l-%s" data-jump="%s">%s</a>' % (esc(l["slug"]), esc(l["slug"]), esc(l["name"])) for l in items)))
+        chips = ['<a href="#l-%s" data-jump="%s">%s</a>' % (esc(l["slug"]), esc(l["slug"]), esc(l["name"])) for l in items]
+        more = ('<details class="more"><summary>%d more</summary><p class="chips">%s</p></details>' % (
+            len(chips) - FOLD, "".join(chips[FOLD:]))) if len(chips) > FOLD + 10 else ""
+        news.append('<div class="day"><h3>%s <span>%d %s</span></h3><p class="chips">%s</p>%s</div>\n' % (
+            nice_day(d), len(items), "link" if len(items) == 1 else "links", "".join(chips[:FOLD] if more else chips), more))
     live = {l["slug"] for l in links}
     gone = sorted(((s, d) for s, d in removed.items() if d >= cutoff and s not in live), key=lambda x: x[1], reverse=True)
     if gone:
@@ -151,6 +156,7 @@ def write_links_page(tools):
             '<li><code>useandlike.com/%s</code> taken out %s</li>' % (esc(s), nice_day(d)) for s, d in gone))
     page = (LINKS_TEMPLATE.replace("<!--COUNT-->", str(len(links))).replace("<!--UPDATED-->", nice_day(today.isoformat()))
             .replace("<!--NEWSLETTER-->", esc(NEWSLETTER_LINE)).replace("/*NEWSLETTER*/", json.dumps(NEWSLETTER_LINE))
+            .replace("<!--NEW_DAYS-->", str(NEW_DAYS)).replace("/*NEW_DAYS*/", str(NEW_DAYS))
             .replace("<!--NEWS-->", "".join(news)).replace("<!--LIST-->", "".join(sections)))
     with open(os.path.join(ROOT, "editors", "affiliate-links.html"), "w", encoding="utf-8") as f:
         f.write(page)
@@ -191,8 +197,8 @@ h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(1.9rem, 5vw, 
 .bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 2; background: var(--bg); border-bottom: 1px solid var(--line);
   margin-top: 18px; padding-block: 12px; display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; }
 #q { flex: 1 1 260px; min-width: 0; font: inherit; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text); }
-.nl { display: flex; gap: 8px; align-items: center; cursor: pointer; }
-.nl em { font-style: normal; color: var(--muted); }
+.opt { display: flex; gap: 8px; align-items: center; cursor: pointer; }
+.opt em { font-style: normal; color: var(--muted); }
 .nl-line { margin: .35rem 0 0; font-size: .8rem; color: var(--muted); overflow-wrap: anywhere; }
 code { font-family: var(--mono); }
 .news { margin-top: 22px; padding: 16px 18px; background: var(--soft); border-radius: 10px; display: grid; gap: 14px; }
@@ -202,6 +208,8 @@ code { font-family: var(--mono); }
 .chips { margin: 0; display: flex; flex-wrap: wrap; gap: 6px; }
 .chips a { color: var(--link); text-decoration: none; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px; font-size: .88rem; }
 .chips a:hover { border-color: var(--link); }
+.more summary { margin-top: 6px; cursor: pointer; color: var(--link); font-size: .88rem; }
+.more .chips { margin-top: 6px; }
 .gone ul { margin: 0; padding-left: 18px; }
 .cat { margin-top: 30px; }
 .cat h2 { font-family: var(--serif); font-weight: 400; font-size: 1.3rem; margin: 0; padding-bottom: 6px; border-bottom: 2px solid var(--brand); }
@@ -240,14 +248,15 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
 
   <div class="bar">
     <input id="q" type="search" placeholder="Find a tool, e.g. Wise" aria-label="Find a tool" autocomplete="off">
-    <label class="nl" for="nl"><input id="nl" type="checkbox"><span>Copy with the newsletter line <em>(for descriptions)</em></span></label>
+    <label class="opt" for="nl"><input id="nl" type="checkbox"><span>Copy with the newsletter line <em>(for descriptions)</em></span></label>
+    <label class="opt" for="onlynew"><input id="onlynew" type="checkbox"><span>Only new <em>(last <!--NEW_DAYS--> days)</em></span></label>
   </div>
 
   <section id="news" class="news" aria-label="What's new">
     <h2>What’s new</h2>
 <!--NEWS-->  </section>
 
-  <p id="none" class="none" hidden>No link for “<b id="none-q"></b>”. A video about it gets only the newsletter line.</p>
+  <p id="none" class="none" hidden></p>
 
   <div id="list">
 <!--LIST-->  </div>
@@ -258,8 +267,14 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
 
 <script>
 (function () {
-  var NEWS = /*NEWSLETTER*/;
-  var q = document.getElementById("q"), nl = document.getElementById("nl");
+  var NEWS = /*NEWSLETTER*/, NEW_DAYS = /*NEW_DAYS*/;
+  var q = document.getElementById("q"), nl = document.getElementById("nl"), only = document.getElementById("onlynew");
+  // "New" is set when the page is built; take it off links older than NEW_DAYS by now (the page may not be rebuilt for a while).
+  var today = new Date(); today.setHours(0, 0, 0, 0);
+  document.querySelectorAll("#list .row").forEach(function (r) {
+    var b = r.querySelector(".badge");
+    if (b && (today - new Date(r.dataset.added + "T00:00:00")) / 864e5 >= NEW_DAYS) b.remove();
+  });
   try { nl.checked = localStorage.getItem("with-newsletter") === "1"; } catch (e) {}
   nl.addEventListener("change", function () {
     try { localStorage.setItem("with-newsletter", nl.checked ? "1" : "0"); } catch (e) {}
@@ -296,18 +311,20 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
     } else { fallback(); }
   }
   function filter() {
-    var s = q.value.trim().toLowerCase(), shown = 0;
+    var s = q.value.trim().toLowerCase(), o = only.checked, shown = 0;
     document.querySelectorAll("#list .row").forEach(function (r) {
-      var hit = !s || r.dataset.q.indexOf(s) !== -1;
+      var hit = (!s || r.dataset.q.indexOf(s) !== -1) && (!o || !!r.querySelector(".badge"));
       r.hidden = !hit; if (hit) shown++;
     });
     document.querySelectorAll("#list .cat").forEach(function (c) { c.hidden = !c.querySelector(".row:not([hidden])"); });
-    document.getElementById("news").hidden = !!s;
-    document.getElementById("none-q").textContent = q.value.trim();
-    document.getElementById("none").hidden = shown > 0;
+    document.getElementById("news").hidden = !!s || o;
+    var none = document.getElementById("none");
+    none.textContent = s ? "No link for “" + q.value.trim() + "”" + (o ? " among the new ones." : ". A video about it gets only the newsletter line.")
+      : "No links were added in the last " + NEW_DAYS + " days.";
+    none.hidden = shown > 0;
   }
   function jump(slug) {
-    if (q.value) { q.value = ""; filter(); }
+    if (q.value || only.checked) { q.value = ""; only.checked = false; filter(); }
     var r = document.getElementById("l-" + slug);
     if (!r) return;
     var still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -316,6 +333,7 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
     setTimeout(function () { r.classList.remove("flash"); }, 1800);
   }
   q.addEventListener("input", filter);
+  only.addEventListener("change", filter);
   document.addEventListener("click", function (ev) {
     var b = ev.target.closest("button[data-copy]");
     if (b) { copy(b); return; }
