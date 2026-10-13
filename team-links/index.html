@@ -1,5 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
 <title>useandlike Affiliate Links</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='9' fill='%231f3a5f'/%3E%3Ctext x='20' y='29' font-family='Georgia,serif' font-style='italic' font-size='26' fill='%23f3e6c4' text-anchor='middle'%3E%26%3C/text%3E%3C/svg%3E">
 <style>
+[hidden] { display: none !important; }
 :root {
   /* Layout: one ledger column like useandlike.com: a sticky finder bar, a What's-new note, then one row per link
      under its category, each with the exact line to paste and a Copy button. Colors and faces are the site's own. */
@@ -70,7 +78,8 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
 }
 @media (prefers-reduced-motion: no-preference) { .row { transition: background-color .6s; } }
 </style>
-
+</head>
+<body>
 <div class="wrap">
   <header>
     <p class="eyebrow">useandlike.com · for the manager and uploaders</p>
@@ -245,9 +254,9 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
     var b = r.querySelector(".badge");
     if (b && (today - new Date(r.dataset.added + "T00:00:00")) / 864e5 >= NEW_DAYS) b.remove();
   });
-  try { nl.checked = localStorage.getItem("with-newsletter") === "1"; } catch (e) {}
+  try { nl.checked = localStorage.getItem("team-links-newsletter") === "1"; } catch (e) {}
   nl.addEventListener("change", function () {
-    try { localStorage.setItem("with-newsletter", nl.checked ? "1" : "0"); } catch (e) {}
+    try { localStorage.setItem("team-links-newsletter", nl.checked ? "1" : "0"); } catch (e) {}
   });
 
   function flashButton(b, text, ok) {
@@ -312,3 +321,5 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
   });
 })();
 </script>
+</body>
+</html>

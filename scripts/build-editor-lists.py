@@ -3,9 +3,9 @@
 
 Output (folder editors/, not published on the site):
   tool-links.csv          every tool with its short link
-  affiliate-links.html    the same links as a page for the manager and uploaders: a Copy button for each 👉 line,
-                          the date each link was added (from git), what's new and what was removed. Published as an
-                          Artifact (LINKS_PAGE_URL below): republish it to that URL after every link change.
+And outside editors/: team-links/index.html, the same links as a hidden page on the site for the manager and
+uploaders (LINKS_PAGE_URL: not linked anywhere, noindex, not in the sitemap): a Copy button for each 👉 line, the date
+each link was added (from git), what's new and what was removed. It goes live with the next push to main.
   videos-<channel>.csv    each channel's videos (Shorts left out), most viewed first, with the exact lines to paste
                           (How To Rocket and Guide Glimpse; Logic Protocol's uploads are music remixes, left out)
 Run after changing TOOLS, _redirects or the cancel guides: python3 scripts/build-editor-lists.py
@@ -24,7 +24,7 @@ NEWSLETTER_LINE = "📩 Join Our Newsletter & Get Free Subscription Tracker: use
 # in the 👉 line. (Systeme.io predates this list; its line is already on many videos.)
 LINE_NAME = {"Booking.com": "Booking", "Kiwi.com": "Kiwi", "lastminute.com": "lastminute"}
 # Team links page (affiliate-links.html).
-LINKS_PAGE_URL = "https://claude.ai/artifact/74NPYBKXFxvYrE6FLMnwKK"  # the Artifact it is published to (private, Kevin shares it)
+LINKS_PAGE_URL = "https://useandlike.com/team-links/"  # hidden page (Kevin, 13 Oct: "no hustle to share")
 OWN_HOSTS = ("useandlike.com", "useandlike.beehiiv.com", "subscriptionchef.app")  # our own short links, left off the page
 LINK_ONLY_NAMES = {"biltrx": "BiltRx", "blort": "Blort"}  # short links that aren't tools on the site
 NEW_DAYS = 7  # "New" badge
@@ -158,13 +158,24 @@ def write_links_page(tools):
             .replace("<!--NEWSLETTER-->", esc(NEWSLETTER_LINE)).replace("/*NEWSLETTER*/", json.dumps(NEWSLETTER_LINE))
             .replace("<!--NEW_DAYS-->", str(NEW_DAYS)).replace("/*NEW_DAYS*/", str(NEW_DAYS))
             .replace("<!--NEWS-->", "".join(news)).replace("<!--LIST-->", "".join(sections)))
-    with open(os.path.join(ROOT, "editors", "affiliate-links.html"), "w", encoding="utf-8") as f:
+    icon = re.search(r'<link rel="icon"[^>]*>', src)
+    page = page.replace("<!--ICON-->", icon.group(0) if icon else "")
+    os.makedirs(os.path.join(ROOT, "team-links"), exist_ok=True)
+    with open(os.path.join(ROOT, "team-links", "index.html"), "w", encoding="utf-8") as f:
         f.write(page)
     return len(links)
 
 
-LINKS_TEMPLATE = """<title>useandlike Affiliate Links</title>
+LINKS_TEMPLATE = """<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>useandlike Affiliate Links</title>
+<!--ICON-->
 <style>
+[hidden] { display: none !important; }
 :root {
   /* Layout: one ledger column like useandlike.com: a sticky finder bar, a What's-new note, then one row per link
      under its category, each with the exact line to paste and a Copy button. Colors and faces are the site's own. */
@@ -235,7 +246,8 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
 }
 @media (prefers-reduced-motion: no-preference) { .row { transition: background-color .6s; } }
 </style>
-
+</head>
+<body>
 <div class="wrap">
   <header>
     <p class="eyebrow">useandlike.com · for the manager and uploaders</p>
@@ -275,9 +287,9 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
     var b = r.querySelector(".badge");
     if (b && (today - new Date(r.dataset.added + "T00:00:00")) / 864e5 >= NEW_DAYS) b.remove();
   });
-  try { nl.checked = localStorage.getItem("with-newsletter") === "1"; } catch (e) {}
+  try { nl.checked = localStorage.getItem("team-links-newsletter") === "1"; } catch (e) {}
   nl.addEventListener("change", function () {
-    try { localStorage.setItem("with-newsletter", nl.checked ? "1" : "0"); } catch (e) {}
+    try { localStorage.setItem("team-links-newsletter", nl.checked ? "1" : "0"); } catch (e) {}
   });
 
   function flashButton(b, text, ok) {
@@ -342,13 +354,15 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
   });
 })();
 </script>
+</body>
+</html>
 """
 
 
 def main():
     tools = load_tools()
     os.makedirs(os.path.join(ROOT, "editors"), exist_ok=True)
-    print(write_links_page(tools), "links -> editors/affiliate-links.html")
+    print(write_links_page(tools), "links -> team-links/index.html (" + LINKS_PAGE_URL + ")")
 
     with open(os.path.join(ROOT, "editors", "tool-links.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)

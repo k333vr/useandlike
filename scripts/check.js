@@ -49,7 +49,7 @@ function readRedirects(errors, warnings) {
     catch (_) { errors.push(`${where}: not a valid link: ${to}`); }
     const slug = from.slice(1);
     if (map.has(slug)) errors.push(`${where}: /${slug} is listed twice`);
-    if (/^(index|scripts|readme|claude|category|tool|about|how-we-|work-with-us|sitemap|robots|thumbs|img|bh|videos)/i.test(slug))
+    if (/^(index|scripts|readme|claude|category|tool|about|how-we-|work-with-us|team-links|sitemap|robots|thumbs|img|bh|videos)/i.test(slug))
       errors.push(`${where}: /${slug} clashes with a site file or page`);
     map.set(slug, to);
   });
