@@ -39,7 +39,7 @@ EXCLUDE = re.compile(r"free alternative|alternatives?\b|for free|premium free|fr
                      r"unsubscribe|deactivate|close (your |my )?account|scam|wise ?agent|without paying a (cent|dime|penny)", re.I)
 # Other products with the same name (the tool page would show the wrong thing).
 NOT_ABOUT = {
-    "Wise": re.compile(r"wise (program )?uninstaller|auto shutdown|wise care|wisecleaner|wise (disk|registry) cleaner|"
+    "Wise": re.compile(r"wise (program )?uninstaller|auto shutdown|wise care|wisecleaner|wise (disk|registry) cleaner(?!.*real wise app)|"
                        r"wise memory|wise folder|wise data recovery|wise game booster|wise duplicate|wise force deleter", re.I),
     "Nolo": re.compile(r"nolo ?vr|nolo home|nolo sonic", re.I),
     "Vimeo": re.compile(r"videos in (ms )?word|dailymotion", re.I),   # about Word or Dailymotion, Vimeo only mentioned

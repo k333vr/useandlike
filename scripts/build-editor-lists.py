@@ -62,7 +62,8 @@ def make_matcher(tools):
             if g:
                 return "cancel guide", ["👉 Step-by-step guide: subscriptionchef.app/cancel/" + g, NEWSLETTER_LINE]
         elif not bv.EXCLUDE.search(title):
-            tool = next((n for rx, n in tpat if rx.search(tl)), None)
+            # Same "other product with the same name" rule as the site (bv.NOT_ABOUT): no Wise link on Wise Care videos.
+            tool = next((n for rx, n in tpat if rx.search(tl) and not (n in bv.NOT_ABOUT and bv.NOT_ABOUT[n].search(title))), None)
             if tool:
                 return "tool", ["👉 Try %s (affiliate): useandlike.com/%s" % (LINE_NAME.get(tool, tool), slug_of[tool]), NEWSLETTER_LINE]
         return "newsletter only", [NEWSLETTER_LINE]
