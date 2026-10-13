@@ -24,6 +24,14 @@ ALIASES = {
     "Epidemic Sound": ["epidemic sound", "epidemicsound"], "ElevenLabs": ["elevenlabs", "eleven labs"],
     "Merlin AI": ["merlin ai", "getmerlin", "merlin"], "TradingView": ["tradingview", "trading view"],
     "Talkpal": ["talkpal", "talk pal"], "Browse AI": ["browse ai", "browseai"],
+    # Yazing brands added 13 Oct 2026
+    "NordVPN": ["nordvpn", "nord vpn"], "ExpressVPN": ["expressvpn", "express vpn"],
+    "Private Internet Access": ["private internet access", "pia vpn"], "GoDaddy": ["godaddy", "go daddy"],
+    "Hailuo AI": ["hailuo"], "Fireflies AI": ["fireflies ai", "fireflies.ai"], "WPS Office": ["wps office", "wps file"],
+    "TeamViewer": ["teamviewer", "team viewer"], "LegalZoom": ["legalzoom", "legal zoom"],
+    "Ria Money Transfer": ["ria money transfer", "ria money"], "TurboTax": ["turbotax", "turbo tax"],
+    "Booking.com": ["booking.com", "booking com"], "Kiwi.com": ["kiwi.com", "kiwi com"],
+    "lastminute.com": ["lastminute.com", "lastminute com", "lastminute"],
 }
 # Titles that would undercut the affiliate offer or don't help a buyer: left out of the site.
 EXCLUDE = re.compile(r"free alternative|alternatives?\b|for free|premium free|free premium|license key|crack|"
@@ -34,6 +42,7 @@ NOT_ABOUT = {
     "Wise": re.compile(r"wise (program )?uninstaller|auto shutdown|wise care|wisecleaner|wise (disk|registry) cleaner|"
                        r"wise memory|wise folder|wise data recovery|wise game booster|wise duplicate|wise force deleter", re.I),
     "Nolo": re.compile(r"nolo ?vr|nolo home|nolo sonic", re.I),
+    "Vimeo": re.compile(r"videos in (ms )?word|dailymotion", re.I),   # about Word or Dailymotion, Vimeo only mentioned
 }
 SUFFIX = re.compile(r"\s*\|\s*(HTR|GG|Guide ?Glimpse|GuideG|Rocket Guide|HTRocket|How ?To ?Rocket)\s*$", re.I)
 

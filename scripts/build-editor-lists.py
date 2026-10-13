@@ -16,6 +16,9 @@ spec = importlib.util.spec_from_file_location("bv", os.path.join(ROOT, "scripts"
 bv = importlib.util.module_from_spec(spec); spec.loader.exec_module(bv)
 
 NEWSLETTER_LINE = "📩 Join Our Newsletter & Get Free Subscription Tracker: useandlike.com/join"
+# Tool names that YouTube would turn into a link to the brand's own site (without our affiliate code): shorter name
+# in the 👉 line. (Resume.io and Systeme.io predate this list; their lines are already on many videos.)
+LINE_NAME = {"Booking.com": "Booking", "Kiwi.com": "Kiwi", "lastminute.com": "lastminute"}
 CANCEL = re.compile(r"\bcancel|unsubscribe|end (your |my )?(membership|subscription)|stop (your |my )?subscription", re.I)
 # Extra ways a cancel guide's service is written in titles.
 GUIDE_ALIASES = {
@@ -61,7 +64,7 @@ def make_matcher(tools):
         elif not bv.EXCLUDE.search(title):
             tool = next((n for rx, n in tpat if rx.search(tl)), None)
             if tool:
-                return "tool", ["👉 Try %s (affiliate): useandlike.com/%s" % (tool, slug_of[tool]), NEWSLETTER_LINE]
+                return "tool", ["👉 Try %s (affiliate): useandlike.com/%s" % (LINE_NAME.get(tool, tool), slug_of[tool]), NEWSLETTER_LINE]
         return "newsletter only", [NEWSLETTER_LINE]
     return lines_for
 

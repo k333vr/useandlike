@@ -70,7 +70,9 @@ const CATEGORIES = [
   "Business & Legal",
   "Money & Trading",
   "Learning",
-  "Shopping & Mobile"
+  "Shopping & Mobile",
+  "Travel",
+  "Dating"
 ];
 
 /* All tools.
@@ -90,6 +92,18 @@ const TOOLS = [
     slug: "malwarebytes", isPick: false },
   { name: "GoLogin", category: "VPN & Privacy", description: "Browser for managing multiple online profiles",
     slug: "gologin", isPick: false },
+  { name: "NordVPN", category: "VPN & Privacy", description: "VPN service from Nord Security",
+    slug: "nordvpn", isPick: false },
+  { name: "Surfshark", category: "VPN & Privacy", description: "VPN service",
+    slug: "surfshark", isPick: false },
+  { name: "ExpressVPN", category: "VPN & Privacy", description: "VPN service",
+    slug: "expressvpn", isPick: false },
+  { name: "Private Internet Access", category: "VPN & Privacy", description: "VPN service",
+    slug: "pia", isPick: false },
+  { name: "NordPass", category: "VPN & Privacy", description: "Password manager from Nord Security",
+    slug: "nordpass", isPick: false },
+  { name: "LastPass", category: "VPN & Privacy", description: "Password manager",
+    slug: "lastpass", isPick: false },
   // Email
   { name: "Proton Mail", category: "Email", description: "Encrypted email from Proton",
     slug: "protonmail", isPick: true },
@@ -109,6 +123,8 @@ const TOOLS = [
     slug: "ionos", isPick: false },
   { name: "WebHostMost", category: "Web Hosting", description: "Web hosting",
     slug: "webhostmost", isPick: false },
+  { name: "GoDaddy", category: "Web Hosting", description: "Domains, website builder and hosting",
+    slug: "godaddy", isPick: false },
   // Website & App Builders
   { name: "Lovable", category: "Website & App Builders", description: "Build apps and websites by describing them with AI",
     slug: "lovable", isPick: false },
@@ -116,6 +132,8 @@ const TOOLS = [
     slug: "mixo", isPick: false },
   { name: "Adalo", category: "Website & App Builders", description: "No-code app builder",
     slug: "adalo", isPick: false },
+  { name: "Elementor", category: "Website & App Builders", description: "Website builder for WordPress",
+    slug: "elementor", isPick: false },
   // Online Stores & Funnels
   { name: "Shopify", category: "Online Stores & Funnels", description: "Online store builder",
     slug: "shopify", isPick: false },
@@ -146,6 +164,10 @@ const TOOLS = [
     slug: "riverside", isPick: false },
   { name: "StreamYard", category: "Video Creation", description: "Live streaming studio in your browser",
     slug: "streamyard", isPick: false },
+  { name: "Vimeo", category: "Video Creation", description: "Video hosting and sharing",
+    slug: "vimeo", isPick: false },
+  { name: "Hailuo AI", category: "Video Creation", description: "AI video generator from MiniMax",
+    slug: "hailuo", isPick: false },
   // Voice & Audio
   { name: "ElevenLabs", category: "Voice & Audio", description: "AI voice generation",
     slug: "elevenlabs", isPick: false },
@@ -171,6 +193,10 @@ const TOOLS = [
     slug: "scispace", isPick: false },
   { name: "Paperguide", category: "AI Writing & Research", description: "AI research assistant",
     slug: "paperguide", isPick: false },
+  { name: "Grammarly", category: "AI Writing & Research", description: "Writing assistant for grammar, spelling and tone",
+    slug: "grammarly", isPick: false },
+  { name: "Fireflies AI", category: "AI Writing & Research", description: "AI note taker for meetings",
+    slug: "fireflies", isPick: false },
   // Productivity & Design
   { name: "Coda", category: "Productivity & Design", description: "Docs, tables and workflows in one place",
     slug: "coda", isPick: false },
@@ -178,6 +204,12 @@ const TOOLS = [
     slug: "xtiles", isPick: false },
   { name: "Visme", category: "Productivity & Design", description: "Presentations, infographics and graphics",
     slug: "visme", isPick: false },
+  { name: "WPS Office", category: "Productivity & Design", description: "Office suite for documents, spreadsheets and slides",
+    slug: "wps", isPick: false },
+  { name: "Pixlr", category: "Productivity & Design", description: "Online photo editor",
+    slug: "pixlr", isPick: false },
+  { name: "TeamViewer", category: "Productivity & Design", description: "Remote access to computers and devices",
+    slug: "teamviewer", isPick: false },
   // Freelancers
   { name: "Fiverr", category: "Freelancers", description: "Marketplace for freelance services",
     slug: "fiverr", isPick: false },
@@ -204,16 +236,30 @@ const TOOLS = [
     slug: "scrupp", isPick: false },
   { name: "Resume.io", category: "Business & Legal", description: "Resume builder",
     slug: "resume", isPick: false },
+  { name: "Tidio", category: "Business & Legal", description: "Live chat and chatbots for websites",
+    slug: "tidio", isPick: false },
+  { name: "LegalZoom", category: "Business & Legal", description: "Business formation and legal documents online",
+    slug: "legalzoom", isPick: false },
   // Money & Trading
   { name: "Wise", category: "Money & Trading", description: "Send money abroad and hold multiple currencies",
     slug: "wise", isPick: false },
   { name: "TradingView", category: "Money & Trading", description: "Charts and market analysis",
     slug: "tradingview", isPick: false },
+  { name: "Ria Money Transfer", category: "Money & Trading", description: "Send money abroad to bank accounts or for cash pickup",
+    slug: "ria", isPick: false },
+  { name: "Remitly", category: "Money & Trading", description: "Send money abroad",
+    slug: "remitly", isPick: false },
+  { name: "TurboTax", category: "Money & Trading", description: "Tax filing software",
+    slug: "turbotax", isPick: false },
   // Learning
   { name: "Headway", category: "Learning", description: "Book summaries app",
     slug: "headway", isPick: false },
   { name: "Talkpal", category: "Learning", description: "AI language learning",
     slug: "talkpal", isPick: false },
+  { name: "Udemy", category: "Learning", description: "Online courses",
+    slug: "udemy", isPick: false },
+  { name: "Preply", category: "Learning", description: "Online lessons with tutors",
+    slug: "preply", isPick: false },
   // Shopping & Mobile
   { name: "Shein", category: "Shopping & Mobile", description: "Online clothing store",
     slug: "shein", isPick: false },
@@ -222,7 +268,27 @@ const TOOLS = [
   { name: "AmigoSIM", category: "Shopping & Mobile", description: "eSIM data for travel",
     slug: "amigosim", isPick: false },
   { name: "GamsGo", category: "Shopping & Mobile", description: "Subscription deals",
-    slug: "gamsgo", isPick: false }
+    slug: "gamsgo", isPick: false },
+  { name: "Airalo", category: "Shopping & Mobile", description: "eSIM data plans for travel",
+    slug: "airalo", isPick: false },
+  // Travel
+  { name: "Agoda", category: "Travel", description: "Book hotels and flights",
+    slug: "agoda", isPick: false },
+  { name: "Booking.com", category: "Travel", description: "Book hotels, flights and rental cars",
+    slug: "booking", isPick: false },
+  { name: "Expedia", category: "Travel", description: "Book flights, hotels and rental cars",
+    slug: "expedia", isPick: false },
+  { name: "Kiwi.com", category: "Travel", description: "Book flights",
+    slug: "kiwi", isPick: false },
+  { name: "Klook", category: "Travel", description: "Book tours, activities and travel services",
+    slug: "klook", isPick: false },
+  { name: "lastminute.com", category: "Travel", description: "Book flights, hotels and holiday packages",
+    slug: "lastminute", isPick: false },
+  { name: "Omio", category: "Travel", description: "Book trains, buses and flights",
+    slug: "omio", isPick: false },
+  // Dating
+  { name: "eHarmony", category: "Dating", description: "Dating site and app",
+    slug: "eharmony", isPick: false }
 ];
 
 /* Our videos, shown in the Videos tab.
@@ -538,22 +604,24 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
   <main id="view">
 <!-- build-pages:home -->
 <div class="index">
-<section class="block"><h2><a href="/category/vpn-and-privacy/">VPN &amp; Privacy</a></h2><ul class="plain"><li><a href="/protonvpn" rel="sponsored">Proton VPN</a></li><li><a href="/protonpass" rel="sponsored">Proton Pass</a></li><li><a href="/malwarebytes" rel="sponsored">Malwarebytes</a></li><li><a href="/gologin" rel="sponsored">GoLogin</a></li></ul></section>
+<section class="block"><h2><a href="/category/vpn-and-privacy/">VPN &amp; Privacy</a></h2><ul class="plain"><li><a href="/protonvpn" rel="sponsored">Proton VPN</a></li><li><a href="/protonpass" rel="sponsored">Proton Pass</a></li><li><a href="/malwarebytes" rel="sponsored">Malwarebytes</a></li><li><a href="/gologin" rel="sponsored">GoLogin</a></li><li><a href="/nordvpn" rel="sponsored">NordVPN</a></li><li><a href="/surfshark" rel="sponsored">Surfshark</a></li><li><a class="all" href="/category/vpn-and-privacy/">All 10 ›</a></li></ul></section>
 <section class="block"><h2><a href="/category/email/">Email</a></h2><ul class="plain"><li><a href="/protonmail" rel="sponsored">Proton Mail</a></li><li><a href="/startmail" rel="sponsored">StartMail</a></li></ul></section>
 <section class="block"><h2><a href="/category/cloud-storage/">Cloud Storage</a></h2><ul class="plain"><li><a href="/pcloud" rel="sponsored">pCloud</a></li><li><a href="/protondrive" rel="sponsored">Proton Drive</a></li></ul></section>
-<section class="block"><h2><a href="/category/web-hosting/">Web Hosting</a></h2><ul class="plain"><li><a href="/hostinger" rel="sponsored">Hostinger</a></li><li><a href="/hostgator" rel="sponsored">HostGator</a></li><li><a href="/ionos" rel="sponsored">IONOS</a></li><li><a href="/webhostmost" rel="sponsored">WebHostMost</a></li></ul></section>
-<section class="block"><h2><a href="/category/website-and-app-builders/">Website &amp; App Builders</a></h2><ul class="plain"><li><a href="/lovable" rel="sponsored">Lovable</a></li><li><a href="/mixo" rel="sponsored">Mixo</a></li><li><a href="/adalo" rel="sponsored">Adalo</a></li></ul></section>
+<section class="block"><h2><a href="/category/web-hosting/">Web Hosting</a></h2><ul class="plain"><li><a href="/hostinger" rel="sponsored">Hostinger</a></li><li><a href="/hostgator" rel="sponsored">HostGator</a></li><li><a href="/ionos" rel="sponsored">IONOS</a></li><li><a href="/webhostmost" rel="sponsored">WebHostMost</a></li><li><a href="/godaddy" rel="sponsored">GoDaddy</a></li></ul></section>
+<section class="block"><h2><a href="/category/website-and-app-builders/">Website &amp; App Builders</a></h2><ul class="plain"><li><a href="/lovable" rel="sponsored">Lovable</a></li><li><a href="/mixo" rel="sponsored">Mixo</a></li><li><a href="/adalo" rel="sponsored">Adalo</a></li><li><a href="/elementor" rel="sponsored">Elementor</a></li></ul></section>
 <section class="block"><h2><a href="/category/online-stores-and-funnels/">Online Stores &amp; Funnels</a></h2><ul class="plain"><li><a href="/shopify" rel="sponsored">Shopify</a></li><li><a href="/systeme" rel="sponsored">Systeme.io</a></li><li><a href="/clickfunnels" rel="sponsored">ClickFunnels</a></li><li><a href="/gohighlevel" rel="sponsored">GoHighLevel</a></li><li><a href="/autods" rel="sponsored">AutoDS</a></li></ul></section>
-<section class="block"><h2><a href="/category/video-creation/">Video Creation</a></h2><ul class="plain"><li><a href="/capcut" rel="sponsored">CapCut</a></li><li><a href="/descript" rel="sponsored">Descript</a></li><li><a href="/invideo" rel="sponsored">InVideo</a></li><li><a href="/opusclip" rel="sponsored">Opus Clip</a></li><li><a href="/klap" rel="sponsored">Klap</a></li><li><a href="/autoshorts" rel="sponsored">AutoShorts</a></li><li><a class="all" href="/category/video-creation/">All 9 ›</a></li></ul></section>
+<section class="block"><h2><a href="/category/video-creation/">Video Creation</a></h2><ul class="plain"><li><a href="/capcut" rel="sponsored">CapCut</a></li><li><a href="/descript" rel="sponsored">Descript</a></li><li><a href="/invideo" rel="sponsored">InVideo</a></li><li><a href="/opusclip" rel="sponsored">Opus Clip</a></li><li><a href="/klap" rel="sponsored">Klap</a></li><li><a href="/autoshorts" rel="sponsored">AutoShorts</a></li><li><a class="all" href="/category/video-creation/">All 11 ›</a></li></ul></section>
 <section class="block"><h2><a href="/category/voice-and-audio/">Voice &amp; Audio</a></h2><ul class="plain"><li><a href="/elevenlabs" rel="sponsored">ElevenLabs</a></li><li><a href="/murf" rel="sponsored">Murf AI</a></li><li><a href="/ttsfree" rel="sponsored">TTSFree</a></li><li><a href="/epidemicsound" rel="sponsored">Epidemic Sound</a></li></ul></section>
 <section class="block"><h2><a href="/category/youtube-tools/">YouTube Tools</a></h2><ul class="plain"><li><a href="/vidiq" rel="sponsored">vidIQ</a></li><li><a href="/tubemagic" rel="sponsored">TubeMagic</a></li><li><a href="/pikzels" rel="sponsored">Pikzels</a></li></ul></section>
-<section class="block"><h2><a href="/category/ai-writing-and-research/">AI Writing &amp; Research</a></h2><ul class="plain"><li><a href="/rytr" rel="sponsored">Rytr</a></li><li><a href="/merlin" rel="sponsored">Merlin AI</a></li><li><a href="/scispace" rel="sponsored">SciSpace</a></li><li><a href="/paperguide" rel="sponsored">Paperguide</a></li></ul></section>
-<section class="block"><h2><a href="/category/productivity-and-design/">Productivity &amp; Design</a></h2><ul class="plain"><li><a href="/coda" rel="sponsored">Coda</a></li><li><a href="/xtiles" rel="sponsored">xTiles</a></li><li><a href="/visme" rel="sponsored">Visme</a></li></ul></section>
+<section class="block"><h2><a href="/category/ai-writing-and-research/">AI Writing &amp; Research</a></h2><ul class="plain"><li><a href="/rytr" rel="sponsored">Rytr</a></li><li><a href="/merlin" rel="sponsored">Merlin AI</a></li><li><a href="/scispace" rel="sponsored">SciSpace</a></li><li><a href="/paperguide" rel="sponsored">Paperguide</a></li><li><a href="/grammarly" rel="sponsored">Grammarly</a></li><li><a href="/fireflies" rel="sponsored">Fireflies AI</a></li></ul></section>
+<section class="block"><h2><a href="/category/productivity-and-design/">Productivity &amp; Design</a></h2><ul class="plain"><li><a href="/coda" rel="sponsored">Coda</a></li><li><a href="/xtiles" rel="sponsored">xTiles</a></li><li><a href="/visme" rel="sponsored">Visme</a></li><li><a href="/wps" rel="sponsored">WPS Office</a></li><li><a href="/pixlr" rel="sponsored">Pixlr</a></li><li><a href="/teamviewer" rel="sponsored">TeamViewer</a></li></ul></section>
 <section class="block"><h2><a href="/category/freelancers/">Freelancers</a></h2><ul class="plain"><li><a href="/fiverr" rel="sponsored">Fiverr</a></li><li><a href="/fiverrpro" rel="sponsored">Fiverr Pro</a></li><li><a href="/fiverrlogomaker" rel="sponsored">Fiverr Logo Maker</a></li><li><a href="/fiverraffiliates" rel="sponsored">Fiverr Affiliates</a></li></ul></section>
-<section class="block"><h2><a href="/category/business-and-legal/">Business &amp; Legal</a></h2><ul class="plain"><li><a href="/firstbase" rel="sponsored">Firstbase</a></li><li><a href="/signnow" rel="sponsored">signNow</a></li><li><a href="/nolo" rel="sponsored">Nolo</a></li><li><a href="/beehiiv" rel="sponsored">Beehiiv</a></li><li><a href="/baremetrics" rel="sponsored">Baremetrics</a></li><li><a href="/browseai" rel="sponsored">Browse AI</a></li><li><a class="all" href="/category/business-and-legal/">All 8 ›</a></li></ul></section>
-<section class="block"><h2><a href="/category/money-and-trading/">Money &amp; Trading</a></h2><ul class="plain"><li><a href="/wise" rel="sponsored">Wise</a></li><li><a href="/tradingview" rel="sponsored">TradingView</a></li></ul></section>
-<section class="block"><h2><a href="/category/learning/">Learning</a></h2><ul class="plain"><li><a href="/headway" rel="sponsored">Headway</a></li><li><a href="/talkpal" rel="sponsored">Talkpal</a></li></ul></section>
-<section class="block"><h2><a href="/category/shopping-and-mobile/">Shopping &amp; Mobile</a></h2><ul class="plain"><li><a href="/shein" rel="sponsored">Shein</a></li><li><a href="/att" rel="sponsored">AT&amp;T</a></li><li><a href="/amigosim" rel="sponsored">AmigoSIM</a></li><li><a href="/gamsgo" rel="sponsored">GamsGo</a></li></ul></section>
+<section class="block"><h2><a href="/category/business-and-legal/">Business &amp; Legal</a></h2><ul class="plain"><li><a href="/firstbase" rel="sponsored">Firstbase</a></li><li><a href="/signnow" rel="sponsored">signNow</a></li><li><a href="/nolo" rel="sponsored">Nolo</a></li><li><a href="/beehiiv" rel="sponsored">Beehiiv</a></li><li><a href="/baremetrics" rel="sponsored">Baremetrics</a></li><li><a href="/browseai" rel="sponsored">Browse AI</a></li><li><a class="all" href="/category/business-and-legal/">All 10 ›</a></li></ul></section>
+<section class="block"><h2><a href="/category/money-and-trading/">Money &amp; Trading</a></h2><ul class="plain"><li><a href="/wise" rel="sponsored">Wise</a></li><li><a href="/tradingview" rel="sponsored">TradingView</a></li><li><a href="/ria" rel="sponsored">Ria Money Transfer</a></li><li><a href="/remitly" rel="sponsored">Remitly</a></li><li><a href="/turbotax" rel="sponsored">TurboTax</a></li></ul></section>
+<section class="block"><h2><a href="/category/learning/">Learning</a></h2><ul class="plain"><li><a href="/headway" rel="sponsored">Headway</a></li><li><a href="/talkpal" rel="sponsored">Talkpal</a></li><li><a href="/udemy" rel="sponsored">Udemy</a></li><li><a href="/preply" rel="sponsored">Preply</a></li></ul></section>
+<section class="block"><h2><a href="/category/shopping-and-mobile/">Shopping &amp; Mobile</a></h2><ul class="plain"><li><a href="/shein" rel="sponsored">Shein</a></li><li><a href="/att" rel="sponsored">AT&amp;T</a></li><li><a href="/amigosim" rel="sponsored">AmigoSIM</a></li><li><a href="/gamsgo" rel="sponsored">GamsGo</a></li><li><a href="/airalo" rel="sponsored">Airalo</a></li></ul></section>
+<section class="block"><h2><a href="/category/travel/">Travel</a></h2><ul class="plain"><li><a href="/agoda" rel="sponsored">Agoda</a></li><li><a href="/booking" rel="sponsored">Booking.com</a></li><li><a href="/expedia" rel="sponsored">Expedia</a></li><li><a href="/kiwi" rel="sponsored">Kiwi.com</a></li><li><a href="/klook" rel="sponsored">Klook</a></li><li><a href="/lastminute" rel="sponsored">lastminute.com</a></li><li><a class="all" href="/category/travel/">All 7 ›</a></li></ul></section>
+<section class="block"><h2><a href="/category/dating/">Dating</a></h2><ul class="plain"><li><a href="/eharmony" rel="sponsored">eHarmony</a></li></ul></section>
 </div>
 <!-- /build-pages:home -->
   </main>
