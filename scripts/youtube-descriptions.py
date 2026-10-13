@@ -3,7 +3,7 @@
 each group most viewed first. Music videos (DJ remixes etc.) are skipped.
 
 Each video gets the same lines as in the editor lists (scripts/build-editor-lists.py):
-    👉 Try <Tool> (affiliate): useandlike.com/<slug>      (only when the title names one of our tools)
+    👉 Try <Tool> (affiliate): useandlike.com/<slug>      (only when the title names one of our tools; "A vs B": one each)
     📩 Join Our Newsletter & Get Free Subscription Tracker: useandlike.com/join
 followed by an empty line and the old description, unchanged. Titles, tags and everything else stay as they are.
 Videos whose description already has useandlike.com/join are skipped (running it again is safe),
@@ -158,7 +158,7 @@ def run(name, apply, limit, tools_first=False):
             # Already has our links: only add the tool line when the video's tool was added to the site later.
             if kind != "tool" or "\U0001F449" in desc[:400]:
                 continue
-            new, kind = lines[0] + "\n" + desc, "tool line added"
+            new, kind = "\n".join(l for l in lines if l.startswith("\U0001F449")) + "\n" + desc, "tool line added"
         else:
             new = "\n".join(lines) + "\n\n" + desc
         todo.append((int(v["statistics"].get("viewCount", 0)), v, kind, new))

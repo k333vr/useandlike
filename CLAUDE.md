@@ -50,7 +50,7 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   links); same title rules as the editor lists; data/common-words.txt keeps the sentences in normal case) at useandlike.com/team-links/: a hidden page Kevin shares with the manager and uploaders (not
   linked anywhere, noindex, not in the sitemap). Commit it with every link change so it stays current. `scripts/youtube-descriptions.py` (login/run, preview by default, `--apply` to change YouTube) puts the same
   lines at the top of old descriptions via the YouTube Data API, most viewed first, ~180/day; tokens live outside the repo.
-  Description format: `👉 Try <Tool> (affiliate): useandlike.com/<slug>` then the 📩 newsletter line, then an empty line.
+  Description format: `👉 Try <Tool> (affiliate): useandlike.com/<slug>` (an "A vs B" title gets one per compared tool we have a link for) then the 📩 newsletter line, then an empty line.
 - Affiliate links live ONLY in `_redirects` (Cloudflare short links), e.g.
   `/wise  https://wise.prf.hn/click/camref:...  302`. Each tool's `slug` in `TOOLS` points at one,
   and its Visit button goes to `/slug`. The owner also uses these short links in YouTube descriptions,

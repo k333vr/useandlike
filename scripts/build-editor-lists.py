@@ -43,6 +43,8 @@ NEW_DAYS = 7  # "New" badge
 NEWS_DAYS = 30  # how far back "What's new" and "Removed" look
 FOLD = 40  # a day in "What's new" with more than FOLD + 10 new links shows the rest behind "N more"
 CANCEL = re.compile(r"\bcancel|unsubscribe|end (your |my )?(membership|subscription)|stop (your |my )?subscription", re.I)
+SEGMENTS = re.compile(r"\s+[-–—|:]\s+|\s*\|\s*|:\s+")  # title parts ("Hostinger vs IONOS: 5 Truths" -> 2 parts)
+VS = re.compile(r"\s+vs\.?\s+", re.I)
 # Extra ways a cancel guide's service is written in titles.
 GUIDE_ALIASES = {
     "disney-plus": ["disney plus", "disney+"], "paramount-plus": ["paramount plus", "paramount+"],
@@ -81,6 +83,11 @@ def make_matcher(tools):
     keys.sort(key=lambda k: -len(k[0]))
     tpat = [(re.compile(r"(?<![a-z0-9])" + re.escape(k) + r"(?![a-z0-9])"), n) for k, n in keys]
 
+    def tool_in(text, title):
+        # Same "other product with the same name" rule as the site (bv.NOT_ABOUT): no Wise link on Wise Care videos.
+        tl = " " + text.lower() + " "
+        return next((n for rx, n in tpat if rx.search(tl) and not (n in bv.NOT_ABOUT and bv.NOT_ABOUT[n].search(title))), None)
+
     def lines_for(title):
         tl = " " + title.lower() + " "
         if CANCEL.search(title):
@@ -88,10 +95,19 @@ def make_matcher(tools):
             if g:
                 return "cancel guide", ["👉 Step-by-step guide: subscriptionchef.app/cancel/" + g, NEWSLETTER_LINE]
         elif not bv.EXCLUDE.search(title):
-            # Same "other product with the same name" rule as the site (bv.NOT_ABOUT): no Wise link on Wise Care videos.
-            tool = next((n for rx, n in tpat if rx.search(tl) and not (n in bv.NOT_ABOUT and bv.NOT_ABOUT[n].search(title))), None)
-            if tool:
-                return "tool", ["👉 Try %s (affiliate): useandlike.com/%s" % (LINE_NAME.get(tool, tool), slug_of[tool]), NEWSLETTER_LINE]
+            # "A vs B (vs C)": a 👉 line for each compared tool we have a link for, in the title's order (13 Oct).
+            found = []
+            vs = next((s for s in SEGMENTS.split(title) if VS.search(s)), None)
+            m = vs and re.search(r"\(([^()]*\svs\.?\s[^()]*)\)", vs, re.I)   # "… (Fiverr Pro vs Fiverr)"
+            vs = m.group(1) if m else vs
+            for part in VS.split(vs)[:3] if vs else []:
+                tool = tool_in(part, title)
+                if tool and tool not in found:
+                    found.append(tool)
+            if len(found) < 2:
+                found = [t for t in [tool_in(title, title)] if t]
+            if found:
+                return "tool", ["👉 Try %s (affiliate): useandlike.com/%s" % (LINE_NAME.get(t, t), slug_of[t]) for t in found] + [NEWSLETTER_LINE]
         return "newsletter only", [NEWSLETTER_LINE]
     return lines_for
 
@@ -494,10 +510,15 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
   // "Kiwi.com" -> "Kiwi": YouTube turns names like that into links to the brand's site (without our code).
   function noTld(s) { return (s || "").replace(/\b([A-Za-z0-9-]+)\.(com|io|net|ai|app|co|org|me|tv|gg|ph|in|uk)\b/gi, "$1"); }
   function trimFiller(a) {
-    var rx = /\s+(full guide|step by step( guide)?|complete guide|tutorial|guide|easy|easily|quick|quickly|fast|for beginners|beginners?'?s? guide|in \d+ (seconds|minutes|steps)|20\d\d|new update|update|latest|simple|\(.*\)|\[.*\])$/i, prev;
+    var rx = /\s+(full guide|step by step( guide)?|complete guide|tutorial|guide|easy|easily|quick|quickly|fast|for beginners|beginners?'?s? guide|in \d+ (seconds|minutes|steps)|((in|for) )?20\d\d|new update|update|latest|simple|\(.*\)|\[.*\])$/i, prev;
     a = a.replace(/[\s,.!?:;-]+$/, "");
     do { prev = a; a = a.replace(rx, "").replace(/[\s,.!?:;-]+$/, ""); } while (a !== prev);
     return a;
+  }
+  // The "A vs B" part of a title's parts ("… Earnings (Fiverr Pro vs Fiverr)" -> "Fiverr Pro vs Fiverr"), if any.
+  function vsPart(segs) {
+    var s = segs.filter(function (x) { return /\svs\.?\s/i.test(x); })[0], m = s && s.match(/\(([^()]*\svs\.?\s[^()]*)\)/i);
+    return m ? m[1] : s;
   }
   // The first line of the pinned comment: one friendly question about the video that invites a reply, nothing beyond
   // the title (rules of the pinned lists, 9 Oct). The editor can change it before copying.
@@ -508,7 +529,7 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
     if (/crack|keygen|license key|mod apk|modded|hack|cheat|unlocked|trial reset|activator|free premium|premium (for )?free|lifetime free|free lifetime/.test(low))
       return "Stay safe: skip cracked apps and “free premium” offers." + (S ? " Questions about " + S + "? Ask below 👇" : " Ask your questions below 👇");
     var segs = t.split(/\s+[-–—|:]\s+|\s*\|\s*|:\s+/);
-    var vs = segs.filter(function (s) { return /\svs\.?\s/i.test(s); })[0];
+    var vs = vsPart(segs);
     if (vs) {
       var p = vs.split(/\s+vs\.?\s+/i).map(function (x) { return noTld(trimFiller(x.trim())); }).filter(Boolean).slice(0, 3);
       if (p.length >= 2) {
@@ -547,12 +568,14 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
   // The description: one sentence that extends the title, without promising what the video shows (Kevin, 13 Oct: "short,
   // not overpromising, just as extension of the title", so viewers aren't pulled away from our links).
   var SAFETY = /crack|keygen|license key|mod apk|modded|hack|cheat|unlocked|trial reset|activator|free premium|premium (for )?free|lifetime free|free lifetime/;
-  function lowerFirst(s) { return /^[A-Z][a-z]/.test(s) ? s.charAt(0).toLowerCase() + s.slice(1) : s; }
+  function lowerFirst(s) {   // "Pros, cons" -> "pros, cons", but the tool's name keeps its capital ("Fiverr Pro to Fiverr")
+    return /^[A-Z][a-z]/.test(s) && !PROTECT[s.split(/\s/)[0].toLowerCase().replace(/[^a-z']/g, "")] ? s.charAt(0).toLowerCase() + s.slice(1) : s;
+  }
   function extend(title, subj) {
     var t = noTld(title.replace(SUFFIX, "").trim()), low = t.toLowerCase(), S = noTld(subj);
     if (SAFETY.test(low)) return "Stay safe: skip cracked apps and “free premium” offers.";
     var segs = t.split(/\s+[-–—|:]\s+|\s*\|\s*|:\s+/).map(function (x) { return x.trim(); }).filter(Boolean);
-    var vs = segs.filter(function (x) { return /\svs\.?\s/i.test(x); })[0];
+    var vs = vsPart(segs);
     if (vs) {
       var p = vs.split(/\s+vs\.?\s+/i).map(function (x) { return trimFiller(x.trim()); }).filter(Boolean).slice(0, 3);
       if (p.length >= 2) {
@@ -585,11 +608,30 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
   var none = document.createElement("option"); none.value = ""; none.textContent = "No link (newsletter line only)"; sel.appendChild(none);
   BOX.items.forEach(function (it) { var o = document.createElement("option"); o.value = it.s; o.textContent = it.n; sel.appendChild(o); });
   var manual = null;
+  // The tool a text names (longest name first), as in the editor lists; [] if none.
+  function toolIn(text, title) {
+    var tl = " " + text.toLowerCase() + " ", j;
+    for (j = 0; j < keys.length; j++) if (keys[j].rx.test(tl) && !(keys[j].it.xr && keys[j].it.xr.test(title))) return [keys[j].it];
+    return [];
+  }
+  // "A vs B (vs C)": every compared tool we have a link for, in the title's order (one 👉 line each, like the editor lists).
+  function compared(title) {
+    var vs = vsPart(title.split(/\s+[-–—|:]\s+|\s*\|\s*|:\s+/)), out = [];
+    if (vs) vs.split(/\s+vs\.?\s+/i).slice(0, 3).forEach(function (part) {
+      var t = toolIn(part, title)[0];
+      if (t && out.indexOf(t) < 0) out.push(t);
+    });
+    return out;
+  }
+  function names(its) {
+    var n = its.map(function (x) { return x.n; });
+    return n.length > 1 ? n.slice(0, -1).join(", ") + " and " + n[n.length - 1] : n.join("");
+  }
   function makeLines() {
     var title = vt.value.trim();
     made.hidden = !title;
     if (!title) return;
-    var tl = " " + title.toLowerCase() + " ", it = null, guide = null, note, j;
+    var tl = " " + title.toLowerCase() + " ", its = [], it, guide = null, note, j;
     var cancel = CANCEL.test(title), excluded = !cancel && EXCLUDE.test(title);
     if (cancel) {
       for (j = 0; j < gkeys.length && !guide; j++) if (gkeys[j].rx.test(tl)) guide = gkeys[j].g;
@@ -597,24 +639,29 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
     } else if (excluded) {
       note = "";
     } else if (manual !== null) {
-      it = bySlug[manual] || null;
-      note = it ? "Picked by hand." : "No link: newsletter line only.";
+      if (bySlug[manual]) its = [bySlug[manual]];
+      note = its.length ? "Picked by hand." : "No link: newsletter line only.";
     } else {
-      for (j = 0; j < keys.length && !it; j++) if (keys[j].rx.test(tl) && !(keys[j].it.xr && keys[j].it.xr.test(title))) it = keys[j].it;
-      note = it ? "Found in the title. Wrong one? Pick another." : "No tool from our list in the title. Pick one if the video is about one.";
+      its = compared(title);
+      if (its.length < 2) its = toolIn(title, title);
+      note = its.length > 1 ? "Found in the title. To use only one, pick it here."
+           : its.length ? "Found in the title. Wrong one? Pick another." : "No tool from our list in the title. Pick one if the video is about one.";
     }
+    it = its[0] || null;
     sel.value = it ? it.s : "";
     sel.disabled = cancel || excluded;
     PROTECT = {};
-    (it ? it.n : guide ? guide.n : "").toLowerCase().split(/[^a-z0-9']+/).forEach(function (w) { if (w) PROTECT[w] = 1; });
-    var link = it ? "👉 Try " + it.w + " (affiliate): useandlike.com/" + it.s
-             : guide ? "👉 Step-by-step guide: subscriptionchef.app/cancel/" + guide.s : "";
-    pin.value = [question(title, it ? it.n : guide ? guide.n : ""), link, BOX.pinNews].filter(Boolean).join("\n");
-    var top = [link, NEWS].filter(Boolean).join("\n");
-    desc.value = onlytop.checked ? top : top + "\n\n" + extend(title, it ? it.n : guide ? guide.n : "") + "\n\n" + closing(!!it);
+    (its.length ? names(its) : guide ? guide.n : "").toLowerCase().split(/[^a-z0-9']+/).forEach(function (w) { if (w) PROTECT[w] = 1; });
+    var links = guide ? ["👉 Step-by-step guide: subscriptionchef.app/cancel/" + guide.s]
+              : its.map(function (x) { return "👉 Try " + x.w + " (affiliate): useandlike.com/" + x.s; });
+    var subj = it ? it.n : guide ? guide.n : "";
+    pin.value = [question(title, subj)].concat(links, [BOX.pinNews]).join("\n");
+    var top = links.concat([NEWS]).filter(Boolean).join("\n");
+    desc.value = onlytop.checked ? top : top + "\n\n" + extend(title, subj) + "\n\n" + closing(!!it);
     vnote.textContent = note;
     vstatus.className = "vstatus" + (it ? " yes" : cancel || excluded ? " warn" : "");
-    vstatus.textContent = it ? "✓ We have an affiliate link: " + it.n + " → useandlike.com/" + it.s
+    vstatus.textContent = its.length > 1 ? "✓ We have affiliate links for " + names(its) + ": one 👉 line each."
+      : it ? "✓ We have an affiliate link: " + it.n + " → useandlike.com/" + it.s
       : cancel ? "Cancel video: no affiliate link" + (guide ? ", the cancel guide goes in instead" : "") + " (our rule)."
       : excluded ? "No affiliate link: video about refunds, free versions, cracks or alternatives (our rule)."
       : "No affiliate link for this video: only the newsletter line.";
