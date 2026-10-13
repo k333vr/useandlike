@@ -1,0 +1,3474 @@
+{
+ "123reg": {
+  "name": "123-reg",
+  "group": "Web Hosting",
+  "source": "Yazing",
+  "yazing": "123-reg-uk",
+  "pays": "5% of Sales",
+  "countries": "UK only",
+  "worth": 0.01,
+  "added": "2026-10-13"
+ },
+ "99designs": {
+  "name": "99designs",
+  "group": "Freelancers",
+  "source": "Yazing",
+  "yazing": "99designs",
+  "pays": "Up to $20 per Sale ($20 per completed contest )",
+  "countries": "worldwide",
+  "worth": 2.4,
+  "added": "2026-10-13"
+ },
+ "abbyy": {
+  "name": "ABBYY",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "abbyy",
+  "pays": "Up to 30% of Sales",
+  "countries": "worldwide",
+  "worth": 0.35,
+  "added": "2026-10-13"
+ },
+ "abcya": {
+  "name": "ABCya",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "abcya",
+  "pays": "10% on New Subscription Sales",
+  "countries": "worldwide",
+  "worth": 0.02,
+  "added": "2026-10-13"
+ },
+ "acorns": {
+  "name": "Acorns",
+  "group": "Money & Trading",
+  "source": "Yazing",
+  "yazing": "acorns",
+  "pays": "$50 per First Deposit",
+  "countries": "US only",
+  "worth": 2.5,
+  "added": "2026-10-13"
+ },
+ "acronis": {
+  "name": "Acronis",
+  "group": "Cloud Storage",
+  "source": "Yazing",
+  "yazing": "acronis",
+  "pays": "5% of Sales",
+  "countries": "worldwide",
+  "worth": 0.04,
+  "added": "2026-10-13"
+ },
+ "ailaw": {
+  "name": "ai.law",
+  "group": "AI Tools",
+  "source": "Yazing",
+  "yazing": "ai",
+  "pays": "15% of Sales",
+  "countries": "worldwide",
+  "worth": 0.21,
+  "added": "2026-10-13",
+  "line_name": "ai law"
+ },
+ "airhelp": {
+  "name": "AirHelp",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "airhelp",
+  "pays": "Up to 20% of Membership Sales",
+  "countries": "worldwide",
+  "worth": 0.63,
+  "added": "2026-10-13"
+ },
+ "alibaba": {
+  "name": "Alibaba",
+  "group": "Online Stores & Funnels",
+  "source": "Yazing",
+  "yazing": "alibaba",
+  "pays": "Up to 6.91% of Sales",
+  "countries": "US only",
+  "worth": 0.19,
+  "added": "2026-10-13"
+ },
+ "aliexpress": {
+  "name": "AliExpress",
+  "group": "Shopping & Mobile",
+  "source": "Yazing",
+  "yazing": "aliexpress",
+  "pays": "Up to 8% of Sales",
+  "countries": "US only",
+  "worth": 0.03,
+  "added": "2026-10-13"
+ },
+ "alison": {
+  "name": "Alison",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "alison",
+  "pays": "20% of Sales",
+  "countries": "US only",
+  "worth": 0.6,
+  "added": "2026-10-13"
+ },
+ "alternativeairlines": {
+  "name": "Alternative Airlines",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "alternativeairlines",
+  "pays": "Up to $8 per Completed Travel Sale",
+  "countries": "US only",
+  "worth": 0.1,
+  "added": "2026-10-13"
+ },
+ "altium": {
+  "name": "Altium",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "altium",
+  "pays": "9% of Qualified Sales",
+  "countries": "worldwide",
+  "worth": 1.08,
+  "added": "2026-10-13"
+ },
+ "amadine": {
+  "name": "Amadine",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "amadine",
+  "pays": "30% of Sales",
+  "countries": "worldwide",
+  "worth": 2.03,
+  "added": "2026-10-13"
+ },
+ "amelia": {
+  "name": "Amelia",
+  "group": "Business & Legal",
+  "source": "Yazing",
+  "yazing": "wpamelia",
+  "pays": "30% of Sales",
+  "countries": "worldwide",
+  "worth": 0.06,
+  "added": "2026-10-13"
+ },
+ "ancestry": {
+  "name": "Ancestry",
+  "group": "Other",
+  "source": "Yazing",
+  "yazing": "ancestry",
+  "pays": "Up to 5% of Sales",
+  "countries": "US only",
+  "worth": 0.07,
+  "added": "2026-10-13"
+ },
+ "anytimemailbox": {
+  "name": "Anytime Mailbox",
+  "group": "Business & Legal",
+  "source": "Yazing",
+  "yazing": "anytimemailbox",
+  "pays": "$20 per Sale",
+  "countries": "US only",
+  "worth": 1.0,
+  "added": "2026-10-13"
+ },
+ "aomei": {
+  "name": "AOMEI",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "aomeitech",
+  "pays": "35% of Sales",
+  "countries": "worldwide",
+  "worth": 1.05,
+  "added": "2026-10-13"
+ },
+ "applevacations": {
+  "name": "Apple Vacations",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "applevacations",
+  "pays": "2% of Completed Vacation Sales",
+  "countries": "worldwide",
+  "worth": 0.02,
+  "added": "2026-10-13"
+ },
+ "appsumo": {
+  "name": "AppSumo",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "appsumo",
+  "pays": "Up to 15% of Sales",
+  "countries": "worldwide",
+  "worth": 0.71,
+  "added": "2026-10-13"
+ },
+ "arangrant": {
+  "name": "Arangrant",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "arangrant",
+  "pays": "$25 per Consumed Trip Sales",
+  "countries": "worldwide",
+  "worth": 0.23,
+  "added": "2026-10-13"
+ },
+ "attbusiness": {
+  "name": "AT&T Business",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "att-business",
+  "pays": "Up to $300 Qualified Business Fiber",
+  "countries": "US only",
+  "worth": 0.47,
+  "added": "2026-10-13"
+ },
+ "attinternet": {
+  "name": "AT&T Internet",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "att-internet",
+  "pays": "Up to $50 per Qualified Sale",
+  "countries": "US only",
+  "worth": 1.5,
+  "added": "2026-10-13"
+ },
+ "autodesk": {
+  "name": "Autodesk",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "autodesk",
+  "pays": "7% of Advanced Sales / 0% on Flex licensing and Subscription Renewals",
+  "countries": "worldwide",
+  "worth": 0.84,
+  "added": "2026-10-13"
+ },
+ "bark": {
+  "name": "Bark Parental Controls",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "bark-parental",
+  "pays": "Up to $30 per Subscription Sale / Up to $240 per Order",
+  "countries": "worldwide",
+  "worth": 0.9,
+  "added": "2026-10-13"
+ },
+ "bcengi": {
+  "name": "Bcengi",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "bcengi",
+  "pays": "15% of Sales",
+  "countries": "US only",
+  "worth": 0.02,
+  "added": "2026-10-13"
+ },
+ "bigrock": {
+  "name": "BigRock",
+  "group": "Web Hosting",
+  "source": "Yazing",
+  "yazing": "bigrock",
+  "pays": "Up to 50% of Sales",
+  "countries": "worldwide",
+  "worth": 0.07,
+  "added": "2026-10-13"
+ },
+ "biltrx": {
+  "name": "BiltRx",
+  "group": "Other",
+  "source": "Yazing, added by hand on 3 Oct (in the 'Short links only' block)",
+  "added": "2026-10-03"
+ },
+ "bitdefender": {
+  "name": "Bitdefender",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "bitdefender",
+  "pays": "Up to 50% of Sales",
+  "countries": "worldwide",
+  "worth": 4.2,
+  "added": "2026-10-13"
+ },
+ "blort": {
+  "name": "Blort AI",
+  "group": "AI Tools",
+  "source": "own program (getblort.com), added by hand on 3 Oct",
+  "added": "2026-10-03"
+ },
+ "bodi": {
+  "name": "BODi",
+  "group": "Health & Fitness",
+  "source": "Yazing",
+  "yazing": "bodi",
+  "pays": "Up to 20% of Sales",
+  "countries": "US only",
+  "worth": 0.06,
+  "added": "2026-10-13"
+ },
+ "boxcloud": {
+  "name": "Box",
+  "group": "Cloud Storage",
+  "source": "Yazing",
+  "yazing": "box",
+  "pays": "Up to $175 per Subscription Sale",
+  "countries": "worldwide",
+  "worth": 2.95,
+  "added": "2026-10-13"
+ },
+ "brainsensei": {
+  "name": "Brain Sensei",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "brainsensei",
+  "pays": "20% of Sales",
+  "countries": "Canada only",
+  "worth": 0.0,
+  "added": "2026-10-13"
+ },
+ "brightside": {
+  "name": "Brightside",
+  "group": "Health & Fitness",
+  "source": "Yazing",
+  "yazing": "brightside",
+  "pays": "$5 per Sale",
+  "countries": "US only",
+  "worth": 0.02,
+  "added": "2026-10-13"
+ },
+ "brizy": {
+  "name": "Brizy",
+  "group": "Website & App Builders",
+  "source": "Yazing",
+  "yazing": "brizy",
+  "pays": "Up to 30% of Sales",
+  "countries": "worldwide",
+  "worth": 0.04,
+  "added": "2026-10-13"
+ },
+ "busuu": {
+  "name": "Busuu",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "busuu",
+  "pays": "Up to 15% of Sales",
+  "countries": "worldwide",
+  "worth": 1.26,
+  "added": "2026-10-13"
+ },
+ "buzzy": {
+  "name": "Buzzy",
+  "group": "Website & App Builders",
+  "source": "Yazing",
+  "yazing": "buzzy",
+  "pays": "25% of Sales",
+  "countries": "worldwide",
+  "worth": 0.19,
+  "added": "2026-10-13"
+ },
+ "calmerry": {
+  "name": "Calmerry",
+  "group": "Health & Fitness",
+  "source": "Yazing",
+  "yazing": "calmerry",
+  "pays": "Up to $150 per New Subscription Sale",
+  "countries": "US only",
+  "worth": 0.28,
+  "added": "2026-10-13"
+ },
+ "canvaschamp": {
+  "name": "CanvasChamp",
+  "group": "Photo Books & Prints",
+  "source": "Yazing",
+  "yazing": "canvaschamp",
+  "pays": "4% of Sales",
+  "countries": "US only",
+  "worth": 0.07,
+  "added": "2026-10-13"
+ },
+ "cardcash": {
+  "name": "CardCash",
+  "group": "Shopping & Mobile",
+  "source": "Yazing",
+  "yazing": "cardcash",
+  "pays": "2% of Sales",
+  "countries": "US only",
+  "worth": 0.03,
+  "added": "2026-10-13"
+ },
+ "carla": {
+  "name": "Carla",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "rentcarla",
+  "pays": "25% of Completed Car Rental",
+  "countries": "worldwide",
+  "worth": 0.28,
+  "added": "2026-10-13"
+ },
+ "changedapp": {
+  "name": "Changed",
+  "group": "Money & Trading",
+  "source": "Yazing",
+  "yazing": "gochanged",
+  "pays": "up to $10 per Sale",
+  "countries": "US only",
+  "worth": 0.04,
+  "added": "2026-10-13"
+ },
+ "cheapcaribbean": {
+  "name": "CheapCaribbean.com",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "cheapcaribbean",
+  "pays": "Up to 4% of Completed Stay Sales",
+  "countries": "worldwide",
+  "worth": 0.03,
+  "added": "2026-10-13",
+  "line_name": "CheapCaribbean"
+ },
+ "cheapflightsfares": {
+  "name": "Cheapflightsfares",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "cheapflightsfares",
+  "pays": "$8 per Completed Flight Sale / $5 per other travel services Sale",
+  "countries": "worldwide",
+  "worth": 0.1,
+  "added": "2026-10-13"
+ },
+ "cheapoair": {
+  "name": "CheapOair.ca",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "cheapoair-ca",
+  "pays": "Up to $25 on completed Sale ( $25 on consumed Vacation Packages Sale / $15 on Consumed Hotel Stay Sale/ $8 on Completed Flight / $5 on Insurance Sale & Consumed Rental Car )",
+  "countries": "Canada only",
+  "worth": 0.02,
+  "added": "2026-10-13",
+  "line_name": "CheapOair"
+ },
+ "cheaptickets": {
+  "name": "CheapTickets",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "cheaptickets",
+  "pays": "Up to 4% of Consumed Sales (4% Activity & Conventional Hotel Stays/2% on Vacation Rentals or Packages / 1.5% Car Rentals/ 0% on Flights or Coupon Sales",
+  "countries": "worldwide",
+  "worth": 0.03,
+  "added": "2026-10-13"
+ },
+ "classpass": {
+  "name": "ClassPass",
+  "group": "Health & Fitness",
+  "source": "Yazing",
+  "yazing": "classpass",
+  "pays": "$6 per Sale",
+  "countries": "US only",
+  "worth": 0.23,
+  "added": "2026-10-13"
+ },
+ "cloaked": {
+  "name": "Cloaked",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "cloaked",
+  "pays": "Up to $85 per Sale",
+  "countries": "worldwide",
+  "worth": 3.98,
+  "added": "2026-10-13"
+ },
+ "cloudways": {
+  "name": "Cloudways",
+  "group": "Web Hosting",
+  "source": "Yazing",
+  "yazing": "cloudways",
+  "pays": "$50 per Sale",
+  "countries": "worldwide",
+  "worth": 10.0,
+  "added": "2026-10-13"
+ },
+ "codakid": {
+  "name": "CodaKid",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "codakid",
+  "pays": "15% of Sales",
+  "countries": "worldwide",
+  "worth": 0.45,
+  "added": "2026-10-13"
+ },
+ "codashop": {
+  "name": "Codashop",
+  "group": "Games",
+  "source": "Yazing",
+  "yazing": "codashop",
+  "pays": "Up to 1% of Sales",
+  "countries": "US only",
+  "worth": 0.01,
+  "added": "2026-10-13"
+ },
+ "codemonkey": {
+  "name": "CodeMonkey",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "codemonkey",
+  "pays": "20% of Sales",
+  "countries": "worldwide",
+  "worth": 0.15,
+  "added": "2026-10-13"
+ },
+ "colossyan": {
+  "name": "Colossyan",
+  "group": "Video Creation",
+  "source": "Yazing",
+  "yazing": "colossyan",
+  "pays": "25% of New Subscription Sales",
+  "countries": "worldwide",
+  "worth": 3.0,
+  "added": "2026-10-13"
+ },
+ "condor": {
+  "name": "Condor",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "condor-uk",
+  "pays": "Up to $25 per Completed Flight",
+  "countries": "worldwide",
+  "worth": 0.88,
+  "added": "2026-10-13"
+ },
+ "consumercellular": {
+  "name": "Consumer Cellular",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "consumercellular",
+  "pays": "Up to $100 per New Customer Sale",
+  "countries": "US only",
+  "worth": 1.69,
+  "added": "2026-10-13"
+ },
+ "contiki": {
+  "name": "Contiki",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "contiki",
+  "pays": "5% of Sales",
+  "countries": "US only",
+  "worth": 0.01,
+  "added": "2026-10-13"
+ },
+ "coohom": {
+  "name": "Coohom",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "coohom",
+  "pays": "30% of Sales",
+  "countries": "worldwide",
+  "worth": 3.6,
+  "added": "2026-10-13"
+ },
+ "cratejoy": {
+  "name": "Cratejoy",
+  "group": "Online Stores & Funnels",
+  "source": "Yazing",
+  "yazing": "cratejoy",
+  "pays": "6% of Sales",
+  "countries": "worldwide",
+  "worth": 0.01,
+  "added": "2026-10-13"
+ },
+ "cricketwireless": {
+  "name": "Cricket Wireless",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "cricketwireless",
+  "pays": "$10 per new line of service sale.",
+  "countries": "US only",
+  "worth": 0.03,
+  "added": "2026-10-13"
+ },
+ "cruisedirect": {
+  "name": "CruiseDirect",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "cruisedirect",
+  "pays": "3% of Sales on Trips",
+  "countries": "worldwide",
+  "worth": 0.03,
+  "added": "2026-10-13"
+ },
+ "cruisescom": {
+  "name": "Cruises.com",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "cruises",
+  "pays": "2% on Consumed Cruise Sales",
+  "countries": "worldwide",
+  "worth": 0.02,
+  "added": "2026-10-13",
+  "line_name": "Cruises com"
+ },
+ "cubtale": {
+  "name": "Cubtale",
+  "group": "Other",
+  "source": "Yazing",
+  "yazing": "cubtale",
+  "pays": "Up to 50% of Sales",
+  "countries": "worldwide",
+  "worth": 0.26,
+  "added": "2026-10-13"
+ },
+ "cuemath": {
+  "name": "Cuemath",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "cuemath",
+  "pays": "5% of Sales",
+  "countries": "worldwide",
+  "worth": 0.23,
+  "added": "2026-10-13"
+ },
+ "curiositystream": {
+  "name": "CuriosityStream",
+  "group": "Streaming & Entertainment",
+  "source": "Yazing",
+  "yazing": "curiositystream",
+  "pays": "$3 per Sale",
+  "countries": "worldwide",
+  "worth": 0.34,
+  "added": "2026-10-13"
+ },
+ "cyberghost": {
+  "name": "CyberGhost VPN",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "cyberghostvpn",
+  "pays": "Up to 100% of Monthly Subscription Sales / 45% on Annual Subscriptions/",
+  "countries": "worldwide",
+  "worth": 8.4,
+  "added": "2026-10-13"
+ },
+ "danelfin": {
+  "name": "Danelfin",
+  "group": "Money & Trading",
+  "source": "Yazing",
+  "yazing": "danelfin",
+  "pays": "$30 per Sale",
+  "countries": "worldwide",
+  "worth": 1.5,
+  "added": "2026-10-13"
+ },
+ "darkroom": {
+  "name": "Darkroom",
+  "group": "Video Creation",
+  "source": "Yazing",
+  "yazing": "darkroom",
+  "pays": "20% of Sales",
+  "countries": "worldwide",
+  "worth": 1.35,
+  "added": "2026-10-13"
+ },
+ "dashlane": {
+  "name": "Dashlane",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "dashlane",
+  "pays": "25% of Sales of Premium Service",
+  "countries": "worldwide",
+  "worth": 3.0,
+  "added": "2026-10-13"
+ },
+ "databasemart": {
+  "name": "Database Mart",
+  "group": "Web Hosting",
+  "source": "Yazing",
+  "yazing": "databasemart",
+  "pays": "20% of Sales",
+  "countries": "worldwide",
+  "worth": 0.6,
+  "added": "2026-10-13"
+ },
+ "designcrowd": {
+  "name": "DesignCrowd",
+  "group": "Freelancers",
+  "source": "Yazing",
+  "yazing": "designcrowd",
+  "pays": "$1 per Sale",
+  "countries": "worldwide",
+  "worth": 0.2,
+  "added": "2026-10-13"
+ },
+ "designsai": {
+  "name": "Designs.ai",
+  "group": "AI Tools",
+  "source": "Yazing",
+  "yazing": "designs",
+  "pays": "20% of Sales",
+  "countries": "worldwide",
+  "worth": 0.12,
+  "added": "2026-10-13",
+  "line_name": "Designs ai"
+ },
+ "dhgate": {
+  "name": "DHgate.com",
+  "group": "Shopping & Mobile",
+  "source": "Yazing",
+  "yazing": "dhgate",
+  "pays": "Up to 50% of Sales",
+  "countries": "US only",
+  "worth": 0.44,
+  "added": "2026-10-13",
+  "line_name": "DHgate"
+ },
+ "directferries": {
+  "name": "Direct Ferries",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "directferries",
+  "pays": "Up to 4% of Sales",
+  "countries": "worldwide",
+  "worth": 0.03,
+  "added": "2026-10-13"
+ },
+ "directv": {
+  "name": "DIRECTV STREAM",
+  "group": "Streaming & Entertainment",
+  "source": "Yazing",
+  "yazing": "directv",
+  "pays": "Up to $150 per Sale",
+  "countries": "US only",
+  "worth": 4.5,
+  "added": "2026-10-13"
+ },
+ "discovercars": {
+  "name": "Discover Cars",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "discovercars",
+  "pays": "Up to 54% of Consumed Car Sales",
+  "countries": "worldwide",
+  "worth": 0.43,
+  "added": "2026-10-13"
+ },
+ "distrokid": {
+  "name": "DistroKid",
+  "group": "Voice & Audio",
+  "source": "Yazing",
+  "yazing": "distrokid",
+  "pays": "15% of Sales",
+  "countries": "worldwide",
+  "worth": 0.68,
+  "added": "2026-10-13"
+ },
+ "dochub": {
+  "name": "DocHub",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "dochub",
+  "pays": "Up to 40% of Subscription Sales",
+  "countries": "worldwide",
+  "worth": 0.84,
+  "added": "2026-10-13"
+ },
+ "domaincom": {
+  "name": "Domain.com",
+  "group": "Web Hosting",
+  "source": "Yazing",
+  "yazing": "domain",
+  "pays": "Up to $100 for Hosting / 30% on specific product Sales",
+  "countries": "worldwide",
+  "worth": 12.0,
+  "added": "2026-10-13",
+  "line_name": "Domain com"
+ },
+ "dribbble": {
+  "name": "Dribbble",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "dribbble",
+  "pays": "Up to 20% of Sales",
+  "countries": "worldwide",
+  "worth": 1.68,
+  "added": "2026-10-13"
+ },
+ "dynadot": {
+  "name": "Dynadot",
+  "group": "Web Hosting",
+  "source": "Yazing",
+  "yazing": "dynadot",
+  "pays": "Up to 25% of Sales",
+  "countries": "worldwide",
+  "worth": 0.53,
+  "added": "2026-10-13"
+ },
+ "earthlink": {
+  "name": "Earthlink",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "earthlink",
+  "pays": "$40 per Sale",
+  "countries": "US only",
+  "worth": 1.12,
+  "added": "2026-10-13"
+ },
+ "easyship": {
+  "name": "Easyship",
+  "group": "Online Stores & Funnels",
+  "source": "Yazing",
+  "yazing": "easyship",
+  "pays": "100% of Freemium Subscription / 2.5% of Shipping Transaction",
+  "countries": "worldwide",
+  "worth": 12.0,
+  "added": "2026-10-13"
+ },
+ "eatthismuch": {
+  "name": "Eat This Much",
+  "group": "Food & Drink",
+  "source": "Yazing",
+  "yazing": "eatthismuch",
+  "pays": "30% of Sales",
+  "countries": "US only",
+  "worth": 0.75,
+  "added": "2026-10-13"
+ },
+ "ecotalk": {
+  "name": "Ecotalk",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "ecotalk-uk",
+  "pays": "Up to $21 per Sale",
+  "countries": "US only",
+  "worth": 0.04,
+  "added": "2026-10-13"
+ },
+ "edraw": {
+  "name": "eDraw",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "edrawsoft",
+  "pays": "40% of Sales",
+  "countries": "worldwide",
+  "worth": 2.7,
+  "added": "2026-10-13"
+ },
+ "edreams": {
+  "name": "eDreams",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "edreams",
+  "pays": "Up to 6% of Completed Travel Sale",
+  "countries": "worldwide",
+  "worth": 0.19,
+  "added": "2026-10-13"
+ },
+ "educationcom": {
+  "name": "Education.com",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "education",
+  "pays": "8% of Sales",
+  "countries": "worldwide",
+  "worth": 0.24,
+  "added": "2026-10-13",
+  "line_name": "Education com"
+ },
+ "educative": {
+  "name": "Educative",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "educative",
+  "pays": "20% on Subscription Sales",
+  "countries": "worldwide",
+  "worth": 0.6,
+  "added": "2026-10-13"
+ },
+ "edx": {
+  "name": "edX",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "edx",
+  "pays": "8% of Sales",
+  "countries": "worldwide",
+  "worth": 0.38,
+  "added": "2026-10-13"
+ },
+ "efax": {
+  "name": "eFax",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "efax",
+  "pays": "Up to $15 per Efax Plus Subscription Sale",
+  "countries": "worldwide",
+  "worth": 1.8,
+  "added": "2026-10-13"
+ },
+ "efile": {
+  "name": "E-file.com",
+  "group": "Business & Legal",
+  "source": "Yazing",
+  "yazing": "e-file",
+  "pays": "Up to 30% of Sales (30% of Sales on Paid Tax Prep)",
+  "countries": "US only",
+  "worth": 0.07,
+  "added": "2026-10-13",
+  "line_name": "E-file"
+ },
+ "efultimatebreak": {
+  "name": "EF Ultimate Break",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "efultimatebreak",
+  "pays": "Up to $10 per Consumed Trip Sales",
+  "countries": "worldwide",
+  "worth": 0.22,
+  "added": "2026-10-13"
+ },
+ "egifter": {
+  "name": "eGifter",
+  "group": "Shopping & Mobile",
+  "source": "Yazing",
+  "yazing": "egifter",
+  "pays": "Up to 2% of Sales",
+  "countries": "US only",
+  "worth": 0.01,
+  "added": "2026-10-13"
+ },
+ "empower": {
+  "name": "Empower",
+  "group": "Money & Trading",
+  "source": "Yazing",
+  "yazing": "personalcapital",
+  "pays": "Up to $100 per qualified lead",
+  "countries": "US only",
+  "worth": 12.0,
+  "added": "2026-10-13"
+ },
+ "envato": {
+  "name": "Envato Market",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "envato",
+  "pays": "Up to 30% of Sales",
+  "countries": "worldwide",
+  "worth": 2.52,
+  "added": "2026-10-13"
+ },
+ "ereleases": {
+  "name": "eReleases",
+  "group": "Business & Legal",
+  "source": "Yazing",
+  "yazing": "ereleases",
+  "pays": "5% of Sales",
+  "countries": "US only",
+  "worth": 0.02,
+  "added": "2026-10-13"
+ },
+ "eset": {
+  "name": "ESET",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "eset",
+  "pays": "Up to 20% of New Sales / 10% on renewals / $4 Xopero",
+  "countries": "worldwide",
+  "worth": 0.1,
+  "added": "2026-10-13"
+ },
+ "esim4travel": {
+  "name": "eSIM4Travel",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "esim4travel",
+  "pays": "10% of Sales",
+  "countries": "US only",
+  "worth": 0.01,
+  "added": "2026-10-13"
+ },
+ "esimthailand": {
+  "name": "ESIMTHAILAND",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "esimthailand",
+  "pays": "10% of Sales",
+  "countries": "US only",
+  "worth": 0.01,
+  "added": "2026-10-13"
+ },
+ "esky": {
+  "name": "eSky",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "esky",
+  "pays": "Up to 3.5% of Completed Sales",
+  "countries": "worldwide",
+  "worth": 0.01,
+  "added": "2026-10-13"
+ },
+ "espn": {
+  "name": "ESPN+",
+  "group": "Streaming & Entertainment",
+  "source": "Yazing",
+  "yazing": "espnplus",
+  "pays": "Up to $16 per Bundle Sale",
+  "countries": "US only",
+  "worth": 0.48,
+  "added": "2026-10-13"
+ },
+ "etsy": {
+  "name": "Etsy",
+  "group": "Shopping & Mobile",
+  "source": "Yazing",
+  "yazing": "etsy-uk",
+  "pays": "5% of Sales",
+  "countries": "UK only",
+  "worth": 0.02,
+  "added": "2026-10-13"
+ },
+ "etutorworld": {
+  "name": "eTutorWorld",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "etutorworld",
+  "pays": "10% of Sales",
+  "countries": "worldwide",
+  "worth": 0.08,
+  "added": "2026-10-13"
+ },
+ "europcar": {
+  "name": "Europcar",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "europcar",
+  "pays": "Up to 7% of Completed Rental Sales",
+  "countries": "worldwide",
+  "worth": 0.34,
+  "added": "2026-10-13"
+ },
+ "examedge": {
+  "name": "Exam Edge",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "examedge",
+  "pays": "15% of Sales",
+  "countries": "US only",
+  "worth": 0.03,
+  "added": "2026-10-13"
+ },
+ "exitlag": {
+  "name": "ExitLag",
+  "group": "Games",
+  "source": "Yazing",
+  "yazing": "exitlag",
+  "pays": "20% of New Customer Sales",
+  "countries": "worldwide",
+  "worth": 2.4,
+  "added": "2026-10-13"
+ },
+ "eztexting": {
+  "name": "EZ Texting",
+  "group": "Business & Legal",
+  "source": "Yazing",
+  "yazing": "eztexting",
+  "pays": "Up to $100 per Subscription Sale",
+  "countries": "US only",
+  "worth": 1.69,
+  "added": "2026-10-13"
+ },
+ "fanatical": {
+  "name": "Fanatical",
+  "group": "Games",
+  "source": "Yazing",
+  "yazing": "fantatical-uk",
+  "pays": "Up to 6% of Sales",
+  "countries": "UK only",
+  "worth": 0.0,
+  "added": "2026-10-13"
+ },
+ "fanatiz": {
+  "name": "Fanatiz",
+  "group": "Streaming & Entertainment",
+  "source": "Yazing",
+  "yazing": "fanatiz",
+  "pays": "Up to $50 per Subscription Sale",
+  "countries": "worldwide",
+  "worth": 2.34,
+  "added": "2026-10-13"
+ },
+ "fashiongo": {
+  "name": "FASHIONGO",
+  "group": "Online Stores & Funnels",
+  "source": "Yazing",
+  "yazing": "fashiongo",
+  "pays": "Up to $40 per First Sale",
+  "countries": "US only",
+  "worth": 0.3,
+  "added": "2026-10-13"
+ },
+ "fastestvpn": {
+  "name": "FastestVPN",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "fastestvpn",
+  "pays": "Up to 90% of Sales",
+  "countries": "worldwide",
+  "worth": 1.89,
+  "added": "2026-10-13"
+ },
+ "firstcard": {
+  "name": "Firstcard",
+  "group": "Money & Trading",
+  "source": "Yazing",
+  "yazing": "firstcard",
+  "pays": "50% of Sales",
+  "countries": "US only",
+  "worth": 0.02,
+  "added": "2026-10-13"
+ },
+ "flexibits": {
+  "name": "Flexibits",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "flexibits",
+  "pays": "25% of Premium Subscription Sales after 30 Days",
+  "countries": "worldwide",
+  "worth": 0.19,
+  "added": "2026-10-13"
+ },
+ "flighthub": {
+  "name": "FlightHub",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "flighthub",
+  "pays": "Up to $4 per consumed flight sale / 0 .50% per consumed package Sale",
+  "countries": "worldwide",
+  "worth": 0.09,
+  "added": "2026-10-13"
+ },
+ "flightnetwork": {
+  "name": "Flight Network",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "flightnetwork",
+  "pays": "$5 per Completed Flight Sale",
+  "countries": "worldwide",
+  "worth": 0.42,
+  "added": "2026-10-13"
+ },
+ "flipsnack": {
+  "name": "Flipsnack",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "flipsnack",
+  "pays": "20% of Sales",
+  "countries": "worldwide",
+  "worth": 1.35,
+  "added": "2026-10-13"
+ },
+ "flixbus": {
+  "name": "FlixBus",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "flixbus",
+  "pays": "Up to 5% of Sales",
+  "countries": "worldwide",
+  "worth": 0.25,
+  "added": "2026-10-13"
+ },
+ "flowith": {
+  "name": "Flowith",
+  "group": "AI Tools",
+  "source": "Yazing",
+  "yazing": "flowith",
+  "pays": "20% of Sales",
+  "countries": "worldwide",
+  "worth": 0.15,
+  "added": "2026-10-13"
+ },
+ "freedompop": {
+  "name": "FreedomPop",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "freedompop",
+  "pays": "7% of Sales",
+  "countries": "US only",
+  "worth": 0.14,
+  "added": "2026-10-13"
+ },
+ "frndlytv": {
+  "name": "frndlyTV",
+  "group": "Streaming & Entertainment",
+  "source": "Yazing",
+  "yazing": "frndlytv",
+  "pays": "$10 per Sale",
+  "countries": "US only",
+  "worth": 0.2,
+  "added": "2026-10-13"
+ },
+ "frontiercommunications": {
+  "name": "Frontier Communications",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "frontiercommunications",
+  "pays": "Up to $75 per Sale / $25 on Frontier Plan Purchase RV",
+  "countries": "US only",
+  "worth": 0.14,
+  "added": "2026-10-13"
+ },
+ "funjet": {
+  "name": "Funjet Vacations",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "funjet",
+  "pays": "Up to 2% of Completed Vacation Sales",
+  "countries": "worldwide",
+  "worth": 0.02,
+  "added": "2026-10-13"
+ },
+ "gadventures": {
+  "name": "G Adventures",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "gadventures",
+  "pays": "5% of Consumed Travel Sales",
+  "countries": "worldwide",
+  "worth": 0.22,
+  "added": "2026-10-13"
+ },
+ "gamefly": {
+  "name": "GameFly",
+  "group": "Games",
+  "source": "Yazing",
+  "yazing": "gamefly",
+  "pays": "$15 per subscription signup / 10% of used games, accessories, collectibles, used & new movies / $0 on Consoles & New Games",
+  "countries": "worldwide",
+  "worth": 0.75,
+  "added": "2026-10-13"
+ },
+ "gamersgate": {
+  "name": "GamersGate",
+  "group": "Games",
+  "source": "Yazing",
+  "yazing": "gamersgate",
+  "pays": "5% of Sales",
+  "countries": "worldwide",
+  "worth": 0.15,
+  "added": "2026-10-13"
+ },
+ "gearup": {
+  "name": "GearUP",
+  "group": "Games",
+  "source": "Yazing",
+  "yazing": "earupbooster",
+  "pays": "50% of Sales",
+  "countries": "worldwide",
+  "worth": 6.0,
+  "added": "2026-10-13"
+ },
+ "geekbuying": {
+  "name": "GeekBuying",
+  "group": "Shopping & Mobile",
+  "source": "Yazing",
+  "yazing": "geekbuying",
+  "pays": "Up to 8% of Sales",
+  "countries": "worldwide",
+  "worth": 0.38,
+  "added": "2026-10-13"
+ },
+ "genmobile": {
+  "name": "GenMobile",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "genmobile",
+  "pays": "Up to $25 per Subscription Sale",
+  "countries": "US only",
+  "worth": 0.05,
+  "added": "2026-10-13"
+ },
+ "getabstract": {
+  "name": "getAbstract",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "getabstract",
+  "pays": "20% on New Subscription Sales",
+  "countries": "worldwide",
+  "worth": 0.6,
+  "added": "2026-10-13"
+ },
+ "getbhanzu": {
+  "name": "Bhanzu",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "bhanzu",
+  "pays": "Up to 5% of Sales",
+  "countries": "US only",
+  "worth": 0.1,
+  "added": "2026-10-13"
+ },
+ "getyourguide": {
+  "name": "GetYourGuide",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "getyourguide",
+  "pays": "7% of Sales",
+  "countries": "US only",
+  "worth": 0.32,
+  "added": "2026-10-13"
+ },
+ "gitmind": {
+  "name": "GitMind",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "gitmind",
+  "pays": "Up to 35% of Sales",
+  "countries": "worldwide",
+  "worth": 2.94,
+  "added": "2026-10-13"
+ },
+ "globaltravel": {
+  "name": "GlobalTravel",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "globaltravel",
+  "pays": "Up to $100 per Sale",
+  "countries": "worldwide",
+  "worth": 9.0,
+  "added": "2026-10-13"
+ },
+ "gogcom": {
+  "name": "GOG.com",
+  "group": "Games",
+  "source": "Yazing",
+  "yazing": "gog",
+  "pays": "8% of Sales",
+  "countries": "worldwide",
+  "worth": 0.54,
+  "added": "2026-10-13",
+  "line_name": "GOG"
+ },
+ "gotogate": {
+  "name": "Gotogate",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "gotogate",
+  "pays": "3% of Completed Flight Sales",
+  "countries": "worldwide",
+  "worth": 0.3,
+  "added": "2026-10-13"
+ },
+ "grailed": {
+  "name": "Grailed",
+  "group": "Shopping & Mobile",
+  "source": "Yazing",
+  "yazing": "grailed",
+  "pays": "4% of Sales",
+  "countries": "US only",
+  "worth": 0.01,
+  "added": "2026-10-13"
+ },
+ "greatvaluevacations": {
+  "name": "Great Value Vacations",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "greatvaluevacations",
+  "pays": "Up to 3% of Sales dependent on cost of package",
+  "countries": "worldwide",
+  "worth": 0.02,
+  "added": "2026-10-13"
+ },
+ "greenmotion": {
+  "name": "Green Motion",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "greenmotion",
+  "pays": "6.5% of Completed Rental Sales",
+  "countries": "worldwide",
+  "worth": 0.07,
+  "added": "2026-10-13"
+ },
+ "groundnews": {
+  "name": "Ground News",
+  "group": "Streaming & Entertainment",
+  "source": "Yazing",
+  "yazing": "ground",
+  "pays": "Up to $36 per Subscription Sale",
+  "countries": "worldwide",
+  "worth": 1.08,
+  "added": "2026-10-13"
+ },
+ "guildwars2": {
+  "name": "Guild Wars 2",
+  "group": "Games",
+  "source": "Yazing",
+  "yazing": "guildwars2",
+  "pays": "10% of Sales",
+  "countries": "US only",
+  "worth": 0.06,
+  "added": "2026-10-13"
+ },
+ "happyscribe": {
+  "name": "HappyScribe",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "happyscribe",
+  "pays": "30% of Sales",
+  "countries": "worldwide",
+  "worth": 0.23,
+  "added": "2026-10-13"
+ },
+ "havenly": {
+  "name": "Havenly",
+  "group": "Other",
+  "source": "Yazing",
+  "yazing": "havenly",
+  "pays": "15% of Sales (Design Packages Only)",
+  "countries": "worldwide",
+  "worth": 0.11,
+  "added": "2026-10-13"
+ },
+ "helloprenup": {
+  "name": "HelloPrenup",
+  "group": "Business & Legal",
+  "source": "Yazing",
+  "yazing": "helloprenup",
+  "pays": "$100 per Sale",
+  "countries": "US only",
+  "worth": 0.31,
+  "added": "2026-10-13"
+ },
+ "hertz": {
+  "name": "Hertz",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "hertz",
+  "pays": "3% of sales",
+  "countries": "worldwide",
+  "worth": 0.03,
+  "added": "2026-10-13"
+ },
+ "hideme": {
+  "name": "Hide.me",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "hide",
+  "pays": "30% of Sales",
+  "countries": "worldwide",
+  "worth": 3.6,
+  "added": "2026-10-13",
+  "line_name": "Hide me VPN"
+ },
+ "hitpaw": {
+  "name": "HitPaw",
+  "group": "Video Creation",
+  "source": "Yazing",
+  "yazing": "hitpaw",
+  "pays": "40% of Sales",
+  "countries": "worldwide",
+  "worth": 3.68,
+  "added": "2026-10-13"
+ },
+ "homebase": {
+  "name": "Homebase",
+  "group": "Business & Legal",
+  "source": "Yazing",
+  "yazing": "joinhomebase",
+  "pays": "Up to $150 per New Sale",
+  "countries": "US only",
+  "worth": 4.5,
+  "added": "2026-10-13"
+ },
+ "homestyler": {
+  "name": "Homestyler",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "homestyler",
+  "pays": "Up to 30% of Sales",
+  "countries": "worldwide",
+  "worth": 2.52,
+  "added": "2026-10-13"
+ },
+ "homezada": {
+  "name": "HomeZada",
+  "group": "Other",
+  "source": "Yazing",
+  "yazing": "homezada",
+  "pays": "Up to 25% of Sales",
+  "countries": "US only",
+  "worth": 0.03,
+  "added": "2026-10-13"
+ },
+ "hookedonphonics": {
+  "name": "Hooked On Phonics",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "hookedonphonics",
+  "pays": "10% if Sales / $20 per Membership Subscription",
+  "countries": "worldwide",
+  "worth": 0.08,
+  "added": "2026-10-13"
+ },
+ "hopegoo": {
+  "name": "HopeGoo",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "hopegoo",
+  "pays": "Up to 5% of Consumed Travel Sales",
+  "countries": "worldwide",
+  "worth": 0.35,
+  "added": "2026-10-13"
+ },
+ "hostpapa": {
+  "name": "HostPapa",
+  "group": "Web Hosting",
+  "source": "Yazing",
+  "yazing": "hostpapa",
+  "pays": "$45 per Sale / 15% on email & domain Sales",
+  "countries": "US only",
+  "worth": 1.27,
+  "added": "2026-10-13"
+ },
+ "hotelscom": {
+  "name": "Hotels.com",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "hotels.com",
+  "pays": "Up to 4% of Sales ( 4% of Conventional Lodging Sales Completed Stays / 2% on Completed Stay Vacation Rental Sales / 1.5% of Completed Rental Car Sales / 0% of Coupon Sales & LOB Sales",
+  "countries": "worldwide",
+  "worth": 0.03,
+  "added": "2026-10-13",
+  "line_name": "Hotels com"
+ },
+ "humblebundle": {
+  "name": "Humble Bundle",
+  "group": "Games",
+  "source": "Yazing",
+  "yazing": "humblebundle",
+  "pays": "Up to 8% of Sales",
+  "countries": "worldwide",
+  "worth": 0.04,
+  "added": "2026-10-13"
+ },
+ "iberia": {
+  "name": "Iberia",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "iberia",
+  "pays": "Up to 1% per Order",
+  "countries": "US only",
+  "worth": 0.0,
+  "added": "2026-10-13"
+ },
+ "imagineart": {
+  "name": "ImagineArt",
+  "group": "AI Tools",
+  "source": "Yazing",
+  "yazing": "imagine",
+  "pays": "15% of Sales",
+  "countries": "worldwide",
+  "worth": 0.7,
+  "added": "2026-10-13"
+ },
+ "imobie": {
+  "name": "iMobie",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "imobie",
+  "pays": "Up to 50% of Sales",
+  "countries": "worldwide",
+  "worth": 0.26,
+  "added": "2026-10-13"
+ },
+ "imyfone": {
+  "name": "iMyFone",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "imyfone",
+  "pays": "20% of Sales",
+  "countries": "worldwide",
+  "worth": 0.34,
+  "added": "2026-10-13"
+ },
+ "incogni": {
+  "name": "Incogni",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "incogni",
+  "pays": "40% of Sales",
+  "countries": "worldwide",
+  "worth": 3.68,
+  "added": "2026-10-13"
+ },
+ "instapage": {
+  "name": "Instapage",
+  "group": "Website & App Builders",
+  "source": "Yazing",
+  "yazing": "instapage",
+  "pays": "Up to 40% per Sale",
+  "countries": "worldwide",
+  "worth": 3.36,
+  "added": "2026-10-13"
+ },
+ "intego": {
+  "name": "Intego",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "intego",
+  "pays": "50% of Sales",
+  "countries": "worldwide",
+  "worth": 2.34,
+  "added": "2026-10-13"
+ },
+ "italki": {
+  "name": "italki",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "italki",
+  "pays": "$18 per Sale",
+  "countries": "worldwide",
+  "worth": 3.6,
+  "added": "2026-10-13"
+ },
+ "iubenda": {
+  "name": "iubenda",
+  "group": "Business & Legal",
+  "source": "Yazing",
+  "yazing": "iubenda",
+  "pays": "Up to 40% of Sales",
+  "countries": "US only",
+  "worth": 0.09,
+  "added": "2026-10-13"
+ },
+ "ixl": {
+  "name": "IXL",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "ixl",
+  "pays": "7% of Sales",
+  "countries": "worldwide",
+  "worth": 0.64,
+  "added": "2026-10-13"
+ },
+ "jibjab": {
+  "name": "JibJab",
+  "group": "Other",
+  "source": "Yazing",
+  "yazing": "jibjab",
+  "pays": "2% of Sales",
+  "countries": "US only",
+  "worth": 0.0,
+  "added": "2026-10-13"
+ },
+ "jobtestprep": {
+  "name": "JobTestPrep",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "jobtestprep",
+  "pays": "20% of Sales",
+  "countries": "US only",
+  "worth": 0.04,
+  "added": "2026-10-13"
+ },
+ "jow": {
+  "name": "Jow",
+  "group": "Food & Drink",
+  "source": "Yazing",
+  "yazing": "jow",
+  "pays": "Up to 10% of Sales",
+  "countries": "US only",
+  "worth": 0.01,
+  "added": "2026-10-13"
+ },
+ "justfit": {
+  "name": "JustFit",
+  "group": "Health & Fitness",
+  "source": "Yazing",
+  "yazing": "justfitpro",
+  "pays": "Up to 45% of Sales",
+  "countries": "US only",
+  "worth": 0.13,
+  "added": "2026-10-13"
+ },
+ "kamatera": {
+  "name": "Kamatera",
+  "group": "Web Hosting",
+  "source": "Yazing",
+  "yazing": "kamatera",
+  "pays": "$75 per Sale",
+  "countries": "worldwide",
+  "worth": 15.0,
+  "added": "2026-10-13"
+ },
+ "kaspersky": {
+  "name": "Kaspersky",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "kaspersky-uk",
+  "pays": "Up to 30% of Sales",
+  "countries": "UK only",
+  "worth": 0.08,
+  "added": "2026-10-13"
+ },
+ "keeper": {
+  "name": "Keeper Security",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "keepersecurity",
+  "pays": "10% of Sales / $5 per B2B lead",
+  "countries": "worldwide",
+  "worth": 2.7,
+  "added": "2026-10-13"
+ },
+ "knack": {
+  "name": "Knack",
+  "group": "Website & App Builders",
+  "source": "Yazing",
+  "yazing": "knackbags",
+  "pays": "8% of Sales",
+  "countries": "US only",
+  "worth": 0.02,
+  "added": "2026-10-13"
+ },
+ "lawdepot": {
+  "name": "LawDepot",
+  "group": "Business & Legal",
+  "source": "Yazing",
+  "yazing": "lawdepot",
+  "pays": "Up to 40% of Sales",
+  "countries": "US only",
+  "worth": 0.09,
+  "added": "2026-10-13"
+ },
+ "lightinthebox": {
+  "name": "LightInTheBox",
+  "group": "Shopping & Mobile",
+  "source": "Yazing",
+  "yazing": "lightinthebox",
+  "pays": "Up to 30% of Sales (17% on Jewelry & Watches / 8% on New Special Electronics/12% on other Sales)",
+  "countries": "US only",
+  "worth": 0.63,
+  "added": "2026-10-13"
+ },
+ "lightpdf": {
+  "name": "LightPDF",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "lightpdf",
+  "pays": "Up to 35% of Sales",
+  "countries": "worldwide",
+  "worth": 0.41,
+  "added": "2026-10-13"
+ },
+ "liveplan": {
+  "name": "LivePlan",
+  "group": "Money & Trading",
+  "source": "Yazing",
+  "yazing": "liveplan",
+  "pays": "20% of Subscription Sales",
+  "countries": "worldwide",
+  "worth": 2.4,
+  "added": "2026-10-13"
+ },
+ "lotairlines": {
+  "name": "LOT",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "lot",
+  "pays": "1.50% of Completed Flight Sales",
+  "countries": "worldwide",
+  "worth": 0.0,
+  "added": "2026-10-13"
+ },
+ "lufthansa": {
+  "name": "Lufthansa",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "lufthansa",
+  "pays": "1.5% of Completed Travel Sales",
+  "countries": "worldwide",
+  "worth": 0.07,
+  "added": "2026-10-13"
+ },
+ "lugless": {
+  "name": "LugLess",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "lugless",
+  "pays": "5% of Sales",
+  "countries": "worldwide",
+  "worth": 0.22,
+  "added": "2026-10-13"
+ },
+ "luxy": {
+  "name": "Luxy",
+  "group": "Dating",
+  "source": "Yazing",
+  "yazing": "onluxy",
+  "pays": "30% of Sales",
+  "countries": "worldwide",
+  "worth": 7.2,
+  "added": "2026-10-13"
+ },
+ "lycamobile": {
+  "name": "Lycamobile",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "lycamobile",
+  "pays": "Up to $32 per Sale",
+  "countries": "US only",
+  "worth": 0.54,
+  "added": "2026-10-13"
+ },
+ "mackeeper": {
+  "name": "MacKeeper",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "mackeeper",
+  "pays": "55% of Sales",
+  "countries": "worldwide",
+  "worth": 3.71,
+  "added": "2026-10-13"
+ },
+ "macpaw": {
+  "name": "MacPaw",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "macpaw",
+  "pays": "Up to 100% of Sales",
+  "countries": "worldwide",
+  "worth": 2.1,
+  "added": "2026-10-13"
+ },
+ "magoosh": {
+  "name": "Magoosh",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "magoosh",
+  "pays": "10% per paid subscription",
+  "countries": "worldwide",
+  "worth": 0.47,
+  "added": "2026-10-13"
+ },
+ "magzter": {
+  "name": "Magzter",
+  "group": "Streaming & Entertainment",
+  "source": "Yazing",
+  "yazing": "magzter",
+  "pays": "Up to 50% of Sales (50% on Gold Sales / 30% on non-gold Sales",
+  "countries": "worldwide",
+  "worth": 1.05,
+  "added": "2026-10-13"
+ },
+ "mailbird": {
+  "name": "Mailbird",
+  "group": "Email",
+  "source": "Yazing",
+  "yazing": "getmailbird",
+  "pays": "25% of Sales",
+  "countries": "worldwide",
+  "worth": 3.0,
+  "added": "2026-10-13"
+ },
+ "mailchimp": {
+  "name": "Mailchimp",
+  "group": "Email",
+  "source": "Yazing",
+  "yazing": "mailchimp",
+  "pays": "$50 on Paid Subscription Sales",
+  "countries": "worldwide",
+  "worth": 10.0,
+  "added": "2026-10-13"
+ },
+ "medo": {
+  "name": "MeDo",
+  "group": "Website & App Builders",
+  "source": "Yazing",
+  "yazing": "medo",
+  "pays": "Up to 30% of Initial Subscription Sales",
+  "countries": "worldwide",
+  "worth": 0.63,
+  "added": "2026-10-13"
+ },
+ "meshy": {
+  "name": "Meshy",
+  "group": "AI Tools",
+  "source": "Yazing",
+  "yazing": "meshy",
+  "pays": "20% of Sales",
+  "countries": "worldwide",
+  "worth": 1.53,
+  "added": "2026-10-13"
+ },
+ "metrobytmobile": {
+  "name": "Metro by T-Mobile",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "metrobyt-mobile",
+  "pays": "$25 per Sale",
+  "countries": "US only",
+  "worth": 0.08,
+  "added": "2026-10-13"
+ },
+ "mindmanager": {
+  "name": "MindManager",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "mindmanager",
+  "pays": "Up to 10% of Sales",
+  "countries": "worldwide",
+  "worth": 0.47,
+  "added": "2026-10-13"
+ },
+ "mindvalley": {
+  "name": "Mindvalley",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "mindvalley",
+  "pays": "Up to 5% of Sales",
+  "countries": "worldwide",
+  "worth": 0.1,
+  "added": "2026-10-13"
+ },
+ "minitool": {
+  "name": "MiniTool",
+  "group": "Video Creation",
+  "source": "Yazing",
+  "yazing": "minitool",
+  "pays": "Up to 40% of Sales",
+  "countries": "worldwide",
+  "worth": 1.31,
+  "added": "2026-10-13"
+ },
+ "mixbook": {
+  "name": "Mixbook",
+  "group": "Photo Books & Prints",
+  "source": "Yazing",
+  "yazing": "mixbook",
+  "pays": "Up to 2% of Sales",
+  "countries": "US only",
+  "worth": 0.03,
+  "added": "2026-10-13"
+ },
+ "moneygram": {
+  "name": "MoneyGram",
+  "group": "Money & Trading",
+  "source": "Yazing",
+  "yazing": "moneygram",
+  "pays": "$15 per minimum $50+ New CustomerTransaction",
+  "countries": "US only",
+  "worth": 0.75,
+  "added": "2026-10-13"
+ },
+ "moneyspire": {
+  "name": "Moneyspire",
+  "group": "Money & Trading",
+  "source": "Yazing",
+  "yazing": "moneyspire",
+  "pays": "15% of Sales",
+  "countries": "worldwide",
+  "worth": 1.38,
+  "added": "2026-10-13"
+ },
+ "movavi": {
+  "name": "Movavi",
+  "group": "Video Creation",
+  "source": "Yazing",
+  "yazing": "movavi",
+  "pays": "30% of Sales",
+  "countries": "worldwide",
+  "worth": 2.76,
+  "added": "2026-10-13"
+ },
+ "mpix": {
+  "name": "Mpix",
+  "group": "Photo Books & Prints",
+  "source": "Yazing",
+  "yazing": "mpix",
+  "pays": "2% of Sales",
+  "countries": "worldwide",
+  "worth": 0.03,
+  "added": "2026-10-13"
+ },
+ "mrswordsmith": {
+  "name": "Mrs Wordsmith",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "mrswordsmith",
+  "pays": "10% of Sales",
+  "countries": "worldwide",
+  "worth": 0.08,
+  "added": "2026-10-13"
+ },
+ "myob": {
+  "name": "MYOB",
+  "group": "Money & Trading",
+  "source": "Yazing",
+  "yazing": "myob",
+  "pays": "Up to $115 per Sale",
+  "countries": "worldwide",
+  "worth": 10.57,
+  "added": "2026-10-13"
+ },
+ "myperfectresume": {
+  "name": "My Perfect Resume",
+  "group": "Business & Legal",
+  "source": "Yazing",
+  "yazing": "myperfectresume",
+  "pays": "$12 per Subscription Sale",
+  "countries": "worldwide",
+  "worth": 0.6,
+  "added": "2026-10-13"
+ },
+ "mysterium": {
+  "name": "Mysterium VPN",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "mysteriumvpn",
+  "pays": "40% of Sales",
+  "countries": "worldwide",
+  "worth": 4.8,
+  "added": "2026-10-13"
+ },
+ "mystrika": {
+  "name": "Mystrika",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "mystrika",
+  "pays": "45% of Sales",
+  "countries": "worldwide",
+  "worth": 1.35,
+  "added": "2026-10-13"
+ },
+ "mytrip": {
+  "name": "Mytrip",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "mytrip",
+  "pays": "$5 per Completed Flight Sale",
+  "countries": "worldwide",
+  "worth": 0.75,
+  "added": "2026-10-13"
+ },
+ "namecheap": {
+  "name": "Namecheap",
+  "group": "Web Hosting",
+  "source": "Yazing",
+  "yazing": "namecheap",
+  "pays": "Up to $20 per Sale (New Customer Sales Only)",
+  "countries": "worldwide",
+  "worth": 2.4,
+  "added": "2026-10-13"
+ },
+ "naturalcycles": {
+  "name": "Natural Cycles",
+  "group": "Health & Fitness",
+  "source": "Yazing",
+  "yazing": "naturalcycles",
+  "pays": "$5 per New Subscription",
+  "countries": "US only",
+  "worth": 0.14,
+  "added": "2026-10-13"
+ },
+ "newspaperscom": {
+  "name": "Newspapers.com",
+  "group": "Other",
+  "source": "Yazing",
+  "yazing": "newspapers",
+  "pays": "20% of Sales",
+  "countries": "worldwide",
+  "worth": 0.04,
+  "added": "2026-10-13",
+  "line_name": "Newspapers com"
+ },
+ "nomadesim": {
+  "name": "Nomad eSIM",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "nomadesim",
+  "pays": "Up to 20% of Sales",
+  "countries": "worldwide",
+  "worth": 1.12,
+  "added": "2026-10-13"
+ },
+ "nomadinternet": {
+  "name": "Nomad Internet",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "nomadinternet",
+  "pays": "$35 per Sale",
+  "countries": "worldwide",
+  "worth": 7.0,
+  "added": "2026-10-13"
+ },
+ "nymvpn": {
+  "name": "NymVPN",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "nym",
+  "pays": "Up to $25 per Subscription Sale",
+  "countries": "worldwide",
+  "worth": 0.19,
+  "added": "2026-10-13"
+ },
+ "omnisend": {
+  "name": "Omnisend",
+  "group": "Email",
+  "source": "Yazing",
+  "yazing": "omnisend",
+  "pays": "5% of Subscription Sales",
+  "countries": "worldwide",
+  "worth": 0.6,
+  "added": "2026-10-13"
+ },
+ "onecom": {
+  "name": "One.com",
+  "group": "Web Hosting",
+  "source": "Yazing",
+  "yazing": "one",
+  "pays": "Up to $65 per Sale",
+  "countries": "UK only",
+  "worth": 0.1,
+  "added": "2026-10-13",
+  "line_name": "One com"
+ },
+ "onetravel": {
+  "name": "OneTravel",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "onetravel",
+  "pays": "$25 for Completed Vacation Package / $15 on Completed Hotel Stays / $8 on Completed Flights / $5 on Completed Air Insurance & Car Rentals",
+  "countries": "worldwide",
+  "worth": 0.23,
+  "added": "2026-10-13"
+ },
+ "onlinecheckwriter": {
+  "name": "Online Check Writer",
+  "group": "Money & Trading",
+  "source": "Yazing",
+  "yazing": "onlinecheckwriter",
+  "pays": "Up to 30% of Sales",
+  "countries": "US only",
+  "worth": 0.63,
+  "added": "2026-10-13"
+ },
+ "oojo": {
+  "name": "Oojo",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "oojo",
+  "pays": "$9 per Consumed Booking Sales",
+  "countries": "worldwide",
+  "worth": 0.34,
+  "added": "2026-10-13"
+ },
+ "ooma": {
+  "name": "Ooma",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "ooma",
+  "pays": "$50 per Sale",
+  "countries": "US only",
+  "worth": 2.5,
+  "added": "2026-10-13"
+ },
+ "openart": {
+  "name": "OpenArt AI",
+  "group": "AI Tools",
+  "source": "Yazing",
+  "yazing": "openart",
+  "pays": "10% of Sales",
+  "countries": "worldwide",
+  "worth": 1.0,
+  "added": "2026-10-13"
+ },
+ "optimum": {
+  "name": "Optimum",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "optimum",
+  "pays": "$50 per Sale",
+  "countries": "US only",
+  "worth": 2.5,
+  "added": "2026-10-13"
+ },
+ "orbitmobile": {
+  "name": "Orbit Mobile",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "orbitmobile",
+  "pays": "20% of Sales",
+  "countries": "US only",
+  "worth": 0.1,
+  "added": "2026-10-13"
+ },
+ "orbitz": {
+  "name": "Orbitz",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "orbitz",
+  "pays": "Up to 4% per Sale (4% on Completed Activity & Conventional Lodging Sales / 2% on Completed Vacation Pkg & Package / 1.50% on Completed Car Rental Sales/ 0% Cruise, Flight Sales / 0% on Coupon Sales )",
+  "countries": "worldwide",
+  "worth": 0.01,
+  "added": "2026-10-13"
+ },
+ "oreilly": {
+  "name": "O'Reilly",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "oreilly",
+  "pays": "8% of Sales",
+  "countries": "worldwide",
+  "worth": 0.01,
+  "added": "2026-10-13"
+ },
+ "ourbus": {
+  "name": "OurBus",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "ourbus",
+  "pays": "2.50% of Sales",
+  "countries": "worldwide",
+  "worth": 0.02,
+  "added": "2026-10-13"
+ },
+ "ovago": {
+  "name": "Ovago",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "ovago",
+  "pays": "Up to $30 per Completed Trip",
+  "countries": "worldwide",
+  "worth": 0.17,
+  "added": "2026-10-13"
+ },
+ "pandaremit": {
+  "name": "Panda Remit",
+  "group": "Money & Trading",
+  "source": "Yazing",
+  "yazing": "pandaremit",
+  "pays": "$20 per First Transfer",
+  "countries": "US only",
+  "worth": 0.25,
+  "added": "2026-10-13"
+ },
+ "parallels": {
+  "name": "Parallels",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "parallels",
+  "pays": "Up to 10% of Sales",
+  "countries": "worldwide",
+  "worth": 0.21,
+  "added": "2026-10-13"
+ },
+ "passfab": {
+  "name": "PassFab",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "passfab",
+  "pays": "50% of Sales",
+  "countries": "worldwide",
+  "worth": 1.5,
+  "added": "2026-10-13"
+ },
+ "pcmatic": {
+  "name": "PC Matic",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "pcmatic",
+  "pays": "10% of Sales",
+  "countries": "worldwide",
+  "worth": 1.2,
+  "added": "2026-10-13"
+ },
+ "pdffiller": {
+  "name": "pdfFiller",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "pdffiller",
+  "pays": "Up to $30 per Sale",
+  "countries": "worldwide",
+  "worth": 3.6,
+  "added": "2026-10-13"
+ },
+ "philo": {
+  "name": "Philo",
+  "group": "Streaming & Entertainment",
+  "source": "Yazing",
+  "yazing": "philo",
+  "pays": "Up to $20 per Subscription Sale",
+  "countries": "US only",
+  "worth": 0.23,
+  "added": "2026-10-13"
+ },
+ "phonecom": {
+  "name": "Phone.com",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "phone.com",
+  "pays": "Up to $75 of Phone Home Service Sales",
+  "countries": "US only",
+  "worth": 2.25,
+  "added": "2026-10-13",
+  "line_name": "Phone com"
+ },
+ "photobucket": {
+  "name": "Photobucket",
+  "group": "Cloud Storage",
+  "source": "Yazing",
+  "yazing": "photobucket",
+  "pays": "Up to 25% of New Subscription Sales",
+  "countries": "worldwide",
+  "worth": 1.18,
+  "added": "2026-10-13"
+ },
+ "pianobypictures": {
+  "name": "Piano by Pictures",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "pianobypictures",
+  "pays": "$20 per Sale",
+  "countries": "US only",
+  "worth": 0.06,
+  "added": "2026-10-13"
+ },
+ "picwish": {
+  "name": "PicWish",
+  "group": "Video Creation",
+  "source": "Yazing",
+  "yazing": "picwish",
+  "pays": "Up to 40% of Sales",
+  "countries": "worldwide",
+  "worth": 1.31,
+  "added": "2026-10-13"
+ },
+ "pigment": {
+  "name": "Pigment",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "pigment",
+  "pays": "30% of Sales",
+  "countries": "worldwide",
+  "worth": 2.03,
+  "added": "2026-10-13"
+ },
+ "piktochart": {
+  "name": "Piktochart",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "piktochart",
+  "pays": "40% of Sales",
+  "countries": "worldwide",
+  "worth": 4.8,
+  "added": "2026-10-13"
+ },
+ "pinnaclestudio": {
+  "name": "Pinnacle Studio",
+  "group": "Video Creation",
+  "source": "Yazing",
+  "yazing": "pinnaclesys",
+  "pays": "10% of Sales",
+  "countries": "worldwide",
+  "worth": 0.68,
+  "added": "2026-10-13"
+ },
+ "poplin": {
+  "name": "Poplin",
+  "group": "Other",
+  "source": "Yazing",
+  "yazing": "poplin",
+  "pays": "$15 per completed order Sale",
+  "countries": "US only",
+  "worth": 0.57,
+  "added": "2026-10-13"
+ },
+ "presentationintelligence": {
+  "name": "Presentation Intelligence",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "pi",
+  "pays": "20% of Sales",
+  "countries": "worldwide",
+  "worth": 0.15,
+  "added": "2026-10-13"
+ },
+ "priceline": {
+  "name": "Priceline.com",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "priceline",
+  "pays": "Up to 5% of Completed Sales (5% of Retail Hotel, Rental Car, Retail Hotel Agency Sales, Rental Car Express, Hotel Express Sales / 4% on Completed Flight Express Deal /$4 per Completed Retail Flight Sales / 3% on Consumed Cruise)$0 on bookings w Coupons",
+  "countries": "worldwide",
+  "worth": 0.63,
+  "added": "2026-10-13",
+  "line_name": "Priceline"
+ },
+ "printerpix": {
+  "name": "PrinterPix",
+  "group": "Photo Books & Prints",
+  "source": "Yazing",
+  "yazing": "printerpix",
+  "pays": "10% of Sales",
+  "countries": "US only",
+  "worth": 0.01,
+  "added": "2026-10-13"
+ },
+ "printique": {
+  "name": "Printique",
+  "group": "Photo Books & Prints",
+  "source": "Yazing",
+  "yazing": "printique",
+  "pays": "1% of Sales",
+  "countries": "worldwide",
+  "worth": 0.01,
+  "added": "2026-10-13"
+ },
+ "privacyhawk": {
+  "name": "PrivacyHawk",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "privacyhawk",
+  "pays": "$30 per Sale",
+  "countries": "worldwide",
+  "worth": 3.38,
+  "added": "2026-10-13"
+ },
+ "proxycheap": {
+  "name": "Proxy-cheap",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "proxy-cheap",
+  "pays": "27% of Sales",
+  "countries": "worldwide",
+  "worth": 3.24,
+  "added": "2026-10-13"
+ },
+ "purevpn": {
+  "name": "PureVPN",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "purevpn",
+  "pays": "25% of Sales",
+  "countries": "worldwide",
+  "worth": 3.0,
+  "added": "2026-10-13"
+ },
+ "pvolve": {
+  "name": "Pvolve",
+  "group": "Health & Fitness",
+  "source": "Yazing",
+  "yazing": "pvolve",
+  "pays": "12% of Sales",
+  "countries": "US only",
+  "worth": 0.02,
+  "added": "2026-10-13"
+ },
+ "qpark": {
+  "name": "Q-Park",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "q-park.co-UK",
+  "pays": "Up to 5% of Pre Booking Sales",
+  "countries": "UK only",
+  "worth": 0.01,
+  "added": "2026-10-13"
+ },
+ "quicken": {
+  "name": "Quicken",
+  "group": "Money & Trading",
+  "source": "Yazing",
+  "yazing": "quicken",
+  "pays": "$10 per Sale",
+  "countries": "worldwide",
+  "worth": 2.0,
+  "added": "2026-10-13"
+ },
+ "qustodio": {
+  "name": "Qustodio",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "qustodio",
+  "pays": "5% of Sales",
+  "countries": "worldwide",
+  "worth": 0.6,
+  "added": "2026-10-13"
+ },
+ "readkidz": {
+  "name": "Readkidz",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "readkidz",
+  "pays": "Up to 45% of Sales",
+  "countries": "US only",
+  "worth": 0.13,
+  "added": "2026-10-13"
+ },
+ "reccloud": {
+  "name": "RecCloud AI",
+  "group": "AI Tools",
+  "source": "Yazing",
+  "yazing": "reccloud",
+  "pays": "Up to 30% of Sales",
+  "countries": "worldwide",
+  "worth": 0.53,
+  "added": "2026-10-13"
+ },
+ "recruitcrm": {
+  "name": "Recruit CRM",
+  "group": "Business & Legal",
+  "source": "Yazing",
+  "yazing": "recruitcrm",
+  "pays": "20% of Sales",
+  "countries": "worldwide",
+  "worth": 0.6,
+  "added": "2026-10-13"
+ },
+ "redbubble": {
+  "name": "Redbubble",
+  "group": "Online Stores & Funnels",
+  "source": "Yazing",
+  "yazing": "redbubble",
+  "pays": "5% of Sales",
+  "countries": "US only",
+  "worth": 0.1,
+  "added": "2026-10-13"
+ },
+ "redpocket": {
+  "name": "RedPocket",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "redpocket",
+  "pays": "Up to 4% of Sales",
+  "countries": "US only",
+  "worth": 0.0,
+  "added": "2026-10-13"
+ },
+ "renderforest": {
+  "name": "Renderforest",
+  "group": "Video Creation",
+  "source": "Yazing",
+  "yazing": "renderforest",
+  "pays": "Up to 40% of Sales",
+  "countries": "worldwide",
+  "worth": 3.36,
+  "added": "2026-10-13"
+ },
+ "restaurantcom": {
+  "name": "Restaurant.com",
+  "group": "Food & Drink",
+  "source": "Yazing",
+  "yazing": "restaurant",
+  "pays": "20% of Sales",
+  "countries": "US only",
+  "worth": 0.03,
+  "added": "2026-10-13",
+  "line_name": "Restaurant com"
+ },
+ "retouch4me": {
+  "name": "Retouch4me",
+  "group": "Video Creation",
+  "source": "Yazing",
+  "yazing": "retouch4",
+  "pays": "Up to 40% of Sales",
+  "countries": "worldwide",
+  "worth": 1.31,
+  "added": "2026-10-13"
+ },
+ "reverb": {
+  "name": "Reverb",
+  "group": "Shopping & Mobile",
+  "source": "Yazing",
+  "yazing": "reverb",
+  "pays": "Up to 5% of Sales",
+  "countries": "US only",
+  "worth": 0.02,
+  "added": "2026-10-13"
+ },
+ "roadtrippers": {
+  "name": "Roadtrippers",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "roadtrippers",
+  "pays": "10% of Sales",
+  "countries": "worldwide",
+  "worth": 1.8,
+  "added": "2026-10-13"
+ },
+ "rover": {
+  "name": "Rover",
+  "group": "Other",
+  "source": "Yazing",
+  "yazing": "rover",
+  "pays": "Up to $20 per Sale / up to 5% on Rover Brand Toy Sales",
+  "countries": "US only",
+  "worth": 0.69,
+  "added": "2026-10-13"
+ },
+ "roxio": {
+  "name": "Roxio",
+  "group": "Video Creation",
+  "source": "Yazing",
+  "yazing": "roxio",
+  "pays": "10% of Sales",
+  "countries": "worldwide",
+  "worth": 0.17,
+  "added": "2026-10-13"
+ },
+ "rvezy": {
+  "name": "RVezy",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "rvezy",
+  "pays": "Up to $50 per Completed Booking Stay / $25 per Completed Listing",
+  "countries": "worldwide",
+  "worth": 1.12,
+  "added": "2026-10-13"
+ },
+ "rvshare": {
+  "name": "RVshare",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "rvshare",
+  "pays": "4% of Completed Reservations / $5 Accepted Listed RV Sale",
+  "countries": "worldwide",
+  "worth": 0.18,
+  "added": "2026-10-13"
+ },
+ "scalahosting": {
+  "name": "ScalaHosting",
+  "group": "Web Hosting",
+  "source": "Yazing",
+  "yazing": "scalahosting",
+  "pays": "Up to $300 per Sale",
+  "countries": "worldwide",
+  "worth": 16.88,
+  "added": "2026-10-13"
+ },
+ "sesamecare": {
+  "name": "Sesame Care",
+  "group": "Health & Fitness",
+  "source": "Yazing",
+  "yazing": "sesamecare",
+  "pays": "Up to $10 For Booked Appointment",
+  "countries": "US only",
+  "worth": 0.02,
+  "added": "2026-10-13"
+ },
+ "setapp": {
+  "name": "Setapp",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "setapp",
+  "pays": "Up to 10% of Sales / $20 per Subscription Sale",
+  "countries": "worldwide",
+  "worth": 0.21,
+  "added": "2026-10-13"
+ },
+ "shutterfly": {
+  "name": "Shutterfly",
+  "group": "Photo Books & Prints",
+  "source": "Yazing",
+  "yazing": "shutterfly",
+  "pays": "Up to 3% of Sales",
+  "countries": "US only",
+  "worth": 0.06,
+  "added": "2026-10-13"
+ },
+ "simplifi": {
+  "name": "Simplifi",
+  "group": "Money & Trading",
+  "source": "Yazing",
+  "yazing": "simplifi",
+  "pays": "$10 per Sale / $5 per Trial Signup",
+  "countries": "US only",
+  "worth": 0.78,
+  "added": "2026-10-13"
+ },
+ "simplyguitar": {
+  "name": "Simply Guitar",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "simplyguitar",
+  "pays": "$35 per Subscription Sale",
+  "countries": "worldwide",
+  "worth": 3.94,
+  "added": "2026-10-13"
+ },
+ "simplypiano": {
+  "name": "Simply Piano",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "simplypiano",
+  "pays": "$40 per Subscription Sale",
+  "countries": "worldwide",
+  "worth": 2.0,
+  "added": "2026-10-13"
+ },
+ "skylum": {
+  "name": "Skylum",
+  "group": "Video Creation",
+  "source": "Yazing",
+  "yazing": "skylum",
+  "pays": "Up to 85% of Subscription Sales",
+  "countries": "worldwide",
+  "worth": 4.02,
+  "added": "2026-10-13"
+ },
+ "skylux": {
+  "name": "SKYLUX Travel",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "skyluxtravel",
+  "pays": "Up to $18 per consumed trip Sales",
+  "countries": "worldwide",
+  "worth": 0.4,
+  "added": "2026-10-13"
+ },
+ "skywork": {
+  "name": "Skywork AI",
+  "group": "AI Tools",
+  "source": "Yazing",
+  "yazing": "skywork",
+  "pays": "20% of Sales",
+  "countries": "worldwide",
+  "worth": 1.12,
+  "added": "2026-10-13"
+ },
+ "sling": {
+  "name": "Sling TV",
+  "group": "Streaming & Entertainment",
+  "source": "Yazing",
+  "yazing": "sling",
+  "pays": "Up to $15 per New Subscription",
+  "countries": "US only",
+  "worth": 0.45,
+  "added": "2026-10-13"
+ },
+ "smartcredit": {
+  "name": "SmartCredit",
+  "group": "Money & Trading",
+  "source": "Yazing",
+  "yazing": "smartcredit",
+  "pays": "Up to $25 per New Subscription Order",
+  "countries": "US only",
+  "worth": 0.57,
+  "added": "2026-10-13"
+ },
+ "smartproxy": {
+  "name": "Smartproxy",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "smartproxy",
+  "pays": "10% of Sales",
+  "countries": "worldwide",
+  "worth": 0.68,
+  "added": "2026-10-13"
+ },
+ "snapfish": {
+  "name": "Snapfish",
+  "group": "Photo Books & Prints",
+  "source": "Yazing",
+  "yazing": "snapfish",
+  "pays": "Up to 4% of Sales",
+  "countries": "US only",
+  "worth": 0.06,
+  "added": "2026-10-13"
+ },
+ "soundpaint": {
+  "name": "SOUNDPAINT",
+  "group": "Voice & Audio",
+  "source": "Yazing",
+  "yazing": "soundpaint",
+  "pays": "15% of Sales",
+  "countries": "worldwide",
+  "worth": 0.7,
+  "added": "2026-10-13"
+ },
+ "spanel": {
+  "name": "SPanel",
+  "group": "Web Hosting",
+  "source": "Yazing",
+  "yazing": "spanel",
+  "pays": "100% on Subscription Sales",
+  "countries": "worldwide",
+  "worth": 0.19,
+  "added": "2026-10-13"
+ },
+ "spocket": {
+  "name": "Spocket",
+  "group": "Online Stores & Funnels",
+  "source": "Yazing",
+  "yazing": "spocket",
+  "pays": "25% on new paid subscription sales",
+  "countries": "US only",
+  "worth": 0.43,
+  "added": "2026-10-13"
+ },
+ "spoonflower": {
+  "name": "Spoonflower",
+  "group": "Online Stores & Funnels",
+  "source": "Yazing",
+  "yazing": "spoonflower",
+  "pays": "Up to 3% of Sales (3% on New Customer Sales / 1% on Existing customer Sales / 0% on Trade Orders )",
+  "countries": "US only",
+  "worth": 0.0,
+  "added": "2026-10-13"
+ },
+ "spothero": {
+  "name": "SpotHero",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "spothero",
+  "pays": "3% of Sales",
+  "countries": "worldwide",
+  "worth": 0.13,
+  "added": "2026-10-13"
+ },
+ "srfax": {
+  "name": "SRFax",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "srfax",
+  "pays": "$30 per Sale",
+  "countries": "worldwide",
+  "worth": 0.38,
+  "added": "2026-10-13"
+ },
+ "stampscom": {
+  "name": "Stamps.com",
+  "group": "Business & Legal",
+  "source": "Yazing",
+  "yazing": "stamps",
+  "pays": "$75 on new subscriptions / 10% of Sales",
+  "countries": "US only",
+  "worth": 0.94,
+  "added": "2026-10-13",
+  "line_name": "Stamps com"
+ },
+ "storyworth": {
+  "name": "StoryWorth",
+  "group": "Other",
+  "source": "Yazing",
+  "yazing": "storyworth",
+  "pays": "5% of Sales",
+  "countries": "worldwide",
+  "worth": 0.08,
+  "added": "2026-10-13"
+ },
+ "streamlocator": {
+  "name": "StreamLocator",
+  "group": "Streaming & Entertainment",
+  "source": "Yazing",
+  "yazing": "streamlocator",
+  "pays": "$15 per Sale",
+  "countries": "worldwide",
+  "worth": 0.19,
+  "added": "2026-10-13"
+ },
+ "superantispyware": {
+  "name": "SuperAntiSpyware",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "superantispyware",
+  "pays": "Up to 60% of Sales",
+  "countries": "worldwide",
+  "worth": 2.83,
+  "added": "2026-10-13"
+ },
+ "swimply": {
+  "name": "Swimply",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "swimply",
+  "pays": "10% of Sales",
+  "countries": "US only",
+  "worth": 0.0,
+  "added": "2026-10-13"
+ },
+ "talkspace": {
+  "name": "Talkspace",
+  "group": "Health & Fitness",
+  "source": "Yazing",
+  "yazing": "talkspace",
+  "pays": "Up to $500 per SMB Sale / $100 per Sale",
+  "countries": "US only",
+  "worth": 7.5,
+  "added": "2026-10-13"
+ },
+ "taskrabbit": {
+  "name": "TaskRabbit",
+  "group": "Freelancers",
+  "source": "Yazing",
+  "yazing": "taskrabbit",
+  "pays": "Up to $4 per New Client Booking Sale",
+  "countries": "US only",
+  "worth": 0.18,
+  "added": "2026-10-13"
+ },
+ "taxact": {
+  "name": "TaxACT",
+  "group": "Money & Trading",
+  "source": "Yazing",
+  "yazing": "taxact",
+  "pays": "5% of Return Tax payment Sales",
+  "countries": "US only",
+  "worth": 0.25,
+  "added": "2026-10-13"
+ },
+ "teepublic": {
+  "name": "TeePublic",
+  "group": "Online Stores & Funnels",
+  "source": "Yazing",
+  "yazing": "teepublic",
+  "pays": "5% of Sales",
+  "countries": "US only",
+  "worth": 0.1,
+  "added": "2026-10-13"
+ },
+ "tello": {
+  "name": "Tello",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "tello",
+  "pays": "Up to 50% of Sales ($2.50 on Pay as Your Go Plans, 50% of Custom Plans)",
+  "countries": "worldwide",
+  "worth": 2.8,
+  "added": "2026-10-13"
+ },
+ "tenable": {
+  "name": "Tenable",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "tenable",
+  "pays": "8% of Sales",
+  "countries": "worldwide",
+  "worth": 0.01,
+  "added": "2026-10-13"
+ },
+ "tenorshare": {
+  "name": "Tenorshare",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "tenorshare",
+  "pays": "50% of Sales",
+  "countries": "worldwide",
+  "worth": 0.38,
+  "added": "2026-10-13"
+ },
+ "thegreatcourses": {
+  "name": "The Great Courses",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "thegreatcourses",
+  "pays": "Up to 10% of Sales",
+  "countries": "worldwide",
+  "worth": 0.47,
+  "added": "2026-10-13"
+ },
+ "tiqets": {
+  "name": "Tiqets",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "tiqets",
+  "pays": "Up to 4% of Sales / 0% on Europa Park Tickets.",
+  "countries": "US only",
+  "worth": 0.01,
+  "added": "2026-10-13"
+ },
+ "tmobile": {
+  "name": "T-Mobile",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "t-mobile",
+  "pays": "$50 per Sale",
+  "countries": "US only",
+  "worth": 0.35,
+  "added": "2026-10-13"
+ },
+ "topresume": {
+  "name": "TopResume",
+  "group": "Business & Legal",
+  "source": "Yazing",
+  "yazing": "topresume",
+  "pays": "7% of Sales",
+  "countries": "US only",
+  "worth": 0.02,
+  "added": "2026-10-13"
+ },
+ "tours4fun": {
+  "name": "Tours4fun",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "tours4fun",
+  "pays": "Up to 5% of Consumed Tour Sales",
+  "countries": "worldwide",
+  "worth": 0.04,
+  "added": "2026-10-13"
+ },
+ "trafft": {
+  "name": "Trafft",
+  "group": "Business & Legal",
+  "source": "Yazing",
+  "yazing": "trafft",
+  "pays": "30% of Subscription Sales",
+  "countries": "worldwide",
+  "worth": 0.23,
+  "added": "2026-10-13"
+ },
+ "trainpal": {
+  "name": "TrainPal",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "mytrainpal-uk",
+  "pays": "4% of Consumed Travel Sales",
+  "countries": "UK only",
+  "worth": 0.04,
+  "added": "2026-10-13"
+ },
+ "travelocity": {
+  "name": "Travelocity",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "travelocity",
+  "pays": "Up to 4% of Sales (4% of non Coupon Completed Conventional Lodging & Activity / 2% on non Coupon Completed Vacation Rental & Package Sales / 1.5% on Non Coupon Completed Car Rental Sales / 0% on Cruise, Flight, LOB",
+  "countries": "worldwide",
+  "worth": 0.03,
+  "added": "2026-10-13"
+ },
+ "travelup": {
+  "name": "TravelUp",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "travelup-uk",
+  "pays": "Up to $15 per completed Flight / 4% on Completed Hotel Stays / 3% on Completed Packages",
+  "countries": "worldwide",
+  "worth": 0.08,
+  "added": "2026-10-13"
+ },
+ "trendmicro": {
+  "name": "Trend Micro",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "trendmicro",
+  "pays": "20% of Sales",
+  "countries": "worldwide",
+  "worth": 1.35,
+  "added": "2026-10-13"
+ },
+ "tripcom": {
+  "name": "Trip.com",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "trip",
+  "pays": "Up to 5% of Sales (5% consumed airport transfer & Tours/activity consumed sale/ 4% consumed cruise sale / 2.5% consumed ticket sales / 2% consumed Chinese Train Sales )",
+  "countries": "worldwide",
+  "worth": 0.16,
+  "added": "2026-10-13",
+  "line_name": "Trip com"
+ },
+ "tripo": {
+  "name": "Tripo",
+  "group": "AI Tools",
+  "source": "Yazing",
+  "yazing": "tripo3d",
+  "pays": "Up to 60% of Subscription Sales",
+  "countries": "worldwide",
+  "worth": 0.26,
+  "added": "2026-10-13"
+ },
+ "trustandwill": {
+  "name": "Trust & Will",
+  "group": "Business & Legal",
+  "source": "Yazing",
+  "yazing": "trustandwill",
+  "pays": "Up to 15% of Sales",
+  "countries": "US only",
+  "worth": 0.13,
+  "added": "2026-10-13"
+ },
+ "tryhackme": {
+  "name": "TryHackMe",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "tryhackme",
+  "pays": "Up to 10% of Sales",
+  "countries": "worldwide",
+  "worth": 0.47,
+  "added": "2026-10-13"
+ },
+ "tunnelbear": {
+  "name": "TunnelBear",
+  "group": "VPN & Privacy",
+  "source": "Yazing",
+  "yazing": "tunnelbear",
+  "pays": "70% of Sales",
+  "countries": "worldwide",
+  "worth": 8.4,
+  "added": "2026-10-13"
+ },
+ "udacity": {
+  "name": "Udacity",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "udacity",
+  "pays": "25% of Sales",
+  "countries": "US only",
+  "worth": 0.42,
+  "added": "2026-10-13"
+ },
+ "ultahost": {
+  "name": "Ultahost",
+  "group": "Web Hosting",
+  "source": "Yazing",
+  "yazing": "ultahost",
+  "pays": "40% of Sales",
+  "countries": "worldwide",
+  "worth": 2.7,
+  "added": "2026-10-13"
+ },
+ "ultramobile": {
+  "name": "Ultra Mobile",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "ultramobile",
+  "pays": "Up to $30 per Sale ( $30 on Quality One Sale / $5 on Sales )",
+  "countries": "US only",
+  "worth": 0.06,
+  "added": "2026-10-13"
+ },
+ "upskillist": {
+  "name": "Upskillist",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "upskillist",
+  "pays": "20% of Sales",
+  "countries": "US only",
+  "worth": 0.04,
+  "added": "2026-10-13"
+ },
+ "upwork": {
+  "name": "Upwork",
+  "group": "Freelancers",
+  "source": "Yazing",
+  "yazing": "upwork",
+  "pays": "70% of New Client Contracts",
+  "countries": "worldwide",
+  "worth": 8.4,
+  "added": "2026-10-13"
+ },
+ "usims": {
+  "name": "USIMS",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "usims",
+  "pays": "20% of Sales",
+  "countries": "US only",
+  "worth": 0.23,
+  "added": "2026-10-13"
+ },
+ "utalk": {
+  "name": "uTalk",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "utalk",
+  "pays": "20% of Sales",
+  "countries": "worldwide",
+  "worth": 2.4,
+  "added": "2026-10-13"
+ },
+ "vegascom": {
+  "name": "Vegas.com",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "vegas",
+  "pays": "Up to 7% of Sales",
+  "countries": "worldwide",
+  "worth": 0.06,
+  "added": "2026-10-13",
+  "line_name": "Vegas com"
+ },
+ "vendoo": {
+  "name": "Vendoo",
+  "group": "Online Stores & Funnels",
+  "source": "Yazing",
+  "yazing": "vendoo",
+  "pays": "Up to 20% of Sales",
+  "countries": "worldwide",
+  "worth": 1.68,
+  "added": "2026-10-13"
+ },
+ "verizon": {
+  "name": "Verizon",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "verizonwireless",
+  "pays": "Up to $150 on VerizonOne Sales / $75 on New Service Contracts & 5G Home Activation Sales / $30 on Additional Line Sales / 10% on Access Sales /0% on Apple Care, Service Upgrade, BYOD, PrePay Service Contracts & Mobile App Purchase",
+  "countries": "US only",
+  "worth": 3.45,
+  "added": "2026-10-13"
+ },
+ "verizonbusiness": {
+  "name": "Verizon Business",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "verizonbiz",
+  "pays": "Up to $200 per sale",
+  "countries": "US only",
+  "worth": 1.5,
+  "added": "2026-10-13"
+ },
+ "verizonhomeinternet": {
+  "name": "Verizon Home Internet",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "verizon",
+  "pays": "$45 for Consumer Fios Data Sales / Fios Target GiftCard is not available in Baltimore, Pittsburgh, Cleveland, & Greensville DMAs",
+  "countries": "US only",
+  "worth": 2.25,
+  "added": "2026-10-13"
+ },
+ "videogen": {
+  "name": "VideoGen",
+  "group": "Video Creation",
+  "source": "Yazing",
+  "yazing": "videogen",
+  "pays": "30% of Sales",
+  "countries": "worldwide",
+  "worth": 3.6,
+  "added": "2026-10-13"
+ },
+ "vistaprint": {
+  "name": "Vistaprint",
+  "group": "Business & Legal",
+  "source": "Yazing",
+  "yazing": "vistaprint",
+  "pays": "Up to 4% of Sales ( 4% on New Customer Sales / 2% on Existing Customer Sales / 0% on Mail Services Products )",
+  "countries": "US only",
+  "worth": 0.01,
+  "added": "2026-10-13"
+ },
+ "voghion": {
+  "name": "Voghion",
+  "group": "Shopping & Mobile",
+  "source": "Yazing",
+  "yazing": "voghion",
+  "pays": "Up to 10% of Sales",
+  "countries": "worldwide",
+  "worth": 0.21,
+  "added": "2026-10-13"
+ },
+ "voiply": {
+  "name": "Voiply",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "voiply",
+  "pays": "Up to $40 per Sale ($40 Annual Plans / $15 Monthly Plans)",
+  "countries": "US only",
+  "worth": 1.2,
+  "added": "2026-10-13"
+ },
+ "vrbo": {
+  "name": "Vrbo",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "vrbo",
+  "pays": "2% of Completed Stay Sales",
+  "countries": "worldwide",
+  "worth": 0.24,
+  "added": "2026-10-13"
+ },
+ "wallethub": {
+  "name": "WalletHub",
+  "group": "Money & Trading",
+  "source": "Yazing",
+  "yazing": "wallethub",
+  "pays": "$50 on Subscription Sales",
+  "countries": "US only",
+  "worth": 1.41,
+  "added": "2026-10-13"
+ },
+ "walmart": {
+  "name": "Walmart",
+  "group": "Shopping & Mobile",
+  "source": "Yazing",
+  "yazing": "walmart",
+  "pays": "$10 on first Apparel Sale / $2 on Walmart Business Acct Sales / 0% on specific categories",
+  "countries": "US only",
+  "worth": 0.03,
+  "added": "2026-10-13"
+ },
+ "wegic": {
+  "name": "Wegic",
+  "group": "Website & App Builders",
+  "source": "Yazing",
+  "yazing": "wegic",
+  "pays": "Up to 20% of Sales",
+  "countries": "worldwide",
+  "worth": 0.94,
+  "added": "2026-10-13"
+ },
+ "weightwatchers": {
+  "name": "WeightWatchers",
+  "group": "Health & Fitness",
+  "source": "Yazing",
+  "yazing": "weightwatchers",
+  "pays": "$10 per New Customer Subscription Approved Sale / 0 on WeightWatchers Clinic membership",
+  "countries": "US only",
+  "worth": 0.5,
+  "added": "2026-10-13"
+ },
+ "willmaker": {
+  "name": "Willmaker",
+  "group": "Business & Legal",
+  "source": "Yazing",
+  "yazing": "willmaker",
+  "pays": "25% of Sales",
+  "countries": "worldwide",
+  "worth": 0.19,
+  "added": "2026-10-13"
+ },
+ "wingbuddy": {
+  "name": "Wingbuddy",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "wingbuddy-ca",
+  "pays": "4% of Completed Trip Sales",
+  "countries": "worldwide",
+  "worth": 0.1,
+  "added": "2026-10-13"
+ },
+ "winzip": {
+  "name": "WinZip",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "winzip",
+  "pays": "10% of Sales",
+  "countries": "worldwide",
+  "worth": 0.3,
+  "added": "2026-10-13"
+ },
+ "wondershare": {
+  "name": "Wondershare",
+  "group": "Video Creation",
+  "source": "Yazing",
+  "yazing": "wondershare",
+  "pays": "40% of Sales",
+  "countries": "worldwide",
+  "worth": 4.8,
+  "added": "2026-10-13"
+ },
+ "worldremit": {
+  "name": "WorldRemit",
+  "group": "Money & Trading",
+  "source": "Yazing",
+  "yazing": "worldremit",
+  "pays": "Up to $30 per Money Transfer Sale",
+  "countries": "US only",
+  "worth": 0.9,
+  "added": "2026-10-13"
+ },
+ "worldsim": {
+  "name": "WorldSIM",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "worldsim",
+  "pays": "5% of Sales",
+  "countries": "worldwide",
+  "worth": 0.04,
+  "added": "2026-10-13"
+ },
+ "worthpoint": {
+  "name": "WorthPoint",
+  "group": "Other",
+  "source": "Yazing",
+  "yazing": "worthpoint",
+  "pays": "50% of Sales",
+  "countries": "US only",
+  "worth": 0.09,
+  "added": "2026-10-13"
+ },
+ "wyzant": {
+  "name": "Wyzant",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "wyzant",
+  "pays": "10% per completed lesson sale",
+  "countries": "worldwide",
+  "worth": 0.68,
+  "added": "2026-10-13"
+ },
+ "xfinity": {
+  "name": "Xfinity Mobile",
+  "group": "Phone Plans & Internet",
+  "source": "Yazing",
+  "yazing": "xfinity-mobile",
+  "pays": "$75 for Line Activation Sales",
+  "countries": "US only",
+  "worth": 2.11,
+  "added": "2026-10-13"
+ },
+ "xmind": {
+  "name": "Xmind",
+  "group": "Productivity & Design",
+  "source": "Yazing",
+  "yazing": "xmind",
+  "pays": "25% of Sales",
+  "countries": "worldwide",
+  "worth": 3.0,
+  "added": "2026-10-13"
+ },
+ "yeschef": {
+  "name": "YesChef",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "yeschef",
+  "pays": "Up to 30% of Annual Subscription Sales / $10 on Monthly Subscription Sales",
+  "countries": "worldwide",
+  "worth": 0.16,
+  "added": "2026-10-13"
+ },
+ "yogadownload": {
+  "name": "Yoga Download",
+  "group": "Learning",
+  "source": "Yazing",
+  "yazing": "yogadownload",
+  "pays": "5% of Sales",
+  "countries": "worldwide",
+  "worth": 0.15,
+  "added": "2026-10-13"
+ },
+ "zazzle": {
+  "name": "Zazzle",
+  "group": "Online Stores & Funnels",
+  "source": "Yazing",
+  "yazing": "zazzle",
+  "pays": "15% of Sales",
+  "countries": "worldwide",
+  "worth": 0.92,
+  "added": "2026-10-13"
+ },
+ "zenfolio": {
+  "name": "Zenfolio",
+  "group": "Website & App Builders",
+  "source": "Yazing",
+  "yazing": "zenfolio",
+  "pays": "50% of Sales",
+  "countries": "worldwide",
+  "worth": 6.0,
+  "added": "2026-10-13"
+ },
+ "zenhotels": {
+  "name": "Zenhotels",
+  "group": "Travel",
+  "source": "Yazing",
+  "yazing": "zenhotels",
+  "pays": "6.5% of Completed Hotel Stay Sales",
+  "countries": "worldwide",
+  "worth": 0.07,
+  "added": "2026-10-13"
+ },
+ "zoviz": {
+  "name": "Zoviz",
+  "group": "Business & Legal",
+  "source": "Yazing",
+  "yazing": "zoviz",
+  "pays": "Up to 60% of Sales",
+  "countries": "US only",
+  "worth": 0.13,
+  "added": "2026-10-13"
+ }
+}

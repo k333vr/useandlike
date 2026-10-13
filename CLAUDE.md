@@ -52,11 +52,16 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   `/wise  https://wise.prf.hn/click/camref:...  302`. Each tool's `slug` in `TOOLS` points at one,
   and its Visit button goes to `/slug`. The owner also uses these short links in YouTube descriptions,
   so never rename or remove a slug without warning them (old descriptions would break).
+- `_redirects` has a generated block (`# >>> yazing-add` ... `# <<< yazing-add`, 13 Oct 2026: 344 Yazing brands that
+  fit our channels, Kevin: "every single app or program that would fit"), written by useandlike-ops/analysis/yazing-add.py
+  from `data/short-links.json`. Change those links in the JSON and re-run the script, not by hand inside the markers.
+  They have no videos yet, so they aren't tools on the page; when one gets videos, it can become a tool (same slug).
 - Always 302, never 301 (browsers cache 301s, so updated links would not take effect for repeat visitors).
 
 ## When the owner sends affiliate links or tool changes in chat
 1. Update the matching line in `_redirects`. A new tool needs a line there plus an entry in `TOOLS`
-   (and maybe a category in `CATEGORIES`); a link-only short link (not on the page) needs just the line.
+   (and maybe a category in `CATEGORIES`); a link-only short link (not on the page) needs the line plus its name and
+   group in `data/short-links.json` (the team's links page reads them).
    - Keep the link exactly as given (tracking parameters included). Slugs: short, lowercase, e.g. `/wise`.
    - If a link's tool is unclear, ask which tool it belongs to rather than guessing.
    - Then `python3 scripts/build-videos.py` for a new or renamed tool (finds its videos, then rebuilds the pages),

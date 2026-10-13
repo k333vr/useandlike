@@ -26,7 +26,8 @@ LINE_NAME = {"Booking.com": "Booking", "Kiwi.com": "Kiwi", "lastminute.com": "la
 # Team links page (affiliate-links.html).
 LINKS_PAGE_URL = "https://useandlike.com/team-links/"  # hidden page (Kevin, 13 Oct: "no hustle to share")
 OWN_HOSTS = ("useandlike.com", "useandlike.beehiiv.com", "subscriptionchef.app")  # our own short links, left off the page
-LINK_ONLY_NAMES = {"biltrx": "BiltRx", "blort": "Blort"}  # short links that aren't tools on the site
+# Names and groups of the short links that aren't tools on the site (most written by useandlike-ops/analysis/yazing-add.py).
+SHORT_LINKS = os.path.join(ROOT, "data", "short-links.json")
 NEW_DAYS = 7  # "New" badge
 NEWS_DAYS = 30  # how far back "What's new" and "Removed" look
 FOLD = 40  # a day in "What's new" with more than FOLD + 10 new links shows the rest behind "N more"
@@ -109,24 +110,26 @@ def write_links_page(tools):
     added, removed = link_history()
     today = date.today()
     by_slug = {t["slug"]: t for t in tools}
+    extra = json.load(open(SHORT_LINKS, encoding="utf-8")) if os.path.exists(SHORT_LINKS) else {}
     links = []
     for slug, target in redirects:
         if (urllib.parse.urlparse(target).hostname or "").endswith(OWN_HOSTS):
             continue
-        t = by_slug.get(slug)
-        if not t and slug not in LINK_ONLY_NAMES:
-            print("WARN: /%s is a short link without a tool or a name: add it to LINK_ONLY_NAMES" % slug)
-        name = t["name"] if t else LINK_ONLY_NAMES.get(slug, slug)
-        links.append({"slug": slug, "name": name, "cat": t["category"] if t else "Link only (not on the site)",
-                      "line": "👉 Try %s (affiliate): useandlike.com/%s" % (LINE_NAME.get(name, name), slug),
+        t, x = by_slug.get(slug), extra.get(slug, {})
+        if not t and not x:
+            print("WARN: /%s is a short link without a tool or a name: add it to data/short-links.json" % slug)
+        name = t["name"] if t else x.get("name", slug)
+        written = LINE_NAME.get(name, name) if t else x.get("line_name", name)
+        links.append({"slug": slug, "name": name, "cat": t["category"] if t else x.get("group", "Other"), "written": written,
+                      "line": "👉 Try %s (affiliate): useandlike.com/%s" % (written, slug),
                       "added": added.get(slug, today.isoformat())})  # not committed yet: today
     esc = lambda s: html.escape(s, quote=True)
 
     def row(l):
         note = ""
-        if l["name"] in LINE_NAME:
+        if l["written"] != l["name"]:
             note = ('<p class="note">Written as “%s” on purpose: YouTube would turn “%s” into a direct link without our '
-                    'code.</p>' % (esc(LINE_NAME[l["name"]]), esc(l["name"])))
+                    'code.</p>' % (esc(l["written"]), esc(l["name"])))
         new = (today - date.fromisoformat(l["added"])).days < NEW_DAYS
         return ('<div class="row" id="l-{slug}" data-line="{line}" data-q="{q}" data-added="{iso}"><div class="who"><span class="name">{name}'
                 '</span>{badge}<span class="date">Added {day}</span></div><code class="line">{line}</code><button '
@@ -135,7 +138,7 @@ def write_links_page(tools):
             q=esc(" ".join([l["name"], l["slug"], l["cat"]]).lower()), badge='<span class="badge">New</span>' if new else "")
 
     sections = []
-    for c in order + sorted({l["cat"] for l in links} - set(order)):
+    for c in order + sorted({l["cat"] for l in links} - set(order), key=lambda c: (c == "Other", c)):
         rows = sorted((l for l in links if l["cat"] == c), key=lambda l: l["name"].lower())
         if rows:
             sections.append('<section class="cat"><h2>%s <span>%d</span></h2>\n%s</section>\n' % (esc(c), len(rows), "".join(map(row, rows))))
