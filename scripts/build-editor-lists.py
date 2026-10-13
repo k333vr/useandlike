@@ -6,7 +6,8 @@ Output (folder editors/, not published on the site):
 And outside editors/: team-links/index.html, the same links as a hidden page on the site for the manager and
 uploaders (LINKS_PAGE_URL: not linked anywhere, noindex, not in the sitemap): a Copy button for each 👉 line, the date
 each link was added (from git), what's new and what was removed, and a box that turns a new video's title into the
-pinned comment (a question + the 👉 line + the newsletter line) and the description lines, with the same title rules as
+pinned comment (a question + the 👉 line + the newsletter line) and a short description (our lines, one sentence that
+extends the title without promises, the closing line; Kevin: "more short not overpromising"), with the same title rules as
 below (Kevin, 13 Oct: "a box where the editor or manager can add the video title and gets also the question for the
 pinned comment"). It goes live with the next push to main.
   videos-<channel>.csv    each channel's videos (Shorts left out), most viewed first, with the exact lines to paste
@@ -31,6 +32,8 @@ LINKS_PAGE_URL = "https://useandlike.com/team-links/"  # hidden page (Kevin, 13 
 OWN_HOSTS = ("useandlike.com", "useandlike.beehiiv.com", "subscriptionchef.app")  # our own short links, left off the page
 # Names and groups of the short links that aren't tools on the site (most written by useandlike-ops/analysis/yazing-add.py).
 SHORT_LINKS = os.path.join(ROOT, "data", "short-links.json")
+# Everyday English words (lowercase in a sentence), for the new-video box: see the file's header.
+COMMON_WORDS = os.path.join(ROOT, "data", "common-words.txt")
 # Last line of a pinned comment (the description uses NEWSLETTER_LINE); same as useandlike-ops/analysis/pinned-comment-lines.py.
 PINNED_NEWS = "📩 Free Subscription Tracker + new app tips by email: useandlike.com/join"
 # Link-only names that are ordinary words: the page's "new video" box doesn't pick them from a title by itself.
@@ -182,7 +185,8 @@ def write_links_page(tools):
                 k.append(first)
         items.append({"s": l["slug"], "n": l["name"], "w": l["written"], "k": k, "x": x.pattern if x else ""})
     box = {"items": items, "guides": [{"s": s, "n": n, "k": k} for s, n, k in cancel_guides()],
-           "exclude": bv.EXCLUDE.pattern, "cancel": CANCEL.pattern, "suffix": bv.SUFFIX.pattern, "pinNews": PINNED_NEWS}
+           "exclude": bv.EXCLUDE.pattern, "cancel": CANCEL.pattern, "suffix": bv.SUFFIX.pattern, "pinNews": PINNED_NEWS,
+           "common": " ".join(l.strip() for l in open(COMMON_WORDS, encoding="utf-8") if l.strip() and not l.startswith("#"))}
     page = (LINKS_TEMPLATE.replace("/*BOX_JS*/", BOX_JS).replace("/*BOX*/", json.dumps(box, ensure_ascii=False).replace("</", "<\\/"))
             .replace("<!--COUNT-->", str(len(links))).replace("<!--UPDATED-->", nice_day(today.isoformat()))
             .replace("<!--NEWSLETTER-->", esc(NEWSLETTER_LINE)).replace("/*NEWSLETTER*/", json.dumps(NEWSLETTER_LINE))
@@ -211,7 +215,7 @@ LINKS_TEMPLATE = """<!doctype html>
      under its category, each with the exact line to paste and a Copy button. Colors and faces are the site's own. */
   --bg: #fbfaf7; --surface: #ffffff; --text: #1a1c20; --muted: #585d66; --line: #dcd7cc;
   --brand: #1f3a5f; --brand-text: #ffffff; --brass: #9a7428; --link: #1f4f8f; --soft: #f0ede6;
-  --ok: #2d6a4f; --new-bg: #f5ead2; --new-fg: #6f5216; --flash: #f8edcf;
+  --ok: #2d6a4f; --ok-bg: #e3f1e7; --new-bg: #f5ead2; --new-fg: #6f5216; --flash: #f8edcf;
   --serif: Georgia, "Times New Roman", serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
@@ -220,13 +224,13 @@ LINKS_TEMPLATE = """<!doctype html>
   :root:not([data-theme="light"]) {
     --bg: #121417; --surface: #191c21; --text: #ebe9e4; --muted: #a7abb3; --line: #2e333b;
     --brand: #a9c2e6; --brand-text: #121417; --brass: #d4b06a; --link: #a6c3f5; --soft: #1d2127;
-    --ok: #8fd1ae; --new-bg: #2e2719; --new-fg: #e2c38a; --flash: #2b2618; color-scheme: dark;
+    --ok: #8fd1ae; --ok-bg: #16271e; --new-bg: #2e2719; --new-fg: #e2c38a; --flash: #2b2618; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #121417; --surface: #191c21; --text: #ebe9e4; --muted: #a7abb3; --line: #2e333b;
   --brand: #a9c2e6; --brand-text: #121417; --brass: #d4b06a; --link: #a6c3f5; --soft: #1d2127;
-  --ok: #8fd1ae; --new-bg: #2e2719; --new-fg: #e2c38a; --flash: #2b2618; color-scheme: dark;
+  --ok: #8fd1ae; --ok-bg: #16271e; --new-bg: #2e2719; --new-fg: #e2c38a; --flash: #2b2618; color-scheme: dark;
 }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 var(--sans); }
@@ -275,6 +279,10 @@ button[data-copy].ok, button[data-copyout].ok { background: var(--surface); colo
 .out { display: grid; gap: 6px; }
 .outhead { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
 .out textarea { font-family: var(--mono); font-size: .86rem; line-height: 1.45; resize: vertical; }
+.vstatus { margin: 0; padding: 8px 12px; border-radius: 8px; font-weight: 600; background: var(--soft); }
+.vstatus.yes { background: var(--ok-bg); color: var(--ok); }
+.vstatus.warn { background: var(--new-bg); color: var(--new-fg); }
+.opt.small { font-size: .85rem; }
 :focus-visible { outline: 3px solid var(--brass); outline-offset: 2px; }
 .note { grid-column: 2 / -1; margin: 0; font-size: .8rem; color: var(--muted); }
 .row.flash { background: var(--flash); }
@@ -302,16 +310,19 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
 
   <section class="maker" aria-labelledby="maker-h">
     <h2 id="maker-h">New video? Paste its title</h2>
-    <p class="hint">You get the pinned comment (a question that invites replies, the 👉 line and the newsletter line) and the
-      lines for the top of the description. Check the link and the question, change them if needed, then copy.</p>
+    <p class="hint">You see at once whether we have an affiliate link for it, and you get the pinned comment (a question
+      that invites replies, the 👉 line, the newsletter line) and a short description: our links first, one sentence that
+      extends the title, the closing line. Check the link and the text, change them if needed, then copy.</p>
     <label class="field" for="vt">Video title</label>
     <input id="vt" type="text" autocomplete="off" placeholder="e.g. How to Book a Flight Ticket on Kiwi.com">
     <div id="made" hidden>
+      <p id="vstatus" class="vstatus" role="status"></p>
       <div class="pickrow"><label for="vtool">Link</label><select id="vtool"></select><span id="vnote" class="vnote"></span></div>
       <div class="out"><div class="outhead"><span>Pinned comment</span><button type="button" data-copyout="pin">Copy</button></div>
         <textarea id="pin" rows="4" spellcheck="false" aria-label="Pinned comment"></textarea></div>
-      <div class="out"><div class="outhead"><span>Top of the description</span><button type="button" data-copyout="desc">Copy</button></div>
-        <textarea id="desc" rows="3" spellcheck="false" aria-label="Top of the description"></textarea></div>
+      <div class="out"><div class="outhead"><span>Description</span><button type="button" data-copyout="desc">Copy</button></div>
+        <textarea id="desc" rows="6" spellcheck="false" aria-label="Description"></textarea>
+        <label class="opt small" for="onlytop"><input id="onlytop" type="checkbox"><span>Only our top lines <em>(to put above an old video's description)</em></span></label></div>
     </div>
   </section>
 
@@ -440,14 +451,17 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
   // Words that are lowercase in a sentence ("How To Book Flight Ticket" -> "book flight ticket"); names keep their capitals.
   var COMMON = {};
   ("a an and or the to in on at of for from with by into onto over your my our their his her its this that these those it you " +
+   "things thing know need should really worth price prices pricing features feature results result review reviews compared " +
+   "comparison best manage protect connecting working loading opening showing sending downloading uploading playing " +
+   "updating installing charging syncing signing logging " +
    "we they me him them i use using make create add remove delete change edit rename set setup get find fix turn off enable " +
    "disable install uninstall download upload update open close start stop share send receive transfer book order buy sell pay " +
    "cancel unsubscribe sign log login logout out back check see watch play join leave hide show block unblock connect disconnect " +
    "link unlink verify activate deactivate reset recover restore backup save print scan convert merge split crop cut trim rotate " +
    "resize compress translate write read apply claim redeem earn withdraw deposit top load register renew track search schedule " +
    "move copy paste import export sync stream cast mirror record take go run try put keep call text post like follow unfollow " +
-   "invite accept reply pin unpin mute unmute archive lock unlock clear free new old account accounts app apps phone mobile android " +
-   "iphone ipad pc laptop computer windows mac browser video videos photo photos picture pictures image images screen chat chats " +
+   "invite accept reply pin unpin mute unmute archive lock unlock clear free new old account accounts app apps phone mobile " +
+   "pc laptop computer browser video videos photo photos picture pictures image images screen chat chats " +
    "message messages data file files folder folders password passwords email emails mail number numbers card cards money payment " +
    "payments ticket tickets flight flights hotel hotels room rooms trip trips car cars game games mod mods version language " +
    "languages name profile settings setting notification notifications status story stories group groups page pages channel " +
@@ -461,12 +475,20 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
    "slide slides button menu icon bar tab window finds shows says opens stops keeps gets comes goes has have had was were " +
    "permanently again now today chatbot bot assistant manager editor maker generator converter downloader player recorder " +
    "builder tracker planner store shop updates feature features option options tool tools").split(" ").forEach(function (w) { COMMON[w] = 1; });
+  BOX.common.split(" ").forEach(function (w) { COMMON[w] = 1; });   // the 7,600 most common English words (data/common-words.txt)
+  var PROTECT = {};   // words of the app the video is about keep their capitals ("Box" in a Box video)
+  // App names that are also everyday words keep their capital after these words: "in Word", "Google Drive", "MS Teams".
+  var APPWORDS = { word: 1, teams: 1, edge: 1, keep: 1, drive: 1, photos: 1, sheets: 1, docs: 1, slides: 1, meet: 1, maps: 1,
+                   music: 1, wallet: 1, pay: 1, lens: 1, calendar: 1, notes: 1, files: 1 };
+  var BEFORE_APP = { "in": 1, on: 1, to: 1, from: 1, "with": 1, into: 1, google: 1, microsoft: 1, ms: 1, apple: 1, amazon: 1, samsung: 1 };
   function sentence(s) {
-    return s.split(/\s+/).map(function (w) {
+    var ws = s.split(/\s+/);
+    return ws.map(function (w, i) {
       var lw = w.toLowerCase(), bare = lw.replace(/[^a-z']/g, "");
       // Only "Book" or "book" becomes "book"; "iPhone", "WhatsApp", "PC" and "I" stay as written.
       var plain = w === lw || (w.charAt(0) !== lw.charAt(0) && w.slice(1) === lw.slice(1));
-      return COMMON[bare] && plain && w !== "I" ? lw : w;
+      var app = APPWORDS[bare] && w !== lw && i > 0 && BEFORE_APP[ws[i - 1].toLowerCase().replace(/[^a-z]/g, "")];
+      return COMMON[bare] && !PROTECT[bare] && !app && plain && w !== "I" ? lw : w;
     }).join(" ");
   }
   // "Kiwi.com" -> "Kiwi": YouTube turns names like that into links to the brand's site (without our code).
@@ -522,7 +544,43 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
     return "Did this help? Tell us below if any step looked different for you 👇";
   }
 
+  // The description: one sentence that extends the title, without promising what the video shows (Kevin, 13 Oct: "short,
+  // not overpromising, just as extension of the title", so viewers aren't pulled away from our links).
+  var SAFETY = /crack|keygen|license key|mod apk|modded|hack|cheat|unlocked|trial reset|activator|free premium|premium (for )?free|lifetime free|free lifetime/;
+  function lowerFirst(s) { return /^[A-Z][a-z]/.test(s) ? s.charAt(0).toLowerCase() + s.slice(1) : s; }
+  function extend(title, subj) {
+    var t = noTld(title.replace(SUFFIX, "").trim()), low = t.toLowerCase(), S = noTld(subj);
+    if (SAFETY.test(low)) return "Stay safe: skip cracked apps and “free premium” offers.";
+    var segs = t.split(/\s+[-–—|:]\s+|\s*\|\s*|:\s+/).map(function (x) { return x.trim(); }).filter(Boolean);
+    var vs = segs.filter(function (x) { return /\svs\.?\s/i.test(x); })[0];
+    if (vs) {
+      var p = vs.split(/\s+vs\.?\s+/i).map(function (x) { return trimFiller(x.trim()); }).filter(Boolean).slice(0, 3);
+      if (p.length >= 2) {
+        var more = segs.filter(function (x) { return x !== vs && !/compar|\bvs\b/i.test(x.replace(/compared$/i, "")); })
+          .map(function (x) { return trimFiller(sentence(x)).replace(/\s*compared$/i, ""); }).filter(Boolean).join(", ");
+        return (p.length === 2 ? p[0] + " or " + p[1] : p[0] + ", " + p[1] + " or " + p[2]) + "? This video compares them" +
+               (more ? ": " + lowerFirst(more) : "") + ".";
+      }
+    }
+    var how = null;
+    segs.forEach(function (x) { var m = !how && x.match(/how\s+to\s+(.+)/i); if (m) how = m[1]; });
+    if (!how && /not working|error|\bfix\b|problem|issue|can'?t|won'?t|failed|stuck/.test(low))
+      return trimFiller(sentence(segs[0])).replace(/\s*-?\s*fix(ed)?$/i, "") + "? This video shows what to do.";
+    if (!how && /review|worth it|honest|tested/.test(low)) {
+      var subject = S || trimFiller(segs[0].replace(/\b(honest )?review\b.*$/i, "").trim());
+      var r = lowerFirst(segs.slice(1).map(function (x) { return trimFiller(sentence(x)); }).filter(Boolean).join(", "));
+      var ask = /^(is|are|does|do|can|should|which|what|how|why|will)\b/i.test(r);
+      return (subject ? "Thinking about " + subject + "? " : "") + "This video is our review" + (r ? ": " + r + (ask ? "?" : ".") : ".");
+    }
+    if (how) { var a = sentence(trimFiller(how)); if (a) return "This video shows how to " + a + "."; }
+    return sentence(trimFiller(segs.join(": "))) + ".";
+  }
+  function closing(aff) {
+    return "❤️ If this helped, please like and subscribe!" + (aff ? " Some links earn us a small commission at no extra cost to you." : "") + " Thanks!";
+  }
+
   var vt = document.getElementById("vt"), sel = document.getElementById("vtool"), made = document.getElementById("made");
+  var vstatus = document.getElementById("vstatus"), onlytop = document.getElementById("onlytop");
   var pin = document.getElementById("pin"), desc = document.getElementById("desc"), vnote = document.getElementById("vnote");
   var none = document.createElement("option"); none.value = ""; none.textContent = "No link (newsletter line only)"; sel.appendChild(none);
   BOX.items.forEach(function (it) { var o = document.createElement("option"); o.value = it.s; o.textContent = it.n; sel.appendChild(o); });
@@ -535,9 +593,9 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
     var cancel = CANCEL.test(title), excluded = !cancel && EXCLUDE.test(title);
     if (cancel) {
       for (j = 0; j < gkeys.length && !guide; j++) if (gkeys[j].rx.test(tl)) guide = gkeys[j].g;
-      note = guide ? "Cancel video: the cancel guide instead of an affiliate link (our rule)." : "Cancel video: no affiliate link (our rule).";
+      note = "";
     } else if (excluded) {
-      note = "No affiliate link on videos about refunds, free versions, cracks or alternatives (our rule).";
+      note = "";
     } else if (manual !== null) {
       it = bySlug[manual] || null;
       note = it ? "Picked by hand." : "No link: newsletter line only.";
@@ -547,17 +605,26 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
     }
     sel.value = it ? it.s : "";
     sel.disabled = cancel || excluded;
+    PROTECT = {};
+    (it ? it.n : guide ? guide.n : "").toLowerCase().split(/[^a-z0-9']+/).forEach(function (w) { if (w) PROTECT[w] = 1; });
     var link = it ? "👉 Try " + it.w + " (affiliate): useandlike.com/" + it.s
              : guide ? "👉 Step-by-step guide: subscriptionchef.app/cancel/" + guide.s : "";
     pin.value = [question(title, it ? it.n : guide ? guide.n : ""), link, BOX.pinNews].filter(Boolean).join("\n");
-    desc.value = [link, NEWS].filter(Boolean).join("\n");
+    var top = [link, NEWS].filter(Boolean).join("\n");
+    desc.value = onlytop.checked ? top : top + "\n\n" + extend(title, it ? it.n : guide ? guide.n : "") + "\n\n" + closing(!!it);
     vnote.textContent = note;
+    vstatus.className = "vstatus" + (it ? " yes" : cancel || excluded ? " warn" : "");
+    vstatus.textContent = it ? "✓ We have an affiliate link: " + it.n + " → useandlike.com/" + it.s
+      : cancel ? "Cancel video: no affiliate link" + (guide ? ", the cancel guide goes in instead" : "") + " (our rule)."
+      : excluded ? "No affiliate link: video about refunds, free versions, cracks or alternatives (our rule)."
+      : "No affiliate link for this video: only the newsletter line.";
     grow(pin); grow(desc);
   }
   function grow(ta) { ta.style.height = "auto"; ta.style.height = ta.scrollHeight + 2 + "px"; }   // whole text visible on phones
   pin.addEventListener("input", function () { grow(pin); });
   desc.addEventListener("input", function () { grow(desc); });
   vt.addEventListener("input", function () { manual = null; makeLines(); });
+  onlytop.addEventListener("change", makeLines);
   sel.addEventListener("change", function () { manual = sel.value; makeLines(); });
 """
 
