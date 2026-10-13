@@ -17,7 +17,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ALIASES = {
     "Proton VPN": ["proton vpn", "protonvpn"], "Proton Mail": ["proton mail", "protonmail"],
     "Proton Drive": ["proton drive"], "Proton Pass": ["proton pass"], "Opus Clip": ["opus clip", "opusclip"],
-    "Murf AI": ["murf"], "Systeme.io": ["systeme.io", "systeme io", "systeme"], "Resume.io": ["resume.io"],
+    "Murf AI": ["murf"], "Systeme.io": ["systeme.io", "systeme io", "systeme"],
     "GoHighLevel": ["gohighlevel", "go high level", "highlevel"], "vidIQ": ["vidiq"],
     "Fiverr Pro": ["fiverr pro"], "Fiverr Logo Maker": ["fiverr logo maker", "fiverr logo"],
     "AT&T": ["at&t", "at&amp;t"], "Amigo eSIM": ["amigo esim", "amigo e-sim"], "Coda": ["coda.io", "coda"],

@@ -17,7 +17,7 @@ bv = importlib.util.module_from_spec(spec); spec.loader.exec_module(bv)
 
 NEWSLETTER_LINE = "📩 Join Our Newsletter & Get Free Subscription Tracker: useandlike.com/join"
 # Tool names that YouTube would turn into a link to the brand's own site (without our affiliate code): shorter name
-# in the 👉 line. (Resume.io and Systeme.io predate this list; their lines are already on many videos.)
+# in the 👉 line. (Systeme.io predates this list; its line is already on many videos.)
 LINE_NAME = {"Booking.com": "Booking", "Kiwi.com": "Kiwi", "lastminute.com": "lastminute"}
 CANCEL = re.compile(r"\bcancel|unsubscribe|end (your |my )?(membership|subscription)|stop (your |my )?subscription", re.I)
 # Extra ways a cancel guide's service is written in titles.
