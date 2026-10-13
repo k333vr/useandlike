@@ -1,0 +1,302 @@
+<title>useandlike Affiliate Links</title>
+<style>
+:root {
+  /* Layout: one ledger column like useandlike.com: a sticky finder bar, a What's-new note, then one row per link
+     under its category, each with the exact line to paste and a Copy button. Colors and faces are the site's own. */
+  --bg: #fbfaf7; --surface: #ffffff; --text: #1a1c20; --muted: #585d66; --line: #dcd7cc;
+  --brand: #1f3a5f; --brand-text: #ffffff; --brass: #9a7428; --link: #1f4f8f; --soft: #f0ede6;
+  --ok: #2d6a4f; --new-bg: #f5ead2; --new-fg: #6f5216; --flash: #f8edcf;
+  --serif: Georgia, "Times New Roman", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121417; --surface: #191c21; --text: #ebe9e4; --muted: #a7abb3; --line: #2e333b;
+    --brand: #a9c2e6; --brand-text: #121417; --brass: #d4b06a; --link: #a6c3f5; --soft: #1d2127;
+    --ok: #8fd1ae; --new-bg: #2e2719; --new-fg: #e2c38a; --flash: #2b2618; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121417; --surface: #191c21; --text: #ebe9e4; --muted: #a7abb3; --line: #2e333b;
+  --brand: #a9c2e6; --brand-text: #121417; --brass: #d4b06a; --link: #a6c3f5; --soft: #1d2127;
+  --ok: #8fd1ae; --new-bg: #2e2719; --new-fg: #e2c38a; --flash: #2b2618; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 var(--sans); }
+.wrap { max-width: 980px; margin: 0 auto; padding-inline: 16px; padding-block: 28px 48px; }
+.eyebrow { margin: 0; font-size: .78rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--brass); }
+h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(1.9rem, 5vw, 2.5rem); line-height: 1.15; margin: .3rem 0 .6rem; color: var(--brand); text-wrap: balance; }
+.lede { margin: 0; max-width: 64ch; }
+.meta { margin: .6rem 0 0; font-size: .9rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 2; background: var(--bg); border-bottom: 1px solid var(--line);
+  margin-top: 18px; padding-block: 12px; display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; }
+#q { flex: 1 1 260px; min-width: 0; font: inherit; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text); }
+.nl { display: flex; gap: 8px; align-items: center; cursor: pointer; }
+.nl em { font-style: normal; color: var(--muted); }
+.nl-line { margin: .35rem 0 0; font-size: .8rem; color: var(--muted); overflow-wrap: anywhere; }
+code { font-family: var(--mono); }
+.news { margin-top: 22px; padding: 16px 18px; background: var(--soft); border-radius: 10px; display: grid; gap: 14px; }
+.news h2 { font-family: var(--serif); font-weight: 400; font-size: 1.35rem; margin: 0; }
+.day h3, .gone h3 { margin: 0 0 6px; font-size: .95rem; font-weight: 600; }
+.day h3 span, .cat h2 span { font-weight: 400; color: var(--muted); font-variant-numeric: tabular-nums; }
+.chips { margin: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.chips a { color: var(--link); text-decoration: none; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px; font-size: .88rem; }
+.chips a:hover { border-color: var(--link); }
+.gone ul { margin: 0; padding-left: 18px; }
+.cat { margin-top: 30px; }
+.cat h2 { font-family: var(--serif); font-weight: 400; font-size: 1.3rem; margin: 0; padding-bottom: 6px; border-bottom: 2px solid var(--brand); }
+.row { display: grid; grid-template-columns: minmax(9rem, 14rem) minmax(0, 1fr) auto; gap: 6px 16px; align-items: center; padding: 10px 6px; border-bottom: 1px solid var(--line); }
+.who { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; min-width: 0; }
+.name { font-weight: 600; }
+.badge { font-size: .7rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; background: var(--new-bg); color: var(--new-fg); border-radius: 4px; padding: 1px 6px; }
+.date { flex-basis: 100%; font-size: .8rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.line { font-size: .88rem; min-width: 0; overflow-wrap: anywhere; }
+button[data-copy] { font: inherit; font-size: .9rem; font-weight: 600; min-width: 6.8rem; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--brand); background: var(--brand); color: var(--brand-text); cursor: pointer; }
+button[data-copy]:hover { filter: brightness(1.12); }
+button[data-copy].ok { background: var(--surface); color: var(--ok); border-color: var(--ok); }
+:focus-visible { outline: 3px solid var(--brass); outline-offset: 2px; }
+.note { grid-column: 2 / -1; margin: 0; font-size: .8rem; color: var(--muted); }
+.row.flash { background: var(--flash); }
+.none { margin-top: 24px; padding: 14px 16px; border: 1px dashed var(--line); border-radius: 10px; color: var(--muted); }
+footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--muted); }
+@media (max-width: 640px) {
+  .row { grid-template-columns: minmax(0, 1fr) auto; }
+  .who { grid-column: 1; grid-row: 1; }
+  button[data-copy] { grid-column: 2; grid-row: 1; min-width: 5.6rem; }
+  .line, .note { grid-column: 1 / -1; }
+}
+@media (prefers-reduced-motion: no-preference) { .row { transition: background-color .6s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">useandlike.com · for the manager and uploaders</p>
+    <h1>Affiliate links</h1>
+    <p class="lede">Find the tool a video is about, press Copy and paste the line at the very top of the description or
+      into the pinned comment. Use only these short links. A video about an app that isn’t listed gets only the newsletter line.</p>
+    <p class="meta"><b>95</b> links · updated 13 Oct 2026</p>
+    <p class="nl-line">Newsletter line, added when you tick the box below: <code>📩 Join Our Newsletter &amp; Get Free Subscription Tracker: useandlike.com/join</code></p>
+  </header>
+
+  <div class="bar">
+    <input id="q" type="search" placeholder="Find a tool, e.g. Wise" aria-label="Find a tool" autocomplete="off">
+    <label class="nl" for="nl"><input id="nl" type="checkbox"><span>Copy with the newsletter line <em>(for descriptions)</em></span></label>
+  </div>
+
+  <section id="news" class="news" aria-label="What's new">
+    <h2>What’s new</h2>
+<div class="day"><h3>13 Oct 2026 <span>31 links</span></h3><p class="chips"><a href="#l-agoda" data-jump="agoda">Agoda</a><a href="#l-airalo" data-jump="airalo">Airalo</a><a href="#l-booking" data-jump="booking">Booking.com</a><a href="#l-eharmony" data-jump="eharmony">eHarmony</a><a href="#l-elementor" data-jump="elementor">Elementor</a><a href="#l-expedia" data-jump="expedia">Expedia</a><a href="#l-expressvpn" data-jump="expressvpn">ExpressVPN</a><a href="#l-fireflies" data-jump="fireflies">Fireflies AI</a><a href="#l-godaddy" data-jump="godaddy">GoDaddy</a><a href="#l-grammarly" data-jump="grammarly">Grammarly</a><a href="#l-hailuo" data-jump="hailuo">Hailuo AI</a><a href="#l-kiwi" data-jump="kiwi">Kiwi.com</a><a href="#l-klook" data-jump="klook">Klook</a><a href="#l-lastminute" data-jump="lastminute">lastminute.com</a><a href="#l-lastpass" data-jump="lastpass">LastPass</a><a href="#l-legalzoom" data-jump="legalzoom">LegalZoom</a><a href="#l-nordpass" data-jump="nordpass">NordPass</a><a href="#l-nordvpn" data-jump="nordvpn">NordVPN</a><a href="#l-omio" data-jump="omio">Omio</a><a href="#l-pixlr" data-jump="pixlr">Pixlr</a><a href="#l-preply" data-jump="preply">Preply</a><a href="#l-pia" data-jump="pia">Private Internet Access</a><a href="#l-remitly" data-jump="remitly">Remitly</a><a href="#l-ria" data-jump="ria">Ria Money Transfer</a><a href="#l-surfshark" data-jump="surfshark">Surfshark</a><a href="#l-teamviewer" data-jump="teamviewer">TeamViewer</a><a href="#l-tidio" data-jump="tidio">Tidio</a><a href="#l-turbotax" data-jump="turbotax">TurboTax</a><a href="#l-udemy" data-jump="udemy">Udemy</a><a href="#l-vimeo" data-jump="vimeo">Vimeo</a><a href="#l-wps" data-jump="wps">WPS Office</a></p></div>
+<div class="gone"><h3>Removed: don’t use these any more</h3><ul><li><code>useandlike.com/resume</code> taken out 13 Oct 2026</li><li><code>useandlike.com/bitget</code> taken out 3 Oct 2026</li></ul></div>
+  </section>
+
+  <p id="none" class="none" hidden>No link for “<b id="none-q"></b>”. A video about it gets only the newsletter line.</p>
+
+  <div id="list">
+<section class="cat"><h2>VPN &amp; Privacy <span>10</span></h2>
+<div class="row" id="l-expressvpn" data-line="👉 Try ExpressVPN (affiliate): useandlike.com/expressvpn" data-q="expressvpn expressvpn vpn &amp; privacy"><div class="who"><span class="name">ExpressVPN</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try ExpressVPN (affiliate): useandlike.com/expressvpn</code><button type="button" data-copy aria-label="Copy the line for ExpressVPN">Copy</button></div>
+<div class="row" id="l-gologin" data-line="👉 Try GoLogin (affiliate): useandlike.com/gologin" data-q="gologin gologin vpn &amp; privacy"><div class="who"><span class="name">GoLogin</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try GoLogin (affiliate): useandlike.com/gologin</code><button type="button" data-copy aria-label="Copy the line for GoLogin">Copy</button></div>
+<div class="row" id="l-lastpass" data-line="👉 Try LastPass (affiliate): useandlike.com/lastpass" data-q="lastpass lastpass vpn &amp; privacy"><div class="who"><span class="name">LastPass</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try LastPass (affiliate): useandlike.com/lastpass</code><button type="button" data-copy aria-label="Copy the line for LastPass">Copy</button></div>
+<div class="row" id="l-malwarebytes" data-line="👉 Try Malwarebytes (affiliate): useandlike.com/malwarebytes" data-q="malwarebytes malwarebytes vpn &amp; privacy"><div class="who"><span class="name">Malwarebytes</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Malwarebytes (affiliate): useandlike.com/malwarebytes</code><button type="button" data-copy aria-label="Copy the line for Malwarebytes">Copy</button></div>
+<div class="row" id="l-nordpass" data-line="👉 Try NordPass (affiliate): useandlike.com/nordpass" data-q="nordpass nordpass vpn &amp; privacy"><div class="who"><span class="name">NordPass</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try NordPass (affiliate): useandlike.com/nordpass</code><button type="button" data-copy aria-label="Copy the line for NordPass">Copy</button></div>
+<div class="row" id="l-nordvpn" data-line="👉 Try NordVPN (affiliate): useandlike.com/nordvpn" data-q="nordvpn nordvpn vpn &amp; privacy"><div class="who"><span class="name">NordVPN</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try NordVPN (affiliate): useandlike.com/nordvpn</code><button type="button" data-copy aria-label="Copy the line for NordVPN">Copy</button></div>
+<div class="row" id="l-pia" data-line="👉 Try Private Internet Access (affiliate): useandlike.com/pia" data-q="private internet access pia vpn &amp; privacy"><div class="who"><span class="name">Private Internet Access</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try Private Internet Access (affiliate): useandlike.com/pia</code><button type="button" data-copy aria-label="Copy the line for Private Internet Access">Copy</button></div>
+<div class="row" id="l-protonpass" data-line="👉 Try Proton Pass (affiliate): useandlike.com/protonpass" data-q="proton pass protonpass vpn &amp; privacy"><div class="who"><span class="name">Proton Pass</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Proton Pass (affiliate): useandlike.com/protonpass</code><button type="button" data-copy aria-label="Copy the line for Proton Pass">Copy</button></div>
+<div class="row" id="l-protonvpn" data-line="👉 Try Proton VPN (affiliate): useandlike.com/protonvpn" data-q="proton vpn protonvpn vpn &amp; privacy"><div class="who"><span class="name">Proton VPN</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Proton VPN (affiliate): useandlike.com/protonvpn</code><button type="button" data-copy aria-label="Copy the line for Proton VPN">Copy</button></div>
+<div class="row" id="l-surfshark" data-line="👉 Try Surfshark (affiliate): useandlike.com/surfshark" data-q="surfshark surfshark vpn &amp; privacy"><div class="who"><span class="name">Surfshark</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try Surfshark (affiliate): useandlike.com/surfshark</code><button type="button" data-copy aria-label="Copy the line for Surfshark">Copy</button></div>
+</section>
+<section class="cat"><h2>Email <span>2</span></h2>
+<div class="row" id="l-protonmail" data-line="👉 Try Proton Mail (affiliate): useandlike.com/protonmail" data-q="proton mail protonmail email"><div class="who"><span class="name">Proton Mail</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Proton Mail (affiliate): useandlike.com/protonmail</code><button type="button" data-copy aria-label="Copy the line for Proton Mail">Copy</button></div>
+<div class="row" id="l-startmail" data-line="👉 Try StartMail (affiliate): useandlike.com/startmail" data-q="startmail startmail email"><div class="who"><span class="name">StartMail</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try StartMail (affiliate): useandlike.com/startmail</code><button type="button" data-copy aria-label="Copy the line for StartMail">Copy</button></div>
+</section>
+<section class="cat"><h2>Cloud Storage <span>2</span></h2>
+<div class="row" id="l-pcloud" data-line="👉 Try pCloud (affiliate): useandlike.com/pcloud" data-q="pcloud pcloud cloud storage"><div class="who"><span class="name">pCloud</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try pCloud (affiliate): useandlike.com/pcloud</code><button type="button" data-copy aria-label="Copy the line for pCloud">Copy</button></div>
+<div class="row" id="l-protondrive" data-line="👉 Try Proton Drive (affiliate): useandlike.com/protondrive" data-q="proton drive protondrive cloud storage"><div class="who"><span class="name">Proton Drive</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Proton Drive (affiliate): useandlike.com/protondrive</code><button type="button" data-copy aria-label="Copy the line for Proton Drive">Copy</button></div>
+</section>
+<section class="cat"><h2>Web Hosting <span>5</span></h2>
+<div class="row" id="l-godaddy" data-line="👉 Try GoDaddy (affiliate): useandlike.com/godaddy" data-q="godaddy godaddy web hosting"><div class="who"><span class="name">GoDaddy</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try GoDaddy (affiliate): useandlike.com/godaddy</code><button type="button" data-copy aria-label="Copy the line for GoDaddy">Copy</button></div>
+<div class="row" id="l-hostgator" data-line="👉 Try HostGator (affiliate): useandlike.com/hostgator" data-q="hostgator hostgator web hosting"><div class="who"><span class="name">HostGator</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try HostGator (affiliate): useandlike.com/hostgator</code><button type="button" data-copy aria-label="Copy the line for HostGator">Copy</button></div>
+<div class="row" id="l-hostinger" data-line="👉 Try Hostinger (affiliate): useandlike.com/hostinger" data-q="hostinger hostinger web hosting"><div class="who"><span class="name">Hostinger</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Hostinger (affiliate): useandlike.com/hostinger</code><button type="button" data-copy aria-label="Copy the line for Hostinger">Copy</button></div>
+<div class="row" id="l-ionos" data-line="👉 Try IONOS (affiliate): useandlike.com/ionos" data-q="ionos ionos web hosting"><div class="who"><span class="name">IONOS</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try IONOS (affiliate): useandlike.com/ionos</code><button type="button" data-copy aria-label="Copy the line for IONOS">Copy</button></div>
+<div class="row" id="l-webhostmost" data-line="👉 Try WebHostMost (affiliate): useandlike.com/webhostmost" data-q="webhostmost webhostmost web hosting"><div class="who"><span class="name">WebHostMost</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try WebHostMost (affiliate): useandlike.com/webhostmost</code><button type="button" data-copy aria-label="Copy the line for WebHostMost">Copy</button></div>
+</section>
+<section class="cat"><h2>Website &amp; App Builders <span>4</span></h2>
+<div class="row" id="l-adalo" data-line="👉 Try Adalo (affiliate): useandlike.com/adalo" data-q="adalo adalo website &amp; app builders"><div class="who"><span class="name">Adalo</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Adalo (affiliate): useandlike.com/adalo</code><button type="button" data-copy aria-label="Copy the line for Adalo">Copy</button></div>
+<div class="row" id="l-elementor" data-line="👉 Try Elementor (affiliate): useandlike.com/elementor" data-q="elementor elementor website &amp; app builders"><div class="who"><span class="name">Elementor</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try Elementor (affiliate): useandlike.com/elementor</code><button type="button" data-copy aria-label="Copy the line for Elementor">Copy</button></div>
+<div class="row" id="l-lovable" data-line="👉 Try Lovable (affiliate): useandlike.com/lovable" data-q="lovable lovable website &amp; app builders"><div class="who"><span class="name">Lovable</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Lovable (affiliate): useandlike.com/lovable</code><button type="button" data-copy aria-label="Copy the line for Lovable">Copy</button></div>
+<div class="row" id="l-mixo" data-line="👉 Try Mixo (affiliate): useandlike.com/mixo" data-q="mixo mixo website &amp; app builders"><div class="who"><span class="name">Mixo</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Mixo (affiliate): useandlike.com/mixo</code><button type="button" data-copy aria-label="Copy the line for Mixo">Copy</button></div>
+</section>
+<section class="cat"><h2>Online Stores &amp; Funnels <span>5</span></h2>
+<div class="row" id="l-autods" data-line="👉 Try AutoDS (affiliate): useandlike.com/autods" data-q="autods autods online stores &amp; funnels"><div class="who"><span class="name">AutoDS</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try AutoDS (affiliate): useandlike.com/autods</code><button type="button" data-copy aria-label="Copy the line for AutoDS">Copy</button></div>
+<div class="row" id="l-clickfunnels" data-line="👉 Try ClickFunnels (affiliate): useandlike.com/clickfunnels" data-q="clickfunnels clickfunnels online stores &amp; funnels"><div class="who"><span class="name">ClickFunnels</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try ClickFunnels (affiliate): useandlike.com/clickfunnels</code><button type="button" data-copy aria-label="Copy the line for ClickFunnels">Copy</button></div>
+<div class="row" id="l-gohighlevel" data-line="👉 Try GoHighLevel (affiliate): useandlike.com/gohighlevel" data-q="gohighlevel gohighlevel online stores &amp; funnels"><div class="who"><span class="name">GoHighLevel</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try GoHighLevel (affiliate): useandlike.com/gohighlevel</code><button type="button" data-copy aria-label="Copy the line for GoHighLevel">Copy</button></div>
+<div class="row" id="l-shopify" data-line="👉 Try Shopify (affiliate): useandlike.com/shopify" data-q="shopify shopify online stores &amp; funnels"><div class="who"><span class="name">Shopify</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Shopify (affiliate): useandlike.com/shopify</code><button type="button" data-copy aria-label="Copy the line for Shopify">Copy</button></div>
+<div class="row" id="l-systeme" data-line="👉 Try Systeme.io (affiliate): useandlike.com/systeme" data-q="systeme.io systeme online stores &amp; funnels"><div class="who"><span class="name">Systeme.io</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Systeme.io (affiliate): useandlike.com/systeme</code><button type="button" data-copy aria-label="Copy the line for Systeme.io">Copy</button></div>
+</section>
+<section class="cat"><h2>Video Creation <span>11</span></h2>
+<div class="row" id="l-autoshorts" data-line="👉 Try AutoShorts (affiliate): useandlike.com/autoshorts" data-q="autoshorts autoshorts video creation"><div class="who"><span class="name">AutoShorts</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try AutoShorts (affiliate): useandlike.com/autoshorts</code><button type="button" data-copy aria-label="Copy the line for AutoShorts">Copy</button></div>
+<div class="row" id="l-capcut" data-line="👉 Try CapCut (affiliate): useandlike.com/capcut" data-q="capcut capcut video creation"><div class="who"><span class="name">CapCut</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try CapCut (affiliate): useandlike.com/capcut</code><button type="button" data-copy aria-label="Copy the line for CapCut">Copy</button></div>
+<div class="row" id="l-descript" data-line="👉 Try Descript (affiliate): useandlike.com/descript" data-q="descript descript video creation"><div class="who"><span class="name">Descript</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Descript (affiliate): useandlike.com/descript</code><button type="button" data-copy aria-label="Copy the line for Descript">Copy</button></div>
+<div class="row" id="l-hailuo" data-line="👉 Try Hailuo AI (affiliate): useandlike.com/hailuo" data-q="hailuo ai hailuo video creation"><div class="who"><span class="name">Hailuo AI</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try Hailuo AI (affiliate): useandlike.com/hailuo</code><button type="button" data-copy aria-label="Copy the line for Hailuo AI">Copy</button></div>
+<div class="row" id="l-invideo" data-line="👉 Try InVideo (affiliate): useandlike.com/invideo" data-q="invideo invideo video creation"><div class="who"><span class="name">InVideo</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try InVideo (affiliate): useandlike.com/invideo</code><button type="button" data-copy aria-label="Copy the line for InVideo">Copy</button></div>
+<div class="row" id="l-klap" data-line="👉 Try Klap (affiliate): useandlike.com/klap" data-q="klap klap video creation"><div class="who"><span class="name">Klap</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Klap (affiliate): useandlike.com/klap</code><button type="button" data-copy aria-label="Copy the line for Klap">Copy</button></div>
+<div class="row" id="l-opusclip" data-line="👉 Try Opus Clip (affiliate): useandlike.com/opusclip" data-q="opus clip opusclip video creation"><div class="who"><span class="name">Opus Clip</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Opus Clip (affiliate): useandlike.com/opusclip</code><button type="button" data-copy aria-label="Copy the line for Opus Clip">Copy</button></div>
+<div class="row" id="l-riverside" data-line="👉 Try Riverside (affiliate): useandlike.com/riverside" data-q="riverside riverside video creation"><div class="who"><span class="name">Riverside</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Riverside (affiliate): useandlike.com/riverside</code><button type="button" data-copy aria-label="Copy the line for Riverside">Copy</button></div>
+<div class="row" id="l-streamyard" data-line="👉 Try StreamYard (affiliate): useandlike.com/streamyard" data-q="streamyard streamyard video creation"><div class="who"><span class="name">StreamYard</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try StreamYard (affiliate): useandlike.com/streamyard</code><button type="button" data-copy aria-label="Copy the line for StreamYard">Copy</button></div>
+<div class="row" id="l-syllaby" data-line="👉 Try Syllaby (affiliate): useandlike.com/syllaby" data-q="syllaby syllaby video creation"><div class="who"><span class="name">Syllaby</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Syllaby (affiliate): useandlike.com/syllaby</code><button type="button" data-copy aria-label="Copy the line for Syllaby">Copy</button></div>
+<div class="row" id="l-vimeo" data-line="👉 Try Vimeo (affiliate): useandlike.com/vimeo" data-q="vimeo vimeo video creation"><div class="who"><span class="name">Vimeo</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try Vimeo (affiliate): useandlike.com/vimeo</code><button type="button" data-copy aria-label="Copy the line for Vimeo">Copy</button></div>
+</section>
+<section class="cat"><h2>Voice &amp; Audio <span>4</span></h2>
+<div class="row" id="l-elevenlabs" data-line="👉 Try ElevenLabs (affiliate): useandlike.com/elevenlabs" data-q="elevenlabs elevenlabs voice &amp; audio"><div class="who"><span class="name">ElevenLabs</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try ElevenLabs (affiliate): useandlike.com/elevenlabs</code><button type="button" data-copy aria-label="Copy the line for ElevenLabs">Copy</button></div>
+<div class="row" id="l-epidemicsound" data-line="👉 Try Epidemic Sound (affiliate): useandlike.com/epidemicsound" data-q="epidemic sound epidemicsound voice &amp; audio"><div class="who"><span class="name">Epidemic Sound</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Epidemic Sound (affiliate): useandlike.com/epidemicsound</code><button type="button" data-copy aria-label="Copy the line for Epidemic Sound">Copy</button></div>
+<div class="row" id="l-murf" data-line="👉 Try Murf AI (affiliate): useandlike.com/murf" data-q="murf ai murf voice &amp; audio"><div class="who"><span class="name">Murf AI</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Murf AI (affiliate): useandlike.com/murf</code><button type="button" data-copy aria-label="Copy the line for Murf AI">Copy</button></div>
+<div class="row" id="l-ttsfree" data-line="👉 Try TTSFree (affiliate): useandlike.com/ttsfree" data-q="ttsfree ttsfree voice &amp; audio"><div class="who"><span class="name">TTSFree</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try TTSFree (affiliate): useandlike.com/ttsfree</code><button type="button" data-copy aria-label="Copy the line for TTSFree">Copy</button></div>
+</section>
+<section class="cat"><h2>YouTube Tools <span>3</span></h2>
+<div class="row" id="l-pikzels" data-line="👉 Try Pikzels (affiliate): useandlike.com/pikzels" data-q="pikzels pikzels youtube tools"><div class="who"><span class="name">Pikzels</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Pikzels (affiliate): useandlike.com/pikzels</code><button type="button" data-copy aria-label="Copy the line for Pikzels">Copy</button></div>
+<div class="row" id="l-tubemagic" data-line="👉 Try TubeMagic (affiliate): useandlike.com/tubemagic" data-q="tubemagic tubemagic youtube tools"><div class="who"><span class="name">TubeMagic</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try TubeMagic (affiliate): useandlike.com/tubemagic</code><button type="button" data-copy aria-label="Copy the line for TubeMagic">Copy</button></div>
+<div class="row" id="l-vidiq" data-line="👉 Try vidIQ (affiliate): useandlike.com/vidiq" data-q="vidiq vidiq youtube tools"><div class="who"><span class="name">vidIQ</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try vidIQ (affiliate): useandlike.com/vidiq</code><button type="button" data-copy aria-label="Copy the line for vidIQ">Copy</button></div>
+</section>
+<section class="cat"><h2>AI Writing &amp; Research <span>6</span></h2>
+<div class="row" id="l-fireflies" data-line="👉 Try Fireflies AI (affiliate): useandlike.com/fireflies" data-q="fireflies ai fireflies ai writing &amp; research"><div class="who"><span class="name">Fireflies AI</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try Fireflies AI (affiliate): useandlike.com/fireflies</code><button type="button" data-copy aria-label="Copy the line for Fireflies AI">Copy</button></div>
+<div class="row" id="l-grammarly" data-line="👉 Try Grammarly (affiliate): useandlike.com/grammarly" data-q="grammarly grammarly ai writing &amp; research"><div class="who"><span class="name">Grammarly</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try Grammarly (affiliate): useandlike.com/grammarly</code><button type="button" data-copy aria-label="Copy the line for Grammarly">Copy</button></div>
+<div class="row" id="l-merlin" data-line="👉 Try Merlin AI (affiliate): useandlike.com/merlin" data-q="merlin ai merlin ai writing &amp; research"><div class="who"><span class="name">Merlin AI</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Merlin AI (affiliate): useandlike.com/merlin</code><button type="button" data-copy aria-label="Copy the line for Merlin AI">Copy</button></div>
+<div class="row" id="l-paperguide" data-line="👉 Try Paperguide (affiliate): useandlike.com/paperguide" data-q="paperguide paperguide ai writing &amp; research"><div class="who"><span class="name">Paperguide</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Paperguide (affiliate): useandlike.com/paperguide</code><button type="button" data-copy aria-label="Copy the line for Paperguide">Copy</button></div>
+<div class="row" id="l-rytr" data-line="👉 Try Rytr (affiliate): useandlike.com/rytr" data-q="rytr rytr ai writing &amp; research"><div class="who"><span class="name">Rytr</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Rytr (affiliate): useandlike.com/rytr</code><button type="button" data-copy aria-label="Copy the line for Rytr">Copy</button></div>
+<div class="row" id="l-scispace" data-line="👉 Try SciSpace (affiliate): useandlike.com/scispace" data-q="scispace scispace ai writing &amp; research"><div class="who"><span class="name">SciSpace</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try SciSpace (affiliate): useandlike.com/scispace</code><button type="button" data-copy aria-label="Copy the line for SciSpace">Copy</button></div>
+</section>
+<section class="cat"><h2>Productivity &amp; Design <span>6</span></h2>
+<div class="row" id="l-coda" data-line="👉 Try Coda (affiliate): useandlike.com/coda" data-q="coda coda productivity &amp; design"><div class="who"><span class="name">Coda</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Coda (affiliate): useandlike.com/coda</code><button type="button" data-copy aria-label="Copy the line for Coda">Copy</button></div>
+<div class="row" id="l-pixlr" data-line="👉 Try Pixlr (affiliate): useandlike.com/pixlr" data-q="pixlr pixlr productivity &amp; design"><div class="who"><span class="name">Pixlr</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try Pixlr (affiliate): useandlike.com/pixlr</code><button type="button" data-copy aria-label="Copy the line for Pixlr">Copy</button></div>
+<div class="row" id="l-teamviewer" data-line="👉 Try TeamViewer (affiliate): useandlike.com/teamviewer" data-q="teamviewer teamviewer productivity &amp; design"><div class="who"><span class="name">TeamViewer</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try TeamViewer (affiliate): useandlike.com/teamviewer</code><button type="button" data-copy aria-label="Copy the line for TeamViewer">Copy</button></div>
+<div class="row" id="l-visme" data-line="👉 Try Visme (affiliate): useandlike.com/visme" data-q="visme visme productivity &amp; design"><div class="who"><span class="name">Visme</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Visme (affiliate): useandlike.com/visme</code><button type="button" data-copy aria-label="Copy the line for Visme">Copy</button></div>
+<div class="row" id="l-wps" data-line="👉 Try WPS Office (affiliate): useandlike.com/wps" data-q="wps office wps productivity &amp; design"><div class="who"><span class="name">WPS Office</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try WPS Office (affiliate): useandlike.com/wps</code><button type="button" data-copy aria-label="Copy the line for WPS Office">Copy</button></div>
+<div class="row" id="l-xtiles" data-line="👉 Try xTiles (affiliate): useandlike.com/xtiles" data-q="xtiles xtiles productivity &amp; design"><div class="who"><span class="name">xTiles</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try xTiles (affiliate): useandlike.com/xtiles</code><button type="button" data-copy aria-label="Copy the line for xTiles">Copy</button></div>
+</section>
+<section class="cat"><h2>Freelancers <span>4</span></h2>
+<div class="row" id="l-fiverr" data-line="👉 Try Fiverr (affiliate): useandlike.com/fiverr" data-q="fiverr fiverr freelancers"><div class="who"><span class="name">Fiverr</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Fiverr (affiliate): useandlike.com/fiverr</code><button type="button" data-copy aria-label="Copy the line for Fiverr">Copy</button></div>
+<div class="row" id="l-fiverraffiliates" data-line="👉 Try Fiverr Affiliates (affiliate): useandlike.com/fiverraffiliates" data-q="fiverr affiliates fiverraffiliates freelancers"><div class="who"><span class="name">Fiverr Affiliates</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Fiverr Affiliates (affiliate): useandlike.com/fiverraffiliates</code><button type="button" data-copy aria-label="Copy the line for Fiverr Affiliates">Copy</button></div>
+<div class="row" id="l-fiverrlogomaker" data-line="👉 Try Fiverr Logo Maker (affiliate): useandlike.com/fiverrlogomaker" data-q="fiverr logo maker fiverrlogomaker freelancers"><div class="who"><span class="name">Fiverr Logo Maker</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Fiverr Logo Maker (affiliate): useandlike.com/fiverrlogomaker</code><button type="button" data-copy aria-label="Copy the line for Fiverr Logo Maker">Copy</button></div>
+<div class="row" id="l-fiverrpro" data-line="👉 Try Fiverr Pro (affiliate): useandlike.com/fiverrpro" data-q="fiverr pro fiverrpro freelancers"><div class="who"><span class="name">Fiverr Pro</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Fiverr Pro (affiliate): useandlike.com/fiverrpro</code><button type="button" data-copy aria-label="Copy the line for Fiverr Pro">Copy</button></div>
+</section>
+<section class="cat"><h2>Business &amp; Legal <span>9</span></h2>
+<div class="row" id="l-baremetrics" data-line="👉 Try Baremetrics (affiliate): useandlike.com/baremetrics" data-q="baremetrics baremetrics business &amp; legal"><div class="who"><span class="name">Baremetrics</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Baremetrics (affiliate): useandlike.com/baremetrics</code><button type="button" data-copy aria-label="Copy the line for Baremetrics">Copy</button></div>
+<div class="row" id="l-beehiiv" data-line="👉 Try Beehiiv (affiliate): useandlike.com/beehiiv" data-q="beehiiv beehiiv business &amp; legal"><div class="who"><span class="name">Beehiiv</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Beehiiv (affiliate): useandlike.com/beehiiv</code><button type="button" data-copy aria-label="Copy the line for Beehiiv">Copy</button></div>
+<div class="row" id="l-browseai" data-line="👉 Try Browse AI (affiliate): useandlike.com/browseai" data-q="browse ai browseai business &amp; legal"><div class="who"><span class="name">Browse AI</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Browse AI (affiliate): useandlike.com/browseai</code><button type="button" data-copy aria-label="Copy the line for Browse AI">Copy</button></div>
+<div class="row" id="l-firstbase" data-line="👉 Try Firstbase (affiliate): useandlike.com/firstbase" data-q="firstbase firstbase business &amp; legal"><div class="who"><span class="name">Firstbase</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Firstbase (affiliate): useandlike.com/firstbase</code><button type="button" data-copy aria-label="Copy the line for Firstbase">Copy</button></div>
+<div class="row" id="l-legalzoom" data-line="👉 Try LegalZoom (affiliate): useandlike.com/legalzoom" data-q="legalzoom legalzoom business &amp; legal"><div class="who"><span class="name">LegalZoom</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try LegalZoom (affiliate): useandlike.com/legalzoom</code><button type="button" data-copy aria-label="Copy the line for LegalZoom">Copy</button></div>
+<div class="row" id="l-nolo" data-line="👉 Try Nolo (affiliate): useandlike.com/nolo" data-q="nolo nolo business &amp; legal"><div class="who"><span class="name">Nolo</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Nolo (affiliate): useandlike.com/nolo</code><button type="button" data-copy aria-label="Copy the line for Nolo">Copy</button></div>
+<div class="row" id="l-scrupp" data-line="👉 Try Scrupp (affiliate): useandlike.com/scrupp" data-q="scrupp scrupp business &amp; legal"><div class="who"><span class="name">Scrupp</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Scrupp (affiliate): useandlike.com/scrupp</code><button type="button" data-copy aria-label="Copy the line for Scrupp">Copy</button></div>
+<div class="row" id="l-signnow" data-line="👉 Try signNow (affiliate): useandlike.com/signnow" data-q="signnow signnow business &amp; legal"><div class="who"><span class="name">signNow</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try signNow (affiliate): useandlike.com/signnow</code><button type="button" data-copy aria-label="Copy the line for signNow">Copy</button></div>
+<div class="row" id="l-tidio" data-line="👉 Try Tidio (affiliate): useandlike.com/tidio" data-q="tidio tidio business &amp; legal"><div class="who"><span class="name">Tidio</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try Tidio (affiliate): useandlike.com/tidio</code><button type="button" data-copy aria-label="Copy the line for Tidio">Copy</button></div>
+</section>
+<section class="cat"><h2>Money &amp; Trading <span>5</span></h2>
+<div class="row" id="l-remitly" data-line="👉 Try Remitly (affiliate): useandlike.com/remitly" data-q="remitly remitly money &amp; trading"><div class="who"><span class="name">Remitly</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try Remitly (affiliate): useandlike.com/remitly</code><button type="button" data-copy aria-label="Copy the line for Remitly">Copy</button></div>
+<div class="row" id="l-ria" data-line="👉 Try Ria Money Transfer (affiliate): useandlike.com/ria" data-q="ria money transfer ria money &amp; trading"><div class="who"><span class="name">Ria Money Transfer</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try Ria Money Transfer (affiliate): useandlike.com/ria</code><button type="button" data-copy aria-label="Copy the line for Ria Money Transfer">Copy</button></div>
+<div class="row" id="l-tradingview" data-line="👉 Try TradingView (affiliate): useandlike.com/tradingview" data-q="tradingview tradingview money &amp; trading"><div class="who"><span class="name">TradingView</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try TradingView (affiliate): useandlike.com/tradingview</code><button type="button" data-copy aria-label="Copy the line for TradingView">Copy</button></div>
+<div class="row" id="l-turbotax" data-line="👉 Try TurboTax (affiliate): useandlike.com/turbotax" data-q="turbotax turbotax money &amp; trading"><div class="who"><span class="name">TurboTax</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try TurboTax (affiliate): useandlike.com/turbotax</code><button type="button" data-copy aria-label="Copy the line for TurboTax">Copy</button></div>
+<div class="row" id="l-wise" data-line="👉 Try Wise (affiliate): useandlike.com/wise" data-q="wise wise money &amp; trading"><div class="who"><span class="name">Wise</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Wise (affiliate): useandlike.com/wise</code><button type="button" data-copy aria-label="Copy the line for Wise">Copy</button></div>
+</section>
+<section class="cat"><h2>Learning <span>4</span></h2>
+<div class="row" id="l-headway" data-line="👉 Try Headway (affiliate): useandlike.com/headway" data-q="headway headway learning"><div class="who"><span class="name">Headway</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Headway (affiliate): useandlike.com/headway</code><button type="button" data-copy aria-label="Copy the line for Headway">Copy</button></div>
+<div class="row" id="l-preply" data-line="👉 Try Preply (affiliate): useandlike.com/preply" data-q="preply preply learning"><div class="who"><span class="name">Preply</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try Preply (affiliate): useandlike.com/preply</code><button type="button" data-copy aria-label="Copy the line for Preply">Copy</button></div>
+<div class="row" id="l-talkpal" data-line="👉 Try Talkpal (affiliate): useandlike.com/talkpal" data-q="talkpal talkpal learning"><div class="who"><span class="name">Talkpal</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Talkpal (affiliate): useandlike.com/talkpal</code><button type="button" data-copy aria-label="Copy the line for Talkpal">Copy</button></div>
+<div class="row" id="l-udemy" data-line="👉 Try Udemy (affiliate): useandlike.com/udemy" data-q="udemy udemy learning"><div class="who"><span class="name">Udemy</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try Udemy (affiliate): useandlike.com/udemy</code><button type="button" data-copy aria-label="Copy the line for Udemy">Copy</button></div>
+</section>
+<section class="cat"><h2>Shopping &amp; Mobile <span>5</span></h2>
+<div class="row" id="l-airalo" data-line="👉 Try Airalo (affiliate): useandlike.com/airalo" data-q="airalo airalo shopping &amp; mobile"><div class="who"><span class="name">Airalo</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try Airalo (affiliate): useandlike.com/airalo</code><button type="button" data-copy aria-label="Copy the line for Airalo">Copy</button></div>
+<div class="row" id="l-amigosim" data-line="👉 Try AmigoSIM (affiliate): useandlike.com/amigosim" data-q="amigosim amigosim shopping &amp; mobile"><div class="who"><span class="name">AmigoSIM</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try AmigoSIM (affiliate): useandlike.com/amigosim</code><button type="button" data-copy aria-label="Copy the line for AmigoSIM">Copy</button></div>
+<div class="row" id="l-att" data-line="👉 Try AT&amp;T (affiliate): useandlike.com/att" data-q="at&amp;t att shopping &amp; mobile"><div class="who"><span class="name">AT&amp;T</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try AT&amp;T (affiliate): useandlike.com/att</code><button type="button" data-copy aria-label="Copy the line for AT&amp;T">Copy</button></div>
+<div class="row" id="l-gamsgo" data-line="👉 Try GamsGo (affiliate): useandlike.com/gamsgo" data-q="gamsgo gamsgo shopping &amp; mobile"><div class="who"><span class="name">GamsGo</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try GamsGo (affiliate): useandlike.com/gamsgo</code><button type="button" data-copy aria-label="Copy the line for GamsGo">Copy</button></div>
+<div class="row" id="l-shein" data-line="👉 Try Shein (affiliate): useandlike.com/shein" data-q="shein shein shopping &amp; mobile"><div class="who"><span class="name">Shein</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Shein (affiliate): useandlike.com/shein</code><button type="button" data-copy aria-label="Copy the line for Shein">Copy</button></div>
+</section>
+<section class="cat"><h2>Travel <span>7</span></h2>
+<div class="row" id="l-agoda" data-line="👉 Try Agoda (affiliate): useandlike.com/agoda" data-q="agoda agoda travel"><div class="who"><span class="name">Agoda</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try Agoda (affiliate): useandlike.com/agoda</code><button type="button" data-copy aria-label="Copy the line for Agoda">Copy</button></div>
+<div class="row" id="l-booking" data-line="👉 Try Booking (affiliate): useandlike.com/booking" data-q="booking.com booking travel"><div class="who"><span class="name">Booking.com</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try Booking (affiliate): useandlike.com/booking</code><button type="button" data-copy aria-label="Copy the line for Booking.com">Copy</button><p class="note">Written as “Booking” on purpose: YouTube would turn “Booking.com” into a direct link without our code.</p></div>
+<div class="row" id="l-expedia" data-line="👉 Try Expedia (affiliate): useandlike.com/expedia" data-q="expedia expedia travel"><div class="who"><span class="name">Expedia</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try Expedia (affiliate): useandlike.com/expedia</code><button type="button" data-copy aria-label="Copy the line for Expedia">Copy</button></div>
+<div class="row" id="l-kiwi" data-line="👉 Try Kiwi (affiliate): useandlike.com/kiwi" data-q="kiwi.com kiwi travel"><div class="who"><span class="name">Kiwi.com</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try Kiwi (affiliate): useandlike.com/kiwi</code><button type="button" data-copy aria-label="Copy the line for Kiwi.com">Copy</button><p class="note">Written as “Kiwi” on purpose: YouTube would turn “Kiwi.com” into a direct link without our code.</p></div>
+<div class="row" id="l-klook" data-line="👉 Try Klook (affiliate): useandlike.com/klook" data-q="klook klook travel"><div class="who"><span class="name">Klook</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try Klook (affiliate): useandlike.com/klook</code><button type="button" data-copy aria-label="Copy the line for Klook">Copy</button></div>
+<div class="row" id="l-lastminute" data-line="👉 Try lastminute (affiliate): useandlike.com/lastminute" data-q="lastminute.com lastminute travel"><div class="who"><span class="name">lastminute.com</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try lastminute (affiliate): useandlike.com/lastminute</code><button type="button" data-copy aria-label="Copy the line for lastminute.com">Copy</button><p class="note">Written as “lastminute” on purpose: YouTube would turn “lastminute.com” into a direct link without our code.</p></div>
+<div class="row" id="l-omio" data-line="👉 Try Omio (affiliate): useandlike.com/omio" data-q="omio omio travel"><div class="who"><span class="name">Omio</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try Omio (affiliate): useandlike.com/omio</code><button type="button" data-copy aria-label="Copy the line for Omio">Copy</button></div>
+</section>
+<section class="cat"><h2>Dating <span>1</span></h2>
+<div class="row" id="l-eharmony" data-line="👉 Try eHarmony (affiliate): useandlike.com/eharmony" data-q="eharmony eharmony dating"><div class="who"><span class="name">eHarmony</span><span class="badge">New</span><span class="date">Added 13 Oct 2026</span></div><code class="line">👉 Try eHarmony (affiliate): useandlike.com/eharmony</code><button type="button" data-copy aria-label="Copy the line for eHarmony">Copy</button></div>
+</section>
+<section class="cat"><h2>Link only (not on the site) <span>2</span></h2>
+<div class="row" id="l-biltrx" data-line="👉 Try BiltRx (affiliate): useandlike.com/biltrx" data-q="biltrx biltrx link only (not on the site)"><div class="who"><span class="name">BiltRx</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try BiltRx (affiliate): useandlike.com/biltrx</code><button type="button" data-copy aria-label="Copy the line for BiltRx">Copy</button></div>
+<div class="row" id="l-blort" data-line="👉 Try Blort (affiliate): useandlike.com/blort" data-q="blort blort link only (not on the site)"><div class="who"><span class="name">Blort</span><span class="date">Added 3 Oct 2026</span></div><code class="line">👉 Try Blort (affiliate): useandlike.com/blort</code><button type="button" data-copy aria-label="Copy the line for Blort">Copy</button></div>
+</section>
+  </div>
+
+  <footer>This page is rebuilt from the site’s link list whenever a link is added or taken out. A line you already pasted
+    keeps working unless its link is listed under Removed.</footer>
+</div>
+
+<script>
+(function () {
+  var NEWS = "\ud83d\udce9 Join Our Newsletter & Get Free Subscription Tracker: useandlike.com/join";
+  var q = document.getElementById("q"), nl = document.getElementById("nl");
+  try { nl.checked = localStorage.getItem("with-newsletter") === "1"; } catch (e) {}
+  nl.addEventListener("change", function () {
+    try { localStorage.setItem("with-newsletter", nl.checked ? "1" : "0"); } catch (e) {}
+  });
+
+  function flashButton(b, text, ok) {
+    b.textContent = text;
+    b.classList.toggle("ok", ok);
+    setTimeout(function () { b.textContent = "Copy"; b.classList.remove("ok"); }, 1800);
+  }
+  function selectLine(row) {
+    var r = document.createRange();
+    r.selectNodeContents(row.querySelector(".line"));
+    var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+  }
+  function oldCopy(text) {
+    var t = document.createElement("textarea");
+    t.value = text; t.setAttribute("readonly", ""); t.style.position = "fixed"; t.style.top = "0"; t.style.opacity = "0";
+    document.body.appendChild(t); t.select();
+    var ok = false;
+    try { ok = document.execCommand("copy"); } catch (e) {}
+    document.body.removeChild(t);
+    return ok;
+  }
+  function copy(b) {
+    var row = b.closest(".row");
+    var text = row.dataset.line + (nl.checked ? "\n" + NEWS : "");
+    var fallback = function () {
+      if (oldCopy(text)) { flashButton(b, "Copied ✓", true); return; }
+      selectLine(row); flashButton(b, "Press Ctrl+C", false);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function () { flashButton(b, "Copied ✓", true); }, fallback);
+    } else { fallback(); }
+  }
+  function filter() {
+    var s = q.value.trim().toLowerCase(), shown = 0;
+    document.querySelectorAll("#list .row").forEach(function (r) {
+      var hit = !s || r.dataset.q.indexOf(s) !== -1;
+      r.hidden = !hit; if (hit) shown++;
+    });
+    document.querySelectorAll("#list .cat").forEach(function (c) { c.hidden = !c.querySelector(".row:not([hidden])"); });
+    document.getElementById("news").hidden = !!s;
+    document.getElementById("none-q").textContent = q.value.trim();
+    document.getElementById("none").hidden = shown > 0;
+  }
+  function jump(slug) {
+    if (q.value) { q.value = ""; filter(); }
+    var r = document.getElementById("l-" + slug);
+    if (!r) return;
+    var still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    r.scrollIntoView({ block: "center", behavior: still ? "auto" : "smooth" });
+    r.classList.add("flash");
+    setTimeout(function () { r.classList.remove("flash"); }, 1800);
+  }
+  q.addEventListener("input", filter);
+  document.addEventListener("click", function (ev) {
+    var b = ev.target.closest("button[data-copy]");
+    if (b) { copy(b); return; }
+    var a = ev.target.closest("a[data-jump]");
+    if (a) { ev.preventDefault(); jump(a.dataset.jump); }
+  });
+})();
+</script>

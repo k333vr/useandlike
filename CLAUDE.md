@@ -43,7 +43,9 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   and a card grid; tools without videos get "Search on:" links per channel. `#videos` = all, `#videos-email` = one category.
   Leave out video titles that undercut the affiliate offer ("premium for free", "license key", "trial reset", "free alternative").
 - Editor lists: `python3 scripts/build-editor-lists.py` -> `editors/` (tool-links.csv, videos-<channel>.csv with the lines to paste;
-  not published). `scripts/youtube-descriptions.py` (login/run, preview by default, `--apply` to change YouTube) puts the same
+  not published). It also writes `editors/affiliate-links.html`, the team's links page (Copy button per 👉 line, date added,
+  what's new/removed), published as the Artifact https://claude.ai/artifact/74NPYBKXFxvYrE6FLMnwKK that Kevin shares with
+  the manager and uploaders: republish that file to that `url` after every link change. `scripts/youtube-descriptions.py` (login/run, preview by default, `--apply` to change YouTube) puts the same
   lines at the top of old descriptions via the YouTube Data API, most viewed first, ~180/day; tokens live outside the repo.
   Description format: `👉 Try <Tool> (affiliate): useandlike.com/<slug>` then the 📩 newsletter line, then an empty line.
 - Affiliate links live ONLY in `_redirects` (Cloudflare short links), e.g.
@@ -59,6 +61,8 @@ The owner is a beginner. Explain things in plain language and do as much as poss
    - If a link's tool is unclear, ask which tool it belongs to rather than guessing.
    - Then `python3 scripts/build-videos.py` for a new or renamed tool (finds its videos, then rebuilds the pages),
      otherwise `node scripts/build-pages.js`.
+   - Then `python3 scripts/build-editor-lists.py` and republish `editors/affiliate-links.html` to the team's links page
+     (Artifact tool, `url` https://claude.ai/artifact/74NPYBKXFxvYrE6FLMnwKK), so the uploaders see the new link.
 2. Run `node scripts/check.js --online` and fix any FAIL. The cloud session's network policy may block
    affiliate hosts ("could not be opened ... TUNNEL" / 403); say the link wasn't checked, not that it's broken. Report WARN lines that matter in plain language
    (e.g. a link that does not open, or links still left as placeholders).
