@@ -15,6 +15,7 @@ Setup (once): YT_CLIENT_ID and YT_CLIENT_SECRET from a Google Cloud OAuth client
     python3 scripts/youtube-descriptions.py login htr      # sign in with the How To Rocket channel (code on google.com/device)
     python3 scripts/youtube-descriptions.py run htr        # preview only: writes editors/youtube-preview-htr.csv
     python3 scripts/youtube-descriptions.py run htr --apply --limit 95
+    python3 scripts/youtube-descriptions.py run htr --apply --limit 95 --tools-first   # videos with a tool link first
 
 YouTube's free quota is 10,000 units a day per Google Cloud project, shared by all channels (resets at midnight
 Pacific time): an update costs 50, reading one channel's video list about 200 for 5,000 videos, so about
@@ -135,7 +136,7 @@ def all_videos(token):
     return ch["snippet"]["title"], videos
 
 
-def run(name, apply, limit):
+def run(name, apply, limit, tools_first=False):
     token = access_token(name)
     lines_for = lists.make_matcher(lists.load_tools())
     channel, videos = all_videos(token)
@@ -162,6 +163,8 @@ def run(name, apply, limit):
             new = "\n".join(lines) + "\n\n" + desc
         todo.append((int(v["statistics"].get("viewCount", 0)), v, kind, new))
     todo.sort(key=lambda t: -t[0])   # most viewed first (owner, 8 Oct): the newsletter line matters on every big video
+    if tools_first:   # e.g. after new tools were added (13 Oct): the videos that can now carry an affiliate link go first
+        todo.sort(key=lambda t: t[2] not in ("tool", "tool line added"))
     print("%d videos still need the links (most viewed first)." % len(todo))
 
     os.makedirs(os.path.join(ROOT, "editors"), exist_ok=True)
@@ -203,4 +206,4 @@ if __name__ == "__main__":
     if args[0] == "login":
         login(args[1].lower())
     else:
-        run(args[1].lower(), "--apply" in args, limit)
+        run(args[1].lower(), "--apply" in args, limit, "--tools-first" in args)
