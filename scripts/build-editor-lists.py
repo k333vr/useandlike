@@ -5,7 +5,10 @@ Output (folder editors/, not published on the site):
   tool-links.csv          every tool with its short link
 And outside editors/: team-links/index.html, the same links as a hidden page on the site for the manager and
 uploaders (LINKS_PAGE_URL: not linked anywhere, noindex, not in the sitemap): a Copy button for each 👉 line, the date
-each link was added (from git), what's new and what was removed. It goes live with the next push to main.
+each link was added (from git), what's new and what was removed, and a box that turns a new video's title into the
+pinned comment (a question + the 👉 line + the newsletter line) and the description lines, with the same title rules as
+below (Kevin, 13 Oct: "a box where the editor or manager can add the video title and gets also the question for the
+pinned comment"). It goes live with the next push to main.
   videos-<channel>.csv    each channel's videos (Shorts left out), most viewed first, with the exact lines to paste
                           (How To Rocket and Guide Glimpse; Logic Protocol's uploads are music remixes, left out)
 Run after changing TOOLS, _redirects or the cancel guides: python3 scripts/build-editor-lists.py
@@ -28,6 +31,11 @@ LINKS_PAGE_URL = "https://useandlike.com/team-links/"  # hidden page (Kevin, 13 
 OWN_HOSTS = ("useandlike.com", "useandlike.beehiiv.com", "subscriptionchef.app")  # our own short links, left off the page
 # Names and groups of the short links that aren't tools on the site (most written by useandlike-ops/analysis/yazing-add.py).
 SHORT_LINKS = os.path.join(ROOT, "data", "short-links.json")
+# Last line of a pinned comment (the description uses NEWSLETTER_LINE); same as useandlike-ops/analysis/pinned-comment-lines.py.
+PINNED_NEWS = "📩 Free Subscription Tracker + new app tips by email: useandlike.com/join"
+# Link-only names that are ordinary words: the page's "new video" box doesn't pick them from a title by itself.
+NO_AUTO = {"box", "changed", "rover", "knack", "reverb", "lot", "empower", "parallels", "pigment", "condor", "optimum",
+           "acorns", "carla"}
 NEW_DAYS = 7  # "New" badge
 NEWS_DAYS = 30  # how far back "What's new" and "Removed" look
 FOLD = 40  # a day in "What's new" with more than FOLD + 10 new links shows the rest behind "N more"
@@ -50,17 +58,20 @@ def load_tools():
     return bv.read_js_array(src, "TOOLS")
 
 
+def cancel_guides():
+    """subscriptionchef.app's cancel guides: [(slug, name, [ways the title writes it])] (empty without that repo)."""
+    gpath = os.path.join(ROOT, "..", "subscriptionchef", "tools")
+    if not os.path.isdir(gpath):
+        return []
+    sys.path.insert(0, gpath)
+    import guides as gmod
+    return [(g["slug"], g["name"], GUIDE_ALIASES.get(g["slug"], [g["name"].lower().replace("+", "")])) for g in gmod.GUIDES]
+
+
 def make_matcher(tools):
     """Returns lines_for(title) -> (kind, [lines to put at the top of the description])."""
     slug_of = {t["name"]: t["slug"] for t in tools}
-    guides = []
-    gpath = os.path.join(ROOT, "..", "subscriptionchef", "tools")
-    if os.path.isdir(gpath):
-        sys.path.insert(0, gpath)
-        import guides as gmod
-        for g in gmod.GUIDES:
-            keys = GUIDE_ALIASES.get(g["slug"], [g["name"].lower().replace("+", "")])
-            guides += [(k, g["slug"]) for k in keys]
+    guides = [(k, slug) for slug, _, keys in cancel_guides() for k in keys]
     guides.sort(key=lambda k: -len(k[0]))
     gpat = [(re.compile(r"(?<![a-z0-9])" + re.escape(k) + r"(?![a-z0-9])"), s) for k, s in guides]
     keys = [(k, t["name"]) for t in tools for k in bv.ALIASES.get(t["name"], [t["name"].lower()])]
@@ -157,7 +168,23 @@ def write_links_page(tools):
     if gone:
         news.append('<div class="gone"><h3>Removed: don’t use these any more</h3><ul>%s</ul></div>\n' % "".join(
             '<li><code>useandlike.com/%s</code> taken out %s</li>' % (esc(s), nice_day(d)) for s, d in gone))
-    page = (LINKS_TEMPLATE.replace("<!--COUNT-->", str(len(links))).replace("<!--UPDATED-->", nice_day(today.isoformat()))
+    # The "new video" box: the same title rules as make_matcher (aliases, other products with the same name, no affiliate
+    # line on cancel/refund/free videos), over every link on the page (link-only ones by their name).
+    items = []
+    for l in sorted(links, key=lambda l: l["name"].lower()):
+        if l["slug"] in by_slug:
+            k, x = bv.ALIASES.get(l["name"], [l["name"].lower()]), bv.NOT_ABOUT.get(l["name"])
+        else:
+            n = l["name"].lower()
+            k, x = ([] if n in NO_AUTO else [n]), None
+            first = (re.findall(r"[a-z0-9]+", n) or [""])[0]
+            if k and " " in n and first == l["slug"] and len(first) >= 5:   # "CyberGhost VPN" also as "cyberghost"
+                k.append(first)
+        items.append({"s": l["slug"], "n": l["name"], "w": l["written"], "k": k, "x": x.pattern if x else ""})
+    box = {"items": items, "guides": [{"s": s, "n": n, "k": k} for s, n, k in cancel_guides()],
+           "exclude": bv.EXCLUDE.pattern, "cancel": CANCEL.pattern, "suffix": bv.SUFFIX.pattern, "pinNews": PINNED_NEWS}
+    page = (LINKS_TEMPLATE.replace("/*BOX_JS*/", BOX_JS).replace("/*BOX*/", json.dumps(box, ensure_ascii=False).replace("</", "<\\/"))
+            .replace("<!--COUNT-->", str(len(links))).replace("<!--UPDATED-->", nice_day(today.isoformat()))
             .replace("<!--NEWSLETTER-->", esc(NEWSLETTER_LINE)).replace("/*NEWSLETTER*/", json.dumps(NEWSLETTER_LINE))
             .replace("<!--NEW_DAYS-->", str(NEW_DAYS)).replace("/*NEW_DAYS*/", str(NEW_DAYS))
             .replace("<!--NEWS-->", "".join(news)).replace("<!--LIST-->", "".join(sections)))
@@ -233,9 +260,21 @@ code { font-family: var(--mono); }
 .badge { font-size: .7rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; background: var(--new-bg); color: var(--new-fg); border-radius: 4px; padding: 1px 6px; }
 .date { flex-basis: 100%; font-size: .8rem; color: var(--muted); font-variant-numeric: tabular-nums; }
 .line { font-size: .88rem; min-width: 0; overflow-wrap: anywhere; }
-button[data-copy] { font: inherit; font-size: .9rem; font-weight: 600; min-width: 6.8rem; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--brand); background: var(--brand); color: var(--brand-text); cursor: pointer; }
-button[data-copy]:hover { filter: brightness(1.12); }
-button[data-copy].ok { background: var(--surface); color: var(--ok); border-color: var(--ok); }
+button[data-copy], button[data-copyout] { font: inherit; font-size: .9rem; font-weight: 600; min-width: 6.8rem; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--brand); background: var(--brand); color: var(--brand-text); cursor: pointer; }
+button[data-copy]:hover, button[data-copyout]:hover { filter: brightness(1.12); }
+button[data-copy].ok, button[data-copyout].ok { background: var(--surface); color: var(--ok); border-color: var(--ok); }
+.maker { margin-top: 20px; padding: 16px 18px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); display: grid; gap: 10px; }
+.maker h2 { font-family: var(--serif); font-weight: 400; font-size: 1.35rem; margin: 0; }
+.maker .hint { margin: 0; max-width: 70ch; font-size: .9rem; color: var(--muted); }
+.field, .pickrow label, .outhead span { font-size: .9rem; font-weight: 600; }
+#vt, #vtool, .out textarea { font: inherit; width: 100%; min-width: 0; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--text); }
+#made { display: grid; gap: 12px; }
+.pickrow { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; }
+#vtool { width: auto; max-width: 100%; flex: 0 1 22rem; }
+.vnote { font-size: .85rem; color: var(--muted); }
+.out { display: grid; gap: 6px; }
+.outhead { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.out textarea { font-family: var(--mono); font-size: .86rem; line-height: 1.45; resize: vertical; }
 :focus-visible { outline: 3px solid var(--brass); outline-offset: 2px; }
 .note { grid-column: 2 / -1; margin: 0; font-size: .8rem; color: var(--muted); }
 .row.flash { background: var(--flash); }
@@ -260,6 +299,21 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
     <p class="meta"><b><!--COUNT--></b> links · updated <!--UPDATED--></p>
     <p class="nl-line">Newsletter line, added when you tick the box below: <code><!--NEWSLETTER--></code></p>
   </header>
+
+  <section class="maker" aria-labelledby="maker-h">
+    <h2 id="maker-h">New video? Paste its title</h2>
+    <p class="hint">You get the pinned comment (a question that invites replies, the 👉 line and the newsletter line) and the
+      lines for the top of the description. Check the link and the question, change them if needed, then copy.</p>
+    <label class="field" for="vt">Video title</label>
+    <input id="vt" type="text" autocomplete="off" placeholder="e.g. How to Book a Flight Ticket on Kiwi.com">
+    <div id="made" hidden>
+      <div class="pickrow"><label for="vtool">Link</label><select id="vtool"></select><span id="vnote" class="vnote"></span></div>
+      <div class="out"><div class="outhead"><span>Pinned comment</span><button type="button" data-copyout="pin">Copy</button></div>
+        <textarea id="pin" rows="4" spellcheck="false" aria-label="Pinned comment"></textarea></div>
+      <div class="out"><div class="outhead"><span>Top of the description</span><button type="button" data-copyout="desc">Copy</button></div>
+        <textarea id="desc" rows="3" spellcheck="false" aria-label="Top of the description"></textarea></div>
+    </div>
+  </section>
 
   <div class="bar">
     <input id="q" type="search" placeholder="Find a tool, e.g. Wise" aria-label="Find a tool" autocomplete="off">
@@ -314,17 +368,20 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
     document.body.removeChild(t);
     return ok;
   }
-  function copy(b) {
-    var row = b.closest(".row");
-    var text = row.dataset.line + (nl.checked ? "\\n" + NEWS : "");
+  function copyText(text, b, onFail) {
     var fallback = function () {
       if (oldCopy(text)) { flashButton(b, "Copied ✓", true); return; }
-      selectLine(row); flashButton(b, "Press Ctrl+C", false);
+      onFail(); flashButton(b, "Press Ctrl+C", false);
     };
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(text).then(function () { flashButton(b, "Copied ✓", true); }, fallback);
     } else { fallback(); }
   }
+  function copy(b) {
+    var row = b.closest(".row");
+    copyText(row.dataset.line + (nl.checked ? "\\n" + NEWS : ""), b, function () { selectLine(row); });
+  }
+/*BOX_JS*/
   function filter() {
     var s = q.value.trim().toLowerCase(), o = only.checked, shown = 0;
     document.querySelectorAll("#list .row").forEach(function (r) {
@@ -352,6 +409,8 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
   document.addEventListener("click", function (ev) {
     var b = ev.target.closest("button[data-copy]");
     if (b) { copy(b); return; }
+    var o = ev.target.closest("button[data-copyout]");
+    if (o) { var ta = document.getElementById(o.dataset.copyout); copyText(ta.value, o, function () { ta.focus(); ta.select(); }); return; }
     var a = ev.target.closest("a[data-jump]");
     if (a) { ev.preventDefault(); jump(a.dataset.jump); }
   });
@@ -359,6 +418,147 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
 </script>
 </body>
 </html>
+"""
+
+
+# The page's "new video" box (inserted at /*BOX_JS*/; a raw string, so its regular expressions stay as written).
+BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the description (same rules as the editor lists).
+  var BOX = /*BOX*/;
+  var EXCLUDE = new RegExp(BOX.exclude, "i"), CANCEL = new RegExp(BOX.cancel, "i"), SUFFIX = new RegExp(BOX.suffix, "i");
+  var reEsc = function (s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); };
+  var word = function (k) { return new RegExp("[^a-z0-9]" + reEsc(k) + "[^a-z0-9]"); };
+  var keys = [], gkeys = [], bySlug = {};
+  BOX.items.forEach(function (it) {
+    bySlug[it.s] = it;
+    if (it.x) it.xr = new RegExp(it.x, "i");
+    it.k.forEach(function (k) { keys.push({ k: k, it: it, rx: word(k) }); });
+  });
+  BOX.guides.forEach(function (g) { g.k.forEach(function (k) { gkeys.push({ k: k, g: g, rx: word(k) }); }); });
+  keys.sort(function (a, b) { return b.k.length - a.k.length; });
+  gkeys.sort(function (a, b) { return b.k.length - a.k.length; });
+
+  // Words that are lowercase in a sentence ("How To Book Flight Ticket" -> "book flight ticket"); names keep their capitals.
+  var COMMON = {};
+  ("a an and or the to in on at of for from with by into onto over your my our their his her its this that these those it you " +
+   "we they me him them i use using make create add remove delete change edit rename set setup get find fix turn off enable " +
+   "disable install uninstall download upload update open close start stop share send receive transfer book order buy sell pay " +
+   "cancel unsubscribe sign log login logout out back check see watch play join leave hide show block unblock connect disconnect " +
+   "link unlink verify activate deactivate reset recover restore backup save print scan convert merge split crop cut trim rotate " +
+   "resize compress translate write read apply claim redeem earn withdraw deposit top load register renew track search schedule " +
+   "move copy paste import export sync stream cast mirror record take go run try put keep call text post like follow unfollow " +
+   "invite accept reply pin unpin mute unmute archive lock unlock clear free new old account accounts app apps phone mobile android " +
+   "iphone ipad pc laptop computer windows mac browser video videos photo photos picture pictures image images screen chat chats " +
+   "message messages data file files folder folders password passwords email emails mail number numbers card cards money payment " +
+   "payments ticket tickets flight flights hotel hotels room rooms trip trips car cars game games mod mods version language " +
+   "languages name profile settings setting notification notifications status story stories group groups page pages channel " +
+   "channels links website site online offline wifi internet network storage space cloud drive music song songs playlist " +
+   "subscription subscriptions plan plans premium trial code codes coupon voucher vouchers gift balance points rewards orders " +
+   "delivery address location map maps time date when where how what why which who without after before while if is are be can " +
+   "will do does not no all any every each step steps guide tutorial easy full complete way ways method tips tricks problem " +
+   "problems error errors issue issues working work works someone friends friend family contacts contact list lists history " +
+   "cache dark mode light theme background wallpaper font text size sound volume camera mic microphone keyboard mouse device " +
+   "devices tv first second last other own more box size border color line lines table column row cell sheet document doc " +
+   "slide slides button menu icon bar tab window finds shows says opens stops keeps gets comes goes has have had was were " +
+   "permanently again now today chatbot bot assistant manager editor maker generator converter downloader player recorder " +
+   "builder tracker planner store shop updates feature features option options tool tools").split(" ").forEach(function (w) { COMMON[w] = 1; });
+  function sentence(s) {
+    return s.split(/\s+/).map(function (w) {
+      var lw = w.toLowerCase(), bare = lw.replace(/[^a-z']/g, "");
+      // Only "Book" or "book" becomes "book"; "iPhone", "WhatsApp", "PC" and "I" stay as written.
+      var plain = w === lw || (w.charAt(0) !== lw.charAt(0) && w.slice(1) === lw.slice(1));
+      return COMMON[bare] && plain && w !== "I" ? lw : w;
+    }).join(" ");
+  }
+  // "Kiwi.com" -> "Kiwi": YouTube turns names like that into links to the brand's site (without our code).
+  function noTld(s) { return (s || "").replace(/\b([A-Za-z0-9-]+)\.(com|io|net|ai|app|co|org|me|tv|gg|ph|in|uk)\b/gi, "$1"); }
+  function trimFiller(a) {
+    var rx = /\s+(full guide|step by step( guide)?|complete guide|tutorial|guide|easy|easily|quick|quickly|fast|for beginners|beginners?'?s? guide|in \d+ (seconds|minutes|steps)|20\d\d|new update|update|latest|simple|\(.*\)|\[.*\])$/i, prev;
+    a = a.replace(/[\s,.!?:;-]+$/, "");
+    do { prev = a; a = a.replace(rx, "").replace(/[\s,.!?:;-]+$/, ""); } while (a !== prev);
+    return a;
+  }
+  // The first line of the pinned comment: one friendly question about the video that invites a reply, nothing beyond
+  // the title (rules of the pinned lists, 9 Oct). The editor can change it before copying.
+  function question(title, subj) {
+    var t = title.replace(SUFFIX, "").trim(), low = t.toLowerCase(), S = noTld(subj), h = 0, i;
+    for (i = 0; i < t.length; i++) h = (h * 31 + t.charCodeAt(i)) >>> 0;
+    var pick = function (a) { return a[h % a.length]; };
+    if (/crack|keygen|license key|mod apk|modded|hack|cheat|unlocked|trial reset|activator|free premium|premium (for )?free|lifetime free|free lifetime/.test(low))
+      return "Stay safe: skip cracked apps and “free premium” offers." + (S ? " Questions about " + S + "? Ask below 👇" : " Ask your questions below 👇");
+    var segs = t.split(/\s+[-–—|:]\s+|\s*\|\s*|:\s+/);
+    var vs = segs.filter(function (s) { return /\svs\.?\s/i.test(s); })[0];
+    if (vs) {
+      var p = vs.split(/\s+vs\.?\s+/i).map(function (x) { return noTld(trimFiller(x.trim())); }).filter(Boolean).slice(0, 3);
+      if (p.length >= 2) {
+        var list = p.length === 2 ? p[0] + " or " + p[1] : p[0] + ", " + p[1] + " or " + p[2];
+        return pick([list + ": which would you pick? Tell us below 👇", list + ": which one works better for you? Tell us below 👇"]);
+      }
+    }
+    if (/refund/.test(low)) return "Did your " + (S ? S + " " : "") + "refund come through? Tell us below what happened 👇";
+    if (/delete\b.*\baccount|deactivate|close (your |my )?account/.test(low)) {
+      var d = t.match(/(?:delete|deactivate|close)\s+(?:your\s+|my\s+)?(.+?)\s+account/i), dn = S || (d ? noTld(d[1]) : "");
+      return "Did deleting your " + (dn ? dn + " " : "") + "account work? Let us know below if you got stuck 👇";
+    }
+    if (/cancel|unsubscribe/.test(low)) {
+      var c = t.match(/(?:cancel|unsubscribe from)\s+(?:your\s+|my\s+)?(.+?)\s+(?:subscription|membership|plan|order|trial|account|premium)\b/i);
+      var cn = S || (c ? noTld(c[1]) : "");
+      return "Did cancelling " + (cn ? cn + " " : "") + "work for you? Let us know below if any step looked different 👇";
+    }
+    if (/not working|error|\bfix\b|problem|issue|can'?t|won'?t|failed|stuck/.test(low))
+      return "Which " + (S ? S + " " : "") + "error are you seeing? Write it below and we'll try to help 👇";
+    if (/review|worth it|honest|tested|after \d+ (days|weeks|months)/.test(low))
+      return S ? pick(["Do you use " + S + "? Tell us what you think below 👇", "Thinking about " + S + "? Ask your questions below 👇"])
+               : "What do you think? Tell us below 👇";
+    var how = null;
+    segs.forEach(function (s) { var m = !how && s.match(/how\s+to\s+(.+)/i); if (m) how = m[1]; });
+    if (how) {
+      var a = sentence(trimFiller(noTld(how)));
+      if (a.length > 70) a = a.slice(0, 70).replace(/\s+\S*$/, "");
+      if (a) return pick(["Managed to " + a + "? Tell us below if you got stuck 👇",
+                          "Trying to " + a + "? Ask below if any step looked different for you 👇",
+                          "Did you manage to " + a + "? Let us know below if anything was unclear 👇"]);
+    }
+    if (S) return pick(["Questions about " + S + "? Ask below and we'll try to help 👇", "What are you using " + S + " for? Tell us below 👇"]);
+    return "Did this help? Tell us below if any step looked different for you 👇";
+  }
+
+  var vt = document.getElementById("vt"), sel = document.getElementById("vtool"), made = document.getElementById("made");
+  var pin = document.getElementById("pin"), desc = document.getElementById("desc"), vnote = document.getElementById("vnote");
+  var none = document.createElement("option"); none.value = ""; none.textContent = "No link (newsletter line only)"; sel.appendChild(none);
+  BOX.items.forEach(function (it) { var o = document.createElement("option"); o.value = it.s; o.textContent = it.n; sel.appendChild(o); });
+  var manual = null;
+  function makeLines() {
+    var title = vt.value.trim();
+    made.hidden = !title;
+    if (!title) return;
+    var tl = " " + title.toLowerCase() + " ", it = null, guide = null, note, j;
+    var cancel = CANCEL.test(title), excluded = !cancel && EXCLUDE.test(title);
+    if (cancel) {
+      for (j = 0; j < gkeys.length && !guide; j++) if (gkeys[j].rx.test(tl)) guide = gkeys[j].g;
+      note = guide ? "Cancel video: the cancel guide instead of an affiliate link (our rule)." : "Cancel video: no affiliate link (our rule).";
+    } else if (excluded) {
+      note = "No affiliate link on videos about refunds, free versions, cracks or alternatives (our rule).";
+    } else if (manual !== null) {
+      it = bySlug[manual] || null;
+      note = it ? "Picked by hand." : "No link: newsletter line only.";
+    } else {
+      for (j = 0; j < keys.length && !it; j++) if (keys[j].rx.test(tl) && !(keys[j].it.xr && keys[j].it.xr.test(title))) it = keys[j].it;
+      note = it ? "Found in the title. Wrong one? Pick another." : "No tool from our list in the title. Pick one if the video is about one.";
+    }
+    sel.value = it ? it.s : "";
+    sel.disabled = cancel || excluded;
+    var link = it ? "👉 Try " + it.w + " (affiliate): useandlike.com/" + it.s
+             : guide ? "👉 Step-by-step guide: subscriptionchef.app/cancel/" + guide.s : "";
+    pin.value = [question(title, it ? it.n : guide ? guide.n : ""), link, BOX.pinNews].filter(Boolean).join("\n");
+    desc.value = [link, NEWS].filter(Boolean).join("\n");
+    vnote.textContent = note;
+    grow(pin); grow(desc);
+  }
+  function grow(ta) { ta.style.height = "auto"; ta.style.height = ta.scrollHeight + 2 + "px"; }   // whole text visible on phones
+  pin.addEventListener("input", function () { grow(pin); });
+  desc.addEventListener("input", function () { grow(desc); });
+  vt.addEventListener("input", function () { manual = null; makeLines(); });
+  sel.addEventListener("change", function () { manual = sel.value; makeLines(); });
 """
 
 

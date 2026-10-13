@@ -44,7 +44,8 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   Leave out video titles that undercut the affiliate offer ("premium for free", "license key", "trial reset", "free alternative").
 - Editor lists: `python3 scripts/build-editor-lists.py` -> `editors/` (tool-links.csv, videos-<channel>.csv with the lines to paste;
   not published). It also writes `team-links/index.html`, the team's links page (Copy button per 👉 line, date added,
-  what's new/removed) at useandlike.com/team-links/: a hidden page Kevin shares with the manager and uploaders (not
+  what's new/removed, and a box: paste a new video's title, get the pinned comment with a question and the description
+  lines, same title rules as the editor lists) at useandlike.com/team-links/: a hidden page Kevin shares with the manager and uploaders (not
   linked anywhere, noindex, not in the sitemap). Commit it with every link change so it stays current. `scripts/youtube-descriptions.py` (login/run, preview by default, `--apply` to change YouTube) puts the same
   lines at the top of old descriptions via the YouTube Data API, most viewed first, ~180/day; tokens live outside the repo.
   Description format: `👉 Try <Tool> (affiliate): useandlike.com/<slug>` then the 📩 newsletter line, then an empty line.
