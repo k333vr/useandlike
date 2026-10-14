@@ -3261,6 +3261,13 @@
   "worth": 1.2,
   "added": "2026-10-13"
  },
+ "vpnet": {
+  "name": "VP.NET",
+  "line_name": "VP NET",
+  "group": "VPN & Privacy",
+  "source": "own program (vp.net), Kevin 14 Oct",
+  "added": "2026-10-14"
+ },
  "vrbo": {
   "name": "Vrbo",
   "group": "Travel",
