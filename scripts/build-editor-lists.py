@@ -545,9 +545,23 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
     var s = segs.filter(function (x) { return /\svs\.?\s/i.test(x); })[0], m = s && s.match(/\(([^()]*\svs\.?\s[^()]*)\)/i);
     return m ? m[1] : s;
   }
+  // The compared names from the "A vs B" part; with cmp (our tools the title compares), a part that runs on becomes the
+  // tool's name ("Temu Which One Is Worth It" -> "Temu"), and a messy one switches to the tools' names altogether.
+  function vsNames(vs, cmp) {
+    var p = vs.split(/\s+vs\.?\s+/i).map(function (x) { return noTld(trimFiller(x.trim())); }).filter(Boolean).slice(0, 3);
+    if (!cmp || cmp.length < 2) return p;
+    var names = cmp.map(function (x) { return noTld(x.n); });
+    p = p.map(function (x) {   // "Fiverr Pro" stays "Fiverr Pro" (a name itself); otherwise the longest name it starts with
+      var lx = x.toLowerCase();
+      if (names.some(function (n) { return n.toLowerCase() === lx; })) return x;
+      return names.filter(function (n) { return lx.indexOf(n.toLowerCase() + " ") === 0; })
+        .sort(function (a, b) { return b.length - a.length; })[0] || x;
+    });
+    return p.some(function (x) { return x.split(/\s+/).length > 4; }) ? names : p;
+  }
   // The first line of the pinned comment: one friendly question about the video that invites a reply, nothing beyond
   // the title (rules of the pinned lists, 9 Oct). The editor can change it before copying.
-  function question(title, subj) {
+  function question(title, subj, cmp) {
     var t = title.replace(SUFFIX, "").trim(), low = t.toLowerCase(), S = noTld(subj), h = 0, i;
     for (i = 0; i < t.length; i++) h = (h * 31 + t.charCodeAt(i)) >>> 0;
     var pick = function (a) { return a[h % a.length]; };
@@ -556,7 +570,7 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
     var segs = t.split(/\s+[-–—|:]\s+|\s*\|\s*|:\s+/);
     var vs = vsPart(segs);
     if (vs) {
-      var p = vs.split(/\s+vs\.?\s+/i).map(function (x) { return noTld(trimFiller(x.trim())); }).filter(Boolean).slice(0, 3);
+      var p = vsNames(vs, cmp);
       if (p.length >= 2) {
         var list = p.length === 2 ? p[0] + " or " + p[1] : p[0] + ", " + p[1] + " or " + p[2];
         return pick([list + ": which would you pick? Tell us below 👇", list + ": which one works better for you? Tell us below 👇"]);
@@ -596,13 +610,13 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
   function lowerFirst(s) {   // "Pros, cons" -> "pros, cons", but the tool's name keeps its capital ("Fiverr Pro to Fiverr")
     return /^[A-Z][a-z]/.test(s) && !PROTECT[s.split(/\s/)[0].toLowerCase().replace(/[^a-z']/g, "")] ? s.charAt(0).toLowerCase() + s.slice(1) : s;
   }
-  function extend(title, subj) {
+  function extend(title, subj, cmp) {
     var t = noTld(title.replace(SUFFIX, "").trim()), low = t.toLowerCase(), S = noTld(subj);
     if (SAFETY.test(low)) return "Stay safe: skip cracked apps and “free premium” offers.";
     var segs = t.split(/\s+[-–—|:]\s+|\s*\|\s*|:\s+/).map(function (x) { return x.trim(); }).filter(Boolean);
     var vs = vsPart(segs);
     if (vs) {
-      var p = vs.split(/\s+vs\.?\s+/i).map(function (x) { return trimFiller(x.trim()); }).filter(Boolean).slice(0, 3);
+      var p = vsNames(vs, cmp);
       if (p.length >= 2) {
         var more = segs.filter(function (x) { return x !== vs && !/compar|\bvs\b/i.test(x.replace(/compared$/i, "")); })
           .map(function (x) { return trimFiller(sentence(x)).replace(/\s*compared$/i, ""); }).filter(Boolean).join(", ");
@@ -689,9 +703,10 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
     var links = guide ? ["👉 Step-by-step guide: subscriptionchef.app/cancel/" + guide.s]
               : its.map(function (x) { return "👉 Try " + x.w + " (affiliate): useandlike.com/" + x.s; });
     var subj = it ? it.n : guide ? guide.n : "";
-    pin.value = [question(title, subj)].concat(links, [BOX.pinNews]).join("\n");
+    var cmp = its.length > 1 ? its : null;   // a comparison of our tools: their clean names for the question and sentence
+    pin.value = [question(title, subj, cmp)].concat(links, [BOX.pinNews]).join("\n");
     var top = links.concat([NEWS]).filter(Boolean).join("\n");
-    desc.value = onlytop.checked ? top : top + "\n\n" + extend(title, subj) + "\n\n" + closing(!!it);
+    desc.value = onlytop.checked ? top : top + "\n\n" + extend(title, subj, cmp) + "\n\n" + closing(!!it);
     vnote.textContent = note;
     vstatus.className = "vstatus" + (it ? " yes" : cancel || excluded || ruled ? " warn" : "");
     vstatus.textContent = its.length > 1 ? "✓ We have affiliate links for " + names(its) + ": one 👉 line each."
