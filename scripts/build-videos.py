@@ -43,6 +43,7 @@ NOT_ABOUT = {
                        r"wise memory|wise folder|wise data recovery|wise game booster|wise duplicate|wise force deleter", re.I),
     "Nolo": re.compile(r"nolo ?vr|nolo home|nolo sonic", re.I),
     "Vimeo": re.compile(r"videos in (ms )?word|dailymotion", re.I),   # about Word or Dailymotion, Vimeo only mentioned
+    "Skool": re.compile(r"\b(old|knu|sk8)[ -]?skool\b|\bvans\b|sketchbook skool|editing skool", re.I),   # shoes, art classes
 }
 SUFFIX = re.compile(r"\s*\|\s*(HTR|GG|Guide ?Glimpse|GuideG|Rocket Guide|HTRocket|How ?To ?Rocket)\s*$", re.I)
 

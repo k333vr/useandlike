@@ -39,6 +39,17 @@ PINNED_NEWS = "📩 Free Subscription Tracker + new app tips by email: useandlik
 # Link-only names that are ordinary words: the page's "new video" box doesn't pick them from a title by itself.
 NO_AUTO = {"box", "changed", "rover", "knack", "reverb", "lot", "empower", "parallels", "pigment", "condor", "optimum",
            "acorns", "carla"}
+# Links that only go on some videos about their tool (Kevin, 14 Oct, Skool: "only add it if it really makes sense to make a
+# community from the video"): the title has to match. Settings videos are for people who already use it.
+LINK_ONLY_IF = {
+    "Skool": re.compile(r"^(?!.*\b(profile|password|e-?mail address|time ?zone|invoice|billing|bank|payouts?|notifications?|"
+                        r"settings?|log ?in|login|username|language|delete|deactivate|leave|unsubscribe|cancel)\b)"
+                        r".*\b(creat\w*|start\w*|build\w*|launch\w*|set ?up|setting up|sign(ing)? ?up|make money|monetiz\w*|"
+                        r"paid (community|communities|group|membership)|pric\w*|cost\w*|worth it|reviews?|vs\.?|versus|"
+                        r"compar\w*|tutorial|beginners?|what is|explained)\b", re.I),
+}
+LINK_ONLY_NOTE = {"Skool": "Only on videos for people who would start their own community: creating one, getting started, "
+                           "Skool vs …, reviews, pricing, tutorials. Not on settings videos (profile, password, payouts …)."}
 NEW_DAYS = 7  # "New" badge
 NEWS_DAYS = 30  # how far back "What's new" and "Removed" look
 FOLD = 40  # a day in "What's new" with more than FOLD + 10 new links shows the rest behind "N more"
@@ -86,7 +97,8 @@ def make_matcher(tools):
     def tool_in(text, title):
         # Same "other product with the same name" rule as the site (bv.NOT_ABOUT): no Wise link on Wise Care videos.
         tl = " " + text.lower() + " "
-        return next((n for rx, n in tpat if rx.search(tl) and not (n in bv.NOT_ABOUT and bv.NOT_ABOUT[n].search(title))), None)
+        return next((n for rx, n in tpat if rx.search(tl) and not (n in bv.NOT_ABOUT and bv.NOT_ABOUT[n].search(title))
+                     and not (n in LINK_ONLY_IF and not LINK_ONLY_IF[n].search(title))), None)
 
     def lines_for(title):
         tl = " " + title.lower() + " "
@@ -160,6 +172,8 @@ def write_links_page(tools):
         if l["written"] != l["name"]:
             note = ('<p class="note">Written as “%s” on purpose: YouTube would turn “%s” into a direct link without our '
                     'code.</p>' % (esc(l["written"]), esc(l["name"])))
+        if l["name"] in LINK_ONLY_NOTE:
+            note += '<p class="note">%s</p>' % esc(LINK_ONLY_NOTE[l["name"]])
         new = (today - date.fromisoformat(l["added"])).days < NEW_DAYS
         return ('<div class="row" id="l-{slug}" data-line="{line}" data-q="{q}" data-added="{iso}"><div class="who"><span class="name">{name}'
                 '</span>{badge}<span class="date">Added {day}</span></div><code class="line">{line}</code><button '
@@ -199,7 +213,9 @@ def write_links_page(tools):
             first = (re.findall(r"[a-z0-9]+", n) or [""])[0]
             if k and " " in n and first == l["slug"] and len(first) >= 5:   # "CyberGhost VPN" also as "cyberghost"
                 k.append(first)
-        items.append({"s": l["slug"], "n": l["name"], "w": l["written"], "k": k, "x": x.pattern if x else ""})
+        o = LINK_ONLY_IF.get(l["name"])
+        items.append({"s": l["slug"], "n": l["name"], "w": l["written"], "k": k, "x": x.pattern if x else "",
+                      "o": o.pattern if o else "", "on": LINK_ONLY_NOTE.get(l["name"], "")})
     box = {"items": items, "guides": [{"s": s, "n": n, "k": k} for s, n, k in cancel_guides()],
            "exclude": bv.EXCLUDE.pattern, "cancel": CANCEL.pattern, "suffix": bv.SUFFIX.pattern, "pinNews": PINNED_NEWS,
            "common": " ".join(l.strip() for l in open(COMMON_WORDS, encoding="utf-8") if l.strip() and not l.startswith("#"))}
@@ -458,6 +474,7 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
   BOX.items.forEach(function (it) {
     bySlug[it.s] = it;
     if (it.x) it.xr = new RegExp(it.x, "i");
+    if (it.o) it.or = new RegExp(it.o, "i");   // link only on some of its videos (Skool: people who'd start a community)
     it.k.forEach(function (k) { keys.push({ k: k, it: it, rx: word(k) }); });
   });
   BOX.guides.forEach(function (g) { g.k.forEach(function (k) { gkeys.push({ k: k, g: g, rx: word(k) }); }); });
@@ -608,10 +625,16 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
   var none = document.createElement("option"); none.value = ""; none.textContent = "No link (newsletter line only)"; sel.appendChild(none);
   BOX.items.forEach(function (it) { var o = document.createElement("option"); o.value = it.s; o.textContent = it.n; sel.appendChild(o); });
   var manual = null;
-  // The tool a text names (longest name first), as in the editor lists; [] if none.
-  function toolIn(text, title) {
-    var tl = " " + text.toLowerCase() + " ", j;
-    for (j = 0; j < keys.length; j++) if (keys[j].rx.test(tl) && !(keys[j].it.xr && keys[j].it.xr.test(title))) return [keys[j].it];
+  // The tool a text names (longest name first), as in the editor lists; [] if none. With onlyRule, the tool whose link
+  // the title names but whose rule leaves it out (Skool on a settings video).
+  function toolIn(text, title, onlyRule) {
+    var tl = " " + text.toLowerCase() + " ", j, it;
+    for (j = 0; j < keys.length; j++) {
+      it = keys[j].it;
+      if (!keys[j].rx.test(tl) || (it.xr && it.xr.test(title))) continue;
+      if (!it.or || it.or.test(title)) { if (!onlyRule) return [it]; }
+      else if (onlyRule) return [it];
+    }
     return [];
   }
   // "A vs B (vs C)": every compared tool we have a link for, in the title's order (one 👉 line each, like the editor lists).
@@ -631,7 +654,7 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
     var title = vt.value.trim();
     made.hidden = !title;
     if (!title) return;
-    var tl = " " + title.toLowerCase() + " ", its = [], it, guide = null, note, j;
+    var tl = " " + title.toLowerCase() + " ", its = [], it, guide = null, note, j, ruled = null;
     var cancel = CANCEL.test(title), excluded = !cancel && EXCLUDE.test(title);
     if (cancel) {
       for (j = 0; j < gkeys.length && !guide; j++) if (gkeys[j].rx.test(tl)) guide = gkeys[j].g;
@@ -644,8 +667,11 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
     } else {
       its = compared(title);
       if (its.length < 2) its = toolIn(title, title);
+      if (!its.length) ruled = toolIn(title, title, true)[0] || null;
       note = its.length > 1 ? "Found in the title. To use only one, pick it here."
-           : its.length ? "Found in the title. Wrong one? Pick another." : "No tool from our list in the title. Pick one if the video is about one.";
+           : its.length ? "Found in the title. Wrong one? Pick another."
+           : ruled ? "If this video is for people starting out, pick " + ruled.n + " here."
+           : "No tool from our list in the title. Pick one if the video is about one.";
     }
     it = its[0] || null;
     sel.value = it ? it.s : "";
@@ -659,11 +685,12 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
     var top = links.concat([NEWS]).filter(Boolean).join("\n");
     desc.value = onlytop.checked ? top : top + "\n\n" + extend(title, subj) + "\n\n" + closing(!!it);
     vnote.textContent = note;
-    vstatus.className = "vstatus" + (it ? " yes" : cancel || excluded ? " warn" : "");
+    vstatus.className = "vstatus" + (it ? " yes" : cancel || excluded || ruled ? " warn" : "");
     vstatus.textContent = its.length > 1 ? "✓ We have affiliate links for " + names(its) + ": one 👉 line each."
       : it ? "✓ We have an affiliate link: " + it.n + " → useandlike.com/" + it.s
       : cancel ? "Cancel video: no affiliate link" + (guide ? ", the cancel guide goes in instead" : "") + " (our rule)."
       : excluded ? "No affiliate link: video about refunds, free versions, cracks or alternatives (our rule)."
+      : ruled ? "No affiliate link on this one (our rule for " + ruled.n + "): " + lowerFirst(ruled.on)
       : "No affiliate link for this video: only the newsletter line.";
     grow(pin); grow(desc);
   }
