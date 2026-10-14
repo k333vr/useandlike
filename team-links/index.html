@@ -714,7 +714,7 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
    "updating installing charging syncing signing logging " +
    "we they me him them i use using make create add remove delete change edit rename set setup get find fix turn off enable " +
    "disable install uninstall download upload update open close start stop share send receive transfer book order buy sell pay " +
-   "cancel unsubscribe sign log login logout out back check see watch play join leave hide show block unblock connect disconnect " +
+   "cancel unsubscribe sign log login logout out back check see watch play join leave hide show block unblock connect disconnect opt " +
    "link unlink verify activate deactivate reset recover restore backup save print scan convert merge split crop cut trim rotate " +
    "resize compress translate write read apply claim redeem earn withdraw deposit top load register renew track search schedule " +
    "move copy paste import export sync stream cast mirror record take go run try put keep call text post like follow unfollow " +
@@ -739,6 +739,8 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
   var APPWORDS = { word: 1, teams: 1, edge: 1, keep: 1, drive: 1, photos: 1, sheets: 1, docs: 1, slides: 1, meet: 1, maps: 1,
                    music: 1, wallet: 1, pay: 1, lens: 1, calendar: 1, notes: 1, files: 1 };
   var BEFORE_APP = { "in": 1, on: 1, to: 1, from: 1, "with": 1, into: 1, google: 1, microsoft: 1, ms: 1, apple: 1, amazon: 1, samsung: 1 };
+  var SHORT = { by: 1, "in": 1, on: 1, up: 1, to: 1, of: 1, no: 1, at: 1, or: 1, so: 1, as: 1, is: 1, it: 1, go: 1, "do": 1,
+                my: 1, me: 1, we: 1, us: 1, be: 1 };
   function sentence(s) {
     var ws = s.split(/\s+/);
     return ws.map(function (w, i) {
@@ -746,8 +748,23 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
       // Only "Book" or "book" becomes "book"; "iPhone", "WhatsApp", "PC" and "I" stay as written.
       var plain = w === lw || (w.charAt(0) !== lw.charAt(0) && w.slice(1) === lw.slice(1));
       var app = APPWORDS[bare] && w !== lw && i > 0 && BEFORE_APP[ws[i - 1].toLowerCase().replace(/[^a-z]/g, "")];
+      // "Opt-Out", "Step-by-Step" -> lowercase when every part is a common word; short parts only if they're little
+      // words ("by", "in"), so names like "Wi-Fi", "U-Verse" and "K-Friends" stay as written
+      if (w.indexOf("-") > 0 && !app && w.split("-").every(function (p) {
+            var lp = p.toLowerCase(), b = lp.replace(/[^a-z']/g, "");
+            return b && COMMON[b] && !PROTECT[b] && (b.length > 2 || SHORT[b]) &&
+                   (p === lp || (p.charAt(0) !== lp.charAt(0) && p.slice(1) === lp.slice(1)));
+          })) return lw;
       return COMMON[bare] && !PROTECT[bare] && !app && plain && w !== "I" ? lw : w;
     }).join(" ");
+  }
+  // The "how to" part ends where its brackets do: "Scanner (How to Opt-Out Right Now)" -> "Opt-Out Right Now".
+  function balanced(s) {
+    for (var i = 0, depth = 0; i < s.length; i++) {
+      if (/[(\[]/.test(s.charAt(i))) depth++;
+      else if (/[)\]]/.test(s.charAt(i))) { if (!depth) return s.slice(0, i).trim(); depth--; }
+    }
+    return s;
   }
   // "Kiwi.com" -> "Kiwi": YouTube turns names like that into links to the brand's site (without our code).
   function noTld(s) { return (s || "").replace(/\b([A-Za-z0-9-]+)\.(com|io|net|ai|app|co|org|me|tv|gg|ph|in|uk)\b/gi, "$1"); }
@@ -809,7 +826,7 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
       return S ? pick(["Do you use " + S + "? Tell us what you think below 👇", "Thinking about " + S + "? Ask your questions below 👇"])
                : "What do you think? Tell us below 👇";
     var how = null;
-    segs.forEach(function (s) { var m = !how && s.match(/how\s+to\s+(.+)/i); if (m) how = m[1]; });
+    segs.forEach(function (s) { var m = !how && s.match(/how\s+to\s+(.+)/i); if (m) how = balanced(m[1]); });
     if (how) {
       var a = sentence(trimFiller(noTld(how)));
       if (a.length > 70) a = a.slice(0, 70).replace(/\s+\S*$/, "");
@@ -842,7 +859,7 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
       }
     }
     var how = null;
-    segs.forEach(function (x) { var m = !how && x.match(/how\s+to\s+(.+)/i); if (m) how = m[1]; });
+    segs.forEach(function (x) { var m = !how && x.match(/how\s+to\s+(.+)/i); if (m) how = balanced(m[1]); });
     if (!how && /not working|error|\bfix\b|problem|issue|can'?t|won'?t|failed|stuck/.test(low))
       return trimFiller(sentence(segs[0])).replace(/\s*-?\s*fix(ed)?$/i, "") + "? This video shows what to do.";
     if (!how && /review|worth it|honest|tested/.test(low)) {
@@ -853,6 +870,12 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
     }
     if (how) { var a = sentence(trimFiller(how)); if (a) return "This video shows how to " + a + "."; }
     return sentence(trimFiller(segs.join(": "))) + ".";
+  }
+  // The sentence starts with a capital ("best Proton VPN settings" -> "Best ..."); names like "iPhone" or "eBay" stay.
+  function capFirst(s) {
+    var m = s.match(/^[a-z][a-z'-]*(?![A-Za-z])/);
+    return m && m[0].split("-").every(function (p) { return COMMON[p] || COMMON[p.replace(/'s$/, "")] || SHORT[p]; })
+      ? s.charAt(0).toUpperCase() + s.slice(1) : s;
   }
   function closing(aff) {
     return "❤️ If this helped, please like and subscribe!" + (aff ? " Some links earn us a small commission at no extra cost to you." : "") + " Thanks!";
@@ -923,7 +946,7 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
     var cmp = its.length > 1 ? its : null;   // a comparison of our tools: their clean names for the question and sentence
     pin.value = [question(title, subj, cmp)].concat(links, [BOX.pinNews]).join("\n");
     var top = links.concat([NEWS]).filter(Boolean).join("\n");
-    desc.value = onlytop.checked ? top : top + "\n\n" + extend(title, subj, cmp) + "\n\n" + closing(!!it);
+    desc.value = onlytop.checked ? top : top + "\n\n" + capFirst(extend(title, subj, cmp)) + "\n\n" + closing(!!it);
     vnote.textContent = note;
     vstatus.className = "vstatus" + (it ? " yes" : cancel || excluded || ruled ? " warn" : "");
     vstatus.textContent = its.length > 1 ? "✓ We have affiliate links for " + names(its) + ": one 👉 line each."
