@@ -47,6 +47,9 @@ function readRedirects(errors, warnings) {
     if (code !== "302") errors.push(`${where}: use 302 so updated links aren't cached by browsers`);
     try { if (new URL(to).protocol !== "https:") warnings.push(`${where}: link is not https`); }
     catch (_) { errors.push(`${where}: not a valid link: ${to}`); }
+    // Cloudflare turns "https://site.com?ref=1" into "https://site.com/?ref=1/" (a slash at the end of the code, 14 Oct).
+    if (/^https?:\/\/[^\/?#]+\?/.test(to))
+      errors.push(`${where}: put a "/" before the "?" (${to.replace(/\?/, "/?")}): Cloudflare otherwise adds a "/" to the end of the code`);
     const slug = from.slice(1);
     if (map.has(slug)) errors.push(`${where}: /${slug} is listed twice`);
     if (/^(index|scripts|readme|claude|category|tool|about|how-we-|work-with-us|team-links|sitemap|robots|thumbs|img|bh|videos)/i.test(slug))
