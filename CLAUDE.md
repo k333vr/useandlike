@@ -62,6 +62,8 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   from `data/short-links.json`. Change those links in the JSON and re-run the script, not by hand inside the markers.
   They have no videos yet, so they aren't tools on the page; when one gets videos, it can become a tool (same slug).
 - Always 302, never 301 (browsers cache 301s, so updated links would not take effect for repeat visitors).
+- Write a "/" before the "?" of a link (`https://repurpose.io/?fpr=1`, not `https://repurpose.io?fpr=1`): Cloudflare
+  turns the second into `.../?fpr=1/`, breaking the code (14 Oct). check.js fails on it.
 
 ## When the owner sends affiliate links or tool changes in chat
 1. Update the matching line in `_redirects`. A new tool needs a line there plus an entry in `TOOLS`
