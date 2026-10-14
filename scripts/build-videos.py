@@ -23,7 +23,7 @@ ALIASES = {
     "AT&T": ["at&t", "at&amp;t"], "Amigo eSIM": ["amigo esim", "amigo e-sim"], "Coda": ["coda.io", "coda"],
     "Epidemic Sound": ["epidemic sound", "epidemicsound"], "ElevenLabs": ["elevenlabs", "eleven labs"],
     "Merlin AI": ["merlin ai", "getmerlin", "merlin"], "TradingView": ["tradingview", "trading view"],
-    "Talkpal": ["talkpal", "talk pal"], "Browse AI": ["browse ai", "browseai"],
+    "Talkpal": ["talkpal", "talk pal"], "Browse AI": ["browse ai", "browseai"], "Taja AI": ["taja ai", "taja"],
     # Yazing brands added 13 Oct 2026
     "NordVPN": ["nordvpn", "nord vpn"], "ExpressVPN": ["expressvpn", "express vpn"],
     "Private Internet Access": ["private internet access", "pia vpn"], "GoDaddy": ["godaddy", "go daddy"],
