@@ -170,9 +170,11 @@ const channelLinks = urlFor => '<span class="channels">' +
 function joinForm(withPerk) {
   const perk = withPerk ? `<p class="perk"><b class="perk-title">${esc(NEWSLETTER.perkTitle)}</b><span class="perk-gift">${esc(NEWSLETTER.perkGift)}</span></p>` : "";
   // Under the field (not in the header): a confirmation email follows, and Beehiiv's own page as a backup (as on index.html).
-  const note = withPerk ? "" : '<p class="bh-note">After you subscribe, we email you a confirmation link: tap it to finish ' +
-    '(check spam too). Field not showing? <a href="/newsletter">Sign up here</a>.</p>';
-  if (NEWSLETTER.beehiivForm) return `<div class="join-form">${perk}<div class="bh-slot"></div>${note}</div>`;
+  const note = withPerk ? "" : '<p class="bh-note">Next: we email you a link. Open your email app and tap Confirm to finish ' +
+    '(check Promotions or Spam too). Field not showing? <a href="/newsletter">Sign up here</a>.</p>';
+  // The button after the slot shows only if Beehiiv's field is still missing after 5 seconds (CSS + SCRIPT below).
+  const fallback = '<p class="bh-fallback"><a href="/newsletter">Open the sign-up page ›</a></p>';
+  if (NEWSLETTER.beehiivForm) return `<div class="join-form">${perk}<div class="bh-slot"></div>${fallback}${note}</div>`;
   return `<div class="join-form">${perk}<form action="/newsletter" method="get"><div class="jrow">` +
     `<input type="email" name="email" required placeholder="Your email" autocomplete="email" aria-label="Your email">` +
     `<button type="submit">${esc(NEWSLETTER.button)}</button></div></form></div>`;
@@ -202,6 +204,7 @@ const SCRIPT = `(function () {
     var s = document.createElement("script");
     s.async = true; s.src = "https://subscribe-forms.beehiiv.com/v3/loader.js"; s.setAttribute("data-beehiiv-form", FORM);
     slot.appendChild(s);
+    setTimeout(function () { slot.classList.add("slow"); }, 5000);
   });
   [].forEach.call(document.querySelectorAll(".jrow button"), function (b) {
     b.form.addEventListener("submit", function () { b.textContent = "Opening\\u2026"; });

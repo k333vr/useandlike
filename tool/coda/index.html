@@ -69,8 +69,25 @@ header { padding: 22px 0 0; }
 .info .after { margin-top: 18px; }
 .info-img { float: right; margin: 0 0 12px 16px; max-width: 42%; height: auto; border-radius: 10px; }
 .bh-slot { min-height: 47px; }
-/* Beehiiv's field takes 1-2 seconds to appear (Kevin's phone test, 13 Oct): show where it will be until then. */
-.bh-slot:not(:has(iframe))::before { content: "Loading the sign-up field\2026"; display: flex; align-items: center; box-sizing: border-box; min-height: 44px; padding: 0 16px; border: 1px dashed var(--line); border-radius: 999px; color: var(--muted); font-size: .9rem; }
+/* Beehiiv's field takes 1-2 seconds to appear (Kevin's phone test, 13 Oct): show where it will be until then,
+   shaped like the field so the page doesn't look broken. */
+.bh-slot:not(:has(iframe))::before { content: "Loading the email field\2026"; display: flex; align-items: center; box-sizing: border-box; min-height: 44px; padding: 0 16px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--muted); font-size: .9rem; animation: bh-wait 1.4s ease-in-out infinite alternate; }
+@keyframes bh-wait { from { opacity: 1; } to { opacity: .55; } }
+@media (prefers-reduced-motion: reduce) { .bh-slot:not(:has(iframe))::before { animation: none; } }
+/* No field after 5 seconds (blocked by a security check, a VPN or a slow phone): a button to Beehiiv's own
+   sign-up page (/newsletter). 10 of 69 visitors used the old backup link in the week to 14 Oct. */
+.bh-fallback { display: none; margin: 8px 0 0; }
+.bh-slot.slow:not(:has(iframe)) + .bh-fallback { display: block; }
+.bh-fallback a { display: inline-block; padding: 11px 20px; border-radius: 999px; background: #e8642c; color: #fff; font-weight: 700; text-decoration: none; }
+.ctas .bh-fallback a { padding: 7px 14px; font-size: .9rem; }
+/* Join page, design B (14 Oct): one big field in a box at the top instead of a small one in the header and one
+   at the bottom (69 visits, about 6 emails typed in the week to 14 Oct). */
+.join-hero { margin: 6px 0 22px; padding: 18px 16px 16px; border: 2px solid #e8642c; border-radius: 14px; background: var(--surface); box-shadow: 0 6px 18px rgba(232, 100, 44, .12); }
+.join-hero h1 { margin: 0 0 6px; font-size: clamp(1.55rem, 6vw, 2.2rem); line-height: 1.15; }
+.join-hero .hero-sub { margin: 0 0 12px; font-size: 1.02rem; max-width: 52ch; }
+.join-hero .hero-label { display: block; margin: 0 0 6px; font-weight: 700; color: #c84f1c; }
+.join-hero .bh-slot { max-width: 520px; }
+@media (prefers-color-scheme: dark) { .join-hero .hero-label { color: #f08a5d; } }
 /* Beehiiv's form is a light page: matching the frame to it keeps its background see-through in dark mode (no white bar). */
 .bh-slot iframe { color-scheme: light; }
 .info .bh-slot { max-width: 420px; }
@@ -212,7 +229,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
         <p class="brand"><a href="/">Use <em>&amp;</em> Like</a></p>
         <p class="tagline">Hand-picked apps and tools, sorted by category.</p>
       </div>
-      <div class="ctas" id="header-join"><div class="join-form"><p class="perk"><b class="perk-title">Join our free app newsletter</b><span class="perk-gift">+ get our Free Subscription Tracker</span></p><div class="bh-slot"></div></div></div>
+      <div class="ctas" id="header-join"><div class="join-form"><p class="perk"><b class="perk-title">Join our free app newsletter</b><span class="perk-gift">+ get our Free Subscription Tracker</span></p><div class="bh-slot"></div><p class="bh-fallback"><a href="/newsletter">Open the sign-up page ›</a></p></div></div>
     </div>
     <nav class="top" aria-label="Sections">
       <a href="/" id="nav-tools" aria-current="page">Tools</a>
@@ -242,7 +259,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 <li><a href="/tool/teamviewer/">TeamViewer</a> – Remote access to computers and devices</li>
 </ul>
 <p class="tool-more"><a href="/category/productivity-and-design/">All Productivity &amp; Design tools ›</a></p>
-<section class="newsletter"><div class="nl-text"><h2>Save time and money with the right apps</h2><p>Useful app and AI tips, new tools worth knowing, deals and our latest tutorials. Only when we have something worth your time. Free, and you can unsubscribe anytime.</p><p class="nl-perk"><span class="perk-gift">+ get our Free Subscription Tracker (subscriptionchef.app)</span></p></div><div class="join-form"><div class="bh-slot"></div><p class="bh-note">After you subscribe, we email you a confirmation link: tap it to finish (check spam too). Field not showing? <a href="/newsletter">Sign up here</a>.</p></div></section>
+<section class="newsletter"><div class="nl-text"><h2>Save time and money with the right apps</h2><p>Useful app and AI tips, new tools worth knowing, deals and our latest tutorials. Only when we have something worth your time. Free, and you can unsubscribe anytime.</p><p class="nl-perk"><span class="perk-gift">+ get our Free Subscription Tracker (subscriptionchef.app)</span></p></div><div class="join-form"><div class="bh-slot"></div><p class="bh-fallback"><a href="/newsletter">Open the sign-up page ›</a></p><p class="bh-note">Next: we email you a link. Open your email app and tap Confirm to finish (check Promotions or Spam too). Field not showing? <a href="/newsletter">Sign up here</a>.</p></div></section>
   </main>
 
   <footer>
@@ -263,6 +280,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     var s = document.createElement("script");
     s.async = true; s.src = "https://subscribe-forms.beehiiv.com/v3/loader.js"; s.setAttribute("data-beehiiv-form", FORM);
     slot.appendChild(s);
+    setTimeout(function () { slot.classList.add("slow"); }, 5000);
   });
   [].forEach.call(document.querySelectorAll(".jrow button"), function (b) {
     b.form.addEventListener("submit", function () { b.textContent = "Opening\u2026"; });
