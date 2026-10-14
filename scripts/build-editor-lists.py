@@ -47,9 +47,17 @@ LINK_ONLY_IF = {
                         r".*\b(creat\w*|start\w*|build\w*|launch\w*|set ?up|setting up|sign(ing)? ?up|make money|monetiz\w*|"
                         r"paid (community|communities|group|membership)|pric\w*|cost\w*|worth it|reviews?|vs\.?|versus|"
                         r"compar\w*|tutorial|beginners?|what is|explained)\b", re.I),
+    # Whop's partner link pays when a business starts selling on Whop (Kevin, 14 Oct): not for buyers, members or clippers.
+    "Whop": re.compile(r"^(?!.*\b(clip\w*|content rewards?|affiliates?|join\w*|buy\w*|purchas\w*|cancel\w*|refund\w*|delete|"
+                       r"leave|log ?in|login|password|payouts?)\b)"
+                       r".*\b(sell\w*|stores?|shop|digital products?|courses?|communit\w*|memberships?|start\w*|launch\w*|"
+                       r"set ?up|setting up|creat\w*|build\w*|checkout|accept\w* payments?|pric\w*|fees?|vs\.?|versus|"
+                       r"compar\w*|reviews?|tutorial|beginners?|what is|explained)\b", re.I),
 }
 LINK_ONLY_NOTE = {"Skool": "Only on videos for people who would start their own community: creating one, getting started, "
-                           "Skool vs …, reviews, pricing, tutorials. Not on settings videos (profile, password, payouts …)."}
+                           "Skool vs …, reviews, pricing, tutorials. Not on settings videos (profile, password, payouts …).",
+                  "Whop": "Only on videos for people who would start selling on Whop: selling products, communities or "
+                          "courses, setting up a store, Whop vs …, reviews. Not on clipping, buying or joining videos."}
 NEW_DAYS = 7  # "New" badge
 NEWS_DAYS = 30  # how far back "What's new" and "Removed" look
 FOLD = 40  # a day in "What's new" with more than FOLD + 10 new links shows the rest behind "N more"
