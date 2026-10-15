@@ -33,6 +33,8 @@ OWN_HOSTS = ("useandlike.com", "useandlike.beehiiv.com", "subscriptionchef.app")
 # Names and groups of the short links that aren't tools on the site (most written by useandlike-ops/analysis/yazing-add.py).
 SHORT_LINKS = os.path.join(ROOT, "data", "short-links.json")
 TITLE_FIXES = os.path.join(ROOT, "data", "title-fixes.json")
+# Game videos to move to the Gaming category (and pick the game), from useandlike-ops/analysis/game-category.py.
+GAME_FIXES = os.path.join(ROOT, "data", "game-category.json")
 # Everyday English words (lowercase in a sentence), for the new-video box: see the file's header.
 COMMON_WORDS = os.path.join(ROOT, "data", "common-words.txt")
 # Last line of a pinned comment (the description uses NEWSLETTER_LINE); same as useandlike-ops/analysis/pinned-comment-lines.py.
@@ -162,8 +164,10 @@ def write_links_page(tools):
     today = date.today()
     by_slug = {t["slug"]: t for t in tools}
     extra = json.load(open(SHORT_LINKS, encoding="utf-8")) if os.path.exists(SHORT_LINKS) else {}
-    # Titles for the manager to fix (the page's "Titles to fix" popup), written by useandlike-ops/analysis/title-fixes.py
+    # For the manager (the page's "To fix in YouTube Studio" popup), written by useandlike-ops/analysis/title-fixes.py
+    # and game-category.py
     title_fixes = json.load(open(TITLE_FIXES, encoding="utf-8")) if os.path.exists(TITLE_FIXES) else []
+    game_fixes = json.load(open(GAME_FIXES, encoding="utf-8")) if os.path.exists(GAME_FIXES) else []
     links = []
     for slug, target in redirects:
         if (urllib.parse.urlparse(target).hostname or "").endswith(OWN_HOSTS):
@@ -235,7 +239,8 @@ def write_links_page(tools):
             .replace("<!--NEWSLETTER-->", esc(NEWSLETTER_LINE)).replace("/*NEWSLETTER*/", json.dumps(NEWSLETTER_LINE))
             .replace("<!--NEW_DAYS-->", str(NEW_DAYS)).replace("/*NEW_DAYS*/", str(NEW_DAYS))
             .replace("<!--NEWS-->", "".join(news)).replace("<!--LIST-->", "".join(sections))
-            .replace("/*TITLE_FIXES*/", json.dumps(title_fixes, ensure_ascii=False).replace("</", "<\\/")))
+            .replace("/*TITLE_FIXES*/", json.dumps(title_fixes, ensure_ascii=False).replace("</", "<\\/"))
+            .replace("/*GAME_FIXES*/", json.dumps(game_fixes, ensure_ascii=False).replace("</", "<\\/")))
     icon = re.search(r'<link rel="icon"[^>]*>', src)
     page = page.replace("<!--ICON-->", icon.group(0) if icon else "")
     os.makedirs(os.path.join(ROOT, "team-links"), exist_ok=True)
@@ -357,6 +362,14 @@ dialog.tf::backdrop { background: rgba(0, 0, 0, .45); }
 .tf-do { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; font-size: .9rem; }
 .tf-do a { color: var(--link); }
 .tf-do label { display: flex; gap: 6px; align-items: center; cursor: pointer; }
+.tf-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+.tf-tabs button { font: inherit; font-size: .88rem; font-weight: 600; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line);
+  background: transparent; color: var(--muted); cursor: pointer; }
+.tf-tabs button[aria-selected="true"] { background: var(--new-bg); color: var(--new-fg); border-color: var(--brass); }
+.tf-how { margin: 14px 18px 0; font-size: .88rem; color: var(--muted); max-width: 70ch; }
+.tf-title { margin: 0; font-weight: 600; overflow-wrap: anywhere; }
+.tf-game { margin: 0; font-size: .92rem; overflow-wrap: anywhere; }
+.tf-game span { color: var(--muted); }
 @media (max-width: 640px) {
   .row { grid-template-columns: minmax(0, 1fr) auto; }
   .who { grid-column: 1; grid-row: 1; }
@@ -375,18 +388,31 @@ dialog.tf::backdrop { background: rgba(0, 0, 0, .45); }
       into the pinned comment. Use only these short links. A video about an app that isn’t listed gets only the newsletter line.</p>
     <p class="meta"><b><!--COUNT--></b> links · updated <!--UPDATED--></p>
     <p class="nl-line">Newsletter line, added when you tick the box below: <code><!--NEWSLETTER--></code></p>
-    <button type="button" id="tf-open" class="tf-open" hidden>✏️ Titles to fix: <span id="tf-left"></span></button>
+    <button type="button" id="tf-open" class="tf-open" hidden>✏️ To fix in YouTube Studio: <span id="tf-left"></span></button>
   </header>
 
   <dialog id="tf" class="tf" aria-labelledby="tf-h">
     <div class="tf-head">
-      <h2 id="tf-h">Titles to fix</h2>
-      <p>For the manager: these titles lost a “?”, a colon, a dot or an apostrophe, or have double spaces, ALL CAPS or an
-        old year. Copy the new title, open the video in YouTube Studio, paste it as the title and save, then tick Done.
-        Only the title changes. Busiest videos first. Ticks stay on this device; changed titles drop off the list at the next check.</p>
+      <h2 id="tf-h">To fix in YouTube Studio</h2>
+      <p>For the manager: open each video in YouTube Studio, make the change, save, then tick Done. Busiest videos first.
+        Ticks stay on this device; fixed videos drop off the list at the next check.</p>
+      <div class="tf-tabs" role="tablist">
+        <button type="button" role="tab" id="tf-t-titles" aria-controls="tf-p-titles" aria-selected="true">Titles <span></span></button>
+        <button type="button" role="tab" id="tf-t-games" aria-controls="tf-p-games" aria-selected="false">Game videos <span></span></button>
+      </div>
       <button type="button" class="tf-close" aria-label="Close">✕</button>
     </div>
-    <ol id="tf-list" class="tf-list"></ol>
+    <div id="tf-p-titles" role="tabpanel" aria-labelledby="tf-t-titles">
+      <p class="tf-how">These titles lost a “?”, a colon, a dot or an apostrophe, or have double spaces, ALL CAPS or an old
+        year. Copy the new title and paste it as the title. Only the title changes.</p>
+      <ol id="tf-list" class="tf-list"></ol>
+    </div>
+    <div id="tf-p-games" role="tabpanel" aria-labelledby="tf-t-games" hidden>
+      <p class="tf-how">Game videos filed as “Howto &amp; Style”. In Studio: Details → Show more → Category: <b>Gaming</b>.
+        A “Game title” field appears: type the game shown below and pick it from the list. That links the video to the
+        game’s page on YouTube. Nothing else changes.</p>
+      <ol id="tf-glist" class="tf-list"></ol>
+    </div>
   </dialog>
 
   <section class="maker" aria-labelledby="maker-h">
@@ -488,44 +514,77 @@ dialog.tf::backdrop { background: rgba(0, 0, 0, .45); }
     copyText(row.dataset.line + (nl.checked ? "\\n" + NEWS : ""), b, function () { selectLine(row); });
   }
 /*BOX_JS*/
-  // Titles to fix (Kevin, 15 Oct): the list for the manager, from data/title-fixes.json; opens once a day while some are left.
-  var TF = /*TITLE_FIXES*/, tf = document.getElementById("tf"), tfOpen = document.getElementById("tf-open");
-  var CHANNEL = { htr: "How To Rocket", gg: "Guide Glimpse" }, tfDone = {};
-  try { JSON.parse(localStorage.getItem("tf-done") || "[]").forEach(function (id) { tfDone[id] = 1; }); } catch (e) {}
-  function tfLeft() {
-    var n = TF.filter(function (x) { return !tfDone[x.id]; }).length;
-    document.getElementById("tf-left").textContent = n + " left";
-    return n;
+  // To fix in YouTube Studio (Kevin, 15 Oct): titles (data/title-fixes.json) and game videos to move to Gaming
+  // (data/game-category.json), for the manager; opens once a day while some are left.
+  var TF = /*TITLE_FIXES*/, GF = /*GAME_FIXES*/, tf = document.getElementById("tf"), tfOpen = document.getElementById("tf-open");
+  var CHANNEL = { htr: "How To Rocket", gg: "Guide Glimpse" }, tfDone = {}, gfDone = {};
+  function loadDone(key, into) {
+    try { JSON.parse(localStorage.getItem(key) || "[]").forEach(function (id) { into[id] = 1; }); } catch (e) {}
   }
-  if (TF.length && tf && tf.showModal) {
-    var tfList = document.getElementById("tf-list");
+  loadDone("tf-done", tfDone); loadDone("gf-done", gfDone);
+  function left(list, done) { return list.filter(function (x) { return !done[x.id]; }).length; }
+  function tfLeft() {
+    var t = left(TF, tfDone), g = left(GF, gfDone);
+    document.getElementById("tf-left").textContent = (t + g) + " left";
+    document.querySelector("#tf-t-titles span").textContent = t;
+    document.querySelector("#tf-t-games span").textContent = g;
+    return t + g;
+  }
+  // One item: what to do (lines, with the copied text marked data-copied), Copy, Open in YouTube Studio, Done.
+  function tfItem(x, done, key, meta, lines, copy) {
+    var li = document.createElement("li");
+    li.className = "tf-item" + (done[x.id] ? " done" : "");
+    li.innerHTML = '<span class="tf-meta"></span>' + lines + '<div class="tf-do"><button type="button">Copy</button>' +
+      '<a target="_blank" rel="noopener">Open in YouTube Studio ↗</a><label><input type="checkbox"> Done</label></div>';
+    li.querySelector(".tf-meta").textContent = meta;
+    li.querySelector("a").href = "https://studio.youtube.com/video/" + x.id + "/edit";
+    var cb = li.querySelector("input");
+    cb.checked = !!done[x.id];
+    cb.addEventListener("change", function () {
+      if (cb.checked) done[x.id] = 1; else delete done[x.id];
+      li.classList.toggle("done", cb.checked);
+      try { localStorage.setItem(key, JSON.stringify(Object.keys(done))); } catch (e) {}
+      tfLeft();
+    });
+    li.querySelector("button").addEventListener("click", function (ev) {
+      var t = li.querySelector("[data-copied]");
+      copyText(copy, ev.currentTarget, function () {
+        var r = document.createRange(); r.selectNodeContents(t);
+        var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r);
+      });
+    });
+    return li;
+  }
+  if ((TF.length || GF.length) && tf && tf.showModal) {
+    var tfList = document.getElementById("tf-list"), gfList = document.getElementById("tf-glist");
     TF.forEach(function (x) {
-      var li = document.createElement("li");
-      li.className = "tf-item" + (tfDone[x.id] ? " done" : "");
-      li.innerHTML = '<span class="tf-meta"></span><p class="tf-old"></p><p class="tf-new"></p>' +
-        '<div class="tf-do"><button type="button" data-tfcopy>Copy</button>' +
-        '<a target="_blank" rel="noopener">Open in YouTube Studio ↗</a><label><input type="checkbox"> Done</label></div>';
-      li.querySelector(".tf-meta").textContent = CHANNEL[x.ch] + " · " + x.why;
+      var li = tfItem(x, tfDone, "tf-done", CHANNEL[x.ch] + " · " + x.why,
+        '<p class="tf-old"></p><p class="tf-new" data-copied></p>', x["new"]);
       li.querySelector(".tf-old").textContent = x.title;
       li.querySelector(".tf-new").textContent = x["new"];
-      li.querySelector("a").href = "https://studio.youtube.com/video/" + x.id + "/edit";
-      var cb = li.querySelector("input");
-      cb.checked = !!tfDone[x.id];
-      cb.addEventListener("change", function () {
-        if (cb.checked) tfDone[x.id] = 1; else delete tfDone[x.id];
-        li.classList.toggle("done", cb.checked);
-        try { localStorage.setItem("tf-done", JSON.stringify(Object.keys(tfDone))); } catch (e) {}
-        tfLeft();
-      });
-      li.querySelector("button").addEventListener("click", function (ev) {
-        var t = li.querySelector(".tf-new");
-        copyText(x["new"], ev.currentTarget, function () {
-          var r = document.createRange(); r.selectNodeContents(t);
-          var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r);
-        });
-      });
       tfList.appendChild(li);
     });
+    GF.forEach(function (x) {
+      var li = tfItem(x, gfDone, "gf-done", CHANNEL[x.ch] + " · game video",
+        '<p class="tf-title"></p><p class="tf-game">Category: Gaming · Game title: <b data-copied></b><span></span></p>', x.game);
+      li.querySelector(".tf-title").textContent = x.title;
+      li.querySelector("[data-copied]").textContent = x.game;
+      li.querySelector(".tf-game span").textContent = x.note || "";
+      gfList.appendChild(li);
+    });
+    var tabs = [["titles", TF], ["games", GF]];
+    function showTab(name) {
+      tabs.forEach(function (t) {
+        document.getElementById("tf-t-" + t[0]).setAttribute("aria-selected", t[0] === name ? "true" : "false");
+        document.getElementById("tf-p-" + t[0]).hidden = t[0] !== name;
+      });
+    }
+    tabs.forEach(function (t) {
+      var b = document.getElementById("tf-t-" + t[0]);
+      b.hidden = !t[1].length;
+      b.addEventListener("click", function () { showTab(t[0]); });
+    });
+    showTab(left(TF, tfDone) || !GF.length ? "titles" : "games");
     tfOpen.hidden = false;
     tfOpen.addEventListener("click", function () { tf.showModal(); });
     tf.querySelector(".tf-close").addEventListener("click", function () { tf.close(); });
