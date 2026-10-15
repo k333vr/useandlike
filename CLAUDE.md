@@ -68,6 +68,12 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   fit our channels, Kevin: "every single app or program that would fit"), written by useandlike-ops/analysis/yazing-add.py
   from `data/short-links.json`. Change those links in the JSON and re-run the script, not by hand inside the markers.
   They have no videos yet, so they aren't tools on the page; when one gets videos, it can become a tool (same slug).
+- FlexOffers (15 Oct 2026) turned down useandlike.com and Guide Glimpse, then approved the account for How To Rocket
+  (Kevin confirms in the account which channel shows approved). Its links go ONLY on How To Rocket videos: link-only
+  short links (never a tool or Visit button on the site, never on Guide Glimpse or Logic Protocol) with
+  `"source": "FlexOffers", "only": "htr"` in `data/short-links.json`. The team page marks them "How To Rocket only" and
+  its new-video box offers them only when the uploader picks How To Rocket; check.js fails on a FlexOffers link without
+  that mark or used by a tool. A script that adds lines to old videos must keep these links to How To Rocket.
 - Always 302, never 301 (browsers cache 301s, so updated links would not take effect for repeat visitors).
 - The home page's `<head>` has `<meta name="fo-verify" ...>`: FlexOffers' ownership check for useandlike.com
   (14 Oct 2026). Keep it; without it FlexOffers can mark the site as unverified. Use meta tags for such checks:

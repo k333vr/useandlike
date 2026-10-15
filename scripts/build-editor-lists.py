@@ -61,6 +61,10 @@ LINK_ONLY_NOTE = {"Skool": "Only on videos for people who would start their own 
                            "Skool vs …, reviews, pricing, tutorials. Not on settings videos (profile, password, payouts …).",
                   "Whop": "Only on videos for people who would start selling on Whop: selling products, communities or "
                           "courses, setting up a store, Whop vs …, reviews. Not on clipping, buying or joining videos."}
+# Links a network allows on one channel only: "only" in data/short-links.json (FlexOffers, 15 Oct: it approved How To
+# Rocket and turned down useandlike.com and Guide Glimpse). The page marks them, and the new-video box offers them only
+# once the uploader has picked that channel. scripts/check.js keeps FlexOffers links off the site's Visit buttons.
+CHANNEL_NAMES = {"htr": "How To Rocket", "gg": "Guide Glimpse", "lp": "Logic Protocol"}
 NEW_DAYS = 7  # "New" badge
 NEWS_DAYS = 30  # how far back "What's new" and "Removed" look
 FOLD = 40  # a day in "What's new" with more than FOLD + 10 new links shows the rest behind "N more"
@@ -179,6 +183,7 @@ def write_links_page(tools):
         written = LINE_NAME.get(name, name) if t else x.get("line_name", name)
         links.append({"slug": slug, "name": name, "cat": t["category"] if t else x.get("group", "Other"), "written": written,
                       "line": "👉 Try %s (affiliate): useandlike.com/%s" % (written, slug),
+                      "only": x.get("only", ""), "source": x.get("source", ""),
                       "added": added.get(slug, today.isoformat())})  # not committed yet: today
     esc = lambda s: html.escape(s, quote=True)
 
@@ -189,12 +194,17 @@ def write_links_page(tools):
                     'code.</p>' % (esc(l["written"]), esc(l["name"])))
         if l["name"] in LINK_ONLY_NOTE:
             note += '<p class="note">%s</p>' % esc(LINK_ONLY_NOTE[l["name"]])
+        only = CHANNEL_NAMES.get(l["only"], "")
+        if only:
+            note += ('<p class="note">Only on %s videos: %s approved only that channel. Never on the other channels or '
+                     'the website.</p>' % (esc(only), esc(l["source"] or "the network")))
         new = (today - date.fromisoformat(l["added"])).days < NEW_DAYS
         return ('<div class="row" id="l-{slug}" data-line="{line}" data-q="{q}" data-added="{iso}"><div class="who"><span class="name">{name}'
-                '</span>{badge}<span class="date">Added {day}</span></div><code class="line">{line}</code><button '
+                '</span>{badge}{only}<span class="date">Added {day}</span></div><code class="line">{line}</code><button '
                 'type="button" data-copy aria-label="Copy the line for {name}">Copy</button>{note}</div>\n').format(
             slug=esc(l["slug"]), line=esc(l["line"]), name=esc(l["name"]), note=note, day=nice_day(l["added"]), iso=l["added"],
-            q=esc(" ".join([l["name"], l["slug"], l["cat"]]).lower()), badge='<span class="badge">New</span>' if new else "")
+            q=esc(" ".join(filter(None, [l["name"], l["slug"], l["cat"], only])).lower()), badge='<span class="badge">New</span>' if new else "",
+            only='<span class="only">%s only</span>' % esc(only) if only else "")
 
     sections = []
     for c in order + sorted({l["cat"] for l in links} - set(order), key=lambda c: (c == "Other", c)):
@@ -230,7 +240,7 @@ def write_links_page(tools):
                 k.append(first)
         o = LINK_ONLY_IF.get(l["name"])
         items.append({"s": l["slug"], "n": l["name"], "w": l["written"], "k": k, "x": x.pattern if x else "",
-                      "o": o.pattern if o else "", "on": LINK_ONLY_NOTE.get(l["name"], "")})
+                      "o": o.pattern if o else "", "on": LINK_ONLY_NOTE.get(l["name"], ""), **({"c": l["only"]} if l["only"] else {})})
     box = {"items": items, "guides": [{"s": s, "n": n, "k": k} for s, n, k in cancel_guides()],
            "exclude": bv.EXCLUDE.pattern, "cancel": CANCEL.pattern, "suffix": bv.SUFFIX.pattern, "pinNews": PINNED_NEWS,
            "common": " ".join(l.strip() for l in open(COMMON_WORDS, encoding="utf-8") if l.strip() and not l.startswith("#"))}
@@ -311,6 +321,7 @@ code { font-family: var(--mono); }
 .who { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; min-width: 0; }
 .name { font-weight: 600; }
 .badge { font-size: .7rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; background: var(--new-bg); color: var(--new-fg); border-radius: 4px; padding: 1px 6px; }
+.only { font-size: .7rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--new-fg); border: 1px solid var(--brass); border-radius: 4px; padding: 0 5px; }
 .date { flex-basis: 100%; font-size: .8rem; color: var(--muted); font-variant-numeric: tabular-nums; }
 .line { font-size: .88rem; min-width: 0; overflow-wrap: anywhere; }
 button[data-copy], button[data-copyout], button[data-tfcopy], button[data-copytext] { font: inherit; font-size: .9rem; font-weight: 600; min-width: 6.8rem; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--brand); background: var(--brand); color: var(--brand-text); cursor: pointer; }
@@ -325,10 +336,11 @@ button[data-copy].ok, button[data-copyout].ok, button[data-tfcopy].ok, button[da
 .maker h2 { font-family: var(--serif); font-weight: 400; font-size: 1.35rem; margin: 0; }
 .maker .hint { margin: 0; max-width: 70ch; font-size: .9rem; color: var(--muted); }
 .field, .pickrow label, .outhead span { font-size: .9rem; font-weight: 600; }
-#vt, #vtool, .out textarea { font: inherit; width: 100%; min-width: 0; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--text); }
+#vt, #vtool, #vch, .out textarea { font: inherit; width: 100%; min-width: 0; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--text); }
 #made { display: grid; gap: 12px; }
 .pickrow { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; }
-#vtool { width: auto; max-width: 100%; flex: 0 1 22rem; }
+.pickrow[hidden] { display: none; }
+#vtool, #vch { width: auto; max-width: 100%; flex: 0 1 22rem; }
 .vnote { font-size: .85rem; color: var(--muted); }
 .out { display: grid; gap: 6px; }
 .outhead { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
@@ -420,6 +432,9 @@ dialog.tf::backdrop { background: rgba(0, 0, 0, .45); }
     <p class="hint">You see at once whether we have an affiliate link for it, and you get the pinned comment (a question
       that invites replies, the 👉 line, the newsletter line) and a short description: our links first, one sentence that
       extends the title, the closing line. Check the link and the text, change them if needed, then copy.</p>
+    <div class="pickrow" id="vchrow" hidden><label for="vch">Channel</label><select id="vch"><option value="">Pick the channel</option>
+      <option value="htr">How To Rocket</option><option value="gg">Guide Glimpse</option><option value="lp">Logic Protocol</option></select>
+      <span class="vnote">Some links are for one channel only.</span></div>
     <label class="field" for="vt">Video title</label>
     <input id="vt" type="text" autocomplete="off" placeholder="e.g. How to Book a Flight Ticket on Kiwi.com">
     <div id="made" hidden>
@@ -834,17 +849,25 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
   var vt = document.getElementById("vt"), sel = document.getElementById("vtool"), made = document.getElementById("made");
   var vstatus = document.getElementById("vstatus"), onlytop = document.getElementById("onlytop");
   var pin = document.getElementById("pin"), desc = document.getElementById("desc"), vnote = document.getElementById("vnote");
+  // Links for one channel only (FlexOffers: How To Rocket): the Channel row shows while there are any, and they're
+  // offered only once that channel is picked (the choice stays on this device).
+  var vch = document.getElementById("vch"), CH = { htr: "How To Rocket", gg: "Guide Glimpse", lp: "Logic Protocol" };
+  if (BOX.items.some(function (it) { return it.c; })) document.getElementById("vchrow").hidden = false;
+  try { vch.value = localStorage.getItem("team-links-channel") || ""; } catch (e) {}
+  function chOk(it) { return !it.c || it.c === vch.value; }
   var none = document.createElement("option"); none.value = ""; none.textContent = "No link (newsletter line only)"; sel.appendChild(none);
-  BOX.items.forEach(function (it) { var o = document.createElement("option"); o.value = it.s; o.textContent = it.n; sel.appendChild(o); });
+  BOX.items.forEach(function (it) {
+    var o = document.createElement("option"); o.value = it.s; o.textContent = it.n + (it.c ? " (" + CH[it.c] + " only)" : ""); sel.appendChild(o);
+  });
   var manual = null;
   // The tool a text names (longest name first), as in the editor lists; [] if none. With onlyRule, the tool whose link
-  // the title names but whose rule leaves it out (Skool on a settings video).
+  // the title names but whose rule leaves it out (Skool on a settings video, a How To Rocket-only link on another channel).
   function toolIn(text, title, onlyRule) {
     var tl = " " + text.toLowerCase() + " ", j, it;
     for (j = 0; j < keys.length; j++) {
       it = keys[j].it;
       if (!keys[j].rx.test(tl) || (it.xr && it.xr.test(title))) continue;
-      if (!it.or || it.or.test(title)) { if (!onlyRule) return [it]; }
+      if ((!it.or || it.or.test(title)) && chOk(it)) { if (!onlyRule) return [it]; }
       else if (onlyRule) return [it];
     }
     return [];
@@ -874,19 +897,21 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
     } else if (excluded) {
       note = "";
     } else if (manual !== null) {
-      if (bySlug[manual]) its = [bySlug[manual]];
-      note = its.length ? "Picked by hand." : "No link: newsletter line only.";
+      if (bySlug[manual] && chOk(bySlug[manual])) its = [bySlug[manual]];
+      else if (bySlug[manual]) ruled = bySlug[manual];
+      note = its.length ? "Picked by hand." : ruled ? "" : "No link: newsletter line only.";
     } else {
       its = compared(title);
       if (its.length < 2) its = toolIn(title, title);
       if (!its.length) ruled = toolIn(title, title, true)[0] || null;
       note = its.length > 1 ? "Found in the title. To use only one, pick it here."
            : its.length ? "Found in the title. Wrong one? Pick another."
+           : ruled && !chOk(ruled) ? ""
            : ruled ? "If this video is for people starting out, pick " + ruled.n + " here."
            : "No tool from our list in the title. Pick one if the video is about one.";
     }
     it = its[0] || null;
-    sel.value = it ? it.s : "";
+    sel.value = it ? it.s : ruled && manual === ruled.s ? manual : "";
     sel.disabled = cancel || excluded;
     PROTECT = {};
     (its.length ? names(its) : guide ? guide.n : "").toLowerCase().split(/[^a-z0-9']+/).forEach(function (w) { if (w) PROTECT[w] = 1; });
@@ -903,6 +928,8 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
       : it ? "✓ We have an affiliate link: " + it.n + " → useandlike.com/" + it.s
       : cancel ? "Cancel video: no affiliate link" + (guide ? ", the cancel guide goes in instead" : "") + " (our rule)."
       : excluded ? "No affiliate link: video about refunds, free versions, cracks or alternatives (our rule)."
+      : ruled && !chOk(ruled) ? "Our " + ruled.n + " link is only for " + CH[ruled.c] + " videos" +
+          (vch.value ? ", so this one gets only the newsletter line." : ". Is this one? Pick the channel above.")
       : ruled ? "No affiliate link on this one (our rule for " + ruled.n + "): " + lowerFirst(ruled.on)
       : "No affiliate link for this video: only the newsletter line.";
     grow(pin); grow(desc);
@@ -912,6 +939,10 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
   desc.addEventListener("input", function () { grow(desc); });
   vt.addEventListener("input", function () { manual = null; makeLines(); });
   onlytop.addEventListener("change", makeLines);
+  vch.addEventListener("change", function () {
+    try { localStorage.setItem("team-links-channel", vch.value); } catch (e) {}
+    makeLines();
+  });
   sel.addEventListener("change", function () { manual = sel.value; makeLines(); });
 """
 

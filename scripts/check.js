@@ -116,6 +116,20 @@ function readRedirects(errors, warnings) {
       const used = new Set(data.TOOLS.map(t => t.slug));
       for (const slug of redirects.keys())
         if (!used.has(slug)) console.log(`info /${slug} is a short link only (not listed on the page)`);
+      // FlexOffers approved only How To Rocket (15 Oct; useandlike.com and Guide Glimpse were turned down): its links
+      // can't be a tool's Visit link here, and data/short-links.json marks them "only": "htr" (team page, new-video box).
+      const FLEX = /(^|\.)(flexlinkspro\.com|flexlinks\.com|flexoffers\.com|fxo\.co)$/i;
+      let shortLinks = {};
+      try { shortLinks = JSON.parse(fs.readFileSync(path.resolve(__dirname, "..", "data", "short-links.json"), "utf8")); }
+      catch (_) { warnings.push("data/short-links.json could not be read"); }
+      for (const [slug, url] of redirects) {
+        let host = "";
+        try { host = new URL(url).hostname; } catch (_) {}
+        if (!FLEX.test(host)) continue;
+        if (used.has(slug)) errors.push(`/${slug} is a FlexOffers link: it can't be a tool on the site (FlexOffers approved only How To Rocket)`);
+        if ((shortLinks[slug] || {}).only !== "htr")
+          errors.push(`/${slug} is a FlexOffers link: give it "only": "htr" in data/short-links.json (How To Rocket videos only)`);
+      }
       if (data.NEWSLETTER.ready && !redirects.has("newsletter"))
         errors.push('NEWSLETTER.ready is true but _redirects has no "/newsletter" line');
       if (!data.CHANNELS.length) warnings.push("CHANNELS is empty, so the Videos tab has no channel links");
