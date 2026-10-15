@@ -32,6 +32,7 @@ LINKS_PAGE_URL = "https://useandlike.com/team-links/"  # hidden page (Kevin, 13 
 OWN_HOSTS = ("useandlike.com", "useandlike.beehiiv.com", "subscriptionchef.app")  # our own short links, left off the page
 # Names and groups of the short links that aren't tools on the site (most written by useandlike-ops/analysis/yazing-add.py).
 SHORT_LINKS = os.path.join(ROOT, "data", "short-links.json")
+TITLE_FIXES = os.path.join(ROOT, "data", "title-fixes.json")
 # Everyday English words (lowercase in a sentence), for the new-video box: see the file's header.
 COMMON_WORDS = os.path.join(ROOT, "data", "common-words.txt")
 # Last line of a pinned comment (the description uses NEWSLETTER_LINE); same as useandlike-ops/analysis/pinned-comment-lines.py.
@@ -161,6 +162,8 @@ def write_links_page(tools):
     today = date.today()
     by_slug = {t["slug"]: t for t in tools}
     extra = json.load(open(SHORT_LINKS, encoding="utf-8")) if os.path.exists(SHORT_LINKS) else {}
+    # Titles for the manager to fix (the page's "Titles to fix" popup), written by useandlike-ops/analysis/title-fixes.py
+    title_fixes = json.load(open(TITLE_FIXES, encoding="utf-8")) if os.path.exists(TITLE_FIXES) else []
     links = []
     for slug, target in redirects:
         if (urllib.parse.urlparse(target).hostname or "").endswith(OWN_HOSTS):
@@ -231,7 +234,8 @@ def write_links_page(tools):
             .replace("<!--COUNT-->", str(len(links))).replace("<!--UPDATED-->", nice_day(today.isoformat()))
             .replace("<!--NEWSLETTER-->", esc(NEWSLETTER_LINE)).replace("/*NEWSLETTER*/", json.dumps(NEWSLETTER_LINE))
             .replace("<!--NEW_DAYS-->", str(NEW_DAYS)).replace("/*NEW_DAYS*/", str(NEW_DAYS))
-            .replace("<!--NEWS-->", "".join(news)).replace("<!--LIST-->", "".join(sections)))
+            .replace("<!--NEWS-->", "".join(news)).replace("<!--LIST-->", "".join(sections))
+            .replace("/*TITLE_FIXES*/", json.dumps(title_fixes, ensure_ascii=False).replace("</", "<\\/")))
     icon = re.search(r'<link rel="icon"[^>]*>', src)
     page = page.replace("<!--ICON-->", icon.group(0) if icon else "")
     os.makedirs(os.path.join(ROOT, "team-links"), exist_ok=True)
@@ -304,9 +308,9 @@ code { font-family: var(--mono); }
 .badge { font-size: .7rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; background: var(--new-bg); color: var(--new-fg); border-radius: 4px; padding: 1px 6px; }
 .date { flex-basis: 100%; font-size: .8rem; color: var(--muted); font-variant-numeric: tabular-nums; }
 .line { font-size: .88rem; min-width: 0; overflow-wrap: anywhere; }
-button[data-copy], button[data-copyout] { font: inherit; font-size: .9rem; font-weight: 600; min-width: 6.8rem; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--brand); background: var(--brand); color: var(--brand-text); cursor: pointer; }
-button[data-copy]:hover, button[data-copyout]:hover { filter: brightness(1.12); }
-button[data-copy].ok, button[data-copyout].ok { background: var(--surface); color: var(--ok); border-color: var(--ok); }
+button[data-copy], button[data-copyout], button[data-tfcopy] { font: inherit; font-size: .9rem; font-weight: 600; min-width: 6.8rem; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--brand); background: var(--brand); color: var(--brand-text); cursor: pointer; }
+button[data-copy]:hover, button[data-copyout]:hover, button[data-tfcopy]:hover { filter: brightness(1.12); }
+button[data-copy].ok, button[data-copyout].ok, button[data-tfcopy].ok { background: var(--surface); color: var(--ok); border-color: var(--ok); }
 .maker { margin-top: 20px; padding: 16px 18px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); display: grid; gap: 10px; }
 .maker h2 { font-family: var(--serif); font-weight: 400; font-size: 1.35rem; margin: 0; }
 .maker .hint { margin: 0; max-width: 70ch; font-size: .9rem; color: var(--muted); }
@@ -328,6 +332,26 @@ button[data-copy].ok, button[data-copyout].ok { background: var(--surface); colo
 .row.flash { background: var(--flash); }
 .none { margin-top: 24px; padding: 14px 16px; border: 1px dashed var(--line); border-radius: 10px; color: var(--muted); }
 footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--muted); }
+/* Titles to fix (Kevin, 15 Oct): a popup for the manager, opened once a day while some are left */
+.tf-open { margin-top: 12px; font: inherit; font-size: .9rem; font-weight: 600; padding: 8px 14px; border-radius: 8px;
+  border: 1px solid var(--brass); background: var(--new-bg); color: var(--new-fg); cursor: pointer; }
+dialog.tf { width: min(760px, calc(100vw - 24px)); max-height: calc(100vh - 32px); padding: 0; border: 1px solid var(--line);
+  border-radius: 12px; background: var(--surface); color: var(--text); }
+dialog.tf::backdrop { background: rgba(0, 0, 0, .45); }
+.tf-head { position: sticky; top: 0; z-index: 1; background: var(--surface); padding: 16px 52px 12px 18px; border-bottom: 1px solid var(--line); display: grid; gap: 6px; }
+.tf-head h2 { font-family: var(--serif); font-weight: 400; font-size: 1.35rem; margin: 0; }
+.tf-head p { margin: 0; font-size: .88rem; color: var(--muted); max-width: 70ch; }
+.tf-close { position: absolute; top: 10px; right: 10px; font: inherit; font-size: 1.2rem; line-height: 1; padding: 8px 10px; border: 0;
+  border-radius: 8px; background: transparent; color: var(--muted); cursor: pointer; }
+.tf-list { list-style: none; margin: 0; padding: 0 18px 18px; }
+.tf-item { padding: 12px 0; border-bottom: 1px solid var(--line); display: grid; gap: 6px; }
+.tf-item.done { opacity: .5; }
+.tf-meta { font-size: .76rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); }
+.tf-old { margin: 0; font-size: .88rem; color: var(--muted); text-decoration: line-through; overflow-wrap: anywhere; }
+.tf-new { margin: 0; font-weight: 600; overflow-wrap: anywhere; }
+.tf-do { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; font-size: .9rem; }
+.tf-do a { color: var(--link); }
+.tf-do label { display: flex; gap: 6px; align-items: center; cursor: pointer; }
 @media (max-width: 640px) {
   .row { grid-template-columns: minmax(0, 1fr) auto; }
   .who { grid-column: 1; grid-row: 1; }
@@ -346,7 +370,19 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
       into the pinned comment. Use only these short links. A video about an app that isn’t listed gets only the newsletter line.</p>
     <p class="meta"><b><!--COUNT--></b> links · updated <!--UPDATED--></p>
     <p class="nl-line">Newsletter line, added when you tick the box below: <code><!--NEWSLETTER--></code></p>
+    <button type="button" id="tf-open" class="tf-open" hidden>✏️ Titles to fix: <span id="tf-left"></span></button>
   </header>
+
+  <dialog id="tf" class="tf" aria-labelledby="tf-h">
+    <div class="tf-head">
+      <h2 id="tf-h">Titles to fix</h2>
+      <p>For the manager: these titles lost a “?”, a colon, a dot or an apostrophe, or have double spaces, ALL CAPS or an
+        old year. Copy the new title, open the video in YouTube Studio, paste it as the title and save, then tick Done.
+        Only the title changes. Busiest videos first. Ticks stay on this device; changed titles drop off the list at the next check.</p>
+      <button type="button" class="tf-close" aria-label="Close">✕</button>
+    </div>
+    <ol id="tf-list" class="tf-list"></ol>
+  </dialog>
 
   <section class="maker" aria-labelledby="maker-h">
     <h2 id="maker-h">New video? Paste its title</h2>
@@ -433,6 +469,55 @@ footer { margin-top: 36px; max-width: 70ch; font-size: .85rem; color: var(--mute
     copyText(row.dataset.line + (nl.checked ? "\\n" + NEWS : ""), b, function () { selectLine(row); });
   }
 /*BOX_JS*/
+  // Titles to fix (Kevin, 15 Oct): the list for the manager, from data/title-fixes.json; opens once a day while some are left.
+  var TF = /*TITLE_FIXES*/, tf = document.getElementById("tf"), tfOpen = document.getElementById("tf-open");
+  var CHANNEL = { htr: "How To Rocket", gg: "Guide Glimpse" }, tfDone = {};
+  try { JSON.parse(localStorage.getItem("tf-done") || "[]").forEach(function (id) { tfDone[id] = 1; }); } catch (e) {}
+  function tfLeft() {
+    var n = TF.filter(function (x) { return !tfDone[x.id]; }).length;
+    document.getElementById("tf-left").textContent = n + " left";
+    return n;
+  }
+  if (TF.length && tf && tf.showModal) {
+    var tfList = document.getElementById("tf-list");
+    TF.forEach(function (x) {
+      var li = document.createElement("li");
+      li.className = "tf-item" + (tfDone[x.id] ? " done" : "");
+      li.innerHTML = '<span class="tf-meta"></span><p class="tf-old"></p><p class="tf-new"></p>' +
+        '<div class="tf-do"><button type="button" data-tfcopy>Copy</button>' +
+        '<a target="_blank" rel="noopener">Open in YouTube Studio ↗</a><label><input type="checkbox"> Done</label></div>';
+      li.querySelector(".tf-meta").textContent = CHANNEL[x.ch] + " · " + x.why;
+      li.querySelector(".tf-old").textContent = x.title;
+      li.querySelector(".tf-new").textContent = x["new"];
+      li.querySelector("a").href = "https://studio.youtube.com/video/" + x.id + "/edit";
+      var cb = li.querySelector("input");
+      cb.checked = !!tfDone[x.id];
+      cb.addEventListener("change", function () {
+        if (cb.checked) tfDone[x.id] = 1; else delete tfDone[x.id];
+        li.classList.toggle("done", cb.checked);
+        try { localStorage.setItem("tf-done", JSON.stringify(Object.keys(tfDone))); } catch (e) {}
+        tfLeft();
+      });
+      li.querySelector("button").addEventListener("click", function (ev) {
+        var t = li.querySelector(".tf-new");
+        copyText(x["new"], ev.currentTarget, function () {
+          var r = document.createRange(); r.selectNodeContents(t);
+          var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r);
+        });
+      });
+      tfList.appendChild(li);
+    });
+    tfOpen.hidden = false;
+    tfOpen.addEventListener("click", function () { tf.showModal(); });
+    tf.querySelector(".tf-close").addEventListener("click", function () { tf.close(); });
+    tf.addEventListener("click", function (ev) { if (ev.target === tf) tf.close(); });   // a click on the dark backdrop
+    var today = new Date().toISOString().slice(0, 10), shown = null;
+    try { shown = localStorage.getItem("tf-shown"); } catch (e) {}
+    if (tfLeft() && shown !== today) {
+      try { localStorage.setItem("tf-shown", today); } catch (e) {}
+      tf.showModal();
+    }
+  }
   function filter() {
     var s = q.value.trim().toLowerCase(), o = only.checked, shown = 0;
     document.querySelectorAll("#list .row").forEach(function (r) {
