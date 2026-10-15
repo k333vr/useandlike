@@ -62,9 +62,14 @@ code { font-family: var(--mono); }
 .badge { font-size: .7rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; background: var(--new-bg); color: var(--new-fg); border-radius: 4px; padding: 1px 6px; }
 .date { flex-basis: 100%; font-size: .8rem; color: var(--muted); font-variant-numeric: tabular-nums; }
 .line { font-size: .88rem; min-width: 0; overflow-wrap: anywhere; }
-button[data-copy], button[data-copyout], button[data-tfcopy] { font: inherit; font-size: .9rem; font-weight: 600; min-width: 6.8rem; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--brand); background: var(--brand); color: var(--brand-text); cursor: pointer; }
-button[data-copy]:hover, button[data-copyout]:hover, button[data-tfcopy]:hover { filter: brightness(1.12); }
-button[data-copy].ok, button[data-copyout].ok, button[data-tfcopy].ok { background: var(--surface); color: var(--ok); border-color: var(--ok); }
+button[data-copy], button[data-copyout], button[data-tfcopy], button[data-copytext] { font: inherit; font-size: .9rem; font-weight: 600; min-width: 6.8rem; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--brand); background: var(--brand); color: var(--brand-text); cursor: pointer; }
+button[data-copy]:hover, button[data-copyout]:hover, button[data-tfcopy]:hover, button[data-copytext]:hover { filter: brightness(1.12); }
+button[data-copy].ok, button[data-copyout].ok, button[data-tfcopy].ok, button[data-copytext].ok { background: var(--surface); color: var(--ok); border-color: var(--ok); }
+.outro-lines { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.outro-lines li { display: flex; gap: 10px 14px; align-items: center; justify-content: space-between; flex-wrap: wrap; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.outro-lines span { flex: 1 1 18rem; min-width: 0; }
+.outro-cards { margin: 0; font-size: .92rem; }
+.outro-cards a { color: var(--link); }
 .maker { margin-top: 20px; padding: 16px 18px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); display: grid; gap: 10px; }
 .maker h2 { font-family: var(--serif); font-weight: 400; font-size: 1.35rem; margin: 0; }
 .maker .hint { margin: 0; max-width: 70ch; font-size: .9rem; color: var(--muted); }
@@ -154,6 +159,20 @@ dialog.tf::backdrop { background: rgba(0, 0, 0, .45); }
         <textarea id="desc" rows="6" spellcheck="false" aria-label="Description"></textarea>
         <label class="opt small" for="onlytop"><input id="onlytop" type="checkbox"><span>Only our top lines <em>(to put above an old video's description)</em></span></label></div>
     </div>
+  </section>
+
+  <section class="maker" aria-labelledby="outro-h">
+    <h2 id="outro-h">Outro for every new video</h2>
+    <p class="hint">Say one of these lines at the very end of every new video. An end-card picture is optional: show it for the
+      last 3–5 seconds, before YouTube's end screen.</p>
+    <ul class="outro-lines">
+      <li><span>Want to see what all your subscriptions cost? Get our free Subscription Tracker: the link is in the description.</span><button type="button" data-copytext="Want to see what all your subscriptions cost? Get our free Subscription Tracker: the link is in the description.">Copy</button></li>
+      <li><span>Before you go: our free Subscription Tracker shows every app you pay for. Link in the description.</span><button type="button" data-copytext="Before you go: our free Subscription Tracker shows every app you pay for. Link in the description.">Copy</button></li>
+      <li><span>Paying for more apps than you think? Our free Subscription Tracker shows you. Link in the description and the pinned comment.</span><button type="button" data-copytext="Paying for more apps than you think? Our free Subscription Tracker shows you. Link in the description and the pinned comment.">Copy</button></li>
+    </ul>
+    <p class="outro-cards">End-card pictures (1920 × 1080, open and save): How To Rocket <a href="outro/end-card-htr-lexi.jpg" target="_blank" rel="noopener">Lexi</a> ·
+      <a href="outro/end-card-htr-yuna.jpg" target="_blank" rel="noopener">Yuna</a> — Guide Glimpse <a href="outro/end-card-gg-hana.jpg" target="_blank" rel="noopener">Hana</a> ·
+      <a href="outro/end-card-gg-ellie.jpg" target="_blank" rel="noopener">Ellie</a></p>
   </section>
 
   <div class="bar">
@@ -1072,6 +1091,10 @@ dialog.tf::backdrop { background: rgba(0, 0, 0, .45); }
   document.addEventListener("click", function (ev) {
     var b = ev.target.closest("button[data-copy]");
     if (b) { copy(b); return; }
+    var ct = ev.target.closest("button[data-copytext]");
+    if (ct) { copyText(ct.dataset.copytext, ct, function () {
+      var r = document.createRange(); r.selectNodeContents(ct.previousElementSibling);
+      var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r); }); return; }
     var o = ev.target.closest("button[data-copyout]");
     if (o) { var ta = document.getElementById(o.dataset.copyout); copyText(ta.value, o, function () { ta.focus(); ta.select(); }); return; }
     var a = ev.target.closest("a[data-jump]");

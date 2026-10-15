@@ -51,7 +51,8 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   linked anywhere, noindex, not in the sitemap). Commit it with every link change so it stays current. `scripts/youtube-descriptions.py` (login/run, preview by default, `--apply` to change YouTube) puts the same
   lines at the top of old descriptions via the YouTube Data API, most viewed first, ~180/day; tokens live outside the repo.
   Description format: `👉 Try <Tool> (affiliate): useandlike.com/<slug>` (an "A vs B" title gets one per compared tool we have a link for) then the 📩 newsletter line, then an empty line.
-  The page also has a "Titles to fix" popup for the manager (Kevin, 15 Oct: titles "weirdly worded for youtube"): the list
+  The page also has an "Outro for every new video" box (Kevin, 15 Oct: spoken line at the end of every video; optional
+  end-card pictures in `team-links/outro/`, 1920x1080, made from the presenters' tracker pictures) and a "Titles to fix" popup for the manager (Kevin, 15 Oct: titles "weirdly worded for youtube"): the list
   is `data/title-fixes.json`, written by useandlike-ops/analysis/title-fixes.py (`check` drops titles already changed on
   YouTube; then re-run build-editor-lists.py); it opens once a day while some are left, Done ticks stay on the device.
   Some links only go on some of their tool's videos: `LINK_ONLY_IF` in build-editor-lists.py (Skool, Kevin 14 Oct: only where
