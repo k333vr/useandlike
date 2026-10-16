@@ -119,16 +119,22 @@ function readRedirects(errors, warnings) {
       // FlexOffers approved only How To Rocket (15 Oct; useandlike.com and Guide Glimpse were turned down): its links
       // can't be a tool's Visit link here, and data/short-links.json marks them "only": "htr" (team page, new-video box).
       const FLEX = /(^|\.)(flexlinkspro\.com|flexlinks\.com|flexoffers\.com|fxo\.co)$/i;
+      // A FlexOffers link starts its foid with the traffic source it was made for (foid=<source>.A<advertiser>). Kevin's
+      // traffic sources (16 Oct): How To Rocket approved; useandlike.com and Guide Glimpse not.
+      const FLEX_OK = "1579752", FLEX_NOT = { "1579751": "useandlike.com", "1579753": "Guide Glimpse" };
       let shortLinks = {};
       try { shortLinks = JSON.parse(fs.readFileSync(path.resolve(__dirname, "..", "data", "short-links.json"), "utf8")); }
       catch (_) { warnings.push("data/short-links.json could not be read"); }
       for (const [slug, url] of redirects) {
-        let host = "";
-        try { host = new URL(url).hostname; } catch (_) {}
-        if (!FLEX.test(host)) continue;
+        let u = null;
+        try { u = new URL(url); } catch (_) {}
+        if (!u || !FLEX.test(u.hostname)) continue;
         if (used.has(slug)) errors.push(`/${slug} is a FlexOffers link: it can't be a tool on the site (FlexOffers approved only How To Rocket)`);
         if ((shortLinks[slug] || {}).only !== "htr")
           errors.push(`/${slug} is a FlexOffers link: give it "only": "htr" in data/short-links.json (How To Rocket videos only)`);
+        const source = (u.searchParams.get("foid") || "").split(".")[0];
+        if (FLEX_NOT[source]) errors.push(`/${slug} is a FlexOffers link made for ${FLEX_NOT[source]}, which FlexOffers didn't approve: make it for How To Rocket`);
+        else if (source !== FLEX_OK) warnings.push(`/${slug}: can't tell which traffic source this FlexOffers link was made for (expected How To Rocket)`);
       }
       if (data.NEWSLETTER.ready && !redirects.has("newsletter"))
         errors.push('NEWSLETTER.ready is true but _redirects has no "/newsletter" line');
