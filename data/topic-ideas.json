@@ -1,0 +1,1449 @@
+{
+ "made": "2026-10-16",
+ "pay_well": [
+  "Money apps: sending money, payments, banks",
+  "Business and office tools",
+  "AI subscriptions and assistants",
+  "Shopping (Shein, Temu)",
+  "Video and photo editing",
+  "Email",
+  "Dating",
+  "Travel and eSIMs",
+  "US phone carriers and services"
+ ],
+ "pay_badly": [
+  "Games and game mods",
+  "Free VPNs and \"premium for free\"",
+  "Chat and live-stream apps",
+  "Apps used only in the Philippines or India",
+  "Government apps"
+ ],
+ "apps_more": [
+  {
+   "name": "Airalo",
+   "earn": true
+  },
+  {
+   "name": "Noom",
+   "earn": false
+  },
+  {
+   "name": "Loom",
+   "earn": false
+  },
+  {
+   "name": "eHarmony",
+   "earn": true
+  },
+  {
+   "name": "Shein",
+   "earn": true
+  },
+  {
+   "name": "Zangi",
+   "earn": false
+  },
+  {
+   "name": "Hostelworld",
+   "earn": false
+  },
+  {
+   "name": "Wise",
+   "earn": true
+  },
+  {
+   "name": "Ria Money Transfer",
+   "earn": true
+  },
+  {
+   "name": "AT&T",
+   "earn": true
+  },
+  {
+   "name": "Emirates Skywards",
+   "earn": false
+  },
+  {
+   "name": "PayPal",
+   "earn": false
+  },
+  {
+   "name": "TalkPal AI",
+   "earn": false
+  },
+  {
+   "name": "Session",
+   "earn": false
+  },
+  {
+   "name": "Copart",
+   "earn": false
+  },
+  {
+   "name": "Pegasus Airlines",
+   "earn": false
+  },
+  {
+   "name": "ChatGPT",
+   "earn": false
+  },
+  {
+   "name": "Garmin Connect",
+   "earn": false
+  }
+ ],
+ "apps_skip": [
+  "Playnite",
+  "Viber",
+  "BookMyShow",
+  "Bloodstrike",
+  "Proton VPN",
+  "WeChat",
+  "Talkin",
+  "Baidu",
+  "Urban VPN",
+  "eGovPH",
+  "Reclub",
+  "EQUALS",
+  "BlueStacks"
+ ],
+ "searches": [
+  "strava vs garmin",
+  "google ai pro vs chatgpt plus",
+  "amazon music vs apple music",
+  "apple music vs amazon music",
+  "samsung pay vs google pay",
+  "tidal vs qobuz",
+  "qobuz vs tidal",
+  "keepass vs keepassxc",
+  "malwarebytes review",
+  "samsung pay vs apple pay",
+  "shein hoodie review",
+  "apple pay vs samsung pay",
+  "gemini pro vs chatgpt plus",
+  "chatgpt plus vs pro",
+  "proton vpn free trial",
+  "tradingview free trial",
+  "samsung wallet vs google wallet",
+  "eharmony review",
+  "google ai plus vs pro",
+  "gemini ai pro vs chatgpt plus",
+  "1password vs proton pass",
+  "appwrite vs supabase",
+  "google wallet vs samsung wallet",
+  "pytorch vs tensorflow",
+  "preply trial lesson",
+  "supabase vs firebase",
+  "hostinger coupon code",
+  "brilliant.org review",
+  "shopify free trial",
+  "threads vs x",
+  "google pay vs samsung pay",
+  "google ai plus vs google ai pro",
+  "gemini pro vs chatgpt pro",
+  "chatgpt pro vs plus",
+  "pytorch vs tensorflow vs keras",
+  "microsoft 365 personal review",
+  "google ai ultra review",
+  "firebase vs supabase",
+  "deezer vs tidal"
+ ],
+ "flex": [
+  {
+   "name": "Deel",
+   "pays": "$800 per paying customer",
+   "ideas": [
+    "How to Hire International Contractors With Deel (Step by Step)",
+    "Deel vs Remote — Which One Fits a Small Team?",
+    "How to Pay a Freelancer Abroad With Deel"
+   ]
+  },
+  {
+   "name": "Webflow",
+   "pays": "40% of a new site plan",
+   "ideas": [
+    "How to Build a Website With Webflow (Full Guide)",
+    "Webflow vs Wix — Which Website Builder Should You Pick?",
+    "Webflow Pricing Explained — Which Plan Do You Need?"
+   ]
+  },
+  {
+   "name": "Envato Elements",
+   "pays": "$16-96 per subscriber",
+   "ideas": [
+    "How to Use Envato Elements (Templates, Music and Video)",
+    "Envato Elements vs Motion Array — Which One Is Worth Paying For?"
+   ]
+  },
+  {
+   "name": "Brevo",
+   "pays": "$80 a sale",
+   "ideas": [
+    "How to Send Your First Email Campaign With Brevo",
+    "ActiveCampaign vs Brevo — Which Email Tool Fits You?",
+    "Brevo Pricing Explained — Free Plan vs Paid"
+   ]
+  },
+  {
+   "name": "Norton",
+   "pays": "$12.80-80 a sale",
+   "ideas": [
+    "How to Install Norton 360 on Windows and Mac",
+    "Norton vs Bitdefender — Which Antivirus Protects You Better?",
+    "Norton 360 Plans Compared — Which One Do You Need?"
+   ]
+  },
+  {
+   "name": "AVG",
+   "pays": "56% (24% in the US and Canada)",
+   "ideas": [
+    "How to Install AVG Antivirus on Windows (Step by Step)",
+    "AVG Free vs AVG Internet Security — Is the Upgrade Worth It?"
+   ]
+  },
+  {
+   "name": "Motion",
+   "pays": "$40 per order",
+   "ideas": [
+    "How to Plan Your Week With Motion (AI Calendar Tutorial)",
+    "Motion vs Todoist — Which Planner Fits You?"
+   ]
+  },
+  {
+   "name": "FreshBooks",
+   "pays": "$88 a sale (US and Canada)",
+   "ideas": [
+    "How to Send Your First Invoice With FreshBooks",
+    "FreshBooks vs QuickBooks — Which One Is Easier for Freelancers?"
+   ]
+  },
+  {
+   "name": "Xero",
+   "pays": "$240 per referral",
+   "ideas": [
+    "How to Set Up Xero for a Small Business (Full Guide)",
+    "Xero vs QuickBooks — Which Accounting App Should You Use?"
+   ]
+  },
+  {
+   "name": "monday.com",
+   "pays": "80% of the first payment",
+   "ideas": [
+    "How to Use monday.com for Beginners (Full Guide)",
+    "monday.com vs ClickUp — Which One Fits Your Team?"
+   ]
+  },
+  {
+   "name": "Pipedrive",
+   "pays": "16% of the first 12 months",
+   "ideas": [
+    "How to Set Up Pipedrive CRM (Step by Step)",
+    "HubSpot vs Pipedrive — Which CRM Is Easier?"
+   ]
+  },
+  {
+   "name": "Google Workspace",
+   "pays": "up to $21.60 a sale",
+   "ideas": [
+    "How to Set Up Google Workspace With Your Own Domain",
+    "Google Workspace vs Microsoft 365 — Which One Should You Pick?"
+   ]
+  },
+  {
+   "name": "QuillBot",
+   "pays": "8-16% a sale",
+   "ideas": [
+    "How to Use QuillBot Paraphraser (Full Guide)",
+    "QuillBot vs Grammarly — Which One Do You Need?"
+   ]
+  },
+  {
+   "name": "Zendrop",
+   "pays": "$20 per paid plan",
+   "ideas": [
+    "How to Start Dropshipping With Zendrop (Step by Step)",
+    "AutoDS vs Zendrop — Which One Is Worth Paying For?"
+   ]
+  },
+  {
+   "name": "TikTok for Business",
+   "pays": "$100 per active advertiser",
+   "ideas": [
+    "How to Run Your First TikTok Ad (Step by Step)",
+    "How to Set Up TikTok Ads Manager for a Small Business"
+   ]
+  },
+  {
+   "name": "Amazon Music",
+   "pays": "$1.20-6.16 per paid sign-up",
+   "ideas": [
+    "How to Get Amazon Music Unlimited Free Trial",
+    "Amazon Music Unlimited Plans Explained — Which One Do You Need?"
+   ]
+  },
+  {
+   "name": "CCleaner",
+   "pays": "24% a sale",
+   "ideas": [
+    "How to Use CCleaner to Speed Up Your PC (Full Guide)",
+    "CCleaner Free vs Pro — Is It Worth Paying For?"
+   ]
+  },
+  {
+   "name": "Todoist",
+   "pays": "20% of the first year",
+   "ideas": [
+    "How to Use Todoist for Beginners (Full Guide)",
+    "Todoist vs TickTick — Which To-Do App Should You Pick?"
+   ]
+  },
+  {
+   "name": "Sider",
+   "pays": "12% a sale",
+   "ideas": [
+    "How to Use Sider AI in Chrome (Full Guide)",
+    "Sider Free vs Pro — Which Plan Do You Need?"
+   ]
+  }
+ ],
+ "open": [
+  {
+   "group": "Money & Trading",
+   "tools": [
+    {
+     "tool": "TradingView",
+     "slug": "tradingview",
+     "searches": [
+      "tradingview vs ninjatrader",
+      "tradingview vs tradovate",
+      "tradingview vs robinhood",
+      "tradingview vs tradelocker",
+      "tradingview vs trendspider",
+      "tradingview vs tradestation",
+      "tradingview vs tc2000",
+      "tradingview vs finviz",
+      "tradingview premium worth it",
+      "is tradingview essential worth it"
+     ]
+    },
+    {
+     "tool": "Ria Money Transfer",
+     "slug": "ria",
+     "searches": [
+      "ria money transfer review"
+     ]
+    },
+    {
+     "tool": "Remitly",
+     "slug": "remitly",
+     "searches": [
+      "remitly vs taptap",
+      "remitly vs ria",
+      "remitly vs western union",
+      "remitly vs worldremit",
+      "remitly vs paypal",
+      "remitly vs gpay",
+      "remitly vs revolut",
+      "wise vs remitly vs revolut",
+      "remitly reviews",
+      "remitly app review"
+     ]
+    },
+    {
+     "tool": "TurboTax",
+     "slug": "turbotax",
+     "searches": [
+      "turbotax vs h&r block",
+      "turbotax vs freetaxusa",
+      "turbotax vs taxact",
+      "turbotax vs cpa",
+      "turbotax vs tax preparer",
+      "turbotax vs accountant",
+      "is turbotax worth it",
+      "turbotax reviews",
+      "intuit turbotax review",
+      "turbotax expert review"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Business & Legal",
+   "tools": [
+    {
+     "tool": "Firstbase",
+     "slug": "firstbase",
+     "searches": [
+      "firstbase vs stripe atlas",
+      "firstbase vs doola",
+      "firstbase.io review"
+     ]
+    },
+    {
+     "tool": "Beehiiv",
+     "slug": "beehiiv",
+     "searches": [
+      "beehiiv vs substack",
+      "beehiiv vs kit",
+      "beehiiv vs mailchimp",
+      "beehiiv vs substack vs convertkit",
+      "beehiiv vs convertkit",
+      "beehiiv vs ghost",
+      "beehiiv vs mailerlite",
+      "beehiiv vs flodesk",
+      "beehiiv vs wordpress"
+     ]
+    },
+    {
+     "tool": "Browse AI",
+     "slug": "browseai",
+     "searches": [
+      "browse ai review"
+     ]
+    },
+    {
+     "tool": "Tidio",
+     "slug": "tidio",
+     "searches": [
+      "tidio vs manychat",
+      "tidio review",
+      "tidio free plan"
+     ]
+    },
+    {
+     "tool": "LegalZoom",
+     "slug": "legalzoom",
+     "searches": [
+      "legalzoom vs bizee",
+      "legalzoom vs northwest",
+      "legalzoom vs rocket lawyer",
+      "legalzoom basic vs pro",
+      "zenbusiness vs legalzoom accurate",
+      "incfile vs legalzoom",
+      "legalzoom reviews",
+      "legalzoom reviews for llc",
+      "is legalzoom worth it",
+      "legalzoom review is legalzoom legit"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Online Stores & Funnels",
+   "tools": [
+    {
+     "tool": "Shopify",
+     "slug": "shopify",
+     "searches": [
+      "shopify vs square",
+      "shopify vs etsy 2025 which platform is right for you",
+      "shopify vs g2",
+      "shopify pricing plans",
+      "shopify pricing products",
+      "shopify pricing explained",
+      "shopify pricing plans comprehensive",
+      "shopify pricing plans after",
+      "shopify pricing plans fits",
+      "shopify pricing plans benefits"
+     ]
+    },
+    {
+     "tool": "Systeme.io",
+     "slug": "systeme",
+     "searches": [
+      "systeme.io vs gohighlevel",
+      "systeme.io vs kajabi",
+      "systeme.io vs clickfunnels",
+      "systeme.io vs skool",
+      "systeme.io vs shopify",
+      "systeme.io vs convertkit",
+      "systeme.io vs payhip",
+      "systeme.io vs podia",
+      "systeme.io vs wordpress",
+      "systeme.io free plan"
+     ]
+    },
+    {
+     "tool": "ClickFunnels",
+     "slug": "clickfunnels",
+     "searches": [
+      "clickfunnels vs gohighlevel",
+      "clickfunnels vs systeme.io",
+      "clickfunnels vs kajabi",
+      "clickfunnels vs shopify",
+      "clickfunnels vs leadpages",
+      "clickfunnels classic vs 2.0",
+      "clickfunnels 2.0 vs high level",
+      "samcart vs clickfunnels",
+      "is clickfunnels worth it"
+     ]
+    },
+    {
+     "tool": "GoHighLevel",
+     "slug": "gohighlevel",
+     "searches": [
+      "gohighlevel vs hubspot",
+      "gohighlevel vs clickfunnels",
+      "gohighlevel vs systeme.io",
+      "gohighlevel vs kajabi",
+      "gohighlevel vs zoho",
+      "gohighlevel vs pipedrive",
+      "gohighlevel vs salesforce",
+      "gohighlevel pricing explained",
+      "gohighlevel review management",
+      "gohighlevel review request"
+     ]
+    },
+    {
+     "tool": "AutoDS",
+     "slug": "autods",
+     "searches": [
+      "autods vs cjdropshipping",
+      "autods vs zik analytics",
+      "autods vs spocket",
+      "autods vs dropship.io",
+      "autods vs kalodata",
+      "autods vs tradelle",
+      "autods pricing settings",
+      "autods product pricing"
+     ]
+    },
+    {
+     "tool": "Skool",
+     "slug": "skool",
+     "searches": [
+      "skool vs circle",
+      "skool vs kajabi",
+      "skool vs patreon",
+      "skool vs whop",
+      "skool vs stan store",
+      "skool vs mighty networks",
+      "skool vs discord",
+      "skool vs teachable",
+      "skool tiered pricing",
+      "skool.com review"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Email",
+   "tools": [
+    {
+     "tool": "Proton Mail",
+     "slug": "protonmail",
+     "searches": [
+      "proton mail vs mailbox",
+      "protonmail for business review",
+      "protonmail free review",
+      "protonmail vpn review",
+      "protonmail plans"
+     ]
+    },
+    {
+     "tool": "StartMail",
+     "slug": "startmail",
+     "searches": [
+      "startmail vs fastmail",
+      "startmail review"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Productivity & Design",
+   "tools": [
+    {
+     "tool": "Coda",
+     "slug": "coda",
+     "searches": [
+      "coda app review"
+     ]
+    },
+    {
+     "tool": "xTiles",
+     "slug": "xtiles",
+     "searches": [
+      "xtiles vs trello",
+      "xtiles review"
+     ]
+    },
+    {
+     "tool": "Visme",
+     "slug": "visme",
+     "searches": [
+      "visme vs canva",
+      "visme vs gamma",
+      "visme review",
+      "visme ai review"
+     ]
+    },
+    {
+     "tool": "WPS Office",
+     "slug": "wps",
+     "searches": [
+      "wps office vs onlyoffice",
+      "wps office vs freeoffice",
+      "wps office vs office suite",
+      "wps office vs libreoffice",
+      "wps office vs microsoft office",
+      "wps office vs microsoft 365",
+      "wps office vs office 365",
+      "wps office vs excel",
+      "wps office vs ms word",
+      "wps office vs wps office lite"
+     ]
+    },
+    {
+     "tool": "Pixlr",
+     "slug": "pixlr",
+     "searches": [
+      "pixlr vs photoshop",
+      "pixlr vs photopea",
+      "pixlr review",
+      "pixlr app review",
+      "pixlr ai review"
+     ]
+    },
+    {
+     "tool": "TeamViewer",
+     "slug": "teamviewer",
+     "searches": [
+      "teamviewer vs splashtop",
+      "teamviewer vs rustdesk",
+      "teamviewer vs chrome remote desktop",
+      "teamviewer vs parsec",
+      "teamviewer review",
+      "teamviewer tensor review",
+      "teamviewer remote control review"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Video Creation",
+   "tools": [
+    {
+     "tool": "CapCut",
+     "slug": "capcut",
+     "searches": [
+      "capcut vs davinci resolve",
+      "capcut vs final cut pro",
+      "capcut vs after effects",
+      "capcut vs alight motion",
+      "capcut vs imovie",
+      "capcut vs canva",
+      "capcut vs filmora",
+      "capcut vs adobe premiere pro",
+      "is capcut standard worth it",
+      "capcut free trial problem"
+     ]
+    },
+    {
+     "tool": "Descript",
+     "slug": "descript",
+     "searches": [
+      "descript vs davinci resolve",
+      "descript vs submagic",
+      "descript vs final cut pro",
+      "descript vs camtasia",
+      "descriptive pricing approaches",
+      "descript ai review",
+      "descript podcast review",
+      "descript discount code",
+      "descript coupon code",
+      "descript promo code"
+     ]
+    },
+    {
+     "tool": "InVideo",
+     "slug": "invideo",
+     "searches": [
+      "invideo vs heygen",
+      "invideo vs openart",
+      "invideo vs veo 3",
+      "invideo vs higgsfield",
+      "invideo vs fliki",
+      "invideo vs sora",
+      "invideo vs sora 2",
+      "invideo vs runway",
+      "invideo pricing explained",
+      "invideo pricing"
+     ]
+    },
+    {
+     "tool": "Opus Clip",
+     "slug": "opusclip",
+     "searches": [
+      "opus clip vs capcut",
+      "opus clip vs submagic",
+      "opus clip vs riverside",
+      "opus clip vs nexus clip",
+      "opus clip vs captions",
+      "opus clip vs klap",
+      "opus clip vs veed",
+      "opus clip vs invideo",
+      "opusclip pricing",
+      "opus clip review 2025"
+     ]
+    },
+    {
+     "tool": "Klap",
+     "slug": "klap",
+     "searches": [
+      "klap vs opus",
+      "klap ai review",
+      "klap burger review"
+     ]
+    },
+    {
+     "tool": "AutoShorts",
+     "slug": "autoshorts",
+     "searches": [
+      "autoshorts.ai review"
+     ]
+    },
+    {
+     "tool": "Syllaby",
+     "slug": "syllaby",
+     "searches": [
+      "syllaby.io vs invideo",
+      "syllaby.io review"
+     ]
+    },
+    {
+     "tool": "Riverside",
+     "slug": "riverside",
+     "searches": [
+      "is riverside worth it",
+      "riverside free plan",
+      "riverside fm review"
+     ]
+    },
+    {
+     "tool": "StreamYard",
+     "slug": "streamyard",
+     "searches": [
+      "streamyard vs obs",
+      "streamyard vs restream",
+      "streamyard vs streamlabs",
+      "streamyard vs evmux",
+      "streamyard vs zoom",
+      "streamyard vs riverside.fm",
+      "streamyard vs ecamm live",
+      "streamyard pricing plans",
+      "is streamyard worth it",
+      "streamyard free vs paid"
+     ]
+    },
+    {
+     "tool": "Vimeo",
+     "slug": "vimeo",
+     "searches": [
+      "vimeo vs loom",
+      "vimeo vs wistia",
+      "vimeo vs vishy",
+      "vimeo ott vs uscreen",
+      "gumlet vs vimeo",
+      "vimeo free plan",
+      "vimeo review tool",
+      "vimeo ott review",
+      "vimeo app review",
+      "vimeo company reviews"
+     ]
+    },
+    {
+     "tool": "Hailuo AI",
+     "slug": "hailuo",
+     "searches": [
+      "hailuo vs kling",
+      "hailuo vs veo 3",
+      "hailuo vs sora",
+      "hailuo vs runway",
+      "hailuo vs kling vs runway",
+      "hailuo vs veo",
+      "hailuo vs midjourney",
+      "hailuo vs kling ai",
+      "hailuo vs seedance",
+      "hailuo ai pricing"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "AI Writing & Research",
+   "tools": [
+    {
+     "tool": "Rytr",
+     "slug": "rytr",
+     "searches": [
+      "rytr review",
+      "rytr ai review"
+     ]
+    },
+    {
+     "tool": "Merlin AI",
+     "slug": "merlin",
+     "searches": [
+      "merlin ai vs chatgpt",
+      "is merlin ai worth it"
+     ]
+    },
+    {
+     "tool": "SciSpace",
+     "slug": "scispace",
+     "searches": [
+      "scispace vs elicit",
+      "scispace vs chatgpt",
+      "scispace vs perplexity",
+      "scispace vs anara",
+      "scispace vs consensus",
+      "scispace vs jenni",
+      "scispace vs paperpal",
+      "scispace vs turnitin",
+      "scispace vs jenni ai",
+      "scispace deep review"
+     ]
+    },
+    {
+     "tool": "Paperguide",
+     "slug": "paperguide",
+     "searches": [
+      "paperguide vs afforai"
+     ]
+    },
+    {
+     "tool": "Grammarly",
+     "slug": "grammarly",
+     "searches": [
+      "grammarly vs chatgpt",
+      "grammarly vs prowritingaid",
+      "grammarly vs quillbot",
+      "grammarly vs turnitin ai detector",
+      "grammarly vs languagetool",
+      "grammarly vs paperpal",
+      "grammarly vs turnitin",
+      "grammarly vs wordtune",
+      "grammarly vs copilot",
+      "grammarly subscription review"
+     ]
+    },
+    {
+     "tool": "Fireflies AI",
+     "slug": "fireflies",
+     "searches": [
+      "fireflies ai vs otter ai",
+      "fireflies ai vs read ai",
+      "fireflies ai note taker review"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Dating",
+   "tools": [
+    {
+     "tool": "eHarmony",
+     "slug": "eharmony",
+     "searches": [
+      "eharmony vs match",
+      "eharmony vs hinge",
+      "eharmony cost",
+      "eharmony review uk",
+      "eharmony app review",
+      "eharmony dating app reviews"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Shopping & Mobile",
+   "tools": [
+    {
+     "tool": "Shein",
+     "slug": "shein",
+     "searches": [
+      "shein vs temu clothing",
+      "shein vs temu workers",
+      "shein vs fashion nova men",
+      "shein estimated price",
+      "is shein saver worth it",
+      "is buying from shein worth it",
+      "are shein clothes worth it",
+      "is shein membership worth it",
+      "shein free trial program",
+      "shein free trial haul"
+     ]
+    },
+    {
+     "tool": "Temu",
+     "slug": "temu",
+     "searches": [
+      "temu vs amazon",
+      "temu vs amazon dirt bike",
+      "temu vs tiktok shop",
+      "temu vs amazon survival",
+      "temu vs aliexpress",
+      "temu vs amazon e bike",
+      "temu vs amazon pc",
+      "temu vs amazon gaming setup",
+      "temu prices",
+      "temu items worth buying"
+     ]
+    },
+    {
+     "tool": "AT&T",
+     "slug": "att",
+     "searches": [
+      "at&t vs verizon",
+      "at&t vs verizon vs t mobile",
+      "at&t vs spectrum internet",
+      "at&t vs t mobile speed test",
+      "at&t vs t mobile home internet",
+      "at&t vs cricket",
+      "at&t premium plan",
+      "at&t next up worth it",
+      "is at&t turbo worth it",
+      "at&t esim free trial"
+     ]
+    },
+    {
+     "tool": "GamsGo",
+     "slug": "gamsgo",
+     "searches": [
+      "gamsgo vs spliiit",
+      "gamsgo review",
+      "gamsgo coupon",
+      "gamsgo code promo"
+     ]
+    },
+    {
+     "tool": "Airalo",
+     "slug": "airalo",
+     "searches": [
+      "airalo vs holafly",
+      "airalo vs saily",
+      "airalo vs ubigi japan",
+      "airalo vs nomad",
+      "airalo vs ubigi",
+      "airalo vs gigsky",
+      "airalo vs saily japan",
+      "airalo vs holafly japan",
+      "airalo vs roamless",
+      "airalo reviews"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Travel",
+   "tools": [
+    {
+     "tool": "Agoda",
+     "slug": "agoda",
+     "searches": [
+      "agoda vs airbnb",
+      "agoda vs trip.com",
+      "agoda vs makemytrip",
+      "agoda vs klook",
+      "agoda vs oyo",
+      "agoda vs goibibo",
+      "agoda vs traveloka",
+      "agoda vs traveloka murah mana",
+      "agoda promo code",
+      "agoda app review"
+     ]
+    },
+    {
+     "tool": "Booking.com",
+     "slug": "booking",
+     "searches": [
+      "booking.com vs airbnb",
+      "booking.com vs expedia",
+      "booking.com vs hotels.com",
+      "booking.com vs agoda",
+      "booking.com vs makemytrip",
+      "booking.com pricing strategy",
+      "booking.com price change",
+      "booking.com price change sinhala",
+      "booking.com price match",
+      "booking.com review removal"
+     ]
+    },
+    {
+     "tool": "Expedia",
+     "slug": "expedia",
+     "searches": [
+      "expedia vs booking",
+      "expedia vs airbnb",
+      "priceline vs expedia",
+      "expedia review",
+      "is expedia worth it",
+      "expedia hotel review",
+      "expedia car rental review",
+      "expedia travel protection review",
+      "expedia credit card review",
+      "expedia discount code"
+     ]
+    },
+    {
+     "tool": "Kiwi.com",
+     "slug": "kiwi",
+     "searches": [
+      "kiwi.com review",
+      "kiwi.com promo code"
+     ]
+    },
+    {
+     "tool": "Klook",
+     "slug": "klook",
+     "searches": [
+      "klook vs kkday",
+      "klook vs agoda",
+      "klook vs headout",
+      "klook review",
+      "klook app review",
+      "klook esim review",
+      "klook app review dubai",
+      "klook dubai reviews",
+      "klook bali review",
+      "klook app review thailand"
+     ]
+    },
+    {
+     "tool": "lastminute.com",
+     "slug": "lastminute",
+     "searches": [
+      "lastminute.com review"
+     ]
+    },
+    {
+     "tool": "Omio",
+     "slug": "omio",
+     "searches": [
+      "omio vs trainline",
+      "omio review",
+      "omio app review",
+      "omio bus review",
+      "omio train reviews",
+      "omio global review",
+      "omio website review",
+      "omio discount code"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Website & App Builders",
+   "tools": [
+    {
+     "tool": "Lovable",
+     "slug": "lovable",
+     "searches": [
+      "lovable vs replit",
+      "lovable vs base44",
+      "lovable vs claude code",
+      "lovable vs bolt vs replit",
+      "lovable vs bubble",
+      "lovable pricing explained",
+      "lovable cloud pricing",
+      "lovable.dev pricing",
+      "lovable ai review",
+      "lovable.dev review"
+     ]
+    },
+    {
+     "tool": "Adalo",
+     "slug": "adalo",
+     "searches": [
+      "adalo vs bubble vs glide",
+      "adalo vs bubble",
+      "adalo vs glide",
+      "adalo vs thunkable",
+      "adalo vs base44",
+      "adalo app builder review"
+     ]
+    },
+    {
+     "tool": "Elementor",
+     "slug": "elementor",
+     "searches": [
+      "elementor vs divi",
+      "elementor vs gutenberg",
+      "elementor vs bricks",
+      "elementor vs elementor pro",
+      "elementor vs breakdance",
+      "elementor vs webflow",
+      "elementor vs squarespace",
+      "elementor vs wordpress editor",
+      "elementor pricing table",
+      "elementor pricing table toggle"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Web Hosting",
+   "tools": [
+    {
+     "tool": "Hostinger",
+     "slug": "hostinger",
+     "searches": [
+      "hostinger vs squarespace",
+      "hostinger vs shopify",
+      "hostinger vs bluehost for wordpress",
+      "hostinger pricing explained",
+      "hostinger pricing hosting plans hostinger price",
+      "hostinger hosting plans",
+      "hostinger review 2024",
+      "hostinger review in the youtube search bar",
+      "hostinger review 91 coupon code",
+      "hostinger review extra"
+     ]
+    },
+    {
+     "tool": "HostGator",
+     "slug": "hostgator",
+     "searches": [
+      "bluehost vs hostgator",
+      "hostgator discount",
+      "hostgator promo code",
+      "hostgator website builder review"
+     ]
+    },
+    {
+     "tool": "IONOS",
+     "slug": "ionos",
+     "searches": [
+      "ionos vs wix",
+      "ionos vs godaddy",
+      "ionos vs squarespace",
+      "ionos vs shopify",
+      "ionos vs strato",
+      "ionos review trust",
+      "ionos review gimmick",
+      "ionos review safe",
+      "ionos watch review"
+     ]
+    },
+    {
+     "tool": "GoDaddy",
+     "slug": "godaddy",
+     "searches": [
+      "godaddy vs wix",
+      "godaddy vs wix vs squarespace",
+      "godaddy vs wordpress",
+      "godaddy vs hostinger hosting",
+      "godaddy vs hostinger domain",
+      "godaddy vs shopify for ecommerce",
+      "godaddy vs squarespace",
+      "godaddy vs shopify",
+      "godaddy website plans",
+      "is godaddy worth it"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Freelancers",
+   "tools": [
+    {
+     "tool": "Fiverr",
+     "slug": "fiverr",
+     "searches": [
+      "fiverr vs upwork",
+      "fiverr vs upwork vs freelancer",
+      "fiverr vs upwork for beginners",
+      "fiverr vs upwork which is better",
+      "fiverr vs linkedin",
+      "fiverr pricing setup",
+      "fiverr pricing setup for data entry",
+      "fiverr pricing setup for graphic design",
+      "fiverr pricing strategy",
+      "fiverr pricing problem"
+     ]
+    },
+    {
+     "tool": "Fiverr Logo Maker",
+     "slug": "fiverrlogomaker",
+     "searches": [
+      "fiverr logo design review"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Cloud Storage",
+   "tools": [
+    {
+     "tool": "pCloud",
+     "slug": "pcloud",
+     "searches": [
+      "pcloud vs sync",
+      "pcloud vs icedrive",
+      "pcloud vs google drive",
+      "pcloud vs internxt",
+      "pcloud vs idrive",
+      "pcloud vs tresorit",
+      "pcloud pass review",
+      "pcloud encryption review",
+      "pcloud lifetime review",
+      "pcloud promo code"
+     ]
+    },
+    {
+     "tool": "Proton Drive",
+     "slug": "protondrive",
+     "searches": [
+      "proton drive vs tresorit",
+      "proton drive vs sync.com"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Voice & Audio",
+   "tools": [
+    {
+     "tool": "ElevenLabs",
+     "slug": "elevenlabs",
+     "searches": [
+      "elevenlabs vs speechify",
+      "elevenlabs vs artlist",
+      "elevenlabs vs suno",
+      "elevenlabs vs chatterbox",
+      "elevenlabs vs fish audio",
+      "elevenlabs vs play.ht",
+      "elevenlabs pricing explained",
+      "elevenlabs ai pricing",
+      "elevenlabs music review",
+      "elevenlabs video review"
+     ]
+    },
+    {
+     "tool": "Murf AI",
+     "slug": "murf",
+     "searches": [
+      "murfreesboro vs junction city",
+      "murfreesboro vs mineral springs",
+      "murf otis review",
+      "murf higgs review",
+      "murf alpha review",
+      "murf electric bikes reviews",
+      "murf e bike reviews",
+      "murf higgs cargo review"
+     ]
+    },
+    {
+     "tool": "Epidemic Sound",
+     "slug": "epidemicsound",
+     "searches": [
+      "epidemic sound vs artlist vs audiio",
+      "epidemic sound vs envato elements",
+      "epidemic sound vs suno",
+      "epidemic sound discount",
+      "epidemic sound discount code 2025",
+      "epidemic sound coupon code",
+      "epidemic sound promo code",
+      "epidemic sound coupon"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Learning",
+   "tools": [
+    {
+     "tool": "Headway",
+     "slug": "headway",
+     "searches": [
+      "headway vs blinkist",
+      "headway vs wiser",
+      "headway vs blinkist vs short form",
+      "is headway worth it",
+      "is headway app worth it",
+      "headway review app",
+      "headway trading app review"
+     ]
+    },
+    {
+     "tool": "Talkpal",
+     "slug": "talkpal",
+     "searches": [
+      "talkpal vs langua",
+      "talkpal vs praktika",
+      "talkpal vs jumpspeak",
+      "talkpal vs chatgpt",
+      "talkpal vs duolingo",
+      "talkpal vs loora",
+      "talkpal vs elsa",
+      "speak pal vs talkpal",
+      "langotalk vs talkpal",
+      "talkpal ai review"
+     ]
+    },
+    {
+     "tool": "Udemy",
+     "slug": "udemy",
+     "searches": [
+      "udemy vs skillshare",
+      "udemy vs linkedin learning",
+      "udemy vs pluralsight",
+      "udemy vs teachable",
+      "udemy vs domestika",
+      "udemy vs youtube",
+      "udemy vs skool",
+      "udemy vs platzi",
+      "udemy vs coursera vs skillshare",
+      "does udemy worth it"
+     ]
+    },
+    {
+     "tool": "Preply",
+     "slug": "preply",
+     "searches": [
+      "preply vs italki",
+      "preply vs duolingo",
+      "preply vs italki for students",
+      "preply vs cambly",
+      "preply vs duolingo ad",
+      "preply vs cambly vs italki",
+      "preply vs duo",
+      "lingoda vs preply",
+      "preply reviews from students",
+      "preply reviews from teachers"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "YouTube Tools",
+   "tools": [
+    {
+     "tool": "vidIQ",
+     "slug": "vidiq",
+     "searches": [
+      "vidiq vs viewstats",
+      "vidiq vs chatgpt",
+      "vidiq vs 1of10",
+      "vidiq vs nexlev",
+      "is vidiq boost worth it",
+      "vidiq review 2025 iq",
+      "vidiq coaching review",
+      "vidiq boost plan review",
+      "vidiq discount code"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "VPN & Privacy",
+   "tools": [
+    {
+     "tool": "Proton VPN",
+     "slug": "protonvpn",
+     "searches": [
+      "proton vpn vs nord",
+      "proton vpn vs pia",
+      "proton vpn vs windscribe",
+      "proton vpn vs cyberghost",
+      "proton vpn vs planet vpn",
+      "proton vpn review premium",
+      "proton vpn free review",
+      "proton vpn app review",
+      "proton vpn coupon code",
+      "proton vpn coupon"
+     ]
+    },
+    {
+     "tool": "NordVPN",
+     "slug": "nordvpn",
+     "searches": [
+      "nordvpn vs protonvpn",
+      "nordvpn vs mullvad vpn",
+      "nordvpn vs ipvanish",
+      "nordvpn vs private internet access",
+      "nordvpn pricing review",
+      "nordvpn pricing level",
+      "nordvpn dedicated ip worth it",
+      "nordvpn free trial 30 days",
+      "nordvpn free trial try",
+      "nordvpn free trial quick"
+     ]
+    },
+    {
+     "tool": "Surfshark",
+     "slug": "surfshark",
+     "searches": [
+      "surfshark vs protonvpn",
+      "surfshark vs nord",
+      "surfshark vs ipvanish",
+      "surfshark vs mullvad",
+      "surfshark vs nordvpn vs protonvpn",
+      "surfshark vs pia",
+      "surfshark vs norton",
+      "surfshark pricing explained",
+      "surfshark pricing plans explained",
+      "surfshark cost & pricing"
+     ]
+    },
+    {
+     "tool": "ExpressVPN",
+     "slug": "expressvpn",
+     "searches": [
+      "expressvpn vs nordvpn speed",
+      "expressvpn vs protonvpn",
+      "expressvpn vs ipvanish",
+      "expressvpn vs nordvpn battle",
+      "expressvpn vs nordvpn more reliable",
+      "is express vpn worth it",
+      "is express vpn worth it honest",
+      "is express vpn worth it latest",
+      "expressvpn free trial without credit card",
+      "expressvpn free trial 30 days"
+     ]
+    },
+    {
+     "tool": "Private Internet Access",
+     "slug": "pia",
+     "searches": [
+      "private internet access vs nordvpn",
+      "private internet access vpn vs nordvpn",
+      "private internet access vpn vs expressvpn",
+      "surfshark vs private internet access",
+      "private internet access review",
+      "private internet access vpn review",
+      "pia private internet access review"
+     ]
+    },
+    {
+     "tool": "NordPass",
+     "slug": "nordpass",
+     "searches": [
+      "nordpass vs lastpass",
+      "nordpass vs apple passwords",
+      "nordpass vs keeper",
+      "nordpass vs roboform",
+      "nordpass vs dashlane",
+      "nordpass reviews",
+      "is nordpass worth it",
+      "nordpass free review",
+      "nordpass coupon"
+     ]
+    },
+    {
+     "tool": "LastPass",
+     "slug": "lastpass",
+     "searches": [
+      "lastpass vs apple passwords",
+      "lastpass vs nordpass",
+      "lastpass vs keeper",
+      "lastpass vs 1password balance",
+      "lastpass review verdict",
+      "lastpass app review"
+     ]
+    }
+   ]
+  }
+ ]
+}

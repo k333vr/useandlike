@@ -35,6 +35,9 @@ SHORT_LINKS = os.path.join(ROOT, "data", "short-links.json")
 TITLE_FIXES = os.path.join(ROOT, "data", "title-fixes.json")
 # Game videos to move to the Gaming category (and pick the game), from useandlike-ops/analysis/game-category.py.
 GAME_FIXES = os.path.join(ROOT, "data", "game-category.json")
+# Video topics that pay (Kevin, 16 Oct: "focus on high RPM topics", and the manager refills topics from this page), from
+# useandlike-ops/analysis/topic-ideas-page.py (the Studio exports' money per topic; names only, no money figures).
+TOPIC_IDEAS = os.path.join(ROOT, "data", "topic-ideas.json")
 # Everyday English words (lowercase in a sentence), for the new-video box: see the file's header.
 COMMON_WORDS = os.path.join(ROOT, "data", "common-words.txt")
 # Last line of a pinned comment (the description uses NEWSLETTER_LINE); same as useandlike-ops/analysis/pinned-comment-lines.py.
@@ -160,6 +163,47 @@ def nice_day(day):
     return "%d %s" % (d.day, d.strftime("%b %Y"))
 
 
+def topics_section(esc):
+    """The "Video topics that pay" box (empty without data/topic-ideas.json)."""
+    if not os.path.exists(TOPIC_IDEAS):
+        return ""
+    d = json.load(open(TOPIC_IDEAS, encoding="utf-8"))
+    li = lambda xs: "".join("<li>%s</li>" % esc(x) for x in xs)
+    chips = lambda xs: "".join('<span class="tp-chip%s">%s</span>' % (" earn" if earn else "", esc(n)) for n, earn in xs)
+    more = chips([(a["name"], a["earn"]) for a in d["apps_more"]])
+    skip = chips([(n, False) for n in d["apps_skip"]])
+    searches = chips([(s, False) for s in d["searches"]])
+    flex = "".join('<div class="tp-tool"><b>%s</b> <span class="tp-pays">%s</span><ul>%s</ul></div>' % (
+        esc(f["name"]), esc(f["pays"]), li(f["ideas"])) for f in d["flex"])
+    groups, n_open = [], 0
+    for g in d["open"]:
+        tools = []
+        for t in g["tools"]:
+            n_open += len(t["searches"])
+            tools.append('<div class="tp-tool"><b>%s</b> <code>useandlike.com/%s</code><ul>%s</ul></div>' % (
+                esc(t["tool"]), esc(t["slug"]), li(t["searches"])))
+        groups.append('<div class="tp-group"><h4>%s</h4><div class="tp-tools">%s</div></div>' % (esc(g["group"]), "".join(tools)))
+    return """  <section class="maker" id="topics" aria-labelledby="topics-h">
+    <h2 id="topics-h">Video topics that pay</h2>
+    <p class="hint">From our own channel numbers (updated %s). Topics on the left earn up to 10 times more per view than
+      the ones on the right. Put the words people search first in every title; hooks only on comparisons and reviews.</p>
+    <div class="tp-cols">
+      <div><h3>Make more about</h3><ul class="tp-list">%s</ul><p class="tp-apps">%s</p></div>
+      <div><h3>Skip</h3><ul class="tp-list">%s</ul><p class="tp-apps">%s</p></div>
+    </div>
+    <p class="hint"><span class="tp-chip earn">Green</span> = we have an affiliate link for it.</p>
+    <details class="tp-more"><summary>Comparisons people search that already bring viewers to us (%d)</summary>
+      <p class="tp-apps">%s</p></details>
+    <details class="tp-more"><summary>How To Rocket only: FlexOffers apps (links come once each app approves us) (%d)</summary>
+      <div class="tp-tools">%s</div></details>
+    <details class="tp-more"><summary>Ready topics: searches with no video from us yet, for apps we earn from (%d)</summary>
+      <input id="tq" type="search" placeholder="Find, e.g. Shopify, vs, pricing" aria-label="Find a ready topic" autocomplete="off">
+      %s</details>
+  </section>
+""" % (esc(nice_day(d["made"])), li(d["pay_well"]), more, li(d["pay_badly"]), skip, len(d["searches"]), searches,
+       len(d["flex"]), flex, n_open, "".join(groups))
+
+
 def write_links_page(tools):
     src = open(os.path.join(ROOT, "index.html"), encoding="utf-8").read()
     order = bv.read_js_array(src, "CATEGORIES")
@@ -250,7 +294,8 @@ def write_links_page(tools):
             .replace("<!--NEW_DAYS-->", str(NEW_DAYS)).replace("/*NEW_DAYS*/", str(NEW_DAYS))
             .replace("<!--NEWS-->", "".join(news)).replace("<!--LIST-->", "".join(sections))
             .replace("/*TITLE_FIXES*/", json.dumps(title_fixes, ensure_ascii=False).replace("</", "<\\/"))
-            .replace("/*GAME_FIXES*/", json.dumps(game_fixes, ensure_ascii=False).replace("</", "<\\/")))
+            .replace("/*GAME_FIXES*/", json.dumps(game_fixes, ensure_ascii=False).replace("</", "<\\/"))
+            .replace("<!--TOPICS-->", topics_section(esc)))
     icon = re.search(r'<link rel="icon"[^>]*>', src)
     page = page.replace("<!--ICON-->", icon.group(0) if icon else "")
     os.makedirs(os.path.join(ROOT, "team-links"), exist_ok=True)
@@ -382,6 +427,24 @@ dialog.tf::backdrop { background: rgba(0, 0, 0, .45); }
 .tf-title { margin: 0; font-weight: 600; overflow-wrap: anywhere; }
 .tf-game { margin: 0; font-size: .92rem; overflow-wrap: anywhere; }
 .tf-game span { color: var(--muted); }
+/* Video topics that pay (16 Oct) */
+.tp-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px 24px; }
+.tp-cols > div { min-width: 0; }
+.tp-cols h3, .tp-group h4 { margin: 0 0 4px; font-size: 1rem; font-weight: 600; }
+.tp-list { margin: 0 0 8px; padding-left: 18px; display: grid; gap: 2px; font-size: .95rem; }
+.tp-apps { margin: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.tp-chip { font-size: .85rem; padding: 2px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--bg); }
+.tp-chip.earn { background: var(--ok-bg); color: var(--ok); border-color: var(--ok); }
+.tp-more { border-top: 1px solid var(--line); padding-top: 10px; }
+.tp-more summary { cursor: pointer; color: var(--link); font-weight: 600; font-size: .95rem; }
+.tp-more[open] summary { margin-bottom: 10px; }
+#tq { font: inherit; width: 100%; padding: 8px 12px; margin-bottom: 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--text); }
+.tp-group { margin-bottom: 14px; }
+.tp-tools { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+.tp-tool { min-width: 0; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); font-size: .9rem; }
+.tp-tool code { font-size: .78rem; color: var(--muted); }
+.tp-tool ul { margin: 6px 0 0; padding-left: 18px; display: grid; gap: 2px; overflow-wrap: anywhere; }
+.tp-pays { color: var(--muted); font-size: .82rem; }
 @media (max-width: 640px) {
   .row { grid-template-columns: minmax(0, 1fr) auto; }
   .who { grid-column: 1; grid-row: 1; }
@@ -462,6 +525,7 @@ dialog.tf::backdrop { background: rgba(0, 0, 0, .45); }
       <a href="outro/end-card-gg-ellie.jpg" target="_blank" rel="noopener">Ellie</a></p>
   </section>
 
+<!--TOPICS-->
   <div class="bar">
     <input id="q" type="search" placeholder="Find a tool, e.g. Wise" aria-label="Find a tool" autocomplete="off">
     <label class="opt" for="nl"><input id="nl" type="checkbox"><span>Copy with the newsletter line <em>(for descriptions)</em></span></label>
@@ -634,6 +698,23 @@ dialog.tf::backdrop { background: rgba(0, 0, 0, .45); }
     setTimeout(function () { r.classList.remove("flash"); }, 1800);
   }
   q.addEventListener("input", filter);
+  // Ready topics: filter by tool or words
+  var tq = document.getElementById("tq");
+  if (tq) tq.addEventListener("input", function () {
+    var s = tq.value.trim().toLowerCase();
+    document.querySelectorAll("#topics .tp-group").forEach(function (g) {
+      var any = false;
+      g.querySelectorAll(".tp-tool").forEach(function (t) {
+        var name = t.querySelector("b").textContent.toLowerCase(), hit = false;
+        t.querySelectorAll("li").forEach(function (li) {
+          var on = !s || name.indexOf(s) !== -1 || li.textContent.toLowerCase().indexOf(s) !== -1;
+          li.hidden = !on; if (on) hit = true;
+        });
+        t.hidden = !hit; if (hit) any = true;
+      });
+      g.hidden = !any;
+    });
+  });
   only.addEventListener("change", filter);
   document.addEventListener("click", function (ev) {
     var b = ev.target.closest("button[data-copy]");
