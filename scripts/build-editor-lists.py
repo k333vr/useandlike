@@ -35,7 +35,8 @@ SHORT_LINKS = os.path.join(ROOT, "data", "short-links.json")
 TITLE_FIXES = os.path.join(ROOT, "data", "title-fixes.json")
 # Game videos to move to the Gaming category (and pick the game), from useandlike-ops/analysis/game-category.py.
 GAME_FIXES = os.path.join(ROOT, "data", "game-category.json")
-# Video topics that pay (Kevin, 16 Oct: "focus on high RPM topics", and the manager refills topics from this page), from
+# Video topics that pay (Kevin, 16 Oct: "focus on high RPM topics"; for Kevin, who picks the topics in another app; the team
+# uses this page only for the affiliate apps' names), from
 # useandlike-ops/analysis/topic-ideas-page.py (the Studio exports' money per topic; names only, no money figures).
 TOPIC_IDEAS = os.path.join(ROOT, "data", "topic-ideas.json")
 # Everyday English words (lowercase in a sentence), for the new-video box: see the file's header.
