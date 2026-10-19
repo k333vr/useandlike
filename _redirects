@@ -503,6 +503,12 @@
 /n1-tool           https://useandlike.com/tool/malwarebytes/  302
 /n1-vid1           https://www.youtube.com/watch?v=ckWpQONw_-k  302
 /n1-vid2           https://www.youtube.com/watch?v=mx4oZEvoRKg  302
+/n1-win            https://support.microsoft.com/en-us/windows/update-windows-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a  302
+/n1-chatads        https://help.openai.com/en/articles/20001047  302
+/n1-fb             https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/  302
+/n1-gmail          https://www.engadget.com/2288545/gmail-live-ai-search-feature-arrives-for-google-ai-subscribers/  302
+/n1-wasched        https://wabetainfo.com/whatsapp-is-rolling-out-scheduled-messages-on-android-beta/  302
+/n1-quake          https://support.google.com/android/answer/9319337  302
 # <<< newsletter-links
 
 # Newsletter signup (Beehiiv). /join is the link in our YouTube descriptions and pinned comments: its UTM tags let
