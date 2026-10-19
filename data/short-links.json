@@ -3490,5 +3490,32 @@
   "countries": "US only",
   "worth": 0.13,
   "added": "2026-10-13"
+ },
+ "deel": {
+  "name": "Deel",
+  "group": "Business & Legal",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "$800 per paying customer",
+  "countries": "worldwide",
+  "added": "2026-10-19"
+ },
+ "webflow": {
+  "name": "Webflow",
+  "group": "Website & App Builders",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "40% of a new plan",
+  "countries": "worldwide",
+  "added": "2026-10-19"
+ },
+ "envatoelements": {
+  "name": "Envato Elements",
+  "group": "Video Creation",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "$16-96 a sale",
+  "countries": "worldwide",
+  "added": "2026-10-19"
  }
 }
