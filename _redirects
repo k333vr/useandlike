@@ -480,9 +480,29 @@
 /zenfolio            https://yazing.com/deals/zenfolio/Guideg  302
 # <<< yazing-add
 
-# Newsletter signup (Beehiiv)
+# >>> newsletter-links: one link per section of each newsletter issue (/n1-... = issue 1), so the click counter
+# (useandlike-ops/analysis/clicks.py) shows which topics readers click. Not on the team page; never FlexOffers links.
+/n1-disney         https://subscriptionchef.app/cancel/disney-plus/  302
+/n1-discovery      https://cordcuttersnews.com/skydance-is-raising-the-price-of-its-discovery-streaming-service-just-one-week-after-buying-it/  302
+/n1-gemini         https://9to5google.com/2026/10/14/gemini-ai-plus-loses-pro-november/  302
+/n1-tracker        https://subscriptionchef.app/  302
+/n1-whatsapp       https://www.engadget.com/2286108/whatsapp-adds-a-guest-option-for-joining-calls-without-an-account/  302
+/n1-chatgpt        https://9to5google.com/2026/10/16/chatgpt-gets-deeper-google-chrome-integration-including-control-over-tabs/  302
+/n1-askyt          https://9to5google.com/2026/10/13/ask-youtube-rolls-out-on-mobile/  302
+/n1-fakewa         https://www.androidauthority.com/fake-whatsapp-app-3724337/  302
+/n1-scam           https://www.engadget.com/2286355/android-will-use-gemini-to-warn-you-about-scammy-messages/  302
+/n1-pdf            https://www.makeuseof.com/one-windows-setting-helped-me-spot-a-fake-pdf-before-i-opened-it/  302
+/n1-verizon        https://www.androidpolice.com/new-verizon-perk-for-certain-subscribers/  302
+/n1-cart           https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch  302
+/n1-tool           https://useandlike.com/tool/malwarebytes/  302
+/n1-vid1           https://www.youtube.com/watch?v=ckWpQONw_-k  302
+/n1-vid2           https://www.youtube.com/watch?v=mx4oZEvoRKg  302
+# <<< newsletter-links
+
+# Newsletter signup (Beehiiv). /join is the link in our YouTube descriptions and pinned comments: its UTM tags let
+# Beehiiv record "came from YouTube" on the subscriber (19 Oct; the page itself ignores them).
 /newsletter        https://useandlike.beehiiv.com/subscribe  302
 /tracker           https://subscriptionchef.app/             302
-/join              https://useandlike.com/#join             302
+/join              https://useandlike.com/?utm_source=youtube&utm_medium=video#join  302
 /welcome           https://useandlike.com/#welcome          302
 /privacy           https://useandlike.com/#privacy          302

@@ -30,6 +30,7 @@ LINE_NAME = {"Booking.com": "Booking", "Kiwi.com": "Kiwi", "lastminute.com": "la
 # Team links page (affiliate-links.html).
 LINKS_PAGE_URL = "https://useandlike.com/team-links/"  # hidden page (Kevin, 13 Oct: "no hustle to share")
 OWN_HOSTS = ("useandlike.com", "useandlike.beehiiv.com", "subscriptionchef.app")  # our own short links, left off the page
+NEWSLETTER_LINK = re.compile(r"^n\d+-")  # /n1-... = newsletter issue links (the _redirects block newsletter-links): not for the team
 # Names and groups of the short links that aren't tools on the site (most written by useandlike-ops/analysis/yazing-add.py).
 SHORT_LINKS = os.path.join(ROOT, "data", "short-links.json")
 TITLE_FIXES = os.path.join(ROOT, "data", "title-fixes.json")
@@ -219,7 +220,7 @@ def write_links_page(tools):
     game_fixes = json.load(open(GAME_FIXES, encoding="utf-8")) if os.path.exists(GAME_FIXES) else []
     links = []
     for slug, target in redirects:
-        if (urllib.parse.urlparse(target).hostname or "").endswith(OWN_HOSTS):
+        if (urllib.parse.urlparse(target).hostname or "").endswith(OWN_HOSTS) or NEWSLETTER_LINK.match(slug):
             continue
         t, x = by_slug.get(slug), extra.get(slug, {})
         if not t and not x:
