@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Puts our links at the top of old YouTube video descriptions: videos with a tool link first, then the rest,
-each group most viewed first. Music videos (DJ remixes etc.) are skipped.
+"""Puts our links at the top of old YouTube video descriptions, most viewed videos first (--tools-first: videos with a
+tool link first). Music videos (DJ remixes etc.) and private videos (drafts, scheduled uploads) are skipped.
 
 Each video gets the same lines as in the editor lists (scripts/build-editor-lists.py):
     👉 Try <Tool> (affiliate): useandlike.com/<slug>      (only when the title names one of our tools; "A vs B": one each)
@@ -151,6 +151,8 @@ def run(name, apply, limit, tools_first=False):
         if MUSIC.search(sn["title"]):
             continue
         if seconds(v["contentDetails"].get("duration")) <= 60:      # Shorts: links in their descriptions can't be clicked
+            continue
+        if v.get("status", {}).get("privacyStatus") == "private":   # drafts and scheduled uploads (e.g. title "x", 19 Oct)
             continue
         kind, lines = lines_for(sn["title"])
         desc = sn.get("description", "")
