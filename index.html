@@ -992,6 +992,15 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
       paragraphs: [],
       form: true
     },
+    // Where the newsletter's 👍/👎 vote links land (useandlike.com/n1-yes, /n1-no -> #thanks; the short links count the votes).
+    thanks: {
+      title: "Thanks for the vote",
+      lead: "It helps us decide what goes in the next issue. Hit reply on the email if you want to tell us more.",
+      bullets: [],
+      paragraphs: [],
+      link: { text: "Open the free Subscription Tracker", url: "https://subscriptionchef.app/" },
+      homeLink: "See all tools"
+    },
     tracker: {
       title: "Free Subscription Tracker",
       image: { src: "img/fox-tablet.webp", w: 150, h: 241 },
@@ -1076,7 +1085,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
   }
 
   // Pages live in the address after "#": "" home, "videos", "videos-email", "join", "welcome", "privacy",
-  // "tracker". Categories and About are real pages now (/category/email/, /about/): their old "#" links
+  // "tracker", "thanks". Categories and About are real pages now (/category/email/, /about/): their old "#" links
   // (e.g. in YouTube descriptions) forward there.
   var view = document.getElementById("view");
   var homeScroll = 0, lastRoute = null;
