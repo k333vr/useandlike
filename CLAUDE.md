@@ -98,6 +98,9 @@ The owner is a beginner. Explain things in plain language and do as much as poss
    - Then `python3 scripts/build-videos.py` for a new or renamed tool (finds its videos, then rebuilds the pages),
      otherwise `node scripts/build-pages.js`.
    - Then `python3 scripts/build-editor-lists.py`, so the team's links page (useandlike.com/team-links/) shows the new link.
+   - Then `python3 ../useandlike-ops/studio/tools/sync_deals.py`, so the Studio's deal tracker (Discounts tab) reads the
+     new program around the clock (Kevin, 28 Oct: "track all our affiliates ... adding of course the new ones"); a new
+     direct program (not Yazing) also needs the page to read in that tool's `SITES`.
 2. Run `node scripts/check.js --online` and fix any FAIL. The cloud session's network policy may block
    affiliate hosts ("could not be opened ... TUNNEL" / 403); say the link wasn't checked, not that it's broken. Report WARN lines that matter in plain language
    (e.g. a link that does not open, or links still left as placeholders).
