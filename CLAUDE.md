@@ -68,6 +68,10 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   fit our channels, Kevin: "every single app or program that would fit"), written by useandlike-ops/analysis/yazing-add.py
   from `data/short-links.json`. Change those links in the JSON and re-run the script, not by hand inside the markers.
   They have no videos yet, so they aren't tools on the page; when one gets videos, it can become a tool (same slug).
+- Travelpayouts (28 Oct 2026, Kevin's account, YouTube projects): tpx.lt links in the hand-written `# Travelpayouts` block
+  of `_redirects` (`"source": "Travelpayouts"` in `data/short-links.json`). /klook, /airhelp and /tiqets moved there from
+  Yazing because Travelpayouts pays more; Airalo and Kiwi.com stay on Yazing. A moved entry keeps its `"yazing"` field, so
+  yazing-add.py doesn't give the brand a second slug and the Studio's deal tracker keeps reading its Yazing page.
 - FlexOffers (15 Oct 2026) turned down useandlike.com and Guide Glimpse, then approved the account for How To Rocket
   (Kevin's screenshot, 16 Oct: How To Rocket is the only approved traffic source). Its links go ONLY on How To Rocket videos: link-only
   short links (never a tool or Visit button on the site, never on Guide Glimpse or Logic Protocol) with

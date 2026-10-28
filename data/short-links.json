@@ -73,12 +73,13 @@
  "airhelp": {
   "name": "AirHelp",
   "group": "Travel",
-  "source": "Yazing",
+  "source": "Travelpayouts",
   "yazing": "airhelp",
-  "pays": "Up to 20% of Membership Sales",
+  "pays": "15% of AirHelp's fee on won claims, 16.6% of AirHelp+",
   "countries": "worldwide",
   "worth": 0.63,
-  "added": "2026-10-13"
+  "added": "2026-10-13",
+  "moved": "2026-10-28 from Yazing (paid only on AirHelp+ memberships)"
  },
  "alibaba": {
   "name": "Alibaba",
@@ -240,6 +241,22 @@
   "worth": 0.84,
   "added": "2026-10-13"
  },
+ "autoeurope": {
+  "name": "Auto Europe",
+  "group": "Travel",
+  "source": "Travelpayouts",
+  "pays": "8% of a car rental (autoeurope.eu)",
+  "countries": "worldwide",
+  "added": "2026-10-28"
+ },
+ "aviasales": {
+  "name": "Aviasales",
+  "group": "Travel",
+  "source": "Travelpayouts",
+  "pays": "about 1.1% of a ticket",
+  "countries": "worldwide",
+  "added": "2026-10-28"
+ },
  "bark": {
   "name": "Bark Parental Controls",
   "group": "VPN & Privacy",
@@ -269,6 +286,14 @@
   "countries": "worldwide",
   "worth": 0.07,
   "added": "2026-10-13"
+ },
+ "bikesbooking": {
+  "name": "BikesBooking",
+  "group": "Travel",
+  "source": "Travelpayouts",
+  "pays": "4% of a booking",
+  "countries": "worldwide",
+  "added": "2026-10-28"
  },
  "biltrx": {
   "name": "BiltRx",
@@ -524,6 +549,14 @@
   "worth": 3.0,
   "added": "2026-10-13"
  },
+ "compensair": {
+  "name": "Compensair",
+  "group": "Travel",
+  "source": "Travelpayouts",
+  "pays": "€5-12 per claim",
+  "countries": "worldwide",
+  "added": "2026-10-28"
+ },
  "condor": {
   "name": "Condor",
   "group": "Travel",
@@ -685,6 +718,15 @@
   "worth": 0.6,
   "added": "2026-10-13"
  },
+ "deel": {
+  "name": "Deel",
+  "group": "Business & Legal",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "$800 per paying customer",
+  "countries": "worldwide",
+  "added": "2026-10-19"
+ },
  "designcrowd": {
   "name": "DesignCrowd",
   "group": "Freelancers",
@@ -788,6 +830,14 @@
   "worth": 1.68,
   "added": "2026-10-13"
  },
+ "drimsim": {
+  "name": "Drimsim",
+  "group": "Phone Plans & Internet",
+  "source": "Travelpayouts",
+  "pays": "€8 per SIM card order",
+  "countries": "worldwide",
+  "added": "2026-10-28"
+ },
  "dynadot": {
   "name": "Dynadot",
   "group": "Web Hosting",
@@ -827,6 +877,14 @@
   "countries": "US only",
   "worth": 0.75,
   "added": "2026-10-13"
+ },
+ "economybookings": {
+  "name": "EconomyBookings",
+  "group": "Travel",
+  "source": "Travelpayouts",
+  "pays": "3-8% of a car rental",
+  "countries": "worldwide",
+  "added": "2026-10-28"
  },
  "ecotalk": {
   "name": "Ecotalk",
@@ -949,6 +1007,15 @@
   "countries": "worldwide",
   "worth": 2.52,
   "added": "2026-10-13"
+ },
+ "envatoelements": {
+  "name": "Envato Elements",
+  "group": "Video Creation",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "$16-96 a sale",
+  "countries": "worldwide",
+  "added": "2026-10-19"
  },
  "ereleases": {
   "name": "eReleases",
@@ -1300,6 +1367,22 @@
   "worth": 0.1,
   "added": "2026-10-13"
  },
+ "getrentacar": {
+  "name": "GetRentacar",
+  "group": "Travel",
+  "source": "Travelpayouts",
+  "pays": "10% of a car rental",
+  "countries": "worldwide",
+  "added": "2026-10-28"
+ },
+ "gettransfer": {
+  "name": "GetTransfer",
+  "group": "Travel",
+  "source": "Travelpayouts",
+  "pays": "4-25% of a transfer",
+  "countries": "worldwide",
+  "added": "2026-10-28"
+ },
  "getyourguide": {
   "name": "GetYourGuide",
   "group": "Travel",
@@ -1309,6 +1392,14 @@
   "countries": "US only",
   "worth": 0.32,
   "added": "2026-10-13"
+ },
+ "gigsky": {
+  "name": "GigSky",
+  "group": "Phone Plans & Internet",
+  "source": "Travelpayouts",
+  "pays": "20% of eSIMs",
+  "countries": "worldwide",
+  "added": "2026-10-28"
  },
  "gitmind": {
   "name": "GitMind",
@@ -1329,6 +1420,14 @@
   "countries": "worldwide",
   "worth": 9.0,
   "added": "2026-10-13"
+ },
+ "gocity": {
+  "name": "Go City",
+  "group": "Travel",
+  "source": "Travelpayouts",
+  "pays": "3.4-6% of a pass",
+  "countries": "worldwide",
+  "added": "2026-10-28"
  },
  "gogcom": {
   "name": "GOG.com",
@@ -1613,6 +1712,15 @@
   "worth": 2.34,
   "added": "2026-10-13"
  },
+ "intui": {
+  "name": "Intui.travel",
+  "group": "Travel",
+  "source": "Travelpayouts",
+  "pays": "7.5% of a transfer",
+  "countries": "worldwide",
+  "added": "2026-10-28",
+  "line_name": "Intui"
+ },
  "italki": {
   "name": "italki",
   "group": "Learning",
@@ -1713,6 +1821,22 @@
   "worth": 2.7,
   "added": "2026-10-13"
  },
+ "kiwitaxi": {
+  "name": "Kiwitaxi",
+  "group": "Travel",
+  "source": "Travelpayouts",
+  "pays": "9-11% of a transfer",
+  "countries": "worldwide",
+  "added": "2026-10-28"
+ },
+ "kkday": {
+  "name": "KKday",
+  "group": "Travel",
+  "source": "Travelpayouts",
+  "pays": "1-5% of a booking",
+  "countries": "worldwide",
+  "added": "2026-10-28"
+ },
  "knack": {
   "name": "Knack",
   "group": "Website & App Builders",
@@ -1762,6 +1886,14 @@
   "countries": "worldwide",
   "worth": 2.4,
   "added": "2026-10-13"
+ },
+ "localrent": {
+  "name": "Localrent",
+  "group": "Travel",
+  "source": "Travelpayouts",
+  "pays": "5-12% of a car rental",
+  "countries": "worldwide",
+  "added": "2026-10-28"
  },
  "lotairlines": {
   "name": "LOT",
@@ -2457,6 +2589,14 @@
   "worth": 0.02,
   "added": "2026-10-13"
  },
+ "qeeq": {
+  "name": "QEEQ",
+  "group": "Travel",
+  "source": "Travelpayouts",
+  "pays": "5-10% of a car rental",
+  "countries": "worldwide",
+  "added": "2026-10-28"
+ },
  "qpark": {
   "name": "Q-Park",
   "group": "Travel",
@@ -2486,6 +2626,14 @@
   "countries": "worldwide",
   "worth": 0.6,
   "added": "2026-10-13"
+ },
+ "radicalstorage": {
+  "name": "Radical Storage",
+  "group": "Travel",
+  "source": "Travelpayouts",
+  "pays": "15% of a booking",
+  "countries": "worldwide",
+  "added": "2026-10-28"
  },
  "readkidz": {
   "name": "Readkidz",
@@ -2634,6 +2782,14 @@
   "countries": "worldwide",
   "worth": 0.18,
   "added": "2026-10-13"
+ },
+ "saily": {
+  "name": "Saily",
+  "group": "Phone Plans & Internet",
+  "source": "Travelpayouts",
+  "pays": "15% of each eSIM order",
+  "countries": "worldwide",
+  "added": "2026-10-28"
  },
  "scalahosting": {
   "name": "ScalaHosting",
@@ -2969,12 +3125,13 @@
  "tiqets": {
   "name": "Tiqets",
   "group": "Travel",
-  "source": "Yazing",
+  "source": "Travelpayouts",
   "yazing": "tiqets",
-  "pays": "Up to 4% of Sales / 0% on Europa Park Tickets.",
-  "countries": "US only",
+  "pays": "3.5-8% of a booking",
+  "countries": "worldwide",
   "worth": 0.01,
-  "added": "2026-10-13"
+  "added": "2026-10-13",
+  "moved": "2026-10-28 from Yazing (up to 4%, US only)"
  },
  "tmobile": {
   "name": "T-Mobile",
@@ -3305,6 +3462,15 @@
   "worth": 0.03,
   "added": "2026-10-13"
  },
+ "webflow": {
+  "name": "Webflow",
+  "group": "Website & App Builders",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "40% of a new plan",
+  "countries": "worldwide",
+  "added": "2026-10-19"
+ },
  "wegic": {
   "name": "Wegic",
   "group": "Website & App Builders",
@@ -3315,6 +3481,14 @@
   "worth": 0.94,
   "added": "2026-10-13"
  },
+ "wegotrip": {
+  "name": "WeGoTrip",
+  "group": "Travel",
+  "source": "Travelpayouts",
+  "pays": "6.6-41.5% of a tour",
+  "countries": "worldwide",
+  "added": "2026-10-28"
+ },
  "weightwatchers": {
   "name": "WeightWatchers",
   "group": "Health & Fitness",
@@ -3324,6 +3498,14 @@
   "countries": "US only",
   "worth": 0.5,
   "added": "2026-10-13"
+ },
+ "welcomepickups": {
+  "name": "Welcome Pickups",
+  "group": "Travel",
+  "source": "Travelpayouts",
+  "pays": "8-9% of a ride",
+  "countries": "worldwide",
+  "added": "2026-10-28"
  },
  "whop": {
   "name": "Whop",
@@ -3441,6 +3623,14 @@
   "worth": 0.16,
   "added": "2026-10-13"
  },
+ "yesim": {
+  "name": "Yesim",
+  "group": "Phone Plans & Internet",
+  "source": "Travelpayouts",
+  "pays": "18% of the eSIM price",
+  "countries": "worldwide",
+  "added": "2026-10-28"
+ },
  "yogadownload": {
   "name": "Yoga Download",
   "group": "Learning",
@@ -3490,32 +3680,5 @@
   "countries": "US only",
   "worth": 0.13,
   "added": "2026-10-13"
- },
- "deel": {
-  "name": "Deel",
-  "group": "Business & Legal",
-  "source": "FlexOffers",
-  "only": "htr",
-  "pays": "$800 per paying customer",
-  "countries": "worldwide",
-  "added": "2026-10-19"
- },
- "webflow": {
-  "name": "Webflow",
-  "group": "Website & App Builders",
-  "source": "FlexOffers",
-  "only": "htr",
-  "pays": "40% of a new plan",
-  "countries": "worldwide",
-  "added": "2026-10-19"
- },
- "envatoelements": {
-  "name": "Envato Elements",
-  "group": "Video Creation",
-  "source": "FlexOffers",
-  "only": "htr",
-  "pays": "$16-96 a sale",
-  "countries": "worldwide",
-  "added": "2026-10-19"
  }
 }
