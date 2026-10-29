@@ -1,6 +1,8 @@
 {
   "_about": "Deals on useandlike.com/deals/ (scripts/build-pages.js). Only offers checked on the brand's own website; 'checked' is that date, and check.js warns once a deal is 7+ days old. 'slug' is our short link (/slug in _redirects). Take a deal out as soon as it ends. Never FlexOffers links here (How To Rocket only).",
   "deals": [
+    { "slug": "expressvpn", "brand": "ExpressVPN", "big": "−80%", "offer": "80% off 2 years + 4 extra months",
+      "detail": "Basic plan $2.99 a month, billed $83.72 for the first 28 months (then $99.95 a year).", "checked": "2026-10-29" },
     { "slug": "nordvpn", "brand": "NordVPN", "big": "−78%", "offer": "78% off + 3 extra months",
       "detail": "Black Friday sale on NordVPN's own site.", "checked": "2026-10-29" },
     { "slug": "hostinger", "brand": "Hostinger", "big": "$2.49/mo", "offer": "Black Friday: up to 82% off web hosting",
