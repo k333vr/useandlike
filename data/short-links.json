@@ -181,6 +181,15 @@
   "worth": 1.05,
   "added": "2026-10-13"
  },
+ "apolloneuro": {
+  "name": "Apollo Neuro",
+  "group": "Health & Fitness",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "$32 per sale",
+  "countries": "US",
+  "added": "2026-10-29"
+ },
  "applevacations": {
   "name": "Apple Vacations",
   "group": "Travel",
@@ -606,6 +615,15 @@
   "countries": "worldwide",
   "worth": 0.01,
   "added": "2026-10-13"
+ },
+ "creditstrong": {
+  "name": "Credit Strong",
+  "group": "Money & Trading",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "$26.25 per account",
+  "countries": "US",
+  "added": "2026-10-29"
  },
  "cricketwireless": {
   "name": "Cricket Wireless",
@@ -1751,6 +1769,15 @@
   "worth": 0.64,
   "added": "2026-10-13"
  },
+ "jettly": {
+  "name": "Jettly",
+  "group": "Travel",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "$100 per membership",
+  "countries": "US",
+  "added": "2026-10-29"
+ },
  "jibjab": {
   "name": "JibJab",
   "group": "Other",
@@ -2114,6 +2141,15 @@
   "worth": 2.76,
   "added": "2026-10-13"
  },
+ "movementathlete": {
+  "name": "The Movement Athlete",
+  "group": "Health & Fitness",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "30% of the first payment",
+  "countries": "worldwide",
+  "added": "2026-10-29"
+ },
  "mpix": {
   "name": "Mpix",
   "group": "Photo Books & Prints",
@@ -2415,6 +2451,15 @@
   "countries": "worldwide",
   "worth": 1.2,
   "added": "2026-10-13"
+ },
+ "pdfelement": {
+  "name": "Wondershare PDFelement",
+  "group": "Productivity & Design",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "30% per sale",
+  "countries": "worldwide",
+  "added": "2026-10-29"
  },
  "pdffiller": {
   "name": "pdfFiller",
