@@ -36,7 +36,8 @@ const CHANNELS = [
    beehiivForm: the data-beehiiv-form id from Beehiiv's embed code (Audience > Subscribe forms > Get embed code).
    When it is set, Beehiiv's own field signs people up right here; when it is empty, the button opens the
    Beehiiv signup page (/newsletter).
-   perkTitle / perkGift: the offer shown above the field. */
+   perkTitle / perkGift: the offer shown above the field. No tracker address next to it (29 Oct): the link comes
+   after confirming (#welcome and Beehiiv's welcome email), so the gift is a reason to confirm. */
 const NEWSLETTER = {
   ready: true,
   title: "App news and deals in 30 seconds",
@@ -49,8 +50,7 @@ const NEWSLETTER = {
   // (beside the field on wide screens, under it on phones) and one line on what the tracker does (live from 19 Oct).
   joinDesign: "C",
   perkTitle: "Get our free 30-second app newsletter",
-  perkGift: "+ get our Free Subscription Tracker",
-  perkSite: "subscriptionchef.app"
+  perkGift: "+ get our Free Subscription Tracker"
 };
 
 /* false = links open in the same tab (back button returns to this page; better on phones).
@@ -838,7 +838,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     t.appendChild(el("h2", null, NEWSLETTER.title));
     t.appendChild(el("p", null, NEWSLETTER.text));
     var p = el("p", "nl-perk");
-    p.appendChild(el("span", "perk-gift", NEWSLETTER.perkGift + " (" + NEWSLETTER.perkSite + ")"));
+    p.appendChild(el("span", "perk-gift", NEWSLETTER.perkGift));
     t.appendChild(p);
     box.appendChild(t);
     box.appendChild(joinForm(false));

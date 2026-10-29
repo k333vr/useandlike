@@ -182,7 +182,7 @@ function joinForm(withPerk) {
     `<button type="submit">${esc(NEWSLETTER.button)}</button></div></form></div>`;
 }
 const newsletterBox = () => !NEWSLETTER.ready ? "" : `<section class="newsletter"><div class="nl-text"><h2>${esc(NEWSLETTER.title)}</h2>` +
-  `<p>${esc(NEWSLETTER.text)}</p><p class="nl-perk"><span class="perk-gift">${esc(NEWSLETTER.perkGift + " (" + NEWSLETTER.perkSite + ")")}</span></p></div>` +
+  `<p>${esc(NEWSLETTER.text)}</p><p class="nl-perk"><span class="perk-gift">${esc(NEWSLETTER.perkGift)}</span></p></div>` +
   joinForm(false) + "</section>";
 
 function header(current) {

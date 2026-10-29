@@ -87,7 +87,9 @@ The owner is a beginner. Explain things in plain language and do as much as poss
 - Always 302, never 301 (browsers cache 301s, so updated links would not take effect for repeat visitors).
 - Newsletter links (19 Oct 2026): every link in a newsletter issue goes through its own short link in the `_redirects`
   block `# >>> newsletter-links` (`/n1-disney` = issue 1, Disney+ item), so useandlike-ops/analysis/newsletter-clicks.py
-  counts clicks per topic (Beehiiv's free plan has no per-link report). They are not affiliate links for the team:
+  counts clicks per topic (Beehiiv's free plan has no per-link report). `/n0-tracker` is the button in Beehiiv's
+  welcome email (29 Oct; issue "0" in issues.json). The sign-up boxes don't show the tracker's address: the link
+  comes after confirming (#welcome, the welcome email), so the gift is a reason to confirm. They are not affiliate links for the team:
   build-editor-lists.py and clicks.py skip `/n<number>-` slugs. Never put FlexOffers links in the newsletter (How To
   Rocket only); a tool in an issue links to its tool page (`/tool/<slug>/`), not straight to the affiliate.
 - `/join` carries UTM tags (`?utm_source=youtube&utm_medium=video` before `#join`) so Beehiiv can record that a subscriber

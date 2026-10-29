@@ -511,6 +511,8 @@
 
 # >>> newsletter-links: one link per section of each newsletter issue (/n1-... = issue 1), so the click counter
 # (useandlike-ops/analysis/clicks.py) shows which topics readers click. Not on the team page; never FlexOffers links.
+# /n0-... = the welcome email Beehiiv sends after someone confirms (29 Oct: do new subscribers open our emails at all?).
+/n0-tracker        https://subscriptionchef.app/  302
 /n1-disney         https://subscriptionchef.app/cancel/disney-plus/  302
 /n1-discovery      https://cordcuttersnews.com/skydance-is-raising-the-price-of-its-discovery-streaming-service-just-one-week-after-buying-it/  302
 /n1-gemini         https://9to5google.com/2026/10/14/gemini-ai-plus-loses-pro-november/  302
