@@ -509,6 +509,7 @@
     "liveplan": ["@bizplan"],
     "moneygram": ["@moneyxfer"],
     "moneyspire": ["@budget"],
+    "monarch": ["@budget", "@debt"],
     "myob": ["@accounting"],
     "onlinecheckwriter": ["@checks", "@accounting"],
     "pandaremit": ["@moneyxfer"],

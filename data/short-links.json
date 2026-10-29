@@ -2075,6 +2075,15 @@
   "worth": 0.03,
   "added": "2026-10-13"
  },
+ "monarch": {
+  "name": "Monarch Money",
+  "group": "Money & Trading",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "$12 per subscription",
+  "countries": "US",
+  "added": "2026-10-29"
+ },
  "moneygram": {
   "name": "MoneyGram",
   "group": "Money & Trading",

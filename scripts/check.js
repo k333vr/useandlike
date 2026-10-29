@@ -132,9 +132,12 @@ function readRedirects(errors, warnings) {
         if (used.has(slug)) errors.push(`/${slug} is a FlexOffers link: it can't be a tool on the site (FlexOffers approved only How To Rocket)`);
         if ((shortLinks[slug] || {}).only !== "htr")
           errors.push(`/${slug} is a FlexOffers link: give it "only": "htr" in data/short-links.json (How To Rocket videos only)`);
-        // Two link formats: track.flexlinkspro.com/...?foid=<source>.A<advertiser>, and <brand>.fxo.co/g/<source>/<advertiser>/...
+        // Three link formats: track.flexlinkspro.com/...?foid=<source>.A<advertiser>, <brand>.fxo.co/g/<source>/<advertiser>/...,
+        // and a program's default link from the API, ...?foid=24.<advertiser>.<link>&trid=<source>.<advertiser> (29 Oct)
+        const first = v => (v || "").split(".")[0];
         const source = /(^|\.)fxo\.co$/i.test(u.hostname) ? (u.pathname.split("/")[2] || "")
-          : (u.searchParams.get("foid") || "").split(".")[0];
+          : [first(u.searchParams.get("foid")), first(u.searchParams.get("trid"))].find(s => s === FLEX_OK || FLEX_NOT[s])
+            || first(u.searchParams.get("foid"));
         if (FLEX_NOT[source]) errors.push(`/${slug} is a FlexOffers link made for ${FLEX_NOT[source]}, which FlexOffers didn't approve: make it for How To Rocket`);
         else if (source !== FLEX_OK) warnings.push(`/${slug}: can't tell which traffic source this FlexOffers link was made for (expected How To Rocket)`);
       }

@@ -508,6 +508,7 @@
 /deel               https://deel.fxo.co/g/1579752/228251/1038938300/DxCPTgc  302
 /webflow            https://webflow.fxo.co/g/1579752/235952/122637334/DxCPTgc  302
 /envatoelements     https://envato.fxo.co/g/1579752/196382/3323989/DxCPTgc  302
+/monarch            https://track.flexlinkspro.com/g.ashx?foid=24.245836.6670172&trid=1579752.245836  302
 
 # >>> newsletter-links: one link per section of each newsletter issue (/n1-... = issue 1), so the click counter
 # (useandlike-ops/analysis/clicks.py) shows which topics readers click. Not on the team page; never FlexOffers links.
