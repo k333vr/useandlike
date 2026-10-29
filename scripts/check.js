@@ -138,6 +138,20 @@ function readRedirects(errors, warnings) {
         if (FLEX_NOT[source]) errors.push(`/${slug} is a FlexOffers link made for ${FLEX_NOT[source]}, which FlexOffers didn't approve: make it for How To Rocket`);
         else if (source !== FLEX_OK) warnings.push(`/${slug}: can't tell which traffic source this FlexOffers link was made for (expected How To Rocket)`);
       }
+      // The deals page (data/deals.json): every deal needs its short link, never a FlexOffers one, and a fresh check
+      // on the brand's own site (deals end; an old one must come off the page).
+      let deals = [];
+      try { deals = JSON.parse(fs.readFileSync(path.resolve(__dirname, "..", "data", "deals.json"), "utf8")).deals; }
+      catch (_) { errors.push("data/deals.json could not be read"); }
+      for (const d of deals) {
+        const to = redirects.get(d.slug);
+        if (!to) { errors.push(`deal "${d.brand}": /${d.slug} is not in _redirects`); continue; }
+        try { if (FLEX.test(new URL(to).hostname)) errors.push(`deal "${d.brand}": /${d.slug} is a FlexOffers link (How To Rocket only, never on the site)`); }
+        catch (_) {}
+        const age = (Date.now() - Date.parse(d.checked + "T00:00:00Z")) / 864e5;
+        if (!(age >= 0)) errors.push(`deal "${d.brand}": "checked" should be a date like 2026-10-29`);
+        else if (age > 7) warnings.push(`deal "${d.brand}" was last checked ${Math.floor(age)} days ago: check it on the brand's site, or take it off data/deals.json`);
+      }
       if (data.NEWSLETTER.ready && !redirects.has("newsletter"))
         errors.push('NEWSLETTER.ready is true but _redirects has no "/newsletter" line');
       if (!data.CHANNELS.length) warnings.push("CHANNELS is empty, so the Videos tab has no channel links");

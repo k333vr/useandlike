@@ -9,6 +9,11 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   `robots.txt`; plus the hidden `team-links/` page from `scripts/build-editor-lists.py`. The generated files are committed (Cloudflare has no build step). It also refreshes two marked blocks in
   index.html (`build-pages:ld` structured data, `build-pages:home` the category list as plain HTML for crawlers that
   don't run JavaScript). No frameworks, no tracking scripts, no external requests (except Beehiiv's signup form, see NEWSLETTER).
+- Deals page `deals/` (29 Oct 2026, Kevin: deals we promoted keep earning while they run; the newsletter's deal row gets
+  a "+ more deals" strip pointing here): made by build-pages.js from `data/deals.json`, icons `img/deals/<slug>.webp`
+  (96x96, the brand's own app icon), "Deals" in the header nav. Only offers checked on the brand's own website, with
+  that date in `checked`; take a deal out as soon as it ends (check.js warns after 7 days, fails on a missing short
+  link or a FlexOffers link). Each card: Get the deal -> /slug (sponsored), About -> the tool page.
 - After changing the EDIT HERE block, videos.js or the small pages' texts (`PAGES` at the top of scripts/build-pages.js):
   run `node scripts/build-pages.js` (build-videos.py runs it too). check.js fails while the pages are out of date.
 - Hosted on Cloudflare as a Worker named `useandlike` with static assets (Workers Builds, connected to GitHub).

@@ -1,0 +1,17 @@
+{
+  "_about": "Deals on useandlike.com/deals/ (scripts/build-pages.js). Only offers checked on the brand's own website; 'checked' is that date, and check.js warns once a deal is 7+ days old. 'slug' is our short link (/slug in _redirects). Take a deal out as soon as it ends. Never FlexOffers links here (How To Rocket only).",
+  "deals": [
+    { "slug": "nordvpn", "brand": "NordVPN", "big": "−78%", "offer": "78% off + 3 extra months",
+      "detail": "Black Friday sale on NordVPN's own site.", "checked": "2026-10-29" },
+    { "slug": "hostinger", "brand": "Hostinger", "big": "$2.49/mo", "offer": "Black Friday: up to 82% off web hosting",
+      "detail": "Premium plan $2.49 a month on 48 months (renews at $10.99), with twice the AI credits.", "checked": "2026-10-29" },
+    { "slug": "fastestvpn", "brand": "FastestVPN", "big": "$40", "offer": "Black Friday: lifetime plan for $40 (93% off)",
+      "detail": "Lifetime Plus plan, plus a free lifetime family password manager.", "checked": "2026-10-29" },
+    { "slug": "protonvpn", "brand": "Proton VPN", "big": "−65%", "offer": "65% off VPN Plus for 2 years",
+      "detail": "$3.49 a month, billed $83.76 for the first 24 months (then $83.88 a year).", "checked": "2026-10-29" },
+    { "slug": "protonpass", "brand": "Proton Pass", "big": "−40%", "offer": "40% off Pass Plus for a year",
+      "detail": "$2.99 a month, billed $35.88 for the year.", "checked": "2026-10-29" },
+    { "slug": "invideo", "brand": "InVideo", "big": "−50%", "offer": "50% off all yearly plans",
+      "detail": "Starter from $10 a month, billed yearly.", "checked": "2026-10-29" }
+  ]
+}

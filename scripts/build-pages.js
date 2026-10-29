@@ -5,6 +5,7 @@
 //   category/<category>/index.html   the category's tools with Visit buttons, and our most viewed videos about them
 //   tool/<slug>/index.html           what the tool does, Visit button, all our videos about it, the other tools
 //   about/ how-we-choose/ how-we-make-money/ work-with-us/   (texts in PAGES below)
+//   deals/                           running deals at brands we link to (data/deals.json, icons in img/deals/<slug>.webp)
 //   sitemap.xml, robots.txt, and in index.html the blocks between the "build-pages" markers
 //   (the site's structured data, and the category list as plain HTML for crawlers that don't run JavaScript).
 // Pages with little of their own yet (fewer than 3 videos and no "why"/"details") get "noindex" and stay out of the
@@ -124,6 +125,7 @@ const FOOTER = indexHtml.match(/<footer>[\s\S]*?<\/footer>/)[0];
 
 const W = {};
 vm.runInNewContext(fs.readFileSync(path.join(ROOT, "videos.js"), "utf8"), { window: W });
+const DEALS = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "deals.json"), "utf8")).deals;
 
 // Our pick first, then the order of TOOLS (as on the home page).
 const toolsIn = cat => TOOLS.filter(t => t.category === cat).sort((a, b) => (b.isPick ? 1 : 0) - (a.isPick ? 1 : 0));
@@ -187,6 +189,7 @@ function header(current) {
   let h = HEADER.replace(/href="#"/g, 'href="/"').replace(/href="#videos"/g, 'href="/#videos"')
     .replace('<div class="ctas" id="header-join"></div>', `<div class="ctas" id="header-join">${NEWSLETTER.ready ? joinForm(true) : ""}</div>`);
   if (current === "tools") h = h.replace('id="nav-tools"', 'id="nav-tools" aria-current="page"');
+  if (current === "deals") h = h.replace('id="nav-deals"', 'id="nav-deals" aria-current="page"');
   return h;
 }
 const footer = () => FOOTER.replace('<p id="foot-channels"></p>', `<p id="foot-channels">Our YouTube channels: ${channelLinks(channelUrl)}</p>`)
@@ -380,6 +383,42 @@ for (const pg of PAGES) {
   sitemap.push(pg.path);
 }
 
+// Deals: each card links straight to the brand through our short link (no page in between) and to our tool page.
+const toolBySlug = new Map(TOOLS.map(t => [t.slug, t]));
+const shortDay = iso => new Date(iso + "T00:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "short", timeZone: "UTC" });
+function dealCard(d) {
+  const t = toolBySlug.get(d.slug);
+  const icon = fs.existsSync(path.join(ROOT, "img", "deals", d.slug + ".webp"))
+    ? `<img src="/img/deals/${d.slug}.webp" alt="" width="48" height="48" loading="lazy">`
+    : `<span class="deal-letter" aria-hidden="true">${esc(d.brand[0])}</span>`;
+  return `<li class="deal"><div class="deal-top">${icon}<span class="deal-brand">${esc(d.brand)}</span></div>` +
+    `<p class="deal-big">${esc(d.big)}</p><p class="deal-offer">${esc(d.offer)}</p>` +
+    (d.detail ? `<p class="deal-detail">${esc(d.detail)}</p>` : "") +
+    `<p class="deal-checked">Checked on ${esc(d.brand)}'s site on ${esc(shortDay(d.checked))}${d.ends ? " · ends " + esc(d.ends) : ""}</p>` +
+    `<div class="deal-acts"><a class="visit" href="/${d.slug}" ${sponsored}>Get the deal</a>` +
+    (t ? `<a class="deal-more" href="/${toolPath(t)}">About ${esc(t.name)} ›</a>` : "") + "</div></li>";
+}
+{
+  const p = "deals/", trail = [HOME, { name: "Deals", path: p }];
+  const main = [
+    crumbsHtml(trail),
+    "<h1>App deals running now</h1>",
+    "<p class=\"lead\">Discounts on apps and services we use and link to, checked on each brand's own website. " +
+      "Prices change, so check the final price before you pay.</p>",
+    "<p class=\"note\">These are partner links: if you buy through one, we may earn a commission at no extra cost to you.</p>",
+    DEALS.length ? `<ul class="plain deals">\n${DEALS.map(dealCard).join("\n")}\n</ul>`
+      : "<p class=\"count\">No deals running right now. Our newsletter tells you when new ones start.</p>",
+    newsletterBox()
+  ].join("\n");
+  out.set(p + "index.html", layout({
+    path: p, nav: "deals", cls: "page", title: "App deals running now | Use & Like",
+    description: DEALS.length ? `Running discounts on ${DEALS.map(d => d.brand).join(", ")}, checked on each brand's own website.`
+      : "Running discounts on apps and services, checked on each brand's own website.",
+    noindex: !DEALS.length, jsonld: [crumbsLd(trail)], main
+  }));
+  if (DEALS.length) sitemap.push(p);
+}
+
 out.set("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${sitemap.map(p => `  <url><loc>${SITE}/${p}</loc></url>`).join("\n")}
@@ -444,6 +483,6 @@ if (CHECK) {
   console.log(`Pages are up to date (${out.size - 3} pages, ${indexed} in the sitemap).`);
 } else {
   console.log(`${stale.length ? `Wrote ${stale.length} file(s).` : "Nothing changed."} ${CATEGORIES.length} category pages, ` +
-    `${TOOLS.length} tool pages, ${PAGES.length} other pages; ${indexed} pages in the sitemap ` +
+    `${TOOLS.length} tool pages, ${PAGES.length} other pages, deals page (${DEALS.length} deals); ${indexed} pages in the sitemap ` +
     `(noindex for now: ${TOOLS.filter(t => !toolIndexed(t)).map(t => t.name).concat(CATEGORIES.filter(c => !catIndexed(c))).join(", ") || "none"}).`);
 }

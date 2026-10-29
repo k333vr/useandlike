@@ -124,6 +124,20 @@ nav.top { display: flex; gap: 24px; margin-top: 14px; padding: 10px 0; border-to
 nav.top a { text-decoration: none; color: var(--muted); font-weight: 600; font-size: 1rem; }
 nav.top a[aria-current="page"] { color: var(--text); text-decoration: underline; text-decoration-color: var(--brass); text-decoration-thickness: 3px; text-underline-offset: 8px; }
 
+/* Deals page (/deals/, made by scripts/build-pages.js from data/deals.json) */
+.deals { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; margin: 18px 0 28px; }
+.deal { display: flex; flex-direction: column; gap: 4px; padding: 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.deal-top { display: flex; align-items: center; gap: 10px; }
+.deal-top img, .deal-letter { width: 48px; height: 48px; border-radius: 11px; flex: none; }
+.deal-letter { display: grid; place-items: center; background: var(--soft); color: var(--text); font: 700 1.3rem var(--sans); }
+.deal-brand { font-weight: 700; font-size: 1.05rem; }
+.deal-big { margin: 8px 0 0; font: 800 1.9rem/1.1 var(--sans); color: var(--text); }
+.deal-offer { margin: 0; font-weight: 600; }
+.deal-detail { margin: 0; color: var(--muted); font-size: .95rem; }
+.deal-checked { margin: 4px 0 0; color: var(--muted); font-size: .82rem; }
+.deal-acts { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-top: auto; padding-top: 10px; }
+.deal-more { font-size: .95rem; }
+
 /* Home: Craigslist-style index */
 .index { columns: 3 260px; column-gap: 40px; margin-top: 22px; }
 .block { break-inside: avoid; margin: 0 0 26px; }
@@ -242,6 +256,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     <nav class="top" aria-label="Sections">
       <a href="/" id="nav-tools" aria-current="page">Tools</a>
       <a href="/#videos" id="nav-videos">Videos</a>
+      <a href="/deals/" id="nav-deals">Deals</a>
     </nav>
   </header>
 
