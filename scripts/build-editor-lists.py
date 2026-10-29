@@ -440,7 +440,11 @@ body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 var(
 .eyebrow { margin: 0; font-size: .78rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--brass); }
 h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(1.9rem, 5vw, 2.5rem); line-height: 1.15; margin: .3rem 0 .6rem; color: var(--brand); text-wrap: balance; }
 .lede { margin: 0; max-width: 64ch; }
-.rule { margin: .7rem 0 0; max-width: 70ch; padding: 10px 14px; border-radius: 8px; background: var(--new-bg); color: var(--new-fg); font-size: .95rem; }
+.rule { margin: .7rem 0 0; max-width: 70ch; padding: 10px 14px; border-radius: 8px; background: var(--new-bg); color: var(--new-fg); font-size: .95rem;
+        display: grid; gap: 6px; }
+.rule p { margin: 0; }
+.rule-lines { margin: 0; padding-left: 1.4em; display: grid; gap: 2px; }
+.rule-lines code { overflow-wrap: anywhere; }
 .meta { margin: .6rem 0 0; font-size: .9rem; color: var(--muted); font-variant-numeric: tabular-nums; }
 .bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 2; background: var(--bg); border-bottom: 1px solid var(--line);
   margin-top: 18px; padding-block: 12px; display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; }
@@ -568,8 +572,15 @@ dialog.tf::backdrop { background: rgba(0, 0, 0, .45); }
     <h1>Affiliate links</h1>
     <p class="lede">Find the tool a video is about, press Copy and paste the line at the very top of the description or
       into the pinned comment. Use only these short links. A video about an app that isn’t listed gets only the newsletter line.</p>
-    <p class="rule">📌 The 👉 line is always the <b>first line</b> of the description, the 📩 line the second. Viewers see
-      only the first lines without tapping “more”, so a link further down (or written as “🔗 Get …”) earns almost nothing.</p>
+    <div class="rule" role="note">
+      <p><b>📌 For Klent and every uploader:</b> the 👉 line is always <b>line 1</b> of the description and the 📩 line
+        <b>line 2</b>. YouTube shows only the first lines before “…more”, so a link further down earns almost nothing.</p>
+      <ol class="rule-lines"><li><code>👉 Try Fiverr (affiliate): useandlike.com/fiverr</code> (the video’s own 👉 line from this page)</li>
+        <li><code><!--NEWSLETTER--></code></li><li>an empty line, then your description</li></ol>
+      <p>Don’t move it down or rewrite it as “🔗 Get …”, also when ChatGPT writes the description (the “Longer description”
+        prompt below keeps our lines on top). On 29 Oct Kevin had the link moved back to line 1 on the uploads from 20-29 Oct
+        where it sat further down.</p>
+    </div>
     <p class="meta"><b><!--COUNT--></b> links · updated <!--UPDATED--></p>
     <p class="nl-line">Newsletter line, added when you tick the box below: <code><!--NEWSLETTER--></code></p>
     <button type="button" id="tf-open" class="tf-open" hidden>✏️ To fix in YouTube Studio: <span id="tf-left"></span></button>
