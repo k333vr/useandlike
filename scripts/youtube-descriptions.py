@@ -138,7 +138,8 @@ def all_videos(token):
 
 def run(name, apply, limit, tools_first=False):
     token = access_token(name)
-    lines_for = lists.make_matcher(lists.load_tools())
+    tools = lists.load_tools()
+    lines_for = lists.make_matcher(tools, lists.read_links(tools))   # link-only brands too (29 Oct), as on the team page
     channel, videos = all_videos(token)
     print("Channel: %s, %d videos" % (channel, len(videos)))
 
@@ -154,7 +155,7 @@ def run(name, apply, limit, tools_first=False):
             continue
         if v.get("status", {}).get("privacyStatus") == "private":   # drafts and scheduled uploads (e.g. title "x", 19 Oct)
             continue
-        kind, lines = lines_for(sn["title"])
+        kind, lines = lines_for(sn["title"], name)   # name: "htr", "gg" (links for one channel only)
         desc = sn.get("description", "")
         if MARKER in desc:
             # Already has our links: only add the tool line when the video's tool was added to the site later.

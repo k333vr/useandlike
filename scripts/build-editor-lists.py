@@ -42,11 +42,21 @@ GAME_FIXES = os.path.join(ROOT, "data", "game-category.json")
 TOPIC_IDEAS = os.path.join(ROOT, "data", "topic-ideas.json")
 # Everyday English words (lowercase in a sentence), for the new-video box: see the file's header.
 COMMON_WORDS = os.path.join(ROOT, "data", "common-words.txt")
+# What each link is for (Kevin, 29 Oct: "the editor then has field where he types in budget and/or budgeting and get the
+# list of all affiliate offers that fit"): the page's search finds links by topic, and the new-video box suggests the
+# offers whose topics a title names when it names none of our tools. See the file's _about.
+OFFER_TOPICS = os.path.join(ROOT, "data", "offer-topics.json")
 # Last line of a pinned comment (the description uses NEWSLETTER_LINE); same as useandlike-ops/analysis/pinned-comment-lines.py.
 PINNED_NEWS = "📩 Free Subscription Tracker + new app tips by email: useandlike.com/join"
 # Link-only names that are ordinary words: the page's "new video" box doesn't pick them from a title by itself.
 NO_AUTO = {"box", "changed", "rover", "knack", "reverb", "lot", "empower", "parallels", "pigment", "condor", "optimum",
            "acorns", "carla"}
+# First words of link names that say too little: "Keeper Security" and "Xfinity Mobile" are found by their full names
+# only ("Zoo Keeper", "Xfinity router" videos are about something else).
+NO_AUTO_FIRST = {"keeper", "xfinity"}
+# Like bv.NOT_ABOUT for the site's tools: other products with a link-only brand's name.
+LINK_NOT_ABOUT = {"Alibaba": re.compile(r"\bqwen|alibaba cloud|aliyun", re.I),
+                  "Recruit CRM": re.compile(r"\bassignment|\binterview|\bjobs?\b|\bcareers?\b|\bcsa\b", re.I)}  # working there
 # Links that only go on some videos about their tool (Kevin, 14 Oct, Skool: "only add it if it really makes sense to make a
 # community from the video"): the title has to match. Settings videos are for people who already use it.
 LINK_ONLY_IF = {
@@ -104,23 +114,45 @@ def cancel_guides():
     return [(g["slug"], g["name"], GUIDE_ALIASES.get(g["slug"], [g["name"].lower().replace("+", "")])) for g in gmod.GUIDES]
 
 
-def make_matcher(tools):
-    """Returns lines_for(title) -> (kind, [lines to put at the top of the description])."""
+def link_keys(l):
+    """How the page's box and lines_for find a link-only short link in a title: its name (not the ones in NO_AUTO), and
+    a name's first word when it is the slug ("CyberGhost VPN" also as "cyberghost")."""
+    n = l["name"].lower()
+    k = [] if n in NO_AUTO else [n]
+    first = (re.findall(r"[a-z0-9]+", n) or [""])[0]
+    if k and " " in n and first == l["slug"] and len(first) >= 5 and first not in NO_AUTO_FIRST:
+        k.append(first)
+    return k
+
+
+def make_matcher(tools, links=None):
+    """Returns lines_for(title, channel=None) -> (kind, [lines to put at the top of the description]). With links
+    (read_links), the link-only short links count too, found by their names as in the page's box (29 Oct: uploads about
+    DistroKid, Trip.com ... got no 👉 line); a link for one channel only ("only" in short-links.json) needs that channel."""
     slug_of = {t["name"]: t["slug"] for t in tools}
+    written = {t["name"]: LINE_NAME.get(t["name"], t["name"]) for t in tools}
+    only = {}
     guides = [(k, slug) for slug, _, keys in cancel_guides() for k in keys]
     guides.sort(key=lambda k: -len(k[0]))
     gpat = [(re.compile(r"(?<![a-z0-9])" + re.escape(k) + r"(?![a-z0-9])"), s) for k, s in guides]
     keys = [(k, t["name"]) for t in tools for k in bv.ALIASES.get(t["name"], [t["name"].lower()])]
+    for l in links or []:
+        if not l["tool"] and l["name"] not in slug_of:
+            slug_of[l["name"]], written[l["name"]], only[l["name"]] = l["slug"], l["written"], l["only"]
+            keys += [(k, l["name"]) for k in link_keys(l)]
     keys.sort(key=lambda k: -len(k[0]))
     tpat = [(re.compile(r"(?<![a-z0-9])" + re.escape(k) + r"(?![a-z0-9])"), n) for k, n in keys]
 
-    def tool_in(text, title):
+    not_about = {**bv.NOT_ABOUT, **LINK_NOT_ABOUT}
+
+    def tool_in(text, title, channel):
         # Same "other product with the same name" rule as the site (bv.NOT_ABOUT): no Wise link on Wise Care videos.
         tl = " " + text.lower() + " "
-        return next((n for rx, n in tpat if rx.search(tl) and not (n in bv.NOT_ABOUT and bv.NOT_ABOUT[n].search(title))
-                     and not (n in LINK_ONLY_IF and not LINK_ONLY_IF[n].search(title))), None)
+        return next((n for rx, n in tpat if rx.search(tl) and not (n in not_about and not_about[n].search(title))
+                     and not (n in LINK_ONLY_IF and not LINK_ONLY_IF[n].search(title))
+                     and (not only.get(n) or only[n] == channel)), None)
 
-    def lines_for(title):
+    def lines_for(title, channel=None):
         tl = " " + title.lower() + " "
         if CANCEL.search(title):
             g = next((s for rx, s in gpat if rx.search(tl)), None)
@@ -133,15 +165,62 @@ def make_matcher(tools):
             m = vs and re.search(r"\(([^()]*\svs\.?\s[^()]*)\)", vs, re.I)   # "… (Fiverr Pro vs Fiverr)"
             vs = m.group(1) if m else vs
             for part in VS.split(vs)[:3] if vs else []:
-                tool = tool_in(part, title)
+                tool = tool_in(part, title, channel)
                 if tool and tool not in found:
                     found.append(tool)
             if len(found) < 2:
-                found = [t for t in [tool_in(title, title)] if t]
+                found = [t for t in [tool_in(title, title, channel)] if t]
             if found:
-                return "tool", ["👉 Try %s (affiliate): useandlike.com/%s" % (LINE_NAME.get(t, t), slug_of[t]) for t in found] + [NEWSLETTER_LINE]
+                return "tool", ["👉 Try %s (affiliate): useandlike.com/%s" % (written[t], slug_of[t]) for t in found] + [NEWSLETTER_LINE]
         return "newsletter only", [NEWSLETTER_LINE]
     return lines_for
+
+
+def norm(s):
+    """Lowercase words and digits only, as the page's box compares them ("50/30/20 Budget" -> "50 30 20 budget")."""
+    return re.sub(r"[^a-z0-9']+", " ", s.lower().replace("’", "'").replace("‘", "'")).strip()
+
+
+def load_topics(slugs):
+    """data/offer-topics.json as (sets, offers): set name -> [phrases], slug -> ["@set" or phrase], phrases normalized.
+    Warns about slugs that aren't short links and sets that don't exist."""
+    if not os.path.exists(OFFER_TOPICS):
+        return {}, {}
+    d = json.load(open(OFFER_TOPICS, encoding="utf-8"))
+    sets = {k: list(dict.fromkeys(norm(p) for p in v)) for k, v in d.get("sets", {}).items()}
+    offers = {}
+    for slug, refs in d.get("offers", {}).items():
+        if slug not in slugs:
+            print("WARN: data/offer-topics.json names /%s, which isn't a short link" % slug)
+        for r in refs:
+            if r.startswith("@") and r[1:] not in sets:
+                print("WARN: data/offer-topics.json: /%s uses the unknown set %s" % (slug, r))
+        offers[slug] = [r if r.startswith("@") else norm(r) for r in refs if not r.startswith("@") or r[1:] in sets]
+    return sets, offers
+
+
+def topic_phrases(refs, sets):
+    return list(dict.fromkeys(p for r in refs for p in (sets[r[1:]] if r.startswith("@") else [r])))
+
+
+def topic_matcher(links, sets, offers):
+    """fits(title, channel=None) -> [(link, phrase)]: the links whose topics the title names (a plural "s"/"es" on the
+    phrase's last word counts too), most specific phrase first, then links with a deal on our deals page, tools on the
+    site, what a link is worth. The same order as the page's box. Links for one channel only need that channel;
+    LINK_ONLY_IF rules apply."""
+    table = [(l, topic_phrases(offers[l["slug"]], sets)) for l in links if l["slug"] in offers]
+
+    def fits(title, channel=None):
+        t, out = " " + norm(title) + " ", []
+        for l, phrases in table:
+            if (l["only"] and l["only"] != channel) or (l["name"] in LINK_ONLY_IF and not LINK_ONLY_IF[l["name"]].search(title)):
+                continue
+            hit = [p for p in phrases if any(" %s%s " % (p, e) in t for e in ("", "s", "es"))]
+            if hit:
+                out.append((l, max(hit, key=lambda p: len(p.split()))))
+        out.sort(key=lambda x: (-len(x[1].split()), not x[0]["deal"], not x[0]["tool"], -x[0]["worth"], x[0]["name"].lower()))
+        return out
+    return fits
 
 
 def link_history():
@@ -206,18 +285,14 @@ def topics_section(esc):
        len(d["flex"]), flex, n_open, "".join(groups))
 
 
-def write_links_page(tools):
-    src = open(os.path.join(ROOT, "index.html"), encoding="utf-8").read()
-    order = bv.read_js_array(src, "CATEGORIES")
+def read_links(tools):
+    """Every affiliate short link in _redirects (our own links and newsletter links left out) with its name, group, 👉 line,
+    channel rule, and for ordering suggestions: whether it's a tool on the site and what it's worth (short-links.json)."""
     redirects = re.findall(r"^/([\w-]+)\s+(\S+)", open(os.path.join(ROOT, "_redirects"), encoding="utf-8").read(), re.M)
-    added, removed = link_history()
-    today = date.today()
     by_slug = {t["slug"]: t for t in tools}
     extra = json.load(open(SHORT_LINKS, encoding="utf-8")) if os.path.exists(SHORT_LINKS) else {}
-    # For the manager (the page's "To fix in YouTube Studio" popup), written by useandlike-ops/analysis/title-fixes.py
-    # and game-category.py
-    title_fixes = json.load(open(TITLE_FIXES, encoding="utf-8")) if os.path.exists(TITLE_FIXES) else []
-    game_fixes = json.load(open(GAME_FIXES, encoding="utf-8")) if os.path.exists(GAME_FIXES) else []
+    deals = os.path.join(ROOT, "data", "deals.json")   # a deal on our deals page right now: suggested first
+    deals = {d["slug"] for d in json.load(open(deals, encoding="utf-8"))["deals"]} if os.path.exists(deals) else set()
     links = []
     for slug, target in redirects:
         if (urllib.parse.urlparse(target).hostname or "").endswith(OWN_HOSTS) or NEWSLETTER_LINK.match(slug):
@@ -230,7 +305,24 @@ def write_links_page(tools):
         links.append({"slug": slug, "name": name, "cat": t["category"] if t else x.get("group", "Other"), "written": written,
                       "line": "👉 Try %s (affiliate): useandlike.com/%s" % (written, slug),
                       "only": x.get("only", ""), "source": x.get("source", ""),
-                      "added": added.get(slug, today.isoformat())})  # not committed yet: today
+                      "tool": bool(t), "worth": float(x.get("worth") or 0), "deal": slug in deals})
+    return links
+
+
+def write_links_page(tools):
+    src = open(os.path.join(ROOT, "index.html"), encoding="utf-8").read()
+    order = bv.read_js_array(src, "CATEGORIES")
+    added, removed = link_history()
+    today = date.today()
+    by_slug = {t["slug"]: t for t in tools}
+    # For the manager (the page's "To fix in YouTube Studio" popup), written by useandlike-ops/analysis/title-fixes.py
+    # and game-category.py
+    title_fixes = json.load(open(TITLE_FIXES, encoding="utf-8")) if os.path.exists(TITLE_FIXES) else []
+    game_fixes = json.load(open(GAME_FIXES, encoding="utf-8")) if os.path.exists(GAME_FIXES) else []
+    links = read_links(tools)
+    for l in links:
+        l["added"] = added.get(l["slug"], today.isoformat())  # not committed yet: today
+    sets, offers = load_topics({l["slug"] for l in links})
     esc = lambda s: html.escape(s, quote=True)
 
     def row(l):
@@ -245,12 +337,13 @@ def write_links_page(tools):
             note += ('<p class="note">Only on %s videos: %s approved only that channel. Never on the other channels or '
                      'the website.</p>' % (esc(only), esc(l["source"] or "the network")))
         new = (today - date.fromisoformat(l["added"])).days < NEW_DAYS
+        topics = topic_phrases(offers.get(l["slug"], []), sets)   # the search finds a link by its topics too ("budget")
         return ('<div class="row" id="l-{slug}" data-line="{line}" data-q="{q}" data-added="{iso}"><div class="who"><span class="name">{name}'
                 '</span>{badge}{only}<span class="date">Added {day}</span></div><code class="line">{line}</code><button '
                 'type="button" data-copy aria-label="Copy the line for {name}">Copy</button>{note}</div>\n').format(
             slug=esc(l["slug"]), line=esc(l["line"]), name=esc(l["name"]), note=note, day=nice_day(l["added"]), iso=l["added"],
-            q=esc(" ".join(filter(None, [l["name"], l["slug"], l["cat"], only])).lower()), badge='<span class="badge">New</span>' if new else "",
-            only='<span class="only">%s only</span>' % esc(only) if only else "")
+            q=esc(" | ".join(filter(None, [l["name"], l["slug"], l["cat"], only] + topics)).lower()),
+            badge='<span class="badge">New</span>' if new else "", only='<span class="only">%s only</span>' % esc(only) if only else "")
 
     sections = []
     for c in order + sorted({l["cat"] for l in links} - set(order), key=lambda c: (c == "Other", c)):
@@ -279,15 +372,15 @@ def write_links_page(tools):
         if l["slug"] in by_slug:
             k, x = bv.ALIASES.get(l["name"], [l["name"].lower()]), bv.NOT_ABOUT.get(l["name"])
         else:
-            n = l["name"].lower()
-            k, x = ([] if n in NO_AUTO else [n]), None
-            first = (re.findall(r"[a-z0-9]+", n) or [""])[0]
-            if k and " " in n and first == l["slug"] and len(first) >= 5:   # "CyberGhost VPN" also as "cyberghost"
-                k.append(first)
+            k, x = link_keys(l), LINK_NOT_ABOUT.get(l["name"])
         o = LINK_ONLY_IF.get(l["name"])
+        # tp: its topics ("@set" or a phrase); dl: a deal on our deals page, st: a tool on the site, v: what it's worth
+        # (these three order the topic suggestions)
         items.append({"s": l["slug"], "n": l["name"], "w": l["written"], "k": k, "x": x.pattern if x else "",
-                      "o": o.pattern if o else "", "on": LINK_ONLY_NOTE.get(l["name"], ""), **({"c": l["only"]} if l["only"] else {})})
-    box = {"items": items, "guides": [{"s": s, "n": n, "k": k} for s, n, k in cancel_guides()],
+                      "o": o.pattern if o else "", "on": LINK_ONLY_NOTE.get(l["name"], ""), **({"c": l["only"]} if l["only"] else {}),
+                      **({"tp": offers[l["slug"]], "dl": int(l["deal"]), "st": int(l["tool"]), "v": l["worth"]}
+                         if offers.get(l["slug"]) else {})})
+    box = {"items": items, "sets": sets, "guides": [{"s": s, "n": n, "k": k} for s, n, k in cancel_guides()],
            "exclude": bv.EXCLUDE.pattern, "cancel": CANCEL.pattern, "suffix": bv.SUFFIX.pattern, "pinNews": PINNED_NEWS,
            "common": " ".join(l.strip() for l in open(COMMON_WORDS, encoding="utf-8") if l.strip() and not l.startswith("#"))}
     page = (LINKS_TEMPLATE.replace("/*BOX_JS*/", BOX_JS).replace("/*BOX*/", json.dumps(box, ensure_ascii=False).replace("</", "<\\/"))
@@ -344,6 +437,7 @@ body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 var(
 .eyebrow { margin: 0; font-size: .78rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--brass); }
 h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(1.9rem, 5vw, 2.5rem); line-height: 1.15; margin: .3rem 0 .6rem; color: var(--brand); text-wrap: balance; }
 .lede { margin: 0; max-width: 64ch; }
+.rule { margin: .7rem 0 0; max-width: 70ch; padding: 10px 14px; border-radius: 8px; background: var(--new-bg); color: var(--new-fg); font-size: .95rem; }
 .meta { margin: .6rem 0 0; font-size: .9rem; color: var(--muted); font-variant-numeric: tabular-nums; }
 .bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 2; background: var(--bg); border-bottom: 1px solid var(--line);
   margin-top: 18px; padding-block: 12px; display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; }
@@ -395,6 +489,14 @@ button[data-copy].ok, button[data-copyout].ok, button[data-tfcopy].ok, button[da
 .vstatus { margin: 0; padding: 8px 12px; border-radius: 8px; font-weight: 600; background: var(--soft); }
 .vstatus.yes { background: var(--ok-bg); color: var(--ok); }
 .vstatus.warn { background: var(--new-bg); color: var(--new-fg); }
+.vtopics { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: .9rem; }
+.vtopics[hidden] { display: none; }
+.vtopics b { font-weight: 600; margin-right: 2px; }
+.vtopics button { font: inherit; font-size: .88rem; padding: 3px 12px; border-radius: 999px; border: 1px solid var(--line);
+  background: var(--bg); color: var(--link); cursor: pointer; }
+.vtopics button:hover { border-color: var(--link); }
+.vtopics button[aria-pressed="true"] { background: var(--ok-bg); color: var(--ok); border-color: var(--ok); font-weight: 600; }
+.vtopics .all { border-style: dashed; color: var(--muted); }
 .opt.small { font-size: .85rem; }
 :focus-visible { outline: 3px solid var(--brass); outline-offset: 2px; }
 .note { grid-column: 2 / -1; margin: 0; font-size: .8rem; color: var(--muted); }
@@ -463,6 +565,8 @@ dialog.tf::backdrop { background: rgba(0, 0, 0, .45); }
     <h1>Affiliate links</h1>
     <p class="lede">Find the tool a video is about, press Copy and paste the line at the very top of the description or
       into the pinned comment. Use only these short links. A video about an app that isn’t listed gets only the newsletter line.</p>
+    <p class="rule">📌 The 👉 line is always the <b>first line</b> of the description, the 📩 line the second. Viewers see
+      only the first lines without tapping “more”, so a link further down (or written as “🔗 Get …”) earns almost nothing.</p>
     <p class="meta"><b><!--COUNT--></b> links · updated <!--UPDATED--></p>
     <p class="nl-line">Newsletter line, added when you tick the box below: <code><!--NEWSLETTER--></code></p>
     <button type="button" id="tf-open" class="tf-open" hidden>✏️ To fix in YouTube Studio: <span id="tf-left"></span></button>
@@ -496,7 +600,9 @@ dialog.tf::backdrop { background: rgba(0, 0, 0, .45); }
     <h2 id="maker-h">New video? Paste its title</h2>
     <p class="hint">You see at once whether we have an affiliate link for it, and you get the pinned comment (a question
       that invites replies, the 👉 line, the newsletter line) and a short description: our links first, one sentence that
-      extends the title, the closing line. Check the link and the text, change them if needed, then copy.</p>
+      extends the title, the closing line. Check the link and the text, change them if needed, then copy. No app name in
+      the title? The box shows our offers that fit its topic (a budget video: budgeting apps): pick one only if it really
+      fits the video. Writing a longer description with an AI? Copy the prompt at the bottom: it keeps our lines on top.</p>
     <div class="pickrow" id="vchrow" hidden><label for="vch">Channel</label><select id="vch"><option value="">Pick the channel</option>
       <option value="htr">How To Rocket</option><option value="gg">Guide Glimpse</option><option value="lp">Logic Protocol</option></select>
       <span class="vnote">Some links are for one channel only.</span></div>
@@ -504,12 +610,17 @@ dialog.tf::backdrop { background: rgba(0, 0, 0, .45); }
     <input id="vt" type="text" autocomplete="off" placeholder="e.g. How to Book a Flight Ticket on Kiwi.com">
     <div id="made" hidden>
       <p id="vstatus" class="vstatus" role="status"></p>
+      <div id="vtopics" class="vtopics" hidden></div>
       <div class="pickrow"><label for="vtool">Link</label><select id="vtool"></select><span id="vnote" class="vnote"></span></div>
       <div class="out"><div class="outhead"><span>Pinned comment</span><button type="button" data-copyout="pin">Copy</button></div>
         <textarea id="pin" rows="4" spellcheck="false" aria-label="Pinned comment"></textarea></div>
       <div class="out"><div class="outhead"><span>Description</span><button type="button" data-copyout="desc">Copy</button></div>
         <textarea id="desc" rows="6" spellcheck="false" aria-label="Description"></textarea>
         <label class="opt small" for="onlytop"><input id="onlytop" type="checkbox"><span>Only our top lines <em>(to put above an old video's description)</em></span></label></div>
+      <div class="out"><div class="outhead"><span>Longer description: prompt for ChatGPT or another AI</span><button type="button" data-copyout="aiprompt">Copy</button></div>
+        <textarea id="aiprompt" rows="6" spellcheck="false" aria-label="Prompt for a longer description"></textarea>
+        <p class="vnote">Paste it into the AI, then paste its answer as the description. Our lines stay at the very top, where
+          viewers see them without tapping “more”. Don’t move the link further down or add “🔗 Get …” lines.</p></div>
     </div>
   </section>
 
@@ -529,7 +640,7 @@ dialog.tf::backdrop { background: rgba(0, 0, 0, .45); }
 
 <!--TOPICS-->
   <div class="bar">
-    <input id="q" type="search" placeholder="Find a tool, e.g. Wise" aria-label="Find a tool" autocomplete="off">
+    <input id="q" type="search" placeholder="Find a tool or a topic, e.g. Wise, budget, flights" aria-label="Find a tool or a topic" autocomplete="off">
     <label class="opt" for="nl"><input id="nl" type="checkbox"><span>Copy with the newsletter line <em>(for descriptions)</em></span></label>
     <label class="opt" for="onlynew"><input id="onlynew" type="checkbox"><span>Only new <em>(last <!--NEW_DAYS--> days)</em></span></label>
   </div>
@@ -754,6 +865,35 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
   keys.sort(function (a, b) { return b.k.length - a.k.length; });
   gkeys.sort(function (a, b) { return b.k.length - a.k.length; });
 
+  // Topics (data/offer-topics.json, Kevin 29 Oct): a title that names none of our tools but a topic ("How to Create a
+  // Budget From Scratch") gets the offers that fit it as suggestions to pick by hand. Same order as topic_matcher in
+  // build-editor-lists.py: the most specific phrase, then a deal on our deals page, tools on the site, what a link is worth.
+  function norm(s) { return s.toLowerCase().replace(/[’‘]/g, "'").replace(/[^a-z0-9']+/g, " ").trim(); }
+  var topicItems = BOX.items.filter(function (it) { return it.tp; });
+  topicItems.forEach(function (it) {
+    var ps = [];
+    it.tp.forEach(function (r) { ps = ps.concat(r.charAt(0) === "@" ? BOX.sets[r.slice(1)] || [] : [r]); });
+    it.tps = ps;
+  });
+  function words(p) { return p.split(" ").length; }
+  function topicFits(title) {
+    var t = " " + norm(title) + " ", out = [];
+    topicItems.forEach(function (it) {
+      if (!chOk(it) || (it.or && !it.or.test(title))) return;
+      var best = null;
+      it.tps.forEach(function (p) {
+        if ((t.indexOf(" " + p + " ") >= 0 || t.indexOf(" " + p + "s ") >= 0 || t.indexOf(" " + p + "es ") >= 0) &&
+            (!best || words(p) > words(best))) best = p;
+      });
+      if (best) out.push({ it: it, p: best });
+    });
+    out.sort(function (a, b) {
+      return words(b.p) - words(a.p) || b.it.dl - a.it.dl || b.it.st - a.it.st || b.it.v - a.it.v ||
+        a.it.n.toLowerCase().localeCompare(b.it.n.toLowerCase());
+    });
+    return out;
+  }
+
   // Words that are lowercase in a sentence ("How To Book Flight Ticket" -> "book flight ticket"); names keep their capitals.
   var COMMON = {};
   ("a an and or the to in on at of for from with by into onto over your my our their his her its this that these those it you " +
@@ -928,10 +1068,23 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
   function closing(aff) {
     return "❤️ If this helped, please like and subscribe!" + (aff ? " Some links earn us a small commission at no extra cost to you." : "") + " Thanks!";
   }
+  // A longer description (Kevin, 29 Oct: "the description should be a bit longer"; the uploaders write theirs with an AI
+  // and had moved our link into the middle as "🔗 Get …"): a prompt that keeps our lines on top and the 13 Oct rule (no
+  // promises beyond the title).
+  function aiPrompt(title, links, aff) {
+    return ["Write a YouTube video description for this video: " + title.replace(SUFFIX, "").trim(), "",
+      "Start with these lines, copied exactly, each on its own line:"].concat(links, [NEWS, "",
+      "Then an empty line and 2 or 3 short paragraphs (about 150 words in total) in simple English: what the video " +
+      "helps with and who it is for. Use the words people search for.",
+      "Only say what the title says: don't invent steps, features, prices or results, and don't write \"best\", \"#1\" " +
+      "or \"guaranteed\". No other links or web addresses, and no \"🔗\" lines.",
+      "End with this line, copied exactly:", closing(aff)]).join("\n");
+  }
 
   var vt = document.getElementById("vt"), sel = document.getElementById("vtool"), made = document.getElementById("made");
   var vstatus = document.getElementById("vstatus"), onlytop = document.getElementById("onlytop");
   var pin = document.getElementById("pin"), desc = document.getElementById("desc"), vnote = document.getElementById("vnote");
+  var vtopics = document.getElementById("vtopics"), aiprompt = document.getElementById("aiprompt"), MAX_TOPICS = 8;
   // Links for one channel only (FlexOffers: How To Rocket): the Channel row shows while there are any, and they're
   // offered only once that channel is picked (the choice stays on this device).
   var vch = document.getElementById("vch"), CH = { htr: "How To Rocket", gg: "Guide Glimpse", lp: "Logic Protocol" };
@@ -974,6 +1127,9 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
     if (!title) return;
     var tl = " " + title.toLowerCase() + " ", its = [], it, guide = null, note, j, ruled = null;
     var cancel = CANCEL.test(title), excluded = !cancel && EXCLUDE.test(title);
+    // Topic suggestions only for a title that names none of our tools (a Skool settings video names one)
+    var named = !cancel && !excluded && (compared(title).length > 1 || toolIn(title, title).length || toolIn(title, title, true).length);
+    var fits = cancel || excluded || named || SAFETY.test(title.toLowerCase()) ? [] : topicFits(title);
     if (cancel) {
       for (j = 0; j < gkeys.length && !guide; j++) if (gkeys[j].rx.test(tl)) guide = gkeys[j].g;
       note = "";
@@ -991,6 +1147,7 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
            : its.length ? "Found in the title. Wrong one? Pick another."
            : ruled && !chOk(ruled) ? ""
            : ruled ? "If this video is for people starting out, pick " + ruled.n + " here."
+           : fits.length ? ""
            : "No tool from our list in the title. Pick one if the video is about one.";
     }
     it = its[0] || null;
@@ -1005,21 +1162,53 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
     pin.value = [question(title, subj, cmp)].concat(links, [BOX.pinNews]).join("\n");
     var top = links.concat([NEWS]).filter(Boolean).join("\n");
     desc.value = onlytop.checked ? top : top + "\n\n" + capFirst(extend(title, subj, cmp)) + "\n\n" + closing(!!it);
+    aiprompt.value = aiPrompt(title, links, !!it);
     vnote.textContent = note;
+    showTopics(fits);
     vstatus.className = "vstatus" + (it ? " yes" : cancel || excluded || ruled ? " warn" : "");
     vstatus.textContent = its.length > 1 ? "✓ We have affiliate links for " + names(its) + ": one 👉 line each."
       : it ? "✓ We have an affiliate link: " + it.n + " → useandlike.com/" + it.s
+      : fits.length && manual === null ? "No app from our list in the title, but " + (fits.length === 1 ? "one of our offers fits" :
+          fits.length + " of our offers fit") + " its topic. Pick one only if it really fits the video:"
       : cancel ? "Cancel video: no affiliate link" + (guide ? ", the cancel guide goes in instead" : "") + " (our rule)."
       : excluded ? "No affiliate link: video about refunds, free versions, cracks or alternatives (our rule)."
       : ruled && !chOk(ruled) ? "Our " + ruled.n + " link is only for " + CH[ruled.c] + " videos" +
           (vch.value ? ", so this one gets only the newsletter line." : ". Is this one? Pick the channel above.")
       : ruled ? "No affiliate link on this one (our rule for " + ruled.n + "): " + lowerFirst(ruled.on)
       : "No affiliate link for this video: only the newsletter line.";
-    grow(pin); grow(desc);
+    grow(pin); grow(desc); grow(aiprompt);
   }
+  // The suggested offers as buttons (the first MAX_TOPICS; "All N" shows the rest in the list below via its search).
+  function showTopics(fits) {
+    vtopics.textContent = "";
+    vtopics.hidden = !fits.length;
+    if (!fits.length) return;
+    var b = document.createElement("b");
+    b.textContent = "Fits the topic:";
+    vtopics.appendChild(b);
+    fits.slice(0, MAX_TOPICS).forEach(function (f) {
+      var c = document.createElement("button");
+      c.type = "button"; c.dataset.topic = f.it.s; c.textContent = f.it.n; c.title = "Topic: " + f.p;
+      c.setAttribute("aria-pressed", manual === f.it.s ? "true" : "false");
+      vtopics.appendChild(c);
+    });
+    if (fits.length > MAX_TOPICS) {
+      var a = document.createElement("button");
+      a.type = "button"; a.className = "all"; a.dataset.all = fits[0].p; a.textContent = "All " + fits.length + " ›";
+      vtopics.appendChild(a);
+    }
+  }
+  vtopics.addEventListener("click", function (ev) {
+    var c = ev.target.closest("button");
+    if (!c) return;
+    if (c.dataset.topic) { manual = manual === c.dataset.topic ? null : c.dataset.topic; makeLines(); return; }
+    q.value = c.dataset.all; filter();   // every fitting offer in the list below, each with its Copy button
+    q.scrollIntoView({ block: "start", behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+  });
   function grow(ta) { ta.style.height = "auto"; ta.style.height = ta.scrollHeight + 2 + "px"; }   // whole text visible on phones
   pin.addEventListener("input", function () { grow(pin); });
   desc.addEventListener("input", function () { grow(desc); });
+  aiprompt.addEventListener("input", function () { grow(aiprompt); });
   vt.addEventListener("input", function () { manual = null; makeLines(); });
   onlytop.addEventListener("change", makeLines);
   vch.addEventListener("change", function () {
@@ -1041,7 +1230,8 @@ def main():
         for t in sorted(tools, key=lambda t: (t["category"], t["name"].lower())):
             w.writerow([t["name"], t["category"], "useandlike.com/" + t["slug"]])
 
-    lines_for = make_matcher(tools)
+    lines_for = make_matcher(tools, read_links(tools))
+    code = {v: k for k, v in CHANNEL_NAMES.items()}   # "How To Rocket" -> "htr" (links for one channel only)
     rows, seen = [], set()
     for line in open(os.path.join(ROOT, "data", "channel-videos.tsv"), encoding="utf-8"):
         p = line.rstrip("\n").split("\t")
@@ -1054,7 +1244,7 @@ def main():
                 continue
         except ValueError:
             pass
-        kind, lines = lines_for(title)
+        kind, lines = lines_for(title, code.get(channel))
         rows.append((int(views) if views.isdigit() else 0, channel, title, "https://youtu.be/" + vid, kind, "\n".join(lines)))
     rows.sort(key=lambda r: -r[0])
 

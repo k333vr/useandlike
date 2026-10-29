@@ -65,6 +65,13 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   once a day while some are left, Done ticks stay on the device.
   Some links only go on some of their tool's videos: `LINK_ONLY_IF` in build-editor-lists.py (Skool, Kevin 14 Oct: only where
   viewers would start their own community: create/start/vs/review/pricing/tutorial, not settings videos); the box says why.
+  Topics (29 Oct, Kevin: "types in budget ... and get the list of all affiliate offers that fit"): `data/offer-topics.json`
+  says what each link is for (shared phrase sets + slug -> topics); the page's search finds links by topic, and a title
+  that names none of our tools gets the fitting offers as buttons to pick by hand (deal on the deals page first, then site
+  tools, then `worth`). A new link gets its topics there. The box also gives a prompt for a longer AI-written description
+  that keeps our lines on top (uploaders had moved the link down as "🔗 Get …"; the page now says the 👉 line is always
+  the first line). Since 29 Oct `make_matcher(tools, read_links(tools))` also finds link-only brands by name (as the box
+  does; `NO_AUTO`, `NO_AUTO_FIRST`, `LINK_NOT_ABOUT`), and `lines_for(title, channel)` keeps "only" links to their channel.
 - Affiliate links live ONLY in `_redirects` (Cloudflare short links), e.g.
   `/wise  https://wise.prf.hn/click/camref:...  302`. Each tool's `slug` in `TOOLS` points at one,
   and its Visit button goes to `/slug`. The owner also uses these short links in YouTube descriptions,
