@@ -70,7 +70,9 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   that names none of our tools gets the fitting offers as buttons to pick by hand (deal on the deals page first, then site
   tools, then `worth`). A new link gets its topics there. The box also gives a prompt for a longer AI-written description
   that keeps our lines on top (uploaders had moved the link down as "🔗 Get …"; the page now says the 👉 line is always
-  the first line). Since 29 Oct `make_matcher(tools, read_links(tools))` also finds link-only brands by name (as the box
+  the first line), and a video-plan prompt for the editor (Kevin, 29 Oct: structure ideas for titles with no clear app):
+  scenes that solve the viewer's problem first, then at most one of our offers where it really helps (the title's tool,
+  else its topic fits, else every site tool), with the spoken affiliate note; none on cancel/refund/"free" titles. Since 29 Oct `make_matcher(tools, read_links(tools))` also finds link-only brands by name (as the box
   does; `NO_AUTO`, `NO_AUTO_FIRST`, `LINK_NOT_ABOUT`), and `lines_for(title, channel)` keeps "only" links to their channel.
 - Affiliate links live ONLY in `_redirects` (Cloudflare short links), e.g.
   `/wise  https://wise.prf.hn/click/camref:...  302`. Each tool's `slug` in `TOOLS` points at one,

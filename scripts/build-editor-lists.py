@@ -376,7 +376,10 @@ def write_links_page(tools):
         o = LINK_ONLY_IF.get(l["name"])
         # tp: its topics ("@set" or a phrase); dl: a deal on our deals page, st: a tool on the site, v: what it's worth
         # (these three order the topic suggestions)
+        # d: what it is, for the video-plan prompt (a site tool's description, else its group and first topics)
+        about = ", ".join(topic_phrases(offers.get(l["slug"], []), sets)[:3])
         items.append({"s": l["slug"], "n": l["name"], "w": l["written"], "k": k, "x": x.pattern if x else "",
+                      "d": by_slug[l["slug"]]["description"] if l["slug"] in by_slug else l["cat"] + (" (" + about + ")" if about else ""),
                       "o": o.pattern if o else "", "on": LINK_ONLY_NOTE.get(l["name"], ""), **({"c": l["only"]} if l["only"] else {}),
                       **({"tp": offers[l["slug"]], "dl": int(l["deal"]), "st": int(l["tool"]), "v": l["worth"]}
                          if offers.get(l["slug"]) else {})})
@@ -621,6 +624,11 @@ dialog.tf::backdrop { background: rgba(0, 0, 0, .45); }
         <textarea id="aiprompt" rows="6" spellcheck="false" aria-label="Prompt for a longer description"></textarea>
         <p class="vnote">Paste it into the AI, then paste its answer as the description. Our lines stay at the very top, where
           viewers see them without tapping “more”. Don’t move the link further down or add “🔗 Get …” lines.</p></div>
+      <div class="out"><div class="outhead"><span>Video plan for the editor: prompt for ChatGPT or another AI</span><button type="button" data-copyout="planprompt">Copy</button></div>
+        <textarea id="planprompt" rows="6" spellcheck="false" aria-label="Prompt for a video plan"></textarea>
+        <p class="vnote">Gives the editor a scene-by-scene plan: the viewer’s problem solved first, then at most one of our
+          offers where it really helps (or none). If the plan uses one of our offers, pick it under Link above so the 👉 line
+          matches. The plan is a starting point: change anything that doesn’t fit the video.</p></div>
     </div>
   </section>
 
@@ -1080,11 +1088,45 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
       "or \"guaranteed\". No other links or web addresses, and no \"🔗\" lines.",
       "End with this line, copied exactly:", closing(aff)]).join("\n");
   }
+  // A video plan for any title (Kevin, 29 Oct: "give the editors ideas how to structure the video ... for affiliates we
+  // use or how we present them the best way for the user ... all titles that have no clear app"): the viewer's problem
+  // first, then at most one of our offers where it really helps, with the spoken affiliate note; none on cancel, refund
+  // or "free" videos (our rule). Offers: the title's tools, else its topic fits, else every tool on the site.
+  var OUTRO = "Want to see what all your subscriptions cost? Get our free Subscription Tracker: the link is in the description.";
+  function planPrompt(title, its, fits, noOffer) {
+    var t = title.replace(SUFFIX, "").trim(), list, offer;
+    var say = "say once: \"The link is in the description. It's an affiliate link, so we may earn a small commission " +
+              "at no extra cost to you.\"";
+    var line = function (it) { return "- " + it.n + ": " + it.d; };
+    if (noOffer) offer = "No product or affiliate offer in this video (our rule for this kind of title).";
+    else if (its.length) offer = "The video is about " + names(its) + ". Show it in use. Where it fits naturally (for " +
+      "example right after the main steps), " + say;
+    else {
+      list = fits.length ? fits.slice(0, 6).map(function (f) { return f.it; })
+           : BOX.items.filter(function (it) { return it.st && chOk(it); });
+      offer = (fits.length ? "These tools we link to fit the topic" : "These are the tools we link to") + " (name: what " +
+        "it is):\n" + list.map(line).join("\n") + "\nIf one of them genuinely helps viewers with this exact problem, " +
+        "add ONE short scene for it as a tip after the main steps, never instead of the real answer, and " + say +
+        " If none really fits, leave it out: a forced product mention costs trust.";
+    }
+    return ["Plan a short YouTube tutorial (2 to 4 minutes, like our other videos) for this title: " + t, "",
+      "Write it as numbered scenes. For each scene: what to show on screen and what to say (one or two sentences).",
+      "1. Hook (first 10 seconds): show the problem from the title and say what the viewer will be able to do.",
+      "2. The quick answer first, then the steps in the order the viewer does them.",
+      "3. What to do if it doesn't work: common mistakes and other options.",
+      "4. Offer: " + offer,
+      "5. Outro: \"" + OUTRO + "\"", "",
+      "Rules: help the viewer first and keep it specific to this title, no filler. Only things that are true for this " +
+      "topic; if a step depends on the app version, the country or the bank, say so. Don't promise results, and don't " +
+      "say \"best\", \"#1\" or \"guaranteed\".",
+      "At the end, name in one line the tool you used in scene 4 (or \"none\")."].join("\n");
+  }
 
   var vt = document.getElementById("vt"), sel = document.getElementById("vtool"), made = document.getElementById("made");
   var vstatus = document.getElementById("vstatus"), onlytop = document.getElementById("onlytop");
   var pin = document.getElementById("pin"), desc = document.getElementById("desc"), vnote = document.getElementById("vnote");
   var vtopics = document.getElementById("vtopics"), aiprompt = document.getElementById("aiprompt"), MAX_TOPICS = 8;
+  var planprompt = document.getElementById("planprompt");
   // Links for one channel only (FlexOffers: How To Rocket): the Channel row shows while there are any, and they're
   // offered only once that channel is picked (the choice stays on this device).
   var vch = document.getElementById("vch"), CH = { htr: "How To Rocket", gg: "Guide Glimpse", lp: "Logic Protocol" };
@@ -1163,6 +1205,7 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
     var top = links.concat([NEWS]).filter(Boolean).join("\n");
     desc.value = onlytop.checked ? top : top + "\n\n" + capFirst(extend(title, subj, cmp)) + "\n\n" + closing(!!it);
     aiprompt.value = aiPrompt(title, links, !!it);
+    planprompt.value = planPrompt(title, its, fits, cancel || excluded || !!ruled || SAFETY.test(title.toLowerCase()));
     vnote.textContent = note;
     showTopics(fits);
     vstatus.className = "vstatus" + (it ? " yes" : cancel || excluded || ruled ? " warn" : "");
@@ -1176,7 +1219,7 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
           (vch.value ? ", so this one gets only the newsletter line." : ". Is this one? Pick the channel above.")
       : ruled ? "No affiliate link on this one (our rule for " + ruled.n + "): " + lowerFirst(ruled.on)
       : "No affiliate link for this video: only the newsletter line.";
-    grow(pin); grow(desc); grow(aiprompt);
+    grow(pin); grow(desc); grow(aiprompt); grow(planprompt);
   }
   // The suggested offers as buttons (the first MAX_TOPICS; "All N" shows the rest in the list below via its search).
   function showTopics(fits) {
@@ -1209,6 +1252,7 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
   pin.addEventListener("input", function () { grow(pin); });
   desc.addEventListener("input", function () { grow(desc); });
   aiprompt.addEventListener("input", function () { grow(aiprompt); });
+  planprompt.addEventListener("input", function () { grow(planprompt); });
   vt.addEventListener("input", function () { manual = null; makeLines(); });
   onlytop.addEventListener("change", makeLines);
   vch.addEventListener("change", function () {
