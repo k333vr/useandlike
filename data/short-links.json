@@ -94,10 +94,10 @@
  "aliexpress": {
   "name": "AliExpress",
   "group": "Shopping & Mobile",
-  "source": "Yazing",
+  "source": "Involve Asia",
   "yazing": "aliexpress",
-  "pays": "Up to 8% of Sales",
-  "countries": "US only",
+  "pays": "up to 6.3% of sales",
+  "countries": "worldwide",
   "worth": 0.03,
   "added": "2026-10-13"
  },
@@ -1859,8 +1859,8 @@
  "kkday": {
   "name": "KKday",
   "group": "Travel",
-  "source": "Travelpayouts",
-  "pays": "1-5% of a booking",
+  "source": "Involve Asia",
+  "pays": "up to 14% of a booking",
   "countries": "worldwide",
   "added": "2026-10-28"
  },
