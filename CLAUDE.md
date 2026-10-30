@@ -92,6 +92,8 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   /aliexpress and /alibaba came from Yazing (US only), /kkday (up to 14%) from Travelpayouts (1-5%); moved entries keep their
   `"yazing"` field and sync_deals.py's YAZING_PAGES, so the deal tracker still reads their Yazing page. Brands that
   review applications get a link per channel; an auto-approved brand's link may go on both channels.
+- Partnerize (Kevin's account; /wise and /malwarebytes are tools): link-only Partnerize links (EaseUS, 30 Oct) go in the
+  hand-written `# Partnerize` block of _redirects (`"source": "Partnerize"`). Adobe applied 30 Oct (partners@, review 1-3 weeks).
 - FlexOffers (15 Oct 2026) turned down useandlike.com and Guide Glimpse, then approved the account for How To Rocket
   (Kevin's screenshot, 16 Oct: How To Rocket is the only approved traffic source). Its links go ONLY on How To Rocket videos: link-only
   short links (never a tool or Visit button on the site, never on Guide Glimpse or Logic Protocol) with

@@ -876,6 +876,13 @@
   "worth": 1.12,
   "added": "2026-10-13"
  },
+ "easeus": {
+  "name": "EaseUS",
+  "group": "Productivity & Design",
+  "source": "Partnerize",
+  "countries": "worldwide",
+  "added": "2026-10-30"
+ },
  "easyship": {
   "name": "Easyship",
   "group": "Online Stores & Funnels",
