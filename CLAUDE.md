@@ -89,7 +89,7 @@ The owner is a beginner. Explain things in plain language and do as much as poss
 - Involve Asia (30 Oct 2026, Kevin's account; How To Rocket and Guide Glimpse are approved properties, useandlike.com
   is not): invl.me / miniurl.app links in the hand-written `# Involve Asia` block of _redirects (`"source": "Involve Asia"`
   in data/short-links.json), plus the tool /shein above it. /shein (Shein Global, up to 21%, many countries) and
-  /aliexpress came from Yazing (US only), /kkday (up to 14%) from Travelpayouts (1-5%); moved entries keep their
+  /aliexpress and /alibaba came from Yazing (US only), /kkday (up to 14%) from Travelpayouts (1-5%); moved entries keep their
   `"yazing"` field and sync_deals.py's YAZING_PAGES, so the deal tracker still reads their Yazing page. Brands that
   review applications get a link per channel; an auto-approved brand's link may go on both channels.
 - FlexOffers (15 Oct 2026) turned down useandlike.com and Guide Glimpse, then approved the account for How To Rocket
