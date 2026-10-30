@@ -3103,6 +3103,15 @@
   "worth": 0.0,
   "added": "2026-10-13"
  },
+ "synthesia": {
+  "name": "Synthesia",
+  "group": "Video Creation",
+  "source": "Synthesia (Rewardful)",
+  "direct": true,
+  "pays": "25% of payments for 12 months (Starter and Creator plans)",
+  "countries": "worldwide",
+  "added": "2026-10-30"
+ },
  "talkspace": {
   "name": "Talkspace",
   "group": "Health & Fitness",

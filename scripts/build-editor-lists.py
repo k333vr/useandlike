@@ -129,7 +129,7 @@ def make_matcher(tools, links=None):
     """Returns lines_for(title, channel=None) -> (kind, [lines to put at the top of the description]). With links
     (read_links), the link-only short links count too, found by their names as in the page's box (29 Oct: uploads about
     DistroKid, Trip.com ... got no 👉 line); a link for one channel only ("only" in short-links.json) needs that channel."""
-    slug_of = {t["name"]: t["slug"] for t in tools}
+    href = {t["name"]: "useandlike.com/" + t["slug"] for t in tools}
     written = {t["name"]: LINE_NAME.get(t["name"], t["name"]) for t in tools}
     only = {}
     guides = [(k, slug) for slug, _, keys in cancel_guides() for k in keys]
@@ -137,8 +137,8 @@ def make_matcher(tools, links=None):
     gpat = [(re.compile(r"(?<![a-z0-9])" + re.escape(k) + r"(?![a-z0-9])"), s) for k, s in guides]
     keys = [(k, t["name"]) for t in tools for k in bv.ALIASES.get(t["name"], [t["name"].lower()])]
     for l in links or []:
-        if not l["tool"] and l["name"] not in slug_of:
-            slug_of[l["name"]], written[l["name"]], only[l["name"]] = l["slug"], l["written"], l["only"]
+        if not l["tool"] and l["name"] not in href:
+            href[l["name"]], written[l["name"]], only[l["name"]] = l["href"], l["written"], l["only"]
             keys += [(k, l["name"]) for k in link_keys(l)]
     keys.sort(key=lambda k: -len(k[0]))
     tpat = [(re.compile(r"(?<![a-z0-9])" + re.escape(k) + r"(?![a-z0-9])"), n) for k, n in keys]
@@ -171,7 +171,7 @@ def make_matcher(tools, links=None):
             if len(found) < 2:
                 found = [t for t in [tool_in(title, title, channel)] if t]
             if found:
-                return "tool", ["👉 Try %s (affiliate): useandlike.com/%s" % (written[t], slug_of[t]) for t in found] + [NEWSLETTER_LINE]
+                return "tool", ["👉 Try %s (affiliate): %s" % (written[t], href[t]) for t in found] + [NEWSLETTER_LINE]
         return "newsletter only", [NEWSLETTER_LINE]
     return lines_for
 
@@ -302,8 +302,11 @@ def read_links(tools):
             print("WARN: /%s is a short link without a tool or a name: add it to data/short-links.json" % slug)
         name = t["name"] if t else x.get("name", slug)
         written = LINE_NAME.get(name, name) if t else x.get("line_name", name)
+        # "direct": the brand's own link goes in the 👉 line, because its rules forbid masked links (Synthesia, 30 Oct:
+        # "Don't Mask or Hide Affiliate Links"); a site tool always uses its short link (the Visit button needs it).
+        href = target if x.get("direct") and not t else "useandlike.com/" + slug
         links.append({"slug": slug, "name": name, "cat": t["category"] if t else x.get("group", "Other"), "written": written,
-                      "line": "👉 Try %s (affiliate): useandlike.com/%s" % (written, slug),
+                      "line": "👉 Try %s (affiliate): %s" % (written, href), "href": href,
                       "only": x.get("only", ""), "source": x.get("source", ""),
                       "tool": bool(t), "worth": float(x.get("worth") or 0), "deal": slug in deals})
     return links
@@ -332,6 +335,9 @@ def write_links_page(tools):
                     'code.</p>' % (esc(l["written"]), esc(l["name"])))
         if l["name"] in LINK_ONLY_NOTE:
             note += '<p class="note">%s</p>' % esc(LINK_ONLY_NOTE[l["name"]])
+        if l["href"] != "useandlike.com/" + l["slug"]:
+            note += ('<p class="note">%s doesn’t allow short links: always paste this full link, never '
+                     'useandlike.com/%s.</p>' % (esc(l["name"]), esc(l["slug"])))
         only = CHANNEL_NAMES.get(l["only"], "")
         if only:
             note += ('<p class="note">Only on %s videos: %s approved only that channel. Never on the other channels or '
@@ -381,6 +387,7 @@ def write_links_page(tools):
         items.append({"s": l["slug"], "n": l["name"], "w": l["written"], "k": k, "x": x.pattern if x else "",
                       "d": by_slug[l["slug"]]["description"] if l["slug"] in by_slug else l["cat"] + (" (" + about + ")" if about else ""),
                       "o": o.pattern if o else "", "on": LINK_ONLY_NOTE.get(l["name"], ""), **({"c": l["only"]} if l["only"] else {}),
+                      **({"u": l["href"]} if l["href"] != "useandlike.com/" + l["slug"] else {}),   # its own link, no short link
                       **({"tp": offers[l["slug"]], "dl": int(l["deal"]), "st": int(l["tool"]), "v": l["worth"]}
                          if offers.get(l["slug"]) else {})})
     box = {"items": items, "sets": sets, "guides": [{"s": s, "n": n, "k": k} for s, n, k in cancel_guides()],
@@ -1209,7 +1216,7 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
     PROTECT = {};
     (its.length ? names(its) : guide ? guide.n : "").toLowerCase().split(/[^a-z0-9']+/).forEach(function (w) { if (w) PROTECT[w] = 1; });
     var links = guide ? ["👉 Step-by-step guide: subscriptionchef.app/cancel/" + guide.s]
-              : its.map(function (x) { return "👉 Try " + x.w + " (affiliate): useandlike.com/" + x.s; });
+              : its.map(function (x) { return "👉 Try " + x.w + " (affiliate): " + (x.u || "useandlike.com/" + x.s); });
     var subj = it ? it.n : guide ? guide.n : "";
     var cmp = its.length > 1 ? its : null;   // a comparison of our tools: their clean names for the question and sentence
     pin.value = [question(title, subj, cmp)].concat(links, [BOX.pinNews]).join("\n");
@@ -1221,7 +1228,7 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
     showTopics(fits);
     vstatus.className = "vstatus" + (it ? " yes" : cancel || excluded || ruled ? " warn" : "");
     vstatus.textContent = its.length > 1 ? "✓ We have affiliate links for " + names(its) + ": one 👉 line each."
-      : it ? "✓ We have an affiliate link: " + it.n + " → useandlike.com/" + it.s
+      : it ? "✓ We have an affiliate link: " + it.n + " → " + (it.u || "useandlike.com/" + it.s)
       : fits.length && manual === null ? "No app from our list in the title, but " + (fits.length === 1 ? "one of our offers fits" :
           fits.length + " of our offers fit") + " its topic. Pick one only if it really fits the video:"
       : cancel ? "Cancel video: no affiliate link" + (guide ? ", the cancel guide goes in instead" : "") + " (our rule)."
