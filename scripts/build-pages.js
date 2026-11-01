@@ -482,7 +482,7 @@ function storyArt(s, cls) {
   for (const ch of name) hash = (hash * 31 + ch.charCodeAt(0)) >>> 0;
   const c = (icons[0] && icons[0].color) || (APP_ICONS[name] || {}).color || ART_COLOURS[hash % ART_COLOURS.length];
   const inner = icons.length
-    ? icons.slice(0, 3).map((e, i) => `<img src="/${esc(e.file)}" alt="" width="256" height="256"${i ? ' class="b"' : ""} loading="lazy">`).join("")
+    ? icons.slice(0, 3).map((e, i) => `<img src="/${esc(e.file)}${e.v ? "?v=" + esc(e.v) : ""}" alt="" width="256" height="256"${i ? ' class="b"' : ""} loading="lazy">`).join("")
     : `<b>${esc(name[0])}</b>`;
   return `<span class="art ${cls}" style="--c:${esc(c)}" aria-hidden="true">${inner}</span>`;
 }

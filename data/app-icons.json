@@ -3,174 +3,281 @@
   "id": 6449987166,
   "file": "img/apps/android.webp",
   "color": "#5eba77",
-  "store_name": "Android Switch"
+  "store_name": "Android Switch",
+  "source": "appstore",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ad/68/56/ad685653-963c-457f-c8f4-ad09f6d02b04/logo_android_switch_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+  "developer": "Google",
+  "v": "6a8f418e"
  },
  "Apple Music": {
   "id": 1108187390,
   "file": "img/apps/apple-music.webp",
   "color": "#5b6472",
-  "store_name": "Apple Music"
+  "store_name": "Apple Music",
+  "source": "appstore",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/45/38/d5453893-7719-0067-ed45-1de44d0d8eb9/musicValkyrie-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "developer": "Apple",
+  "v": "e0f7ebac"
  },
  "Apple TV": {
   "id": 1174078549,
   "file": "img/apps/apple-tv.webp",
   "color": "#5e48d1",
-  "store_name": "Apple TV"
+  "store_name": "Apple TV",
+  "source": "appstore",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/74/61/a274610a-1537-0429-df1b-afacfad5a478/tvCalistoga-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+  "developer": "Apple",
+  "v": "31a61468"
  },
  "ChatGPT": {
   "id": 6448311069,
   "file": "img/apps/chatgpt.webp",
   "color": "#5b6472",
-  "store_name": "ChatGPT"
+  "store_name": "ChatGPT",
+  "source": "appstore",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/72/2d/27/722d272a-9d6f-d186-8a92-6a884107df8f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
+  "developer": "OpenAI OpCo, LLC",
+  "v": "bd44e726"
  },
  "Chromagraph Camera": {
   "id": 6803329435,
   "file": "img/apps/chromagraph-camera.webp",
   "color": "#20909b",
-  "store_name": "Chromagraph Camera"
+  "store_name": "Chromagraph Camera",
+  "source": "appstore",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/1b/8c/0c1b8cbe-6d9d-1781-35d1-6027e16a025a/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
+  "developer": "Chromatic Applications LLC",
+  "v": "30a796e7"
  },
  "Chrome": {
-  "id": 535886823,
   "file": "img/apps/chrome.webp",
-  "color": "#eec42b",
-  "store_name": "Google Chrome"
+  "color": "#4285F4",
+  "source": "thumbnails",
+  "v": "f6551df3",
+  "tngg": 8,
+  "store_name": "Google Chrome",
+  "hash": "6ef0b8f22e74"
  },
  "Discord": {
-  "id": 985746746,
   "file": "img/apps/discord.webp",
-  "color": "#2b3aee",
-  "store_name": "Discord - Talk, Play, Hang Out"
+  "color": "#5865F2",
+  "source": "thumbnails",
+  "v": "4f8a4b82",
+  "tngg": 87,
+  "store_name": "Discord",
+  "hash": "fc3aa0d1869e"
  },
  "Eney": {
   "id": 6757791741,
   "file": "img/apps/eney.webp",
   "color": "#e732cf",
-  "store_name": "Eney - AI Assistant"
+  "store_name": "Eney - AI Assistant",
+  "source": "appstore",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/16/17/ad16172a-729d-08e4-ba13-3cb736fb7158/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+  "developer": "MacPaw Way Ltd",
+  "v": "b88b740c"
  },
  "Gemini": {
-  "id": 6477489729,
   "file": "img/apps/gemini.webp",
-  "color": "#2b7eee",
-  "store_name": "Google Gemini"
+  "color": "#4285F4",
+  "source": "thumbnails",
+  "v": "d0d8d206",
+  "tngg": 106,
+  "store_name": "Gemini",
+  "hash": "7eda87cc3c90"
  },
  "Gmail": {
-  "id": 422689480,
   "file": "img/apps/gmail.webp",
-  "color": "#ee312b",
-  "store_name": "Gmail - Email by Google"
+  "color": "#EA4335",
+  "source": "thumbnails",
+  "v": "3f83e082",
+  "tngg": 83,
+  "store_name": "Gmail",
+  "hash": "4bfd97236b5e"
  },
  "Google Docs": {
   "id": 842842640,
   "file": "img/apps/google-docs.webp",
   "color": "#2b79ee",
-  "store_name": "Google Docs"
+  "store_name": "Google Docs",
+  "source": "appstore",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/1b/b6/971bb613-cb14-8d1d-4771-5cc546510749/docs_2026_ios-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg",
+  "developer": "Google",
+  "v": "6f2dd59d"
  },
  "Hulu": {
   "id": 376510438,
   "file": "img/apps/hulu.webp",
   "color": "#285871",
-  "store_name": "Hulu: Stream TV shows & movies"
+  "store_name": "Hulu: Stream TV shows & movies",
+  "source": "appstore",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/fa/27/d8fa27eb-7f32-fe16-8853-992a057248ce/HuluAppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "developer": "Hulu, LLC",
+  "v": "32c13278"
  },
  "iCloud Mail": {
   "id": 1108187098,
   "file": "img/apps/icloud-mail.webp",
   "color": "#2b9cee",
-  "store_name": "Mail"
+  "store_name": "Mail",
+  "source": "appstore",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/20/b2/6e20b217-8f80-9b20-136f-50ee09e2937c/mailCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "developer": "Apple",
+  "v": "9541d7f0"
  },
  "Instagram": {
-  "id": 389801252,
   "file": "img/apps/instagram.webp",
-  "color": "#ed27a5",
-  "store_name": "Instagram"
+  "color": "#E1306C",
+  "source": "thumbnails",
+  "v": "f2acbfb2",
+  "tngg": 11,
+  "store_name": "Instagram",
+  "hash": "dd30c353ae2d"
  },
  "iPhone": {
   "id": 375380948,
   "file": "img/apps/iphone.webp",
   "color": "#2c8fcd",
-  "store_name": "Apple Store"
+  "store_name": "Apple Store",
+  "source": "appstore",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/83/16/7b831651-30d2-55a7-aabe-a0d6053df222/AppIcon-0-1x_U007epad-0-0-0-1-0-0-85-220-0.png/512x512bb.jpg",
+  "developer": "Apple",
+  "v": "6e540585"
  },
  "MacBook Pro": {
   "id": 375380948,
   "file": "img/apps/macbook-pro.webp",
   "color": "#2c8fcd",
-  "store_name": "Apple Store"
+  "store_name": "Apple Store",
+  "source": "appstore",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/83/16/7b831651-30d2-55a7-aabe-a0d6053df222/AppIcon-0-1x_U007epad-0-0-0-1-0-0-85-220-0.png/512x512bb.jpg",
+  "developer": "Apple",
+  "v": "6e540585"
  },
  "Microsoft 365": {
   "id": 541164041,
   "file": "img/apps/microsoft-365.webp",
   "color": "#2badee",
-  "store_name": "Microsoft Copilot"
+  "store_name": "Microsoft Copilot",
+  "source": "appstore",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/37/d4/7c/37d47cd5-4589-dd66-d248-780f0be78127/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+  "developer": "Microsoft Corporation",
+  "v": "48cd3e6d"
  },
  "Netflix": {
-  "id": 363590051,
   "file": "img/apps/netflix.webp",
-  "color": "#b8121b",
-  "store_name": "Netflix"
+  "color": "#E50914",
+  "source": "thumbnails",
+  "v": "40949a03",
+  "tngg": 90,
+  "store_name": "Netflix",
+  "hash": "c8854c0da9ed"
  },
  "OneDrive": {
-  "id": 477537958,
   "file": "img/apps/onedrive.webp",
-  "color": "#2ba3ee",
-  "store_name": "Microsoft OneDrive"
+  "color": "#0078D4",
+  "source": "thumbnails",
+  "v": "58d21e45",
+  "tngg": 88,
+  "store_name": "OneDrive",
+  "hash": "bf6aa0dea012"
  },
  "Rakuten": {
   "id": 723134859,
   "file": "img/apps/rakuten.webp",
   "color": "#8d37d1",
-  "store_name": "Rakuten: Cash Back & Deals"
+  "store_name": "Rakuten: Cash Back & Deals",
+  "source": "appstore",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/07/2c/b6072c53-6cfc-e3f5-bbdb-0fb75f800552/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+  "developer": "Rakuten Ebates",
+  "v": "792c5a65"
  },
  "Reddit": {
-  "id": 1064216828,
   "file": "img/apps/reddit.webp",
-  "color": "#ec5219",
-  "store_name": "Reddit"
+  "color": "#FF4500",
+  "source": "thumbnails",
+  "v": "10556358",
+  "tngg": 39,
+  "store_name": "Reddit",
+  "hash": "83dd6bcc578f"
  },
  "Samsung": {
   "id": 1274679179,
   "file": "img/apps/samsung.webp",
   "color": "#2b86ee",
-  "store_name": "Shop Samsung"
+  "store_name": "Shop Samsung",
+  "source": "appstore",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/13/6f/9c/136f9c3d-0cf3-be16-8897-2cc85745b61d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "developer": "Samsung Electronics America, Inc.",
+  "v": "7d0c13d6"
  },
  "Samsung News": {
   "id": 1274679179,
   "file": "img/apps/samsung-news.webp",
   "color": "#2b86ee",
-  "store_name": "Shop Samsung"
+  "store_name": "Shop Samsung",
+  "source": "appstore",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/13/6f/9c/136f9c3d-0cf3-be16-8897-2cc85745b61d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "developer": "Samsung Electronics America, Inc.",
+  "v": "7d0c13d6"
  },
  "Samsung Wallet": {
   "id": 1274679179,
   "file": "img/apps/samsung-wallet.webp",
   "color": "#2b86ee",
-  "store_name": "Shop Samsung"
+  "store_name": "Shop Samsung",
+  "source": "appstore",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/13/6f/9c/136f9c3d-0cf3-be16-8897-2cc85745b61d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "developer": "Samsung Electronics America, Inc.",
+  "v": "7d0c13d6"
  },
  "T-Mobile": {
   "id": 1111876388,
   "file": "img/apps/t-mobile.webp",
   "color": "#d61176",
-  "store_name": "T-Life"
+  "store_name": "T-Life",
+  "source": "appstore",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/88/11/3088110c-b3de-f1c3-e26f-c8b0cce1fbc4/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+  "developer": "T-Mobile",
+  "v": "812fd49b"
  },
  "TikTok": {
   "id": 835599320,
   "file": "img/apps/tiktok.webp",
   "color": "#c8425d",
-  "store_name": "TikTok - Videos, Shop & LIVE"
+  "store_name": "TikTok - Videos, Shop & LIVE",
+  "source": "appstore",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/19/60/31/1960312d-f882-d651-6ea6-53a3179dee9b/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "developer": "TikTok Ltd.",
+  "v": "44be1f06"
  },
  "WhatsApp": {
-  "id": 310633997,
   "file": "img/apps/whatsapp.webp",
-  "color": "#12e363",
-  "store_name": "WhatsApp Messenger"
+  "color": "#25D366",
+  "source": "thumbnails",
+  "v": "6db87887",
+  "tngg": 81,
+  "store_name": "WhatsApp",
+  "hash": "82a734f23c99"
  },
  "YouTube Premium": {
   "id": 544007664,
   "file": "img/apps/youtube-premium.webp",
   "color": "#ed254c",
-  "store_name": "YouTube"
+  "store_name": "YouTube",
+  "source": "appstore",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/43/be/8243be7f-17c3-33ae-720a-ffcde48bed61/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+  "developer": "Google",
+  "v": "584ec778"
  },
  "YouTube TV": {
   "id": 1193350206,
   "file": "img/apps/youtube-tv.webp",
   "color": "#ed264d",
-  "store_name": "YouTube TV"
+  "store_name": "YouTube TV",
+  "source": "appstore",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/34/84/ca34841f-40a7-47b6-60d7-bf2e27af14d3/logo_youtube_television_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+  "developer": "Google",
+  "v": "bb39314a"
  }
 }
