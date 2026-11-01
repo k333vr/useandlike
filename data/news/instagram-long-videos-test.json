@@ -1,0 +1,20 @@
+{
+ "slug": "instagram-long-videos-test",
+ "date": "2026-10-26",
+ "added": "2026-11-01",
+ "topic": "Social",
+ "tag": "Quick",
+ "head": "Instagram tests long videos",
+ "dek": "Instagram is testing long, horizontal videos called Features, US first.",
+ "quick": true,
+ "apps": [
+  "Instagram"
+ ],
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/10/26/instagram-features-long-form-video-test/"
+  }
+ ],
+ "checked": "2026-10-29"
+}

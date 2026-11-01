@@ -1,0 +1,28 @@
+{
+ "slug": "t-mobile-t-mix-streaming",
+ "date": "2026-10-26",
+ "added": "2026-11-01",
+ "topic": "Streaming",
+ "tag": "Big news",
+ "head": "Netflix now comes with a T-Mobile plan",
+ "dek": "T-Mobile's new T-Mix plans include a streaming service: pick Netflix or Hulu (with ads), Apple TV, YouTube Premium Lite and more, from $55 a month.",
+ "details": "The $75 plan adds a second pick, like YouTube Premium or Game Pass. You can switch your picks 4 times a year.",
+ "where": "US, new T-Mix plans from November",
+ "means": "On T-Mobile in the US? A streaming service can now come with your phone plan, so look at the T-Mix plans before you pay for one separately.",
+ "todo": "The new plans start in November. You can switch your streaming picks 4 times a year.",
+ "image": "/img/nl/2/A-2-tmobile.jpg",
+ "thumb": "/img/nl/2/D-2-tmobile.jpg",
+ "rank": 3,
+ "apps": [
+  "T-Mobile",
+  "Netflix",
+  "Hulu"
+ ],
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/10/26/t-mobiles-new-plans-give-away-youtube-premium-xbox-game-pass-and-14-more-for-free/"
+  }
+ ],
+ "checked": "2026-10-29"
+}

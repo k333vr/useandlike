@@ -1,0 +1,27 @@
+{
+ "slug": "discord-chats-on-google",
+ "date": "2026-10-27",
+ "added": "2026-11-01",
+ "topic": "Privacy",
+ "tag": "Privacy",
+ "head": "Your Discord chats could show up on Google",
+ "dek": "Public chats in big Discord servers can appear on Google from mid-December, word for word (without usernames or avatars).",
+ "details": "Don't want that? User Settings → Data & Privacy lets you opt out. In the EU and UK it stays off unless you switch it on.",
+ "where": "Big public servers, from mid-December",
+ "means": "What you write in a big public server could be read by anyone on Google, even without your name next to it.",
+ "todo": "In Discord, open User Settings, then Data & Privacy, and opt out before mid-December. In the EU and UK it stays off unless you switch it on.",
+ "image": "/img/nl/2/A-5-discord.jpg",
+ "thumb": "/img/nl/2/D-5-discord.jpg",
+ "rank": 2,
+ "details_in_todo": true,
+ "apps": [
+  "Discord"
+ ],
+ "sources": [
+  {
+   "name": "Engadget",
+   "url": "https://www.engadget.com/2299126/discord-server-messages-google-searchable-opt-out/"
+  }
+ ],
+ "checked": "2026-10-29"
+}

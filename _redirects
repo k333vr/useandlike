@@ -521,6 +521,16 @@
 /globaltravel        https://globaltravel.com/  302
 /privacyhawk         https://privacyhawk.com/  302
 
+# Counted site links (1 Nov 2026, Kevin: "maybe we can track those or highlight A b test them too to get more people to
+# work with us"): the footer's links to our small pages and the "Work with us" strip go through these, so Cloudflare
+# counts each (totals only, like the newsletter links). /c-work = the footer link; /c-work-strip = the strip that about
+# half of all page views show (A/B test, version B).
+/c-about           https://useandlike.com/about/  302
+/c-choose          https://useandlike.com/how-we-choose/  302
+/c-money           https://useandlike.com/how-we-make-money/  302
+/c-work            https://useandlike.com/work-with-us/  302
+/c-work-strip      https://useandlike.com/work-with-us/  302
+
 # FlexOffers (How To Rocket only: the approved traffic source; never on Guide Glimpse, Logic Protocol or the site)
 /deel               https://deel.fxo.co/g/1579752/228251/1038938300/DxCPTgc  302
 /webflow            https://webflow.fxo.co/g/1579752/235952/122637334/DxCPTgc  302

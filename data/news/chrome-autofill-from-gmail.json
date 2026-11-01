@@ -1,0 +1,27 @@
+{
+ "slug": "chrome-autofill-from-gmail",
+ "date": "2026-10-28",
+ "added": "2026-11-01",
+ "topic": "Google",
+ "tag": "New feature",
+ "head": "Chrome can now fill forms from your Gmail",
+ "dek": "Chrome can now fill forms from your Gmail: order numbers, tracking details and flight bookings, suggested as you type.",
+ "details": "Only with Gemini in Chrome and Personal Intelligence switched on (US first). You control it in Chrome's settings.",
+ "where": "US first, Gemini in Chrome with Personal Intelligence",
+ "means": "Less typing when you look up an order or a flight, but only if you let Chrome's Gemini see your Gmail.",
+ "todo": "It only works with Gemini in Chrome and Personal Intelligence switched on. You control it in Chrome's settings.",
+ "image": "/img/nl/2/A-3-autofill.jpg",
+ "thumb": "/img/nl/2/D-3-autofill.jpg",
+ "rank": 5,
+ "apps": [
+  "Chrome",
+  "Gmail"
+ ],
+ "sources": [
+  {
+   "name": "Google",
+   "url": "https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/"
+  }
+ ],
+ "checked": "2026-10-29"
+}

@@ -1,0 +1,20 @@
+{
+ "slug": "reddit-for-you-feed",
+ "date": "2026-10-28",
+ "added": "2026-11-01",
+ "topic": "Social",
+ "tag": "Quick",
+ "head": "Reddit's new For You feed",
+ "dek": "Reddit adds a For You feed with picks for you, rolling out worldwide.",
+ "quick": true,
+ "apps": [
+  "Reddit"
+ ],
+ "sources": [
+  {
+   "name": "Social Media Today",
+   "url": "https://www.socialmediatoday.com/news/reddit-introduces-for-you-feed/873132/"
+  }
+ ],
+ "checked": "2026-10-29"
+}

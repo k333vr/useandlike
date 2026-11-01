@@ -1,0 +1,27 @@
+{
+ "slug": "ios-27-2-four-live-games",
+ "date": "2026-10-26",
+ "added": "2026-11-01",
+ "topic": "Apple",
+ "tag": "Update",
+ "head": "iOS 27.2: watch 4 live games at once",
+ "dek": "iOS 27.2 is out: watch up to 4 live games at once in the Apple TV app (MLS, F1, Friday Night Baseball; subscription needed).",
+ "details": "Siri also remembers your past chats now (iPhone 15 Pro and later, not in the EU).",
+ "where": "Out now; Siri AI on iPhone 15 Pro and later",
+ "means": "With an Apple TV subscription you can follow up to 4 live games on one iPhone screen.",
+ "todo": "Update your iPhone in Settings, General, Software Update.",
+ "image": "/img/nl/2/A-4-ios.jpg",
+ "thumb": "/img/nl/2/D-4-ios.jpg",
+ "rank": 6,
+ "apps": [
+  "iPhone",
+  "Apple TV"
+ ],
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/10/26/ios-27-2-features/"
+  }
+ ],
+ "checked": "2026-10-29"
+}

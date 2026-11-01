@@ -1,0 +1,26 @@
+{
+ "slug": "macbook-pro-touchscreen",
+ "date": "2026-10-28",
+ "added": "2026-11-01",
+ "topic": "Apple",
+ "tag": "Woah",
+ "head": "Apple's first touchscreen MacBook is here",
+ "dek": "The new MacBook Pro has a touch display and the iPhone's Dynamic Island: calls, music and AirDrop show at the top of the screen.",
+ "details": "From $2,899 (14-inch) and $3,399 (16-inch), in stores 6 November.",
+ "where": "Pre-order now, in stores 6 Nov",
+ "means": "If you've wanted to tap your Mac the way you tap your phone, this is the first MacBook that lets you.",
+ "todo": "Pre-orders are open now. It's in stores on 6 November.",
+ "image": "/img/nl/2/A-1-macbook.jpg",
+ "thumb": "/img/nl/2/D-1-macbook.jpg",
+ "rank": 1,
+ "apps": [
+  "MacBook Pro"
+ ],
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/10/28/apple-brings-dynamic-island-to-mac/"
+  }
+ ],
+ "checked": "2026-10-29"
+}

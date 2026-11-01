@@ -3,7 +3,8 @@
 The owner is a beginner. Explain things in plain language and do as much as possible yourself.
 
 ## The site
-- `index.html` (CSS and JS inline): the home page, the Videos tab and the small # pages (join, welcome, privacy, tracker).
+- `index.html` (CSS and JS inline): the home page (since 1 Nov 2026 the app news front page, see App news below), the
+  Videos tab and the small # pages (join, welcome, privacy, tracker, thanks).
   Plus real pages made by `node scripts/build-pages.js` from the EDIT HERE block and videos.js (since 11 Oct 2026):
   `category/<name>/`, `tool/<slug>/`, `about/`, `how-we-choose/`, `how-we-make-money/`, `work-with-us/`, `sitemap.xml`,
   `robots.txt`; plus the hidden `team-links/` page from `scripts/build-editor-lists.py`. The generated files are committed (Cloudflare has no build step). It also refreshes two marked blocks in
@@ -29,14 +30,32 @@ The owner is a beginner. Explain things in plain language and do as much as poss
 - All editable content is in the `EDIT HERE` block at the top of `index.html`:
   `CHANNELS`, `NEWSLETTER`, `OPEN_IN_NEW_TAB`, `VISIBLE_COUNT`, `CATEGORIES`, `TOOLS`, `VIDEOS`.
 - `NEWSLETTER.ready` shows the signup at the top of every page, on #join, and a box on home and category pages. With `beehiivForm` (the `data-beehiiv-form` id from Beehiiv's embed code) it loads Beehiiv's script `subscribe-forms.beehiiv.com/v3/loader.js`, which shows Beehiiv's own field (an iframe) where the signup is; this is the one allowed external request (owner's choice). Without it, the button opens the Beehiiv signup page via `/newsletter`. Beehiiv's separate attribution.js is not needed (the loader includes it). Double opt-in is on (owner is in Austria); Beehiiv's "Opt-in redirect URL" is `useandlike.com/welcome` -> `#welcome` (INFO page with `img/welcome.webp` and the tracker button), so `/welcome` must stay in `_redirects`. Posting our own form to Beehiiv's /create is blocked ("Forbidden"), so don't. `/newsletter` must stay in `_redirects` (the check script enforces it).
-- Layout (owner's choice: clean, Craigslist-style, no search): the home page lists every category with its
-  first `VISIBLE_COUNT` tool names as direct affiliate links, plus "All N ›". A category heading opens its
+- Layout: until 1 Nov 2026 the home page was the category list (Craigslist-style). Kevin, 1 Nov ("overall way better",
+  "go"): the home page is app news; the category list (every category with its first `VISIBLE_COUNT` tool names as
+  direct affiliate links, plus "All N ›") is on `/how-tos/` under a search over all our videos (`how-tos/search.json`,
+  loaded on the first search: every non-Short video of data/channel-videos.tsv, the tools, stories and deals). Nav:
+  News (/) · How-tos · Videos (#videos) · Deals. A category heading opens its
   category page (`/category/web-hosting/`): each tool with `description`, optional `why`/`details`, "Our pick", a
   Visit button and a link to its tool page, then our videos about the category. A tool page (`/tool/wise/`): what it
   does, Visit button, all our videos about it ("Show all" after 24), the category's other tools. Old links
   (`useandlike.com/#web-hosting`, `#about`) forward to the real pages. Tool pages with fewer than 3 videos and no
   `why`/`details` (and thin categories) are `noindex` and stay out of the sitemap until they have more.
 - Tool fields: `name`, `category`, `description`, `slug` (short link), `isPick`; optional `why`, `details`.
+- App news (1 Nov 2026, Kevin: "no limit ... a lot of newcomer apps ... everything thats worth reporting"): one file per
+  story, `data/news/<slug>.json` (the slug is the page address `/news/<slug>/`; never rename it). Fields: `slug`, `date`
+  (YYYY-MM-DD), `head`, `dek` (what happened, our words; doesn't repeat the headline), `sources` [{name, url}] (required);
+  optional `topic`, `tag`, `means` ("What it means for you"), `todo` ("What to do"), `details`, `where`, `image`/`thumb`
+  (2:1, ours only, e.g. the newsletter cards in img/nl/), `apps`, `howtos` (video ids), `category`, `video` (our news
+  video's YouTube id), `rank` (1 = lead on its day), `quick` (one-liner), `checked`. Facts only from the named sources,
+  neutral words, no superlatives (check.js scans the story pages). build-pages.js makes the story pages (NewsArticle
+  structured data), `/news/` and the front page (lead story, latest news beside the checked deals, newsletter box via
+  `[data-join]`, one-liners, how-tos). Recommended how-tos everywhere: only videos with a new thumbnail
+  (`data/new-thumbs.json`, refreshed by useandlike-ops/analysis/new-thumbs-sync.py) and never cancel/refund/"free" titles.
+- Counted links (1 Nov 2026, Kevin: "maybe we can track those or highlight A b test them"): the footer's About / How
+  we choose / How we make money / Work with us go through `/c-about`, `/c-choose`, `/c-money`, `/c-work` (block
+  "# Counted site links" in _redirects), so Cloudflare counts clicks as totals. A/B test: the "Run an app or a brand?"
+  strip (`#wwu`, link `/c-work-strip`) shows on about half of all page views, picked fresh each time (Math.random, nothing
+  stored; the privacy page says so). Compare /c-work-strip + /c-work clicks against page views.
 - Channel videos: `videos.js` (generated, ~2,250 videos about our tools) is loaded only when the Videos tab opens;
   the category and tool pages list the same videos as plain HTML.
   Refresh: `scripts/fetch-videos.sh` (yt-dlp, all videos of the 3 channels -> `data/channel-videos.tsv`), then

@@ -7,8 +7,8 @@
 <link rel="preconnect" href="https://subscribe-forms.beehiiv.com">
 <link rel="preload" href="https://subscribe-forms.beehiiv.com/v3/loader.js" as="script">
 <link rel="preload" href="https://subscribe-forms.beehiiv.com/api/v3/forms/2e365ed3-e1eb-488c-bd24-fb8f0709b3a4" as="fetch" crossorigin>
-<title>Use &amp; Like – Directory of apps and tools we use</title>
-<meta name="description" content="A directory of the apps and tools we use, sorted by category, with our videos about them.">
+<title>Use &amp; Like – App news, deals and how-tos</title>
+<meta name="description" content="What changed in the apps you use, in plain words and with what to do about it, deals we checked on each brand's own site, and how-to videos from our channels.">
 <link rel="canonical" href="https://useandlike.com/">
 <!-- FlexOffers site verification (14 Oct 2026): keep it, or FlexOffers can mark the site as unverified. -->
 <meta name="fo-verify" content="47764391-1e82-496e-8110-217262f5b0d7" />
@@ -428,6 +428,7 @@ const VIDEOS = [
   --logo-fg: #f3e6c4;
   --link: #1f4f8f;
   --soft: #f0ede6;
+  --sale: #b8400c;
   --serif: Georgia, "Times New Roman", serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
@@ -444,6 +445,7 @@ const VIDEOS = [
     --logo-fg: #121417;
     --link: #a6c3f5;
     --soft: #1d2127;
+    --sale: #fb9a5c;
   }
 }
 * { box-sizing: border-box; }
@@ -632,6 +634,76 @@ footer a { color: var(--muted); }
 .big-cta { display: inline-block; margin-top: 8px; padding: 14px 26px; font-size: 1.05rem; }
 footer { margin-top: 40px; padding: 18px 0 40px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
 footer p { margin: 0 0 6px; max-width: 62ch; }
+/* App news front page, story pages and How-tos (1 Nov 2026) */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.front, .story, .howtos { display: grid; gap: 34px; padding-top: 8px; }
+.front > *, .story > *, .howtos > *, .split > * { min-width: 0; }
+.sec-head { display: flex; align-items: baseline; justify-content: space-between; gap: 6px 12px; flex-wrap: wrap; border-top: 2px solid var(--text); padding-top: 10px; margin-bottom: 6px; }
+.sec-head h2 { margin: 0; font: 700 1.35rem/1.2 var(--serif); }
+.sec-head a { font-size: .92rem; font-weight: 600; }
+.tag { display: inline-block; justify-self: start; font: 700 .7rem/1 var(--sans); letter-spacing: .07em; text-transform: uppercase; color: var(--brand); background: var(--soft); padding: 5px 8px; border-radius: 4px; }
+.meta { margin: 0; font-size: .84rem; color: var(--muted); }
+.meta a { color: var(--muted); }
+.lead-story { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 22px; align-items: center; }
+.lead-story img { display: block; width: 100%; height: auto; aspect-ratio: 2 / 1; object-fit: cover; border-radius: 10px; }
+.lead-story .txt { display: grid; gap: 10px; }
+.lead-story h2 { margin: 0; font: 700 clamp(1.8rem, 4vw, 2.7rem)/1.06 var(--serif); text-wrap: balance; }
+.lead-story h2 a, .srows h3 a, .one-line b a { color: inherit; text-decoration: none; }
+.lead-story h2 a:hover, .srows h3 a:hover, .one-line b a:hover { text-decoration: underline; }
+.lead-story .dek { margin: 0; color: var(--muted); }
+@media (max-width: 760px) { .lead-story { grid-template-columns: minmax(0, 1fr); } }
+.split { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 30px; align-items: start; }
+@media (max-width: 860px) { .split { grid-template-columns: minmax(0, 1fr); } }
+.srows li { display: grid; grid-template-columns: 128px minmax(0, 1fr); gap: 14px; padding: 13px 0; border-bottom: 1px solid var(--line); }
+.srows img, .srows .ph { display: block; width: 128px; height: auto; aspect-ratio: 2 / 1; object-fit: cover; border-radius: 6px; }
+.srows .ph { display: grid; place-items: center; background: var(--soft); color: var(--brand); font: 700 1.3rem var(--serif); }
+.srows h3 { margin: 6px 0 4px; font: 700 1.1rem/1.22 var(--serif); }
+.srows .one { margin: 0 0 4px; font-size: .92rem; color: var(--muted); }
+@media (max-width: 420px) { .srows li { grid-template-columns: 96px minmax(0, 1fr); } .srows img, .srows .ph { width: 96px; } }
+.dminis { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.dmini a { display: grid; gap: 4px; height: 100%; padding: 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--text); text-decoration: none; }
+.dmini a:hover { border-color: var(--brass); }
+.dmini .top { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: .9rem; overflow-wrap: anywhere; }
+.dmini img { width: 30px; height: 30px; border-radius: 7px; flex: none; }
+.dmini .big { font: 700 1.7rem/1 var(--serif); color: var(--sale); }
+.dmini .offer { font-size: .85rem; }
+.dmini .chk { font-size: .74rem; color: var(--muted); }
+.one-line { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.one-line li { display: grid; gap: 4px; padding-left: 12px; border-left: 3px solid var(--brass); }
+.one-line b { font: 700 1.05rem var(--serif); }
+@media (max-width: 760px) { .one-line { grid-template-columns: minmax(0, 1fr); } }
+.story { max-width: 740px; }
+.story h1 { margin: 6px 0 0; font: 700 clamp(1.9rem, 5vw, 2.8rem)/1.08 var(--serif); text-wrap: balance; }
+.story .dek { margin: 0; font-size: 1.12rem; color: var(--muted); }
+.story .hero { display: block; width: 100%; height: auto; aspect-ratio: 2 / 1; object-fit: cover; border-radius: 10px; }
+.callout { padding: 14px 16px; border-radius: 10px; background: var(--soft); }
+.todo { padding: 14px 16px; border: 2px solid var(--brand); border-radius: 10px; }
+.callout h2, .todo h2, .details h2 { margin: 0 0 6px; font: 700 1.15rem var(--serif); }
+.callout p, .todo p, .details p { margin: 0 0 6px; }
+.src { margin: 0; padding-top: 12px; border-top: 1px solid var(--line); font-size: .88rem; color: var(--muted); }
+.hs { display: grid; grid-template-columns: minmax(0, 1fr); justify-items: center; gap: 14px; text-align: center; }
+.hs h1 { margin: 0; font: 700 clamp(1.9rem, 5vw, 3rem)/1.06 var(--serif); text-wrap: balance; }
+.hs .lead { margin: 0; max-width: 56ch; }
+.sbox { position: relative; width: 100%; max-width: 680px; }
+.sbox input { width: 100%; padding: 15px 18px 15px 48px; border: 2px solid var(--brand); border-radius: 999px; background: var(--surface); color: var(--text); font: 1.05rem var(--sans); }
+.sbox svg { position: absolute; left: 17px; top: 50%; transform: translateY(-50%); color: var(--brand); }
+.qchips { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.qchips button, .more-hits button { padding: 9px 13px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--text); font: 600 .88rem/1 var(--sans); cursor: pointer; }
+.results { display: grid; gap: 12px; width: 100%; max-width: 680px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); text-align: left; }
+.results h3 { margin: 0 0 4px; font: 700 .74rem/1.2 var(--sans); letter-spacing: .09em; text-transform: uppercase; color: var(--brass); }
+.results ul { display: grid; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.results li span { font-size: .84rem; color: var(--muted); }
+.results mark { background: var(--soft); color: inherit; }
+.results li a { font-weight: 600; text-decoration: none; }
+.results li a:hover { text-decoration: underline; }
+.howtos .index { margin-top: 6px; }
+.howtos .block { padding: 12px 14px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+.howtos .block .count { margin: 0 0 6px; font-size: .8rem; }
+/* "Work with us" strip, shown on about half of all page views (A/B test, version B; nothing stored) */
+.wwu { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; margin: 0 0 16px; padding: 0 0 16px; border-bottom: 1px solid var(--line); }
+.wwu[hidden] { display: none; }
+.wwu p { margin: 0; color: var(--text); font: 700 1.1rem var(--serif); }
+.wwu a { font-weight: 700; }
 </style>
 </head>
 <body>
@@ -645,12 +717,13 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
       </svg>
       <div class="brand-text">
         <p class="brand"><a href="#">Use <em>&amp;</em> Like</a></p>
-        <p class="tagline">Hand-picked apps and tools, sorted by category.</p>
+        <p class="tagline">App news, deals and how-tos.</p>
       </div>
       <div class="ctas" id="header-join"></div>
     </div>
     <nav class="top" aria-label="Sections">
-      <a href="#" id="nav-tools">Tools</a>
+      <a href="#" id="nav-news">News</a>
+      <a href="/how-tos/" id="nav-howtos">How-tos</a>
       <a href="#videos" id="nav-videos">Videos</a>
       <a href="/deals/" id="nav-deals">Deals</a>
     </nav>
@@ -658,34 +731,52 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 
   <main id="view">
 <!-- build-pages:home -->
-<div class="index">
-<section class="block"><h2><a href="/category/vpn-and-privacy/">VPN &amp; Privacy</a></h2><ul class="plain"><li><a href="/protonvpn" rel="sponsored">Proton VPN</a></li><li><a href="/protonpass" rel="sponsored">Proton Pass</a></li><li><a href="/malwarebytes" rel="sponsored">Malwarebytes</a></li><li><a href="/gologin" rel="sponsored">GoLogin</a></li><li><a href="/nordvpn" rel="sponsored">NordVPN</a></li><li><a href="/surfshark" rel="sponsored">Surfshark</a></li><li><a class="all" href="/category/vpn-and-privacy/">All 10 ›</a></li></ul></section>
-<section class="block"><h2><a href="/category/email/">Email</a></h2><ul class="plain"><li><a href="/protonmail" rel="sponsored">Proton Mail</a></li><li><a href="/startmail" rel="sponsored">StartMail</a></li></ul></section>
-<section class="block"><h2><a href="/category/cloud-storage/">Cloud Storage</a></h2><ul class="plain"><li><a href="/pcloud" rel="sponsored">pCloud</a></li><li><a href="/protondrive" rel="sponsored">Proton Drive</a></li></ul></section>
-<section class="block"><h2><a href="/category/web-hosting/">Web Hosting</a></h2><ul class="plain"><li><a href="/hostinger" rel="sponsored">Hostinger</a></li><li><a href="/hostgator" rel="sponsored">HostGator</a></li><li><a href="/ionos" rel="sponsored">IONOS</a></li><li><a href="/webhostmost" rel="sponsored">WebHostMost</a></li><li><a href="/godaddy" rel="sponsored">GoDaddy</a></li></ul></section>
-<section class="block"><h2><a href="/category/website-and-app-builders/">Website &amp; App Builders</a></h2><ul class="plain"><li><a href="/lovable" rel="sponsored">Lovable</a></li><li><a href="/mixo" rel="sponsored">Mixo</a></li><li><a href="/adalo" rel="sponsored">Adalo</a></li><li><a href="/elementor" rel="sponsored">Elementor</a></li></ul></section>
-<section class="block"><h2><a href="/category/online-stores-and-funnels/">Online Stores &amp; Funnels</a></h2><ul class="plain"><li><a href="/shopify" rel="sponsored">Shopify</a></li><li><a href="/systeme" rel="sponsored">Systeme.io</a></li><li><a href="/clickfunnels" rel="sponsored">ClickFunnels</a></li><li><a href="/gohighlevel" rel="sponsored">GoHighLevel</a></li><li><a href="/autods" rel="sponsored">AutoDS</a></li><li><a href="/skool" rel="sponsored">Skool</a></li></ul></section>
-<section class="block"><h2><a href="/category/video-creation/">Video Creation</a></h2><ul class="plain"><li><a href="/capcut" rel="sponsored">CapCut</a></li><li><a href="/descript" rel="sponsored">Descript</a></li><li><a href="/invideo" rel="sponsored">InVideo</a></li><li><a href="/opusclip" rel="sponsored">Opus Clip</a></li><li><a href="/klap" rel="sponsored">Klap</a></li><li><a href="/autoshorts" rel="sponsored">AutoShorts</a></li><li><a class="all" href="/category/video-creation/">All 11 ›</a></li></ul></section>
-<section class="block"><h2><a href="/category/voice-and-audio/">Voice &amp; Audio</a></h2><ul class="plain"><li><a href="/elevenlabs" rel="sponsored">ElevenLabs</a></li><li><a href="/murf" rel="sponsored">Murf AI</a></li><li><a href="/ttsfree" rel="sponsored">TTSFree</a></li><li><a href="/epidemicsound" rel="sponsored">Epidemic Sound</a></li></ul></section>
-<section class="block"><h2><a href="/category/youtube-tools/">YouTube Tools</a></h2><ul class="plain"><li><a href="/vidiq" rel="sponsored">vidIQ</a></li><li><a href="/tubemagic" rel="sponsored">TubeMagic</a></li><li><a href="/pikzels" rel="sponsored">Pikzels</a></li><li><a href="/taja" rel="sponsored">Taja AI</a></li></ul></section>
-<section class="block"><h2><a href="/category/ai-writing-and-research/">AI Writing &amp; Research</a></h2><ul class="plain"><li><a href="/rytr" rel="sponsored">Rytr</a></li><li><a href="/merlin" rel="sponsored">Merlin AI</a></li><li><a href="/scispace" rel="sponsored">SciSpace</a></li><li><a href="/paperguide" rel="sponsored">Paperguide</a></li><li><a href="/grammarly" rel="sponsored">Grammarly</a></li><li><a href="/fireflies" rel="sponsored">Fireflies AI</a></li></ul></section>
-<section class="block"><h2><a href="/category/productivity-and-design/">Productivity &amp; Design</a></h2><ul class="plain"><li><a href="/coda" rel="sponsored">Coda</a></li><li><a href="/xtiles" rel="sponsored">xTiles</a></li><li><a href="/visme" rel="sponsored">Visme</a></li><li><a href="/wps" rel="sponsored">WPS Office</a></li><li><a href="/pixlr" rel="sponsored">Pixlr</a></li><li><a href="/teamviewer" rel="sponsored">TeamViewer</a></li></ul></section>
-<section class="block"><h2><a href="/category/freelancers/">Freelancers</a></h2><ul class="plain"><li><a href="/fiverr" rel="sponsored">Fiverr</a></li><li><a href="/fiverrpro" rel="sponsored">Fiverr Pro</a></li><li><a href="/fiverrlogomaker" rel="sponsored">Fiverr Logo Maker</a></li><li><a href="/fiverraffiliates" rel="sponsored">Fiverr Affiliates</a></li></ul></section>
-<section class="block"><h2><a href="/category/business-and-legal/">Business &amp; Legal</a></h2><ul class="plain"><li><a href="/firstbase" rel="sponsored">Firstbase</a></li><li><a href="/signnow" rel="sponsored">signNow</a></li><li><a href="/nolo" rel="sponsored">Nolo</a></li><li><a href="/beehiiv" rel="sponsored">Beehiiv</a></li><li><a href="/baremetrics" rel="sponsored">Baremetrics</a></li><li><a href="/browseai" rel="sponsored">Browse AI</a></li><li><a class="all" href="/category/business-and-legal/">All 9 ›</a></li></ul></section>
-<section class="block"><h2><a href="/category/money-and-trading/">Money &amp; Trading</a></h2><ul class="plain"><li><a href="/wise" rel="sponsored">Wise</a></li><li><a href="/tradingview" rel="sponsored">TradingView</a></li><li><a href="/ria" rel="sponsored">Ria Money Transfer</a></li><li><a href="/remitly" rel="sponsored">Remitly</a></li><li><a href="/turbotax" rel="sponsored">TurboTax</a></li></ul></section>
-<section class="block"><h2><a href="/category/learning/">Learning</a></h2><ul class="plain"><li><a href="/headway" rel="sponsored">Headway</a></li><li><a href="/talkpal" rel="sponsored">Talkpal</a></li><li><a href="/udemy" rel="sponsored">Udemy</a></li><li><a href="/preply" rel="sponsored">Preply</a></li></ul></section>
-<section class="block"><h2><a href="/category/shopping-and-mobile/">Shopping &amp; Mobile</a></h2><ul class="plain"><li><a href="/shein" rel="sponsored">Shein</a></li><li><a href="/temu" rel="sponsored">Temu</a></li><li><a href="/att" rel="sponsored">AT&amp;T</a></li><li><a href="/amigosim" rel="sponsored">AmigoSIM</a></li><li><a href="/gamsgo" rel="sponsored">GamsGo</a></li><li><a href="/airalo" rel="sponsored">Airalo</a></li></ul></section>
-<section class="block"><h2><a href="/category/travel/">Travel</a></h2><ul class="plain"><li><a href="/agoda" rel="sponsored">Agoda</a></li><li><a href="/booking" rel="sponsored">Booking.com</a></li><li><a href="/expedia" rel="sponsored">Expedia</a></li><li><a href="/kiwi" rel="sponsored">Kiwi.com</a></li><li><a href="/klook" rel="sponsored">Klook</a></li><li><a href="/lastminute" rel="sponsored">lastminute.com</a></li><li><a class="all" href="/category/travel/">All 7 ›</a></li></ul></section>
-<section class="block"><h2><a href="/category/dating/">Dating</a></h2><ul class="plain"><li><a href="/eharmony" rel="sponsored">eHarmony</a></li></ul></section>
+<div class="front">
+<h1 class="sr-only">Use &amp; Like: app news, deals and how-tos</h1>
+<section class="lead-story" aria-labelledby="lead-h"><a href="/news/macbook-pro-touchscreen/" tabindex="-1" aria-hidden="true"><img src="/img/nl/2/A-1-macbook.jpg" alt="" width="1200" height="600"></a><div class="txt"><span class="tag">Woah</span><h2 id="lead-h"><a href="/news/macbook-pro-touchscreen/">Apple's first touchscreen MacBook is here</a></h2><p class="dek">The new MacBook Pro has a touch display and the iPhone's Dynamic Island: calls, music and AirDrop show at the top of the screen. From $2,899 (14-inch) and $3,399 (16-inch), in stores 6 November.</p><p class="meta">28 Oct · Source: MacRumors</p></div></section>
+<div class="split">
+<section aria-labelledby="latest-h"><div class="sec-head"><h2 id="latest-h">Latest app news</h2><a href="/news/">All app news ›</a></div>
+<ul class="plain srows">
+<li><a href="/news/chrome-autofill-from-gmail/" tabindex="-1" aria-hidden="true"><img src="/img/nl/2/D-3-autofill.jpg" alt="" width="128" height="64" loading="lazy"></a><div><span class="tag">New feature</span><h3><a href="/news/chrome-autofill-from-gmail/">Chrome can now fill forms from your Gmail</a></h3><p class="one">Less typing when you look up an order or a flight, but only if you let Chrome's Gemini see your Gmail.</p><p class="meta">28 Oct · Google</p></div></li>
+<li><a href="/news/discord-chats-on-google/" tabindex="-1" aria-hidden="true"><img src="/img/nl/2/D-5-discord.jpg" alt="" width="128" height="64" loading="lazy"></a><div><span class="tag">Privacy</span><h3><a href="/news/discord-chats-on-google/">Your Discord chats could show up on Google</a></h3><p class="one">What you write in a big public server could be read by anyone on Google, even without your name next to it.</p><p class="meta">27 Oct · Engadget</p></div></li>
+<li><a href="/news/chatgpt-icloud-mail-calendar/" tabindex="-1" aria-hidden="true"><img src="/img/nl/2/D-6-icloud.jpg" alt="" width="128" height="64" loading="lazy"></a><div><span class="tag">New feature</span><h3><a href="/news/chatgpt-icloud-mail-calendar/">ChatGPT can now read your iCloud Mail and Calendar</a></h3><p class="one">If your email is on iCloud, ChatGPT can now search your inbox and move meetings for you, once you connect it.</p><p class="meta">27 Oct · 9to5Mac</p></div></li>
+<li><a href="/news/t-mobile-t-mix-streaming/" tabindex="-1" aria-hidden="true"><img src="/img/nl/2/D-2-tmobile.jpg" alt="" width="128" height="64" loading="lazy"></a><div><span class="tag">Big news</span><h3><a href="/news/t-mobile-t-mix-streaming/">Netflix now comes with a T-Mobile plan</a></h3><p class="one">On T-Mobile in the US? A streaming service can now come with your phone plan, so look at the T-Mix plans before you pay for one separately.</p><p class="meta">26 Oct · 9to5Google</p></div></li>
+<li><a href="/news/ios-27-2-four-live-games/" tabindex="-1" aria-hidden="true"><img src="/img/nl/2/D-4-ios.jpg" alt="" width="128" height="64" loading="lazy"></a><div><span class="tag">Update</span><h3><a href="/news/ios-27-2-four-live-games/">iOS 27.2: watch 4 live games at once</a></h3><p class="one">With an Apple TV subscription you can follow up to 4 live games on one iPhone screen.</p><p class="meta">26 Oct · MacRumors</p></div></li>
+</ul></section>
+<section aria-labelledby="rail-h"><div class="sec-head"><h2 id="rail-h">Deals we checked</h2><a href="/deals/">All 7 ›</a></div>
+<ul class="plain dminis">
+<li class="dmini"><a href="/expressvpn" rel="sponsored"><span class="top"><img src="/img/deals/expressvpn.webp" alt="" width="30" height="30" loading="lazy">ExpressVPN</span><span class="big">−80%</span><span class="offer">80% off 2 years + 4 extra months</span><span class="chk">Checked on ExpressVPN's site, 29 Oct</span></a></li>
+<li class="dmini"><a href="/nordvpn" rel="sponsored"><span class="top"><img src="/img/deals/nordvpn.webp" alt="" width="30" height="30" loading="lazy">NordVPN</span><span class="big">−78%</span><span class="offer">78% off + 3 extra months</span><span class="chk">Checked on NordVPN's site, 29 Oct</span></a></li>
+<li class="dmini"><a href="/hostinger" rel="sponsored"><span class="top"><img src="/img/deals/hostinger.webp" alt="" width="30" height="30" loading="lazy">Hostinger</span><span class="big">$2.49/mo</span><span class="offer">Black Friday: up to 82% off web hosting</span><span class="chk">Checked on Hostinger's site, 29 Oct</span></a></li>
+<li class="dmini"><a href="/fastestvpn" rel="sponsored"><span class="top"><img src="/img/deals/fastestvpn.webp" alt="" width="30" height="30" loading="lazy">FastestVPN</span><span class="big">$40</span><span class="offer">Black Friday: lifetime plan for $40 (93% off)</span><span class="chk">Checked on FastestVPN's site, 29 Oct</span></a></li>
+<li class="dmini"><a href="/protonvpn" rel="sponsored"><span class="top"><img src="/img/deals/protonvpn.webp" alt="" width="30" height="30" loading="lazy">Proton VPN</span><span class="big">−65%</span><span class="offer">65% off VPN Plus for 2 years</span><span class="chk">Checked on Proton VPN's site, 29 Oct</span></a></li>
+<li class="dmini"><a href="/protonpass" rel="sponsored"><span class="top"><img src="/img/deals/protonpass.webp" alt="" width="30" height="30" loading="lazy">Proton Pass</span><span class="big">−40%</span><span class="offer">40% off Pass Plus for a year</span><span class="chk">Checked on Proton Pass's site, 29 Oct</span></a></li>
+</ul></section>
+</div>
+<div data-join></div>
+<section aria-labelledby="ol-h"><div class="sec-head"><h2 id="ol-h">In one line</h2></div>
+<ul class="plain one-line">
+<li><b><a href="/news/reddit-for-you-feed/">Reddit's new For You feed</a></b><span>Reddit adds a For You feed with picks for you, rolling out worldwide.</span><span class="meta">28 Oct · <a href="https://www.socialmediatoday.com/news/reddit-introduces-for-you-feed/873132/" rel="noopener">Social Media Today</a></span></li>
+<li><b><a href="/news/tiktok-must-eat-restaurant-guide/">TikTok's restaurant guide</a></b><span>TikTok launched Must Eat: restaurant tips from 40 million posts and comments (New York, LA and San Francisco first).</span><span class="meta">28 Oct · <a href="https://techcrunch.com/2026/10/28/tiktok-expands-into-restaurant-guides-with-must-eat-feature/" rel="noopener">TechCrunch</a></span></li>
+<li><b><a href="/news/instagram-long-videos-test/">Instagram tests long videos</a></b><span>Instagram is testing long, horizontal videos called Features, US first.</span><span class="meta">26 Oct · <a href="https://9to5google.com/2026/10/26/instagram-features-long-form-video-test/" rel="noopener">9to5Google</a></span></li>
+</ul></section>
+<section aria-labelledby="hw-h"><div class="sec-head"><h2 id="hw-h">How-tos people watch</h2><a href="/how-tos/">Search all how-tos ›</a></div>
+<ul class="plain vgrid">
+<li class="vcard"><a href="https://www.youtube.com/watch?v=0YRH_LQd3wM"><img src="/thumbs/0YRH_LQd3wM.jpg" alt="" loading="lazy" width="320" height="180"><p class="vt">How to Order from Temu Cash on Delivery 2025</p><p class="vm">Temu · How To Rocket</p></a></li>
+<li class="vcard"><a href="https://www.youtube.com/watch?v=6FQe8CoHWpo"><img src="/thumbs/6FQe8CoHWpo.jpg" alt="" loading="lazy" width="320" height="180"><p class="vt">GoDaddy Website Builder Review 2025</p><p class="vm">GoDaddy · Guide Glimpse</p></a></li>
+<li class="vcard"><a href="https://www.youtube.com/watch?v=M93uHaey-R4"><img src="/thumbs/M93uHaey-R4.jpg" alt="" loading="lazy" width="320" height="180"><p class="vt">How To Fix Airalo Esim Not Working Problem</p><p class="vm">Airalo · How To Rocket</p></a></li>
+<li class="vcard"><a href="https://www.youtube.com/watch?v=BDjcENnMtDo"><img src="/thumbs/BDjcENnMtDo.jpg" alt="" loading="lazy" width="320" height="180"><p class="vt">ProtonMail Aliases – Manage Your Inbox and Use Extra Email Addresses (Hide-My-Email)</p><p class="vm">Proton Mail · Guide Glimpse</p></a></li>
+</ul></section>
 </div>
 <!-- /build-pages:home -->
   </main>
   <noscript><p>Please turn on JavaScript to see the videos and the newsletter signup.</p></noscript>
 
   <footer>
+    <aside class="wwu" id="wwu" hidden aria-label="For brands"><p>Run an app or a brand?</p><a href="/c-work-strip">See how to work with us ›</a></aside>
     <p>Some links on this page are affiliate links. If you sign up through them, we may earn a commission at no extra cost to you.</p>
     <p id="foot-channels"></p>
-    <p><a href="/about/">About</a> · <a href="/how-we-choose/">How we choose tools</a> · <a href="/how-we-make-money/">How we make money</a> · <a href="/work-with-us/">Work with us</a> · <a href="/#privacy">Privacy</a> · &copy; <span id="year"></span> useandlike.com</p>
+    <p><a href="/c-about">About</a> · <a href="/c-choose">How we choose tools</a> · <a href="/c-money">How we make money</a> · <a href="/c-work">Work with us</a> · <a href="/#privacy">Privacy</a> · &copy; <span id="year"></span> useandlike.com</p>
   </footer>
 </div>
 
@@ -845,8 +936,16 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     return box;
   }
 
-  // Home of the Tools tab: every category with its first few tools.
+  // Home: the front page that scripts/build-pages.js writes into the page (app news, deals, how-tos), as loaded,
+  // plus the newsletter box where it has [data-join]. (The category list moved to /how-tos/ on 1 Nov 2026.)
+  var FRONT = document.getElementById("view").innerHTML;
   function renderIndex(view) {
+    if (FRONT.indexOf('class="front"') >= 0) {
+      view.innerHTML = FRONT;
+      var slot = view.querySelector("[data-join]");
+      if (slot && NEWSLETTER.ready) slot.appendChild(newsletterBox());
+      return;
+    }
     var index = el("div", "index");
     CATEGORIES.forEach(function (cat) {
       var tools = toolsIn(cat);
@@ -985,8 +1084,8 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
       bullets: [],
       paragraphs: [],
       link: { text: "Open the free Subscription Tracker", url: "https://subscriptionchef.app/" },
-      after: "What's next: our 30-second app newsletter with the big app news, new features and deals we've checked, only when there's something worth your time. Tip: if it lands in Promotions or Spam, move it to your inbox so you don't miss the next one. Until then, browse the tools we use, sorted by category.",
-      homeLink: "See all tools"
+      after: "What's next: our 30-second app newsletter with the big app news, new features and deals we've checked, only when there's something worth your time. Tip: if it lands in Promotions or Spam, move it to your inbox so you don't miss the next one. Until then, catch up on the latest app news.",
+      homeLink: "See the latest app news"
     },
     join: {
       title: "Join free + get our Free Subscription Tracker",
@@ -1014,7 +1113,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
       bullets: [],
       paragraphs: [],
       link: { text: "Open the free Subscription Tracker", url: "https://subscriptionchef.app/" },
-      homeLink: "See all tools"
+      homeLink: "See the latest app news"
     },
     tracker: {
       title: "Free Subscription Tracker",
@@ -1034,16 +1133,17 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
       title: "Privacy",
       paragraphs: [
         "This site is run by Kevin Redl. Contact: HTRocket@proton.me",
-        "This site does not use analytics or tracking scripts of its own.",
+        "This site does not use cookies, analytics or tracking scripts of its own.",
+        "We count how often some of our own links are clicked (for example \"Work with us\"), as totals: these links pass through a short address on this site, which Cloudflare, our host, counts. A few page parts are shown to about half of all visitors at random, so we can see which works better; nothing about you is stored for that.",
         "The site is hosted by Cloudflare, which processes technical data such as your IP address to deliver the pages and protect them against abuse.",
         "The newsletter signup field is provided by Beehiiv, our newsletter provider, and loads from their servers. Beehiiv may set cookies to remember where you came from and that you have subscribed. If you join, your email address is sent to Beehiiv and their privacy policy applies. You can unsubscribe in any email.",
         "When you click a tool or video link, you leave this site. The tool's website, its affiliate partner or YouTube may then set their own cookies, and their privacy policies apply.",
-        "Last updated: 5 October 2026."
+        "Last updated: 1 November 2026."
       ]
     }
   };
   function renderInfo(view, page) {
-    view.appendChild(inner("‹ All categories", "", "crumb"));
+    view.appendChild(inner("‹ Home", "", "crumb"));
     var hero = page.hero && NEWSLETTER.ready && NEWSLETTER.joinDesign !== "A";
     var heroImg = hero && NEWSLETTER.joinDesign === "C" && page.image;   // design C: the picture goes inside the box
     if (hero) {
@@ -1130,10 +1230,10 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     var noHeader = id === "welcome" || (id === "join" && NEWSLETTER.joinDesign !== "A");
     document.getElementById("header-join").style.display = noHeader ? "none" : "";
     if (!noHeader) headerJoin();
-    setCurrent("nav-tools", !isVideos && !info);
+    setCurrent("nav-news", !isVideos && !info);
     setCurrent("nav-videos", isVideos);
     document.title = info ? info.title + " – Use & Like"
-      : cat ? cat + " videos – Use & Like" : "Use & Like – Directory of apps and tools we use";
+      : cat ? cat + " videos – Use & Like" : "Use & Like – App news, deals and how-tos";
 
     // Coming back from a page (e.g. one category's videos) to its list returns to the same spot.
     var cameFromPage = lastRoute !== null && lastRoute !== "" && lastRoute !== "videos";
@@ -1164,6 +1264,8 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     document.getElementById("header-join").appendChild(joinForm(true));
   }
   route();
+  var wwu = document.getElementById("wwu");
+  if (wwu && Math.random() < 0.5) wwu.hidden = false;   // A/B test of the "Work with us" strip (version B), nothing stored
 
   var footChannels = document.getElementById("foot-channels");
   footChannels.appendChild(document.createTextNode("Our YouTube channels: "));

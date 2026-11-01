@@ -188,8 +188,7 @@ const newsletterBox = () => !NEWSLETTER.ready ? "" : `<section class="newsletter
 function header(current) {
   let h = HEADER.replace(/href="#"/g, 'href="/"').replace(/href="#videos"/g, 'href="/#videos"')
     .replace('<div class="ctas" id="header-join"></div>', `<div class="ctas" id="header-join">${NEWSLETTER.ready ? joinForm(true) : ""}</div>`);
-  if (current === "tools") h = h.replace('id="nav-tools"', 'id="nav-tools" aria-current="page"');
-  if (current === "deals") h = h.replace('id="nav-deals"', 'id="nav-deals" aria-current="page"');
+  for (const id of ["news", "howtos", "deals"]) if (current === id) h = h.replace(`id="nav-${id}"`, `id="nav-${id}" aria-current="page"`);
   return h;
 }
 const footer = () => FOOTER.replace('<p id="foot-channels"></p>', `<p id="foot-channels">Our YouTube channels: ${channelLinks(channelUrl)}</p>`)
@@ -226,6 +225,9 @@ const SCRIPT = `(function () {
   });
   var y = document.getElementById("year");
   if (y) y.textContent = new Date().getFullYear();
+  // A/B test of the "Work with us" strip (version B) on about half of all page views; nothing is stored.
+  var w = document.getElementById("wwu");
+  if (w && Math.random() < 0.5) w.hidden = false;
 })();`;
 
 const beehiivHead = !(NEWSLETTER.ready && NEWSLETTER.beehiivForm) ? "" :
@@ -243,7 +245,9 @@ function crumbsHtml(items) {
     items.map((it, i) => i === items.length - 1 ? `<span aria-current="page">${esc(it.name)}</span>` : `<a href="/${it.path}">${esc(it.name)}</a>`)
       .join(" › ") + "</nav>";
 }
-const HOME = { name: "All categories", path: "" };
+const HOME = { name: "Home", path: "" };
+// The category list moved from the home page to How-tos (1 Nov 2026: the home page is now app news).
+const HOWTOS = { name: "How-tos", path: "how-tos/" }, NEWSL = { name: "News", path: "news/" };
 
 function layout(p) {
   const url = SITE + "/" + p.path;
@@ -279,7 +283,7 @@ ${p.main}
 <script>
 ${SCRIPT}
 </script>
-</body>
+${p.script ? `<script>\n${p.script}\n</script>\n` : ""}</body>
 </html>
 `;
 }
@@ -311,7 +315,7 @@ for (const cat of CATEGORIES) {
   const names = tools.map(t => t.name);
   const nameList = names.length > 1 ? names.slice(0, -1).join(", ") + " and " + names[names.length - 1] : names.join("");
   const main = [
-    crumbsHtml([HOME, { name: cat, path: p }]),
+    crumbsHtml([HOWTOS, { name: cat, path: p }]),
     `<h1>${esc(cat)}</h1>`,
     `<p class="count">${tools.length ? esc(plural(tools.length, "tool")) + (vids.length ? " · " + esc(plural(vids.length, "video")) : "") : "Coming soon"}</p>`,
     `<ul class="plain rows">\n${tools.map(t => toolRow(t, true)).join("\n")}\n</ul>`,
@@ -320,11 +324,11 @@ for (const cat of CATEGORIES) {
     newsletterBox()
   ].filter(Boolean).join("\n");
   out.set(p + "index.html", layout({
-    path: p, nav: "tools", cls: "page",
+    path: p, nav: "howtos", cls: "page",
     title: `${cat}: ${plural(tools.length, "tool")}${vids.length ? " and " + plural(vids.length, "video tutorial") : ""} | Use & Like`,
     description: `${cat} on Use & Like: ${nameList}.` + (vids.length ? ` ${plural(vids.length, "video tutorial")} from our channels.` : ""),
     noindex: !catIndexed(cat),
-    jsonld: [crumbsLd([HOME, { name: cat, path: p }]), { "@context": "https://schema.org", "@type": "ItemList", name: cat,
+    jsonld: [crumbsLd([HOWTOS, { name: cat, path: p }]), { "@context": "https://schema.org", "@type": "ItemList", name: cat,
       itemListElement: tools.map((t, i) => ({ "@type": "ListItem", position: i + 1, name: t.name, url: SITE + "/" + toolPath(t) })) }],
     main
   }));
@@ -334,7 +338,7 @@ for (const cat of CATEGORIES) {
 for (const t of TOOLS) {
   const vids = toolVideos.get(t.name), p = toolPath(t), cp = catPath(t.category);
   const others = toolsIn(t.category).filter(x => x !== t);
-  const trail = [HOME, { name: t.category, path: cp }, { name: t.name, path: p }];
+  const trail = [HOWTOS, { name: t.category, path: cp }, { name: t.name, path: p }];
   const main = [
     crumbsHtml(trail),
     `<div class="tool-head"><div class="main"><h1>${esc(t.name)}${t.isPick ? ' <span class="pick">Our pick</span>' : ""}</h1>` +
@@ -350,7 +354,7 @@ for (const t of TOOLS) {
     newsletterBox()
   ].filter(Boolean).join("\n");
   out.set(p + "index.html", layout({
-    path: p, nav: "tools", cls: "page",
+    path: p, nav: "howtos", cls: "page",
     title: vids.length ? `${t.name}: ${plural(vids.length, "video tutorial")} | Use & Like` : `${t.name} – ${t.description} | Use & Like`,
     description: `${t.name}: ${sentence(t.description)}.` +
       (vids.length ? ` ${plural(vids.length, "video tutorial")} about ${t.name} from our channels` +
@@ -419,6 +423,227 @@ function dealCard(d) {
   if (DEALS.length) sitemap.push(p);
 }
 
+// ---- App news, how-tos and the front page (Kevin, 1 Nov 2026: "overall way better", "go") ----
+// Stories: data/news/<slug>.json, one file per story (written from the Studio's checked stories; facts only from the
+// sources named in the file). Pages: news/<slug>/ per story, news/ (all stories), how-tos/ (search + browse by category),
+// and the front page in index.html's "home" block.
+const NEWS_DIR = path.join(ROOT, "data", "news");
+const NEWS = (fs.existsSync(NEWS_DIR) ? fs.readdirSync(NEWS_DIR).filter(f => f.endsWith(".json")) : []).map(f => {
+  const s = JSON.parse(fs.readFileSync(path.join(NEWS_DIR, f), "utf8"));
+  for (const k of ["slug", "date", "head", "dek", "sources"]) if (!s[k] || (Array.isArray(s[k]) && !s[k].length)) throw new Error(`data/news/${f}: missing "${k}"`);
+  if (f !== s.slug + ".json") throw new Error(`data/news/${f}: the file name should be ${s.slug}.json`);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(s.date)) throw new Error(`data/news/${f}: "date" should look like 2026-10-28`);
+  return s;
+}).sort((a, b) => b.date.localeCompare(a.date) || (a.rank || 99) - (b.rank || 99) || a.head.localeCompare(b.head));
+const TOP_NEWS = NEWS.filter(s => !s.quick), QUICK_NEWS = NEWS.filter(s => s.quick);
+const newsPath = s => "news/" + s.slug + "/";
+const longDay = iso => new Date(iso + "T00:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+const linkOut = (href, text) => `<a href="${esc(href)}"${newTab || ' rel="noopener"'}>${esc(text)}</a>`;
+const sourcesLine = s => s.sources.map(x => x.url ? linkOut(x.url, x.name) : esc(x.name)).join(", ");
+
+// Recommended how-tos: most viewed first (videos.js order), only videos with a new thumbnail (Kevin, 1 Nov: "they look
+// better"; data/new-thumbs.json), never titles that undercut an offer or are about leaving a service.
+const NEW_THUMBS = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, "data", "new-thumbs.json"), "utf8")).videos || {}; } catch (_) { return {}; } })();
+const UNDERCUT = /\b(free shopping|coupons?|for free|free alternative|premium free|license key|trial reset|cancel|refund|delete|unsubscribe)\b/i;
+const siteVids = (W.CHANNEL_VIDEOS || []).map(r => ({ id: r[0], title: r[1], channel: W.CHANNEL_VIDEO_CHANNELS[r[2]], tool: W.CHANNEL_VIDEO_TOOLS[r[3]] }));
+const RECOMMENDED = siteVids.filter(v => NEW_THUMBS[v.id] && hasThumb(v.id) && !UNDERCUT.test(v.title));
+const wordRe = w => new RegExp("(^|[^\\w])" + w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "($|[^\\w])", "i");
+// A story's topic -> the site category whose how-tos fit it (when no video names the story's apps).
+const TOPIC_CATEGORY = { Privacy: "VPN & Privacy", Security: "VPN & Privacy", AI: "AI Writing & Research", Money: "Money & Trading",
+  Shopping: "Shopping & Mobile", Travel: "Travel", Email: "Email", Video: "Video Creation", Business: "Business & Legal" };
+function howtosFor(s, n) {
+  const picked = (s.howtos || []).map(id => RECOMMENDED.find(v => v.id === id) || siteVids.find(v => v.id === id)).filter(Boolean);
+  for (const app of s.apps || []) for (const v of RECOMMENDED) if (picked.length < n && !picked.includes(v) && wordRe(app).test(v.title)) picked.push(v);
+  const cat = s.category || TOPIC_CATEGORY[s.topic];
+  for (const v of RECOMMENDED) if (picked.length < n && !picked.includes(v) && cat && (toolByName.get(v.tool) || {}).category === cat) picked.push(v);
+  for (const v of RECOMMENDED) if (picked.length < n && !picked.includes(v)) picked.push(v);
+  return picked.slice(0, n);
+}
+
+function storyThumb(s, w) {
+  return s.thumb ? `<img src="${esc(s.thumb)}" alt="" width="${w}" height="${w / 2}" loading="lazy">`
+    : `<span class="ph" aria-hidden="true">${esc((s.apps && s.apps[0] || s.head)[0])}</span>`;
+}
+const storyRow = s => `<li><a href="/${newsPath(s)}" tabindex="-1" aria-hidden="true">${storyThumb(s, 128)}</a><div>` +
+  (s.tag ? `<span class="tag">${esc(s.tag)}</span>` : "") + `<h3><a href="/${newsPath(s)}">${esc(s.head)}</a></h3>` +
+  `<p class="one">${esc(s.means || s.dek)}</p><p class="meta">${esc(shortDay(s.date))} · ${esc(s.sources.map(x => x.name).join(", "))}</p></div></li>`;
+const storyRows = list => `<ul class="plain srows">\n${list.map(storyRow).join("\n")}\n</ul>`;
+const oneLine = list => `<ul class="plain one-line">\n${list.map(s => `<li><b><a href="/${newsPath(s)}">${esc(s.head)}</a></b>` +
+  `<span>${esc(s.dek)}</span><span class="meta">${esc(shortDay(s.date))} · ${sourcesLine(s)}</span></li>`).join("\n")}\n</ul>`;
+const dealMini = d => `<li class="dmini"><a href="/${d.slug}" ${sponsored}><span class="top">` +
+  (fs.existsSync(path.join(ROOT, "img", "deals", d.slug + ".webp")) ? `<img src="/img/deals/${d.slug}.webp" alt="" width="30" height="30" loading="lazy">` : "") +
+  `${esc(d.brand)}</span><span class="big">${esc(d.big)}</span><span class="offer">${esc(d.offer)}</span>` +
+  `<span class="chk">Checked on ${esc(d.brand)}'s site, ${esc(shortDay(d.checked))}</span></a></li>`;
+const dealMinis = list => `<ul class="plain dminis">\n${list.map(dealMini).join("\n")}\n</ul>`;
+const secHead = (id, title, link) => `<div class="sec-head"><h2 id="${id}">${esc(title)}</h2>${link || ""}</div>`;
+
+// Story pages: what happened, what it means for you, what to do, the details, our how-tos, deals, more stories.
+for (const s of NEWS) {
+  const p = newsPath(s), trail = [HOME, NEWSL, { name: s.head, path: p }];
+  const others = TOP_NEWS.filter(x => x !== s).slice(0, 3);
+  const main = [
+    crumbsHtml(trail),
+    '<article class="story" aria-labelledby="story-h">',
+    (s.tag ? `<span class="tag">${esc(s.tag)}</span>` : "") + `<h1 id="story-h">${esc(s.head)}</h1>`,
+    `<p class="dek">${esc(s.dek)}</p>`,
+    `<p class="meta">Use &amp; Like · ${esc(longDay(s.date))} · Source: ${sourcesLine(s)}</p>`,
+    s.image ? `<img class="hero" src="${esc(s.image)}" alt="" width="1200" height="600">` : "",
+    s.means ? `<div class="callout"><h2>What it means for you</h2><p>${esc(s.means)}</p></div>` : "",
+    s.todo ? `<div class="todo"><h2>What to do</h2><p>${esc(s.todo)}</p></div>` : "",
+    s.details && !s.details_in_todo ? `<div class="details"><h2>The details</h2><p>${esc(s.details)}</p>` +
+      (s.where ? `<p class="meta">Where and when: ${esc(s.where)}</p>` : "") + "</div>" : (s.where ? `<p class="meta">Where and when: ${esc(s.where)}</p>` : ""),
+    s.video ? `<p class="watch"><a class="visit" href="https://www.youtube.com/watch?v=${esc(s.video)}"${newTab}>${PLAY} Watch our video about this</a></p>` : "",
+    newsletterBox(),
+    `<section aria-labelledby="ht-h">${secHead("ht-h", "How-tos from our channels", '<a href="/how-tos/">Search all how-tos ›</a>')}\n${grid(howtosFor(s, 3))}</section>`,
+    DEALS.length ? `<section aria-labelledby="dl-h">${secHead("dl-h", "Deals we checked", `<a href="/deals/">All ${DEALS.length} ›</a>`)}\n${dealMinis(DEALS.slice(0, 4))}</section>` : "",
+    others.length ? `<section aria-labelledby="mn-h">${secHead("mn-h", "More app news", '<a href="/news/">All app news ›</a>')}\n${storyRows(others)}</section>` : "",
+    `<p class="src">We write every story in our own words from its source and check the facts before it goes up. Source: ${sourcesLine(s)}.</p>`,
+    "</article>"
+  ].filter(Boolean).join("\n");
+  const article = { "@context": "https://schema.org", "@type": "NewsArticle", headline: s.head, description: s.dek,
+    datePublished: s.date, dateModified: s.updated || s.date, mainEntityOfPage: SITE + "/" + p,
+    author: { "@type": "Organization", name: "Use & Like", url: SITE + "/" },
+    publisher: { "@type": "Organization", name: "Use & Like", url: SITE + "/" } };
+  if (s.image) article.image = [SITE + s.image];
+  out.set(p + "index.html", layout({
+    path: p, nav: "news", cls: "page", title: `${s.head} | Use & Like`, description: s.dek.slice(0, 300),
+    noindex: false, jsonld: [crumbsLd(trail), article], main
+  }));
+  sitemap.push(p);
+}
+
+// All stories, newest first.
+if (NEWS.length) {
+  const p = NEWSL.path, trail = [HOME, NEWSL];
+  out.set(p + "index.html", layout({
+    path: p, nav: "news", cls: "page", title: "App news | Use & Like",
+    description: "What changed in the apps you use, in our own words, with what it means for you and what to do about it.",
+    noindex: false, jsonld: [crumbsLd(trail)],
+    main: [crumbsHtml(trail), "<h1>App news</h1>",
+      '<p class="lead">What changed in the apps you use, in our own words, with what it means for you and what to do about it.</p>',
+      storyRows(TOP_NEWS), QUICK_NEWS.length ? `<section aria-labelledby="ol-h">${secHead("ol-h", "In one line")}\n${oneLine(QUICK_NEWS)}</section>` : "",
+      newsletterBox()].filter(Boolean).join("\n")
+  }));
+  sitemap.push(p);
+}
+
+// How-tos: search over all our videos (how-tos/search.json, loaded on the first search), then browse by category.
+{
+  const rows = fs.readFileSync(path.join(ROOT, "data", "channel-videos.tsv"), "utf8").split("\n").map(l => l.split("\t")).filter(r => r.length >= 5);
+  const chans = [...new Set(rows.map(r => r[4].trim()))];
+  // No Shorts (60 seconds or less), no titles that undercut an offer; most viewed first.
+  const vids = rows.filter(r => /^[\w-]{11}$/.test(r[0]) && !(+r[2] > 0 && +r[2] <= 60) && !UNDERCUT.test(r[3]))
+    .sort((a, b) => (+b[1] || 0) - (+a[1] || 0)).map(r => [r[0], r[3], chans.indexOf(r[4].trim())]);
+  out.set("how-tos/search.json", JSON.stringify({ channels: chans, videos: vids,
+    tools: TOOLS.map(t => [t.name, t.slug, t.category]), news: NEWS.map(s => [s.slug, s.head, s.date]),
+    deals: DEALS.map(d => [d.slug, d.brand, d.offer]) }));
+  const p = HOWTOS.path, trail = [HOME, HOWTOS];
+  const cats = '<div class="index">\n' + CATEGORIES.map(cat => {
+    const tools = toolsIn(cat), n = catVideos.get(cat).length;
+    const items = !tools.length ? ['<li class="soon">Coming soon</li>'] : tools.slice(0, VISIBLE_COUNT)
+      .map(t => `<li><a href="/${t.slug}" ${sponsored}>${esc(t.name)}</a></li>`);
+    if (tools.length > VISIBLE_COUNT) items.push(`<li><a class="all" href="/${catPath(cat)}">All ${tools.length} ›</a></li>`);
+    return `<section class="block"><h2><a href="/${catPath(cat)}">${esc(cat)}</a></h2>` +
+      `<p class="count">${n ? esc(plural(n, "how-to")) + " · " : ""}${esc(plural(tools.length, "tool"))}</p><ul class="plain">${items.join("")}</ul></section>`;
+  }).join("\n") + "\n</div>";
+  const chips = ["Wise", "Shein", "WhatsApp", "Netflix", "Proton VPN", "CapCut", "ChatGPT", "TikTok"];
+  const main = [
+    crumbsHtml(trail),
+    '<div class="howtos">',
+    '<section class="hs" aria-labelledby="hs-h"><h1 id="hs-h">What app do you need help with?</h1>' +
+      `<p class="lead">Search ${esc(vids.length.toLocaleString("en-US"))} how-to videos from our channels, our app news and the deals we checked.</p>` +
+      '<div class="sbox"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>' +
+      '<input id="q" type="search" placeholder="Try Wise, CapCut, VPN, ChatGPT..." autocomplete="off" aria-label="Search our how-tos, news and deals" aria-controls="res"></div>' +
+      `<div class="qchips" role="group" aria-label="Popular searches">${chips.map(c => `<button type="button" data-q="${esc(c)}">${esc(c)}</button>`).join("")}</div>` +
+      '<div class="results" id="res" aria-live="polite" hidden></div></section>',
+    `<section aria-labelledby="bc-h">${secHead("bc-h", "Browse by category", '<a href="/#videos">All videos by category ›</a>')}\n${cats}</section>`,
+    TOP_NEWS.length ? `<section aria-labelledby="hn-h">${secHead("hn-h", "App news in 30 seconds", '<a href="/news/">All app news ›</a>')}\n${storyRows(TOP_NEWS.slice(0, 4))}</section>` : "",
+    DEALS.length ? `<section aria-labelledby="hd-h">${secHead("hd-h", "Deals we checked", `<a href="/deals/">All ${DEALS.length} ›</a>`)}\n${dealMinis(DEALS.slice(0, 6))}</section>` : "",
+    RECOMMENDED.length ? `<section aria-labelledby="hp-h">${secHead("hp-h", "How-tos people watch")}\n${grid(RECOMMENDED.slice(0, 4))}</section>` : "",
+    newsletterBox(),
+    "</div>"
+  ].filter(Boolean).join("\n");
+  const script = `(function () {
+  var q = document.getElementById("q"), res = document.getElementById("res"), data = null, waiting = [];
+  var NEW_TAB = ${JSON.stringify(!!OPEN_IN_NEW_TAB)};
+  function load(then) {
+    if (data) return then();
+    waiting.push(then);
+    if (waiting.length > 1) return;
+    fetch("/how-tos/search.json").then(function (r) { return r.json(); }).then(function (d) {
+      data = d; var w = waiting; waiting = []; w.forEach(function (f) { f(); });
+    }).catch(function () { waiting = []; res.hidden = false; res.textContent = "The search didn't load. Check your connection and try again."; });
+  }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function hi(t, w) { var i = t.toLowerCase().indexOf(w); return i < 0 ? esc(t) : esc(t.slice(0, i)) + "<mark>" + esc(t.slice(i, i + w.length)) + "</mark>" + esc(t.slice(i + w.length)); }
+  function a(href, html, ext, rel) { return '<a href="' + esc(href) + '"' + (ext && NEW_TAB ? ' target="_blank" rel="noopener' + (rel ? " " + rel : "") + '"' : (rel ? ' rel="' + rel + '"' : "")) + ">" + html + "</a>"; }
+  function run() {
+    var raw = q.value.trim(), w = raw.toLowerCase();
+    if (w.length < 2) { res.hidden = true; res.innerHTML = ""; return; }
+    load(function () {
+      if (q.value.trim().toLowerCase() !== w) return;
+      var words = w.split(/\\s+/), first = words[0];
+      var has = function (t) { t = String(t).toLowerCase(); return words.every(function (x) { return t.indexOf(x) >= 0; }); };
+      var news = data.news.filter(function (n) { return has(n[1]); }).slice(0, 3);
+      var deals = data.deals.filter(function (d) { return has(d[1] + " " + d[2]); }).slice(0, 3);
+      var tools = data.tools.filter(function (t) { return has(t[0] + " " + t[2]); }).slice(0, 4);
+      var vids = data.videos.filter(function (v) { return has(v[1]); });
+      var h = "";
+      if (news.length) h += "<div><h3>App news</h3><ul>" + news.map(function (n) { return "<li>" + a("/news/" + n[0] + "/", hi(n[1], first)) + "</li>"; }).join("") + "</ul></div>";
+      if (deals.length) h += "<div><h3>Deals</h3><ul>" + deals.map(function (d) { return "<li>" + a("/" + d[0], hi(d[1], first) + ": " + esc(d[2]), true, "sponsored") + "</li>"; }).join("") + "</ul></div>";
+      if (tools.length) h += "<div><h3>On our site</h3><ul>" + tools.map(function (t) { return "<li>" + a("/tool/" + t[1] + "/", hi(t[0], first)) + " <span>" + esc(t[2]) + "</span></li>"; }).join("") + "</ul></div>";
+      if (vids.length) h += "<div><h3>How-to videos (" + vids.length.toLocaleString("en-US") + ")</h3><ul>" + vids.slice(0, 8).map(function (v) {
+        return "<li>" + a("https://www.youtube.com/watch?v=" + v[0], hi(v[1], first), true) + " <span>" + esc(data.channels[v[2]] || "") + "</span></li>"; }).join("") + "</ul>" +
+        (vids.length > 8 ? '<p class="more-hits"><button type="button" id="more-hits">Show ' + Math.min(vids.length - 8, 40) + " more</button></p>" : "") + "</div>";
+      if (!h) h = "<p>Nothing found for \\u201c" + esc(raw) + "\\u201d. Try the app's name, or browse by category below.</p>";
+      res.innerHTML = h; res.hidden = false;
+      var more = document.getElementById("more-hits");
+      if (more) more.addEventListener("click", function () {
+        var ul = more.parentNode.previousSibling;
+        vids.slice(8, 48).forEach(function (v) { var li = document.createElement("li"); li.innerHTML = a("https://www.youtube.com/watch?v=" + v[0], hi(v[1], first), true) + " <span>" + esc(data.channels[v[2]] || "") + "</span>"; ul.appendChild(li); });
+        more.parentNode.remove();
+      });
+    });
+  }
+  q.addEventListener("input", run);
+  q.addEventListener("focus", function () { load(function () {}); }, { once: true });
+  [].forEach.call(document.querySelectorAll(".qchips button"), function (b) {
+    b.addEventListener("click", function () { q.value = b.getAttribute("data-q"); run(); q.focus(); });
+  });
+})();`;
+  out.set(p + "index.html", layout({
+    path: p, nav: "howtos", cls: "page", title: "How-tos: search our videos, browse by category | Use & Like",
+    description: `Search ${vids.length.toLocaleString("en-US")} how-to videos from How To Rocket, Guide Glimpse and Logic Protocol, or browse the apps and tools we use by category.`,
+    noindex: false, jsonld: [crumbsLd(trail)], main, script
+  }));
+  sitemap.push(p);
+}
+
+// The front page (index.html's "home" block): lead story, latest news beside the deals, the newsletter box (the page's
+// script puts it into [data-join]), one-liners, how-tos people watch.
+function frontPage() {
+  const lead = TOP_NEWS.find(s => s.image) || TOP_NEWS[0];
+  if (!lead) return "";
+  const latest = TOP_NEWS.filter(s => s !== lead).slice(0, 6);
+  return [
+    '<div class="front">',
+    '<h1 class="sr-only">Use &amp; Like: app news, deals and how-tos</h1>',
+    `<section class="lead-story" aria-labelledby="lead-h">` +
+      (lead.image ? `<a href="/${newsPath(lead)}" tabindex="-1" aria-hidden="true"><img src="${esc(lead.image)}" alt="" width="1200" height="600"></a>` : "") +
+      `<div class="txt">${lead.tag ? `<span class="tag">${esc(lead.tag)}</span>` : ""}<h2 id="lead-h"><a href="/${newsPath(lead)}">${esc(lead.head)}</a></h2>` +
+      `<p class="dek">${esc(lead.dek)}${lead.details && !lead.details_in_todo ? " " + esc(lead.details) : ""}</p>` +
+      `<p class="meta">${esc(shortDay(lead.date))} · Source: ${esc(lead.sources.map(x => x.name).join(", "))}</p></div></section>`,
+    '<div class="split">',
+    `<section aria-labelledby="latest-h">${secHead("latest-h", "Latest app news", '<a href="/news/">All app news ›</a>')}\n${storyRows(latest)}</section>`,
+    DEALS.length ? `<section aria-labelledby="rail-h">${secHead("rail-h", "Deals we checked", `<a href="/deals/">All ${DEALS.length} ›</a>`)}\n${dealMinis(DEALS.slice(0, 6))}</section>` : "",
+    "</div>",
+    '<div data-join></div>',
+    QUICK_NEWS.length ? `<section aria-labelledby="ol-h">${secHead("ol-h", "In one line")}\n${oneLine(QUICK_NEWS.slice(0, 3))}</section>` : "",
+    RECOMMENDED.length ? `<section aria-labelledby="hw-h">${secHead("hw-h", "How-tos people watch", '<a href="/how-tos/">Search all how-tos ›</a>')}\n${grid(RECOMMENDED.slice(0, 4))}</section>` : "",
+    "</div>"
+  ].filter(Boolean).join("\n");
+}
+
 out.set("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${sitemap.map(p => `  <url><loc>${SITE}/${p}</loc></url>`).join("\n")}
@@ -437,20 +662,13 @@ const siteLd = { "@context": "https://schema.org", "@graph": [
   { "@type": "WebSite", "@id": SITE + "/#website", name: "Use & Like", url: SITE + "/",
     publisher: { "@id": SITE + "/#organization" } }
 ] };
-const homeList = '<div class="index">\n' + CATEGORIES.map(cat => {
-  const tools = toolsIn(cat);
-  const items = !tools.length ? ['<li class="soon">Coming soon</li>'] : tools.slice(0, VISIBLE_COUNT)
-    .map(t => `<li><a href="/${t.slug}" ${sponsored}>${esc(t.name)}</a></li>`);
-  if (tools.length > VISIBLE_COUNT) items.push(`<li><a class="all" href="/${catPath(cat)}">All ${tools.length} ›</a></li>`);
-  return `<section class="block"><h2><a href="/${catPath(cat)}">${esc(cat)}</a></h2><ul class="plain">${items.join("")}</ul></section>`;
-}).join("\n") + "\n</div>";
 function replaceBlock(html, name, content) {
   const re = new RegExp(`(<!-- build-pages:${name} -->)[\\s\\S]*?(<!-- /build-pages:${name} -->)`);
   if (!re.test(html)) throw new Error(`index.html has no <!-- build-pages:${name} --> markers`);
   return html.replace(re, (m, a, b) => `${a}\n${content}\n${b}`);
 }
 let newIndex = replaceBlock(indexHtml, "ld", ld(siteLd));
-newIndex = replaceBlock(newIndex, "home", homeList);
+newIndex = replaceBlock(newIndex, "home", frontPage());
 out.set("index.html", newIndex);
 
 // ---- Write, or compare with what's there ----
@@ -465,11 +683,11 @@ for (const [rel, content] of out) {
   if (!CHECK) { fs.mkdirSync(path.dirname(file), { recursive: true }); fs.writeFileSync(file, content); }
 }
 // Pages of tools or categories that no longer exist.
-for (const dir of ["tool", "category"]) {
+for (const dir of ["tool", "category", "news"]) {
   const base = path.join(ROOT, dir);
   if (!fs.existsSync(base)) continue;
   for (const name of fs.readdirSync(base)) {
-    if (out.has(`${dir}/${name}/index.html`)) continue;
+    if (!fs.statSync(path.join(base, name)).isDirectory() || out.has(`${dir}/${name}/index.html`)) continue;
     stale.push(`${dir}/${name}/ (removed)`);
     if (!CHECK) fs.rmSync(path.join(base, name), { recursive: true, force: true });
   }
@@ -483,6 +701,6 @@ if (CHECK) {
   console.log(`Pages are up to date (${out.size - 3} pages, ${indexed} in the sitemap).`);
 } else {
   console.log(`${stale.length ? `Wrote ${stale.length} file(s).` : "Nothing changed."} ${CATEGORIES.length} category pages, ` +
-    `${TOOLS.length} tool pages, ${PAGES.length} other pages, deals page (${DEALS.length} deals); ${indexed} pages in the sitemap ` +
+    `${TOOLS.length} tool pages, ${PAGES.length} other pages, deals page (${DEALS.length} deals), ${NEWS.length} stories, how-tos page; ${indexed} pages in the sitemap ` +
     `(noindex for now: ${TOOLS.filter(t => !toolIndexed(t)).map(t => t.name).concat(CATEGORIES.filter(c => !catIndexed(c))).join(", ") || "none"}).`);
 }

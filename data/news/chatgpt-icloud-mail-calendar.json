@@ -1,0 +1,27 @@
+{
+ "slug": "chatgpt-icloud-mail-calendar",
+ "date": "2026-10-27",
+ "added": "2026-11-01",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "ChatGPT can now read your iCloud Mail and Calendar",
+ "dek": "ChatGPT now works with iCloud Mail and Calendar: find an email, catch up on your inbox, move a meeting.",
+ "details": "On all plans, on the web, desktop and iPhone. You connect it with an Apple app-specific password.",
+ "where": "All ChatGPT plans, if you connect them",
+ "means": "If your email is on iCloud, ChatGPT can now search your inbox and move meetings for you, once you connect it.",
+ "todo": "It only works after you connect it with an Apple app-specific password.",
+ "image": "/img/nl/2/A-6-icloud.jpg",
+ "thumb": "/img/nl/2/D-6-icloud.jpg",
+ "rank": 4,
+ "apps": [
+  "ChatGPT",
+  "iCloud Mail"
+ ],
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/10/27/icloud-mail-and-calendar-plugins-now-work-with-chatgpt/"
+  }
+ ],
+ "checked": "2026-10-29"
+}

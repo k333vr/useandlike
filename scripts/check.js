@@ -164,23 +164,35 @@ function readRedirects(errors, warnings) {
       const slugOf = c => c.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
       const isSponsored = sel => page.$$eval(sel, as => as.filter(a => !a.relList.contains("sponsored")).length);
 
-      // Home: every category is listed with its first few tools as direct affiliate links.
+      // Home (since 1 Nov 2026): the app news front page; the category list is on /how-tos/.
+      const leadHref = await page.$eval(".front .lead-story h2 a", a => a.getAttribute("href")).catch(() => "");
+      if (!/^\/news\/[a-z0-9-]+\/$/.test(leadHref)) errors.push("home: the lead story should link to its /news/<slug>/ page (run node scripts/build-pages.js)");
+      if (!(await page.$$eval(".front .srows li", e => e.length))) errors.push('home: no stories under "Latest app news"');
+      if (await isSponsored(".front .dmini a")) errors.push('home: deal links missing rel="sponsored"');
+      if (data.NEWSLETTER.ready && !(await page.$(".front [data-join] .newsletter"))) errors.push("home: the newsletter box is missing");
+      if (leadHref) {
+        await page.click(".front .lead-story h2 a");
+        await page.waitForURL("**" + leadHref, { timeout: 5000 }).catch(() => errors.push("home: the lead story link does not open its page"));
+        await page.goBack();
+        await page.waitForSelector(".front", { timeout: 3000 }).catch(() => {});
+        if (!(await page.$(".front"))) { errors.push("back button does not return to the front page"); await page.goto(FILE); }
+      }
+
+      // How-tos: every category with its first few tools as direct affiliate links (the home page's list until 1 Nov).
+      await page.goto(BASE + "/how-tos/");
       const blocks = await page.$$eval(".index .block", e => e.length);
-      if (blocks !== data.CATEGORIES.length) errors.push(`home lists ${blocks} categories, expected ${data.CATEGORIES.length}`);
+      if (blocks !== data.CATEGORIES.length) errors.push(`how-tos lists ${blocks} categories, expected ${data.CATEGORIES.length}`);
       const homeLinks = await page.$$eval('.index li a:not(.all)', e => e.length);
       const expectedHome = data.CATEGORIES.reduce((n, c) => n + Math.min(data.TOOLS.filter(t => t.category === c).length, data.VISIBLE_COUNT), 0);
-      if (homeLinks !== expectedHome) errors.push(`home shows ${homeLinks} tool links, expected ${expectedHome}`);
-      if (await isSponsored(".index li a:not(.all)")) errors.push('home tool links missing rel="sponsored"');
-
-      // Home: category headings open the real category pages; the back button returns to the list.
+      if (homeLinks !== expectedHome) errors.push(`how-tos shows ${homeLinks} tool links, expected ${expectedHome}`);
+      if (await isSponsored(".index li a:not(.all)")) errors.push('how-tos tool links missing rel="sponsored"');
       const catHrefs = await page.$$eval(".index .block h2 a", as => as.map(a => a.getAttribute("href")));
       const expectHrefs = data.CATEGORIES.map(c => `/category/${slugOf(c)}/`);
-      if (catHrefs.join() !== expectHrefs.join()) errors.push("home category links don't point at /category/<name>/ pages");
-      await page.click(`.index .block h2 a[href="${expectHrefs[0]}"]`);
-      await page.waitForURL("**" + expectHrefs[0], { timeout: 5000 }).catch(() => errors.push("home: category link does not open its page"));
-      await page.goBack();
-      await page.waitForSelector(".index", { timeout: 3000 }).catch(() => {});
-      if (!(await page.$(".index"))) { errors.push("back button does not return to the category list"); await page.goto(FILE); }
+      if (catHrefs.join() !== expectHrefs.join()) errors.push("how-tos category links don't point at /category/<name>/ pages");
+      // The search finds videos (how-tos/search.json, loaded on the first search).
+      await page.fill("#q", "wise");
+      await page.waitForSelector("#res:not([hidden]) li", { timeout: 8000 }).catch(() => errors.push("how-tos: the search shows no results for \"wise\""));
+      await page.goto(FILE);
 
       // Old "#" links (YouTube descriptions) forward to the real pages.
       for (const [hash, to] of data.CATEGORIES.map(c => [slugOf(c), `/category/${slugOf(c)}/`]).concat([["about", "/about/"]])) {
@@ -198,7 +210,7 @@ function readRedirects(errors, warnings) {
         const width = await page.evaluate(() => document.documentElement.scrollWidth);
         if (width > 390) errors.push(`${label} scrolls sideways on a phone (${width}px wide)`);
         const text = await page.evaluate(() => [document.title, (document.querySelector('meta[name="description"]') || {}).content || "",
-          ...[...document.querySelectorAll("main h1, main .lead, main .desc, main .note, main .checks li, main.info p")].map(e => e.textContent)].join(" | "));
+          ...[...document.querySelectorAll("main h1, main .lead, main .desc, main .note, main .checks li, main.info p, main .dek, main .callout p, main .todo p, main .details p")].map(e => e.textContent)].join(" | "));
         const bad = text.match(BANNED);
         if (bad) errors.push(`${label}: superlative "${bad[0]}" in the page text`);
         return page;
@@ -220,7 +232,10 @@ function readRedirects(errors, warnings) {
           errors.push(`tool page "${t.name}": Visit button should go to /${t.slug} with rel="sponsored"`);
         if (await page.$('meta[name="robots"][content*="noindex"]')) noindex.add(p);
       }
-      for (const p of ["/about/", "/how-we-choose/", "/how-we-make-money/", "/work-with-us/"]) await pageCheck(p, `page ${p}`);
+      for (const p of ["/about/", "/how-we-choose/", "/how-we-make-money/", "/work-with-us/", "/how-tos/", "/news/"]) await pageCheck(p, `page ${p}`);
+      // App news: every story file has its page.
+      for (const f of fs.existsSync(path.join(ROOT, "data", "news")) ? fs.readdirSync(path.join(ROOT, "data", "news")).filter(f => f.endsWith(".json")) : [])
+        await pageCheck(`/news/${f.replace(/\.json$/, "")}/`, `story page ${f}`);
 
       // The sitemap lists the pages search engines should show (not the "noindex" ones), and they exist.
       const sitemap = fs.existsSync(path.join(ROOT, "sitemap.xml")) ? fs.readFileSync(path.join(ROOT, "sitemap.xml"), "utf8") : "";
