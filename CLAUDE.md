@@ -51,7 +51,10 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   (Studio story ids), `checked`.
   Facts only from the named sources, neutral words, no superlatives (check.js scans the story pages). How to write one
   and the daily run: NEWS.md (`scripts/news-intake.py todo` lists the Studio's candidates not yet on the site; routine
-  "Use & Like daily news pages" writes, builds, checks and pushes every morning). build-pages.js makes the story pages
+  "Use & Like daily news pages" writes, builds, checks and pushes every morning). Each full story also gets a presenter
+  script in the Studio (`scripts/news-scripts.py save`, NEWS.md "Scripts for the presenter"): versions A/B/C, `takes`
+  (her opinion lines: bold is fine, never a twisted fact), `points` (3-6 key points for the teleprompter's Key points
+  mode), no spoken call to action; she reads them on scripts.useandlike.com (useandlike-ops/studio). build-pages.js makes the story pages
   (NewsArticle structured data), `/news/`, `/news/feed.xml` (RSS) and the front page (lead = the newest rank-1 story of
   the last 3 days, text-only when it has no picture; latest news beside the checked deals, newsletter box via
   `[data-join]`, one-liners, how-tos). Recommended how-tos everywhere: only videos with a new thumbnail

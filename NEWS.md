@@ -118,9 +118,19 @@ time or all in one session). Kevin strikes the ones he doesn't want. A script sh
 - **`takes`**: 2-3 one-line reactions she can pick from or replace with her own (Kevin: "inserts her newly learned
   opinions or comments on each topic"): clearly opinion, in first person, at most about 15 words, no new facts, nothing
   about a person ("I'd switch this off today.", "Honestly, this is the update I wanted.", "Pins that never expire? Finally.").
+  Bold, funny or a bit wild is welcome (Kevin, 1 Nov: "she can give her fancy opinion ... or crazy take fine too but we
+  dont twist the facts"): the take is her opinion about the facts, never a different version of them. It never
+  claims something the story doesn't say, never makes a rumor sound confirmed, and never mocks people.
+- **`points`**: 3-6 key points in speaking order, a few words each (at most 70 characters, not full sentences), for the
+  teleprompter's "Key points" mode, where she says the story in her own words instead of reading it (Kevin, 1 Nov: it
+  "need[s] to be natural"). The first point is the news, then what changes, who gets it and when, what to do. Example:
+  "WhatsApp: catch-up button in groups" / "Shows what you missed since you last looked" / "Android and iPhone, this week" /
+  "Find it at the top of a busy group". Rumors: the first point says "Spotted in testing" or "Reportedly".
 - **Rumors** stay rumors when spoken: "reportedly", "according to a leak", "spotted in testing", and say once that it
   isn't confirmed.
 - **`facts`**: 3-6 short lines she can check against the script: the numbers, dates, places and plans it says.
+- **Each script stands alone**: the editor also joins the day's recorded stories into the next day's "If you missed it"
+  compilation, so no "as I said", "in my last video" or "next up".
 - **For the uploader:** `title` (about 60 characters at most, app name first, plain words, no clickbait or capitals)
   and `description`:
 
@@ -133,3 +143,7 @@ time or all in one session). Kevin strikes the ones he doesn't want. A script sh
 - Examples: the six scripts of 1 Nov 2026 (`python3 scripts/news-scripts.py list --day 2026-11-01`).
 - **`code`** = "N" + month and day of today + "-" + `rank` in two digits (`N1102-01`); `day` = today; `rank` = the
   order she should record them in (the lead story first). Also `slug`, `item`, `head` and `sources` from the story.
+  After the lead, put the stories most viewers care about first; between two similar ones, the money topic goes first
+  (payments and banking, subscriptions and prices, AI subscriptions, security and VPNs, shopping, travel): those videos
+  earn more per view than games or chat apps (Kevin, 1 Nov: "short videos can still have good rev especially if its high
+  rpm topics/apps"). If she can't record them all, the top of the list is what gets made.

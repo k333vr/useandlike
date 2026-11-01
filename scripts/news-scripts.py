@@ -9,7 +9,8 @@ scripts.useandlike.com (see NEWS.md, "Scripts for the presenter").
     {"code": "N1102-01", "day": "2026-11-02", "rank": 1, "slug": "<story slug>", "item": 13433,
      "head": "<the story's headline>", "facts": ["<checked fact>", ...], "sources": [{"name": "...", "url": "https://..."}],
      "versions": [{"label": "A", "text": "..."}, {"label": "B", "text": "..."}, {"label": "C", "text": "..."}],
-     "takes": ["<a one-line reaction she can pick>", ...], "title": "<YouTube title>", "description": "<YouTube description>"}
+     "takes": ["<a one-line reaction she can pick>", ...], "points": ["<3-6 key points, a few words each>", ...],
+     "title": "<YouTube title>", "description": "<YouTube description>"}
 Needs CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID (the Studio's database is Cloudflare D1 "useandlike-studio").
 """
 import json, os, re, sys, time, urllib.error, urllib.request
@@ -74,6 +75,13 @@ def problems(s, slugs):
     for t in s.get("takes") or []:
         if len(str(t)) > 160 or HYPE.search(str(t)):
             out.append("take %r: at most one short line, no hype" % str(t)[:40])
+    # Key points (1 Nov): what the teleprompter shows in "Key points" mode, so she can say it in her own words.
+    pts = s.get("points") or []
+    if not 3 <= len(pts) <= 6:
+        out.append("needs 3-6 key points (a few words each, in speaking order)")
+    for t in pts:
+        if len(str(t)) > 70 or HYPE.search(str(t)) or CTA.search(str(t)):
+            out.append("point %r: at most 70 characters, no hype, no call to action" % str(t)[:40])
     if len(str(s.get("title", ""))) > 100 or not str(s.get("title", "")).strip():
         out.append("title is missing or longer than 100 characters (aim for 60)")
     if not str(s.get("description", "")).strip():
@@ -102,14 +110,15 @@ def save(path):
                 json.dumps([{"label": str(x.get("label") or chr(65 + i))[:20], "text": str(x["text"]).strip()[:6000]}
                             for i, x in enumerate(s["versions"])], ensure_ascii=False),
                 s["title"][:200], s["description"][:3000],
-                json.dumps([str(t).strip()[:160] for t in s.get("takes") or []][:4], ensure_ascii=False)]
+                json.dumps([str(t).strip()[:160] for t in s.get("takes") or []][:4], ensure_ascii=False),
+                json.dumps([str(t).strip()[:70] for t in s.get("points") or []][:6], ensure_ascii=False)]
         if not old:
-            query("""INSERT INTO scripts (code, day, rank, slug, item_id, head, facts, sources, versions, title, description, takes, created)
-                     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""", [s["code"]] + vals + [now])
+            query("""INSERT INTO scripts (code, day, rank, slug, item_id, head, facts, sources, versions, title, description, takes, points,
+                     created) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""", [s["code"]] + vals + [now])
             added += 1
         elif old[0]["status"] == "draft" and not old[0]["edited"]:
             query("""UPDATE scripts SET day = ?, rank = ?, slug = ?, item_id = ?, head = ?, facts = ?, sources = ?, versions = ?,
-                     title = ?, description = ?, takes = ?, chosen = 0, updated = ?, updated_by = 'news run' WHERE code = ?""",
+                     title = ?, description = ?, takes = ?, points = ?, chosen = 0, updated = ?, updated_by = 'news run' WHERE code = ?""",
                   vals + [now, s["code"]])
             updated += 1
         else:
