@@ -75,5 +75,42 @@ anything older than about 3 days (unless a date in it is still ahead, like a cha
    category and tool pages): `git commit -m "News: <n> stories (<date>)"`, then `git push origin main` (main only:
    Cloudflare deploys it in about a minute). Never change `_redirects`, the tools or anything else in this run.
 6. Check one new page on useandlike.com after a minute or two (curl it for its headline).
-7. End with one line: how many stories went up (headlines of the top 3), how many were already covered or skipped.
-   A day without new stories is fine: say so and push nothing.
+7. Scripts: write one for every new full story of today (see "Scripts for the presenter" below) into
+   `/tmp/scripts.json`, then `python3 scripts/news-scripts.py save /tmp/scripts.json` (fix what it reports).
+8. End with one line: how many stories went up (headlines of the top 3), how many scripts, how many candidates were
+   already covered or skipped. A day without new stories is fine: say so and push nothing.
+
+## Scripts for the presenter
+
+Kevin, 1 Nov 2026: a presenter reads 1-3 minute news videos from a teleprompter, and proofreads each script first with
+an "alternative script on click". Every full story of the day (not the one-liners) gets a script; she reads them on
+scripts.useandlike.com (Studio page, `useandlike-ops/studio/public/scripts/`): picks a version, may edit it,
+approves, records. Kevin strikes the ones he doesn't want. A script she already worked on is never overwritten.
+
+- **Three versions**, all from the story's checked facts only (nothing that isn't in the story file):
+  - `A`, the news straight: 120-200 words (about 50-80 seconds).
+  - `B`, the explainer: what happened, why it matters, what to do: 160-280 words (about 65-110 seconds).
+  - `C`, short: 55-110 words (25-45 seconds; also fits a Short).
+- **Spoken English:** short sentences (most under 15 words), contractions (it's, you'll), no brackets, no
+  abbreviations ("for example", not "e.g."), numbers the way people say them ("13 dollars a month", "two terabytes",
+  "November 13th"), no web addresses except "useandlike dot com".
+- **Start with the news itself** in one plain sentence. No "Hey guys", no "In today's video", no hype, no question
+  you don't answer.
+- **Vary the endings:** the three versions of a script end differently, and a day's scripts don't use the same closing
+  sentence in the same version, so the videos don't sound like a template (YouTube doesn't pay for "repetitive or template-based" videos). For example: "The details are on
+  useandlike dot com." / "We put the steps on useandlike dot com." / "That's the short version; the full story is on
+  useandlike dot com." / "If you want news like this every morning, our free newsletter is on useandlike dot com."
+  The newsletter in at most one version per script.
+- **`facts`**: 3-6 short lines she can check against the script: the numbers, dates, places and plans it says.
+- **For the uploader:** `title` (about 60 characters at most, app name first, plain words, no clickbait or capitals)
+  and `description`:
+
+  ```
+  <one sentence: what happened>
+  Full story: https://useandlike.com/news/<slug>/
+  📩 Free 30-second app newsletter: https://useandlike.com/join
+  Source: <the outlets>
+  ```
+- Examples: the six scripts of 1 Nov 2026 (`python3 scripts/news-scripts.py list --day 2026-11-01`).
+- **`code`** = "N" + month and day of today + "-" + `rank` in two digits (`N1102-01`); `day` = today; `rank` = the
+  order she should record them in (the lead story first). Also `slug`, `item`, `head` and `sources` from the story.
