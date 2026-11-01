@@ -9,7 +9,7 @@ scripts.useandlike.com (see NEWS.md, "Scripts for the presenter").
     {"code": "N1102-01", "day": "2026-11-02", "rank": 1, "slug": "<story slug>", "item": 13433,
      "head": "<the story's headline>", "facts": ["<checked fact>", ...], "sources": [{"name": "...", "url": "https://..."}],
      "versions": [{"label": "A", "text": "..."}, {"label": "B", "text": "..."}, {"label": "C", "text": "..."}],
-     "title": "<YouTube title>", "description": "<YouTube description>"}
+     "takes": ["<a one-line reaction she can pick>", ...], "title": "<YouTube title>", "description": "<YouTube description>"}
 Needs CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID (the Studio's database is Cloudflare D1 "useandlike-studio").
 """
 import json, os, re, sys, time, urllib.error, urllib.request
@@ -19,6 +19,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DB_ID = "8209584b-6109-45f6-9367-5befe0f080a5"   # D1 "useandlike-studio" (useandlike-ops/studio/wrangler.toml)
 HYPE = re.compile(r"\b(best|cheapest|fastest|greatest|ultimate|unbeatable|game[- ]changer|must[- ]have|insane|crazy|"
                   r"mind[- ]blowing|shocking|you won't believe|number one|#1)\b", re.I)
+# Kevin, 1 Nov: no spoken subscribe or newsletter reminder in these short videos; the end card shows them.
+CTA = re.compile(r"\b(subscribe|newsletter|useandlike|dot com|link in the description|like and)\b", re.I)
 
 
 def query(sql, params=None):
@@ -60,12 +62,18 @@ def problems(s, slugs):
     for x in v:
         t = str(x.get("text", ""))
         n = words(t)
-        if n < 50 or n > 360:
-            out.append("version %s has %d words (50-360)" % (x.get("label", "?"), n))
+        if n < 40 or n > 300:
+            out.append("version %s has %d words (40-300)" % (x.get("label", "?"), n))
+        if CTA.search(t):
+            out.append('version %s says "%s": no spoken call to action or web address (the end card shows them)'
+                       % (x.get("label", "?"), CTA.search(t).group(0)))
         if HYPE.search(t):
             out.append('version %s uses "%s" (no hype)' % (x.get("label", "?"), HYPE.search(t).group(0)))
         if re.search(r"https?://|www\.", t):
             out.append("version %s has a web address: say \"useandlike dot com\" instead" % x.get("label", "?"))
+    for t in s.get("takes") or []:
+        if len(str(t)) > 160 or HYPE.search(str(t)):
+            out.append("take %r: at most one short line, no hype" % str(t)[:40])
     if len(str(s.get("title", ""))) > 100 or not str(s.get("title", "")).strip():
         out.append("title is missing or longer than 100 characters (aim for 60)")
     if not str(s.get("description", "")).strip():
@@ -93,14 +101,15 @@ def save(path):
                 json.dumps(s.get("sources") or [], ensure_ascii=False),
                 json.dumps([{"label": str(x.get("label") or chr(65 + i))[:20], "text": str(x["text"]).strip()[:6000]}
                             for i, x in enumerate(s["versions"])], ensure_ascii=False),
-                s["title"][:200], s["description"][:3000]]
+                s["title"][:200], s["description"][:3000],
+                json.dumps([str(t).strip()[:160] for t in s.get("takes") or []][:4], ensure_ascii=False)]
         if not old:
-            query("""INSERT INTO scripts (code, day, rank, slug, item_id, head, facts, sources, versions, title, description, created)
-                     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""", [s["code"]] + vals + [now])
+            query("""INSERT INTO scripts (code, day, rank, slug, item_id, head, facts, sources, versions, title, description, takes, created)
+                     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""", [s["code"]] + vals + [now])
             added += 1
         elif old[0]["status"] == "draft" and not old[0]["edited"]:
             query("""UPDATE scripts SET day = ?, rank = ?, slug = ?, item_id = ?, head = ?, facts = ?, sources = ?, versions = ?,
-                     title = ?, description = ?, chosen = 0, updated = ?, updated_by = 'news run' WHERE code = ?""",
+                     title = ?, description = ?, takes = ?, chosen = 0, updated = ?, updated_by = 'news run' WHERE code = ?""",
                   vals + [now, s["code"]])
             updated += 1
         else:
