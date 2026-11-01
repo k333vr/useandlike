@@ -298,6 +298,8 @@ def read_links(tools):
         if (urllib.parse.urlparse(target).hostname or "").endswith(OWN_HOSTS) or NEWSLETTER_LINK.match(slug):
             continue
         t, x = by_slug.get(slug), extra.get(slug, {})
+        if x.get("paused") and not t:   # a brand that left its network (1 Nov: 11 Yazing brands): not offered to the team
+            continue
         if not t and not x:
             print("WARN: /%s is a short link without a tool or a name: add it to data/short-links.json" % slug)
         name = t["name"] if t else x.get("name", slug)

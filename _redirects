@@ -193,7 +193,6 @@
 # Food & Drink
 /eatthismuch         https://yazing.com/deals/eatthismuch/Guideg  302
 /jow                 https://yazing.com/deals/jow/Guideg  302
-/restaurantcom       https://yazing.com/deals/restaurant/Guideg  302
 # Freelancers
 /99designs           https://yazing.com/deals/99designs/Guideg  302
 /designcrowd         https://yazing.com/deals/designcrowd/Guideg  302
@@ -213,10 +212,8 @@
 /bodi                https://yazing.com/deals/bodi/Guideg  302
 /brightside          https://yazing.com/deals/brightside/Guideg  302
 /calmerry            https://yazing.com/deals/calmerry/Guideg  302
-/classpass           https://yazing.com/deals/classpass/Guideg  302
 /justfit             https://yazing.com/deals/justfitpro/Guideg  302
 /naturalcycles       https://yazing.com/deals/naturalcycles/Guideg  302
-/pvolve              https://yazing.com/deals/pvolve/Guideg  302
 /sesamecare          https://yazing.com/deals/sesamecare/Guideg  302
 /talkspace           https://yazing.com/deals/talkspace/Guideg  302
 /weightwatchers      https://yazing.com/deals/weightwatchers/Guideg  302
@@ -239,7 +236,6 @@
 /italki              https://yazing.com/deals/italki/Guideg  302
 /ixl                 https://yazing.com/deals/ixl/Guideg  302
 /jobtestprep         https://yazing.com/deals/jobtestprep/Guideg  302
-/magoosh             https://yazing.com/deals/magoosh/Guideg  302
 /mindvalley          https://yazing.com/deals/mindvalley/Guideg  302
 /mrswordsmith        https://yazing.com/deals/mrswordsmith/Guideg  302
 /oreilly             https://yazing.com/deals/oreilly/Guideg  302
@@ -257,7 +253,6 @@
 /yogadownload        https://yazing.com/deals/yogadownload/Guideg  302
 # Money & Trading
 /acorns              https://yazing.com/deals/acorns/Guideg  302
-/changedapp          https://yazing.com/deals/gochanged/Guideg  302
 /danelfin            https://yazing.com/deals/danelfin/Guideg  302
 /empower             https://yazing.com/deals/personalcapital/Guideg  302
 /firstcard           https://yazing.com/deals/firstcard/Guideg  302
@@ -328,7 +323,6 @@
 /xfinity             https://yazing.com/deals/xfinity-mobile/Guideg  302
 # Photo Books & Prints
 /canvaschamp         https://yazing.com/deals/canvaschamp/Guideg  302
-/mixbook             https://yazing.com/deals/mixbook/Guideg  302
 /mpix                https://yazing.com/deals/mpix/Guideg  302
 /printerpix          https://yazing.com/deals/printerpix/Guideg  302
 /printique           https://yazing.com/deals/printique/Guideg  302
@@ -361,13 +355,11 @@
 /parallels           https://yazing.com/deals/parallels/Guideg  302
 /passfab             https://yazing.com/deals/passfab/Guideg  302
 /pdffiller           https://yazing.com/deals/pdffiller/Guideg  302
-/pigment             https://yazing.com/deals/pigment/Guideg  302
 /piktochart          https://yazing.com/deals/piktochart/Guideg  302
 /presentationintelligence https://yazing.com/deals/pi/Guideg  302
 /setapp              https://yazing.com/deals/setapp/Guideg  302
 /srfax               https://yazing.com/deals/srfax/Guideg  302
 /tenorshare          https://yazing.com/deals/tenorshare/Guideg  302
-/winzip              https://yazing.com/deals/winzip/Guideg  302
 /xmind               https://yazing.com/deals/xmind/Guideg  302
 # Shopping & Mobile
 /cardcash            https://yazing.com/deals/cardcash/Guideg  302
@@ -406,7 +398,6 @@
 /cruisescom          https://yazing.com/deals/cruises/Guideg  302
 /directferries       https://yazing.com/deals/directferries/Guideg  302
 /discovercars        https://yazing.com/deals/discovercars/Guideg  302
-/edreams             https://yazing.com/deals/edreams/Guideg  302
 /efultimatebreak     https://yazing.com/deals/efultimatebreak/Guideg  302
 /esky                https://yazing.com/deals/esky/Guideg  302
 /europcar            https://yazing.com/deals/europcar/Guideg  302
@@ -416,7 +407,6 @@
 /funjet              https://yazing.com/deals/funjet/Guideg  302
 /gadventures         https://yazing.com/deals/gadventures/Guideg  302
 /getyourguide        https://yazing.com/deals/getyourguide/Guideg  302
-/globaltravel        https://yazing.com/deals/globaltravel/Guideg  302
 /gotogate            https://yazing.com/deals/gotogate/Guideg  302
 /greatvaluevacations https://yazing.com/deals/greatvaluevacations/Guideg  302
 /greenmotion         https://yazing.com/deals/greenmotion/Guideg  302
@@ -467,7 +457,6 @@
 /mysterium           https://yazing.com/deals/mysteriumvpn/Guideg  302
 /nymvpn              https://yazing.com/deals/nym/Guideg  302
 /pcmatic             https://yazing.com/deals/pcmatic/Guideg  302
-/privacyhawk         https://yazing.com/deals/privacyhawk/Guideg  302
 /proxycheap          https://yazing.com/deals/proxy-cheap/Guideg  302
 /purevpn             https://yazing.com/deals/purevpn/Guideg  302
 /qustodio            https://yazing.com/deals/qustodio/Guideg  302
@@ -516,6 +505,21 @@
 /wegic               https://yazing.com/deals/wegic/Guideg  302
 /zenfolio            https://yazing.com/deals/zenfolio/Guideg  302
 # <<< yazing-add
+
+# Left Yazing (found 1 Nov 2026): Yazing dropped these brands, and their Yazing links opened Yazing's "Top Coupons"
+# page. No video of ours carried them. The slugs stay (YouTube descriptions may use a slug) and open the brand's own
+# site, which earns nothing; "paused" in data/short-links.json keeps them off the team page until there's a new program.
+/restaurantcom       https://www.restaurant.com/  302
+/classpass           https://classpass.com/  302
+/pvolve              https://www.pvolve.com/  302
+/magoosh             https://www.magoosh.com/  302
+/changedapp          https://www.gochanged.com/  302
+/mixbook             https://www.mixbook.com/  302
+/pigment             https://pigment.is/  302
+/winzip              https://www.winzip.com/  302
+/edreams             https://www.edreams.net/  302
+/globaltravel        https://globaltravel.com/  302
+/privacyhawk         https://privacyhawk.com/  302
 
 # FlexOffers (How To Rocket only: the approved traffic source; never on Guide Glimpse, Logic Protocol or the site)
 /deel               https://deel.fxo.co/g/1579752/228251/1038938300/DxCPTgc  302

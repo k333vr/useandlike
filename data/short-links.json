@@ -439,12 +439,13 @@
  "changedapp": {
   "name": "Changed",
   "group": "Money & Trading",
-  "source": "Yazing",
+  "source": "Left Yazing",
   "yazing": "gochanged",
   "pays": "up to $10 per Sale",
   "countries": "US only",
   "worth": 0.04,
-  "added": "2026-10-13"
+  "added": "2026-10-13",
+  "paused": "2026-11-01: Yazing dropped the brand (its Yazing page opens Yazing's Top Coupons), so the short link opens the brand's own site and earns nothing; off the team page until there is a new program"
  },
  "cheapcaribbean": {
   "name": "CheapCaribbean.com",
@@ -491,12 +492,13 @@
  "classpass": {
   "name": "ClassPass",
   "group": "Health & Fitness",
-  "source": "Yazing",
+  "source": "Left Yazing",
   "yazing": "classpass",
   "pays": "$6 per Sale",
   "countries": "US only",
   "worth": 0.23,
-  "added": "2026-10-13"
+  "added": "2026-10-13",
+  "paused": "2026-11-01: Yazing dropped the brand (its Yazing page opens Yazing's Top Coupons), so the short link opens the brand's own site and earns nothing; off the team page until there is a new program"
  },
  "cloaked": {
   "name": "Cloaked",
@@ -934,12 +936,13 @@
  "edreams": {
   "name": "eDreams",
   "group": "Travel",
-  "source": "Yazing",
+  "source": "Left Yazing",
   "yazing": "edreams",
   "pays": "Up to 6% of Completed Travel Sale",
   "countries": "worldwide",
   "worth": 0.19,
-  "added": "2026-10-13"
+  "added": "2026-10-13",
+  "paused": "2026-11-01: Yazing dropped the brand (its Yazing page opens Yazing's Top Coupons), so the short link opens the brand's own site and earns nothing; off the team page until there is a new program"
  },
  "educationcom": {
   "name": "Education.com",
@@ -1439,12 +1442,13 @@
  "globaltravel": {
   "name": "GlobalTravel",
   "group": "Travel",
-  "source": "Yazing",
+  "source": "Left Yazing",
   "yazing": "globaltravel",
   "pays": "Up to $100 per Sale",
   "countries": "worldwide",
   "worth": 9.0,
-  "added": "2026-10-13"
+  "added": "2026-10-13",
+  "paused": "2026-11-01: Yazing dropped the brand (its Yazing page opens Yazing's Top Coupons), so the short link opens the brand's own site and earns nothing; off the team page until there is a new program"
  },
  "gocity": {
   "name": "Go City",
@@ -2002,12 +2006,13 @@
  "magoosh": {
   "name": "Magoosh",
   "group": "Learning",
-  "source": "Yazing",
+  "source": "Left Yazing",
   "yazing": "magoosh",
   "pays": "10% per paid subscription",
   "countries": "worldwide",
   "worth": 0.47,
-  "added": "2026-10-13"
+  "added": "2026-10-13",
+  "paused": "2026-11-01: Yazing dropped the brand (its Yazing page opens Yazing's Top Coupons), so the short link opens the brand's own site and earns nothing; off the team page until there is a new program"
  },
  "magzter": {
   "name": "Magzter",
@@ -2102,12 +2107,13 @@
  "mixbook": {
   "name": "Mixbook",
   "group": "Photo Books & Prints",
-  "source": "Yazing",
+  "source": "Left Yazing",
   "yazing": "mixbook",
   "pays": "Up to 2% of Sales",
   "countries": "US only",
   "worth": 0.03,
-  "added": "2026-10-13"
+  "added": "2026-10-13",
+  "paused": "2026-11-01: Yazing dropped the brand (its Yazing page opens Yazing's Top Coupons), so the short link opens the brand's own site and earns nothing; off the team page until there is a new program"
  },
  "monarch": {
   "name": "Monarch Money",
@@ -2532,12 +2538,13 @@
  "pigment": {
   "name": "Pigment",
   "group": "Productivity & Design",
-  "source": "Yazing",
+  "source": "Left Yazing",
   "yazing": "pigment",
   "pays": "30% of Sales",
   "countries": "worldwide",
   "worth": 2.03,
-  "added": "2026-10-13"
+  "added": "2026-10-13",
+  "paused": "2026-11-01: Yazing dropped the brand (its Yazing page opens Yazing's Top Coupons), so the short link opens the brand's own site and earns nothing; off the team page until there is a new program"
  },
  "piktochart": {
   "name": "Piktochart",
@@ -2613,12 +2620,13 @@
  "privacyhawk": {
   "name": "PrivacyHawk",
   "group": "VPN & Privacy",
-  "source": "Yazing",
+  "source": "Left Yazing",
   "yazing": "privacyhawk",
   "pays": "$30 per Sale",
   "countries": "worldwide",
   "worth": 3.38,
-  "added": "2026-10-13"
+  "added": "2026-10-13",
+  "paused": "2026-11-01: Yazing dropped the brand (its Yazing page opens Yazing's Top Coupons), so the short link opens the brand's own site and earns nothing; off the team page until there is a new program"
  },
  "proxycheap": {
   "name": "Proxy-cheap",
@@ -2643,12 +2651,13 @@
  "pvolve": {
   "name": "Pvolve",
   "group": "Health & Fitness",
-  "source": "Yazing",
+  "source": "Left Yazing",
   "yazing": "pvolve",
   "pays": "12% of Sales",
   "countries": "US only",
   "worth": 0.02,
-  "added": "2026-10-13"
+  "added": "2026-10-13",
+  "paused": "2026-11-01: Yazing dropped the brand (its Yazing page opens Yazing's Top Coupons), so the short link opens the brand's own site and earns nothing; off the team page until there is a new program"
  },
  "qeeq": {
   "name": "QEEQ",
@@ -2766,13 +2775,14 @@
  "restaurantcom": {
   "name": "Restaurant.com",
   "group": "Food & Drink",
-  "source": "Yazing",
+  "source": "Left Yazing",
   "yazing": "restaurant",
   "pays": "20% of Sales",
   "countries": "US only",
   "worth": 0.03,
   "added": "2026-10-13",
-  "line_name": "Restaurant com"
+  "line_name": "Restaurant com",
+  "paused": "2026-11-01: Yazing dropped the brand (its Yazing page opens Yazing's Top Coupons), so the short link opens the brand's own site and earns nothing; off the team page until there is a new program"
  },
  "retouch4me": {
   "name": "Retouch4me",
@@ -3606,12 +3616,13 @@
  "winzip": {
   "name": "WinZip",
   "group": "Productivity & Design",
-  "source": "Yazing",
+  "source": "Left Yazing",
   "yazing": "winzip",
   "pays": "10% of Sales",
   "countries": "worldwide",
   "worth": 0.3,
-  "added": "2026-10-13"
+  "added": "2026-10-13",
+  "paused": "2026-11-01: Yazing dropped the brand (its Yazing page opens Yazing's Top Coupons), so the short link opens the brand's own site and earns nothing; off the team page until there is a new program"
  },
  "wondershare": {
   "name": "Wondershare",
