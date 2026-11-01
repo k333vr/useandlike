@@ -530,6 +530,8 @@
 /c-money           https://useandlike.com/how-we-make-money/  302
 /c-work            https://useandlike.com/work-with-us/  302
 /c-work-strip      https://useandlike.com/work-with-us/  302
+# /c-work-b: the footer's Work with us link on page views that show the strip (A = /c-work, B = /c-work-b + /c-work-strip)
+/c-work-b          https://useandlike.com/work-with-us/  302
 
 # FlexOffers (How To Rocket only: the approved traffic source; never on Guide Glimpse, Logic Protocol or the site)
 /deel               https://deel.fxo.co/g/1579752/228251/1038938300/DxCPTgc  302

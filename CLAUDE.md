@@ -58,7 +58,9 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   we choose / How we make money / Work with us go through `/c-about`, `/c-choose`, `/c-money`, `/c-work` (block
   "# Counted site links" in _redirects), so Cloudflare counts clicks as totals. A/B test: the "Run an app or a brand?"
   strip (`#wwu`, link `/c-work-strip`) shows on about half of all page views, picked fresh each time (Math.random, nothing
-  stored; the privacy page says so). Compare /c-work-strip + /c-work clicks against page views.
+  stored; the privacy page says so); on those page views the footer's Work with us link becomes `/c-work-b`. Version A
+  = /c-work clicks, version B = /c-work-b + /c-work-strip, each per half of the page views:
+  `python3 ../useandlike-ops/analysis/site-links.py 14` (also in the Monday report).
 - Channel videos: `videos.js` (generated, ~2,250 videos about our tools) is loaded only when the Videos tab opens;
   the category and tool pages list the same videos as plain HTML.
   Refresh: `scripts/fetch-videos.sh` (yt-dlp, all videos of the 3 channels -> `data/channel-videos.tsv`), then

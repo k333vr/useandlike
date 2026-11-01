@@ -1271,7 +1271,13 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
   }
   route();
   var wwu = document.getElementById("wwu");
-  if (wwu && Math.random() < 0.5) wwu.hidden = false;   // A/B test of the "Work with us" strip (version B), nothing stored
+  // A/B test of the "Work with us" strip (version B), nothing stored; with the strip, the footer's Work with us link is
+  // counted as /c-work-b, so both versions' clicks per page view can be compared.
+  if (wwu && Math.random() < 0.5) {
+    wwu.hidden = false;
+    var fw = document.querySelector('footer a[href="/c-work"]');
+    if (fw) fw.setAttribute("href", "/c-work-b");
+  }
 
   var footChannels = document.getElementById("foot-channels");
   footChannels.appendChild(document.createTextNode("Our YouTube channels: "));

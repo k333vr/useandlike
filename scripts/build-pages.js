@@ -225,9 +225,14 @@ const SCRIPT = `(function () {
   });
   var y = document.getElementById("year");
   if (y) y.textContent = new Date().getFullYear();
-  // A/B test of the "Work with us" strip (version B) on about half of all page views; nothing is stored.
+  // A/B test of the "Work with us" strip (version B) on about half of all page views; nothing is stored. With the strip,
+  // the footer's Work with us link is counted as /c-work-b, so both versions' clicks per page view can be compared.
   var w = document.getElementById("wwu");
-  if (w && Math.random() < 0.5) w.hidden = false;
+  if (w && Math.random() < 0.5) {
+    w.hidden = false;
+    var fw = document.querySelector('footer a[href="/c-work"]');
+    if (fw) fw.setAttribute("href", "/c-work-b");
+  }
 })();`;
 
 const beehiivHead = !(NEWSLETTER.ready && NEWSLETTER.beehiivForm) ? "" :
