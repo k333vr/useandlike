@@ -469,8 +469,10 @@ function storyThumb(s, w) {
   return s.thumb ? `<img src="${esc(s.thumb)}" alt="" width="${w}" height="${w / 2}" loading="lazy">`
     : `<span class="ph" aria-hidden="true">${esc((s.apps && s.apps[0] || s.head)[0])}</span>`;
 }
+// Rumors, leaks and features in testing (Kevin, 1 Nov: "speculative ... we can frame them exactly like that"): amber tag.
+const tagHtml = s => (s.tag || s.rumor) ? `<span class="tag${s.rumor ? " rumor" : ""}">${esc(s.tag || "Rumor")}</span>` : "";
 const storyRow = s => `<li><a href="/${newsPath(s)}" tabindex="-1" aria-hidden="true">${storyThumb(s, 128)}</a><div>` +
-  (s.tag ? `<span class="tag">${esc(s.tag)}</span>` : "") + `<h3><a href="/${newsPath(s)}">${esc(s.head)}</a></h3>` +
+  tagHtml(s) + `<h3><a href="/${newsPath(s)}">${esc(s.head)}</a></h3>` +
   `<p class="one">${esc(s.means || s.dek)}</p><p class="meta">${esc(shortDay(s.date))} · ${esc(s.sources.map(x => x.name).join(", "))}</p></div></li>`;
 const storyRows = list => `<ul class="plain srows">\n${list.map(storyRow).join("\n")}\n</ul>`;
 const oneLine = list => `<ul class="plain one-line">\n${list.map(s => `<li><b><a href="/${newsPath(s)}">${esc(s.head)}</a></b>` +
@@ -489,8 +491,9 @@ for (const s of NEWS) {
   const main = [
     crumbsHtml(trail),
     '<article class="story" aria-labelledby="story-h">',
-    (s.tag ? `<span class="tag">${esc(s.tag)}</span>` : "") + `<h1 id="story-h">${esc(s.head)}</h1>`,
+    tagHtml(s) + `<h1 id="story-h">${esc(s.head)}</h1>`,
     `<p class="dek">${esc(s.dek)}</p>`,
+    s.rumor ? '<p class="unconfirmed"><strong>Not confirmed.</strong> This comes from a report, a leak or a test version, not from the company itself, so details can still change.</p>' : "",
     `<p class="meta">Use &amp; Like · ${esc(longDay(s.date))} · Source: ${sourcesLine(s)}</p>`,
     s.image ? `<img class="hero" src="${esc(s.image)}" alt="" width="1200" height="600">` : "",
     s.means ? `<div class="callout"><h2>What it means for you</h2><p>${esc(s.means)}</p></div>` : "",
@@ -653,7 +656,7 @@ function frontPage() {
     '<h1 class="sr-only">Use &amp; Like: app news, deals and how-tos</h1>',
     `<section class="lead-story${lead.image ? "" : " noimg"}" aria-labelledby="lead-h">` +
       (lead.image ? `<a href="/${newsPath(lead)}" tabindex="-1" aria-hidden="true"><img src="${esc(lead.image)}" alt="" width="1200" height="600"></a>` : "") +
-      `<div class="txt">${lead.tag ? `<span class="tag">${esc(lead.tag)}</span>` : ""}<h2 id="lead-h"><a href="/${newsPath(lead)}">${esc(lead.head)}</a></h2>` +
+      `<div class="txt">${tagHtml(lead)}<h2 id="lead-h"><a href="/${newsPath(lead)}">${esc(lead.head)}</a></h2>` +
       `<p class="dek">${esc(lead.dek)}${lead.image && lead.details && !lead.details_in_todo ? " " + esc(lead.details) : ""}</p>` +
       `<p class="meta">${esc(shortDay(lead.date))} · Source: ${esc(lead.sources.map(x => x.name).join(", "))}</p></div></section>`,
     '<div class="split">',

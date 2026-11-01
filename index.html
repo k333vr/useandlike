@@ -430,6 +430,7 @@ const VIDEOS = [
   --link: #1f4f8f;
   --soft: #f0ede6;
   --sale: #b8400c;
+  --rumor: #8a5300; --rumor-bg: #fff3dc;
   --serif: Georgia, "Times New Roman", serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
@@ -447,6 +448,7 @@ const VIDEOS = [
     --link: #a6c3f5;
     --soft: #1d2127;
     --sale: #fb9a5c;
+    --rumor: #f0b35a; --rumor-bg: #2e2413;
   }
 }
 * { box-sizing: border-box; }
@@ -643,6 +645,8 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 .sec-head h2 { margin: 0; font: 700 1.35rem/1.2 var(--serif); }
 .sec-head a { font-size: .92rem; font-weight: 600; }
 .tag { display: inline-block; justify-self: start; font: 700 .7rem/1 var(--sans); letter-spacing: .07em; text-transform: uppercase; color: var(--brand); background: var(--soft); padding: 5px 8px; border-radius: 4px; }
+.tag.rumor { color: var(--rumor); background: var(--rumor-bg); }
+.unconfirmed { margin: 0; padding: 10px 14px; border-left: 4px solid var(--rumor); background: var(--rumor-bg); border-radius: 6px; font-size: .95rem; }
 .meta { margin: 0; font-size: .84rem; color: var(--muted); }
 .meta a { color: var(--muted); }
 .lead-story { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 22px; align-items: center; }
@@ -738,7 +742,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 <!-- build-pages:home -->
 <div class="front">
 <h1 class="sr-only">Use &amp; Like: app news, deals and how-tos</h1>
-<section class="lead-story noimg" aria-labelledby="lead-h"><div class="txt"><span class="tag">Heads-up</span><h2 id="lead-h"><a href="/news/reddit-account-for-most-pages/">Reddit will ask for an account to read most pages</a></h2><p class="dek">Reddit plans to make most browsing need a login. The front page, and posts opened from Google or a shared link, should stay open; tests start outside the US in the coming months.</p><p class="meta">29 Oct · Source: 9to5Mac, Android Authority</p></div></section>
+<section class="lead-story noimg" aria-labelledby="lead-h"><div class="txt"><span class="tag rumor">In testing</span><h2 id="lead-h"><a href="/news/whatsapp-settings-redesign-in-testing/">WhatsApp is working on a new settings look for Android</a></h2><p class="dek">WhatsApp is building a new design for its Android settings, with items grouped into rounded sections, according to WABetaInfo, which follows the app's test versions. WhatsApp hasn't announced it.</p><p class="meta">1 Nov · Source: WABetaInfo</p></div></section>
 <div class="split">
 <section aria-labelledby="latest-h"><div class="sec-head"><h2 id="latest-h">Latest app news</h2><a href="/news/">All app news ›</a></div>
 <ul class="plain srows">

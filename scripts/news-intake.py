@@ -7,8 +7,9 @@ days that aren't on the site yet. The daily news run reads them, checks each sou
     python3 scripts/news-intake.py done              # which Studio stories are on the site (item ids from data/news)
 
 A candidate is a story the morning AI marked "News: story" (Kevin, 1 Nov 2026: "basically no limit and also a lot of
-newcomer apps"), or one it marked for the newsletter or scored 60+, unless it wrote "Skip". Each comes with the other
-outlets that reported the same news ("also"), so a fact can be checked in a second source.
+newcomer apps") or "News: rumor" (a rumor, leak or feature in testing: Kevin wants those too, framed as such; "rumor": true),
+or one it marked for the newsletter or scored 60+, unless it wrote "Skip". Each comes with the other outlets that reported
+the same news ("also"), so a fact can be checked in a second source.
 Needs CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID (the Studio's database is Cloudflare D1 "useandlike-studio").
 """
 import glob, json, os, re, sys, time, urllib.error, urllib.request
@@ -59,9 +60,9 @@ def todo(days):
         FROM items i JOIN sources s ON s.id = i.source_id
         WHERE i.cluster_id IS NULL AND i.ai_at IS NOT NULL AND i.status != 'skipped'
           AND i.published >= datetime('now', ?)
-          AND (i.ai_use LIKE '%News: story%' OR i.ai_use LIKE '%Newsletter:%' OR i.ai_score >= 60)
+          AND (i.ai_use LIKE '%News: story%' OR i.ai_use LIKE '%News: rumor%' OR i.ai_use LIKE '%Newsletter:%' OR i.ai_score >= 60)
           AND COALESCE(i.ai_use, '') NOT LIKE 'Skip%'
-        ORDER BY (i.ai_use LIKE '%News: story%') DESC, i.ai_score DESC, i.sources_count DESC""", ["-%d days" % days])
+        ORDER BY (i.ai_use LIKE '%News: %') DESC, i.ai_score DESC, i.sources_count DESC""", ["-%d days" % days])
     rows = [r for r in rows if r["id"] not in items and norm(r["url"]) not in urls]
     if rows:
         ids = ",".join(str(r["id"]) for r in rows)
@@ -72,9 +73,10 @@ def todo(days):
             also.setdefault(a.pop("c"), []).append(a)
         for r in rows:
             r["also"] = sorted(also.get(r["id"], []), key=lambda a: "news.google.com" in a["url"])[:6]
-            r["marked"] = "News: story" in (r["use"] or "")
+            r["marked"] = "News: story" in (r["use"] or "") or "News: rumor" in (r["use"] or "")
+            r["rumor"] = "News: rumor" in (r["use"] or "")
     print(json.dumps(rows, ensure_ascii=False, indent=1))
-    print("%d candidates (%d marked News: story) from the last %d days." % (len(rows), sum(r["marked"] for r in rows), days),
+    print("%d candidates (%d marked News: story or rumor) from the last %d days." % (len(rows), sum(r["marked"] for r in rows), days),
           file=sys.stderr)
 
 

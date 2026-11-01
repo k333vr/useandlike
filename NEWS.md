@@ -14,11 +14,18 @@ often because they're stuck or want to save money. Not developers, not investors
 Anything that changes how everyday people use an app or what they pay: new features people can use now, redesigns,
 shutdowns, price and plan changes, outages, privacy and safety changes, scams going around, offers with clear terms.
 New apps an everyday person could use now, also small and unknown ones, when it's clear what they do, what they cost
-and where to get them. No daily limit.
+and where to get them. No daily limit. A mix, not only the big outlets: smaller sites and communities (Reddit) count
+when the facts are clear.
 
-Not a story: developer tools, business or enterprise software, crypto and trading, rumors without a named source,
-lawsuits, company finance, sports, celebrities, betas few people can use, a tip or opinion piece with no news in it,
-anything older than about 3 days (unless a date in it is still ahead, like a change that starts next week).
+**Rumors, leaks and features in testing** are stories too (Kevin, 1 Nov: "I do also want speculative not approveable
+stories we can frame them exactly like that ... more uniqueness is good"): an app's next feature spotted in a beta or its
+code, a leaked plan or price, a report that a company is working on something. They get `"rumor": true` and are framed
+as exactly that (see the rules). The morning AI marks them `News: rumor`.
+
+Not a story: developer tools, business or enterprise software, crypto and trading, rumors nobody is named for (not even
+an outlet or a leaker), rumors about a person's private life, health or crimes, lawsuits, company finance, sports,
+celebrities, a tip or opinion piece with no news in it, anything older than about 3 days (unless a date in it is still
+ahead, like a change that starts next week).
 
 ## The rules
 
@@ -32,6 +39,11 @@ anything older than about 3 days (unless a date in it is still ahead, like a cha
 - **Exact about who gets it:** country, platform (Android, iPhone, web, Mac, Windows), plan (free, Plus, Pro),
   date, "rolling out" vs "out now". Most stories are US-only or staged: say so.
 - **Safety stories** say what to do in plain steps from the source; never link to the scam or the malware.
+- **Rumors say they're rumors**, everywhere: the headline ("WhatsApp may let you ...", "Instagram is testing ...",
+  "Leak: ..."), the dek names who says so ("according to a leak shared by ...", "spotted in the app's code by ...") and
+  that the company hasn't confirmed it, and nothing is written as a fact that isn't one. Tag `Rumor`, `Leak` or
+  `In testing`. If a later candidate confirms or denies an earlier rumor, update that story (text, `updated`, the new
+  source) instead of writing a new one, and drop `rumor` once it's official.
 - **Pictures:** none, unless it's one of our own (the newsletter cards in `img/nl/`). Never press photos, screenshots
   or logos from the sources. Without a picture the page shows the app's first letter.
 
@@ -43,7 +55,7 @@ anything older than about 3 days (unless a date in it is still ahead, like a cha
 | `date` | When the news came out (the source's date), `YYYY-MM-DD`. |
 | `added`, `checked` | Today: when we wrote it and checked the facts. |
 | `topic` | One word: AI, Android, Apple, Google, Social, Messaging, Streaming, Music, Money, Shopping, Travel, Email, Security, Privacy, Cloud, Video, Business ... |
-| `tag` | The small label: `New feature`, `New app`, `Update`, `Heads-up`, `Safety`, `Privacy`, `Price change`, `Shutdown`, `Offer`, `Big news`; `Quick` for one-liners. |
+| `tag` | The small label: `New feature`, `New app`, `Update`, `Heads-up`, `Safety`, `Privacy`, `Price change`, `Shutdown`, `Offer`, `Big news`; `Rumor`, `Leak`, `In testing` for rumors; `Quick` for one-liners. |
 | `category` | Optional: one of the site's categories (e.g. `Cloud Storage`, `Travel`), when the story fits one and the topic doesn't say it already. It picks the how-to videos shown under the story. |
 | `head` | The headline, at most about 70 characters, sentence case, says what changed (`Samsung News shuts down on 21 December`). No question headlines, no clickbait. |
 | `dek` | One or two sentences: what happened, for whom, from when. Doesn't repeat the headline's words. |
@@ -53,6 +65,7 @@ anything older than about 3 days (unless a date in it is still ahead, like a cha
 | `todo` | "What to do": concrete steps the source supports, or a safe general step ("update the app"); "Nothing to do yet" is fine. |
 | `rank` | Order within its day (1, 2, 3 ...). Rank 1 only for the day's story that should lead the front page (the newest rank-1 story of the last 3 days leads); at most one rank 1 per day, none on a quiet day. |
 | `quick` | `true` for a one-liner (only `head` and `dek`, plus `apps` and `sources`): small news that needs no page of its own. |
+| `rumor` | `true` for a rumor, leak or feature in testing: the page shows its tag in amber and a "Not confirmed" note. |
 | `apps` | The app names as people write them (`["WhatsApp"]`): they pick our how-to videos about the app. |
 | `item` / `items` | The Studio story id it came from / other Studio ids of the same news (other outlets), so the daily run doesn't write it twice. |
 | `sources` | `[{"name": "9to5Mac", "url": "https://..."}]`: every outlet you took a fact from, the official source first when there is one. |
@@ -82,25 +95,31 @@ anything older than about 3 days (unless a date in it is still ahead, like a cha
 
 ## Scripts for the presenter
 
-Kevin, 1 Nov 2026: a presenter reads 1-3 minute news videos from a teleprompter, and proofreads each script first with
-an "alternative script on click". Every full story of the day (not the one-liners) gets a script; she reads them on
-scripts.useandlike.com (Studio page, `useandlike-ops/studio/public/scripts/`): picks a version, may edit it,
-approves, records. Kevin strikes the ones he doesn't want. A script she already worked on is never overwritten.
+Kevin, 1 Nov 2026: a presenter reads short news videos from a teleprompter, one video per story ("even when its only
+30 seconds"), and proofreads each script first with an "alternative script on click". Every full story of the day (not
+the one-liners) gets a script; she reads them on scripts.useandlike.com (Studio page,
+`useandlike-ops/studio/public/scripts/`): picks a version, may edit it, adds her own take, approves, records (one at a
+time or all in one session). Kevin strikes the ones he doesn't want. A script she already worked on is never overwritten.
 
 - **Three versions**, all from the story's checked facts only (nothing that isn't in the story file):
-  - `A`, the news straight: 120-200 words (about 50-80 seconds).
-  - `B`, the explainer: what happened, why it matters, what to do: 160-280 words (about 65-110 seconds).
-  - `C`, short: 55-110 words (25-45 seconds; also fits a Short).
+  - `A`, the news straight: 90-160 words (about 40-65 seconds).
+  - `B`, the explainer: what happened, why it matters, what to do: 140-230 words (about 60-95 seconds).
+  - `C`, short: 45-90 words (20-40 seconds; also fits a Short).
 - **Spoken English:** short sentences (most under 15 words), contractions (it's, you'll), no brackets, no
   abbreviations ("for example", not "e.g."), numbers the way people say them ("13 dollars a month", "two terabytes",
-  "November 13th"), no web addresses except "useandlike dot com".
+  "November 13th"), no web addresses.
 - **Start with the news itself** in one plain sentence. No "Hey guys", no "In today's video", no hype, no question
   you don't answer.
-- **Vary the endings:** the three versions of a script end differently, and a day's scripts don't use the same closing
-  sentence in the same version, so the videos don't sound like a template (YouTube doesn't pay for "repetitive or template-based" videos). For example: "The details are on
-  useandlike dot com." / "We put the steps on useandlike dot com." / "That's the short version; the full story is on
-  useandlike dot com." / "If you want news like this every morning, our free newsletter is on useandlike dot com."
-  The newsletter in at most one version per script.
+- **No spoken call to action** (Kevin, 1 Nov: "a spoken reminder for subscribe and newsletter would be maybe too much
+  ... only something visible maybe in the outro"): no "subscribe", no newsletter, no website in the text; the video's
+  short end card shows them. End on the last useful sentence (what to do, what's still open), never the same closing
+  sentence twice in a day, so the videos don't sound like a template (YouTube doesn't pay for "generic, repetitive or
+  template-based" videos). Her own take, read after the text, is the most personal part of each video.
+- **`takes`**: 2-3 one-line reactions she can pick from or replace with her own (Kevin: "inserts her newly learned
+  opinions or comments on each topic"): clearly opinion, in first person, at most about 15 words, no new facts, nothing
+  about a person ("I'd switch this off today.", "Honestly, this is the update I wanted.", "Pins that never expire? Finally.").
+- **Rumors** stay rumors when spoken: "reportedly", "according to a leak", "spotted in testing", and say once that it
+  isn't confirmed.
 - **`facts`**: 3-6 short lines she can check against the script: the numbers, dates, places and plans it says.
 - **For the uploader:** `title` (about 60 characters at most, app name first, plain words, no clickbait or capitals)
   and `description`:

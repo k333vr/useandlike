@@ -46,7 +46,9 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   (YYYY-MM-DD), `head`, `dek` (what happened, our words; doesn't repeat the headline), `sources` [{name, url}] (required);
   optional `topic`, `tag`, `means` ("What it means for you"), `todo` ("What to do"), `details`, `where`, `image`/`thumb`
   (2:1, ours only, e.g. the newsletter cards in img/nl/), `apps`, `howtos` (video ids), `category`, `video` (our news
-  video's YouTube id), `rank` (1 = lead on its day), `quick` (one-liner), `item`/`items` (Studio story ids), `checked`.
+  video's YouTube id), `rank` (1 = lead on its day), `quick` (one-liner), `rumor` (rumor, leak or feature in testing:
+  amber tag + "Not confirmed" note; Kevin, 1 Nov: speculative stories welcome when framed as such), `item`/`items`
+  (Studio story ids), `checked`.
   Facts only from the named sources, neutral words, no superlatives (check.js scans the story pages). How to write one
   and the daily run: NEWS.md (`scripts/news-intake.py todo` lists the Studio's candidates not yet on the site; routine
   "Use & Like daily news pages" writes, builds, checks and pushes every morning). build-pages.js makes the story pages

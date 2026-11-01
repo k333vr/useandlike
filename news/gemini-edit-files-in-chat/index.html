@@ -34,6 +34,7 @@
   --link: #1f4f8f;
   --soft: #f0ede6;
   --sale: #b8400c;
+  --rumor: #8a5300; --rumor-bg: #fff3dc;
   --serif: Georgia, "Times New Roman", serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
@@ -51,6 +52,7 @@
     --link: #a6c3f5;
     --soft: #1d2127;
     --sale: #fb9a5c;
+    --rumor: #f0b35a; --rumor-bg: #2e2413;
   }
 }
 * { box-sizing: border-box; }
@@ -247,6 +249,8 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 .sec-head h2 { margin: 0; font: 700 1.35rem/1.2 var(--serif); }
 .sec-head a { font-size: .92rem; font-weight: 600; }
 .tag { display: inline-block; justify-self: start; font: 700 .7rem/1 var(--sans); letter-spacing: .07em; text-transform: uppercase; color: var(--brand); background: var(--soft); padding: 5px 8px; border-radius: 4px; }
+.tag.rumor { color: var(--rumor); background: var(--rumor-bg); }
+.unconfirmed { margin: 0; padding: 10px 14px; border-left: 4px solid var(--rumor); background: var(--rumor-bg); border-radius: 6px; font-size: .95rem; }
 .meta { margin: 0; font-size: .84rem; color: var(--muted); }
 .meta a { color: var(--muted); }
 .lead-story { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 22px; align-items: center; }
@@ -363,9 +367,9 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 </ul></section>
 <section aria-labelledby="mn-h"><div class="sec-head"><h2 id="mn-h">More app news</h2><a href="/news/">All app news ›</a></div>
 <ul class="plain srows">
+<li><a href="/news/whatsapp-settings-redesign-in-testing/" tabindex="-1" aria-hidden="true"><span class="ph" aria-hidden="true">W</span></a><div><span class="tag rumor">In testing</span><h3><a href="/news/whatsapp-settings-redesign-in-testing/">WhatsApp is working on a new settings look for Android</a></h3><p class="one">Nothing changes for now: it's a design WhatsApp is working on for its Android app.</p><p class="meta">1 Nov · WABetaInfo</p></div></li>
 <li><a href="/news/microsoft-365-family-shared-storage/" tabindex="-1" aria-hidden="true"><span class="ph" aria-hidden="true">M</span></a><div><span class="tag">Heads-up</span><h3><a href="/news/microsoft-365-family-shared-storage/">Microsoft 365 Family: 2TB shared instead of 1TB each</a></h3><p class="one">A family that uses more than 2TB together will run out of space after the switch, even though each person had 1TB before.</p><p class="meta">31 Oct · Engadget, Microsoft Support</p></div></li>
 <li><a href="/news/android-sms-bug-drops-calls/" tabindex="-1" aria-hidden="true"><span class="ph" aria-hidden="true">A</span></a><div><span class="tag">Safety</span><h3><a href="/news/android-sms-bug-drops-calls/">A hidden text message can drop calls on Android phones</a></h3><p class="one">Phones without recent security updates could have calls cut off by a message you never see. Phones that no longer get updates may stay exposed.</p><p class="meta">30 Oct · Android Authority</p></div></li>
-<li><a href="/news/chrome-extensions-hijack-searches/" tabindex="-1" aria-hidden="true"><span class="ph" aria-hidden="true">C</span></a><div><span class="tag">Safety</span><h3><a href="/news/chrome-extensions-hijack-searches/">319 Chrome extensions secretly rerouted people's searches</a></h3><p class="one">If your searches suddenly open on an unfamiliar site or a different search engine, an extension may be behind it.</p><p class="meta">30 Oct · How-To Geek</p></div></li>
 </ul></section>
 <p class="src">We write every story in our own words from its source and check the facts before it goes up. Source: <a href="https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/" rel="noopener">Google</a>.</p>
 </article>

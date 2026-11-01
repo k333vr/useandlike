@@ -1,0 +1,26 @@
+{
+ "slug": "whatsapp-settings-redesign-in-testing",
+ "date": "2026-11-01",
+ "added": "2026-11-01",
+ "topic": "Messaging",
+ "tag": "In testing",
+ "rumor": true,
+ "head": "WhatsApp is working on a new settings look for Android",
+ "dek": "WhatsApp is building a new design for its Android settings, with items grouped into rounded sections, according to WABetaInfo, which follows the app's test versions. WhatsApp hasn't announced it.",
+ "details": "The grouped style is meant for every settings page, including Account, Privacy and Notifications, and follows Google's Material Design 3 Expressive look. There's no date: WABetaInfo describes it as still in development for a future update.",
+ "where": "Android, in development; no date yet",
+ "means": "Nothing changes for now: it's a design WhatsApp is working on for its Android app.",
+ "todo": "Nothing to do yet.",
+ "rank": 2,
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 14692,
+ "sources": [
+  {
+   "name": "WABetaInfo",
+   "url": "https://wabetainfo.com/whatsapp-is-working-on-a-refreshed-settings-interface-on-android/"
+  }
+ ],
+ "checked": "2026-11-01"
+}
