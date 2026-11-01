@@ -141,6 +141,35 @@ nav.top a[aria-current="page"] { color: var(--text); text-decoration: underline;
 .deal-checked { margin: 4px 0 0; color: var(--muted); font-size: .82rem; }
 .deal-acts { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-top: auto; padding-top: 10px; }
 .deal-more { font-size: .95rem; }
+/* Partner offers on /deals/ (data/partner-offers.json): filter chips, then one quiet line per offer */
+.po-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 6px; }
+.po-chips button { padding: 8px 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--text); font: 600 .86rem/1 var(--sans); cursor: pointer; }
+.po-chips button.on { background: var(--brand); border-color: var(--brand); color: #fff; }
+.po-group h3 { margin: 22px 0 6px; font: 700 .74rem/1.2 var(--sans); letter-spacing: .09em; text-transform: uppercase; color: var(--brass); }
+.po-list { display: grid; gap: 0; border-top: 1px solid var(--line); }
+.po { border-bottom: 1px solid var(--line); }
+.po a { display: grid; grid-template-columns: minmax(110px, 13em) minmax(0, 1fr) auto; gap: 4px 14px; align-items: baseline; padding: 11px 2px 4px; color: var(--text); text-decoration: none; }
+.po a:hover .po-text { text-decoration: underline; }
+.po b { font-weight: 700; overflow-wrap: anywhere; }
+.po-text { color: var(--text); }
+.po-go { color: var(--brass); font-weight: 700; }
+.po-meta { display: block; padding: 0 2px 10px calc(min(13em, 30%) + 14px); font-size: .82rem; color: var(--muted); }
+.po:not(:has(.po-meta)) a { padding-bottom: 11px; }
+.po-meta code { padding: 1px 6px; border: 1px dashed var(--line); border-radius: 6px; background: var(--soft); color: var(--text); font: 600 .82rem ui-monospace, Menlo, Consolas, monospace; user-select: all; }
+@media (max-width: 560px) {
+  .po-chips { flex-wrap: nowrap; overflow-x: auto; margin-right: -16px; padding-right: 16px; scrollbar-width: none; }
+  .po-chips::-webkit-scrollbar { display: none; }
+  .po-chips button { flex: none; }
+  .po a { grid-template-columns: minmax(0, 1fr) auto; }
+  .po b { grid-column: 1 / -1; }
+  .po-meta { padding-left: 2px; }
+}
+/* How-tos: the categories as one quiet line under the search */
+.cats { margin-top: 34px; }
+.cats h2 { margin: 0 0 10px; font: 700 .74rem/1.2 var(--sans); letter-spacing: .09em; text-transform: uppercase; color: var(--muted); }
+.catline { display: flex; flex-wrap: wrap; gap: 8px; }
+.catline a { display: inline-block; padding: 8px 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--text); font: 600 .86rem/1 var(--sans); text-decoration: none; }
+.catline a:hover { border-color: var(--brass); }
 
 /* Home: Craigslist-style index */
 .index { columns: 3 260px; column-gap: 40px; margin-top: 22px; }
@@ -314,6 +343,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 .qchips { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
 .qchips button, .more-hits button { padding: 9px 13px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--text); font: 600 .88rem/1 var(--sans); cursor: pointer; }
 .results { display: grid; gap: 12px; width: 100%; max-width: 680px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); text-align: left; }
+.results[hidden] { display: none; }
 .results h3 { margin: 0 0 4px; font: 700 .74rem/1.2 var(--sans); letter-spacing: .09em; text-transform: uppercase; color: var(--brass); }
 .results ul { display: grid; gap: 6px; margin: 0; padding: 0; list-style: none; }
 .results li span { font-size: .84rem; color: var(--muted); }
