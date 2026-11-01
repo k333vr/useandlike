@@ -1,0 +1,29 @@
+{
+ "slug": "google-ai-plus-loses-pro-models",
+ "date": "2026-10-30",
+ "added": "2026-11-01",
+ "topic": "AI",
+ "tag": "Heads-up",
+ "head": "Google AI Plus loses Gemini's Pro models on 13 November",
+ "dek": "From 13 November, Google AI Plus subscribers can no longer pick Gemini's Pro models in the Gemini app or in AI Mode in Search. The Flash models stay.",
+ "details": "AI Plus (about $5 a month) keeps its 400GB of storage and Deep Research. Pro models stay in Google AI Pro, which costs about four times as much. Chats you started with a Pro model stay, but continue with another model. Google told subscribers by email.",
+ "where": "Google AI Plus, from 13 November",
+ "means": "If you pay for AI Plus to use Gemini Pro, that stops on 13 November unless you move to the more expensive AI Pro plan.",
+ "todo": "If you mostly use Gemini for everyday questions, Flash may be enough and AI Plus can stay. If you rely on Pro, compare AI Pro's price before 13 November, or cancel AI Plus if it's no longer worth it to you.",
+ "rank": 4,
+ "apps": [
+  "Gemini"
+ ],
+ "item": 14075,
+ "sources": [
+  {
+   "name": "Android Police",
+   "url": "https://www.androidpolice.com/google-is-making-its-cheapest-gemini-plan-harder-to-recommend/"
+  },
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/10/14/gemini-ai-plus-loses-pro-november/"
+  }
+ ],
+ "checked": "2026-11-01"
+}

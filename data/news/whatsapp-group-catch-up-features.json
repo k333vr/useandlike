@@ -1,0 +1,25 @@
+{
+ "slug": "whatsapp-group-catch-up-features",
+ "date": "2026-10-29",
+ "added": "2026-11-01",
+ "topic": "Messaging",
+ "tag": "New feature",
+ "head": "WhatsApp groups get four new catch-up features",
+ "dek": "WhatsApp is rolling out four features for group chats: pins that never expire, sharing recent messages with new members, a status only one group sees, and a filter for mentions and replies.",
+ "details": "Pinned messages used to expire after 24 hours, 7 days or 30 days. To show a new member what they missed, tap their name in the chat. A group status disappears after 24 hours like any other status. The new filter lists unread group chats where someone mentioned you or replied to you, including @everyone mentions from admins.",
+ "where": "Android and iPhone, reaching more accounts over the coming weeks",
+ "means": "In busy groups you can find the messages meant for you faster, and new members don't have to ask what they missed.",
+ "todo": "Update WhatsApp from your app store. If you don't see the features yet, they should reach your account over the coming weeks.",
+ "rank": 3,
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 13456,
+ "sources": [
+  {
+   "name": "WABetaInfo",
+   "url": "https://wabetainfo.com/whatsapp-launches-four-updates-to-help-users-catch-up-in-groups/"
+  }
+ ],
+ "checked": "2026-11-01"
+}

@@ -10,6 +10,7 @@
 <title>Use &amp; Like – App news, deals and how-tos</title>
 <meta name="description" content="What changed in the apps you use, in plain words and with what to do about it, deals we checked on each brand's own site, and how-to videos from our channels.">
 <link rel="canonical" href="https://useandlike.com/">
+<link rel="alternate" type="application/rss+xml" title="Use &amp; Like app news" href="/news/feed.xml">
 <!-- FlexOffers site verification (14 Oct 2026): keep it, or FlexOffers can mark the site as unverified. -->
 <meta name="fo-verify" content="47764391-1e82-496e-8110-217262f5b0d7" />
 <!-- build-pages:ld -->
@@ -652,11 +653,15 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 .lead-story h2 a:hover, .srows h3 a:hover, .one-line b a:hover { text-decoration: underline; }
 .lead-story .dek { margin: 0; color: var(--muted); }
 @media (max-width: 760px) { .lead-story { grid-template-columns: minmax(0, 1fr); } }
+.lead-story.noimg { grid-template-columns: minmax(0, 1fr); padding: clamp(18px, 4vw, 30px); background: var(--soft); border-radius: 12px; border-left: 5px solid var(--brand); }
+.lead-story.noimg h2 { font-size: clamp(1.9rem, 4.6vw, 3rem); max-width: 26ch; }
+.lead-story.noimg .dek { max-width: 62ch; font-size: 1.05rem; }
 .split { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 30px; align-items: start; }
 @media (max-width: 860px) { .split { grid-template-columns: minmax(0, 1fr); } }
 .srows li { display: grid; grid-template-columns: 128px minmax(0, 1fr); gap: 14px; padding: 13px 0; border-bottom: 1px solid var(--line); }
 .srows img, .srows .ph { display: block; width: 128px; height: auto; aspect-ratio: 2 / 1; object-fit: cover; border-radius: 6px; }
 .srows .ph { display: grid; place-items: center; background: var(--soft); color: var(--brand); font: 700 1.3rem var(--serif); }
+.srows li > a { text-decoration: none; }
 .srows h3 { margin: 6px 0 4px; font: 700 1.1rem/1.22 var(--serif); }
 .srows .one { margin: 0 0 4px; font-size: .92rem; color: var(--muted); }
 @media (max-width: 420px) { .srows li { grid-template-columns: 96px minmax(0, 1fr); } .srows img, .srows .ph { width: 96px; } }
@@ -733,15 +738,16 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 <!-- build-pages:home -->
 <div class="front">
 <h1 class="sr-only">Use &amp; Like: app news, deals and how-tos</h1>
-<section class="lead-story" aria-labelledby="lead-h"><a href="/news/macbook-pro-touchscreen/" tabindex="-1" aria-hidden="true"><img src="/img/nl/2/A-1-macbook.jpg" alt="" width="1200" height="600"></a><div class="txt"><span class="tag">Woah</span><h2 id="lead-h"><a href="/news/macbook-pro-touchscreen/">Apple's first touchscreen MacBook is here</a></h2><p class="dek">The new MacBook Pro has a touch display and the iPhone's Dynamic Island: calls, music and AirDrop show at the top of the screen. From $2,899 (14-inch) and $3,399 (16-inch), in stores 6 November.</p><p class="meta">28 Oct · Source: MacRumors</p></div></section>
+<section class="lead-story noimg" aria-labelledby="lead-h"><div class="txt"><span class="tag">Heads-up</span><h2 id="lead-h"><a href="/news/reddit-account-for-most-pages/">Reddit will ask for an account to read most pages</a></h2><p class="dek">Reddit plans to make most browsing need a login. The front page, and posts opened from Google or a shared link, should stay open; tests start outside the US in the coming months.</p><p class="meta">29 Oct · Source: 9to5Mac, Android Authority</p></div></section>
 <div class="split">
 <section aria-labelledby="latest-h"><div class="sec-head"><h2 id="latest-h">Latest app news</h2><a href="/news/">All app news ›</a></div>
 <ul class="plain srows">
-<li><a href="/news/chrome-autofill-from-gmail/" tabindex="-1" aria-hidden="true"><img src="/img/nl/2/D-3-autofill.jpg" alt="" width="128" height="64" loading="lazy"></a><div><span class="tag">New feature</span><h3><a href="/news/chrome-autofill-from-gmail/">Chrome can now fill forms from your Gmail</a></h3><p class="one">Less typing when you look up an order or a flight, but only if you let Chrome's Gemini see your Gmail.</p><p class="meta">28 Oct · Google</p></div></li>
-<li><a href="/news/discord-chats-on-google/" tabindex="-1" aria-hidden="true"><img src="/img/nl/2/D-5-discord.jpg" alt="" width="128" height="64" loading="lazy"></a><div><span class="tag">Privacy</span><h3><a href="/news/discord-chats-on-google/">Your Discord chats could show up on Google</a></h3><p class="one">What you write in a big public server could be read by anyone on Google, even without your name next to it.</p><p class="meta">27 Oct · Engadget</p></div></li>
-<li><a href="/news/chatgpt-icloud-mail-calendar/" tabindex="-1" aria-hidden="true"><img src="/img/nl/2/D-6-icloud.jpg" alt="" width="128" height="64" loading="lazy"></a><div><span class="tag">New feature</span><h3><a href="/news/chatgpt-icloud-mail-calendar/">ChatGPT can now read your iCloud Mail and Calendar</a></h3><p class="one">If your email is on iCloud, ChatGPT can now search your inbox and move meetings for you, once you connect it.</p><p class="meta">27 Oct · 9to5Mac</p></div></li>
-<li><a href="/news/t-mobile-t-mix-streaming/" tabindex="-1" aria-hidden="true"><img src="/img/nl/2/D-2-tmobile.jpg" alt="" width="128" height="64" loading="lazy"></a><div><span class="tag">Big news</span><h3><a href="/news/t-mobile-t-mix-streaming/">Netflix now comes with a T-Mobile plan</a></h3><p class="one">On T-Mobile in the US? A streaming service can now come with your phone plan, so look at the T-Mix plans before you pay for one separately.</p><p class="meta">26 Oct · 9to5Google</p></div></li>
-<li><a href="/news/ios-27-2-four-live-games/" tabindex="-1" aria-hidden="true"><img src="/img/nl/2/D-4-ios.jpg" alt="" width="128" height="64" loading="lazy"></a><div><span class="tag">Update</span><h3><a href="/news/ios-27-2-four-live-games/">iOS 27.2: watch 4 live games at once</a></h3><p class="one">With an Apple TV subscription you can follow up to 4 live games on one iPhone screen.</p><p class="meta">26 Oct · MacRumors</p></div></li>
+<li><a href="/news/microsoft-365-family-shared-storage/" tabindex="-1" aria-hidden="true"><span class="ph" aria-hidden="true">M</span></a><div><span class="tag">Heads-up</span><h3><a href="/news/microsoft-365-family-shared-storage/">Microsoft 365 Family: 2TB shared instead of 1TB each</a></h3><p class="one">A family that uses more than 2TB together will run out of space after the switch, even though each person had 1TB before.</p><p class="meta">31 Oct · Engadget, Microsoft Support</p></div></li>
+<li><a href="/news/android-sms-bug-drops-calls/" tabindex="-1" aria-hidden="true"><span class="ph" aria-hidden="true">A</span></a><div><span class="tag">Safety</span><h3><a href="/news/android-sms-bug-drops-calls/">A hidden text message can drop calls on Android phones</a></h3><p class="one">Phones without recent security updates could have calls cut off by a message you never see. Phones that no longer get updates may stay exposed.</p><p class="meta">30 Oct · Android Authority</p></div></li>
+<li><a href="/news/chrome-extensions-hijack-searches/" tabindex="-1" aria-hidden="true"><span class="ph" aria-hidden="true">C</span></a><div><span class="tag">Safety</span><h3><a href="/news/chrome-extensions-hijack-searches/">319 Chrome extensions secretly rerouted people's searches</a></h3><p class="one">If your searches suddenly open on an unfamiliar site or a different search engine, an extension may be behind it.</p><p class="meta">30 Oct · How-To Geek</p></div></li>
+<li><a href="/news/google-ai-plus-loses-pro-models/" tabindex="-1" aria-hidden="true"><span class="ph" aria-hidden="true">G</span></a><div><span class="tag">Heads-up</span><h3><a href="/news/google-ai-plus-loses-pro-models/">Google AI Plus loses Gemini's Pro models on 13 November</a></h3><p class="one">If you pay for AI Plus to use Gemini Pro, that stops on 13 November unless you move to the more expensive AI Pro plan.</p><p class="meta">30 Oct · Android Police, 9to5Google</p></div></li>
+<li><a href="/news/apple-music-android-redesign/" tabindex="-1" aria-hidden="true"><span class="ph" aria-hidden="true">A</span></a><div><span class="tag">Update</span><h3><a href="/news/apple-music-android-redesign/">Apple Music on Android gets a new look</a></h3><p class="one">If you use Apple Music on Android, some buttons have moved: the Library's editing options are now in its three-dot menu.</p><p class="meta">30 Oct · 9to5Google</p></div></li>
+<li><a href="/news/youtube-tv-premium-offer/" tabindex="-1" aria-hidden="true"><span class="ph" aria-hidden="true">Y</span></a><div><span class="tag">Offer</span><h3><a href="/news/youtube-tv-premium-offer/">YouTube TV members can get 3 months of YouTube Premium free</a></h3><p class="one">If you pay for YouTube TV and never tried Premium, you can watch YouTube without ads for three months.</p><p class="meta">30 Oct · Cord Cutters News</p></div></li>
 </ul></section>
 <section aria-labelledby="rail-h"><div class="sec-head"><h2 id="rail-h">Deals we checked</h2><a href="/deals/">All 7 ›</a></div>
 <ul class="plain dminis">
@@ -756,9 +762,9 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 <div data-join></div>
 <section aria-labelledby="ol-h"><div class="sec-head"><h2 id="ol-h">In one line</h2></div>
 <ul class="plain one-line">
-<li><b><a href="/news/reddit-for-you-feed/">Reddit's new For You feed</a></b><span>Reddit adds a For You feed with picks for you, rolling out worldwide.</span><span class="meta">28 Oct · <a href="https://www.socialmediatoday.com/news/reddit-introduces-for-you-feed/873132/" rel="noopener">Social Media Today</a></span></li>
-<li><b><a href="/news/tiktok-must-eat-restaurant-guide/">TikTok's restaurant guide</a></b><span>TikTok launched Must Eat: restaurant tips from 40 million posts and comments (New York, LA and San Francisco first).</span><span class="meta">28 Oct · <a href="https://techcrunch.com/2026/10/28/tiktok-expands-into-restaurant-guides-with-must-eat-feature/" rel="noopener">TechCrunch</a></span></li>
-<li><b><a href="/news/instagram-long-videos-test/">Instagram tests long videos</a></b><span>Instagram is testing long, horizontal videos called Features, US first.</span><span class="meta">26 Oct · <a href="https://9to5google.com/2026/10/26/instagram-features-long-form-video-test/" rel="noopener">9to5Google</a></span></li>
+<li><b><a href="/news/chatgpt-pro-limits-doubled/">OpenAI doubles ChatGPT Pro limits instead of cutting them</a></b><span>After complaints about a planned cut, OpenAI doubled the usage limits of all ChatGPT Pro tiers and Business Premium, starting 29 October.</span><span class="meta">29 Oct · <a href="https://www.androidauthority.com/openai-doubles-chatgpt-usage-limits-3730213/" rel="noopener">Android Authority</a></span></li>
+<li><b><a href="/news/chatgpt-dots-text-messages/">Text your ChatGPT Dot from your messages app</a></b><span>ChatGPT Pro users in the US can now message their Dot, OpenAI's background assistant, through Google Messages (RCS) or iMessage, as a preview.</span><span class="meta">29 Oct · <a href="https://www.androidauthority.com/chatgpt-dots-on-google-messages-3729446/" rel="noopener">Android Authority</a></span></li>
+<li><b><a href="/news/gemini-4-carbon-security-teams-first/">Google's Gemini 4 Carbon goes to security teams first</a></b><span>Google announced Gemini 4 Carbon, its new top Gemini model; for now only selected cyber-security teams can use it, with no date for everyone else.</span><span class="meta">28 Oct · <a href="https://www.khaleejtimes.com/business/google-launches-gemini-4-carbon-ai-model-with-cybersecurity-focus-2" rel="noopener">Khaleej Times</a></span></li>
 </ul></section>
 <section aria-labelledby="hw-h"><div class="sec-head"><h2 id="hw-h">How-tos people watch</h2><a href="/how-tos/">Search all how-tos ›</a></div>
 <ul class="plain vgrid">

@@ -1,0 +1,31 @@
+{
+ "slug": "microsoft-365-family-shared-storage",
+ "date": "2026-10-31",
+ "added": "2026-11-01",
+ "topic": "Cloud",
+ "tag": "Heads-up",
+ "category": "Cloud Storage",
+ "head": "Microsoft 365 Family: 2TB shared instead of 1TB each",
+ "dek": "Microsoft 365 Family and Premium now come with 2TB of OneDrive storage shared by up to six people, instead of 1TB for each person. The Family plan's price stays $13 a month.",
+ "details": "New and upgraded subscriptions have the shared 2TB since 8 October. Existing plans switch when they renew on or after 2 May 2027; upgrading earlier, for example from Family to Premium, switches right away. Extra storage can be added, up to 10TB in total.",
+ "where": "New plans since 8 October; existing plans at renewal from 2 May 2027",
+ "means": "A family that uses more than 2TB together will run out of space after the switch, even though each person had 1TB before.",
+ "todo": "Check how much OneDrive space your family uses together. Over 2TB? Plan a clean-up or extra storage before your first renewal after 2 May 2027, and keep in mind that upgrading to Premium switches you right away.",
+ "rank": 2,
+ "apps": [
+  "Microsoft 365",
+  "OneDrive"
+ ],
+ "item": 14386,
+ "sources": [
+  {
+   "name": "Engadget",
+   "url": "https://www.engadget.com/2301048/this-microsoft-365-family-plan-cloud-storage-change-may-leave-you-frustrated/"
+  },
+  {
+   "name": "Microsoft Support",
+   "url": "https://support.microsoft.com/onedrive/changes-to-microsoft-365-storage"
+  }
+ ],
+ "checked": "2026-11-01"
+}

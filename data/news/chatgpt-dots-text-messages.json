@@ -1,0 +1,21 @@
+{
+ "slug": "chatgpt-dots-text-messages",
+ "date": "2026-10-29",
+ "added": "2026-11-01",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Text your ChatGPT Dot from your messages app",
+ "dek": "ChatGPT Pro users in the US can now message their Dot, OpenAI's background assistant, through Google Messages (RCS) or iMessage, as a preview.",
+ "quick": true,
+ "apps": [
+  "ChatGPT"
+ ],
+ "item": 13033,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/chatgpt-dots-on-google-messages-3729446/"
+  }
+ ],
+ "checked": "2026-11-01"
+}

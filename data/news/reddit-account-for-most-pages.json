@@ -1,0 +1,29 @@
+{
+ "slug": "reddit-account-for-most-pages",
+ "date": "2026-10-29",
+ "added": "2026-11-01",
+ "topic": "Social",
+ "tag": "Heads-up",
+ "head": "Reddit will ask for an account to read most pages",
+ "dek": "Reddit plans to make most browsing need a login. The front page, and posts opened from Google or a shared link, should stay open; tests start outside the US in the coming months.",
+ "details": "Reddit's CEO Steve Huffman names personalisation, ads and protecting Reddit's data from AI scraping as the reasons. About 59% of Reddit's daily visitors browsed without an account in the last quarter. What logged-out visitors will see isn't decided yet.",
+ "where": "Tests outside the US first, then worldwide; no date yet",
+ "means": "If you read Reddit without an account, for example a subreddit you check now and then, you may soon be asked to log in. Answers you find through Google should still open.",
+ "todo": "Nothing changes yet. If you follow subreddits without an account, think about making a free one; Reddit hasn't said when the tests reach your country.",
+ "rank": 1,
+ "apps": [
+  "Reddit"
+ ],
+ "item": 13433,
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/10/29/reddit-will-soon-require-an-account-for-most-content/"
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/reddit-logged-out-browsing-restrictions-3729803/"
+  }
+ ],
+ "checked": "2026-11-01"
+}

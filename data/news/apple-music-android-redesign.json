@@ -1,0 +1,25 @@
+{
+ "slug": "apple-music-android-redesign",
+ "date": "2026-10-30",
+ "added": "2026-11-01",
+ "topic": "Music",
+ "tag": "Update",
+ "head": "Apple Music on Android gets a new look",
+ "dek": "Apple Music 7.0 for Android brings Apple's Liquid Glass design: a black or white icon, a floating bottom bar and blue instead of red accents.",
+ "details": "Artist pages are redesigned, settings are regrouped, and Edit Pins and Edit Categories moved into the three-dot menu in your Library. The Now Playing screen stays the same. The version number now matches iOS 27.",
+ "where": "Rolling out on the Play Store now",
+ "means": "If you use Apple Music on Android, some buttons have moved: the Library's editing options are now in its three-dot menu.",
+ "todo": "Update Apple Music from the Play Store if it hasn't updated on its own.",
+ "rank": 5,
+ "apps": [
+  "Apple Music"
+ ],
+ "item": 13954,
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/10/30/apple-music-7-0-redesign/"
+  }
+ ],
+ "checked": "2026-11-01"
+}

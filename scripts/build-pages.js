@@ -259,7 +259,7 @@ function layout(p) {
 ${beehiivHead}<title>${esc(p.title)}</title>
 <meta name="description" content="${esc(p.description)}">
 <link rel="canonical" href="${url}">
-${p.noindex ? '<meta name="robots" content="noindex, follow">\n' : ""}<meta property="og:type" content="website">
+${p.nav === "news" ? '<link rel="alternate" type="application/rss+xml" title="Use &amp; Like app news" href="/news/feed.xml">\n' : ""}${p.noindex ? '<meta name="robots" content="noindex, follow">\n' : ""}<meta property="og:type" content="website">
 <meta property="og:site_name" content="Use &amp; Like">
 <meta property="og:title" content="${esc(p.title)}">
 <meta property="og:description" content="${esc(p.description)}">
@@ -525,6 +525,21 @@ if (NEWS.length) {
       newsletterBox()].filter(Boolean).join("\n")
   }));
   sitemap.push(p);
+  // RSS feed (newest 50 stories) for feed readers and news apps.
+  const x = v => String(v).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  out.set("news/feed.xml", `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Use &amp; Like: app news</title>
+<link>${SITE}/news/</link>
+<atom:link href="${SITE}/news/feed.xml" rel="self" type="application/rss+xml"/>
+<description>What changed in the apps you use, in our own words, with what it means for you and what to do about it.</description>
+<language>en</language>
+${NEWS.slice(0, 50).map(s => `<item><title>${x(s.head)}</title><link>${SITE}/${newsPath(s)}</link><guid isPermaLink="true">${SITE}/${newsPath(s)}</guid>` +
+  `<pubDate>${new Date(s.date + "T12:00:00Z").toUTCString()}</pubDate><description>${x(s.dek)}</description></item>`).join("\n")}
+</channel>
+</rss>
+`);
 }
 
 // How-tos: search over all our videos (how-tos/search.json, loaded on the first search), then browse by category.
@@ -622,16 +637,19 @@ if (NEWS.length) {
 // The front page (index.html's "home" block): lead story, latest news beside the deals, the newsletter box (the page's
 // script puts it into [data-join]), one-liners, how-tos people watch.
 function frontPage() {
-  const lead = TOP_NEWS.find(s => s.image) || TOP_NEWS[0];
+  // The lead: the newest story with rank 1 from the last 3 days (the daily run gives rank 1 only to a story worth
+  // leading the front page), else the newest story; with its picture when it has one, else as a text block.
+  const leadFrom = TOP_NEWS.length ? new Date(Date.parse(TOP_NEWS[0].date + "T00:00:00Z") - 2 * 864e5).toISOString().slice(0, 10) : "";
+  const lead = TOP_NEWS.find(s => s.rank === 1 && s.date >= leadFrom) || TOP_NEWS[0];
   if (!lead) return "";
   const latest = TOP_NEWS.filter(s => s !== lead).slice(0, 6);
   return [
     '<div class="front">',
     '<h1 class="sr-only">Use &amp; Like: app news, deals and how-tos</h1>',
-    `<section class="lead-story" aria-labelledby="lead-h">` +
+    `<section class="lead-story${lead.image ? "" : " noimg"}" aria-labelledby="lead-h">` +
       (lead.image ? `<a href="/${newsPath(lead)}" tabindex="-1" aria-hidden="true"><img src="${esc(lead.image)}" alt="" width="1200" height="600"></a>` : "") +
       `<div class="txt">${lead.tag ? `<span class="tag">${esc(lead.tag)}</span>` : ""}<h2 id="lead-h"><a href="/${newsPath(lead)}">${esc(lead.head)}</a></h2>` +
-      `<p class="dek">${esc(lead.dek)}${lead.details && !lead.details_in_todo ? " " + esc(lead.details) : ""}</p>` +
+      `<p class="dek">${esc(lead.dek)}${lead.image && lead.details && !lead.details_in_todo ? " " + esc(lead.details) : ""}</p>` +
       `<p class="meta">${esc(shortDay(lead.date))} · Source: ${esc(lead.sources.map(x => x.name).join(", "))}</p></div></section>`,
     '<div class="split">',
     `<section aria-labelledby="latest-h">${secHead("latest-h", "Latest app news", '<a href="/news/">All app news ›</a>')}\n${storyRows(latest)}</section>`,

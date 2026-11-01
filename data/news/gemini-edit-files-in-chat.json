@@ -1,0 +1,29 @@
+{
+ "slug": "gemini-edit-files-in-chat",
+ "date": "2026-10-29",
+ "added": "2026-11-01",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "Gemini can now write and edit files right in the chat",
+ "dek": "The Gemini app can create, preview and edit Google Docs, Sheets, slides, PDFs and text files inside a chat, with a full-screen editor.",
+ "details": "You can type changes yourself or highlight a part and ask Gemini to rewrite it. PDFs work on the web and on phones, the other file types on the web only. It's open to all users in every language the Gemini app supports.",
+ "where": "Out now; PDFs on the web and on phones, other files on the web",
+ "means": "You can ask Gemini for a letter, a table or slides and finish them in the same window, without copying the text into another app first.",
+ "todo": "Open gemini.google.com, ask for a document or a table, then open it full screen to edit it. For PDFs, the Gemini app on your phone works too.",
+ "rank": 2,
+ "apps": [
+  "Gemini",
+  "Google Docs"
+ ],
+ "item": 13268,
+ "items": [
+  13337
+ ],
+ "sources": [
+  {
+   "name": "Google",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/"
+  }
+ ],
+ "checked": "2026-11-01"
+}

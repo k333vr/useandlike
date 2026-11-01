@@ -1,0 +1,25 @@
+{
+ "slug": "chrome-extensions-hijack-searches",
+ "date": "2026-10-30",
+ "added": "2026-11-01",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "319 Chrome extensions secretly rerouted people's searches",
+ "dek": "Researchers at Socket found 319 Chrome extensions, installed 13.4 million times, that changed the default search engine and sent searches through their own servers.",
+ "details": "The operators earned ad money from the searches and could send them anywhere, including phishing pages. Most of the extensions have been pulled; many were unlisted on the Chrome Web Store and pushed through ads. One named example is Predator Search.",
+ "where": "Chrome on computers",
+ "means": "If your searches suddenly open on an unfamiliar site or a different search engine, an extension may be behind it.",
+ "todo": "In Chrome, open the three-dot menu, then Extensions, then Manage Extensions, and remove anything you don't know or don't use. Don't install extensions from ads or other websites.",
+ "rank": 3,
+ "apps": [
+  "Chrome"
+ ],
+ "item": 13885,
+ "sources": [
+  {
+   "name": "How-To Geek",
+   "url": "https://www.howtogeek.com/hundreds-of-chrome-extensions-were-caught-hijacking-searches-heres-how-to-check-yours/"
+  }
+ ],
+ "checked": "2026-11-01"
+}

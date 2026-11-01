@@ -1,0 +1,28 @@
+{
+ "slug": "chromagraph-camera-app",
+ "date": "2026-10-30",
+ "added": "2026-11-01",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "Rian Johnson's camera app gives iPhone photos a film look",
+ "dek": "Chromagraph Camera, made by director Rian Johnson with cinematographer Steve Yedlin, shoots RAW photos and processes them with the color and grain techniques Yedlin developed for their films.",
+ "details": "The look is applied after you take the photo and can be changed later, because the RAW original stays untouched; photos export as JPEG or HEIC. It costs $12.99 once and needs iOS 17 or later. MacRumors reported it at No. 1 in Photo & Video on the US App Store.",
+ "where": "iPhone, App Store, $12.99",
+ "means": "A one-time-purchase camera app for people who want film-style photos without editing each one by hand.",
+ "todo": "Search for Chromagraph Camera in the App Store, and check that your iPhone runs iOS 17 or later first.",
+ "rank": 7,
+ "apps": [
+  "Chromagraph Camera"
+ ],
+ "item": 13816,
+ "items": [
+  14072
+ ],
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/10/30/rian-johnson-iphone-camera-app/"
+  }
+ ],
+ "checked": "2026-11-01"
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "youtube-tv-premium-offer",
+ "date": "2026-10-30",
+ "added": "2026-11-01",
+ "topic": "Streaming",
+ "tag": "Offer",
+ "head": "YouTube TV members can get 3 months of YouTube Premium free",
+ "dek": "YouTube TV subscribers in the US who have never had YouTube Premium or a Premium trial can get three months of it at no cost, through a code sent by email.",
+ "details": "It's for individual Premium plans, not family or student plans. After three months it renews at $15.99 a month unless you cancel. No end date was given for the offer, so the codes may expire.",
+ "where": "US, YouTube TV subscribers new to Premium",
+ "means": "If you pay for YouTube TV and never tried Premium, you can watch YouTube without ads for three months.",
+ "todo": "Look for the email with your code and redeem it with the same Google account. Set a reminder before the three months end if you don't want to pay $15.99 a month after that.",
+ "rank": 6,
+ "apps": [
+  "YouTube TV",
+  "YouTube Premium"
+ ],
+ "item": 14187,
+ "sources": [
+  {
+   "name": "Cord Cutters News",
+   "url": "https://cordcuttersnews.com/youtube-tv-subscribers-can-get-3-months-of-free-youtube-premium/"
+  }
+ ],
+ "checked": "2026-11-01"
+}

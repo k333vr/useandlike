@@ -46,9 +46,12 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   (YYYY-MM-DD), `head`, `dek` (what happened, our words; doesn't repeat the headline), `sources` [{name, url}] (required);
   optional `topic`, `tag`, `means` ("What it means for you"), `todo` ("What to do"), `details`, `where`, `image`/`thumb`
   (2:1, ours only, e.g. the newsletter cards in img/nl/), `apps`, `howtos` (video ids), `category`, `video` (our news
-  video's YouTube id), `rank` (1 = lead on its day), `quick` (one-liner), `checked`. Facts only from the named sources,
-  neutral words, no superlatives (check.js scans the story pages). build-pages.js makes the story pages (NewsArticle
-  structured data), `/news/` and the front page (lead story, latest news beside the checked deals, newsletter box via
+  video's YouTube id), `rank` (1 = lead on its day), `quick` (one-liner), `item`/`items` (Studio story ids), `checked`.
+  Facts only from the named sources, neutral words, no superlatives (check.js scans the story pages). How to write one
+  and the daily run: NEWS.md (`scripts/news-intake.py todo` lists the Studio's candidates not yet on the site; routine
+  "Use & Like daily news pages" writes, builds, checks and pushes every morning). build-pages.js makes the story pages
+  (NewsArticle structured data), `/news/`, `/news/feed.xml` (RSS) and the front page (lead = the newest rank-1 story of
+  the last 3 days, text-only when it has no picture; latest news beside the checked deals, newsletter box via
   `[data-join]`, one-liners, how-tos). Recommended how-tos everywhere: only videos with a new thumbnail
   (`data/new-thumbs.json`, refreshed by useandlike-ops/analysis/new-thumbs-sync.py) and never cancel/refund/"free" titles.
 - Counted links (1 Nov 2026, Kevin: "maybe we can track those or highlight A b test them"): the footer's About / How

@@ -1,0 +1,21 @@
+{
+ "slug": "chatgpt-pro-limits-doubled",
+ "date": "2026-10-29",
+ "added": "2026-11-01",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "OpenAI doubles ChatGPT Pro limits instead of cutting them",
+ "dek": "After complaints about a planned cut, OpenAI doubled the usage limits of all ChatGPT Pro tiers and Business Premium, starting 29 October.",
+ "quick": true,
+ "apps": [
+  "ChatGPT"
+ ],
+ "item": 13972,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/openai-doubles-chatgpt-usage-limits-3730213/"
+  }
+ ],
+ "checked": "2026-11-01"
+}

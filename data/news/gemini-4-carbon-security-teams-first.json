@@ -1,0 +1,25 @@
+{
+ "slug": "gemini-4-carbon-security-teams-first",
+ "date": "2026-10-28",
+ "added": "2026-11-01",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Google's Gemini 4 Carbon goes to security teams first",
+ "dek": "Google announced Gemini 4 Carbon, its new top Gemini model; for now only selected cyber-security teams can use it, with no date for everyone else.",
+ "quick": true,
+ "apps": [
+  "Gemini"
+ ],
+ "item": 12827,
+ "items": [
+  13534,
+  14606
+ ],
+ "sources": [
+  {
+   "name": "Khaleej Times",
+   "url": "https://www.khaleejtimes.com/business/google-launches-gemini-4-carbon-ai-model-with-cybersecurity-focus-2"
+  }
+ ],
+ "checked": "2026-11-01"
+}

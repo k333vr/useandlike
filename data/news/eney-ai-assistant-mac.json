@@ -1,0 +1,25 @@
+{
+ "slug": "eney-ai-assistant-mac",
+ "date": "2026-10-28",
+ "added": "2026-11-01",
+ "topic": "AI",
+ "tag": "New app",
+ "head": "MacPaw's new Eney assistant asks before it acts on your Mac",
+ "dek": "MacPaw launched Eney, an AI assistant for Mac that suggests next steps, takes meeting notes without a bot joining the call, and works with Mail, Calendar and Reminders. It asks before it sends a message, changes an event or moves a file.",
+ "details": "Press Option-W to translate text, convert prices, turn dates into calendar events or pull text from images. It also connects to Gmail, Google Calendar, Google Drive, Slack and Notion. After a 14-day free trial, plans start at $14.99 a month. It needs a Mac with Apple silicon and macOS 15 or later; an iPhone app is on the App Store.",
+ "where": "Mac (Apple silicon, macOS 15 or later) at eney.ai; iPhone app on the App Store",
+ "means": "An assistant that takes care of small chores on your Mac but waits for your OK before it changes anything.",
+ "todo": "Download it from eney.ai and use the 14-day trial to see whether it saves you time before paying $14.99 a month.",
+ "rank": 6,
+ "apps": [
+  "Eney"
+ ],
+ "item": 12457,
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/10/28/macpaw-launches-eney-ai-assistant-mac/"
+  }
+ ],
+ "checked": "2026-11-01"
+}

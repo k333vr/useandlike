@@ -1,0 +1,25 @@
+{
+ "slug": "android-sms-bug-drops-calls",
+ "date": "2026-10-30",
+ "added": "2026-11-01",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "A hidden text message can drop calls on Android phones",
+ "dek": "A bug in Android lets one specially made text message, which never shows in your inbox, crash the phone's calling service and cut off calls, including emergency calls.",
+ "details": "Security researcher Mark Blaszczyk showed it on Pixel and Samsung Galaxy phones; the code goes back to Android 12 (CVE-2026-58882, rated critical). He says the fix is in October's security updates for Android 14 to 17, and it's expected in Google's November security bulletin.",
+ "where": "Android 12 and later; fixed in the latest security updates",
+ "means": "Phones without recent security updates could have calls cut off by a message you never see. Phones that no longer get updates may stay exposed.",
+ "todo": "Install the latest security update on your phone (in Settings, look for System or Software update), and check again in November.",
+ "rank": 2,
+ "apps": [
+  "Android"
+ ],
+ "item": 13768,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/android-sms-of-death-google-fix-3729929/"
+  }
+ ],
+ "checked": "2026-11-01"
+}

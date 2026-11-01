@@ -1,0 +1,26 @@
+{
+ "slug": "samsung-news-shutting-down",
+ "date": "2026-10-29",
+ "added": "2026-11-01",
+ "topic": "Android",
+ "tag": "Shutdown",
+ "head": "Samsung News shuts down on 21 December",
+ "dek": "Samsung is ending its Samsung News feed on 21 December 2026. Its widget stops updating, and Samsung hasn't named a replacement.",
+ "details": "Samsung announced it in a notice inside the app. Personal data collected by the service will be deleted, except records the law requires Samsung to keep. The left-most home screen panel will likely show only Google Discover after that.",
+ "where": "Galaxy phones, until 21 December 2026",
+ "means": "If you read news on your Galaxy phone's left home screen panel or in the Samsung News widget, that feed stops in December.",
+ "todo": "Remove the Samsung News widget from your home screen, as Samsung recommends, and pick another news app or Google Discover.",
+ "rank": 4,
+ "apps": [
+  "Samsung News",
+  "Samsung"
+ ],
+ "item": 13089,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-news-shutdown-december-2026-3729509/"
+  }
+ ],
+ "checked": "2026-11-01"
+}
