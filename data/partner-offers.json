@@ -1,0 +1,1138 @@
+{
+ "_about": "Written by scripts/partner-offers.py from the Studio's deal tracker (the brands' offer lists on our partner network, Yazing). Don't edit by hand: the next daily run rewrites it. Hand-checked deals live in data/deals.json.",
+ "updated": "2026-11-01",
+ "offers": [
+  {
+   "slug": "openart",
+   "brand": "OpenArt AI",
+   "group": "AI Tools",
+   "text": "50% off Annual Subscription – High-quality Ai Art, Unlimited Generations",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "reccloud",
+   "brand": "RecCloud AI",
+   "group": "AI Tools",
+   "text": "15% off Basic & Pro Plans",
+   "code": "reccloud10",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "tripo",
+   "brand": "Tripo",
+   "group": "AI Tools",
+   "text": "Free Trial - Personalized 3D Models",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "vistaprint",
+   "brand": "Vistaprint",
+   "group": "Business & Legal",
+   "text": "Up to 25% off Select Products",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "eztexting",
+   "brand": "EZ Texting",
+   "group": "Business & Legal",
+   "text": "Free Trial",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "homebase",
+   "brand": "Homebase",
+   "group": "Business & Legal",
+   "text": "All-in-One Plan Free for 6 Months",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "stampscom",
+   "brand": "Stamps.com",
+   "group": "Business & Legal",
+   "text": "Start Your 30-day Free Trial",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "willmaker",
+   "brand": "Willmaker",
+   "group": "Business & Legal",
+   "text": "$5 off any Plan",
+   "code": "WM5",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "boxcloud",
+   "brand": "Box",
+   "group": "Cloud Storage",
+   "text": "Try Box Business Cloud Plans Free for 14 Days",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "luxy",
+   "brand": "Luxy",
+   "group": "Dating",
+   "text": "40% off Luxy Black Membership",
+   "code": "PIEQ240",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "mailchimp",
+   "brand": "Mailchimp",
+   "group": "Email",
+   "text": "Free Trial: Get Access to Mailchimp's Suite of Advanced Marketing Tools with a Free Trial, Sign Up Today",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "omnisend",
+   "brand": "Omnisend",
+   "group": "Email",
+   "text": "Sign-up and Start Your Free Trial",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "99designs",
+   "brand": "99designs",
+   "group": "Freelancers",
+   "text": "$10 off LivePlan",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "taskrabbit",
+   "brand": "TaskRabbit",
+   "group": "Freelancers",
+   "text": "$10 off the First Task Booked",
+   "code": "TASKRABBIT10US",
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "fanatical",
+   "brand": "Fanatical",
+   "group": "Games",
+   "text": "Up to 91% off Action Games",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "UK only"
+  },
+  {
+   "slug": "exitlag",
+   "brand": "ExitLag",
+   "group": "Games",
+   "text": "Take Advantage of Up to 50% off Annual Subscriptions and Enjoy a Faster, More Stable Connection While Gaming",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "bodi",
+   "brand": "BODi",
+   "group": "Health & Fitness",
+   "text": "Buy 1, Get 1 50% off New P90X Energy Drink",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "weightwatchers",
+   "brand": "WeightWatchers",
+   "group": "Health & Fitness",
+   "text": "Save 50% with Select Plan Purchase",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "naturalcycles",
+   "brand": "Natural Cycles",
+   "group": "Health & Fitness",
+   "text": "20% off for Teachers, Healthcare Workers, Military Personnel, and First Responders",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "busuu",
+   "brand": "Busuu",
+   "group": "Learning",
+   "text": "Save Up to 51% on Premium Plans",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "educationcom",
+   "brand": "Education.com",
+   "group": "Learning",
+   "text": "Up to 50% off Premium Memberships",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "thegreatcourses",
+   "brand": "The Great Courses",
+   "group": "Learning",
+   "text": "Free Trial + 30% off the Great Courses Classics",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "ixl",
+   "brand": "IXL",
+   "group": "Learning",
+   "text": "20% off Your First Year",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "examedge",
+   "brand": "Exam Edge",
+   "group": "Learning",
+   "text": "10% off Test Prep",
+   "code": "SAVE-AWIN10",
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "abcya",
+   "brand": "ABCya",
+   "group": "Learning",
+   "text": "$20 off Family Yearly Membership",
+   "code": "ABCYA20",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "brainsensei",
+   "brand": "Brain Sensei",
+   "group": "Learning",
+   "text": "Free Trial",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "Canada only"
+  },
+  {
+   "slug": "educative",
+   "brand": "Educative",
+   "group": "Learning",
+   "text": "Get a Free Trial and Get Access to Hundreds of Programming Courses",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "wyzant",
+   "brand": "Wyzant",
+   "group": "Learning",
+   "text": "$15 off Sitewide",
+   "code": "SCHOLLY",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "moneyspire",
+   "brand": "Moneyspire",
+   "group": "Money & Trading",
+   "text": "Free Trial",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "onlinecheckwriter",
+   "brand": "Online Check Writer",
+   "group": "Money & Trading",
+   "text": "$500 off Premium Plan Was: $999.99 Now: $499.99",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "udemy",
+   "brand": "Udemy",
+   "group": "More",
+   "text": "Up to 85% off AI Courses",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "shein",
+   "brand": "Shein",
+   "group": "More",
+   "text": "Up to 60% off End Year Sale",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "godaddy",
+   "brand": "GoDaddy",
+   "group": "More",
+   "text": "Managed Hosting for Wordpress: Up to 53% off Managed Hosting for Wordpress Plans",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "att",
+   "brand": "AT&T",
+   "group": "More",
+   "text": "Learn how new and existing customers get 50% off the new Samsung Galaxy Tab A11+ 5G",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "nordpass",
+   "brand": "NordPass",
+   "group": "More",
+   "text": "Save 50% on the Password Manager",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "preply",
+   "brand": "Preply",
+   "group": "More",
+   "text": "50% off Bookings for Lessons",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "nolo",
+   "brand": "Nolo",
+   "group": "More",
+   "text": "Up to 42% off Nolo's Start & Run a Business Bundle",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "expedia",
+   "brand": "Expedia",
+   "group": "More",
+   "text": "25% or More off Your Dream Stay",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "lastminute",
+   "brand": "lastminute.com",
+   "group": "More",
+   "text": "Save Up to 15% on Selected Deals",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "omio",
+   "brand": "Omio",
+   "group": "More",
+   "text": "12% New Customer Discount in Australia",
+   "code": "TRAVELAUS12",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "elementor",
+   "brand": "Elementor",
+   "group": "More",
+   "text": "AI Website Tool - Available As a Free Trial with Any Elementor Website",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "legalzoom",
+   "brand": "LegalZoom",
+   "group": "More",
+   "text": "LZ Books Helps You Easily Manage Your Books with Expense and Income Tracking, Invoices, and Payments All in One…",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "pia",
+   "brand": "Private Internet Access",
+   "group": "More",
+   "text": "2 Year Subscription + 2 Months Free Now: $2.19/Month",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "signnow",
+   "brand": "signNow",
+   "group": "More",
+   "text": "Sign Up and Start Your Free Trial",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "easyship",
+   "brand": "Easyship",
+   "group": "Online Stores & Funnels",
+   "text": "Start Shipping with Up to 91% off",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "spoonflower",
+   "brand": "Spoonflower",
+   "group": "Online Stores & Funnels",
+   "text": "30% off Wallpaper",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "cratejoy",
+   "brand": "Cratejoy",
+   "group": "Online Stores & Funnels",
+   "text": "20% off Your First Order",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "zazzle",
+   "brand": "Zazzle",
+   "group": "Online Stores & Funnels",
+   "text": "15% off Sitewide",
+   "code": "ZFILLIATENOV26",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "alibaba",
+   "brand": "Alibaba",
+   "group": "Online Stores & Funnels",
+   "text": "New Users Get $20 off When You Spend $100",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "fashiongo",
+   "brand": "FASHIONGO",
+   "group": "Online Stores & Funnels",
+   "text": "Free Shipping on So Me Orders $300+",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "teepublic",
+   "brand": "TeePublic",
+   "group": "Online Stores & Funnels",
+   "text": "Free Shipping with Orders Over $70",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "ancestry",
+   "brand": "Ancestry",
+   "group": "Other",
+   "text": "Save 30% on Ancestry Gift Memberships",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "newspaperscom",
+   "brand": "Newspapers.com",
+   "group": "Other",
+   "text": "Shop the Largest Online Newspaper Archive Plus Get a 7 Day Free Trial",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "rover",
+   "brand": "Rover",
+   "group": "Other",
+   "text": "Get $10 off Your First Booking",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "lycamobile",
+   "brand": "Lycamobile",
+   "group": "Phone Plans & Internet",
+   "text": "78% off the Student Saver Plan",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "tmobile",
+   "brand": "T-Mobile",
+   "group": "Phone Plans & Internet",
+   "text": "Magenta Status Perks: Save Up to 40% on Travel Phone Plans",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "ultramobile",
+   "brand": "Ultra Mobile",
+   "group": "Phone Plans & Internet",
+   "text": "Mighty Exclusive - 30% off Multi-month Plans",
+   "code": "MIGHTY30",
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "nomadesim",
+   "brand": "Nomad eSIM",
+   "group": "Phone Plans & Internet",
+   "text": "25% off During a Member's Birthday Month",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "verizon",
+   "brand": "Verizon",
+   "group": "Phone Plans & Internet",
+   "text": "Students save 10% every month",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "verizonhomeinternet",
+   "brand": "Verizon Home Internet",
+   "group": "Phone Plans & Internet",
+   "text": "Exclusive Fios Deals for Military, save 10% every month",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "metrobytmobile",
+   "brand": "Metro by T-Mobile",
+   "group": "Phone Plans & Internet",
+   "text": "Save $250 on iPhone 17e When You Bring Your Number",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "redpocket",
+   "brand": "RedPocket",
+   "group": "Phone Plans & Internet",
+   "text": "Free Shipping on Every Order",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "verizonbusiness",
+   "brand": "Verizon Business",
+   "group": "Phone Plans & Internet",
+   "text": "Have phones - Switch and save up to $720 with Verizon Business",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "xfinity",
+   "brand": "Xfinity Mobile",
+   "group": "Phone Plans & Internet",
+   "text": "$400 off a new iPhone. No trade-in required",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "snapfish",
+   "brand": "Snapfish",
+   "group": "Photo Books & Prints",
+   "text": "Take 76% off Cards",
+   "code": "76JOLLY",
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "mpix",
+   "brand": "Mpix",
+   "group": "Photo Books & Prints",
+   "text": "40% off Books & Albums",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "canvaschamp",
+   "brand": "CanvasChamp",
+   "group": "Photo Books & Prints",
+   "text": "Additional 15% off Orders Over $149",
+   "code": "GURU15",
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "printerpix",
+   "brand": "PrinterPix",
+   "group": "Photo Books & Prints",
+   "text": "Free Shipping on any Order",
+   "code": "FREESHIPUSA",
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "edraw",
+   "brand": "eDraw",
+   "group": "Productivity & Design",
+   "text": "Up to 50% off Creativity Products",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "parallels",
+   "brand": "Parallels",
+   "group": "Productivity & Design",
+   "text": "Enjoy the Perks of Using Mac OS on Windows and Vice-versa with the Special Offer for Students: Save 50% with the…",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "aomei",
+   "brand": "AOMEI",
+   "group": "Productivity & Design",
+   "text": "40% off UltraPic Pro Yearly",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "autodesk",
+   "brand": "Autodesk",
+   "group": "Productivity & Design",
+   "text": "Save Up to 40% on the M&E Collection",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "dribbble",
+   "brand": "Dribbble",
+   "group": "Productivity & Design",
+   "text": "Get 20% off Dribbble Pro",
+   "code": "JOINPRO20",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "flipsnack",
+   "brand": "Flipsnack",
+   "group": "Productivity & Design",
+   "text": "20% off All Plans",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "homestyler",
+   "brand": "Homestyler",
+   "group": "Productivity & Design",
+   "text": "Save 20% on Individual Pro Membership",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "imobie",
+   "brand": "iMobie",
+   "group": "Productivity & Design",
+   "text": "15% off sitewide",
+   "code": "yazing15",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "macpaw",
+   "brand": "MacPaw",
+   "group": "Productivity & Design",
+   "text": "Moonlock - 15% off Loyalty/Cashback",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "passfab",
+   "brand": "PassFab",
+   "group": "Productivity & Design",
+   "text": "15% off Android Unlocker Was: $39.95/year Now: $33.96/year",
+   "code": "X6F4T8",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "xmind",
+   "brand": "Xmind",
+   "group": "Productivity & Design",
+   "text": "10% off Sitewide",
+   "code": "XMIND10OFF",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "efax",
+   "brand": "eFax",
+   "group": "Productivity & Design",
+   "text": "Now There's a Better Way to Fax - Start Your Free Trial Today",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "mindmanager",
+   "brand": "MindManager",
+   "group": "Productivity & Design",
+   "text": "Enjoy a 30-day Fully Functional Free Trial",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "setapp",
+   "brand": "Setapp",
+   "group": "Productivity & Design",
+   "text": "Free Trial: Clean and Handy Notes on the Side of Your Monitor",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "aliexpress",
+   "brand": "AliExpress",
+   "group": "Shopping & Mobile",
+   "text": "Shop Welcome Deals: Up to 70% off for New Users",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "dhgate",
+   "brand": "DHgate.com",
+   "group": "Shopping & Mobile",
+   "text": "Up to 50% off Quality Home Cups",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "voghion",
+   "brand": "Voghion",
+   "group": "Shopping & Mobile",
+   "text": "Black Friday Sale: Up to 50% off Select Items",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "cardcash",
+   "brand": "CardCash",
+   "group": "Shopping & Mobile",
+   "text": "Up to 30% off Popular Discounted Restaurant Gift Cards",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "geekbuying",
+   "brand": "GeekBuying",
+   "group": "Shopping & Mobile",
+   "text": "8% off 3D Printers & Laser Engravers",
+   "code": "CONSUM50",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "walmart",
+   "brand": "Walmart",
+   "group": "Shopping & Mobile",
+   "text": "Free Unlimited Delivery When You Start Your Free Trial",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "magzter",
+   "brand": "Magzter",
+   "group": "Streaming & Entertainment",
+   "text": "Up to 50% off 1 Year Magzter GOLD Subscription",
+   "code": "CJNMGDEAL",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "directv",
+   "brand": "DIRECTV STREAM",
+   "group": "Streaming & Entertainment",
+   "text": "Save over 30% on MiEspañol & get your first 2 mos for just $24.99/mo. Learn How",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  },
+  {
+   "slug": "groundnews",
+   "brand": "Ground News",
+   "group": "Streaming & Entertainment",
+   "text": "Enjoy a 7 Day Free Trial",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "arangrant",
+   "brand": "Arangrant",
+   "group": "Travel",
+   "text": "Save Up to 70% on Business Class Flights from USA and Get Extra $40 off",
+   "code": "USA40",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "discovercars",
+   "brand": "Discover Cars",
+   "group": "Travel",
+   "text": "Car Rental - Up to 70% off When You Search and Compare",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "flightnetwork",
+   "brand": "Flight Network",
+   "group": "Travel",
+   "text": "Save Up to 60% on Flights",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "gotogate",
+   "brand": "Gotogate",
+   "group": "Travel",
+   "text": "Save Up to 60% on Flights Anywhere",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "priceline",
+   "brand": "Priceline.com",
+   "group": "Travel",
+   "text": "Save Up to 60% on Hotels with Express Deals",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "travelocity",
+   "brand": "Travelocity",
+   "group": "Travel",
+   "text": "Up to 60% off Vacation Rentals",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "travelup",
+   "brand": "TravelUp",
+   "group": "Travel",
+   "text": "Sri Lanka Holidays Deals: Save Up to 40% + Extra £50 on Bookings Over £1,299",
+   "code": "TU50",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "gadventures",
+   "brand": "G Adventures",
+   "group": "Travel",
+   "text": "Save Up to 30% on Selected Tours",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "hotelscom",
+   "brand": "Hotels.com",
+   "group": "Travel",
+   "text": "Get Huge Savings of at Least 30% on Bookings",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "tiqets",
+   "brand": "Tiqets",
+   "group": "Travel",
+   "text": "30% off 2-Day 2-Park Combo",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "hertz",
+   "brand": "Hertz",
+   "group": "Travel",
+   "text": "Save Up to 25% on Base Rates When You Pay Now",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "europcar",
+   "brand": "Europcar",
+   "group": "Travel",
+   "text": "Fall Sales : Up to 20% off Your Rental",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "flighthub",
+   "brand": "FlightHub",
+   "group": "Travel",
+   "text": "Save Up to 20% When You Book Flight + Hotel Together",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "roadtrippers",
+   "brand": "Roadtrippers",
+   "group": "Travel",
+   "text": "20% off All Memberships",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "rvshare",
+   "brand": "RVshare",
+   "group": "Travel",
+   "text": "15% off Bookings Over $900",
+   "code": "FALLRVING15",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "qeeq",
+   "brand": "QEEQ",
+   "group": "Travel",
+   "text": "8% off Car Rentals",
+   "code": "IMEN8",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "trainpal",
+   "brand": "TrainPal",
+   "group": "Travel",
+   "text": "New Users - 5% off Spain Train Tickets",
+   "code": "SPAINFUN",
+   "seen": "2026-11-01",
+   "where": "UK only"
+  },
+  {
+   "slug": "applevacations",
+   "brand": "Apple Vacations",
+   "group": "Travel",
+   "text": "Early Black Friday: $300 off 3+ Night Vacation Packages",
+   "code": "BLKFRI26",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "cheapcaribbean",
+   "brand": "CheapCaribbean.com",
+   "group": "Travel",
+   "text": "Travel Sale - $200 off Select Vacation Packages",
+   "code": "200BEACH",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "cheapflightsfares",
+   "brand": "Cheapflightsfares",
+   "group": "Travel",
+   "text": "$10 off Per Flight Booking",
+   "code": "INSTANT10",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "cheapoair",
+   "brand": "CheapOair.ca",
+   "group": "Travel",
+   "text": "Make Memories Together: Save on Family Travel!",
+   "code": "FAMILY35",
+   "seen": "2026-11-01",
+   "where": "Canada only"
+  },
+  {
+   "slug": "funjet",
+   "brand": "Funjet Vacations",
+   "group": "Travel",
+   "text": "Early Black Friday - $300 off 3+ Night Vacation Packages",
+   "code": "BLKFRI26",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "greatvaluevacations",
+   "brand": "Great Value Vacations",
+   "group": "Travel",
+   "text": "Ireland Vacation Sale: Save Up to $450 Per Person with Air, Hotels, Activities & More Included",
+   "code": "IRESALE",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "onetravel",
+   "brand": "OneTravel",
+   "group": "Travel",
+   "text": "Save on Last Minute Flights",
+   "code": "LM40",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "ovago",
+   "brand": "Ovago",
+   "group": "Travel",
+   "text": "Save Up to $50 on Thanksgiving Flights",
+   "code": "THANKSGIVING50",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "tours4fun",
+   "brand": "Tours4fun",
+   "group": "Travel",
+   "text": "Save $125 On the 2-Day Niagara Falls Budget Tour",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "wondershare",
+   "brand": "Wondershare",
+   "group": "Video Creation",
+   "text": "Trick or Treat: How About 79% OFF PDFelement V13",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "videogen",
+   "brand": "VideoGen",
+   "group": "Video Creation",
+   "text": "Get 50% off All Annual Plans",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "movavi",
+   "brand": "Movavi",
+   "group": "Video Creation",
+   "text": "15% off Sitewide",
+   "code": "PTNAFFDIS011026ALLLC",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "tunnelbear",
+   "brand": "TunnelBear",
+   "group": "VPN & Privacy",
+   "text": "Fall Sale - Get 70% off",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "bitdefender",
+   "brand": "Bitdefender",
+   "group": "VPN & Privacy",
+   "text": "57% off Antivirus Plus",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "incogni",
+   "brand": "Incogni",
+   "group": "VPN & Privacy",
+   "text": "55% off Your Order",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "keeper",
+   "brand": "Keeper Security",
+   "group": "VPN & Privacy",
+   "text": "Holiday Promotion - 50% off Consumer and 30% off Business",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "intego",
+   "brand": "Intego",
+   "group": "VPN & Privacy",
+   "text": "Save 30% on Intego One Advanced",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "qustodio",
+   "brand": "Qustodio",
+   "group": "VPN & Privacy",
+   "text": "Get 15% off Leading Edge",
+   "code": "LEADING15",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "eset",
+   "brand": "ESET",
+   "group": "VPN & Privacy",
+   "text": "Free Home Trial - Multilayered Security Protection and Free Shipping",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "smartproxy",
+   "brand": "Smartproxy",
+   "group": "VPN & Privacy",
+   "text": "Free Trial Offer",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "superantispyware",
+   "brand": "SuperAntiSpyware",
+   "group": "VPN & Privacy",
+   "text": "Professional X Edition Was: $74.95 Now: $19.99",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "tenable",
+   "brand": "Tenable",
+   "group": "VPN & Privacy",
+   "text": "Free Trial",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "cloudways",
+   "brand": "Cloudways",
+   "group": "Web Hosting",
+   "text": "Get 30% off for First 3 Months",
+   "code": "SAVE303",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "databasemart",
+   "brand": "Database Mart",
+   "group": "Web Hosting",
+   "text": "Lift-time 30% off for Express and Basic Level of GPU Servers",
+   "code": "TCYXQG9S",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "namecheap",
+   "brand": "Namecheap",
+   "group": "Web Hosting",
+   "text": "Up to 30% off VPS Hosting",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "domaincom",
+   "brand": "Domain.com",
+   "group": "Web Hosting",
+   "text": "Get 20% off Up to 5 Shared hosting, Wordpress Hosting, Website, Website + Marketing, or Ecommerce units",
+   "code": "HOSTING20",
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "kamatera",
+   "brand": "Kamatera",
+   "group": "Web Hosting",
+   "text": "Free Trial",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "brizy",
+   "brand": "Brizy",
+   "group": "Website & App Builders",
+   "text": "14-day Free Trial",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "knack",
+   "brand": "Knack",
+   "group": "Website & App Builders",
+   "text": "Free Shipping on $50 Orders",
+   "code": null,
+   "seen": "2026-11-01",
+   "where": "US only"
+  }
+ ]
+}

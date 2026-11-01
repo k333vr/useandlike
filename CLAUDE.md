@@ -15,6 +15,12 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   (96x96, the brand's own app icon), "Deals" in the header nav. Only offers checked on the brand's own website, with
   that date in `checked`; take a deal out as soon as it ends (check.js warns after 7 days, fails on a missing short
   link or a FlexOffers link). Each card: Get the deal -> /slug (sponsored), About -> the tool page.
+  Under them (1 Nov 2026, Kevin: "only 7 deals listed ... when we have like 1000s of partners"): "More offers from our
+  partners", one line per brand with filter chips by group, from `data/partner-offers.json`, written by
+  `scripts/partner-offers.py` from the Studio's deal tracker (the brands' own listings on Yazing, seen in the last 3 days;
+  every daily news run refreshes it). It drops out-of-season and old offers, non-offers, superlatives, undercutting lines,
+  FlexOffers/direct/paused links and brands with a checked deal; the page says they're the brands' listings and the day
+  we saw them. Don't edit the JSON by hand; check.js fails on a bad link and warns when the list is over 3 days old.
 - After changing the EDIT HERE block, videos.js or the small pages' texts (`PAGES` at the top of scripts/build-pages.js):
   run `node scripts/build-pages.js` (build-videos.py runs it too). check.js fails while the pages are out of date.
 - Hosted on Cloudflare as a Worker named `useandlike` with static assets (Workers Builds, connected to GitHub).
@@ -31,9 +37,10 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   `CHANNELS`, `NEWSLETTER`, `OPEN_IN_NEW_TAB`, `VISIBLE_COUNT`, `CATEGORIES`, `TOOLS`, `VIDEOS`.
 - `NEWSLETTER.ready` shows the signup at the top of every page, on #join, and a box on home and category pages. With `beehiivForm` (the `data-beehiiv-form` id from Beehiiv's embed code) it loads Beehiiv's script `subscribe-forms.beehiiv.com/v3/loader.js`, which shows Beehiiv's own field (an iframe) where the signup is; this is the one allowed external request (owner's choice). Without it, the button opens the Beehiiv signup page via `/newsletter`. Beehiiv's separate attribution.js is not needed (the loader includes it). Double opt-in is on (owner is in Austria); Beehiiv's "Opt-in redirect URL" is `useandlike.com/welcome` -> `#welcome` (INFO page with `img/welcome.webp` and the tracker button), so `/welcome` must stay in `_redirects`. Posting our own form to Beehiiv's /create is blocked ("Forbidden"), so don't. `/newsletter` must stay in `_redirects` (the check script enforces it).
 - Layout: until 1 Nov 2026 the home page was the category list (Craigslist-style). Kevin, 1 Nov ("overall way better",
-  "go"): the home page is app news; the category list (every category with its first `VISIBLE_COUNT` tool names as
-  direct affiliate links, plus "All N ›") is on `/how-tos/` under a search over all our videos (`how-tos/search.json`,
-  loaded on the first search: every non-Short video of data/channel-videos.tsv, the tools, stories and deals). Nav:
+  "go"): the home page is app news; `/how-tos/` is a search over all our videos (`how-tos/search.json`, loaded on the
+  first search: every non-Short video of data/channel-videos.tsv, the tools, stories, checked deals and partner offers),
+  then "How-tos people watch" and one quiet line of category links (Kevin, 1 Nov: the big category grid with the tool
+  links "doesn't look clean enough maybe have just the search bar"; the grid is gone). Nav:
   News (/) · How-tos · Videos (#videos) · Deals. A category heading opens its
   category page (`/category/web-hosting/`): each tool with `description`, optional `why`/`details`, "Our pick", a
   Visit button and a link to its tool page, then our videos about the category. A tool page (`/tool/wise/`): what it

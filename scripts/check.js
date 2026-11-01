@@ -155,6 +155,24 @@ function readRedirects(errors, warnings) {
         if (!(age >= 0)) errors.push(`deal "${d.brand}": "checked" should be a date like 2026-10-29`);
         else if (age > 7) warnings.push(`deal "${d.brand}" was last checked ${Math.floor(age)} days ago: check it on the brand's site, or take it off data/deals.json`);
       }
+      // Partner offers (data/partner-offers.json, scripts/partner-offers.py, refreshed by the daily run): each needs its
+      // short link, never a FlexOffers or direct-link brand (Synthesia) or a paused one, and the list must stay fresh.
+      let po = { offers: [] };
+      try { po = JSON.parse(fs.readFileSync(path.resolve(__dirname, "..", "data", "partner-offers.json"), "utf8")); }
+      catch (_) { /* no file yet: the deals page shows the checked deals only */ }
+      let linkMeta = {};
+      try { linkMeta = JSON.parse(fs.readFileSync(path.resolve(__dirname, "..", "data", "short-links.json"), "utf8")); } catch (_) {}
+      for (const o of po.offers || []) {
+        const to = redirects.get(o.slug), meta = linkMeta[o.slug] || {};
+        if (!to) { errors.push(`partner offer "${o.brand}": /${o.slug} is not in _redirects`); continue; }
+        try { if (FLEX.test(new URL(to).hostname)) errors.push(`partner offer "${o.brand}": /${o.slug} is a FlexOffers link (How To Rocket only)`); } catch (_) {}
+        if (meta.only || meta.direct || meta.paused) errors.push(`partner offer "${o.brand}": /${o.slug} is ${meta.only ? "a How To Rocket-only" : meta.direct ? "a direct-link" : "a paused"} link and can't be on the site`);
+        if (BANNED.test(o.text || "")) errors.push(`partner offer "${o.brand}": superlative in "${o.text}"`);
+      }
+      if ((po.offers || []).length) {
+        const age = (Date.now() - Date.parse((po.updated || "") + "T00:00:00Z")) / 864e5;
+        if (!(age <= 3)) warnings.push(`data/partner-offers.json is ${Math.floor(age) || "?"} days old: run python3 scripts/partner-offers.py (the daily news run does)`);
+      }
       if (data.NEWSLETTER.ready && !redirects.has("newsletter"))
         errors.push('NEWSLETTER.ready is true but _redirects has no "/newsletter" line');
       if (!data.CHANNELS.length) warnings.push("CHANNELS is empty, so the Videos tab has no channel links");
@@ -178,17 +196,15 @@ function readRedirects(errors, warnings) {
         if (!(await page.$(".front"))) { errors.push("back button does not return to the front page"); await page.goto(FILE); }
       }
 
-      // How-tos: every category with its first few tools as direct affiliate links (the home page's list until 1 Nov).
+      // How-tos (Kevin, 1 Nov: "maybe have just the search bar"): the search first, then one line of links to every
+      // category that has tools, each pointing at its /category/<name>/ page.
       await page.goto(BASE + "/how-tos/");
-      const blocks = await page.$$eval(".index .block", e => e.length);
-      if (blocks !== data.CATEGORIES.length) errors.push(`how-tos lists ${blocks} categories, expected ${data.CATEGORIES.length}`);
-      const homeLinks = await page.$$eval('.index li a:not(.all)', e => e.length);
-      const expectedHome = data.CATEGORIES.reduce((n, c) => n + Math.min(data.TOOLS.filter(t => t.category === c).length, data.VISIBLE_COUNT), 0);
-      if (homeLinks !== expectedHome) errors.push(`how-tos shows ${homeLinks} tool links, expected ${expectedHome}`);
-      if (await isSponsored(".index li a:not(.all)")) errors.push('how-tos tool links missing rel="sponsored"');
-      const catHrefs = await page.$$eval(".index .block h2 a", as => as.map(a => a.getAttribute("href")));
-      const expectHrefs = data.CATEGORIES.map(c => `/category/${slugOf(c)}/`);
-      if (catHrefs.join() !== expectHrefs.join()) errors.push("how-tos category links don't point at /category/<name>/ pages");
+      const catHrefs = await page.$$eval(".catline a", as => as.map(a => a.getAttribute("href")));
+      const withTools = data.CATEGORIES.filter(c => data.TOOLS.some(t => t.category === c));
+      const expectHrefs = withTools.map(c => `/category/${slugOf(c)}/`);
+      if (catHrefs.length !== withTools.length) errors.push(`how-tos links ${catHrefs.length} categories, expected ${withTools.length}`);
+      else if (catHrefs.join() !== expectHrefs.join()) errors.push("how-tos category links don't point at /category/<name>/ pages");
+      if (!(await page.$("#q"))) errors.push("how-tos: the search box is missing");
       // The search finds videos (how-tos/search.json, loaded on the first search).
       await page.fill("#q", "wise");
       await page.waitForSelector("#res:not([hidden]) li", { timeout: 8000 }).catch(() => errors.push("how-tos: the search shows no results for \"wise\""));

@@ -87,10 +87,12 @@ ahead, like a change that starts next week).
    shown as the story's picture when it has none of its own: Kevin's pick from the Studio's Icons tab first, then the
    thumbnail tool's saved logo, then the App Store; it also takes an app's new logo when the app changed it). Read what it
    picked; a wrong app ("picked automatically: check it") is Kevin's to change in the Studio's Icons tab, so mention it in
-   the last line instead of editing data/app-icons.json by hand. Then
+   the last line instead of editing data/app-icons.json by hand. Then `python3 scripts/partner-offers.py` (every run: the
+   offers our partner brands list, from the Studio's deal tracker, for the "More offers from our partners" part of
+   /deals/; it leaves out old, seasonal and non-offers by itself). Then
    `node scripts/build-pages.js`, then `node scripts/check.js` and fix every FAIL (a word on the banned list: reword).
    Write each app in "apps" the way people know it ("WhatsApp", "Google Maps"), one app per entry.
-5. Commit only `data/news/`, new app icons (`img/apps/`, `data/app-icons.json`) and what the build changed (`news/`,
+5. Commit only `data/news/`, new app icons (`img/apps/`, `data/app-icons.json`), `data/partner-offers.json` and what the build changed (`news/`, `deals/`,
    `index.html`, `how-tos/`, `sitemap.xml`, the category and tool pages): `git commit -m "News: <n> stories (<date>)"`, then `git push origin main` (main only:
    Cloudflare deploys it in about a minute). Never change `_redirects`, the tools or anything else in this run.
 6. Check one new page on useandlike.com after a minute or two (curl it for its headline).

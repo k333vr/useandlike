@@ -126,6 +126,10 @@ const FOOTER = indexHtml.match(/<footer>[\s\S]*?<\/footer>/)[0];
 const W = {};
 vm.runInNewContext(fs.readFileSync(path.join(ROOT, "videos.js"), "utf8"), { window: W });
 const DEALS = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "deals.json"), "utf8")).deals;
+// Offers our partner brands list on our partner network (scripts/partner-offers.py, refreshed by the daily run; Kevin,
+// 1 Nov: "only 7 deals listed ... when we have like 1000s of partners"). Shown under the hand-checked deals, labelled.
+const PARTNER = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, "data", "partner-offers.json"), "utf8")); } catch (_) { return { offers: [] }; } })();
+const OFFERS = PARTNER.offers || [];
 // App icons for the news (scripts/app-icons.py; Kevin, 1 Nov: the site "looks strange just with the letters").
 const APP_ICONS = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, "data", "app-icons.json"), "utf8")); } catch (_) { return {}; } })();
 
@@ -409,25 +413,62 @@ function dealCard(d) {
     `<div class="deal-acts"><a class="visit" href="/${d.slug}" ${sponsored}>Get the deal</a>` +
     (t ? `<a class="deal-more" href="/${toolPath(t)}">About ${esc(t.name)} ›</a>` : "") + "</div></li>";
 }
+// A partner offer: the brand's own wording from our partner network, its code and where it applies; the whole line goes
+// to the brand through our short link.
+const dealHead = (id, title) => `<div class="sec-head"><h2 id="${id}">${esc(title)}</h2></div>`;
+const groupId = g => g.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+function offerRow(o) {
+  return `<li class="po"><a href="/${o.slug}" ${sponsored}><b>${esc(o.brand)}</b><span class="po-text">${esc(o.text)}</span>` +
+    `<span class="po-go" aria-hidden="true">›</span></a>` +
+    ((o.code || o.where) ? `<span class="po-meta">${o.code ? `Code <code>${esc(o.code)}</code>` : ""}${o.code && o.where ? " · " : ""}${o.where ? esc(o.where) : ""}</span>` : "") +
+    "</li>";
+}
 {
   const p = "deals/", trail = [HOME, { name: "Deals", path: p }];
+  // Groups by size, "More" and "Other" last.
+  const counts = new Map();
+  for (const o of OFFERS) counts.set(o.group, (counts.get(o.group) || 0) + 1);
+  const groups = [...counts.keys()].sort((a, b) => (/^(More|Other)$/.test(a) - /^(More|Other)$/.test(b)) || counts.get(b) - counts.get(a) || a.localeCompare(b));
+  const seen = PARTNER.updated ? shortDay(PARTNER.updated) : "";
+  const partner = OFFERS.length ? [
+    `<section aria-labelledby="po-h">${dealHead("po-h", "More offers from our partners")}`,
+    `<p class="note">${esc(OFFERS.length)} offers as the brands list them on our partner network${seen ? `, seen there on ${esc(seen)}` : ""}. ` +
+      "They change often: check the final price on the brand's site before you pay.</p>",
+    `<div class="po-chips" role="group" aria-label="Show offers for"><button type="button" class="on" data-g="">All ${esc(OFFERS.length)}</button>` +
+      groups.map(g => `<button type="button" data-g="${groupId(g)}">${esc(g)} ${esc(counts.get(g))}</button>`).join("") + "</div>",
+    groups.map(g => `<section class="po-group" data-g="${groupId(g)}"><h3>${esc(g)}</h3><ul class="plain po-list">` +
+      OFFERS.filter(o => o.group === g).map(offerRow).join("") + "</ul></section>").join("\n"),
+    "</section>"
+  ].join("\n") : "";
   const main = [
     crumbsHtml(trail),
     "<h1>App deals running now</h1>",
-    "<p class=\"lead\">Discounts on apps and services we use and link to, checked on each brand's own website. " +
-      "Prices change, so check the final price before you pay.</p>",
+    "<p class=\"lead\">Discounts on apps and services we link to: first the deals we checked on each brand's own website, " +
+      "then the offers our partner brands list. Prices change, so check the final price before you pay.</p>",
     "<p class=\"note\">These are partner links: if you buy through one, we may earn a commission at no extra cost to you.</p>",
-    DEALS.length ? `<ul class="plain deals">\n${DEALS.map(dealCard).join("\n")}\n</ul>`
-      : "<p class=\"count\">No deals running right now. Our newsletter tells you when new ones start.</p>",
+    DEALS.length ? `<section aria-labelledby="dc-h">${dealHead("dc-h", "Deals we checked")}\n<ul class="plain deals">\n${DEALS.map(dealCard).join("\n")}\n</ul></section>`
+      : (OFFERS.length ? "" : "<p class=\"count\">No deals running right now. Our newsletter tells you when new ones start.</p>"),
+    partner,
     newsletterBox()
-  ].join("\n");
+  ].filter(Boolean).join("\n");
+  const script = OFFERS.length ? `(function () {
+  var chips = document.querySelectorAll(".po-chips button"), groups = document.querySelectorAll(".po-group");
+  [].forEach.call(chips, function (b) {
+    b.addEventListener("click", function () {
+      var g = b.getAttribute("data-g");
+      [].forEach.call(chips, function (x) { x.classList.toggle("on", x === b); });
+      [].forEach.call(groups, function (s) { s.hidden = !!g && s.getAttribute("data-g") !== g; });
+    });
+  });
+})();` : "";
+  const total = DEALS.length + OFFERS.length;
   out.set(p + "index.html", layout({
-    path: p, nav: "deals", cls: "page", title: "App deals running now | Use & Like",
-    description: DEALS.length ? `Running discounts on ${DEALS.map(d => d.brand).join(", ")}, checked on each brand's own website.`
+    path: p, nav: "deals", cls: "page", title: total ? `App deals running now: ${total} offers | Use & Like` : "App deals running now | Use & Like",
+    description: total ? `Discounts on ${DEALS.map(d => d.brand).join(", ")} checked on each brand's own website, plus ${OFFERS.length} offers from our partner brands in travel, software, VPNs, phone plans and more.`
       : "Running discounts on apps and services, checked on each brand's own website.",
-    noindex: !DEALS.length, jsonld: [crumbsLd(trail)], main
+    noindex: !total, jsonld: [crumbsLd(trail)], main, script
   }));
-  if (DEALS.length) sitemap.push(p);
+  if (total) sitemap.push(p);
 }
 
 // ---- App news, how-tos and the front page (Kevin, 1 Nov 2026: "overall way better", "go") ----
@@ -579,16 +620,12 @@ ${NEWS.slice(0, 50).map(s => `<item><title>${x(s.head)}</title><link>${SITE}/${n
     .sort((a, b) => (+b[1] || 0) - (+a[1] || 0)).map(r => [r[0], r[3], chans.indexOf(r[4].trim())]);
   out.set("how-tos/search.json", JSON.stringify({ channels: chans, videos: vids,
     tools: TOOLS.map(t => [t.name, t.slug, t.category]), news: NEWS.map(s => [s.slug, s.head, s.date]),
-    deals: DEALS.map(d => [d.slug, d.brand, d.offer]) }));
+    deals: DEALS.map(d => [d.slug, d.brand, d.offer]).concat(OFFERS.map(o => [o.slug, o.brand, o.text])) }));
   const p = HOWTOS.path, trail = [HOME, HOWTOS];
-  const cats = '<div class="index">\n' + CATEGORIES.map(cat => {
-    const tools = toolsIn(cat), n = catVideos.get(cat).length;
-    const items = !tools.length ? ['<li class="soon">Coming soon</li>'] : tools.slice(0, VISIBLE_COUNT)
-      .map(t => `<li><a href="/${t.slug}" ${sponsored}>${esc(t.name)}</a></li>`);
-    if (tools.length > VISIBLE_COUNT) items.push(`<li><a class="all" href="/${catPath(cat)}">All ${tools.length} ›</a></li>`);
-    return `<section class="block"><h2><a href="/${catPath(cat)}">${esc(cat)}</a></h2>` +
-      `<p class="count">${n ? esc(plural(n, "how-to")) + " · " : ""}${esc(plural(tools.length, "tool"))}</p><ul class="plain">${items.join("")}</ul></section>`;
-  }).join("\n") + "\n</div>";
+  // Kevin, 1 Nov: "browse by category ... doesn't look clean enough maybe have just the search bar": the search leads;
+  // the categories are one quiet line of links under it (the big grid of tool links is gone from this page).
+  const cats = '<ul class="plain catline">' + CATEGORIES.filter(cat => toolsIn(cat).length).map(cat =>
+    `<li><a href="/${catPath(cat)}">${esc(cat)}</a></li>`).join("") + "</ul>";
   const chips = ["Wise", "Shein", "WhatsApp", "Netflix", "Proton VPN", "CapCut", "ChatGPT", "TikTok"];
   const main = [
     crumbsHtml(trail),
@@ -599,10 +636,8 @@ ${NEWS.slice(0, 50).map(s => `<item><title>${x(s.head)}</title><link>${SITE}/${n
       '<input id="q" type="search" placeholder="Try Wise, CapCut, VPN, ChatGPT..." autocomplete="off" aria-label="Search our how-tos, news and deals" aria-controls="res"></div>' +
       `<div class="qchips" role="group" aria-label="Popular searches">${chips.map(c => `<button type="button" data-q="${esc(c)}">${esc(c)}</button>`).join("")}</div>` +
       '<div class="results" id="res" aria-live="polite" hidden></div></section>',
-    `<section aria-labelledby="bc-h">${secHead("bc-h", "Browse by category", '<a href="/#videos">All videos by category ›</a>')}\n${cats}</section>`,
-    TOP_NEWS.length ? `<section aria-labelledby="hn-h">${secHead("hn-h", "App news in 30 seconds", '<a href="/news/">All app news ›</a>')}\n${storyRows(TOP_NEWS.slice(0, 4))}</section>` : "",
-    DEALS.length ? `<section aria-labelledby="hd-h">${secHead("hd-h", "Deals we checked", `<a href="/deals/">All ${DEALS.length} ›</a>`)}\n${dealMinis(DEALS.slice(0, 6))}</section>` : "",
-    RECOMMENDED.length ? `<section aria-labelledby="hp-h">${secHead("hp-h", "How-tos people watch")}\n${grid(RECOMMENDED.slice(0, 4))}</section>` : "",
+    RECOMMENDED.length ? `<section aria-labelledby="hp-h">${secHead("hp-h", "How-tos people watch")}\n${grid(RECOMMENDED.slice(0, 8))}</section>` : "",
+    `<section class="cats" aria-labelledby="bc-h"><h2 id="bc-h">Or browse by category</h2>${cats}</section>`,
     newsletterBox(),
     "</div>"
   ].filter(Boolean).join("\n");
@@ -638,7 +673,7 @@ ${NEWS.slice(0, 50).map(s => `<item><title>${x(s.head)}</title><link>${SITE}/${n
       if (vids.length) h += "<div><h3>How-to videos (" + vids.length.toLocaleString("en-US") + ")</h3><ul>" + vids.slice(0, 8).map(function (v) {
         return "<li>" + a("https://www.youtube.com/watch?v=" + v[0], hi(v[1], first), true) + " <span>" + esc(data.channels[v[2]] || "") + "</span></li>"; }).join("") + "</ul>" +
         (vids.length > 8 ? '<p class="more-hits"><button type="button" id="more-hits">Show ' + Math.min(vids.length - 8, 40) + " more</button></p>" : "") + "</div>";
-      if (!h) h = "<p>Nothing found for \\u201c" + esc(raw) + "\\u201d. Try the app's name, or browse by category below.</p>";
+      if (!h) h = "<p>Nothing found for \\u201c" + esc(raw) + "\\u201d. Try the app's name, or pick a category below.</p>";
       res.innerHTML = h; res.hidden = false;
       var more = document.getElementById("more-hits");
       if (more) more.addEventListener("click", function () {
