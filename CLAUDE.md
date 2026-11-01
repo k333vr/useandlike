@@ -42,6 +42,9 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   Refresh: `scripts/fetch-videos.sh` (yt-dlp, all videos of the 3 channels -> `data/channel-videos.tsv`), then
   `python3 scripts/build-videos.py` (matches titles to TOOLS, drops Shorts and titles like cancel/refund/delete account/free alternative
   and other products with the same name (NOT_ABOUT, e.g. Nolo VR, WiseCleaner), downloads missing thumbnails, rebuilds the pages). Re-run build-videos.py after adding or renaming a tool. Videos tab pages 24 at a time.
+  After a batch of new thumbnails on YouTube: `python3 scripts/build-videos.py --refresh-thumbs` downloads every
+  thumbnail again and rewrites only the ones that changed (1 Nov 2026: 790, 777 of them from the thumbnail tool; Kevin:
+  the new ones "look better", and shelves of recommended how-tos use only videos with a new thumbnail).
 - `VIDEOS` (hand-picked, shown first) feeds the Videos tab too: `{ title, url, channel, category, tool? }` (url = youtube.com/watch?v=<11-char id>).
   Each video needs a thumbnail at `thumbs/<id>.jpg` (320x180, from https://i.ytimg.com/vi/<id>/mqdefault.jpg),
   so the site makes no requests to YouTube. The Videos tab shows category buttons (side list on wide screens)

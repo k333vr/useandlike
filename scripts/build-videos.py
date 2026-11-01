@@ -6,7 +6,7 @@ Output: videos.js                (loaded by the Videos tab only when it is opene
         thumbs/<id>.jpg          (downloaded when missing, 320x180, so visitors never contact YouTube)
         then runs scripts/build-pages.js (the category and tool pages list the videos too)
 
-Run: python3 scripts/build-videos.py [--no-thumbs]
+Run: python3 scripts/build-videos.py [--no-thumbs | --refresh-thumbs]
 """
 import json, os, re, subprocess, sys, urllib.request, io
 from concurrent.futures import ThreadPoolExecutor
@@ -100,27 +100,36 @@ def main():
     print(len(rows), "videos written to videos.js")
 
     if "--no-thumbs" not in sys.argv:
-        fetch_thumbs([r[1] for r in rows])
+        fetch_thumbs([r[1] for r in rows], refresh="--refresh-thumbs" in sys.argv)
     # The category and tool pages list these videos: rebuild them.
     subprocess.run(["node", os.path.join(ROOT, "scripts", "build-pages.js")], check=True)
 
 
-def fetch_thumbs(ids):
-    from PIL import Image
+def fetch_thumbs(ids, refresh=False):
+    """Missing thumbnails; with --refresh-thumbs every one again, so the site shows what YouTube shows now (Kevin,
+    1 Nov: the new thumbnails "look better"; 3,164 videos got one from the thumbnail tool, 7-30 Oct). A file is only
+    rewritten when the picture changed, so git shows exactly which ones are new."""
+    from PIL import Image, ImageChops, ImageStat
     os.makedirs(os.path.join(ROOT, "thumbs"), exist_ok=True)
-    todo = [i for i in ids if not os.path.exists(os.path.join(ROOT, "thumbs", i + ".jpg"))]
+    path = lambda i: os.path.join(ROOT, "thumbs", i + ".jpg")
+    todo = list(ids) if refresh else [i for i in ids if not os.path.exists(path(i))]
 
     def one(vid):
         try:
             raw = urllib.request.urlopen("https://i.ytimg.com/vi/%s/mqdefault.jpg" % vid, timeout=30).read()
             im = Image.open(io.BytesIO(raw)).convert("RGB").resize((320, 180))
-            im.save(os.path.join(ROOT, "thumbs", vid + ".jpg"), quality=72, optimize=True, progressive=True)
-            return True
+            if os.path.exists(path(vid)):
+                old = Image.open(path(vid)).convert("RGB").resize((320, 180))
+                # same picture (only JPEG noise between two saves, a few levels on average): keep the file as it is
+                if max(ImageStat.Stat(ImageChops.difference(old, im)).mean) < 12:
+                    return 0
+            im.save(path(vid), quality=72, optimize=True, progressive=True)
+            return 1
         except Exception:
-            return False
+            return 0
     with ThreadPoolExecutor(12) as ex:
         ok = sum(ex.map(one, todo))
-    print("thumbnails downloaded:", ok, "of", len(todo))
+    print("thumbnails written:", ok, "of", len(todo), "(refresh)" if refresh else "")
 
 
 if __name__ == "__main__":
