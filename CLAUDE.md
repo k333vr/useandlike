@@ -56,7 +56,8 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   (her opinion lines: bold is fine, never a twisted fact), `points` (3-6 key points for the teleprompter's Key points
   mode), no spoken call to action; she reads them on scripts.useandlike.com (useandlike-ops/studio). build-pages.js makes the story pages
   (NewsArticle structured data), `/news/`, `/news/feed.xml` (RSS) and the front page (lead = the newest rank-1 story of
-  the last 3 days, text-only when it has no picture; latest news beside the checked deals, newsletter box via
+  the last 3 days; a story without its own picture shows its apps' App Store icons on the first app's colour:
+  `scripts/app-icons.py` -> `img/apps/<slug>.webp` + `data/app-icons.json`, Kevin 1 Nov: "looks strange just with the letters"; latest news beside the checked deals, newsletter box via
   `[data-join]`, one-liners, how-tos). Recommended how-tos everywhere: only videos with a new thumbnail
   (`data/new-thumbs.json`, refreshed by useandlike-ops/analysis/new-thumbs-sync.py) and never cancel/refund/"free" titles.
 - Counted links (1 Nov 2026, Kevin: "maybe we can track those or highlight A b test them"): the footer's About / How

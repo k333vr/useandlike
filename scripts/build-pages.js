@@ -126,6 +126,8 @@ const FOOTER = indexHtml.match(/<footer>[\s\S]*?<\/footer>/)[0];
 const W = {};
 vm.runInNewContext(fs.readFileSync(path.join(ROOT, "videos.js"), "utf8"), { window: W });
 const DEALS = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "deals.json"), "utf8")).deals;
+// App icons for the news (scripts/app-icons.py; Kevin, 1 Nov: the site "looks strange just with the letters").
+const APP_ICONS = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, "data", "app-icons.json"), "utf8")); } catch (_) { return {}; } })();
 
 // Our pick first, then the order of TOOLS (as on the home page).
 const toolsIn = cat => TOOLS.filter(t => t.category === cat).sort((a, b) => (b.isPick ? 1 : 0) - (a.isPick ? 1 : 0));
@@ -465,9 +467,27 @@ function howtosFor(s, n) {
   return picked.slice(0, n);
 }
 
+// A story without a picture of its own shows its apps: their icons (up to 3) on the first app's colour; an app
+// without an icon gets its first letter on a colour from its name.
+const ART_COLOURS = ["#2b6cb0", "#2f855a", "#b7791f", "#c53030", "#6b46c1", "#2c7a7b", "#b83280", "#4a5568"];
+function storyArt(s, cls) {
+  const apps = (s.apps || []).filter(a => typeof a === "string");
+  const icons = [];
+  for (const a of apps) {
+    const e = APP_ICONS[a];
+    if (e && e.file && !icons.some(x => x.file === e.file) && fs.existsSync(path.join(ROOT, e.file))) icons.push(e);
+  }
+  const name = apps[0] || s.head;
+  let hash = 0;
+  for (const ch of name) hash = (hash * 31 + ch.charCodeAt(0)) >>> 0;
+  const c = (icons[0] && icons[0].color) || (APP_ICONS[name] || {}).color || ART_COLOURS[hash % ART_COLOURS.length];
+  const inner = icons.length
+    ? icons.slice(0, 3).map((e, i) => `<img src="/${esc(e.file)}" alt="" width="256" height="256"${i ? ' class="b"' : ""} loading="lazy">`).join("")
+    : `<b>${esc(name[0])}</b>`;
+  return `<span class="art ${cls}" style="--c:${esc(c)}" aria-hidden="true">${inner}</span>`;
+}
 function storyThumb(s, w) {
-  return s.thumb ? `<img src="${esc(s.thumb)}" alt="" width="${w}" height="${w / 2}" loading="lazy">`
-    : `<span class="ph" aria-hidden="true">${esc((s.apps && s.apps[0] || s.head)[0])}</span>`;
+  return s.thumb ? `<img src="${esc(s.thumb)}" alt="" width="${w}" height="${w / 2}" loading="lazy">` : storyArt(s, "sm");
 }
 // Rumors, leaks and features in testing (Kevin, 1 Nov: "speculative ... we can frame them exactly like that"): amber tag.
 const tagHtml = s => (s.tag || s.rumor) ? `<span class="tag${s.rumor ? " rumor" : ""}">${esc(s.tag || "Rumor")}</span>` : "";
@@ -495,7 +515,7 @@ for (const s of NEWS) {
     `<p class="dek">${esc(s.dek)}</p>`,
     s.rumor ? '<p class="unconfirmed"><strong>Not confirmed.</strong> This comes from a report, a leak or a test version, not from the company itself, so details can still change.</p>' : "",
     `<p class="meta">Use &amp; Like · ${esc(longDay(s.date))} · Source: ${sourcesLine(s)}</p>`,
-    s.image ? `<img class="hero" src="${esc(s.image)}" alt="" width="1200" height="600">` : "",
+    s.image ? `<img class="hero" src="${esc(s.image)}" alt="" width="1200" height="600">` : storyArt(s, "big"),
     s.means ? `<div class="callout"><h2>What it means for you</h2><p>${esc(s.means)}</p></div>` : "",
     s.todo ? `<div class="todo"><h2>What to do</h2><p>${esc(s.todo)}</p></div>` : "",
     s.details && !s.details_in_todo ? `<div class="details"><h2>The details</h2><p>${esc(s.details)}</p>` +
@@ -654,8 +674,9 @@ function frontPage() {
   return [
     '<div class="front">',
     '<h1 class="sr-only">Use &amp; Like: app news, deals and how-tos</h1>',
-    `<section class="lead-story${lead.image ? "" : " noimg"}" aria-labelledby="lead-h">` +
-      (lead.image ? `<a href="/${newsPath(lead)}" tabindex="-1" aria-hidden="true"><img src="${esc(lead.image)}" alt="" width="1200" height="600"></a>` : "") +
+    '<section class="lead-story" aria-labelledby="lead-h">' +
+      `<a href="/${newsPath(lead)}" tabindex="-1" aria-hidden="true">` +
+      (lead.image ? `<img src="${esc(lead.image)}" alt="" width="1200" height="600">` : storyArt(lead, "lg")) + "</a>" +
       `<div class="txt">${tagHtml(lead)}<h2 id="lead-h"><a href="/${newsPath(lead)}">${esc(lead.head)}</a></h2>` +
       `<p class="dek">${esc(lead.dek)}${lead.image && lead.details && !lead.details_in_todo ? " " + esc(lead.details) : ""}</p>` +
       `<p class="meta">${esc(shortDay(lead.date))} · Source: ${esc(lead.sources.map(x => x.name).join(", "))}</p></div></section>`,

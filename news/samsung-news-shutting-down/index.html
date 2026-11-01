@@ -268,11 +268,23 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 @media (max-width: 860px) { .split { grid-template-columns: minmax(0, 1fr); } }
 .srows li { display: grid; grid-template-columns: 128px minmax(0, 1fr); gap: 14px; padding: 13px 0; border-bottom: 1px solid var(--line); }
 .srows img, .srows .ph { display: block; width: 128px; height: auto; aspect-ratio: 2 / 1; object-fit: cover; border-radius: 6px; }
+/* A story's apps as its picture: icons on the app's colour (build-pages.js storyArt) */
+.art { display: flex; align-items: center; justify-content: center; width: 100%; aspect-ratio: 2 / 1; border-radius: 10px; overflow: hidden;
+  background-color: var(--c); background-image: linear-gradient(135deg, color-mix(in srgb, var(--c) 62%, #fff) 0%, var(--c) 58%, color-mix(in srgb, var(--c) 82%, #000) 100%); }
+.art img { display: block; width: 32%; height: auto; aspect-ratio: 1; border-radius: 22%; box-shadow: 0 8px 22px rgb(0 0 0 / .28); }
+.art img.b { width: 25%; margin-left: -6%; transform: translateY(16%); }
+.art b { color: #fff; font: 700 clamp(1.3rem, 6vw, 3.4rem)/1 var(--serif); }
+.srows .art { width: 128px; border-radius: 6px; }
+.srows .art img { width: 38%; border-radius: 22%; box-shadow: 0 2px 6px rgb(0 0 0 / .25); }
+.srows .art img.b { width: 30%; }
+.story .art.big { aspect-ratio: 5 / 2; margin: 6px 0 4px; }
+.story .art.big img { width: 22%; }
+.story .art.big img.b { width: 17%; }
 .srows .ph { display: grid; place-items: center; background: var(--soft); color: var(--brand); font: 700 1.3rem var(--serif); }
 .srows li > a { text-decoration: none; }
 .srows h3 { margin: 6px 0 4px; font: 700 1.1rem/1.22 var(--serif); }
 .srows .one { margin: 0 0 4px; font-size: .92rem; color: var(--muted); }
-@media (max-width: 420px) { .srows li { grid-template-columns: 96px minmax(0, 1fr); } .srows img, .srows .ph { width: 96px; } }
+@media (max-width: 420px) { .srows li { grid-template-columns: 96px minmax(0, 1fr); } .srows img, .srows .ph, .srows .art { width: 96px; } }
 .dminis { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
 .dmini a { display: grid; gap: 4px; height: 100%; padding: 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--text); text-decoration: none; }
 .dmini a:hover { border-color: var(--brass); }
@@ -348,6 +360,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 <span class="tag">Shutdown</span><h1 id="story-h">Samsung News shuts down on 21 December</h1>
 <p class="dek">Samsung is ending its Samsung News feed on 21 December 2026. Its widget stops updating, and Samsung hasn't named a replacement.</p>
 <p class="meta">Use &amp; Like · 29 October 2026 · Source: <a href="https://www.androidauthority.com/samsung-news-shutdown-december-2026-3729509/" rel="noopener">Android Authority</a></p>
+<span class="art big" style="--c:#2b86ee" aria-hidden="true"><img src="/img/apps/samsung-news.webp" alt="" width="256" height="256" loading="lazy"><img src="/img/apps/samsung.webp" alt="" width="256" height="256" class="b" loading="lazy"></span>
 <div class="callout"><h2>What it means for you</h2><p>If you read news on your Galaxy phone's left home screen panel or in the Samsung News widget, that feed stops in December.</p></div>
 <div class="todo"><h2>What to do</h2><p>Remove the Samsung News widget from your home screen, as Samsung recommends, and pick another news app or Google Discover.</p></div>
 <div class="details"><h2>The details</h2><p>Samsung announced it in a notice inside the app. Personal data collected by the service will be deleted, except records the law requires Samsung to keep. The left-most home screen panel will likely show only Google Discover after that.</p><p class="meta">Where and when: Galaxy phones, until 21 December 2026</p></div>
@@ -367,9 +380,9 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 </ul></section>
 <section aria-labelledby="mn-h"><div class="sec-head"><h2 id="mn-h">More app news</h2><a href="/news/">All app news ›</a></div>
 <ul class="plain srows">
-<li><a href="/news/whatsapp-settings-redesign-in-testing/" tabindex="-1" aria-hidden="true"><span class="ph" aria-hidden="true">W</span></a><div><span class="tag rumor">In testing</span><h3><a href="/news/whatsapp-settings-redesign-in-testing/">WhatsApp is working on a new settings look for Android</a></h3><p class="one">Nothing changes for now: it's a design WhatsApp is working on for its Android app.</p><p class="meta">1 Nov · WABetaInfo</p></div></li>
-<li><a href="/news/microsoft-365-family-shared-storage/" tabindex="-1" aria-hidden="true"><span class="ph" aria-hidden="true">M</span></a><div><span class="tag">Heads-up</span><h3><a href="/news/microsoft-365-family-shared-storage/">Microsoft 365 Family: 2TB shared instead of 1TB each</a></h3><p class="one">A family that uses more than 2TB together will run out of space after the switch, even though each person had 1TB before.</p><p class="meta">31 Oct · Engadget, Microsoft Support</p></div></li>
-<li><a href="/news/android-sms-bug-drops-calls/" tabindex="-1" aria-hidden="true"><span class="ph" aria-hidden="true">A</span></a><div><span class="tag">Safety</span><h3><a href="/news/android-sms-bug-drops-calls/">A hidden text message can drop calls on Android phones</a></h3><p class="one">Phones without recent security updates could have calls cut off by a message you never see. Phones that no longer get updates may stay exposed.</p><p class="meta">30 Oct · Android Authority</p></div></li>
+<li><a href="/news/whatsapp-settings-redesign-in-testing/" tabindex="-1" aria-hidden="true"><span class="art sm" style="--c:#12e363" aria-hidden="true"><img src="/img/apps/whatsapp.webp" alt="" width="256" height="256" loading="lazy"></span></a><div><span class="tag rumor">In testing</span><h3><a href="/news/whatsapp-settings-redesign-in-testing/">WhatsApp is working on a new settings look for Android</a></h3><p class="one">Nothing changes for now: it's a design WhatsApp is working on for its Android app.</p><p class="meta">1 Nov · WABetaInfo</p></div></li>
+<li><a href="/news/microsoft-365-family-shared-storage/" tabindex="-1" aria-hidden="true"><span class="art sm" style="--c:#2badee" aria-hidden="true"><img src="/img/apps/microsoft-365.webp" alt="" width="256" height="256" loading="lazy"><img src="/img/apps/onedrive.webp" alt="" width="256" height="256" class="b" loading="lazy"></span></a><div><span class="tag">Heads-up</span><h3><a href="/news/microsoft-365-family-shared-storage/">Microsoft 365 Family: 2TB shared instead of 1TB each</a></h3><p class="one">A family that uses more than 2TB together will run out of space after the switch, even though each person had 1TB before.</p><p class="meta">31 Oct · Engadget, Microsoft Support</p></div></li>
+<li><a href="/news/android-sms-bug-drops-calls/" tabindex="-1" aria-hidden="true"><span class="art sm" style="--c:#5eba77" aria-hidden="true"><img src="/img/apps/android.webp" alt="" width="256" height="256" loading="lazy"></span></a><div><span class="tag">Safety</span><h3><a href="/news/android-sms-bug-drops-calls/">A hidden text message can drop calls on Android phones</a></h3><p class="one">Phones without recent security updates could have calls cut off by a message you never see. Phones that no longer get updates may stay exposed.</p><p class="meta">30 Oct · Android Authority</p></div></li>
 </ul></section>
 <p class="src">We write every story in our own words from its source and check the facts before it goes up. Source: <a href="https://www.androidauthority.com/samsung-news-shutdown-december-2026-3729509/" rel="noopener">Android Authority</a>.</p>
 </article>

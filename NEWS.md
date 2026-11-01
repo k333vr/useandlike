@@ -83,9 +83,12 @@ ahead, like a change that starts next week).
    - **skip** it (not a story, can't confirm the facts, or the link doesn't open and no other source has it).
    Merge several candidates about the same news into one story. Give the day's most important story rank 1 when it
    deserves to lead the front page.
-4. `node scripts/build-pages.js`, then `node scripts/check.js` and fix every FAIL (a word on the banned list: reword).
-5. Commit only `data/news/` and what the build changed (`news/`, `index.html`, `how-tos/`, `sitemap.xml`, the
-   category and tool pages): `git commit -m "News: <n> stories (<date>)"`, then `git push origin main` (main only:
+4. `python3 scripts/app-icons.py` (the App Store icon of every app named in "apps", shown as the story's picture when it
+   has none of its own; read what it picked and fix a wrong app in data/app-icons.json, see the script's notes), then
+   `node scripts/build-pages.js`, then `node scripts/check.js` and fix every FAIL (a word on the banned list: reword).
+   Write each app in "apps" the way people know it ("WhatsApp", "Google Maps"), one app per entry.
+5. Commit only `data/news/`, new app icons (`img/apps/`, `data/app-icons.json`) and what the build changed (`news/`,
+   `index.html`, `how-tos/`, `sitemap.xml`, the category and tool pages): `git commit -m "News: <n> stories (<date>)"`, then `git push origin main` (main only:
    Cloudflare deploys it in about a minute). Never change `_redirects`, the tools or anything else in this run.
 6. Check one new page on useandlike.com after a minute or two (curl it for its headline).
 7. Scripts: write one for every new full story of today (see "Scripts for the presenter" below) into

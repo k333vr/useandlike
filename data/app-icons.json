@@ -1,0 +1,176 @@
+{
+ "Android": {
+  "id": 6449987166,
+  "file": "img/apps/android.webp",
+  "color": "#5eba77",
+  "store_name": "Android Switch"
+ },
+ "Apple Music": {
+  "id": 1108187390,
+  "file": "img/apps/apple-music.webp",
+  "color": "#5b6472",
+  "store_name": "Apple Music"
+ },
+ "Apple TV": {
+  "id": 1174078549,
+  "file": "img/apps/apple-tv.webp",
+  "color": "#5e48d1",
+  "store_name": "Apple TV"
+ },
+ "ChatGPT": {
+  "id": 6448311069,
+  "file": "img/apps/chatgpt.webp",
+  "color": "#5b6472",
+  "store_name": "ChatGPT"
+ },
+ "Chromagraph Camera": {
+  "id": 6803329435,
+  "file": "img/apps/chromagraph-camera.webp",
+  "color": "#20909b",
+  "store_name": "Chromagraph Camera"
+ },
+ "Chrome": {
+  "id": 535886823,
+  "file": "img/apps/chrome.webp",
+  "color": "#eec42b",
+  "store_name": "Google Chrome"
+ },
+ "Discord": {
+  "id": 985746746,
+  "file": "img/apps/discord.webp",
+  "color": "#2b3aee",
+  "store_name": "Discord - Talk, Play, Hang Out"
+ },
+ "Eney": {
+  "id": 6757791741,
+  "file": "img/apps/eney.webp",
+  "color": "#e732cf",
+  "store_name": "Eney - AI Assistant"
+ },
+ "Gemini": {
+  "id": 6477489729,
+  "file": "img/apps/gemini.webp",
+  "color": "#2b7eee",
+  "store_name": "Google Gemini"
+ },
+ "Gmail": {
+  "id": 422689480,
+  "file": "img/apps/gmail.webp",
+  "color": "#ee312b",
+  "store_name": "Gmail - Email by Google"
+ },
+ "Google Docs": {
+  "id": 842842640,
+  "file": "img/apps/google-docs.webp",
+  "color": "#2b79ee",
+  "store_name": "Google Docs"
+ },
+ "Hulu": {
+  "id": 376510438,
+  "file": "img/apps/hulu.webp",
+  "color": "#285871",
+  "store_name": "Hulu: Stream TV shows & movies"
+ },
+ "iCloud Mail": {
+  "id": 1108187098,
+  "file": "img/apps/icloud-mail.webp",
+  "color": "#2b9cee",
+  "store_name": "Mail"
+ },
+ "Instagram": {
+  "id": 389801252,
+  "file": "img/apps/instagram.webp",
+  "color": "#ed27a5",
+  "store_name": "Instagram"
+ },
+ "iPhone": {
+  "id": 375380948,
+  "file": "img/apps/iphone.webp",
+  "color": "#2c8fcd",
+  "store_name": "Apple Store"
+ },
+ "MacBook Pro": {
+  "id": 375380948,
+  "file": "img/apps/macbook-pro.webp",
+  "color": "#2c8fcd",
+  "store_name": "Apple Store"
+ },
+ "Microsoft 365": {
+  "id": 541164041,
+  "file": "img/apps/microsoft-365.webp",
+  "color": "#2badee",
+  "store_name": "Microsoft Copilot"
+ },
+ "Netflix": {
+  "id": 363590051,
+  "file": "img/apps/netflix.webp",
+  "color": "#b8121b",
+  "store_name": "Netflix"
+ },
+ "OneDrive": {
+  "id": 477537958,
+  "file": "img/apps/onedrive.webp",
+  "color": "#2ba3ee",
+  "store_name": "Microsoft OneDrive"
+ },
+ "Rakuten": {
+  "id": 723134859,
+  "file": "img/apps/rakuten.webp",
+  "color": "#8d37d1",
+  "store_name": "Rakuten: Cash Back & Deals"
+ },
+ "Reddit": {
+  "id": 1064216828,
+  "file": "img/apps/reddit.webp",
+  "color": "#ec5219",
+  "store_name": "Reddit"
+ },
+ "Samsung": {
+  "id": 1274679179,
+  "file": "img/apps/samsung.webp",
+  "color": "#2b86ee",
+  "store_name": "Shop Samsung"
+ },
+ "Samsung News": {
+  "id": 1274679179,
+  "file": "img/apps/samsung-news.webp",
+  "color": "#2b86ee",
+  "store_name": "Shop Samsung"
+ },
+ "Samsung Wallet": {
+  "id": 1274679179,
+  "file": "img/apps/samsung-wallet.webp",
+  "color": "#2b86ee",
+  "store_name": "Shop Samsung"
+ },
+ "T-Mobile": {
+  "id": 1111876388,
+  "file": "img/apps/t-mobile.webp",
+  "color": "#d61176",
+  "store_name": "T-Life"
+ },
+ "TikTok": {
+  "id": 835599320,
+  "file": "img/apps/tiktok.webp",
+  "color": "#c8425d",
+  "store_name": "TikTok - Videos, Shop & LIVE"
+ },
+ "WhatsApp": {
+  "id": 310633997,
+  "file": "img/apps/whatsapp.webp",
+  "color": "#12e363",
+  "store_name": "WhatsApp Messenger"
+ },
+ "YouTube Premium": {
+  "id": 544007664,
+  "file": "img/apps/youtube-premium.webp",
+  "color": "#ed254c",
+  "store_name": "YouTube"
+ },
+ "YouTube TV": {
+  "id": 1193350206,
+  "file": "img/apps/youtube-tv.webp",
+  "color": "#ed264d",
+  "store_name": "YouTube TV"
+ }
+}
