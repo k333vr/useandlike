@@ -23,7 +23,10 @@ const ROOT = path.join(__dirname, "..");
 const NEWS = path.join(ROOT, "data", "news");
 const OUT = path.join(ROOT, "img", "stories");
 const STATE = path.join(ROOT, "data", "story-pictures.json");
-const DESIGN = "1";                        // bump to draw every picture again after a design change
+const DESIGN = "2";                        // bump to draw every picture again after a design change
+// 2 (Kevin, 2 Nov: "the logos seem smaller than they should be", then picked option B "same box, logo 2x bigger"):
+// the logo fills about 64% of the story picture's height and 80% of the small list picture's height (was 50%).
+const ART_ICON = 384, THUMB_ICON = 480;   // in the 1200x600 drawing; the list picture is that drawing at 320x160
 const ICONS = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "app-icons.json"), "utf8"));
 const FONT_FILES = { "Gelasio-700.ttf": ["Gelasio", "0,700"], "Gelasio-600italic.ttf": ["Gelasio", "1,600"],
   "Inter-600.ttf": ["Inter", "0,600"], "Inter-700.ttf": ["Inter", "0,700"], "Inter-800.ttf": ["Inter", "0,800"] };
@@ -128,10 +131,10 @@ function sharePage(s, seed) {
       <span style="font:600 22px/1 Inter;color:#cfd8e6;margin-left:10px">useandlike.com</span></div></div>`;
 }
 
-function artPage(s, seed, scale) {
+function artPage(s, seed, scale, big) {
   const icons = iconsOf(s), color = (icons[0] && icons[0].color) || "#2c63d8";
   return `<div style="width:${1200 * scale}px;height:${600 * scale}px;overflow:hidden"><div style="position:relative;width:1200px;height:600px;overflow:hidden;transform:scale(${scale});transform-origin:0 0">
-    ${ground(1200, 600, 600, 300, color, seed)}${iconBlock(icons, s, 600, 300, 300)}</div></div>`;
+    ${ground(1200, 600, 600, 300, color, seed)}${iconBlock(icons, s, 600, 300, big)}</div></div>`;
 }
 
 function defaultPage(seed) {
@@ -177,8 +180,8 @@ function defaultPage(seed) {
     for (const s of todo) {
       const seed = parseInt(fingerprint(s).slice(0, 6), 16) % 2147483646 + 1;
       await shot(sharePage(s, seed), 1200, 630, path.join(OUT, s.slug + ".jpg"));
-      await shot(artPage(s, seed, 1), 1200, 600, path.join(OUT, s.slug + "-art.jpg"));
-      await shot(artPage(s, seed, 320 / 1200), 320, 160, path.join(OUT, s.slug + "-thumb.jpg"));
+      await shot(artPage(s, seed, 1, ART_ICON), 1200, 600, path.join(OUT, s.slug + "-art.jpg"));
+      await shot(artPage(s, seed, 320 / 1200, THUMB_ICON), 320, 160, path.join(OUT, s.slug + "-thumb.jpg"));
       done[s.slug] = fingerprint(s);
     }
     if (needDefault) await shot(defaultPage(4242), 1200, 630, path.join(ROOT, "img", "share", "default.jpg"));
