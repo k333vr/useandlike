@@ -565,9 +565,32 @@ function storyThumb(s, w) {
   const t = s.thumb || storyPic(s, "-thumb");
   return t ? `<img src="${esc(t)}" alt="" width="${w}" height="${w / 2}" loading="lazy">` : storyArt(s, "sm");
 }
+// Cards (Kevin, 2 Nov: the picture boxes felt "cut off or not fitting ... maybe we should have just a bigger app logo
+// and behind the whole text some light background ... border colored", picked D + D): every story in a list and the
+// top story sit on a card in a soft tint of the app's colour, with the app's logo on its own (a second app small on
+// its corner; a letter on the app's colour when there is no logo). The colour is the card's --c.
+function storyApps(s) {
+  const apps = (s.apps || []).filter(a => typeof a === "string"), icons = [];
+  for (const a of apps) {
+    const e = APP_ICONS[a];
+    if (e && e.file && !icons.some(x => x.file === e.file) && fs.existsSync(path.join(ROOT, e.file))) icons.push(e);
+  }
+  const name = apps[0] || s.head;
+  let hash = 0;
+  for (const ch of name) hash = (hash * 31 + ch.charCodeAt(0)) >>> 0;
+  return { icons, name, color: (icons[0] && icons[0].color) || (APP_ICONS[name] || {}).color || ART_COLOURS[hash % ART_COLOURS.length] };
+}
+function appMark(s, cls) {
+  const { icons, name } = storyApps(s);
+  const inner = icons.length
+    ? icons.slice(0, 2).map((e, i) => `<img src="/${esc(e.file)}${e.v ? "?v=" + esc(e.v) : ""}" alt="" width="256" height="256"${i ? ' class="b"' : ""} loading="lazy">`).join("")
+    : `<b>${esc(name[0])}</b>`;
+  return `<span class="appmark ${cls}" aria-hidden="true">${inner}</span>`;
+}
+const cardColour = s => `--c:${esc(storyApps(s).color)}`;
 // Rumors, leaks and features in testing (Kevin, 1 Nov: "speculative ... we can frame them exactly like that"): amber tag.
 const tagHtml = s => (s.tag || s.rumor) ? `<span class="tag${s.rumor ? " rumor" : ""}">${esc(s.tag || "Rumor")}</span>` : "";
-const storyRow = s => `<li><a href="/${newsPath(s)}" tabindex="-1" aria-hidden="true">${storyThumb(s, 128)}</a><div>` +
+const storyRow = s => `<li style="${cardColour(s)}"><a href="/${newsPath(s)}" tabindex="-1" aria-hidden="true">${appMark(s, "sm")}</a><div>` +
   tagHtml(s) + `<h3><a href="/${newsPath(s)}">${esc(s.head)}</a></h3>` +
   `<p class="one">${esc(s.means || s.dek)}</p><p class="meta">${esc(shortDay(s.date))} · ${esc(s.sources.map(x => x.name).join(", "))}</p></div></li>`;
 const storyRows = list => `<ul class="plain srows">\n${list.map(storyRow).join("\n")}\n</ul>`;
@@ -742,13 +765,14 @@ function frontPage() {
   const lead = TOP_NEWS.find(s => s.rank === 1 && s.date >= leadFrom) || TOP_NEWS[0];
   if (!lead) return "";
   const latest = TOP_NEWS.filter(s => s !== lead).slice(0, 6);
-  const lp = leadPicture(lead), leadPic = lp && lp.src;
+  // The top story on a card like the list's (Kevin, 2 Nov: "D + D"); the picture styles of leadPicture() stay drawn by
+  // story-pictures.js for a later A/B test (data-lead-style says which one a page shows).
+  const leadPic = true;
   return [
     '<div class="front">',
     '<h1 class="sr-only">Use &amp; Like: app news, deals and how-tos</h1>',
-    `<section class="lead-story"${lp ? ` data-lead-style="${lp.style}"` : ""} aria-labelledby="lead-h">` +
-      `<a href="/${newsPath(lead)}" tabindex="-1" aria-hidden="true">` +
-      (lp ? `<img src="${esc(lp.src)}" alt="" width="${lp.w}" height="${lp.h}">` : storyArt(lead, "lg")) + "</a>" +
+    `<section class="lead-story card" style="${cardColour(lead)}" data-lead-style="card" aria-labelledby="lead-h">` +
+      `<a href="/${newsPath(lead)}" tabindex="-1" aria-hidden="true">${appMark(lead, "lg")}</a>` +
       `<div class="txt">${tagHtml(lead)}<h2 id="lead-h"><a href="/${newsPath(lead)}">${esc(lead.head)}</a></h2>` +
       `<p class="dek">${esc(lead.dek)}${leadPic && lead.details && !lead.details_in_todo ? " " + esc(lead.details) : ""}</p>` +
       `<p class="meta">${esc(shortDay(lead.date))} · Source: ${esc(lead.sources.map(x => x.name).join(", "))}</p></div></section>`,

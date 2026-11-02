@@ -87,6 +87,11 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   one per story) and `-lead7.jpg` (1200x400 "Today in apps"); 1 is `-art`, 5 the share picture. The front page shows one
   per top story, rotating by the story's date (`LEAD_STYLE` in build-pages.js: "" rotates, "4" keeps style 4); the lead
   section carries `data-lead-style` for a later A/B test.
+  Cards (2 Nov, later; Kevin: the boxes felt "cut off or not fitting", picked "D + D"): the home page's top story and every
+  story list show the app's logo on its own (`appMark` in build-pages.js; a second app small on its corner, a letter
+  when there's no logo) on a card in a soft tint of the app's colour (`--c` per card, CSS `.srows li`, `.lead-story.card`,
+  mixed with `--surface`, so dark mode works). The picture styles above are still drawn, unused for now (kept for an A/B
+  test); story pages keep their `-art.jpg` picture. Kevin's later idea: rank stories by clicks once there are enough.
 - Counted links (1 Nov 2026, Kevin: "maybe we can track those or highlight A b test them"): the footer's About / How
   we choose / How we make money / Work with us go through `/c-about`, `/c-choose`, `/c-money`, `/c-work` (block
   "# Counted site links" in _redirects), so Cloudflare counts clicks as totals. A/B test: the "Run an app or a brand?"

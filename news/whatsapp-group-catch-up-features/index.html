@@ -301,8 +301,24 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 .lead-story.noimg .dek { max-width: 62ch; font-size: 1.05rem; }
 .split { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 30px; align-items: start; }
 @media (max-width: 860px) { .split { grid-template-columns: minmax(0, 1fr); } }
-.srows li { display: grid; grid-template-columns: 128px minmax(0, 1fr); gap: 14px; padding: 13px 0; border-bottom: 1px solid var(--line); }
+/* Story cards (Kevin, 2 Nov, "D + D"): a soft tint of the app's colour (--c, set per card by build-pages.js) behind the
+   whole story, the app's logo on its own */
+.srows { display: grid; gap: 12px; }
+.srows li { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 18px; align-items: start; padding: 16px 18px;
+  border: 1px solid color-mix(in srgb, var(--c, #2c63d8) 30%, var(--surface)); border-radius: 16px;
+  background: color-mix(in srgb, var(--c, #2c63d8) 8%, var(--surface)); }
 .srows img, .srows .ph { display: block; width: 128px; height: auto; aspect-ratio: 2 / 1; object-fit: cover; border-radius: 6px; }
+.appmark { position: relative; display: block; width: 76px; height: 76px; }
+.srows .appmark img, .appmark img { display: block; width: 100%; height: 100%; aspect-ratio: 1; border-radius: 22%; box-shadow: 0 3px 10px rgb(0 0 0 / .18); }
+.srows .appmark img.b, .appmark img.b { position: absolute; right: -7px; bottom: -7px; width: 47%; height: 47%; border: 2px solid var(--surface); box-shadow: none; }
+.appmark b { display: grid; place-items: center; width: 100%; height: 100%; border-radius: 22%; background: var(--c, #1a46a6); color: #fff; font: 700 2.1rem/1 var(--serif); }
+.lead-story.card { grid-template-columns: 200px minmax(0, 1fr); gap: 32px; align-items: center; padding: 32px; border-radius: 22px;
+  background: color-mix(in srgb, var(--c, #2c63d8) 10%, var(--surface)); border: 1px solid color-mix(in srgb, var(--c, #2c63d8) 32%, var(--surface)); }
+.lead-story > a { text-decoration: none; }
+.lead-story .appmark.lg { width: 200px; height: 200px; }
+.lead-story .appmark.lg b { font-size: 6rem; }
+@media (max-width: 760px) { .lead-story.card { grid-template-columns: minmax(0, 1fr); gap: 16px; padding: 20px; }
+  .lead-story .appmark.lg { width: 110px; height: 110px; } .lead-story .appmark.lg b { font-size: 3.4rem; } }
 /* A story's apps as its picture: icons on the app's colour (build-pages.js storyArt) */
 .art { display: flex; align-items: center; justify-content: center; width: 100%; aspect-ratio: 2 / 1; border-radius: 10px; overflow: hidden;
   background-color: var(--c); background-image: linear-gradient(135deg, color-mix(in srgb, var(--c) 62%, #fff) 0%, var(--c) 58%, color-mix(in srgb, var(--c) 82%, #000) 100%); }
@@ -319,7 +335,8 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 .srows li > a { text-decoration: none; }
 .srows h3 { margin: 6px 0 4px; font: 700 1.1rem/1.22 var(--serif); }
 .srows .one { margin: 0 0 4px; font-size: .92rem; color: var(--muted); }
-@media (max-width: 420px) { .srows li { grid-template-columns: 96px minmax(0, 1fr); } .srows img, .srows .ph, .srows .art { width: 96px; } }
+@media (max-width: 420px) { .srows li { grid-template-columns: 60px minmax(0, 1fr); gap: 14px; padding: 14px; } .srows .appmark { width: 60px; height: 60px; }
+  .srows img, .srows .ph, .srows .art { width: 96px; } }
 .dminis { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
 .dmini a { display: grid; gap: 4px; height: 100%; padding: 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--text); text-decoration: none; }
 .dmini a:hover { border-color: var(--brass); }
@@ -416,9 +433,9 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 </ul></section>
 <section aria-labelledby="mn-h"><div class="sec-head"><h2 id="mn-h">More app news</h2><a href="/news/">All app news ›</a></div>
 <ul class="plain srows">
-<li><a href="/news/apple-watch-wrong-hour-fix/" tabindex="-1" aria-hidden="true"><img src="/img/stories/apple-watch-wrong-hour-fix-thumb.jpg?v=5a111f46" alt="" width="128" height="64" loading="lazy"></a><div><span class="tag">Heads-up</span><h3><a href="/news/apple-watch-wrong-hour-fix/">Apple Watch shows the wrong hour after the clock change: the fix</a></h3><p class="one">If your watch face shows the old time when your wrist is down, the watch itself still has the right time and your alarms still work.</p><p class="meta">1 Nov · MacRumors, iClarified</p></div></li>
-<li><a href="/news/whatsapp-settings-redesign-in-testing/" tabindex="-1" aria-hidden="true"><img src="/img/stories/whatsapp-settings-redesign-in-testing-thumb.jpg?v=0b80348e" alt="" width="128" height="64" loading="lazy"></a><div><span class="tag rumor">In testing</span><h3><a href="/news/whatsapp-settings-redesign-in-testing/">WhatsApp is working on a new settings look for Android</a></h3><p class="one">Nothing changes for now: it's a design WhatsApp is working on for its Android app.</p><p class="meta">1 Nov · WABetaInfo</p></div></li>
-<li><a href="/news/chatgpt-codex-shared-allowance/" tabindex="-1" aria-hidden="true"><img src="/img/stories/chatgpt-codex-shared-allowance-thumb.jpg?v=98e1793e" alt="" width="128" height="64" loading="lazy"></a><div><span class="tag">Price change</span><h3><a href="/news/chatgpt-codex-shared-allowance/">ChatGPT and Codex will draw from one usage allowance</a></h3><p class="one">If you use both ChatGPT and Codex on a Pro plan, heavy Codex use can leave less for your chats, and the other way round.</p><p class="meta">1 Nov · BleepingComputer</p></div></li>
+<li style="--c:#2f855a"><a href="/news/apple-watch-wrong-hour-fix/" tabindex="-1" aria-hidden="true"><span class="appmark sm" aria-hidden="true"><b>A</b></span></a><div><span class="tag">Heads-up</span><h3><a href="/news/apple-watch-wrong-hour-fix/">Apple Watch shows the wrong hour after the clock change: the fix</a></h3><p class="one">If your watch face shows the old time when your wrist is down, the watch itself still has the right time and your alarms still work.</p><p class="meta">1 Nov · MacRumors, iClarified</p></div></li>
+<li style="--c:#25D366"><a href="/news/whatsapp-settings-redesign-in-testing/" tabindex="-1" aria-hidden="true"><span class="appmark sm" aria-hidden="true"><img src="/img/apps/whatsapp.webp?v=6db87887" alt="" width="256" height="256" loading="lazy"></span></a><div><span class="tag rumor">In testing</span><h3><a href="/news/whatsapp-settings-redesign-in-testing/">WhatsApp is working on a new settings look for Android</a></h3><p class="one">Nothing changes for now: it's a design WhatsApp is working on for its Android app.</p><p class="meta">1 Nov · WABetaInfo</p></div></li>
+<li style="--c:#5b6472"><a href="/news/chatgpt-codex-shared-allowance/" tabindex="-1" aria-hidden="true"><span class="appmark sm" aria-hidden="true"><img src="/img/apps/chatgpt.webp?v=bd44e726" alt="" width="256" height="256" loading="lazy"></span></a><div><span class="tag">Price change</span><h3><a href="/news/chatgpt-codex-shared-allowance/">ChatGPT and Codex will draw from one usage allowance</a></h3><p class="one">If you use both ChatGPT and Codex on a Pro plan, heavy Codex use can leave less for your chats, and the other way round.</p><p class="meta">1 Nov · BleepingComputer</p></div></li>
 </ul></section>
 <p class="src">We write every story in our own words from its source and check the facts before it goes up. Source: <a href="https://wabetainfo.com/whatsapp-launches-four-updates-to-help-users-catch-up-in-groups/" rel="noopener">WABetaInfo</a>.</p>
 </article>
