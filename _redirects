@@ -558,13 +558,6 @@
 /c-work-strip      https://useandlike.com/work-with-us/  302
 # /c-work-b: the footer's Work with us link on page views that show the strip (A = /c-work, B = /c-work-b + /c-work-strip)
 /c-work-b          https://useandlike.com/work-with-us/  302
-# Channel links (2 Nov 2026, Kevin: "no marketing so far except the link in the channel description ... hmm"): the
-# website link in each channel's Links section, so Cloudflare counts the visitors each channel page sends (the free
-# plan doesn't show where a visitor came from). Counted by useandlike-ops/analysis/site-links.py.
-/yt-htr            https://useandlike.com/  302
-/yt-gg             https://useandlike.com/  302
-/yt-lp             https://useandlike.com/  302
-
 # FlexOffers (How To Rocket only: the approved traffic source; never on Guide Glimpse, Logic Protocol or the site)
 /deel               https://deel.fxo.co/g/1579752/228251/1038938300/DxCPTgc  302
 /webflow            https://webflow.fxo.co/g/1579752/235952/122637334/DxCPTgc  302
