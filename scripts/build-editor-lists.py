@@ -76,6 +76,18 @@ LINK_ONLY_NOTE = {"Skool": "Only on videos for people who would start their own 
                            "Skool vs …, reviews, pricing, tutorials. Not on settings videos (profile, password, payouts …).",
                   "Whop": "Only on videos for people who would start selling on Whop: selling products, communities or "
                           "courses, setting up a store, Whop vs …, reviews. Not on clipping, buying or joining videos."}
+# Game links that pay per install on a computer (BlueStacks, Kevin 2 Nov: "these are specifically for installs ... make a
+# note"): their 👉 line says "Play <game> free on PC", and the page and the new-video box remind the team to say it.
+PLAY_SOURCES = {"BlueStacks"}
+PLAY_NOTE = ("Pays only when someone installs the game on a computer (PC or Mac) through this link; installs on a phone "
+             "pay nothing. Say it in the video: “You can play {name} free on your PC; the link is in the description.” "
+             "Best on videos for people new to the game: review, is it worth it, A vs B, beginner guide, on PC.")
+
+
+def line_for(written, href, play=False):
+    return ("👉 Play %s free on PC (affiliate): %s" if play else "👉 Try %s (affiliate): %s") % (written, href)
+
+
 # Links a network allows on one channel only: "only" in data/short-links.json (FlexOffers, 15 Oct: it approved How To
 # Rocket and turned down useandlike.com and Guide Glimpse). The page marks them, and the new-video box offers them only
 # once the uploader has picked that channel. scripts/check.js keeps FlexOffers links off the site's Visit buttons.
@@ -131,7 +143,7 @@ def make_matcher(tools, links=None):
     DistroKid, Trip.com ... got no 👉 line); a link for one channel only ("only" in short-links.json) needs that channel."""
     href = {t["name"]: "useandlike.com/" + t["slug"] for t in tools}
     written = {t["name"]: LINE_NAME.get(t["name"], t["name"]) for t in tools}
-    only = {}
+    only, play = {}, set()
     guides = [(k, slug) for slug, _, keys in cancel_guides() for k in keys]
     guides.sort(key=lambda k: -len(k[0]))
     gpat = [(re.compile(r"(?<![a-z0-9])" + re.escape(k) + r"(?![a-z0-9])"), s) for k, s in guides]
@@ -139,6 +151,8 @@ def make_matcher(tools, links=None):
     for l in links or []:
         if not l["tool"] and l["name"] not in href:
             href[l["name"]], written[l["name"]], only[l["name"]] = l["href"], l["written"], l["only"]
+            if l.get("play"):
+                play.add(l["name"])
             keys += [(k, l["name"]) for k in link_keys(l)]
     keys.sort(key=lambda k: -len(k[0]))
     tpat = [(re.compile(r"(?<![a-z0-9])" + re.escape(k) + r"(?![a-z0-9])"), n) for k, n in keys]
@@ -171,7 +185,7 @@ def make_matcher(tools, links=None):
             if len(found) < 2:
                 found = [t for t in [tool_in(title, title, channel)] if t]
             if found:
-                return "tool", ["👉 Try %s (affiliate): %s" % (written[t], href[t]) for t in found] + [NEWSLETTER_LINE]
+                return "tool", [line_for(written[t], href[t], t in play) for t in found] + [NEWSLETTER_LINE]
         return "newsletter only", [NEWSLETTER_LINE]
     return lines_for
 
@@ -307,8 +321,9 @@ def read_links(tools):
         # "direct": the brand's own link goes in the 👉 line, because its rules forbid masked links (Synthesia, 30 Oct:
         # "Don't Mask or Hide Affiliate Links"); a site tool always uses its short link (the Visit button needs it).
         href = target if x.get("direct") and not t else "useandlike.com/" + slug
+        play = not t and x.get("source") in PLAY_SOURCES
         links.append({"slug": slug, "name": name, "cat": t["category"] if t else x.get("group", "Other"), "written": written,
-                      "line": "👉 Try %s (affiliate): %s" % (written, href), "href": href,
+                      "line": line_for(written, href, play), "href": href, "play": play,
                       "only": x.get("only", ""), "source": x.get("source", ""),
                       "tool": bool(t), "worth": float(x.get("worth") or 0), "deal": slug in deals})
     return links
@@ -337,6 +352,8 @@ def write_links_page(tools):
                     'code.</p>' % (esc(l["written"]), esc(l["name"])))
         if l["name"] in LINK_ONLY_NOTE:
             note += '<p class="note">%s</p>' % esc(LINK_ONLY_NOTE[l["name"]])
+        if l["play"]:
+            note += '<p class="note">%s</p>' % esc(PLAY_NOTE.format(name=l["name"]))
         if l["href"] != "useandlike.com/" + l["slug"]:
             note += ('<p class="note">%s doesn’t allow short links: always paste this full link, never '
                      'useandlike.com/%s.</p>' % (esc(l["name"]), esc(l["slug"])))
@@ -390,6 +407,7 @@ def write_links_page(tools):
                       "d": by_slug[l["slug"]]["description"] if l["slug"] in by_slug else l["cat"] + (" (" + about + ")" if about else ""),
                       "o": o.pattern if o else "", "on": LINK_ONLY_NOTE.get(l["name"], ""), **({"c": l["only"]} if l["only"] else {}),
                       **({"u": l["href"]} if l["href"] != "useandlike.com/" + l["slug"] else {}),   # its own link, no short link
+                      **({"pl": 1, "pn": PLAY_NOTE.format(name=l["name"])} if l["play"] else {}),    # pays per install on a computer
                       **({"tp": offers[l["slug"]], "dl": int(l["deal"]), "st": int(l["tool"]), "v": l["worth"]}
                          if offers.get(l["slug"]) else {})})
     box = {"items": items, "sets": sets, "guides": [{"s": s, "n": n, "k": k} for s, n, k in cancel_guides()],
@@ -1218,7 +1236,8 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
     PROTECT = {};
     (its.length ? names(its) : guide ? guide.n : "").toLowerCase().split(/[^a-z0-9']+/).forEach(function (w) { if (w) PROTECT[w] = 1; });
     var links = guide ? ["👉 Step-by-step guide: subscriptionchef.app/cancel/" + guide.s]
-              : its.map(function (x) { return "👉 Try " + x.w + " (affiliate): " + (x.u || "useandlike.com/" + x.s); });
+              : its.map(function (x) { return (x.pl ? "👉 Play " + x.w + " free on PC (affiliate): " : "👉 Try " + x.w + " (affiliate): ") + (x.u || "useandlike.com/" + x.s); });
+    its.forEach(function (x) { if (x.pl && note.indexOf(x.pn) < 0) note = (note ? note + " " : "") + x.pn; });
     var subj = it ? it.n : guide ? guide.n : "";
     var cmp = its.length > 1 ? its : null;   // a comparison of our tools: their clean names for the question and sentence
     pin.value = [question(title, subj, cmp)].concat(links, [BOX.pinNews]).join("\n");
