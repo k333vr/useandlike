@@ -8,6 +8,7 @@ front page lead and the story pages, so a story without a picture of its own sti
 Where a picture comes from, first match wins:
   1. Kevin's pick in the Studio's Icons tab (studio.useandlike.com/#icons): another App Store app, a logo from the
      thumbnail tool, an uploaded picture, a picture link, or just the letter. This script applies it on the next run.
+  1b. A device or system (iPhone, Apple Watch, macOS, Pixel Watch, Windows 11 ...): its maker's logo (MAKERS).
   2. The thumbnail tool's app library (tngg.app, saved by the editors for the YouTube thumbnails), same name; read only.
   3. The App Store: the app whose name starts with ours, most rated first, if it passes trusted() (2 Nov: same name,
      or name + colon/dash, or the brand's own website or company); else the letter stays and the Icons tab says which
@@ -45,10 +46,27 @@ STORE_TERMS = {"copilot": "Microsoft Copilot", "outlook": "Microsoft Outlook", "
                "word": "Microsoft Word", "excel": "Microsoft Excel", "powerpoint": "Microsoft PowerPoint",
                "edge": "Microsoft Edge", "bing": "Microsoft Bing", "onenote": "Microsoft OneNote",
                "gemini": "Google Gemini", "drive": "Google Drive", "maps": "Google Maps", "chrome": "Google Chrome"}
+# Devices and systems have no app of their own, so they show their maker's logo (Kevin, 2 Nov: the Apple Watch story
+# showed "just an A not Apple logo"). Whole name, lowercase -> {"picture": a file in data/makers/} or {"thumbnails":
+# a name in the thumbnail tool}. data/makers/apple.png: the Apple logo (Simple Icons' outline, CC0) centred on black,
+# drawn once by Playwright. Apple's apps (Apple Music, Apple TV, Siri ...) keep their own icons: the patterns only
+# cover the hardware and the systems.
+MAKERS = [
+    (r"apple|apple (watch|vision pro|intelligence|pencil|silicon)( .*)?|(iphone|ipad|imac|macbook|airpods|airtag|homepod)"
+     r"( .*)?|mac( (mini|studio|pro))?|vision pro|(ios|ipados|macos|watchos|visionos|tvos)( .*)?",
+     {"picture": "data/makers/apple.png", "maker": "Apple"}),
+    (r"(google )?pixel( .*)?", {"thumbnails": "google", "maker": "Google"}),
+    (r"windows( .*)?", {"thumbnails": "windows", "maker": "Microsoft"}),
+]
 
 
 def store_term(name):
     return STORE_TERMS.get(norm(name), name)
+
+
+def maker_for(name):
+    low = re.sub(r"\s+", " ", name.lower()).strip()
+    return next((src for pattern, src in MAKERS if re.fullmatch(pattern, low)), None)
 
 
 def slugify(name):
@@ -387,6 +405,24 @@ def main():
         entry = icons.setdefault(name, {})
         if entry.get("chosen") or entry.get("none"):
             continue
+        maker = maker_for(name)
+        if maker:                                   # a device or system: its maker's logo (MAKERS)
+            hit = library.get(maker.get("thumbnails"))
+            try:
+                if "picture" in maker:
+                    raw = open(os.path.join(ROOT, maker["picture"]), "rb").read()
+                    h = hashlib.sha1(raw).hexdigest()[:12]
+                    if entry.get("source") != "maker" or entry.get("hash") != h or not has_file(entry):
+                        save(name, entry, raw, "maker", store_name=maker["maker"], hash=h)
+                        changed.append("%s (maker's logo)" % name)
+                elif hit and (entry.get("source") != "thumbnails" or entry.get("tngg") != hit["id"] or not has_file(entry)):
+                    from_tngg(name, entry, hit)
+                    changed.append("%s (maker's logo)" % name)
+            except Exception as e:
+                print("%s: the maker's logo could not be read: %s" % (name, e))
+            if has_file(entry) and (entry.get("source") == "maker" or hit and entry.get("tngg") == hit["id"]):
+                entry["note"] = "%s's logo (a device or system has no app of its own): pick another here if you like" % maker["maker"]
+                continue
         hit = library.get(ALIASES.get(norm(name), norm(name)))
         if hit and entry.get("source") != "thumbnails" and entry.get("tngg_skip") != hit["id"]:
             try:

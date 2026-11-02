@@ -6,7 +6,7 @@
   "amazon-blocks-meta-muse-shopping": "846bba62",
   "android-sms-bug-drops-calls": "5d799fb6",
   "apple-music-android-redesign": "b7fb08d7",
-  "apple-watch-wrong-hour-fix": "5a111f46",
+  "apple-watch-wrong-hour-fix": "8f5ad317",
   "chatgpt-codex-shared-allowance": "98e1793e",
   "chatgpt-device-limit-paid-accounts": "743b46e5",
   "chatgpt-dots-text-messages": "d37037e2",
@@ -25,13 +25,13 @@
   "gemini-notebook-free-textbooks": "0f87fe2c",
   "google-ai-plus-loses-pro-models": "43bbdc4d",
   "instagram-long-videos-test": "ba10511c",
-  "ios-27-2-four-live-games": "e650b231",
-  "ios-27-apple-intelligence-storage": "f944fc52",
-  "macbook-pro-touchscreen": "7f7e20ce",
+  "ios-27-2-four-live-games": "f093fda6",
+  "ios-27-apple-intelligence-storage": "5ccb33b8",
+  "macbook-pro-touchscreen": "479fe3d4",
   "meta-style-sketch-outfit-app": "0ce8ba6a",
   "microsoft-365-family-shared-storage": "900c4ec9",
   "new-outlook-unified-inbox-delayed": "893934ed",
-  "pixel-watch-battery-drain-fix-coming": "928b26c7",
+  "pixel-watch-battery-drain-fix-coming": "49db487a",
   "reddit-account-for-most-pages": "acdc7966",
   "reddit-for-you-feed": "d4c6b27f",
   "samsung-news-shutting-down": "c2fff4a0",
@@ -41,13 +41,13 @@
   "tiktok-must-eat-restaurant-guide": "ff695fba",
   "whatsapp-group-catch-up-features": "c220c93f",
   "whatsapp-settings-redesign-in-testing": "0b80348e",
-  "windows-11-customize-right-click-menu": "2750f8a7",
+  "windows-11-customize-right-click-menu": "9e78fff3",
   "youtube-bug-exits-full-screen": "726c9798",
   "youtube-tv-premium-offer": "952ea411"
  },
  "leads": {
-  "apple-watch-wrong-hour-fix": "43195b1a",
-  "macbook-pro-touchscreen": "263a710c",
-  "reddit-account-for-most-pages": "c3182b3c"
+  "apple-watch-wrong-hour-fix": "714bce77",
+  "macbook-pro-touchscreen": "b5d92eca",
+  "reddit-account-for-most-pages": "0a08764c"
  }
 }

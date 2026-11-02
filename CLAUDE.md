@@ -67,7 +67,10 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   `scripts/app-icons.py` -> `img/apps/<slug>.webp` + `data/app-icons.json`, Kevin 1 Nov: "looks strange just with the letters";
   later: "combine them with the app logos we already have for the thumbnails but still changeable on click": Kevin's pick in
   the Studio's Icons tab (studio.useandlike.com/#icons, table app_icons, applied on the next daily run) wins, then the
-  thumbnail tool's saved logo (tngg.app's D1 `tngg-studio` + R2, read only), then the App Store; each run re-checks for new logos; latest news beside the checked deals, newsletter box via
+  thumbnail tool's saved logo (tngg.app's D1 `tngg-studio` + R2, read only), then the App Store; each run re-checks for new logos;
+  devices and systems (iPhone, Apple Watch, macOS, Pixel Watch, Windows 11) show their maker's logo (`MAKERS` in
+  app-icons.py; Apple: `data/makers/apple.png`; Kevin, 2 Nov: the Apple Watch top story showed "just an A not Apple logo");
+  latest news beside the checked deals, newsletter box via
   `[data-join]`, one-liners, how-tos). Recommended how-tos everywhere: only videos with a new thumbnail
   (`data/new-thumbs.json`, refreshed by useandlike-ops/analysis/new-thumbs-sync.py) and never cancel/refund/"free" titles.
 - Story pictures (2 Nov 2026, Kevin on the examples: "the story designs are also fire, that's how it should also look on

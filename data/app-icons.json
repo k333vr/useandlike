@@ -7,7 +7,7 @@
   "id": 440676901,
   "store_name": "Agoda: Cheap Flights & Hotels",
   "developer": "Agoda.com",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/eb/5a/5aeb5a27-61f3-7df1-e25b-571af62079bb/AppIcon-0-0-1x_U007epad-0-1-0-0-0-GLES2_U002c0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/94/17/949417d2-807b-750f-383e-1c311facb437/AppIcon-0-0-1x_U007epad-0-1-0-0-0-GLES2_U002c0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it",
   "tngg_skip": 14
  },
@@ -53,7 +53,13 @@
   "v": "31a61468"
  },
  "Apple Watch": {
-  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+  "source": "maker",
+  "file": "img/apps/apple-watch.webp",
+  "color": "#5b6472",
+  "v": "c4e27bb9",
+  "store_name": "Apple",
+  "hash": "4b2f442351b2",
+  "note": "Apple's logo (a device or system has no app of its own): pick another here if you like"
  },
  "ChatGPT": {
   "id": 6448311069,
@@ -173,24 +179,22 @@
   "hash": "dd30c353ae2d"
  },
  "iPhone": {
-  "id": 375380948,
   "file": "img/apps/iphone.webp",
-  "color": "#2c8fcd",
-  "store_name": "Apple Store",
-  "source": "appstore",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/83/16/7b831651-30d2-55a7-aabe-a0d6053df222/AppIcon-0-1x_U007epad-0-0-0-1-0-0-85-220-0.png/512x512bb.jpg",
-  "developer": "Apple",
-  "v": "6e540585"
+  "color": "#5b6472",
+  "source": "maker",
+  "v": "c4e27bb9",
+  "store_name": "Apple",
+  "hash": "4b2f442351b2",
+  "note": "Apple's logo (a device or system has no app of its own): pick another here if you like"
  },
  "MacBook Pro": {
-  "id": 375380948,
   "file": "img/apps/macbook-pro.webp",
-  "color": "#2c8fcd",
-  "store_name": "Apple Store",
-  "source": "appstore",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/83/16/7b831651-30d2-55a7-aabe-a0d6053df222/AppIcon-0-1x_U007epad-0-0-0-1-0-0-85-220-0.png/512x512bb.jpg",
-  "developer": "Apple",
-  "v": "6e540585"
+  "color": "#5b6472",
+  "source": "maker",
+  "v": "c4e27bb9",
+  "store_name": "Apple",
+  "hash": "4b2f442351b2",
+  "note": "Apple's logo (a device or system has no app of its own): pick another here if you like"
  },
  "Meta AI": {
   "source": "appstore",
@@ -243,7 +247,14 @@
   "note": "picked automatically: check it"
  },
  "Pixel Watch": {
-  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+  "source": "thumbnails",
+  "file": "img/apps/pixel-watch.webp",
+  "color": "#3286FF",
+  "v": "d7539627",
+  "tngg": 89,
+  "store_name": "Google",
+  "hash": "8f6ecafad68e",
+  "note": "Google's logo (a device or system has no app of its own): pick another here if you like"
  },
  "Rakuten": {
   "id": 723134859,
@@ -349,7 +360,14 @@
   "hash": "82a734f23c99"
  },
  "Windows 11": {
-  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+  "source": "thumbnails",
+  "file": "img/apps/windows-11.webp",
+  "color": "#0179D5",
+  "v": "6f39dfea",
+  "tngg": 75,
+  "store_name": "Windows",
+  "hash": "16aa9e6ee68c",
+  "note": "Microsoft's logo (a device or system has no app of its own): pick another here if you like"
  },
  "YouTube": {
   "source": "thumbnails",
