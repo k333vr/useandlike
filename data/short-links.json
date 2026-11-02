@@ -632,6 +632,15 @@
   "worth": 3.6,
   "added": "2026-10-13"
  },
+ "coursera": {
+  "name": "Coursera",
+  "group": "Learning",
+  "source": "Involve Asia",
+  "only": "htr",
+  "pays": "a share of each sale (CPS), through Involve Asia",
+  "countries": "worldwide",
+  "added": "2026-11-02"
+ },
  "cratejoy": {
   "name": "Cratejoy",
   "group": "Online Stores & Funnels",

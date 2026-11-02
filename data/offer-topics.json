@@ -214,6 +214,7 @@
     "booking": ["@hotels", "@flights", "@cars", "@stays"],
     "boom-blast": ["boom blast", "@pcgames"],
     "call-of-dragons": ["call of dragons", "@pcgames"],
+    "coursera": ["@courses", "professional certificate", "google certificate", "ibm certificate", "online degree"],
     "creditstrong": ["@credit"],
     "crimson-realm": ["crimson realm", "desert immortal", "@pcgames"],
     "easeus": ["@recovery", "clone hard drive", "clone ssd", "disk partition", "backup computer", "backup pc"],
