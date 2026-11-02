@@ -1,0 +1,30 @@
+{
+ "slug": "agoda-ai-assistant-21-markets",
+ "date": "2026-10-30",
+ "added": "2026-11-02",
+ "topic": "Travel",
+ "tag": "New feature",
+ "category": "Travel",
+ "head": "Agoda's app adds an AI assistant that plans and books trips",
+ "dek": "Agoda's AI Assistant is now in its app in 21 markets, including the US, India, Australia, Japan, Singapore and the UAE, after a limited test that started in September. You can plan, compare and book in one chat.",
+ "details": "It checks live prices and availability across Agoda's more than 6 million places to stay, plus flights, tours and attractions. The chat runs on OpenAI models; restaurant and sight details come from Google Maps through Gemini. Bookings, saved ideas and unfinished plans collect on a trip planner page.",
+ "where": "Agoda app on iPhone and Android, 21 markets",
+ "means": "If you book with Agoda, you can describe a trip in plain words and get options you can book right away, instead of searching hotels and flights one by one.",
+ "todo": "Update the Agoda app and tap the AI Assistant tab in the bar at the bottom. Check dates and prices before you pay.",
+ "rank": 8,
+ "apps": [
+  "Agoda"
+ ],
+ "item": 19124,
+ "sources": [
+  {
+   "name": "IT Brief Australia",
+   "url": "https://itbrief.com.au/story/agoda-rolls-out-ai-assistant-across-21-travel-markets"
+  },
+  {
+   "name": "Lowyat.NET",
+   "url": "https://www.lowyat.net/2026/408813/agoda-ai-assistant/"
+  }
+ ],
+ "checked": "2026-11-02"
+}

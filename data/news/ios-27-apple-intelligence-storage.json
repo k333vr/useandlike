@@ -1,0 +1,26 @@
+{
+ "slug": "ios-27-apple-intelligence-storage",
+ "date": "2026-11-01",
+ "added": "2026-11-02",
+ "topic": "Apple",
+ "tag": "Heads-up",
+ "head": "iOS 27: Apple Intelligence takes up to 16 GB, and a workaround",
+ "dek": "People who updated to iOS 27 report that Apple Intelligence uses about 9 to 16 GB of iPhone storage, GSMArena writes. That includes phones in regions where the features aren't available, like the EU.",
+ "details": "Turning off Apple Intelligence or Siri doesn't give the space back. A workaround shared by Reddit users and tested by GSMArena: set Siri to an English variant that Apple Intelligence doesn't support (Canadian, Irish, South African or New Zealand English), then restart; the space used drops to about 100 MB. Apple Intelligence and the new Siri features then stop working, because they need US or UK English.",
+ "where": "iPhones on iOS 27",
+ "means": "If your iPhone ran out of space after iOS 27, Apple Intelligence may be the reason, and switching it off alone won't fix it.",
+ "todo": "If you don't use Apple Intelligence, change Siri's language to Canadian, Irish, South African or New Zealand English and restart the phone. Changing your Apple Account's region isn't recommended: it can mean cancelling subscriptions.",
+ "rank": 5,
+ "apps": [
+  "iPhone",
+  "Siri"
+ ],
+ "item": 16919,
+ "sources": [
+  {
+   "name": "GSMArena",
+   "url": "https://www.gsmarena.com/users_report_abnormally_high_storage_allocation_for_apple_intelligence_after_updating_to_ios_27-news-75256.php"
+  }
+ ],
+ "checked": "2026-11-02"
+}

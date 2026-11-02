@@ -1,0 +1,25 @@
+{
+ "slug": "new-outlook-unified-inbox-delayed",
+ "date": "2026-11-01",
+ "added": "2026-11-02",
+ "topic": "Email",
+ "tag": "Update",
+ "head": "New Outlook's unified inbox now due by late November",
+ "dek": "Microsoft pushed back the rollout of the All Accounts view, which puts mail from all your accounts in one inbox, in the new Outlook for Windows. It now expects to finish by late November instead of late October.",
+ "details": "The rollout began in late September. Windows Latest says it also works with free accounts, with ads. Once it reaches you, you may need to turn it on yourself. Some Outlook Classic users will be moved to the new Outlook automatically in 2027, with the option to switch back.",
+ "where": "New Outlook for Windows, rolling out until late November 2026",
+ "means": "If you were waiting for one shared inbox before leaving Outlook Classic, it may not be in your new Outlook yet.",
+ "todo": "Nothing to do yet. When it arrives, check whether All Accounts view is on.",
+ "rank": 6,
+ "apps": [
+  "Outlook"
+ ],
+ "item": 16209,
+ "sources": [
+  {
+   "name": "Windows Latest",
+   "url": "https://www.windowslatest.com/2026/11/01/stick-with-outlook-classic-for-now-as-microsoft-delays-new-outlooks-unified-inbox-a-feature-windows-10s-free-mail-app-had-for-years/"
+  }
+ ],
+ "checked": "2026-11-02"
+}

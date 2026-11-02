@@ -1,0 +1,26 @@
+{
+ "slug": "amazon-blocks-meta-muse-shopping",
+ "date": "2026-11-01",
+ "added": "2026-11-02",
+ "topic": "Shopping",
+ "tag": "Heads-up",
+ "head": "Amazon stops Meta's Muse AI agent from buying on its site",
+ "dek": "Amazon has blocked Meta's Muse shopping agent from making purchases on Amazon, citing safety concerns, according to The Wall Street Journal. Walmart and Shopify have made deals with Meta to work with Muse instead.",
+ "details": "Meta launched Muse in September as a personal AI agent for shopping, travel bookings and budgets; Meta says more than 10 million people in the US and Canada set one up in the first month and a half. Amazon's CEO Andy Jassy said the company hopes to work with outside AI agents.",
+ "where": "Muse users in the US and Canada",
+ "means": "If you use Muse to shop, it can't complete purchases on Amazon for now. Walmart and Shopify have made deals with Meta for Muse.",
+ "todo": "Nothing to do. To buy something on Amazon, order it yourself in the Amazon app or website.",
+ "rank": 7,
+ "apps": [
+  "Meta AI",
+  "Amazon"
+ ],
+ "item": 17905,
+ "sources": [
+  {
+   "name": "Digital Trends",
+   "url": "https://www.digitaltrends.com/computing/amazon-is-saying-bye-bye-to-muse-while-walmart-is-rolling-out-the-welcome-mat-for-metas-shopping-agent/"
+  }
+ ],
+ "checked": "2026-11-02"
+}

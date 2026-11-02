@@ -1,0 +1,25 @@
+{
+ "slug": "youtube-bug-exits-full-screen",
+ "date": "2026-10-31",
+ "added": "2026-11-02",
+ "topic": "Video",
+ "tag": "Heads-up",
+ "head": "YouTube bug pops videos out of full screen and cuts the sound",
+ "dek": "YouTube users on Android and iPhone report on Reddit that videos jump from full screen into the mini-player on their own, and the audio stops. Sammy Fans says reports go back to early October.",
+ "details": "Clearing the cache, reinstalling, restarting the phone and changing settings didn't help the users who tried. There's no confirmed fix, and Google hasn't commented yet.",
+ "where": "YouTube app on Android and iPhone",
+ "means": "If your videos keep shrinking and going silent, it's likely a problem in YouTube itself, not your phone.",
+ "todo": "Close the video and play it again to get the sound back; if that doesn't work, close and reopen the YouTube app. Update the app when a new version comes out.",
+ "rank": 4,
+ "apps": [
+  "YouTube"
+ ],
+ "item": 16128,
+ "sources": [
+  {
+   "name": "Sammy Fans",
+   "url": "https://www.sammyfans.com/2026/10/31/youtube-has-a-new-annoying-bug-that-kicks-videos-out-of-full-screen/"
+  }
+ ],
+ "checked": "2026-11-02"
+}

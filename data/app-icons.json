@@ -1,4 +1,26 @@
 {
+ "Agoda": {
+  "source": "appstore",
+  "file": "img/apps/agoda.webp",
+  "color": "#eeb32b",
+  "v": "3f8a1ae2",
+  "id": 440676901,
+  "store_name": "Agoda: Cheap Flights & Hotels",
+  "developer": "Agoda.com",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/eb/5a/5aeb5a27-61f3-7df1-e25b-571af62079bb/AppIcon-0-0-1x_U007epad-0-1-0-0-0-GLES2_U002c0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Amazon": {
+  "source": "appstore",
+  "file": "img/apps/amazon.webp",
+  "color": "#d9933f",
+  "v": "a4679f85",
+  "id": 297606951,
+  "store_name": "Amazon Shopping",
+  "developer": "AMZN Mobile LLC",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/99/f1/ff99f196-706f-c781-196d-00391ce216b3/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Android": {
   "id": 6449987166,
   "file": "img/apps/android.webp",
@@ -29,6 +51,9 @@
   "developer": "Apple",
   "v": "31a61468"
  },
+ "Apple Watch": {
+  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+ },
  "ChatGPT": {
   "id": 6448311069,
   "file": "img/apps/chatgpt.webp",
@@ -40,14 +65,14 @@
   "v": "bd44e726"
  },
  "Chromagraph Camera": {
-  "id": 6803329435,
   "file": "img/apps/chromagraph-camera.webp",
   "color": "#20909b",
-  "store_name": "Chromagraph Camera",
   "source": "appstore",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/1b/8c/0c1b8cbe-6d9d-1781-35d1-6027e16a025a/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
+  "v": "30a796e7",
+  "id": 6803329435,
+  "store_name": "Chromagraph Camera",
   "developer": "Chromatic Applications LLC",
-  "v": "30a796e7"
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/2d/d7/9e2dd727-7f0b-f3c2-b86b-b39bd1f86ac9/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg"
  },
  "Chrome": {
   "file": "img/apps/chrome.webp",
@@ -57,6 +82,17 @@
   "tngg": 8,
   "store_name": "Google Chrome",
   "hash": "6ef0b8f22e74"
+ },
+ "Codex": {
+  "source": "appstore",
+  "file": "img/apps/codex.webp",
+  "color": "#4557d4",
+  "v": "76bc592b",
+  "id": 6764463488,
+  "store_name": "Codex Relay - Remote Codex App",
+  "developer": "Kang Sungyu",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/c1/3d/d0c13d85-3ab9-640e-4dd0-b18f4e27a513/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
  },
  "Discord": {
   "file": "img/apps/discord.webp",
@@ -95,15 +131,24 @@
   "store_name": "Gmail",
   "hash": "4bfd97236b5e"
  },
+ "Google": {
+  "source": "thumbnails",
+  "file": "img/apps/google.webp",
+  "color": "#3286FF",
+  "v": "d7539627",
+  "tngg": 89,
+  "store_name": "Google",
+  "hash": "8f6ecafad68e"
+ },
  "Google Docs": {
-  "id": 842842640,
   "file": "img/apps/google-docs.webp",
   "color": "#2b79ee",
-  "store_name": "Google Docs",
   "source": "appstore",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/1b/b6/971bb613-cb14-8d1d-4771-5cc546510749/docs_2026_ios-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg",
+  "v": "6f2dd59d",
+  "id": 842842640,
+  "store_name": "Google Docs",
   "developer": "Google",
-  "v": "6f2dd59d"
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/91/fe/4191febf-4ea8-2f55-4c4b-3f7eec3503e8/docs_2026_ios-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg"
  },
  "Hulu": {
   "id": 376510438,
@@ -154,6 +199,17 @@
   "developer": "Apple",
   "v": "6e540585"
  },
+ "Meta AI": {
+  "source": "appstore",
+  "file": "img/apps/meta-ai.webp",
+  "color": "#4b2bee",
+  "v": "d1bb3297",
+  "id": 1558240027,
+  "store_name": "Meta AI",
+  "developer": "Meta Platforms, Inc.",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/f3/c3/8af3c3d6-bfc8-f15a-51f3-a475999bc537/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Microsoft 365": {
   "id": 541164041,
   "file": "img/apps/microsoft-365.webp",
@@ -181,6 +237,12 @@
   "tngg": 88,
   "store_name": "OneDrive",
   "hash": "bf6aa0dea012"
+ },
+ "Outlook": {
+  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+ },
+ "Pixel Watch": {
+  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
  },
  "Rakuten": {
   "id": 723134859,
@@ -231,6 +293,31 @@
   "developer": "Samsung Electronics America, Inc.",
   "v": "7d0c13d6"
  },
+ "Siri": {
+  "source": "appstore",
+  "file": "img/apps/siri.webp",
+  "color": "#4a99cf",
+  "v": "3d2bab87",
+  "id": 6758482875,
+  "store_name": "Siri",
+  "developer": "Apple",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/1e/eb/ed1eeb6e-f8a2-9d55-2447-948be9ce20f3/siriCalistoga-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Spotify": {
+  "source": "appstore",
+  "file": "img/apps/spotify.webp",
+  "color": "#0fbb50",
+  "v": "1d6cfa74",
+  "id": 324684580,
+  "store_name": "Spotify: Music and Podcasts",
+  "developer": "Spotify",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/f2/6a/8bf26ab9-3ced-cb5c-a2b3-19f65e7f5cc6/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Style Sketch": {
+  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+ },
  "T-Mobile": {
   "id": 1111876388,
   "file": "img/apps/t-mobile.webp",
@@ -259,6 +346,18 @@
   "tngg": 81,
   "store_name": "WhatsApp",
   "hash": "82a734f23c99"
+ },
+ "Windows 11": {
+  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+ },
+ "YouTube": {
+  "source": "thumbnails",
+  "file": "img/apps/youtube.webp",
+  "color": "#FF0000",
+  "v": "724e2b7a",
+  "tngg": 28,
+  "store_name": "YouTube",
+  "hash": "027ea80d3190"
  },
  "YouTube Premium": {
   "id": 544007664,

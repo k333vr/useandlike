@@ -1,0 +1,25 @@
+{
+ "slug": "chatgpt-device-limit-paid-accounts",
+ "date": "2026-11-01",
+ "added": "2026-11-02",
+ "topic": "AI",
+ "tag": "Heads-up",
+ "head": "ChatGPT now limits paid accounts per device and payment card",
+ "dek": "OpenAI caps how many paid ChatGPT subscriptions can share one payment card or one device. Past the limit, new subscriptions can't be started and the app shows \"Device limit reached\".",
+ "details": "The limits cover ChatGPT Go, Plus, Pro 100, Pro 200 and Pro 500; free accounts and Business, Enterprise and Edu plans don't count. According to OpenAI's support page, logging out of an account doesn't free up its spot on the device. OpenAI points people who need more to extra credits or usage resets instead.",
+ "where": "All paid personal ChatGPT plans",
+ "means": "If you switch between several paid ChatGPT accounts on one phone or computer, or pay for several with one card, some of them may stop working there.",
+ "todo": "Keep one paid account per device. If you hit the limit, logging out won't help; buying credits or a usage reset are the options OpenAI names.",
+ "rank": 4,
+ "apps": [
+  "ChatGPT"
+ ],
+ "item": 17076,
+ "sources": [
+  {
+   "name": "The Decoder",
+   "url": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/"
+  }
+ ],
+ "checked": "2026-11-02"
+}

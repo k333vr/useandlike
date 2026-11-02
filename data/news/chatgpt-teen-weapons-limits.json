@@ -1,0 +1,25 @@
+{
+ "slug": "chatgpt-teen-weapons-limits",
+ "date": "2026-10-30",
+ "added": "2026-11-02",
+ "topic": "AI",
+ "tag": "Safety",
+ "head": "ChatGPT tightens answers on weapons for teens and on past attacks",
+ "dek": "OpenAI said ChatGPT will stop giving teen accounts practical information about weapons and security systems, even for harmless-looking questions. For everyone, it will give less detail about past mass attacks.",
+ "details": "The changes start rolling out in the next few weeks. ChatGPT can end chats that show signs of fixation on violence, and OpenAI may pause an account after several. Its age prediction now keeps checking signals; adults moved to the teen experience by mistake can confirm their age through Persona.",
+ "where": "ChatGPT, rolling out over the next few weeks",
+ "means": "If your teen uses ChatGPT, it will refuse more questions about weapons. If you're an adult and suddenly get teen limits, you can verify your age.",
+ "todo": "Parents: link your account to your teen's to get alerts. Adults placed in the teen experience by mistake: confirm your age through Persona.",
+ "rank": 10,
+ "apps": [
+  "ChatGPT"
+ ],
+ "item": 15247,
+ "sources": [
+  {
+   "name": "The Next Web",
+   "url": "https://thenextweb.com/news/chatgpt-teen-safety-weapons-limits-community-safety-report"
+  }
+ ],
+ "checked": "2026-11-02"
+}

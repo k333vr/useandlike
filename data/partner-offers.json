@@ -1,6 +1,6 @@
 {
  "_about": "Written by scripts/partner-offers.py from the Studio's deal tracker (the brands' offer lists on our partner network, Yazing). Don't edit by hand: the next daily run rewrites it. Hand-checked deals live in data/deals.json.",
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "offers": [
   {
    "slug": "openart",
@@ -833,7 +833,7 @@
    "group": "Travel",
    "text": "Get Huge Savings of at Least 30% on Bookings",
    "code": null,
-   "seen": "2026-11-01"
+   "seen": "2026-11-02"
   },
   {
    "slug": "tiqets",
@@ -945,8 +945,8 @@
    "slug": "greatvaluevacations",
    "brand": "Great Value Vacations",
    "group": "Travel",
-   "text": "Ireland Vacation Sale: Save Up to $450 Per Person with Air, Hotels, Activities & More Included",
-   "code": "IRESALE",
+   "text": "Bewitching Getaways Sale: Save Up to $500 on Select Vacation Packages with Air, Hotel & More Included",
+   "code": "SPELLBOUND",
    "seen": "2026-11-01"
   },
   {
@@ -974,18 +974,18 @@
    "seen": "2026-11-01"
   },
   {
-   "slug": "wondershare",
-   "brand": "Wondershare",
-   "group": "Video Creation",
-   "text": "Trick or Treat: How About 79% OFF PDFelement V13",
-   "code": null,
-   "seen": "2026-11-01"
-  },
-  {
    "slug": "videogen",
    "brand": "VideoGen",
    "group": "Video Creation",
    "text": "Get 50% off All Annual Plans",
+   "code": null,
+   "seen": "2026-11-01"
+  },
+  {
+   "slug": "wondershare",
+   "brand": "Wondershare",
+   "group": "Video Creation",
+   "text": "Enjoy up to 45% off Recoverit",
    "code": null,
    "seen": "2026-11-01"
   },
@@ -995,7 +995,7 @@
    "group": "Video Creation",
    "text": "15% off Sitewide",
    "code": "PTNAFFDIS011026ALLLC",
-   "seen": "2026-11-01"
+   "seen": "2026-11-02"
   },
   {
    "slug": "tunnelbear",
@@ -1003,7 +1003,7 @@
    "group": "VPN & Privacy",
    "text": "Fall Sale - Get 70% off",
    "code": null,
-   "seen": "2026-11-01"
+   "seen": "2026-11-02"
   },
   {
    "slug": "bitdefender",
@@ -1019,7 +1019,7 @@
    "group": "VPN & Privacy",
    "text": "55% off Your Order",
    "code": null,
-   "seen": "2026-11-01"
+   "seen": "2026-11-02"
   },
   {
    "slug": "keeper",
@@ -1027,7 +1027,7 @@
    "group": "VPN & Privacy",
    "text": "Holiday Promotion - 50% off Consumer and 30% off Business",
    "code": null,
-   "seen": "2026-11-01"
+   "seen": "2026-11-02"
   },
   {
    "slug": "intego",
@@ -1035,7 +1035,7 @@
    "group": "VPN & Privacy",
    "text": "Save 30% on Intego One Advanced",
    "code": null,
-   "seen": "2026-11-01"
+   "seen": "2026-11-02"
   },
   {
    "slug": "qustodio",
@@ -1043,7 +1043,7 @@
    "group": "VPN & Privacy",
    "text": "Get 15% off Leading Edge",
    "code": "LEADING15",
-   "seen": "2026-11-01"
+   "seen": "2026-11-02"
   },
   {
    "slug": "eset",
@@ -1059,7 +1059,7 @@
    "group": "VPN & Privacy",
    "text": "Free Trial Offer",
    "code": null,
-   "seen": "2026-11-01"
+   "seen": "2026-11-02"
   },
   {
    "slug": "superantispyware",
@@ -1067,7 +1067,7 @@
    "group": "VPN & Privacy",
    "text": "Professional X Edition Was: $74.95 Now: $19.99",
    "code": null,
-   "seen": "2026-11-01"
+   "seen": "2026-11-02"
   },
   {
    "slug": "tenable",
@@ -1075,7 +1075,7 @@
    "group": "VPN & Privacy",
    "text": "Free Trial",
    "code": null,
-   "seen": "2026-11-01"
+   "seen": "2026-11-02"
   },
   {
    "slug": "cloudways",

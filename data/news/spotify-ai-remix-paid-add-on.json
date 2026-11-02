@@ -1,0 +1,26 @@
+{
+ "slug": "spotify-ai-remix-paid-add-on",
+ "date": "2026-10-31",
+ "added": "2026-11-02",
+ "topic": "Music",
+ "tag": "Rumor",
+ "rumor": true,
+ "head": "Spotify reportedly plans paid AI remixes for early 2027",
+ "dek": "Spotify is working on an AI feature that turns songs into remixes or covers, aiming for early 2027, according to the Financial Times as reported by PCMag. Spotify hasn't announced it.",
+ "details": "One source told the FT it could cost 4 to 5 dollars a month on top of a subscription; price and timing aren't settled. Spotify has deals with Universal Music Group, Merlin and Believe and is negotiating with Sony Music and Warner Music. Artists would reportedly get royalties and could refuse to have their music used.",
+ "where": "Not confirmed; reportedly early 2027",
+ "means": "Nothing changes now. If it launches as reported, remixing would be an extra paid option, not part of the normal subscription.",
+ "todo": "Nothing to do yet.",
+ "rank": 5,
+ "apps": [
+  "Spotify"
+ ],
+ "item": 15254,
+ "sources": [
+  {
+   "name": "PCMag",
+   "url": "https://www.pcmag.com/news/spotify-eyes-early-2027-release-for-ai-remix-tool"
+  }
+ ],
+ "checked": "2026-11-02"
+}

@@ -1,0 +1,29 @@
+{
+ "slug": "pixel-watch-battery-drain-fix-coming",
+ "date": "2026-10-30",
+ "added": "2026-11-02",
+ "topic": "Google",
+ "tag": "Heads-up",
+ "head": "Google is working on a fix for Pixel Watch battery drain",
+ "dek": "Google said on Reddit that it has identified the problem behind sudden battery drain on some Pixel Watches and is working on a fix. It didn't give a date, only \"as soon as possible\".",
+ "details": "Owners of the Pixel Watch 2 and 3 first reported watches that went from about two days per charge to under 12 hours; Android Police lists the Pixel Watch 2, 3, 4 and 5 as affected. Factory resets didn't help. Google says only a small number of users are affected.",
+ "where": "Pixel Watch 2, 3, 4 and 5; fix not out yet",
+ "means": "If your Pixel Watch suddenly needs charging much more often, it's a known problem, and a reset won't fix it.",
+ "todo": "Install watch updates as they arrive; the fix will come as a software update.",
+ "rank": 9,
+ "apps": [
+  "Pixel Watch"
+ ],
+ "item": 14189,
+ "sources": [
+  {
+   "name": "Android Police",
+   "url": "https://www.androidpolice.com/pixel-watch-drain-issue-is-on-googles-radar-with-a-fix-incoming/"
+  },
+  {
+   "name": "Droid Life",
+   "url": "https://www.droid-life.com/2026/10/29/pixel-watch-2-and-3-battery-drain-affecting-owners/"
+  }
+ ],
+ "checked": "2026-11-02"
+}

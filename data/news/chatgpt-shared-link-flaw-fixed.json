@@ -1,0 +1,25 @@
+{
+ "slug": "chatgpt-shared-link-flaw-fixed",
+ "date": "2026-10-31",
+ "added": "2026-11-02",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "OpenAI fixed a ChatGPT share-link flaw that exposed private chats",
+ "dek": "Researchers at the security firm Parameter showed that a booby-trapped ChatGPT share link could run their code in the signed-in session of whoever opened it and read that person's private chats. OpenAI fixed it by 26 October.",
+ "details": "Parameter reported the flaw on 18 October through OpenAI's bug bounty program; OpenAI rated it P1, its most serious category. In one version, opening the link was the only step needed. Parameter tested it between its own accounts and reports no use against real users.",
+ "where": "ChatGPT on the web; fixed by 26 October 2026",
+ "means": "The hole is closed, so there's nothing to fix on your side. It's a reminder that a shared chat link from a stranger is a link like any other.",
+ "todo": "Nothing to do for this flaw. Be careful with ChatGPT links from people you don't know, as with any link.",
+ "rank": 3,
+ "apps": [
+  "ChatGPT"
+ ],
+ "item": 16435,
+ "sources": [
+  {
+   "name": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html"
+  }
+ ],
+ "checked": "2026-11-02"
+}

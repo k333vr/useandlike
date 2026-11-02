@@ -1,0 +1,29 @@
+{
+ "slug": "apple-watch-wrong-hour-fix",
+ "date": "2026-11-01",
+ "added": "2026-11-02",
+ "topic": "Apple",
+ "tag": "Heads-up",
+ "head": "Apple Watch shows the wrong hour after the clock change: the fix",
+ "dek": "Apple published a support note for watches whose Always On display stays one hour off after daylight saving time ends. The wrong hour only shows while your wrist is down.",
+ "details": "Raising your wrist or tapping the screen shows the correct time, and alarms aren't affected. MacRumors had reported the same problem in Europe when clocks went back there. Apple says the display corrects itself at midnight after the time change.",
+ "where": "Apple Watch, after the 1 November clock change in most of the US",
+ "means": "If your watch face shows the old time when your wrist is down, the watch itself still has the right time and your alarms still work.",
+ "todo": "Switch to another watch face and back (touch and hold the face, swipe, tap), or restart the watch with the side button. Or wait until midnight. Keep watchOS updated.",
+ "rank": 1,
+ "apps": [
+  "Apple Watch"
+ ],
+ "item": 17091,
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/01/apple-offers-steps-to-fix-dst-apple-watch-bug/"
+  },
+  {
+   "name": "iClarified",
+   "url": "https://www.iclarified.com/103221/apple-shares-fix-for-apple-watch-showing-wrong-time-after-daylight-saving-change"
+  }
+ ],
+ "checked": "2026-11-02"
+}

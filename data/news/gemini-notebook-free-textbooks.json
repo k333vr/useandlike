@@ -1,0 +1,25 @@
+{
+ "slug": "gemini-notebook-free-textbooks",
+ "date": "2026-10-30",
+ "added": "2026-11-02",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "Gemini Notebook adds hundreds of free textbooks",
+ "dek": "Google opened a free catalog of hundreds of textbooks in Gemini Notebook, from OpenStax, the Open Textbook Library and India's S Chand Publishing. Once added, you can ask about chapters and get quizzes, flashcards and study guides.",
+ "details": "Answers come with citations and links to the passages in the book. Google also recently gave Gemini Notebook a lecture recorder on mobile.",
+ "where": "Gemini Notebook",
+ "means": "If you study from one of these textbooks, you can quiz yourself on it without paying for the book.",
+ "todo": "Open Gemini Notebook, choose Add sources, then Textbooks, and pick a book.",
+ "rank": 11,
+ "apps": [
+  "Gemini"
+ ],
+ "item": 14128,
+ "sources": [
+  {
+   "name": "Digital Trends",
+   "url": "https://www.digitaltrends.com/computing/google-gemini-notebook-hundreds-free-textbooks/"
+  }
+ ],
+ "checked": "2026-11-02"
+}

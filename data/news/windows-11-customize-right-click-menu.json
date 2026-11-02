@@ -1,0 +1,25 @@
+{
+ "slug": "windows-11-customize-right-click-menu",
+ "date": "2026-10-29",
+ "added": "2026-11-02",
+ "topic": "Windows",
+ "tag": "New feature",
+ "head": "Windows 11 lets you choose what's in the right-click menu",
+ "dek": "Microsoft's optional preview update KB5127936 for Windows 11 25H2 and 26H2 adds a \"Customize menu\" option at the bottom of the right-click menu. You pick which commands and app add-ons show up.",
+ "details": "You can add or remove commands like Print and move app add-ons into a sub-menu. Cut, Copy, Paste, Rename, Delete and Share can show as plain text lines instead of the row of icons, closer to Windows 10. Microsoft says the menu also opens faster. It's rolling out gradually, so not everyone sees the option right after installing.",
+ "where": "Windows 11 25H2 and 26H2, optional preview update, rolling out gradually",
+ "means": "If the Windows 11 right-click menu feels cluttered, you can soon trim it without extra tools.",
+ "todo": "To try it now: Settings > Windows Update > Advanced options > Optional updates, then install KB5127936.",
+ "rank": 6,
+ "apps": [
+  "Windows 11"
+ ],
+ "item": 19024,
+ "sources": [
+  {
+   "name": "PCWorld",
+   "url": "https://www.pcworld.com/article/3272348/windows-11s-right-click-menu-is-revamped-you-can-customize-it-now.html"
+  }
+ ],
+ "checked": "2026-11-02"
+}

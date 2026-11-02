@@ -1,0 +1,25 @@
+{
+ "slug": "chatgpt-codex-shared-allowance",
+ "date": "2026-11-01",
+ "added": "2026-11-02",
+ "topic": "AI",
+ "tag": "Price change",
+ "head": "ChatGPT and Codex will draw from one usage allowance",
+ "dek": "OpenAI told Pro subscribers by email that their ChatGPT and Codex use will come out of the same allowance. It will also test putting the Work tab's features into normal chats with a small group of users in the coming weeks.",
+ "details": "Unlimited Instant stays included and doesn't count toward the shared limit; more advanced models and longer tasks use up more. When the allowance runs out you can wait for the reset, upgrade or buy credits for eligible features. Codex stays a separate part of the ChatGPT desktop app. OpenAI had already doubled Work and Codex allowances for Pro 100, Pro 200 and Pro 500 on 29 October.",
+ "where": "ChatGPT Pro plans; the combined Chat and Work test starts with a small group",
+ "means": "If you use both ChatGPT and Codex on a Pro plan, heavy Codex use can leave less for your chats, and the other way round.",
+ "todo": "Check what's left and when it resets under Settings > Usage in ChatGPT.",
+ "rank": 3,
+ "apps": [
+  "ChatGPT"
+ ],
+ "item": 18595,
+ "sources": [
+  {
+   "name": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/"
+  }
+ ],
+ "checked": "2026-11-02"
+}

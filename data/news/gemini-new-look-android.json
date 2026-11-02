@@ -1,0 +1,26 @@
+{
+ "slug": "gemini-new-look-android",
+ "date": "2026-10-31",
+ "added": "2026-11-02",
+ "topic": "Google",
+ "tag": "Update",
+ "head": "Gemini gets a new sparkling look on Android phones",
+ "dek": "Google is rolling out a new design for the Gemini overlay on Android, with glowing dots and a sparkle animation around the \"Ask Gemini\" box. It comes through the Google app, so it isn't limited to new Pixel phones.",
+ "details": "After the animation, the edges of the text box look slightly shaded. The change is easier to see in dark mode than in light mode.",
+ "where": "Android, rolling out through the Google app",
+ "means": "If Gemini looks different when you open it, that's this update; it works the same way.",
+ "todo": "Update the Google app in the Play Store. If the new look doesn't show, force-stop the Google app and open it again.",
+ "rank": 6,
+ "apps": [
+  "Gemini",
+  "Google"
+ ],
+ "item": 16126,
+ "sources": [
+  {
+   "name": "Sammy Fans",
+   "url": "https://www.sammyfans.com/2026/10/31/google-brings-new-sparkling-gemini-design-to-all-android-phones/"
+  }
+ ],
+ "checked": "2026-11-02"
+}

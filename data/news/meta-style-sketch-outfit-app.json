@@ -1,0 +1,26 @@
+{
+ "slug": "meta-style-sketch-outfit-app",
+ "date": "2026-10-29",
+ "added": "2026-11-02",
+ "topic": "Shopping",
+ "tag": "New app",
+ "head": "Meta's new Style Sketch app plans outfits from your own clothes",
+ "dek": "Meta quietly released Style Sketch, an AI app that builds a virtual closet and suggests outfits from clothes you already own. It's out on iPhone and Android in Indonesia, Singapore and Thailand.",
+ "details": "It can build the closet from photos you posted on Instagram, or you add items by photo, short video or camera roll. It shows outfits on a model matched to your body shape and skin tone, can build looks around one item, and plans day-by-day outfits for trips using the weather forecast. Meta hasn't said whether it will come to more countries.",
+ "where": "iPhone and Android, Indonesia, Singapore and Thailand",
+ "means": "If you live in one of the three countries, you can try it now; elsewhere it isn't available yet.",
+ "todo": "Nothing to do outside those countries. If you try it, check what it may take from your Instagram account before you connect it.",
+ "rank": 7,
+ "apps": [
+  "Style Sketch",
+  "Instagram"
+ ],
+ "item": 19127,
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/"
+  }
+ ],
+ "checked": "2026-11-02"
+}
