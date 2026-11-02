@@ -5,6 +5,13 @@
 //                               someone shares the story, and the large picture Google Discover can show (og:image)
 //   <slug>-art.jpg    1200x600  the same look without words: the story page's picture and the front page lead
 //   <slug>-thumb.jpg   320x160  the small picture in story lists
+// and for stories with rank 1 (the ones that can lead the front page) three more top-story pictures (Kevin, 2 Nov:
+// options 1, 2, 4, 5 and 7, "we can switch between those and track traffic a b test it later"; build-pages.js picks one
+// a day, LEAD_STYLE there):
+//   <slug>-lead2.jpg  1200x400  a band: the logo, the app's name and the tag
+//   <slug>-lead4.jpg  1200x600  a presenter beside the logo (a different lady and outfit per story, data/presenters.json)
+//   <slug>-lead7.jpg  1200x400  "Today in apps": the story's logo and the day's other apps
+// (option 1 is -art.jpg, option 5 the share picture).
 // plus img/share/default.jpg, the share picture of every other page. A story with a picture of its own ("image")
 // keeps it on the page; the share picture is made for it anyway.
 // Look: the app's icon(s) on its colour inside our royal blue, the tag, the headline (share picture only), our mark.
@@ -30,6 +37,11 @@ const DESIGN = "3";                        // bump to draw every picture again a
 // its height); two logos stay at 486 so the second one isn't cut off at the bottom.
 const ART_ICON = 384, THUMB_ICON = 528, THUMB_TWO = 486;   // in the 1200x600 drawing; the list picture is that drawing at 320x160
 const ICONS = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "app-icons.json"), "utf8"));
+const LEAD_DESIGN = "1";                   // bump to draw the top-story pictures again
+// The presenters for option 4: cut-outs in img/presenters/ (useandlike-ops/brand/people/presenters-jobs.json, cut out
+// with brand/cutout.py), each story gets one by its fingerprint, so the front page shows different ladies and outfits.
+const PRESENTERS = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, "data", "presenters.json"), "utf8")).presenters || []; } catch (_) { return []; } })()
+  .filter(x => fs.existsSync(path.join(ROOT, x.file)));
 const FONT_FILES = { "Gelasio-700.ttf": ["Gelasio", "0,700"], "Gelasio-600italic.ttf": ["Gelasio", "1,600"],
   "Inter-600.ttf": ["Inter", "0,600"], "Inter-700.ttf": ["Inter", "0,700"], "Inter-800.ttf": ["Inter", "0,800"] };
 // Tag colours on the pictures (light pill, dark text).
@@ -139,6 +151,52 @@ function artPage(s, seed, scale, big) {
     ${ground(1200, 600, 600, 300, color, seed)}${iconBlock(icons, s, 600, 300, big)}</div></div>`;
 }
 
+const tagPill = (tag, px) => { const [bg, fg] = TAG[tag] || ["#dfe6ef", "#0f2a66"];
+  return `<span style="align-self:flex-start;font:800 ${px}px/1 Inter;letter-spacing:2px;text-transform:uppercase;color:${fg};background:${bg};padding:${px / 2}px ${px * 0.7}px;border-radius:999px">${esc(tag)}</span>`; };
+
+// Option 2: a 3:1 band, the logo left, the tag and the app's name right.
+function bandPage(s, seed) {
+  const icons = iconsOf(s), color = (icons[0] && icons[0].color) || "#2c63d8";
+  const tag = s.tag || (s.rumor ? "In testing" : ""), name = (s.apps || [])[0] || "";
+  return `<div style="position:relative;width:1200px;height:400px;overflow:hidden">${ground(1200, 400, 330, 200, color, seed)}
+    ${iconBlock(icons.slice(0, 1), s, 330, 200, 270)}
+    <div style="position:absolute;left:520px;top:0;bottom:0;right:50px;display:flex;flex-direction:column;justify-content:center;gap:22px">
+      ${tag ? tagPill(tag, 26) : ""}<div style="font:700 ${name.length > 14 ? 70 : 92}px/1.05 Gelasio;color:#fff;text-shadow:0 3px 14px rgba(0,0,30,.35)">${esc(name)}</div></div></div>`;
+}
+
+// Option 4: a presenter beside the logo, like a still from a news show. She stands on the side she isn't pointing to
+// ("side": "left" in data/presenters.json for the ones who present toward the right).
+function presenterPage(s, seed, who) {
+  const icons = iconsOf(s), color = (icons[0] && icons[0].color) || "#2c63d8";
+  const left = who.side === "left", cx = left ? 820 : 380;
+  return `<div style="position:relative;width:1200px;height:600px;overflow:hidden">${ground(1200, 600, cx, 300, color, seed)}
+    ${iconBlock(icons, s, cx, 290, 340)}
+    <img src="${dataUri(who.file)}" style="position:absolute;${left ? "left" : "right"}:30px;bottom:-60px;height:680px;filter:drop-shadow(0 20px 40px rgba(0,0,30,.45))">
+    <div style="position:absolute;left:${cx - 200}px;width:400px;text-align:center;bottom:34px;font:800 24px/1 Inter;letter-spacing:4px;color:#f6cf5a">DAILY APP NEWS</div></div>`;
+}
+
+// Option 7: "Today in apps", the story's logo first and bigger, then the day's other apps.
+function todayPage(s, seed, others) {
+  const icons = iconsOf(s), color = (icons[0] && icons[0].color) || "#2c63d8";
+  const small = others.map(e => `<img src="${dataUri(e.file)}" style="width:130px;height:130px;border-radius:30px;box-shadow:0 14px 34px rgba(0,0,30,.35)">`).join("");
+  const big = icons.length ? `<img src="${dataUri(icons[0].file)}" style="width:230px;height:230px;border-radius:53px;box-shadow:0 20px 46px rgba(0,0,30,.4)">`
+    : `<div style="width:230px;height:230px;border-radius:53px;background:#fff;display:grid;place-items:center;font:700 126px/1 Gelasio;color:#1a46a6">${esc(((s.apps || [])[0] || s.head || "?")[0])}</div>`;
+  return `<div style="position:relative;width:1200px;height:400px;overflow:hidden">${ground(1200, 400, 600, 200, color, seed)}
+    <div style="position:absolute;left:44px;top:34px;font:800 26px/1 Inter;letter-spacing:4px;color:#f6cf5a">TODAY IN APPS</div>
+    <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;gap:34px;padding-top:24px">${big}${small}</div></div>`;
+}
+
+// The day's other apps for option 7: icons of other stories from the same day, else the newest ones (up to 4).
+function othersFor(s, stories) {
+  const own = new Set(iconsOf(s).map(e => e.file)), out = [];
+  const pool = stories.filter(x => x !== s).sort((a, b) => (a.date === s.date ? 0 : 1) - (b.date === s.date ? 0 : 1) || (b.date > a.date ? 1 : -1));
+  for (const x of pool) for (const e of iconsOf(x)) if (!own.has(e.file) && !out.some(o => o.file === e.file) && out.length < 4) out.push(e);
+  return out;
+}
+
+const leadFingerprint = (s, who, others) => crypto.createHash("sha1").update(JSON.stringify([LEAD_DESIGN, fingerprint(s),
+  who ? who.file : "", others.map(e => e.file + "@" + (e.v || ""))])).digest("hex").slice(0, 8);
+
 function defaultPage(seed) {
   return `<div style="position:relative;width:1200px;height:630px;overflow:hidden">${ground(1200, 630, 600, 315, "#2c63d8", seed)}
     <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px">${MARK(150)}
@@ -160,11 +218,28 @@ function defaultPage(seed) {
   const keep = new Set(stories.map(s => s.slug));
   let removed = 0;
   for (const f of fs.readdirSync(OUT)) {
-    const slug = f.replace(/(-art|-thumb)?\.jpg$/, "");
+    const slug = f.replace(/(-art|-thumb|-lead\d)?\.jpg$/, "");
     if (!keep.has(slug)) { fs.unlinkSync(path.join(OUT, f)); removed++; }
   }
   for (const k of Object.keys(done)) if (!keep.has(k)) delete done[k];
-  if (todo.length || needDefault) {
+  // Top-story pictures: only for stories with rank 1; a story that lost rank 1 loses them.
+  const leads = state.leads || {}, leadJobs = [];
+  for (const s of stories) {
+    if (s.rank !== 1) {
+      for (const k of ["-lead2", "-lead4", "-lead7"]) {
+        const f = path.join(OUT, s.slug + k + ".jpg");
+        if (fs.existsSync(f)) { fs.unlinkSync(f); removed++; }
+      }
+      delete leads[s.slug];
+      continue;
+    }
+    const who = PRESENTERS.length ? PRESENTERS[parseInt(fingerprint(s).slice(0, 6), 16) % PRESENTERS.length] : null;
+    const others = othersFor(s, stories), fp = leadFingerprint(s, who, others);
+    const kinds = ["-lead2", "-lead7"].concat(who ? ["-lead4"] : []);
+    if (all || leads[s.slug] !== fp || !kinds.every(k => fs.existsSync(path.join(OUT, s.slug + k + ".jpg")))) leadJobs.push({ s, who, others, fp });
+  }
+  for (const k of Object.keys(leads)) if (!keep.has(k)) delete leads[k];
+  if (todo.length || needDefault || leadJobs.length) {
     const { chromium } = require("playwright");
     const css = fontCss(await fontsDir());
     const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "story-pics-"));
@@ -186,12 +261,20 @@ function defaultPage(seed) {
       await shot(artPage(s, seed, 320 / 1200, iconsOf(s).length > 1 ? THUMB_TWO : THUMB_ICON), 320, 160, path.join(OUT, s.slug + "-thumb.jpg"));
       done[s.slug] = fingerprint(s);
     }
+    for (const j of leadJobs) {
+      const seed = parseInt(j.fp.slice(0, 6), 16) % 2147483646 + 1;
+      await shot(bandPage(j.s, seed), 1200, 400, path.join(OUT, j.s.slug + "-lead2.jpg"));
+      if (j.who) await shot(presenterPage(j.s, seed, j.who), 1200, 600, path.join(OUT, j.s.slug + "-lead4.jpg"));
+      await shot(todayPage(j.s, seed, j.others), 1200, 400, path.join(OUT, j.s.slug + "-lead7.jpg"));
+      leads[j.s.slug] = j.fp;
+    }
     if (needDefault) await shot(defaultPage(4242), 1200, 630, path.join(ROOT, "img", "share", "default.jpg"));
     await browser.close();
   }
   fs.writeFileSync(STATE, JSON.stringify({ _about: "Written by scripts/story-pictures.js: a fingerprint per story of what its pictures in " +
-    "img/stories/ show (words, tag, apps, icons). build-pages.js adds it to the picture links so changed pictures load fresh.",
-    design: DESIGN, stories: Object.fromEntries(Object.entries(done).sort()) }, null, 1) + "\n");
-  console.log(`Story pictures: ${todo.length} drawn, ${stories.length - todo.length} unchanged, ${removed} old files removed` +
+    "img/stories/ show (words, tag, apps, icons), and of the top-story pictures (leads). build-pages.js adds them to the picture " +
+    "links so changed pictures load fresh.",
+    design: DESIGN, stories: Object.fromEntries(Object.entries(done).sort()), leads: Object.fromEntries(Object.entries(leads).sort()) }, null, 1) + "\n");
+  console.log(`Story pictures: ${todo.length} drawn, ${stories.length - todo.length} unchanged, ${leadJobs.length} top-story sets, ${removed} old files removed` +
     (needDefault ? "; default share picture drawn." : "."));
 })().catch(e => { console.error("Story pictures failed: " + e.message); process.exit(1); });

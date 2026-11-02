@@ -80,6 +80,13 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   links); pictures of deleted stories are removed. A story's own `image` still wins on the page. check.js fails on a
   share picture that doesn't exist and warns about a story without pictures. Fonts: Gelasio + Inter from
   ../useandlike-ops/analysis/newsletter/cards/.fonts, else downloaded once to ~/.cache/useandlike-fonts.
+  Logo size (Kevin's picks, 2 Nov): about 64% of the story picture's height, 88% of the list picture's.
+  Top-story picture (2 Nov, Kevin: options 1, 2, 4, 5 and 7, "switch between those and track traffic a b test it later"):
+  for rank-1 stories story-pictures.js also draws `-lead2.jpg` (1200x400 band: logo, app name, tag), `-lead4.jpg`
+  (1200x600: a presenter beside the logo; 16 ladies and outfits in `img/presenters/`, listed in `data/presenters.json`,
+  one per story) and `-lead7.jpg` (1200x400 "Today in apps"); 1 is `-art`, 5 the share picture. The front page shows one
+  per top story, rotating by the story's date (`LEAD_STYLE` in build-pages.js: "" rotates, "4" keeps style 4); the lead
+  section carries `data-lead-style` for a later A/B test.
 - Counted links (1 Nov 2026, Kevin: "maybe we can track those or highlight A b test them"): the footer's About / How
   we choose / How we make money / Work with us go through `/c-about`, `/c-choose`, `/c-money`, `/c-work` (block
   "# Counted site links" in _redirects), so Cloudflare counts clicks as totals. A/B test: the "Run an app or a brand?"

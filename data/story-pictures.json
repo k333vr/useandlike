@@ -1,5 +1,5 @@
 {
- "_about": "Written by scripts/story-pictures.js: a fingerprint per story of what its pictures in img/stories/ show (words, tag, apps, icons). build-pages.js adds it to the picture links so changed pictures load fresh.",
+ "_about": "Written by scripts/story-pictures.js: a fingerprint per story of what its pictures in img/stories/ show (words, tag, apps, icons), and of the top-story pictures (leads). build-pages.js adds them to the picture links so changed pictures load fresh.",
  "design": "3",
  "stories": {
   "agoda-ai-assistant-21-markets": "7ab4531a",
@@ -44,5 +44,10 @@
   "windows-11-customize-right-click-menu": "2750f8a7",
   "youtube-bug-exits-full-screen": "726c9798",
   "youtube-tv-premium-offer": "952ea411"
+ },
+ "leads": {
+  "apple-watch-wrong-hour-fix": "97cde679",
+  "macbook-pro-touchscreen": "263a710c",
+  "reddit-account-for-most-pages": "dc58c5c2"
  }
 }

@@ -1,0 +1,29 @@
+{
+ "_about": "Presenters for the top-story picture with a presenter (option 4): written by useandlike-ops/brand/presenters-to-site.py; scripts/story-pictures.js gives each rank-1 story one of them. 'side': where she stands (left = she presents toward the right, the logo goes right).",
+ "presenters": [
+  {
+   "file": "img/presenters/ellie-1.webp",
+   "name": "Ellie",
+   "look": "a teal fitted sheath dress with a scoop neck",
+   "side": "right"
+  },
+  {
+   "file": "img/presenters/ellie-2.webp",
+   "name": "Ellie",
+   "look": "a black tailored blazer over a white blouse, with black trousers",
+   "side": "right"
+  },
+  {
+   "file": "img/presenters/ellie-3.webp",
+   "name": "Ellie",
+   "look": "a burgundy wrap dress with three-quarter sleeves",
+   "side": "left"
+  },
+  {
+   "file": "img/presenters/ellie-4.webp",
+   "name": "Ellie",
+   "look": "a mustard yellow fitted dress with cap sleeves",
+   "side": "right"
+  }
+ ]
+}

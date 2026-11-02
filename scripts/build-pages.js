@@ -137,6 +137,29 @@ const APP_ICONS = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROO
 const STORY_PICS = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, "data", "story-pictures.json"), "utf8")).stories || {}; } catch (_) { return {}; } })();
 const storyPic = (s, kind) => STORY_PICS[s.slug] && fs.existsSync(path.join(ROOT, "img", "stories", s.slug + kind + ".jpg"))
   ? `/img/stories/${s.slug}${kind}.jpg?v=${STORY_PICS[s.slug]}` : null;
+const LEAD_PICS = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, "data", "story-pictures.json"), "utf8")).leads || {}; } catch (_) { return {}; } })();
+// The front page's top-story picture (Kevin, 2 Nov: options 1, 2, 4, 5 and 7, "we can switch between those and track
+// traffic a b test it later"). LEAD_STYLE "" = a different one for each day's top story, in this order; one number
+// keeps that style.
+// 1 the blue box with the logo (-art), 2 a band with the logo, app name and tag (-lead2), 4 a presenter beside the logo
+// (-lead4), 5 the share picture (tag + headline), 7 "Today in apps" (-lead7). scripts/story-pictures.js draws 2, 4 and 7
+// for stories with rank 1; a style the story has no picture for is skipped.
+const LEAD_STYLE = "";
+const LEAD_STYLES = [["1", "-art", 1200, 600], ["2", "-lead2", 1200, 400], ["4", "-lead4", 1200, 600], ["5", "", 1200, 630], ["7", "-lead7", 1200, 400]];
+function leadPicture(s) {
+  if (s.image) return { src: s.image, w: 1200, h: 600, style: "own" };
+  // by the story's date, not the clock, so a rebuild on another day gives the same page (check.js compares them)
+  const day = Math.floor(Date.parse(s.date + "T00:00:00Z") / 864e5) % LEAD_STYLES.length;
+  const order = LEAD_STYLE ? LEAD_STYLES.filter(x => x[0] === LEAD_STYLE).concat(LEAD_STYLES)
+    : LEAD_STYLES.slice(day).concat(LEAD_STYLES.slice(0, day));
+  for (const [n, kind, w, h] of order) {
+    const src = /^-lead/.test(kind)
+      ? (LEAD_PICS[s.slug] && fs.existsSync(path.join(ROOT, "img", "stories", s.slug + kind + ".jpg")) ? `/img/stories/${s.slug}${kind}.jpg?v=${LEAD_PICS[s.slug]}` : null)
+      : storyPic(s, kind);
+    if (src) return { src, w, h, style: n };
+  }
+  return null;
+}
 const DEFAULT_SHARE = fs.existsSync(path.join(ROOT, "img", "share", "default.jpg")) ? "/img/share/default.jpg" : null;
 
 // Our pick first, then the order of TOOLS (as on the home page).
@@ -719,13 +742,13 @@ function frontPage() {
   const lead = TOP_NEWS.find(s => s.rank === 1 && s.date >= leadFrom) || TOP_NEWS[0];
   if (!lead) return "";
   const latest = TOP_NEWS.filter(s => s !== lead).slice(0, 6);
-  const leadPic = lead.image || storyPic(lead, "-art");
+  const lp = leadPicture(lead), leadPic = lp && lp.src;
   return [
     '<div class="front">',
     '<h1 class="sr-only">Use &amp; Like: app news, deals and how-tos</h1>',
-    '<section class="lead-story" aria-labelledby="lead-h">' +
+    `<section class="lead-story"${lp ? ` data-lead-style="${lp.style}"` : ""} aria-labelledby="lead-h">` +
       `<a href="/${newsPath(lead)}" tabindex="-1" aria-hidden="true">` +
-      (leadPic ? `<img src="${esc(leadPic)}" alt="" width="1200" height="600">` : storyArt(lead, "lg")) + "</a>" +
+      (lp ? `<img src="${esc(lp.src)}" alt="" width="${lp.w}" height="${lp.h}">` : storyArt(lead, "lg")) + "</a>" +
       `<div class="txt">${tagHtml(lead)}<h2 id="lead-h"><a href="/${newsPath(lead)}">${esc(lead.head)}</a></h2>` +
       `<p class="dek">${esc(lead.dek)}${leadPic && lead.details && !lead.details_in_todo ? " " + esc(lead.details) : ""}</p>` +
       `<p class="meta">${esc(shortDay(lead.date))} · Source: ${esc(lead.sources.map(x => x.name).join(", "))}</p></div></section>`,
