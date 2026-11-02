@@ -26,17 +26,21 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"How-tos","item":"https://useandlike.com/how-tos/"},{"@type":"ListItem","position":2,"name":"Website & App Builders","item":"https://useandlike.com/category/website-and-app-builders/"},{"@type":"ListItem","position":3,"name":"Elementor","item":"https://useandlike.com/tool/elementor/"}]}</script>
 <style>
 :root {
-  --bg: #fbfaf7;
+  /* White with gold lines (Kevin, 2 Nov: "white + gold is a good start", picked from 5 looks; silver and our blue
+     may come into some elements later). --rule: the line above each section; --rule-soft: the menu's and footer's. */
+  --bg: #ffffff;
   --surface: #ffffff;
   --text: #1a1c20;
   --muted: #585d66;
-  --line: #dcd7cc;
+  --line: #e8dcbc;
+  --rule: #b08d3e;
+  --rule-soft: #dcc792;
   --brand: #1f3a5f;
   --brand-text: #ffffff;
   --brass: #9a7428;
   --logo-fg: #f3e6c4;
   --link: #1f4f8f;
-  --soft: #f0ede6;
+  --soft: #f7f2e6;
   --sale: #b8400c;
   --rumor: #8a5300; --rumor-bg: #fff3dc;
   --serif: Georgia, "Times New Roman", serif;
@@ -49,6 +53,8 @@
     --text: #ebe9e4;
     --muted: #a7abb3;
     --line: #2e333b;
+    --rule: #9c7f41;
+    --rule-soft: #4d4434;
     --brand: #a9c2e6;
     --brand-text: #121417;
     --brass: #d4b06a;
@@ -129,7 +135,7 @@ header { padding: 22px 0 0; }
 .brand a { color: var(--text); text-decoration: none; }
 .brand em { font-weight: 400; color: var(--brass); }
 .tagline { margin: 2px 0 0; color: var(--muted); font-size: .95rem; }
-nav.top { display: flex; gap: 24px; margin-top: 14px; padding: 10px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+nav.top { display: flex; gap: 24px; margin-top: 14px; padding: 10px 0; border-top: 1px solid var(--rule-soft); border-bottom: 1px solid var(--rule-soft); }
 nav.top a { text-decoration: none; color: var(--muted); font-weight: 600; font-size: 1rem; }
 nav.top a[aria-current="page"] { color: var(--text); text-decoration: underline; text-decoration-color: var(--brass); text-decoration-thickness: 3px; text-underline-offset: 8px; }
 
@@ -272,13 +278,13 @@ footer a { color: var(--muted); }
 .checks li { position: relative; padding: 8px 0 8px 34px; border-bottom: 1px solid var(--line); }
 .checks li::before { content: "\2713"; position: absolute; left: 4px; top: 7px; color: var(--brass); font-weight: 700; font-size: 1.1rem; }
 .big-cta { display: inline-block; margin-top: 8px; padding: 14px 26px; font-size: 1.05rem; }
-footer { margin-top: 40px; padding: 18px 0 40px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+footer { margin-top: 40px; padding: 18px 0 40px; border-top: 1px solid var(--rule-soft); color: var(--muted); font-size: .9rem; }
 footer p { margin: 0 0 6px; max-width: 62ch; }
 /* App news front page, story pages and How-tos (1 Nov 2026) */
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 .front, .story, .howtos { display: grid; gap: 34px; padding-top: 8px; }
 .front > *, .story > *, .howtos > *, .split > * { min-width: 0; }
-.sec-head { display: flex; align-items: baseline; justify-content: space-between; gap: 6px 12px; flex-wrap: wrap; border-top: 2px solid var(--text); padding-top: 10px; margin-bottom: 6px; }
+.sec-head { display: flex; align-items: baseline; justify-content: space-between; gap: 6px 12px; flex-wrap: wrap; border-top: 2px solid var(--rule); padding-top: 10px; margin-bottom: 6px; }
 .sec-head h2 { margin: 0; font: 700 1.35rem/1.2 var(--serif); }
 .sec-head a { font-size: .92rem; font-weight: 600; }
 .tag { display: inline-block; justify-self: start; font: 700 .7rem/1 var(--sans); letter-spacing: .07em; text-transform: uppercase; color: var(--brand); background: var(--soft); padding: 5px 8px; border-radius: 4px; }
@@ -293,6 +299,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 .lead-story h2 a, .srows h3 a, .one-line b a { color: inherit; text-decoration: none; }
 .lead-story h2 a:hover, .srows h3 a:hover, .one-line b a:hover { text-decoration: underline; }
 .lead-story .dek { margin: 0; color: var(--muted); }
+@media (max-width: 760px) { .lead-story .dek .more { display: none; } }   /* phones: the first sentence only */
 @media (max-width: 760px) { .lead-story { grid-template-columns: minmax(0, 1fr); } }
 .lead-story.noimg { grid-template-columns: minmax(0, 1fr); padding: clamp(18px, 4vw, 30px); background: var(--soft); border-radius: 12px; border-left: 5px solid var(--brand); }
 .lead-story.noimg h2 { font-size: clamp(1.9rem, 4.6vw, 3rem); max-width: 26ch; }

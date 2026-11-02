@@ -758,6 +758,13 @@ ${NEWS.slice(0, 50).map(s => `<item><title>${x(s.head)}</title><link>${SITE}/${n
 
 // The front page (index.html's "home" block): lead story, latest news beside the deals, the newsletter box (the page's
 // script puts it into [data-join]), one-liners, how-tos people watch.
+// A text's first sentence and the rest: a split at ". " / "! " / "? " before a capital letter or a quote, so "iOS 26.1"
+// and "U.S. users" stay whole.
+function splitFirst(text) {
+  const m = /^(.+?[.!?])\s+(?=[A-Z"“‘(])(.+)$/s.exec(text || "");
+  return m ? [m[1], m[2]] : [text || "", ""];
+}
+
 function frontPage() {
   // The lead: the newest story with rank 1 from the last 3 days (the daily run gives rank 1 only to a story worth
   // leading the front page), else the newest story; with its picture when it has one, else as a text block.
@@ -767,14 +774,16 @@ function frontPage() {
   const latest = TOP_NEWS.filter(s => s !== lead).slice(0, 6);
   // The top story on a card like the list's (Kevin, 2 Nov: "D + D"); the picture styles of leadPicture() stay drawn by
   // story-pictures.js for a later A/B test (data-lead-style says which one a page shows).
-  const leadPic = true;
+  // Its text is the dek only, and on phones only the dek's first sentence (Kevin, 2 Nov: "just a short line to
+  // understand the base of the story makes more sense nobody likes clutter or wall of texts"); the rest is on its page.
+  const [first, rest] = splitFirst(lead.dek);
   return [
     '<div class="front">',
     '<h1 class="sr-only">Use &amp; Like: app news, deals and how-tos</h1>',
     `<section class="lead-story card" style="${cardColour(lead)}" data-lead-style="card" aria-labelledby="lead-h">` +
       `<a href="/${newsPath(lead)}" tabindex="-1" aria-hidden="true">${appMark(lead, "lg")}</a>` +
       `<div class="txt">${tagHtml(lead)}<h2 id="lead-h"><a href="/${newsPath(lead)}">${esc(lead.head)}</a></h2>` +
-      `<p class="dek">${esc(lead.dek)}${leadPic && lead.details && !lead.details_in_todo ? " " + esc(lead.details) : ""}</p>` +
+      `<p class="dek">${esc(first)}${rest ? `<span class="more"> ${esc(rest)}</span>` : ""}</p>` +
       `<p class="meta">${esc(shortDay(lead.date))} · Source: ${esc(lead.sources.map(x => x.name).join(", "))}</p></div></section>`,
     '<div class="split">',
     `<section aria-labelledby="latest-h">${secHead("latest-h", "Latest app news", '<a href="/news/">All app news ›</a>')}\n${storyRows(latest)}</section>`,
