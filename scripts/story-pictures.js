@@ -188,9 +188,10 @@ function todayPage(s, seed, others) {
 
 // The day's other apps for option 7: icons of other stories from the same day, else the newest ones (up to 4).
 function othersFor(s, stories) {
-  const own = new Set(iconsOf(s).map(e => e.file)), out = [];
+  // the same picture under two names (Samsung, Samsung News: both the Shop Samsung icon) counts once: "v" is its hash
+  const key = e => e.v || e.file, own = new Set(iconsOf(s).map(key)), out = [];
   const pool = stories.filter(x => x !== s).sort((a, b) => (a.date === s.date ? 0 : 1) - (b.date === s.date ? 0 : 1) || (b.date > a.date ? 1 : -1));
-  for (const x of pool) for (const e of iconsOf(x)) if (!own.has(e.file) && !out.some(o => o.file === e.file) && out.length < 4) out.push(e);
+  for (const x of pool) for (const e of iconsOf(x)) if (!own.has(key(e)) && !out.some(o => key(o) === key(e)) && out.length < 4) out.push(e);
   return out;
 }
 

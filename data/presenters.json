@@ -24,6 +24,78 @@
    "name": "Ellie",
    "look": "a mustard yellow fitted dress with cap sleeves",
    "side": "right"
+  },
+  {
+   "file": "img/presenters/hana-1.webp",
+   "name": "Hana",
+   "look": "a white fitted wrap dress with a modest V-neck",
+   "side": "right"
+  },
+  {
+   "file": "img/presenters/hana-2.webp",
+   "name": "Hana",
+   "look": "a navy tailored blazer over a light pink top, with navy trousers",
+   "side": "right"
+  },
+  {
+   "file": "img/presenters/hana-3.webp",
+   "name": "Hana",
+   "look": "a lavender fitted sheath dress with short sleeves",
+   "side": "right"
+  },
+  {
+   "file": "img/presenters/hana-4.webp",
+   "name": "Hana",
+   "look": "a cobalt blue fitted dress with a round neck",
+   "side": "left"
+  },
+  {
+   "file": "img/presenters/lexi-1.webp",
+   "name": "Lexi",
+   "look": "a navy blue fitted sheath dress with cap sleeves",
+   "side": "right"
+  },
+  {
+   "file": "img/presenters/lexi-2.webp",
+   "name": "Lexi",
+   "look": "a white tailored blazer over a light blue silk top, with slim black trousers",
+   "side": "right"
+  },
+  {
+   "file": "img/presenters/lexi-3.webp",
+   "name": "Lexi",
+   "look": "an emerald green wrap dress with three-quarter sleeves",
+   "side": "right"
+  },
+  {
+   "file": "img/presenters/lexi-4.webp",
+   "name": "Lexi",
+   "look": "a black fitted sheath dress with a modest V-neck",
+   "side": "right"
+  },
+  {
+   "file": "img/presenters/yuna-1.webp",
+   "name": "Yuna",
+   "look": "a red fitted dress with a modest sweetheart neckline and short sleeves",
+   "side": "right"
+  },
+  {
+   "file": "img/presenters/yuna-2.webp",
+   "name": "Yuna",
+   "look": "a cream tailored blazer over a black top, with black trousers",
+   "side": "right"
+  },
+  {
+   "file": "img/presenters/yuna-3.webp",
+   "name": "Yuna",
+   "look": "a royal blue fitted sheath dress with a round neck",
+   "side": "right"
+  },
+  {
+   "file": "img/presenters/yuna-4.webp",
+   "name": "Yuna",
+   "look": "a blush pink midi dress with short sleeves",
+   "side": "right"
   }
  ]
 }
