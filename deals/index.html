@@ -3,9 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="preconnect" href="https://subscribe-forms.beehiiv.com">
-<link rel="preload" href="https://subscribe-forms.beehiiv.com/v3/loader.js" as="script">
-<link rel="preload" href="https://subscribe-forms.beehiiv.com/api/v3/forms/2e365ed3-e1eb-488c-bd24-fb8f0709b3a4" as="fetch" crossorigin>
+<script>(function () {
+  var s = /(^|; )bhv_[^=]+_subscribed=/.test(document.cookie);
+  try { s = s || localStorage.getItem("ul-subscribed") === "1"; } catch (e) {}
+  if (s) return;
+  [["preconnect", "https://subscribe-forms.beehiiv.com"], ["preload", "https://subscribe-forms.beehiiv.com/v3/loader.js", "script"],
+   ["preload", "https://subscribe-forms.beehiiv.com/api/v3/forms/2e365ed3-e1eb-488c-bd24-fb8f0709b3a4", "fetch", 1]].forEach(function (x) {
+    var l = document.createElement("link"); l.rel = x[0]; l.href = x[1];
+    if (x[2]) l.as = x[2];
+    if (x[3]) l.crossOrigin = "anonymous";
+    document.head.appendChild(l);
+  });
+})();</script>
 <title>App deals running now: 145 offers | Use &amp; Like</title>
 <meta name="description" content="Discounts on ExpressVPN, NordVPN, Hostinger, FastestVPN, Proton VPN, Proton Pass, InVideo, EaseUS checked on each brand's own website, plus 137 offers from our partner brands in travel, software, VPNs, phone plans and more.">
 <link rel="canonical" href="https://useandlike.com/deals/">
@@ -212,6 +221,11 @@ nav.top a[aria-current="page"] { color: var(--text); text-decoration: underline;
 .opening { opacity: .55; pointer-events: none; }
 .newsletter { margin: 28px 0 0; padding: 18px; border: 1px solid var(--line); border-top: 3px solid var(--brass); border-radius: 8px; background: var(--surface); display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
 .newsletter .nl-text { flex: 1 1 260px; }
+/* "Already subscribed? Hide this": hides the box and the header field on this device (Kevin, 2 Nov) */
+.nl-hide { flex-basis: 100%; margin: 0; padding: 0; border: 0; background: none; color: var(--muted); font: inherit; font-size: .82rem; text-align: left; text-decoration: underline; cursor: pointer; }
+/* "More stories" at the end of the front page's story list (Kevin, 2 Nov) */
+.more-btn { display: table; margin: 16px auto 0; padding: 10px 22px; border: 2px solid var(--brass); border-radius: 999px; color: var(--text); font-weight: 600; font-size: .95rem; text-decoration: none; }
+.more-btn:hover { background: var(--soft); }
 .newsletter h2 { margin: 0 0 4px; font: 700 1.15rem var(--serif); }
 .newsletter p { margin: 0; color: var(--muted); }
 .newsletter .visit { white-space: nowrap; }
@@ -455,7 +469,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 <section class="po-group" data-g="more"><h3>More</h3><ul class="plain po-list"><li class="po"><a href="/udemy" rel="sponsored"><b>Udemy</b><span class="po-text">Up to 85% off AI Courses</span><span class="po-go" aria-hidden="true">›</span></a></li><li class="po"><a href="/shein" rel="sponsored"><b>Shein</b><span class="po-text">Up to 60% off End Year Sale</span><span class="po-go" aria-hidden="true">›</span></a></li><li class="po"><a href="/godaddy" rel="sponsored"><b>GoDaddy</b><span class="po-text">Managed Hosting for Wordpress: Up to 53% off Managed Hosting for Wordpress Plans</span><span class="po-go" aria-hidden="true">›</span></a></li><li class="po"><a href="/att" rel="sponsored"><b>AT&amp;T</b><span class="po-text">Learn how new and existing customers get 50% off the new Samsung Galaxy Tab A11+ 5G</span><span class="po-go" aria-hidden="true">›</span></a></li><li class="po"><a href="/nordpass" rel="sponsored"><b>NordPass</b><span class="po-text">Save 50% on the Password Manager</span><span class="po-go" aria-hidden="true">›</span></a></li><li class="po"><a href="/preply" rel="sponsored"><b>Preply</b><span class="po-text">50% off Bookings for Lessons</span><span class="po-go" aria-hidden="true">›</span></a></li><li class="po"><a href="/nolo" rel="sponsored"><b>Nolo</b><span class="po-text">Up to 42% off Nolo's Start &amp; Run a Business Bundle</span><span class="po-go" aria-hidden="true">›</span></a></li><li class="po"><a href="/expedia" rel="sponsored"><b>Expedia</b><span class="po-text">25% or More off Your Dream Stay</span><span class="po-go" aria-hidden="true">›</span></a></li><li class="po"><a href="/lastminute" rel="sponsored"><b>lastminute.com</b><span class="po-text">Save Up to 15% on Selected Deals</span><span class="po-go" aria-hidden="true">›</span></a></li><li class="po"><a href="/omio" rel="sponsored"><b>Omio</b><span class="po-text">12% New Customer Discount in Australia</span><span class="po-go" aria-hidden="true">›</span></a><span class="po-meta">Code <code>TRAVELAUS12</code></span></li><li class="po"><a href="/elementor" rel="sponsored"><b>Elementor</b><span class="po-text">AI Website Tool - Available As a Free Trial with Any Elementor Website</span><span class="po-go" aria-hidden="true">›</span></a></li><li class="po"><a href="/legalzoom" rel="sponsored"><b>LegalZoom</b><span class="po-text">LZ Books Helps You Easily Manage Your Books with Expense and Income Tracking, Invoices, and Payments All in One…</span><span class="po-go" aria-hidden="true">›</span></a></li><li class="po"><a href="/pia" rel="sponsored"><b>Private Internet Access</b><span class="po-text">2 Year Subscription + 2 Months Free Now: $2.19/Month</span><span class="po-go" aria-hidden="true">›</span></a></li><li class="po"><a href="/signnow" rel="sponsored"><b>signNow</b><span class="po-text">Sign Up and Start Your Free Trial</span><span class="po-go" aria-hidden="true">›</span></a></li></ul></section>
 <section class="po-group" data-g="other"><h3>Other</h3><ul class="plain po-list"><li class="po"><a href="/ancestry" rel="sponsored"><b>Ancestry</b><span class="po-text">Save 30% on Ancestry Gift Memberships</span><span class="po-go" aria-hidden="true">›</span></a><span class="po-meta">US only</span></li><li class="po"><a href="/newspaperscom" rel="sponsored"><b>Newspapers.com</b><span class="po-text">Shop the Largest Online Newspaper Archive Plus Get a 7 Day Free Trial</span><span class="po-go" aria-hidden="true">›</span></a></li><li class="po"><a href="/rover" rel="sponsored"><b>Rover</b><span class="po-text">Get $10 off Your First Booking</span><span class="po-go" aria-hidden="true">›</span></a><span class="po-meta">US only</span></li></ul></section>
 </section>
-<section class="newsletter"><div class="nl-text"><h2>App news and deals in 30 seconds</h2><p>The big app news, new features worth knowing and deals we've checked, in a 30-second newsletter. Only when we have something worth your time. Free, and you can unsubscribe anytime.</p><p class="nl-perk"><span class="perk-gift">+ get our Free Subscription Tracker</span></p></div><div class="join-form"><div class="bh-slot"></div><p class="bh-fallback"><a href="/newsletter">Open the sign-up page ›</a></p><p class="bh-note">Next: we email you a link. Open your email app and tap Confirm to finish (check Promotions or Spam too). Field not showing? <a href="/newsletter">Sign up here</a>.</p></div></section>
+<section class="newsletter"><div class="nl-text"><h2>App news and deals in 30 seconds</h2><p>The big app news, new features worth knowing and deals we've checked, in a 30-second newsletter. Only when we have something worth your time. Free, and you can unsubscribe anytime.</p><p class="nl-perk"><span class="perk-gift">+ get our Free Subscription Tracker</span></p></div><div class="join-form"><div class="bh-slot"></div><p class="bh-fallback"><a href="/newsletter">Open the sign-up page ›</a></p><p class="bh-note">Next: we email you a link. Open your email app and tap Confirm to finish (check Promotions or Spam too). Field not showing? <a href="/newsletter">Sign up here</a>.</p></div><button type="button" class="nl-hide">Already subscribed? Hide this</button></section>
   </main>
 
   <footer>
@@ -468,8 +482,23 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 <script>
 (function () {
   var FORM = "2e365ed3-e1eb-488c-bd24-fb8f0709b3a4";
+  // Subscribers see no sign-up box or header field (as on index.html: Beehiiv's cookie, or the note "ul-subscribed" that
+  // this browser keeps after confirming or "Already subscribed? Hide this"; it never leaves the device).
+  function hideSignup() {
+    var hj = document.getElementById("header-join");
+    if (hj) hj.style.display = "none";
+    [].forEach.call(document.querySelectorAll("section.newsletter"), function (s) { s.remove(); });
+  }
+  var subscribed = /(^|; )bhv_[^=]+_subscribed=/.test(document.cookie);
+  try { subscribed = subscribed || localStorage.getItem("ul-subscribed") === "1"; } catch (e) {}
+  if (subscribed) hideSignup();
+  document.addEventListener("click", function (e) {
+    if (!e.target.closest || !e.target.closest(".nl-hide")) return;
+    try { localStorage.setItem("ul-subscribed", "1"); } catch (err) {}
+    hideSignup();
+  });
   [].forEach.call(document.querySelectorAll(".bh-slot"), function (slot) {
-    if (!FORM) return;
+    if (!FORM || subscribed) return;
     if (/(^|; )bhv_[^=]+_subscribed=/.test(document.cookie)) {
       var p = document.createElement("p"); p.className = "joined"; p.textContent = "You're subscribed. Thanks!";
       slot.parentNode.replaceChild(p, slot); return;

@@ -36,6 +36,11 @@ The owner is a beginner. Explain things in plain language and do as much as poss
 - All editable content is in the `EDIT HERE` block at the top of `index.html`:
   `CHANNELS`, `NEWSLETTER`, `OPEN_IN_NEW_TAB`, `VISIBLE_COUNT`, `CATEGORIES`, `TOOLS`, `VIDEOS`.
 - `NEWSLETTER.ready` shows the signup at the top of every page, on #join, and a box on home and category pages. With `beehiivForm` (the `data-beehiiv-form` id from Beehiiv's embed code) it loads Beehiiv's script `subscribe-forms.beehiiv.com/v3/loader.js`, which shows Beehiiv's own field (an iframe) where the signup is; this is the one allowed external request (owner's choice). Without it, the button opens the Beehiiv signup page via `/newsletter`. Beehiiv's separate attribution.js is not needed (the loader includes it). Double opt-in is on (owner is in Austria); Beehiiv's "Opt-in redirect URL" is `useandlike.com/welcome` -> `#welcome` (INFO page with `img/welcome.webp` and the tracker button), so `/welcome` must stay in `_redirects`. Posting our own form to Beehiiv's /create is blocked ("Forbidden"), so don't. `/newsletter` must stay in `_redirects` (the check script enforces it).
+  Subscribers see no box and no header field, and their browser loads nothing from Beehiiv (Kevin, 2 Nov: "remove it
+  when it sees you are already subscribed"): Beehiiv's `bhv_*_subscribed` cookie, or `localStorage` "ul-subscribed",
+  set on #welcome / #thanks / #tracker or by the box's "Already subscribed? Hide this" (index.html and build-pages.js'
+  SCRIPT + beehiivHead; the privacy page says so). The #join page keeps its field. The front page's story list ends
+  with a "More stories" button to /news/.
 - Layout: until 1 Nov 2026 the home page was the category list (Craigslist-style). Kevin, 1 Nov ("overall way better",
   "go"): the home page is app news; `/how-tos/` is a search over all our videos (`how-tos/search.json`, loaded on the
   first search: every non-Short video of data/channel-videos.tsv, the tools, stories, checked deals and partner offers),

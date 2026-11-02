@@ -218,7 +218,7 @@ function joinForm(withPerk) {
 }
 const newsletterBox = () => !NEWSLETTER.ready ? "" : `<section class="newsletter"><div class="nl-text"><h2>${esc(NEWSLETTER.title)}</h2>` +
   `<p>${esc(NEWSLETTER.text)}</p><p class="nl-perk"><span class="perk-gift">${esc(NEWSLETTER.perkGift)}</span></p></div>` +
-  joinForm(false) + "</section>";
+  joinForm(false) + '<button type="button" class="nl-hide">Already subscribed? Hide this</button></section>';
 
 function header(current) {
   let h = HEADER.replace(/href="#"/g, 'href="/"').replace(/href="#videos"/g, 'href="/#videos"')
@@ -232,8 +232,23 @@ const footer = () => FOOTER.replace('<p id="foot-channels"></p>', `<p id="foot-c
 // Beehiiv's form, "Opening…" on affiliate links (as on the home page), and the year.
 const SCRIPT = `(function () {
   var FORM = ${JSON.stringify(NEWSLETTER.beehiivForm || "")};
+  // Subscribers see no sign-up box or header field (as on index.html: Beehiiv's cookie, or the note "ul-subscribed" that
+  // this browser keeps after confirming or "Already subscribed? Hide this"; it never leaves the device).
+  function hideSignup() {
+    var hj = document.getElementById("header-join");
+    if (hj) hj.style.display = "none";
+    [].forEach.call(document.querySelectorAll("section.newsletter"), function (s) { s.remove(); });
+  }
+  var subscribed = /(^|; )bhv_[^=]+_subscribed=/.test(document.cookie);
+  try { subscribed = subscribed || localStorage.getItem("ul-subscribed") === "1"; } catch (e) {}
+  if (subscribed) hideSignup();
+  document.addEventListener("click", function (e) {
+    if (!e.target.closest || !e.target.closest(".nl-hide")) return;
+    try { localStorage.setItem("ul-subscribed", "1"); } catch (err) {}
+    hideSignup();
+  });
   [].forEach.call(document.querySelectorAll(".bh-slot"), function (slot) {
-    if (!FORM) return;
+    if (!FORM || subscribed) return;
     if (/(^|; )bhv_[^=]+_subscribed=/.test(document.cookie)) {
       var p = document.createElement("p"); p.className = "joined"; p.textContent = "You're subscribed. Thanks!";
       slot.parentNode.replaceChild(p, slot); return;
@@ -270,10 +285,20 @@ const SCRIPT = `(function () {
   }
 })();`;
 
+// Beehiiv's field loads sooner with these; subscribers see no field, so their browser doesn't contact Beehiiv at all.
 const beehiivHead = !(NEWSLETTER.ready && NEWSLETTER.beehiivForm) ? "" :
-  `<link rel="preconnect" href="https://subscribe-forms.beehiiv.com">
-<link rel="preload" href="https://subscribe-forms.beehiiv.com/v3/loader.js" as="script">
-<link rel="preload" href="https://subscribe-forms.beehiiv.com/api/v3/forms/${esc(NEWSLETTER.beehiivForm)}" as="fetch" crossorigin>
+  `<script>(function () {
+  var s = /(^|; )bhv_[^=]+_subscribed=/.test(document.cookie);
+  try { s = s || localStorage.getItem("ul-subscribed") === "1"; } catch (e) {}
+  if (s) return;
+  [["preconnect", "https://subscribe-forms.beehiiv.com"], ["preload", "https://subscribe-forms.beehiiv.com/v3/loader.js", "script"],
+   ["preload", "https://subscribe-forms.beehiiv.com/api/v3/forms/${esc(NEWSLETTER.beehiivForm)}", "fetch", 1]].forEach(function (x) {
+    var l = document.createElement("link"); l.rel = x[0]; l.href = x[1];
+    if (x[2]) l.as = x[2];
+    if (x[3]) l.crossOrigin = "anonymous";
+    document.head.appendChild(l);
+  });
+})();</script>
 `;
 
 function crumbsLd(items) {
@@ -786,7 +811,9 @@ function frontPage() {
       `<p class="dek">${esc(first)}${rest ? `<span class="more"> ${esc(rest)}</span>` : ""}</p>` +
       `<p class="meta">${esc(shortDay(lead.date))} · Source: ${esc(lead.sources.map(x => x.name).join(", "))}</p></div></section>`,
     '<div class="split">',
-    `<section aria-labelledby="latest-h">${secHead("latest-h", "Latest app news", '<a href="/news/">All app news ›</a>')}\n${storyRows(latest)}</section>`,
+    `<section aria-labelledby="latest-h">${secHead("latest-h", "Latest app news", '<a href="/news/">All app news ›</a>')}\n${storyRows(latest)}` +
+      // Kevin, 2 Nov: "after scrolling through the news lines there should be a more stories ... button at the end"
+      `\n<a class="more-btn" href="/news/">More stories ›</a></section>`,
     DEALS.length ? `<section aria-labelledby="rail-h">${secHead("rail-h", "Deals we checked", `<a href="/deals/">All ${DEALS.length} ›</a>`)}\n${dealMinis(DEALS.slice(0, 6))}</section>` : "",
     "</div>",
     '<div data-join></div>',

@@ -3,10 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Start loading Beehiiv's signup form right away, so the email field shows sooner. -->
-<link rel="preconnect" href="https://subscribe-forms.beehiiv.com">
-<link rel="preload" href="https://subscribe-forms.beehiiv.com/v3/loader.js" as="script">
-<link rel="preload" href="https://subscribe-forms.beehiiv.com/api/v3/forms/2e365ed3-e1eb-488c-bd24-fb8f0709b3a4" as="fetch" crossorigin>
+<!-- Start loading Beehiiv's signup form right away, so the email field shows sooner; not for subscribers, who see no
+     field (Beehiiv's cookie, or the note this browser keeps after confirming: see "ul-subscribed" below). -->
+<script>(function () {
+  var s = /(^|; )bhv_[^=]+_subscribed=/.test(document.cookie);
+  try { s = s || localStorage.getItem("ul-subscribed") === "1"; } catch (e) {}
+  if (s) return;
+  [["preconnect", "https://subscribe-forms.beehiiv.com"], ["preload", "https://subscribe-forms.beehiiv.com/v3/loader.js", "script"],
+   ["preload", "https://subscribe-forms.beehiiv.com/api/v3/forms/2e365ed3-e1eb-488c-bd24-fb8f0709b3a4", "fetch", 1]].forEach(function (x) {
+    var l = document.createElement("link"); l.rel = x[0]; l.href = x[1];
+    if (x[2]) l.as = x[2];
+    if (x[3]) l.crossOrigin = "anonymous";
+    document.head.appendChild(l);
+  });
+})();</script>
 <title>Use &amp; Like – App news, deals and how-tos</title>
 <meta name="description" content="What changed in the apps you use, in plain words and with what to do about it, deals we checked on each brand's own site, and how-to videos from our channels.">
 <link rel="canonical" href="https://useandlike.com/">
@@ -616,6 +626,11 @@ nav.top a[aria-current="page"] { color: var(--text); text-decoration: underline;
 .opening { opacity: .55; pointer-events: none; }
 .newsletter { margin: 28px 0 0; padding: 18px; border: 1px solid var(--line); border-top: 3px solid var(--brass); border-radius: 8px; background: var(--surface); display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
 .newsletter .nl-text { flex: 1 1 260px; }
+/* "Already subscribed? Hide this": hides the box and the header field on this device (Kevin, 2 Nov) */
+.nl-hide { flex-basis: 100%; margin: 0; padding: 0; border: 0; background: none; color: var(--muted); font: inherit; font-size: .82rem; text-align: left; text-decoration: underline; cursor: pointer; }
+/* "More stories" at the end of the front page's story list (Kevin, 2 Nov) */
+.more-btn { display: table; margin: 16px auto 0; padding: 10px 22px; border: 2px solid var(--brass); border-radius: 999px; color: var(--text); font-weight: 600; font-size: .95rem; text-decoration: none; }
+.more-btn:hover { background: var(--soft); }
 .newsletter h2 { margin: 0 0 4px; font: 700 1.15rem var(--serif); }
 .newsletter p { margin: 0; color: var(--muted); }
 .newsletter .visit { white-space: nowrap; }
@@ -830,7 +845,8 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 <li style="--c:#5b6472"><a href="/news/ios-27-apple-intelligence-storage/" tabindex="-1" aria-hidden="true"><span class="appmark sm" aria-hidden="true"><img src="/img/apps/iphone.webp?v=c4e27bb9" alt="" width="256" height="256" loading="lazy"><img src="/img/apps/siri.webp?v=3d2bab87" alt="" width="256" height="256" class="b" loading="lazy"></span></a><div><span class="tag">Heads-up</span><h3><a href="/news/ios-27-apple-intelligence-storage/">iOS 27: Apple Intelligence takes up to 16 GB, and a workaround</a></h3><p class="one">If your iPhone ran out of space after iOS 27, Apple Intelligence may be the reason, and switching it off alone won't fix it.</p><p class="meta">1 Nov · GSMArena</p></div></li>
 <li style="--c:#2ba8ee"><a href="/news/new-outlook-unified-inbox-delayed/" tabindex="-1" aria-hidden="true"><span class="appmark sm" aria-hidden="true"><img src="/img/apps/outlook.webp?v=3ccbc522" alt="" width="256" height="256" loading="lazy"></span></a><div><span class="tag">Update</span><h3><a href="/news/new-outlook-unified-inbox-delayed/">New Outlook's unified inbox now due by late November</a></h3><p class="one">If you were waiting for one shared inbox before leaving Outlook Classic, it may not be in your new Outlook yet.</p><p class="meta">1 Nov · Windows Latest</p></div></li>
 <li style="--c:#4b2bee"><a href="/news/amazon-blocks-meta-muse-shopping/" tabindex="-1" aria-hidden="true"><span class="appmark sm" aria-hidden="true"><img src="/img/apps/meta-ai.webp?v=d1bb3297" alt="" width="256" height="256" loading="lazy"><img src="/img/apps/amazon.webp?v=a4679f85" alt="" width="256" height="256" class="b" loading="lazy"></span></a><div><span class="tag">Heads-up</span><h3><a href="/news/amazon-blocks-meta-muse-shopping/">Amazon stops Meta's Muse AI agent from buying on its site</a></h3><p class="one">If you use Muse to shop, it can't complete purchases on Amazon for now.</p><p class="meta">1 Nov · Digital Trends</p></div></li>
-</ul></section>
+</ul>
+<a class="more-btn" href="/news/">More stories ›</a></section>
 <section aria-labelledby="rail-h"><div class="sec-head"><h2 id="rail-h">Deals we checked</h2><a href="/deals/">All 8 ›</a></div>
 <ul class="plain dminis">
 <li class="dmini"><a href="/expressvpn" rel="sponsored"><span class="top"><img src="/img/deals/expressvpn.webp" alt="" width="30" height="30" loading="lazy">ExpressVPN</span><span class="big">−80%</span><span class="offer">80% off 2 years + 4 extra months</span><span class="chk">Checked on ExpressVPN's site, 29 Oct</span></a></li>
@@ -948,6 +964,19 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
   function videosIn(cat) { return videos().filter(function (v) { return v.category === cat; }); }
   function videosFor(t) { return videos().filter(function (v) { return v.tool === t.name; }); }
 
+  // Subscribers don't see the sign-up box or the header field (Kevin, 2 Nov 2026: "remove it when it sees you are
+  // already subscribed"): Beehiiv's cookie after subscribing on this site, or a note in this browser after confirming
+  // (#welcome), opening a newsletter-only page (#thanks, #tracker) or "Already subscribed? Hide this". The note stays
+  // on the device (localStorage) and is never sent anywhere; the privacy page says so.
+  var SUB_KEY = "ul-subscribed";
+  function isSubscriber() {
+    if (/(^|; )bhv_[^=]+_subscribed=/.test(document.cookie)) return true;
+    try { return localStorage.getItem(SUB_KEY) === "1"; } catch (e) { return false; }
+  }
+  function markSubscriber() {
+    try { localStorage.setItem(SUB_KEY, "1"); } catch (e) {}
+  }
+
   // The signup: Beehiiv's own embedded field when NEWSLETTER.beehiivForm is set (so the email goes
   // straight in), otherwise a field whose button opens the Beehiiv signup page.
   var formCount = 0;
@@ -1021,6 +1050,14 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     t.appendChild(p);
     box.appendChild(t);
     box.appendChild(joinForm(false));
+    var hide = el("button", "nl-hide", "Already subscribed? Hide this");
+    hide.type = "button";
+    hide.addEventListener("click", function () {
+      markSubscriber();
+      box.remove();
+      document.getElementById("header-join").style.display = "none";
+    });
+    box.appendChild(hide);
     return box;
   }
 
@@ -1031,7 +1068,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     if (FRONT.indexOf('class="front"') >= 0) {
       view.innerHTML = FRONT;
       var slot = view.querySelector("[data-join]");
-      if (slot && NEWSLETTER.ready) slot.appendChild(newsletterBox());
+      if (slot && NEWSLETTER.ready && !isSubscriber()) slot.appendChild(newsletterBox());
       return;
     }
     var index = el("div", "index");
@@ -1222,11 +1259,12 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
       paragraphs: [
         "This site is run by Kevin Redl. Contact: HTRocket@proton.me",
         "This site does not use cookies, analytics or tracking scripts of its own.",
+        "One thing is kept in your browser, on your device only: once you confirm your newsletter subscription (or tap \"Already subscribed? Hide this\"), the site remembers that and stops showing the sign-up box. It is never sent to us or anyone else; clearing this site's data in your browser removes it.",
         "We count how often some of our own links are clicked (for example \"Work with us\"), as totals: these links pass through a short address on this site, which Cloudflare, our host, counts. A few page parts are shown to about half of all visitors at random, so we can see which works better; nothing about you is stored for that.",
         "The site is hosted by Cloudflare, which processes technical data such as your IP address to deliver the pages and protect them against abuse.",
         "The newsletter signup field is provided by Beehiiv, our newsletter provider, and loads from their servers. Beehiiv may set cookies to remember where you came from and that you have subscribed. If you join, your email address is sent to Beehiiv and their privacy policy applies. You can unsubscribe in any email.",
         "When you click a tool or video link, you leave this site. The tool's website, its affiliate partner or YouTube may then set their own cookies, and their privacy policies apply.",
-        "Last updated: 1 November 2026."
+        "Last updated: 2 November 2026."
       ]
     }
   };
@@ -1305,6 +1343,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     if (!isVideos && findCat(id)) return location.replace("/category/" + id + "/");
     var cat = isVideos ? findCat(id.slice(7)) : null;
     var info = INFO.hasOwnProperty(id) ? INFO[id] : null;
+    if (id === "welcome" || id === "thanks" || id === "tracker") markSubscriber();   // pages only subscribers reach
     if (lastRoute === "" || lastRoute === "videos") homeScroll = window.scrollY;
 
     view.textContent = "";
@@ -1315,7 +1354,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 
     // No header field on /welcome (they just subscribed) or on the join page's design B (its own big field is the
     // only one there). The header field is built on the first other page, so the join page loads one field, not two.
-    var noHeader = id === "welcome" || (id === "join" && NEWSLETTER.joinDesign !== "A");
+    var noHeader = id === "welcome" || (id === "join" && NEWSLETTER.joinDesign !== "A") || (id !== "join" && isSubscriber());
     document.getElementById("header-join").style.display = noHeader ? "none" : "";
     if (!noHeader) headerJoin();
     setCurrent("nav-news", !isVideos && !info);
