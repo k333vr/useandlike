@@ -9,7 +9,7 @@
  "details": "The limits cover ChatGPT Go, Plus, Pro 100, Pro 200 and Pro 500; free accounts and Business, Enterprise and Edu plans don't count. According to OpenAI's support page, logging out of an account doesn't free up its spot on the device. OpenAI points people who need more to extra credits or usage resets instead.",
  "where": "All paid personal ChatGPT plans",
  "means": "If you switch between several paid ChatGPT accounts on one phone or computer, or pay for several with one card, some of them may stop working there.",
- "todo": "Keep one paid account per device. If you hit the limit, logging out won't help; buying credits or a usage reset are the options OpenAI names.",
+ "todo": "If you switch between several paid accounts on one device, expect to hit the limit; logging out doesn't free a spot. For more usage, OpenAI points to buying credits or a usage reset.",
  "rank": 4,
  "apps": [
   "ChatGPT"

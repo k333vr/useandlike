@@ -17,6 +17,12 @@ New apps an everyday person could use now, also small and unknown ones, when it'
 and where to get them. No daily limit. A mix, not only the big outlets: smaller sites and communities (Reddit) count
 when the facts are clear.
 
+**Reddit doesn't open from the cloud** (403; the 2 Nov run skipped its Reddit candidates for that reason). For a Reddit
+post about a new app, use the app's own page as the source instead: its App Store or Google Play listing, or its website
+(what it does, price, platforms, who makes it). Skip it if that page doesn't open, the app isn't out yet, or it's a
+browser extension or side project with no clear use for everyday people. A Reddit-only claim about something else (a
+rumor, a bug report) needs an outlet that wrote about it.
+
 **Rumors, leaks and features in testing** are stories too (Kevin, 1 Nov: "I do also want speculative not approveable
 stories we can frame them exactly like that ... more uniqueness is good"): an app's next feature spotted in a beta or its
 code, a leaked plan or price, a report that a company is working on something. They get `"rumor": true` and are framed
