@@ -132,6 +132,12 @@ const PARTNER = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT,
 const OFFERS = PARTNER.offers || [];
 // App icons for the news (scripts/app-icons.py; Kevin, 1 Nov: the site "looks strange just with the letters").
 const APP_ICONS = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, "data", "app-icons.json"), "utf8")); } catch (_) { return {}; } })();
+// Story pictures from scripts/story-pictures.js (Kevin, 2 Nov 2026: "that's how it should also look on the website"):
+// img/stories/<slug>.jpg (share picture, og:image), -art.jpg (story page and front page lead), -thumb.jpg (lists).
+const STORY_PICS = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, "data", "story-pictures.json"), "utf8")).stories || {}; } catch (_) { return {}; } })();
+const storyPic = (s, kind) => STORY_PICS[s.slug] && fs.existsSync(path.join(ROOT, "img", "stories", s.slug + kind + ".jpg"))
+  ? `/img/stories/${s.slug}${kind}.jpg?v=${STORY_PICS[s.slug]}` : null;
+const DEFAULT_SHARE = fs.existsSync(path.join(ROOT, "img", "share", "default.jpg")) ? "/img/share/default.jpg" : null;
 
 // Our pick first, then the order of TOOLS (as on the home page).
 const toolsIn = cat => TOOLS.filter(t => t.category === cat).sort((a, b) => (b.isPick ? 1 : 0) - (a.isPick ? 1 : 0));
@@ -275,7 +281,12 @@ ${p.nav === "news" ? '<link rel="alternate" type="application/rss+xml" title="Us
 <meta property="og:title" content="${esc(p.title)}">
 <meta property="og:description" content="${esc(p.description)}">
 <meta property="og:url" content="${url}">
-<meta name="color-scheme" content="light dark">
+${(p.share || DEFAULT_SHARE) ? `<meta property="og:image" content="${SITE}${p.share || DEFAULT_SHARE}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="${esc(p.shareAlt || "Use & Like: app news, deals and how-tos")}">
+<meta name="twitter:card" content="summary_large_image">
+` : ""}${p.noindex ? "" : '<meta name="robots" content="max-image-preview:large">\n'}<meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="#1f3a5f">
 ${ICON}
 ${p.jsonld.map(ld).join("\n")}
@@ -528,7 +539,8 @@ function storyArt(s, cls) {
   return `<span class="art ${cls}" style="--c:${esc(c)}" aria-hidden="true">${inner}</span>`;
 }
 function storyThumb(s, w) {
-  return s.thumb ? `<img src="${esc(s.thumb)}" alt="" width="${w}" height="${w / 2}" loading="lazy">` : storyArt(s, "sm");
+  const t = s.thumb || storyPic(s, "-thumb");
+  return t ? `<img src="${esc(t)}" alt="" width="${w}" height="${w / 2}" loading="lazy">` : storyArt(s, "sm");
 }
 // Rumors, leaks and features in testing (Kevin, 1 Nov: "speculative ... we can frame them exactly like that"): amber tag.
 const tagHtml = s => (s.tag || s.rumor) ? `<span class="tag${s.rumor ? " rumor" : ""}">${esc(s.tag || "Rumor")}</span>` : "";
@@ -556,7 +568,7 @@ for (const s of NEWS) {
     `<p class="dek">${esc(s.dek)}</p>`,
     s.rumor ? '<p class="unconfirmed"><strong>Not confirmed.</strong> This comes from a report, a leak or a test version, not from the company itself, so details can still change.</p>' : "",
     `<p class="meta">Use &amp; Like · ${esc(longDay(s.date))} · Source: ${sourcesLine(s)}</p>`,
-    s.image ? `<img class="hero" src="${esc(s.image)}" alt="" width="1200" height="600">` : storyArt(s, "big"),
+    (s.image || storyPic(s, "-art")) ? `<img class="hero" src="${esc(s.image || storyPic(s, "-art"))}" alt="" width="1200" height="600">` : storyArt(s, "big"),
     s.means ? `<div class="callout"><h2>What it means for you</h2><p>${esc(s.means)}</p></div>` : "",
     s.todo ? `<div class="todo"><h2>What to do</h2><p>${esc(s.todo)}</p></div>` : "",
     s.details && !s.details_in_todo ? `<div class="details"><h2>The details</h2><p>${esc(s.details)}</p>` +
@@ -573,10 +585,11 @@ for (const s of NEWS) {
     datePublished: s.date, dateModified: s.updated || s.date, mainEntityOfPage: SITE + "/" + p,
     author: { "@type": "Organization", name: "Use & Like", url: SITE + "/" },
     publisher: { "@type": "Organization", name: "Use & Like", url: SITE + "/" } };
-  if (s.image) article.image = [SITE + s.image];
+  const share = storyPic(s, "");
+  if (s.image || share) article.image = [SITE + (s.image || share)];
   out.set(p + "index.html", layout({
     path: p, nav: "news", cls: "page", title: `${s.head} | Use & Like`, description: s.dek.slice(0, 300),
-    noindex: false, jsonld: [crumbsLd(trail), article], main
+    noindex: false, jsonld: [crumbsLd(trail), article], main, share, shareAlt: s.head
   }));
   sitemap.push(p);
 }
@@ -706,14 +719,15 @@ function frontPage() {
   const lead = TOP_NEWS.find(s => s.rank === 1 && s.date >= leadFrom) || TOP_NEWS[0];
   if (!lead) return "";
   const latest = TOP_NEWS.filter(s => s !== lead).slice(0, 6);
+  const leadPic = lead.image || storyPic(lead, "-art");
   return [
     '<div class="front">',
     '<h1 class="sr-only">Use &amp; Like: app news, deals and how-tos</h1>',
     '<section class="lead-story" aria-labelledby="lead-h">' +
       `<a href="/${newsPath(lead)}" tabindex="-1" aria-hidden="true">` +
-      (lead.image ? `<img src="${esc(lead.image)}" alt="" width="1200" height="600">` : storyArt(lead, "lg")) + "</a>" +
+      (leadPic ? `<img src="${esc(leadPic)}" alt="" width="1200" height="600">` : storyArt(lead, "lg")) + "</a>" +
       `<div class="txt">${tagHtml(lead)}<h2 id="lead-h"><a href="/${newsPath(lead)}">${esc(lead.head)}</a></h2>` +
-      `<p class="dek">${esc(lead.dek)}${lead.image && lead.details && !lead.details_in_todo ? " " + esc(lead.details) : ""}</p>` +
+      `<p class="dek">${esc(lead.dek)}${leadPic && lead.details && !lead.details_in_todo ? " " + esc(lead.details) : ""}</p>` +
       `<p class="meta">${esc(shortDay(lead.date))} · Source: ${esc(lead.sources.map(x => x.name).join(", "))}</p></div></section>`,
     '<div class="split">',
     `<section aria-labelledby="latest-h">${secHead("latest-h", "Latest app news", '<a href="/news/">All app news ›</a>')}\n${storyRows(latest)}</section>`,

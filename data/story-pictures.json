@@ -1,0 +1,32 @@
+{
+ "_about": "Written by scripts/story-pictures.js: a fingerprint per story of what its pictures in img/stories/ show (words, tag, apps, icons). build-pages.js adds it to the picture links so changed pictures load fresh.",
+ "design": "1",
+ "stories": {
+  "android-sms-bug-drops-calls": "0f37c01f",
+  "apple-music-android-redesign": "bdde62d3",
+  "chatgpt-dots-text-messages": "5796a251",
+  "chatgpt-icloud-mail-calendar": "4491e072",
+  "chatgpt-pro-limits-doubled": "d694ca86",
+  "chromagraph-camera-app": "1a73fb71",
+  "chrome-autofill-from-gmail": "0283afc2",
+  "chrome-extensions-hijack-searches": "6b021ab7",
+  "discord-chats-on-google": "05f7438d",
+  "eney-ai-assistant-mac": "ae6b0846",
+  "gemini-4-carbon-security-teams-first": "01d77c8a",
+  "gemini-edit-files-in-chat": "ecd1a9f6",
+  "google-ai-plus-loses-pro-models": "69319d57",
+  "instagram-long-videos-test": "b88a2ec1",
+  "ios-27-2-four-live-games": "7a6c729d",
+  "macbook-pro-touchscreen": "a8f19452",
+  "microsoft-365-family-shared-storage": "9a1c63c2",
+  "reddit-account-for-most-pages": "4bd09dc3",
+  "reddit-for-you-feed": "568b244e",
+  "samsung-news-shutting-down": "2a03203f",
+  "samsung-wallet-cash-card": "063ba27f",
+  "t-mobile-t-mix-streaming": "b373ad02",
+  "tiktok-must-eat-restaurant-guide": "88da5b35",
+  "whatsapp-group-catch-up-features": "83ea418e",
+  "whatsapp-settings-redesign-in-testing": "a9b249e4",
+  "youtube-tv-premium-offer": "0c938f2e"
+ }
+}

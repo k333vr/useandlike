@@ -70,6 +70,16 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   thumbnail tool's saved logo (tngg.app's D1 `tngg-studio` + R2, read only), then the App Store; each run re-checks for new logos; latest news beside the checked deals, newsletter box via
   `[data-join]`, one-liners, how-tos). Recommended how-tos everywhere: only videos with a new thumbnail
   (`data/new-thumbs.json`, refreshed by useandlike-ops/analysis/new-thumbs-sync.py) and never cancel/refund/"free" titles.
+- Story pictures (2 Nov 2026, Kevin on the examples: "the story designs are also fire, that's how it should also look on
+  the website"): `node scripts/story-pictures.js` (daily news run, after app-icons.py, before build-pages.js) draws per
+  story `img/stories/<slug>.jpg` (1200x630 share picture with tag + headline: og:image, twitter large card, Google
+  Discover via `max-image-preview:large`), `<slug>-art.jpg` (1200x600 without words: story page picture and front page
+  lead) and `<slug>-thumb.jpg` (320x160, story lists), plus `img/share/default.jpg` (every other page; the home page has
+  its own share tags in index.html's head). Look: the app icon(s) on the app's colour inside royal blue, glassy tiles,
+  gold mark. Only new or changed stories are drawn (fingerprint in `data/story-pictures.json`, also the `?v=` of the
+  links); pictures of deleted stories are removed. A story's own `image` still wins on the page. check.js fails on a
+  share picture that doesn't exist and warns about a story without pictures. Fonts: Gelasio + Inter from
+  ../useandlike-ops/analysis/newsletter/cards/.fonts, else downloaded once to ~/.cache/useandlike-fonts.
 - Counted links (1 Nov 2026, Kevin: "maybe we can track those or highlight A b test them"): the footer's About / How
   we choose / How we make money / Work with us go through `/c-about`, `/c-choose`, `/c-money`, `/c-work` (block
   "# Counted site links" in _redirects), so Cloudflare counts clicks as totals. A/B test: the "Run an app or a brand?"

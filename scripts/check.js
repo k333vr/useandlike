@@ -229,6 +229,12 @@ function readRedirects(errors, warnings) {
           ...[...document.querySelectorAll("main h1, main .lead, main .desc, main .note, main .checks li, main.info p, main .dek, main .callout p, main .todo p, main .details p")].map(e => e.textContent)].join(" | "));
         const bad = text.match(BANNED);
         if (bad) errors.push(`${label}: superlative "${bad[0]}" in the page text`);
+        // The share picture (og:image) must be one of our files (story pictures: node scripts/story-pictures.js).
+        const og = await page.$eval('meta[property="og:image"]', m => m.content).catch(() => "");
+        if (og) {
+          const file = path.join(ROOT, decodeURIComponent(new URL(og).pathname));
+          if (!og.startsWith("https://useandlike.com/") || !fs.existsSync(file)) errors.push(`${label}: share picture ${og} is missing (run node scripts/story-pictures.js)`);
+        }
         return page;
       };
       for (const c of data.CATEGORIES) {
@@ -250,8 +256,11 @@ function readRedirects(errors, warnings) {
       }
       for (const p of ["/about/", "/how-we-choose/", "/how-we-make-money/", "/work-with-us/", "/how-tos/", "/news/"]) await pageCheck(p, `page ${p}`);
       // App news: every story file has its page.
-      for (const f of fs.existsSync(path.join(ROOT, "data", "news")) ? fs.readdirSync(path.join(ROOT, "data", "news")).filter(f => f.endsWith(".json")) : [])
-        await pageCheck(`/news/${f.replace(/\.json$/, "")}/`, `story page ${f}`);
+      for (const f of fs.existsSync(path.join(ROOT, "data", "news")) ? fs.readdirSync(path.join(ROOT, "data", "news")).filter(f => f.endsWith(".json")) : []) {
+        if (!(await pageCheck(`/news/${f.replace(/\.json$/, "")}/`, `story page ${f}`))) continue;
+        const og = await page.$eval('meta[property="og:image"]', m => m.content).catch(() => "");
+        if (!og.includes("/img/stories/")) warnings.push(`story page ${f}: no story picture yet (run node scripts/story-pictures.js, then node scripts/build-pages.js)`);
+      }
 
       // The sitemap lists the pages search engines should show (not the "noindex" ones), and they exist.
       const sitemap = fs.existsSync(path.join(ROOT, "sitemap.xml")) ? fs.readFileSync(path.join(ROOT, "sitemap.xml"), "utf8") : "";
