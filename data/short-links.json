@@ -926,6 +926,14 @@
   "countries": "worldwide",
   "added": "2026-10-30"
  },
+ "easeus-bf": {
+  "name": "EaseUS Black Friday",
+  "group": "Productivity & Design",
+  "source": "Partnerize",
+  "countries": "worldwide",
+  "pays": "same as /easeus (Partnerize); lands on EaseUS's Black Friday page (code BF2026, until 2 Dec 2026)",
+  "added": "2026-11-02"
+ },
  "easyship": {
   "name": "Easyship",
   "group": "Online Stores & Funnels",

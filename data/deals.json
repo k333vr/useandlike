@@ -14,6 +14,8 @@
     { "slug": "protonpass", "brand": "Proton Pass", "big": "−40%", "offer": "40% off Pass Plus for a year",
       "detail": "$2.99 a month, billed $35.88 for the year.", "checked": "2026-10-29" },
     { "slug": "invideo", "brand": "InVideo", "big": "−50%", "offer": "50% off all yearly plans",
-      "detail": "Starter from $10 a month, billed yearly.", "checked": "2026-10-29" }
+      "detail": "Starter from $10 a month, billed yearly.", "checked": "2026-10-29" },
+    { "slug": "easeus-bf", "brand": "EaseUS", "big": "Up to 80%", "offer": "Black Friday: up to 80% off with code BF2026",
+      "detail": "Data recovery, backup and video tools. Use the code on EaseUS's Black Friday page.", "checked": "2026-11-02", "ends": "2 Dec" }
   ]
 }

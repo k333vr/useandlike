@@ -145,6 +145,9 @@
 # Partnerize (Kevin's account, the one /wise and /malwarebytes above use): link-only short links. EaseUS (30 Oct
 # invite: data recovery, backup, disk tools).
 /easeus            https://prf.hn/click/camref:1100l5Q4Vu  302
+# EaseUS Black Friday (EaseUS's partner email, 2 Nov: code BF2026, up to 80% off, 2 Nov - 2 Dec 2026): lands on its sale
+# page. After the sale, point it at the line above (never remove it: descriptions may carry it).
+/easeus-bf         https://prf.hn/click/camref:1100l5Q4Vu/creativeref:1100l218625  302
 
 # Synthesia (Kevin's account on Rewardful, 30 Oct): 25% of payments for 12 months, Starter and Creator plans. Its rules
 # forbid masked links, so the 👉 line carries the link itself ("direct" in data/short-links.json); this line only keeps
