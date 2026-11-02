@@ -79,7 +79,8 @@ ahead, like a change that starts next week).
 
 ## The daily run (routine "Use & Like daily news pages")
 
-1. `git pull origin main`.
+1. `git pull origin main`. (2 Nov: after a rebuild the cloud machine's `python3` was Python 3.11, which can't load
+   Pillow: "cannot import name '_imaging'". Then run every `python3` step below with `/usr/bin/python3`.)
 2. `python3 scripts/news-intake.py todo > /tmp/todo.json`: the Studio's candidates from the last 3 days that aren't
    on the site, those the morning AI marked `News: story` first, each with other outlets in `also`.
 3. Read `/tmp/todo.json` and the stories already in `data/news/` from the last days. For each candidate decide:
@@ -91,9 +92,12 @@ ahead, like a change that starts next week).
    deserves to lead the front page.
 4. `python3 scripts/app-icons.py`, on every run, also when no story went up (the picture of every app named in "apps",
    shown as the story's picture when it has none of its own: Kevin's pick from the Studio's Icons tab first, then the
-   thumbnail tool's saved logo, then the App Store; it also takes an app's new logo when the app changed it). Read what it
-   picked; a wrong app ("picked automatically: check it") is Kevin's to change in the Studio's Icons tab, so mention it in
-   the last line instead of editing data/app-icons.json by hand. Then `python3 scripts/partner-offers.py` (every run: the
+   thumbnail tool's saved logo, then the App Store; it also takes an app's new logo when the app changed it). Since 2 Nov an
+   App Store app is only used when its name or maker fits (`trusted()`); a doubtful one leaves the letter, and earlier
+   automatic picks that fail the check are taken back by themselves. Read what it picked; a wrong app ("picked
+   automatically: check it") is Kevin's to change in the Studio's Icons tab, so mention it in the last line instead of
+   editing data/app-icons.json by hand. Short names the App Store lists under a full name ("Copilot" -> "Microsoft
+   Copilot") go in `STORE_TERMS` in the script. Then `python3 scripts/partner-offers.py` (every run: the
    offers our partner brands list, from the Studio's deal tracker, for the "More offers from our partners" part of
    /deals/; it leaves out old, seasonal and non-offers by itself). Then `node scripts/story-pictures.js` (every run:
    draws the pictures of new or changed stories in a few seconds into img/stories/: the share picture people see when

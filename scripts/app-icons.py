@@ -9,7 +9,9 @@ Where a picture comes from, first match wins:
   1. Kevin's pick in the Studio's Icons tab (studio.useandlike.com/#icons): another App Store app, a logo from the
      thumbnail tool, an uploaded picture, a picture link, or just the letter. This script applies it on the next run.
   2. The thumbnail tool's app library (tngg.app, saved by the editors for the YouTube thumbnails), same name; read only.
-  3. The App Store: the app whose name starts with ours, most rated first.
+  3. The App Store: the app whose name starts with ours, most rated first, if it passes trusted() (2 Nov: same name,
+     or name + colon/dash, or the brand's own website or company); else the letter stays and the Icons tab says which
+     app looked doubtful. Automatic picks are checked again every run and taken back when they fail.
 Every run also looks again at the App Store and the thumbnail tool and takes the new logo when an app changed its own.
 
     python3 scripts/app-icons.py            # run by the daily news run (NEWS.md step 4), every day
@@ -37,6 +39,16 @@ TNGG_BUCKET = "tngg-studio"                          # its R2 bucket: logos at a
 # News names that the thumbnail tool saved under another name (normalized: lowercase letters and digits only).
 ALIASES = {"chrome": "googlechrome", "googlegemini": "gemini", "excel": "microsoftexcel", "drive": "googledrive",
            "googleonedrive": "onedrive", "microsoftonedrive": "onedrive", "twitter": "x"}
+# Short names the news uses for an app the App Store lists under its full name (normalized news name -> store search).
+# 2 Nov: "Copilot" alone found "Copilot: Track & Budget Money", a budgeting app; "Outlook" alone found nothing.
+STORE_TERMS = {"copilot": "Microsoft Copilot", "outlook": "Microsoft Outlook", "teams": "Microsoft Teams",
+               "word": "Microsoft Word", "excel": "Microsoft Excel", "powerpoint": "Microsoft PowerPoint",
+               "edge": "Microsoft Edge", "bing": "Microsoft Bing", "onenote": "Microsoft OneNote",
+               "gemini": "Google Gemini", "drive": "Google Drive", "maps": "Google Maps", "chrome": "Google Chrome"}
+
+
+def store_term(name):
+    return STORE_TERMS.get(norm(name), name)
 
 
 def slugify(name):
@@ -113,15 +125,49 @@ def lookup(ids):
     return out
 
 
+def trusted(name, app):
+    """Whether an App Store app may stand for a name without anyone checking it. 2 Nov: "Codex" had become "Codex Relay -
+    Remote Codex App" (one person's side project, 57 ratings), so a store name that only starts the same way isn't enough.
+    Yes when the store name is ours ("Siri"), or ours and then a colon, dash or bracket ("Spotify: Music and Podcasts",
+    "Eney - AI Assistant"); or the app's website is the brand's own ("Amazon Shopping": amazon.com); or the seller's
+    first word is the name's first word ("Meta AI" by Meta Platforms). Otherwise the story keeps the letter, and Kevin
+    can pick an icon in the Studio's Icons tab."""
+    store = (app.get("trackName") or "").strip()
+    if norm(store) == norm(name):
+        return True
+    low, want = store.lower(), name.lower().strip()
+    if low.startswith(want) and low[len(want):].lstrip()[:1] in (":", "-", "–", "—", "|", "(", ","):
+        return True
+    first = norm(name.split()[0]) if name.split() else ""
+    if len(first) < 3:
+        return False
+    host = (urllib.parse.urlparse(app.get("sellerUrl") or "").hostname or "").split(".")
+    site = host[-3] if len(host) >= 3 and host[-2] in ("co", "com", "org", "net") and len(host[-1]) == 2 \
+        else (host[-2] if len(host) >= 2 else "")
+    if site and norm(site) in (norm(name), first):
+        return True
+    seller = (app.get("sellerName") or app.get("artistName") or "").split()
+    return bool(seller) and norm(seller[0]) == first
+
+
 def search(name):
-    """The App Store app whose name starts with ours, most rated first (None when nothing fits)."""
+    """The App Store app for a name: the most rated one whose name starts with ours and that trusted() accepts.
+    Returns (that app or None, the closest app it didn't trust or None)."""
     d = get_json("https://itunes.apple.com/search?" + urllib.parse.urlencode(
         {"term": name, "entity": "software", "country": "us", "limit": 10}))
     want = re.sub(r"[^a-z0-9]+", " ", name.lower()).strip()
     fits = [r for r in d.get("results", [])
             if re.sub(r"[^a-z0-9]+", " ", r["trackName"].lower()).strip().startswith(want)]
     fits.sort(key=lambda r: -(r.get("userRatingCount") or 0))
-    return fits[0] if fits else None
+    for r in fits:
+        if trusted(name, r):
+            return r, None
+    return None, (fits[0] if fits else None)
+
+
+def doubt_note(app):
+    return ("left as a letter: the closest App Store app, %s by %s, may be another app. Pick one here if you know the "
+            "right one" % (app.get("trackName"), app.get("artistName") or "an unknown developer"))
 
 
 def art_url(app):
@@ -313,6 +359,29 @@ def main():
             failed[name] = str(e)
             print("%s: could not apply Kevin's pick: %s" % (name, e))
 
+    # 2a. Automatic App Store picks are checked again every run with trusted() (Kevin, 2 Nov: "find a way to make the
+    # corrections of these automatically"): one that fails (picked before the check, or the app was renamed) goes back
+    # to the letter, and the Studio's Icons tab says which app it was. Kevin's own picks are never touched.
+    auto = {n: e for n, e in icons.items() if e.get("source") == "appstore" and e.get("id") and not e.get("chosen")
+            and (e.get("note") or "").startswith("picked automatically")}
+    try:
+        now = lookup([e["id"] for e in auto.values()]) if auto else {}
+    except Exception as e:
+        now = {}
+        print("Re-check of the automatic App Store icons skipped: %s" % e)
+    for name, e in auto.items():
+        app = now.get(int(e["id"]))
+        if not app or trusted(store_term(name), app):
+            continue
+        rel = e.get("file")
+        for k in list(e):
+            e.pop(k)
+        e["note"] = doubt_note(app)
+        if rel and not any(x.get("file") == rel for x in icons.values()) and os.path.exists(os.path.join(ROOT, rel)):
+            os.remove(os.path.join(ROOT, rel))
+        print("%s: took back the automatic icon (%s by %s): it may be another app" % (name, app["trackName"], app.get("artistName")))
+        changed.append("%s (doubtful icon taken back)" % name)
+
     # 2. Apps without a picture: the thumbnail tool's logo, else the App Store.
     for name in apps:
         entry = icons.setdefault(name, {})
@@ -332,17 +401,22 @@ def main():
         if has_file(entry):
             continue
         app = lookup([entry["id"]]).get(int(entry["id"])) if entry.get("id") else None
+        doubt = None
         if not app and not entry.get("id"):
             time.sleep(3)
-            app = search(name)
+            app, doubt = search(store_term(name))
             if app:
                 print("%s: picked %r by %s (App Store id %s); change it in the Studio's Icons tab if that's the wrong app"
                       % (name, app["trackName"], app.get("artistName"), app["trackId"]))
+            elif doubt:
+                print("%s: left as a letter: the closest App Store app, %r by %s (%s ratings), may be another app"
+                      % (name, doubt["trackName"], doubt.get("artistName"), doubt.get("userRatingCount")))
         if app and from_appstore(name, entry, app):
             entry["note"] = "picked automatically: check it"
             changed.append(name)
         else:
-            entry["note"] = "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+            entry["note"] = doubt_note(doubt) if doubt else \
+                "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
 
     # 3. Logos that changed at the source (an app's new icon, an editor's new logo in the thumbnail tool).
     if "--no-refresh" not in sys.argv:

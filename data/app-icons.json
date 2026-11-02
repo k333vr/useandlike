@@ -8,7 +8,8 @@
   "store_name": "Agoda: Cheap Flights & Hotels",
   "developer": "Agoda.com",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/eb/5a/5aeb5a27-61f3-7df1-e25b-571af62079bb/AppIcon-0-0-1x_U007epad-0-1-0-0-0-GLES2_U002c0-85-220.png/512x512bb.jpg",
-  "note": "picked automatically: check it"
+  "note": "picked automatically: check it",
+  "tngg_skip": 14
  },
  "Amazon": {
   "source": "appstore",
@@ -84,15 +85,7 @@
   "hash": "6ef0b8f22e74"
  },
  "Codex": {
-  "source": "appstore",
-  "file": "img/apps/codex.webp",
-  "color": "#4557d4",
-  "v": "76bc592b",
-  "id": 6764463488,
-  "store_name": "Codex Relay - Remote Codex App",
-  "developer": "Kang Sungyu",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/c1/3d/d0c13d85-3ab9-640e-4dd0-b18f4e27a513/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-  "note": "picked automatically: check it"
+  "note": "left as a letter: the closest App Store app, Codex Relay - Remote Codex App by Kang Sungyu, may be another app. Pick one here if you know the right one"
  },
  "Discord": {
   "file": "img/apps/discord.webp",
@@ -239,7 +232,15 @@
   "hash": "bf6aa0dea012"
  },
  "Outlook": {
-  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+  "source": "appstore",
+  "file": "img/apps/outlook.webp",
+  "color": "#2ba8ee",
+  "v": "3ccbc522",
+  "id": 951937596,
+  "store_name": "Microsoft Outlook",
+  "developer": "Microsoft Corporation",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/d7/e4/68d7e488-404f-0cc3-b90e-b68aca7adffc/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
  },
  "Pixel Watch": {
   "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
