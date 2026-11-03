@@ -41,6 +41,12 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   set on #welcome / #thanks / #tracker or by the box's "Already subscribed? Hide this" (index.html and build-pages.js'
   SCRIPT + beehiivHead; the privacy page says so). The #join page keeps its field. The front page's story list ends
   with a "More stories" button to /news/.
+  "One more step" box (3 Nov 2026, Kevin: 8 sign-ups in a row never confirmed): Beehiiv's form only flashes "check your
+  email" for 5 seconds, so when its frame posts `beehiiv:submitted` (origin subscribe-forms.beehiiv.com; the same message
+  Beehiiv's loader uses to set its subscribed cookie) the page shows a box until "Got it": confirm in the email to get the
+  tracker, look in Promotions/Spam, Open Gmail (search `useandlike in:anywhere`) / Outlook / Yahoo Mail. Code in
+  index.html (`confirmStep`) and build-pages.js' SCRIPT; CSS `.confirm-step`. Beehiiv side (Kevin): Settings > Emails >
+  Smart Nudge (one reminder after 48 h) and the opt-in email's subject (Preset Emails).
 - All news page `/news/` (Kevin, 3 Nov: "2 or 3" per row, "in between we can add deals"): story cards in a grid
   (`.srows.grid3`: 1 column on phones, 2 from 700 px, 3 from 980 px), and after every `NEWS_DEAL_EVERY` (9) stories a
   row of 4 deals (`newsWithDeals` in build-pages.js): the checked deals first, then partners' own offers

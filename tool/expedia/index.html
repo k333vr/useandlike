@@ -124,6 +124,18 @@ header { padding: 22px 0 0; }
 .bh-slot iframe { color-scheme: light; }
 .info .bh-slot { max-width: 420px; }
 .joined { margin: 0; font-weight: 700; color: var(--text); }
+/* "One more step" after signing up (3 Nov 2026: 8 sign-ups in a row never confirmed): Beehiiv only flashes "check your
+   email" for 5 seconds, so the page shows this box until "Got it" (a sheet at the bottom on phones). */
+.confirm-step { position: fixed; inset: 0; z-index: 2147483000; display: flex; align-items: flex-end; justify-content: center; padding: 16px; background: rgba(12, 16, 26, .55); }
+.cs-card { box-sizing: border-box; width: 100%; max-width: 440px; padding: 20px 20px 18px; border-top: 4px solid var(--brass); border-radius: 16px; background: var(--surface); color: var(--text); text-align: center; box-shadow: 0 18px 50px rgba(0, 0, 0, .3); }
+.cs-card h2 { margin: 0 0 8px; font: 700 1.35rem/1.2 var(--serif); }
+.cs-card p { margin: 0 0 10px; line-height: 1.5; }
+.cs-card .cs-icon { margin: 0 0 4px; font-size: 2rem; line-height: 1; }
+.cs-card .cs-small { font-size: .9rem; color: var(--muted); }
+.cs-btns { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.cs-btns a { padding: 8px 14px; border: 1px solid var(--line); border-radius: 999px; color: var(--link); font-size: .92rem; font-weight: 700; text-decoration: none; }
+.cs-close { width: 100%; margin-top: 6px; padding: 12px 18px; border: 0; border-radius: 10px; background: var(--brand); color: var(--brand-text); font: 700 1rem var(--sans); cursor: pointer; }
+@media (min-width: 700px) { .confirm-step { align-items: center; } }
 /* Under the field (not in the header): Beehiiv emails a confirmation link first; the backup link opens Beehiiv's own page. */
 .bh-note { margin: 6px 0 0; font-size: .86rem; line-height: 1.4; color: var(--muted); }
 .bh-note a { color: var(--link); }
@@ -496,6 +508,30 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
   var subscribed = /(^|; )bhv_[^=]+_subscribed=/.test(document.cookie);
   try { subscribed = subscribed || localStorage.getItem("ul-subscribed") === "1"; } catch (e) {}
   if (subscribed) hideSignup();
+  // "One more step" after signing up (as on index.html, which explains it): Beehiiv only flashes "check your email" for
+  // 5 seconds, so a box stays until "Got it".
+  window.addEventListener("message", function (e) {
+    if (e.origin !== "https://subscribe-forms.beehiiv.com" || !e.data || e.data.type !== "beehiiv:submitted") return;
+    if (document.getElementById("confirm-step")) return;
+    var box = document.createElement("div");
+    box.id = "confirm-step"; box.className = "confirm-step";
+    box.setAttribute("role", "dialog"); box.setAttribute("aria-modal", "true"); box.setAttribute("aria-labelledby", "cs-h");
+    box.innerHTML = '<div class="cs-card"><p class="cs-icon" aria-hidden="true">\u2709\ufe0f</p>' +
+      '<h2 id="cs-h">One more step: confirm your email</h2>' +
+      '<p>We just sent you an email. Open it and tap the Confirm button. Then you get your free Subscription Tracker.</p>' +
+      '<p class="cs-small">Not in your inbox? Look in Promotions or Spam. It comes from Use &amp; Like.</p>' +
+      '<p class="cs-btns"><a href="https://mail.google.com/mail/u/0/#search/useandlike+in%3Aanywhere" target="_blank" rel="noopener">Open Gmail</a>' +
+      '<a href="https://outlook.live.com/mail/0/" target="_blank" rel="noopener">Outlook</a>' +
+      '<a href="https://mail.yahoo.com/" target="_blank" rel="noopener">Yahoo Mail</a></p>' +
+      '<button type="button" class="cs-close">Got it</button></div>';
+    document.body.appendChild(box);
+    var ok = box.querySelector(".cs-close");
+    function onKey(k) { if (k.key === "Escape") close(); }
+    function close() { box.remove(); document.removeEventListener("keydown", onKey); }
+    ok.addEventListener("click", close);
+    document.addEventListener("keydown", onKey);
+    ok.focus();
+  });
   document.addEventListener("click", function (e) {
     if (!e.target.closest || !e.target.closest(".nl-hide")) return;
     try { localStorage.setItem("ul-subscribed", "1"); } catch (err) {}

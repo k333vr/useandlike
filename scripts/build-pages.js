@@ -242,6 +242,30 @@ const SCRIPT = `(function () {
   var subscribed = /(^|; )bhv_[^=]+_subscribed=/.test(document.cookie);
   try { subscribed = subscribed || localStorage.getItem("ul-subscribed") === "1"; } catch (e) {}
   if (subscribed) hideSignup();
+  // "One more step" after signing up (as on index.html, which explains it): Beehiiv only flashes "check your email" for
+  // 5 seconds, so a box stays until "Got it".
+  window.addEventListener("message", function (e) {
+    if (e.origin !== "https://subscribe-forms.beehiiv.com" || !e.data || e.data.type !== "beehiiv:submitted") return;
+    if (document.getElementById("confirm-step")) return;
+    var box = document.createElement("div");
+    box.id = "confirm-step"; box.className = "confirm-step";
+    box.setAttribute("role", "dialog"); box.setAttribute("aria-modal", "true"); box.setAttribute("aria-labelledby", "cs-h");
+    box.innerHTML = '<div class="cs-card"><p class="cs-icon" aria-hidden="true">\\u2709\\ufe0f</p>' +
+      '<h2 id="cs-h">One more step: confirm your email</h2>' +
+      '<p>We just sent you an email. Open it and tap the Confirm button. Then you get your free Subscription Tracker.</p>' +
+      '<p class="cs-small">Not in your inbox? Look in Promotions or Spam. It comes from Use &amp; Like.</p>' +
+      '<p class="cs-btns"><a href="https://mail.google.com/mail/u/0/#search/useandlike+in%3Aanywhere" target="_blank" rel="noopener">Open Gmail</a>' +
+      '<a href="https://outlook.live.com/mail/0/" target="_blank" rel="noopener">Outlook</a>' +
+      '<a href="https://mail.yahoo.com/" target="_blank" rel="noopener">Yahoo Mail</a></p>' +
+      '<button type="button" class="cs-close">Got it</button></div>';
+    document.body.appendChild(box);
+    var ok = box.querySelector(".cs-close");
+    function onKey(k) { if (k.key === "Escape") close(); }
+    function close() { box.remove(); document.removeEventListener("keydown", onKey); }
+    ok.addEventListener("click", close);
+    document.addEventListener("keydown", onKey);
+    ok.focus();
+  });
   document.addEventListener("click", function (e) {
     if (!e.target.closest || !e.target.closest(".nl-hide")) return;
     try { localStorage.setItem("ul-subscribed", "1"); } catch (err) {}
