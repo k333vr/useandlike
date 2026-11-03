@@ -5,6 +5,8 @@ days that aren't on the site yet. The daily news run reads them, checks each sou
 
     python3 scripts/news-intake.py todo [--days 3]   # JSON list, best first
     python3 scripts/news-intake.py done              # which Studio stories are on the site (item ids from data/news)
+    python3 scripts/news-intake.py more              # a waiting "more stories" request from the script page, if any
+    python3 scripts/news-intake.py more --done N     # mark it done (N = how many full stories went up for it)
 
 A candidate is a story the morning AI marked "News: story" (Kevin, 1 Nov 2026: "basically no limit and also a lot of
 newcomer apps") or "News: rumor" (a rumor, leak or feature in testing: Kevin wants those too, framed as such; "rumor": true),
@@ -85,11 +87,30 @@ def done():
     print("%d Studio stories are on the site: %s" % (len(items), ", ".join(map(str, sorted(items)))))
 
 
+# "➕ 10 more stories" on the script page (Kevin, 3 Nov 2026: "just have a button in the prompter that can always add more
+# stories from our resources to load up the next 10 best"): the Studio keeps the request in settings 'news_more' and
+# starts the news run; NEWS.md "More stories on request" says what the run does with it.
+def more(args):
+    rows = query("SELECT value FROM settings WHERE key = 'news_more'")
+    req = json.loads(rows[0]["value"]) if rows and rows[0].get("value") else {}
+    if "--done" in args:
+        if req.get("status") != "asked":
+            print("No request waiting.")
+            return
+        req.update(status="done", added=int(args[args.index("--done") + 1]), done_at=time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()))
+        query("UPDATE settings SET value = ? WHERE key = 'news_more'", [json.dumps(req)])
+        print("Marked done: %d more stories." % req["added"])
+        return
+    print(json.dumps({"waiting": req.get("status") == "asked", "n": req.get("n", 10), "asked_at": req.get("at"), "by": req.get("by")}))
+
+
 if __name__ == "__main__":
     args = sys.argv[1:]
     if args[:1] == ["todo"]:
         todo(int(args[args.index("--days") + 1]) if "--days" in args else 3)
     elif args[:1] == ["done"]:
         done()
+    elif args[:1] == ["more"]:
+        more(args)
     else:
         sys.exit(__doc__)

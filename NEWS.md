@@ -93,6 +93,8 @@ ahead, like a change that starts next week).
    Pillow: "cannot import name '_imaging'". Then run every `python3` step below with `/usr/bin/python3`.)
 2. `python3 scripts/news-intake.py todo > /tmp/todo.json`: the Studio's candidates from the last 3 days that aren't
    on the site, those the morning AI marked `News: story` first, each with other outlets in `also`.
+   Then `python3 scripts/news-intake.py more`: when it says `"waiting": true`, someone pressed "➕ 10 more stories" on
+   the script page; do "More stories on request" (below) in this run too.
 3. Read `/tmp/todo.json` and the stories already in `data/news/` from the last days. For each candidate decide:
    - **write it** (rules above; open its link and the `also` links you need),
    - **already covered**: the same news is in a story (same app, same change): add the candidate's id to that
@@ -103,6 +105,10 @@ ahead, like a change that starts next week).
      source has it).
    Merge several candidates about the same news into one story. Give the day's most important story rank 1 when it
    deserves to lead the front page.
+   **How many full stories** (Kevin, 3 Nov 2026: "we try to hit the upload cap daily so we push it"): every full story
+   becomes a news video, so write a full story for every candidate with enough confirmed facts for a 20-40 second
+   script; aim for 25-30 a day when the candidates are there (the morning AI marks 50-60 a day as news). Only the thin
+   ones (a single fact, a minor update) become one-liners.
 4. `python3 scripts/app-icons.py`, on every run, also when no story went up (the picture of every app named in "apps",
    shown as the story's picture when it has none of its own: Kevin's pick from the Studio's Icons tab first, then the
    thumbnail tool's saved logo, then the App Store; it also takes an app's new logo when the app changed it). Since 2 Nov an
@@ -126,6 +132,20 @@ ahead, like a change that starts next week).
    `/tmp/scripts.json`, then `python3 scripts/news-scripts.py save /tmp/scripts.json` (fix what it reports).
 8. End with one line: how many full stories and one-liners went up (headlines of the top 3), how many scripts, how many candidates were
    already covered or skipped. A day without new stories is fine: say so and push nothing.
+
+## More stories on request ("➕ 10 more stories" on the script page)
+
+Kevin, 3 Nov 2026: "just have a button in the prompter that can always add more stories from our resources to load up the
+next 10 best". The Studio keeps the request (settings `news_more`) and starts this routine through its API trigger (once
+the Worker secret NEWS_ROUTINE_TOKEN is set; without it the next morning run finds the request). When
+`news-intake.py more` says `"waiting": true` (its `n` is how many, usually 10):
+1. Take the next `n` best stories that have no full story yet: new candidates from `todo` first (best first), then the
+   strongest one-liners of today and yesterday (turn a one-liner into a full story by removing `"quick"` and adding the
+   full story's fields; keep its slug).
+2. Write them by the same rules (facts from the sources, neutral words), build, check, push as in steps 4-6, and save a
+   script for each (step 7) under today's date, so they show up in the presenter's list.
+3. `python3 scripts/news-intake.py more --done <how many went up>`, and say it in the last line.
+If fewer than `n` are worth a video, write the ones that are and mark the request done with that number.
 
 ## Scripts for the presenter
 
