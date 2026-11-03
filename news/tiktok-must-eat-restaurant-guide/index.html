@@ -19,6 +19,7 @@
 <meta name="description" content="TikTok launched Must Eat: restaurant tips from 40 million posts and comments (New York, LA and San Francisco first).">
 <link rel="canonical" href="https://useandlike.com/news/tiktok-must-eat-restaurant-guide/">
 <link rel="alternate" type="application/rss+xml" title="Use &amp; Like app news" href="/news/feed.xml">
+<meta name="robots" content="noindex, follow">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Use &amp; Like">
 <meta property="og:title" content="TikTok's restaurant guide | Use &amp; Like">
@@ -29,7 +30,6 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="TikTok's restaurant guide">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="robots" content="max-image-preview:large">
 <meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="#1f3a5f">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='9' fill='%231f3a5f'/%3E%3Ctext x='20' y='29' font-family='Georgia,serif' font-style='italic' font-size='26' fill='%23f3e6c4' text-anchor='middle'%3E%26%3C/text%3E%3C/svg%3E">
@@ -369,7 +369,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
   .deal-band .dminis { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 @media (min-width: 980px) { .srows.grid3 { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-.deal-band { margin: 26px 0; }
+.deal-band, .briefs { margin: 26px 0; }
 .deal-band .dmini .offer { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .dmini a { display: grid; gap: 4px; height: 100%; padding: 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--text); text-decoration: none; }
 .dmini a:hover { border-color: var(--brass); }
@@ -378,9 +378,10 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 .dmini .big { font: 700 1.7rem/1 var(--serif); color: var(--sale); }
 .dmini .offer { font-size: .85rem; }
 .dmini .chk { font-size: .74rem; color: var(--muted); }
-.one-line { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
-.one-line li { display: grid; gap: 4px; padding-left: 12px; border-left: 3px solid var(--brass); }
-.one-line b { font: 700 1.05rem var(--serif); }
+.one-line { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; align-items: start; }
+.one-line li { display: grid; gap: 4px; align-content: start; padding-left: 12px; border-left: 3px solid var(--brass); }
+.one-line b { font: 700 1.1rem/1.25 var(--serif); }
+.one-line li > span:not(.meta) { font-size: .95rem; line-height: 1.5; }
 @media (max-width: 760px) { .one-line { grid-template-columns: minmax(0, 1fr); } }
 .story { max-width: 740px; }
 .story h1 { margin: 6px 0 0; font: 700 clamp(1.9rem, 5vw, 2.8rem)/1.08 var(--serif); text-wrap: balance; }

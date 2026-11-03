@@ -23,6 +23,15 @@ post about a new app, use the app's own page as the source instead: its App Stor
 browser extension or side project with no clear use for everyday people. A Reddit-only claim about something else (a
 rumor, a bug report) needs an outlet that wrote about it.
 
+**One-liners for the rest** (Kevin, 3 Nov 2026: "lets see how these short items will do", after asking for "all the
+stories we filtered there on the day"): every candidate that is real news for our readers but doesn't get a full
+story (smaller news, a minor update, a second-tier app, a story with only one or two facts) becomes a one-liner
+(`"quick": true`: `head`, `dek` of one or two sentences, `apps`, `sources`), checked in its source like any story.
+Only skip what isn't news for everyday app users, can't be confirmed, or is already covered. No limit: on 1-2 Nov the
+morning AI marked 50-60 candidates a day as news, and the run wrote 15-16 full stories, so expect 20-40 one-liners a
+day. One-liner pages are `noindex` and stay out of the sitemap (thin pages could hold back the full stories' Google
+ranking); they show on /news/ under each block of stories and on the front page.
+
 **Rumors, leaks and features in testing** are stories too (Kevin, 1 Nov: "I do also want speculative not approveable
 stories we can frame them exactly like that ... more uniqueness is good"): an app's next feature spotted in a beta or its
 code, a leaked plan or price, a report that a company is working on something. They get `"rumor": true` and are framed
@@ -87,7 +96,10 @@ ahead, like a change that starts next week).
    - **write it** (rules above; open its link and the `also` links you need),
    - **already covered**: the same news is in a story (same app, same change): add the candidate's id to that
      story's `items` (and a source if it adds a fact), or
-   - **skip** it (not a story, can't confirm the facts, or the link doesn't open and no other source has it).
+   - **one-liner** (`"quick": true`) when it's news for our readers but not worth a full story (see "One-liners for
+     the rest" above; since 3 Nov this replaces skipping smaller news), or
+   - **skip** it (not news for everyday app users, can't confirm the facts, or the link doesn't open and no other
+     source has it).
    Merge several candidates about the same news into one story. Give the day's most important story rank 1 when it
    deserves to lead the front page.
 4. `python3 scripts/app-icons.py`, on every run, also when no story went up (the picture of every app named in "apps",
@@ -111,7 +123,7 @@ ahead, like a change that starts next week).
 6. Check one new page on useandlike.com after a minute or two (curl it for its headline).
 7. Scripts: write one for every new full story of today (see "Scripts for the presenter" below) into
    `/tmp/scripts.json`, then `python3 scripts/news-scripts.py save /tmp/scripts.json` (fix what it reports).
-8. End with one line: how many stories went up (headlines of the top 3), how many scripts, how many candidates were
+8. End with one line: how many full stories and one-liners went up (headlines of the top 3), how many scripts, how many candidates were
    already covered or skipped. A day without new stories is fine: say so and push nothing.
 
 ## Scripts for the presenter

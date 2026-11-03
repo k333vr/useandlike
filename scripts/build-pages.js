@@ -637,24 +637,32 @@ const partnerMini = o => {
 
 // The All news page (Kevin, 3 Nov: "one story per row which I think it should be 2 or 3 ... in between we can add
 // deals"): the stories in a grid (CSS .srows.grid3: 2 columns from 700 px, 3 from 980 px), and after every
-// NEWS_DEAL_EVERY stories a row of 4 deals: the hand-checked ones first, then partners' own offers, mixed across groups.
-const NEWS_DEAL_EVERY = 9;
-function newsWithDeals(list) {
+// NEWS_DEAL_EVERY stories a row of 4 deals: the hand-checked ones first, then partners' own offers, mixed across groups;
+// then a block of NEWS_QUICK_EVERY one-liners (Kevin, 3 Nov: "lets see how these short items will do"), the rest of
+// the one-liners at the end.
+const NEWS_DEAL_EVERY = 9, NEWS_QUICK_EVERY = 8;
+const briefs = (id, list) => `<section class="briefs" aria-labelledby="${id}">${secHead(id, "In one line")}\n${oneLine(list)}</section>`;
+function newsWithDeals(list, quick = []) {
   const groups = new Map();
   for (const o of OFFERS) { if (!groups.has(o.group)) groups.set(o.group, []); groups.get(o.group).push(o); }
   const mixed = [];
   for (let i = 0; mixed.length < OFFERS.length; i++) for (const g of groups.values()) if (g[i]) mixed.push(g[i]);
   const cards = DEALS.map(d => ["checked", dealMini(d)]).concat(mixed.map(o => ["partner", partnerMini(o)]));
   const out = [];
+  let q = 0;
   for (let i = 0, band = 0; i < list.length; i += NEWS_DEAL_EVERY, band++) {
     out.push(storyRows(list.slice(i, i + NEWS_DEAL_EVERY), "grid3"));
+    if (i + NEWS_DEAL_EVERY >= list.length) break;
     const four = cards.slice(band * 4, band * 4 + 4);
-    if (i + NEWS_DEAL_EVERY >= list.length || !four.length) continue;
-    const kinds = new Set(four.map(c => c[0]));
-    const title = kinds.size > 1 ? "Deals and offers" : kinds.has("checked") ? "Deals we checked" : "Offers from our partners";
-    out.push(`<section class="deal-band" aria-labelledby="db-${band + 1}">${secHead(`db-${band + 1}`, title, '<a href="/deals/">All deals ›</a>')}\n` +
-      `<ul class="plain dminis">\n${four.map(c => c[1]).join("\n")}\n</ul></section>`);
+    if (four.length) {
+      const kinds = new Set(four.map(c => c[0]));
+      const title = kinds.size > 1 ? "Deals and offers" : kinds.has("checked") ? "Deals we checked" : "Offers from our partners";
+      out.push(`<section class="deal-band" aria-labelledby="db-${band + 1}">${secHead(`db-${band + 1}`, title, '<a href="/deals/">All deals ›</a>')}\n` +
+        `<ul class="plain dminis">\n${four.map(c => c[1]).join("\n")}\n</ul></section>`);
+    }
+    if (q < quick.length) { out.push(briefs(`ol-${band + 1}`, quick.slice(q, q + NEWS_QUICK_EVERY))); q += NEWS_QUICK_EVERY; }
   }
+  if (q < quick.length) out.push(briefs("ol-rest", quick.slice(q)));
   return out.join("\n");
 }
 const secHead = (id, title, link) => `<div class="sec-head"><h2 id="${id}">${esc(title)}</h2>${link || ""}</div>`;
@@ -689,11 +697,13 @@ for (const s of NEWS) {
     publisher: { "@type": "Organization", name: "Use & Like", url: SITE + "/" } };
   const share = storyPic(s, "");
   if (s.image || share) article.image = [SITE + (s.image || share)];
+  // One-liners (quick) are for readers on the site, not for Google: noindex and out of the sitemap, so their short
+  // pages don't hold back the full stories' ranking (Kevin, 3 Nov: one-liners for the rest of the day's news).
   out.set(p + "index.html", layout({
     path: p, nav: "news", cls: "page", title: `${s.head} | Use & Like`, description: s.dek.slice(0, 300),
-    noindex: false, jsonld: [crumbsLd(trail), article], main, share, shareAlt: s.head
+    noindex: !!s.quick, jsonld: [crumbsLd(trail), article], main, share, shareAlt: s.head
   }));
-  sitemap.push(p);
+  if (!s.quick) sitemap.push(p);
 }
 
 // All stories, newest first.
@@ -705,11 +715,11 @@ if (NEWS.length) {
     noindex: false, jsonld: [crumbsLd(trail)],
     main: [crumbsHtml(trail), "<h1>App news</h1>",
       '<p class="lead">What changed in the apps you use, in our own words, with what it means for you and what to do about it.</p>',
-      newsWithDeals(TOP_NEWS), QUICK_NEWS.length ? `<section aria-labelledby="ol-h">${secHead("ol-h", "In one line")}\n${oneLine(QUICK_NEWS)}</section>` : "",
+      newsWithDeals(TOP_NEWS, QUICK_NEWS),
       newsletterBox()].filter(Boolean).join("\n")
   }));
   sitemap.push(p);
-  // RSS feed (newest 50 stories) for feed readers and news apps.
+  // RSS feed (newest 50 full stories, not the one-liners) for feed readers and news apps.
   const x = v => String(v).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   out.set("news/feed.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -719,7 +729,7 @@ if (NEWS.length) {
 <atom:link href="${SITE}/news/feed.xml" rel="self" type="application/rss+xml"/>
 <description>What changed in the apps you use, in our own words, with what it means for you and what to do about it.</description>
 <language>en</language>
-${NEWS.slice(0, 50).map(s => `<item><title>${x(s.head)}</title><link>${SITE}/${newsPath(s)}</link><guid isPermaLink="true">${SITE}/${newsPath(s)}</guid>` +
+${TOP_NEWS.slice(0, 50).map(s => `<item><title>${x(s.head)}</title><link>${SITE}/${newsPath(s)}</link><guid isPermaLink="true">${SITE}/${newsPath(s)}</guid>` +
   `<pubDate>${new Date(s.date + "T12:00:00Z").toUTCString()}</pubDate><description>${x(s.dek)}</description></item>`).join("\n")}
 </channel>
 </rss>
@@ -848,21 +858,38 @@ function frontPage() {
     DEALS.length ? `<section aria-labelledby="rail-h">${secHead("rail-h", "Deals we checked", `<a href="/deals/">All ${DEALS.length} ›</a>`)}\n${dealMinis(DEALS.slice(0, 6))}</section>` : "",
     "</div>",
     '<div data-join></div>',
-    QUICK_NEWS.length ? `<section aria-labelledby="ol-h">${secHead("ol-h", "In one line")}\n${oneLine(QUICK_NEWS.slice(0, 3))}</section>` : "",
+    QUICK_NEWS.length ? `<section aria-labelledby="ol-h">${secHead("ol-h", "In one line", '<a href="/news/">More news ›</a>')}\n${oneLine(QUICK_NEWS.slice(0, 6))}</section>` : "",
     RECOMMENDED.length ? `<section aria-labelledby="hw-h">${secHead("hw-h", "How-tos people watch", '<a href="/how-tos/">Search all how-tos ›</a>')}\n${grid(RECOMMENDED.slice(0, 4))}</section>` : "",
     "</div>"
   ].filter(Boolean).join("\n");
 }
 
+// For Google (Kevin, 3 Nov: "we need to increase ranking bc google search viewers are worth a lot"): story pages carry
+// the day they went up as <lastmod>, so Google sees what's new; news-sitemap.xml lists the full stories of the last
+// 2 days in Google News' format (counted from the newest story, so the file doesn't change by itself overnight).
+const xmlEsc = v => String(v).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const upDay = s => s.updated || s.added || s.date;
+const lastmod = new Map(NEWS.map(s => [newsPath(s), upDay(s)]));
+const newestDay = TOP_NEWS.reduce((m, s) => upDay(s) > m ? upDay(s) : m, "");
+if (newestDay) { lastmod.set(NEWSL.path, newestDay); lastmod.set("", newestDay); }
 out.set("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${sitemap.map(p => `  <url><loc>${SITE}/${p}</loc></url>`).join("\n")}
+${sitemap.map(p => `  <url><loc>${SITE}/${p}</loc>${lastmod.has(p) ? `<lastmod>${lastmod.get(p)}</lastmod>` : ""}</url>`).join("\n")}
+</urlset>
+`);
+const fromDay = newestDay ? new Date(Date.parse(newestDay + "T00:00:00Z") - 864e5).toISOString().slice(0, 10) : "9";
+out.set("news-sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+${TOP_NEWS.filter(s => (s.added || s.date) >= fromDay).map(s => `  <url><loc>${SITE}/${newsPath(s)}</loc><news:news><news:publication>` +
+  `<news:name>Use &amp; Like</news:name><news:language>en</news:language></news:publication>` +
+  `<news:publication_date>${s.added || s.date}</news:publication_date><news:title>${xmlEsc(s.head)}</news:title></news:news></url>`).join("\n")}
 </urlset>
 `);
 out.set("robots.txt", `User-agent: *
 Allow: /
 
 Sitemap: ${SITE}/sitemap.xml
+Sitemap: ${SITE}/news-sitemap.xml
 `);
 
 // index.html: structured data and the category list as plain HTML (the page's script replaces it with the same list).

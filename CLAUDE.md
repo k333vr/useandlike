@@ -44,7 +44,15 @@ The owner is a beginner. Explain things in plain language and do as much as poss
 - All news page `/news/` (Kevin, 3 Nov: "2 or 3" per row, "in between we can add deals"): story cards in a grid
   (`.srows.grid3`: 1 column on phones, 2 from 700 px, 3 from 980 px), and after every `NEWS_DEAL_EVERY` (9) stories a
   row of 4 deals (`newsWithDeals` in build-pages.js): the checked deals first, then partners' own offers
-  (`partnerMini`, labelled as their listing), mixed across groups.
+  (`partnerMini`, labelled as their listing), mixed across groups; then a block of 8 one-liners ("In one line").
+  One-liners (Kevin, 3 Nov: yes to "short items" for the rest of the day's news): the daily run turns every real-news
+  candidate it doesn't write in full into a `quick` story (NEWS.md); their pages are `noindex` and out of the sitemap,
+  the RSS feed has full stories only, the front page shows 6.
+- Google (Kevin, 3 Nov: "google search viewers are worth a lot"): `sitemap.xml` gives story pages a `<lastmod>`;
+  `news-sitemap.xml` (Google News format) lists the full stories that went up on the newest day and the day before;
+  robots.txt names both. Search Console only counts visitors from Google searches.
+- No display ads, whatever the traffic (Kevin, 3 Nov: "we stick with that regardless of visitor amount"): affiliate
+  links, brand deals and our own offers only (ads would need a cookie banner, slow the site and pull clicks away).
 - Layout: until 1 Nov 2026 the home page was the category list (Craigslist-style). Kevin, 1 Nov ("overall way better",
   "go"): the home page is app news; `/how-tos/` is a search over all our videos (`how-tos/search.json`, loaded on the
   first search: every non-Short video of data/channel-videos.tsv, the tools, stories, checked deals and partner offers),
