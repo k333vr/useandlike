@@ -6,6 +6,7 @@
  "tag": "In testing",
  "rumor": true,
  "head": "Apple's HomeView may work as a security camera",
+ "thumb_words": "SECURITY CAMERA?",
  "dek": "Code in HomeView 27.2, found by Reddit user pdfu and reported by The Verge, describes a security camera mode with motion detection, live streaming and recording through HomeKit Secure Video. Apple hasn't said it's coming.",
  "details": "According to the code, only home members could see the feed, a light and a sound would show when someone watches or it records, and members would be notified when settings change. Options for what to detect and record would depend on whether you're home, away or asleep.",
  "where": "HomeView, not announced",

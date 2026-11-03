@@ -734,6 +734,19 @@ ${TOP_NEWS.slice(0, 50).map(s => `<item><title>${x(s.head)}</title><link>${SITE}
 </channel>
 </rss>
 `);
+  // The news videos' thumbnails (Kevin, 3 Nov: the close-up look, made where the uploader gets the title and
+  // description): the Studio's script page draws them from this file (through its /site/ address): per full story the
+  // tag, the words (the story's "thumb_words", else the app and the tag), the app icons and colour; and the presenters' photos.
+  const PRESENTERS = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, "data", "presenters.json"), "utf8")).presenters || []; } catch (_) { return []; } })();
+  const stories = {};
+  for (const s of TOP_NEWS) {
+    const { icons, name, color } = storyApps(s);
+    const tag = s.tag || (s.rumor ? "Rumor" : "");
+    stories[s.slug] = { head: s.head, tag, words: s.thumb_words || [name, tag].filter(Boolean).join(" ").toUpperCase(),
+      icons: icons.slice(0, 2).map(e => "/" + e.file), color, app: name };
+  }
+  out.set("news/thumbs.json", JSON.stringify({ presenters: PRESENTERS.map(x => ({ file: "/" + x.file, name: x.name, side: x.side,
+    real: !!x.real })), stories }) + "\n");
 }
 
 // How-tos: search over all our videos (how-tos/search.json, loaded on the first search), then browse by category.

@@ -5,6 +5,7 @@
  "topic": "Security",
  "tag": "Safety",
  "head": "Google takes down a botnet of 1.3 million Android TV boxes",
+ "thumb_words": "INFECTED TV BOXES",
  "dek": "Google led a takedown of a botnet of more than 1.3 million Android devices, mostly TV set-top boxes, in late October. Google says the maker Videostrong built a backdoor into the boxes on purpose and sold access to criminals.",
  "details": "The criminals used owners' home connections to pass other people's internet traffic and to fake ad views; the backdoor could also install apps silently and capture the screen. It's part of the boxes' firmware, so it can't be removed and comes back after a restart. Videostrong makes boxes under its own name and for other brands; Google has banned it from certified Android devices.",
  "where": "Android TV boxes worldwide; also some karaoke machines, telehealth devices and signs",

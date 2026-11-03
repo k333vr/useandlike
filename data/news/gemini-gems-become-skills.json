@@ -5,6 +5,7 @@
  "topic": "AI",
  "tag": "Heads-up",
  "head": "Gemini Gems go read-only on 17 November, replaced by Skills",
+ "thumb_words": "GEMS GO READ-ONLY",
  "dek": "Google is retiring Gems, Gemini's custom assistants. They turn read-only on 17 November and disappear on 17 December; Google converts existing Gems into Skills automatically.",
  "details": "Skills work inside any chat: type @ and pick one, or Gemini uses it by itself when your request fits. They're free in regular chats and found under Customize > Skills. Skills have a 100 MB file limit, and the largest files of a bigger Gem are dropped first. Sharing skills and adding Google Drive files are still a few weeks away; Workspace and school accounts reportedly have until 2027.",
  "where": "Gemini personal accounts; Gems read-only from 17 November 2026",

@@ -80,6 +80,7 @@ ahead, like a change that starts next week).
 | `todo` | "What to do": concrete steps the source supports, or a safe general step ("update the app"); "Nothing to do yet" is fine. |
 | `rank` | Order within its day (1, 2, 3 ...). Rank 1 only for the day's story that should lead the front page (the newest rank-1 story of the last 3 days leads); at most one rank 1 per day, none on a quiet day. |
 | `quick` | `true` for a one-liner (only `head` and `dek`, plus `apps` and `sources`): small news that needs no page of its own. |
+| `thumb_words` | Full stories (since 3 Nov): 2-4 words for the news video's thumbnail, shown in capitals in a box beside the presenter (`LOCK YOUR CHATS`, `WRONG TIME?`, `PAID AI REMIXES`, `PRICE GOES UP`): the change itself, at most about 18 characters, a question mark only for a real open question, no clickbait. Without it the thumbnail shows the app and the tag; the uploader can still change the words on the script page. |
 | `rumor` | `true` for a rumor, leak or feature in testing: the page shows its tag in amber and a "Not confirmed" note. |
 | `apps` | The app names as people write them (`["WhatsApp"]`): they pick our how-to videos about the app. |
 | `item` / `items` | The Studio story id it came from / other Studio ids of the same news (other outlets), so the daily run doesn't write it twice. |
