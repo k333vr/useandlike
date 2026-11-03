@@ -743,7 +743,7 @@ ${TOP_NEWS.slice(0, 50).map(s => `<item><title>${x(s.head)}</title><link>${SITE}
     const { icons, name, color } = storyApps(s);
     const tag = s.tag || (s.rumor ? "Rumor" : "");
     stories[s.slug] = { head: s.head, tag, words: s.thumb_words || [name, tag].filter(Boolean).join(" ").toUpperCase(),
-      icons: icons.slice(0, 2).map(e => "/" + e.file), color, app: name };
+      icons: icons.slice(0, 2).map(e => "/" + e.file), color, app: name, topic: s.topic || "" };   // topic: the upload box's playlist
   }
   out.set("news/thumbs.json", JSON.stringify({ presenters: PRESENTERS.map(x => ({ file: "/" + x.file, name: x.name, side: x.side,
     real: !!x.real, mood: x.mood || "smile", kind: x.kind || "body" })), stories }) + "\n");
