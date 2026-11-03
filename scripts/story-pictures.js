@@ -40,8 +40,9 @@ const ICONS = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "app-icons.json
 const LEAD_DESIGN = "1";                   // bump to draw the top-story pictures again
 // The presenters for option 4: cut-outs in img/presenters/ (useandlike-ops/brand/people/presenters-jobs.json, cut out
 // with brand/cutout.py), each story gets one by its fingerprint, so the front page shows different ladies and outfits.
+// Only the presenting poses: the close-ups with an expression ("kind": "bust", 3 Nov) are for the video thumbnails.
 const PRESENTERS = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, "data", "presenters.json"), "utf8")).presenters || []; } catch (_) { return []; } })()
-  .filter(x => fs.existsSync(path.join(ROOT, x.file)));
+  .filter(x => x.kind !== "bust" && fs.existsSync(path.join(ROOT, x.file)));
 const FONT_FILES = { "Gelasio-700.ttf": ["Gelasio", "0,700"], "Gelasio-600italic.ttf": ["Gelasio", "1,600"],
   "Inter-600.ttf": ["Inter", "0,600"], "Inter-700.ttf": ["Inter", "0,700"], "Inter-800.ttf": ["Inter", "0,800"] };
 // Tag colours on the pictures (light pill, dark text).

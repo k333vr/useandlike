@@ -1,5 +1,5 @@
 {
- "_about": "Presenters for the top-story picture with a presenter (option 4): written by useandlike-ops/brand/presenters-to-site.py; scripts/story-pictures.js gives each rank-1 story one of them. 'side': where she stands (left = she presents toward the right, the logo goes right).",
+ "_about": "Presenters for the top-story picture with a presenter (option 4) and the news thumbnails: written by useandlike-ops/brand/presenters-to-site.py; scripts/story-pictures.js gives each rank-1 story one of the presenting ones (no 'kind'). 'side': where she stands (left = she presents toward the right, the logo goes right). 'kind': 'bust' = a head-and-shoulders close-up with a 'mood' (surprised, concerned, curious, excited) for the thumbnail maker on the script page.",
  "presenters": [
   {
    "file": "img/presenters/ellie-1.webp",
@@ -96,6 +96,134 @@
    "name": "Yuna",
    "look": "a blush pink midi dress with short sleeves",
    "side": "right"
+  },
+  {
+   "file": "img/presenters/lexi-surprised.webp",
+   "name": "Lexi",
+   "look": "surprised",
+   "side": "right",
+   "mood": "surprised",
+   "kind": "bust"
+  },
+  {
+   "file": "img/presenters/lexi-concerned.webp",
+   "name": "Lexi",
+   "look": "concerned",
+   "side": "right",
+   "mood": "concerned",
+   "kind": "bust"
+  },
+  {
+   "file": "img/presenters/lexi-curious.webp",
+   "name": "Lexi",
+   "look": "curious",
+   "side": "right",
+   "mood": "curious",
+   "kind": "bust"
+  },
+  {
+   "file": "img/presenters/lexi-excited.webp",
+   "name": "Lexi",
+   "look": "excited",
+   "side": "right",
+   "mood": "excited",
+   "kind": "bust"
+  },
+  {
+   "file": "img/presenters/yuna-surprised.webp",
+   "name": "Yuna",
+   "look": "surprised",
+   "side": "right",
+   "mood": "surprised",
+   "kind": "bust"
+  },
+  {
+   "file": "img/presenters/yuna-concerned.webp",
+   "name": "Yuna",
+   "look": "concerned",
+   "side": "right",
+   "mood": "concerned",
+   "kind": "bust"
+  },
+  {
+   "file": "img/presenters/yuna-curious.webp",
+   "name": "Yuna",
+   "look": "curious",
+   "side": "right",
+   "mood": "curious",
+   "kind": "bust"
+  },
+  {
+   "file": "img/presenters/yuna-excited.webp",
+   "name": "Yuna",
+   "look": "excited",
+   "side": "right",
+   "mood": "excited",
+   "kind": "bust"
+  },
+  {
+   "file": "img/presenters/ellie-surprised.webp",
+   "name": "Ellie",
+   "look": "surprised",
+   "side": "right",
+   "mood": "surprised",
+   "kind": "bust"
+  },
+  {
+   "file": "img/presenters/ellie-concerned.webp",
+   "name": "Ellie",
+   "look": "concerned",
+   "side": "right",
+   "mood": "concerned",
+   "kind": "bust"
+  },
+  {
+   "file": "img/presenters/ellie-curious.webp",
+   "name": "Ellie",
+   "look": "curious",
+   "side": "right",
+   "mood": "curious",
+   "kind": "bust"
+  },
+  {
+   "file": "img/presenters/ellie-excited.webp",
+   "name": "Ellie",
+   "look": "excited",
+   "side": "right",
+   "mood": "excited",
+   "kind": "bust"
+  },
+  {
+   "file": "img/presenters/hana-surprised.webp",
+   "name": "Hana",
+   "look": "surprised",
+   "side": "right",
+   "mood": "surprised",
+   "kind": "bust"
+  },
+  {
+   "file": "img/presenters/hana-concerned.webp",
+   "name": "Hana",
+   "look": "concerned",
+   "side": "right",
+   "mood": "concerned",
+   "kind": "bust"
+  },
+  {
+   "file": "img/presenters/hana-curious.webp",
+   "name": "Hana",
+   "look": "curious",
+   "side": "right",
+   "mood": "curious",
+   "kind": "bust"
+  },
+  {
+   "file": "img/presenters/hana-excited.webp",
+   "name": "Hana",
+   "look": "excited",
+   "side": "right",
+   "mood": "excited",
+   "kind": "bust"
   }
  ]
 }

@@ -10,7 +10,8 @@ scripts.useandlike.com (see NEWS.md, "Scripts for the presenter").
      "head": "<the story's headline>", "facts": ["<checked fact>", ...], "sources": [{"name": "...", "url": "https://..."}],
      "versions": [{"label": "A", "text": "..."}, {"label": "B", "text": "..."}, {"label": "C", "text": "..."}],
      "takes": ["<a one-line reaction she can pick>", ...], "points": ["<3-6 key points, a few words each>", ...],
-     "title": "<YouTube title>", "description": "<YouTube description>"}
+     "title": "<YouTube title>", "description": "<YouTube description>",
+     "pinned": "<one short question for the pinned comment, e.g. Would you lock your chats with a PIN?>"}
 Needs CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID (the Studio's database is Cloudflare D1 "useandlike-studio").
 """
 import json, os, re, sys, time, urllib.error, urllib.request
@@ -111,18 +112,21 @@ def save(path):
                             for i, x in enumerate(s["versions"])], ensure_ascii=False),
                 s["title"][:200], s["description"][:3000],
                 json.dumps([str(t).strip()[:160] for t in s.get("takes") or []][:4], ensure_ascii=False),
-                json.dumps([str(t).strip()[:70] for t in s.get("points") or []][:6], ensure_ascii=False)]
+                json.dumps([str(t).strip()[:70] for t in s.get("points") or []][:6], ensure_ascii=False),
+                (str(s.get("pinned") or "").strip()[:120] or None)]
         if not old:
             query("""INSERT INTO scripts (code, day, rank, slug, item_id, head, facts, sources, versions, title, description, takes, points,
-                     created) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""", [s["code"]] + vals + [now])
+                     pinned, created) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""", [s["code"]] + vals + [now])
             added += 1
         elif old[0]["status"] == "draft" and not old[0]["edited"]:
             query("""UPDATE scripts SET day = ?, rank = ?, slug = ?, item_id = ?, head = ?, facts = ?, sources = ?, versions = ?,
-                     title = ?, description = ?, takes = ?, points = ?, chosen = 0, updated = ?, updated_by = 'news run' WHERE code = ?""",
-                  vals + [now, s["code"]])
+                     title = ?, description = ?, takes = ?, points = ?, pinned = ?, chosen = 0, updated = ?, updated_by = 'news run'
+                     WHERE code = ?""", vals + [now, s["code"]])
             updated += 1
         else:
             kept += 1     # she already approved, edited, flagged or recorded it: her work stays
+            if vals[-1]:  # the uploader's pinned question isn't her work: it may still come in
+                query("UPDATE scripts SET pinned = ? WHERE code = ? AND (pinned IS NULL OR pinned = '')", [vals[-1], s["code"]])
     print("Scripts: %d added, %d updated, %d left as they were (already worked on)." % (added, updated, kept))
 
 

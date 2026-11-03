@@ -104,7 +104,8 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   Top-story picture (2 Nov, Kevin: options 1, 2, 4, 5 and 7, "switch between those and track traffic a b test it later"):
   for rank-1 stories story-pictures.js also draws `-lead2.jpg` (1200x400 band: logo, app name, tag), `-lead4.jpg`
   (1200x600: a presenter beside the logo; 16 ladies and outfits in `img/presenters/`, listed in `data/presenters.json`,
-  one per story) and `-lead7.jpg` (1200x400 "Today in apps"); 1 is `-art`, 5 the share picture. The front page shows one
+  one per story; entries with `"kind": "bust"` are close-ups with a `mood` for the news video thumbnails and are left out
+  here) and `-lead7.jpg` (1200x400 "Today in apps"); 1 is `-art`, 5 the share picture. The front page shows one
   per top story, rotating by the story's date (`LEAD_STYLE` in build-pages.js: "" rotates, "4" keeps style 4); the lead
   section carries `data-lead-style` for a later A/B test.
   Cards (2 Nov, later; Kevin: the boxes felt "cut off or not fitting", picked "D + D"): the home page's top story and every

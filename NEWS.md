@@ -165,7 +165,9 @@ time or all in one session). Kevin strikes the ones he doesn't want. A script sh
 - **`facts`**: 3-6 short lines she can check against the script: the numbers, dates, places and plans it says.
 - **Each script stands alone**: the editor also joins the day's recorded stories into the next day's "If you missed it"
   compilation, so no "as I said", "in my last video" or "next up".
-- **For the uploader:** `title` (about 60 characters at most, app name first, plain words, no clickbait or capitals)
+- **For the uploader:** `title` (about 60 characters at most, app name first, plain words, no clickbait or capitals),
+  `pinned` (since 3 Nov: one short question to the viewers about the story for the pinned comment, at most about 70
+  characters, e.g. `Would you lock your private chats with a PIN?`; the script page adds 👇 and the newsletter line)
   and `description`:
 
   ```

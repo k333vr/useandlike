@@ -746,7 +746,7 @@ ${TOP_NEWS.slice(0, 50).map(s => `<item><title>${x(s.head)}</title><link>${SITE}
       icons: icons.slice(0, 2).map(e => "/" + e.file), color, app: name };
   }
   out.set("news/thumbs.json", JSON.stringify({ presenters: PRESENTERS.map(x => ({ file: "/" + x.file, name: x.name, side: x.side,
-    real: !!x.real })), stories }) + "\n");
+    real: !!x.real, mood: x.mood || "smile", kind: x.kind || "body" })), stories }) + "\n");
 }
 
 // How-tos: search over all our videos (how-tos/search.json, loaded on the first search), then browse by category.
