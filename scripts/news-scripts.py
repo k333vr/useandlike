@@ -77,9 +77,11 @@ def problems(s, slugs):
         if len(str(t)) > 160 or HYPE.search(str(t)):
             out.append("take %r: at most one short line, no hype" % str(t)[:40])
     # Key points (1 Nov): what the teleprompter shows in "Key points" mode, so she can say it in her own words.
+    # A roundup ("list" in its story: new apps of the week) gets one point per app, up to 10.
+    most = 10 if roundup(s.get("slug")) else 6
     pts = s.get("points") or []
-    if not 3 <= len(pts) <= 6:
-        out.append("needs 3-6 key points (a few words each, in speaking order)")
+    if not 3 <= len(pts) <= most:
+        out.append("needs 3-%d key points (a few words each, in speaking order)" % most)
     for t in pts:
         if len(str(t)) > 70 or HYPE.search(str(t)) or CTA.search(str(t)):
             out.append("point %r: at most 70 characters, no hype, no call to action" % str(t)[:40])
@@ -91,6 +93,14 @@ def problems(s, slugs):
         if not str(src.get("url", "")).startswith("https://"):
             out.append("source %s needs an https link" % src.get("name", "?"))
     return out
+
+
+def roundup(slug):
+    f = os.path.join(ROOT, "data", "news", "%s.json" % slug)
+    try:
+        return bool(json.load(open(f, encoding="utf-8")).get("list"))
+    except (OSError, ValueError):
+        return False
 
 
 def save(path):
@@ -112,7 +122,7 @@ def save(path):
                             for i, x in enumerate(s["versions"])], ensure_ascii=False),
                 s["title"][:200], s["description"][:3000],
                 json.dumps([str(t).strip()[:160] for t in s.get("takes") or []][:4], ensure_ascii=False),
-                json.dumps([str(t).strip()[:70] for t in s.get("points") or []][:6], ensure_ascii=False),
+                json.dumps([str(t).strip()[:70] for t in s.get("points") or []][:10 if roundup(s.get("slug")) else 6], ensure_ascii=False),
                 (str(s.get("pinned") or "").strip()[:120] or None)]
         if not old:
             query("""INSERT INTO scripts (code, day, rank, slug, item_id, head, facts, sources, versions, title, description, takes, points,

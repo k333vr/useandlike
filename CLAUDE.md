@@ -73,7 +73,12 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   video's YouTube id), `rank` (1 = lead on its day), `quick` (one-liner), `rumor` (rumor, leak or feature in testing:
   amber tag + "Not confirmed" note; Kevin, 1 Nov: speculative stories welcome when framed as such), `item`/`items`
   (Studio story ids), `checked`.
-  Facts only from the named sources, neutral words, no superlatives (check.js scans the story pages). How to write one
+  Facts only from the named sources, neutral words, no superlatives (check.js scans the story pages).
+  Story mix (Kevin, 3 Nov: "rising [stars] in the app stores, phones and desk more variety not only the big [ones] these
+  apps should only be shown if its a top story ... the top 10 new apps in each category"): new apps and apps climbing the
+  App Store charts first (the Studio's "Rising apps" sources), big apps only as top stories (their smaller news = one-liners,
+  marked `News: quick`), tech trends; on Mondays "New apps this week" roundups per category, a story with `list`
+  ([{name, what, price, maker, url}], shown as "The apps"; `news-intake.py rising`). NEWS.md "What comes first". How to write one
   and the daily run: NEWS.md (`scripts/news-intake.py todo` lists the Studio's candidates not yet on the site; routine
   "Use & Like daily news pages" writes, builds, checks and pushes every morning). Each full story also gets a presenter
   script in the Studio (`scripts/news-scripts.py save`, NEWS.md "Scripts for the presenter"): versions A/B/C, `takes`

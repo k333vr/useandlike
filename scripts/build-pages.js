@@ -540,6 +540,8 @@ const NEWS = (fs.existsSync(NEWS_DIR) ? fs.readdirSync(NEWS_DIR).filter(f => f.e
   for (const k of ["slug", "date", "head", "dek", "sources"]) if (!s[k] || (Array.isArray(s[k]) && !s[k].length)) throw new Error(`data/news/${f}: missing "${k}"`);
   if (f !== s.slug + ".json") throw new Error(`data/news/${f}: the file name should be ${s.slug}.json`);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(s.date)) throw new Error(`data/news/${f}: "date" should look like 2026-10-28`);
+  if (s.list !== undefined && (!Array.isArray(s.list) || s.list.some(a => !a || !a.name || !a.what || !/^https:\/\//.test(a.url || ""))))
+    throw new Error(`data/news/${f}: every app in "list" needs a name, what it does ("what") and its https link ("url")`);
   return s;
 }).sort((a, b) => b.date.localeCompare(a.date) || (a.rank || 99) - (b.rank || 99) || a.head.localeCompare(b.head));
 const TOP_NEWS = NEWS.filter(s => !s.quick), QUICK_NEWS = NEWS.filter(s => s.quick);
@@ -613,6 +615,15 @@ function appMark(s, cls) {
   return `<span class="appmark ${cls}" aria-hidden="true">${inner}</span>`;
 }
 const cardColour = s => `--c:${esc(storyApps(s).color)}`;
+// Roundups (Kevin, 3 Nov 2026: "we can talk about the top 10 new apps in each category"): a story's "list" of apps,
+// each with what it does, its price and maker from its App Store listing, and a link to that listing.
+const appList = s => `<section aria-labelledby="al-h"><h2 id="al-h" class="al-h">The apps</h2>\n<ol class="plain applist">\n` +
+  s.list.map(a => {
+    const e = APP_ICONS[a.name], icon = e && e.file && fs.existsSync(path.join(ROOT, e.file))
+      ? `<img src="/${esc(e.file)}${e.v ? "?v=" + esc(e.v) : ""}" alt="" width="256" height="256" loading="lazy">` : `<b>${esc(a.name[0])}</b>`;
+    return `<li><span class="ic" aria-hidden="true">${icon}</span><h3>${esc(a.name)}</h3><p>${esc(a.what)}</p>` +
+      `<p class="meta">${[a.price, a.maker].filter(Boolean).map(esc).join(" · ")}${a.price || a.maker ? " · " : ""}${linkOut(a.url, a.store || "App Store page")}</p></li>`;
+  }).join("\n") + "\n</ol></section>";
 // Rumors, leaks and features in testing (Kevin, 1 Nov: "speculative ... we can frame them exactly like that"): amber tag.
 const tagHtml = s => (s.tag || s.rumor) ? `<span class="tag${s.rumor ? " rumor" : ""}">${esc(s.tag || "Rumor")}</span>` : "";
 const storyRow = s => `<li style="${cardColour(s)}"><a href="/${newsPath(s)}" tabindex="-1" aria-hidden="true">${appMark(s, "sm")}</a><div>` +
@@ -679,6 +690,7 @@ for (const s of NEWS) {
     s.rumor ? '<p class="unconfirmed"><strong>Not confirmed.</strong> This comes from a report, a leak or a test version, not from the company itself, so details can still change.</p>' : "",
     `<p class="meta">Use &amp; Like · ${esc(longDay(s.date))} · Source: ${sourcesLine(s)}</p>`,
     (s.image || storyPic(s, "-art")) ? `<img class="hero" src="${esc(s.image || storyPic(s, "-art"))}" alt="" width="1200" height="600">` : storyArt(s, "big"),
+    Array.isArray(s.list) && s.list.length ? appList(s) : "",
     s.means ? `<div class="callout"><h2>What it means for you</h2><p>${esc(s.means)}</p></div>` : "",
     s.todo ? `<div class="todo"><h2>What to do</h2><p>${esc(s.todo)}</p></div>` : "",
     s.details && !s.details_in_todo ? `<div class="details"><h2>The details</h2><p>${esc(s.details)}</p>` +

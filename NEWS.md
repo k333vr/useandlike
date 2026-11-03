@@ -17,6 +17,46 @@ New apps an everyday person could use now, also small and unknown ones, when it'
 and where to get them. No daily limit. A mix, not only the big outlets: smaller sites and communities (Reddit) count
 when the facts are clear.
 
+**What comes first** (Kevin, 3 Nov 2026: "not only show more newcomer [apps] but also rising [stars] in the app stores,
+phones and desk more variety not only the big [ones], these apps should only be shown if its a top story ... more unique
+newcomer stories are better ... not so boring ... the top 10 new apps in each category, new functions, AI, etc any
+trending tech topic"). Full stories, in this order:
+1. New apps and apps climbing the charts, on phones and computers (iPhone, Android, Mac, Windows, web): the "Rising
+   apps" candidates (below), Product Hunt, launches in the news.
+2. New functions in apps people may not know yet, and new AI tools people can use now.
+3. Tech topics people are searching for (Google Trends candidates, below).
+4. **Big apps only as top stories**: WhatsApp, Instagram, Facebook, Messenger, TikTok, YouTube, X, Threads, Snapchat,
+   Telegram, ChatGPT, Gemini, Copilot, Google's and Apple's own apps, iOS, Android, Windows, Samsung, Netflix, Spotify
+   and Amazon get a full story only when most of their users will notice or need to act: a price or plan change, a
+   shutdown, a redesign, a big feature out now for everyone, an outage, a safety or privacy problem, a new AI model for
+   everyone. Their smaller news (a feature in testing, a small change, a test in one country) is a one-liner; the
+   morning AI marks those `News: quick` (`"quick": true` in the candidate list).
+
+**New apps climbing the charts** (candidates titled "Ellipsus: new app at #18 in Productivity, App Store top free
+(US)"): apps out less than 60 days in the top 100 of an App Store category, the whole store or the Mac App Store. Write a
+`New app` story when an everyday person could use it. The source is the app's App Store page (the candidate's link),
+and the facts come from its listing only: what it does, the price and in-app purchases, who makes it, iPhone, iPad or
+Mac. The chart place goes in with its day, because charts change every hour: "#18 in Productivity on the US App Store
+on 3 November", never just "is #18". Check the maker first and skip copycats and apps we shouldn't send viewers to: cash
+advance and loan apps, casino and sweepstakes apps, IPTV players, cleaner, booster or "VPN proxy" apps from unknown
+makers, novel and drama apps from shell companies, vague or copied descriptions, adult content. If the App Store page
+doesn't open, `https://itunes.apple.com/lookup?id=<the number after "id" in the link>` gives the same listing.
+
+**New apps this week** (roundups; Kevin: "the top 10 new apps in each category"): on Mondays,
+`python3 scripts/news-intake.py rising --days 7` lists the week's new chart apps by category (the morning AI's skips
+left out; `on_site` = already has a story). For every category with at least 5 apps worth a story (same checks as
+above), write one roundup: a full story with a `list` of 5-10 apps (see the fields), the apps in chart order, a
+headline like "7 new productivity apps climbing the App Store this week" (the number is the list's length; no "best"
+or "top"), slug `new-<category>-apps-<YYYY-MM-DD>` (`new-photo-and-video-apps-2026-11-09`; Mac: `new-mac-apps-...`),
+tag `New app`, `apps` = the apps' names, `sources` = the category's App Store chart page first
+(`https://apps.apple.com/us/iphone/charts/6007`, the number from the chart's address in the Studio; the whole store
+`https://apps.apple.com/us/iphone/charts`, Mac `https://apps.apple.com/us/mac/charts`), then each app's page,
+`thumb_words` like `7 NEW PRODUCTIVITY APPS`. Apps that already got a story this week can be in it too.
+
+**Trending searches** (Google Trends candidates: the title is a search term, the snippet its searches and a news
+headline about it): only a hint. When there's app or tech news behind the search, find that article (search the
+headline) and write the story from it; never name Google Trends as a source of a fact.
+
 **Reddit doesn't open from the cloud** (403; the 2 Nov run skipped its Reddit candidates for that reason). For a Reddit
 post about a new app, use the app's own page as the source instead: its App Store or Google Play listing, or its website
 (what it does, price, platforms, who makes it). Skip it if that page doesn't open, the app isn't out yet, or it's a
@@ -80,6 +120,7 @@ ahead, like a change that starts next week).
 | `todo` | "What to do": concrete steps the source supports, or a safe general step ("update the app"); "Nothing to do yet" is fine. |
 | `rank` | Order within its day (1, 2, 3 ...). Rank 1 only for the day's story that should lead the front page (the newest rank-1 story of the last 3 days leads); at most one rank 1 per day, none on a quiet day. |
 | `quick` | `true` for a one-liner (only `head` and `dek`, plus `apps` and `sources`): small news that needs no page of its own. |
+| `list` | Roundups only (New apps this week): 5-10 apps in chart order, each `{"name", "what", "price", "maker", "url"}`: the name as the App Store writes it (it also goes in `apps`, which gets its icon), one sentence on what it does from its listing, the price as the listing says it (`Free, in-app purchases`, `$2.99`), the maker, its App Store link. The page shows them as "The apps". |
 | `thumb_words` | Full stories (since 3 Nov): the news video's thumbnail headline, shown in capitals in our black headline box (Kevin, 3 Nov: "I like short titles but they should reflect the news"): 3-6 words, at most 40 characters, a real headline that names the app or company and says what happened (`CHATGPT ADDS PIN-LOCKED CHATS`, `TV BOX BOTNET TAKEN DOWN`, `T-MOBILE FIBER: 10-YEAR PRICE LOCK`, `GEMINI REPLACES GEMS WITH SKILLS`). Facts only, no clickbait; for a rumour or a feature in testing say so (`MAY`, a question mark: `HOMEVIEW AS SECURITY CAMERA?`). Without it the thumbnail shows the app and the tag; the uploader can still change the words on the script page. |
 | `rumor` | `true` for a rumor, leak or feature in testing: the page shows its tag in amber and a "Not confirmed" note. |
 | `apps` | The app names as people write them (`["WhatsApp"]`): they pick our how-to videos about the app. |
@@ -100,7 +141,8 @@ ahead, like a change that starts next week).
    - **already covered**: the same news is in a story (same app, same change): add the candidate's id to that
      story's `items` (and a source if it adds a fact), or
    - **one-liner** (`"quick": true`) when it's news for our readers but not worth a full story (see "One-liners for
-     the rest" above; since 3 Nov this replaces skipping smaller news), or
+     the rest" above; since 3 Nov this replaces skipping smaller news; candidates with `"quick": true` are the smaller
+     news of big apps, see "What comes first"), or
    - **skip** it (not news for everyday app users, can't confirm the facts, or the link doesn't open and no other
      source has it).
    Merge several candidates about the same news into one story. Give the day's most important story rank 1 when it
@@ -108,7 +150,9 @@ ahead, like a change that starts next week).
    **How many full stories** (Kevin, 3 Nov 2026: "we try to hit the upload cap daily so we push it"): every full story
    becomes a news video, so write a full story for every candidate with enough confirmed facts for a 20-40 second
    script; aim for 25-30 a day when the candidates are there (the morning AI marks 50-60 a day as news). Only the thin
-   ones (a single fact, a minor update) become one-liners.
+   ones (a single fact, a minor update) become one-liners. Fill the day in the order of "What comes first": new apps
+   and apps climbing the charts first, big apps only with top stories. On Mondays also write the week's roundups
+   ("New apps this week" above).
 4. `python3 scripts/app-icons.py`, on every run, also when no story went up (the picture of every app named in "apps",
    shown as the story's picture when it has none of its own: Kevin's pick from the Studio's Icons tab first, then the
    thumbnail tool's saved logo, then the App Store; it also takes an app's new logo when the app changed it). Since 2 Nov an
@@ -182,6 +226,9 @@ time or all in one session). Kevin strikes the ones he doesn't want. A script sh
   "Find it at the top of a busy group". Rumors: the first point says "Spotted in testing" or "Reportedly".
 - **Rumors** stay rumors when spoken: "reportedly", "according to a leak", "spotted in testing", and say once that it
   isn't confirmed.
+- **Roundups** (a story with a `list`): one or two sentences per app in the list's order (its name, what it does, the
+  price), the chart and the week in the first sentence; `A` and `B` cover every app (B adds who makes it and one more
+  fact from the listing), `C` the first three; `points` = one per app (`Ellipsus: writing with others, free`), up to 10.
 - **`facts`**: 3-6 short lines she can check against the script: the numbers, dates, places and plans it says.
 - **Each script stands alone**: the editor also joins the day's recorded stories into the next day's "If you missed it"
   compilation, so no "as I said", "in my last video" or "next up".
