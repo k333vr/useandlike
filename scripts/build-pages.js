@@ -119,6 +119,9 @@ const editCode = indexHtml.slice(indexHtml.lastIndexOf("<script>", editAt) + 8, 
 const { CHANNELS, NEWSLETTER, OPEN_IN_NEW_TAB, VISIBLE_COUNT, CATEGORIES, TOOLS, VIDEOS } = vm.runInNewContext(
   editCode + "\n;({ CHANNELS, NEWSLETTER, OPEN_IN_NEW_TAB, VISIBLE_COUNT, CATEGORIES, TOOLS, VIDEOS })", {});
 const STYLE = indexHtml.match(/<style>([\s\S]*?)<\/style>/)[1];
+// The box after signing up and the sign-up A/B test: one block in index.html ("signup-step"), copied into every page.
+const SIGNUP_STEP = indexHtml.slice(indexHtml.indexOf("  // >>> signup-step"), indexHtml.indexOf("  // <<< signup-step"));
+if (!SIGNUP_STEP.includes("beehiiv:submitted")) throw new Error('index.html: the "signup-step" block is missing');
 const ICON = indexHtml.match(/<link rel="icon"[^>]*>/)[0];
 const HEADER = indexHtml.match(/<header>[\s\S]*?<\/header>/)[0];
 const FOOTER = indexHtml.match(/<footer>[\s\S]*?<\/footer>/)[0];
@@ -232,6 +235,8 @@ const footer = () => FOOTER.replace('<p id="foot-channels"></p>', `<p id="foot-c
 // Beehiiv's form, "Opening…" on affiliate links (as on the home page), and the year.
 const SCRIPT = `(function () {
   var FORM = ${JSON.stringify(NEWSLETTER.beehiivForm || "")};
+  var SU_TEST = ${JSON.stringify(NEWSLETTER.signupTest || "")}, SU_FORM = FORM;
+${SIGNUP_STEP}
   // Subscribers see no sign-up box or header field (as on index.html: Beehiiv's cookie, or the note "ul-subscribed" that
   // this browser keeps after confirming or "Already subscribed? Hide this"; it never leaves the device).
   function hideSignup() {
@@ -242,30 +247,6 @@ const SCRIPT = `(function () {
   var subscribed = /(^|; )bhv_[^=]+_subscribed=/.test(document.cookie);
   try { subscribed = subscribed || localStorage.getItem("ul-subscribed") === "1"; } catch (e) {}
   if (subscribed) hideSignup();
-  // "One more step" after signing up (as on index.html, which explains it): Beehiiv only flashes "check your email" for
-  // 5 seconds, so a box stays until "Got it".
-  window.addEventListener("message", function (e) {
-    if (e.origin !== "https://subscribe-forms.beehiiv.com" || !e.data || e.data.type !== "beehiiv:submitted") return;
-    if (document.getElementById("confirm-step")) return;
-    var box = document.createElement("div");
-    box.id = "confirm-step"; box.className = "confirm-step";
-    box.setAttribute("role", "dialog"); box.setAttribute("aria-modal", "true"); box.setAttribute("aria-labelledby", "cs-h");
-    box.innerHTML = '<div class="cs-card"><p class="cs-icon" aria-hidden="true">\\u2709\\ufe0f</p>' +
-      '<h2 id="cs-h">One more step: confirm your email</h2>' +
-      '<p>We just sent you an email. Open it and tap the Confirm button. Then you get your free Subscription Tracker.</p>' +
-      '<p class="cs-small">Not in your inbox? Look in Promotions or Spam. It comes from Use &amp; Like.</p>' +
-      '<p class="cs-btns"><a href="https://mail.google.com/mail/u/0/#search/useandlike+in%3Aanywhere" target="_blank" rel="noopener">Open Gmail</a>' +
-      '<a href="https://outlook.live.com/mail/0/" target="_blank" rel="noopener">Outlook</a>' +
-      '<a href="https://mail.yahoo.com/" target="_blank" rel="noopener">Yahoo Mail</a></p>' +
-      '<button type="button" class="cs-close">Got it</button></div>';
-    document.body.appendChild(box);
-    var ok = box.querySelector(".cs-close");
-    function onKey(k) { if (k.key === "Escape") close(); }
-    function close() { box.remove(); document.removeEventListener("keydown", onKey); }
-    ok.addEventListener("click", close);
-    document.addEventListener("keydown", onKey);
-    ok.focus();
-  });
   document.addEventListener("click", function (e) {
     if (!e.target.closest || !e.target.closest(".nl-hide")) return;
     try { localStorage.setItem("ul-subscribed", "1"); } catch (err) {}

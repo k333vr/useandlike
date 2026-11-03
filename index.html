@@ -72,6 +72,11 @@ const NEWSLETTER = {
   // in a box at the top, no header field on that page (from 14 Oct); "C" = B plus the tracker picture inside the box
   // (beside the field on wide screens, under it on phones) and one line on what the tracker does (live from 19 Oct).
   joinDesign: "C",
+  // Sign-up A/B test (3 Nov 2026, Kevin: "time to A B test this heavily"): the running test's name, or "" for none.
+  // Each page view of a visitor who hasn't subscribed gets version a or b at random; plan, versions and results:
+  // useandlike-ops/plans/signup-tests.md. su1 = the box after signing up: a "One more step" / b "Your free tracker is
+  // waiting in your inbox" with the tracker picture.
+  signupTest: "su1",
   perkTitle: "Get our free 30-second app newsletter",
   perkGift: "+ get our Free Subscription Tracker"
 };
@@ -536,6 +541,9 @@ header { padding: 22px 0 0; }
 .cs-card h2 { margin: 0 0 8px; font: 700 1.35rem/1.2 var(--serif); }
 .cs-card p { margin: 0 0 10px; line-height: 1.5; }
 .cs-card .cs-icon { margin: 0 0 4px; font-size: 2rem; line-height: 1; }
+.cs-card { max-height: calc(100vh - 32px); max-height: calc(100dvh - 32px); overflow-y: auto; }
+.cs-pic { display: block; width: 100%; height: auto; max-height: 200px; margin: -4px 0 12px; object-fit: cover; object-position: center 30%; border-radius: 10px; }
+@media (max-height: 700px) { .cs-pic { max-height: 130px; } }
 .cs-card .cs-small { font-size: .9rem; color: var(--muted); }
 .cs-btns { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
 .cs-btns a { padding: 8px 14px; border: 1px solid var(--line); border-radius: 999px; color: var(--link); font-size: .92rem; font-weight: 700; text-decoration: none; }
@@ -1014,26 +1022,51 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     try { localStorage.setItem(SUB_KEY, "1"); } catch (e) {}
   }
 
+  var SU_TEST = NEWSLETTER.signupTest || "", SU_FORM = NEWSLETTER.beehiivForm || "";
+  // >>> signup-step (scripts/build-pages.js copies this block into every generated page; it needs SU_TEST and SU_FORM)
   // "One more step" (Kevin, 3 Nov 2026: 8 sign-ups in a row never confirmed): Beehiiv's form only flashes "check your
   // email" for 5 seconds. When its frame reports a sign-up (beehiiv:submitted, the message Beehiiv's own loader uses to
-  // set its "subscribed" cookie), a box stays on screen until "Got it", with links that open the email (Gmail: the
-  // search also looks in Promotions and Spam). The same code is in scripts/build-pages.js (SCRIPT) for the other pages.
-  var CONFIRM_HTML = '<div class="cs-card"><p class="cs-icon" aria-hidden="true">\u2709\ufe0f</p>' +
-    '<h2 id="cs-h">One more step: confirm your email</h2>' +
-    '<p>We just sent you an email. Open it and tap the Confirm button. Then you get your free Subscription Tracker.</p>' +
-    '<p class="cs-small">Not in your inbox? Look in Promotions or Spam. It comes from Use &amp; Like.</p>' +
-    '<p class="cs-btns"><a href="https://mail.google.com/mail/u/0/#search/useandlike+in%3Aanywhere" target="_blank" rel="noopener">Open Gmail</a>' +
-    '<a href="https://outlook.live.com/mail/0/" target="_blank" rel="noopener">Outlook</a>' +
-    '<a href="https://mail.yahoo.com/" target="_blank" rel="noopener">Yahoo Mail</a></p>' +
-    '<button type="button" class="cs-close">Got it</button></div>';
-  function confirmStep() {
+  // set its "subscribed" cookie), a box stays on screen until it is closed, with links that open the email (Gmail: the
+  // search also looks in Promotions and Spam).
+  // A/B test (NEWSLETTER.signupTest): a visitor who hasn't subscribed gets version a or b per page view, at random.
+  // Beehiiv keeps the version with the sign-up as its UTM campaign ("su1-b": written into the attribution cookie its
+  // loader reads, before the loader runs); the page counts sign-ups per version (/c-su1-a, /c-su1-b) and, when the
+  // confirmation lands in the same browser, confirmations (/c-su1-a-ok, /c-su1-b-ok on #welcome), as totals.
+  var SU = "";
+  (function () {
+    var sub = /(^|; )bhv_[^=]+_subscribed=/.test(document.cookie);
+    try { sub = sub || localStorage.getItem("ul-subscribed") === "1"; } catch (e) {}
+    if (!SU_TEST || !SU_FORM || sub) return;
+    SU = SU_TEST + "-" + (Math.random() < 0.5 ? "a" : "b");
+    var m = document.cookie.match(/(?:^|; )bhv_attribution=([^;]*)/), data = {};
+    try { if (m) data = JSON.parse(decodeURIComponent(m[1])) || {}; } catch (e) { data = {}; }
+    data.campaign = SU;
+    document.cookie = "bhv_attribution=" + encodeURIComponent(JSON.stringify(data)) + "; expires=" +
+      new Date(Date.now() + 2592e6).toUTCString() + "; path=/";
+  })();
+  function suCount(path) {
+    try { fetch(path, { method: "HEAD", redirect: "manual", cache: "no-store", keepalive: true }).catch(function () {}); } catch (e) {}
+  }
+  var SU_BOX = {
+    a: ['<p class="cs-icon" aria-hidden="true">✉️</p>', "One more step: confirm your email",
+        "We just sent you an email. Open it and tap the Confirm button. Then you get your free Subscription Tracker.", "Got it"],
+    b: ['<img class="cs-pic" src="/img/welcome.webp" alt="" width="800" height="480">', "Your free tracker is waiting in your inbox",
+        "We just emailed you a link. Tap Confirm in that email to get your free Subscription Tracker.", "OK, I’ll check my email"]
+  };
+  function confirmStep(v) {
     if (document.getElementById("confirm-step")) return;
-    var box = el("div", "confirm-step");
+    var c = SU_BOX[v] || SU_BOX.a, box = document.createElement("div");
     box.id = "confirm-step";
+    box.className = "confirm-step";
     box.setAttribute("role", "dialog");
     box.setAttribute("aria-modal", "true");
     box.setAttribute("aria-labelledby", "cs-h");
-    box.innerHTML = CONFIRM_HTML;
+    box.innerHTML = '<div class="cs-card">' + c[0] + '<h2 id="cs-h">' + c[1] + '</h2><p>' + c[2] + '</p>' +
+      '<p class="cs-small">Not in your inbox? Look in Promotions or Spam. It comes from Use &amp; Like.</p>' +
+      '<p class="cs-btns"><a href="https://mail.google.com/mail/u/0/#search/useandlike+in%3Aanywhere" target="_blank" rel="noopener">Open Gmail</a>' +
+      '<a href="https://outlook.live.com/mail/0/" target="_blank" rel="noopener">Outlook</a>' +
+      '<a href="https://mail.yahoo.com/" target="_blank" rel="noopener">Yahoo Mail</a></p>' +
+      '<button type="button" class="cs-close">' + c[3] + '</button></div>';
     document.body.appendChild(box);
     var ok = box.querySelector(".cs-close");
     function onKey(e) { if (e.key === "Escape") close(); }
@@ -1042,9 +1075,17 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     document.addEventListener("keydown", onKey);
     ok.focus();
   }
+  var suCounted = false;
   window.addEventListener("message", function (e) {
-    if (e.origin === "https://subscribe-forms.beehiiv.com" && e.data && e.data.type === "beehiiv:submitted") confirmStep();
+    if (e.origin !== "https://subscribe-forms.beehiiv.com" || !e.data || e.data.type !== "beehiiv:submitted") return;
+    if (SU && !suCounted) {
+      suCounted = true;
+      suCount("/c-" + SU);
+      try { localStorage.setItem("ul-su", SU); } catch (err) {}
+    }
+    confirmStep(SU ? SU.slice(-1) : "a");
   });
+  // <<< signup-step
 
   // The signup: Beehiiv's own embedded field when NEWSLETTER.beehiivForm is set (so the email goes
   // straight in), otherwise a field whose button opens the Beehiiv signup page.
@@ -1328,12 +1369,12 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
       paragraphs: [
         "This site is run by Kevin Redl. Contact: HTRocket@proton.me",
         "This site does not use cookies, analytics or tracking scripts of its own.",
-        "One thing is kept in your browser, on your device only: once you confirm your newsletter subscription (or tap \"Already subscribed? Hide this\"), the site remembers that and stops showing the sign-up box. It is never sent to us or anyone else; clearing this site's data in your browser removes it.",
-        "We count how often some of our own links are clicked (for example \"Work with us\"), as totals: these links pass through a short address on this site, which Cloudflare, our host, counts. A few page parts are shown to about half of all visitors at random, so we can see which works better; nothing about you is stored for that.",
+        "Two things are kept in your browser, on your device only: once you confirm your newsletter subscription (or tap \"Already subscribed? Hide this\"), the site remembers that and stops showing the sign-up box; and between signing up and confirming, which version of the sign-up step you saw (see below), so a confirmation can be counted for that version. Neither is linked to you or sent anywhere else; clearing this site's data in your browser removes them.",
+        "We count how often some of our own links are clicked (for example \"Work with us\"), as totals: these links pass through a short address on this site, which Cloudflare, our host, counts. A few page parts are shown to about half of all visitors at random, so we can see which works better; nothing about you is stored for that. The newsletter sign-up step is one of two versions picked at random each time: we count sign-ups and confirmations per version as totals, and Beehiiv keeps the version's name with your sign-up (as a campaign tag).",
         "The site is hosted by Cloudflare, which processes technical data such as your IP address to deliver the pages and protect them against abuse.",
         "The newsletter signup field is provided by Beehiiv, our newsletter provider, and loads from their servers. Beehiiv may set cookies to remember where you came from and that you have subscribed. If you join, your email address is sent to Beehiiv and their privacy policy applies. You can unsubscribe in any email.",
         "When you click a tool or video link, you leave this site. The tool's website, its affiliate partner or YouTube may then set their own cookies, and their privacy policies apply.",
-        "Last updated: 2 November 2026."
+        "Last updated: 3 November 2026."
       ]
     }
   };
@@ -1413,6 +1454,12 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     var cat = isVideos ? findCat(id.slice(7)) : null;
     var info = INFO.hasOwnProperty(id) ? INFO[id] : null;
     if (id === "welcome" || id === "thanks" || id === "tracker") markSubscriber();   // pages only subscribers reach
+    if (id === "welcome") {   // the sign-up test's version, if this browser signed up (signup-step above)
+      try {
+        var suv = localStorage.getItem("ul-su");
+        if (suv && /^su\d+-[ab]$/.test(suv)) { suCount("/c-" + suv + "-ok"); localStorage.removeItem("ul-su"); }
+      } catch (e) {}
+    }
     if (lastRoute === "" || lastRoute === "videos") homeScroll = window.scrollY;
 
     view.textContent = "";

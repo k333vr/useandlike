@@ -44,9 +44,17 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   "One more step" box (3 Nov 2026, Kevin: 8 sign-ups in a row never confirmed): Beehiiv's form only flashes "check your
   email" for 5 seconds, so when its frame posts `beehiiv:submitted` (origin subscribe-forms.beehiiv.com; the same message
   Beehiiv's loader uses to set its subscribed cookie) the page shows a box until "Got it": confirm in the email to get the
-  tracker, look in Promotions/Spam, Open Gmail (search `useandlike in:anywhere`) / Outlook / Yahoo Mail. Code in
-  index.html (`confirmStep`) and build-pages.js' SCRIPT; CSS `.confirm-step`. Beehiiv side (Kevin): Settings > Emails >
-  Smart Nudge (one reminder after 48 h) and the opt-in email's subject (Preset Emails).
+  tracker, look in Promotions/Spam, Open Gmail (search `useandlike in:anywhere`) / Outlook / Yahoo Mail. Code: the
+  `// >>> signup-step` block in index.html, which build-pages.js copies into every generated page (SIGNUP_STEP); CSS
+  `.confirm-step`. Smart Nudge (one reminder after 48 h) has been on in Beehiiv since 19 Oct.
+  Sign-up A/B tests (Kevin, 3 Nov: "time to A B test this heavily ... should be easily over 50%"): `NEWSLETTER.signupTest`
+  names the running test ("" = none); a visitor who hasn't subscribed gets version a or b per page view at random; the
+  block writes the version into Beehiiv's attribution cookie (`bhv_attribution`, campaign `su1-b`) before the loader
+  runs, so Beehiiv keeps it with the sign-up as its UTM campaign; the page counts sign-ups (`/c-su1-a`, `/c-su1-b`) and
+  same-browser confirmations (`-ok`, on #welcome, from localStorage "ul-su") as totals through `_redirects` lines; the
+  privacy page says so. Read with `python3 ../useandlike-ops/analysis/clicks.py 14` and Beehiiv's export. Plan, versions,
+  next tests and Kevin's phone test: useandlike-ops/plans/signup-tests.md. A new test: new name (su2), its lines in
+  `_redirects`, its versions in `SU_BOX` (or wherever it changes the page).
 - All news page `/news/` (Kevin, 3 Nov: "2 or 3" per row, "in between we can add deals"): story cards in a grid
   (`.srows.grid3`: 1 column on phones, 2 from 700 px, 3 from 980 px), and after every `NEWS_DEAL_EVERY` (9) stories a
   row of 4 deals (`newsWithDeals` in build-pages.js): the checked deals first, then partners' own offers

@@ -558,6 +558,13 @@
 /c-work-strip      https://useandlike.com/work-with-us/  302
 # /c-work-b: the footer's Work with us link on page views that show the strip (A = /c-work, B = /c-work-b + /c-work-strip)
 /c-work-b          https://useandlike.com/work-with-us/  302
+# Sign-up A/B test (3 Nov 2026; index.html NEWSLETTER.signupTest, block "signup-step"): the page opens these in the
+# background when someone signs up (/c-su1-a, /c-su1-b) and when the confirmation lands in the same browser (-ok), so
+# Cloudflare counts sign-ups and confirmations per version. Plan and results: useandlike-ops/plans/signup-tests.md.
+/c-su1-a           https://useandlike.com/  302
+/c-su1-b           https://useandlike.com/  302
+/c-su1-a-ok        https://useandlike.com/  302
+/c-su1-b-ok        https://useandlike.com/  302
 # FlexOffers (How To Rocket only: the approved traffic source; never on Guide Glimpse, Logic Protocol or the site)
 /deel               https://deel.fxo.co/g/1579752/228251/1038938300/DxCPTgc  302
 /webflow            https://webflow.fxo.co/g/1579752/235952/122637334/DxCPTgc  302
