@@ -1,0 +1,25 @@
+{
+ "slug": "android-tv-box-botnet-backdoor",
+ "date": "2026-11-02",
+ "added": "2026-11-03",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "Google takes down a botnet of 1.3 million Android TV boxes",
+ "dek": "Google led a takedown of a botnet of more than 1.3 million Android devices, mostly TV set-top boxes, in late October. Google says the maker Videostrong built a backdoor into the boxes on purpose and sold access to criminals.",
+ "details": "The criminals used owners' home connections to pass other people's internet traffic and to fake ad views; the backdoor could also install apps silently and capture the screen. It's part of the boxes' firmware, so it can't be removed and comes back after a restart. Videostrong makes boxes under its own name and for other brands; Google has banned it from certified Android devices.",
+ "where": "Android TV boxes worldwide; also some karaoke machines, telehealth devices and signs",
+ "means": "If you use a cheap no-name Android TV box, it may be running a backdoor that uses your internet connection for strangers.",
+ "todo": "If you own an Android TV box from a little-known brand: Plume recommends a full factory reset, and Synthient tells consumers to stop using such boxes for good, since the backdoor can't be removed by owners.",
+ "rank": 5,
+ "apps": [
+  "Android TV"
+ ],
+ "item": 23615,
+ "sources": [
+  {
+   "name": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html"
+  }
+ ],
+ "checked": "2026-11-03"
+}

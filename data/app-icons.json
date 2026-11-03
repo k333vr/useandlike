@@ -1,4 +1,15 @@
 {
+ "Affinity": {
+  "source": "appstore",
+  "file": "img/apps/affinity.webp",
+  "color": "#643182",
+  "v": "df525a31",
+  "id": 1298145292,
+  "store_name": "Affinity Plus Mobile Banking",
+  "developer": "Affinity Plus Federal Credit Union",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dc/71/df/dc71df5c-d5b1-b5be-0df7-7e0ad97e46e7/AffinityAppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Agoda": {
   "source": "appstore",
   "file": "img/apps/agoda.webp",
@@ -32,6 +43,21 @@
   "developer": "Google",
   "v": "6a8f418e"
  },
+ "Android Auto": {
+  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+ },
+ "Android TV": {
+  "note": "left as a letter: the closest App Store app, Android TV Remote Control by Codematics Services, may be another app. Pick one here if you know the right one"
+ },
+ "Apple Intelligence": {
+  "source": "maker",
+  "file": "img/apps/apple-intelligence.webp",
+  "color": "#5b6472",
+  "v": "c4e27bb9",
+  "store_name": "Apple",
+  "hash": "4b2f442351b2",
+  "note": "Apple's logo (a device or system has no app of its own): pick another here if you like"
+ },
  "Apple Music": {
   "id": 1108187390,
   "file": "img/apps/apple-music.webp",
@@ -60,6 +86,15 @@
   "store_name": "Apple",
   "hash": "4b2f442351b2",
   "note": "Apple's logo (a device or system has no app of its own): pick another here if you like"
+ },
+ "Canva": {
+  "source": "thumbnails",
+  "file": "img/apps/canva.webp",
+  "color": "#00C4CC",
+  "v": "6859c039",
+  "tngg": 91,
+  "store_name": "Canva",
+  "hash": "058dd52f0483"
  },
  "ChatGPT": {
   "id": 6448311069,
@@ -93,6 +128,17 @@
  "Codex": {
   "note": "left as a letter: the closest App Store app, Codex Relay - Remote Codex App by Kang Sungyu, may be another app. Pick one here if you know the right one"
  },
+ "Comet": {
+  "source": "appstore",
+  "file": "img/apps/comet.webp",
+  "color": "#5b6472",
+  "v": "a5a6803a",
+  "id": 6748622471,
+  "store_name": "Comet - AI Browser & Assistant",
+  "developer": "Perplexity AI, Inc.",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/fe/a4/4ffea43e-694a-2940-1b00-23923364b2af/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Discord": {
   "file": "img/apps/discord.webp",
   "color": "#5865F2",
@@ -111,6 +157,17 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/16/17/ad16172a-729d-08e4-ba13-3cb736fb7158/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
   "developer": "MacPaw Way Ltd",
   "v": "b88b740c"
+ },
+ "Family Link": {
+  "source": "appstore",
+  "file": "img/apps/family-link.webp",
+  "color": "#df8239",
+  "v": "573d041f",
+  "id": 909702589,
+  "store_name": "Family Link",
+  "developer": "Rapid Digital LLC",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple4/v4/96/b9/57/96b957e8-cf29-df13-c64a-29980825aced/mzl.zseewtsw.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
  },
  "Gemini": {
   "file": "img/apps/gemini.webp",
@@ -149,15 +206,48 @@
   "developer": "Google",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/91/fe/4191febf-4ea8-2f55-4c4b-3f7eec3503e8/docs_2026_ios-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg"
  },
+ "Google Family Link": {
+  "source": "appstore",
+  "file": "img/apps/google-family-link.webp",
+  "color": "#2b75ee",
+  "v": "d53693d7",
+  "id": 1150085200,
+  "store_name": "Google Family Link",
+  "developer": "Google",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1e/47/03/1e47035f-e310-40bf-3b73-0f906348a8ef/logo_family_link_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Google Health": {
+  "source": "appstore",
+  "file": "img/apps/google-health.webp",
+  "color": "#2b7bee",
+  "v": "d67e75c4",
+  "id": 462638897,
+  "store_name": "Google Health (Fitbit)",
+  "developer": "Google",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/79/a4/3e/79a43eb0-9f0c-8df4-4eed-c2a5e216688d/google_health_ios-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "HomeView": {
+  "source": "appstore",
+  "file": "img/apps/homeview.webp",
+  "color": "#285771",
+  "v": "6002f9a8",
+  "id": 6754077016,
+  "store_name": "HomeView",
+  "developer": "iOpt",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/ca/63/59ca6353-58b2-0a1b-3a60-36de3569330f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Hulu": {
-  "id": 376510438,
   "file": "img/apps/hulu.webp",
   "color": "#285871",
-  "store_name": "Hulu: Stream TV shows & movies",
   "source": "appstore",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/fa/27/d8fa27eb-7f32-fe16-8853-992a057248ce/HuluAppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "v": "32c13278",
+  "id": 376510438,
+  "store_name": "Hulu: Stream TV shows & movies",
   "developer": "Hulu, LLC",
-  "v": "32c13278"
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/c9/99/03c99983-a169-a097-d6a7-f8cad63e2acb/HuluAppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
  },
  "iCloud Mail": {
   "id": 1108187098,
@@ -217,6 +307,28 @@
   "developer": "Microsoft Corporation",
   "v": "48cd3e6d"
  },
+ "Microsoft Word": {
+  "source": "appstore",
+  "file": "img/apps/microsoft-word.webp",
+  "color": "#396fe0",
+  "v": "c7036c5c",
+  "id": 586447913,
+  "store_name": "Microsoft Word",
+  "developer": "Microsoft Corporation",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/0d/34/c90d341a-8dfb-212e-b97f-90d48cb26233/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "MS NOW": {
+  "source": "appstore",
+  "file": "img/apps/ms-now.webp",
+  "color": "#2b4bee",
+  "v": "634c8c45",
+  "id": 396885309,
+  "store_name": "MS NOW: Live & Breaking News",
+  "developer": "Versant Media LLC",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/8b/5a/0b8b5a4c-6916-6a27-c674-c26d95077e5b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Netflix": {
   "file": "img/apps/netflix.webp",
   "color": "#E50914",
@@ -225,6 +337,17 @@
   "tngg": 90,
   "store_name": "Netflix",
   "hash": "c8854c0da9ed"
+ },
+ "Nothing": {
+  "source": "appstore",
+  "file": "img/apps/nothing.webp",
+  "color": "#557eb6",
+  "v": "a6c77f00",
+  "id": 6473964435,
+  "store_name": "Nothing Bundt Cakes",
+  "developer": "Nothing Bundt Franchising, LLC",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/56/d1/9d56d149-0544-953a-95d4-def3c47b7d60/AppIcon-nothingbundtcakes-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
  },
  "OneDrive": {
   "file": "img/apps/onedrive.webp",
@@ -243,8 +366,17 @@
   "id": 951937596,
   "store_name": "Microsoft Outlook",
   "developer": "Microsoft Corporation",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/d7/e4/68d7e488-404f-0cc3-b90e-b68aca7adffc/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/e8/bd/cbe8bd39-9c76-6068-db83-5521a85e128b/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
+ },
+ "Perplexity": {
+  "source": "thumbnails",
+  "file": "img/apps/perplexity.webp",
+  "color": "#20808D",
+  "v": "a5cead0f",
+  "tngg": 17,
+  "store_name": "Perplexity",
+  "hash": "db3bff9a43f8"
  },
  "Pixel Watch": {
   "source": "thumbnails",
@@ -341,14 +473,14 @@
   "v": "812fd49b"
  },
  "TikTok": {
-  "id": 835599320,
   "file": "img/apps/tiktok.webp",
   "color": "#c8425d",
-  "store_name": "TikTok - Videos, Shop & LIVE",
   "source": "appstore",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/19/60/31/1960312d-f882-d651-6ea6-53a3179dee9b/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "v": "44be1f06",
+  "id": 835599320,
+  "store_name": "TikTok - Videos, Shop & LIVE",
   "developer": "TikTok Ltd.",
-  "v": "44be1f06"
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/af/40/4baf40d2-5fec-a1fe-da33-cafd0c87f18b/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
  },
  "WhatsApp": {
   "file": "img/apps/whatsapp.webp",
@@ -397,5 +529,16 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/34/84/ca34841f-40a7-47b6-60d7-bf2e27af14d3/logo_youtube_television_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
   "developer": "Google",
   "v": "bb39314a"
+ },
+ "Zoom": {
+  "source": "appstore",
+  "file": "img/apps/zoom.webp",
+  "color": "#1264e4",
+  "v": "76299620",
+  "id": 546505307,
+  "store_name": "Zoom Workplace",
+  "developer": "Zoom Communications, Inc.",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/d0/96/fcd09664-56c3-f856-4311-da9dcbae1fd2/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
  }
 }

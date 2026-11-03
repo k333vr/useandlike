@@ -1,0 +1,26 @@
+{
+ "slug": "apple-intelligence-china-ios-27-3",
+ "date": "2026-11-02",
+ "added": "2026-11-03",
+ "topic": "Apple",
+ "tag": "Update",
+ "head": "iOS 27.3 brings some Apple Intelligence features to China",
+ "dek": "Apple said iOS 27.3, due in December, will turn on some Apple Intelligence features in China on the iPhone 15 Pro and newer, including Writing Tools, Genmoji, Clean Up, notification summaries and Live Translation with AirPods.",
+ "details": "Alibaba's Qwen assistant will work inside Siri, Writing Tools and Visual Intelligence. Siri AI, other features announced at WWDC 2026 and Image Playground won't be available there. The phone and Siri must be set to English and Chinese (Simplified). MacRumors also expects a smaller iOS 27.2.1 bug-fix update soon.",
+ "where": "China, iPhone 15 Pro and newer, iOS 27.3 in December",
+ "means": "If you use an iPhone in mainland China, you'll get part of Apple Intelligence for the first time, with Alibaba's AI in place of others.",
+ "todo": "Nothing to do yet; install iOS 27.3 when it comes out in December.",
+ "rank": 8,
+ "apps": [
+  "iPhone",
+  "Apple Intelligence"
+ ],
+ "item": 23135,
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/02/ios-27-2-1-and-ios-27-3-beta-coming-soon/"
+  }
+ ],
+ "checked": "2026-11-03"
+}

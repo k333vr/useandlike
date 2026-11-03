@@ -1,0 +1,25 @@
+{
+ "slug": "ms-now-streaming-on-tv-apps",
+ "date": "2026-11-02",
+ "added": "2026-11-03",
+ "topic": "Streaming",
+ "tag": "New feature",
+ "head": "MS NOW's live feed comes to TV apps without cable",
+ "dek": "Versant's MS NOW now streams its live 24/7 feed to its members on Roku, Apple TV, Samsung, Google TV and Amazon Fire TV, without a cable subscription for the first time. Membership costs 7.99 dollars a month or 79.99 dollars a year.",
+ "details": "Members also get full episodes of MS NOW programs on demand in the TV apps. People with a participating TV provider can sign in with that instead. Member-only series and twice-daily live Q&As with its journalists are planned for early 2027.",
+ "where": "US, on Roku, Apple TV, Samsung, Google TV and Fire TV",
+ "means": "If you want MS NOW live on your TV without cable, the membership now covers the TV apps too.",
+ "todo": "Install the MS NOW app on your TV device and sign up, or sign in with your TV provider.",
+ "rank": 7,
+ "apps": [
+  "MS NOW"
+ ],
+ "item": 23249,
+ "sources": [
+  {
+   "name": "Reuters via KSEV",
+   "url": "https://ksevradio.com/versants-ms-now-brings-streaming-membership-to-roku-apple-tv-and-fire-tv/"
+  }
+ ],
+ "checked": "2026-11-03"
+}

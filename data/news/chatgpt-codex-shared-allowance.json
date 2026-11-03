@@ -19,7 +19,14 @@
   {
    "name": "BleepingComputer",
    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/"
+  },
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/"
   }
  ],
- "checked": "2026-11-02"
+ "checked": "2026-11-02",
+ "items": [
+  22091
+ ]
 }

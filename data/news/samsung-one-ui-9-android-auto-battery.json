@@ -1,0 +1,33 @@
+{
+ "slug": "samsung-one-ui-9-android-auto-battery",
+ "date": "2026-11-02",
+ "added": "2026-11-03",
+ "topic": "Android",
+ "tag": "Heads-up",
+ "head": "Some Galaxy phones report Android Auto and battery trouble on One UI 9",
+ "dek": "Since Samsung's Android 17-based One UI 9 update started reaching older Galaxy phones, some owners report Android Auto stuttering or not connecting, and others report batteries draining fast. Samsung hasn't confirmed either problem.",
+ "details": "9to5Google says the Android Auto reports aren't widespread but show a clear pattern; in one user's test, a Galaxy S24 Ultra on One UI 9 had the problem and a Galaxy S25 Edge on One UI 8.5 didn't. Battery complaints come from Galaxy S24 and S25 owners, including one who says the phone now needs charging three to four times a day; many others see no change. There's no fix yet.",
+ "where": "Galaxy phones updated to One UI 9",
+ "means": "If Android Auto or your battery got worse right after the One UI 9 update, you're not the only one, and it's likely the update.",
+ "todo": "Restart the phone and check which apps use the most power under battery settings. A big update can drain more for a few days while the phone finishes background work. Install Samsung's next update when it arrives.",
+ "rank": 2,
+ "apps": [
+  "Samsung",
+  "Android Auto"
+ ],
+ "item": 23621,
+ "items": [
+  21736
+ ],
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/02/some-samsung-galaxy-phones-are-having-android-auto-issues-with-one-ui-9/"
+  },
+  {
+   "name": "Tech Advisor",
+   "url": "https://www.techadvisor.com/article/3270181/samsung-galaxy-phones-hit-with-battery-problems-after-one-ui-9-update.html"
+  }
+ ],
+ "checked": "2026-11-03"
+}

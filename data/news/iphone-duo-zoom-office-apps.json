@@ -1,0 +1,22 @@
+{
+ "slug": "iphone-duo-zoom-office-apps",
+ "date": "2026-11-02",
+ "added": "2026-11-03",
+ "topic": "Apple",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Zoom, Word, Excel, PowerPoint and OneNote now fit the iPhone Duo",
+ "dek": "Zoom and four Microsoft apps were updated to fill the iPhone Duo's inner display; Zoom shows shared content and participants at the same time. Teams isn't updated yet.",
+ "apps": [
+  "Zoom",
+  "Microsoft Word"
+ ],
+ "item": 22698,
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/02/zoom-microsoft-apps-iphone-duo-optimized/"
+  }
+ ],
+ "checked": "2026-11-03"
+}

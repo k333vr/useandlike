@@ -1,0 +1,27 @@
+{
+ "slug": "gemini-daily-limit-for-kids",
+ "date": "2026-11-02",
+ "added": "2026-11-03",
+ "topic": "AI",
+ "tag": "In testing",
+ "rumor": true,
+ "head": "Google is working on daily Gemini time limits for kids",
+ "dek": "Code in the Google app (version 17.72.13) suggests parents will be able to set a daily time limit for Gemini on supervised accounts, Android Authority found. Google hasn't announced it.",
+ "details": "When time runs out, the child would see \"You've reached your daily limit for Gemini\" and when it's ready again. Today parents can only allow or block Gemini completely in Family Link. It's unclear whether the limit would also cover Gemini in other apps such as Google Messages.",
+ "where": "Android, in development; no date",
+ "means": "If your child uses Gemini, you may get a middle ground between allowing and blocking it.",
+ "todo": "Nothing to do yet. For now, Family Link lets you turn Gemini on or off for your child.",
+ "rank": 11,
+ "apps": [
+  "Gemini",
+  "Google Family Link"
+ ],
+ "item": 24043,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/google-gemini-parental-controls-daily-time-limits-3730765/"
+  }
+ ],
+ "checked": "2026-11-03"
+}

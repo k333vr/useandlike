@@ -1,0 +1,25 @@
+{
+ "slug": "gemini-gems-become-skills",
+ "date": "2026-11-01",
+ "added": "2026-11-03",
+ "topic": "AI",
+ "tag": "Heads-up",
+ "head": "Gemini Gems go read-only on 17 November, replaced by Skills",
+ "dek": "Google is retiring Gems, Gemini's custom assistants. They turn read-only on 17 November and disappear on 17 December; Google converts existing Gems into Skills automatically.",
+ "details": "Skills work inside any chat: type @ and pick one, or Gemini uses it by itself when your request fits. They're free in regular chats and found under Customize > Skills. Skills have a 100 MB file limit, and the largest files of a bigger Gem are dropped first. Sharing skills and adding Google Drive files are still a few weeks away; Workspace and school accounts reportedly have until 2027.",
+ "where": "Gemini personal accounts; Gems read-only from 17 November 2026",
+ "means": "If you rely on a Gem, it will become a Skill you call inside your chats; check it still works the way you want.",
+ "todo": "Open Customize > Skills before 17 November and check your converted Gems. If a Gem uses big files, keep copies of them.",
+ "rank": 8,
+ "apps": [
+  "Gemini"
+ ],
+ "item": 19722,
+ "sources": [
+  {
+   "name": "XDA",
+   "url": "https://www.xda-developers.com/gemini-is-replacing-gems-with-skills-i-moved-claude-code-skills-over-to-test-them/"
+  }
+ ],
+ "checked": "2026-11-03"
+}

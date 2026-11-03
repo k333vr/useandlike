@@ -1,0 +1,27 @@
+{
+ "slug": "chatgpt-google-health-in-code",
+ "date": "2026-11-02",
+ "added": "2026-11-03",
+ "topic": "AI",
+ "tag": "In testing",
+ "rumor": true,
+ "head": "ChatGPT may soon read your Google Health data on Android",
+ "dek": "Code in ChatGPT's Android app (version 1.2026.300) points to a connection between ChatGPT Health and Google Health, Android Authority found. OpenAI hasn't announced it, and it isn't live.",
+ "details": "iPhone users can already connect ChatGPT Health to Apple Health. The code asks for access to past health data and to read data in the background, including body weight, body fat and reproductive health data such as menstruation.",
+ "where": "Android, not live yet; ChatGPT Health is available in the US",
+ "means": "Nothing changes yet. If it arrives, you could let ChatGPT read data your watch or fitness app syncs to Google Health.",
+ "todo": "Nothing to do yet. If it comes, check which kinds of health data you allow before connecting.",
+ "rank": 10,
+ "apps": [
+  "ChatGPT",
+  "Google Health"
+ ],
+ "item": 20605,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/chatgpt-health-google-health-integration-apk-teardown-3730462/"
+  }
+ ],
+ "checked": "2026-11-03"
+}

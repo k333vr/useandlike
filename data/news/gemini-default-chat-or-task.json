@@ -1,0 +1,22 @@
+{
+ "slug": "gemini-default-chat-or-task",
+ "date": "2026-11-02",
+ "added": "2026-11-03",
+ "topic": "AI",
+ "tag": "Quick",
+ "rumor": true,
+ "quick": true,
+ "head": "Gemini may let you choose Chat or Task as the default",
+ "dek": "Android Authority found an \"Answer type\" setting in the Google app's code that would open Gemini straight in Chat or Task mode, instead of the buttons added last month. Google hasn't announced it.",
+ "apps": [
+  "Gemini"
+ ],
+ "item": 24480,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/gemini-chat-tasks-default-3730786/"
+  }
+ ],
+ "checked": "2026-11-03"
+}
