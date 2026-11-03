@@ -5,7 +5,7 @@
  "topic": "Privacy",
  "tag": "New feature",
  "head": "ChatGPT lets you lock private chats behind a PIN",
- "thumb_words": "LOCK YOUR CHATS",
+ "thumb_words": "CHATGPT ADDS PIN-LOCKED CHATS",
  "dek": "OpenAI is rolling out Locked Chats: a locked conversation moves out of your chat history, pinned chats and search into a separate section that opens only with a four-digit PIN, or Face ID, Touch ID or your phone's unlock.",
  "details": "It's on Free, Go, Plus, Pro, Business, Enterprise and Edu plans, on the web, the iPhone and Android apps and the Mac and Windows apps. Temporary, archived and group chats can't be locked. It isn't end-to-end encryption, and it doesn't change how long OpenAI keeps your data. If you reset a forgotten PIN, all locked chats, their files and memories are deleted for good.",
  "where": "All ChatGPT plans except ChatGPT for Healthcare, rolling out gradually",
