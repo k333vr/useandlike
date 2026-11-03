@@ -34,20 +34,31 @@
   "note": "picked automatically: check it"
  },
  "Android": {
-  "id": 6449987166,
   "file": "img/apps/android.webp",
-  "color": "#5eba77",
-  "store_name": "Android Switch",
-  "source": "appstore",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ad/68/56/ad685653-963c-457f-c8f4-ad09f6d02b04/logo_android_switch_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
-  "developer": "Google",
-  "v": "6a8f418e"
+  "color": "#35b86f",
+  "source": "maker",
+  "v": "003427fb",
+  "store_name": "Google",
+  "hash": "da25e7d555b3",
+  "note": "Google's logo (a device or system has no app of its own): pick another here if you like"
  },
  "Android Auto": {
-  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+  "source": "maker",
+  "file": "img/apps/android-auto.webp",
+  "color": "#35b86f",
+  "v": "003427fb",
+  "store_name": "Google",
+  "hash": "da25e7d555b3",
+  "note": "Google's logo (a device or system has no app of its own): pick another here if you like"
  },
  "Android TV": {
-  "note": "left as a letter: the closest App Store app, Android TV Remote Control by Codematics Services, may be another app. Pick one here if you know the right one"
+  "source": "maker",
+  "file": "img/apps/android-tv.webp",
+  "color": "#35b86f",
+  "v": "003427fb",
+  "store_name": "Google",
+  "hash": "da25e7d555b3",
+  "note": "Google's logo (a device or system has no app of its own): pick another here if you like"
  },
  "Apple Intelligence": {
   "source": "maker",
@@ -408,34 +419,31 @@
   "hash": "83dd6bcc578f"
  },
  "Samsung": {
-  "id": 1274679179,
   "file": "img/apps/samsung.webp",
-  "color": "#2b86ee",
-  "store_name": "Shop Samsung",
-  "source": "appstore",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/13/6f/9c/136f9c3d-0cf3-be16-8897-2cc85745b61d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-  "developer": "Samsung Electronics America, Inc.",
-  "v": "7d0c13d6"
+  "color": "#2136a4",
+  "source": "maker",
+  "v": "d64e120e",
+  "store_name": "Samsung",
+  "hash": "72895c5cf436",
+  "note": "Samsung's logo (a device or system has no app of its own): pick another here if you like"
  },
  "Samsung News": {
-  "id": 1274679179,
   "file": "img/apps/samsung-news.webp",
-  "color": "#2b86ee",
-  "store_name": "Shop Samsung",
-  "source": "appstore",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/13/6f/9c/136f9c3d-0cf3-be16-8897-2cc85745b61d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-  "developer": "Samsung Electronics America, Inc.",
-  "v": "7d0c13d6"
+  "color": "#2136a4",
+  "source": "maker",
+  "v": "d64e120e",
+  "store_name": "Samsung",
+  "hash": "72895c5cf436",
+  "note": "Samsung's logo (a device or system has no app of its own): pick another here if you like"
  },
  "Samsung Wallet": {
-  "id": 1274679179,
   "file": "img/apps/samsung-wallet.webp",
-  "color": "#2b86ee",
-  "store_name": "Shop Samsung",
-  "source": "appstore",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/13/6f/9c/136f9c3d-0cf3-be16-8897-2cc85745b61d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-  "developer": "Samsung Electronics America, Inc.",
-  "v": "7d0c13d6"
+  "color": "#2136a4",
+  "source": "maker",
+  "v": "d64e120e",
+  "store_name": "Samsung",
+  "hash": "72895c5cf436",
+  "note": "Samsung's logo (a device or system has no app of its own): pick another here if you like"
  },
  "Siri": {
   "source": "appstore",
@@ -511,14 +519,14 @@
   "hash": "027ea80d3190"
  },
  "YouTube Premium": {
-  "id": 544007664,
   "file": "img/apps/youtube-premium.webp",
   "color": "#ed254c",
-  "store_name": "YouTube",
   "source": "appstore",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/43/be/8243be7f-17c3-33ae-720a-ffcde48bed61/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+  "v": "584ec778",
+  "id": 544007664,
+  "store_name": "YouTube",
   "developer": "Google",
-  "v": "584ec778"
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/56/df/be56dfa2-70bd-feb2-b666-38277eb5be3b/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg"
  },
  "YouTube TV": {
   "id": 1193350206,

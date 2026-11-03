@@ -87,6 +87,9 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   thumbnail tool's saved logo (tngg.app's D1 `tngg-studio` + R2, read only), then the App Store; each run re-checks for new logos;
   devices and systems (iPhone, Apple Watch, macOS, Pixel Watch, Windows 11) show their maker's logo (`MAKERS` in
   app-icons.py; Apple: `data/makers/apple.png`; Kevin, 2 Nov: the Apple Watch top story showed "just an A not Apple logo");
+  since 3 Nov also Samsung/Galaxy/One UI, Android (Auto, TV, XR, numbers) and Nothing/CMF (`data/makers/samsung.png`,
+  `android.png`, `nothing.png`: the App Store had matched Shop Samsung, Android Switch and a cake shop; the Studio's news
+  thumbnails copy these logos, so a wrong one shows twice);
   latest news beside the checked deals, newsletter box via
   `[data-join]`, one-liners, how-tos). Recommended how-tos everywhere: only videos with a new thumbnail
   (`data/new-thumbs.json`, refreshed by useandlike-ops/analysis/new-thumbs-sync.py) and never cancel/refund/"free" titles.

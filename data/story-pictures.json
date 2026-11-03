@@ -5,8 +5,8 @@
   "affinity-ipad-free": "ccbbaa09",
   "agoda-ai-assistant-21-markets": "7ab4531a",
   "amazon-blocks-meta-muse-shopping": "846bba62",
-  "android-sms-bug-drops-calls": "5d799fb6",
-  "android-tv-box-botnet-backdoor": "af6e0607",
+  "android-sms-bug-drops-calls": "65a4ee9e",
+  "android-tv-box-botnet-backdoor": "050d337b",
   "apple-intelligence-china-ios-27-3": "f1931eee",
   "apple-music-android-redesign": "b7fb08d7",
   "apple-watch-wrong-hour-fix": "8f5ad317",
@@ -47,9 +47,9 @@
   "pixel-watch-battery-drain-fix-coming": "49db487a",
   "reddit-account-for-most-pages": "acdc7966",
   "reddit-for-you-feed": "d4c6b27f",
-  "samsung-news-shutting-down": "c2fff4a0",
-  "samsung-one-ui-9-android-auto-battery": "420f6b92",
-  "samsung-wallet-cash-card": "9afc5668",
+  "samsung-news-shutting-down": "58703ead",
+  "samsung-one-ui-9-android-auto-battery": "44d914b9",
+  "samsung-wallet-cash-card": "6d6a6f4c",
   "spotify-ai-remix-paid-add-on": "8ec4f14b",
   "t-mobile-fiber-5-gig-price-lock": "b19e9fa5",
   "t-mobile-t-mix-streaming": "63e52088",
@@ -62,8 +62,8 @@
  },
  "leads": {
   "apple-watch-wrong-hour-fix": "675e4dc4",
-  "chatgpt-locked-chats-pin": "7a272624",
+  "chatgpt-locked-chats-pin": "8acb2f51",
   "macbook-pro-touchscreen": "b5d92eca",
-  "reddit-account-for-most-pages": "0a08764c"
+  "reddit-account-for-most-pages": "946accf1"
  }
 }

@@ -57,6 +57,13 @@ MAKERS = [
      {"picture": "data/makers/apple.png", "maker": "Apple"}),
     (r"(google )?pixel( .*)?", {"thumbnails": "google", "maker": "Google"}),
     (r"windows( .*)?", {"thumbnails": "windows", "maker": "Microsoft"}),
+    # 3 Nov: the App Store's closest matches were wrong ("Samsung", "Samsung News" and "Samsung Wallet" got the Shop Samsung
+    # app, "Android" Google's Android Switch app, "Nothing" a cake shop), and the news thumbnails copy these logos.
+    # samsung.png and android.png: Simple Icons (CC0) on the brand's colours, drawn once by Playwright; nothing.png: the
+    # NOTHING lettering in dots, drawn with Pillow.
+    (r"samsung( .*)?|(samsung )?galaxy( .*)?|one ui( .*)?", {"picture": "data/makers/samsung.png", "maker": "Samsung"}),
+    (r"android( (auto|tv|xr|\d+)( .*)?)?", {"picture": "data/makers/android.png", "maker": "Google"}),
+    (r"nothing( (phone|os|ear|headphone)s?( .*)?)?|cmf( .*)?", {"picture": "data/makers/nothing.png", "maker": "Nothing"}),
 ]
 
 
