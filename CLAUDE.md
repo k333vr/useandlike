@@ -41,6 +41,10 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   set on #welcome / #thanks / #tracker or by the box's "Already subscribed? Hide this" (index.html and build-pages.js'
   SCRIPT + beehiivHead; the privacy page says so). The #join page keeps its field. The front page's story list ends
   with a "More stories" button to /news/.
+- All news page `/news/` (Kevin, 3 Nov: "2 or 3" per row, "in between we can add deals"): story cards in a grid
+  (`.srows.grid3`: 1 column on phones, 2 from 700 px, 3 from 980 px), and after every `NEWS_DEAL_EVERY` (9) stories a
+  row of 4 deals (`newsWithDeals` in build-pages.js): the checked deals first, then partners' own offers
+  (`partnerMini`, labelled as their listing), mixed across groups.
 - Layout: until 1 Nov 2026 the home page was the category list (Craigslist-style). Kevin, 1 Nov ("overall way better",
   "go"): the home page is app news; `/how-tos/` is a search over all our videos (`how-tos/search.json`, loaded on the
   first search: every non-Short video of data/channel-videos.tsv, the tools, stories, checked deals and partner offers),

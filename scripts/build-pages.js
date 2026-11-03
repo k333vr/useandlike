@@ -618,7 +618,7 @@ const tagHtml = s => (s.tag || s.rumor) ? `<span class="tag${s.rumor ? " rumor" 
 const storyRow = s => `<li style="${cardColour(s)}"><a href="/${newsPath(s)}" tabindex="-1" aria-hidden="true">${appMark(s, "sm")}</a><div>` +
   tagHtml(s) + `<h3><a href="/${newsPath(s)}">${esc(s.head)}</a></h3>` +
   `<p class="one">${esc(s.means || s.dek)}</p><p class="meta">${esc(shortDay(s.date))} · ${esc(s.sources.map(x => x.name).join(", "))}</p></div></li>`;
-const storyRows = list => `<ul class="plain srows">\n${list.map(storyRow).join("\n")}\n</ul>`;
+const storyRows = (list, cls) => `<ul class="plain srows${cls ? " " + cls : ""}">\n${list.map(storyRow).join("\n")}\n</ul>`;
 const oneLine = list => `<ul class="plain one-line">\n${list.map(s => `<li><b><a href="/${newsPath(s)}">${esc(s.head)}</a></b>` +
   `<span>${esc(s.dek)}</span><span class="meta">${esc(shortDay(s.date))} · ${sourcesLine(s)}</span></li>`).join("\n")}\n</ul>`;
 const dealMini = d => `<li class="dmini"><a href="/${d.slug}" ${sponsored}><span class="top">` +
@@ -626,6 +626,37 @@ const dealMini = d => `<li class="dmini"><a href="/${d.slug}" ${sponsored}><span
   `${esc(d.brand)}</span><span class="big">${esc(d.big)}</span><span class="offer">${esc(d.offer)}</span>` +
   `<span class="chk">Checked on ${esc(d.brand)}'s site, ${esc(shortDay(d.checked))}</span></a></li>`;
 const dealMinis = list => `<ul class="plain dminis">\n${list.map(dealMini).join("\n")}\n</ul>`;
+// A partner's own offer (data/partner-offers.json) as a small card like dealMini's, labelled as their listing.
+const partnerMini = o => {
+  const pct = /(\d{1,3})\s?%/.exec(o.text);
+  return `<li class="dmini"><a href="/${o.slug}" ${sponsored}><span class="top">` +
+    (fs.existsSync(path.join(ROOT, "img", "deals", o.slug + ".webp")) ? `<img src="/img/deals/${o.slug}.webp" alt="" width="30" height="30" loading="lazy">` : "") +
+    `${esc(o.brand)}</span>${pct ? `<span class="big">−${pct[1]}%</span>` : ""}<span class="offer">${esc(o.text)}</span>` +
+    `<span class="chk">${esc(o.brand)}'s listing on our partner network, ${esc(shortDay(o.seen))}</span></a></li>`;
+};
+
+// The All news page (Kevin, 3 Nov: "one story per row which I think it should be 2 or 3 ... in between we can add
+// deals"): the stories in a grid (CSS .srows.grid3: 2 columns from 700 px, 3 from 980 px), and after every
+// NEWS_DEAL_EVERY stories a row of 4 deals: the hand-checked ones first, then partners' own offers, mixed across groups.
+const NEWS_DEAL_EVERY = 9;
+function newsWithDeals(list) {
+  const groups = new Map();
+  for (const o of OFFERS) { if (!groups.has(o.group)) groups.set(o.group, []); groups.get(o.group).push(o); }
+  const mixed = [];
+  for (let i = 0; mixed.length < OFFERS.length; i++) for (const g of groups.values()) if (g[i]) mixed.push(g[i]);
+  const cards = DEALS.map(d => ["checked", dealMini(d)]).concat(mixed.map(o => ["partner", partnerMini(o)]));
+  const out = [];
+  for (let i = 0, band = 0; i < list.length; i += NEWS_DEAL_EVERY, band++) {
+    out.push(storyRows(list.slice(i, i + NEWS_DEAL_EVERY), "grid3"));
+    const four = cards.slice(band * 4, band * 4 + 4);
+    if (i + NEWS_DEAL_EVERY >= list.length || !four.length) continue;
+    const kinds = new Set(four.map(c => c[0]));
+    const title = kinds.size > 1 ? "Deals and offers" : kinds.has("checked") ? "Deals we checked" : "Offers from our partners";
+    out.push(`<section class="deal-band" aria-labelledby="db-${band + 1}">${secHead(`db-${band + 1}`, title, '<a href="/deals/">All deals ›</a>')}\n` +
+      `<ul class="plain dminis">\n${four.map(c => c[1]).join("\n")}\n</ul></section>`);
+  }
+  return out.join("\n");
+}
 const secHead = (id, title, link) => `<div class="sec-head"><h2 id="${id}">${esc(title)}</h2>${link || ""}</div>`;
 
 // Story pages: what happened, what it means for you, what to do, the details, our how-tos, deals, more stories.
@@ -674,7 +705,7 @@ if (NEWS.length) {
     noindex: false, jsonld: [crumbsLd(trail)],
     main: [crumbsHtml(trail), "<h1>App news</h1>",
       '<p class="lead">What changed in the apps you use, in our own words, with what it means for you and what to do about it.</p>',
-      storyRows(TOP_NEWS), QUICK_NEWS.length ? `<section aria-labelledby="ol-h">${secHead("ol-h", "In one line")}\n${oneLine(QUICK_NEWS)}</section>` : "",
+      newsWithDeals(TOP_NEWS), QUICK_NEWS.length ? `<section aria-labelledby="ol-h">${secHead("ol-h", "In one line")}\n${oneLine(QUICK_NEWS)}</section>` : "",
       newsletterBox()].filter(Boolean).join("\n")
   }));
   sitemap.push(p);

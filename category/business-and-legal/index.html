@@ -358,6 +358,18 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 @media (max-width: 420px) { .srows li { grid-template-columns: 60px minmax(0, 1fr); gap: 14px; padding: 14px; } .srows .appmark { width: 60px; height: 60px; }
   .srows img, .srows .ph, .srows .art { width: 96px; } }
 .dminis { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+/* All news page (Kevin, 3 Nov: "2 or 3" per row, "in between we can add deals"): story cards stand upright in 2 columns
+   from 700 px and 3 from 980 px; a row of 4 deals after every 9 stories. */
+@media (min-width: 700px) {
+  .srows.grid3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .srows.grid3 > li { grid-template-columns: minmax(0, 1fr); align-content: start; gap: 10px; padding: 18px; }
+  .srows.grid3 .appmark { width: 64px; height: 64px; }
+  .srows.grid3 h3 { margin-top: 2px; }
+  .deal-band .dminis { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+@media (min-width: 980px) { .srows.grid3 { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.deal-band { margin: 26px 0; }
+.deal-band .dmini .offer { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .dmini a { display: grid; gap: 4px; height: 100%; padding: 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--text); text-decoration: none; }
 .dmini a:hover { border-color: var(--brass); }
 .dmini .top { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: .9rem; overflow-wrap: anywhere; }
