@@ -1,0 +1,26 @@
+{
+ "slug": "pinvoy-map-links-app",
+ "date": "2026-11-03",
+ "added": "2026-11-04",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Pinvoy opens shared map links in the navigation app you use",
+ "dek": "When someone sends you a location, Pinvoy opens the exact place in your own navigation app, like Google Maps, Waze, Apple Maps or Sygic, or a ride app like Uber. It was #97 among paid Navigation apps on the US App Store on 3 November.",
+ "details": "It reads links from many map apps, short links, plain coordinates and Plus Codes. It costs $2.99 with in-app purchases, by developer Abdulmohsen Al Tulaihi.",
+ "where": "iPhone and iPad, App Store, $2.99",
+ "means": "If shared locations keep opening in the wrong map app, this sends them to the one you drive with.",
+ "todo": "Share a map link to Pinvoy from WhatsApp or Messages, then pick your navigation app.",
+ "rank": 13,
+ "apps": [
+  "Pinvoy"
+ ],
+ "item": 32514,
+ "thumb_words": "OPEN MAP LINKS IN YOUR APP",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/pinvoy/id6821955375"
+  }
+ ],
+ "checked": "2026-11-04"
+}

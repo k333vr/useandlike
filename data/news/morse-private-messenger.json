@@ -1,0 +1,18 @@
+{
+ "slug": "morse-private-messenger",
+ "date": "2026-11-03",
+ "added": "2026-11-04",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "head": "Morse Messenger: encrypted chat without a phone number",
+ "dek": "New messenger Morse uses a Morse ID instead of a phone number or email, encrypts messages and calls end to end, shows no ads and is paid by an annual subscription.",
+ "quick": true,
+ "item": 30653,
+ "sources": [
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/morse-private-messenger"
+  }
+ ],
+ "checked": "2026-11-04"
+}

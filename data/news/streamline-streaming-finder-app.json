@@ -1,0 +1,26 @@
+{
+ "slug": "streamline-streaming-finder-app",
+ "date": "2026-11-03",
+ "added": "2026-11-04",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "New app Streamline shows which streaming services you can cancel",
+ "dek": "Streamline works out the smallest set of streaming subscriptions that covers the shows you actually watch, and which ones you could cancel without losing a show. It was #26 among paid Entertainment apps on the US App Store on 3 November.",
+ "details": "You add your shows and the services you pay for; it shows where each show streams and how much you could save. It costs $1.99 once, by developer Brad Cooper.",
+ "where": "iPhone and iPad, App Store, $1.99",
+ "means": "If you pay for several streaming services, it can show which ones you don't need for your shows.",
+ "todo": "Add the shows you watch and the services you pay for, then check its suggestion against your own bills before cancelling.",
+ "rank": 4,
+ "apps": [
+  "Streamline: Streaming Finder"
+ ],
+ "item": 32444,
+ "thumb_words": "CANCEL STREAMING YOU DON'T USE",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/streamline-streaming-finder/id6817999656"
+  }
+ ],
+ "checked": "2026-11-04"
+}

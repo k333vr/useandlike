@@ -1,0 +1,29 @@
+{
+ "slug": "youtube-server-error-400-android",
+ "date": "2026-11-03",
+ "added": "2026-11-04",
+ "topic": "Video",
+ "tag": "Heads-up",
+ "head": "YouTube's Server Error 400 is back for some Android users",
+ "dek": "YouTube said on 1 November that the Server Error 400 on Android was fixed, but Google now confirms some people still can't open the app or load videos. It's working on another fix, with no timeline.",
+ "details": "Not everyone sees the error; Android Authority's staff couldn't reproduce it. Clearing the cache or updating didn't help some users, while others got back in by reinstalling updates.",
+ "where": "YouTube app on Android",
+ "means": "If YouTube on your Android phone shows Server Error 400, it's a known problem on YouTube's side.",
+ "todo": "Google's two workarounds: uninstall and reinstall YouTube, or clear the app's storage in Android settings (not just the cache). Both delete your downloaded videos, so keep that in mind if you watch offline.",
+ "rank": 1,
+ "apps": [
+  "YouTube"
+ ],
+ "item": 28548,
+ "items": [
+  19995
+ ],
+ "thumb_words": "YOUTUBE ERROR 400 IS BACK",
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/youtube-server-error-400-android-fix-3731005/"
+  }
+ ],
+ "checked": "2026-11-04"
+}

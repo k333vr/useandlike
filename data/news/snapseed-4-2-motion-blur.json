@@ -1,0 +1,26 @@
+{
+ "slug": "snapseed-4-2-motion-blur",
+ "date": "2026-11-03",
+ "added": "2026-11-04",
+ "topic": "Google",
+ "tag": "Update",
+ "head": "Snapseed 4.2 adds motion blur, depth blur and LUT import",
+ "dek": "Google's free photo editor Snapseed is getting version 4.2 on Android, iPhone and iPad, with a Motion Blur tool, a depth-based Lens Blur and import of presets and LUTs.",
+ "details": "Motion Blur can blur the whole scene, streak the background behind a sharp subject, or blur the subject itself. LUTs come in .cube, .xmp, .3dl, .png and .snapseed formats, and you can share your own Looks. A Community Looks gallery inside the app shows looks made by other users.",
+ "where": "Android, iPhone and iPad, rolling out",
+ "means": "If you edit photos with Snapseed, you get new blur effects and can bring in your favourite looks from other editors.",
+ "todo": "Update Snapseed from the Play Store or App Store.",
+ "rank": 17,
+ "apps": [
+  "Snapseed"
+ ],
+ "item": 30057,
+ "thumb_words": "SNAPSEED 4.2: NEW BLUR TOOLS",
+ "sources": [
+  {
+   "name": "Thurrott",
+   "url": "https://www.thurrott.com/mobile/343456/snapseed-4-2-arrives-for-android-iphone-and-ipad"
+  }
+ ],
+ "checked": "2026-11-04"
+}

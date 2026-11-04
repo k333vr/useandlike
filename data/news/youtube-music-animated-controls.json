@@ -1,0 +1,22 @@
+{
+ "slug": "youtube-music-animated-controls",
+ "date": "2026-11-03",
+ "added": "2026-11-04",
+ "topic": "Music",
+ "tag": "Quick",
+ "rumor": true,
+ "head": "YouTube Music may get animated play buttons",
+ "dek": "Android Authority found animated play, pause, shuffle, repeat and sleep timer icons in YouTube Music's code; Google hasn't announced them.",
+ "quick": true,
+ "apps": [
+  "YouTube Music"
+ ],
+ "item": 29192,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/youtube-music-revamped-icon-animations-apk-teardown-3731086/"
+  }
+ ],
+ "checked": "2026-11-04"
+}

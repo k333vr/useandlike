@@ -1,0 +1,21 @@
+{
+ "slug": "netflix-ai-discover-tab-test",
+ "date": "2026-11-03",
+ "added": "2026-11-04",
+ "topic": "Streaming",
+ "tag": "Quick",
+ "head": "Netflix tests an AI Discover tab on TVs",
+ "dek": "Netflix's new AI Discover tab, a place to try new ways of finding what to watch, is rolling out to a small group of US members on the TV app.",
+ "quick": true,
+ "apps": [
+  "Netflix"
+ ],
+ "item": 31850,
+ "sources": [
+  {
+   "name": "What's on Netflix",
+   "url": "https://www.whats-on-netflix.com/news/netflix-ai-discover-tab-launch/"
+  }
+ ],
+ "checked": "2026-11-04"
+}

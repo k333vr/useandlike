@@ -1,0 +1,21 @@
+{
+ "slug": "firefox-mini-window-beta",
+ "date": "2026-11-02",
+ "added": "2026-11-04",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Firefox tests Mini Window for floating tabs",
+ "dek": "Firefox's Mini Window, now in beta, lets you pop a tab or part of a page into a small window that floats over your other tabs.",
+ "quick": true,
+ "apps": [
+  "Firefox"
+ ],
+ "item": 23748,
+ "sources": [
+  {
+   "name": "ZDNET",
+   "url": "https://www.zdnet.com/home-and-office/firefox-mini-window-browser-feature/"
+  }
+ ],
+ "checked": "2026-11-04"
+}

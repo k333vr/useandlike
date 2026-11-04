@@ -1,0 +1,25 @@
+{
+ "slug": "android-family-hub",
+ "date": "2026-11-03",
+ "added": "2026-11-04",
+ "topic": "Android",
+ "tag": "Quick",
+ "head": "Android Settings get a Family Hub for parental tools",
+ "dek": "Google's November system update adds Android Family Hub, one place in Settings for family management tools, with Google Play services 26.43.",
+ "quick": true,
+ "apps": [
+  "Android",
+  "Google Family Link"
+ ],
+ "item": 27541,
+ "items": [
+  26524
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/android-family-hub-rollout-3730927/"
+  }
+ ],
+ "checked": "2026-11-04"
+}

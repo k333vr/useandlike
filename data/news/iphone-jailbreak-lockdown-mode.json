@@ -1,0 +1,21 @@
+{
+ "slug": "iphone-jailbreak-lockdown-mode",
+ "date": "2026-11-03",
+ "added": "2026-11-04",
+ "topic": "Security",
+ "tag": "Quick",
+ "head": "Hackers show an iPhone jailbreak that gets past Lockdown Mode",
+ "dek": "The team Calif showed a jailbroken iPhone 18 Pro in Lockdown Mode that stayed jailbroken after updating to iOS 27.2; keep your iPhone updated.",
+ "quick": true,
+ "apps": [
+  "iPhone"
+ ],
+ "item": 32990,
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/03/iphone-jailbreak-lockdown-mode/"
+  }
+ ],
+ "checked": "2026-11-04"
+}

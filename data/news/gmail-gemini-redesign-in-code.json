@@ -1,0 +1,23 @@
+{
+ "slug": "gmail-gemini-redesign-in-code",
+ "date": "2026-11-03",
+ "added": "2026-11-04",
+ "topic": "Email",
+ "tag": "Quick",
+ "rumor": true,
+ "head": "Gmail's Ask Gemini may get a new look on phones",
+ "dek": "Android Authority found a floating Gemini panel with voice input and a menu to add Drive files in Gmail's code; Google hasn't announced it.",
+ "quick": true,
+ "apps": [
+  "Gmail",
+  "Gemini"
+ ],
+ "item": 30116,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/gmail-ask-gemini-redesign-apk-teardown-3731134/"
+  }
+ ],
+ "checked": "2026-11-04"
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "quick-share-inside-apps-2027",
+ "date": "2026-11-02",
+ "added": "2026-11-04",
+ "topic": "Android",
+ "tag": "Quick",
+ "head": "Quick Share will work inside Android and iPhone apps in 2027",
+ "dek": "Google announced a Quick Share kit for developers, coming in the first half of 2027, so apps on Android and iPhone can send files directly with end-to-end encryption.",
+ "quick": true,
+ "apps": [
+  "Android"
+ ],
+ "item": 24023,
+ "items": [
+  30009
+ ],
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/02/quick-share-sdk-apps/"
+  }
+ ],
+ "checked": "2026-11-04"
+}

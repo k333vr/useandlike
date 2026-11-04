@@ -1,0 +1,21 @@
+{
+ "slug": "athenahealth-records-in-claude",
+ "date": "2026-11-02",
+ "added": "2026-11-04",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Athenahealth patients can connect their records to Claude",
+ "dek": "Patients of Athenahealth providers on Claude Pro or Max can let Claude answer questions about their health records, choose what it sees and revoke access; Athenahealth says the data isn't used to train Anthropic's models.",
+ "quick": true,
+ "apps": [
+  "Claude"
+ ],
+ "item": 23746,
+ "sources": [
+  {
+   "name": "ZDNET",
+   "url": "https://www.zdnet.com/health/athenahealth-claude-ai-medical-partnership/"
+  }
+ ],
+ "checked": "2026-11-04"
+}

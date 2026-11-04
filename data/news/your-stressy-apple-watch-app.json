@@ -1,0 +1,26 @@
+{
+ "slug": "your-stressy-apple-watch-app",
+ "date": "2026-11-03",
+ "added": "2026-11-04",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Your Stressy turns Apple Watch data into one energy number",
+ "dek": "Your Stressy uses what your Apple Watch already measures to show one number, your reserve from 0 to 100%: sleep fills it, stress drains it. It was #27 among paid Health & Fitness apps on the US App Store on 3 November.",
+ "details": "Through the day it compares your heart with your own calm level every five minutes. It costs $4.99, by Ervo Labs, and needs iOS 26 and an Apple Watch.",
+ "where": "iPhone with Apple Watch, App Store, $4.99",
+ "means": "If your watch shows lots of health numbers, this sums them up as one daily reserve.",
+ "todo": "You need an Apple Watch; find Your Stressy in the App Store.",
+ "rank": 11,
+ "apps": [
+  "Your Stressy"
+ ],
+ "item": 32481,
+ "thumb_words": "ONE ENERGY NUMBER FROM YOUR WATCH",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/your-stressy/id6822681002"
+  }
+ ],
+ "checked": "2026-11-04"
+}

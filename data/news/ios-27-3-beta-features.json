@@ -1,0 +1,44 @@
+{
+ "slug": "ios-27-3-beta-features",
+ "date": "2026-11-03",
+ "added": "2026-11-04",
+ "topic": "Apple",
+ "tag": "Update",
+ "head": "iOS 27.3 beta: Siri AI in more apps, new StandBy and Safari tabs",
+ "dek": "Apple released the first iOS 27.3 beta to developers; the update comes to everyone in December. Siri AI can take actions in more apps, and StandBy gets new faces on the iPhone 11 and newer.",
+ "details": "Siri AI can act in Calendar, Journal, Messages, Music, Notes, Photos and other Apple apps, and developers can now add it to their own apps. Siri AI adds Traditional Chinese, Norwegian, Turkish and Vietnamese. Safari gets vertical tabs, the redesigned Health app returns, and Apple Watch gets Siri Recap and Live Rewind in the watchOS 27.3 beta. On the iPhone Duo, Reachability shifts the screen left or right.",
+ "where": "Developer beta now; public release in December",
+ "means": "If you have an iPhone 11 or newer, these features arrive with iOS 27.3 in December.",
+ "todo": "Nothing to do yet; install iOS 27.3 when it comes out. Betas are for testers and can have bugs.",
+ "rank": 15,
+ "apps": [
+  "iPhone",
+  "Siri"
+ ],
+ "item": 31885,
+ "items": [
+  32175,
+  32180,
+  32195,
+  31884,
+  28499,
+  32729,
+  31924
+ ],
+ "thumb_words": "IOS 27.3: WHAT'S COMING",
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/03/everything-new-in-ios-27-3-beta-1-so-far/"
+  },
+  {
+   "name": "The Verge",
+   "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps"
+  },
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/03/ios-27-3-new-standby-features/"
+  }
+ ],
+ "checked": "2026-11-04"
+}

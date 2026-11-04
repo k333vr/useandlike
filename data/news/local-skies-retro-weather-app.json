@@ -1,0 +1,26 @@
+{
+ "slug": "local-skies-retro-weather-app",
+ "date": "2026-11-03",
+ "added": "2026-11-04",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Local Skies shows the weather like a classic TV forecast",
+ "dek": "Local Skies brings the look of old TV weather reports to the iPhone, cycling through the forecast with a ticker at the bottom. It was #13 among paid Weather apps on the US App Store on 3 November.",
+ "details": "It has current conditions, hourly and five-day forecasts, animated radar, severe weather alerts on the ticker and optional background music, for US cities. It costs $2.99, by developer Aram Ormanian.",
+ "where": "iPhone and iPad, App Store, $2.99; US cities",
+ "means": "If you miss the local TV forecast, it gives you that look on your phone.",
+ "todo": "Find Local Skies in the App Store; it covers US cities.",
+ "rank": 9,
+ "apps": [
+  "Local Skies"
+ ],
+ "item": 30307,
+ "thumb_words": "RETRO TV WEATHER ON IPHONE",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/local-skies-retro-weather/id6811264183"
+  }
+ ],
+ "checked": "2026-11-04"
+}

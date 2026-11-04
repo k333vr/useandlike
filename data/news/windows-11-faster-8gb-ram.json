@@ -1,0 +1,26 @@
+{
+ "slug": "windows-11-faster-8gb-ram",
+ "date": "2026-11-03",
+ "added": "2026-11-04",
+ "topic": "Windows",
+ "tag": "Update",
+ "head": "Windows 11 update aims to run better on PCs with 8 GB of RAM",
+ "dek": "A new Windows 11 update rolling out worldwide is meant to make PCs with 8 GB of memory up to 20% more responsive and up to 40% faster at multitasking, according to Microsoft.",
+ "details": "Windows can keep up to 2 GB more data in memory, so returning to an open app or tab doesn't reload it. Background work like search indexing scales down while you use the PC, and on low-memory PCs Widgets only load when opened. Teams, Office, Edge and Outlook use less memory, and apps like WhatsApp also use the new optimizations.",
+ "where": "Windows 11, rolling out worldwide",
+ "means": "If your laptop has only 8 GB of RAM, it should feel quicker when you switch between apps and tabs.",
+ "todo": "Open Settings > Windows Update and install the latest update.",
+ "rank": 16,
+ "apps": [
+  "Windows 11"
+ ],
+ "item": 31065,
+ "thumb_words": "WINDOWS 11 FASTER ON 8GB RAM",
+ "sources": [
+  {
+   "name": "How-To Geek",
+   "url": "https://www.howtogeek.com/windows-11-now-runs-better-on-8gb-ram/"
+  }
+ ],
+ "checked": "2026-11-04"
+}

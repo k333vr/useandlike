@@ -1,0 +1,21 @@
+{
+ "slug": "widezilla-iphone-duo-browser",
+ "date": "2026-11-03",
+ "added": "2026-11-04",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Widezilla is a browser made for the iPhone Duo",
+ "dek": "Widezilla ($0.99) uses the outer screen for quick browsing and the inner one for reading; it was #30 among paid Utilities apps on the US App Store on 3 November.",
+ "quick": true,
+ "apps": [
+  "Widezilla"
+ ],
+ "item": 28748,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/widezilla/id6827308965"
+  }
+ ],
+ "checked": "2026-11-04"
+}

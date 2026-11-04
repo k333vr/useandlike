@@ -1,0 +1,21 @@
+{
+ "slug": "claude-duet-app-store",
+ "date": "2026-11-03",
+ "added": "2026-11-04",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Anthropic's Claude Duet app is out, for waitlisted users",
+ "dek": "The Claude Duet app, which checks your email and calendar and drafts replies, was #43 among free Productivity apps on the US App Store on 3 November; you need waitlist access to use it.",
+ "quick": true,
+ "apps": [
+  "Claude"
+ ],
+ "item": 28726,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/claude-duet-by-anthropic/id6803276000"
+  }
+ ],
+ "checked": "2026-11-04"
+}

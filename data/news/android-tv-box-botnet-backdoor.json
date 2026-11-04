@@ -20,7 +20,14 @@
   {
    "name": "The Hacker News",
    "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html"
+  },
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/02/google-android-tv-box-backdoor-shut-down/"
   }
  ],
- "checked": "2026-11-03"
+ "checked": "2026-11-03",
+ "items": [
+  24652
+ ]
 }

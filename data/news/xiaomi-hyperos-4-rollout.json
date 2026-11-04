@@ -1,0 +1,26 @@
+{
+ "slug": "xiaomi-hyperos-4-rollout",
+ "date": "2026-11-03",
+ "added": "2026-11-04",
+ "topic": "Android",
+ "tag": "Update",
+ "head": "Xiaomi starts rolling out HyperOS 4 with Android 17",
+ "dek": "Xiaomi began rolling out the final version of HyperOS 4, based on Android 17, on 3 November, starting with the Xiaomi 17 and 17T series. Phones as old as 2022's Xiaomi 13T are on the list.",
+ "details": "The Xiaomi 15T series follows from mid-November and the MIX Flip in December. HyperOS 4 brings a new look, more lock screen options, new home screen organisation and better floating apps; Xiaomi says apps launch nearly 20% faster after about a day of use. Updates arrive in waves.",
+ "where": "Xiaomi, Redmi and Poco phones, in waves from 3 November",
+ "means": "If you have a recent Xiaomi, Redmi or Poco phone, Android 17 is on its way.",
+ "todo": "Check Settings for a system update; if it isn't there, it will come in a later wave.",
+ "rank": 19,
+ "apps": [
+  "Xiaomi"
+ ],
+ "item": 30399,
+ "thumb_words": "XIAOMI HYPEROS 4 ROLLS OUT",
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/03/xiaomi-confirms-android-17-hyperos-4-rollout-schedule-device-list/"
+  }
+ ],
+ "checked": "2026-11-04"
+}

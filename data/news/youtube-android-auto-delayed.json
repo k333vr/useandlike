@@ -1,0 +1,22 @@
+{
+ "slug": "youtube-android-auto-delayed",
+ "date": "2026-11-03",
+ "added": "2026-11-04",
+ "topic": "Video",
+ "tag": "Quick",
+ "head": "YouTube for Android Auto is still \"soon\"",
+ "dek": "Google confirmed at Android Dev Summit that YouTube is coming to Android Auto, but gave no date and there's no beta yet.",
+ "quick": true,
+ "apps": [
+  "YouTube",
+  "Android Auto"
+ ],
+ "item": 32643,
+ "sources": [
+  {
+   "name": "Ubergizmo",
+   "url": "https://www.ubergizmo.com/2026/11/youtube-android-auto-delays/"
+  }
+ ],
+ "checked": "2026-11-04"
+}

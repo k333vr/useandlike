@@ -1,0 +1,21 @@
+{
+ "slug": "fake-adobe-acrobat-pages-remote-access",
+ "date": "2026-11-02",
+ "added": "2026-11-04",
+ "topic": "Security",
+ "tag": "Quick",
+ "head": "Fake Adobe Acrobat pages install remote access software",
+ "dek": "CloudSEK found fake \"View & Sign Form\" pages that give Windows visitors a ScreenConnect client, which can let strangers control the PC; only download Acrobat from Adobe's own site.",
+ "quick": true,
+ "apps": [
+  "Adobe Acrobat Reader"
+ ],
+ "item": 21865,
+ "sources": [
+  {
+   "name": "Hackread",
+   "url": "https://hackread.com/hackers-remote-access-tool-fake-adobe-acrobat-pages/"
+  }
+ ],
+ "checked": "2026-11-04"
+}

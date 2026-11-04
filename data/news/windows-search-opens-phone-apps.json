@@ -1,0 +1,22 @@
+{
+ "slug": "windows-search-opens-phone-apps",
+ "date": "2026-11-02",
+ "added": "2026-11-04",
+ "topic": "Windows",
+ "tag": "Quick",
+ "head": "Windows 11 tests opening Android phone apps from Search",
+ "dek": "In a new Insider preview, typing an app's name in Windows Search opens it on your Android phone and mirrors it through Phone Link, on select Samsung, HONOR, OPPO, ASUS, vivo, Xiaomi, iQOO and Realme phones.",
+ "quick": true,
+ "apps": [
+  "Windows 11",
+  "Phone Link"
+ ],
+ "item": 24045,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/windows-11-search-android-app-actions-3730729/"
+  }
+ ],
+ "checked": "2026-11-04"
+}

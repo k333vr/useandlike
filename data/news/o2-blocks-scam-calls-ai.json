@@ -1,0 +1,26 @@
+{
+ "slug": "o2-blocks-scam-calls-ai",
+ "date": "2026-11-03",
+ "added": "2026-11-04",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "O2 now blocks scam calls with AI for all UK customers",
+ "dek": "O2 has moved from flagging suspected scam calls to blocking them before the first ring, for all customers on compatible devices, at no extra cost. It expects to stop more than 3 million calls a week.",
+ "details": "The AI-based blocking follows a trial earlier this autumn and is switched on automatically across O2's network.",
+ "where": "UK, O2 customers, automatic",
+ "means": "If you're on O2, fewer scam calls should reach your phone, with nothing to set up.",
+ "todo": "Nothing to switch on. Keep reporting scam numbers by text to 7726, as O2 asks.",
+ "rank": 20,
+ "apps": [
+  "O2"
+ ],
+ "item": 28075,
+ "thumb_words": "O2 BLOCKS SCAM CALLS WITH AI",
+ "sources": [
+  {
+   "name": "Express",
+   "url": "https://www.express.co.uk/life-style/science-technology/2262741/o2-spam-protection-update"
+  }
+ ],
+ "checked": "2026-11-04"
+}

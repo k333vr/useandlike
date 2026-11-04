@@ -1,0 +1,21 @@
+{
+ "slug": "pragmatic-eq-headphones-app",
+ "date": "2026-11-03",
+ "added": "2026-11-04",
+ "topic": "Music",
+ "tag": "Quick",
+ "head": "Pragmatic EQ corrects your headphones' sound on iOS 27",
+ "dek": "Pragmatic Audio PEQ ($4.99) applies headphone EQ profiles to music from compatible players through a virtual output in Control Center on iOS 27; it was #53 among paid Music apps on the US App Store on 3 November.",
+ "quick": true,
+ "apps": [
+  "Pragmatic Audio PEQ"
+ ],
+ "item": 32501,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/pragmatic-audio-peq/id6818329288"
+  }
+ ],
+ "checked": "2026-11-04"
+}
