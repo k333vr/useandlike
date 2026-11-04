@@ -53,9 +53,12 @@ tag `New app`, `apps` = the apps' names, `sources` = the category's App Store ch
 `https://apps.apple.com/us/iphone/charts`, Mac `https://apps.apple.com/us/mac/charts`), then each app's page,
 `thumb_words` like `7 NEW PRODUCTIVITY APPS`. Apps that already got a story this week can be in it too.
 
-**Trending searches** (Google Trends candidates: the title is a search term, the snippet its searches and a news
-headline about it): only a hint. When there's app or tech news behind the search, find that article (search the
-headline) and write the story from it; never name Google Trends as a source of a fact.
+**Trending searches and videos** (Kevin, 4 Nov: "write about each uptrending topic an own article and make directly a
+video to it"): Google Trends candidates (US, UK, Canada, Australia, India: the title is a search term, the snippet its
+searches and a news headline about it) and YouTube's trending tech videos (US, UK, India: "Trending on YouTube (US,
+tech) · <channel>") are hints. When there's app or tech news behind one, find that article (search the headline) and
+write the story the same morning, among the first of the day: people search for it right now. Never name Google
+Trends or a YouTube video as the source of a fact; the source is the outlet's article or the company's own page.
 
 **Reddit doesn't open from the cloud** (403; the 2 Nov run skipped its Reddit candidates for that reason). For a Reddit
 post about a new app, use the app's own page as the source instead: its App Store or Google Play listing, or its website
@@ -149,7 +152,8 @@ ahead, like a change that starts next week).
    deserves to lead the front page.
    **How many full stories** (Kevin, 3 Nov 2026: "we try to hit the upload cap daily so we push it"): every full story
    becomes a news video, so write a full story for every candidate with enough confirmed facts for a 20-40 second
-   script; aim for 25-30 a day when the candidates are there (the morning AI marks 50-60 a day as news). Only the thin
+   script; aim for 40-60 a day when the candidates are there (Kevin, 4 Nov: "we cap out youtube upload limit and part
+   time employees"; the morning AI marks about 60 a day as news, plus new chart apps and trends). Only the thin
    ones (a single fact, a minor update) become one-liners. Fill the day in the order of "What comes first": new apps
    and apps climbing the charts first, big apps only with top stories. On Mondays also write the week's roundups
    ("New apps this week" above).
