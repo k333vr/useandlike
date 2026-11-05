@@ -115,7 +115,7 @@ ahead, like a change that starts next week).
 | `topic` | One word: AI, Android, Apple, Google, Social, Messaging, Streaming, Music, Money, Shopping, Travel, Email, Security, Privacy, Cloud, Video, Business ... |
 | `tag` | The small label: `New feature`, `New app`, `Update`, `Heads-up`, `Safety`, `Privacy`, `Price change`, `Shutdown`, `Offer`, `Big news`; `Rumor`, `Leak`, `In testing` for rumors; `Quick` for one-liners. |
 | `category` | Optional: one of the site's categories (e.g. `Cloud Storage`, `Travel`), when the story fits one and the topic doesn't say it already. It picks the how-to videos shown under the story. |
-| `head` | The headline, at most about 70 characters, sentence case, says what changed (`Samsung News shuts down on 21 December`). No question headlines, no clickbait. |
+| `head` | The headline, at most about 70 characters, sentence case, says what changed (`Samsung News shuts down on 21 December`), in the words people search (below). No question headlines, no clickbait. |
 | `dek` | One or two sentences: what happened, for whom, from when. Doesn't repeat the headline's words. |
 | `details` | Optional, up to 4 short sentences: the rest of the facts (prices, limits, who announced it, what's still unknown). |
 | `where` | Short: who gets it and when (`US, rolling out now in Samsung Wallet`). |
@@ -130,6 +130,24 @@ ahead, like a change that starts next week).
 | `item` / `items` | The Studio story id it came from / other Studio ids of the same news (other outlets), so the daily run doesn't write it twice. |
 | `sources` | `[{"name": "9to5Mac", "url": "https://..."}]`: every outlet you took a fact from, the official source first when there is one. |
 | `image`, `thumb`, `video`, `howtos`, `updated` | Optional: our own 2:1 picture and its small version; our news video's YouTube id; video ids for the how-to row; the date of a later correction. |
+
+## Headlines in the words people search (Kevin, 5 Nov 2026: "go")
+
+Google matches a search to the words in a page's title (our `head`) and first lines. So a full story's `head` starts
+with what people type: the app, device or update name, then the words they use for the problem or the change
+("not working", "battery drain", "new feature", "price", "shutting down", "how to ..."). Same facts, neutral words,
+"some owners report" and "may" stay where they belong. Example (5 Nov, the Samsung story already showed on Google's
+page 1): "Some Galaxy phones report Android Auto and battery trouble on One UI 9" became "Android Auto not working
+after One UI 9 update on some Galaxy phones" ("android auto not working after update" and "... samsung" are what
+people type).
+
+- For every full story: `python3 ../useandlike-ops/analysis/search-words.py "<app> <topic>"` (free: Google's and
+  YouTube's suggestions, a second or two) and use the matching words.
+- For the day's top 3 (rank 1-3): add `--volume` once for all of them together (monthly US searches through
+  DataForSEO, about $0.09; the $1-a-day cap in analysis/dataforseo.py counts it) and pick the wording people search most.
+- `thumb_words` stays a short headline for the eye; the `dek`'s first sentence may repeat one search phrase naturally.
+- Measured in Search Console (`python3 ../useandlike-ops/analysis/search-console.py report 28`): pages from 6 Nov on
+  against the pages of 1-5 Nov, after 2-4 weeks (shown, clicks, position).
 
 ## The daily run (routine "Use & Like daily news pages")
 
