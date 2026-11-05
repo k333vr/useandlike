@@ -1,0 +1,26 @@
+{
+ "slug": "youtube-subscriptions-tab-moved",
+ "date": "2026-11-04",
+ "added": "2026-11-05",
+ "topic": "Video",
+ "tag": "Update",
+ "head": "YouTube moves the Subscriptions tab off the bottom bar",
+ "dek": "YouTube's new app design on Android and iPhone takes the Subscriptions tab out of the bottom bar and puts it in a swipe header at the top. Shorts and the Upload button take its place below.",
+ "details": "The update also removes the category filters that let you show only Unwatched, Today or Live videos. Many users on Reddit have complained about the change. Google is rolling out the redesign gradually.",
+ "where": "YouTube app on Android and iPhone, rolling out",
+ "means": "If you open YouTube to watch the channels you follow, they're now at the top of the screen, not in the bottom bar.",
+ "todo": "Look for Subscriptions in the header at the top of the app. On Android, Android Authority says a long press on the YouTube icon gives a shortcut straight to your subscriptions feed.",
+ "rank": 1,
+ "apps": [
+  "YouTube"
+ ],
+ "item": 38065,
+ "thumb_words": "YOUTUBE MOVES SUBSCRIPTIONS TAB",
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/youtube-subscriptions-tab-redesign-3731679/"
+  }
+ ],
+ "checked": "2026-11-05"
+}

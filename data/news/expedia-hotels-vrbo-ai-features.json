@@ -1,0 +1,28 @@
+{
+ "slug": "expedia-hotels-vrbo-ai-features",
+ "date": "2026-11-03",
+ "added": "2026-11-05",
+ "topic": "Travel",
+ "tag": "New feature",
+ "category": "Travel",
+ "head": "Expedia, Hotels.com and Vrbo add more than 30 new features",
+ "dek": "Expedia Group rolled out over 30 features across its three apps, including Expedia's AI Activity Planner, which finds and books activities, restaurants and events around your trip.",
+ "details": "Expedia also adds a Property Expert that answers questions about a hotel, a personal home page, flexible packages and airport perks like Clear Plus discounts and lounge access when flights are delayed. Hotels.com's home page adapts to your trip type, and Vrbo adds a tool for group bookings.",
+ "where": "Expedia, Hotels.com and Vrbo apps",
+ "means": "If you book holiday travel with these apps, you'll find new AI helpers once a trip is booked.",
+ "todo": "Update the apps before your next booking.",
+ "rank": 24,
+ "apps": [
+  "Expedia",
+  "Vrbo"
+ ],
+ "item": 34494,
+ "thumb_words": "EXPEDIA ADDS 30 NEW FEATURES",
+ "sources": [
+  {
+   "name": "CNET",
+   "url": "https://www.cnet.com/tech/services-and-software/expedia-hotels-com-and-vrbo-bring-more-ai-to-the-travel-booking-experience/"
+  }
+ ],
+ "checked": "2026-11-05"
+}

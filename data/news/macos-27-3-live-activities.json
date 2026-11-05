@@ -1,0 +1,21 @@
+{
+ "slug": "macos-27-3-live-activities",
+ "date": "2026-11-04",
+ "added": "2026-11-05",
+ "topic": "Apple",
+ "tag": "Quick",
+ "head": "macOS 27.3 shows Live Activities in the Mac menu bar",
+ "dek": "The macOS 27.3 beta brings Live Activities for apps like Apple Music, Clock and Voice Memos to the menu bar of Macs without a Dynamic Island.",
+ "quick": true,
+ "apps": [
+  "macOS"
+ ],
+ "item": 39065,
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/04/macos-27-3-live-activities-in-menu-bar/"
+  }
+ ],
+ "checked": "2026-11-05"
+}

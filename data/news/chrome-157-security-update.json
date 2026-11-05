@@ -1,0 +1,21 @@
+{
+ "slug": "chrome-157-security-update",
+ "date": "2026-11-04",
+ "added": "2026-11-05",
+ "topic": "Security",
+ "tag": "Quick",
+ "head": "Chrome 157 fixes 213 security flaws",
+ "dek": "Google is rolling out Chrome 157 on Windows, Mac, Linux and Android with 213 security fixes, seven of them critical; update Chrome when it arrives.",
+ "quick": true,
+ "apps": [
+  "Chrome"
+ ],
+ "item": 36216,
+ "sources": [
+  {
+   "name": "PiunikaWeb",
+   "url": "https://piunikaweb.com/2026/11/04/google-chrome-157-stable-security-fixes-update/"
+  }
+ ],
+ "checked": "2026-11-05"
+}

@@ -1,0 +1,27 @@
+{
+ "slug": "gemini-off-for-school-students",
+ "date": "2026-11-03",
+ "added": "2026-11-05",
+ "topic": "AI",
+ "tag": "Update",
+ "head": "Google will switch off Gemini for students until schools opt in",
+ "dek": "Google will turn off Gemini, Gemini Notebook, Gemini in Classroom and Search for K-12 student accounts until a school administrator turns each one on. It will share details and timing with schools in the coming months.",
+ "details": "Google had earlier turned Gemini on for all students by default. Its Guided Learning mode, which explains step by step instead of giving answers, is now available worldwide in Classroom and will be tested in Search at some US schools this month. Schools that want no AI in Search must turn Search off entirely.",
+ "where": "School-managed K-12 student accounts; timing still to come",
+ "means": "If your child uses a school Google account, Gemini may disappear unless the school chooses to keep it.",
+ "todo": "Nothing to do now; ask your child's school what it plans to allow.",
+ "rank": 21,
+ "apps": [
+  "Gemini",
+  "Google Classroom"
+ ],
+ "item": 30779,
+ "thumb_words": "GEMINI OFF FOR SCHOOL KIDS",
+ "sources": [
+  {
+   "name": "The Next Web",
+   "url": "https://thenextweb.com/news/google-guided-learning-classroom-search-k12-ai-off-by-default"
+  }
+ ],
+ "checked": "2026-11-05"
+}

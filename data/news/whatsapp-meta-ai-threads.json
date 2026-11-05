@@ -1,0 +1,21 @@
+{
+ "slug": "whatsapp-meta-ai-threads",
+ "date": "2026-11-04",
+ "added": "2026-11-05",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "head": "WhatsApp adds separate Meta AI chats on Android",
+ "dek": "WhatsApp is rolling out separate, named Meta AI conversations in the chat list on Android, with a new filter to find them.",
+ "quick": true,
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 35415,
+ "sources": [
+  {
+   "name": "WABetaInfo",
+   "url": "https://wabetainfo.com/whatsapp-is-rolling-out-chats-powered-by-meta-ai-on-android/"
+  }
+ ],
+ "checked": "2026-11-05"
+}

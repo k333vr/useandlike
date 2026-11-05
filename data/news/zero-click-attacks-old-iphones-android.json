@@ -1,0 +1,27 @@
+{
+ "slug": "zero-click-attacks-old-iphones-android",
+ "date": "2026-11-04",
+ "added": "2026-11-05",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "Hacked websites attacked out-of-date iPhones and Android phones",
+ "dek": "Security firm Sekoia found websites in the US, Ukraine, the Czech Republic and Bulgaria that silently attacked visitors' phones with known flaws, with no click needed. It links the campaign to the Russian group APT29.",
+ "details": "The attacks targeted iOS 16.7 and iOS 18.5 and Chrome for Android versions 139 to 145, stealing browser cookies, WhatsApp and Telegram data, saved passwords, location and photos. All the flaws used were already known and fixed in newer versions.",
+ "where": "iPhones and Android phones on old software",
+ "means": "If your phone runs an old iOS or Chrome version, visiting the wrong site could be enough to lose data.",
+ "todo": "Update iOS and Chrome to the latest versions; on iPhone, Settings > General > Software Update.",
+ "rank": 13,
+ "apps": [
+  "iPhone",
+  "Chrome"
+ ],
+ "item": 40372,
+ "thumb_words": "OLD PHONES HACKED BY WEBSITES",
+ "sources": [
+  {
+   "name": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/"
+  }
+ ],
+ "checked": "2026-11-05"
+}

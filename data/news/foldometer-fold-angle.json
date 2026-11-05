@@ -1,0 +1,21 @@
+{
+ "slug": "foldometer-fold-angle",
+ "date": "2026-11-03",
+ "added": "2026-11-05",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Foldometer measures the iPhone Duo's fold angle",
+ "dek": "Foldometer ($0.99) shows the exact angle between the iPhone Duo's screens and works as a level on other iPhones; it was #73 among paid Utilities apps on the US App Store on 3 November.",
+ "quick": true,
+ "apps": [
+  "Foldometer"
+ ],
+ "item": 28753,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/foldometer-fold-angle-gauge/id6819503409"
+  }
+ ],
+ "checked": "2026-11-05"
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "reddit-tests-search-ads",
+ "date": "2026-11-03",
+ "added": "2026-11-05",
+ "topic": "Social",
+ "tag": "Quick",
+ "head": "Reddit starts testing ads in search results",
+ "dek": "Reddit is testing ads on its search results pages, shown based on what you search for and other factors.",
+ "quick": true,
+ "apps": [
+  "Reddit"
+ ],
+ "item": 31926,
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/03/reddit-tests-ads-in-search-results-as-traffic-declines-and-growth-concerns-mount/"
+  }
+ ],
+ "checked": "2026-11-05"
+}

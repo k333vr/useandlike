@@ -1,0 +1,21 @@
+{
+ "slug": "wordpress-com-ai-free-november",
+ "date": "2026-11-03",
+ "added": "2026-11-05",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "WordPress.com lets free sites connect ChatGPT or Claude in November",
+ "dek": "Through November, free WordPress.com sites can connect the ChatGPT plugin or Claude connector to post, clear comments and check sites, which normally needs a paid plan.",
+ "quick": true,
+ "apps": [
+  "WordPress"
+ ],
+ "item": 34689,
+ "sources": [
+  {
+   "name": "WordPress.com",
+   "url": "https://wordpress.com/blog/2026/11/03/free-chatgpt-claude/"
+  }
+ ],
+ "checked": "2026-11-05"
+}

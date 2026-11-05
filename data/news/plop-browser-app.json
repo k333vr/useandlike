@@ -1,0 +1,26 @@
+{
+ "slug": "plop-browser-app",
+ "date": "2026-11-04",
+ "added": "2026-11-05",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Plop Browser lets websites fill the whole iPhone screen",
+ "dek": "Plop is a browser that keeps the address bar and buttons hidden until you double-tap or tap with two fingers, so pages fill the screen. It was #49 among paid Utilities apps on the US App Store on 4 November.",
+ "details": "Slide across the address to switch tabs or flick up to see them all. It costs $2.99 with in-app purchases, by Stuck in the Sand.",
+ "where": "iPhone and iPad, App Store, $2.99",
+ "means": "If you want more of each web page on screen, it hides everything else.",
+ "todo": "Find Plop Browser in the App Store.",
+ "rank": 10,
+ "apps": [
+  "Plop Browser"
+ ],
+ "item": 41242,
+ "thumb_words": "FULL-SCREEN WEB BROWSER",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/plop-browser/id6828029805"
+  }
+ ],
+ "checked": "2026-11-05"
+}

@@ -1,0 +1,22 @@
+{
+ "slug": "google-photos-poster-to-calendar",
+ "date": "2026-11-04",
+ "added": "2026-11-05",
+ "topic": "Google",
+ "tag": "Quick",
+ "rumor": true,
+ "head": "Google Photos may add events from photos of posters",
+ "dek": "Android Authority found code in Google Photos 8.0 that lets Ask Photos turn a photo of an event poster into a calendar event; Google hasn't announced it.",
+ "quick": true,
+ "apps": [
+  "Google Photos"
+ ],
+ "item": 37720,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/google-photos-ask-photos-calendar-apk-teardown-3731650/"
+  }
+ ],
+ "checked": "2026-11-05"
+}

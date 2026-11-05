@@ -1,0 +1,21 @@
+{
+ "slug": "whatsapp-suggests-latest-photos",
+ "date": "2026-11-04",
+ "added": "2026-11-05",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "head": "WhatsApp suggests your latest photo when you open a chat",
+ "dek": "Some WhatsApp users on Android and iPhone now see an offer to send the newest photo or video from their gallery when they open a chat.",
+ "quick": true,
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 35843,
+ "sources": [
+  {
+   "name": "GSMArena",
+   "url": "https://www.gsmarena.com/whatsapp_starts_suggesting_your_latest_photos_and_videos_right_in_your_chats-news-75335.php"
+  }
+ ],
+ "checked": "2026-11-05"
+}

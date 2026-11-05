@@ -1,0 +1,23 @@
+{
+ "slug": "bare-shopping-list-app",
+ "date": "2026-11-04",
+ "added": "2026-11-05",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Bare is a shopping list that sorts items by store aisle",
+ "dek": "Bare is a simple shopping list: type an item and it goes into the right store section, like Produce or Dairy, so the list follows your way through the store. It was #22 among paid Productivity apps on the US App Store on 4 November.",
+ "details": "It has no accounts, settings, ads, recipes or prices. It's made by Sindre Sorhus and costs $2 once, with no in-app purchases.",
+ "where": "iPhone, iPad, Apple Watch and Mac, App Store, $2",
+ "means": "If shopping apps feel too busy, this one only does the list.",
+ "todo": "Find Bare in the App Store.",
+ "rank": 5,
+ "item": 41239,
+ "thumb_words": "SHOPPING LIST BY STORE AISLE",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/bare/id6825378510"
+  }
+ ],
+ "checked": "2026-11-05"
+}

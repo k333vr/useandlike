@@ -1,0 +1,26 @@
+{
+ "slug": "pocketbuddy-budget-app",
+ "date": "2026-11-03",
+ "added": "2026-11-05",
+ "topic": "Money",
+ "tag": "New app",
+ "head": "PocketBuddy: budgets and net worth with an AI that knows your numbers",
+ "dek": "PocketBuddy links your bank accounts, cards, loans and brokerages, sorts your spending and tracks net worth, and lets you ask an AI advisor about your real numbers.",
+ "details": "You can import history from Mint or Monarch. Bank access is read-only through Plaid, with no ads or data selling, according to the maker. It costs $9.99 a month or $79 a year, with a 14-day trial and a live demo without an account.",
+ "where": "Web, from the maker's site",
+ "means": "If you want a budget app that answers questions like \"where did my money go?\", this is a new option with a free trial.",
+ "todo": "Try the demo on its site before linking your accounts.",
+ "rank": 25,
+ "apps": [
+  "PocketBuddy"
+ ],
+ "item": 27407,
+ "thumb_words": "AI THAT KNOWS YOUR BUDGET",
+ "sources": [
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/pocketbuddy"
+  }
+ ],
+ "checked": "2026-11-05"
+}

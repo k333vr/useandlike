@@ -1,0 +1,21 @@
+{
+ "slug": "google-photos-memories-music-off",
+ "date": "2026-11-04",
+ "added": "2026-11-05",
+ "topic": "Google",
+ "tag": "Quick",
+ "head": "Google Photos lets you turn off music in Memories",
+ "dek": "A new switch in Google Photos turns off background music for all Memories, including the End of Year Recap; it's rolling out from Google's side.",
+ "quick": true,
+ "apps": [
+  "Google Photos"
+ ],
+ "item": 36022,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/google-photos-memories-background-music-3731437/"
+  }
+ ],
+ "checked": "2026-11-05"
+}

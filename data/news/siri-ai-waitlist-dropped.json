@@ -1,0 +1,26 @@
+{
+ "slug": "siri-ai-waitlist-dropped",
+ "date": "2026-11-04",
+ "added": "2026-11-05",
+ "topic": "Apple",
+ "tag": "Update",
+ "head": "Siri AI no longer needs a waitlist on iOS 27",
+ "dek": "Apple's support page now says turning on Siri AI starts the download right away; a waitlist is used only at times of high demand. Before, everyone joined a waitlist first.",
+ "details": "You switch it on with \"Try Siri AI (Beta)\" in Settings.",
+ "where": "iPhones that support Siri AI on iOS 27",
+ "means": "If you haven't tried Siri AI yet, you should get it straight away in most cases.",
+ "todo": "Open Settings, tap \"Try Siri AI (Beta)\" and wait for the download.",
+ "rank": 12,
+ "apps": [
+  "Siri"
+ ],
+ "item": 39791,
+ "thumb_words": "SIRI AI: NO MORE WAITLIST",
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/04/apple-disables-siri-ai-waitlist-in-ios-27-with-one-exception/"
+  }
+ ],
+ "checked": "2026-11-05"
+}

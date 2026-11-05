@@ -6,8 +6,8 @@
  "tag": "Heads-up",
  "head": "Some Galaxy phones report Android Auto and battery trouble on One UI 9",
  "thumb_words": "ONE UI 9 BUGS REPORTED",
- "dek": "Since Samsung's Android 17-based One UI 9 update started reaching older Galaxy phones, some owners report Android Auto stuttering or not connecting, and others report batteries draining fast. Samsung hasn't confirmed either problem.",
- "details": "9to5Google says the Android Auto reports aren't widespread but show a clear pattern; in one user's test, a Galaxy S24 Ultra on One UI 9 had the problem and a Galaxy S25 Edge on One UI 8.5 didn't. Battery complaints come from Galaxy S24 and S25 owners, including one who says the phone now needs charging three to four times a day; many others see no change. There's no fix yet.",
+ "dek": "Since Samsung's Android 17-based One UI 9 update started reaching older Galaxy phones, some owners report Android Auto stuttering or not connecting, and others report batteries draining fast. Google says a fix for the Android Auto problem is rolling out.",
+ "details": "9to5Google says the Android Auto reports aren't widespread but show a clear pattern; in one user's test, a Galaxy S24 Ultra on One UI 9 had the problem and a Galaxy S25 Edge on One UI 8.5 didn't. Battery complaints come from Galaxy S24 and S25 owners, including one who says the phone now needs charging three to four times a day; many others see no change. Update: Google told Android Authority that a fix for the Android Auto problem is rolling out to affected Android 17 and One UI 9 phones.",
  "where": "Galaxy phones updated to One UI 9",
  "means": "If Android Auto or your battery got worse right after the One UI 9 update, you're not the only one, and it's likely the update.",
  "todo": "Restart the phone and check which apps use the most power under battery settings. A big update can drain more for a few days while the phone finishes background work. Install Samsung's next update when it arrives.",
@@ -18,7 +18,9 @@
  ],
  "item": 23621,
  "items": [
-  21736
+  21736,
+  27056,
+  27423
  ],
  "sources": [
   {
@@ -28,7 +30,12 @@
   {
    "name": "Tech Advisor",
    "url": "https://www.techadvisor.com/article/3270181/samsung-galaxy-phones-hit-with-battery-problems-after-one-ui-9-update.html"
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/android-auto-one-ui-9-fix-3730903/"
   }
  ],
- "checked": "2026-11-03"
+ "checked": "2026-11-03",
+ "updated": "2026-11-05"
 }

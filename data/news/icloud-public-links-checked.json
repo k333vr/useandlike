@@ -1,0 +1,26 @@
+{
+ "slug": "icloud-public-links-checked",
+ "date": "2026-11-04",
+ "added": "2026-11-05",
+ "topic": "Privacy",
+ "tag": "Privacy",
+ "head": "iOS 27.3: Apple will check iCloud public links for harmful content",
+ "dek": "From iOS 27.3, iPadOS, macOS and visionOS 27.3, files and photos you share from iCloud with \"Anyone with the link\" will be checked by Apple for harmful content, a new support document says.",
+ "details": "Items shared only with \"People you choose\" aren't part of the change. If Apple flags shared content, it can move, refuse, remove or delete it, and may block the Apple Account behind it. iOS 27.3 is in beta now and due in December.",
+ "where": "iCloud public links, from version 27.3 (December)",
+ "means": "If you share photos or files with a public iCloud link, Apple will look at what's behind that link.",
+ "todo": "For private sharing, choose \"People you choose\" instead of \"Anyone with the link\".",
+ "rank": 11,
+ "apps": [
+  "iCloud"
+ ],
+ "item": 38390,
+ "thumb_words": "APPLE TO CHECK ICLOUD LINKS",
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/04/with-ios-27-3-apple-will-start-checking-icloud-public-links-for-harmful-content/"
+  }
+ ],
+ "checked": "2026-11-05"
+}

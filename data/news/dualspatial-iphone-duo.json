@@ -1,0 +1,21 @@
+{
+ "slug": "dualspatial-iphone-duo",
+ "date": "2026-11-03",
+ "added": "2026-11-05",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "DualSpatial records 3D video with the iPhone Duo's cameras",
+ "dek": "DualSpatial ($3.99) uses the iPhone Duo's two side-by-side cameras to record spatial photos and video for Apple Vision Pro; it was #60 among paid Photo & Video apps on the US App Store on 3 November.",
+ "quick": true,
+ "apps": [
+  "DualSpatial"
+ ],
+ "item": 32522,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/dualspatial/id6826452879"
+  }
+ ],
+ "checked": "2026-11-05"
+}

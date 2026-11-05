@@ -1,0 +1,23 @@
+{
+ "slug": "mote-weather-dots",
+ "date": "2026-11-03",
+ "added": "2026-11-05",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "mote draws the weather in dots",
+ "dek": "mote shows the sky as a field of dots: clouds, rain and snow in dots, the sun by day and the moon in its real phase at night, and seven days hour by hour. It was #26 among paid Weather apps on the US App Store on 3 November.",
+ "details": "It came out on 2 November and costs $3.99, by Kaleb Hines.",
+ "where": "iPhone and iPad, App Store, $3.99",
+ "means": "If you want a weather app that looks different from the rest, this is a calm one.",
+ "todo": "Find mote in the App Store.",
+ "rank": 30,
+ "item": 30308,
+ "thumb_words": "THE WEATHER IN DOTS",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/mote-weather-in-dots/id6823423927"
+  }
+ ],
+ "checked": "2026-11-05"
+}

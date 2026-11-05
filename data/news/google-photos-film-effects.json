@@ -1,0 +1,22 @@
+{
+ "slug": "google-photos-film-effects",
+ "date": "2026-11-04",
+ "added": "2026-11-05",
+ "topic": "Google",
+ "tag": "Quick",
+ "rumor": true,
+ "head": "Google Photos may add grain and light leak effects",
+ "dek": "Android Authority found four effects in development in Google Photos' editor: Light leaks, Grain, Halation and Noise, each with a slider; Google hasn't announced them.",
+ "quick": true,
+ "apps": [
+  "Google Photos"
+ ],
+ "item": 37087,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/google-photos-image-adjustment-tools-apk-teardown-3731544/"
+  }
+ ],
+ "checked": "2026-11-05"
+}

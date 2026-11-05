@@ -1,0 +1,21 @@
+{
+ "slug": "gemini-home-att-security",
+ "date": "2026-11-04",
+ "added": "2026-11-05",
+ "topic": "Google",
+ "tag": "Quick",
+ "head": "AT&T's home security system now works with Gemini for Home",
+ "dek": "AT&T Connected Life now works with Google Home Premium, so Gemini can summarize home events and search your video history.",
+ "quick": true,
+ "apps": [
+  "Google Home"
+ ],
+ "item": 39789,
+ "sources": [
+  {
+   "name": "The Verge",
+   "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system"
+  }
+ ],
+ "checked": "2026-11-05"
+}

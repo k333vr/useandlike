@@ -1,0 +1,24 @@
+{
+ "slug": "apple-music-selfie-sing",
+ "date": "2026-11-04",
+ "added": "2026-11-05",
+ "topic": "Music",
+ "tag": "Quick",
+ "head": "Apple Music adds Selfie Sing karaoke videos in iOS 27.3",
+ "dek": "In the iOS 27.3 beta, Apple Music's Selfie Sing records you singing with lyrics on screen and mic effects, then lets you save or share the video.",
+ "quick": true,
+ "apps": [
+  "Apple Music"
+ ],
+ "item": 34847,
+ "items": [
+  33314
+ ],
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/03/apple-music-selfie-sing/"
+  }
+ ],
+ "checked": "2026-11-05"
+}

@@ -1,0 +1,30 @@
+{
+ "slug": "chatgpt-animated-gifs",
+ "date": "2026-11-04",
+ "added": "2026-11-05",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "ChatGPT can now make animated GIFs",
+ "dek": "ChatGPT can turn a text prompt or an uploaded photo into an animated GIF, then let you change its speed, edit single frames and share it. It comes with OpenAI's new Images 2.6 model.",
+ "details": "Images 2.6 also makes image generation faster. It's rolling out to all ChatGPT and Codex users on the web, desktop and mobile apps. OpenAI says people now make over 4 billion images a week.",
+ "where": "All ChatGPT users, web, desktop and mobile, rolling out",
+ "means": "If you make reaction GIFs or small animations, ChatGPT can now do it in one step.",
+ "todo": "Update the ChatGPT app and ask it to make a GIF, for example from a photo you upload.",
+ "rank": 3,
+ "apps": [
+  "ChatGPT"
+ ],
+ "item": 38984,
+ "thumb_words": "CHATGPT NOW MAKES GIFS",
+ "sources": [
+  {
+   "name": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6"
+  },
+  {
+   "name": "The Next Web",
+   "url": "https://thenextweb.com/news/chatgpt-animated-gifs-images-2-6-openai"
+  }
+ ],
+ "checked": "2026-11-05"
+}

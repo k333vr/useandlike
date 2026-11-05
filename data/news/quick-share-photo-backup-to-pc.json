@@ -1,0 +1,26 @@
+{
+ "slug": "quick-share-photo-backup-to-pc",
+ "date": "2026-11-03",
+ "added": "2026-11-05",
+ "topic": "Android",
+ "tag": "New feature",
+ "head": "Android can now back up photos to a Windows PC with Quick Share",
+ "dek": "Google's November system update adds automatic backup of photos and videos from an Android phone to a Windows PC through Quick Share, without the cloud. It comes with Google Play services 26.43.",
+ "details": "Based on earlier findings, setup starts in the Quick Share for Windows app, with the phone nearby and both signed in to the same Google Account. Android Authority's earlier teardowns suggested Samsung phones and PCs may not be supported at first; Google's notes don't say.",
+ "where": "Android phones and Windows PCs, rolling out gradually",
+ "means": "If you want your phone's photos copied to your PC at home, you won't need cables or a cloud plan.",
+ "todo": "Update the Quick Share app on your PC and look for automatic backup; it can take a while to reach your phone.",
+ "rank": 22,
+ "apps": [
+  "Google Photos"
+ ],
+ "item": 27542,
+ "thumb_words": "BACK UP PHOTOS TO YOUR PC",
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/quick-share-automatic-photo-backup-windows-google-play-services-3730922/"
+  }
+ ],
+ "checked": "2026-11-05"
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "whatsapp-iphone-ios-15-5-cutoff",
+ "date": "2026-11-04",
+ "added": "2026-11-05",
+ "topic": "Messaging",
+ "tag": "Heads-up",
+ "head": "WhatsApp stops working on iPhones below iOS 15.5 on 30 November",
+ "dek": "From 30 November 2026, WhatsApp and WhatsApp Business need iOS 15.5 or newer. iPhones on iOS 15.0 to 15.4 lose access unless they update, and WhatsApp is sending notifications about it.",
+ "details": "It's a small update: any iPhone that runs iOS 15 can install a newer version, so no new phone is needed. The same applies to iPads on iPadOS older than 15.5.",
+ "where": "iPhone and iPad, from 30 November 2026",
+ "means": "If your iPhone is still on iOS 15.0 to 15.4, WhatsApp will stop working there at the end of the month.",
+ "todo": "Open Settings > General > Software Update and install the latest version available for your iPhone before 30 November.",
+ "rank": 2,
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 39216,
+ "thumb_words": "WHATSAPP CUTS OFF OLD IPHONES",
+ "sources": [
+  {
+   "name": "WABetaInfo",
+   "url": "https://wabetainfo.com/whatsapp-drops-support-for-older-ios-versions-in-november-2026/"
+  }
+ ],
+ "checked": "2026-11-05"
+}

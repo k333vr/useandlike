@@ -1,0 +1,26 @@
+{
+ "slug": "fitness-plus-gym-strength",
+ "date": "2026-11-03",
+ "added": "2026-11-05",
+ "topic": "Apple",
+ "tag": "New feature",
+ "head": "Apple Fitness+ adds Gym Strength plans for weight training",
+ "dek": "Apple Fitness+ is testing Gym Strength, which builds four-week strength plans from your goals, schedule and equipment, and adapts each week to the reps and weight you log. It's in beta with iOS 27.3.",
+ "details": "Workouts take about 20-30 or 45-60 minutes, with video demos from three angles. It has over 350 exercises for more than 30 kinds of equipment; dumbbells are the minimum. An Apple Watch can log reps and weight. It's included in the Fitness+ subscription.",
+ "where": "Fitness+ subscribers, iPhone or iPad on iOS 27.3",
+ "means": "If you pay for Fitness+ and lift weights, you get a plan that changes with your progress.",
+ "todo": "It needs iOS 27.3, due in December; then open Fitness+ and look for Gym Strength.",
+ "rank": 23,
+ "apps": [
+  "Apple Fitness"
+ ],
+ "item": 31890,
+ "thumb_words": "FITNESS+ GETS GYM PLANS",
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/03/apple-announces-fitness-gym-strength-program-with-personalized-workout-plans/"
+  }
+ ],
+ "checked": "2026-11-05"
+}

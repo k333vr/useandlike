@@ -1,0 +1,21 @@
+{
+ "slug": "google-maps-iphone-duo",
+ "date": "2026-11-04",
+ "added": "2026-11-05",
+ "topic": "Apple",
+ "tag": "Quick",
+ "head": "Google Maps now fills both iPhone Duo screens",
+ "dek": "Google Maps version 26.44.4 now uses all of the iPhone Duo's inner and outer screens, without the black border it had before.",
+ "quick": true,
+ "apps": [
+  "Google Maps"
+ ],
+ "item": 37402,
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/04/latest-google-maps-update-iphone-duo-support/"
+  }
+ ],
+ "checked": "2026-11-05"
+}
