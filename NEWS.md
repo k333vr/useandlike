@@ -237,6 +237,10 @@ time or all in one session). Kevin strikes the ones he doesn't want. A script sh
   (about 1-1.5 minutes: explainers, write B toward 180-230 words), and the lead plus one or two big stories as a long `B`
   (2-3 minutes, up to about 400 words, only when the facts carry it). Spread them through the list, not by rank
   alone, so two short ones rarely come in a row. She can still switch versions on the story's page.
+- **Now and then a long one** (Kevin, 6 Nov: "some rare very long ones like 2-8 minutes ... just to see how they go"): about
+  one or two a day, not every day, when a story truly carries it (the week's new apps one by one, every new feature of a
+  big update, a change with several steps to follow): add a 4th version `L`, 250-1,300 words (2-8 minutes), built only
+  from checked facts (read more of the sources for more facts, never padding), and set `chosen` to `L`.
 - **Spoken English:** short sentences (most under 15 words), contractions (it's, you'll), no brackets, no
   abbreviations ("for example", not "e.g."), numbers the way people say them ("13 dollars a month", "two terabytes",
   "November 13th"), no web addresses.

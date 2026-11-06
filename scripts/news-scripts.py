@@ -10,6 +10,7 @@ scripts.useandlike.com (see NEWS.md, "Scripts for the presenter").
      "head": "<the story's headline>", "facts": ["<checked fact>", ...], "sources": [{"name": "...", "url": "https://..."}],
      "versions": [{"label": "A", "text": "..."}, {"label": "B", "text": "..."}, {"label": "C", "text": "..."}],
      "chosen": "B",   # the version her teleprompter reads by default (NEWS.md: big stories B, small ones C, the rest A)
+     # a rare long one adds a 4th version {"label": "L", "text": "..."} (250-1,300 words, 2-8 minutes) and "chosen": "L"
      "takes": ["<a one-line reaction she can pick>", ...], "points": ["<3-6 key points, a few words each>", ...],
      "title": "<YouTube title>", "description": "<YouTube description>",
      "pinned": "<one short question for the pinned comment, e.g. Would you lock your chats with a PIN?>"}
@@ -68,9 +69,10 @@ def problems(s, slugs):
     for x in v:
         t = str(x.get("text", ""))
         n = words(t)
-        most = 450 if x.get("label") == "B" else 300   # Kevin, 6 Nov: a big story may run 2-3 minutes
-        if n < 40 or n > most:
-            out.append("version %s has %d words (40-%d)" % (x.get("label", "?"), n, most))
+        # Kevin, 6 Nov: a big story may run 2-3 minutes (B), and now and then a long one 2-8 minutes (an extra version L)
+        least, most = (250, 1300) if x.get("label") == "L" else (40, 450 if x.get("label") == "B" else 300)
+        if n < least or n > most:
+            out.append("version %s has %d words (%d-%d)" % (x.get("label", "?"), n, least, most))
         if CTA.search(t):
             out.append('version %s says "%s": no spoken call to action or web address (the end card shows them)'
                        % (x.get("label", "?"), CTA.search(t).group(0)))
