@@ -186,12 +186,16 @@ people type).
    offers our partner brands list, from the Studio's deal tracker, for the "More offers from our partners" part of
    /deals/; it leaves out old, seasonal and non-offers by itself). Then the checked deals at the top of /deals/ (Kevin,
    6 Nov: "do we not check all our affiliates daily 24/7 so we catch all deals so we can update them"):
-   `python3 scripts/news-intake.py deals` lists each one with its age and what the Studio's tracker read on the brand's
-   page in the last 2 days; for every deal marked "due" (checked 6+ days ago, or the brand's page shows other
-   percentages), open the brand's own page (WebFetch; for a site that refuses, such as nordvpn.com/pricing, a real
-   browser: Playwright's chromium is installed), then in data/deals.json update `offer`, `big`, `detail` to what the
-   page says and set `checked` to today, or take the deal out when it ended. Never take a number from a Yazing listing
-   or a news site for these. Then `node scripts/story-pictures.js` (every run:
+   `python3 scripts/news-intake.py deals` lists them under "checked" with their age and what the Studio's tracker read
+   on the brand's page in the last 2 days. Every morning confirm each one marked "due" (all not checked today) on the
+   brand's own page (WebFetch; for a site that refuses, such as nordvpn.com/pricing, a real browser: Playwright's
+   chromium is installed), then in data/deals.json update `offer`, `big`, `detail` to what the page says and set
+   `checked` to today, or take the deal out when it ended. Under "new" it lists sales the tracker saw on a partner
+   brand's own page that the deals page doesn't have yet: open that page and add the real ones (a sale or a clear
+   discount with a price you can state, in the same shape: `slug` = our short link, `brand`, `big`, `offer`, `detail`,
+   `checked` = today, `ends` when the page says), each with its icon `img/deals/<slug>.webp` (96x96, the brand's own app
+   icon: resize `img/apps/<slug>.webp` if there is one, else the brand's App Store or site icon); skip anything unclear.
+   Never take a number from a Yazing listing or a news site for these. Then `node scripts/story-pictures.js` (every run:
    draws the pictures of new or changed stories in a few seconds into img/stories/: the share picture people see when
    a story is shared, the picture on the story page and the front page, the small one in lists; Kevin, 2 Nov: "that's
    how it should also look on the website"). Then

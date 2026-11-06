@@ -164,11 +164,40 @@ def deals():
         theirs = set(re.findall(r"\d+%", " ".join(t for s, t in seen if s == "site")))
         changed = bool(ours and theirs and not ours & theirs)
         out.append({"slug": x["slug"], "brand": x.get("brand"), "offer": x.get("offer"), "checked": x.get("checked"),
-                    "days": age, "due": age >= 6 or changed, "changed": changed,
+                    "days": age, "due": age >= 1 or changed, "changed": changed,   # every day (Kevin: "update all deals daily")
                     "tracker": ["%s: %s" % (s, t) for s, t in seen[:6]]})
-    print(json.dumps(out, ensure_ascii=False, indent=1))
+    # Sales the tracker saw on a partner brand's own page that the deals page doesn't have yet (6 Nov: Blort, GigSky,
+    # CapCut's Black Friday ...): the run confirms them there and adds the real ones. The same brands as the partner
+    # offers: our short link, never FlexOffers (How To Rocket only), direct-link brands or paused links.
+    links = json.load(open(os.path.join(ROOT, "data", "short-links.json"), encoding="utf-8"))
+    slugs, have = redirect_slugs(), {x["slug"] for x in d.get("deals", [])}
+    have |= {s.split("-")[0] for s in have}
+    sale = re.compile(r"\b[1-9]\d?% off\b|black friday|cyber monday|\bsale\b", re.I)
+    found = {}
+    for r in query("""SELECT d.slug, p.name, p.site, d.text FROM deals d JOIN deal_programs p ON p.slug = d.slug
+            WHERE d.source = 'site' AND d.gone IS NULL AND p.active = 1 AND d.last_seen >= datetime('now', '-2 days')"""):
+        link = links.get(r["slug"]) or {}
+        if (r["slug"] in have or r["slug"] not in slugs or link.get("only") or link.get("direct") or link.get("paused")
+                or "flexoffers" in str(link.get("source", "")).lower() or link.get("source") == "Left Yazing"
+                or not sale.search(r["text"] or "")):
+            continue
+        f = found.setdefault(r["slug"], {"slug": r["slug"], "brand": r["name"], "page": r["site"], "lines": []})
+        if len(f["lines"]) < 5:
+            f["lines"].append((r["text"] or "")[:200])
+    new = sorted(found.values(), key=lambda f: f["slug"])
+    print(json.dumps({"checked": out, "new": new}, ensure_ascii=False, indent=1))
     due = [x["brand"] for x in out if x["due"]]
-    print("%d checked deals; due today: %s." % (len(out), ", ".join(due) or "none"), file=sys.stderr)
+    print("%d checked deals, to confirm today: %s. New sales on brands' own pages: %s."
+          % (len(out), ", ".join(due) or "none", ", ".join(f["brand"] for f in new) or "none"), file=sys.stderr)
+
+
+def redirect_slugs():
+    out = set()
+    for line in open(os.path.join(ROOT, "_redirects"), encoding="utf-8"):
+        parts = line.split()
+        if len(parts) >= 2 and parts[0].startswith("/") and not line.lstrip().startswith("#"):
+            out.add(parts[0][1:])
+    return out
 
 
 if __name__ == "__main__":
