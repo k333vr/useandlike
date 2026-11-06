@@ -1,0 +1,21 @@
+{
+ "slug": "perplexity-teammates-agents",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Perplexity launches Teammates, always-on AI agents for work",
+ "dek": "Perplexity's new Teammates are always-on AI agents that take on tasks inside a workspace, like OpenAI's Dots and Claude Duet.",
+ "quick": true,
+ "apps": [
+  "Perplexity"
+ ],
+ "item": 47224,
+ "sources": [
+  {
+   "name": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
+  }
+ ],
+ "checked": "2026-11-06"
+}

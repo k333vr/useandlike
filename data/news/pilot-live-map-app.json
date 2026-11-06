@@ -1,0 +1,26 @@
+{
+ "slug": "pilot-live-map-app",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Pilot Live Map: tap a plane overhead to see where it's going",
+ "dek": "Pilot is a live map of planes, nearby emergency incidents from official services and space stations, worldwide; spot a plane and look it up with a tap. It was #56 among paid Travel apps on the US App Store on 5 November.",
+ "details": "Aircraft positions update every 10 seconds. It costs $0.29 with in-app purchases, by Joseph Schubert.",
+ "where": "iPhone and iPad, App Store, $0.29",
+ "means": "If you like knowing which plane is flying over you, this does it for under a dollar.",
+ "todo": "Find Pilot Live Map in the App Store.",
+ "rank": 13,
+ "apps": [
+  "Pilot Live Map"
+ ],
+ "item": 48299,
+ "thumb_words": "IDENTIFY ANY PLANE OVERHEAD",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/pilot-live-map/id6811035364"
+  }
+ ],
+ "checked": "2026-11-06"
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "waymo-standalone-app-2028",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "Travel",
+ "tag": "Quick",
+ "head": "Waymo will leave Uber in Austin and Atlanta in 2028",
+ "dek": "Waymo's partnership with Uber in Austin and Atlanta ends in January 2028; rides will then be booked in Waymo's own app.",
+ "quick": true,
+ "apps": [
+  "Waymo"
+ ],
+ "item": 46843,
+ "sources": [
+  {
+   "name": "Ubergizmo",
+   "url": "https://www.ubergizmo.com/2026/11/waymo-end-uber-partnership/"
+  }
+ ],
+ "checked": "2026-11-06"
+}

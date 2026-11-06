@@ -1,0 +1,22 @@
+{
+ "slug": "youtube-tamba-social-app-code",
+ "date": "2026-11-04",
+ "added": "2026-11-06",
+ "topic": "Video",
+ "tag": "Quick",
+ "rumor": true,
+ "head": "YouTube may be working on a social app called Tamba",
+ "dek": "Android Authority found references to a separate YouTube app called Tamba, with logos and 38 icons, in YouTube's Android app; Google hasn't announced it.",
+ "quick": true,
+ "apps": [
+  "YouTube"
+ ],
+ "item": 35416,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/youtube-tamba-sandbox-social-app-apk-teardown-3731409/"
+  }
+ ],
+ "checked": "2026-11-06"
+}

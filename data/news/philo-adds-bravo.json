@@ -1,0 +1,21 @@
+{
+ "slug": "philo-adds-bravo",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "Streaming",
+ "tag": "Quick",
+ "head": "Philo adds Bravo to its channel lineup",
+ "dek": "Philo subscribers now get NBCUniversal's Bravo, with shows like The Real Housewives and Below Deck.",
+ "quick": true,
+ "apps": [
+  "Philo"
+ ],
+ "item": 45903,
+ "sources": [
+  {
+   "name": "Cord Cutters News",
+   "url": "https://cordcuttersnews.com/philo-is-adding-a-new-channel-to-its-affordable-streaming-lineup/"
+  }
+ ],
+ "checked": "2026-11-06"
+}

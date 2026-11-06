@@ -1,0 +1,26 @@
+{
+ "slug": "weather-actually-app",
+ "date": "2026-11-04",
+ "added": "2026-11-06",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Weather, Actually gives you the forecast in plain words",
+ "dek": "Weather, Actually explains the forecast in plain words, with three detail levels from \"Super basic\" to \"Nerd\", and shows your state's weather in 3D. It was #36 among paid Weather apps on the US App Store on 4 November.",
+ "details": "No ads. It costs $2.99, by Walker Tracy.",
+ "where": "iPhone and iPad, App Store, $2.99",
+ "means": "If weather apps feel cluttered, this one tells you what to expect in a sentence.",
+ "todo": "Find Weather, Actually in the App Store.",
+ "rank": 15,
+ "apps": [
+  "Weather, Actually"
+ ],
+ "item": 41277,
+ "thumb_words": "WEATHER IN PLAIN WORDS",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/weather-actually/id6821685460"
+  }
+ ],
+ "checked": "2026-11-06"
+}

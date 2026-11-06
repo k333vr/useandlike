@@ -1,0 +1,27 @@
+{
+ "slug": "cleanmymac-gmail-cleanup",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "Email",
+ "tag": "New feature",
+ "head": "CleanMyMac can now clean up your Gmail inbox and Chrome tabs",
+ "dek": "MacPaw added Email Cleanup and Browser Care to CleanMyMac: delete Gmail mail in batches by sender, category, year or size and unsubscribe from several lists at once, and see which Chrome tabs use the most memory.",
+ "details": "It shows how much Google storage you can win back. Deleted mail stays in Gmail's Trash for 30 days, but drafts are deleted for good. It uses your Google sign-in, which you can disconnect. Both features are free for existing CleanMyMac customers.",
+ "where": "Mac, CleanMyMac customers",
+ "means": "If your Gmail storage is nearly full, you can clear old promo mail in a few clicks.",
+ "todo": "Update CleanMyMac and look for Email Cleanup; check before deleting drafts.",
+ "rank": 9,
+ "apps": [
+  "CleanMyMac",
+  "Gmail"
+ ],
+ "item": 44776,
+ "thumb_words": "CLEAN YOUR GMAIL IN CLICKS",
+ "sources": [
+  {
+   "name": "Digital Trends",
+   "url": "https://www.digitaltrends.com/computing/cleanmymac-adds-gmail-cleanup-and-chrome-tab-management/"
+  }
+ ],
+ "checked": "2026-11-06"
+}

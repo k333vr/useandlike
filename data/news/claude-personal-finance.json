@@ -1,0 +1,26 @@
+{
+ "slug": "claude-personal-finance",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "Money",
+ "tag": "New feature",
+ "head": "Claude Personal Finance: connect your bank and ask where your money went",
+ "dek": "Anthropic's Claude has a new Personal Finance tool: you connect bank and credit card accounts through Plaid and ask questions about your spending. Access is read-only, so Claude can't move your money.",
+ "details": "Claude sorts spending by category, flags duplicate charges, unexpected fees and rising bills, and explains terms like APR with your own numbers. Anthropic says it shows no ads or sponsored offers and sells no cards or loans. ChatGPT added similar tools in May.",
+ "where": "Claude",
+ "means": "If you use Claude, you can get a plain-language look at your spending from your real accounts.",
+ "todo": "Connect only the accounts you want it to see, and remember it reads data; it doesn't change anything.",
+ "rank": 4,
+ "apps": [
+  "Claude"
+ ],
+ "item": 45879,
+ "thumb_words": "CLAUDE NOW TRACKS YOUR SPENDING",
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/"
+  }
+ ],
+ "checked": "2026-11-06"
+}

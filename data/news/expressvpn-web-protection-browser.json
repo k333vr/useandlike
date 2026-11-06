@@ -1,0 +1,21 @@
+{
+ "slug": "expressvpn-web-protection-browser",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "Security",
+ "tag": "Quick",
+ "head": "ExpressVPN's browser extension now blocks scam sites",
+ "dek": "ExpressVPN added Web Protection to its browser extension, blocking known phishing and scam sites even when the VPN is off, at no extra cost on Basic, Advanced and Pro plans.",
+ "quick": true,
+ "apps": [
+  "ExpressVPN"
+ ],
+ "item": 47116,
+ "sources": [
+  {
+   "name": "IT Brief",
+   "url": "https://itbrief.co.nz/story/expressvpn-adds-browser-web-protection-against-scams"
+  }
+ ],
+ "checked": "2026-11-06"
+}

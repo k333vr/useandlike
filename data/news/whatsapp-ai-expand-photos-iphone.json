@@ -1,0 +1,21 @@
+{
+ "slug": "whatsapp-ai-expand-photos-iphone",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "head": "WhatsApp on iPhone can expand photos with Meta AI",
+ "dek": "WhatsApp is rolling out a Meta AI tool in the drawing editor on iOS that expands a photo to a 9:16 format before you share it.",
+ "quick": true,
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 43806,
+ "sources": [
+  {
+   "name": "WABetaInfo",
+   "url": "https://wabetainfo.com/whatsapp-is-rolling-out-a-feature-to-expand-images-on-ios/"
+  }
+ ],
+ "checked": "2026-11-06"
+}

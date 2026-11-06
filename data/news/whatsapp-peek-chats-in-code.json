@@ -1,0 +1,22 @@
+{
+ "slug": "whatsapp-peek-chats-in-code",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "rumor": true,
+ "head": "WhatsApp may let you peek at chats without blue ticks",
+ "dek": "WhatsApp's Android beta code shows a long-press preview that lets you read recent messages without sending read receipts; it's not out yet.",
+ "quick": true,
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 43192,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/whatsapp-peek-chat-previews-android-apk-teardown-3731903/"
+  }
+ ],
+ "checked": "2026-11-06"
+}

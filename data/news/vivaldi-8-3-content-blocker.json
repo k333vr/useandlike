@@ -1,0 +1,21 @@
+{
+ "slug": "vivaldi-8-3-content-blocker",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Vivaldi 8.3 adds four levels of content blocking",
+ "dek": "Vivaldi 8.3 for desktop, Android and iPhone rebuilds its blocker with Off, Light, Strong and Aggressive levels and restyles vertical tabs.",
+ "quick": true,
+ "apps": [
+  "Vivaldi"
+ ],
+ "item": 43809,
+ "sources": [
+  {
+   "name": "PiunikaWeb",
+   "url": "https://piunikaweb.com/2026/11/05/vivaldi-8-3-update-whats-new/"
+  }
+ ],
+ "checked": "2026-11-06"
+}

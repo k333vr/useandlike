@@ -1,0 +1,21 @@
+{
+ "slug": "apple-creator-studio-ai-update",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "Apple",
+ "tag": "Quick",
+ "head": "Apple Creator Studio's AI update is now rolling out",
+ "dek": "Apple's Creator Studio apps are getting the new AI features announced last month, using Apple Intelligence and OpenAI models, free for existing subscribers.",
+ "quick": true,
+ "apps": [
+  "Final Cut Pro"
+ ],
+ "item": 45246,
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/05/apple-creator-studio-gets-powerful-new-ai-features-using-openai-models/"
+  }
+ ],
+ "checked": "2026-11-06"
+}

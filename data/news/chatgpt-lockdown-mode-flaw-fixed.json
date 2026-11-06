@@ -1,0 +1,21 @@
+{
+ "slug": "chatgpt-lockdown-mode-flaw-fixed",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "Security",
+ "tag": "Quick",
+ "head": "Researchers got past ChatGPT's Lockdown Mode; OpenAI fixed it",
+ "dek": "Researchers showed a now-fixed flaw that could silently leak chats despite ChatGPT's optional Lockdown Mode.",
+ "quick": true,
+ "apps": [
+  "ChatGPT"
+ ],
+ "item": 46961,
+ "sources": [
+  {
+   "name": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html"
+  }
+ ],
+ "checked": "2026-11-06"
+}

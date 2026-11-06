@@ -1,0 +1,27 @@
+{
+ "slug": "amazon-prime-uber-eats-free-delivery",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "Shopping",
+ "tag": "New feature",
+ "head": "Amazon Prime adds Uber Eats: free delivery on food orders over $25",
+ "dek": "Amazon Prime members in the US can now order restaurant takeout from Uber Eats inside the Amazon app or website, with no delivery fee on orders of $25 or more. No Uber account is needed.",
+ "details": "You pay with your Amazon payment methods; Amazon handles the order and delivery alerts, and Uber Eats sends the receipt. Uber Eats becomes the official restaurant delivery partner for Prime in the US.",
+ "where": "US, Prime members, Amazon app and website",
+ "means": "If you have Prime, you can order takeout without another app or account, and skip the delivery fee on bigger orders.",
+ "todo": "Look for restaurant delivery in the Amazon app. Check the total, since other fees and the menu prices still apply.",
+ "rank": 1,
+ "apps": [
+  "Amazon",
+  "Uber Eats"
+ ],
+ "item": 43792,
+ "thumb_words": "PRIME GETS UBER EATS DELIVERY",
+ "sources": [
+  {
+   "name": "The Verge",
+   "url": "https://www.theverge.com/tech/1026716/amazon-uber-eats-prime-restaurant-delivery-partnership"
+  }
+ ],
+ "checked": "2026-11-06"
+}

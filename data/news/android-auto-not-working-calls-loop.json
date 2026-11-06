@@ -1,0 +1,26 @@
+{
+ "slug": "android-auto-not-working-calls-loop",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "Android",
+ "tag": "Heads-up",
+ "head": "Android Auto not working for calls: it keeps asking who to call",
+ "dek": "Some Pixel and Galaxy owners say Android Auto keeps asking \"Who do you want to call?\" even after they say a contact's name, for calls and texts. Reports go back to early October.",
+ "details": "Affected phones include the Pixel 10 and 10 Pro and the Galaxy S24, S25 Ultra and S26. The right name often shows on screen, but the call isn't placed. Google's Android Auto team is collecting details from users; there's no known cause or fix yet.",
+ "where": "Android Auto on some Pixel and Galaxy phones",
+ "means": "If voice calling by name fails in your car, it's a known problem, not your phone.",
+ "todo": "Some users say speaking the phone number works when the name doesn't. You can add your details to Google's Android Auto support thread to help the team.",
+ "rank": 2,
+ "apps": [
+  "Android Auto"
+ ],
+ "item": 43545,
+ "thumb_words": "ANDROID AUTO CALLING BUG",
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/android-auto-calling-texting-contacts-bug-3731922/"
+  }
+ ],
+ "checked": "2026-11-06"
+}

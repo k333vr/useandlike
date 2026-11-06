@@ -1,0 +1,21 @@
+{
+ "slug": "whatsapp-event-invites-link",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "head": "WhatsApp lets you invite people to events with a link",
+ "dek": "WhatsApp is rolling out event invite links that work for people without the app, and an Events Home to manage your RSVPs.",
+ "quick": true,
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 45242,
+ "sources": [
+  {
+   "name": "The Verge",
+   "url": "https://www.theverge.com/tech/1027412/whatsapp-events-invite-outside-app"
+  }
+ ],
+ "checked": "2026-11-06"
+}

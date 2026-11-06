@@ -1,0 +1,27 @@
+{
+ "slug": "spotify-united-airlines-seatback",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "Music",
+ "tag": "New feature",
+ "category": "Travel",
+ "head": "Spotify comes to United Airlines seatback screens with Starlink",
+ "dek": "United Airlines is rolling out a Spotify app on its seatback screens, where you sign in to your own account and stream your playlists and podcasts in flight over Starlink Wi-Fi.",
+ "details": "Starlink Wi-Fi is being installed across United's fleet, which makes live streaming possible instead of music stored on the plane.",
+ "where": "United Airlines flights with Starlink Wi-Fi, rolling out",
+ "means": "If you fly United, your own Spotify library can play on the seat screen.",
+ "todo": "Have your Spotify login handy for your next United flight.",
+ "rank": 10,
+ "apps": [
+  "Spotify"
+ ],
+ "item": 44564,
+ "thumb_words": "SPOTIFY ON UNITED SEAT SCREENS",
+ "sources": [
+  {
+   "name": "The Verge",
+   "url": "https://www.theverge.com/transportation/1026472/united-seatback-spotify-app-starlink-wifi"
+  }
+ ],
+ "checked": "2026-11-06"
+}

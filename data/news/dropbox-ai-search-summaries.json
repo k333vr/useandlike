@@ -1,0 +1,21 @@
+{
+ "slug": "dropbox-ai-search-summaries",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "Cloud",
+ "tag": "Quick",
+ "head": "Dropbox adds AI to search, summarize and compare your files",
+ "dek": "Dropbox can now search your documents, summarize project folders, compare older file versions and draft new content from your files.",
+ "quick": true,
+ "apps": [
+  "Dropbox"
+ ],
+ "item": 46175,
+ "sources": [
+  {
+   "name": "iPhone in Canada",
+   "url": "https://www.iphoneincanada.ca/2026/11/05/this-dropbox-ai-upgrade-will-change-how-you-work-with-files/"
+  }
+ ],
+ "checked": "2026-11-06"
+}

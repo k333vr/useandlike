@@ -1,0 +1,26 @@
+{
+ "slug": "one-ui-9-wifi-not-working",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "Android",
+ "tag": "Heads-up",
+ "head": "Wi-Fi and mobile data not working after One UI 9 update on some Galaxy phones",
+ "dek": "Some Galaxy owners report Wi-Fi that keeps disconnecting, mobile data that won't connect, or a SIM card that isn't detected after the One UI 9 update. Samsung hasn't announced a fix.",
+ "details": "Restarting or switching airplane mode on and off helps for a while. Some phones can't join 5 GHz Wi-Fi or one specific network, and one Galaxy Z Fold 7 owner lost Wi-Fi calling on T-Mobile. One user fixed it by turning off Wi-Fi 7 Mode under Developer options > Connectivity Labs, but others don't have that option.",
+ "where": "Galaxy phones updated to One UI 9",
+ "means": "If your Galaxy lost its connection after the update, you're not alone, and the update is the likely cause.",
+ "todo": "Restart the phone or toggle airplane mode to get back online; install Samsung's next update when it arrives.",
+ "rank": 3,
+ "apps": [
+  "Samsung"
+ ],
+ "item": 43191,
+ "thumb_words": "ONE UI 9 BREAKS WI-FI FOR SOME",
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/one-ui-9-wi-fi-mobile-data-sim-issues-galaxy-users-3731894/"
+  }
+ ],
+ "checked": "2026-11-06"
+}

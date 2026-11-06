@@ -1,0 +1,21 @@
+{
+ "slug": "youtube-android-floating-nav-bar",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "Video",
+ "tag": "Quick",
+ "head": "YouTube tests a see-through floating bar on Android",
+ "dek": "Some YouTube users on Android see a new translucent, floating navigation bar; Google is switching it on from its side.",
+ "quick": true,
+ "apps": [
+  "YouTube"
+ ],
+ "item": 43541,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/youtube-android-floating-navigation-bar-liquid-glass-3731948/"
+  }
+ ],
+ "checked": "2026-11-06"
+}

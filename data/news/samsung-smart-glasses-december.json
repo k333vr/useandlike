@@ -4,22 +4,27 @@
  "added": "2026-11-04",
  "topic": "Android",
  "tag": "Quick",
- "rumor": true,
- "head": "Samsung's smart glasses reportedly launch in mid-December",
- "dek": "According to ChoSun Biz, Samsung's Android XR Intelligent Eyewear launches in the US and South Korea in mid-December; there's no price yet.",
+ "head": "Samsung's Android XR smart glasses: pre-orders open 12 November",
+ "dek": "Samsung and Google's audio-based Android XR smart glasses, with Warby Parker and Gentle Monster frames, open for pre-order on 12 November; price and shipping dates aren't out yet.",
  "quick": true,
  "apps": [
   "Samsung"
  ],
  "item": 23134,
  "items": [
-  28778
+  28778,
+  45898
  ],
  "sources": [
   {
    "name": "9to5Google",
    "url": "https://9to5google.com/2026/11/02/samsungs-android-xr-intelligent-eyewear-reportedly-launches-in-december/"
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-smart-glasses-pre-orders-3732159/"
   }
  ],
- "checked": "2026-11-04"
+ "checked": "2026-11-04",
+ "updated": "2026-11-06"
 }

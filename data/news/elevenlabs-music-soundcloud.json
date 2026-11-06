@@ -1,0 +1,21 @@
+{
+ "slug": "elevenlabs-music-soundcloud",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "Music",
+ "tag": "Quick",
+ "head": "ElevenLabs lets you publish AI songs straight to SoundCloud",
+ "dek": "Songs made with ElevenMusic can now be published directly on SoundCloud, and SoundCloud Artist Pro users get three months of ElevenMusic Pro.",
+ "quick": true,
+ "apps": [
+  "SoundCloud"
+ ],
+ "item": 45263,
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/05/elevenlabs-now-lets-users-publish-ai-generated-music-directly-on-soundcloud/"
+  }
+ ],
+ "checked": "2026-11-06"
+}

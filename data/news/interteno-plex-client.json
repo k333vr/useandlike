@@ -1,0 +1,26 @@
+{
+ "slug": "interteno-plex-client",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Interteno is a new Plex player for iPhone, iPad and Apple Watch",
+ "dek": "Interteno is an app for your own Plex media server that combines Plex video and Plexamp-style music, with an Apple Watch app, CarPlay and widgets. It was #90 among paid Entertainment apps on the US App Store on 5 November.",
+ "details": "It also plays films and TV from tofa. It costs $2.99 with in-app purchases, by David Bryce.",
+ "where": "iPhone, iPad and Apple Watch, App Store, $2.99",
+ "means": "If you run a Plex server, it puts movies and music in one native app.",
+ "todo": "Find Interteno in the App Store; you need your own Plex server.",
+ "rank": 18,
+ "apps": [
+  "Interteno"
+ ],
+ "item": 48309,
+ "thumb_words": "ONE APP FOR YOUR PLEX",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/interteno/id6787506017"
+  }
+ ],
+ "checked": "2026-11-06"
+}

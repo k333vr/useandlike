@@ -1,0 +1,27 @@
+{
+ "slug": "lyft-go-subscription-dashpass",
+ "date": "2026-11-05",
+ "added": "2026-11-06",
+ "topic": "Money",
+ "tag": "Price change",
+ "head": "Lyft Go replaces Lyft Pink: $9.99 a month with DoorDash DashPass",
+ "dek": "Lyft's new Lyft Go subscription costs $9.99 a month or $96 a year, includes DoorDash's DashPass, and gives 8% of each ride back as credits, up to $40 a month. It launched in the US on 5 November with a one-month free trial.",
+ "details": "DashPass members can link their DoorDash account and get Lyft Go at no extra cost. It also includes three \"relaxed cancellations\" a month and free returns of lost items. Lyft Go Core costs $5 a month without DashPass, with 5% back up to $20.",
+ "where": "US, Lyft app",
+ "means": "If you use both Lyft and DoorDash, one subscription now covers both, and DashPass members get Lyft Go free.",
+ "todo": "DashPass members: link your DoorDash account in the Lyft app. Others can try it free for a month; cancel before the trial ends if you don't want it.",
+ "rank": 5,
+ "apps": [
+  "Lyft",
+  "DoorDash"
+ ],
+ "item": 44582,
+ "thumb_words": "LYFT GO: RIDES PLUS DASHPASS",
+ "sources": [
+  {
+   "name": "Engadget",
+   "url": "https://www.engadget.com/2307946/lyfts-new-subscription-bundles-in-doordashs-dashpass-for-dollar10-per-month/"
+  }
+ ],
+ "checked": "2026-11-06"
+}
