@@ -199,6 +199,15 @@ people type).
 8. End with one line: how many full stories and one-liners went up (headlines of the top 3), how many scripts, how many candidates were
    already covered or skipped. A day without new stories is fine: say so and push nothing.
 
+## Instant scripts (the Studio writes them when her list runs low)
+
+Kevin, 6 Nov 2026: "she always gets at least one new story when she is recording the last one or the second last one".
+When 2 or fewer stories are left on her page, the Studio writes the next 3 itself in about 20 seconds (from the best
+candidates without a script, the article's own text only; Claude Opus 5.5 or Gemini, the `writer` column says which),
+marked `origin = 'instant'`, with no website story yet. They stay in `todo` like any candidate: write their full story
+as usual; `news-scripts.py save` sees the instant script of the same item and gives it the story's page instead of
+adding a second script.
+
 ## More stories on request ("➕ 20 more stories" on the script page)
 
 Kevin, 3 Nov 2026: "just have a button in the prompter that can always add more stories from our resources to load up the

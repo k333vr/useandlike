@@ -119,8 +119,15 @@ def save(path):
             print("%s: %s" % (code, p))
         sys.exit("Nothing saved: fix the problems above.")
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
-    added = updated = kept = 0
+    added = updated = kept = linked = 0
     for s in scripts:
+        # The Studio wrote this story's script on the spot when her list ran low (origin "instant", 6 Nov): give that
+        # script the story's page instead of adding a second script for the same news.
+        inst = query("SELECT code FROM scripts WHERE item_id = ? AND origin = 'instant'", [s.get("item")]) if s.get("item") else []
+        if inst:
+            query("UPDATE scripts SET slug = ? WHERE code = ? AND (slug IS NULL OR slug = '')", [s.get("slug"), inst[0]["code"]])
+            linked += 1
+            continue
         old = query("SELECT status, edited FROM scripts WHERE code = ?", [s["code"]])
         labels = [str(x.get("label") or chr(65 + i)) for i, x in enumerate(s["versions"])]
         chosen = labels.index(str(s["chosen"])) if str(s.get("chosen") or "") in labels else 0
@@ -135,18 +142,20 @@ def save(path):
                 (str(s.get("pinned") or "").strip()[:120] or None)]
         if not old:
             query("""INSERT INTO scripts (code, day, rank, slug, item_id, head, facts, sources, versions, title, description, takes, points,
-                     pinned, chosen, created) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""", [s["code"]] + vals + [chosen, now])
+                     pinned, chosen, created, writer) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'news run')""", [s["code"]] + vals + [chosen, now])
             added += 1
         elif old[0]["status"] == "draft" and not old[0]["edited"]:
             query("""UPDATE scripts SET day = ?, rank = ?, slug = ?, item_id = ?, head = ?, facts = ?, sources = ?, versions = ?,
-                     title = ?, description = ?, takes = ?, points = ?, pinned = ?, chosen = ?, updated = ?, updated_by = 'news run'
+                     title = ?, description = ?, takes = ?, points = ?, pinned = ?, chosen = ?, updated = ?, updated_by = 'news run',
+                     writer = COALESCE(writer, 'news run')
                      WHERE code = ?""", vals + [chosen, now, s["code"]])
             updated += 1
         else:
             kept += 1     # she already approved, edited, flagged or recorded it: her work stays
             if vals[-1]:  # the uploader's pinned question isn't her work: it may still come in
                 query("UPDATE scripts SET pinned = ? WHERE code = ? AND (pinned IS NULL OR pinned = '')", [vals[-1], s["code"]])
-    print("Scripts: %d added, %d updated, %d left as they were (already worked on)." % (added, updated, kept))
+    print("Scripts: %d added, %d updated, %d left as they were (already worked on), %d instant ones linked to their story."
+          % (added, updated, kept, linked))
 
 
 def show(day):
