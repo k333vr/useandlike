@@ -9,6 +9,7 @@ scripts.useandlike.com (see NEWS.md, "Scripts for the presenter").
     {"code": "N1102-01", "day": "2026-11-02", "rank": 1, "slug": "<story slug>", "item": 13433,
      "head": "<the story's headline>", "facts": ["<checked fact>", ...], "sources": [{"name": "...", "url": "https://..."}],
      "versions": [{"label": "A", "text": "..."}, {"label": "B", "text": "..."}, {"label": "C", "text": "..."}],
+     "chosen": "B",   # the version her teleprompter reads by default (NEWS.md: big stories B, small ones C, the rest A)
      "takes": ["<a one-line reaction she can pick>", ...], "points": ["<3-6 key points, a few words each>", ...],
      "title": "<YouTube title>", "description": "<YouTube description>",
      "pinned": "<one short question for the pinned comment, e.g. Would you lock your chats with a PIN?>"}
@@ -61,11 +62,15 @@ def problems(s, slugs):
     v = s.get("versions") or []
     if len(v) < 3:
         out.append("needs 3 versions (A, B, C)")
+    labels = [str(x.get("label") or chr(65 + i)) for i, x in enumerate(v)]
+    if s.get("chosen") not in (None, "") and str(s["chosen"]) not in labels:
+        out.append("chosen %r isn't one of the versions (%s)" % (s["chosen"], ", ".join(labels)))
     for x in v:
         t = str(x.get("text", ""))
         n = words(t)
-        if n < 40 or n > 300:
-            out.append("version %s has %d words (40-300)" % (x.get("label", "?"), n))
+        most = 450 if x.get("label") == "B" else 300   # Kevin, 6 Nov: a big story may run 2-3 minutes
+        if n < 40 or n > most:
+            out.append("version %s has %d words (40-%d)" % (x.get("label", "?"), n, most))
         if CTA.search(t):
             out.append('version %s says "%s": no spoken call to action or web address (the end card shows them)'
                        % (x.get("label", "?"), CTA.search(t).group(0)))
@@ -115,6 +120,8 @@ def save(path):
     added = updated = kept = 0
     for s in scripts:
         old = query("SELECT status, edited FROM scripts WHERE code = ?", [s["code"]])
+        labels = [str(x.get("label") or chr(65 + i)) for i, x in enumerate(s["versions"])]
+        chosen = labels.index(str(s["chosen"])) if str(s.get("chosen") or "") in labels else 0
         vals = [s["day"], int(s.get("rank") or 99), s.get("slug"), s.get("item"), s["head"][:300],
                 json.dumps([str(f)[:300] for f in s.get("facts") or []][:12], ensure_ascii=False),
                 json.dumps(s.get("sources") or [], ensure_ascii=False),
@@ -126,12 +133,12 @@ def save(path):
                 (str(s.get("pinned") or "").strip()[:120] or None)]
         if not old:
             query("""INSERT INTO scripts (code, day, rank, slug, item_id, head, facts, sources, versions, title, description, takes, points,
-                     pinned, created) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""", [s["code"]] + vals + [now])
+                     pinned, chosen, created) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""", [s["code"]] + vals + [chosen, now])
             added += 1
         elif old[0]["status"] == "draft" and not old[0]["edited"]:
             query("""UPDATE scripts SET day = ?, rank = ?, slug = ?, item_id = ?, head = ?, facts = ?, sources = ?, versions = ?,
-                     title = ?, description = ?, takes = ?, points = ?, pinned = ?, chosen = 0, updated = ?, updated_by = 'news run'
-                     WHERE code = ?""", vals + [now, s["code"]])
+                     title = ?, description = ?, takes = ?, points = ?, pinned = ?, chosen = ?, updated = ?, updated_by = 'news run'
+                     WHERE code = ?""", vals + [chosen, now, s["code"]])
             updated += 1
         else:
             kept += 1     # she already approved, edited, flagged or recorded it: her work stays

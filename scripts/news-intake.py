@@ -106,7 +106,7 @@ def more(args):
         query("UPDATE settings SET value = ? WHERE key = 'news_more'", [json.dumps(req)])
         print("Marked done: %d more stories." % req["added"])
         return
-    print(json.dumps({"waiting": req.get("status") == "asked", "n": req.get("n", 10), "asked_at": req.get("at"), "by": req.get("by")}))
+    print(json.dumps({"waiting": req.get("status") == "asked", "n": req.get("n", 20), "asked_at": req.get("at"), "by": req.get("by")}))
 
 
 # New apps climbing the App Store charts (Kevin, 3 Nov 2026: "rising starts in the app stores ... we can talk about the

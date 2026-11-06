@@ -155,7 +155,7 @@ people type).
    Pillow: "cannot import name '_imaging'". Then run every `python3` step below with `/usr/bin/python3`.)
 2. `python3 scripts/news-intake.py todo > /tmp/todo.json`: the Studio's candidates from the last 3 days that aren't
    on the site, those the morning AI marked `News: story` first, each with other outlets in `also`.
-   Then `python3 scripts/news-intake.py more`: when it says `"waiting": true`, someone pressed "➕ 10 more stories" on
+   Then `python3 scripts/news-intake.py more`: when it says `"waiting": true`, someone asked for more stories on
    the script page; do "More stories on request" (below) in this run too.
 3. Read `/tmp/todo.json` and the stories already in `data/news/` from the last days. For each candidate decide:
    - **write it** (rules above; open its link and the `also` links you need),
@@ -199,12 +199,15 @@ people type).
 8. End with one line: how many full stories and one-liners went up (headlines of the top 3), how many scripts, how many candidates were
    already covered or skipped. A day without new stories is fine: say so and push nothing.
 
-## More stories on request ("➕ 10 more stories" on the script page)
+## More stories on request ("➕ 20 more stories" on the script page)
 
 Kevin, 3 Nov 2026: "just have a button in the prompter that can always add more stories from our resources to load up the
 next 10 best". The Studio keeps the request (settings `news_more`) and starts this routine through its API trigger (once
 the Worker secret NEWS_ROUTINE_TOKEN is set; without it the next morning run finds the request). When
-`news-intake.py more` says `"waiting": true` (its `n` is how many, usually 10):
+`news-intake.py more` says `"waiting": true` (its `n` is how many, usually 20). Since 6 Nov the presenter's page asks by
+itself when she has a round (20) or less left, with no daily cap (Kevin: "no cap on stories if she is good in speed why
+not more? we cant really run out ... we later see if the mid strength stories still get traction"), so keep going
+down the list: mid-strength stories are fine, the weekly report checks whether they get views:
 1. Take the next `n` best stories that have no full story yet: new candidates from `todo` first (best first), then the
    strongest one-liners of today and yesterday (turn a one-liner into a full story by removing `"quick"` and adding the
    full story's fields; keep its slug).
@@ -223,8 +226,14 @@ time or all in one session). Kevin strikes the ones he doesn't want. A script sh
 
 - **Three versions**, all from the story's checked facts only (nothing that isn't in the story file):
   - `A`, the news straight: 90-160 words (about 40-65 seconds).
-  - `B`, the explainer: what happened, why it matters, what to do: 140-230 words (about 60-95 seconds).
+  - `B`, the explainer: what happened, why it matters, what to do: 140-230 words (about 60-95 seconds). For a big
+    story (the day's lead, a change many people will notice, a story with steps to follow) B may run up to about 400
+    words (2.5-3 minutes) when the checked facts carry it: more of the how and the what-to-do, never padding.
   - `C`, short: 45-90 words (20-40 seconds; also fits a Short).
+- **`chosen`: the version her teleprompter reads by default, so the day has a mix of lengths** (Kevin, 6 Nov: "mix the
+  stories up more in length all under 1 minute are you sure no top story worthy of more?"): `B` for the lead and the
+  other big stories (about 1 in 4 or 5), `C` for small updates and one-liner-sized news, `A` for the rest. She can
+  still switch versions on the story's page.
 - **Spoken English:** short sentences (most under 15 words), contractions (it's, you'll), no brackets, no
   abbreviations ("for example", not "e.g."), numbers the way people say them ("13 dollars a month", "two terabytes",
   "November 13th"), no web addresses.
