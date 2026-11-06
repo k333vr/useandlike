@@ -230,10 +230,13 @@ time or all in one session). Kevin strikes the ones he doesn't want. A script sh
     story (the day's lead, a change many people will notice, a story with steps to follow) B may run up to about 400
     words (2.5-3 minutes) when the checked facts carry it: more of the how and the what-to-do, never padding.
   - `C`, short: 45-90 words (20-40 seconds; also fits a Short).
-- **`chosen`: the version her teleprompter reads by default, so the day has a mix of lengths** (Kevin, 6 Nov: "mix the
-  stories up more in length all under 1 minute are you sure no top story worthy of more?"): `B` for the lead and the
-  other big stories (about 1 in 4 or 5), `C` for small updates and one-liner-sized news, `A` for the rest. She can
-  still switch versions on the story's page.
+- **`chosen`: the version her teleprompter reads by default, so the day has a real mix of lengths** (Kevin, 6 Nov: "mix
+  the stories up more in length all under 1 minute are you sure no top story worthy of more?", then "her stories are
+  exclusively around 40s I said more variety 30s 1m 1.5m etc mix it up"). Across the day aim for about a quarter `C`
+  (around 30 seconds: small updates), a third `A` (about 45-60 seconds: write A toward 120-160 words), a third `B`
+  (about 1-1.5 minutes: explainers, write B toward 180-230 words), and the lead plus one or two big stories as a long `B`
+  (2-3 minutes, up to about 400 words, only when the facts carry it). Spread them through the list, not by rank
+  alone, so two short ones rarely come in a row. She can still switch versions on the story's page.
 - **Spoken English:** short sentences (most under 15 words), contractions (it's, you'll), no brackets, no
   abbreviations ("for example", not "e.g."), numbers the way people say them ("13 dollars a month", "two terabytes",
   "November 13th"), no web addresses.
