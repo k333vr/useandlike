@@ -8,6 +8,7 @@ days that aren't on the site yet. The daily news run reads them, checks each sou
     python3 scripts/news-intake.py more              # a waiting "more stories" request from the script page, if any
     python3 scripts/news-intake.py more --done N     # mark it done (N = how many full stories went up for it)
     python3 scripts/news-intake.py rising [--days 7] # new apps climbing the App Store charts, by category (roundups)
+    python3 scripts/news-intake.py deals             # the checked deals of /deals/ to confirm today (age, tracker lines)
 
 A candidate is a story the morning AI marked "News: story" (Kevin, 1 Nov 2026: "basically no limit and also a lot of
 newcomer apps") or "News: rumor" (a rumor, leak or feature in testing: Kevin wants those too, framed as such; "rumor": true),
@@ -17,6 +18,7 @@ with the other outlets that reported the same news ("also"), so a fact can be ch
 Needs CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID (the Studio's database is Cloudflare D1 "useandlike-studio").
 """
 import glob, json, os, re, sys, time, urllib.error, urllib.request
+from datetime import date
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DB_ID = "8209584b-6109-45f6-9367-5befe0f080a5"   # D1 "useandlike-studio" (useandlike-ops/studio/wrangler.toml)
@@ -137,6 +139,38 @@ def rising(days):
           % (sum(len(v) for _, v in out), len(out), days), file=sys.stderr)
 
 
+# The checked deals at the top of /deals/ (data/deals.json). Kevin, 6 Nov 2026: "do we not check all our affiliates daily
+# 24/7 so we catch all deals so we can update them": the Studio's deal tracker reads every program around the clock (the
+# brand's own page or its Yazing listing, and deal news), but the checked deals were only confirmed by hand, so Hostinger
+# still said 82% on the page while the tracker had seen 85% the day before. This lists each checked deal with its age and
+# the tracker's lines of the last 2 days; "due" = 6+ days since its check, or the deal's percentages are not among the
+# tracker's while others are. The daily run confirms the due ones on the brand's own site (NEWS.md, step 4).
+def deals():
+    d = json.load(open(os.path.join(ROOT, "data", "deals.json"), encoding="utf-8"))
+    rows = query("""SELECT slug, source, text FROM deals WHERE source IN ('site', 'yazing') AND gone IS NULL
+        AND last_seen >= datetime('now', '-2 days')""")
+    lines = {}
+    for r in rows:
+        lines.setdefault(r["slug"], []).append((r["source"], r["text"]))
+    out = []
+    for x in d.get("deals", []):
+        try:
+            age = (date.today() - date.fromisoformat(str(x.get("checked", ""))[:10])).days
+        except ValueError:
+            age = 99
+        seen = lines.get(x["slug"]) or lines.get(x["slug"].split("-")[0]) or []   # easeus-bf -> the easeus program
+        ours = set(re.findall(r"\d+%", "%s %s" % (x.get("offer", ""), x.get("big", ""))))
+        # Only the brand's own page counts as a change (a Yazing listing can differ: FastestVPN's says 95%, its site 93%).
+        theirs = set(re.findall(r"\d+%", " ".join(t for s, t in seen if s == "site")))
+        changed = bool(ours and theirs and not ours & theirs)
+        out.append({"slug": x["slug"], "brand": x.get("brand"), "offer": x.get("offer"), "checked": x.get("checked"),
+                    "days": age, "due": age >= 6 or changed, "changed": changed,
+                    "tracker": ["%s: %s" % (s, t) for s, t in seen[:6]]})
+    print(json.dumps(out, ensure_ascii=False, indent=1))
+    due = [x["brand"] for x in out if x["due"]]
+    print("%d checked deals; due today: %s." % (len(out), ", ".join(due) or "none"), file=sys.stderr)
+
+
 if __name__ == "__main__":
     args = sys.argv[1:]
     if args[:1] == ["todo"]:
@@ -147,5 +181,7 @@ if __name__ == "__main__":
         more(args)
     elif args[:1] == ["rising"]:
         rising(int(args[args.index("--days") + 1]) if "--days" in args else 7)
+    elif args[:1] == ["deals"]:
+        deals()
     else:
         sys.exit(__doc__)

@@ -184,13 +184,20 @@ people type).
    editing data/app-icons.json by hand. Short names the App Store lists under a full name ("Copilot" -> "Microsoft
    Copilot") go in `STORE_TERMS` in the script. Then `python3 scripts/partner-offers.py` (every run: the
    offers our partner brands list, from the Studio's deal tracker, for the "More offers from our partners" part of
-   /deals/; it leaves out old, seasonal and non-offers by itself). Then `node scripts/story-pictures.js` (every run:
+   /deals/; it leaves out old, seasonal and non-offers by itself). Then the checked deals at the top of /deals/ (Kevin,
+   6 Nov: "do we not check all our affiliates daily 24/7 so we catch all deals so we can update them"):
+   `python3 scripts/news-intake.py deals` lists each one with its age and what the Studio's tracker read on the brand's
+   page in the last 2 days; for every deal marked "due" (checked 6+ days ago, or the brand's page shows other
+   percentages), open the brand's own page (WebFetch; for a site that refuses, such as nordvpn.com/pricing, a real
+   browser: Playwright's chromium is installed), then in data/deals.json update `offer`, `big`, `detail` to what the
+   page says and set `checked` to today, or take the deal out when it ended. Never take a number from a Yazing listing
+   or a news site for these. Then `node scripts/story-pictures.js` (every run:
    draws the pictures of new or changed stories in a few seconds into img/stories/: the share picture people see when
    a story is shared, the picture on the story page and the front page, the small one in lists; Kevin, 2 Nov: "that's
    how it should also look on the website"). Then
    `node scripts/build-pages.js`, then `node scripts/check.js` and fix every FAIL (a word on the banned list: reword).
    Write each app in "apps" the way people know it ("WhatsApp", "Google Maps"), one app per entry.
-5. Commit only `data/news/`, new app icons (`img/apps/`, `data/app-icons.json`), `data/partner-offers.json`, the story pictures (`img/stories/`, `data/story-pictures.json`) and what the build changed (`news/`, `deals/`,
+5. Commit only `data/news/`, new app icons (`img/apps/`, `data/app-icons.json`), `data/partner-offers.json`, `data/deals.json` (rechecked deals), the story pictures (`img/stories/`, `data/story-pictures.json`) and what the build changed (`news/`, `deals/`,
    `index.html`, `how-tos/`, `sitemap.xml`, the category and tool pages): `git commit -m "News: <n> stories (<date>)"`, then `git push origin main` (main only:
    Cloudflare deploys it in about a minute). Never change `_redirects`, the tools or anything else in this run.
 6. Check one new page on useandlike.com after a minute or two (curl it for its headline).
