@@ -119,16 +119,29 @@ def save(path):
             print("%s: %s" % (code, p))
         sys.exit("Nothing saved: fix the problems above.")
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
-    added = updated = kept = linked = 0
+    added = updated = kept = linked = moved = 0
     for s in scripts:
         # The Studio wrote this story's script on the spot when her list ran low (origin "instant", 6 Nov): give that
         # script the story's page instead of adding a second script for the same news.
-        inst = query("SELECT code FROM scripts WHERE item_id = ? AND origin = 'instant'", [s.get("item")]) if s.get("item") else []
+        inst = query("SELECT id, day, status FROM scripts WHERE item_id = ? AND origin = 'instant'", [s.get("item")]) if s.get("item") else []
         if inst:
-            query("UPDATE scripts SET slug = ? WHERE code = ? AND (slug IS NULL OR slug = '')", [s.get("slug"), inst[0]["code"]])
+            query("UPDATE scripts SET slug = ? WHERE id = ? AND (slug IS NULL OR slug = '')", [s.get("slug"), inst[0]["id"]])
             linked += 1
+            # Written before this run, it waits on an older day's list, and she only sees the newest day: it moves to
+            # this day at this story's place (her own work on it stays; recorded ones stay where they are).
+            if inst[0]["day"] < s["day"] and inst[0]["status"] in ("draft", "approved"):
+                code, rank = free_code(s["day"], s["code"], int(s.get("rank") or 99))
+                query("UPDATE scripts SET day = ?, rank = ?, code = ?, updated = ?, updated_by = 'news run' WHERE id = ?",
+                      [s["day"], rank, code, now, inst[0]["id"]])
+                moved += 1
             continue
-        old = query("SELECT status, edited FROM scripts WHERE code = ?", [s["code"]])
+        old = query("SELECT status, edited, item_id FROM scripts WHERE code = ?", [s["code"]])
+        if old and old[0]["item_id"] is not None and str(old[0]["item_id"]) != str(s.get("item")):
+            # Another story holds this number (the Studio's instant writer also numbers after the day's last script):
+            # this story keeps its own number from an earlier save of this run, else takes the day's next free one.
+            mine = query("SELECT code, rank FROM scripts WHERE item_id = ? AND day = ?", [s.get("item"), s["day"]]) if s.get("item") else []
+            s["code"], s["rank"] = (mine[0]["code"], mine[0]["rank"]) if mine else free_code(s["day"], None, 99)
+            old = query("SELECT status, edited, item_id FROM scripts WHERE code = ?", [s["code"]])
         labels = [str(x.get("label") or chr(65 + i)) for i, x in enumerate(s["versions"])]
         chosen = labels.index(str(s["chosen"])) if str(s.get("chosen") or "") in labels else 0
         vals = [s["day"], int(s.get("rank") or 99), s.get("slug"), s.get("item"), s["head"][:300],
@@ -154,8 +167,20 @@ def save(path):
             kept += 1     # she already approved, edited, flagged or recorded it: her work stays
             if vals[-1]:  # the uploader's pinned question isn't her work: it may still come in
                 query("UPDATE scripts SET pinned = ? WHERE code = ? AND (pinned IS NULL OR pinned = '')", [vals[-1], s["code"]])
-    print("Scripts: %d added, %d updated, %d left as they were (already worked on), %d instant ones linked to their story."
-          % (added, updated, kept, linked))
+    print("Scripts: %d added, %d updated, %d left as they were (already worked on), %d instant ones linked to their story"
+          " (%d of them moved to this day's list)." % (added, updated, kept, linked, moved))
+
+
+def free_code(day, code, rank):
+    """The code and rank to use on this day: the given ones if the code is free, else the day's next free number."""
+    if code and not query("SELECT 1 AS x FROM scripts WHERE code = ?", [code]):
+        return code, rank
+    r = (query("SELECT MAX(rank) AS r FROM scripts WHERE day = ?", [day]) or [{}])[0].get("r") or 0
+    while True:
+        r += 1
+        c = "N%s%s-%02d" % (day[5:7], day[8:10], r)
+        if not query("SELECT 1 AS x FROM scripts WHERE code = ?", [c]):
+            return c, r
 
 
 def show(day):

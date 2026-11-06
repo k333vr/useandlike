@@ -206,7 +206,9 @@ When 2 or fewer stories are left on her page, the Studio writes the next 3 itsel
 candidates without a script, the article's own text only; Claude Opus 5.5 or Gemini, the `writer` column says which),
 marked `origin = 'instant'`, with no website story yet. They stay in `todo` like any candidate: write their full story
 as usual; `news-scripts.py save` sees the instant script of the same item and gives it the story's page instead of
-adding a second script.
+adding a second script. One written before this run (on an older day's list) moves to this day's list at the story's
+place unless she already recorded it. The instant writer numbers after the day's last script too, so a code may be taken
+by the time you save: `save` never overwrites another story's script, it gives yours the day's next free number.
 
 ## More stories on request ("➕ 20 more stories" on the script page)
 
