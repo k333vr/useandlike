@@ -1,0 +1,22 @@
+{
+ "slug": "whatsapp-original-quality-testing",
+ "date": "2026-11-06",
+ "added": "2026-11-07",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "rumor": true,
+ "head": "WhatsApp tests sending photos in original quality",
+ "dek": "WhatsApp's Android beta is testing original-quality photo and video sharing, for WhatsApp Plus subscribers only.",
+ "quick": true,
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 49592,
+ "sources": [
+  {
+   "name": "WABetaInfo",
+   "url": "https://wabetainfo.com/whatsapp-is-testing-original-quality-media-sharing-on-android/"
+  }
+ ],
+ "checked": "2026-11-07"
+}

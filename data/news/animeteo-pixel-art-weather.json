@@ -1,0 +1,21 @@
+{
+ "slug": "animeteo-pixel-art-weather",
+ "date": "2026-11-06",
+ "added": "2026-11-07",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "AniMeteo shows the weather as pixel art on your watch face",
+ "dek": "AniMeteo ($0.99) turns a watch complication into a small animated pixel-art window of the sky; it was #30 among paid Weather apps on the US App Store on 6 November.",
+ "quick": true,
+ "apps": [
+  "AniMeteo"
+ ],
+ "item": 56084,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/animeteo-pixel-art-weather/id6817347643"
+  }
+ ],
+ "checked": "2026-11-07"
+}

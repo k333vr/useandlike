@@ -1,0 +1,21 @@
+{
+ "slug": "fullbleed-safari-iphone-duo",
+ "date": "2026-11-06",
+ "added": "2026-11-07",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Fullbleed lets Safari pages fill the iPhone Duo's front screen",
+ "dek": "Fullbleed ($0.99), a Safari extension, removes the blank band beside Safari's controls one site at a time; it was #96 among paid Utilities apps on the US App Store on 6 November.",
+ "quick": true,
+ "apps": [
+  "Fullbleed"
+ ],
+ "item": 56055,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/fullbleed-full-width-safari/id6829423435"
+  }
+ ],
+ "checked": "2026-11-07"
+}

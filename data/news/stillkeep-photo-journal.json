@@ -1,0 +1,21 @@
+{
+ "slug": "stillkeep-photo-journal",
+ "date": "2026-11-06",
+ "added": "2026-11-07",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Stillkeep keeps photos and stories together in a private journal",
+ "dek": "Stillkeep is a new iPhone photo journal that pairs pictures with written stories, groups them into Eras and exports PDF photobooks, with no ads.",
+ "quick": true,
+ "apps": [
+  "Stillkeep"
+ ],
+ "item": 51502,
+ "sources": [
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/stillkeep"
+  }
+ ],
+ "checked": "2026-11-07"
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "alexa-shopping-by-text",
+ "date": "2026-11-06",
+ "added": "2026-11-07",
+ "topic": "Shopping",
+ "tag": "Quick",
+ "head": "Amazon lets you text Alexa your shopping list",
+ "dek": "Alexa for Shopping can now order groceries and suggest products over text messages.",
+ "quick": true,
+ "apps": [
+  "Alexa"
+ ],
+ "item": 52194,
+ "sources": [
+  {
+   "name": "The Verge",
+   "url": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders"
+  }
+ ],
+ "checked": "2026-11-07"
+}

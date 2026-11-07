@@ -1,0 +1,26 @@
+{
+ "slug": "find-hub-left-behind-alerts",
+ "date": "2026-11-05",
+ "added": "2026-11-07",
+ "topic": "Android",
+ "tag": "New feature",
+ "head": "Google Find Hub now warns you when you leave a tracker tag behind",
+ "dek": "Google's Find Hub on Android can now notify you when a tracker tag is separated from your phone. It's showing up for Chipolo trackers and the Moto Tag in version 3.1.787 for US and European users.",
+ "details": "Your home address saved in your Google Account is left out by default, so you won't get alerts there. It doesn't appear for other devices, like headphones.",
+ "where": "Android, Find Hub app, Chipolo and Moto Tag trackers",
+ "means": "If you keep a tracker on your keys or bag, your phone can now tell you when you walk away without it.",
+ "todo": "Open Find Hub, pick a tag, tap the settings gear and turn on \"Notify when left behind\".",
+ "rank": 24,
+ "apps": [
+  "Find Hub"
+ ],
+ "item": 47229,
+ "thumb_words": "FIND HUB LEFT-BEHIND ALERTS",
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/05/google-find-hub-tracker-alerts/"
+  }
+ ],
+ "checked": "2026-11-07"
+}

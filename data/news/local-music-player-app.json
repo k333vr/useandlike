@@ -1,0 +1,18 @@
+{
+ "slug": "local-music-player-app",
+ "date": "2026-11-06",
+ "added": "2026-11-07",
+ "topic": "Music",
+ "tag": "Quick",
+ "head": "Local Music Player plays the music you own on iPhone",
+ "dek": "Local Music Player ($0.99) plays songs synced from your computer through the Apple Music app; it was #78 among paid Music apps on the US App Store on 6 November.",
+ "quick": true,
+ "item": 56075,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/local-music-player/id6820444160"
+  }
+ ],
+ "checked": "2026-11-07"
+}

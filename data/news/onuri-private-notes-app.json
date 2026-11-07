@@ -1,0 +1,21 @@
+{
+ "slug": "onuri-private-notes-app",
+ "date": "2026-11-06",
+ "added": "2026-11-07",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Onuri: private notes that link people, places and dates",
+ "dek": "Onuri is a new iPhone notes app that connects people, places, dates and topics as you write, with on-device processing and iCloud sync.",
+ "quick": true,
+ "apps": [
+  "Onuri"
+ ],
+ "item": 51503,
+ "sources": [
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/onuri"
+  }
+ ],
+ "checked": "2026-11-07"
+}

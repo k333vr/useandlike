@@ -1,0 +1,21 @@
+{
+ "slug": "discord-faster-android-app",
+ "date": "2026-11-06",
+ "added": "2026-11-07",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Discord is building a faster app for Android",
+ "dek": "Discord's CTO showed a new client built in Rust that runs quickly even on low-end Android phones; there's no release date yet.",
+ "quick": true,
+ "apps": [
+  "Discord"
+ ],
+ "item": 53870,
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/06/discord-is-about-to-get-way-way-faster-on-your-android-phone/"
+  }
+ ],
+ "checked": "2026-11-07"
+}
