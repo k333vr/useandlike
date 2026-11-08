@@ -1,0 +1,18 @@
+{
+ "slug": "midori-android-encrypted-sync",
+ "date": "2026-11-07",
+ "added": "2026-11-08",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Midori browser for Android adds encrypted sync",
+ "dek": "Midori 11.9.5 for Android adds Midori Sync, encrypted syncing from its maker Astian, plus better ad blocking and speed.",
+ "quick": true,
+ "item": 59223,
+ "sources": [
+  {
+   "name": "PiunikaWeb",
+   "url": "https://piunikaweb.com/2026/11/08/midori-android-update-encrypted-sync-better-ad-blocking/"
+  }
+ ],
+ "checked": "2026-11-08"
+}

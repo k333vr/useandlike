@@ -1,0 +1,26 @@
+{
+ "slug": "ironfox-workout-tracker",
+ "date": "2026-11-07",
+ "added": "2026-11-08",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "IronFox is a simple workout log that shows your progress",
+ "dek": "IronFox lets you log workouts and see how your fitness is progressing over time. It was #44 among paid Health & Fitness apps on the US App Store on 7 November.",
+ "details": "It came out on 5 November and costs $2.99, by Cameron David Fox.",
+ "where": "iPhone, App Store, $2.99",
+ "means": "If gym apps feel too complicated, this one keeps it to logging and progress.",
+ "todo": "Find IronFox in the App Store.",
+ "rank": 8,
+ "apps": [
+  "IronFox"
+ ],
+ "item": 60440,
+ "thumb_words": "SIMPLE WORKOUT LOG",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/ironfox/id6775342380"
+  }
+ ],
+ "checked": "2026-11-08"
+}

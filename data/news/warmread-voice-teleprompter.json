@@ -1,0 +1,26 @@
+{
+ "slug": "warmread-voice-teleprompter",
+ "date": "2026-11-07",
+ "added": "2026-11-08",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "warmread is a teleprompter that follows your voice",
+ "dek": "warmread scrolls your script as you talk, waits when you pause and keeps your place when you ad-lib; the next lines glow so your eyes stay ahead. It was #60 among paid Productivity apps on the US App Store on 7 November.",
+ "details": "No remote needed. It came out on 6 November and costs $4.99 with in-app purchases, by Roger Sengthavychith.",
+ "where": "iPhone and iPad, App Store, $4.99",
+ "means": "If you film videos or give talks, you can read from your phone without a helper scrolling.",
+ "todo": "Find warmread in the App Store.",
+ "rank": 13,
+ "apps": [
+  "warmread"
+ ],
+ "item": 60428,
+ "thumb_words": "A TELEPROMPTER THAT LISTENS",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/warmread/id6830337675"
+  }
+ ],
+ "checked": "2026-11-08"
+}

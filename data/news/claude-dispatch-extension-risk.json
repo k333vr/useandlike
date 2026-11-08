@@ -1,0 +1,21 @@
+{
+ "slug": "claude-dispatch-extension-risk",
+ "date": "2026-11-06",
+ "added": "2026-11-08",
+ "topic": "Security",
+ "tag": "Quick",
+ "head": "Browser extensions could misuse Claude Dispatch to run code",
+ "dek": "Researchers at Forever Security showed that a browser extension with access to claude.ai could make Claude Desktop run code on a PC through the Dispatch feature; only install extensions you trust.",
+ "quick": true,
+ "apps": [
+  "Claude"
+ ],
+ "item": 51930,
+ "sources": [
+  {
+   "name": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html"
+  }
+ ],
+ "checked": "2026-11-08"
+}

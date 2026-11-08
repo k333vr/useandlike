@@ -1,0 +1,21 @@
+{
+ "slug": "kechx-scam-link-checker",
+ "date": "2026-11-06",
+ "added": "2026-11-08",
+ "topic": "Security",
+ "tag": "Quick",
+ "head": "KechX checks links, QR codes and messages for scams",
+ "dek": "KechX Safe Browsing lets you paste a link, scan a QR code or share a screenshot to get a plain-English verdict on whether it's a scam.",
+ "quick": true,
+ "apps": [
+  "KechX"
+ ],
+ "item": 56345,
+ "sources": [
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/kechx-technologies"
+  }
+ ],
+ "checked": "2026-11-08"
+}

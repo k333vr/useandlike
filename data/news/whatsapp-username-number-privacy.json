@@ -1,0 +1,22 @@
+{
+ "slug": "whatsapp-username-number-privacy",
+ "date": "2026-11-07",
+ "added": "2026-11-08",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "rumor": true,
+ "head": "WhatsApp tests who can see your number when you use a username",
+ "dek": "WhatsApp's Android beta is testing a setting to choose who can see your phone number when you have a username; it's not out yet.",
+ "quick": true,
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 56783,
+ "sources": [
+  {
+   "name": "WABetaInfo",
+   "url": "https://wabetainfo.com/whatsapp-is-testing-new-phone-number-privacy-for-usernames/"
+  }
+ ],
+ "checked": "2026-11-08"
+}

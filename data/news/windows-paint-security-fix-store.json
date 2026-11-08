@@ -1,0 +1,26 @@
+{
+ "slug": "windows-paint-security-fix-store",
+ "date": "2026-11-06",
+ "added": "2026-11-08",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "Windows Paint security fix comes from the Microsoft Store, not Windows Update",
+ "dek": "Microsoft fixed a flaw in Windows Paint that could let an attacker run code over a network, but the fix only arrives through a Microsoft Store update of Paint, version 11.2609.401.0, not through Windows Update.",
+ "details": "Microsoft rates the flaw Important. It wasn't known to be exploited when it was published on 13 October. Paint is installed per user account, so other accounts on the same PC can still have an older copy.",
+ "where": "Windows PCs with Paint",
+ "means": "If your Store updates are off, your Paint may still have the hole even after installing Windows updates.",
+ "todo": "Open the Microsoft Store, go to Library and update Paint; check its version under Settings in Paint (11.2609.401.0 or later).",
+ "rank": 14,
+ "apps": [
+  "Windows 11"
+ ],
+ "item": 51929,
+ "thumb_words": "UPDATE PAINT FROM THE STORE",
+ "sources": [
+  {
+   "name": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html"
+  }
+ ],
+ "checked": "2026-11-08"
+}

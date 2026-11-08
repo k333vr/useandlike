@@ -1,0 +1,26 @@
+{
+ "slug": "fake-shopping-sites-in-ai-answers",
+ "date": "2026-11-07",
+ "added": "2026-11-08",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "Black Friday scam: 10,000 fake shopping sites, some showing up in AI answers",
+ "dek": "NordVPN found a network of more than 10,000 fake shop websites copying 166 fashion and luxury brands in 26 countries, and some have appeared in search results and AI shopping recommendations next to real shops.",
+ "details": "As of 3 November, 1,549 of the stores were active. They copy the brand's look, language, currency and payment logos, and use believable prices, such as fake Adidas sneakers for €38 to €89, with words like \"Outlet\" and \"Sale\".",
+ "where": "Worldwide, 26 countries",
+ "means": "If ChatGPT, Perplexity or Google points you to a cheap brand store, it may be a fake one.",
+ "todo": "Before you pay, type the brand's website address yourself instead of clicking a link, and be wary of an \"outlet\" site you've never heard of.",
+ "rank": 1,
+ "apps": [
+  "ChatGPT"
+ ],
+ "item": 59333,
+ "thumb_words": "FAKE SHOPS IN AI ANSWERS",
+ "sources": [
+  {
+   "name": "Cord Cutters News",
+   "url": "https://cordcuttersnews.com/beware-online-shoppers-chatgpt-and-other-ai-tools-have-cited-over-10000-fake-shopping-websites-in-a-massive-black-friday-scam/"
+  }
+ ],
+ "checked": "2026-11-08"
+}

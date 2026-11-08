@@ -1,0 +1,21 @@
+{
+ "slug": "zenith-flow-finance-app",
+ "date": "2026-11-07",
+ "added": "2026-11-08",
+ "topic": "Money",
+ "tag": "Quick",
+ "head": "Zenith Flow shows how much you can really spend",
+ "dek": "Zenith Flow, a new finance app for iPhone, iPad and Mac, works out what you can spend after upcoming bills and savings, with data kept locally or in iCloud.",
+ "quick": true,
+ "apps": [
+  "Zenith Flow"
+ ],
+ "item": 58050,
+ "sources": [
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/zenith-flow"
+  }
+ ],
+ "checked": "2026-11-08"
+}

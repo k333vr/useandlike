@@ -1,0 +1,21 @@
+{
+ "slug": "news12-plus-shutting-down",
+ "date": "2026-11-07",
+ "added": "2026-11-08",
+ "topic": "Streaming",
+ "tag": "Quick",
+ "head": "Optimum is shutting down News12+",
+ "dek": "Optimum told New York's Public Service Commission it is ending its cable news service News12+, formerly News 12 Traffic & Weather.",
+ "quick": true,
+ "apps": [
+  "Optimum"
+ ],
+ "item": 56809,
+ "sources": [
+  {
+   "name": "Westfair",
+   "url": "https://westfaironline.com/economy/optimum-notifies-psc-it-is-shutting-down-news12/"
+  }
+ ],
+ "checked": "2026-11-08"
+}

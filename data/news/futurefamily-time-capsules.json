@@ -1,0 +1,21 @@
+{
+ "slug": "futurefamily-time-capsules",
+ "date": "2026-11-07",
+ "added": "2026-11-08",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "FutureFamily seals photos and letters to open years later",
+ "dek": "FutureFamily lets you lock a photo, video, voice message or letter to open on a set date, like an 18th birthday, even for a child not born yet.",
+ "quick": true,
+ "apps": [
+  "FutureFamily"
+ ],
+ "item": 57147,
+ "sources": [
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/futurefamily"
+  }
+ ],
+ "checked": "2026-11-08"
+}

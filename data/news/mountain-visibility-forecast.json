@@ -1,0 +1,26 @@
+{
+ "slug": "mountain-visibility-forecast",
+ "date": "2026-11-07",
+ "added": "2026-11-08",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Mountain Visibility Forecast tells you if the mountain will be out",
+ "dek": "Mountain Visibility Forecast predicts whether a mountain will be visible from where you are, beyond what the window shows. It was #24 among paid Weather apps on the US App Store on 7 November.",
+ "details": "It's an independent app, not from NOAA. It costs $1.99 with in-app purchases, by MileCheck.",
+ "where": "iPhone, App Store, $1.99",
+ "means": "If you plan hikes or photos around a mountain view, it tells you when to go.",
+ "todo": "Find Mountain Visibility Forecast in the App Store.",
+ "rank": 11,
+ "apps": [
+  "Mountain Visibility Forecast"
+ ],
+ "item": 60459,
+ "thumb_words": "WILL THE MOUNTAIN BE OUT?",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/mountain-visibility-forecast/id6810003955"
+  }
+ ],
+ "checked": "2026-11-08"
+}
