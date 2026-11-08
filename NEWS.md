@@ -198,7 +198,9 @@ people type).
    Never take a number from a Yazing listing or a news site for these. Then `node scripts/story-pictures.js` (every run:
    draws the pictures of new or changed stories in a few seconds into img/stories/: the share picture people see when
    a story is shared, the picture on the story page and the front page, the small one in lists; Kevin, 2 Nov: "that's
-   how it should also look on the website"). Then
+   how it should also look on the website"). Then `python3 scripts/news-scripts.py videos` (every run: each news video
+   the uploader marked uploaded on the upload sheet goes into its story as `video`, so the story page shows "Watch our
+   video about this"; Kevin, 8 Nov). Then
    `node scripts/build-pages.js`, then `node scripts/check.js` and fix every FAIL (a word on the banned list: reword).
    Write each app in "apps" the way people know it ("WhatsApp", "Google Maps"), one app per entry.
 5. Commit only `data/news/`, new app icons (`img/apps/`, `data/app-icons.json`), `data/partner-offers.json`, `data/deals.json` (rechecked deals), the story pictures (`img/stories/`, `data/story-pictures.json`) and what the build changed (`news/`, `deals/`,

@@ -4,6 +4,7 @@ scripts.useandlike.com (see NEWS.md, "Scripts for the presenter").
 
     python3 scripts/news-scripts.py save /tmp/scripts.json    # add the day's scripts (a script she already worked on stays)
     python3 scripts/news-scripts.py list [--day 2026-11-02]   # what's there and its status
+    python3 scripts/news-scripts.py videos                    # our uploaded news videos onto their story pages ("video")
 
 /tmp/scripts.json: a list of
     {"code": "N1102-01", "day": "2026-11-02", "rank": 1, "slug": "<story slug>", "item": 13433,
@@ -210,11 +211,34 @@ def show(day):
     print("%d scripts." % len(rows))
 
 
+def videos():
+    """Our news videos onto their stories' pages (Kevin, 8 Nov 2026: the uploader saves each video's YouTube link on the
+    upload sheet): every published script's video id goes into data/news/<slug>.json as "video", so the story page shows
+    "Watch our video about this". Prints what changed; run build-pages.js after."""
+    n = 0
+    for r in query("SELECT slug, video_url FROM scripts WHERE status = 'published' AND video_url IS NOT NULL AND slug IS NOT NULL"):
+        m = re.search(r"(?:v=|youtu\.be/|shorts/)([\w-]{11})", r["video_url"] or "")
+        f = os.path.join(ROOT, "data", "news", "%s.json" % r["slug"])
+        if not m or not os.path.exists(f):
+            continue
+        story = json.load(open(f, encoding="utf-8"))
+        if story.get("video") == m.group(1):
+            continue
+        story["video"] = m.group(1)
+        with open(f, "w", encoding="utf-8") as out:
+            out.write(json.dumps(story, indent=1, ensure_ascii=False) + "\n")
+        print("video", m.group(1), "->", r["slug"])
+        n += 1
+    print("%d stories got their video." % n)
+
+
 if __name__ == "__main__":
     a = sys.argv[1:]
     if a[:1] == ["save"] and len(a) > 1:
         save(a[1])
     elif a[:1] == ["list"]:
         show(a[a.index("--day") + 1] if "--day" in a else None)
+    elif a[:1] == ["videos"]:
+        videos()
     else:
         sys.exit(__doc__)
