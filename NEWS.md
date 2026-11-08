@@ -309,13 +309,14 @@ time or all in one session). Kevin strikes the ones he doesn't want. A script sh
   ```
   <one sentence: what happened>
   Full story: https://useandlike.com/news/<slug>/
-  📩 More app news like this, free by email: https://useandlike.com/join
+  📩 More app news like this, free by email: https://useandlike.com/email
   Source: <the outlets>
   ```
 
   The newsletter line for news viewers (Kevin, 8 Nov: no tracker and no "30-second" for news, "something like" daily
   app news): what they get, no promise we don't keep. "Daily" only once an issue really goes out every day (the script
-  page's pinned comment uses the same line).
+  page's pinned comment uses the same line). The news channel's own link is `useandlike.com/email` (the tutorial channels
+  keep /join), so its sign-ups count on their own (Beehiiv UTM medium "news").
 - Examples: the six scripts of 1 Nov 2026 (`python3 scripts/news-scripts.py list --day 2026-11-01`).
 - **`code`** = "N" + month and day of today + "-" + `rank` in two digits (`N1102-01`); `day` = today; `rank` = the
   order she should record them in (the lead story first). Also `slug`, `item`, `head` and `sources` from the story.

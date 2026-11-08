@@ -640,5 +640,9 @@
 /newsletter        https://useandlike.beehiiv.com/subscribe  302
 /tracker           https://subscriptionchef.app/             302
 /join              https://useandlike.com/?utm_source=youtube&utm_medium=video#join  302
+# The news channel's own sign-up link (8 Nov 2026; the 1 Nov pilot counts the news channel's sign-ups on their own): its
+# descriptions and pinned comments say useandlike.com/email, so its clicks (Cloudflare) and sign-ups (Beehiiv: UTM medium
+# "news") show apart from the tutorial channels' /join. Keep the tags when changing it.
+/email             https://useandlike.com/?utm_source=youtube&utm_medium=news#join  302
 /welcome           https://useandlike.com/#welcome          302
 /privacy           https://useandlike.com/#privacy          302
