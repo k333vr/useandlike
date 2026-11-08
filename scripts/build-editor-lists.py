@@ -1075,6 +1075,15 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
   // The description: one sentence that extends the title, without promising what the video shows (Kevin, 13 Oct: "short,
   // not overpromising, just as extension of the title", so viewers aren't pulled away from our links).
   var SAFETY = /crack|keygen|license key|mod apk|modded|hack|cheat|unlocked|trial reset|activator|free premium|premium (for )?free|lifetime free|free lifetime/;
+  // Titles that promise a way around paying, a ban or a security check (Kevin, 8 Nov 2026, after 11 such titles were
+  // found on our channels: "we really do not take any risks like that"). YouTube's harmful content policy doesn't allow
+  // showing how to get paid apps or services without paying, and a title that promises more than the video shows is
+  // misleading, so the box warns before upload.
+  var RISKY = /\bbypass|\bcrack(ed)? (version|apk|key)|keygen|(license|serial|activation|product) key|\bmod(ded)? apk|trial reset|reset (the |your )?(free )?trial|(premium|pro|plus|vip)\b.{0,20}\bfor free|\bfree\b.{0,12}\b(premium|pro version)\b|without paying|\bunban|ban evasion|spoof|free (robux|v-?bucks|diamonds|coins)|spy on|someone'?s (password|account|location|messages)/i;
+  var RISK_NOTE = "⚠ This title promises a way around paying, a ban or a security check. YouTube doesn't allow videos " +
+    "that show that (strike risk). Use a title that says what the video really shows (\"How to fix …\", \"… free plan: " +
+    "what you get\", \"… mod APK: the risks\"), and never hint at secret ways in the video (\"wink wink\", \"I'm not " +
+    "allowed to tell\").";
   function lowerFirst(s) {   // "Pros, cons" -> "pros, cons", but the tool's name keeps its capital ("Fiverr Pro to Fiverr")
     return /^[A-Z][a-z]/.test(s) && !PROTECT[s.split(/\s/)[0].toLowerCase().replace(/[^a-z']/g, "")] ? s.charAt(0).toLowerCase() + s.slice(1) : s;
   }
@@ -1156,7 +1165,9 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
       "5. Outro: \"" + OUTRO + "\"", "",
       "Rules: help the viewer first and keep it specific to this title, no filler. Only things that are true for this " +
       "topic; if a step depends on the app version, the country or the bank, say so. Don't promise results, and don't " +
-      "say \"best\", \"#1\" or \"guaranteed\".",
+      "say \"best\", \"#1\" or \"guaranteed\". Never show or hint at a way around paying, a ban or a security check " +
+      "(no cracks, keys, mod APKs or trial resets, no \"wink wink\" or \"I'm not allowed to tell\"); if the title asks " +
+      "for that, show the official way (free plan, trial, appeal, the real fix) and say so.",
       "At the end, name in one line the tool you used in scene 4 (or \"none\")."].join("\n");
   }
 
@@ -1245,6 +1256,8 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
     desc.value = onlytop.checked ? top : top + "\n\n" + capFirst(extend(title, subj, cmp)) + "\n\n" + closing(!!it);
     aiprompt.value = aiPrompt(title, links, !!it);
     planprompt.value = planPrompt(title, its, fits, cancel || excluded || !!ruled || SAFETY.test(title.toLowerCase()));
+    // a warning video says so in its title ("… mod APK: the risks", "… crack: why it's a trap"): no warning then
+    if (RISKY.test(title) && !/\b(risks?|warnings?|dangers?|dangerous|trap|scams?|unsafe|avoid)\b/i.test(title)) note = RISK_NOTE + (note ? " " + note : "");
     vnote.textContent = note;
     showTopics(fits);
     vstatus.className = "vstatus" + (it ? " yes" : cancel || excluded || ruled ? " warn" : "");
