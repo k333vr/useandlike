@@ -25,6 +25,14 @@ HYPE = re.compile(r"\b(best|cheapest|fastest|greatest|ultimate|unbeatable|game[-
                   r"mind[- ]blowing|shocking|you won't believe|number one|#1)\b", re.I)
 # Kevin, 1 Nov: no spoken subscribe or newsletter reminder in these short videos; the end card shows them.
 CTA = re.compile(r"\b(subscribe|newsletter|useandlike|dot com|link in the description|like and)\b", re.I)
+# A video title that is a label instead of a headline ("Bare: new app climbing the App Store", "... new app at #18").
+LABEL_TITLE = re.compile(r"climbing the (app|play) store|\bnew app (at|in) #?\d|:\s*new app\s*$", re.I)
+
+
+def title_tail(t):
+    """The last 4 words of a title: two titles of one run that end the same read like a template."""
+    ws = re.findall(r"[a-z0-9']+", str(t).lower())
+    return " ".join(ws[-4:]) if len(ws) >= 6 else ""
 
 
 def query(sql, params=None):
@@ -94,6 +102,11 @@ def problems(s, slugs):
             out.append("point %r: at most 70 characters, no hype, no call to action" % str(t)[:40])
     if len(str(s.get("title", ""))) > 100 or not str(s.get("title", "")).strip():
         out.append("title is missing or longer than 100 characters (aim for 60)")
+    # Kevin, 8 Nov 2026 (54 of 81 titles read "<app>: new app climbing the App Store"): "it should look a fresh news
+    # title all the time". The title says what the app does or what's new, like the story's head.
+    if LABEL_TITLE.search(str(s.get("title", ""))):
+        out.append('title %r is a label: write a news headline that says what the app does or what changed (NEWS.md)'
+                   % str(s.get("title", ""))[:60])
     if not str(s.get("description", "")).strip():
         out.append("description is missing")
     for src in s.get("sources") or []:
@@ -114,6 +127,12 @@ def save(path):
     scripts = json.load(open(path, encoding="utf-8"))
     slugs = {f[:-5] for f in os.listdir(os.path.join(ROOT, "data", "news")) if f.endswith(".json")}
     bad = [(s.get("code", "?"), p) for s in scripts for p in problems(s, slugs)]
+    tails = {}
+    for s in scripts:
+        if title_tail(s.get("title")):
+            tails.setdefault(title_tail(s.get("title")), []).append(s.get("code", "?"))
+    bad += [(codes[1], 'title ends like %s ("... %s"): give each video its own headline' % (codes[0], t))
+            for t, codes in tails.items() if len(codes) > 1]
     if bad:
         for code, p in bad:
             print("%s: %s" % (code, p))

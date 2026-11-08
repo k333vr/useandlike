@@ -292,7 +292,14 @@ time or all in one session). Kevin strikes the ones he doesn't want. A script sh
 - **`facts`**: 3-6 short lines she can check against the script: the numbers, dates, places and plans it says.
 - **Each script stands alone**: the editor also joins the day's recorded stories into the next day's "If you missed it"
   compilation, so no "as I said", "in my last video" or "next up".
-- **For the uploader:** `title` (about 60 characters at most, app name first, plain words, no clickbait or capitals),
+- **For the uploader:** `title` (about 60 characters at most, plain words, no clickbait or capitals): a news headline
+  of its own every time (Kevin, 8 Nov 2026: "it should look a fresh news title all the time"; 54 of 81 titles had read
+  "<app>: new app climbing the App Store"). It says what the app does or what changed, with the app's name in it:
+  known apps first ("ChatGPT can now make animated GIFs"); a new app may lead with the hook ("Will the mountain be out?
+  Mountain Visibility Forecast says", "Scratchpost is cat TV your cat can't swipe away"). Write it from the story's
+  head and thumbnail words, never from the candidate's title; no chart place unless the move is the news; no two
+  titles of a day in the same shape or with the same ending (news-scripts.py refuses "climbing the App Store" labels
+  and two titles that end in the same 4 words).
   `pinned` (since 3 Nov: one short question to the viewers about the story for the pinned comment, at most about 70
   characters, e.g. `Would you lock your private chats with a PIN?`; the script page adds 👇 and the newsletter line)
   and `description`:
@@ -300,9 +307,13 @@ time or all in one session). Kevin strikes the ones he doesn't want. A script sh
   ```
   <one sentence: what happened>
   Full story: https://useandlike.com/news/<slug>/
-  📩 Free 30-second app newsletter: https://useandlike.com/join
+  📩 More app news like this, free by email: https://useandlike.com/join
   Source: <the outlets>
   ```
+
+  The newsletter line for news viewers (Kevin, 8 Nov: no tracker and no "30-second" for news, "something like" daily
+  app news): what they get, no promise we don't keep. "Daily" only once an issue really goes out every day (the script
+  page's pinned comment uses the same line).
 - Examples: the six scripts of 1 Nov 2026 (`python3 scripts/news-scripts.py list --day 2026-11-01`).
 - **`code`** = "N" + month and day of today + "-" + `rank` in two digits (`N1102-01`); `day` = today; `rank` = the
   order she should record them in (the lead story first). Also `slug`, `item`, `head` and `sources` from the story.
