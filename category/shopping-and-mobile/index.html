@@ -591,7 +591,7 @@ html[data-test="fp1-b"] .fp-search { display: grid; justify-items: center; gap: 
   // >>> visit-count (scripts/build-pages.js copies this block into every generated page; it needs SITE_T)
   // Our own counting (Kevin, 9 Nov 2026: "everything to track them even more if possible to make the best tests every
   // week"): no cookies, no outside scripts, nothing personal. The page asks this site for a tiny address such as
-  // /e/google/fp1-b/home/scroll-90; nothing is there ("not found"), but Cloudflare counts how often each address was
+  // /e/google/fp1-b/home/1/scroll-90; nothing is there ("not found"), but Cloudflare counts how often each address was
   // asked for, and useandlike-ops/analysis/site-events.py reads the totals: how visits start (only the name of the site
   // that sent them), pages per visit, scrolling, time in view, what kind of link was clicked, per A/B version
   // (SITE_TEST). The open tab keeps two notes, gone when the tab closes: "ul-visit" (how the visit started, how many
@@ -606,7 +606,8 @@ html[data-test="fp1-b"] .fp-search { display: grid; justify-items: center; gap: 
     var again = !!v && (nav === "reload" || nav === "back_forward");   // the same page again, not a new page or visit
     if (!v || (!inside && !again)) {
       var q = location.search + location.hash;
-      var from = /utm_medium=news([&#]|$)/.test(q) ? "yt-news" : /utm_source=youtube/.test(q) ? "yt-join" :
+      var from = inside ? "tab" :                         // a page of ours opened in a new tab: part of a visit, not a new one
+        /utm_medium=news([&#]|$)/.test(q) ? "yt-news" : /utm_source=youtube/.test(q) ? "yt-join" :
         /utm_(source|medium)=[^&#]*(newsletter|email|beehiiv)/.test(q) ? "newsletter" : !ref ? "direct" :
         /(^|\.)google\./.test(ref) ? "google" :
         /(^|\.)(bing\.com|duckduckgo\.com|yahoo\.com|ecosia\.org|search\.brave\.com|yandex\.\w+)$/.test(ref) ? "search" :
@@ -624,11 +625,11 @@ html[data-test="fp1-b"] .fp-search { display: grid; justify-items: center; gap: 
     var segs = location.pathname.split("/"), seg = segs[1] || "";
     var page = seg === "news" && segs[2] ? "story" :
       seg || (location.hash.length > 1 ? "home-" + location.hash.slice(1).split(/[-?]/)[0] : "home");
-    var sent = {};
+    var sent = {}, step = v.n >= 3 ? "3" : String(v.n);  // the visit's 1st, 2nd or 3rd+ page
     function count(ev) {
       if (sent[ev]) return;
       sent[ev] = 1;
-      var path = "/e/" + [v.f, v.t || "-", page, ev].map(function (x) {
+      var path = "/e/" + [v.f, v.t || "-", page, step, ev].map(function (x) {
         return String(x).toLowerCase().replace(/[^a-z0-9.]+/g, "-").slice(0, 60) || "-";
       }).join("/");
       try { fetch(path, { method: "HEAD", cache: "no-store", keepalive: true, credentials: "omit" }).catch(function () {}); } catch (e) {}
