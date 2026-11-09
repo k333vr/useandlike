@@ -628,11 +628,18 @@ html[data-test="fp1-b"] .fp-search { display: grid; justify-items: center; gap: 
         return String(x).toLowerCase().replace(/[^a-z0-9.]+/g, "-").slice(0, 60) || "-";
       }).join("/");
       try { fetch(path, { method: "HEAD", cache: "no-store", keepalive: true, credentials: "omit" }).catch(function () {}); } catch (e) {}
+      // Read the first page (30 s in view, or scrolled to its end): once per visit, so one-page visits that found what
+      // they came for can be told apart from those that left at once (Kevin, 9 Nov).
+      if (step === "1" && !v.r && (ev === "stay-30s" || ev === "scroll-90")) {
+        v.r = 1;
+        try { sessionStorage.setItem("ul-visit", JSON.stringify(v)); } catch (e) {}
+        count("read");
+      }
     }
     window.ulCount = count;
     count(v.n === 1 && !again ? "arrive" : "view");    // the first page of a visit, or a later one (or the same again)
     if (v.n === 1 && !again && v.h) count("from-" + v.h);  // only the name of the site that sent them
-    if (v.n === 2 && !again) count("page-2-from-" + (v.l || "x"));   // went on to a 2nd page (and where it had started)
+    if (v.n === 2 && !again) count("page-2-from-" + (v.l || "x") + (v.r ? "-read" : ""));   // went on to a 2nd page
     if (v.n === 5 && !again) count("page-5");
     function onScroll() {
       var tall = Math.max(document.documentElement.scrollHeight, document.body ? document.body.scrollHeight : 0, 1);
