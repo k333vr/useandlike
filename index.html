@@ -1108,7 +1108,7 @@ html[data-test="fp1-b"] .fp-search { display: grid; justify-items: center; gap: 
     if (e.origin !== "https://subscribe-forms.beehiiv.com" || !e.data || e.data.type !== "beehiiv:submitted") return;
     if (SU && !suCounted) {
       suCounted = true;
-      suCount("/c-" + SU);
+      suCount("/" + ["c", SU].join("-"));   // built in parts: Google tried "/c-" as a page (404 in Search Console, 9 Nov)
       try { localStorage.setItem("ul-su", SU); } catch (err) {}
     }
     if (window.ulCount) window.ulCount("signup");   // also in the visit counting: how the visit started, its site test version
@@ -1158,7 +1158,7 @@ html[data-test="fp1-b"] .fp-search { display: grid; justify-items: center; gap: 
     function count(ev) {
       if (sent[ev]) return;
       sent[ev] = 1;
-      var path = "/e/" + [v.f, v.t || "-", page, step, ev].map(function (x) {
+      var path = "/" + ["e", v.f, v.t || "-", page, step, ev].map(function (x) {
         return String(x).toLowerCase().replace(/[^a-z0-9.]+/g, "-").slice(0, 60) || "-";
       }).join("/");
       try { fetch(path, { method: "HEAD", cache: "no-store", keepalive: true, credentials: "omit" }).catch(function () {}); } catch (e) {}
@@ -1590,7 +1590,7 @@ html[data-test="fp1-b"] .fp-search { display: grid; justify-items: center; gap: 
     if (id === "welcome") {   // the sign-up test's version, if this browser signed up (signup-step above)
       try {
         var suv = localStorage.getItem("ul-su");
-        if (suv && /^su\d+-[ab]$/.test(suv)) { suCount("/c-" + suv + "-ok"); localStorage.removeItem("ul-su"); }
+        if (suv && /^su\d+-[ab]$/.test(suv)) { suCount("/" + ["c", suv, "ok"].join("-")); localStorage.removeItem("ul-su"); }
       } catch (e) {}
     }
     if (lastRoute === "" || lastRoute === "videos") homeScroll = window.scrollY;
