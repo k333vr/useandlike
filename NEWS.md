@@ -308,10 +308,14 @@ time or all in one session). Kevin strikes the ones he doesn't want. A script sh
 
   ```
   <one sentence: what happened>
+
   Full story: https://useandlike.com/news/<slug>/
   📩 More app news like this, free by email: https://useandlike.com/email
+
   Source: <the outlets>
   ```
+
+  With the empty lines (Kevin, 9 Nov, on the first uploads: the descriptions "look a bit stuffed").
 
   The newsletter line for news viewers (Kevin, 8 Nov: no tracker and no "30-second" for news, "something like" daily
   app news): what they get, no promise we don't keep. "Daily" only once an issue really goes out every day (the script
