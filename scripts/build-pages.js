@@ -808,7 +808,7 @@ ${TOP_NEWS.slice(0, 50).map(s => `<item><title>${x(s.head)}</title><link>${SITE}
     '<section class="hs" aria-labelledby="hs-h"><h1 id="hs-h">What app do you need help with?</h1>' +
       `<p class="lead">Search ${esc(vids.length.toLocaleString("en-US"))} how-to videos from our channels, our app news and the deals we checked.</p>` +
       '<div class="sbox"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>' +
-      '<input id="q" type="search" placeholder="Try Wise, CapCut, VPN, ChatGPT..." autocomplete="off" aria-label="Search our how-tos, news and deals" aria-controls="res"></div>' +
+      '<input id="q" type="search" placeholder="Try Wise, CapCut, VPN" autocomplete="off" aria-label="Search our how-tos, news and deals" aria-controls="res"></div>' +
       `<div class="qchips" role="group" aria-label="Popular searches">${chips.map(c => `<button type="button" data-q="${esc(c)}">${esc(c)}</button>`).join("")}</div>` +
       '<div class="results" id="res" aria-live="polite" hidden></div></section>',
     RECOMMENDED.length ? `<section aria-labelledby="hp-h">${secHead("hp-h", "How-tos people watch")}\n${grid(RECOMMENDED.slice(0, 8))}</section>` : "",
@@ -902,7 +902,7 @@ function frontPage() {
     '<form class="fp-search" action="/how-tos/" method="get" role="search">' +
       '<label for="fpq">What app do you need help with?</label>' +
       '<div class="sbox"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>' +
-      '<input id="fpq" name="q" type="search" placeholder="Try Wise, CapCut, VPN, ChatGPT..." autocomplete="off">' +
+      '<input id="fpq" name="q" type="search" placeholder="Try Wise, CapCut, VPN" autocomplete="off">' +
       '<button type="submit" data-c="fp-search">Search</button></div></form>',
     `<section class="lead-story card" style="${cardColour(lead)}" data-lead-style="card" aria-labelledby="lead-h">` +
       `<a href="/${newsPath(lead)}" tabindex="-1" aria-hidden="true">${appMark(lead, "lg")}</a>` +
