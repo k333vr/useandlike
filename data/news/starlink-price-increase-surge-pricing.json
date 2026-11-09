@@ -1,0 +1,26 @@
+{
+ "slug": "starlink-price-increase-surge-pricing",
+ "date": "2026-11-07",
+ "added": "2026-11-09",
+ "topic": "Money",
+ "tag": "Price change",
+ "head": "Starlink price increase: surge pricing raises some US plans 10-20%",
+ "dek": "SpaceX emailed Starlink customers across the US that Residential prices are going up 10% to 20% in busy areas, saying it needs to manage supply and demand. The Residential Max plan goes from $130 to $156 a month at 20%.",
+ "details": "Starlink's dynamic pricing appears to have spread from the Midwest to the whole US. Starlink says prices may change as more people in an area use the service.",
+ "where": "US, Starlink Residential plans in affected areas",
+ "means": "If you have Starlink at home, check your email: your monthly bill may rise.",
+ "todo": "Read Starlink's email for your new price, and compare other internet options in your area before it takes effect.",
+ "rank": 20,
+ "apps": [
+  "Starlink"
+ ],
+ "item": 58688,
+ "thumb_words": "STARLINK RAISES PRICES UP TO 20%",
+ "sources": [
+  {
+   "name": "PCMag",
+   "url": "https://www.pcmag.com/news/wtf-is-this-price-increase-starlinks-surge-pricing-expands-igniting-backlash"
+  }
+ ],
+ "checked": "2026-11-09"
+}

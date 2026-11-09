@@ -1,0 +1,109 @@
+{
+ "slug": "new-music-apps-2026-11-09",
+ "date": "2026-11-09",
+ "added": "2026-11-09",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "7 new music apps climbing the App Store this week",
+ "dek": "These music apps came out in the last 60 days and rose into the US App Store's Music charts this week, from NostalgicPod to Tapko Harmony.",
+ "where": "iPhone and iPad, US App Store charts this week",
+ "means": "If you're looking for something new in music, these are small apps people are buying right now.",
+ "todo": "Open each app's App Store page to check the price, in-app purchases and what it needs before you download.",
+ "rank": 6,
+ "apps": [
+  "NostalgicPod",
+  "Midgar - Ambience Effect",
+  "VU303",
+  "TONAUT",
+  "M8 Music Tracker",
+  "Countoff Pro",
+  "Tapko Harmony"
+ ],
+ "list": [
+  {
+   "name": "NostalgicPod",
+   "what": "A retro-style music player for your own library, home media servers, internet radio and podcasts.",
+   "price": "$4.99",
+   "maker": "Jesus manuel Curreri",
+   "url": "https://apps.apple.com/us/app/nostalgicpod/id6781631808"
+  },
+  {
+   "name": "Midgar - Ambience Effect",
+   "what": "Turns a few simple sounds into moving, layered ambience.",
+   "price": "$9.99",
+   "maker": "Bram Bos",
+   "url": "https://apps.apple.com/us/app/midgar-ambience-effect/id6824241131"
+  },
+  {
+   "name": "VU303",
+   "what": "A pocket phrase sampler and pattern sequencer styled after late-'90s hardware, the successor to VU202.",
+   "price": "$3.99",
+   "maker": "Dariusz Chynek",
+   "url": "https://apps.apple.com/us/app/vu303/id6820495772"
+  },
+  {
+   "name": "TONAUT",
+   "what": "A synthesizer, drum machine, sequencer and eight-track tape recorder in one app.",
+   "price": "$14.99",
+   "maker": "Richard Rogers",
+   "url": "https://apps.apple.com/us/app/tonaut/id6812577930"
+  },
+  {
+   "name": "M8 Music Tracker",
+   "what": "An eight-track music tracker, sequencer and synthesizer from Dirtywave.",
+   "price": "$29.99",
+   "maker": "Dirtywave",
+   "url": "https://apps.apple.com/us/app/m8-music-tracker/id6806721202"
+  },
+  {
+   "name": "Countoff Pro",
+   "what": "A metronome for counting in a song, without running the whole time.",
+   "price": "$2.99",
+   "maker": "Andrew Toy",
+   "url": "https://apps.apple.com/us/app/countoff-pro/id6824063033"
+  },
+  {
+   "name": "Tapko Harmony",
+   "what": "Turns your guitar chords into live vocal harmonies, like a harmony pedal.",
+   "price": "$9.99",
+   "maker": "David Lars Guva",
+   "url": "https://apps.apple.com/us/app/tapko-harmony/id6771907011"
+  }
+ ],
+ "thumb_words": "7 NEW MUSIC APPS",
+ "sources": [
+  {
+   "name": "App Store chart",
+   "url": "https://apps.apple.com/us/iphone/charts/6011"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/nostalgicpod/id6781631808"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/midgar-ambience-effect/id6824241131"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/vu303/id6820495772"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/tonaut/id6812577930"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/m8-music-tracker/id6806721202"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/countoff-pro/id6824063033"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/tapko-harmony/id6771907011"
+  }
+ ],
+ "checked": "2026-11-09"
+}

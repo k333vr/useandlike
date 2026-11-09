@@ -1,0 +1,22 @@
+{
+ "slug": "homeview-chatbots-ios-27-3-code",
+ "date": "2026-11-08",
+ "added": "2026-11-09",
+ "topic": "Apple",
+ "tag": "Quick",
+ "rumor": true,
+ "head": "Apple's HomeView may get chatbot apps",
+ "dek": "Code in the iOS 27.3 beta has a \"Conversational Apps\" category for HomeView, suggesting chatbots could come to Apple's home hub; Apple hasn't announced it.",
+ "quick": true,
+ "apps": [
+  "HomeView"
+ ],
+ "item": 62246,
+ "sources": [
+  {
+   "name": "The Verge",
+   "url": "https://www.theverge.com/tech/1029526/chatbots-might-be-coming-to-apples-homeview"
+  }
+ ],
+ "checked": "2026-11-09"
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "outlook-com-missing-emails",
+ "date": "2026-11-08",
+ "added": "2026-11-09",
+ "topic": "Email",
+ "tag": "Heads-up",
+ "head": "Outlook.com and Hotmail not receiving some emails since 5 November",
+ "dek": "Some Outlook.com and Hotmail users aren't getting emails because messages to them bounce, and senders are told they failed an SPF authentication check, even when their settings are correct. Windows Latest reproduced it on 8 November.",
+ "details": "It seems to affect only a small share of messages, and resending sometimes works. One sender reported the same email reached a Gmail recipient but bounced at Hotmail. Microsoft hasn't commented.",
+ "where": "Outlook.com and Hotmail accounts, since at least 5 November",
+ "means": "If someone says their email bounced, or you're waiting for a code or invoice that never arrives, this bug may be why.",
+ "todo": "Ask senders to try again, and for important mail, give a second address for now.",
+ "rank": 1,
+ "apps": [
+  "Outlook"
+ ],
+ "item": 59409,
+ "thumb_words": "OUTLOOK.COM EMAILS BOUNCING",
+ "sources": [
+  {
+   "name": "Windows Latest",
+   "url": "https://www.windowslatest.com/2026/11/08/your-outlook-com-inbox-may-be-silently-missing-emails-since-nov-5-and-even-senders-with-valid-settings-are-getting-blocked/"
+  }
+ ],
+ "checked": "2026-11-09"
+}

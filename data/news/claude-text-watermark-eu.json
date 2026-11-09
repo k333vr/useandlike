@@ -1,0 +1,21 @@
+{
+ "slug": "claude-text-watermark-eu",
+ "date": "2026-11-07",
+ "added": "2026-11-09",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Anthropic adds an invisible watermark to Claude's text",
+ "dek": "Claude now adds a hidden, machine-readable watermark to the text it writes, ahead of an EU deadline in December; older models get it on 16 November.",
+ "quick": true,
+ "apps": [
+  "Claude"
+ ],
+ "item": 59525,
+ "sources": [
+  {
+   "name": "ARY News",
+   "url": "https://arynews.tv/anthropic-adds-invisible-watermarks-to-all-claude-ai-text-to-meet-eu-laws"
+  }
+ ],
+ "checked": "2026-11-09"
+}

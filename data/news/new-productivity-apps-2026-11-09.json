@@ -1,0 +1,109 @@
+{
+ "slug": "new-productivity-apps-2026-11-09",
+ "date": "2026-11-09",
+ "added": "2026-11-09",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "7 new productivity apps climbing the App Store this week",
+ "dek": "These productivity apps came out in the last 60 days and rose into the US App Store's Productivity charts this week, from 2Do: To Do List & Task Manager to Foreweek: Weekly Planner.",
+ "where": "iPhone and iPad, US App Store charts this week",
+ "means": "If you're looking for something new in productivity, these are small apps people are buying right now.",
+ "todo": "Open each app's App Store page to check the price, in-app purchases and what it needs before you download.",
+ "rank": 4,
+ "apps": [
+  "2Do: To Do List & Task Manager",
+  "Ellipsus",
+  "Bare",
+  "ShiftBoard: Shift Calendar",
+  "GoaTime",
+  "Calendaria",
+  "Foreweek: Weekly Planner"
+ ],
+ "list": [
+  {
+   "name": "2Do: To Do List & Task Manager",
+   "what": "A task manager for simple lists or a full GTD system; it needs a subscription.",
+   "price": "$9.99",
+   "maker": "Beehive Innovations Services",
+   "url": "https://apps.apple.com/us/app/2do-to-do-list-task-manager/id1470214600"
+  },
+  {
+   "name": "Ellipsus",
+   "what": "A creative writing app for writing with co-authors, editors and beta readers.",
+   "price": "Free",
+   "maker": "Ellipsus",
+   "url": "https://apps.apple.com/us/app/ellipsus/id6800009917"
+  },
+  {
+   "name": "Bare",
+   "what": "A shopping list that sorts items by store section as you type.",
+   "price": "$2.00",
+   "maker": "Sindre Sorhus",
+   "url": "https://apps.apple.com/us/app/bare/id6825378510"
+  },
+  {
+   "name": "ShiftBoard: Shift Calendar",
+   "what": "Puts firefighter, EMT and dispatcher shift rotations on one calendar.",
+   "price": "$0.99",
+   "maker": "Chisholm Digital LLC",
+   "url": "https://apps.apple.com/us/app/shiftboard-shift-calendar/id6829999293"
+  },
+  {
+   "name": "GoaTime",
+   "what": "Tasks, daily planning and time tracking in one app.",
+   "price": "$4.99",
+   "maker": "Cache Money LLC",
+   "url": "https://apps.apple.com/us/app/goatime/id6761127800"
+  },
+  {
+   "name": "Calendaria",
+   "what": "Shows your whole year as one continuous calendar list.",
+   "price": "$4.99",
+   "maker": "Jorge Cohen",
+   "url": "https://apps.apple.com/us/app/calendaria/id6820440624"
+  },
+  {
+   "name": "Foreweek: Weekly Planner",
+   "what": "A weekly planner for a few goals that make the week a success.",
+   "price": "$2.99",
+   "maker": "Rahul Chowdhury",
+   "url": "https://apps.apple.com/us/app/foreweek-weekly-planner/id6825166311"
+  }
+ ],
+ "thumb_words": "7 NEW PRODUCTIVITY APPS",
+ "sources": [
+  {
+   "name": "App Store chart",
+   "url": "https://apps.apple.com/us/iphone/charts/6007"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/2do-to-do-list-task-manager/id1470214600"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/ellipsus/id6800009917"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/bare/id6825378510"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/shiftboard-shift-calendar/id6829999293"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/goatime/id6761127800"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/calendaria/id6820440624"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/foreweek-weekly-planner/id6825166311"
+  }
+ ],
+ "checked": "2026-11-09"
+}

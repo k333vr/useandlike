@@ -1,0 +1,21 @@
+{
+ "slug": "unsubscribe-mac-app",
+ "date": "2026-11-08",
+ "added": "2026-11-09",
+ "topic": "Email",
+ "tag": "Quick",
+ "head": "Unsubscribe is a Mac app that leaves mailing lists in one click",
+ "dek": "Unsubscribe scans your mail, lists every sender with an unsubscribe link and lets you leave with one click; your mail stays on your Mac.",
+ "quick": true,
+ "apps": [
+  "Unsubscribe"
+ ],
+ "item": 61936,
+ "sources": [
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/unsubscribe"
+  }
+ ],
+ "checked": "2026-11-09"
+}

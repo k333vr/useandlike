@@ -1,0 +1,21 @@
+{
+ "slug": "whatsapp-text-actions",
+ "date": "2026-11-08",
+ "added": "2026-11-09",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "head": "WhatsApp underlines numbers, dates and addresses in chats",
+ "dek": "WhatsApp now spots phone numbers, dates, addresses and emails in messages and underlines them so you can tap for a quick action.",
+ "quick": true,
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 60911,
+ "sources": [
+  {
+   "name": "WABetaInfo",
+   "url": "https://wabetainfo.com/whatsapp-introduces-smart-message-text-actions-for-chats/"
+  }
+ ],
+ "checked": "2026-11-09"
+}

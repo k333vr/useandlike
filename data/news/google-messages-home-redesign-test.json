@@ -1,0 +1,21 @@
+{
+ "slug": "google-messages-home-redesign-test",
+ "date": "2026-11-07",
+ "added": "2026-11-09",
+ "topic": "Google",
+ "tag": "Quick",
+ "head": "Google Messages tests a new home screen",
+ "dek": "Google Messages for Android is testing a redesigned home page with pinned chats as avatars above the list, search at the bottom and Gemini in the corner.",
+ "quick": true,
+ "apps": [
+  "Google Messages"
+ ],
+ "item": 60615,
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/07/google-messages-pinned-chats-redesign/"
+  }
+ ],
+ "checked": "2026-11-09"
+}

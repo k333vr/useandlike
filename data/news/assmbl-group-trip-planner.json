@@ -1,0 +1,21 @@
+{
+ "slug": "assmbl-group-trip-planner",
+ "date": "2026-11-08",
+ "added": "2026-11-09",
+ "topic": "Travel",
+ "tag": "Quick",
+ "head": "Assmbl plans group trips in one shareable link",
+ "dek": "Assmbl puts date and place polls, private budgets, tasks and shared costs for a group trip into one link that works in any chat, with no app or sign-up for friends.",
+ "quick": true,
+ "apps": [
+  "Assmbl"
+ ],
+ "item": 61935,
+ "sources": [
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/assmbl"
+  }
+ ],
+ "checked": "2026-11-09"
+}

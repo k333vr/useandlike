@@ -1,0 +1,21 @@
+{
+ "slug": "tiktok-eu-fyp-warning",
+ "date": "2026-11-07",
+ "added": "2026-11-09",
+ "topic": "Social",
+ "tag": "Quick",
+ "head": "EU says TikTok's For You feed may break its rules",
+ "dek": "The European Commission's preliminary findings say TikTok didn't do enough about the mental health risks of its personalized feed, and could face fines.",
+ "quick": true,
+ "apps": [
+  "TikTok"
+ ],
+ "item": 58886,
+ "sources": [
+  {
+   "name": "Mashable",
+   "url": "https://mashable.com/tech/tiktok-algorithm-violates-eu-law"
+  }
+ ],
+ "checked": "2026-11-09"
+}

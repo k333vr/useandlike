@@ -1,0 +1,22 @@
+{
+ "slug": "gboard-rambler-vocabulary",
+ "date": "2026-11-07",
+ "added": "2026-11-09",
+ "topic": "Google",
+ "tag": "Quick",
+ "rumor": true,
+ "head": "Gboard's Rambler voice typing may learn your corrected words",
+ "dek": "Android Authority found code that would let Rambler, Gboard's Pixel-only AI voice typing, remember words you correct; it isn't out yet.",
+ "quick": true,
+ "apps": [
+  "Gboard"
+ ],
+ "item": 58811,
+ "sources": [
+  {
+   "name": "GSMArena",
+   "url": "https://www.gsmarena.com/google_to_add_vocabulary_for_corrected_words_to_gboards_rambler_voice_typing_feature-news-75397.php"
+  }
+ ],
+ "checked": "2026-11-09"
+}

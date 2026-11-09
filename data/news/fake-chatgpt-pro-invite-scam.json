@@ -1,0 +1,26 @@
+{
+ "slug": "fake-chatgpt-pro-invite-scam",
+ "date": "2026-11-08",
+ "added": "2026-11-09",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "Free ChatGPT Pro invite scam: fake OpenAI event page steals your logins",
+ "dek": "A fake OpenAI Academy page invites you to a 4 November marketing livestream and promises three months of ChatGPT Pro, but it's built to steal Microsoft and Google logins, security firm Push Security found.",
+ "details": "Similar fake pages copied a SpaceX briefing and an Anthropic session at AWS re:Invent. The links reach people through Google and Zapier short links, so they look harmless. None of the companies is behind them, and there's no free subscription.",
+ "where": "Worldwide, by email and messages",
+ "means": "If an invite promises free ChatGPT Pro for signing up to an event, it's likely this scam.",
+ "todo": "Don't sign in with Microsoft or Google on a page you reached from an invite; go to openai.com yourself to check any offer.",
+ "rank": 2,
+ "apps": [
+  "ChatGPT"
+ ],
+ "item": 62764,
+ "thumb_words": "FREE CHATGPT PRO? IT'S A SCAM",
+ "sources": [
+  {
+   "name": "DESIblitz",
+   "url": "https://www.desiblitz.com/content/a-free-chatgpt-pro-invite-could-be-a-scam"
+  }
+ ],
+ "checked": "2026-11-09"
+}

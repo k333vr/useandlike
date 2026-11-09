@@ -1,0 +1,109 @@
+{
+ "slug": "new-graphics-and-design-apps-2026-11-09",
+ "date": "2026-11-09",
+ "added": "2026-11-09",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "7 new design apps climbing the App Store this week",
+ "dek": "These design apps came out in the last 60 days and rose into the US App Store's Graphics & Design charts this week, from AltoPaint: Oil & Gouache to FoldTales: Duo Wallpapers.",
+ "where": "iPhone and iPad, US App Store charts this week",
+ "means": "If you're looking for something new in design, these are small apps people are buying right now.",
+ "todo": "Open each app's App Store page to check the price, in-app purchases and what it needs before you download.",
+ "rank": 5,
+ "apps": [
+  "AltoPaint: Oil & Gouache",
+  "Google Flow",
+  "Vectora",
+  "Tracery: AR Trace & Draw",
+  "FormWright 3D",
+  "Icon Goodies",
+  "FoldTales: Duo Wallpapers"
+ ],
+ "list": [
+  {
+   "name": "AltoPaint: Oil & Gouache",
+   "what": "A pocket paint set with twelve pigments that mix like real paint, and no undo.",
+   "price": "$4.99",
+   "maker": "High Line Labs LLC",
+   "url": "https://apps.apple.com/us/app/altopaint-oil-gouache/id6825181273"
+  },
+  {
+   "name": "Google Flow",
+   "what": "Google's AI studio for making and editing images and videos on your phone.",
+   "price": "Free",
+   "maker": "Google",
+   "url": "https://apps.apple.com/us/app/google-flow/id6751294549"
+  },
+  {
+   "name": "Vectora",
+   "what": "A vector drawing app for fingers or Apple Pencil, with no subscription.",
+   "price": "$6.99",
+   "maker": "Eliezer Fontanez",
+   "url": "https://apps.apple.com/us/app/vectora/id6770145337"
+  },
+  {
+   "name": "Tracery: AR Trace & Draw",
+   "what": "Lays a photo over real paper so you can trace it with a pencil.",
+   "price": "$0.99",
+   "maker": "Hiroaki Tajima",
+   "url": "https://apps.apple.com/us/app/tracery-ar-trace-draw/id6818804647"
+  },
+  {
+   "name": "FormWright 3D",
+   "what": "3D modeling, sculpting, painting and animation on iPad and iPhone.",
+   "price": "$19.99",
+   "maker": "Don Stevenson",
+   "url": "https://apps.apple.com/us/app/formwright-3d/id6808143078"
+  },
+  {
+   "name": "Icon Goodies",
+   "what": "Saves original, full-quality App Store artwork for mockups and mood boards.",
+   "price": "$0.99",
+   "maker": "ZooKeeper Media LLC",
+   "url": "https://apps.apple.com/us/app/icon-goodies/id6806838583"
+  },
+  {
+   "name": "FoldTales: Duo Wallpapers",
+   "what": "Wallpaper art for the iPhone Duo with a second scene to discover inside.",
+   "price": "$3.99",
+   "maker": "NOH HIYEONG",
+   "url": "https://apps.apple.com/us/app/foldtales-duo-wallpapers/id6814663847"
+  }
+ ],
+ "thumb_words": "7 NEW DESIGN APPS",
+ "sources": [
+  {
+   "name": "App Store chart",
+   "url": "https://apps.apple.com/us/iphone/charts/6027"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/altopaint-oil-gouache/id6825181273"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/google-flow/id6751294549"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/vectora/id6770145337"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/tracery-ar-trace-draw/id6818804647"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/formwright-3d/id6808143078"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/icon-goodies/id6806838583"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/foldtales-duo-wallpapers/id6814663847"
+  }
+ ],
+ "checked": "2026-11-09"
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "windows-11-sticky-keys-popup-off",
+ "date": "2026-11-08",
+ "added": "2026-11-09",
+ "topic": "Windows",
+ "tag": "Quick",
+ "head": "Windows 11 tests a way to stop the Sticky Keys popup for good",
+ "dek": "A new Windows 11 Insider build adds \"Never turn on Sticky Keys with this shortcut\" to the popup that appears when you press Shift five times.",
+ "quick": true,
+ "apps": [
+  "Windows 11"
+ ],
+ "item": 62333,
+ "sources": [
+  {
+   "name": "Windows Latest",
+   "url": "https://www.windowslatest.com/2026/11/08/microsoft-took-31-years-to-let-you-kill-windows-11s-sticky-keys-popup-which-exists-because-of-a-windows-95-era-pinball-game/"
+  }
+ ],
+ "checked": "2026-11-09"
+}

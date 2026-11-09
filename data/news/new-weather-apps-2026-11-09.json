@@ -1,0 +1,121 @@
+{
+ "slug": "new-weather-apps-2026-11-09",
+ "date": "2026-11-09",
+ "added": "2026-11-09",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "8 new weather apps climbing the App Store this week",
+ "dek": "These weather apps came out in the last 60 days and rose into the US App Store's Weather charts this week, from Local Skies: Retro Weather to HIRKA: What to Wear Today.",
+ "where": "iPhone and iPad, US App Store charts this week",
+ "means": "If you're looking for something new in weather, these are small apps people are buying right now.",
+ "todo": "Open each app's App Store page to check the price, in-app purchases and what it needs before you download.",
+ "rank": 2,
+ "apps": [
+  "Local Skies: Retro Weather",
+  "Mountain Visibility Forecast",
+  "mote: weather in dots",
+  "AniMeteo: Pixel Art Weather",
+  "Weathersive - Weather Insights",
+  "Weather, Actually",
+  "NoAd Radar",
+  "HIRKA: What to Wear Today"
+ ],
+ "list": [
+  {
+   "name": "Local Skies: Retro Weather",
+   "what": "Shows the forecast like a classic TV weather report, with a ticker.",
+   "price": "$2.99",
+   "maker": "Aram Ormanian",
+   "url": "https://apps.apple.com/us/app/local-skies-retro-weather/id6811264183"
+  },
+  {
+   "name": "Mountain Visibility Forecast",
+   "what": "Forecasts whether a mountain will be visible from where you are.",
+   "price": "$1.99",
+   "maker": "MileCheck LLC",
+   "url": "https://apps.apple.com/us/app/mountain-visibility-forecast/id6810003955"
+  },
+  {
+   "name": "mote: weather in dots",
+   "what": "Draws the sky and the forecast in dots, with the real moon phase at night.",
+   "price": "$3.99",
+   "maker": "Kaleb Hines",
+   "url": "https://apps.apple.com/us/app/mote-weather-in-dots/id6823423927"
+  },
+  {
+   "name": "AniMeteo: Pixel Art Weather",
+   "what": "Puts a tiny animated pixel-art sky on your watch face.",
+   "price": "$0.99",
+   "maker": "Luca Mattiazzi",
+   "url": "https://apps.apple.com/us/app/animeteo-pixel-art-weather/id6817347643"
+  },
+  {
+   "name": "Weathersive - Weather Insights",
+   "what": "Compares today's weather with up to 30 years of history.",
+   "price": "$2.99",
+   "maker": "Tomasz Korolko",
+   "url": "https://apps.apple.com/us/app/weathersive-weather-insights/id6818852470"
+  },
+  {
+   "name": "Weather, Actually",
+   "what": "Explains the forecast in plain words, from Super basic to Nerd.",
+   "price": "$2.99",
+   "maker": "Walker Tracy",
+   "url": "https://apps.apple.com/us/app/weather-actually/id6821685460"
+  },
+  {
+   "name": "NoAd Radar",
+   "what": "A weather radar with a dot-style map and no ads.",
+   "price": "$1.99",
+   "maker": "Cicada Group, LLC",
+   "url": "https://apps.apple.com/us/app/noad-radar/id6815392968"
+  },
+  {
+   "name": "HIRKA: What to Wear Today",
+   "what": "Tells you what to wear instead of the temperature.",
+   "price": "Free",
+   "maker": "Ege Yildizli",
+   "url": "https://apps.apple.com/us/app/hirka-what-to-wear-today/id6822456382"
+  }
+ ],
+ "thumb_words": "8 NEW WEATHER APPS",
+ "sources": [
+  {
+   "name": "App Store chart",
+   "url": "https://apps.apple.com/us/iphone/charts/6001"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/local-skies-retro-weather/id6811264183"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/mountain-visibility-forecast/id6810003955"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/mote-weather-in-dots/id6823423927"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/animeteo-pixel-art-weather/id6817347643"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/weathersive-weather-insights/id6818852470"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/weather-actually/id6821685460"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/noad-radar/id6815392968"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/hirka-what-to-wear-today/id6822456382"
+  }
+ ],
+ "checked": "2026-11-09"
+}
