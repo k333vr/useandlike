@@ -147,6 +147,21 @@ The owner is a beginner. Explain things in plain language and do as much as poss
   stored; the privacy page says so); on those page views the footer's Work with us link becomes `/c-work-b`. Version A
   = /c-work clicks, version B = /c-work-b + /c-work-strip, each per half of the page views:
   `python3 ../useandlike-ops/analysis/site-links.py 14` (also in the Monday report).
+- Visit counting and site tests (9 Nov 2026, Kevin: "83% leave after one page is crazy ... heavy A B testing here every
+  week"; "everything to track them even more"): our own counting, no cookies, no outside service. The `// >>> visit-count`
+  block in index.html (build-pages.js copies it into every page) sends HEAD requests to
+  `/e/<from>/<version>/<page>/<step>/<event>` (nothing there: 404; Cloudflare counts them; robots.txt keeps crawlers off
+  /e/). from = how the visit started (google, youtube, yt-join, yt-news, newsletter, direct, ai, social, other; tab = a
+  new tab from our own page), page = home/story/news/how-tos/deals/tool/..., step = the visit's 1st/2nd/3rd+ page, events:
+  arrive, view, read (1st page 30 s in view or scrolled to its end), page-2-from-<first page>[-read], page-5, scroll-50/90,
+  stay-30s/2m, click-<kind> (`data-c` on a link names its kind, else it's guessed from the address), search-typed, signup.
+  Two tab-only notes in sessionStorage: "ul-visit" and "ul-t" (the test version). `SITE_TEST` in the EDIT HERE block names
+  the running test ("" = none); build-pages.js writes the `build-pages:test` block into every page's `<head>`, which picks
+  the tab's version and sets `<html data-test="<test>-a|b">` before the page draws (version b's CSS:
+  `html[data-test="fp1-b"] ...`). check.js's local server answers /e/ with 204. Read with
+  `python3 ../useandlike-ops/analysis/site-events.py 7` (and `--test`); the rule, the running test and the next ones:
+  useandlike-ops/plans/site-tests.md. Running: fp1 (front page with a "What app do you need help with?" search bar that
+  opens /how-tos/?q=..., which fills its search from `?q=`). The privacy page describes all of it; update it with any change.
 - Channel videos: `videos.js` (generated, ~2,250 videos about our tools) is loaded only when the Videos tab opens;
   the category and tool pages list the same videos as plain HTML.
   Refresh: `scripts/fetch-videos.sh` (yt-dlp, all videos of the 3 channels -> `data/channel-videos.tsv`), then
