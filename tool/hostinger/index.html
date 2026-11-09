@@ -3,6 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>/* Site test fp1: this tab's version (a or b), kept for the tab only */
+(function () {
+  var T = "fp1", t = "";
+  try { t = sessionStorage.getItem("ul-t") || ""; } catch (e) {}
+  if (t.indexOf(T + "-") !== 0) {
+    t = T + "-" + (Math.random() < 0.5 ? "a" : "b");
+    try { sessionStorage.setItem("ul-t", t); } catch (e) {}
+  }
+  window.ulT = t;
+  document.documentElement.setAttribute("data-test", t);
+})();</script>
 <script>(function () {
   var s = /(^|; )bhv_[^=]+_subscribed=/.test(document.cookie);
   try { s = s || localStorage.getItem("ul-subscribed") === "1"; } catch (e) {}
@@ -420,6 +431,13 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 .sbox { position: relative; width: 100%; max-width: 680px; }
 .sbox input { width: 100%; padding: 15px 18px 15px 48px; border: 2px solid var(--brand); border-radius: 999px; background: var(--surface); color: var(--text); font: 1.05rem var(--sans); }
 .sbox svg { position: absolute; left: 17px; top: 50%; transform: translateY(-50%); color: var(--brand); }
+/* Site test fp1 (SITE_TEST): version b shows a how-to search bar at the top of the front page. */
+.fp-search { display: none; }
+html[data-test="fp1-b"] .fp-search { display: grid; justify-items: center; gap: 10px; margin: 4px 0 22px; text-align: center; }
+.fp-search label { font: 700 clamp(1.3rem, 3.6vw, 1.8rem)/1.15 var(--serif); }
+.fp-search .sbox { display: flex; gap: 8px; }
+.fp-search .sbox input { flex: 1; min-width: 0; }
+.fp-search .sbox button { flex: none; padding: 0 20px; border: 0; border-radius: 999px; background: var(--brand); color: #fff; font: 700 1rem var(--sans); cursor: pointer; }
 .qchips { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
 .qchips button, .more-hits button { padding: 9px 13px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--text); font: 600 .88rem/1 var(--sans); cursor: pointer; }
 .results { display: grid; gap: 12px; width: 100%; max-width: 680px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); text-align: left; }
@@ -664,6 +682,100 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     }
     confirmStep(SU ? SU.slice(-1) : "a");
   });
+
+  var SITE_T = "fp1";
+  // >>> visit-count (scripts/build-pages.js copies this block into every generated page; it needs SITE_T)
+  // Our own counting (Kevin, 9 Nov 2026: "everything to track them even more if possible to make the best tests every
+  // week"): no cookies, no outside scripts, nothing personal. The page asks this site for a tiny address such as
+  // /e/google/fp1-b/home/scroll-90; nothing is there ("not found"), but Cloudflare counts how often each address was
+  // asked for, and useandlike-ops/analysis/site-events.py reads the totals: how visits start (only the name of the site
+  // that sent them), pages per visit, scrolling, time in view, what kind of link was clicked, per A/B version
+  // (SITE_TEST). The open tab keeps two notes, gone when the tab closes: "ul-visit" (how the visit started, how many
+  // pages it opened) and "ul-t" (its test version, picked in the page's <head> by the build-pages:test block, so version
+  // b's changes show from the first moment instead of jumping in). The privacy page says so.
+  (function () {
+    var v = null, ref = "", nav = "";
+    try { ref = document.referrer ? new URL(document.referrer).hostname.replace(/^www\./, "") : ""; } catch (e) {}
+    try { nav = performance.getEntriesByType("navigation")[0].type; } catch (e) {}
+    var inside = /(^|\.)useandlike\.com$/.test(ref) || ref === location.hostname.replace(/^www\./, "");
+    try { v = JSON.parse(sessionStorage.getItem("ul-visit") || "null"); } catch (e) {}
+    var again = !!v && (nav === "reload" || nav === "back_forward");   // the same page again, not a new page or visit
+    if (!v || (!inside && !again)) {
+      var q = location.search + location.hash;
+      var from = /utm_medium=news([&#]|$)/.test(q) ? "yt-news" : /utm_source=youtube/.test(q) ? "yt-join" :
+        /utm_(source|medium)=[^&#]*(newsletter|email|beehiiv)/.test(q) ? "newsletter" : !ref ? "direct" :
+        /(^|\.)google\./.test(ref) ? "google" :
+        /(^|\.)(bing\.com|duckduckgo\.com|yahoo\.com|ecosia\.org|search\.brave\.com|yandex\.\w+)$/.test(ref) ? "search" :
+        /(^|\.)(youtube\.com|youtu\.be)$/.test(ref) ? "youtube" :
+        /(chatgpt\.com|openai\.com|perplexity\.ai|gemini\.google\.com|copilot\.microsoft\.com|claude\.ai)$/.test(ref) ? "ai" :
+        /(facebook\.com|instagram\.com|^t\.co|x\.com|twitter\.com|reddit\.com|linkedin\.com|tiktok\.com|threads\.net|pinterest\.\w+)$/.test(ref) ? "social" :
+        /(beehiiv\.com|mail\.|outlook\.|gmail\.)/.test(ref) ? "newsletter" : "other";
+      v = { f: from, h: ref && !inside ? ref.slice(0, 60) : "", n: 0 };
+    }
+    if (!again) v.n += 1;
+    // The version this tab sees (window.ulT from the <head>); without that block, one picked here.
+    v.t = typeof window.ulT === "string" ? window.ulT : SITE_T ? SITE_T + "-" + (Math.random() < 0.5 ? "a" : "b") : "";
+    try { sessionStorage.setItem("ul-visit", JSON.stringify(v)); } catch (e) {}
+    if (v.t) document.documentElement.setAttribute("data-test", v.t);
+    var segs = location.pathname.split("/"), seg = segs[1] || "";
+    var page = seg === "news" && segs[2] ? "story" :
+      seg || (location.hash.length > 1 ? "home-" + location.hash.slice(1).split(/[-?]/)[0] : "home");
+    var sent = {};
+    function count(ev) {
+      if (sent[ev]) return;
+      sent[ev] = 1;
+      var path = "/e/" + [v.f, v.t || "-", page, ev].map(function (x) {
+        return String(x).toLowerCase().replace(/[^a-z0-9.]+/g, "-").slice(0, 60) || "-";
+      }).join("/");
+      try { fetch(path, { method: "HEAD", cache: "no-store", keepalive: true, credentials: "omit" }).catch(function () {}); } catch (e) {}
+    }
+    window.ulCount = count;
+    count(v.n === 1 && !again ? "arrive" : "view");    // the first page of a visit, or a later one (or the same again)
+    if (v.n === 1 && !again && v.h) count("from-" + v.h);  // only the name of the site that sent them
+    if (v.n === 2 && !again) count("page-2");            // the visit went on to a second page
+    if (v.n === 5 && !again) count("page-5");
+    function onScroll() {
+      var tall = Math.max(document.documentElement.scrollHeight, document.body ? document.body.scrollHeight : 0, 1);
+      var seen = (window.scrollY + window.innerHeight) / tall;
+      if (seen >= 0.5) count("scroll-50");
+      if (seen >= 0.9) count("scroll-90");
+    }
+    window.addEventListener("scroll", onScroll, { passive: true });
+    var secs = 0;                                        // time with the page in view
+    setInterval(function () {
+      if (document.visibilityState !== "visible") return;
+      secs += 5;
+      if (secs === 30) count("stay-30s");
+      if (secs === 120) count("stay-2m");
+    }, 5000);
+    // What was clicked: the kind of link (a story, a deal, the search...), never which one or where to.
+    document.addEventListener("click", function (e) {
+      var a = e.target.closest && e.target.closest("a, button");
+      if (!a) return;
+      var k = a.getAttribute("data-c"), href = a.getAttribute("href") || "";
+      var box = a.closest(".lead-story") ? "lead" : a.closest("header") ? "nav" : a.closest("footer") ? "footer" :
+        a.closest(".one-line") ? "oneline" : a.closest("#res") ? "search" : a.closest(".dmini, .deal") ? "deal" : "";
+      if (!k) {
+        if (/^\/news\/[^/#?]+\/?$/.test(href)) k = box === "lead" ? "story-lead" : box === "oneline" ? "story-oneline" : box === "search" ? "search-story" : "story";
+        else if (/sponsored/.test(a.getAttribute("rel") || "")) k = box === "deal" ? "deal" : box === "search" ? "search-deal" : "visit";
+        else if (/youtube\.com|youtu\.be/.test(href)) k = box === "search" ? "search-video" : "video";
+        else if (/^\/news\/?$/.test(href)) k = box === "nav" ? "nav-news" : "all-news";
+        else if (/^\/how-tos\//.test(href)) k = box === "nav" ? "nav-howtos" : "howtos";
+        else if (/^\/deals\//.test(href)) k = box === "nav" ? "nav-deals" : "deals";
+        else if (/^\/tool\//.test(href)) k = box === "search" ? "search-tool" : "tool";
+        else if (/^\/category\//.test(href)) k = "category";
+        else if (/#videos/.test(href)) k = "videos";
+        else if (/^\/(c-|join|email)|^#join/.test(href)) k = "";          // counted already by their short address
+        else if (/^https?:/.test(href)) k = "out";
+        else if (a.tagName === "BUTTON") k = "button-" + (a.id || a.className || "x").split(" ")[0];
+        else if (/^\/?$/.test(href)) k = box === "nav" ? "nav-home" : "home";
+      }
+      if (k) count("click-" + k);
+    }, true);
+    document.addEventListener("input", function (e) {
+      if (e.target && e.target.type === "search") count("search-typed");
+    }, true);
+  })();
 
   // Subscribers see no sign-up box or header field (as on index.html: Beehiiv's cookie, or the note "ul-subscribed" that
   // this browser keeps after confirming or "Already subscribed? Hide this"; it never leaves the device).

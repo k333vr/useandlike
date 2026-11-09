@@ -116,12 +116,14 @@ const indexPath = path.join(ROOT, "index.html");
 const indexHtml = fs.readFileSync(indexPath, "utf8");
 const editAt = indexHtml.indexOf("EDIT HERE");
 const editCode = indexHtml.slice(indexHtml.lastIndexOf("<script>", editAt) + 8, indexHtml.indexOf("</script>", editAt));
-const { CHANNELS, NEWSLETTER, OPEN_IN_NEW_TAB, VISIBLE_COUNT, CATEGORIES, TOOLS, VIDEOS } = vm.runInNewContext(
-  editCode + "\n;({ CHANNELS, NEWSLETTER, OPEN_IN_NEW_TAB, VISIBLE_COUNT, CATEGORIES, TOOLS, VIDEOS })", {});
+const { CHANNELS, NEWSLETTER, OPEN_IN_NEW_TAB, VISIBLE_COUNT, CATEGORIES, TOOLS, VIDEOS, SITE_TEST } = vm.runInNewContext(
+  editCode + "\n;({ CHANNELS, NEWSLETTER, OPEN_IN_NEW_TAB, VISIBLE_COUNT, CATEGORIES, TOOLS, VIDEOS, SITE_TEST: typeof SITE_TEST === 'string' ? SITE_TEST : '' })", {});
 const STYLE = indexHtml.match(/<style>([\s\S]*?)<\/style>/)[1];
 // The box after signing up and the sign-up A/B test: one block in index.html ("signup-step"), copied into every page.
 const SIGNUP_STEP = indexHtml.slice(indexHtml.indexOf("  // >>> signup-step"), indexHtml.indexOf("  // <<< signup-step"));
 if (!SIGNUP_STEP.includes("beehiiv:submitted")) throw new Error('index.html: the "signup-step" block is missing');
+const VISIT_COUNT = indexHtml.slice(indexHtml.indexOf("  // >>> visit-count"), indexHtml.indexOf("  // <<< visit-count"));
+if (!VISIT_COUNT.includes("ul-visit")) throw new Error('index.html: the "visit-count" block is missing');
 const ICON = indexHtml.match(/<link rel="icon"[^>]*>/)[0];
 const HEADER = indexHtml.match(/<header>[\s\S]*?<\/header>/)[0];
 const FOOTER = indexHtml.match(/<footer>[\s\S]*?<\/footer>/)[0];
@@ -237,6 +239,8 @@ const SCRIPT = `(function () {
   var FORM = ${JSON.stringify(NEWSLETTER.beehiivForm || "")};
   var SU_TEST = ${JSON.stringify(NEWSLETTER.signupTest || "")}, SU_FORM = FORM;
 ${SIGNUP_STEP}
+  var SITE_T = ${JSON.stringify(SITE_TEST || "")};
+${VISIT_COUNT}
   // Subscribers see no sign-up box or header field (as on index.html: Beehiiv's cookie, or the note "ul-subscribed" that
   // this browser keeps after confirming or "Already subscribed? Hide this"; it never leaves the device).
   function hideSignup() {
@@ -290,6 +294,22 @@ ${SIGNUP_STEP}
   }
 })();`;
 
+// The site test's version for this tab (SITE_TEST in index.html), picked in the <head> so that version b's changes are
+// there from the first moment (no jump when the page draws); the visit-count block reads it as window.ulT. Also written
+// into index.html's head (block "test").
+const TEST_HEAD = !SITE_TEST ? "" : `<script>/* Site test ${esc(SITE_TEST)}: this tab's version (a or b), kept for the tab only */
+(function () {
+  var T = ${JSON.stringify(SITE_TEST)}, t = "";
+  try { t = sessionStorage.getItem("ul-t") || ""; } catch (e) {}
+  if (t.indexOf(T + "-") !== 0) {
+    t = T + "-" + (Math.random() < 0.5 ? "a" : "b");
+    try { sessionStorage.setItem("ul-t", t); } catch (e) {}
+  }
+  window.ulT = t;
+  document.documentElement.setAttribute("data-test", t);
+})();</script>
+`;
+
 // Beehiiv's field loads sooner with these; subscribers see no field, so their browser doesn't contact Beehiiv at all.
 const beehiivHead = !(NEWSLETTER.ready && NEWSLETTER.beehiivForm) ? "" :
   `<script>(function () {
@@ -326,7 +346,7 @@ function layout(p) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-${beehiivHead}<title>${esc(p.title)}</title>
+${TEST_HEAD}${beehiivHead}<title>${esc(p.title)}</title>
 <meta name="description" content="${esc(p.description)}">
 <link rel="canonical" href="${url}">
 ${p.nav === "news" ? '<link rel="alternate" type="application/rss+xml" title="Use &amp; Like app news" href="/news/feed.xml">\n' : ""}${p.noindex ? '<meta name="robots" content="noindex, follow">\n' : ""}<meta property="og:type" content="website">
@@ -637,7 +657,7 @@ const storyRow = s => `<li style="${cardColour(s)}"><a href="/${newsPath(s)}" ta
 const storyRows = (list, cls) => `<ul class="plain srows${cls ? " " + cls : ""}">\n${list.map(storyRow).join("\n")}\n</ul>`;
 const oneLine = list => `<ul class="plain one-line">\n${list.map(s => `<li><b><a href="/${newsPath(s)}">${esc(s.head)}</a></b>` +
   `<span>${esc(s.dek)}</span><span class="meta">${esc(shortDay(s.date))} · ${sourcesLine(s)}</span></li>`).join("\n")}\n</ul>`;
-const dealMini = d => `<li class="dmini"><a href="/${d.slug}" ${sponsored}><span class="top">` +
+const dealMini = d => `<li class="dmini"><a href="/${d.slug}" ${sponsored} data-c="deal"><span class="top">` +
   (fs.existsSync(path.join(ROOT, "img", "deals", d.slug + ".webp")) ? `<img src="/img/deals/${d.slug}.webp" alt="" width="30" height="30" loading="lazy">` : "") +
   `${esc(d.brand)}</span><span class="big">${esc(d.big)}</span><span class="offer">${esc(d.offer)}</span>` +
   `<span class="chk">Checked on ${esc(d.brand)}'s site, ${esc(shortDay(d.checked))}</span></a></li>`;
@@ -645,7 +665,7 @@ const dealMinis = list => `<ul class="plain dminis">\n${list.map(dealMini).join(
 // A partner's own offer (data/partner-offers.json) as a small card like dealMini's, labelled as their listing.
 const partnerMini = o => {
   const pct = /(\d{1,3})\s?%/.exec(o.text);
-  return `<li class="dmini"><a href="/${o.slug}" ${sponsored}><span class="top">` +
+  return `<li class="dmini"><a href="/${o.slug}" ${sponsored} data-c="partner-offer"><span class="top">` +
     (fs.existsSync(path.join(ROOT, "img", "deals", o.slug + ".webp")) ? `<img src="/img/deals/${o.slug}.webp" alt="" width="30" height="30" loading="lazy">` : "") +
     `${esc(o.brand)}</span>${pct ? `<span class="big">−${pct[1]}%</span>` : ""}<span class="offer">${esc(o.text)}</span>` +
     `<span class="chk">${esc(o.brand)}'s listing on our partner network, ${esc(shortDay(o.seen))}</span></a></li>`;
@@ -840,6 +860,8 @@ ${TOP_NEWS.slice(0, 50).map(s => `<item><title>${x(s.head)}</title><link>${SITE}
   }
   q.addEventListener("input", run);
   q.addEventListener("focus", function () { load(function () {}); }, { once: true });
+  var asked = /[?&]q=([^&#]*)/.exec(location.search);   // from the front page's search bar (site test fp1)
+  if (asked) { try { q.value = decodeURIComponent(asked[1].replace(/\\+/g, " ")); } catch (e) { q.value = asked[1]; } run(); }
   [].forEach.call(document.querySelectorAll(".qchips button"), function (b) {
     b.addEventListener("click", function () { q.value = b.getAttribute("data-q"); run(); q.focus(); });
   });
@@ -876,6 +898,12 @@ function frontPage() {
   return [
     '<div class="front">',
     '<h1 class="sr-only">Use &amp; Like: app news, deals and how-tos</h1>',
+    // Site test fp1 (SITE_TEST in index.html): version b shows this search bar; it opens the How-tos page with the words.
+    '<form class="fp-search" action="/how-tos/" method="get" role="search">' +
+      '<label for="fpq">What app do you need help with?</label>' +
+      '<div class="sbox"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>' +
+      '<input id="fpq" name="q" type="search" placeholder="Try Wise, CapCut, VPN, ChatGPT..." autocomplete="off">' +
+      '<button type="submit" data-c="fp-search">Search</button></div></form>',
     `<section class="lead-story card" style="${cardColour(lead)}" data-lead-style="card" aria-labelledby="lead-h">` +
       `<a href="/${newsPath(lead)}" tabindex="-1" aria-hidden="true">${appMark(lead, "lg")}</a>` +
       `<div class="txt">${tagHtml(lead)}<h2 id="lead-h"><a href="/${newsPath(lead)}">${esc(lead.head)}</a></h2>` +
@@ -884,7 +912,7 @@ function frontPage() {
     '<div class="split">',
     `<section aria-labelledby="latest-h">${secHead("latest-h", "Latest app news", '<a href="/news/">All app news ›</a>')}\n${storyRows(latest)}` +
       // Kevin, 2 Nov: "after scrolling through the news lines there should be a more stories ... button at the end"
-      `\n<a class="more-btn" href="/news/">More stories ›</a></section>`,
+      `\n<a class="more-btn" href="/news/" data-c="more-stories">More stories ›</a></section>`,
     DEALS.length ? `<section aria-labelledby="rail-h">${secHead("rail-h", "Deals we checked", `<a href="/deals/">All ${DEALS.length} ›</a>`)}\n${dealMinis(DEALS.slice(0, 6))}</section>` : "",
     "</div>",
     '<div data-join></div>',
@@ -915,8 +943,10 @@ ${TOP_NEWS.filter(s => (s.added || s.date) >= fromDay).map(s => `  <url><loc>${S
   `<news:publication_date>${s.added || s.date}</news:publication_date><news:title>${xmlEsc(s.head)}</news:title></news:news></url>`).join("\n")}
 </urlset>
 `);
+// /e/: the visit counting's addresses (index.html "visit-count"); search engines that run the page's script skip them.
 out.set("robots.txt", `User-agent: *
 Allow: /
+Disallow: /e/
 
 Sitemap: ${SITE}/sitemap.xml
 Sitemap: ${SITE}/news-sitemap.xml
@@ -935,6 +965,7 @@ function replaceBlock(html, name, content) {
   return html.replace(re, (m, a, b) => `${a}\n${content}\n${b}`);
 }
 let newIndex = replaceBlock(indexHtml, "ld", ld(siteLd));
+newIndex = replaceBlock(newIndex, "test", TEST_HEAD.trim());
 newIndex = replaceBlock(newIndex, "home", frontPage());
 out.set("index.html", newIndex);
 

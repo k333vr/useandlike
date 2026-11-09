@@ -3,6 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>/* Site test fp1: this tab's version (a or b), kept for the tab only */
+(function () {
+  var T = "fp1", t = "";
+  try { t = sessionStorage.getItem("ul-t") || ""; } catch (e) {}
+  if (t.indexOf(T + "-") !== 0) {
+    t = T + "-" + (Math.random() < 0.5 ? "a" : "b");
+    try { sessionStorage.setItem("ul-t", t); } catch (e) {}
+  }
+  window.ulT = t;
+  document.documentElement.setAttribute("data-test", t);
+})();</script>
 <script>(function () {
   var s = /(^|; )bhv_[^=]+_subscribed=/.test(document.cookie);
   try { s = s || localStorage.getItem("ul-subscribed") === "1"; } catch (e) {}
@@ -421,6 +432,13 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 .sbox { position: relative; width: 100%; max-width: 680px; }
 .sbox input { width: 100%; padding: 15px 18px 15px 48px; border: 2px solid var(--brand); border-radius: 999px; background: var(--surface); color: var(--text); font: 1.05rem var(--sans); }
 .sbox svg { position: absolute; left: 17px; top: 50%; transform: translateY(-50%); color: var(--brand); }
+/* Site test fp1 (SITE_TEST): version b shows a how-to search bar at the top of the front page. */
+.fp-search { display: none; }
+html[data-test="fp1-b"] .fp-search { display: grid; justify-items: center; gap: 10px; margin: 4px 0 22px; text-align: center; }
+.fp-search label { font: 700 clamp(1.3rem, 3.6vw, 1.8rem)/1.15 var(--serif); }
+.fp-search .sbox { display: flex; gap: 8px; }
+.fp-search .sbox input { flex: 1; min-width: 0; }
+.fp-search .sbox button { flex: none; padding: 0 20px; border: 0; border-radius: 999px; background: var(--brand); color: #fff; font: 700 1rem var(--sans); cursor: pointer; }
 .qchips { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
 .qchips button, .more-hits button { padding: 9px 13px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--text); font: 600 .88rem/1 var(--sans); cursor: pointer; }
 .results { display: grid; gap: 12px; width: 100%; max-width: 680px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); text-align: left; }
@@ -481,10 +499,10 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 </ul>
 <section class="deal-band" aria-labelledby="db-1"><div class="sec-head"><h2 id="db-1">Deals we checked</h2><a href="/deals/">All deals ›</a></div>
 <ul class="plain dminis">
-<li class="dmini"><a href="/expressvpn" rel="sponsored"><span class="top"><img src="/img/deals/expressvpn.webp" alt="" width="30" height="30" loading="lazy">ExpressVPN</span><span class="big">−80%</span><span class="offer">80% off 2 years + 4 extra months</span><span class="chk">Checked on ExpressVPN's site, 9 Nov</span></a></li>
-<li class="dmini"><a href="/nordvpn" rel="sponsored"><span class="top"><img src="/img/deals/nordvpn.webp" alt="" width="30" height="30" loading="lazy">NordVPN</span><span class="big">−78%</span><span class="offer">78% off + 3 extra months</span><span class="chk">Checked on NordVPN's site, 9 Nov</span></a></li>
-<li class="dmini"><a href="/hostinger" rel="sponsored"><span class="top"><img src="/img/deals/hostinger.webp" alt="" width="30" height="30" loading="lazy">Hostinger</span><span class="big">$1.99/mo</span><span class="offer">Black Friday: up to 85% off web hosting</span><span class="chk">Checked on Hostinger's site, 9 Nov</span></a></li>
-<li class="dmini"><a href="/fastestvpn" rel="sponsored"><span class="top"><img src="/img/deals/fastestvpn.webp" alt="" width="30" height="30" loading="lazy">FastestVPN</span><span class="big">$40</span><span class="offer">Black Friday: lifetime plan for $40 (93% off)</span><span class="chk">Checked on FastestVPN's site, 9 Nov</span></a></li>
+<li class="dmini"><a href="/expressvpn" rel="sponsored" data-c="deal"><span class="top"><img src="/img/deals/expressvpn.webp" alt="" width="30" height="30" loading="lazy">ExpressVPN</span><span class="big">−80%</span><span class="offer">80% off 2 years + 4 extra months</span><span class="chk">Checked on ExpressVPN's site, 9 Nov</span></a></li>
+<li class="dmini"><a href="/nordvpn" rel="sponsored" data-c="deal"><span class="top"><img src="/img/deals/nordvpn.webp" alt="" width="30" height="30" loading="lazy">NordVPN</span><span class="big">−78%</span><span class="offer">78% off + 3 extra months</span><span class="chk">Checked on NordVPN's site, 9 Nov</span></a></li>
+<li class="dmini"><a href="/hostinger" rel="sponsored" data-c="deal"><span class="top"><img src="/img/deals/hostinger.webp" alt="" width="30" height="30" loading="lazy">Hostinger</span><span class="big">$1.99/mo</span><span class="offer">Black Friday: up to 85% off web hosting</span><span class="chk">Checked on Hostinger's site, 9 Nov</span></a></li>
+<li class="dmini"><a href="/fastestvpn" rel="sponsored" data-c="deal"><span class="top"><img src="/img/deals/fastestvpn.webp" alt="" width="30" height="30" loading="lazy">FastestVPN</span><span class="big">$40</span><span class="offer">Black Friday: lifetime plan for $40 (93% off)</span><span class="chk">Checked on FastestVPN's site, 9 Nov</span></a></li>
 </ul></section>
 <section class="briefs" aria-labelledby="ol-1"><div class="sec-head"><h2 id="ol-1">In one line</h2></div>
 <ul class="plain one-line">
@@ -510,10 +528,10 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 </ul>
 <section class="deal-band" aria-labelledby="db-2"><div class="sec-head"><h2 id="db-2">Deals we checked</h2><a href="/deals/">All deals ›</a></div>
 <ul class="plain dminis">
-<li class="dmini"><a href="/protonvpn" rel="sponsored"><span class="top"><img src="/img/deals/protonvpn.webp" alt="" width="30" height="30" loading="lazy">Proton VPN</span><span class="big">−65%</span><span class="offer">65% off VPN Plus for 2 years</span><span class="chk">Checked on Proton VPN's site, 9 Nov</span></a></li>
-<li class="dmini"><a href="/protonpass" rel="sponsored"><span class="top"><img src="/img/deals/protonpass.webp" alt="" width="30" height="30" loading="lazy">Proton Pass</span><span class="big">−40%</span><span class="offer">40% off Pass Plus for a year</span><span class="chk">Checked on Proton Pass's site, 9 Nov</span></a></li>
-<li class="dmini"><a href="/invideo" rel="sponsored"><span class="top"><img src="/img/deals/invideo.webp" alt="" width="30" height="30" loading="lazy">InVideo</span><span class="big">−50%</span><span class="offer">50% off all yearly plans</span><span class="chk">Checked on InVideo's site, 9 Nov</span></a></li>
-<li class="dmini"><a href="/easeus-bf" rel="sponsored"><span class="top"><img src="/img/deals/easeus-bf.webp" alt="" width="30" height="30" loading="lazy">EaseUS</span><span class="big">Up to 50%</span><span class="offer">20-50% off EaseUS's main products</span><span class="chk">Checked on EaseUS's site, 9 Nov</span></a></li>
+<li class="dmini"><a href="/protonvpn" rel="sponsored" data-c="deal"><span class="top"><img src="/img/deals/protonvpn.webp" alt="" width="30" height="30" loading="lazy">Proton VPN</span><span class="big">−65%</span><span class="offer">65% off VPN Plus for 2 years</span><span class="chk">Checked on Proton VPN's site, 9 Nov</span></a></li>
+<li class="dmini"><a href="/protonpass" rel="sponsored" data-c="deal"><span class="top"><img src="/img/deals/protonpass.webp" alt="" width="30" height="30" loading="lazy">Proton Pass</span><span class="big">−40%</span><span class="offer">40% off Pass Plus for a year</span><span class="chk">Checked on Proton Pass's site, 9 Nov</span></a></li>
+<li class="dmini"><a href="/invideo" rel="sponsored" data-c="deal"><span class="top"><img src="/img/deals/invideo.webp" alt="" width="30" height="30" loading="lazy">InVideo</span><span class="big">−50%</span><span class="offer">50% off all yearly plans</span><span class="chk">Checked on InVideo's site, 9 Nov</span></a></li>
+<li class="dmini"><a href="/easeus-bf" rel="sponsored" data-c="deal"><span class="top"><img src="/img/deals/easeus-bf.webp" alt="" width="30" height="30" loading="lazy">EaseUS</span><span class="big">Up to 50%</span><span class="offer">20-50% off EaseUS's main products</span><span class="chk">Checked on EaseUS's site, 9 Nov</span></a></li>
 </ul></section>
 <section class="briefs" aria-labelledby="ol-2"><div class="sec-head"><h2 id="ol-2">In one line</h2></div>
 <ul class="plain one-line">
@@ -539,10 +557,10 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 </ul>
 <section class="deal-band" aria-labelledby="db-3"><div class="sec-head"><h2 id="db-3">Deals and offers</h2><a href="/deals/">All deals ›</a></div>
 <ul class="plain dminis">
-<li class="dmini"><a href="/blort" rel="sponsored"><span class="top"><img src="/img/deals/blort.webp" alt="" width="30" height="30" loading="lazy">Blort AI</span><span class="big">−50%</span><span class="offer">50% off your first year on yearly plans</span><span class="chk">Checked on Blort AI's site, 9 Nov</span></a></li>
-<li class="dmini"><a href="/gigsky" rel="sponsored"><span class="top"><img src="/img/deals/gigsky.webp" alt="" width="30" height="30" loading="lazy">GigSky</span><span class="big">Up to 30%</span><span class="offer">All eSIM plans up to 30% off</span><span class="chk">Checked on GigSky's site, 9 Nov</span></a></li>
-<li class="dmini"><a href="/openart" rel="sponsored"><span class="top">OpenArt AI</span><span class="big">−50%</span><span class="offer">50% off Annual Subscription – High-quality Ai Art, Unlimited Generations</span><span class="chk">OpenArt AI's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/vistaprint" rel="sponsored"><span class="top">Vistaprint</span><span class="big">−25%</span><span class="offer">Up to 25% off Select Products Plus Up to 50% off Holiday Cards and Wall Calendars</span><span class="chk">Vistaprint's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/blort" rel="sponsored" data-c="deal"><span class="top"><img src="/img/deals/blort.webp" alt="" width="30" height="30" loading="lazy">Blort AI</span><span class="big">−50%</span><span class="offer">50% off your first year on yearly plans</span><span class="chk">Checked on Blort AI's site, 9 Nov</span></a></li>
+<li class="dmini"><a href="/gigsky" rel="sponsored" data-c="deal"><span class="top"><img src="/img/deals/gigsky.webp" alt="" width="30" height="30" loading="lazy">GigSky</span><span class="big">Up to 30%</span><span class="offer">All eSIM plans up to 30% off</span><span class="chk">Checked on GigSky's site, 9 Nov</span></a></li>
+<li class="dmini"><a href="/openart" rel="sponsored" data-c="partner-offer"><span class="top">OpenArt AI</span><span class="big">−50%</span><span class="offer">50% off Annual Subscription – High-quality Ai Art, Unlimited Generations</span><span class="chk">OpenArt AI's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/vistaprint" rel="sponsored" data-c="partner-offer"><span class="top">Vistaprint</span><span class="big">−25%</span><span class="offer">Up to 25% off Select Products Plus Up to 50% off Holiday Cards and Wall Calendars</span><span class="chk">Vistaprint's listing on our partner network, 8 Nov</span></a></li>
 </ul></section>
 <section class="briefs" aria-labelledby="ol-3"><div class="sec-head"><h2 id="ol-3">In one line</h2></div>
 <ul class="plain one-line">
@@ -568,10 +586,10 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 </ul>
 <section class="deal-band" aria-labelledby="db-4"><div class="sec-head"><h2 id="db-4">Offers from our partners</h2><a href="/deals/">All deals ›</a></div>
 <ul class="plain dminis">
-<li class="dmini"><a href="/boxcloud" rel="sponsored"><span class="top">Box</span><span class="offer">Try Box Business Cloud Plans Free for 14 Days</span><span class="chk">Box's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/luxy" rel="sponsored"><span class="top">Luxy</span><span class="big">−30%</span><span class="offer">30% off Black Membership</span><span class="chk">Luxy's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/mailchimp" rel="sponsored"><span class="top">Mailchimp</span><span class="offer">Free Trial: Get Access to Mailchimp's Suite of Advanced Marketing Tools with a Free Trial, Sign Up Today</span><span class="chk">Mailchimp's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/99designs" rel="sponsored"><span class="top">99designs</span><span class="offer">$10 off LivePlan</span><span class="chk">99designs's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/boxcloud" rel="sponsored" data-c="partner-offer"><span class="top">Box</span><span class="offer">Try Box Business Cloud Plans Free for 14 Days</span><span class="chk">Box's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/luxy" rel="sponsored" data-c="partner-offer"><span class="top">Luxy</span><span class="big">−30%</span><span class="offer">30% off Black Membership</span><span class="chk">Luxy's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/mailchimp" rel="sponsored" data-c="partner-offer"><span class="top">Mailchimp</span><span class="offer">Free Trial: Get Access to Mailchimp's Suite of Advanced Marketing Tools with a Free Trial, Sign Up Today</span><span class="chk">Mailchimp's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/99designs" rel="sponsored" data-c="partner-offer"><span class="top">99designs</span><span class="offer">$10 off LivePlan</span><span class="chk">99designs's listing on our partner network, 8 Nov</span></a></li>
 </ul></section>
 <section class="briefs" aria-labelledby="ol-4"><div class="sec-head"><h2 id="ol-4">In one line</h2></div>
 <ul class="plain one-line">
@@ -597,10 +615,10 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 </ul>
 <section class="deal-band" aria-labelledby="db-5"><div class="sec-head"><h2 id="db-5">Offers from our partners</h2><a href="/deals/">All deals ›</a></div>
 <ul class="plain dminis">
-<li class="dmini"><a href="/fanatical" rel="sponsored"><span class="top">Fanatical</span><span class="big">−91%</span><span class="offer">Up to 91% off Action Games</span><span class="chk">Fanatical's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/weightwatchers" rel="sponsored"><span class="top">WeightWatchers</span><span class="big">−54%</span><span class="offer">Save 54% on the 12-Month Core+ Plan</span><span class="chk">WeightWatchers's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/busuu" rel="sponsored"><span class="top">Busuu</span><span class="big">−51%</span><span class="offer">Save Up to 51% on Premium Plans</span><span class="chk">Busuu's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/moneyspire" rel="sponsored"><span class="top">Moneyspire</span><span class="offer">Free Trial</span><span class="chk">Moneyspire's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/fanatical" rel="sponsored" data-c="partner-offer"><span class="top">Fanatical</span><span class="big">−91%</span><span class="offer">Up to 91% off Action Games</span><span class="chk">Fanatical's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/weightwatchers" rel="sponsored" data-c="partner-offer"><span class="top">WeightWatchers</span><span class="big">−54%</span><span class="offer">Save 54% on the 12-Month Core+ Plan</span><span class="chk">WeightWatchers's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/busuu" rel="sponsored" data-c="partner-offer"><span class="top">Busuu</span><span class="big">−51%</span><span class="offer">Save Up to 51% on Premium Plans</span><span class="chk">Busuu's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/moneyspire" rel="sponsored" data-c="partner-offer"><span class="top">Moneyspire</span><span class="offer">Free Trial</span><span class="chk">Moneyspire's listing on our partner network, 8 Nov</span></a></li>
 </ul></section>
 <section class="briefs" aria-labelledby="ol-5"><div class="sec-head"><h2 id="ol-5">In one line</h2></div>
 <ul class="plain one-line">
@@ -626,10 +644,10 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 </ul>
 <section class="deal-band" aria-labelledby="db-6"><div class="sec-head"><h2 id="db-6">Offers from our partners</h2><a href="/deals/">All deals ›</a></div>
 <ul class="plain dminis">
-<li class="dmini"><a href="/expedia" rel="sponsored"><span class="top">Expedia</span><span class="big">−25%</span><span class="offer">25% or More off Your Dream Stay</span><span class="chk">Expedia's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/easyship" rel="sponsored"><span class="top">Easyship</span><span class="big">−91%</span><span class="offer">Start Shipping with Up to 91% off</span><span class="chk">Easyship's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/ancestry" rel="sponsored"><span class="top">Ancestry</span><span class="big">−30%</span><span class="offer">Save 30% on Ancestry Gift Memberships</span><span class="chk">Ancestry's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/lycamobile" rel="sponsored"><span class="top">Lycamobile</span><span class="big">−78%</span><span class="offer">78% off the Student Saver Plan</span><span class="chk">Lycamobile's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/expedia" rel="sponsored" data-c="partner-offer"><span class="top">Expedia</span><span class="big">−25%</span><span class="offer">25% or More off Your Dream Stay</span><span class="chk">Expedia's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/easyship" rel="sponsored" data-c="partner-offer"><span class="top">Easyship</span><span class="big">−91%</span><span class="offer">Start Shipping with Up to 91% off</span><span class="chk">Easyship's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/ancestry" rel="sponsored" data-c="partner-offer"><span class="top">Ancestry</span><span class="big">−30%</span><span class="offer">Save 30% on Ancestry Gift Memberships</span><span class="chk">Ancestry's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/lycamobile" rel="sponsored" data-c="partner-offer"><span class="top">Lycamobile</span><span class="big">−78%</span><span class="offer">78% off the Student Saver Plan</span><span class="chk">Lycamobile's listing on our partner network, 8 Nov</span></a></li>
 </ul></section>
 <section class="briefs" aria-labelledby="ol-6"><div class="sec-head"><h2 id="ol-6">In one line</h2></div>
 <ul class="plain one-line">
@@ -655,10 +673,10 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 </ul>
 <section class="deal-band" aria-labelledby="db-7"><div class="sec-head"><h2 id="db-7">Offers from our partners</h2><a href="/deals/">All deals ›</a></div>
 <ul class="plain dminis">
-<li class="dmini"><a href="/snapfish" rel="sponsored"><span class="top">Snapfish</span><span class="big">−76%</span><span class="offer">Take 76% off Cards</span><span class="chk">Snapfish's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/edraw" rel="sponsored"><span class="top">eDraw</span><span class="big">−50%</span><span class="offer">Up to 50% off Creativity Products</span><span class="chk">eDraw's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/aliexpress" rel="sponsored"><span class="top">AliExpress</span><span class="big">−90%</span><span class="offer">Double 11 Sale: Up to 90% off</span><span class="chk">AliExpress's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/magzter" rel="sponsored"><span class="top">Magzter</span><span class="big">−50%</span><span class="offer">Up to 50% off 1 Year Magzter GOLD Subscription</span><span class="chk">Magzter's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/snapfish" rel="sponsored" data-c="partner-offer"><span class="top">Snapfish</span><span class="big">−76%</span><span class="offer">Take 76% off Cards</span><span class="chk">Snapfish's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/edraw" rel="sponsored" data-c="partner-offer"><span class="top">eDraw</span><span class="big">−50%</span><span class="offer">Up to 50% off Creativity Products</span><span class="chk">eDraw's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/aliexpress" rel="sponsored" data-c="partner-offer"><span class="top">AliExpress</span><span class="big">−90%</span><span class="offer">Double 11 Sale: Up to 90% off</span><span class="chk">AliExpress's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/magzter" rel="sponsored" data-c="partner-offer"><span class="top">Magzter</span><span class="big">−50%</span><span class="offer">Up to 50% off 1 Year Magzter GOLD Subscription</span><span class="chk">Magzter's listing on our partner network, 8 Nov</span></a></li>
 </ul></section>
 <section class="briefs" aria-labelledby="ol-7"><div class="sec-head"><h2 id="ol-7">In one line</h2></div>
 <ul class="plain one-line">
@@ -684,10 +702,10 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 </ul>
 <section class="deal-band" aria-labelledby="db-8"><div class="sec-head"><h2 id="db-8">Offers from our partners</h2><a href="/deals/">All deals ›</a></div>
 <ul class="plain dminis">
-<li class="dmini"><a href="/arangrant" rel="sponsored"><span class="top">Arangrant</span><span class="big">−70%</span><span class="offer">Save Up to 70% on Business Class Flights from USA and Get Extra $40 off</span><span class="chk">Arangrant's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/videogen" rel="sponsored"><span class="top">VideoGen</span><span class="big">−50%</span><span class="offer">Get 50% off All Annual Plans</span><span class="chk">VideoGen's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/tunnelbear" rel="sponsored"><span class="top">TunnelBear</span><span class="big">−70%</span><span class="offer">Save 70% on 3-year Plans</span><span class="chk">TunnelBear's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/cloudways" rel="sponsored"><span class="top">Cloudways</span><span class="big">−30%</span><span class="offer">Get 30% off for First 3 Months</span><span class="chk">Cloudways's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/arangrant" rel="sponsored" data-c="partner-offer"><span class="top">Arangrant</span><span class="big">−70%</span><span class="offer">Save Up to 70% on Business Class Flights from USA and Get Extra $40 off</span><span class="chk">Arangrant's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/videogen" rel="sponsored" data-c="partner-offer"><span class="top">VideoGen</span><span class="big">−50%</span><span class="offer">Get 50% off All Annual Plans</span><span class="chk">VideoGen's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/tunnelbear" rel="sponsored" data-c="partner-offer"><span class="top">TunnelBear</span><span class="big">−70%</span><span class="offer">Save 70% on 3-year Plans</span><span class="chk">TunnelBear's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/cloudways" rel="sponsored" data-c="partner-offer"><span class="top">Cloudways</span><span class="big">−30%</span><span class="offer">Get 30% off for First 3 Months</span><span class="chk">Cloudways's listing on our partner network, 8 Nov</span></a></li>
 </ul></section>
 <section class="briefs" aria-labelledby="ol-8"><div class="sec-head"><h2 id="ol-8">In one line</h2></div>
 <ul class="plain one-line">
@@ -713,10 +731,10 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 </ul>
 <section class="deal-band" aria-labelledby="db-9"><div class="sec-head"><h2 id="db-9">Offers from our partners</h2><a href="/deals/">All deals ›</a></div>
 <ul class="plain dminis">
-<li class="dmini"><a href="/reccloud" rel="sponsored"><span class="top">RecCloud AI</span><span class="big">−15%</span><span class="offer">15% off Basic &amp; Pro Plans</span><span class="chk">RecCloud AI's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/eztexting" rel="sponsored"><span class="top">EZ Texting</span><span class="offer">Free Trial</span><span class="chk">EZ Texting's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/omnisend" rel="sponsored"><span class="top">Omnisend</span><span class="offer">Sign-up and Start Your Free Trial</span><span class="chk">Omnisend's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/taskrabbit" rel="sponsored"><span class="top">TaskRabbit</span><span class="offer">$10 off the First Task Booked</span><span class="chk">TaskRabbit's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/reccloud" rel="sponsored" data-c="partner-offer"><span class="top">RecCloud AI</span><span class="big">−15%</span><span class="offer">15% off Basic &amp; Pro Plans</span><span class="chk">RecCloud AI's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/eztexting" rel="sponsored" data-c="partner-offer"><span class="top">EZ Texting</span><span class="offer">Free Trial</span><span class="chk">EZ Texting's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/omnisend" rel="sponsored" data-c="partner-offer"><span class="top">Omnisend</span><span class="offer">Sign-up and Start Your Free Trial</span><span class="chk">Omnisend's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/taskrabbit" rel="sponsored" data-c="partner-offer"><span class="top">TaskRabbit</span><span class="offer">$10 off the First Task Booked</span><span class="chk">TaskRabbit's listing on our partner network, 8 Nov</span></a></li>
 </ul></section>
 <section class="briefs" aria-labelledby="ol-9"><div class="sec-head"><h2 id="ol-9">In one line</h2></div>
 <ul class="plain one-line">
@@ -742,10 +760,10 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 </ul>
 <section class="deal-band" aria-labelledby="db-10"><div class="sec-head"><h2 id="db-10">Offers from our partners</h2><a href="/deals/">All deals ›</a></div>
 <ul class="plain dminis">
-<li class="dmini"><a href="/exitlag" rel="sponsored"><span class="top">ExitLag</span><span class="big">−50%</span><span class="offer">Take Advantage of Up to 50% off Annual Subscriptions and Enjoy a Faster, More Stable Connection While Gaming</span><span class="chk">ExitLag's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/bodi" rel="sponsored"><span class="top">BODi</span><span class="big">−50%</span><span class="offer">Buy 1, Get 1 50% off New P90X Energy Drink</span><span class="chk">BODi's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/educationcom" rel="sponsored"><span class="top">Education.com</span><span class="big">−50%</span><span class="offer">Up to 50% off Premium Memberships</span><span class="chk">Education.com's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/onlinecheckwriter" rel="sponsored"><span class="top">Online Check Writer</span><span class="offer">$500 off Premium Plan Was: $999.99 Now: $499.99</span><span class="chk">Online Check Writer's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/exitlag" rel="sponsored" data-c="partner-offer"><span class="top">ExitLag</span><span class="big">−50%</span><span class="offer">Take Advantage of Up to 50% off Annual Subscriptions and Enjoy a Faster, More Stable Connection While Gaming</span><span class="chk">ExitLag's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/bodi" rel="sponsored" data-c="partner-offer"><span class="top">BODi</span><span class="big">−50%</span><span class="offer">Buy 1, Get 1 50% off New P90X Energy Drink</span><span class="chk">BODi's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/educationcom" rel="sponsored" data-c="partner-offer"><span class="top">Education.com</span><span class="big">−50%</span><span class="offer">Up to 50% off Premium Memberships</span><span class="chk">Education.com's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/onlinecheckwriter" rel="sponsored" data-c="partner-offer"><span class="top">Online Check Writer</span><span class="offer">$500 off Premium Plan Was: $999.99 Now: $499.99</span><span class="chk">Online Check Writer's listing on our partner network, 8 Nov</span></a></li>
 </ul></section>
 <section class="briefs" aria-labelledby="ol-10"><div class="sec-head"><h2 id="ol-10">In one line</h2></div>
 <ul class="plain one-line">
@@ -771,10 +789,10 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 </ul>
 <section class="deal-band" aria-labelledby="db-11"><div class="sec-head"><h2 id="db-11">Offers from our partners</h2><a href="/deals/">All deals ›</a></div>
 <ul class="plain dminis">
-<li class="dmini"><a href="/redbubble" rel="sponsored"><span class="top">Redbubble</span><span class="big">−50%</span><span class="offer">Pre-Cyber Sale - Up to 50% off Select Items</span><span class="chk">Redbubble's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/newspaperscom" rel="sponsored"><span class="top">Newspapers.com</span><span class="offer">Shop the Largest Online Newspaper Archive Plus Get a 7 Day Free Trial</span><span class="chk">Newspapers.com's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/ultramobile" rel="sponsored"><span class="top">Ultra Mobile</span><span class="big">−50%</span><span class="offer">Get 50% off Most Popular 4GB Plan</span><span class="chk">Ultra Mobile's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/mpix" rel="sponsored"><span class="top">Mpix</span><span class="big">−25%</span><span class="offer">25% off Your First Order</span><span class="chk">Mpix's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/redbubble" rel="sponsored" data-c="partner-offer"><span class="top">Redbubble</span><span class="big">−50%</span><span class="offer">Pre-Cyber Sale - Up to 50% off Select Items</span><span class="chk">Redbubble's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/newspaperscom" rel="sponsored" data-c="partner-offer"><span class="top">Newspapers.com</span><span class="offer">Shop the Largest Online Newspaper Archive Plus Get a 7 Day Free Trial</span><span class="chk">Newspapers.com's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/ultramobile" rel="sponsored" data-c="partner-offer"><span class="top">Ultra Mobile</span><span class="big">−50%</span><span class="offer">Get 50% off Most Popular 4GB Plan</span><span class="chk">Ultra Mobile's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/mpix" rel="sponsored" data-c="partner-offer"><span class="top">Mpix</span><span class="big">−25%</span><span class="offer">25% off Your First Order</span><span class="chk">Mpix's listing on our partner network, 8 Nov</span></a></li>
 </ul></section>
 <section class="briefs" aria-labelledby="ol-11"><div class="sec-head"><h2 id="ol-11">In one line</h2></div>
 <ul class="plain one-line">
@@ -800,10 +818,10 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 </ul>
 <section class="deal-band" aria-labelledby="db-12"><div class="sec-head"><h2 id="db-12">Offers from our partners</h2><a href="/deals/">All deals ›</a></div>
 <ul class="plain dminis">
-<li class="dmini"><a href="/parallels" rel="sponsored"><span class="top">Parallels</span><span class="big">−50%</span><span class="offer">Enjoy the Perks of Using Mac OS on Windows and Vice-versa with the Special Offer for Students: Save 50% with the…</span><span class="chk">Parallels's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/dhgate" rel="sponsored"><span class="top">DHgate.com</span><span class="big">−80%</span><span class="offer">End-of-Season Final Sale: Up to 80% off Clearance</span><span class="chk">DHgate.com's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/directv" rel="sponsored"><span class="top">DIRECTV STREAM</span><span class="big">−30%</span><span class="offer">Save over 30% on MiEspañol &amp; get your first 2 mos for just $24.99/mo. Learn How</span><span class="chk">DIRECTV STREAM's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/discovercars" rel="sponsored"><span class="top">Discover Cars</span><span class="big">−70%</span><span class="offer">Car Rental - Up to 70% off When You Search and Compare</span><span class="chk">Discover Cars's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/parallels" rel="sponsored" data-c="partner-offer"><span class="top">Parallels</span><span class="big">−50%</span><span class="offer">Enjoy the Perks of Using Mac OS on Windows and Vice-versa with the Special Offer for Students: Save 50% with the…</span><span class="chk">Parallels's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/dhgate" rel="sponsored" data-c="partner-offer"><span class="top">DHgate.com</span><span class="big">−80%</span><span class="offer">End-of-Season Final Sale: Up to 80% off Clearance</span><span class="chk">DHgate.com's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/directv" rel="sponsored" data-c="partner-offer"><span class="top">DIRECTV STREAM</span><span class="big">−30%</span><span class="offer">Save over 30% on MiEspañol &amp; get your first 2 mos for just $24.99/mo. Learn How</span><span class="chk">DIRECTV STREAM's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/discovercars" rel="sponsored" data-c="partner-offer"><span class="top">Discover Cars</span><span class="big">−70%</span><span class="offer">Car Rental - Up to 70% off When You Search and Compare</span><span class="chk">Discover Cars's listing on our partner network, 8 Nov</span></a></li>
 </ul></section>
 <section class="briefs" aria-labelledby="ol-12"><div class="sec-head"><h2 id="ol-12">In one line</h2></div>
 <ul class="plain one-line">
@@ -829,10 +847,10 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 </ul>
 <section class="deal-band" aria-labelledby="db-13"><div class="sec-head"><h2 id="db-13">Offers from our partners</h2><a href="/deals/">All deals ›</a></div>
 <ul class="plain dminis">
-<li class="dmini"><a href="/wondershare" rel="sponsored"><span class="top">Wondershare</span><span class="big">−45%</span><span class="offer">Enjoy up to 45% off Recoverit</span><span class="chk">Wondershare's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/bitdefender" rel="sponsored"><span class="top">Bitdefender</span><span class="big">−57%</span><span class="offer">57% off Antivirus Plus</span><span class="chk">Bitdefender's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/databasemart" rel="sponsored"><span class="top">Database Mart</span><span class="big">−30%</span><span class="offer">Lift-time 30% off for Express and Basic Level of GPU Servers</span><span class="chk">Database Mart's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/tripo" rel="sponsored"><span class="top">Tripo</span><span class="offer">Free Trial - Personalized 3D Models</span><span class="chk">Tripo's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/wondershare" rel="sponsored" data-c="partner-offer"><span class="top">Wondershare</span><span class="big">−45%</span><span class="offer">Enjoy up to 45% off Recoverit</span><span class="chk">Wondershare's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/bitdefender" rel="sponsored" data-c="partner-offer"><span class="top">Bitdefender</span><span class="big">−57%</span><span class="offer">57% off Antivirus Plus</span><span class="chk">Bitdefender's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/databasemart" rel="sponsored" data-c="partner-offer"><span class="top">Database Mart</span><span class="big">−30%</span><span class="offer">Lift-time 30% off for Express and Basic Level of GPU Servers</span><span class="chk">Database Mart's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/tripo" rel="sponsored" data-c="partner-offer"><span class="top">Tripo</span><span class="offer">Free Trial - Personalized 3D Models</span><span class="chk">Tripo's listing on our partner network, 8 Nov</span></a></li>
 </ul></section>
 <section class="briefs" aria-labelledby="ol-13"><div class="sec-head"><h2 id="ol-13">In one line</h2></div>
 <ul class="plain one-line">
@@ -858,10 +876,10 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 </ul>
 <section class="deal-band" aria-labelledby="db-14"><div class="sec-head"><h2 id="db-14">Offers from our partners</h2><a href="/deals/">All deals ›</a></div>
 <ul class="plain dminis">
-<li class="dmini"><a href="/homebase" rel="sponsored"><span class="top">Homebase</span><span class="offer">All-in-One Plan Free for 6 Months</span><span class="chk">Homebase's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/naturalcycles" rel="sponsored"><span class="top">Natural Cycles</span><span class="big">−20%</span><span class="offer">20% off for Teachers, Healthcare Workers, Military Personnel, and First Responders</span><span class="chk">Natural Cycles's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/mindvalley" rel="sponsored"><span class="top">Mindvalley</span><span class="big">−40%</span><span class="offer">Black Friday: Save up to 40% on membership</span><span class="chk">Mindvalley's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/teepublic" rel="sponsored"><span class="top">TeePublic</span><span class="big">−35%</span><span class="offer">Up to 35% off Orders</span><span class="chk">TeePublic's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/homebase" rel="sponsored" data-c="partner-offer"><span class="top">Homebase</span><span class="offer">All-in-One Plan Free for 6 Months</span><span class="chk">Homebase's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/naturalcycles" rel="sponsored" data-c="partner-offer"><span class="top">Natural Cycles</span><span class="big">−20%</span><span class="offer">20% off for Teachers, Healthcare Workers, Military Personnel, and First Responders</span><span class="chk">Natural Cycles's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/mindvalley" rel="sponsored" data-c="partner-offer"><span class="top">Mindvalley</span><span class="big">−40%</span><span class="offer">Black Friday: Save up to 40% on membership</span><span class="chk">Mindvalley's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/teepublic" rel="sponsored" data-c="partner-offer"><span class="top">TeePublic</span><span class="big">−35%</span><span class="offer">Up to 35% off Orders</span><span class="chk">TeePublic's listing on our partner network, 8 Nov</span></a></li>
 </ul></section>
 <section class="briefs" aria-labelledby="ol-14"><div class="sec-head"><h2 id="ol-14">In one line</h2></div>
 <ul class="plain one-line">
@@ -887,10 +905,10 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 </ul>
 <section class="deal-band" aria-labelledby="db-15"><div class="sec-head"><h2 id="db-15">Offers from our partners</h2><a href="/deals/">All deals ›</a></div>
 <ul class="plain dminis">
-<li class="dmini"><a href="/rover" rel="sponsored"><span class="top">Rover</span><span class="offer">Get $10 off Your First Booking</span><span class="chk">Rover's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/tmobile" rel="sponsored"><span class="top">T-Mobile</span><span class="big">−40%</span><span class="offer">Magenta Status Perks: Save Up to 40% on Travel Phone Plans</span><span class="chk">T-Mobile's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/canvaschamp" rel="sponsored"><span class="top">CanvasChamp</span><span class="big">−15%</span><span class="offer">Additional 15% off Orders Over $149</span><span class="chk">CanvasChamp's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/aomei" rel="sponsored"><span class="top">AOMEI</span><span class="big">−40%</span><span class="offer">40% off UltraPic Pro Yearly</span><span class="chk">AOMEI's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/rover" rel="sponsored" data-c="partner-offer"><span class="top">Rover</span><span class="offer">Get $10 off Your First Booking</span><span class="chk">Rover's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/tmobile" rel="sponsored" data-c="partner-offer"><span class="top">T-Mobile</span><span class="big">−40%</span><span class="offer">Magenta Status Perks: Save Up to 40% on Travel Phone Plans</span><span class="chk">T-Mobile's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/canvaschamp" rel="sponsored" data-c="partner-offer"><span class="top">CanvasChamp</span><span class="big">−15%</span><span class="offer">Additional 15% off Orders Over $149</span><span class="chk">CanvasChamp's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/aomei" rel="sponsored" data-c="partner-offer"><span class="top">AOMEI</span><span class="big">−40%</span><span class="offer">40% off UltraPic Pro Yearly</span><span class="chk">AOMEI's listing on our partner network, 8 Nov</span></a></li>
 </ul></section>
 <section class="briefs" aria-labelledby="ol-15"><div class="sec-head"><h2 id="ol-15">In one line</h2></div>
 <ul class="plain one-line">
@@ -916,10 +934,10 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 </ul>
 <section class="deal-band" aria-labelledby="db-16"><div class="sec-head"><h2 id="db-16">Offers from our partners</h2><a href="/deals/">All deals ›</a></div>
 <ul class="plain dminis">
-<li class="dmini"><a href="/voghion" rel="sponsored"><span class="top">Voghion</span><span class="big">−50%</span><span class="offer">Black Friday Sale: Up to 50% off Select Items</span><span class="chk">Voghion's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/groundnews" rel="sponsored"><span class="top">Ground News</span><span class="offer">Enjoy a 7 Day Free Trial</span><span class="chk">Ground News's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/flightnetwork" rel="sponsored"><span class="top">Flight Network</span><span class="big">−60%</span><span class="offer">Save Up to 60% on Flights</span><span class="chk">Flight Network's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/movavi" rel="sponsored"><span class="top">Movavi</span><span class="big">−15%</span><span class="offer">15% off Sitewide</span><span class="chk">Movavi's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/voghion" rel="sponsored" data-c="partner-offer"><span class="top">Voghion</span><span class="big">−50%</span><span class="offer">Black Friday Sale: Up to 50% off Select Items</span><span class="chk">Voghion's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/groundnews" rel="sponsored" data-c="partner-offer"><span class="top">Ground News</span><span class="offer">Enjoy a 7 Day Free Trial</span><span class="chk">Ground News's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/flightnetwork" rel="sponsored" data-c="partner-offer"><span class="top">Flight Network</span><span class="big">−60%</span><span class="offer">Save Up to 60% on Flights</span><span class="chk">Flight Network's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/movavi" rel="sponsored" data-c="partner-offer"><span class="top">Movavi</span><span class="big">−15%</span><span class="offer">15% off Sitewide</span><span class="chk">Movavi's listing on our partner network, 8 Nov</span></a></li>
 </ul></section>
 <section class="briefs" aria-labelledby="ol-16"><div class="sec-head"><h2 id="ol-16">In one line</h2></div>
 <ul class="plain one-line">
@@ -938,10 +956,10 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 </ul>
 <section class="deal-band" aria-labelledby="db-17"><div class="sec-head"><h2 id="db-17">Offers from our partners</h2><a href="/deals/">All deals ›</a></div>
 <ul class="plain dminis">
-<li class="dmini"><a href="/incogni" rel="sponsored"><span class="top">Incogni</span><span class="big">−55%</span><span class="offer">55% off Your Order</span><span class="chk">Incogni's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/domaincom" rel="sponsored"><span class="top">Domain.com</span><span class="big">−20%</span><span class="offer">Get 20% off Up to 5 Shared hosting, Wordpress Hosting, Website, Website + Marketing, or Ecommerce units</span><span class="chk">Domain.com's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/stampscom" rel="sponsored"><span class="top">Stamps.com</span><span class="offer">Start Your 30-day Free Trial</span><span class="chk">Stamps.com's listing on our partner network, 8 Nov</span></a></li>
-<li class="dmini"><a href="/ixl" rel="sponsored"><span class="top">IXL</span><span class="big">−20%</span><span class="offer">20% off Your First Year</span><span class="chk">IXL's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/incogni" rel="sponsored" data-c="partner-offer"><span class="top">Incogni</span><span class="big">−55%</span><span class="offer">55% off Your Order</span><span class="chk">Incogni's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/domaincom" rel="sponsored" data-c="partner-offer"><span class="top">Domain.com</span><span class="big">−20%</span><span class="offer">Get 20% off Up to 5 Shared hosting, Wordpress Hosting, Website, Website + Marketing, or Ecommerce units</span><span class="chk">Domain.com's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/stampscom" rel="sponsored" data-c="partner-offer"><span class="top">Stamps.com</span><span class="offer">Start Your 30-day Free Trial</span><span class="chk">Stamps.com's listing on our partner network, 8 Nov</span></a></li>
+<li class="dmini"><a href="/ixl" rel="sponsored" data-c="partner-offer"><span class="top">IXL</span><span class="big">−20%</span><span class="offer">20% off Your First Year</span><span class="chk">IXL's listing on our partner network, 8 Nov</span></a></li>
 </ul></section>
 <ul class="plain srows grid3">
 <li style="--c:#5b6472"><a href="/news/macbook-pro-touchscreen/" tabindex="-1" aria-hidden="true"><span class="appmark sm" aria-hidden="true"><img src="/img/apps/macbook-pro.webp?v=c4e27bb9" alt="" width="256" height="256" loading="lazy"></span></a><div><span class="tag">Woah</span><h3><a href="/news/macbook-pro-touchscreen/">Apple's first touchscreen MacBook is here</a></h3><p class="one">If you've wanted to tap your Mac the way you tap your phone, this is the first MacBook that lets you.</p><p class="meta">28 Oct · MacRumors</p></div></li>
@@ -1028,6 +1046,100 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     }
     confirmStep(SU ? SU.slice(-1) : "a");
   });
+
+  var SITE_T = "fp1";
+  // >>> visit-count (scripts/build-pages.js copies this block into every generated page; it needs SITE_T)
+  // Our own counting (Kevin, 9 Nov 2026: "everything to track them even more if possible to make the best tests every
+  // week"): no cookies, no outside scripts, nothing personal. The page asks this site for a tiny address such as
+  // /e/google/fp1-b/home/scroll-90; nothing is there ("not found"), but Cloudflare counts how often each address was
+  // asked for, and useandlike-ops/analysis/site-events.py reads the totals: how visits start (only the name of the site
+  // that sent them), pages per visit, scrolling, time in view, what kind of link was clicked, per A/B version
+  // (SITE_TEST). The open tab keeps two notes, gone when the tab closes: "ul-visit" (how the visit started, how many
+  // pages it opened) and "ul-t" (its test version, picked in the page's <head> by the build-pages:test block, so version
+  // b's changes show from the first moment instead of jumping in). The privacy page says so.
+  (function () {
+    var v = null, ref = "", nav = "";
+    try { ref = document.referrer ? new URL(document.referrer).hostname.replace(/^www\./, "") : ""; } catch (e) {}
+    try { nav = performance.getEntriesByType("navigation")[0].type; } catch (e) {}
+    var inside = /(^|\.)useandlike\.com$/.test(ref) || ref === location.hostname.replace(/^www\./, "");
+    try { v = JSON.parse(sessionStorage.getItem("ul-visit") || "null"); } catch (e) {}
+    var again = !!v && (nav === "reload" || nav === "back_forward");   // the same page again, not a new page or visit
+    if (!v || (!inside && !again)) {
+      var q = location.search + location.hash;
+      var from = /utm_medium=news([&#]|$)/.test(q) ? "yt-news" : /utm_source=youtube/.test(q) ? "yt-join" :
+        /utm_(source|medium)=[^&#]*(newsletter|email|beehiiv)/.test(q) ? "newsletter" : !ref ? "direct" :
+        /(^|\.)google\./.test(ref) ? "google" :
+        /(^|\.)(bing\.com|duckduckgo\.com|yahoo\.com|ecosia\.org|search\.brave\.com|yandex\.\w+)$/.test(ref) ? "search" :
+        /(^|\.)(youtube\.com|youtu\.be)$/.test(ref) ? "youtube" :
+        /(chatgpt\.com|openai\.com|perplexity\.ai|gemini\.google\.com|copilot\.microsoft\.com|claude\.ai)$/.test(ref) ? "ai" :
+        /(facebook\.com|instagram\.com|^t\.co|x\.com|twitter\.com|reddit\.com|linkedin\.com|tiktok\.com|threads\.net|pinterest\.\w+)$/.test(ref) ? "social" :
+        /(beehiiv\.com|mail\.|outlook\.|gmail\.)/.test(ref) ? "newsletter" : "other";
+      v = { f: from, h: ref && !inside ? ref.slice(0, 60) : "", n: 0 };
+    }
+    if (!again) v.n += 1;
+    // The version this tab sees (window.ulT from the <head>); without that block, one picked here.
+    v.t = typeof window.ulT === "string" ? window.ulT : SITE_T ? SITE_T + "-" + (Math.random() < 0.5 ? "a" : "b") : "";
+    try { sessionStorage.setItem("ul-visit", JSON.stringify(v)); } catch (e) {}
+    if (v.t) document.documentElement.setAttribute("data-test", v.t);
+    var segs = location.pathname.split("/"), seg = segs[1] || "";
+    var page = seg === "news" && segs[2] ? "story" :
+      seg || (location.hash.length > 1 ? "home-" + location.hash.slice(1).split(/[-?]/)[0] : "home");
+    var sent = {};
+    function count(ev) {
+      if (sent[ev]) return;
+      sent[ev] = 1;
+      var path = "/e/" + [v.f, v.t || "-", page, ev].map(function (x) {
+        return String(x).toLowerCase().replace(/[^a-z0-9.]+/g, "-").slice(0, 60) || "-";
+      }).join("/");
+      try { fetch(path, { method: "HEAD", cache: "no-store", keepalive: true, credentials: "omit" }).catch(function () {}); } catch (e) {}
+    }
+    window.ulCount = count;
+    count(v.n === 1 && !again ? "arrive" : "view");    // the first page of a visit, or a later one (or the same again)
+    if (v.n === 1 && !again && v.h) count("from-" + v.h);  // only the name of the site that sent them
+    if (v.n === 2 && !again) count("page-2");            // the visit went on to a second page
+    if (v.n === 5 && !again) count("page-5");
+    function onScroll() {
+      var tall = Math.max(document.documentElement.scrollHeight, document.body ? document.body.scrollHeight : 0, 1);
+      var seen = (window.scrollY + window.innerHeight) / tall;
+      if (seen >= 0.5) count("scroll-50");
+      if (seen >= 0.9) count("scroll-90");
+    }
+    window.addEventListener("scroll", onScroll, { passive: true });
+    var secs = 0;                                        // time with the page in view
+    setInterval(function () {
+      if (document.visibilityState !== "visible") return;
+      secs += 5;
+      if (secs === 30) count("stay-30s");
+      if (secs === 120) count("stay-2m");
+    }, 5000);
+    // What was clicked: the kind of link (a story, a deal, the search...), never which one or where to.
+    document.addEventListener("click", function (e) {
+      var a = e.target.closest && e.target.closest("a, button");
+      if (!a) return;
+      var k = a.getAttribute("data-c"), href = a.getAttribute("href") || "";
+      var box = a.closest(".lead-story") ? "lead" : a.closest("header") ? "nav" : a.closest("footer") ? "footer" :
+        a.closest(".one-line") ? "oneline" : a.closest("#res") ? "search" : a.closest(".dmini, .deal") ? "deal" : "";
+      if (!k) {
+        if (/^\/news\/[^/#?]+\/?$/.test(href)) k = box === "lead" ? "story-lead" : box === "oneline" ? "story-oneline" : box === "search" ? "search-story" : "story";
+        else if (/sponsored/.test(a.getAttribute("rel") || "")) k = box === "deal" ? "deal" : box === "search" ? "search-deal" : "visit";
+        else if (/youtube\.com|youtu\.be/.test(href)) k = box === "search" ? "search-video" : "video";
+        else if (/^\/news\/?$/.test(href)) k = box === "nav" ? "nav-news" : "all-news";
+        else if (/^\/how-tos\//.test(href)) k = box === "nav" ? "nav-howtos" : "howtos";
+        else if (/^\/deals\//.test(href)) k = box === "nav" ? "nav-deals" : "deals";
+        else if (/^\/tool\//.test(href)) k = box === "search" ? "search-tool" : "tool";
+        else if (/^\/category\//.test(href)) k = "category";
+        else if (/#videos/.test(href)) k = "videos";
+        else if (/^\/(c-|join|email)|^#join/.test(href)) k = "";          // counted already by their short address
+        else if (/^https?:/.test(href)) k = "out";
+        else if (a.tagName === "BUTTON") k = "button-" + (a.id || a.className || "x").split(" ")[0];
+        else if (/^\/?$/.test(href)) k = box === "nav" ? "nav-home" : "home";
+      }
+      if (k) count("click-" + k);
+    }, true);
+    document.addEventListener("input", function (e) {
+      if (e.target && e.target.type === "search") count("search-typed");
+    }, true);
+  })();
 
   // Subscribers see no sign-up box or header field (as on index.html: Beehiiv's cookie, or the note "ul-subscribed" that
   // this browser keeps after confirming or "Already subscribed? Hide this"; it never leaves the device).

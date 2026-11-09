@@ -22,6 +22,9 @@ function serve() {
   return new Promise(resolve => {
     const server = http.createServer((req, res) => {
       let p = decodeURIComponent(new URL(req.url, "http://x").pathname);
+      // The visit counting's addresses (/e/..., index.html "visit-count"): on Cloudflare they answer "not found" and are
+      // only counted; here they answer "no content", so the browser check doesn't report them as errors.
+      if (p.startsWith("/e/")) { res.writeHead(204); return res.end(); }
       if (p.endsWith("/")) p += "index.html";
       const file = path.join(ROOT, p);
       if (!file.startsWith(ROOT) || !fs.existsSync(file) || fs.statSync(file).isDirectory()) { res.writeHead(404); return res.end("Not found"); }

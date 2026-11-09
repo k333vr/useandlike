@@ -3,6 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- build-pages:test -->
+<script>/* Site test fp1: this tab's version (a or b), kept for the tab only */
+(function () {
+  var T = "fp1", t = "";
+  try { t = sessionStorage.getItem("ul-t") || ""; } catch (e) {}
+  if (t.indexOf(T + "-") !== 0) {
+    t = T + "-" + (Math.random() < 0.5 ? "a" : "b");
+    try { sessionStorage.setItem("ul-t", t); } catch (e) {}
+  }
+  window.ulT = t;
+  document.documentElement.setAttribute("data-test", t);
+})();</script>
+<!-- /build-pages:test -->
 <!-- Start loading Beehiiv's signup form right away, so the email field shows sooner; not for subscribers, who see no
      field (Beehiiv's cookie, or the note this browser keeps after confirming: see "ul-subscribed" below). -->
 <script>(function () {
@@ -80,6 +93,13 @@ const NEWSLETTER = {
   perkTitle: "Get our free 30-second app newsletter",
   perkGift: "+ get our Free Subscription Tracker"
 };
+
+/* Site A/B test (Kevin, 9 Nov 2026: "we need a heavy A B testing here every week until these numbers significantly get
+   better"): the running test's name, or "" for none. A visit gets version a or b at random when it starts and keeps it
+   on every page of that visit; the visit counting (visit-count in the script below) adds the version to every count,
+   and useandlike-ops/analysis/site-events.py compares the two. Plan and results: useandlike-ops/plans/site-tests.md.
+   fp1 = the front page without (a) or with (b) a how-to search bar at the top. */
+const SITE_TEST = "fp1";
 
 /* false = links open in the same tab (back button returns to this page; better on phones).
    true  = links open in a new tab. */
@@ -830,6 +850,13 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 .sbox { position: relative; width: 100%; max-width: 680px; }
 .sbox input { width: 100%; padding: 15px 18px 15px 48px; border: 2px solid var(--brand); border-radius: 999px; background: var(--surface); color: var(--text); font: 1.05rem var(--sans); }
 .sbox svg { position: absolute; left: 17px; top: 50%; transform: translateY(-50%); color: var(--brand); }
+/* Site test fp1 (SITE_TEST): version b shows a how-to search bar at the top of the front page. */
+.fp-search { display: none; }
+html[data-test="fp1-b"] .fp-search { display: grid; justify-items: center; gap: 10px; margin: 4px 0 22px; text-align: center; }
+.fp-search label { font: 700 clamp(1.3rem, 3.6vw, 1.8rem)/1.15 var(--serif); }
+.fp-search .sbox { display: flex; gap: 8px; }
+.fp-search .sbox input { flex: 1; min-width: 0; }
+.fp-search .sbox button { flex: none; padding: 0 20px; border: 0; border-radius: 999px; background: var(--brand); color: #fff; font: 700 1rem var(--sans); cursor: pointer; }
 .qchips { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
 .qchips button, .more-hits button { padding: 9px 13px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--text); font: 600 .88rem/1 var(--sans); cursor: pointer; }
 .results { display: grid; gap: 12px; width: 100%; max-width: 680px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); text-align: left; }
@@ -877,6 +904,7 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 <!-- build-pages:home -->
 <div class="front">
 <h1 class="sr-only">Use &amp; Like: app news, deals and how-tos</h1>
+<form class="fp-search" action="/how-tos/" method="get" role="search"><label for="fpq">What app do you need help with?</label><div class="sbox"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="fpq" name="q" type="search" placeholder="Try Wise, CapCut, VPN, ChatGPT..." autocomplete="off"><button type="submit" data-c="fp-search">Search</button></div></form>
 <section class="lead-story card" style="--c:#c59553" data-lead-style="card" aria-labelledby="lead-h"><a href="/news/new-lifestyle-apps-2026-11-09/" tabindex="-1" aria-hidden="true"><span class="appmark lg" aria-hidden="true"><img src="/img/apps/babybackup-baby-monitor.webp?v=4c1fb416" alt="" width="256" height="256" loading="lazy"><img src="/img/apps/tots-weather.webp?v=f695c145" alt="" width="256" height="256" class="b" loading="lazy"></span></a><div class="txt"><span class="tag">New app</span><h2 id="lead-h"><a href="/news/new-lifestyle-apps-2026-11-09/">8 new lifestyle apps climbing the App Store this week</a></h2><p class="dek">These lifestyle apps came out in the last 60 days and rose into the US App Store's Lifestyle charts this week, from BabyBackup: Baby Monitor to One Cent Start.</p><p class="meta">9 Nov · Source: App Store chart, App Store, App Store, App Store, App Store, App Store, App Store, App Store, App Store</p></div></section>
 <div class="split">
 <section aria-labelledby="latest-h"><div class="sec-head"><h2 id="latest-h">Latest app news</h2><a href="/news/">All app news ›</a></div>
@@ -888,15 +916,15 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
 <li style="--c:#651fe1"><a href="/news/new-music-apps-2026-11-09/" tabindex="-1" aria-hidden="true"><span class="appmark sm" aria-hidden="true"><img src="/img/apps/nostalgicpod.webp?v=d3ab2791" alt="" width="256" height="256" loading="lazy"><img src="/img/apps/midgar-ambience-effect.webp?v=5cb37cab" alt="" width="256" height="256" class="b" loading="lazy"></span></a><div><span class="tag">New app</span><h3><a href="/news/new-music-apps-2026-11-09/">7 new music apps climbing the App Store this week</a></h3><p class="one">If you're looking for something new in music, these are small apps people are buying right now.</p><p class="meta">9 Nov · App Store chart, App Store, App Store, App Store, App Store, App Store, App Store, App Store</p></div></li>
 <li style="--c:#2ba8ee"><a href="/news/outlook-com-missing-emails/" tabindex="-1" aria-hidden="true"><span class="appmark sm" aria-hidden="true"><img src="/img/apps/outlook.webp?v=3ccbc522" alt="" width="256" height="256" loading="lazy"></span></a><div><span class="tag">Heads-up</span><h3><a href="/news/outlook-com-missing-emails/">Outlook.com and Hotmail not receiving some emails since 5 November</a></h3><p class="one">If someone says their email bounced, or you're waiting for a code or invoice that never arrives, this bug may be why.</p><p class="meta">8 Nov · Windows Latest</p></div></li>
 </ul>
-<a class="more-btn" href="/news/">More stories ›</a></section>
+<a class="more-btn" href="/news/" data-c="more-stories">More stories ›</a></section>
 <section aria-labelledby="rail-h"><div class="sec-head"><h2 id="rail-h">Deals we checked</h2><a href="/deals/">All 10 ›</a></div>
 <ul class="plain dminis">
-<li class="dmini"><a href="/expressvpn" rel="sponsored"><span class="top"><img src="/img/deals/expressvpn.webp" alt="" width="30" height="30" loading="lazy">ExpressVPN</span><span class="big">−80%</span><span class="offer">80% off 2 years + 4 extra months</span><span class="chk">Checked on ExpressVPN's site, 9 Nov</span></a></li>
-<li class="dmini"><a href="/nordvpn" rel="sponsored"><span class="top"><img src="/img/deals/nordvpn.webp" alt="" width="30" height="30" loading="lazy">NordVPN</span><span class="big">−78%</span><span class="offer">78% off + 3 extra months</span><span class="chk">Checked on NordVPN's site, 9 Nov</span></a></li>
-<li class="dmini"><a href="/hostinger" rel="sponsored"><span class="top"><img src="/img/deals/hostinger.webp" alt="" width="30" height="30" loading="lazy">Hostinger</span><span class="big">$1.99/mo</span><span class="offer">Black Friday: up to 85% off web hosting</span><span class="chk">Checked on Hostinger's site, 9 Nov</span></a></li>
-<li class="dmini"><a href="/fastestvpn" rel="sponsored"><span class="top"><img src="/img/deals/fastestvpn.webp" alt="" width="30" height="30" loading="lazy">FastestVPN</span><span class="big">$40</span><span class="offer">Black Friday: lifetime plan for $40 (93% off)</span><span class="chk">Checked on FastestVPN's site, 9 Nov</span></a></li>
-<li class="dmini"><a href="/protonvpn" rel="sponsored"><span class="top"><img src="/img/deals/protonvpn.webp" alt="" width="30" height="30" loading="lazy">Proton VPN</span><span class="big">−65%</span><span class="offer">65% off VPN Plus for 2 years</span><span class="chk">Checked on Proton VPN's site, 9 Nov</span></a></li>
-<li class="dmini"><a href="/protonpass" rel="sponsored"><span class="top"><img src="/img/deals/protonpass.webp" alt="" width="30" height="30" loading="lazy">Proton Pass</span><span class="big">−40%</span><span class="offer">40% off Pass Plus for a year</span><span class="chk">Checked on Proton Pass's site, 9 Nov</span></a></li>
+<li class="dmini"><a href="/expressvpn" rel="sponsored" data-c="deal"><span class="top"><img src="/img/deals/expressvpn.webp" alt="" width="30" height="30" loading="lazy">ExpressVPN</span><span class="big">−80%</span><span class="offer">80% off 2 years + 4 extra months</span><span class="chk">Checked on ExpressVPN's site, 9 Nov</span></a></li>
+<li class="dmini"><a href="/nordvpn" rel="sponsored" data-c="deal"><span class="top"><img src="/img/deals/nordvpn.webp" alt="" width="30" height="30" loading="lazy">NordVPN</span><span class="big">−78%</span><span class="offer">78% off + 3 extra months</span><span class="chk">Checked on NordVPN's site, 9 Nov</span></a></li>
+<li class="dmini"><a href="/hostinger" rel="sponsored" data-c="deal"><span class="top"><img src="/img/deals/hostinger.webp" alt="" width="30" height="30" loading="lazy">Hostinger</span><span class="big">$1.99/mo</span><span class="offer">Black Friday: up to 85% off web hosting</span><span class="chk">Checked on Hostinger's site, 9 Nov</span></a></li>
+<li class="dmini"><a href="/fastestvpn" rel="sponsored" data-c="deal"><span class="top"><img src="/img/deals/fastestvpn.webp" alt="" width="30" height="30" loading="lazy">FastestVPN</span><span class="big">$40</span><span class="offer">Black Friday: lifetime plan for $40 (93% off)</span><span class="chk">Checked on FastestVPN's site, 9 Nov</span></a></li>
+<li class="dmini"><a href="/protonvpn" rel="sponsored" data-c="deal"><span class="top"><img src="/img/deals/protonvpn.webp" alt="" width="30" height="30" loading="lazy">Proton VPN</span><span class="big">−65%</span><span class="offer">65% off VPN Plus for 2 years</span><span class="chk">Checked on Proton VPN's site, 9 Nov</span></a></li>
+<li class="dmini"><a href="/protonpass" rel="sponsored" data-c="deal"><span class="top"><img src="/img/deals/protonpass.webp" alt="" width="30" height="30" loading="lazy">Proton Pass</span><span class="big">−40%</span><span class="offer">40% off Pass Plus for a year</span><span class="chk">Checked on Proton Pass's site, 9 Nov</span></a></li>
 </ul></section>
 </div>
 <div data-join></div>
@@ -1086,6 +1114,101 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
     confirmStep(SU ? SU.slice(-1) : "a");
   });
   // <<< signup-step
+
+  var SITE_T = typeof SITE_TEST === "string" ? SITE_TEST : "";
+  // >>> visit-count (scripts/build-pages.js copies this block into every generated page; it needs SITE_T)
+  // Our own counting (Kevin, 9 Nov 2026: "everything to track them even more if possible to make the best tests every
+  // week"): no cookies, no outside scripts, nothing personal. The page asks this site for a tiny address such as
+  // /e/google/fp1-b/home/scroll-90; nothing is there ("not found"), but Cloudflare counts how often each address was
+  // asked for, and useandlike-ops/analysis/site-events.py reads the totals: how visits start (only the name of the site
+  // that sent them), pages per visit, scrolling, time in view, what kind of link was clicked, per A/B version
+  // (SITE_TEST). The open tab keeps two notes, gone when the tab closes: "ul-visit" (how the visit started, how many
+  // pages it opened) and "ul-t" (its test version, picked in the page's <head> by the build-pages:test block, so version
+  // b's changes show from the first moment instead of jumping in). The privacy page says so.
+  (function () {
+    var v = null, ref = "", nav = "";
+    try { ref = document.referrer ? new URL(document.referrer).hostname.replace(/^www\./, "") : ""; } catch (e) {}
+    try { nav = performance.getEntriesByType("navigation")[0].type; } catch (e) {}
+    var inside = /(^|\.)useandlike\.com$/.test(ref) || ref === location.hostname.replace(/^www\./, "");
+    try { v = JSON.parse(sessionStorage.getItem("ul-visit") || "null"); } catch (e) {}
+    var again = !!v && (nav === "reload" || nav === "back_forward");   // the same page again, not a new page or visit
+    if (!v || (!inside && !again)) {
+      var q = location.search + location.hash;
+      var from = /utm_medium=news([&#]|$)/.test(q) ? "yt-news" : /utm_source=youtube/.test(q) ? "yt-join" :
+        /utm_(source|medium)=[^&#]*(newsletter|email|beehiiv)/.test(q) ? "newsletter" : !ref ? "direct" :
+        /(^|\.)google\./.test(ref) ? "google" :
+        /(^|\.)(bing\.com|duckduckgo\.com|yahoo\.com|ecosia\.org|search\.brave\.com|yandex\.\w+)$/.test(ref) ? "search" :
+        /(^|\.)(youtube\.com|youtu\.be)$/.test(ref) ? "youtube" :
+        /(chatgpt\.com|openai\.com|perplexity\.ai|gemini\.google\.com|copilot\.microsoft\.com|claude\.ai)$/.test(ref) ? "ai" :
+        /(facebook\.com|instagram\.com|^t\.co|x\.com|twitter\.com|reddit\.com|linkedin\.com|tiktok\.com|threads\.net|pinterest\.\w+)$/.test(ref) ? "social" :
+        /(beehiiv\.com|mail\.|outlook\.|gmail\.)/.test(ref) ? "newsletter" : "other";
+      v = { f: from, h: ref && !inside ? ref.slice(0, 60) : "", n: 0 };
+    }
+    if (!again) v.n += 1;
+    // The version this tab sees (window.ulT from the <head>); without that block, one picked here.
+    v.t = typeof window.ulT === "string" ? window.ulT : SITE_T ? SITE_T + "-" + (Math.random() < 0.5 ? "a" : "b") : "";
+    try { sessionStorage.setItem("ul-visit", JSON.stringify(v)); } catch (e) {}
+    if (v.t) document.documentElement.setAttribute("data-test", v.t);
+    var segs = location.pathname.split("/"), seg = segs[1] || "";
+    var page = seg === "news" && segs[2] ? "story" :
+      seg || (location.hash.length > 1 ? "home-" + location.hash.slice(1).split(/[-?]/)[0] : "home");
+    var sent = {};
+    function count(ev) {
+      if (sent[ev]) return;
+      sent[ev] = 1;
+      var path = "/e/" + [v.f, v.t || "-", page, ev].map(function (x) {
+        return String(x).toLowerCase().replace(/[^a-z0-9.]+/g, "-").slice(0, 60) || "-";
+      }).join("/");
+      try { fetch(path, { method: "HEAD", cache: "no-store", keepalive: true, credentials: "omit" }).catch(function () {}); } catch (e) {}
+    }
+    window.ulCount = count;
+    count(v.n === 1 && !again ? "arrive" : "view");    // the first page of a visit, or a later one (or the same again)
+    if (v.n === 1 && !again && v.h) count("from-" + v.h);  // only the name of the site that sent them
+    if (v.n === 2 && !again) count("page-2");            // the visit went on to a second page
+    if (v.n === 5 && !again) count("page-5");
+    function onScroll() {
+      var tall = Math.max(document.documentElement.scrollHeight, document.body ? document.body.scrollHeight : 0, 1);
+      var seen = (window.scrollY + window.innerHeight) / tall;
+      if (seen >= 0.5) count("scroll-50");
+      if (seen >= 0.9) count("scroll-90");
+    }
+    window.addEventListener("scroll", onScroll, { passive: true });
+    var secs = 0;                                        // time with the page in view
+    setInterval(function () {
+      if (document.visibilityState !== "visible") return;
+      secs += 5;
+      if (secs === 30) count("stay-30s");
+      if (secs === 120) count("stay-2m");
+    }, 5000);
+    // What was clicked: the kind of link (a story, a deal, the search...), never which one or where to.
+    document.addEventListener("click", function (e) {
+      var a = e.target.closest && e.target.closest("a, button");
+      if (!a) return;
+      var k = a.getAttribute("data-c"), href = a.getAttribute("href") || "";
+      var box = a.closest(".lead-story") ? "lead" : a.closest("header") ? "nav" : a.closest("footer") ? "footer" :
+        a.closest(".one-line") ? "oneline" : a.closest("#res") ? "search" : a.closest(".dmini, .deal") ? "deal" : "";
+      if (!k) {
+        if (/^\/news\/[^/#?]+\/?$/.test(href)) k = box === "lead" ? "story-lead" : box === "oneline" ? "story-oneline" : box === "search" ? "search-story" : "story";
+        else if (/sponsored/.test(a.getAttribute("rel") || "")) k = box === "deal" ? "deal" : box === "search" ? "search-deal" : "visit";
+        else if (/youtube\.com|youtu\.be/.test(href)) k = box === "search" ? "search-video" : "video";
+        else if (/^\/news\/?$/.test(href)) k = box === "nav" ? "nav-news" : "all-news";
+        else if (/^\/how-tos\//.test(href)) k = box === "nav" ? "nav-howtos" : "howtos";
+        else if (/^\/deals\//.test(href)) k = box === "nav" ? "nav-deals" : "deals";
+        else if (/^\/tool\//.test(href)) k = box === "search" ? "search-tool" : "tool";
+        else if (/^\/category\//.test(href)) k = "category";
+        else if (/#videos/.test(href)) k = "videos";
+        else if (/^\/(c-|join|email)|^#join/.test(href)) k = "";          // counted already by their short address
+        else if (/^https?:/.test(href)) k = "out";
+        else if (a.tagName === "BUTTON") k = "button-" + (a.id || a.className || "x").split(" ")[0];
+        else if (/^\/?$/.test(href)) k = box === "nav" ? "nav-home" : "home";
+      }
+      if (k) count("click-" + k);
+    }, true);
+    document.addEventListener("input", function (e) {
+      if (e.target && e.target.type === "search") count("search-typed");
+    }, true);
+  })();
+  // <<< visit-count
 
   // The signup: Beehiiv's own embedded field when NEWSLETTER.beehiivForm is set (so the email goes
   // straight in), otherwise a field whose button opens the Beehiiv signup page.
@@ -1368,13 +1491,14 @@ footer p { margin: 0 0 6px; max-width: 62ch; }
       title: "Privacy",
       paragraphs: [
         "This site is run by Kevin Redl. Contact: HTRocket@proton.me",
-        "This site does not use cookies, analytics or tracking scripts of its own.",
+        "This site does not use cookies, and no outside analytics or tracking services.",
+        "To see what works on the site and what doesn't, the page counts a few things itself, as totals: how a visit started (for example from Google, from YouTube or typed in; only the name of the site you came from, never the page), how many pages a visit opened, whether a page was scrolled down or stayed open for 30 seconds, and which kind of link was clicked (a story, a deal, the search; not which one). Each count is a request to a short address on this site, which Cloudflare, our host, adds up. For this, your browser keeps two small notes for the open tab only: how the visit started and how many pages it opened, and which version of a page you are shown; they are deleted when you close the tab. Nothing about you is stored or linked to you, and no cookie is set.",
         "Two things are kept in your browser, on your device only: once you confirm your newsletter subscription (or tap \"Already subscribed? Hide this\"), the site remembers that and stops showing the sign-up box; and between signing up and confirming, which version of the sign-up step you saw (see below), so a confirmation can be counted for that version. Neither is linked to you or sent anywhere else; clearing this site's data in your browser removes them.",
-        "We count how often some of our own links are clicked (for example \"Work with us\"), as totals: these links pass through a short address on this site, which Cloudflare, our host, counts. A few page parts are shown to about half of all visitors at random, so we can see which works better; nothing about you is stored for that. The newsletter sign-up step is one of two versions picked at random each time: we count sign-ups and confirmations per version as totals, and Beehiiv keeps the version's name with your sign-up (as a campaign tag).",
+        "We count how often some of our own links are clicked (for example \"Work with us\"), as totals: these links pass through a short address on this site, which Cloudflare, our host, counts. A few page parts are shown to about half of all visits at random, so we can see which works better; the version is kept only in the note for the open tab described above, so the pages of one visit match. The newsletter sign-up step is one of two versions picked at random each time: we count sign-ups and confirmations per version as totals, and Beehiiv keeps the version's name with your sign-up (as a campaign tag).",
         "The site is hosted by Cloudflare, which processes technical data such as your IP address to deliver the pages and protect them against abuse.",
         "The newsletter signup field is provided by Beehiiv, our newsletter provider, and loads from their servers. Beehiiv may set cookies to remember where you came from and that you have subscribed. If you join, your email address is sent to Beehiiv and their privacy policy applies. You can unsubscribe in any email.",
         "When you click a tool or video link, you leave this site. The tool's website, its affiliate partner or YouTube may then set their own cookies, and their privacy policies apply.",
-        "Last updated: 3 November 2026."
+        "Last updated: 9 November 2026."
       ]
     }
   };
