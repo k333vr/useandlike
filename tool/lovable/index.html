@@ -582,6 +582,7 @@ html[data-test="fp1-b"] .fp-search { display: grid; justify-items: center; gap: 
       suCount("/c-" + SU);
       try { localStorage.setItem("ul-su", SU); } catch (err) {}
     }
+    if (window.ulCount) window.ulCount("signup");   // also in the visit counting: how the visit started, its site test version
     confirmStep(SU ? SU.slice(-1) : "a");
   });
 
