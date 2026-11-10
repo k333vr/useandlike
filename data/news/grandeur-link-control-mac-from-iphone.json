@@ -1,0 +1,26 @@
+{
+ "slug": "grandeur-link-control-mac-from-iphone",
+ "date": "2026-11-09",
+ "added": "2026-11-10",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Grandeur Link puts your Mac's screen, keyboard and trackpad on your iPhone",
+ "dek": "Grandeur Link shows your Mac's screen on your iPhone and lets you control it with a trackpad and keyboard over your home network. It was #52 among paid Utilities apps on the US App Store on 9 November.",
+ "details": "On the iPhone Duo, half-folding the phone turns it into a small laptop-style workspace. It can also play your Mac's sound and use the iPhone's camera and microphone in meeting apps. It needs a free companion app on an Apple silicon Mac with macOS 13, both on the same network, and iOS 26. It costs $9.99 with no in-app purchases, by Grandeur Co.",
+ "where": "iPhone and Mac, App Store, $9.99",
+ "means": "You can reach your Mac from the couch or another room without a separate remote app subscription.",
+ "todo": "Install the free Mac companion from grandeurlink.com/mac, then pair your iPhone with the code.",
+ "rank": 12,
+ "apps": [
+  "Grandeur Link"
+ ],
+ "item": 70091,
+ "thumb_words": "YOUR MAC ON YOUR IPHONE",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/grandeur-link/id6829832826"
+  }
+ ],
+ "checked": "2026-11-10"
+}

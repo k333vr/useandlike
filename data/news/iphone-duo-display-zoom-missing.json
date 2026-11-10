@@ -1,0 +1,26 @@
+{
+ "slug": "iphone-duo-display-zoom-missing",
+ "date": "2026-11-09",
+ "added": "2026-11-10",
+ "topic": "Apple",
+ "tag": "Heads-up",
+ "head": "iPhone Duo Display Zoom missing after setup: you can't change it later",
+ "dek": "On the iPhone Duo you choose Display Zoom (default, medium or large) only during setup; Settings has no option to change it afterwards, unlike other iPhones. MacRumors confirmed it on iOS 27.2.",
+ "details": "Display Zoom makes icons and the whole screen bigger. Text size still works in Appearance and Accessibility settings. Apple hasn't commented.",
+ "where": "iPhone Duo, iOS 27.2",
+ "means": "If you're setting up an iPhone Duo, the screen size you choose sticks.",
+ "todo": "Pick your Display Zoom carefully during setup; to change it later you have to back up and reset the phone, or use larger text instead.",
+ "rank": 10,
+ "apps": [
+  "iPhone Duo"
+ ],
+ "item": 67257,
+ "thumb_words": "IPHONE DUO: ZOOM CAN'T CHANGE",
+ "sources": [
+  {
+   "name": "BGR",
+   "url": "https://www.bgr.com/2307579/iphone-duo-missing-display-setting-zoom/"
+  }
+ ],
+ "checked": "2026-11-10"
+}

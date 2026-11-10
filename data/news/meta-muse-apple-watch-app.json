@@ -1,0 +1,21 @@
+{
+ "slug": "meta-muse-apple-watch-app",
+ "date": "2026-11-09",
+ "added": "2026-11-10",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Meta's Muse AI assistant comes to Apple Watch",
+ "dek": "The Muse app now has an Apple Watch app: you can text, dictate or call Meta's AI assistant from your wrist, and add a Muse complication.",
+ "quick": true,
+ "apps": [
+  "Meta Muse"
+ ],
+ "item": 69130,
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/09/meta-muse-apple-watch/"
+  }
+ ],
+ "checked": "2026-11-10"
+}

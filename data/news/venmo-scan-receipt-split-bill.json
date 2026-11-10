@@ -1,0 +1,30 @@
+{
+ "slug": "venmo-scan-receipt-split-bill",
+ "date": "2026-11-09",
+ "added": "2026-11-10",
+ "topic": "Money",
+ "tag": "New feature",
+ "head": "Venmo can now scan a receipt and split the bill by item",
+ "dek": "Venmo's new receipt scanning reads a photo of a bill, lists each item and lets you assign it to whoever ordered it. It adds everyone's share of tax and tip and sends the payment requests.",
+ "details": "It works for everyone in the group whatever phone they use. It's rolling out now and will be widely available in the coming weeks. For costs you share over a longer time, such as rent or a trip, Venmo Groups keeps a running list.",
+ "where": "Venmo app, US, rolling out now",
+ "means": "After a group dinner or trip, one photo replaces the math of who owes what.",
+ "todo": "In Venmo, tap the V to start a payment, choose Scan receipt, take or upload a photo, assign the items and send the requests.",
+ "rank": 3,
+ "apps": [
+  "Venmo"
+ ],
+ "item": 67411,
+ "thumb_words": "SPLIT A BILL WITH ONE PHOTO",
+ "sources": [
+  {
+   "name": "PayPal newsroom",
+   "url": "https://newsroom.paypal-corp.com/2026-11-09-Venmo-Launches-Receipt-Scanning-Feature-to-Split-Bills-by-Item"
+  },
+  {
+   "name": "Engadget",
+   "url": "https://www.engadget.com/2310993/venmo-finally-launches-an-in-app-bill-splitting-feature/"
+  }
+ ],
+ "checked": "2026-11-10"
+}

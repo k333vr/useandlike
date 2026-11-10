@@ -1,0 +1,23 @@
+{
+ "slug": "free-phone-upgrade-return-scam",
+ "date": "2026-11-09",
+ "added": "2026-11-10",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "Free phone upgrade scam: the caller asks you to send the new phone back",
+ "dek": "Scammers call claiming to be your mobile network and offer a free upgrade. A real phone arrives, then a second call says it was sent by mistake, and a courier takes it to the scammers while you keep paying the contract.",
+ "details": "Malwarebytes says the call usually comes from a spoofed number, and the return label points to an address the criminals chose instead of the network's returns center. Nearly 30,000 cases were reported in the UK last year.",
+ "where": "UK and other countries, by phone",
+ "means": "An unexpected call offering a free upgrade, followed by a request to return the phone, is the pattern to watch for.",
+ "todo": "Upgrade only by calling your network yourself or in its store; if you already sent a phone back, call your provider on its official number and ask for a fraud investigation.",
+ "rank": 7,
+ "item": 65227,
+ "thumb_words": "FREE UPGRADE? IT'S A SCAM",
+ "sources": [
+  {
+   "name": "Daily Express",
+   "url": "https://www.express.co.uk/life-style/science-technology/2264489/iPhone-Android-free-upgrade-warning"
+  }
+ ],
+ "checked": "2026-11-10"
+}

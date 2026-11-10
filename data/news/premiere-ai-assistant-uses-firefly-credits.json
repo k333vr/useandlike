@@ -1,0 +1,26 @@
+{
+ "slug": "premiere-ai-assistant-uses-firefly-credits",
+ "date": "2026-11-06",
+ "added": "2026-11-10",
+ "topic": "Video",
+ "tag": "Price change",
+ "head": "Adobe Premiere's AI Assistant now uses your Firefly credits",
+ "dek": "Adobe removed the daily and weekly free limits on Premiere's AI Assistant; instead, every reply now uses Firefly credits from your Adobe plan. A credits icon under each answer shows what it cost.",
+ "details": "Adobe says there's no way to see the cost before you ask, because it depends on your project and the tools the Assistant uses. When you run low, Premiere shows a notice and lets you buy more credits. Users on Adobe's forum say even simple questions use credits.",
+ "where": "Adobe Premiere, plans with Firefly credits",
+ "means": "Chatting with the Assistant now spends the same credits you use for generative features.",
+ "todo": "Hover over the credits icon under a reply to see what it used, and ask simple how-to questions in Adobe's help pages instead.",
+ "rank": 8,
+ "apps": [
+  "Adobe Premiere"
+ ],
+ "item": 69877,
+ "thumb_words": "PREMIERE AI NOW COSTS CREDITS",
+ "sources": [
+  {
+   "name": "Adobe Community",
+   "url": "https://community.adobe.com/announcements-732/premiere-ai-assistant-now-uses-firefly-credits-from-your-plan-1654584"
+  }
+ ],
+ "checked": "2026-11-10"
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "remitly-global-card-us-transfers",
+ "date": "2026-11-09",
+ "added": "2026-11-10",
+ "topic": "Money",
+ "tag": "Quick",
+ "head": "Remitly Global Card now sends money within the US",
+ "dek": "Remitly's Global Card is open to more customers across the US, and cardholders can now send and request money from each other anywhere in the country.",
+ "quick": true,
+ "apps": [
+  "Remitly"
+ ],
+ "item": 65967,
+ "sources": [
+  {
+   "name": "WebWire",
+   "url": "https://www.webwire.com/ViewPressRel.asp?aId=363900"
+  }
+ ],
+ "checked": "2026-11-10"
+}

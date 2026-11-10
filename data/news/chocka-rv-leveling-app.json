@@ -1,0 +1,26 @@
+{
+ "slug": "chocka-rv-leveling-app",
+ "date": "2026-11-09",
+ "added": "2026-11-10",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Chocka tells you how high to block each wheel to level your RV",
+ "dek": "Lay your phone on the floor and Chocka says, for each wheel, how high it needs to go and on which step of your leveling blocks. It was #52 among paid Travel apps on the US App Store on 9 November.",
+ "details": "It uses your rig's wheelbase, track and your own blocks or ramps, and works for travel trailers with a tongue jack, single or tandem axle. It calibrates in about 20 seconds. It costs $3.99 with in-app purchases, by Yaniv van der Stigchel, and needs iOS 17.",
+ "where": "iPhone, App Store, $3.99",
+ "means": "Leveling a camper takes fewer tries when you know each wheel's height before you start.",
+ "todo": "Find Chocka in the App Store and calibrate it on a flat surface first.",
+ "rank": 16,
+ "apps": [
+  "Chocka"
+ ],
+ "item": 70102,
+ "thumb_words": "LEVEL YOUR RV IN ONE TRY",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/chocka-rv-leveling-checklist/id6817094122"
+  }
+ ],
+ "checked": "2026-11-10"
+}

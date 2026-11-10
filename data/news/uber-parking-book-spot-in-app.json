@@ -1,0 +1,30 @@
+{
+ "slug": "uber-parking-book-spot-in-app",
+ "date": "2026-11-09",
+ "added": "2026-11-10",
+ "topic": "Travel",
+ "tag": "New feature",
+ "head": "Uber Parking: how to book a parking spot in the Uber app",
+ "dek": "Uber now lets you find, book and pay for a spot in a garage or lot from a new Parking button in its app. It starts in 15 US cities and is coming to more than 400 cities in the US and Canada.",
+ "details": "The spots come from SpotHero, which Uber bought earlier this year: more than 13,000 garages, lots and valet options. Prices show upfront on a map, and you can filter for valet, self-parking, garage or open lot. You get a Parking pass in the app and enter with a QR code or your license plate. Most bookings can be cancelled for free before the start time, and you can extend in the app. Uber One members get 10% back in credits. The launch cities are Chicago, Nashville, San Francisco, Atlanta, Austin, Boston, Dallas, Denver, Los Angeles, Miami, New York City, Philadelphia, San Diego, Seattle and Washington, DC. The SpotHero app stays.",
+ "where": "Uber app, 15 US cities now, more of the US and Canada over the coming months",
+ "means": "If you drive into a busy city, you can reserve a spot ahead in the same app you use for rides, and know the price before you go.",
+ "todo": "Open the Uber app, tap Parking on the home screen, enter where you're going and when, pick a spot and add your car's details.",
+ "rank": 1,
+ "apps": [
+  "Uber"
+ ],
+ "item": 67438,
+ "thumb_words": "BOOK PARKING IN THE UBER APP",
+ "sources": [
+  {
+   "name": "CNET",
+   "url": "https://www.cnet.com/roadshow/rideshare/uber-parking-launch/"
+  },
+  {
+   "name": "PCMag",
+   "url": "https://www.pcmag.com/news/uber-now-lets-you-book-parking-spots"
+  }
+ ],
+ "checked": "2026-11-10"
+}

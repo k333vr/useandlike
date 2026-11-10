@@ -1,0 +1,26 @@
+{
+ "slug": "cheiron-bodybuilding-tracker-app",
+ "date": "2026-11-09",
+ "added": "2026-11-10",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Cheiron tracks a bodybuilder's food, training and supplements in one app",
+ "dek": "Cheiron brings food logging, a lifting notebook, supplements, weight and cardio into one app, with separate macro targets for training and rest days. It was #26 among paid Health & Fitness apps on the US App Store on 9 November.",
+ "details": "You can scan barcodes, log meal preps by the portion and follow phases such as bulk or cut. On Apple Watch you log sets and time rests without your phone. It costs $4.99 with no in-app purchases, by Elliot Milco, and needs iOS 18.",
+ "where": "iPhone and Apple Watch, App Store, $4.99",
+ "means": "If you track lifting and macros in several apps or spreadsheets, this keeps them together.",
+ "todo": "Find Cheiron in the App Store; add the Watch app to log sets at the gym.",
+ "rank": 15,
+ "apps": [
+  "Cheiron"
+ ],
+ "item": 70099,
+ "thumb_words": "FOOD AND LIFTS IN ONE APP",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/cheiron/id6825576174"
+  }
+ ],
+ "checked": "2026-11-10"
+}

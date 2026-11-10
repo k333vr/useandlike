@@ -1,0 +1,21 @@
+{
+ "slug": "whatsapp-contacts-tab-android-beta",
+ "date": "2026-11-09",
+ "added": "2026-11-10",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "head": "WhatsApp beta adds a Contacts tab on Android",
+ "dek": "Some WhatsApp beta testers on Android get a Contacts tab in the bottom bar, with favorites, who's online and sorting; it replaces the Communities tab for now.",
+ "quick": true,
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 64529,
+ "sources": [
+  {
+   "name": "WABetaInfo",
+   "url": "https://wabetainfo.com/whatsapp-is-rolling-out-a-new-contacts-tab-on-android-beta/"
+  }
+ ],
+ "checked": "2026-11-10"
+}

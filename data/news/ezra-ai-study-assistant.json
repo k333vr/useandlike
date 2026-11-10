@@ -1,0 +1,18 @@
+{
+ "slug": "ezra-ai-study-assistant",
+ "date": "2026-11-09",
+ "added": "2026-11-10",
+ "topic": "Education",
+ "tag": "Quick",
+ "head": "Ezra records lectures and turns them into quizzes and flashcards",
+ "dek": "Ezra, for iPhone and Android, records lectures and imports videos, PDFs and slides, then makes quizzes, flashcards and study guides you can ask questions about.",
+ "quick": true,
+ "item": 68608,
+ "sources": [
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/ezra"
+  }
+ ],
+ "checked": "2026-11-10"
+}

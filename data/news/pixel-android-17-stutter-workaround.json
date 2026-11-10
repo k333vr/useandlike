@@ -1,0 +1,21 @@
+{
+ "slug": "pixel-android-17-stutter-workaround",
+ "date": "2026-11-08",
+ "added": "2026-11-10",
+ "topic": "Android",
+ "tag": "Quick",
+ "head": "Pixel lag after Android 17: a stopgap until Google's fix",
+ "dek": "Pixel owners report stutter after Android 17; XDA says turning off Battery Health Assistance helps some, while Google's fix is in beta but not in stable updates yet.",
+ "quick": true,
+ "apps": [
+  "Pixel"
+ ],
+ "item": 64450,
+ "sources": [
+  {
+   "name": "XDA",
+   "url": "https://www.xda-developers.com/fix-for-android-17-performance-on-pixel-takes-30-seconds-to-apply/"
+  }
+ ],
+ "checked": "2026-11-10"
+}

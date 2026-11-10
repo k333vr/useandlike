@@ -1,0 +1,21 @@
+{
+ "slug": "housechief-family-organizer",
+ "date": "2026-11-09",
+ "added": "2026-11-10",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "HouseChief puts a family calendar, chores and meals in one place",
+ "dek": "HouseChief syncs with Google, iCloud and Outlook calendars, adds chores with rewards, meal plans and an aisle-sorted grocery list; $9.95 a month after a 30-day trial.",
+ "quick": true,
+ "apps": [
+  "HouseChief"
+ ],
+ "item": 65196,
+ "sources": [
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/housechief"
+  }
+ ],
+ "checked": "2026-11-10"
+}

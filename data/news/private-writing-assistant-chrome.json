@@ -1,0 +1,21 @@
+{
+ "slug": "private-writing-assistant-chrome",
+ "date": "2026-11-09",
+ "added": "2026-11-10",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Private Writing Assistant fixes your writing with Chrome's on-device AI",
+ "dek": "The extension uses the AI built into Google Chrome to fix grammar in 101 languages, rewrite, translate and summarize on your computer, with no account.",
+ "quick": true,
+ "apps": [
+  "Private Writing Assistant"
+ ],
+ "item": 66354,
+ "sources": [
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/private-writing-assistant"
+  }
+ ],
+ "checked": "2026-11-10"
+}

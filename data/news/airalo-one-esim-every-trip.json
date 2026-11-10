@@ -1,0 +1,26 @@
+{
+ "slug": "airalo-one-esim-every-trip",
+ "date": "2026-11-09",
+ "added": "2026-11-10",
+ "topic": "Travel",
+ "tag": "New feature",
+ "head": "Airalo eSIM: one install for every trip, no new eSIM each time",
+ "dek": "Airalo is rolling out a single eSIM that stays on your phone for all your trips over the coming months. You'll buy the package you need for each trip instead of installing a new eSIM every time.",
+ "details": "It runs on Airalo's own core network. Plans for single countries, regions and the whole world stay, and the global plan gets an option with calls and texts.",
+ "where": "Airalo app, rolling out over the coming months",
+ "means": "If you travel to several countries a year, your phone won't fill up with a stack of travel eSIMs.",
+ "todo": "Nothing to do yet; when the update reaches you, the Airalo app will offer the single eSIM.",
+ "rank": 4,
+ "apps": [
+  "Airalo"
+ ],
+ "item": 67182,
+ "thumb_words": "ONE AIRALO ESIM FOR ALL TRIPS",
+ "sources": [
+  {
+   "name": "Android Police",
+   "url": "https://www.androidpolice.com/airalo-single-install-esim-experience/"
+  }
+ ],
+ "checked": "2026-11-10"
+}

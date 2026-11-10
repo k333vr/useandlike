@@ -1,0 +1,21 @@
+{
+ "slug": "sell-my-room-listing-app",
+ "date": "2026-11-09",
+ "added": "2026-11-10",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Sell My Room prepares listings for things you sell, on your phone",
+ "dek": "Sell My Room ($2.99, no in-app purchases) keeps a photo inventory of household items and writes listing text you copy into marketplaces; #60 among paid Lifestyle apps in the US.",
+ "quick": true,
+ "apps": [
+  "Sell My Room"
+ ],
+ "item": 70097,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/sell-my-room/id6830937634"
+  }
+ ],
+ "checked": "2026-11-10"
+}

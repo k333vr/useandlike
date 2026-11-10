@@ -1,0 +1,30 @@
+{
+ "slug": "claude-fable-5-2-released",
+ "date": "2026-11-09",
+ "added": "2026-11-10",
+ "topic": "AI",
+ "tag": "New version",
+ "head": "Claude Fable 5.2 is out: faster and cheaper, with fewer needless blocks",
+ "dek": "Anthropic released Claude Fable 5.2, which it says writes up to 30% faster than Fable 5.1 and is better at coding, reasoning and reading images. It's available today; the sister model Mythos 5.2 is only for vetted organizations.",
+ "details": "Fable is meant for large technical work. Anthropic says it keeps Fable 5.1's cyber and biology safeguards but blocks fewer harmless requests. This week, paid plans that include Fable get one to three extra usage resets, and Pro plans can use Fable for up to half of their weekly limit. For developers the price drops to $8 per million input tokens and $40 per million output tokens; an optional fast mode costs double. Anthropic still suggests starting most everyday tasks with Claude Opus 5.5.",
+ "where": "Claude apps and the Claude Platform, worldwide",
+ "means": "If you pay for Claude, you can try the newer Fable on harder coding or long projects, with extra usage this week.",
+ "todo": "In Claude, pick Fable 5.2 in the model menu for big tasks; keep a smaller model for everyday chats to save your limits.",
+ "rank": 2,
+ "apps": [
+  "Claude"
+ ],
+ "item": 68207,
+ "thumb_words": "CLAUDE FABLE 5.2 IS HERE",
+ "sources": [
+  {
+   "name": "Anthropic",
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+  },
+  {
+   "name": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
+  }
+ ],
+ "checked": "2026-11-10"
+}

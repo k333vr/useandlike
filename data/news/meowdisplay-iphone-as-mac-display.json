@@ -1,0 +1,21 @@
+{
+ "slug": "meowdisplay-iphone-as-mac-display",
+ "date": "2026-11-09",
+ "added": "2026-11-10",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "MeowDisplay turns an iPhone or iPad into a screen for your Mac",
+ "dek": "MeowDisplay, free and open source, mirrors or extends your Mac onto an iPhone, iPad or another Mac with touch control; an Android version is in closed testing.",
+ "quick": true,
+ "apps": [
+  "MeowDisplay"
+ ],
+ "item": 69115,
+ "sources": [
+  {
+   "name": "MeowDisplay",
+   "url": "https://meowdisplay.app/"
+  }
+ ],
+ "checked": "2026-11-10"
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "gigclick-metronome-setlist-app",
+ "date": "2026-11-09",
+ "added": "2026-11-10",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "GigClick is a metronome with setlists for bands, built by a drummer",
+ "dek": "GigClick keeps a click from 20 to 300 BPM, with setlists you can run on stage, and corrects the delay of Bluetooth headphones. It was #16 among paid Music apps on the US App Store on 9 November.",
+ "details": "The click keeps playing with the screen locked, and changes apply while it runs. It costs $0.99 with no in-app purchases, by Matthew Whimp, and needs iOS 17.",
+ "where": "iPhone, App Store, $0.99",
+ "means": "If you play live, your tempos and song order stay in one app.",
+ "todo": "Find GigClick in the App Store.",
+ "rank": 19,
+ "apps": [
+  "GigClick"
+ ],
+ "item": 70103,
+ "thumb_words": "A METRONOME FOR YOUR BAND",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/gigclick-metronome-setlist/id6816793607"
+  }
+ ],
+ "checked": "2026-11-10"
+}

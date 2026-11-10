@@ -1,0 +1,21 @@
+{
+ "slug": "galaxy-watch-8-one-ui-9-watch",
+ "date": "2026-11-09",
+ "added": "2026-11-10",
+ "topic": "Samsung",
+ "tag": "Quick",
+ "head": "Galaxy Watch8 gets One UI 9 Watch with Wear OS 7",
+ "dek": "Samsung started rolling out One UI 9 Watch, based on Wear OS 7, to the Galaxy Watch8 in Korea, a 2 GB download with the October security patch; more countries should follow.",
+ "quick": true,
+ "apps": [
+  "Galaxy Watch"
+ ],
+ "item": 65451,
+ "sources": [
+  {
+   "name": "GSMArena",
+   "url": "https://www.gsmarena.com/samsung_galaxy_watch8_is_now_receiving_the_update_to_one_ui_9_watch_based_on_wear_os_7-news-75410.php"
+  }
+ ],
+ "checked": "2026-11-10"
+}

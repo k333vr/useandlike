@@ -1,0 +1,21 @@
+{
+ "slug": "brave-ios-link-previews-ai-answers",
+ "date": "2026-11-09",
+ "added": "2026-11-10",
+ "topic": "Browsers",
+ "tag": "Quick",
+ "head": "Brave on iPhone previews links in AI answers",
+ "dek": "In Brave for iPhone, you can long-press a link or video in Ask Brave or Leo answers to preview it, then tap to open it in a full tab.",
+ "quick": true,
+ "apps": [
+  "Brave"
+ ],
+ "item": 65155,
+ "sources": [
+  {
+   "name": "PiunikaWeb",
+   "url": "https://piunikaweb.com/2026/11/09/brave-ios-link-previews-ai-answers/"
+  }
+ ],
+ "checked": "2026-11-10"
+}

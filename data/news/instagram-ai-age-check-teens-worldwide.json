@@ -1,0 +1,30 @@
+{
+ "slug": "instagram-ai-age-check-teens-worldwide",
+ "date": "2026-11-09",
+ "added": "2026-11-10",
+ "topic": "Social",
+ "tag": "Safety",
+ "head": "Instagram's AI age check now finds teens worldwide, even with an adult birthday",
+ "dek": "Meta is using AI worldwide to spot Instagram users it thinks are 13 to 17, even if they entered an adult birthday, and puts them in Teen Account settings. Parents in the US will see a video about it in their feed this month.",
+ "details": "Teen Accounts limit who can message a teen, filter what they see and include time limits. Users under 16 need a parent's permission to loosen the settings. Meta used the system before in the US, Australia, Canada, the UK, the EU and Brazil. It's coming to Facebook, with Threads later in 2026.",
+ "where": "Instagram, worldwide",
+ "means": "If your teen signed up with a fake age, their account may switch to Teen Account limits.",
+ "todo": "Parents: talk with your teen about their account settings, and read Meta's explainer when the video shows up in your feed.",
+ "rank": 6,
+ "apps": [
+  "Instagram"
+ ],
+ "item": 66236,
+ "thumb_words": "INSTAGRAM'S AI SPOTS TEENS",
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/09/teens-and-parents-can-expect-instagram-notifications-about-ai-age-estimation/"
+  },
+  {
+   "name": "EconoTimes",
+   "url": "https://econotimes.com/Meta-Expands-Instagram-AI-Age-Estimation-to-Teens-Worldwide-1773814"
+  }
+ ],
+ "checked": "2026-11-10"
+}

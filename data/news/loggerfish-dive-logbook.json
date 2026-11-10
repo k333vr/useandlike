@@ -1,0 +1,21 @@
+{
+ "slug": "loggerfish-dive-logbook",
+ "date": "2026-11-08",
+ "added": "2026-11-10",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Loggerfish is a free dive logbook for iPhone and the web",
+ "dek": "Loggerfish logs every dive with no cap, imports from Garmin, SSI and Subsurface and exports to Excel; Pro adds an air-use coach and Bluetooth downloads.",
+ "quick": true,
+ "apps": [
+  "Loggerfish"
+ ],
+ "item": 64417,
+ "sources": [
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/loggerfish"
+  }
+ ],
+ "checked": "2026-11-10"
+}
