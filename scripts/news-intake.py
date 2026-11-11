@@ -9,6 +9,7 @@ days that aren't on the site yet. The daily news run reads them, checks each sou
     python3 scripts/news-intake.py more --done N     # mark it done (N = how many full stories went up for it)
     python3 scripts/news-intake.py rising [--days 7] # new apps climbing the App Store charts, by category (roundups)
     python3 scripts/news-intake.py deals             # the checked deals of /deals/ to confirm today (age, tracker lines)
+    python3 scripts/news-intake.py hits [--hours 36] # what works for other tech news channels right now (competitor hits)
 
 Order: marked stories first, then by the morning AI's score plus traction (the Studio scores every candidate hourly by
 the attention it gets on YouTube and Google: others' videos about the app and their views an hour, outlets, Google Trends,
@@ -96,9 +97,44 @@ def todo(days):
             r["traction_why"] = info.get("why", "")
             r["hot"] = (r["traction"] or 0) >= 60
             r["first"] = bool(info.get("first"))
+            # where the idea comes from, for the topic tests (NEWS.md "Topic tests"): the story file's "idea"
+            r["idea"] = "newcomer" if r["grp"] in ("Rising apps", "New products") else ("trend" if r["grp"] == "Trends" else "news")
     print(json.dumps(rows, ensure_ascii=False, indent=1))
     print("%d candidates (%d marked News: story or rumor, %d News: quick) from the last %d days."
           % (len(rows), sum(r["marked"] for r in rows), sum(r.get("quick", False) for r in rows), days), file=sys.stderr)
+
+
+def hits(hours):
+    """What works for other channels right now (Kevin, 11 Nov 2026: "see what people that succeed in our niche do and how
+    do we do the same improved"): videos of the last hours from the ~43 tech and app news channels and YouTube's trending
+    tech chart that the Studio watches (studio/src/traction.js), with their views an hour and how that compares with the
+    channel's other recent videos ("ratio": 3 = three times its usual). Shorts left out. Best first."""
+    rows = query("""SELECT video_id, channel_id, channel, title, published, views, seconds, via FROM yt_watch
+        WHERE published >= datetime('now', '-7 days') AND views IS NOT NULL AND (seconds IS NULL OR seconds > 60)""")
+    now = time.time()
+    def vph(r):
+        t = time.mktime(time.strptime(r["published"], "%Y-%m-%d %H:%M:%S")) - time.timezone
+        return r["views"] / max(1.0, (now - t) / 3600)
+    by_ch = {}
+    for r in rows:
+        r["vph"] = vph(r)
+        by_ch.setdefault(r["channel_id"], []).append(r)
+    out = []
+    cutoff = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime(now - hours * 3600))
+    for r in rows:
+        if r["published"] < cutoff:
+            continue
+        others = sorted(x["vph"] for x in by_ch[r["channel_id"]] if x is not r)
+        base = others[len(others) // 2] if len(others) >= 2 else None
+        ratio = round(r["vph"] / base, 1) if base else None
+        out.append({"title": r["title"], "channel": r["channel"], "url": "https://www.youtube.com/watch?v=" + r["video_id"],
+                    "published": r["published"], "views": r["views"], "views_an_hour": int(r["vph"]), "ratio": ratio,
+                    "via": r["via"]})
+    # stand-outs first (2x+ their channel's usual), then the busiest
+    out.sort(key=lambda x: (-(x["ratio"] or 0) if (x["ratio"] or 0) >= 2 else 0, -x["views_an_hour"]))
+    print(json.dumps(out[:40], ensure_ascii=False, indent=1))
+    print("%d videos from the last %d hours; %d at 2x+ their channel's usual." % (len(out), hours, sum((x["ratio"] or 0) >= 2 for x in out)),
+          file=sys.stderr)
 
 
 def done():
@@ -224,5 +260,7 @@ if __name__ == "__main__":
         rising(int(args[args.index("--days") + 1]) if "--days" in args else 7)
     elif args[:1] == ["deals"]:
         deals()
+    elif args[:1] == ["hits"]:
+        hits(int(args[args.index("--hours") + 1]) if "--hours" in args else 36)
     else:
         sys.exit(__doc__)

@@ -567,6 +567,10 @@ const NEWS = (fs.existsSync(NEWS_DIR) ? fs.readdirSync(NEWS_DIR).filter(f => f.e
   if (!/^\d{4}-\d{2}-\d{2}$/.test(s.date)) throw new Error(`data/news/${f}: "date" should look like 2026-10-28`);
   if (s.list !== undefined && (!Array.isArray(s.list) || s.list.some(a => !a || !a.name || !a.what || !/^https:\/\//.test(a.url || ""))))
     throw new Error(`data/news/${f}: every app in "list" needs a name, what it does ("what") and its https link ("url")`);
+  // explainers (11 Nov 2026): the article's parts, [{"h": "Heading", "p": ["paragraph", ...]}]
+  if (s.sections !== undefined && (!Array.isArray(s.sections) || !s.sections.length || s.sections.some(x => !x || typeof x.h !== "string" ||
+      !x.h.trim() || !Array.isArray(x.p) || !x.p.length || x.p.some(t => typeof t !== "string" || !t.trim()))))
+    throw new Error(`data/news/${f}: every part in "sections" needs a heading ("h") and a list of paragraphs ("p")`);
   return s;
 }).sort((a, b) => b.date.localeCompare(a.date) || (a.rank || 99) - (b.rank || 99) || a.head.localeCompare(b.head));
 const TOP_NEWS = NEWS.filter(s => !s.quick), QUICK_NEWS = NEWS.filter(s => s.quick);
@@ -716,6 +720,7 @@ for (const s of NEWS) {
     `<p class="meta">Use &amp; Like · ${esc(longDay(s.date))} · Source: ${sourcesLine(s)}</p>`,
     (s.image || storyPic(s, "-art")) ? `<img class="hero" src="${esc(s.image || storyPic(s, "-art"))}" alt="" width="1200" height="600">` : storyArt(s, "big"),
     Array.isArray(s.list) && s.list.length ? appList(s) : "",
+    Array.isArray(s.sections) ? s.sections.map(x => `<section class="part"><h2>${esc(x.h)}</h2>${x.p.map(t => `<p>${esc(t)}</p>`).join("")}</section>`).join("\n") : "",
     s.means ? `<div class="callout"><h2>What it means for you</h2><p>${esc(s.means)}</p></div>` : "",
     s.todo ? `<div class="todo"><h2>What to do</h2><p>${esc(s.todo)}</p></div>` : "",
     s.details && !s.details_in_todo ? `<div class="details"><h2>The details</h2><p>${esc(s.details)}</p>` +

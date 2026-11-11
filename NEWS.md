@@ -73,6 +73,40 @@ order above:
   a one-liner instead.
 - The score and other channels' videos are never a source of a fact, and never named in a story.
 
+**Competitor hits: what works for others, made better** (Kevin, 11 Nov 2026: "see what people that succeed in our
+niche do and how do we do the same improved"): `python3 scripts/news-intake.py hits` lists the last 36 hours' videos of
+the ~43 tech and app news channels the Studio watches (and YouTube's trending tech chart), with their views an hour and
+`ratio` (3 = three times that channel's usual). A video at 2x or more is a topic people want right now. When there's app
+or tech news behind it, write our story the same morning, better than theirs: find the article or the company's own page
+(never the video as a source), say clearly what it means for the viewer and what to do, and give it a plain, honest
+title. `idea`: `competitor`. Skip what isn't for our readers: gossip and scandals about people, politics, stock talk,
+podcasts with opinions only, product reviews with no news in them.
+
+**Explainers: AI and tech trends, 2-3 a day** (Kevin, 10 Nov: "longer other articles about ai too or all kinds of tech
+trends"; 11 Nov: "no need for my go we should test a multitude all the time"): besides the news, write 2-3 longer
+stories a day about a trend instead of one update: what AI agents can do for everyday people now, the foldable iPhone so
+far, why apps are adding AI subscriptions, passkeys instead of passwords, eSIMs for travel, scams going around. Pick them
+from what's hot (`hot` and `first` candidates, competitor hits, Google Trends, YouTube trending) and from what keeps
+coming up in the week's stories, and vary them over the week (AI, phones, privacy and security, money apps, travel,
+creator tools, games ...), so we learn which kinds get views.
+- Facts only from the named sources (several: the companies' own pages first, then the outlets of the week's stories),
+  each change with its date. No forecasts said as facts, no superlatives, neutral words, like every story.
+- Fields: `tag` `Explainer`, `idea` `explainer`, `dek` = the answer in one sentence, `sections` = 3-6 parts of 1-3
+  short paragraphs each (`[{"h": "What changed this month", "p": ["...", "..."]}]`, 400-900 words in all), then `means`
+  and `todo` as usual. Its script gets the long version `L` (2-4 minutes) as `chosen`.
+- Controversial topics are fine as long as they're within YouTube's rules. **Kevin checks first** a story that praises or
+  sells something in an unusual way (reads like an ad, pushes people to buy one product, a "deal" that isn't a checked
+  deal): write it to `data/news-held/<slug>.json` instead of `data/news/` (not built, not pushed as a story) and name it in
+  the run's last line; it goes up when he says so.
+
+**Topic tests** (Kevin, 11 Nov: "we should a b test further not only in thumbnail and title ideas but general topic
+ideas"): every new story file gets `idea` (where the idea came from: `newcomer` = new and rising apps, `trend` = Google
+Trends or YouTube trending, `competitor` = a competitor hit, `explainer`, `request` = written for "more stories", `news`
+= any other candidate; `todo` gives a default per candidate, change it when you used the story for another reason) and
+`traction` (the candidate's traction when you wrote it, as a number). `news-scripts.py save` copies both into the
+Studio's scripts, so the weekly report can compare views by idea and by traction once about 350 news videos are up (a
+week at 50 a day).
+
 **Reddit doesn't open from the cloud** (403; the 2 Nov run skipped its Reddit candidates for that reason). For a Reddit
 post about a new app, use the app's own page as the source instead: its App Store or Google Play listing, or its website
 (what it does, price, platforms, who makes it). Skip it if that page doesn't open, the app isn't out yet, or it's a
@@ -126,7 +160,7 @@ ahead, like a change that starts next week).
 | `date` | When the news came out (the source's date), `YYYY-MM-DD`. |
 | `added`, `checked` | Today: when we wrote it and checked the facts. |
 | `topic` | One word: AI, Android, Apple, Google, Social, Messaging, Streaming, Music, Money, Shopping, Travel, Email, Security, Privacy, Cloud, Video, Business ... |
-| `tag` | The small label: `New feature`, `New app`, `Update`, `Heads-up`, `Safety`, `Privacy`, `Price change`, `Shutdown`, `Offer`, `Big news`; `Rumor`, `Leak`, `In testing` for rumors; `Quick` for one-liners. |
+| `tag` | The small label: `New feature`, `New app`, `Update`, `Heads-up`, `Safety`, `Privacy`, `Price change`, `Shutdown`, `Offer`, `Big news`, `Explainer` (trend explainers); `Rumor`, `Leak`, `In testing` for rumors; `Quick` for one-liners. |
 | `category` | Optional: one of the site's categories (e.g. `Cloud Storage`, `Travel`), when the story fits one and the topic doesn't say it already. It picks the how-to videos shown under the story. |
 | `head` | The headline, at most about 70 characters, sentence case, says what changed (`Samsung News shuts down on 21 December`), in the words people search (below). No question headlines, no clickbait. |
 | `dek` | One or two sentences: what happened, for whom, from when. Doesn't repeat the headline's words. |
@@ -137,6 +171,8 @@ ahead, like a change that starts next week).
 | `rank` | Order within its day (1, 2, 3 ...). Rank 1 only for the day's story that should lead the front page (the newest rank-1 story of the last 3 days leads); at most one rank 1 per day, none on a quiet day. |
 | `quick` | `true` for a one-liner (only `head` and `dek`, plus `apps` and `sources`): small news that needs no page of its own. |
 | `list` | Roundups only (New apps this week): 5-10 apps in chart order, each `{"name", "what", "price", "maker", "url"}`: the name as the App Store writes it (it also goes in `apps`, which gets its icon), one sentence on what it does from its listing, the price as the listing says it (`Free, in-app purchases`, `$2.99`), the maker, its App Store link. The page shows them as "The apps". |
+| `sections` | Explainers only (11 Nov): the article's parts, `[{"h": "<short heading>", "p": ["<paragraph>", ...]}]`, 3-6 parts, 400-900 words in all, shown after the picture as headed paragraphs. |
+| `idea`, `traction` | Every new story (11 Nov, "Topic tests" above): where the idea came from (`newcomer`, `trend`, `competitor`, `explainer`, `request`, `news`) and the candidate's traction when written. Not shown on the page. |
 | `thumb_words` | Full stories (since 3 Nov): the news video's thumbnail headline, shown in capitals in our black headline box (Kevin, 3 Nov: "I like short titles but they should reflect the news"): 3-6 words, at most 40 characters, a real headline that names the app or company and says what happened (`CHATGPT ADDS PIN-LOCKED CHATS`, `TV BOX BOTNET TAKEN DOWN`, `T-MOBILE FIBER: 10-YEAR PRICE LOCK`, `GEMINI REPLACES GEMS WITH SKILLS`). Facts only, no clickbait; for a rumour or a feature in testing say so (`MAY`, a question mark: `HOMEVIEW AS SECURITY CAMERA?`). Without it the thumbnail shows the app and the tag; the uploader can still change the words on the script page. |
 | `rumor` | `true` for a rumor, leak or feature in testing: the page shows its tag in amber and a "Not confirmed" note. |
 | `apps` | The app names as people write them (`["WhatsApp"]`): they pick our how-to videos about the app. |
@@ -169,7 +205,8 @@ people type).
 2. `python3 scripts/news-intake.py todo > /tmp/todo.json`: the Studio's candidates from the last 3 days that aren't
    on the site, those the morning AI marked `News: story` first, each with other outlets in `also`.
    Then `python3 scripts/news-intake.py more`: when it says `"waiting": true`, someone asked for more stories on
-   the script page; do "More stories on request" (below) in this run too.
+   the script page; do "More stories on request" (below) in this run too. Then `python3 scripts/news-intake.py hits`
+   (competitor hits) and pick the day's 2-3 explainers (both above).
 3. Read `/tmp/todo.json` and the stories already in `data/news/` from the last days. For each candidate decide:
    - **write it** (rules above; open its link and the `also` links you need),
    - **already covered**: the same news is in a story (same app, same change): add the candidate's id to that

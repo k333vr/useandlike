@@ -124,6 +124,13 @@ def roundup(slug):
         return False
 
 
+def story_file(slug):
+    try:
+        return json.load(open(os.path.join(ROOT, "data", "news", "%s.json" % slug), encoding="utf-8")) if slug else {}
+    except (OSError, ValueError):
+        return {}
+
+
 def save(path):
     scripts = json.load(open(path, encoding="utf-8"))
     slugs = {f[:-5] for f in os.listdir(os.path.join(ROOT, "data", "news")) if f.endswith(".json")}
@@ -187,6 +194,12 @@ def save(path):
             kept += 1     # she already approved, edited, flagged or recorded it: her work stays
             if vals[-1]:  # the uploader's pinned question isn't her work: it may still come in
                 query("UPDATE scripts SET pinned = ? WHERE code = ? AND (pinned IS NULL OR pinned = '')", [vals[-1], s["code"]])
+        # topic tests (Kevin, 11 Nov: "a b test further ... general topic ideas"): where the story's idea came from and
+        # its traction when written, from the story file (NEWS.md "Topic tests"); not her work, so always filled in
+        story = story_file(s.get("slug"))
+        if story.get("idea") or story.get("traction") is not None:
+            query("UPDATE scripts SET idea = COALESCE(?, idea), traction = COALESCE(?, traction) WHERE code = ?",
+                  [story.get("idea"), story.get("traction"), s["code"]])
     print("Scripts: %d added, %d updated, %d left as they were (already worked on), %d instant ones linked to their story"
           " (%d of them moved to this day's list)." % (added, updated, kept, linked, moved))
 
