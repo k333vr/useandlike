@@ -1,0 +1,26 @@
+{
+ "slug": "roam-time-zone-alarm-app",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "roam sets alarms that ring only when you're in that time zone",
+ "dek": "In roam, each alarm belongs to a time zone and rings only while your phone is there, so travel alarms switch on when you land and home alarms take over when you're back. It was #63 among paid Utilities apps on the US App Store on 10 November.",
+ "details": "The sound starts quietly and builds over 16 seconds, never past half volume. There's no account and nothing is collected. It costs $14.99 with no in-app purchases, by Blake Ziolkowski, and needs iOS 26.",
+ "where": "iPhone, App Store, $14.99",
+ "means": "Frequent travelers won't get a 3 a.m. alarm set for a city they already left.",
+ "todo": "Find roam in the App Store.",
+ "rank": 21,
+ "apps": [
+  "roam"
+ ],
+ "item": 76996,
+ "thumb_words": "ALARMS THAT KNOW WHERE YOU ARE",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/roam-one-tap-travel-alarms/id6830828485"
+  }
+ ],
+ "checked": "2026-11-11"
+}

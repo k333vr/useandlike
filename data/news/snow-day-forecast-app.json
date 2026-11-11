@@ -1,0 +1,21 @@
+{
+ "slug": "snow-day-forecast-app",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Snow Day predicts whether tomorrow will be a snow day",
+ "dek": "Snow Day ($0.99, no ads or subscription) gives a forecast with reasons for a snow day; #23 among paid Weather apps in the US.",
+ "quick": true,
+ "apps": [
+  "Snow Day"
+ ],
+ "item": 77022,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/snow-day/id6811438838"
+  }
+ ],
+ "checked": "2026-11-11"
+}

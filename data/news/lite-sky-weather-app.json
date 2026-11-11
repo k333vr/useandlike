@@ -1,0 +1,21 @@
+{
+ "slug": "lite-sky-weather-app",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Lite Sky sums up the weather for just your waking hours",
+ "dek": "Lite Sky ($4.99) summarizes the forecast inside the hours you choose, 7:30 a.m. to 7:30 p.m. by default; #21 among paid Weather apps in the US.",
+ "quick": true,
+ "apps": [
+  "Lite Sky"
+ ],
+ "item": 77020,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/lite-sky/id6815078809"
+  }
+ ],
+ "checked": "2026-11-11"
+}

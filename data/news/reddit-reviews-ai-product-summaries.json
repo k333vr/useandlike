@@ -1,0 +1,26 @@
+{
+ "slug": "reddit-reviews-ai-product-summaries",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "Social",
+ "tag": "New feature",
+ "head": "Reddit Reviews sums up what Reddit users say about a product",
+ "dek": "Reddit now turns its users' conversations about a product into a review page, with a summary of what people are saying and how many comments are positive, negative or mixed. It's live for all US users.",
+ "details": "It starts with about 10,000 products and will add categories and countries over time. You get there by searching for a product or tapping a highlighted product name in a comment, and you can filter comments by topic or jump to the original thread. Reddit tested it since February and says its rules and moderators work against fake reviews.",
+ "where": "Reddit app and website, US",
+ "means": "Before buying, you can see Reddit's opinions on a product in one place instead of digging through threads.",
+ "todo": "Search a product in Reddit and check the original threads behind the summary.",
+ "rank": 10,
+ "apps": [
+  "Reddit"
+ ],
+ "item": 74118,
+ "thumb_words": "REDDIT'S NEW PRODUCT REVIEWS",
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/10/reddit-is-turning-user-conversations-into-ai-powered-product-reviews/"
+  }
+ ],
+ "checked": "2026-11-11"
+}

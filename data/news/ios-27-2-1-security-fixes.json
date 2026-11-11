@@ -1,0 +1,21 @@
+{
+ "slug": "ios-27-2-1-security-fixes",
+ "date": "2026-11-09",
+ "added": "2026-11-11",
+ "topic": "Apple",
+ "tag": "Quick",
+ "head": "iOS 27.2.1 fixes security bugs in Messages, AirPlay and Bluetooth",
+ "dek": "Apple's iOS 27.2.1 fixes a Messages bug that could let someone join a group chat uninvited and an AirPlay pairing flaw, among others; Apple updated its other systems too.",
+ "quick": true,
+ "apps": [
+  "iPhone"
+ ],
+ "item": 68610,
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/09/ios-27-2-1-has-fixes-for-security-issues-in-messages-airplay-and-more/"
+  }
+ ],
+ "checked": "2026-11-11"
+}

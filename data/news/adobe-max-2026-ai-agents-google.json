@@ -1,0 +1,33 @@
+{
+ "slug": "adobe-max-2026-ai-agents-google",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "Design",
+ "tag": "New features",
+ "head": "Adobe MAX 2026: AI agents in Photoshop and Premiere, Acrobat in Google Drive",
+ "dek": "At Adobe MAX, Adobe added AI agents and new tools to Photoshop, Premiere, Lightroom and Firefly, and Google said Adobe Acrobat will open straight from Google Drive and Gmail.",
+ "details": "Photoshop gets relighting, Premiere a color grading system and object removal for video, and Lightroom a fix for closed eyes and a blemish remover. Firefly gets Builder, a prototyping tool in private beta, and a tool that assembles videos from clips. Adobe is also releasing a connector so ChatGPT, Claude and Gemini can use more of its apps. Google says Drive and Gmail will suggest Acrobat with an \"Edit with\" option, and Adobe's tools come to Gemini and AI Mode in Search.",
+ "where": "Adobe Creative Cloud apps; Google Drive and Gmail soon",
+ "means": "Adobe's AI tools are spreading into the Google apps you already use, and its own apps do more by themselves.",
+ "todo": "Update your Adobe apps to try the new tools; watch Drive and Gmail for the Edit with Acrobat option.",
+ "rank": 14,
+ "apps": [
+  "Adobe Photoshop"
+ ],
+ "item": 73536,
+ "items": [
+  73797
+ ],
+ "thumb_words": "ADOBE'S NEW AI TOOLS",
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/"
+  },
+  {
+   "name": "Google",
+   "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/"
+  }
+ ],
+ "checked": "2026-11-11"
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "windows-11-kb5132061-november",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "Windows",
+ "tag": "Quick",
+ "head": "Windows 11 November update KB5132061 adds a right-click menu setting",
+ "dek": "The November Patch Tuesday update for Windows 11 installs automatically, adds a setting to change the right-click menu and speeds up apps like Edge and Firefox.",
+ "quick": true,
+ "apps": [
+  "Windows 11"
+ ],
+ "item": 74912,
+ "sources": [
+  {
+   "name": "Windows Latest",
+   "url": "https://www.windowslatest.com/2026/11/10/windows-11-kb5132061-is-out-with-new-features-direct-download-links-for-offline-installer-msu/"
+  }
+ ],
+ "checked": "2026-11-11"
+}

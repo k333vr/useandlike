@@ -1,0 +1,21 @@
+{
+ "slug": "shadeclock-sun-shade-ar",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "ShadeClock shows where the shade will be, on a map and in AR",
+ "dek": "ShadeClock ($3.99) shows the sun's path for any place and time, on a map and in augmented reality; #64 among paid Navigation apps in the US.",
+ "quick": true,
+ "apps": [
+  "ShadeClock"
+ ],
+ "item": 77018,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/shadeclock/id6811853770"
+  }
+ ],
+ "checked": "2026-11-11"
+}

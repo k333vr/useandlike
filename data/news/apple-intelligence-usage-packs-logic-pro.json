@@ -1,0 +1,26 @@
+{
+ "slug": "apple-intelligence-usage-packs-logic-pro",
+ "date": "2026-11-09",
+ "added": "2026-11-11",
+ "topic": "Apple",
+ "tag": "Price change",
+ "head": "Apple starts selling AI usage: $49.99 intelligence usage packs in Logic Pro",
+ "dek": "Logic Pro now sells a $49.99 \"intelligence usage pack\" for extra use of its AI features once you reach the monthly limit. It's the first time Apple charges for more Apple Intelligence use.",
+ "details": "It's a one-time purchase, not a subscription. Unused usage rolls over and expires 12 months after purchase. Packs don't work with Family Sharing and belong to the Apple Account you use for iCloud. The other Apple Creator Studio apps are expected to offer them when their updates arrive this month.",
+ "where": "Logic Pro, more Apple Creator Studio apps later this month",
+ "means": "Apple's AI features in its pro apps now have monthly limits, with paid extra use beyond them.",
+ "todo": "In Logic Pro, choose Logic Pro > Intelligence Features > Show Usage to see how much you've used before buying more.",
+ "rank": 7,
+ "apps": [
+  "Logic Pro"
+ ],
+ "item": 67170,
+ "thumb_words": "APPLE NOW SELLS AI USAGE",
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/09/apple-launches-50-intelligence-usage-packs-for-select-ai-features/"
+  }
+ ],
+ "checked": "2026-11-11"
+}

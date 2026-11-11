@@ -1,0 +1,26 @@
+{
+ "slug": "playstation-plus-pc-app-shutting-down",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "Games",
+ "tag": "Shutting down",
+ "head": "PlayStation Plus PC app shuts down on 10 December",
+ "dek": "Sony is retiring the PlayStation Plus app for PC, which let Premium members stream PS5 games on a computer, on 10 December. Sony says fewer than 0.4% of eligible Premium members used it.",
+ "details": "After that, the only way to play PS5 games away from the console is Remote Play, which needs your console on the same network.",
+ "where": "PlayStation Plus app on Windows, from 10 December",
+ "means": "If you stream PlayStation games on your PC, that stops next month.",
+ "todo": "Use Remote Play from your own PS5 instead, and check whether Premium still makes sense for you.",
+ "rank": 9,
+ "apps": [
+  "PlayStation"
+ ],
+ "item": 74944,
+ "thumb_words": "PS PLUS PC APP IS ENDING",
+ "sources": [
+  {
+   "name": "IGN",
+   "url": "https://www.ign.com/articles/playstation-plus-pc-app-will-go-offline-december-10-as-sony-continues-to-retreat-from-pc"
+  }
+ ],
+ "checked": "2026-11-11"
+}

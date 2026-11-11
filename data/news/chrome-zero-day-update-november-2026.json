@@ -1,0 +1,26 @@
+{
+ "slug": "chrome-zero-day-update-november-2026",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "Security",
+ "tag": "Update now",
+ "head": "Chrome zero-day: update Chrome now to fix a bug attackers already use",
+ "dek": "Google released a Chrome update that fixes nine security flaws, including one that attackers are already exploiting. It's the eighth such Chrome zero-day this year.",
+ "details": "The exploited flaw, CVE-2026-125350, is a use-after-free bug in Chrome's XML component, which can let an attacker corrupt data, crash the browser or run code. An anonymous researcher reported it on 6 November. Google hasn't said how it's being used. The fixed versions are 157.0.8103.50/.51 for Windows and Mac and 157.0.8103.50 for Linux. Other Chromium browsers such as Edge, Brave, Opera and Vivaldi should get the fix too.",
+ "where": "Chrome on Windows, Mac and Linux",
+ "means": "A website could use this bug against you until Chrome is updated.",
+ "todo": "In Chrome, open the menu, go to Help > About Google Chrome and click Relaunch; update Edge, Brave or Opera when their fix arrives.",
+ "rank": 1,
+ "apps": [
+  "Chrome"
+ ],
+ "item": 71886,
+ "thumb_words": "UPDATE CHROME NOW",
+ "sources": [
+  {
+   "name": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
+  }
+ ],
+ "checked": "2026-11-11"
+}

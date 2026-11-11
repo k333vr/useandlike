@@ -1,0 +1,21 @@
+{
+ "slug": "xfinity-holiday-mode-pause-wifi",
+ "date": "2026-11-09",
+ "added": "2026-11-11",
+ "topic": "Internet",
+ "tag": "Quick",
+ "head": "Xfinity's Holiday Mode pauses Wi-Fi on every device at home",
+ "dek": "Eligible Xfinity Internet customers can now pause Wi-Fi for all devices with one tap in the Xfinity app.",
+ "quick": true,
+ "apps": [
+  "Xfinity"
+ ],
+ "item": 66608,
+ "sources": [
+  {
+   "name": "Mashable",
+   "url": "https://mashable.com/tech/xfinity-introduces-holiday-mode-with-john-c-reilly"
+  }
+ ],
+ "checked": "2026-11-11"
+}

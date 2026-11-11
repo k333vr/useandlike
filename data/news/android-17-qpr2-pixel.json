@@ -1,0 +1,21 @@
+{
+ "slug": "android-17-qpr2-pixel",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "Android",
+ "tag": "Quick",
+ "head": "Android 17 QPR2 rolls out to Pixel phones a month early",
+ "dek": "Google is rolling out Android 17 QPR2 to Pixels with tweaks to the home screen menu and wallpaper colors, alongside the November Pixel Drop.",
+ "quick": true,
+ "apps": [
+  "Pixel"
+ ],
+ "item": 75141,
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/10/android-17-qpr2-pixel/"
+  }
+ ],
+ "checked": "2026-11-11"
+}

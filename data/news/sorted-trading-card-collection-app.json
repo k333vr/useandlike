@@ -1,0 +1,21 @@
+{
+ "slug": "sorted-trading-card-collection-app",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Sorted, an app for trading card collections, is out of beta",
+ "dek": "Sorted from Collectivus Holdings helps trading card game players and collectors manage their collections.",
+ "quick": true,
+ "apps": [
+  "Sorted"
+ ],
+ "item": 73726,
+ "sources": [
+  {
+   "name": "PR Newswire",
+   "url": "https://www.prnewswire.com/news-releases/sorted-launches-the-all-in-one-app-for-tcg-players-and-collectors-302935014.html"
+  }
+ ],
+ "checked": "2026-11-11"
+}

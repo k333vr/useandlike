@@ -1,0 +1,21 @@
+{
+ "slug": "bitdefender-web-sage-extension",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "Security",
+ "tag": "Quick",
+ "head": "Bitdefender Web Sage checks websites for scams as you browse",
+ "dek": "Bitdefender's new Web Sage extension for Chrome, Edge, Firefox, Safari and Brave checks pages against its threat data, with paid AI analysis on top.",
+ "quick": true,
+ "apps": [
+  "Bitdefender"
+ ],
+ "item": 73603,
+ "sources": [
+  {
+   "name": "Finanznachrichten (Business Wire)",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70088819-bitdefender-launches-web-sage-an-ai-powered-browser-security-advisor-to-counter-evolving-scams-and-fraud-004.htm"
+  }
+ ],
+ "checked": "2026-11-11"
+}

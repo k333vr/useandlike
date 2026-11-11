@@ -1,0 +1,21 @@
+{
+ "slug": "sandbender-fm-synth-app",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Sandbender is an FM synth from Audio Damage",
+ "dek": "Sandbender ($6.99) from Audio Damage aims to make FM synthesis easier to program; #17 among paid Music apps in the US.",
+ "quick": true,
+ "apps": [
+  "Sandbender"
+ ],
+ "item": 77012,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/sandbender/id6818514178"
+  }
+ ],
+ "checked": "2026-11-11"
+}

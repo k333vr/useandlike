@@ -1,0 +1,26 @@
+{
+ "slug": "receiptlocker-receipt-scanner-small-business",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "ReceiptLocker scans receipts and sorts them by tax category on your iPhone",
+ "dek": "ReceiptLocker reads the vendor, total and date from a receipt photo on your iPhone and files it in a category that follows the US Schedule C tax form. It was #41 among paid Business apps on the US App Store on 10 November.",
+ "details": "It's made for one-person businesses such as contractors, salons and freelancers. The photo isn't sent anywhere to be read. It shows totals per year and quarter and makes a PDF pack for your accountant. It costs $1.99 with no in-app purchases, by Brian Montenegro, and needs iOS 18.",
+ "where": "iPhone and iPad, App Store, $1.99",
+ "means": "If you're self-employed in the US, your receipts can be ready for tax time without a subscription.",
+ "todo": "Find ReceiptLocker in the App Store.",
+ "rank": 18,
+ "apps": [
+  "ReceiptLocker"
+ ],
+ "item": 77023,
+ "thumb_words": "RECEIPTS SORTED FOR TAX TIME",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/receiptlocker-scan-store/id6821232956"
+  }
+ ],
+ "checked": "2026-11-11"
+}

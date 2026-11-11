@@ -1,0 +1,21 @@
+{
+ "slug": "seedstead-seed-starting-planner",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "SeedStead tells you when to start seeds for your ZIP code",
+ "dek": "SeedStead ($9.99) makes a planting schedule from your ZIP code and local frost dates; #75 among paid Lifestyle apps in the US.",
+ "quick": true,
+ "apps": [
+  "SeedStead"
+ ],
+ "item": 77007,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/seedstead-seed-starting/id6801630189"
+  }
+ ],
+ "checked": "2026-11-11"
+}

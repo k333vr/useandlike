@@ -1,0 +1,21 @@
+{
+ "slug": "flit-rss-reader-swipe",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Flit is an RSS reader where you swipe through articles",
+ "dek": "Flit (free with in-app purchases) shows each new article as a card: swipe right to save, left to skip; #96 among free News apps in the US.",
+ "quick": true,
+ "apps": [
+  "Flit"
+ ],
+ "item": 77026,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/flit-rss-reader-news-feed/id6821040165"
+  }
+ ],
+ "checked": "2026-11-11"
+}

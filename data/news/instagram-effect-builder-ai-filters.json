@@ -1,0 +1,21 @@
+{
+ "slug": "instagram-effect-builder-ai-filters",
+ "date": "2026-11-09",
+ "added": "2026-11-11",
+ "topic": "Social",
+ "tag": "Quick",
+ "head": "Instagram's Effect Builder makes Story filters from a prompt",
+ "dek": "Instagram's new Effect Builder on the web creates custom filters for Stories from what you type.",
+ "quick": true,
+ "apps": [
+  "Instagram"
+ ],
+ "item": 68163,
+ "sources": [
+  {
+   "name": "The Verge",
+   "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters"
+  }
+ ],
+ "checked": "2026-11-11"
+}

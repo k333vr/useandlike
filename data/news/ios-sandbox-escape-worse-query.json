@@ -1,0 +1,26 @@
+{
+ "slug": "ios-sandbox-escape-worse-query",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "iPhone sandbox escape lets apps read other apps' files on iOS 26 and 27",
+ "dek": "Code published on GitHub, called worse_query, lets an app read other apps' files on iPhones with iOS 26 and 27. Binance warns it could expose crypto wallet keys and logins; Apple's latest updates don't list a fix.",
+ "details": "An app needs to be set up in a particular way to use it, and the known apps built on it are installed by sideloading, for example through AltStore or SideStore. No attacks or thefts have been reported. Binance advises deleting apps from untrusted sources and updating iOS and all apps.",
+ "where": "iPhones on iOS 26 and 27",
+ "means": "Apps from outside the App Store are the main risk here, especially if you keep crypto wallets on your iPhone.",
+ "todo": "Delete sideloaded apps you don't fully trust, update iOS and your apps, and if you think a wallet is affected, move funds to a new wallet made on a clean device.",
+ "rank": 8,
+ "apps": [
+  "iPhone"
+ ],
+ "item": 73243,
+ "thumb_words": "IPHONE APPS CAN SEE OTHER APPS",
+ "sources": [
+  {
+   "name": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html"
+  }
+ ],
+ "checked": "2026-11-11"
+}

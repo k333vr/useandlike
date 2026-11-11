@@ -1,0 +1,30 @@
+{
+ "slug": "claude-sheets-whiteboards-data",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "Claude Sheets and Whiteboards: Claude now builds spreadsheets and boards with you",
+ "dek": "Anthropic added Sheets and Whiteboards to Claude in beta, on all paid plans: Claude builds a spreadsheet or a shared brainstorming board with you and your team. Claude Dashboards is now generally available as Claude Data.",
+ "details": "Sheets can have tabs, formulas, formatting and drop-downs, made from a prompt like \"a hiring budget\"; Claude marks each edit so you can follow changes, and you can export to Excel (.xlsx) or CSV. Whiteboards turn a messy plan into a board with owners and dates, then into a doc or deck, or into Miro or Lucid. Claude Data answers questions about company data in tools such as BigQuery, with certified metrics and live sharing in beta.",
+ "where": "Claude on web, desktop and mobile, paid plans",
+ "means": "You can keep a spreadsheet or brainstorm inside Claude instead of copying results into another app.",
+ "todo": "In Claude, ask for a spreadsheet or a board, then share it with your team or export it when you need more spreadsheet features.",
+ "rank": 3,
+ "apps": [
+  "Claude"
+ ],
+ "item": 75108,
+ "thumb_words": "CLAUDE NOW MAKES SPREADSHEETS",
+ "sources": [
+  {
+   "name": "Anthropic",
+   "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
+  },
+  {
+   "name": "iClarified",
+   "url": "https://www.iclarified.com/103419/anthropic-launches-claude-sheets-and-whiteboards-previews-meetings"
+  }
+ ],
+ "checked": "2026-11-11"
+}

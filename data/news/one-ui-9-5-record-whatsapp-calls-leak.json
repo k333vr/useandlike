@@ -1,0 +1,27 @@
+{
+ "slug": "one-ui-9-5-record-whatsapp-calls-leak",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "Samsung",
+ "tag": "Leak",
+ "rumor": true,
+ "head": "One UI 9.5 may let Galaxy phones record WhatsApp, Telegram and Meet calls",
+ "dek": "An early One UI 9.5 build has a \"Record calls in other apps\" option in Samsung's Phone app, with a switch each for WhatsApp, Telegram and Google Meet, SamMobile found.",
+ "details": "The screen warns that the other people won't hear a recording notice, and that you're responsible for telling them. It may only come to some countries because of call recording laws. Samsung hasn't announced One UI 9.5.",
+ "where": "Galaxy phones, One UI 9.5, not announced",
+ "means": "Your Galaxy's call recorder may work for app calls too, not just regular phone calls.",
+ "todo": "Nothing to do yet; if it arrives, check your country's rules and tell people before you record.",
+ "rank": 13,
+ "apps": [
+  "Galaxy"
+ ],
+ "item": 72841,
+ "thumb_words": "RECORD WHATSAPP CALLS ON GALAXY?",
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/one-ui-9-5-call-record-third-party-apps-leak-3733329/"
+  }
+ ],
+ "checked": "2026-11-11"
+}

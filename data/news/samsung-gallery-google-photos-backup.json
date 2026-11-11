@@ -1,0 +1,26 @@
+{
+ "slug": "samsung-gallery-google-photos-backup",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "Samsung",
+ "tag": "New feature",
+ "head": "Samsung Gallery can now back up photos to Google Photos",
+ "dek": "Samsung's Gallery app now backs up photos and videos to Google Photos with a feature called Gallery Sync, replacing the old Microsoft OneDrive option. It needs One UI 9.",
+ "details": "You sign in with a Google account and use its free 15 GB or Google One storage. Gallery then shows media backed up from your other Galaxy devices, but not your whole Google Photos library. After backing up, a \"free up space\" button deletes the copies on your phone. Samsung says more Galaxy devices get it in phases.",
+ "where": "Galaxy phones with One UI 9 (Android 17)",
+ "means": "If your Galaxy is on One UI 9, Gallery can back up to Google instead of OneDrive.",
+ "todo": "In Samsung Gallery, open Menu > Settings > Sync photos and videos and sign in with your Google account.",
+ "rank": 4,
+ "apps": [
+  "Galaxy"
+ ],
+ "item": 73827,
+ "thumb_words": "GALAXY GALLERY + GOOGLE PHOTOS",
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/10/samsung-gallery-google-photos-backup-rollout/"
+  }
+ ],
+ "checked": "2026-11-11"
+}

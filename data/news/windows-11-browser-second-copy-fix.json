@@ -1,0 +1,21 @@
+{
+ "slug": "windows-11-browser-second-copy-fix",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "Windows",
+ "tag": "Quick",
+ "head": "Windows 11 opens a second browser copy for every link; Firefox tests a fix",
+ "dek": "Windows 11 briefly starts a second copy of your browser to pass each clicked link along; Firefox is testing Microsoft's fix.",
+ "quick": true,
+ "apps": [
+  "Firefox"
+ ],
+ "item": 73831,
+ "sources": [
+  {
+   "name": "Windows Latest",
+   "url": "https://www.windowslatest.com/2026/11/10/every-time-you-click-a-link-windows-11-quietly-launches-a-second-copy-of-your-browser-just-to-pass-it-along-and-firefox-is-now-testing-microsofts-fix/"
+  }
+ ],
+ "checked": "2026-11-11"
+}

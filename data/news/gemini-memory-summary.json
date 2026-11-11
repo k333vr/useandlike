@@ -1,0 +1,21 @@
+{
+ "slug": "gemini-memory-summary",
+ "date": "2026-11-09",
+ "added": "2026-11-11",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Gemini shows what it remembers about you, and lets you delete it",
+ "dek": "Gemini's new Memory summary in Settings > Personal Intelligence lists what it knows about you by topic, which you can edit or delete.",
+ "quick": true,
+ "apps": [
+  "Gemini"
+ ],
+ "item": 67175,
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/09/google-gemini-memory-summary/"
+  }
+ ],
+ "checked": "2026-11-11"
+}

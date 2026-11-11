@@ -1,0 +1,21 @@
+{
+ "slug": "kidkode-coding-for-kids",
+ "date": "2026-11-10",
+ "added": "2026-11-11",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "KidKode teaches kids to code by helping a robot",
+ "dek": "KidKode ($0.99) starts with simple moves and builds to sequences, debugging and loops; #77 among paid Education apps in the US.",
+ "quick": true,
+ "apps": [
+  "KidKode"
+ ],
+ "item": 77017,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/kidkode/id6823067429"
+  }
+ ],
+ "checked": "2026-11-11"
+}
