@@ -60,6 +60,19 @@ tech) · <channel>") are hints. When there's app or tech news behind one, find t
 write the story the same morning, among the first of the day: people search for it right now. Never name Google
 Trends or a YouTube video as the source of a fact; the source is the outlet's article or the company's own page.
 
+**Traction** (Kevin, 10 Nov 2026: "check what tech and app news get traction on youtube and google and go for these
+aggressively ... figuring out methods how we can be even the first one of a story"): every candidate carries `traction`
+(0-100, the Studio's hourly score of the attention it gets: other channels' videos about its app in the last 3 days and
+their views an hour, how many outlets have it, Google Trends, how searched the app is on YouTube), `traction_why` (the
+reasons in words), `hot` (60+) and `first` (3+ outlets have it and no news channel has a video on it yet). Inside the
+order above:
+- `hot`: write it first, as a full story with a script, high on the presenter's list (rank 1-5). A big app's news that
+  is `hot` gets a full story too: that many people are watching it.
+- `first`: also early on her list, the same morning; being the first video on a story is the chance to rank for it.
+- Two similar candidates: the higher traction first. Under 15, not `first`, and the day already has 15+ full stories:
+  a one-liner instead.
+- The score and other channels' videos are never a source of a fact, and never named in a story.
+
 **Reddit doesn't open from the cloud** (403; the 2 Nov run skipped its Reddit candidates for that reason). For a Reddit
 post about a new app, use the app's own page as the source instead: its App Store or Google Play listing, or its website
 (what it does, price, platforms, who makes it). Skip it if that page doesn't open, the app isn't out yet, or it's a

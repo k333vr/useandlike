@@ -10,6 +10,10 @@ days that aren't on the site yet. The daily news run reads them, checks each sou
     python3 scripts/news-intake.py rising [--days 7] # new apps climbing the App Store charts, by category (roundups)
     python3 scripts/news-intake.py deals             # the checked deals of /deals/ to confirm today (age, tracker lines)
 
+Order: marked stories first, then by the morning AI's score plus traction (the Studio scores every candidate hourly by
+the attention it gets on YouTube and Google: others' videos about the app and their views an hour, outlets, Google Trends,
+YouTube searches; 0-100, "hot" at 60+, "first" when the press has it and no channel has a video yet; NEWS.md "Traction").
+
 A candidate is a story the morning AI marked "News: story" (Kevin, 1 Nov 2026: "basically no limit and also a lot of
 newcomer apps") or "News: rumor" (a rumor, leak or feature in testing: Kevin wants those too, framed as such; "rumor": true),
 or one it marked for the newsletter or scored 60+, unless it wrote "Skip". "News: quick" (Kevin, 3 Nov: big apps "should
@@ -62,7 +66,8 @@ def norm(u):
 def todo(days):
     items, urls = on_site()
     rows = query("""SELECT i.id, i.title, i.url, COALESCE(i.publisher, s.name) AS source, s.grp AS grp, i.snippet,
-          i.published, i.sources_count, i.ai_summary AS summary, i.ai_why AS why, i.ai_use AS use, i.ai_score AS score
+          i.published, i.sources_count, i.ai_summary AS summary, i.ai_why AS why, i.ai_use AS use, i.ai_score AS score,
+          i.traction, i.traction_info
         FROM items i JOIN sources s ON s.id = i.source_id
         WHERE i.cluster_id IS NULL AND i.ai_at IS NOT NULL AND i.status != 'skipped'
           AND i.published >= datetime('now', ?)
@@ -70,7 +75,7 @@ def todo(days):
                OR i.ai_use LIKE '%Newsletter:%' OR i.ai_score >= 60)
           AND COALESCE(i.ai_use, '') NOT LIKE 'Skip%'
         ORDER BY (i.ai_use LIKE '%News: story%' OR i.ai_use LIKE '%News: rumor%') DESC, (i.ai_use LIKE '%News: quick%') DESC,
-          i.ai_score DESC, i.sources_count DESC""", ["-%d days" % days])
+          i.ai_score + COALESCE(i.traction, 0) DESC, i.sources_count DESC""", ["-%d days" % days])
     rows = [r for r in rows if r["id"] not in items and norm(r["url"]) not in urls]
     if rows:
         ids = ",".join(str(r["id"]) for r in rows)
@@ -84,6 +89,13 @@ def todo(days):
             r["marked"] = "News: story" in (r["use"] or "") or "News: rumor" in (r["use"] or "")
             r["rumor"] = "News: rumor" in (r["use"] or "")
             r["quick"] = "News: quick" in (r["use"] or "") and not r["marked"]
+            # traction (the Studio's src/traction.js, hourly): attention on YouTube and Google, 0-100; "hot" 60+,
+            # "first": the press has it and no channel has a video on it yet (NEWS.md "Traction")
+            info = json.loads(r.pop("traction_info") or "{}")
+            r["traction"] = int(r["traction"]) if r["traction"] is not None else None
+            r["traction_why"] = info.get("why", "")
+            r["hot"] = (r["traction"] or 0) >= 60
+            r["first"] = bool(info.get("first"))
     print(json.dumps(rows, ensure_ascii=False, indent=1))
     print("%d candidates (%d marked News: story or rumor, %d News: quick) from the last %d days."
           % (len(rows), sum(r["marked"] for r in rows), sum(r.get("quick", False) for r in rows), days), file=sys.stderr)
