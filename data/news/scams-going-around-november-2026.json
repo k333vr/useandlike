@@ -1,0 +1,75 @@
+{
+ "slug": "scams-going-around-november-2026",
+ "date": "2026-11-12",
+ "added": "2026-11-12",
+ "topic": "Security",
+ "tag": "Explainer",
+ "head": "Scams going around this week: fake upgrades, fake invites, fake bills",
+ "dek": "This week's scams all copy a company you trust, a phone network, OpenAI or your internet provider, and push you to act fast; checking through the company's own app stops most of them.",
+ "sections": [
+  {
+   "h": "The free phone upgrade that you send back",
+   "p": [
+    "A caller posing as your network offers a free upgrade, a real phone arrives, then a second call says it was a mistake and a courier picks it up for the scammers, while you keep paying. Malwarebytes says the first call often comes from a spoofed number; the UK had nearly 30,000 cases last year.",
+    "Mobile networks do offer upgrades, so the first call sounds believable. If you've already sent a phone back, Malwarebytes advises calling your provider on its official number, naming the affected orders and asking for a fraud investigation."
+   ]
+  },
+  {
+   "h": "Free ChatGPT Pro invites",
+   "p": [
+    "Push Security found fake OpenAI Academy pages inviting people to a livestream and promising three months of ChatGPT Pro. They are built to steal Microsoft and Google logins, and similar pages copied SpaceX and Anthropic events.",
+    "The links reach people through Google and Zapier short links, which makes them look harmless in an inbox. Earlier versions of the same scam used fake Zoom event pages. None of the companies named is behind the invitations."
+   ]
+  },
+  {
+   "h": "Fake bills and voicemails",
+   "p": [
+    "Fake Xfinity emails say a payment failed or a voicemail is waiting, with a link that looks like xfinity.com but ends on a scam page. A stolen login can open the email inbox behind it and lead to other accounts.",
+    "Threats of immediate suspension are a standard way to make people act before they think, Trend Micro has noted about Xfinity scams. A Chicago-area resident lost close to 13,000 dollars after answering a phishing message, Fox 32 reported. Some messages only ask you to call a number, where a person tries to get a payment or remote access to your computer."
+   ]
+  },
+  {
+   "h": "Apps from outside the App Store",
+   "p": [
+    "Code published on 8 November lets sideloaded iPhone apps read other apps' files on iOS 26 and 27; Binance warned crypto users to delete apps from untrusted sources. No attacks were reported.",
+    "One app built on the code, a file manager called WQ Files, installs through sideloading tools such as AltStore and SideStore. Binance's advice for anyone who suspects a problem: move funds to a new wallet made on a clean device and sign out of all active sessions."
+   ]
+  },
+  {
+   "h": "What they have in common",
+   "p": [
+    "Each one uses a name you know, a reason to hurry, and a link or phone number to get you off the real website. Going to the company's app or typing its address yourself avoids the trap.",
+    "Two quick habits help with all of them: never give a code, login or card number to someone who contacted you first, and keep your phone, browser and apps updated. Google's Chrome update this week fixed a flaw attackers were already using."
+   ]
+  }
+ ],
+ "means": "An unexpected call, invite or bill that asks for a login, payment or return is the warning sign.",
+ "todo": "Hang up and call the company on its official number, never sign in from a link in a message, and delete apps you didn't get from a trusted store.",
+ "rank": 4,
+ "idea": "explainer",
+ "thumb_words": "THIS WEEK'S SCAMS TO AVOID",
+ "sources": [
+  {
+   "name": "Daily Express",
+   "url": "https://www.express.co.uk/life-style/science-technology/2264489/iPhone-Android-free-upgrade-warning"
+  },
+  {
+   "name": "DESIblitz",
+   "url": "https://www.desiblitz.com/content/a-free-chatgpt-pro-invite-could-be-a-scam"
+  },
+  {
+   "name": "Cliché Magazine",
+   "url": "https://clichemag.com/business/technology/xfinity-phishing-email-is-it-fake-what-to-do/"
+  },
+  {
+   "name": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html"
+  },
+  {
+   "name": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
+  }
+ ],
+ "traction": 0,
+ "checked": "2026-11-12"
+}

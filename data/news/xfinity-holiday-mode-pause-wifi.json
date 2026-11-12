@@ -3,19 +3,26 @@
  "date": "2026-11-09",
  "added": "2026-11-11",
  "topic": "Internet",
- "tag": "Quick",
- "head": "Xfinity's Holiday Mode pauses Wi-Fi on every device at home",
- "dek": "Eligible Xfinity Internet customers can now pause Wi-Fi for all devices with one tap in the Xfinity app.",
- "quick": true,
+ "tag": "New feature",
+ "head": "Xfinity Holiday Mode pauses Wi-Fi on every device with one tap",
+ "dek": "Xfinity added Holiday Mode to its app on 9 November: one tap pauses Wi-Fi for all devices or chosen people on your home network, to get everyone off their phones for a while.",
+ "details": "It's for eligible Xfinity Internet customers. Tapping again reconnects everyone. Comcast launched it with a holiday ad starring John C. Reilly.",
+ "where": "Xfinity app, US",
+ "means": "Parents can take the whole house offline for dinner without changing router settings.",
+ "todo": "In the Xfinity app, choose Holiday Mode, pick the devices or people to pause, and tap again to reconnect.",
+ "rank": 33,
  "apps": [
   "Xfinity"
  ],
  "item": 66608,
+ "idea": "request",
+ "traction": 0,
+ "thumb_words": "XFINITY CAN PAUSE ALL WI-FI",
  "sources": [
   {
    "name": "Mashable",
    "url": "https://mashable.com/tech/xfinity-introduces-holiday-mode-with-john-c-reilly"
   }
  ],
- "checked": "2026-11-11"
+ "checked": "2026-11-12"
 }

@@ -1,0 +1,32 @@
+{
+ "slug": "chatgpt-standard-advanced-voice-retired",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "AI",
+ "tag": "Shutting down",
+ "head": "ChatGPT Standard and Advanced Voice end on 11 December; Live replaces them",
+ "dek": "OpenAI is retiring ChatGPT's Standard and Advanced voice modes on 11 December. Anyone using either moves to Live, the voice mode OpenAI introduced in July.",
+ "details": "Live can listen while it speaks, so you can add a detail in the middle of an answer, and it can hand a web search to another model while the conversation goes on. Your old voice conversations stay in your history. Using the camera or sharing your screen in a voice chat still runs on the older Advanced system for now.",
+ "where": "ChatGPT apps, from 11 December",
+ "means": "If you talk to ChatGPT, the voice will behave differently: you can interrupt it, and it may answer while you pause.",
+ "todo": "Try Live now in the ChatGPT app so the switch isn't a surprise; nothing else to do.",
+ "rank": 1,
+ "apps": [
+  "ChatGPT"
+ ],
+ "item": 78632,
+ "idea": "news",
+ "thumb_words": "CHATGPT VOICE MODES END DEC 11",
+ "sources": [
+  {
+   "name": "Open Magazine",
+   "url": "https://openthemagazine.com/business/chatgpt-is-killing-two-voice-modes-why-is-it-betting-on-live"
+  },
+  {
+   "name": "EconoTimes",
+   "url": "https://econotimes.com/OpenAI-Sets-Dec-11-Cutoff-for-ChatGPT-s-Advanced-and-Standard-Voice-Modes"
+  }
+ ],
+ "traction": 0,
+ "checked": "2026-11-12"
+}

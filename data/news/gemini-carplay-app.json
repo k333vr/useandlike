@@ -1,0 +1,32 @@
+{
+ "slug": "gemini-carplay-app",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "Gemini on CarPlay: Google's AI app now talks with you while you drive",
+ "dek": "Google's Gemini app now works on Apple CarPlay, so you can have hands-free Gemini Live conversations in the car. It's rolling out worldwide from 11 November in every Gemini Live language.",
+ "details": "Gemini was the last big AI chatbot without its own CarPlay app; ChatGPT, Claude, Perplexity, Copilot, Meta AI and Grok already had one. Google suggests it for daily briefings, catching up on your inbox and brainstorming on the way.",
+ "where": "iPhone with CarPlay, worldwide, rolling out",
+ "means": "If you use Gemini, you can talk to it from your car's screen instead of picking up your phone.",
+ "todo": "Update the Gemini app, allow the microphone and use Gemini Live once on your phone; then tap the Gemini icon on your CarPlay screen.",
+ "rank": 2,
+ "apps": [
+  "Gemini"
+ ],
+ "item": 81428,
+ "idea": "news",
+ "thumb_words": "GEMINI ARRIVES ON CARPLAY",
+ "sources": [
+  {
+   "name": "Google",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/11/google-confirms-gemini-app-coming-to-apple-carplay/"
+  }
+ ],
+ "traction": 0,
+ "checked": "2026-11-12"
+}

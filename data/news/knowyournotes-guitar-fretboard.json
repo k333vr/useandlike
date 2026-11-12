@@ -1,0 +1,23 @@
+{
+ "slug": "knowyournotes-guitar-fretboard",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "KnowYourNotes teaches the guitar fretboard with games",
+ "dek": "KnowYourNotes Guitar Edition ($2.99) turns note recognition into short challenges; #47 among paid Education apps in the US.",
+ "quick": true,
+ "apps": [
+  "KnowYourNotes"
+ ],
+ "item": 83860,
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/knowyournotes-guitar-edition/id6824565300"
+  }
+ ],
+ "checked": "2026-11-12"
+}

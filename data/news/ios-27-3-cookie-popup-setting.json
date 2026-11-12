@@ -1,0 +1,24 @@
+{
+ "slug": "ios-27-3-cookie-popup-setting",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Apple",
+ "tag": "Quick",
+ "rumor": true,
+ "head": "iOS 27.3 adds a setting to skip website cookie popups",
+ "dek": "The iOS 27.3 beta has a Safari setting meant to answer cookie popups for you; it needs websites to support it.",
+ "quick": true,
+ "apps": [
+  "Safari"
+ ],
+ "item": 80572,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/11/ios-27-3-adds-new-setting-to-bypass-website-cookie-popups-eventually/"
+  }
+ ],
+ "checked": "2026-11-12"
+}

@@ -3,19 +3,26 @@
  "date": "2026-11-10",
  "added": "2026-11-11",
  "topic": "Apple",
- "tag": "Quick",
- "head": "New Siri Remote's Precision Finding needs an iPhone 17 or newer",
- "dek": "The new Apple TV 4K's Siri Remote can be found with Precision Finding, but only from an iPhone 17 or newer.",
- "quick": true,
+ "tag": "Heads-up",
+ "head": "New Siri Remote: Precision Finding needs an iPhone 17 or newer",
+ "dek": "The new Siri Remote that comes with the Apple TV 4K on Friday can be found with Precision Finding, but only from an iPhone 17 or newer.",
+ "details": "The remote also has a speaker you can ring from the Find My app, which works with older iPhones. It works with earlier Apple TV 4K and Apple TV HD models and is sold separately too.",
+ "where": "New Siri Remote, from 13 November",
+ "means": "With an older iPhone, you can still make the remote beep, but not get step-by-step directions to it.",
+ "todo": "Before buying the remote mainly for Precision Finding, check that your iPhone is an iPhone 17 or newer.",
+ "rank": 36,
  "apps": [
   "Apple TV"
  ],
  "item": 74901,
+ "idea": "request",
+ "traction": 0,
+ "thumb_words": "NEW REMOTE NEEDS IPHONE 17",
  "sources": [
   {
    "name": "9to5Mac",
    "url": "https://9to5mac.com/2026/11/10/new-apple-tv-4k-remotes-best-feature-requires-a-newer-iphone-model/"
   }
  ],
- "checked": "2026-11-11"
+ "checked": "2026-11-12"
 }

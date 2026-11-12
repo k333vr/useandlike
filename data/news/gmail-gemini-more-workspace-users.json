@@ -1,0 +1,23 @@
+{
+ "slug": "gmail-gemini-more-workspace-users",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Email",
+ "tag": "Quick",
+ "head": "Gemini in Gmail reaches more Google Workspace plans",
+ "dek": "Google is bringing Gemini features in Gmail to more Workspace business and education plans.",
+ "quick": true,
+ "apps": [
+  "Gmail"
+ ],
+ "item": 77610,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "Google Workspace",
+   "url": "http://workspaceupdates.googleblog.com/2026/11/expanding-gemini-in-gmail-to-more-Google-Workspace-users.html"
+  }
+ ],
+ "checked": "2026-11-12"
+}

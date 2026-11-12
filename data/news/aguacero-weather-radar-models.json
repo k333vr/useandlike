@@ -1,0 +1,23 @@
+{
+ "slug": "aguacero-weather-radar-models",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Aguacero puts radar, forecast models and satellite on one map",
+ "dek": "Aguacero (free, in-app purchases) shows NEXRAD radar, GFS, ECMWF and HRRR models and satellite on one timeline; #67 among free Weather apps in the US.",
+ "quick": true,
+ "apps": [
+  "Aguacero"
+ ],
+ "item": 83864,
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/aguacero-weather-radar-models/id6756169018"
+  }
+ ],
+ "checked": "2026-11-12"
+}

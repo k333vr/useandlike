@@ -3,19 +3,26 @@
  "date": "2026-11-10",
  "added": "2026-11-11",
  "topic": "Windows",
- "tag": "Quick",
- "head": "Windows 11 November update KB5132061 adds a right-click menu setting",
- "dek": "The November Patch Tuesday update for Windows 11 installs automatically, adds a setting to change the right-click menu and speeds up apps like Edge and Firefox.",
- "quick": true,
+ "tag": "Update",
+ "head": "Windows 11 November update KB5132061: what's new",
+ "dek": "Microsoft's November security update for Windows 11, KB5132061, installs automatically and adds a setting to change the right-click menu, with faster performance in apps like Edge and Firefox.",
+ "details": "On Windows 11 26H2 it's build 26300.9974, on 25H2 build 26200.9974. Only 25H2 and 26H2 still get updates for Home and Pro on most PCs; support for 24H2 Home and Pro ended in October.",
+ "where": "Windows 11 25H2 and 26H2",
+ "means": "Your PC updates by itself; check that you're on a supported version.",
+ "todo": "Open Settings > Windows Update and restart if the update is waiting; check your version under System > About.",
+ "rank": 38,
  "apps": [
   "Windows 11"
  ],
  "item": 74912,
+ "idea": "request",
+ "traction": 0,
+ "thumb_words": "WINDOWS 11 NOVEMBER UPDATE",
  "sources": [
   {
    "name": "Windows Latest",
    "url": "https://www.windowslatest.com/2026/11/10/windows-11-kb5132061-is-out-with-new-features-direct-download-links-for-offline-installer-msu/"
   }
  ],
- "checked": "2026-11-11"
+ "checked": "2026-11-12"
 }

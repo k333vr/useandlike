@@ -1,0 +1,23 @@
+{
+ "slug": "youtube-tv-google-tv-bug",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Streaming",
+ "tag": "Quick",
+ "head": "YouTube TV bug causes problems on Google TV",
+ "dek": "A new bug in the YouTube TV app is causing playback issues on Google TV devices.",
+ "quick": true,
+ "apps": [
+  "YouTube TV"
+ ],
+ "item": 79828,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "Cord Cutters News",
+   "url": "https://cordcuttersnews.com/a-new-youtube-tv-bug-is-causing-issues-on-google-tv/"
+  }
+ ],
+ "checked": "2026-11-12"
+}

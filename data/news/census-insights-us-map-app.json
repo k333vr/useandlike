@@ -1,0 +1,23 @@
+{
+ "slug": "census-insights-us-map-app",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Census Insights maps 100 years of US census data",
+ "dek": "Census Insights ($0.99) shows who lived where in the US by county from 1920 to 2020; #66 among paid Reference apps in the US.",
+ "quick": true,
+ "apps": [
+  "Census Insights"
+ ],
+ "item": 83895,
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/census-insights/id6832293056"
+  }
+ ],
+ "checked": "2026-11-12"
+}

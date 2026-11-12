@@ -1,0 +1,28 @@
+{
+ "slug": "xfinity-phishing-email-signs",
+ "date": "2026-11-10",
+ "added": "2026-11-12",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "Xfinity phishing email: how to tell it's fake and what to do",
+ "dek": "Fake Xfinity emails say a payment failed, your bill is suspended or a voicemail is waiting, with a link that looks like xfinity.com but ends on a scam page that asks for your login or card.",
+ "details": "A stolen Xfinity ID can be tied to an email inbox, phone number and billing details, so criminals can reset passwords for other sites. Louisa County in Virginia has warned residents about the same pattern. Some messages only ask you to call a number, where a person tries to get a payment or remote access.",
+ "where": "Email, US",
+ "means": "An urgent Xfinity email asking you to pay or sign in through a link is likely a scam.",
+ "todo": "Don't click links or call numbers in the email; open the Xfinity app or type xfinity.com yourself to check your account.",
+ "rank": 28,
+ "apps": [
+  "Xfinity"
+ ],
+ "item": 72554,
+ "idea": "request",
+ "thumb_words": "FAKE XFINITY EMAILS: SPOT THEM",
+ "sources": [
+  {
+   "name": "Cliché Magazine",
+   "url": "https://clichemag.com/business/technology/xfinity-phishing-email-is-it-fake-what-to-do/"
+  }
+ ],
+ "traction": 21,
+ "checked": "2026-11-12"
+}

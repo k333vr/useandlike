@@ -1,0 +1,23 @@
+{
+ "slug": "northwoods-trail-tracker-app",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Northwoods Trail Tracker records rides with offline maps and CarPlay",
+ "dek": "Northwoods Trail Tracker ($9.99) records rides, saves waypoints and shows an offline map; #59 among paid Navigation apps in the US.",
+ "quick": true,
+ "apps": [
+  "Northwoods Trail Tracker"
+ ],
+ "item": 83861,
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/northwoods-trail-tracker/id6824643353"
+  }
+ ],
+ "checked": "2026-11-12"
+}

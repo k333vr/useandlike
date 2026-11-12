@@ -1,0 +1,28 @@
+{
+ "slug": "offline-ai-voice-translator-app",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Offline AI Voice Translator translates speech without internet",
+ "dek": "Offline AI Voice Translator turns your speech into spoken translation without an internet connection once you've downloaded its AI model. It was #63 among paid Travel apps on the US App Store on 11 November.",
+ "details": "You download a language model package once, which needs internet and some time. It costs $3.59 with no in-app purchases, by Joshua Baums, and needs iOS 26.",
+ "where": "iPhone, App Store, $3.59",
+ "means": "Abroad, you can translate a conversation even without roaming or Wi-Fi.",
+ "todo": "Download the model at home on Wi-Fi before you travel.",
+ "rank": 10,
+ "apps": [
+  "Offline AI Voice Translator"
+ ],
+ "item": 83853,
+ "idea": "newcomer",
+ "thumb_words": "TRANSLATE WITHOUT INTERNET",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/offline-ai-voice-translator/id6803804808"
+  }
+ ],
+ "traction": 0,
+ "checked": "2026-11-12"
+}

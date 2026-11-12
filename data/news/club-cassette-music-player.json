@@ -1,0 +1,23 @@
+{
+ "slug": "club-cassette-music-player",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Club Cassette plays your music on a virtual cassette player",
+ "dek": "Club Cassette ($4.99) gives your music a cassette player with three finishes; #94 among paid Music apps in the US.",
+ "quick": true,
+ "apps": [
+  "Club Cassette"
+ ],
+ "item": 83855,
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/club-cassette/id6827696059"
+  }
+ ],
+ "checked": "2026-11-12"
+}

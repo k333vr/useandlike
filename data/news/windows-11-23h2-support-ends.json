@@ -1,0 +1,23 @@
+{
+ "slug": "windows-11-23h2-support-ends",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Windows",
+ "tag": "Quick",
+ "head": "Windows 11 version 23H2 is out of support",
+ "dek": "Microsoft ended support for Windows 11 23H2 after three years; PCs on it get no more security updates.",
+ "quick": true,
+ "apps": [
+  "Windows 11"
+ ],
+ "item": 75935,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "Windows Central",
+   "url": "https://www.windowscentral.com/microsoft/windows-11/microsoft-confirms-final-security-update-kb5131087-for-windows-11-version-23h2-as-support-comes-to-an-end-after-3-years"
+  }
+ ],
+ "checked": "2026-11-12"
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "android-auto-gemini-pixel-only",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Android",
+ "tag": "Quick",
+ "head": "Android Auto gets a Gemini upgrade, only with a Pixel",
+ "dek": "A new Gemini upgrade in Android Auto works only when a Pixel phone is connected.",
+ "quick": true,
+ "apps": [
+  "Android Auto"
+ ],
+ "item": 79940,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/11/android-auto-gemini-intelligence-pixel/"
+  }
+ ],
+ "checked": "2026-11-12"
+}

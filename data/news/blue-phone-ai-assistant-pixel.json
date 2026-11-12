@@ -1,0 +1,28 @@
+{
+ "slug": "blue-phone-ai-assistant-pixel",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "AI",
+ "tag": "New device",
+ "head": "Blue Phone: a Pixel 10 Pro with an AI assistant that works across your apps",
+ "dek": "Startup Blue opened the public beta of Blue Phone, a Pixel 10 Pro or Pro XL running its own Blue OS, where an AI assistant does tasks across apps for you.",
+ "details": "It can handle several tasks at once and turn voice recordings into written messages. It costs $1,299; iPhone users can get it free by trading in their old phone within 30 days. Blue is backed by Y Combinator.",
+ "where": "US, public beta",
+ "means": "It's an early look at phones built around an AI that acts for you, not just answers.",
+ "todo": "It's a beta: read what data the assistant can see before switching your main phone.",
+ "rank": 8,
+ "apps": [
+  "Blue Phone"
+ ],
+ "item": 81682,
+ "idea": "news",
+ "thumb_words": "A PHONE RUN BY AI",
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/blue-os-google-pixel-10-pro-3733835/"
+  }
+ ],
+ "traction": 0,
+ "checked": "2026-11-12"
+}

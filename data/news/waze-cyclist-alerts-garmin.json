@@ -1,0 +1,33 @@
+{
+ "slug": "waze-cyclist-alerts-garmin",
+ "date": "2026-11-10",
+ "added": "2026-11-12",
+ "topic": "Travel",
+ "tag": "New feature",
+ "head": "Waze now warns drivers about nearby cyclists using Garmin LiveTrack",
+ "dek": "Cyclists who turn on Garmin LiveTrack on a Garmin bike computer or watch can choose to appear in Waze, and drivers get an alert when one is nearby.",
+ "details": "It's opt-in. Drivers only see a temporary alert; a cyclist's name, identity and exact route aren't shared, and the alerts stop when the ride ends. It's rolling out worldwide on iPhone and Android.",
+ "where": "Waze on iPhone and Android, worldwide",
+ "means": "Drivers get a heads-up to slow down, and cyclists with a Garmin can make themselves visible.",
+ "todo": "Cyclists: turn on LiveTrack in Garmin Connect and choose to share with Waze; drivers just keep Waze updated.",
+ "rank": 22,
+ "apps": [
+  "Waze",
+  "Garmin Connect"
+ ],
+ "item": 72936,
+ "idea": "news",
+ "thumb_words": "WAZE NOW SHOWS CYCLISTS",
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/10/waze-alerts-drivers-nearby-cyclists-garmin/"
+  },
+  {
+   "name": "Google",
+   "url": "https://blog.google/waze/garmin-safety-cyclists/"
+  }
+ ],
+ "traction": 0,
+ "checked": "2026-11-12"
+}

@@ -1,0 +1,20 @@
+{
+ "slug": "laika-dog-health-ai-app",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Laika is an AI assistant for your dog's health questions",
+ "dek": "The Laika App ($0.99) answers questions about your own dog, like toxic plants or supplements; #41 among paid Lifestyle apps in the US.",
+ "quick": true,
+ "item": 83848,
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/the-laika-app/id6794529156"
+  }
+ ],
+ "checked": "2026-11-12"
+}

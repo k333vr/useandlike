@@ -3,19 +3,26 @@
  "date": "2026-11-10",
  "added": "2026-11-11",
  "topic": "Streaming",
- "tag": "Quick",
- "head": "Disney+ on Meta Quest now streams 60+ 3D movies",
- "dek": "The Disney+ app on Meta Quest now has more than 60 3D movies for subscribers and lets you watch in virtual environments.",
- "quick": true,
+ "tag": "New feature",
+ "head": "Disney+ on Meta Quest now has 60+ 3D movies and themed screens",
+ "dek": "The updated Disney+ app on Meta Quest streams more than 60 movies in 3D, including The Avengers and Black Panther, for subscribers.",
+ "details": "Some films can also be watched in themed virtual places, like Tatooine for Star Wars: A New Hope or the Scare Floor for Monsters, Inc. The update is rolling out now.",
+ "where": "Disney+ app on Meta Quest",
+ "means": "If you have a Quest and Disney+, you can watch some movies in 3D at no extra cost.",
+ "todo": "Update the Disney+ app on your Quest and look for the 3D titles.",
+ "rank": 35,
  "apps": [
   "Disney+"
  ],
  "item": 75853,
+ "idea": "request",
+ "traction": 0,
+ "thumb_words": "DISNEY+ 3D MOVIES ON QUEST",
  "sources": [
   {
    "name": "The Verge",
    "url": "https://www.theverge.com/tech/1031256/meta-quest-disney-plus-vr-3d-movies"
   }
  ],
- "checked": "2026-11-11"
+ "checked": "2026-11-12"
 }

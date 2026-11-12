@@ -1,0 +1,28 @@
+{
+ "slug": "apple-support-community-closing",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Apple",
+ "tag": "Shutting down",
+ "head": "Apple Support Community forums close on 20 November",
+ "dek": "Apple's Support Community forums, where users help each other fix problems, stopped taking new posts and will close for good on 20 November. Apple didn't give a reason.",
+ "details": "The forums are read-only until then. They go back to at least 1998, when they were called Apple Tech Exchange, and were relaunched as Apple Support Communities in 2011.",
+ "where": "discussions.apple.com, until 20 November",
+ "means": "Old answers you found through search may disappear after 20 November.",
+ "todo": "Save any forum answers you rely on before 20 November; for new problems, use Apple Support's own pages and contact options.",
+ "rank": 5,
+ "apps": [
+  "Apple Support"
+ ],
+ "item": 78063,
+ "idea": "news",
+ "thumb_words": "APPLE FORUMS SHUT NOV 20",
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/10/end-of-an-era-apple-support-community-forums-will-permanently-close-on-november-20/"
+  }
+ ],
+ "traction": 0,
+ "checked": "2026-11-12"
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "koimono-ascii-koi-pond",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Koimono is a koi pond drawn in text characters",
+ "dek": "Koimono ($0.99) animates an ASCII koi pond at up to 120 frames a second; #19 among paid Entertainment apps in the US.",
+ "quick": true,
+ "apps": [
+  "Koimono"
+ ],
+ "item": 83858,
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/koimono-ascii-koi-fish-pond/id6832278639"
+  }
+ ],
+ "checked": "2026-11-12"
+}

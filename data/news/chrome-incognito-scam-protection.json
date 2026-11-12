@@ -3,19 +3,27 @@
  "date": "2026-11-09",
  "added": "2026-11-11",
  "topic": "Browsers",
- "tag": "Quick",
- "head": "Chrome to bring real-time scam checks to Incognito mode",
- "dek": "Google is working on real-time Safe Browsing checks in Chrome's Incognito and Guest modes to catch newly found scam sites.",
- "quick": true,
+ "tag": "In testing",
+ "rumor": true,
+ "head": "Chrome Incognito may get real-time scam site checks",
+ "dek": "Google is working on real-time Safe Browsing checks for Chrome's Incognito and Guest modes, which today often rely on a list of dangerous sites stored on your device.",
+ "details": "That local list is usually updated every 30 to 60 minutes, so new scam sites can slip through. Google says it's designing the change to keep Incognito private, but hasn't given a date.",
+ "where": "Chrome, in development",
+ "means": "Private browsing would warn you about brand-new scam sites as quickly as normal browsing does.",
+ "todo": "Nothing to do yet; keep Chrome updated.",
+ "rank": 34,
  "apps": [
   "Chrome"
  ],
  "item": 67877,
+ "idea": "request",
+ "traction": 0,
+ "thumb_words": "SAFER INCOGNITO IN CHROME?",
  "sources": [
   {
    "name": "Android Authority",
    "url": "https://www.androidauthority.com/chrome-incognito-guest-mode-real-time-safe-browsing-3733040/"
   }
  ],
- "checked": "2026-11-11"
+ "checked": "2026-11-12"
 }

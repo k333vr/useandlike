@@ -1,0 +1,29 @@
+{
+ "slug": "ipados-27-3-double-tap-window-zoom",
+ "date": "2026-11-10",
+ "added": "2026-11-12",
+ "topic": "Apple",
+ "tag": "In testing",
+ "rumor": true,
+ "head": "iPadOS 27.3 beta: double-tap the top of a window to make it full screen",
+ "dek": "The iPadOS 27.3 beta adds a setting that lets you double-tap the top of an app window to zoom it to full screen, and double-tap again to go back.",
+ "details": "It's under Settings > Multitasking & Gestures when Windowed Apps is on, called Double-tap Top of Window to Zoom. A double-click with a trackpad works too. iPadOS 27.3 is in beta.",
+ "where": "iPad, iPadOS 27.3 beta",
+ "means": "Resizing windows on an iPad gets easier without the small controls in the corner.",
+ "todo": "When iPadOS 27.3 arrives, turn it on in Settings > Multitasking & Gestures.",
+ "rank": 31,
+ "apps": [
+  "iPad"
+ ],
+ "item": 74617,
+ "idea": "request",
+ "thumb_words": "IPAD: DOUBLE-TAP TO FULL SCREEN",
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/10/ipados-27-3-adds-new-ipad-setting-i-instantly-turned-on/"
+  }
+ ],
+ "traction": 4,
+ "checked": "2026-11-12"
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "gta-6-xbox-cloud-xbox-one",
+ "date": "2026-11-10",
+ "added": "2026-11-12",
+ "topic": "Games",
+ "tag": "Quick",
+ "head": "GTA VI will stream on Xbox One through Xbox Cloud Gaming",
+ "dek": "Xbox One owners will be able to play GTA VI through Xbox Cloud Gaming.",
+ "quick": true,
+ "apps": [
+  "Xbox"
+ ],
+ "item": 74220,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "The Verge",
+   "url": "https://www.theverge.com/news/1030714/gta-vi-xbox-cloud-gaming-support"
+  }
+ ],
+ "checked": "2026-11-12"
+}

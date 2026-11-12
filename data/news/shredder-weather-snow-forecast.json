@@ -1,0 +1,28 @@
+{
+ "slug": "shredder-weather-snow-forecast",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Shredder Weather forecasts snow at every ski area up to 15 days out",
+ "dek": "Shredder Weather is a snow forecast app for skiers and snowboarders, with a multi-model snowfall forecast for every ski area worldwide. It was #40 among free Weather apps on the US App Store on 11 November.",
+ "details": "It puts the high-end snowfall total front and center. It's free with in-app purchases, by Shredder Inc., and needs iOS 18.",
+ "where": "iPhone, App Store, free with in-app purchases",
+ "means": "Skiers can plan trips around the snow forecast at their resort.",
+ "todo": "Find Shredder Weather in the App Store.",
+ "rank": 14,
+ "apps": [
+  "Shredder Weather"
+ ],
+ "item": 83863,
+ "idea": "newcomer",
+ "thumb_words": "SNOW FORECASTS FOR SKIERS",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/shredder-weather/id6827649633"
+  }
+ ],
+ "traction": 0,
+ "checked": "2026-11-12"
+}

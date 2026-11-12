@@ -1,0 +1,23 @@
+{
+ "slug": "whatsapp-android-new-bottom-bar",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "head": "WhatsApp rolls out a new bottom bar on Android",
+ "dek": "WhatsApp is rolling out a redesigned bottom navigation bar on Android.",
+ "quick": true,
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 78062,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "WABetaInfo",
+   "url": "https://wabetainfo.com/whatsapp-is-rolling-out-a-new-bottom-navigation-bar-on-android/"
+  }
+ ],
+ "checked": "2026-11-12"
+}

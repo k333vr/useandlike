@@ -3,19 +3,26 @@
  "date": "2026-11-10",
  "added": "2026-11-11",
  "topic": "AI",
- "tag": "Quick",
- "head": "Study: ChatGPT and Claude missed skin cancers on darker skin",
- "dek": "In a study, the two chatbots called 13 of 48 skin cancers on darker skin harmless with at least 70% confidence; researchers say they shouldn't be used to check skin.",
- "quick": true,
+ "tag": "Heads-up",
+ "head": "ChatGPT and Claude missed skin cancers on darker skin, study finds",
+ "dek": "In a study presented at a dermatology meeting, Claude and ChatGPT called 13 of 48 skin cancers on darker skin harmless with at least 70% confidence.",
+ "details": "For the darkest skin types, the models were about as confident when they were wrong as when they were right, so their confidence didn't help tell the difference. The researchers say general-purpose AI shouldn't be used to check skin for cancer.",
+ "where": "Study, American Society for Dermatologic Surgery meeting, November",
+ "means": "A chatbot's confident answer about a mole or spot isn't a diagnosis.",
+ "todo": "Show a dermatologist any skin change that worries you instead of asking a chatbot.",
+ "rank": 37,
  "apps": [
   "ChatGPT"
  ],
  "item": 74727,
+ "idea": "request",
+ "traction": 0,
+ "thumb_words": "AI MISSED CANCERS ON DARK SKIN",
  "sources": [
   {
    "name": "Healio",
    "url": "https://www.healio.com/news/dermatology/20261110/claude-chatgpt-confidently-missed-skin-cancers-in-darker-skin"
   }
  ],
- "checked": "2026-11-11"
+ "checked": "2026-11-12"
 }

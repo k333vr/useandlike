@@ -1,0 +1,28 @@
+{
+ "slug": "check-if-image-is-ai-iphone",
+ "date": "2026-11-10",
+ "added": "2026-11-12",
+ "topic": "AI",
+ "tag": "How-to",
+ "head": "How to check if an image is AI-generated on iPhone",
+ "dek": "Google's SynthID Detector can tell whether an image was made or edited with AI tools from companies that add the invisible SynthID watermark, including Apple, OpenAI, Google, Nvidia and Kakao.",
+ "details": "Since iOS 27.2, Apple adds SynthID to images from Image Playground and Image Wand, and to photos edited with AI tools like Clean Up in Photos. It only works for images from tools that add the watermark, so an image without it isn't proof it's real.",
+ "where": "Any device, at synthid.com; Siri on iPhone, iPad and Mac",
+ "means": "You can check a suspicious picture, like a receipt or a viral photo, before you trust it.",
+ "todo": "Go to synthid.com and upload the image, or ask Siri on your iPhone whether the image is AI-generated.",
+ "rank": 30,
+ "apps": [
+  "iPhone"
+ ],
+ "item": 74849,
+ "idea": "request",
+ "thumb_words": "IS THIS PHOTO AI? CHECK IT",
+ "sources": [
+  {
+   "name": "iDownloadBlog",
+   "url": "https://www.idownloadblog.com/2026/11/10/check-for-ai-generated-image/"
+  }
+ ],
+ "traction": 15,
+ "checked": "2026-11-12"
+}

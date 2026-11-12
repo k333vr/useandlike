@@ -1,0 +1,28 @@
+{
+ "slug": "ios-27-2-new-features-six-apps",
+ "date": "2026-11-10",
+ "added": "2026-11-12",
+ "topic": "Apple",
+ "tag": "Update",
+ "head": "iOS 27.2 new features: Messages, TV profiles, FaceTime and more",
+ "dek": "iOS 27.2 adds new features in six Apple apps: Suggested Actions in Messages, profiles in the TV app, Dual Capture in Group FaceTime, new lock settings in Home, and changes in Podcasts and Games.",
+ "details": "Suggested Actions offer to make a calendar event, reminder or note from a message. The TV app opens with a profile picker you can turn off. Group FaceTime can send both cameras at once on iPhone 17 and newer. Home adds Lock After Closing and Door Left Open alerts for compatible locks. Podcasts splits Up Next into New Episodes and Continue Playing, and Games shows downloaded games you haven't played yet.",
+ "where": "iPhone with iOS 27.2",
+ "means": "After updating, several apps you use every day work a little differently.",
+ "todo": "Update in Settings > General > Software Update, then check Messages' settings to choose which suggestions you see.",
+ "rank": 26,
+ "apps": [
+  "iPhone"
+ ],
+ "item": 75451,
+ "idea": "request",
+ "thumb_words": "IOS 27.2: WHAT'S NEW IN 6 APPS",
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/10/ios-27-2-adds-new-features-in-six-iphone-apps-details-here/"
+  }
+ ],
+ "traction": 53,
+ "checked": "2026-11-12"
+}

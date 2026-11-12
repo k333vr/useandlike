@@ -1,0 +1,28 @@
+{
+ "slug": "icloud-outage-november-10",
+ "date": "2026-11-10",
+ "added": "2026-11-12",
+ "topic": "Apple",
+ "tag": "Heads-up",
+ "head": "iCloud outage on 10 November: Mail, sign-in and Find My hit, now fixed",
+ "dek": "Apple confirmed an outage on 10 November that stopped iCloud Mail and Apple Account sign-in for some users and slowed Find My. Apple said all services were working again the same evening.",
+ "details": "It started around 2:49 p.m. Pacific time. Some people were signed out of their Apple Account. Apple's System Status page listed the affected services.",
+ "where": "iCloud, worldwide, 10 November",
+ "means": "If iCloud acted up on Monday evening, it wasn't your device; it should work again now.",
+ "todo": "If you were signed out, sign back in to your Apple Account; check apple.com/support/systemstatus next time something stops.",
+ "rank": 23,
+ "apps": [
+  "iCloud"
+ ],
+ "item": 77455,
+ "idea": "news",
+ "thumb_words": "ICLOUD WAS DOWN, NOW FIXED",
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/10/apple-confirms-ongoing-outage-affecting-icloud-and-more/"
+  }
+ ],
+ "traction": 0,
+ "checked": "2026-11-12"
+}

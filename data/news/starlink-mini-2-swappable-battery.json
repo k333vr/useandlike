@@ -1,0 +1,28 @@
+{
+ "slug": "starlink-mini-2-swappable-battery",
+ "date": "2026-11-10",
+ "added": "2026-11-12",
+ "topic": "Internet",
+ "tag": "New device",
+ "head": "Starlink Mini 2 adds a swappable battery for 4.5 hours off the grid",
+ "dek": "SpaceX's Starlink Mini 2 puts the dish, Wi-Fi router and a battery in one laptop-sized device that runs up to 4.5 hours, longer with extra batteries swapped in.",
+ "details": "Invitations shared by users show it for $999, including a year of Roam Unlimited service. It's 23.1 mm thick, thinner than the first Mini, weighs about 3.5 pounds and is rated IP67. It can also run from a 60W USB-C power source.",
+ "where": "Starlink, preorders by invitation",
+ "means": "You can get satellite internet at a campsite or on the road without a power outlet for a few hours.",
+ "todo": "If you have an invitation, check the price and what's included in your country before ordering.",
+ "rank": 24,
+ "apps": [
+  "Starlink"
+ ],
+ "item": 75133,
+ "idea": "news",
+ "thumb_words": "STARLINK MINI 2 HAS A BATTERY",
+ "sources": [
+  {
+   "name": "The Verge",
+   "url": "https://www.theverge.com/tech/1031028/spacex-starlink-mini-2-satellite-internet-terminal-hot-swap-battery"
+  }
+ ],
+ "traction": 0,
+ "checked": "2026-11-12"
+}

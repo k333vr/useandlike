@@ -1,0 +1,82 @@
+{
+ "slug": "iphone-duo-first-weeks-what-to-know",
+ "date": "2026-11-12",
+ "added": "2026-11-12",
+ "topic": "Apple",
+ "tag": "Explainer",
+ "head": "iPhone Duo after the first weeks: problems, settings and apps to know",
+ "dek": "Apple's first foldable iPhone has drawn complaints about cracking inner screens, Touch ID and settings you can only pick once, while a wave of small apps now uses its fold.",
+ "sections": [
+  {
+   "h": "Why some buyers return it",
+   "p": [
+    "How-To Geek reported on 10 November that, besides inner screens cracking along the hinge, owners complain about Touch ID in the power button instead of Face ID, cameras behind the iPhone 18 Pro's, and a phone that feels thick and top-heavy when closed.",
+    "Some also report creaking or popping sounds and gaps when folding.",
+    "Owners say the Touch ID sensor is slower and less reliable than Face ID, especially with a screen protector or wet hands. Compared with the iPhone 18 Pro and Pro Max, the Duo's cameras do worse in low light. Several people describe the outer screen as less comfortable for one-handed use than they hoped."
+   ]
+  },
+  {
+   "h": "A setting you choose only once",
+   "p": [
+    "On the iPhone Duo, Display Zoom, which makes the whole screen bigger, only appears during setup. MacRumors confirmed on iOS 27.2 that it can't be changed later in Settings; the only way is to back up and reset the phone. Text size can still be changed.",
+    "You can still make text bigger in the Appearance and Accessibility settings, but that doesn't scale icons and the rest of the screen the same way. Apple hasn't said whether Display Zoom's absence is on purpose."
+   ]
+  },
+  {
+   "h": "Apps that use the fold",
+   "p": [
+    "Developers are building for the hinge. FocusBook starts a focus timer when you open the phone, Grandeur Link turns a half-folded Duo into a small laptop for controlling a Mac, Pitch Mode splits a presenter view across the inner screen, and Fold Accordion uses the hinge as the bellows.",
+    "Others are just for fun: DuoFridge reached #2 among paid Lifestyle apps in the US on 10 November with a fridge that opens when you open the phone.",
+    "DeskOS ($11.99) puts a desktop above the fold and a keyboard and trackpad below it. Tunnel Time is a desk clock where ants dig the digits, and FoldTick counts how often you fold the phone. Grandeur Link's fold-aware layouts need iOS 27.1 or later.",
+    "Many of these apps also work on regular iPhones, often by turning the phone sideways instead of folding it."
+   ]
+  },
+  {
+   "h": "If you're thinking of buying one",
+   "p": [
+    "Try it in a store if you can, and check the return window. Choose your Display Zoom carefully during setup, and look up whether the apps you use most have been updated for the inner screen.",
+    "People who used Android foldables before say some hinge noise and a visible crease are normal for the category, while first-time foldable owners find them unsettling. A cracked inner screen is different: take it to Apple."
+   ]
+  }
+ ],
+ "means": "The iPhone Duo is a first version: some issues are hardware, others are settings and apps catching up.",
+ "todo": "Decide on Display Zoom during setup, keep your receipt for the return window, and look for apps marked for iPhone Duo.",
+ "rank": 3,
+ "apps": [
+  "iPhone Duo"
+ ],
+ "idea": "explainer",
+ "thumb_words": "IPHONE DUO: WHAT TO KNOW",
+ "sources": [
+  {
+   "name": "How-To Geek",
+   "url": "https://www.howtogeek.com/the-iphone-duo-is-being-returned-and-its-not-just-about-the-cracks/"
+  },
+  {
+   "name": "BGR",
+   "url": "https://www.bgr.com/2307579/iphone-duo-missing-display-setting-zoom/"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/duofridge/id6828383349"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/focusbook/id6826889369"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/grandeur-link/id6829832826"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/deskos/id6811301816"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/foldtick/id6827445474"
+  }
+ ],
+ "traction": 0,
+ "checked": "2026-11-12"
+}

@@ -1,0 +1,84 @@
+{
+ "slug": "why-apps-charge-for-ai-2026",
+ "date": "2026-11-12",
+ "added": "2026-11-12",
+ "topic": "AI",
+ "tag": "Explainer",
+ "head": "Why apps now charge for AI: credits, usage packs and premium plans",
+ "dek": "AI features cost companies money every time you use them, so apps are moving from \"free AI\" to limits, credits and paid tiers, and this month brought several examples.",
+ "sections": [
+  {
+   "h": "What changed this month",
+   "p": [
+    "On 9 November, Apple's Logic Pro started selling a $49.99 \"intelligence usage pack\" for extra AI use after the monthly limit, the first time Apple charges for more Apple Intelligence use. More Apple Creator Studio apps are expected to follow this month.",
+    "Adobe removed the daily free limits on Premiere's AI Assistant on 6 November; every reply now uses Firefly credits from your plan. From 13 November, Google AI Plus subscribers lose the option to pick Gemini's Pro models, which now need AI Pro.",
+    "Apple's packs are one-time purchases, not subscriptions. They don't work with Family Sharing, belong to the Apple Account you use for iCloud, and are only used once you pass your monthly limit. Adobe says there's no way to see what a Premiere Assistant answer will cost before you ask; a credits icon under each reply shows it afterwards, and you can buy more credits inside Premiere."
+   ]
+  },
+  {
+   "h": "Free stays, extra costs",
+   "p": [
+    "Samsung told Tech Advisor on 11 November that core Galaxy AI features will remain free, after a leak showed a $4.99-a-month Galaxy AI Premium plan. It added that some advanced capabilities may become paid options.",
+    "The pattern is similar elsewhere: the AI you already have keeps working, while new or heavier features need a plan, a credit pack or a higher tier.",
+    "According to the leak reported by SammyGuru, six Galaxy AI features would stay free, Browsing Assist, Now Brief, Creative Studio, Smart Capture, Samsung Keyboard and Personal Agent, possibly with usage limits. A Premium plan would add new tools such as Bixby Action and Gen Video, and credit packs for more use.",
+    "Google AI Plus keeps Gemini's Flash models after 13 November; only the choice of the Pro models moves to the more expensive AI Pro plan."
+   ]
+  },
+  {
+   "h": "The top models sit behind the top plans",
+   "p": [
+    "Google's Gemini 4 Carbon reached the Gemini app on 10 November, but only for Google AI Ultra subscribers, who pay $100 a month. Anthropic's Claude Fable 5.2 came out on 9 November for paid plans that include Fable, with extra usage resets in its launch week.",
+    "During Fable 5.2's launch week, Pro plans can use Fable for up to half of their weekly limit. For developers, Anthropic lowered Fable's price to $8 per million input tokens and $40 per million output tokens. Google says its everyday Gemini 4 Argon model is still the better choice for most tasks."
+   ]
+  },
+  {
+   "h": "Credits, packs and subscriptions",
+   "p": [
+    "There are three ways apps charge. Subscriptions give a monthly allowance. Credits are spent per task, often with no way to see the cost before you ask, as Adobe says about Premiere's Assistant. One-time packs, like Apple's, add usage that rolls over, in Apple's case for up to 12 months."
+   ]
+  },
+  {
+   "h": "How to keep costs down",
+   "p": [
+    "Look at the usage page in each app before buying extra: Logic Pro shows it under Intelligence Features > Show Usage. Use the cheaper or free models for simple questions and save the paid ones for big jobs. And before a subscription renews, check whether the features you use are among the ones that stay free."
+   ]
+  }
+ ],
+ "means": "The AI features you use most may come with a counter or a price tag.",
+ "todo": "Check your apps' usage pages before buying more, and use the free features for everyday tasks.",
+ "rank": 2,
+ "apps": [
+  "Gemini",
+  "Claude"
+ ],
+ "idea": "explainer",
+ "thumb_words": "WHY AI IN APPS NOW COSTS MONEY",
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/09/apple-launches-50-intelligence-usage-packs-for-select-ai-features/"
+  },
+  {
+   "name": "Adobe Community",
+   "url": "https://community.adobe.com/announcements-732/premiere-ai-assistant-now-uses-firefly-credits-from-your-plan-1654584"
+  },
+  {
+   "name": "Tech Advisor",
+   "url": "https://www.techadvisor.com/article/3279846/exclusive-samsung-galaxy-ai-subscription-official-response.html"
+  },
+  {
+   "name": "Engadget",
+   "url": "https://www.engadget.com/2311855/gemini-4-carbon-now-available-worldwide/"
+  },
+  {
+   "name": "Anthropic",
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+  },
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/10/14/gemini-ai-plus-loses-pro-november/"
+  }
+ ],
+ "traction": 0,
+ "checked": "2026-11-12"
+}

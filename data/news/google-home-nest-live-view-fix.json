@@ -1,0 +1,23 @@
+{
+ "slug": "google-home-nest-live-view-fix",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Smart home",
+ "tag": "Quick",
+ "head": "Google Home update fixes Nest Live View problems",
+ "dek": "A Google Home update fixes Live View issues with Nest cameras and improves Nest Hub and Gemini on speakers.",
+ "quick": true,
+ "apps": [
+  "Google Home"
+ ],
+ "item": 82232,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/11/google-home-update-nest-hub-gemini-cameras/"
+  }
+ ],
+ "checked": "2026-11-12"
+}

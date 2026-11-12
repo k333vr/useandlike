@@ -1,0 +1,23 @@
+{
+ "slug": "namecheap-private-email-app",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Namecheap launches a Private Email app for your own domain",
+ "dek": "Namecheap's free Private Email app sends mail from your domain, with AI drafts and offline access; #91 among free Productivity apps in the US.",
+ "quick": true,
+ "apps": [
+  "Namecheap Private Email"
+ ],
+ "item": 83842,
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/namecheap-private-email/id6799919051"
+  }
+ ],
+ "checked": "2026-11-12"
+}

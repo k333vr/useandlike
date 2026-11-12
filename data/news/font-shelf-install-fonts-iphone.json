@@ -1,0 +1,28 @@
+{
+ "slug": "font-shelf-install-fonts-iphone",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Font Shelf installs fonts you own on your iPhone and iPad",
+ "dek": "Font Shelf imports TrueType and OpenType fonts, even whole zip files, groups them by family and prepares a profile so iOS can install them. It was #40 among paid Graphics & Design apps on the US App Store on 11 November.",
+ "details": "iOS asks you to review and confirm the profile before the fonts are installed. It costs $0.99 with no in-app purchases, by Marcos Romero Lamas, and needs iOS 17.",
+ "where": "iPhone and iPad, App Store, $0.99",
+ "means": "Fonts you bought can be used in apps like Pages or Keynote on your phone.",
+ "todo": "Find Font Shelf in the App Store, then confirm the profile in Settings.",
+ "rank": 13,
+ "apps": [
+  "Font Shelf"
+ ],
+ "item": 83847,
+ "idea": "newcomer",
+ "thumb_words": "YOUR OWN FONTS ON IPHONE",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/font-shelf/id6812897167"
+  }
+ ],
+ "traction": 0,
+ "checked": "2026-11-12"
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "chatgpt-finance-features-mac",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "ChatGPT's personal finance features come to the Mac app",
+ "dek": "OpenAI's personal finance tools in ChatGPT are now in the Mac app too.",
+ "quick": true,
+ "apps": [
+  "ChatGPT"
+ ],
+ "item": 82231,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/11/openais-personal-finance-features-for-chatgpt-expands-to-mac-app/"
+  }
+ ],
+ "checked": "2026-11-12"
+}

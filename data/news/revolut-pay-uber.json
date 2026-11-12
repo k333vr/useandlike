@@ -1,0 +1,29 @@
+{
+ "slug": "revolut-pay-uber",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Money",
+ "tag": "New feature",
+ "head": "Revolut Pay now works on Uber in the UK and most of Europe",
+ "dek": "You can now pay for Uber rides and Uber Eats orders with Revolut Pay in the UK, Switzerland, Norway and most of the EU, and earn extra RevPoints on each one.",
+ "details": "RevPoints can be spent on the next ride or order. Revolut Premium customers can also redeem Uber One benefits in Romania, Belgium, France, Germany, Ireland, Luxembourg, Portugal, Spain, Switzerland and the UK. It isn't available in Bulgaria, Cyprus, Latvia and Slovenia, and it's for users aged 18 and over.",
+ "where": "Uber app, UK, Switzerland, Norway and most of the EU",
+ "means": "Revolut users get points back on Uber trips and deliveries.",
+ "todo": "At Uber checkout, choose Revolut Pay as your payment method.",
+ "rank": 4,
+ "apps": [
+  "Revolut",
+  "Uber"
+ ],
+ "item": 79548,
+ "idea": "news",
+ "thumb_words": "PAY FOR UBER WITH REVOLUT",
+ "sources": [
+  {
+   "name": "The Next Web",
+   "url": "https://thenextweb.com/news/revolut-pay-uber-revpoints-uber-one"
+  }
+ ],
+ "traction": 0,
+ "checked": "2026-11-12"
+}

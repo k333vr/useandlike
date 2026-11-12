@@ -3,19 +3,29 @@
  "date": "2026-11-10",
  "added": "2026-11-11",
  "topic": "Security",
- "tag": "Quick",
- "head": "Bitdefender Web Sage checks websites for scams as you browse",
- "dek": "Bitdefender's new Web Sage extension for Chrome, Edge, Firefox, Safari and Brave checks pages against its threat data, with paid AI analysis on top.",
- "quick": true,
+ "tag": "New app",
+ "head": "Bitdefender Web Sage: a browser extension that flags scam sites",
+ "dek": "Bitdefender launched Web Sage, a browser extension for Chrome, Edge, Firefox, Safari and Brave that checks each page you open against its threat data and warns about scams.",
+ "details": "It works in the background without setup. Paid features add AI analysis of a page's behavior and content. In Bitdefender's survey of 7,000 people, one in seven said they fell for an online scam in the last 12 months, and 21% of those were scammed through an online ad.",
+ "where": "Chrome, Edge, Firefox, Safari and Brave",
+ "means": "You get a warning before you type card details into a fake shop or phishing page.",
+ "todo": "Install Web Sage from your browser's extension store; keep using the browser's own scam warnings too.",
+ "rank": 39,
  "apps": [
   "Bitdefender"
  ],
  "item": 73603,
+ "idea": "request",
+ "traction": 0,
+ "thumb_words": "BITDEFENDER SPOTS SCAM SITES",
  "sources": [
   {
    "name": "Finanznachrichten (Business Wire)",
    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70088819-bitdefender-launches-web-sage-an-ai-powered-browser-security-advisor-to-counter-evolving-scams-and-fraud-004.htm"
   }
  ],
- "checked": "2026-11-11"
+ "checked": "2026-11-12",
+ "items": [
+  83703
+ ]
 }

@@ -1,0 +1,23 @@
+{
+ "slug": "haptic-interval-timer-watch",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Haptic Interval Timer taps your wrist at set intervals",
+ "dek": "Haptic Interval Timer ($0.99) sends silent vibrations on Apple Watch at the interval you choose; #95 among paid Utilities apps in the US.",
+ "quick": true,
+ "apps": [
+  "Haptic Interval Timer"
+ ],
+ "item": 83843,
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/haptic-interval-timer/id6804729626"
+  }
+ ],
+ "checked": "2026-11-12"
+}

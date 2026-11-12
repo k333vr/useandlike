@@ -1,0 +1,28 @@
+{
+ "slug": "google-fi-two-networks-pixel",
+ "date": "2026-11-11",
+ "added": "2026-11-12",
+ "topic": "Phones",
+ "tag": "Update",
+ "head": "Google Fi now switches between two networks, fully on Pixel 9 and newer",
+ "dek": "Google Fi now uses two carriers' networks and switches phones to the stronger signal, calling it a \"super network\". Getting the full benefit needs a Pixel 9 or newer.",
+ "details": "Google hasn't named the second carrier; PCMag's coverage checks suggest Verizon alongside T-Mobile. It recalls Project Fi, which switched between networks a decade ago.",
+ "where": "Google Fi, US",
+ "means": "Fi customers with a recent Pixel may get signal in places where T-Mobile alone was weak.",
+ "todo": "Check Fi's coverage map for where you live; the switching needs a Pixel 9 or newer.",
+ "rank": 6,
+ "apps": [
+  "Google Fi"
+ ],
+ "item": 80802,
+ "idea": "news",
+ "thumb_words": "GOOGLE FI NOW USES 2 NETWORKS",
+ "sources": [
+  {
+   "name": "PCMag",
+   "url": "https://www.pcmag.com/news/google-fi-returns-will-combine-2-carriers-probably-t-mobile-and-verizon"
+  }
+ ],
+ "traction": 0,
+ "checked": "2026-11-12"
+}

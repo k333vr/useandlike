@@ -3,19 +3,26 @@
  "date": "2026-11-09",
  "added": "2026-11-11",
  "topic": "AI",
- "tag": "Quick",
- "head": "Gemini shows what it remembers about you, and lets you delete it",
- "dek": "Gemini's new Memory summary in Settings > Personal Intelligence lists what it knows about you by topic, which you can edit or delete.",
- "quick": true,
+ "tag": "New feature",
+ "head": "Gemini Memory summary: see and delete what Gemini remembers about you",
+ "dek": "Gemini now shows a Memory summary of what it knows about you, sorted into topics such as your background, work, travel and hobbies, and you can edit or delete any of it.",
+ "details": "You can tell it \"Add to my memory that I speak Japanese\" or \"Remove my old phone number\". A Memory history shows when something was added or changed. For now it's for Google AI subscribers in US English with Keep Activity and Memory turned on, on the web first.",
+ "where": "Gemini on the web, Google AI subscribers, US English",
+ "means": "You can check what Gemini uses to personalize its answers and remove what you don't want it to keep.",
+ "todo": "Open gemini.google.com, go to Settings > Personal Intelligence and review your Memory summary.",
+ "rank": 32,
  "apps": [
   "Gemini"
  ],
  "item": 67175,
+ "idea": "request",
+ "traction": 0,
+ "thumb_words": "SEE WHAT GEMINI KNOWS ABOUT YOU",
  "sources": [
   {
    "name": "9to5Google",
    "url": "https://9to5google.com/2026/11/09/google-gemini-memory-summary/"
   }
  ],
- "checked": "2026-11-11"
+ "checked": "2026-11-12"
 }

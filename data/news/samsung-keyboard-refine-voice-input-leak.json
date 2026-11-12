@@ -1,0 +1,29 @@
+{
+ "slug": "samsung-keyboard-refine-voice-input-leak",
+ "date": "2026-11-10",
+ "added": "2026-11-12",
+ "topic": "Samsung",
+ "tag": "Leak",
+ "rumor": true,
+ "head": "Samsung Keyboard may clean up your voice typing, like Pixel's Rambler",
+ "dek": "A One UI 9.5 test build has a Samsung Keyboard setting called Refine Voice Input that removes filler words and hesitations, with the text appearing after you finish speaking, SamMobile found.",
+ "details": "It works like Rambler on the Pixel 11, which Google hasn't brought to other phones yet. Samsung's version seems to process your message automatically. Samsung hasn't announced One UI 9.5.",
+ "where": "Galaxy phones, One UI 9.5, not announced",
+ "means": "Voice messages on a Galaxy may come out cleaner without editing.",
+ "todo": "Nothing to do yet.",
+ "rank": 29,
+ "apps": [
+  "Galaxy"
+ ],
+ "item": 74622,
+ "idea": "request",
+ "thumb_words": "CLEANER VOICE TYPING ON GALAXY?",
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/10/one-ui-9-5-rambler-samsung-galaxy-keyboard/"
+  }
+ ],
+ "traction": 18,
+ "checked": "2026-11-12"
+}

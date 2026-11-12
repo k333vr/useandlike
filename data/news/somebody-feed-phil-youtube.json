@@ -3,19 +3,26 @@
  "date": "2026-11-10",
  "added": "2026-11-11",
  "topic": "Streaming",
- "tag": "Quick",
- "head": "Somebody Feed Phil leaves Netflix for free YouTube",
- "dek": "Season 9 of Somebody Feed Phil streams free on Phil Rosenthal's YouTube channel in early 2027, after eight seasons on Netflix.",
- "quick": true,
+ "tag": "Heads-up",
+ "head": "Somebody Feed Phil leaves Netflix; season 9 is free on YouTube in 2027",
+ "dek": "After eight seasons and 49 episodes on Netflix, Somebody Feed Phil moves to YouTube: season 9 streams free on the Phil Rosenthal World channel in early 2027.",
+ "details": "United Airlines is the show's new title sponsor. The move was first announced in March.",
+ "where": "YouTube, early 2027",
+ "means": "Fans won't need Netflix for new episodes.",
+ "todo": "Subscribe to the Phil Rosenthal World YouTube channel to catch season 9.",
+ "rank": 40,
  "apps": [
   "YouTube"
  ],
  "item": 74382,
+ "idea": "request",
+ "traction": 0,
+ "thumb_words": "SOMEBODY FEED PHIL MOVES TO YOUTUBE",
  "sources": [
   {
    "name": "What's on Netflix",
    "url": "https://www.whats-on-netflix.com/news/somebody-feed-phil-season-9-moving-youtube/"
   }
  ],
- "checked": "2026-11-11"
+ "checked": "2026-11-12"
 }
