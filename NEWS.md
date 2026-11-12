@@ -177,7 +177,7 @@ ahead, like a change that starts next week).
 | `rumor` | `true` for a rumor, leak or feature in testing: the page shows its tag in amber and a "Not confirmed" note. |
 | `apps` | The app names as people write them (`["WhatsApp"]`): they pick our how-to videos about the app. |
 | `item` / `items` | The Studio story id it came from / other Studio ids of the same news (other outlets), so the daily run doesn't write it twice. |
-| `sources` | `[{"name": "9to5Mac", "url": "https://..."}]`: every outlet you took a fact from, the official source first when there is one. |
+| `sources` | `[{"name": "9to5Mac", "url": "https://..."}]`: every outlet you took a fact from, the official source first when there is one. The news video shows each one as a clipping with the sentence the presenter quotes marked (since 12 Nov; Kevin: "transitions between her and some articles or between articles"), so name the first-hand page you read (the company's post, the changelog, the App Store listing) and any second outlet you used: a story with two or three sources gets more to show. Reddit, X and YouTube pages are never shown. |
 | `image`, `thumb`, `video`, `howtos`, `updated` | Optional: our own 2:1 picture and its small version; our news video's YouTube id; video ids for the how-to row; the date of a later correction. |
 
 ## Headlines in the words people search (Kevin, 5 Nov 2026: "go")
