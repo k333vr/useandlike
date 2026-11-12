@@ -325,6 +325,13 @@ time or all in one session). Kevin strikes the ones he doesn't want. A script sh
   short end card shows them. End on the last useful sentence (what to do, what's still open), never the same closing
   sentence twice in a day, so the videos don't sound like a template (YouTube doesn't pay for "generic, repetitive or
   template-based" videos). Her own take, read after the text, is the most personal part of each video.
+- **Every sentence is this story's own** (13 Nov 2026: "It does one job, and the listing shows exactly what it covers."
+  closed 18 scripts of one day, 14 of them news stories with no listing at all, and "Here is what happened, and what it
+  means for you." opened 24; 10 were recorded before anyone saw it). No stock opener, no stock closer, no filler to reach
+  a length: a story with few facts gets a short script (make `C` the chosen one). Write each version from the story
+  file; never build scripts from a template or a helper that adds fixed sentences. `news-scripts.py save` refuses a
+  sentence of 6 or more words (without a number) that 3 scripts of the day share, and a closing sentence that another
+  story of the day ends with: rewrite those in the story's own words or leave them out, then save again.
 - **`takes`**: 2-3 one-line reactions she can pick from or replace with her own (Kevin: "inserts her newly learned
   opinions or comments on each topic"): clearly opinion, in first person, at most about 15 words, no new facts, nothing
   about a person ("I'd switch this off today.", "Honestly, this is the update I wanted.", "Pins that never expire? Finally.").

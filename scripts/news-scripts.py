@@ -131,10 +131,55 @@ def story_file(slug):
         return {}
 
 
+def sentences(text):
+    """The text's sentences as plain words (lower case, no punctuation), in order."""
+    out = [re.sub(r"[^a-z0-9 ]", "", re.sub(r"[’']", "", x.lower())).strip() for x in re.split(r"(?<=[.!?])\s+", str(text or ""))]
+    return [k for k in out if k]
+
+
+def stock_lines(scripts, saved):
+    """No stock sentences (13 Nov 2026: "It does one job, and the listing shows exactly what it covers." closed 18 scripts
+    of one day, 14 of them news stories with no listing, and "Here is what happened, and what it means for you." opened
+    24; 10 were recorded before anyone saw it. YouTube doesn't pay for videos that sound like a template, and Kevin wants
+    each one to sound fresh). scripts: the ones being saved; saved: the day's other scripts in the Studio,
+    {code: versions}. -> [(code, problem)]: a sentence of 6+ words without a number that 3 scripts of the day share, and a
+    closing sentence (4+ words) that another story of the day ends with."""
+    own = {s.get("code", "?"): s.get("versions") or [] for s in scripts}
+    every = dict(saved, **own)
+    said, ends = {}, {}
+    for code, vs in every.items():
+        for k in {k for v in vs for k in sentences(v.get("text"))}:
+            said.setdefault(k, set()).add(code)
+        for k in {sentences(v.get("text"))[-1] for v in vs if sentences(v.get("text"))}:
+            ends.setdefault(k, set()).add(code)
+    bad = []
+    for code, vs in own.items():
+        mine = {k for v in vs for k in sentences(v.get("text"))}
+        last = {sentences(v.get("text"))[-1] for v in vs if sentences(v.get("text"))}
+        for k in sorted(mine):
+            others = sorted(said[k] - {code})
+            if len(k.split()) >= 6 and not re.search(r"\d", k) and len(others) >= 2:
+                bad.append((code, 'says "%s" like %d other scripts of the day (%s): no stock sentences; say it in this '
+                                  "story's own words or leave it out (a shorter script is fine, filler is not)"
+                                  % (k[:80], len(others), ", ".join(others[:3]))))
+            elif k in last and len(k.split()) >= 4 and sorted(ends[k] - {code}):
+                bad.append((code, 'ends with "%s" like %s: every story ends on its own last useful sentence'
+                                  % (k[:80], ", ".join(sorted(ends[k] - {code})[:3]))))
+    return bad
+
+
 def save(path):
     scripts = json.load(open(path, encoding="utf-8"))
     slugs = {f[:-5] for f in os.listdir(os.path.join(ROOT, "data", "news")) if f.endswith(".json")}
     bad = [(s.get("code", "?"), p) for s in scripts for p in problems(s, slugs)]
+    saved = {}
+    for day in sorted({str(s.get("day")) for s in scripts if s.get("day")}):
+        for r in query("SELECT code, versions FROM scripts WHERE day = ? AND status != 'struck'", [day]):
+            try:
+                saved[r["code"]] = json.loads(r["versions"] or "[]")
+            except ValueError:
+                pass
+    bad += stock_lines(scripts, {c: v for c, v in saved.items() if c not in {s.get("code") for s in scripts}})
     tails = {}
     for s in scripts:
         if title_tail(s.get("title")):
