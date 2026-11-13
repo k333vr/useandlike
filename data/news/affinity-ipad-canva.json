@@ -1,0 +1,25 @@
+{
+ "slug": "affinity-ipad-canva",
+ "date": "2026-11-12",
+ "added": "2026-11-13",
+ "topic": "Design",
+ "tag": "New app",
+ "head": "Affinity for iPad is out: Canva's free design app with Apple Pencil",
+ "dek": "Canva launched Affinity for iPad, combining sketching, vector design, photo editing and page layout in one app with Apple Pencil support. The core tools are free for individuals.",
+ "details": "It uses the same .af file as Affinity on the desktop, so you can switch between kinds of work without exporting. AI features need a Canva premium account. Canva says desktop Affinity got more than seven million sign-ups in its first year.",
+ "where": "iPad, App Store",
+ "means": "Designers get a full creative app on iPad without paying for the main tools.",
+ "todo": "Download Affinity from the App Store and sign in with your Canva account to open your desktop files.",
+ "rank": 7,
+ "item": 85799,
+ "idea": "news",
+ "thumb_words": "AFFINITY ARRIVES ON IPAD",
+ "sources": [
+  {
+   "name": "IT Brief",
+   "url": "https://itbrief.co.nz/story/canva-launches-affinity-for-ipad-with-apple-pencil"
+  }
+ ],
+ "traction": 18,
+ "checked": "2026-11-13"
+}

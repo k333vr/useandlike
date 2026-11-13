@@ -1,0 +1,23 @@
+{
+ "slug": "whatsapp-view-once-text-android-beta",
+ "date": "2026-11-12",
+ "added": "2026-11-13",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "head": "WhatsApp beta adds view-once text messages on Android",
+ "dek": "Some WhatsApp beta testers on Android can send text messages that the other person can open only once before they disappear.",
+ "quick": true,
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 84659,
+ "idea": "news",
+ "traction": 40,
+ "sources": [
+  {
+   "name": "WABetaInfo",
+   "url": "https://wabetainfo.com/whatsapp-is-rolling-out-view-once-text-messages-on-android/"
+  }
+ ],
+ "checked": "2026-11-13"
+}

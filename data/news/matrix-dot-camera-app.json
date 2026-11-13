@@ -1,0 +1,23 @@
+{
+ "slug": "matrix-dot-camera-app",
+ "date": "2026-11-12",
+ "added": "2026-11-13",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Matrix Dot Camera shoots tiny dot-matrix photos",
+ "dek": "Matrix Dot Camera ($1.99) is a toy camera that takes 96 by 128 pixel pictures in five tones; #78 among paid Photo & Video apps in the US.",
+ "quick": true,
+ "apps": [
+  "Matrix Dot Camera"
+ ],
+ "item": 91182,
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/matrix-dot-camera/id6832800836"
+  }
+ ],
+ "checked": "2026-11-13"
+}

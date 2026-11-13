@@ -1,0 +1,23 @@
+{
+ "slug": "apple-trade-in-values-november",
+ "date": "2026-11-12",
+ "added": "2026-11-13",
+ "topic": "Apple",
+ "tag": "Quick",
+ "head": "Apple changes trade-in values and adds Samsung foldables",
+ "dek": "Apple raised trade-in values for many iPhones and some Apple Watches, lowered some Pixels, and added six Samsung foldables to its list.",
+ "quick": true,
+ "apps": [
+  "iPhone"
+ ],
+ "item": 87212,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/12/apple-adjusts-iphone-and-apple-watch-trade-in-values-adds-samsung-foldables/"
+  }
+ ],
+ "checked": "2026-11-13"
+}

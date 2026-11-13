@@ -1,0 +1,28 @@
+{
+ "slug": "pulseo2-blood-oxygen-watch",
+ "date": "2026-11-12",
+ "added": "2026-11-13",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "PulseO2 brings blood oxygen readings back to your Apple Watch face",
+ "dek": "In the US, Apple Watch blood oxygen results only show in the Health app on iPhone; PulseO2 puts each new reading back on your watch face and in its app. It was #72 among paid Health & Fitness apps on the US App Store on 12 November.",
+ "details": "It costs $4.99, with in-app purchases listed, by Get Happy, LLC, and needs iOS 26.",
+ "where": "Apple Watch and iPhone, App Store, $4.99",
+ "means": "US watch owners can see their oxygen level at a glance again.",
+ "todo": "Find PulseO2 in the App Store and add its complication to your watch face.",
+ "rank": 11,
+ "apps": [
+  "PulseO2"
+ ],
+ "item": 91190,
+ "idea": "newcomer",
+ "thumb_words": "BLOOD OXYGEN BACK ON THE WRIST",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/pulseo2-blood-oxygen-tracker/id6821124504"
+  }
+ ],
+ "traction": 0,
+ "checked": "2026-11-13"
+}

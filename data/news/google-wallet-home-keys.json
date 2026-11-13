@@ -1,0 +1,29 @@
+{
+ "slug": "google-wallet-home-keys",
+ "date": "2026-11-11",
+ "added": "2026-11-13",
+ "topic": "Smart home",
+ "tag": "New feature",
+ "head": "Google Wallet can now unlock your front door with a digital home key",
+ "dek": "Google Wallet on Android can now hold a digital home key for compatible smart locks set up in Google Home: you tap your phone on the lock to open it.",
+ "details": "It uses NFC and works even with the screen locked unless you change that in Wallet. Phones and locks with ultra-wideband can unlock as you approach. One key works for all your compatible locks and syncs across your Android phones. At launch it supports the Aqara U400, Schlage Sense Pro and Nuki Keypad 2 NFC; watches aren't supported yet. It reaches the Google Home Public Preview first, then everyone over the coming weeks.",
+ "where": "Android 9 and newer, compatible locks",
+ "means": "Your phone can replace your house key if you have one of the supported locks.",
+ "todo": "After setting up the lock in Google Home, go to Home settings > Google Wallet key and save it.",
+ "rank": 4,
+ "apps": [
+  "Google Wallet",
+  "Google Home"
+ ],
+ "item": 81850,
+ "idea": "news",
+ "thumb_words": "YOUR PHONE IS NOW A HOUSE KEY",
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/11/google-wallet-home-key/"
+  }
+ ],
+ "traction": 34,
+ "checked": "2026-11-13"
+}

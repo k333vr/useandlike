@@ -1,0 +1,28 @@
+{
+ "slug": "gemini-4-hydrogen-released",
+ "date": "2026-11-12",
+ "added": "2026-11-13",
+ "topic": "AI",
+ "tag": "New model",
+ "head": "Gemini 4 Hydrogen: a faster Gemini 4 model for everyone in the Gemini app",
+ "dek": "Google released Gemini 4 Hydrogen, a faster model for everyday tasks and coding, and it's available to everyone in the Gemini app and Google Search, not just paying subscribers.",
+ "details": "Google says Hydrogen scores slightly above Gemini 4 Argon on an independent intelligence index while often finishing tasks faster, and that it makes up claims more than five times less often than Gemini 3.8 Flash. Developers pay $1.50 per million input tokens and $7.50 per million output tokens. In Google's Antigravity coding tool, a new Orchestrator switches between Hydrogen and the larger Carbon model in one session.",
+ "where": "Gemini app and Google Search, worldwide; Google AI Studio and the Gemini API",
+ "means": "Free Gemini users get a newer Gemini 4 model without upgrading their plan.",
+ "todo": "Open the Gemini app and pick Hydrogen in the model menu if it isn't chosen for you already.",
+ "rank": 1,
+ "apps": [
+  "Gemini"
+ ],
+ "item": 88701,
+ "idea": "news",
+ "thumb_words": "GEMINI 4 HYDROGEN FOR EVERYONE",
+ "sources": [
+  {
+   "name": "Google",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+  }
+ ],
+ "traction": 67,
+ "checked": "2026-11-13"
+}

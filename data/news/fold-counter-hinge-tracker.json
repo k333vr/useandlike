@@ -1,0 +1,23 @@
+{
+ "slug": "fold-counter-hinge-tracker",
+ "date": "2026-11-12",
+ "added": "2026-11-13",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Fold Counter tracks how much of your iPhone Duo hinge's life you've used",
+ "dek": "Fold Counter ($0.99) counts every fold of a foldable iPhone and estimates the hinge life used; #32 among paid Utilities apps in the US.",
+ "quick": true,
+ "apps": [
+  "Fold Counter"
+ ],
+ "item": 91179,
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/fold-counter-hinge-tracker/id6827677447"
+  }
+ ],
+ "checked": "2026-11-13"
+}

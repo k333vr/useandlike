@@ -1,0 +1,23 @@
+{
+ "slug": "directv-multiview-apple-tv",
+ "date": "2026-11-12",
+ "added": "2026-11-13",
+ "topic": "Streaming",
+ "tag": "Quick",
+ "head": "DIRECTV's Build Your Own Multiview comes to Apple TV",
+ "dek": "DIRECTV customers can watch up to four live sports channels at once on Apple TV, rolling out over the next few weeks.",
+ "quick": true,
+ "apps": [
+  "DIRECTV"
+ ],
+ "item": 86726,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "Cord Cutters News",
+   "url": "https://cordcuttersnews.com/directv-begins-rolling-out-build-your-own-multiview-to-apple-tv-devices/"
+  }
+ ],
+ "checked": "2026-11-13"
+}

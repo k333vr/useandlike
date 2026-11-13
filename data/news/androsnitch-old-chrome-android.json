@@ -1,0 +1,28 @@
+{
+ "slug": "androsnitch-old-chrome-android",
+ "date": "2026-11-12",
+ "added": "2026-11-13",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "AndroSnitch: old Chrome versions let hackers into Android phones",
+ "dek": "Security firm Sekoia warns of AndroSnitch, malware that infects Android phones with Qualcomm chips through fake websites, using flaws in old Chrome versions and a graphics driver. Both are fixed in updates.",
+ "details": "It needs no click: opening a tampered website in an outdated Chrome is enough. The malware copies passwords and other data. Chrome versions before 145 are at risk, except 143; the current version is 157. Attacks were seen mainly in August, September and October, aimed especially at the US and Ukraine.",
+ "where": "Android phones with Qualcomm chips and old Chrome versions",
+ "means": "If you haven't updated Chrome on Android in months, a website alone could infect your phone.",
+ "todo": "Update Chrome from the Play Store and install the latest Android system update under Settings.",
+ "rank": 5,
+ "apps": [
+  "Chrome"
+ ],
+ "item": 86723,
+ "idea": "news",
+ "thumb_words": "UPDATE CHROME ON ANDROID",
+ "sources": [
+  {
+   "name": "Tech Advisor",
+   "url": "https://www.techadvisor.com/article/3283543/android-users-warned-google-chrome-could-be-exposing-you-to-hackers.html"
+  }
+ ],
+ "traction": 15,
+ "checked": "2026-11-13"
+}

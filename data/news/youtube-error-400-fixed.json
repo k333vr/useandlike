@@ -1,0 +1,23 @@
+{
+ "slug": "youtube-error-400-fixed",
+ "date": "2026-11-12",
+ "added": "2026-11-13",
+ "topic": "Video",
+ "tag": "Quick",
+ "head": "YouTube Server Error 400 on Android is fixed, Google says",
+ "dek": "After a first fix failed, Google marked the Android error fixed; if you still see it, update YouTube and reopen the app.",
+ "quick": true,
+ "apps": [
+  "YouTube"
+ ],
+ "item": 87292,
+ "idea": "news",
+ "traction": 15,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/youtube-server-error-400-android-fixed-3734468/"
+  }
+ ],
+ "checked": "2026-11-13"
+}

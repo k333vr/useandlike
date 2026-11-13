@@ -1,0 +1,28 @@
+{
+ "slug": "glucose-relay-libre-apple-health",
+ "date": "2026-11-12",
+ "added": "2026-11-13",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Glucose Relay copies FreeStyle Libre readings into Apple Health",
+ "dek": "In many countries LibreLink doesn't save glucose readings to Apple Health; Glucose Relay copies your FreeStyle Libre readings there automatically. It was #71 among paid Health & Fitness apps on the US App Store on 12 November.",
+ "details": "In Health, glucose sits next to your sleep, activity and heart rate and can be shared with your care team. It costs $1.99 with no in-app purchases, by Bruce Elgort, and needs iOS 17.",
+ "where": "iPhone, App Store, $1.99",
+ "means": "Libre users can keep their glucose history in Apple Health with everything else.",
+ "todo": "Find Glucose Relay in the App Store; you need a FreeStyle Libre sensor and LibreLink.",
+ "rank": 10,
+ "apps": [
+  "Glucose Relay"
+ ],
+ "item": 91189,
+ "idea": "newcomer",
+ "thumb_words": "LIBRE GLUCOSE IN APPLE HEALTH",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/glucose-relay/id6830945020"
+  }
+ ],
+ "traction": 0,
+ "checked": "2026-11-13"
+}

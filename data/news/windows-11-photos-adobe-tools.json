@@ -1,0 +1,28 @@
+{
+ "slug": "windows-11-photos-adobe-tools",
+ "date": "2026-11-11",
+ "added": "2026-11-13",
+ "topic": "Windows",
+ "tag": "Coming soon",
+ "head": "Windows 11 Photos app gets Adobe-powered Expand and object removal",
+ "dek": "Microsoft's Photos app on Windows 11 will get Adobe-made tools to expand a photo past its edges, rotate without cropping, change an object by typing and erase things; testing starts in December.",
+ "details": "You'll also be able to send a photo to Adobe Express to keep designing there. Windows Latest worries it could lead to upsells, as Edge's Acrobat-based PDF reader asks users to start a free trial. The preview reaches Windows Insiders in December.",
+ "where": "Windows 11 Photos, Insider preview from December",
+ "means": "Bigger photo edits come to the free Photos app, with Adobe's name on them.",
+ "todo": "Nothing to do yet; when it arrives, check whether a tool needs an Adobe account before you use it.",
+ "rank": 6,
+ "apps": [
+  "Windows 11"
+ ],
+ "item": 84046,
+ "idea": "news",
+ "thumb_words": "ADOBE TOOLS IN WINDOWS PHOTOS",
+ "sources": [
+  {
+   "name": "Windows Latest",
+   "url": "https://www.windowslatest.com/2026/11/12/windows-11s-photos-app-is-getting-adobe-built-in-and-im-worried-itll-start-pushing-subscriptions-like-edges-pdf-reader/"
+  }
+ ],
+ "traction": 47,
+ "checked": "2026-11-13"
+}

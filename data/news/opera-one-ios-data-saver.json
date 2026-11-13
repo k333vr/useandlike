@@ -1,0 +1,28 @@
+{
+ "slug": "opera-one-ios-data-saver",
+ "date": "2026-11-12",
+ "added": "2026-11-13",
+ "topic": "Browsers",
+ "tag": "New feature",
+ "head": "Opera One on iPhone adds Data Saver, cutting data use up to 80%",
+ "dek": "Opera's browser for iPhone now has Data Saver, which compresses images and text on Opera's servers before they reach your phone; Opera says it can cut data use by up to 80%.",
+ "details": "Opera also said its monthly iPhone users grew 20% in a year, and 46% in the US.",
+ "where": "Opera One for iPhone",
+ "means": "On a small data plan or slow connection, pages can load with less data.",
+ "todo": "Turn on Data Saver in Opera One's settings when you're on mobile data.",
+ "rank": 8,
+ "apps": [
+  "Opera"
+ ],
+ "item": 89725,
+ "idea": "news",
+ "thumb_words": "OPERA SAVES DATA ON IPHONE",
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/12/opera-one-for-ios-adds-data-saver-feature-cutting-browsing-data-usage-by-up-to-80/"
+  }
+ ],
+ "traction": 21,
+ "checked": "2026-11-13"
+}

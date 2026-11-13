@@ -1,0 +1,28 @@
+{
+ "slug": "actually-up-alarm-clock-app",
+ "date": "2026-11-12",
+ "added": "2026-11-13",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Actually Up is an alarm that only stops once you're out of bed",
+ "dek": "Actually Up's alarm pauses for two minutes when you press Stop and ends only when you stand up; your Apple Watch can count 20 steps to prove it. It was #35 among paid Lifestyle apps on the US App Store on 12 November.",
+ "details": "The watch check works even with your phone in another room. It costs $0.99 with no in-app purchases, by Hemal Modi, and needs iOS 26.1.",
+ "where": "iPhone with Apple Watch, App Store, $0.99",
+ "means": "Snoozing from bed stops working.",
+ "todo": "Find Actually Up in the App Store and pick the Watch step check.",
+ "rank": 9,
+ "apps": [
+  "Actually Up"
+ ],
+ "item": 91187,
+ "idea": "newcomer",
+ "thumb_words": "AN ALARM YOU MUST STAND UP FOR",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/alarm-clock-actually-up/id6823312822"
+  }
+ ],
+ "traction": 0,
+ "checked": "2026-11-13"
+}

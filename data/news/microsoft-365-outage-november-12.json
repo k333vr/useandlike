@@ -1,0 +1,33 @@
+{
+ "slug": "microsoft-365-outage-november-12",
+ "date": "2026-11-12",
+ "added": "2026-11-13",
+ "topic": "Email",
+ "tag": "Heads-up",
+ "head": "Microsoft 365 outage on 12 November hit Outlook, Teams and OneDrive",
+ "dek": "Outlook, Teams, OneDrive, Copilot and other Microsoft 365 services went down for many users on 12 November. Microsoft confirmed the problem could affect connectivity for users in any region.",
+ "details": "Downdetector showed tens of thousands of reports for each service. Microsoft tracked it under incident EX1550543 in the Microsoft 365 admin center. Some users could keep working through it.",
+ "where": "Microsoft 365 worldwide, 12 November",
+ "means": "If email or Teams stopped working on Thursday, it was Microsoft's side, not your computer.",
+ "todo": "Check status.cloud.microsoft when Microsoft apps stop working, and resend any email that failed during the outage.",
+ "rank": 2,
+ "apps": [
+  "Outlook",
+  "Microsoft Teams"
+ ],
+ "item": 88769,
+ "idea": "news",
+ "thumb_words": "MICROSOFT 365 WENT DOWN",
+ "sources": [
+  {
+   "name": "Windows Central",
+   "url": "https://www.windowscentral.com/microsoft/azure/microsoft-365-outlook-teams-onedrive-and-copilot-are-all-down-right-now"
+  },
+  {
+   "name": "Simcoe.com",
+   "url": "https://www.simcoe.com/news/outlook-email-outage-ontario/article_90dfba39-f1a4-5b8c-bf8b-af44b6f8f92c.html"
+  }
+ ],
+ "traction": 56,
+ "checked": "2026-11-13"
+}
