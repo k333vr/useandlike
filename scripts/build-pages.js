@@ -94,6 +94,8 @@ const PAGES = [
     after: [
       "How it works: email us your app, who you want to reach and your timing. We reply with options, our numbers for your app and prices.",
       "Our rules: sponsored content is labeled, and we only show what a tutorial can honestly show. We don't work with gambling, adult content, get-rich schemes or cracked apps.",
+      // Kevin, 13 Nov 2026 ("sure I guess its no harm"): app makers' own pictures are footage our news videos may show
+      "Made a new app? [Our app news](/) on this site and on our YouTube channel Use & Like News reports on new apps. Send us its App Store or Google Play link, a few screenshots and a short screen recording of the app in use, with one line saying we may show them in our videos and on useandlike.com. Please send only material you made yourself. We can't promise a story about every app.",
       "Email: [" + BUSINESS + "](mailto:" + BUSINESS + ")"
     ],
     channels: true
