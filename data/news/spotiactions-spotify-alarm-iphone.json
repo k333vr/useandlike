@@ -1,0 +1,29 @@
+{
+ "slug": "spotiactions-spotify-alarm-iphone",
+ "date": "2026-11-11",
+ "added": "2026-11-13",
+ "checked": "2026-11-13",
+ "topic": "Music",
+ "tag": "Update",
+ "head": "Spotify alarm on iPhone: SpotiActions now sets up your own playlist in a day",
+ "dek": "SpotiActions, an iPhone app that starts Spotify playlists from Apple's Shortcuts app, for example as a wake-up alarm, now prepares a playlist of your own within 24 hours instead of up to 5 days. Version 3.71 came out on 11 November.",
+ "details": "The app is free and comes with 87 ready-made playlists; a one-time payment unlocks Premium with all of them, a Home Screen and CarPlay widget and one public playlist of your own. It can't read or browse your Spotify library. It needs the Shortcuts app and Spotify on the same iPhone, and each playlist has to be played once before it works in an automation. It's made by an independent developer, not by Spotify.",
+ "where": "iPhone (iOS 17.6 or later), out now on the App Store; works with Spotify Free and Premium",
+ "means": "If you want to wake up to Spotify instead of the Clock app's tones, this app does it through Shortcuts, and your own playlist now takes a day to set up.",
+ "todo": "Try it free with three playlists first; pay for Premium only if you want your own playlist or the widget.",
+ "rank": 34,
+ "apps": [
+  "SpotiActions",
+  "Spotify"
+ ],
+ "item": 89703,
+ "thumb_words": "SPOTIFY PLAYLIST AS IPHONE ALARM",
+ "idea": "request",
+ "traction": 18,
+ "sources": [
+  {
+   "name": "SpotiActions on the App Store",
+   "url": "https://apps.apple.com/us/app/spotiactions/id6748419049"
+  }
+ ]
+}

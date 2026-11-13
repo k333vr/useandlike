@@ -1,0 +1,27 @@
+{
+ "slug": "apcoa-flow-parking-app-uk",
+ "date": "2026-11-12",
+ "added": "2026-11-13",
+ "topic": "Travel",
+ "tag": "New app",
+ "head": "APCOA Flow parking app: pay for parking and EV charging by phone",
+ "dek": "APCOA Flow, a free app from car park operator APCOA, lets you find a car park, pay by phone and extend your parking without going back to the car. It was #58 in the UK App Store's top free apps on 12 November.",
+ "details": "At car parks with number plate recognition, AutoPay charges your saved card as you drive in and out, and LatePay lets you pay after leaving at eligible sites. The app sends reminders before a session ends, keeps VAT receipts and parking history, holds season tickets and several cars, and finds EV chargers, with charging billed separately. Payment works with Apple Pay or saved cards. It works only at participating APCOA Flow car parks.",
+ "where": "Free on iPhone and iPad (iOS 15 or later); UK App Store; participating APCOA car parks",
+ "means": "If you often park in APCOA car parks, you can pay and extend from your phone instead of using the machine.",
+ "todo": "Check that your car park takes APCOA Flow before you rely on it, and turn on reminders so a session doesn't run out.",
+ "apps": [
+  "APCOA FLOW"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/gb/app/apcoa-flow-mobile-parking-app/id1354962285"
+  }
+ ],
+ "item": 91218,
+ "thumb_words": "APCOA FLOW: PAY PARKING BY PHONE",
+ "idea": "request",
+ "traction": 23,
+ "checked": "2026-11-13"
+}

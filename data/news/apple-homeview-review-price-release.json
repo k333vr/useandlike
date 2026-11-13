@@ -1,0 +1,37 @@
+{
+ "slug": "apple-homeview-review-price-release",
+ "date": "2026-11-12",
+ "added": "2026-11-13",
+ "checked": "2026-11-13",
+ "topic": "Apple",
+ "tag": "New device",
+ "head": "Apple HomeView review and price: $299 smart display out November 13",
+ "dek": "Apple's HomeView, a 7-inch smart display and home hub run by Siri, goes on sale on November 13 for $299, and the first reviews are out. Engadget gives it 8.4 out of 10 but says it leans on an iPhone or iPad and isn't built for watching video.",
+ "details": "There's a tabletop version in silver, starlight, rose pink and space gray, and a wall version in silver and space gray that needs a separate Schneider mount from $59.95. It runs on Apple's A18 chip, has a 12-megapixel Center Stage camera for FaceTime, recognizes up to six people by face, and shows up to nine HomeKit camera feeds at once. There's no App Store: Apple TV is the only video app in Engadget's test, and personal things like Messages and Calendar only show when your paired iPhone or iPad is nearby and recently unlocked. Apple says Siri AI on HomeView is in beta and that HomeView isn't sold in the European Union for now.",
+ "where": "US, UK, Canada, Australia, India, New Zealand, Singapore and South Africa, from November 13",
+ "means": "If you have a HomeKit or Matter home and an iPhone, it gives your family one screen for cameras, lights, music, timers and calls; for watching videos, reviewers say a tablet still does more.",
+ "todo": "Check that your iPhone or iPad runs the latest software, since setup needs one. If you plan to hang it on a wall, add the cost of a mount, and know that smart camera alerts for people and packages need an iCloud+ plan.",
+ "apps": [
+  "HomeView",
+  "Siri",
+  "Apple Home"
+ ],
+ "item": 87058,
+ "thumb_words": "APPLE HOMEVIEW: $299, OUT NOW",
+ "idea": "request",
+ "traction": 61,
+ "sources": [
+  {
+   "name": "Apple Newsroom",
+   "url": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/"
+  },
+  {
+   "name": "Engadget",
+   "url": "https://www.engadget.com/2313999/apple-homeview-review/"
+  },
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/12/apple-homeview-review/"
+  }
+ ]
+}

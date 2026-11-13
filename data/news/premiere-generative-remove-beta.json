@@ -1,0 +1,31 @@
+{
+ "slug": "premiere-generative-remove-beta",
+ "date": "2026-11-10",
+ "added": "2026-11-13",
+ "checked": "2026-11-13",
+ "topic": "Video",
+ "tag": "New feature",
+ "head": "Adobe Premiere Generative Remove: erase objects from video in beta",
+ "dek": "Adobe Premiere's beta app has Generative Remove, which erases an object you draw a mask around from a video clip and fills in the spot with Adobe's Firefly video model. It works on clips up to 10 seconds, from 480p to 1080p at up to 30 frames a second.",
+ "details": "Adobe listed object removal for video among new Premiere features at its MAX event on November 10; the beta announcement went up on Adobe's forum on November 4. A community manager there says it costs 40 Firefly credits per second of video, and Premiere shows the cost before you confirm. It runs in the cloud, so you need an internet connection, and your original footage stays untouched, so you can redo or undo the result.",
+ "where": "Premiere (beta), Adobe plans with Firefly credits",
+ "means": "If you edit video in Premiere, you can remove a passer-by, a sign or a logo from a short shot without frame-by-frame work, but each second costs credits.",
+ "todo": "In Premiere (beta), mask the object, track the mask through the shot, then pick Remove in the masking controls under the Program Monitor. Include shadows and reflections in the mask, and do a whole clip in one pass so the fill matches.",
+ "apps": [
+  "Adobe Premiere"
+ ],
+ "item": 90963,
+ "thumb_words": "PREMIERE CAN ERASE OBJECTS FROM VIDEO",
+ "idea": "request",
+ "traction": 46,
+ "sources": [
+  {
+   "name": "Adobe Community",
+   "url": "https://community.adobe.com/announcements-732/now-in-beta-generative-remove-in-premiere-1654360"
+  },
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/"
+  }
+ ]
+}

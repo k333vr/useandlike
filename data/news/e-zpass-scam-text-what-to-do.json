@@ -1,0 +1,36 @@
+{
+ "slug": "e-zpass-scam-text-what-to-do",
+ "date": "2026-11-13",
+ "added": "2026-11-13",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "E-ZPass scam text on iPhone and Android: how to spot it and what to do",
+ "dek": "Texts that claim you owe an unpaid E-ZPass toll and push you to pay through a link are a known scam, and US officials say not to tap the link. E-ZPass in New York says it never asks for card numbers or other personal details by text or email.",
+ "details": "The texts usually warn of a late fee and link to a page that copies a toll agency's look and asks for card details. New York officials say some come from international numbers and ask you to reply \"Y\" to get the link. The FBI said in April 2024 that it had over 2,000 complaints about these texts since March of that year, from at least three states.",
+ "where": "US, texts to iPhone and Android phones",
+ "means": "If a text says you owe a toll, treat it as fake until you've checked your account yourself.",
+ "todo": "Don't tap the link or reply. Check your balance by typing your toll agency's website into your browser or using its official app, or call the number you already know. Report the text with your phone's report junk option or forward it to 7726, then delete it. If you entered card details, contact your bank and dispute unknown charges; you can also report it at ic3.gov.",
+ "rank": 21,
+ "apps": [
+  "E-ZPass"
+ ],
+ "item": 83457,
+ "thumb_words": "E-ZPASS TOLL TEXT IS A SCAM",
+ "idea": "request",
+ "traction": 15,
+ "sources": [
+  {
+   "name": "FTC",
+   "url": "https://consumer.ftc.gov/consumer-alerts/2025/01/got-text-about-unpaid-tolls-its-probably-scam"
+  },
+  {
+   "name": "FBI IC3",
+   "url": "https://www.ic3.gov/PSA/2024/PSA240412"
+  },
+  {
+   "name": "New York Governor's Office",
+   "url": "https://www.governor.ny.gov/news/governor-hochul-warns-consumers-e-zpass-text-message-scam"
+  }
+ ],
+ "checked": "2026-11-13"
+}

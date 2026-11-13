@@ -1,0 +1,36 @@
+{
+ "slug": "outlook-security-update-zero-day-november-2026",
+ "date": "2026-11-10",
+ "added": "2026-11-13",
+ "topic": "Security",
+ "tag": "Update now",
+ "head": "Outlook security update: Microsoft fixes a flaw attackers already use",
+ "dek": "Microsoft's November 10 security release fixes an Outlook for Windows flaw that attackers are already using, and the fix comes as an Office update. Opening a booby-trapped message file could leak sign-in details that let someone pose as you.",
+ "details": "The flaw, CVE-2026-124194, is a spoofing bug rated Moderate (6.5 out of 10): when you open a specially crafted message file, Outlook may connect to a server the attacker controls without its usual warning about outside content. You have to open the file; Microsoft says the Preview Pane alone doesn't trigger it. The listed affected versions are Microsoft 365 Apps for Enterprise, Office LTSC 2021 and Office LTSC 2024 on Windows. The US cybersecurity agency CISA added the flaw to its list of exploited bugs on November 10 and gave federal agencies until November 24 to patch.",
+ "where": "Classic Outlook for Windows (Microsoft 365 Apps, Office LTSC 2021 and 2024)",
+ "means": "If you use Outlook on a Windows PC, an email attachment could be used to steal your sign-in details until Office is updated.",
+ "todo": "In classic Outlook, go to File > Office Account > Update Options > Update Now (click Enable Updates first if you see it). If you only see an About button, your work or school manages updates: ask your IT help desk. Until then, don't open message files you weren't expecting.",
+ "apps": [
+  "Outlook",
+  "Microsoft 365"
+ ],
+ "sources": [
+  {
+   "name": "Microsoft Support",
+   "url": "https://support.microsoft.com/en-us/office/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5"
+  },
+  {
+   "name": "Qualys",
+   "url": "https://blog.qualys.com/vulnerabilities-threat-research/2026/11/10/microsoft-patch-tuesday-november-2026-security-update-review"
+  },
+  {
+   "name": "Suped",
+   "url": "https://www.suped.com/blog/microsoft-patches-actively-exploited-outlook-desktop-flaw-cve-2026-124194"
+  }
+ ],
+ "item": 81234,
+ "thumb_words": "UPDATE OUTLOOK NOW",
+ "idea": "request",
+ "traction": 56,
+ "checked": "2026-11-13"
+}

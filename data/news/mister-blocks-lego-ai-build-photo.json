@@ -1,0 +1,32 @@
+{
+ "slug": "mister-blocks-lego-ai-build-photo",
+ "date": "2026-11-11",
+ "added": "2026-11-13",
+ "checked": "2026-11-13",
+ "topic": "AI",
+ "tag": "New app",
+ "head": "LEGO AI from a photo: Mister Blocks suggests builds from your bricks",
+ "dek": "Mister Blocks is a new free website that looks at a photo of your loose LEGO bricks and designs four models you can build from only those pieces, each with 3D step-by-step instructions and a parts list. It launched on Product Hunt this week.",
+ "details": "You spread the bricks out on white paper, studs up and not touching, and take the photo. You can also ask for a specific build, like a car or a character, which takes about 3 to 6 minutes. If a step doesn't fit, you can describe the problem in a chat and the model is revised. It's an independent fan site, not sponsored by the LEGO Group, made by Oleksandr Gamaniuk, and builds in its public gallery can be opened by anyone.",
+ "where": "Website, free; no phone app",
+ "means": "If you have a box of mixed LEGO pieces at home, you can get new build ideas for them without buying a set.",
+ "todo": "Lay the bricks out as the site describes before taking the photo, and keep in mind that public gallery builds, photo included, can be seen by anyone.",
+ "rank": 35,
+ "apps": [
+  "Mister Blocks"
+ ],
+ "item": 78918,
+ "thumb_words": "PHOTO OF YOUR LEGO, AI PICKS A BUILD",
+ "idea": "request",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "Mister Blocks",
+   "url": "https://misterblocks.com"
+  },
+  {
+   "name": "Product Hunt",
+   "url": "https://www.producthunt.com/products/mister-blocks"
+  }
+ ]
+}

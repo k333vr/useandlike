@@ -1,0 +1,29 @@
+{
+ "slug": "claude-apps-open-inside-chat",
+ "date": "2026-11-10",
+ "added": "2026-11-13",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "Claude connectors: Canva, Asana and other apps now open inside Claude",
+ "dek": "Anthropic is rolling out interactive connectors: a connected app such as Canva, Asana or Dropbox opens next to your Claude chat, and Claude can make changes in it while you watch. It's coming to Claude on the web and the desktop app, on all plans.",
+ "details": "The first apps listed are Asana, Canva, Carta, Dropbox, monday.com, Smartsheet, Vercel and Webflow; Anthropic's post also shows Adobe, Atlassian's Confluence, Box, HubSpot and Notion. Claude can edit the page, row or file you have open and asks for your approval first, as it does for other connector actions. Figma, Harvey and Shopify are building their own. You can hide the chat, go full screen or pin an app to the sidebar.",
+ "where": "Rolling out on Claude web and desktop, all plans; mobile not mentioned",
+ "means": "If you use Claude with apps like Canva or Asana, you can work in them without leaving the chat, and Claude can do the edits for you.",
+ "todo": "Connect the app from Claude's connector directory, then open it from the chat or pin it to the sidebar. The feature appears once your account gets the update; at work, your admin may need to allow it.",
+ "apps": [
+  "Claude",
+  "Canva",
+  "Asana"
+ ],
+ "sources": [
+  {
+   "name": "Anthropic",
+   "url": "https://claude.com/blog/interactive-connectors-full-tool"
+  }
+ ],
+ "item": 81717,
+ "thumb_words": "CANVA AND ASANA NOW OPEN IN CLAUDE",
+ "idea": "request",
+ "traction": 49,
+ "checked": "2026-11-13"
+}

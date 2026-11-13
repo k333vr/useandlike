@@ -1,0 +1,32 @@
+{
+ "slug": "apple-tv-4k-2026-price-hands-free-siri",
+ "date": "2026-11-13",
+ "added": "2026-11-13",
+ "topic": "Apple",
+ "tag": "New device",
+ "head": "Apple TV 4K 2026 price: $299 model with hands-free Siri in stores now",
+ "dek": "Apple's fourth-generation Apple TV 4K costs $299 and reaches stores on November 13, with three microphones so you can talk to Siri without the remote. It comes in one version only: 128 GB with Wi-Fi and gigabit Ethernet.",
+ "details": "The old model started at $129 (64 GB) and $149 (128 GB), then went up to $199 and $249 in June 2026. Apple says the A19 chip has up to 50% faster CPU and up to twice the graphics performance of the previous box, plus an AV1 decoder; it also has Wi-Fi 7, Bluetooth 6 and Thread. Hands-free \"Siri\" works during playback when the box's language is English, French, German, Dutch, Mandarin Chinese, Finnish, Hebrew, Norwegian or Swedish. The new Siri AI arrives in beta with tvOS 27.2 on Apple TV 4K from the 2nd generation on, in English in the US, UK, Canada, Australia, India, New Zealand, Singapore and South Africa, and needs an Apple Intelligence iPhone or iPad in the home.",
+ "where": "US and 29 other countries and regions; in stores from November 13",
+ "means": "If you're buying an Apple TV now, the only new one costs $299. If you already own a 2nd-generation Apple TV 4K or later, Siri AI comes to it as a free tvOS 27.2 beta in the listed countries.",
+ "todo": "Compare it with your current box first: Siri AI also comes to older Apple TV 4K models with tvOS 27.2. The remote's new play-a-sound feature needs the new Siri Remote, which is also sold separately.",
+ "apps": [
+  "Apple TV",
+  "Siri"
+ ],
+ "sources": [
+  {
+   "name": "Apple Newsroom",
+   "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/"
+  },
+  {
+   "name": "TidBITS",
+   "url": "https://tidbits.com/2026/10/15/fourth-gen-apple-tv-4k-brings-hands-free-siri-ai-at-a-whopping-299/"
+  }
+ ],
+ "item": 87100,
+ "thumb_words": "NEW APPLE TV 4K: $299",
+ "idea": "request",
+ "traction": 45,
+ "checked": "2026-11-13"
+}

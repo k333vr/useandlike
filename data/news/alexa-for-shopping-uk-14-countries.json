@@ -1,0 +1,28 @@
+{
+ "slug": "alexa-for-shopping-uk-14-countries",
+ "date": "2026-11-13",
+ "added": "2026-11-13",
+ "checked": "2026-11-13",
+ "topic": "Shopping",
+ "tag": "New feature",
+ "head": "Alexa for Shopping on Amazon now in the UK and 13 more countries",
+ "dek": "Amazon's AI shopping assistant, Alexa for Shopping, now works in full in 14 countries, among them the UK, Canada, India, Germany and Australia, after starting in the US in May. It's free for anyone signed in to Amazon, with no Echo, Alexa app or Prime needed.",
+ "details": "You can ask it questions in Amazon's search bar, compare products side by side, see a product's price history for up to a year, set price alerts and have it buy an item when the price drops to a level you choose. Its Buy for Me feature can buy some products from other shops with your main address and card. Amazon says it's in beta in the United Arab Emirates and Turkey, and the AI overviews at the top of search results are rolling out to US shoppers.",
+ "where": "US, UK, Germany, France, Italy, Spain, Canada, Japan, India, Brazil, Mexico, Switzerland, Austria and Australia; beta in the UAE and Turkey",
+ "means": "If you shop on Amazon outside the US, you can now ask the assistant about products and price history instead of reading through listings yourself; it also learns your preferences, which you can view and change.",
+ "todo": "Update the Amazon Shopping app and tap the Alexa icon in the bottom bar, or type a question in the search bar. Before using auto-buy or Buy for Me, check which address and card it will use.",
+ "apps": [
+  "Amazon",
+  "Alexa"
+ ],
+ "item": 83396,
+ "thumb_words": "ALEXA FOR SHOPPING HITS THE UK",
+ "idea": "request",
+ "traction": 46,
+ "sources": [
+  {
+   "name": "About Amazon",
+   "url": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-ai-assistant"
+  }
+ ]
+}

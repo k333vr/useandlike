@@ -1,0 +1,27 @@
+{
+ "slug": "packgoat-packing-list-app",
+ "date": "2026-11-11",
+ "added": "2026-11-13",
+ "checked": "2026-11-13",
+ "topic": "Travel",
+ "tag": "New app",
+ "head": "PackGoat packing list app for iPhone builds your list from the weather",
+ "dek": "PackGoat is a packing list app for iPhone, iPad and Mac that starts you with a ready list, counts how many of each item a trip needs and uses Apple Intelligence to suggest things you'd forget, based on the weather forecast. It's free to download, with a Pro upgrade.",
+ "details": "You can save lists like ski gear or a kids' bag as templates, add item weights to stay under carry-on limits, and share a trip by link so travel companions get their own copy. The app says the AI suggestions are processed on your device. Pro adds unlimited trips and templates and iCloud sync, from $3.99 a week, $19.99 a year or a one-time lifetime price. It's made by INNCODER AS, needs iOS 26 or later, and added iPhone Duo support in version 2.3.0 on October 21.",
+ "where": "App Store, iPhone, iPad and Mac, iOS 26 or later",
+ "means": "If you always forget something when you pack, a reusable list that scales with the length of the trip saves you from starting over each time.",
+ "todo": "Try the free version with one starter pack before paying; the free plan limits how many trips and templates you can keep.",
+ "apps": [
+  "PackGoat"
+ ],
+ "item": 82661,
+ "thumb_words": "PACKGOAT PACKS FOR THE WEATHER",
+ "idea": "request",
+ "traction": 50,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/packing-list-packgoat/id6758299437"
+  }
+ ]
+}

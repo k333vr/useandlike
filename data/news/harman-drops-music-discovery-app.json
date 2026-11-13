@@ -1,0 +1,31 @@
+{
+ "slug": "harman-drops-music-discovery-app",
+ "date": "2026-11-09",
+ "added": "2026-11-13",
+ "topic": "Music",
+ "tag": "New app",
+ "head": "Drops music app: Harman's TikTok-style song clips, invite-only in the US",
+ "dek": "Harman, the Samsung-owned company behind JBL, launched Drops, a free app where you discover music through 10- to 30-second song clips shared by friends and tastemakers. It's on iPhone and Android in the US, invite-only for now with a waitlist.",
+ "details": "Each clip shows the lyrics, album art, artist images and a caption from the person who shared it. You can save clips to collections, follow people and send clips to friends, then keep listening to the full song on Apple Music, Qobuz or TIDAL. Partners include Universal Music Group, Beggars Group, EMPIRE, Symphonic and UnitedMasters; Music Business Worldwide reports that rightsholders are paid. Harman hasn't said when it opens to everyone or other countries.",
+ "where": "US, iPhone and Android, invite-only (waitlist)",
+ "means": "If you find new songs through short clips, Drops is a free way to do it, and it passes you on to Apple Music, Qobuz or TIDAL for the full track.",
+ "todo": "In the US, join the waitlist on the Drops website (gotdrops.com) and wait for an invite.",
+ "apps": [
+  "Drops"
+ ],
+ "sources": [
+  {
+   "name": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/samsungs-harman-launches-drops-a-tiktok-style-music-discovery-app-with-universal-beggars-and-empire-among-its-partners/"
+  },
+  {
+   "name": "The Tech Outlook",
+   "url": "https://www.thetechoutlook.com/new-release/software-apps/harman-introduces-a-new-music-discovery-experience-drops-available-for-ios-and-android-in-the-us/"
+  }
+ ],
+ "item": 76163,
+ "thumb_words": "SAMSUNG'S HARMAN LAUNCHES DROPS",
+ "idea": "request",
+ "traction": 23,
+ "checked": "2026-11-13"
+}

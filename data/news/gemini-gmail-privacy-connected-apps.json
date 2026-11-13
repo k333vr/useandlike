@@ -1,0 +1,41 @@
+{
+ "slug": "gemini-gmail-privacy-connected-apps",
+ "date": "2026-11-10",
+ "added": "2026-11-13",
+ "topic": "Privacy",
+ "tag": "Privacy",
+ "head": "Google Gemini Gmail privacy: connected mail may train AI and be reviewed",
+ "dek": "Google has changed what it says about Gmail and Drive data you connect to its other services: depending on your settings, it can now be used to train its AI models and, in limited cases, be read by human reviewers. In 2023, when it launched the Bard extensions, Google had said that content would not be seen by reviewers or used for training.",
+ "details": "Google added the change as a note, dated 16 October 2026, to its September 2023 Bard blog post. Its updated privacy policy, in effect since 16 October, also says your Gmail, Drive and Photos content can shape personalized ads if you choose to make it available to Google services that show them. Gemini's privacy hub says reviewed chats, which can include content from connected apps, are kept for up to three years. Google says connecting your apps is opt-in.",
+ "where": "Personal Google accounts that connect Gmail, Drive or Photos to Gemini or Search; Personal Intelligence isn't offered in the EEA, Switzerland, the UK or Nigeria",
+ "means": "If you've connected Gmail or Drive to Gemini or Search, parts of that mail and those files may be used to train Google's AI or seen by a reviewer, depending on your settings.",
+ "todo": "To stop future Gemini chats from being reviewed, turn off Keep Activity in Gemini. To disconnect Gmail and Photos from Search, go to your Google Account, then Data & privacy, Personalization settings, and Manage Personalized Recommendations in Search Services. Disconnecting may not delete what Google already saved.",
+ "rank": 13,
+ "apps": [
+  "Gemini",
+  "Gmail"
+ ],
+ "item": 76614,
+ "thumb_words": "GEMINI GMAIL PRIVACY PROMISE CHANGED",
+ "idea": "request",
+ "traction": 61,
+ "sources": [
+  {
+   "name": "Google (Bard update, note of 16 October 2026)",
+   "url": "https://blog.google/products/bard/google-bard-new-features-update-sept-2023/"
+  },
+  {
+   "name": "Gemini Apps Privacy Hub",
+   "url": "https://support.google.com/gemini/answer/13594961?hl=en"
+  },
+  {
+   "name": "Google Privacy Policy",
+   "url": "https://policies.google.com/privacy?hl=en-US"
+  },
+  {
+   "name": "The Next Web",
+   "url": "https://thenextweb.com/news/google-privacy-policy-gmail-photos-ads-personal-intelligence"
+  }
+ ],
+ "checked": "2026-11-13"
+}

@@ -1,0 +1,29 @@
+{
+ "slug": "samsung-bixby-actions-one-ui-9-5",
+ "date": "2026-11-10",
+ "added": "2026-11-13",
+ "checked": "2026-11-13",
+ "topic": "AI",
+ "tag": "In testing",
+ "head": "Samsung Bixby may get Gemini-style tasks with One UI 9.5",
+ "dek": "Samsung appears to be testing an Actions feature that lets Bixby set up repeating tasks for you, according to SamMobile, which spotted it in a beta of the Bixby app; Samsung hasn't confirmed it. In the example shown, Bixby offers to turn a request for an exchange rate report into a daily task.",
+ "details": "Saved tasks appear on an Actions page where you can pin, pause, delete or edit them and see the chat log. It isn't known yet whether Actions only repeats one request or can run multistep tasks and triggers like Gemini. Android Police says it may arrive with One UI 9.5, expected in early 2027, first on the Galaxy S26, Z Fold 8 and Z Flip 8, or only on the Galaxy S27 series.",
+ "where": "Spotted in a Bixby beta; not released, Galaxy phones with One UI 9.5 expected in early 2027",
+ "means": "If you use Bixby on a Galaxy phone, it may later handle repeating jobs, like a daily report, without you asking each time.",
+ "todo": "Nothing to do yet: it's in testing and Samsung hasn't announced it.",
+ "rank": 32,
+ "apps": [
+  "Samsung"
+ ],
+ "item": 78136,
+ "thumb_words": "BIXBY MAY GET GEMINI-STYLE TASKS",
+ "idea": "request",
+ "traction": 46,
+ "rumor": true,
+ "sources": [
+  {
+   "name": "Android Police",
+   "url": "https://www.androidpolice.com/samsung-could-give-bixby-gemini-style-autonomous-agent-powers-one-ui-9-5-update/"
+  }
+ ]
+}

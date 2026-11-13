@@ -1,0 +1,31 @@
+{
+ "slug": "nordvpn-digital-footprint-check",
+ "date": "2026-11-12",
+ "added": "2026-11-13",
+ "topic": "Privacy",
+ "tag": "New feature",
+ "head": "NordVPN digital footprint check shows what the internet knows about you",
+ "dek": "NordVPN is rolling out Digital footprint, a report inside its Dark Web Monitor that looks up what can be found online about one of your email addresses. It lists old and forgotten accounts, data leaks and an exposure score, then gives steps to shrink it.",
+ "details": "The tool searches public sources (open-source intelligence) for details linked to the email address. The report includes a score from 0 to 100 (higher means more exposed), the accounts it found with their last activity, a timeline and a map of activity, and an action plan. It doesn't delete anything for you: you close old accounts and change settings yourself, and it watches whether your exposure grows or shrinks. NordVPN says it doesn't store, share or sell the personal information.",
+ "where": "NordVPN subscribers, in the app's Dark Web Monitor, rolling out",
+ "means": "If you pay for NordVPN, you can now see which old accounts and leaked details are tied to your email without searching for them one by one.",
+ "todo": "Open Dark Web Monitor in the NordVPN app, pick an email address you've added there and read the report. Start with the accounts you no longer use: delete them or remove your details.",
+ "apps": [
+  "NordVPN"
+ ],
+ "sources": [
+  {
+   "name": "NordVPN",
+   "url": "https://nordvpn.com/features/digital-footprint/"
+  },
+  {
+   "name": "TechRadar",
+   "url": "https://www.techradar.com/vpn/vpn-services/beyond-data-breaches-nordvpns-new-tool-promises-to-help-you-shrink-your-full-digital-footprint"
+  }
+ ],
+ "item": 91005,
+ "thumb_words": "NORDVPN CHECKS YOUR FOOTPRINT",
+ "idea": "request",
+ "traction": 18,
+ "checked": "2026-11-13"
+}

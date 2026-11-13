@@ -1,0 +1,29 @@
+{
+ "slug": "gemini-intelligence-pixel-10-motorola",
+ "date": "2026-11-10",
+ "added": "2026-11-13",
+ "topic": "Android",
+ "tag": "Update",
+ "head": "Gemini Intelligence comes to Pixel 10 phones and Motorola Signature 27",
+ "dek": "Google's Gemini Intelligence features now reach the Pixel 10, 10 Pro, 10 Pro XL and 10 Pro Fold through the November Pixel Drop. The Motorola Signature 27 is Motorola's first phone with them, with US pre-orders from 19 November.",
+ "details": "Until now Gemini Intelligence was on the Pixel 11 and Samsung's Galaxy S26, Z Fold8 and Z Flip8 phones. New features: Rambler in Gboard turns speech into tidy text (Pixel 10 models and the Signature 27); Create My Widget builds a home screen widget from a description over the next few weeks; Device Assistance lets Gemini clear storage or check location access on Android 17. Task automation, where Gemini orders food or books rides across apps, expands to the UK, India and Japan. Most features are for users 18 and over in select countries and languages, and some may need a subscription.",
+ "where": "Pixel 10 series now via the Pixel Drop; Motorola Signature 27 pre-orders in the US from 19 November",
+ "means": "If you have a Pixel 10 phone, you get Google's newer AI features without buying a new phone.",
+ "todo": "On a Pixel 10, install the November Pixel Drop update. Some features arrive over the next few weeks and only in some countries.",
+ "apps": [
+  "Gemini",
+  "Pixel",
+  "Motorola"
+ ],
+ "sources": [
+  {
+   "name": "Google",
+   "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/"
+  }
+ ],
+ "item": 77282,
+ "thumb_words": "PIXEL 10 GETS GEMINI INTELLIGENCE",
+ "idea": "request",
+ "traction": 53,
+ "checked": "2026-11-13"
+}
