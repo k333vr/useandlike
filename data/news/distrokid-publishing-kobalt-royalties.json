@@ -1,0 +1,31 @@
+{
+ "slug": "distrokid-publishing-kobalt-royalties",
+ "date": "2026-11-11",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Music",
+ "tag": "New feature",
+ "head": "DistroKid Publishing: royalties for songwriters, with Kobalt",
+ "dek": "DistroKid has opened DistroKid Publishing, run with the music publisher Kobalt, to collect the songwriting royalties independent artists often miss. It costs a one-time 75 dollars, and songwriters keep 80% of what it collects.",
+ "details": "You qualify with at least one release on DistroKid and more than 50 dollars in streaming revenue over the last 12 months. Original songs count, co-writes included, even if you own only a share; covers, remixes, mash-ups and fully AI-generated tracks don't. It collects mechanical and performance royalties, paid into your DistroKid Bank account: the first payment comes about six to nine months after your publishing earnings pass 10 dollars, then every quarter. There's no long-term commitment and you can leave at any time.",
+ "where": "DistroKid members who meet the requirements, through the DistroKid dashboard",
+ "means": "If you release your own songs through DistroKid and earn more than 50 dollars a year from streams, you can have your publishing royalties collected without signing with a publisher.",
+ "todo": "Look for DistroKid Publishing in your DistroKid dashboard. Before you pay the 75 dollar fee, check which of your songs qualify: covers and remixes are left out.",
+ "apps": [
+  "DistroKid"
+ ],
+ "item": 81745,
+ "thumb_words": "DISTROKID NOW COLLECTS PUBLISHING",
+ "idea": "news",
+ "traction": 21,
+ "sources": [
+  {
+   "name": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/distrokid-launches-music-publishing-service-powered-by-kobalt/"
+  },
+  {
+   "name": "Hypebot",
+   "url": "https://www.hypebot.com/distrokid-taps-kobalt-to-launch-new-music-publishing-service/"
+  }
+ ]
+}

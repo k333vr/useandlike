@@ -1,0 +1,23 @@
+{
+ "slug": "apple-maps-local-lists-trending-restaurants",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Apple",
+ "tag": "Quick",
+ "head": "Apple Maps shows weekly trending restaurant lists in the US",
+ "dek": "Apple Maps in iOS 27 has Local Lists, including a Trending Restaurants list of 20 places that updates every week; in the US, find it by tapping the search field and scrolling down.",
+ "quick": true,
+ "apps": [
+  "Apple Maps"
+ ],
+ "item": 95828,
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/13/apple-maps-in-ios-27-has-hidden-new-feature-ive-been-loving/"
+  }
+ ],
+ "idea": "news",
+ "traction": 0
+}

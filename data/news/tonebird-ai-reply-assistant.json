@@ -1,0 +1,27 @@
+{
+ "slug": "tonebird-ai-reply-assistant",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "AI",
+ "tag": "New app",
+ "head": "ToneBird AI reply assistant drafts replies in Gmail, Slack and WhatsApp",
+ "dek": "ToneBird is a Mac and Windows app that writes reply drafts in your own tone inside apps like Gmail, Slack, WhatsApp and iMessage, using what it knows about each person. You still press send yourself.",
+ "details": "The free plan gives 15 uses a day for up to 30 contacts; Standard costs $10 a month (100 a day) and Pro $40 a month (1,000 a day), with 20% off for a year. Your tone profile and notes about contacts stay on your device, where you can export or delete them; each request goes to an AI model provider with the context it needs. It also works in Google Chat, X, Reddit, LinkedIn, Instagram, Discord, WeChat and Lark, where the reply box can be read.",
+ "where": "Mac and Windows, out now",
+ "means": "If you answer a lot of messages, it can write a first draft that sounds like you, but the text of your chats goes to an AI provider to do it.",
+ "todo": "Try the free plan first and read each draft before you send it.",
+ "apps": [
+  "ToneBird"
+ ],
+ "item": 97809,
+ "idea": "news",
+ "traction": 0,
+ "thumb_words": "TONEBIRD WRITES YOUR REPLIES",
+ "sources": [
+  {
+   "name": "ToneBird",
+   "url": "https://tonebird.ai/"
+  }
+ ]
+}

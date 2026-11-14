@@ -1,0 +1,33 @@
+{
+ "slug": "brave-removes-meta-photo-tracking-id",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Privacy",
+ "tag": "Privacy",
+ "head": "Brave removes Meta's hidden ID from Facebook and Instagram photos",
+ "dek": "Brave's desktop browser now deletes a hidden marker that Meta puts inside Facebook and Instagram photos when you save or upload one. The marker can make it easier to match the same picture across accounts and sites.",
+ "details": "The marker sits in a photo's IPTC \"Special Instructions\" field and starts with \"FBMD\". Brave removes it before a download finishes, and when you upload a tagged photo it sends a cleaned copy while your original file stays unchanged. It works automatically from Brave 1.98 on desktop. Meta hasn't said what the marker is for; Brave plans the feature for Android and iOS and later controls to remove location, device and time data from photos.",
+ "where": "Brave on desktop, version 1.98 and later; Android and iOS later",
+ "means": "If you save photos from Facebook or Instagram and share them elsewhere, Brave on your computer now drops the marker that ties the file back to Meta. Photos saved with other browsers, or with Brave on your phone, still carry it.",
+ "todo": "Check your Brave version in Settings under About Brave and update if it's below 1.98. On your phone, keep in mind the marker isn't removed yet.",
+ "apps": [
+  "Brave",
+  "Instagram",
+  "Facebook"
+ ],
+ "sources": [
+  {
+   "name": "Brave",
+   "url": "https://brave.com/privacy-updates/40-remove-tracking-metadata/"
+  },
+  {
+   "name": "CyberInsider",
+   "url": "https://cyberinsider.com/brave-removes-meta-tracking-identifiers-facebook-instagram-photos/"
+  }
+ ],
+ "item": 97227,
+ "thumb_words": "BRAVE STRIPS META'S PHOTO TAG",
+ "idea": "news",
+ "traction": 22
+}

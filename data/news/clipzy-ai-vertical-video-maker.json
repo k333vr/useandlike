@@ -1,0 +1,31 @@
+{
+ "slug": "clipzy-ai-vertical-video-maker",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "AI",
+ "tag": "New app",
+ "head": "Clipzy AI video maker turns a typed idea into TikTok and Reels videos",
+ "dek": "Clipzy, a new web tool, writes a script from your idea, adds an AI voiceover, footage, captions and music, and hands you a vertical video for TikTok, Reels or Shorts. New users get 50 free credits without a card; paid plans start at $22 a month.",
+ "details": "The video opens in a multi-track editor in the browser, so you can change it before exporting in up to 1080p. Clipzy also does auto captions, AI dubbing into more than 30 languages and transcription. Plans are Starter at $22 a month with 200 credits, Growth at $39 with 450 and Influencer at $59 with 800, which adds AI character videos; yearly billing costs less. It was featured on BetaList on November 13; the site doesn't name the company behind it.",
+ "where": "Web browser, worldwide; 50 free credits, then from $22 a month",
+ "means": "If you post short videos and get stuck on scripts and editing, Clipzy can give you a first draft to fix up instead of a blank timeline.",
+ "todo": "Try it with the free credits before paying, and check each script and caption: AI-made videos can get facts wrong.",
+ "apps": [
+  "Clipzy"
+ ],
+ "sources": [
+  {
+   "name": "Clipzy",
+   "url": "https://clipzylabs.com/"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/clipzy"
+  }
+ ],
+ "item": 95558,
+ "thumb_words": "CLIPZY: IDEA TO SHORT VIDEO",
+ "idea": "newcomer",
+ "traction": 0
+}

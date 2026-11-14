@@ -1,0 +1,23 @@
+{
+ "slug": "hey-gemini-hotword-android-xr-glasses",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "\"Hey Gemini\" wake word arrives, first on Android XR glasses",
+ "dek": "Google is adding \"Hey Gemini\" as a wake word for its assistant, starting only on its Android XR glasses; it hasn't said whether phones will get it.",
+ "quick": true,
+ "apps": [
+  "Gemini"
+ ],
+ "item": 87551,
+ "idea": "news",
+ "traction": 68,
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/12/hey-gemini-hotword-debuts-on-android-xr-glasses/"
+  }
+ ]
+}

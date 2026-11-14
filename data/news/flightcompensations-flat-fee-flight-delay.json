@@ -1,0 +1,32 @@
+{
+ "slug": "flightcompensations-flat-fee-flight-delay",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Travel",
+ "tag": "New app",
+ "head": "Flight delay compensation for a flat 39 euro fee: FlightCompensations",
+ "dek": "FlightCompensations.com is a new service that claims compensation from airlines for delayed, cancelled or overbooked flights and charges a flat 39 euros per passenger instead of a share of the payout. If the claim fails, you pay nothing.",
+ "details": "You enter the flight number and date or upload a boarding pass, and a free checker says whether you qualify under EU261, UK261, Canada's APPR or Israel's aviation law. If you sign the claim, the company contacts the airline and the money goes to you; the 39 euro fee is invoiced only after a win. Its site lists EU261 amounts of 250, 400 or 600 euros per passenger, depending on the distance, as estimates. A yearly plan, FlightComp+, costs 49 euros with no per-claim fees, according to BetaList.",
+ "where": "Online, for flights covered by EU, UK, Canadian or Israeli passenger rules",
+ "means": "If your flight from the EU or UK reached its destination three or more hours late, you may be owed money, and this service takes a fixed fee rather than a percentage.",
+ "todo": "Run the free check first, and read what you're signing: each passenger signs their own claim.",
+ "category": "Travel",
+ "apps": [
+  "FlightCompensations"
+ ],
+ "item": 89994,
+ "thumb_words": "FLIGHT DELAY CLAIMS FOR 39 EUROS",
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "FlightCompensations.com",
+   "url": "https://www.flightcompensations.com/"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/flightcompensations-com"
+  }
+ ]
+}

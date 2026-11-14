@@ -1,0 +1,23 @@
+{
+ "slug": "iphone-duo-hinge-450000-folds-cnet",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Apple",
+ "tag": "Quick",
+ "head": "iPhone Duo hinge shows wear after 450,000 folds in CNET test",
+ "dek": "CNET's folding machine has opened the iPhone Duo more than 451,000 times; the hinge felt looser from about 390,000 folds and now stops 5 to 10 degrees short of fully open, but the phone still works.",
+ "quick": true,
+ "apps": [
+  "iPhone Duo"
+ ],
+ "item": 96241,
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/13/iphone-duo-fold-testing/"
+  }
+ ],
+ "idea": "news",
+ "traction": 0
+}

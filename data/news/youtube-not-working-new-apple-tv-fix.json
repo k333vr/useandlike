@@ -1,0 +1,32 @@
+{
+ "slug": "youtube-not-working-new-apple-tv-fix",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Video",
+ "tag": "Heads-up",
+ "head": "YouTube not working on new Apple TV 4K: how to fix the error",
+ "dek": "Some owners of the new Apple TV 4K that started shipping on 13 November see the message 'YouTube is not yet available on this device' when they open YouTube. 9to5Mac and MacRumors report a fix: update to tvOS 27.2, restart, then reinstall the app.",
+ "details": "Neither Google nor Apple has commented, and no cause is known. Both outlets say YouTube appears to have started a server-side fix, so the error may go away without any steps. You can restart in Settings, System, Restart, by unplugging the box, or by holding the TV and Back buttons for five seconds.",
+ "where": "New Apple TV 4K (fourth generation), from 13 November",
+ "means": "If YouTube refuses to open on your new Apple TV, the box isn't broken: a few quick steps usually clear it.",
+ "todo": "Check Settings, System, Software Updates for tvOS 27.2. Restart the Apple TV. If YouTube still won't open, delete the app and install it again from the App Store.",
+ "apps": [
+  "YouTube",
+  "Apple TV"
+ ],
+ "item": 95103,
+ "idea": "news",
+ "traction": 23,
+ "thumb_words": "YOUTUBE BROKEN ON NEW APPLE TV? FIX",
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/13/new-apple-tv-youtube-broken-fix/"
+  },
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/13/youtube-app-apple-tv-not-working-fix/"
+  }
+ ]
+}

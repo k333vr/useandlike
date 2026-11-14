@@ -1,0 +1,34 @@
+{
+ "slug": "meta-muse-calls-businesses-paid-us",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "Meta Muse calling: the AI agent now phones US businesses for paid users",
+ "dek": "Meta's AI agent Muse can now place phone calls to businesses in the US on your behalf, for example to a cable company, an insurer or a restaurant that doesn't take bookings online. The feature is out now for paying Muse subscribers in the US.",
+ "details": "Meta tested calling with a small group of early users from September; until now you had to ask for access. Muse plans start at 20 dollars a month for 500 million Muse tokens a week, and a 100-dollar plan gives 3 billion tokens a week. Meta's chief AI officer Alexandr Wang said Muse's email address feature will come to free users soon, while calling stays paid. Separately, a Chrome extension called Muse from Meta has appeared in the Chrome Web Store with a sidebar chat that can work on websites, ask you to approve actions first and keep a log of what it did; Meta hasn't announced it.",
+ "where": "US businesses, paid Muse subscribers, out now",
+ "means": "If you pay for Muse in the US, you can hand it the calls you'd rather not make. TechCrunch notes that many businesses hang up once they notice an AI is calling.",
+ "todo": "If you're a paid subscriber in the US, ask Muse to call a business for you. On the free plan, calling isn't included.",
+ "apps": [
+  "Meta Muse"
+ ],
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
+  },
+  {
+   "name": "TestingCatalog",
+   "url": "https://www.testingcatalog.com/meta-brings-muse-ai-agent-to-chrome-with-new-extension/"
+  }
+ ],
+ "item": 92428,
+ "items": [
+  95259
+ ],
+ "thumb_words": "META MUSE NOW MAKES YOUR CALLS",
+ "idea": "news",
+ "traction": 60
+}

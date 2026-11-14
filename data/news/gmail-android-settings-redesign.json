@@ -1,0 +1,23 @@
+{
+ "slug": "gmail-android-settings-redesign",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Email",
+ "tag": "Quick",
+ "head": "Gmail's settings get a cleaner redesign on Android",
+ "dek": "Gmail's Android settings are rolling out in a new look with grouped sections, such as Writing assistance for Smart Compose, Smart Reply and Proofread; it's switched on from Google's side, so updating the app may not show it yet.",
+ "quick": true,
+ "apps": [
+  "Gmail"
+ ],
+ "item": 94528,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/gmail-material-3-expressive-settings-redesign-rollout-3734964/"
+  }
+ ]
+}

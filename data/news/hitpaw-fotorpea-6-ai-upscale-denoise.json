@@ -1,0 +1,27 @@
+{
+ "slug": "hitpaw-fotorpea-6-ai-upscale-denoise",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "AI",
+ "tag": "Update",
+ "head": "HitPaw FotorPea 6.0: new AI upscale and denoise for photos",
+ "dek": "HitPaw released version 6.0 of its photo enhancer FotorPea for Windows and Mac, with three new tools for enlarging and cleaning up images. It also adds a gallery of past edits and a clearer view of the credits you've used.",
+ "details": "Natural Upscale enlarges low-resolution photos and sharpens and denoises them in one step. AI Upscale is meant for AI images, anime, illustrations and line art. AI Denoise reduces visible noise, with portraits as the main use. Plans start at $22.39 a month on Windows and $25.59 a month on Mac, according to HitPaw's announcement; the quality claims are HitPaw's own.",
+ "where": "Windows 7 to 11 (64-bit) and macOS 10.15 or later, out now",
+ "means": "If you fix old, blurry or noisy photos on a computer, FotorPea now has separate tools for real photos and for drawings or AI images.",
+ "todo": "If you already use FotorPea, update to 6.0 and try Natural Upscale on a small photo first; compare before and after in My Gallery.",
+ "apps": [
+  "HitPaw FotorPea"
+ ],
+ "item": 88214,
+ "idea": "news",
+ "traction": 18,
+ "thumb_words": "FOTORPEA 6.0 ADDS AI UPSCALE",
+ "sources": [
+  {
+   "name": "HitPaw via Send2Press (Northern Virginia Daily)",
+   "url": "https://www.nvdaily.com/associated_press_national/hitpaw-fotorpea-v6-0-0-introduces-advanced-natural-upscale-ai-upscale-and-ai-denoise-for/article_9a831e33-8903-5a47-b174-819ca6faf6c5.html"
+  }
+ ]
+}

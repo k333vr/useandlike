@@ -1,0 +1,23 @@
+{
+ "slug": "elevenlabs-free-voice-restoration-veterans",
+ "date": "2026-11-11",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "ElevenLabs offers free voice restoration to veterans and patients",
+ "dek": "ElevenLabs is giving people with permanent voice loss free use of ElevenMusic to make songs in their own voice, has partnered with the Wounded Warrior Project, and added NYU Langone patients to its free 1 Million Voices program.",
+ "quick": true,
+ "apps": [
+  "ElevenLabs"
+ ],
+ "item": 87420,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "ElevenLabs",
+   "url": "https://elevenlabs.io/blog/impact-nyc-summit"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "slug": "claude-down-login-errors-november-13",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "topic": "AI",
+ "tag": "Heads-up",
+ "head": "Claude down on November 13: login errors on claude.ai and Claude Code",
+ "dek": "Claude had two separate problems on 13 November: first many people couldn't sign in to claude.ai, Claude Code and Claude Cowork, then claude.ai, the mobile apps, the API and Claude Code showed errors for about two and a half hours. Anthropic says both are fixed.",
+ "details": "Anthropic's status page logged the sign-in problem from 09:58 UTC; a fix went out at 11:05 and it was marked resolved at 11:58. The second incident started at 13:09 UTC, also hit connectors such as Docs and Sheets, and was resolved at 15:38. Scheduled tasks and routines could run more than two hours late, and some runs were skipped. Separately, the Microsoft 365 connector and Claude for Outlook failed from 16:03 UTC on 12 November to 16:40 UTC on 13 November because of a problem at an upstream provider; Anthropic linked Microsoft's status page.",
+ "where": "Worldwide, 13 November (times in UTC)",
+ "means": "If Claude logged you out or a chat failed on Friday, it was on Anthropic's side. If you use scheduled tasks, some of Friday's runs may not have happened.",
+ "todo": "Sign in again if Claude logged you out. Check that Friday's scheduled tasks ran and start any skipped ones by hand. When Claude stops working, look at status.claude.com before changing your own settings.",
+ "apps": [
+  "Claude"
+ ],
+ "sources": [
+  {
+   "name": "Anthropic status page",
+   "url": "https://status.claude.com/history"
+  }
+ ],
+ "item": 94214,
+ "thumb_words": "CLAUDE DOWN TWICE IN ONE DAY",
+ "idea": "news",
+ "traction": 62,
+ "checked": "2026-11-14"
+}

@@ -1,0 +1,27 @@
+{
+ "slug": "paint-net-5-2-update-new-effects",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Windows",
+ "tag": "Update",
+ "head": "Paint.NET 5.2 update: eight new effects and a test version for Mac",
+ "dek": "Paint.NET 5.2, the free image editor for Windows, is out with eight new effects and a rebuilt way of drawing layers that keeps colours more accurate. It also adds experimental builds that run on Linux and macOS through Wine.",
+ "details": "The new effects are Linocut, Mosaic, Pointillism, Stained Glass, Ordered Dither, Spherize, Waves and Halftone. Layers are now worked out with much finer colour steps, which cuts down banding when you stack many of them. HDR photos in PNG, JPEG XL, AVIF, HEIC and JPEG XR can be turned into normal ones, and the Move Pixels tool gets a smoother Nearest Neighbor option. The Wine builds may lack features, crash or run slowly. Layer folders and more blend modes are planned for version 6.0.",
+ "where": "Windows, free, out now; Linux and macOS only as experimental builds through Wine",
+ "means": "If you edit pictures in Paint.NET, you get new effects and cleaner colours in layered images; on a Mac it's a test, not a finished app.",
+ "todo": "Update Paint.NET to 5.2. Try the Wine build on Linux or Mac only for testing, not for work you can't redo.",
+ "apps": [
+  "Paint.NET"
+ ],
+ "item": 85505,
+ "thumb_words": "PAINT.NET 5.2: 8 NEW EFFECTS",
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/paint-net-5-2-rewrites-rendering-and-adds-experimental-wine/"
+  }
+ ]
+}

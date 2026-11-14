@@ -1,0 +1,31 @@
+{
+ "slug": "uber-driver-license-data-breach",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "Uber data breach: driver's license data of thousands of drivers stolen",
+ "dek": "Hackers took personal and driver's license information of thousands of US Uber drivers through Fireworks AI, an outside AI company Uber worked with. Uber is sending notices and offering free credit monitoring.",
+ "details": "State notices list 2,567 people in Massachusetts, 3,430 in South Carolina and 1,873 in Rhode Island; Illinois and California drivers were told too, and Uber hasn't given a total. Fireworks AI told Uber on 9 October that hackers had stolen Uber's internal credentials from it; on 13 October Uber found they had reached its data. Fireworks blames a group that steals and sells access to AI models, and Notion's data was taken in the same attack. Uber says it cut its data links with Fireworks and has seen no misuse of the data so far. Affected drivers have 90 days from the date on their letter to sign up for credit monitoring and fraud help through Cyberscout.",
+ "where": "US Uber drivers who get a notice letter",
+ "means": "If you drive for Uber in the US, your name and license details may be in criminals' hands, which makes scam messages and identity fraud more likely.",
+ "todo": "Read Uber's letter if you get one and sign up for the free credit monitoring within 90 days. Check your credit reports and account statements for anything you don't recognise, and be careful with messages that ask for your details.",
+ "apps": [
+  "Uber"
+ ],
+ "item": 95258,
+ "idea": "news",
+ "traction": 37,
+ "thumb_words": "UBER DRIVERS' LICENSES STOLEN",
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/"
+  },
+  {
+   "name": "Gizmodo",
+   "url": "https://gizmodo.com/hackers-stole-thousands-of-uber-drivers-data-through-an-ai-startup-2000839947"
+  }
+ ]
+}

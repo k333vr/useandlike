@@ -1,0 +1,23 @@
+{
+ "slug": "fluidcast-ai-chapters-ad-detection",
+ "date": "2026-11-11",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "FluidCast podcast app adds AI chapters and ad detection",
+ "dek": "FluidCast's Pro plan can now make chapters from episode transcripts and detect ads with AI; the podcast player itself is free on iPhone, iPad and other platforms.",
+ "quick": true,
+ "apps": [
+  "FluidCast"
+ ],
+ "item": 89711,
+ "idea": "news",
+ "traction": 2,
+ "sources": [
+  {
+   "name": "App Store: FluidCast",
+   "url": "https://apps.apple.com/us/app/fluidcast-podcast-player/id6754508580"
+  }
+ ]
+}

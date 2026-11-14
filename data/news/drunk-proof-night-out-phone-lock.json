@@ -1,0 +1,27 @@
+{
+ "slug": "drunk-proof-night-out-phone-lock",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Drunk Proof app locks your iPhone on a night out",
+ "dek": "Drunk Proof is a new iPhone app that locks everything except the apps you chose while sober, so you can't text an ex or email your boss after a few drinks. It was #99 in Lifestyle on the US App Store's paid chart on 13 November.",
+ "details": "You pick safe apps like a taxi app, Maps and Wallet, add safe contacts you can call or text from inside the app, and set an unlock time such as 9am. Unlocking early means passing typing, maths and reaction tests against your sober scores, waiting out a cooling-off period and typing a sentence. Emergency calls always work. It costs 2.99 dollars, needs no account, uses Apple's Screen Time framework and keeps its data on the phone; it's made by Sarah Ann Carmody and came out on 9 November.",
+ "where": "iPhone and iPad, App Store, 2.99 dollars",
+ "means": "If you worry about what you'll send late at night, you can set the rules before you go out and keep only the apps you need to get home.",
+ "todo": "Set it up while sober: add Wallet and your taxi app as safe apps so you can still pay and get home.",
+ "apps": [
+  "Drunk Proof"
+ ],
+ "item": 98009,
+ "thumb_words": "THIS APP LOCKS YOUR PHONE WHEN DRUNK",
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store: Drunk Proof",
+   "url": "https://apps.apple.com/us/app/drunk-proof/id6829707103"
+  }
+ ]
+}

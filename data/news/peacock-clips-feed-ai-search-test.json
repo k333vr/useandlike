@@ -1,0 +1,24 @@
+{
+ "slug": "peacock-clips-feed-ai-search-test",
+ "date": "2026-11-11",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Streaming",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Peacock tests a vertical Clips feed and AI search in its app",
+ "dek": "NBCUniversal is testing a redesign of the Peacock mobile app with a swipeable vertical Clips tab, a search you can talk to about a mood or theme, and hubs for shows like Love Island USA and The Traitors. Testing runs into 2027, with no date for everyone.",
+ "apps": [
+  "Peacock"
+ ],
+ "item": 95542,
+ "idea": "news",
+ "traction": 0,
+ "rumor": true,
+ "sources": [
+  {
+   "name": "Android Headlines",
+   "url": "https://www.androidheadlines.com/2026/11/peacock-vertical-video-ai-search-mobile-update.html"
+  }
+ ]
+}

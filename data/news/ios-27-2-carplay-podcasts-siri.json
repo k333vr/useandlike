@@ -1,0 +1,23 @@
+{
+ "slug": "ios-27-2-carplay-podcasts-siri",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Apple",
+ "tag": "Quick",
+ "quick": true,
+ "head": "iOS 27.2 brings new Podcasts sections and Siri upgrades to CarPlay",
+ "dek": "On CarPlay, Apple Podcasts now shows New Episodes and Continue Playing on its Home tab, and Siri can recall past conversations and draw on more of your info, like Calendar attendees and voicemails.",
+ "apps": [
+  "CarPlay"
+ ],
+ "item": 95458,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/13/ios-27-2-has-two-carplay-improvements-heres-whats-new/"
+  }
+ ]
+}

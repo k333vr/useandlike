@@ -1,0 +1,23 @@
+{
+ "slug": "galaxy-s25-one-ui-9-5-testing",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "topic": "Android",
+ "tag": "Quick",
+ "head": "Samsung is reportedly testing One UI 9.5 on the Galaxy S25",
+ "dek": "Test builds on Samsung's servers suggest a Galaxy S25 beta could follow the Galaxy S26's; the stable update is expected with the Galaxy S27 in early 2027.",
+ "quick": true,
+ "apps": [
+  "One UI"
+ ],
+ "item": 87064,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/galaxy-s25-one-ui-9-5-beta-rumor-3734322/"
+  }
+ ],
+ "idea": "news",
+ "traction": 21,
+ "checked": "2026-11-14"
+}

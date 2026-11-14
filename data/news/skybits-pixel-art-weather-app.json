@@ -1,0 +1,27 @@
+{
+ "slug": "skybits-pixel-art-weather-app",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Skybits weather app shows your forecast in pixel-art cities",
+ "dek": "Skybits is a free iPhone weather app that draws live weather over pixel-art city scenes, with rain falling and lights coming on after sunset. Its Sky Studio lets you mix a city's weather and time of day and send it as a postcard image or animated GIF.",
+ "details": "It has hourly forecasts for temperature, rain and wind, a seven-day outlook, UV and moon phase, Home Screen widgets and up to 12 saved places. Forecasts, postcards and 30 city scenes are free; a one-time Skybits Plus purchase unlocks all 245 cities, with no subscription. The weather data comes from Apple Weather. The developer is listed as Hafiz Abdur Rehman.",
+ "where": "iPhone, App Store, free with a one-time upgrade",
+ "means": "If you'd like a weather app that looks like a little window onto a city, this one adds a playful look to the usual forecast.",
+ "todo": "Try the free version first: check whether your city is one of the 30 free scenes before you pay for Plus.",
+ "apps": [
+  "Skybits"
+ ],
+ "item": 86672,
+ "idea": "newcomer",
+ "traction": 24,
+ "thumb_words": "SKYBITS: WEATHER IN PIXEL ART",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/skybits-pixel-art-weather/id6829104658"
+  }
+ ]
+}

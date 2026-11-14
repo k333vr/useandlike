@@ -1,0 +1,36 @@
+{
+ "slug": "united-airlines-ai-agents-booking-ban",
+ "date": "2026-11-11",
+ "added": "2026-11-14",
+ "topic": "Travel",
+ "tag": "Heads-up",
+ "head": "United Airlines AI agent ban: bots can't book your flights anymore",
+ "thumb_words": "UNITED BANS AI AGENT BOOKINGS",
+ "dek": "United Airlines said on 11 November that it is restricting unauthorized third-party personal AI agents and assistants from booking and acting on customers' accounts, on its own website and app and through travel agencies and aggregators.",
+ "details": "United gave three reasons: sharing account logins with an AI assistant can expose personal data, an agent could make purchases, account changes or MileagePlus redemptions you didn't intend, and automated check-in could clash with FAA and DOT rules, such as passengers confirming themselves that their bags hold no banned items. It is the first US airline to say this openly, and it is updating its booking and ticketing policies and its Digital Trust Center. Travel analyst Henry Harteveldt told CBS News United fares will still be bookable on sites like Kayak, Hopper and Google Flights. United hasn't said how it will enforce the rule or what happens to bookings an agent already made.",
+ "where": "United Airlines website and app, travel agencies and aggregators; announced 11 November",
+ "means": "If you planned to let an AI assistant book or check in for your United flights, United now says that isn't allowed, and giving such a tool your MileagePlus login is what it warns against.",
+ "todo": "Book and check in for United flights yourself on United's site or app, or through a travel site; don't share your MileagePlus password with an AI assistant.",
+ "apps": [
+  "United Airlines"
+ ],
+ "category": "Travel",
+ "sources": [
+  {
+   "name": "CBS News",
+   "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights"
+  },
+  {
+   "name": "Skift",
+   "url": "https://skift.com/2026/11/11/united-airlines-moves-to-block-personal-ai-agents-from-booking-flights/"
+  },
+  {
+   "name": "AirlineGeeks",
+   "url": "https://airlinegeeks.com/2026/11/11/united-bans-ai-agents-from-booking-flights-for-customers/"
+  }
+ ],
+ "item": 87268,
+ "idea": "trend",
+ "traction": 0,
+ "checked": "2026-11-14"
+}

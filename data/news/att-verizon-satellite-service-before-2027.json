@@ -1,0 +1,32 @@
+{
+ "slug": "att-verizon-satellite-service-before-2027",
+ "date": "2026-11-11",
+ "added": "2026-11-14",
+ "topic": "Phones",
+ "tag": "Heads-up",
+ "head": "AT&T and Verizon satellite service may switch on before 2027",
+ "dek": "AST SpaceMobile, the company building satellite coverage for AT&T and Verizon, says it still plans to switch on patchy nationwide service in the US before the end of 2026. It's meant to work with ordinary iPhones and Android phones, with no special hardware.",
+ "details": "At first the signal only works while one of AST's BlueBird satellites is passing overhead; fewer than 20 are in orbit, and AST wants about 45 by mid-2027. Beta trials are expected in early 2027, with full commercial service after that. AST also named Canada, Japan, Saudi Arabia and the UK as first markets. Neither AST nor the carriers have said what it will cost or which plans include it, and AST's earlier target of early 2026 already slipped.",
+ "where": "US (AT&T, including FirstNet, and Verizon); also Canada, Japan, Saudi Arabia and the UK planned",
+ "means": "If you're on AT&T or Verizon and often lose signal outside towns, satellite coverage may start reaching your phone in the coming months, but only some of the time at first.",
+ "todo": "Nothing to do yet: no plan or price has been announced. T-Mobile customers can already use T-Satellite, which runs on SpaceX's Starlink.",
+ "apps": [
+  "AT&T",
+  "Verizon"
+ ],
+ "sources": [
+  {
+   "name": "TalkAndroid",
+   "url": "https://www.talkandroid.com/534726-ast-spacemobile-att-verizon-satellite-service-year-end-2026/"
+  },
+  {
+   "name": "Android Headlines",
+   "url": "https://www.androidheadlines.com/2026/11/ast-spacemobile-nationwide-us-service-year-end.html"
+  }
+ ],
+ "item": 79810,
+ "thumb_words": "AT&T, VERIZON SATELLITE BY 2027?",
+ "idea": "news",
+ "traction": 27,
+ "checked": "2026-11-14"
+}

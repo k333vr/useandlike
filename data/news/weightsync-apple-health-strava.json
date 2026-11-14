@@ -1,0 +1,28 @@
+{
+ "slug": "weightsync-apple-health-strava",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "WeightSync sends your weight from Apple Health to Strava automatically",
+ "dek": "WeightSync is an iPhone and Apple Watch app that reads your weight from Apple Health and updates it in Strava in the background, so Strava's calorie and power numbers use your current weight.",
+ "details": "Reading weight from Apple Health, typing it in and logging it on the Watch are free; Strava sync and extras like charts, weekly reports, CSV export and iCloud sync need a subscription that starts with a free trial. The listing doesn't give the price. It has widgets, Siri and Shortcuts support and reminders. It's made by Andre Moura.",
+ "where": "iPhone, iPad and Apple Watch; Strava sync is part of a subscription",
+ "means": "If you train with Strava and weigh yourself on a scale that feeds Apple Health, you no longer have to update your weight in Strava by hand.",
+ "todo": "Use the free trial to see whether the sync works with your scale before the subscription starts.",
+ "apps": [
+  "WeightSync",
+  "Strava"
+ ],
+ "item": 86885,
+ "idea": "newcomer",
+ "traction": 47,
+ "thumb_words": "APPLE HEALTH WEIGHT TO STRAVA",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/id6757109803"
+  }
+ ]
+}

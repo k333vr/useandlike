@@ -1,0 +1,24 @@
+{
+ "slug": "samsung-contacts-gaming-hub-one-ui-9-5",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "topic": "Android",
+ "tag": "Quick",
+ "head": "Samsung Contacts may add Gaming Hub friends and guild chats",
+ "dek": "Code in a One UI 9.5 build of Samsung Contacts points to game friend requests, chats and guild invites through Gaming Hub, Android Authority found; it may not ship.",
+ "quick": true,
+ "apps": [
+  "Samsung Contacts",
+  "Samsung Gaming Hub"
+ ],
+ "item": 90020,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-contacts-gaming-hub-integration-3734708/"
+  }
+ ],
+ "idea": "news",
+ "traction": 0,
+ "checked": "2026-11-14"
+}

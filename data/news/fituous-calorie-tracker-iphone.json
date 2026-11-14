@@ -1,0 +1,27 @@
+{
+ "slug": "fituous-calorie-tracker-iphone",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Health",
+ "tag": "New app",
+ "head": "Fituous calorie tracker app keeps food, water and fasting in one place",
+ "dek": "Fituous is a new calorie and nutrition tracker for iPhone and iPad that puts your food diary, macros, water, fasting and weight in one view and works local-first. It was #47 in Health & Fitness on the US App Store's paid chart on 13 November.",
+ "details": "A goal wizard suggests a daily calorie target and macro split you can edit. You log food by searching Open Food Facts and USDA FoodData Central, scanning a barcode or speaking a phrase; speech runs on the device and you review each line before it's logged. It also has a fasting timer with 16:8, 18:6, 20:4 or custom plans. It costs 4.99 dollars, is made by Joshua Ludahl and came out on 8 November.",
+ "where": "iPhone and iPad, App Store, 4.99 dollars",
+ "means": "If you track calories, water and fasting in separate apps, this one puts them together, with on-device voice logging.",
+ "todo": "Check the listing's features against what you track now before you pay.",
+ "apps": [
+  "Fituous"
+ ],
+ "item": 98012,
+ "thumb_words": "FITUOUS: CALORIES, WATER, FASTING",
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store: Fituous",
+   "url": "https://apps.apple.com/us/app/fituous/id6819063462"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "whatsapp-location-status-android",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "WhatsApp is working on sharing your location as a status",
+ "dek": "WABetaInfo found a Location option for the status composer in WhatsApp beta for Android 2.26.45.8; it's still in development and not open to testers yet.",
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 92020,
+ "idea": "news",
+ "traction": 34,
+ "sources": [
+  {
+   "name": "WABetaInfo",
+   "url": "https://wabetainfo.com/whatsapp-is-testing-a-native-location-status-update-on-android/"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "pubg-mobile-flash-lightweight-app",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Games",
+ "tag": "Quick",
+ "quick": true,
+ "head": "PUBG Mobile Flash: a smaller version of PUBG Mobile for iPhone",
+ "dek": "Tencent's PUBG Mobile Flash is a free, under 1.75 GB version of PUBG Mobile that uses the same account, friends and items and lets you download extra maps only when you want them. It was #1 among free games on the US App Store on 13 November, its first day.",
+ "apps": [
+  "PUBG Mobile Flash"
+ ],
+ "item": 98049,
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/pubg-mobile-flash/id6740521489"
+  }
+ ]
+}

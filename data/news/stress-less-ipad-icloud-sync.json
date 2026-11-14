@@ -1,0 +1,27 @@
+{
+ "slug": "stress-less-ipad-icloud-sync",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Health",
+ "tag": "Update",
+ "head": "Stress Less app now on iPad with encrypted iCloud sync",
+ "dek": "Stress Less, an app that gives you a short stress relief card to try in about a minute, now works on iPad in version 2.7. Max subscribers can sync their check-ins between iPhone and iPad through end-to-end encrypted iCloud backup.",
+ "details": "After each card the app asks if it helped and shows helpful cards more often. Cards come in four groups: Body, Mind, Rest and Kindness. The app is free with ads; Stress Less Max, monthly, yearly or a one-time lifetime purchase, adds sync, no ads and insights from Apple's on-device AI. There's no account, and check-ins stay on your device unless you turn on iCloud. The developer is 1ManStartup LLC.",
+ "where": "iPhone and iPad, App Store, free with Stress Less Max",
+ "means": "If you already use Stress Less on iPhone, your history can now follow you to an iPad.",
+ "todo": "Install it on your iPad and tap Continue with iCloud; reminders need to be set on each device.",
+ "apps": [
+  "Stress Less"
+ ],
+ "item": 89702,
+ "idea": "news",
+ "traction": 15,
+ "thumb_words": "STRESS LESS COMES TO IPAD",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/stress-less-daily-mood-tracker/id1450775943"
+  }
+ ]
+}

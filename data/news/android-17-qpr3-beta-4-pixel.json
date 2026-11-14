@@ -1,0 +1,23 @@
+{
+ "slug": "android-17-qpr3-beta-4-pixel",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Android",
+ "tag": "Quick",
+ "head": "Android 17 QPR3 Beta 4 fixes lag and battery drain on Pixel",
+ "dek": "The fourth Android 17 QPR3 beta, for the Pixel 6a and newer, fixes memory leaks that caused lag and launcher crashes, and Bluetooth activity that drained the battery.",
+ "quick": true,
+ "apps": [
+  "Android"
+ ],
+ "item": 89726,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/12/android-17-qpr3-beta-3-pixel-2/"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "slug": "jellyfin-android-tv-0-20-update",
+ "date": "2026-11-10",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Streaming",
+ "tag": "Update",
+ "head": "Jellyfin Android TV update 0.20 adds external players like VLC",
+ "dek": "Version 0.20 of the free Jellyfin app for Android TV lets you play videos in another player such as VLC, MPV, MX Player or Vimu. It also brings new settings, more subtitle options and better detection of what your TV box can play.",
+ "details": "More videos should play directly instead of being converted on the server, and you can override HDR, audio passthrough and H.264/H.265 limits. Subtitles get custom colors, font weights and a live preview, and the app remembers language choices across episodes. It needs Android 6 or later and Jellyfin Server 10.11 or newer. Newer Fire TV devices with Amazon's Vega OS can't run it.",
+ "where": "Android TV and Android-based Fire TV, out now on Google Play, Amazon Appstore and F-Droid",
+ "means": "If you watch your own movies through Jellyfin on a TV box, files that stuttered or lost subtitles may now play better.",
+ "todo": "Update the app; if your server is older than 10.11, update the server first.",
+ "apps": [
+  "Jellyfin"
+ ],
+ "item": 87890,
+ "idea": "news",
+ "traction": 0,
+ "thumb_words": "JELLYFIN TV APP ADDS VLC SUPPORT",
+ "sources": [
+  {
+   "name": "Jellyfin",
+   "url": "https://jellyfin.org/posts/androidtv-v0.20.0/"
+  },
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/jellyfin-0-20-for-android-tv-adds-support-for-external-video-players-and-improved-subtitles/"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "slug": "pcloud-lifetime-black-friday-2026",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Cloud",
+ "tag": "Quick",
+ "quick": true,
+ "category": "Cloud Storage",
+ "head": "pCloud Black Friday: lifetime storage from 159 dollars",
+ "dek": "pCloud's own price page shows its lifetime plans at 159 dollars for 500 GB (listed at 279), 379 dollars for 2 TB and 1,099 dollars for 10 TB, with a Black Friday label. The page doesn't say when the sale ends.",
+ "apps": [
+  "pCloud"
+ ],
+ "item": 88120,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "pCloud",
+   "url": "https://www.pcloud.com/cloud-storage-pricing-plans.html"
+  },
+  {
+   "name": "TechRadar",
+   "url": "https://www.techradar.com/pro/pclouds-black-friday-sale-cuts-lifetime-cloud-storage-prices-by-up-to-62-percent-with-plans-starting-at-usd159"
+  }
+ ]
+}

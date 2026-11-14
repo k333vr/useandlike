@@ -1,0 +1,26 @@
+{
+ "slug": "samsung-phone-app-search-bottom-one-ui-9-5",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "topic": "Android",
+ "tag": "Quick",
+ "head": "Samsung's Phone app may move search to the bottom in One UI 9.5",
+ "dek": "SamMobile found the search button next to Keypad, Recents and Contacts at the bottom of the Phone app in a One UI 9.5 build; Samsung hasn't announced it.",
+ "quick": true,
+ "apps": [
+  "Samsung Phone"
+ ],
+ "item": 85814,
+ "items": [
+  85842
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-phone-app-one-ui-9-5-search-3734233/"
+  }
+ ],
+ "idea": "news",
+ "traction": 23,
+ "checked": "2026-11-14"
+}

@@ -1,0 +1,31 @@
+{
+ "slug": "shottr-1-10-mac-screenshot-update",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Apps",
+ "tag": "Update",
+ "head": "Shottr 1.10 for Mac: new area capture freezes the screen for screenshots",
+ "dek": "Version 1.10 of the Mac screenshot app Shottr freezes the screen while you pick an area, so you can take your time choosing the exact part to capture. It also adds a magnifier lens, a way to bring back recent screenshots and image rotation.",
+ "details": "Press L for the magnifier and hold Z for a 10x full-screen zoom; holding Cmd slows the cursor, the arrow or WASD keys nudge the selection and Shift keeps it square. The old capture mode can be turned back on in settings. Recent screenshots, with their annotations still editable, come back from the menu bar icon, and there is a filename template builder and a hotkey to load an image from the clipboard. Shottr can be used for free, with paid licenses on its website.",
+ "where": "Mac, out now from shottr.cc",
+ "means": "If you take a lot of screenshots on a Mac, picking a precise area gets easier because the screen stops moving while you select.",
+ "todo": "Update Shottr from the app or download version 1.10 from shottr.cc; switch to the legacy capture in settings if you prefer the old way.",
+ "apps": [
+  "Shottr"
+ ],
+ "item": 86568,
+ "idea": "news",
+ "traction": 0,
+ "thumb_words": "SHOTTR 1.10 FREEZES THE SCREEN",
+ "sources": [
+  {
+   "name": "Shottr",
+   "url": "https://shottr.cc/newversion.html"
+  },
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/macos-screenshot-utility-shottr-1-10-brings-smarter-screen-capture-and-many-improvements/"
+  }
+ ]
+}

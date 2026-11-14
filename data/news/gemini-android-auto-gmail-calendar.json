@@ -1,0 +1,24 @@
+{
+ "slug": "gemini-android-auto-gmail-calendar",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Android",
+ "tag": "Quick",
+ "head": "Gemini in Android Auto can pull addresses from Gmail and Calendar",
+ "dek": "With Personal Intelligence turned on, Gemini in Android Auto can find an address in your Calendar or a Gmail receipt and send it to Maps or Waze; set it up in the Gemini app under Settings, Personal Intelligence, Connected Apps.",
+ "quick": true,
+ "apps": [
+  "Gemini",
+  "Android Auto"
+ ],
+ "item": 95532,
+ "idea": "news",
+ "traction": 67,
+ "sources": [
+  {
+   "name": "XDA Developers",
+   "url": "https://www.xda-developers.com/gemini-android-auto-finally-feels-like-real-upgrade-now-that-it-can-access-my-gmail-google-calendar/"
+  }
+ ]
+}

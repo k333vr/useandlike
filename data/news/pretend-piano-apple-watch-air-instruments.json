@@ -1,0 +1,27 @@
+{
+ "slug": "pretend-piano-apple-watch-air-instruments",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Music",
+ "tag": "New app",
+ "head": "Pretend Piano app turns your Apple Watch into an air guitar and piano",
+ "dek": "Pretend Piano: Air Instruments is a 99-cent Apple Watch app that turns wrist movements into music: strum for guitar, move your wrist side to side for violin, or tap a tabletop for piano. It was #16 among paid Music apps on the US App Store on 13 November, five days after it came out.",
+ "details": "You write a song on the iPhone in numbered notation, with notes and chords, and send it to the watch. The motion tracking and sounds run on the watch itself, so the iPhone doesn't have to be nearby while you play, and no account is needed. It's made by an independent developer listed as 剑锋 梁.",
+ "where": "App Store, $0.99; iPhone with iOS 18 or later paired with an Apple Watch on watchOS 11 or later",
+ "means": "If you have an Apple Watch, this is a small music toy that plays the next note of a song you set up as you move your wrist.",
+ "todo": "You need both an iPhone and an Apple Watch; without the watch the app does nothing.",
+ "apps": [
+  "Pretend Piano: Air Instruments"
+ ],
+ "item": 98017,
+ "thumb_words": "APPLE WATCH AIR PIANO",
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/pretend-piano-air-instruments/id6831618502"
+  }
+ ]
+}

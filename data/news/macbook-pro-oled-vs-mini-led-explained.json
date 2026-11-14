@@ -1,0 +1,78 @@
+{
+ "slug": "macbook-pro-oled-vs-mini-led-explained",
+ "date": "2026-11-14",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Apple",
+ "tag": "Explainer",
+ "head": "MacBook Pro OLED vs mini-LED: what the $400 PROLED screen adds",
+ "dek": "Apple now sells the MacBook Pro with two kinds of screen: the mini-LED Liquid Retina XDR and the new tandem OLED PROLED XDR, which costs $400 more with the same chip and adds touch, deeper blacks and a lighter body.",
+ "sections": [
+  {
+   "h": "Two screens, one laptop",
+   "p": [
+    "Apple announced the MacBook Pro with a PROLED XDR display on 28 October 2026, and it went on sale on 6 November. It comes in 14-inch and 16-inch sizes with the M5 Pro or M5 Max chip, and Apple keeps selling the mini-LED models, now called Liquid Retina XDR, which first came out on 11 March 2026.",
+    "In the US the OLED version starts at $2,899 for the 14-inch and $3,399 for the 16-inch. MacRumors' comparison of 29 October lists a $400 difference for every matching configuration, for example $2,499 against $2,899 for a 14-inch M5 Pro."
+   ]
+  },
+  {
+   "h": "How the two screens make light",
+   "p": [
+    "Mini-LED is an LCD lit from behind by small LEDs that dim and brighten in zones. OLED lights each pixel on its own, so a black pixel is simply off. That's why MacRumors lists a contrast of 1,000,000:1 for mini-LED and 10,000,000:1 for PROLED.",
+    "Apple's technical paper on the display, dated October 2026, says the OLED panel has essentially no blooming or halo around bright objects on a dark background, something zone lighting can show. 'Tandem' means two light-emitting layers stacked on top of each other: each runs at a lower current, which Apple says gives more peak brightness, better power efficiency and a longer panel life than a single layer."
+   ]
+  },
+  {
+   "h": "Brightness, touch and size",
+   "p": [
+    "According to MacRumors, peak HDR brightness goes from up to 1,600 nits on mini-LED to up to 2,000 nits on PROLED, and outdoor brightness for normal content from 1,000 to 2,000 nits. Both keep 1,000 nits full-screen HDR and a 1-nit minimum; Apple's paper gives the OLED a refresh rate that adapts from 10 to 120Hz.",
+    "The OLED model also has a touchscreen: you can swipe, pinch to zoom and drag things with a finger, and the notch gives way to a smaller Dynamic Island for calls, music and AirDrop. The 14-inch weighs 1.38 kg instead of 1.60 kg with the M5 Pro, and the 16-inch 1.82 kg instead of 2.14 kg.",
+    "Notebookcheck's reviewer wrote on 7 November that the display sets a new mark for image quality but called the touchscreen more of a gimmick."
+   ]
+  },
+  {
+   "h": "What about burn-in?",
+   "p": [
+    "OLED pixels age as they're used, and Apple's paper names burn-in as one of the risks that held OLED back for years. Apple says the M5 Pro and M5 Max display engine watches each pixel's use, temperature and surroundings and corrects it pixel by pixel to reduce long-term burn-in.",
+    "Apple doesn't give a number of years, and the screen has only been on sale since 6 November, so there are no long-term owner reports yet."
+   ]
+  },
+  {
+   "h": "What stays the same",
+   "p": [
+    "The chips, memory options and battery life are unchanged, according to MacRumors: the 14-inch battery goes from 72.4 to 72.6 watt-hours, which it says doesn't change how long it lasts in a meaningful way. Both have a nano-texture option against glare.",
+    "MacRumors' own advice is that most people who already own an M5 Pro or M5 Max MacBook Pro have little reason to switch, while owners of M1, M2 or M3 models and people who need the OLED's colour modes have a stronger case."
+   ]
+  }
+ ],
+ "means": "If you're buying a MacBook Pro now, the $400 for the OLED pays for a touchscreen, deeper blacks, a brighter screen outdoors and a lighter laptop, not for a faster chip or a longer battery life.",
+ "todo": "Compare the two side by side in a store if you can, and decide whether touch and the lighter body are worth $400 to you; if you mostly work with the lid open on a desk, the mini-LED model has the same chip.",
+ "apps": [
+  "MacBook Pro"
+ ],
+ "idea": "competitor",
+ "traction": 0,
+ "thumb_words": "MACBOOK PRO: OLED OR MINI-LED?",
+ "sources": [
+  {
+   "name": "Apple (PROLED XDR technical paper)",
+   "url": "https://www.apple.com/macbook-pro/proled-xdr-display/pdf/PROLED_XDR_Display_Technical_Paper.pdf"
+  },
+  {
+   "name": "MacRumors",
+   "url": "https://macrumors.com/guide/macbook-pro-mini-led-vs-oled/"
+  },
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/10/28/apple-new-macbook-pro/"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/03/apple-explains-the-400-premium-for-the-macbook-pro-with-proled-xdr-display/"
+  },
+  {
+   "name": "Notebookcheck",
+   "url": "https://www.notebookcheck.net/Apple-s-PROLED-XDR-display-is-the-new-benchmark-but-the-touchscreen-is-just-a-gimmick.1444966.0.html"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "slug": "setomi-lifting-log-app",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Health",
+ "tag": "New app",
+ "head": "Setomi lifting log app turns your PDF or photo plan into a workout log",
+ "dek": "Setomi reads a lifting plan you already have, from a PDF, a spreadsheet, a photo or a note, and lets you log it set by set on iPhone and Apple Watch. It costs $1.99 once, with no subscription and no account.",
+ "details": "The app shows what it read from your plan so you can fix any lift before saving. It has a rest timer on the lock screen and Dynamic Island, a library of about 480 lifts, and on Apple Watch you log sets with taps and the Digital Crown. You can export your workout journal as a PDF, CSV or JSON for a coach. It came out on 12 November from developer Dylan McCoy and was #22 among paid Health & Fitness apps on the US App Store on 13 November.",
+ "where": "iPhone and Apple Watch, App Store, $1.99",
+ "means": "If you follow a written lifting program from a coach or a PDF, you can log it without typing every exercise in by hand.",
+ "todo": "Check that your plan's file type is one it reads (PDF, .xlsx, CSV, notes or a photo) before you buy.",
+ "apps": [
+  "Setomi"
+ ],
+ "item": 98010,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "SETOMI TURNS YOUR PLAN INTO A LOG",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/setomi/id6824551730"
+  }
+ ]
+}

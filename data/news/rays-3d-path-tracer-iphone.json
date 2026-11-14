@@ -1,0 +1,27 @@
+{
+ "slug": "rays-3d-path-tracer-iphone",
+ "date": "2026-11-11",
+ "added": "2026-11-14",
+ "topic": "Design",
+ "tag": "New app",
+ "head": "RAYS 3D render app for iPhone and iPad: photoreal path tracing on device",
+ "thumb_words": "RAYS: PHOTOREAL 3D RENDERS ON IPHONE",
+ "dek": "RAYS is a 9.99-dollar app that renders 3D models into photoreal pictures on an iPhone or iPad, using the same light simulation as film renderers. It came out on 11 November and was #8 among paid Graphics & Design apps on the US App Store on 13 November.",
+ "details": "It opens USDZ, USD, glTF, GLB and OBJ models from Files, Mail, Messages or AirDrop, with studio lighting, sun, spot and area lights, glass and metal materials and depth of field. Renders go up to 4K and save to Photos as PNG or HDR, or as EXR. You can also place a model into one of your own photos with matching shadows, and move a scene from iPhone to iPad as one file. It's made by Sketchbot Studios and was designed first for the iPhone Duo; it renders quicker on phones and iPads with hardware ray tracing (iPhone 15 Pro, iPhone 16 or later, iPad Pro M4, iPad Air M3, iPad mini A17 Pro) and slower on older ones.",
+ "where": "App Store, iPhone and iPad, 9.99 dollars (US)",
+ "means": "If you design products, print 3D models or just collect 3D files, you can turn them into photoreal pictures on your phone without a computer.",
+ "todo": "Check that your iPhone or iPad is on the hardware ray tracing list before paying; try the sample scenes first.",
+ "apps": [
+  "RAYS - 3D Path Tracer"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/rays-3d-path-tracer/id6831028418"
+  }
+ ],
+ "item": 98007,
+ "idea": "newcomer",
+ "traction": 0,
+ "checked": "2026-11-14"
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "ios-27-3-siri-health-data-code",
+ "date": "2026-11-11",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Apple",
+ "tag": "Quick",
+ "head": "iOS 27.3 code hints Siri may answer questions about your Health data",
+ "dek": "Two switched-off flags in the first iOS 27.3 beta, spotted by the leaker pdfu, would let Siri search sleep, workouts, Activity rings and medication logs and show them as charts; Apple hasn't announced it.",
+ "quick": true,
+ "rumor": true,
+ "apps": [
+  "Siri",
+  "Apple Health"
+ ],
+ "item": 79870,
+ "idea": "news",
+ "traction": 53,
+ "sources": [
+  {
+   "name": "iThinkDifferent",
+   "url": "https://www.ithinkdiff.com/siri-ai-read-health-data-ios-27-3/"
+  }
+ ]
+}

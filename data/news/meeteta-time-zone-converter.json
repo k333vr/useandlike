@@ -1,0 +1,31 @@
+{
+ "slug": "meeteta-time-zone-converter",
+ "date": "2026-11-11",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Productivity",
+ "tag": "New app",
+ "head": "MeetETA: free time zone converter and meeting planner",
+ "dek": "MeetETA is a new website with world clocks, a time zone converter and a tool that finds a meeting time across cities, free and without an account. Chrome and Edge extensions convert times on any web page.",
+ "details": "A free personal link shows people your time zone and working hours. MeetETA Pro adds booking pages built from your Google Calendar that show your open times in each visitor's own time zone, with a Google Meet link, for 5.99 dollars a month or 79 dollars once. There's no phone app yet; the site works in a phone's browser.",
+ "where": "Web, Chrome and Edge; free, Pro 5.99 dollars a month",
+ "means": "If you call family or work with people abroad, you can find a time that suits everyone without counting hours.",
+ "todo": "Open meeteta.com, add your cities and use Find a Time; add the extension if you often see times in other zones.",
+ "apps": [
+  "MeetETA"
+ ],
+ "sources": [
+  {
+   "name": "MeetETA",
+   "url": "https://meeteta.com/"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/meeteta"
+  }
+ ],
+ "item": 79161,
+ "thumb_words": "FREE TIME ZONE MEETING FINDER",
+ "idea": "newcomer",
+ "traction": 0
+}

@@ -1,0 +1,27 @@
+{
+ "slug": "desky-iphone-duo-safari-desktop-mode",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Desky switches Safari to desktop mode when you unfold the iPhone Duo",
+ "dek": "Desky is a $1.99 Safari extension for the iPhone Duo that loads the desktop version of a site when you open the phone and the mobile version when you fold it. It was #6 among paid Utilities apps on the US App Store on November 13.",
+ "details": "It works like Safari's own \"Request Desktop Website\" option, but switches on its own. You can also set a different page zoom for the folded and unfolded screen. The maker, Vincent Neo, says it processes data on the device and has no ads, analytics or tracking. It came out on November 12 and needs iOS 27.1; the extension only works on an iPhone Duo.",
+ "where": "App Store, iPhone Duo with iOS 27.1 or later; $1.99",
+ "means": "If sites look stretched on the iPhone Duo's inner screen, Desky saves you from switching to the desktop site by hand each time you unfold it.",
+ "todo": "After installing, turn the extension on in Safari's extension settings, then set your zoom levels for folded and unfolded in the app.",
+ "apps": [
+  "Desky"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/desky-desktop-mode-switching/id6833103142"
+  }
+ ],
+ "item": 98001,
+ "thumb_words": "DESKY: DESKTOP SITES ON THE DUO",
+ "idea": "newcomer",
+ "traction": 15
+}

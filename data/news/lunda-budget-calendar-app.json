@@ -1,0 +1,31 @@
+{
+ "slug": "lunda-budget-calendar-app",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Money",
+ "tag": "New app",
+ "head": "Lunda budget calendar app shows your balance for every day ahead",
+ "dek": "Lunda is a new budget calendar: you put bills, paydays and payments on the days they happen, and each day shows the balance it leaves you, weeks and months ahead. The calendar is free; forecasts and planners cost 69 dollars a year.",
+ "details": "The paid plan adds a cash flow forecast, what-if scenarios, debt and savings planners that compare the snowball and avalanche methods, and sync with Lunch Money, YNAB or a bank CSV file. There's a 14-day trial with every feature, and the first 250 people can pay 129 dollars once for life. It runs in a computer or phone browser; iPhone and Android apps are coming. It's made by Samvle Inc.",
+ "where": "Web (computer and phone browser), free calendar, paid plan 69 dollars a year",
+ "means": "If your money gets tight before payday, Lunda shows which day it will happen before it does.",
+ "todo": "Try the free calendar on lundaapp.com. Lunda says its numbers are estimates from your own plan, not financial advice.",
+ "apps": [
+  "Lunda"
+ ],
+ "sources": [
+  {
+   "name": "Lunda",
+   "url": "https://lundaapp.com/"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/lunda"
+  }
+ ],
+ "item": 98031,
+ "thumb_words": "SEE YOUR BALANCE BEFORE PAYDAY",
+ "idea": "newcomer",
+ "traction": 0
+}

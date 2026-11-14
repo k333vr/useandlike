@@ -1,0 +1,24 @@
+{
+ "slug": "google-samsung-glasses-no-live-streaming",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "topic": "Privacy",
+ "tag": "Quick",
+ "head": "Google and Samsung's AI glasses won't live stream to social media",
+ "dek": "Google's Play Store rules bar apps from using the Intelligent Eyewear camera for social live streaming; a light shows when it records and bystanders' faces are blurred before images go to Gemini.",
+ "quick": true,
+ "apps": [
+  "Samsung Intelligent Eyewear",
+  "Gemini"
+ ],
+ "item": 94873,
+ "sources": [
+  {
+   "name": "Android Headlines",
+   "url": "https://www.androidheadlines.com/2026/11/samsung-intelligent-eyewear-privacy-live-streaming.html"
+  }
+ ],
+ "idea": "news",
+ "traction": 0,
+ "checked": "2026-11-14"
+}

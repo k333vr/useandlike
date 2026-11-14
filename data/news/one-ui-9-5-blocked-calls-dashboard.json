@@ -1,0 +1,24 @@
+{
+ "slug": "one-ui-9-5-blocked-calls-dashboard",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Samsung",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "One UI 9.5 may show the spam calls your Galaxy blocked",
+ "dek": "A hidden Blocked calls page in One UI 9.5's Phone app counts the last 30 days of blocked calls as possible fraud, suspected spam or numbers you blocked, Android Authority found. Samsung hasn't announced it.",
+ "apps": [
+  "Galaxy"
+ ],
+ "sources": [
+  {
+   "name": "Android Headlines",
+   "url": "https://www.androidheadlines.com/2026/11/one-ui-9-5-may-add-a-dashboard-for-spam-calls-your-galaxy-already-stopped.html"
+  }
+ ],
+ "item": 94876,
+ "idea": "news",
+ "traction": 0
+}

@@ -1,0 +1,31 @@
+{
+ "slug": "firefox-160-mini-window-pip-speed",
+ "date": "2026-11-10",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Apps",
+ "tag": "Update",
+ "head": "Firefox 160 update: Mini Window, video speed in picture-in-picture",
+ "dek": "Firefox 160 lets you pop a tab, or part of a page, into a small window that stays on top while you work in other windows. The picture-in-picture player also gets a playback speed setting from 0.25x to 2x.",
+ "details": "Mozilla calls Mini Window an early version and asks for feedback. A new Never allow button stops sites that keep asking to open email (mailto) and other links in outside apps; you can manage blocked sites in Settings. Picture-in-picture shows the speed setting only when its window is medium-sized or larger. You can also drag history from the sidebar onto the tab strip, and Firefox now plays MKV files with FLAC, MP3 or PCM audio.",
+ "where": "Out since 10 November for Firefox on Windows, Mac and Linux",
+ "means": "If you watch tutorials or lectures in Firefox, you can speed them up or slow them down in the floating player, and keep a page in view while you work elsewhere.",
+ "todo": "Update Firefox to version 160. Next time a site keeps asking to open your mail app, pick Never allow.",
+ "apps": [
+  "Firefox"
+ ],
+ "item": 85080,
+ "thumb_words": "FIREFOX 160: MINI WINDOW ARRIVES",
+ "idea": "news",
+ "traction": 15,
+ "sources": [
+  {
+   "name": "Mozilla: Firefox 160 release notes",
+   "url": "https://www.firefox.com/en-US/firefox/160.0/releasenotes/"
+  },
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/firefox-160-adds-mini-windows-feature-mailto-blocking-option-and-pip-playback-speed-control/"
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "slug": "phone-digital-keys-home-car-explained",
+ "date": "2026-11-14",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Smart home",
+ "tag": "Explainer",
+ "head": "Digital home key and car key on your phone: how they work now",
+ "dek": "Your phone's wallet app can now hold keys for compatible front doors, cars and hotel rooms, and since 11 November Google Wallet holds home keys too, using Aliro, a smart lock standard backed by Apple, Google and Samsung.",
+ "sections": [
+  {
+   "h": "What changed this week",
+   "p": [
+    "On 11 November 2026, Google Wallet on Android started taking digital home keys for compatible smart locks set up in Google Home. 9to5Google and Android Authority report that it reaches the Google Home Public Preview first and everyone else over the following weeks. It needs Android 9 or newer.",
+    "One key covers every compatible lock in your Google Home and syncs to your other Android phones signed in to the same Wallet account. Watches aren't supported yet. The locks at launch are the Aqara U400, the Schlage Sense Pro and the Nuki Keypad 2 NFC."
+   ]
+  },
+  {
+   "h": "Tap or just walk up",
+   "p": [
+    "There are two ways to open the door. With NFC you hold the phone against the lock, and 9to5Google reports that it works even while the screen is locked unless you ask Wallet for a screen lock or fingerprint check first.",
+    "With ultra-wideband, the door can open as you approach. Google calls it Unlock on Approach; it's off by default and needs a UWB lock plus a Pixel 10 Pro or newer or a UWB-equipped Samsung Galaxy phone. Of the three launch locks, only the Aqara U400 has UWB today; Schlage plans it later."
+   ]
+  },
+  {
+   "h": "Aliro, the standard behind it",
+   "p": [
+    "The Connectivity Standards Alliance, the group behind Matter, launched Aliro 1.0 in February 2026 with support from Apple, Google and Samsung. It sets one way for phones and locks to talk, using NFC, Bluetooth and UWB, and it works without an internet connection, for example in an underground garage.",
+    "The idea is that the key lives in the phone's own wallet instead of a separate app for each lock brand. Android Authority notes that locks for Google Wallet must be Matter-certified and support Aliro. Besides homes, the standard is aimed at hotels, universities and offices."
+   ]
+  },
+  {
+   "h": "Apple Wallet: home, car, hotel and scooter",
+   "p": [
+    "On iPhone and Apple Watch, Apple Wallet can hold keys for a compatible home lock, a car, a hotel room at participating hotels and some scooters. For the front door you need a compatible smart lock and a home key in Wallet. On Android, Samsung Wallet already offered tap-to-unlock home keys for compatible locks before Google's launch, Android Authority notes.",
+    "For car keys, Apple's support page lists an iPhone XS or newer, or an Apple Watch Series 5 or newer, and a compatible car; you start from the carmaker's app, an email, a text or the car's screen. Express Mode is on by default, so the key works without unlocking the phone. Some cars let you share a key by AirDrop or in a message, with an optional activation code."
+   ]
+  },
+  {
+   "h": "If your phone dies or goes missing",
+   "p": [
+    "Apple says that, depending on the iPhone model, power reserve lets the car key keep working for a while after the phone needs charging; it doesn't say for how long. If you mark the iPhone as lost, the car key and every card in Wallet are turned off, but keys you shared with others keep working until you stop sharing them.",
+    "The reports on Google's home key don't say what happens to a home key when the phone's battery is empty, so a regular key or keypad code is still worth keeping."
+   ]
+  }
+ ],
+ "means": "If you have a compatible smart lock or car, your phone can replace the key in your pocket, but which phones, watches and locks work still differs by brand.",
+ "todo": "Check your lock's or car maker's page for Apple Wallet, Google Wallet or Aliro support before buying, decide whether you want a screen lock check before the door opens, and keep a backup way in.",
+ "apps": [
+  "Google Wallet",
+  "Apple Wallet",
+  "Google Home"
+ ],
+ "idea": "explainer",
+ "traction": 0,
+ "thumb_words": "YOUR PHONE AS A HOUSE AND CAR KEY",
+ "sources": [
+  {
+   "name": "Apple Support",
+   "url": "https://support.apple.com/en-us/118271"
+  },
+  {
+   "name": "Apple Support",
+   "url": "https://support.apple.com/en-lk/guide/watch/home-hotel-room-and-vehicle-keys-apd778e9c6e5/11/watchos"
+  },
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/11/google-wallet-home-key/"
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/google-wallet-digital-home-keys-nfc-uwb-unlocking-3734133/"
+  },
+  {
+   "name": "iClarified",
+   "url": "https://www.iclarified.com/100060/connectivity-standards-alliance-launches-applebacked-aliro-10-digital-key-standard"
+  }
+ ]
+}

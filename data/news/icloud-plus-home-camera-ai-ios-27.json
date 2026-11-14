@@ -1,0 +1,23 @@
+{
+ "slug": "icloud-plus-home-camera-ai-ios-27",
+ "date": "2026-11-11",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Apple",
+ "tag": "Quick",
+ "quick": true,
+ "head": "iCloud+ 2TB and up adds AI search for Home camera clips in iOS 27",
+ "dek": "On iOS 27, iCloud+ plans of 2TB ($9.99 a month), 6TB and 12TB get Apple Intelligence descriptions and plain-language search for HomeKit Secure Video recordings, for one, two or five cameras. It needs a home hub and an iPhone that supports Apple Intelligence.",
+ "apps": [
+  "iCloud"
+ ],
+ "item": 82125,
+ "idea": "news",
+ "traction": 15,
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/11/icloud-has-new-perk-in-ios-27-if-you-pay-for-more-storage/"
+  }
+ ]
+}

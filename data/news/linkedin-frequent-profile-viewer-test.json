@@ -1,0 +1,28 @@
+{
+ "slug": "linkedin-frequent-profile-viewer-test",
+ "date": "2026-11-11",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Social",
+ "tag": "In testing",
+ "rumor": true,
+ "head": "LinkedIn profile views may show how often someone looked at you",
+ "dek": "LinkedIn is testing a frequent viewer label in Premium's Who viewed your profile list, showing whether a person came back to your profile and how many times, Wired reported. LinkedIn confirmed the test but shared no other details.",
+ "details": "Premium subscribers can already see who viewed their profile. The test adds a visit count or frequency marker next to each viewer for a given period. There's no word on when or whether it reaches everyone.",
+ "where": "LinkedIn Premium, in testing",
+ "means": "If you check someone's profile often, a Premium member may soon see that you came back more than once.",
+ "todo": "Nothing to do yet.",
+ "apps": [
+  "LinkedIn"
+ ],
+ "sources": [
+  {
+   "name": "Social Media Today",
+   "url": "https://www.socialmediatoday.com/news/linkedin-tests-frequent-viewer-feature/874463/"
+  }
+ ],
+ "item": 84873,
+ "thumb_words": "LINKEDIN MAY SHOW REPEAT VIEWERS",
+ "idea": "news",
+ "traction": 0
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "each-place-us-neighborhood-lookup",
+ "date": "2026-11-11",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "each.place sums up any US address on schools, safety and housing",
+ "dek": "New website each.place lets you look up a US address, neighborhood, city or ZIP code across ten topics, including schools, safety, housing and climate, with sources for each figure and side-by-side comparisons.",
+ "quick": true,
+ "apps": [
+  "each.place"
+ ],
+ "item": 79159,
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/each-place"
+  }
+ ]
+}

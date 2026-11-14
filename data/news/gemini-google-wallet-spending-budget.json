@@ -1,0 +1,33 @@
+{
+ "slug": "gemini-google-wallet-spending-budget",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Money",
+ "tag": "New feature",
+ "head": "Gemini Google Wallet connection: spending charts, subscriptions, budgets",
+ "dek": "Gemini app users in the US can now connect Google Wallet so Gemini can chart their spending, spot subscriptions that went up in price and suggest a budget. The connection is off until you turn it on, and Gemini can only read the data.",
+ "details": "You tag Wallet in a chat and ask a question, for example how much you spent on gifts and travel last year. Bank and credit card accounts linked to Wallet through Plaid give Gemini more to work with. Gemini can't move, manage or invest money, and it can't make payments. Google says it doesn't train its AI directly on Wallet data, but its help pages say it may train on summaries of your transactions if Gemini activity is kept on, and some chats can be read by human reviewers.",
+ "where": "US, rolling out now in the Gemini app on Android, iPhone and the web",
+ "means": "If you use Gemini and Google Wallet, you can ask it where your money went or which subscriptions you still pay for, instead of adding it up yourself.",
+ "todo": "To try it, open Gemini's Personal Intelligence settings and turn on Google Wallet under Connected Apps. If you don't want your transaction summaries used for training, check your Gemini activity setting first. You can switch the connection off at any time.",
+ "apps": [
+  "Gemini",
+  "Google Wallet"
+ ],
+ "item": 96408,
+ "thumb_words": "GEMINI CAN NOW READ YOUR WALLET",
+ "idea": "news",
+ "traction": 73,
+ "rank": 1,
+ "sources": [
+  {
+   "name": "The Next Web",
+   "url": "https://thenextweb.com/news/google-gemini-wallet-spending-insights-plaid"
+  },
+  {
+   "name": "MakeUseOf",
+   "url": "https://www.makeuseof.com/gemini-google-wallet-personal-intelligence/"
+  }
+ ]
+}

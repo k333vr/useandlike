@@ -1,0 +1,27 @@
+{
+ "slug": "spotify-home-feed-remove-not-interested",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Music",
+ "tag": "New feature",
+ "head": "Spotify Home feed: remove tiles, clear Recents and say Not interested",
+ "dek": "Spotify is rolling out three new controls on its mobile Home feed to Free and Premium listeners worldwide: you can remove tiles from the top of Home, take items off your Recents shelf, and use Not interested to hear less from specific shows or authors.",
+ "details": "To remove a tile or a Recents item, press and hold it and pick 'Remove from this section'. Removing only tidies the feed and doesn't change future recommendations; Not interested does change what Spotify suggests. Spotify's separate Taste Profile, for telling it what you want more or less of, is in beta for eligible Premium listeners in the US and New Zealand.",
+ "where": "Worldwide, Spotify mobile app, Free and Premium, rolling out",
+ "means": "If your Home screen keeps showing something you played once, you can now clear it without it shaping what Spotify suggests next.",
+ "todo": "Update the Spotify app, then press and hold a tile on Home or in Recents and choose 'Remove from this section'.",
+ "apps": [
+  "Spotify"
+ ],
+ "item": 90850,
+ "idea": "news",
+ "traction": 18,
+ "thumb_words": "SPOTIFY LETS YOU CLEAN UP HOME",
+ "sources": [
+  {
+   "name": "Spotify",
+   "url": "https://newsroom.spotify.com/2026-11-12/home-feed-updates/"
+  }
+ ]
+}

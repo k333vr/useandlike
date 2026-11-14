@@ -1,0 +1,27 @@
+{
+ "slug": "orthant-free-window-manager-windows-mac",
+ "date": "2026-11-11",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Productivity",
+ "tag": "New app",
+ "head": "Orthant: free window manager for Windows 11 and Mac with custom layouts",
+ "dek": "Orthant is a free, open-source app that puts a grid over your screen: you drag across it to choose where a window goes, then save that spot to a keyboard shortcut. It comes with 11 ready shortcuts for halves, quarters, maximize and center, and you can change all of them.",
+ "details": "Regions you draw can be named and keep their share of the screen if you change the grid later. The grid shows on every display, so you can also send a window to another screen. It runs from the menu bar on a Mac and the notification area on Windows. It's made by Owen Ou and published under the MIT licence; version 1.2.0 is the latest.",
+ "where": "Free download for macOS 13 or later and 64-bit Windows 10 (version 1809 or later) or Windows 11; no Linux",
+ "means": "If snapping windows to halves isn't enough for you, Orthant lets you set up your own layouts and jump to them with a key.",
+ "todo": "On a Mac, allow it under Privacy & Security, then Accessibility, when it asks; it needs that to move windows. On Windows, if SmartScreen stops the installer, choose More info, then Run anyway.",
+ "apps": [
+  "Orthant"
+ ],
+ "item": 82394,
+ "thumb_words": "ORTHANT: FREE WINDOW LAYOUTS",
+ "idea": "newcomer",
+ "traction": 15,
+ "sources": [
+  {
+   "name": "Orthant",
+   "url": "https://orthant.app/"
+  }
+ ]
+}

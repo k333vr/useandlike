@@ -1,0 +1,24 @@
+{
+ "slug": "chrome-search-journeys-side-panel-test",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Google",
+ "tag": "Quick",
+ "head": "Chrome is testing AI Overviews you can reopen in the side panel",
+ "dek": "Hidden flags in Chrome Canary, spotted by Search Engine Watch, point to \"Search Journeys\", which would let you reopen a Google AI Overview in Chrome's side panel; Google hasn't announced it.",
+ "quick": true,
+ "rumor": true,
+ "apps": [
+  "Chrome"
+ ],
+ "item": 88829,
+ "sources": [
+  {
+   "name": "PiunikaWeb",
+   "url": "https://piunikaweb.com/2026/11/13/chrome-upcoming-search-journeys-ai-overviews-side-panel/"
+  }
+ ],
+ "idea": "news",
+ "traction": 0
+}

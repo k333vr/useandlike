@@ -1,0 +1,36 @@
+{
+ "slug": "dove-email-app-smart-drafts",
+ "date": "2026-11-11",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Email",
+ "tag": "Update",
+ "head": "Dove email app now writes replies for mail that's waiting on you",
+ "dek": "Dove, the AI email app from the team behind Canary Mail, now drafts replies to emails waiting on you and puts them on a Ready to send card in its Today view. Version 1.23.0 also lets you swipe away a whole group of Noise mail at once.",
+ "details": "Dove sorts every email into Focus (real people and deadlines), Feed (newsletters and updates), Noise (marketing and spam) and Done. It works with Gmail, Outlook, iCloud, Yahoo and other IMAP accounts on iPhone, iPad, Android, Mac, Windows and the web. The free plan has 10 AI actions a day; Pro costs 20 dollars a month or 200 dollars a year. The update also adds a Copy code button for verification codes and a choice of list density.",
+ "where": "Out now in version 1.23.0 (11 November); free plan, Pro 20 dollars a month",
+ "means": "If your inbox mixes real mail with newsletters and promotions, Dove sorts them for you and now prepares replies you only need to check and send.",
+ "todo": "Update Dove, or try the free plan with your existing Gmail or Outlook account. Read each drafted reply before you send it.",
+ "category": "Email",
+ "apps": [
+  "Dove"
+ ],
+ "item": 85923,
+ "thumb_words": "DOVE EMAIL NOW DRAFTS YOUR REPLIES",
+ "idea": "newcomer",
+ "traction": 15,
+ "sources": [
+  {
+   "name": "App Store: Dove by Canary Mail",
+   "url": "https://apps.apple.com/us/app/dove-by-canary-mail/id6749230975"
+  },
+  {
+   "name": "Canary Mail blog",
+   "url": "https://canarymail.io/blog/introducing-dove-by-canary-mail"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/dove"
+  }
+ ]
+}

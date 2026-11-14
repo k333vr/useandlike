@@ -1,0 +1,23 @@
+{
+ "slug": "perplexity-teammates-mac-app",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "AI",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Perplexity's Teammates AI agents arrive in its Mac app",
+ "dek": "Teammates, Perplexity's agents that keep working on a job you hand them and bring in more agents as it grows, are now in the Mac app for Max subscribers. Until now they were on iPhone and the web only.",
+ "apps": [
+  "Perplexity"
+ ],
+ "item": 96094,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/13/perplexity-brings-ai-agents-feature-called-teammates-to-the-mac/"
+  }
+ ]
+}

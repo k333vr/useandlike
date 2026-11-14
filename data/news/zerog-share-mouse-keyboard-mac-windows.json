@@ -1,0 +1,31 @@
+{
+ "slug": "zerog-share-mouse-keyboard-mac-windows",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "topic": "Productivity",
+ "tag": "New app",
+ "head": "Share mouse and keyboard between Mac and Windows with free ZeroG",
+ "dek": "ZeroG is a new free, open-source app from ReggieSoft that lets one mouse and keyboard control several computers on the same network: move the cursor past the edge of one screen and it jumps to the next.",
+ "details": "It runs on Windows 10 and 11, macOS 12 or later (Apple silicon and Intel) and Linux. There's no host or client to set up: you pair nearby computers with a verification code and drag the screens into place to match your desk. The connection is encrypted, stays on your local network with no account, and also shares the clipboard. Version 1.0.3 is out under the MIT license.",
+ "where": "Windows, Mac and Linux; download from the maker's site or GitHub",
+ "means": "If you have a laptop and a desktop side by side, you can drop the second keyboard and mouse without buying a hardware switch.",
+ "todo": "Install it on each computer, pair them with the code and arrange the screens. On a Mac, allow it under Privacy & Security and give it Accessibility permission.",
+ "apps": [
+  "ZeroG"
+ ],
+ "sources": [
+  {
+   "name": "ReggieSoft",
+   "url": "https://reggiesoft.com/zerog"
+  },
+  {
+   "name": "GitHub",
+   "url": "https://github.com/reggiesoft-labs/zerog"
+  }
+ ],
+ "item": 98033,
+ "thumb_words": "ONE MOUSE FOR MAC AND PC",
+ "idea": "newcomer",
+ "traction": 0,
+ "checked": "2026-11-14"
+}

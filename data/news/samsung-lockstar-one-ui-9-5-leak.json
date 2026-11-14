@@ -1,0 +1,24 @@
+{
+ "slug": "samsung-lockstar-one-ui-9-5-leak",
+ "date": "2026-11-10",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Android",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Leak: Samsung LockStar may get a lock screen redesign in One UI 9.5",
+ "dek": "A leaked LockStar 9.5 build, shared on X by Kailash0729 according to Nokiapoweruser, points to a reworked lock screen editor where clocks, battery and notification icons can be moved in one place. Samsung hasn't confirmed it.",
+ "apps": [
+  "Samsung"
+ ],
+ "item": 90517,
+ "idea": "news",
+ "traction": 0,
+ "rumor": true,
+ "sources": [
+  {
+   "name": "Nokiapoweruser",
+   "url": "https://nokiapoweruser.com/one-ui-9-5-apps-leak-redesigned-ui-lockstar-camera-assistant-download-link/"
+  }
+ ]
+}

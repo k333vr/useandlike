@@ -1,0 +1,28 @@
+{
+ "slug": "mons-peak-finder-mountain-app",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Travel",
+ "tag": "New app",
+ "head": "MONS peak finder app names the mountains you see, even offline",
+ "dek": "MONS is a 2.99-dollar peak finder app for iPhone that labels the summits in your camera view, from more than a million peaks worldwide, and works offline once you download an area. It was #63 among paid Travel apps on the US App Store on 13 November.",
+ "details": "You can also fly between peaks in 3D, take panorama photos with the peak names on them and share them or fly-in videos. It's a one-time purchase with no subscription or ads, and extra areas are included. It's made by Ostreum GmbH and also runs on Apple Silicon Macs and Apple Vision Pro.",
+ "where": "iPhone (iOS 18 or later), Mac with Apple Silicon, Apple Vision; 2.99 dollars",
+ "means": "If you hike or travel in the mountains, you can point your phone at a ridge and see each peak's name without a signal.",
+ "todo": "Search MONS Peak Finder on the App Store and download your area before you lose reception.",
+ "category": "Travel",
+ "apps": [
+  "MONS"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/peak-finder-mountain-id-mons/id6824520147"
+  }
+ ],
+ "item": 98016,
+ "thumb_words": "APP NAMES EVERY MOUNTAIN",
+ "idea": "newcomer",
+ "traction": 0
+}

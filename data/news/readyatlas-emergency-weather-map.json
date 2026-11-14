@@ -1,0 +1,27 @@
+{
+ "slug": "readyatlas-emergency-weather-map",
+ "date": "2026-11-10",
+ "added": "2026-11-14",
+ "topic": "Weather",
+ "tag": "New app",
+ "head": "ReadyAtlas weather warning map app: alerts, wildfires and quakes free",
+ "thumb_words": "READYATLAS: WARNINGS ON ONE MAP",
+ "dek": "ReadyAtlas is a free iPhone and iPad app that draws US National Weather Service watches and warnings, radar, active wildfires and earthquakes on one live map. It came out on 10 November and was #54 among free Weather apps on the US App Store on 13 November.",
+ "details": "The free app also has a radar loop going back two hours plus future radar, an hour-by-hour and 7-day forecast, and a preparedness calculator for water, food and fuel. ReadyAtlas Pro (5.99 dollars a month or 29.99 dollars a year, no free trial) adds lightning, hurricane tracks, air quality, tsunami alerts, lock-screen alerts for up to 5 places and offline maps. It's made by Patrick Byron Humphrey, and the listing says it isn't an official warning service and its data can be delayed or wrong.",
+ "where": "App Store, iPhone and iPad, free with an optional Pro subscription",
+ "means": "If you want weather warnings, fires and quakes on one map instead of several apps, the free part covers that; push alerts for your places cost extra.",
+ "todo": "Use it next to your phone's official emergency alerts, not instead of them; follow local authorities in an emergency.",
+ "apps": [
+  "ReadyAtlas: Emergency Map"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/readyatlas-emergency-map/id6820650118"
+  }
+ ],
+ "item": 98026,
+ "idea": "newcomer",
+ "traction": 0,
+ "checked": "2026-11-14"
+}

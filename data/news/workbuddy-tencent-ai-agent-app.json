@@ -1,0 +1,27 @@
+{
+ "slug": "workbuddy-tencent-ai-agent-app",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "AI",
+ "tag": "New app",
+ "head": "WorkBuddy, Tencent's AI work agent app, plans and does tasks for you",
+ "dek": "WorkBuddy from Tencent takes a task you type or say, plans the steps and hands back finished work such as research reports, documents, tables, images and videos. The free iPhone app was #93 among free Utilities apps on the US App Store on 12 November.",
+ "details": "It shows its progress as it works and lets you pick AI 'experts' for the task. Subscriptions, priced in Chinese yuan, and skill installations are only available in mainland China for now, and features vary by country, region and language. The app came out on 21 September.",
+ "where": "iPhone, App Store, free; subscriptions mainland China only",
+ "means": "If you want an AI app that produces a finished file instead of a chat reply, this is one more option, but outside China you can't subscribe yet.",
+ "todo": "Try a small task first and check which features work in your country.",
+ "apps": [
+  "WorkBuddy"
+ ],
+ "item": 91177,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "TENCENT'S WORKBUDDY AI AGENT",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/workbuddy-ai-work-agent/id6761374913"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "slug": "euro-office-desktop-app-free",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Business",
+ "tag": "New app",
+ "head": "Euro-Office desktop app: free Office alternative for Windows, Mac, Linux",
+ "dek": "Nextcloud released the Nextcloud Office Desktop app, powered by Euro-Office, a free and open-source office suite for documents, spreadsheets, presentations and PDFs. It's out now for Windows, Linux and Apple Silicon Macs, and it edits files on your computer without an internet connection.",
+ "details": "It opens Microsoft formats (DOCX, XLSX, PPTX) and open formats (ODT, ODS, ODP), uses the fonts installed on your computer and supports digital signatures and password protection. You can connect it to one or more Nextcloud servers to open online files and edit together in real time. Intel Macs aren't supported. Signing documents needs a digital certificate.",
+ "where": "Windows (x64 and ARM64), Linux (.deb and .rpm), macOS on Apple Silicon; out now",
+ "means": "If you want to write and open Word or Excel files without paying for Microsoft 365, this is a free option that works offline.",
+ "todo": "Download it from the installation page on nextcloud.com (Nextcloud Office Desktop). For online files, connect it to your Nextcloud account; local files need no account.",
+ "category": "Productivity",
+ "apps": [
+  "Euro-Office",
+  "Nextcloud"
+ ],
+ "sources": [
+  {
+   "name": "Nextcloud",
+   "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/"
+  },
+  {
+   "name": "Nextcloud Office",
+   "url": "https://nextcloud.com/office/"
+  }
+ ],
+ "item": 95539,
+ "thumb_words": "FREE OFFICE APP FOR YOUR PC",
+ "idea": "news",
+ "traction": 0
+}

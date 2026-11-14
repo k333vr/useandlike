@@ -1,0 +1,27 @@
+{
+ "slug": "snow-forecasts-cams-ski-app",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Snow forecast app for skiers gives 15-day snowfall and resort cams",
+ "dek": "Snow - Forecasts & Cams gives every ski area a snowfall forecast up to 15 days ahead, blended from several weather models, with the first seven days free. It came out on 9 November and was #95 among free Weather apps on the US App Store on 12 November.",
+ "details": "Free users get days one to seven, radar, resort snow reports, storm alerts and webcams at three resorts. Snow Pro, a monthly or yearly subscription, adds days 8 to 15, hour-by-hour snow, all webcams and timelapses. An AI forecaster writes a daily snow discussion for your resorts. The maker is Shredder Inc.",
+ "where": "iPhone, App Store, free with a Snow Pro subscription",
+ "means": "If you plan ski or snowboard days, you can see snow totals for your resorts and get an alert when a forecast passes your threshold.",
+ "todo": "Add your resorts and set a snow alert; the free plan covers a week ahead.",
+ "apps": [
+  "Snow - Forecasts & Cams"
+ ],
+ "item": 91201,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "15-DAY SNOW FORECAST FOR SKIERS",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/snow-forecasts-cams/id6827649633"
+  }
+ ]
+}

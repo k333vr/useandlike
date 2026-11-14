@@ -1,0 +1,23 @@
+{
+ "slug": "surfshark-no-logs-kpmg-audit",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Security",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Surfshark's no-logs policy checked by KPMG for the third time",
+ "dek": "KPMG found that Surfshark's VPN servers keep no records of what users do after logging in, such as browsing history or connection logs, in line with its privacy policy. It's Surfshark's third independent no-logs check.",
+ "apps": [
+  "Surfshark"
+ ],
+ "item": 94776,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "Surfshark (PR Newswire)",
+   "url": "https://www.prnewswire.com/news-releases/surfsharks-no-logs-policy-verified-by-kpmg-302938843.html"
+  }
+ ]
+}

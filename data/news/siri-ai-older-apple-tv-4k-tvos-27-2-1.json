@@ -1,0 +1,40 @@
+{
+ "slug": "siri-ai-older-apple-tv-4k-tvos-27-2-1",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Apple",
+ "tag": "Update",
+ "head": "Siri AI on Apple TV 4K 2nd and 3rd gen: tvOS 27.2.1 is out",
+ "dek": "Apple released tvOS 27.2.1 on November 13, and it brings Siri AI to the 2nd- and 3rd-generation Apple TV 4K. It only works with a paired Siri AI-capable iPhone or iPad nearby, such as an iPhone 15 Pro or later.",
+ "details": "On Apple TV, Siri AI can play shows, make suggestions from your personal context, answer general questions and do tasks across apps. Apple's support page lists tvOS 27.2.1 on Apple TV 4K (2nd generation and later) plus a nearby paired Siri AI device as the requirements; Thurrott adds that Siri AI must be turned on and set to a supported language on that iPhone or iPad. The new 4th-generation Apple TV 4K gets Siri AI through its own tvOS 27.2 build. Apple also released HomePod Software 27.2.1 the same day.",
+ "where": "Apple TV 4K 2nd generation and later, out now; not in the European Union",
+ "means": "If you own a 2nd- or 3rd-generation Apple TV 4K and an iPhone 15 Pro or newer, you get the new Siri for free without buying the $299 box. In the EU, Siri AI doesn't come to Apple TV for now.",
+ "todo": "On the Apple TV, open Settings, then System, then Software Update, and install tvOS 27.2.1. Make sure Siri AI is turned on on your paired iPhone or iPad and that it's nearby.",
+ "apps": [
+  "Apple TV",
+  "Siri"
+ ],
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/13/apple-releases-tvos-27-2-1/"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/13/tvos-27-2-1-launching-soon-with-siri-ai-for-older-apple-tv-4k-models/"
+  },
+  {
+   "name": "Thurrott",
+   "url": "https://www.thurrott.com/a-i/343838/tvos-27-2-1-will-soon-bring-siri-ai-to-older-apple-tv-models"
+  },
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/12/siri-ai-tvos-27-2-1/"
+  }
+ ],
+ "item": 91491,
+ "thumb_words": "SIRI AI ON OLDER APPLE TVS",
+ "idea": "news",
+ "traction": 60
+}

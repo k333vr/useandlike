@@ -1,0 +1,31 @@
+{
+ "slug": "motorola-ma2-android-auto-price",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Android",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Motorola MA2 wireless Android Auto adapter costs $69.99, not $39.95",
+ "dek": "Motorola's MA2 adapter went on sale on Amazon in the US for 69.99 dollars, close to twice the 39.95 dollars first planned, then dropped out of Amazon's search as sold out with delivery in mid to late December.",
+ "apps": [
+  "Android Auto"
+ ],
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/11/motorola-ma2-wireless-android-auto-adapter-launch/"
+  },
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/13/motorola-ma2-android-auto-amazon-delay/"
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/motorola-ma2-android-auto-dongle-price-increase-3734208/"
+  }
+ ],
+ "item": 80943,
+ "idea": "news",
+ "traction": 0
+}

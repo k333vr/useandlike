@@ -1,0 +1,27 @@
+{
+ "slug": "mylilmatrix-eisenhower-matrix-app",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Productivity",
+ "tag": "New app",
+ "head": "MyLilMatrix: Eisenhower matrix app for iPhone, one purchase",
+ "dek": "MyLilMatrix is a to-do app for iPhone and iPad that sorts your tasks into four boxes by how important and how urgent they are. It costs 99 cents once, with no subscription, and was #79 among paid Productivity apps on the US App Store on 13 November.",
+ "details": "It has separate boards for everyday tasks and projects, subtasks with notes and pictures, repeating tasks, reminders and Home Screen and Lock Screen widgets. It works offline and syncs when you're back online; Sign in with Apple keeps your boards across devices, and the boards also open on the web. It's made by Jonty McIntyre.",
+ "where": "iPhone and iPad, iOS 16 or later, 0.99 dollars",
+ "means": "If your to-do list feels endless, this sorts what matters now from what can wait, for less than a dollar.",
+ "todo": "Search MyLilMatrix on the App Store.",
+ "apps": [
+  "MyLilMatrix"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/mylilmatrix/id6833193775"
+  }
+ ],
+ "item": 97999,
+ "thumb_words": "TO-DO APP WITH FOUR BOXES",
+ "idea": "newcomer",
+ "traction": 0
+}

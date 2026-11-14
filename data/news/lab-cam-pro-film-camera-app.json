@@ -1,0 +1,27 @@
+{
+ "slug": "lab-cam-pro-film-camera-app",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Photo",
+ "tag": "New app",
+ "head": "LAB Cam Pro: film camera app for RAW photos on iPhone and Mac",
+ "dek": "LAB Cam Pro is a new $4.99 camera and darkroom app that gives RAW photos the look of a chosen film stock, with grain and glow, and keeps the original. It was #51 among paid Photo & Video apps on the US App Store on November 13.",
+ "details": "You get manual shutter, ISO, focus and exposure, frames from 35mm to 6x7 and XPAN, and many color, black-and-white and motion film stocks; the stock can be changed later. The price includes 30 days of 64 GB cloud storage; after that, cloud plans start at $1.99 a month and the library otherwise stays on your devices. Version 1.0.1 added iPhone Duo support and opening from the Lock Screen and Camera Control. The maker is Aiden Magarian.",
+ "where": "iPhone (iOS 18 or later) and Mac with an M1 chip or later, $4.99 with in-app purchases",
+ "means": "If you like the film look, this app shoots RAW and adds it afterwards, so you can change your mind later.",
+ "todo": "Check the cloud plan prices on the listing before the free 30 days run out.",
+ "apps": [
+  "LAB Cam Pro"
+ ],
+ "item": 98005,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "FILM LOOK FOR IPHONE RAW PHOTOS",
+ "sources": [
+  {
+   "name": "App Store: LAB Cam Pro",
+   "url": "https://apps.apple.com/us/app/lab-cam-pro/id6809077779"
+  }
+ ]
+}

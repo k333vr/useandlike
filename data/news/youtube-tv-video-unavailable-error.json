@@ -1,0 +1,34 @@
+{
+ "slug": "youtube-tv-video-unavailable-error",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Streaming",
+ "tag": "Heads-up",
+ "head": "YouTube TV 'Video unavailable' error interrupts shows and live sports",
+ "dek": "YouTube TV viewers report a black 'Video unavailable' screen that cuts into shows and games for about 10 seconds, sometimes several times in one broadcast. Google hasn't commented yet.",
+ "details": "Some viewers say it only happens on NBC channels, which isn't confirmed. Android Authority asked Google and NBC for comment. It comes after a separate bug that removed channels from the Live tab, which Google fixed.",
+ "where": "YouTube TV, reported by viewers in the US",
+ "means": "If your show or game suddenly goes black with 'Video unavailable', it's a known problem other viewers have too, not your TV or internet.",
+ "todo": "There's no known fix yet. Playback comes back after about 10 seconds on its own.",
+ "apps": [
+  "YouTube TV"
+ ],
+ "item": 89613,
+ "items": [
+  95540
+ ],
+ "idea": "news",
+ "traction": 0,
+ "thumb_words": "YOUTUBE TV 'VIDEO UNAVAILABLE' ERROR",
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/youtube-tv-video-unavailable-screen-3734695/"
+  },
+  {
+   "name": "Android Headlines",
+   "url": "https://www.androidheadlines.com/2026/11/youtube-tv-users-report-video-unavailable-error.html"
+  }
+ ]
+}

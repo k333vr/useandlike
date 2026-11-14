@@ -1,0 +1,26 @@
+{
+ "slug": "chatgpt-businesses-brand-agents-beta",
+ "date": "2026-11-11",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "AI",
+ "tag": "Quick",
+ "quick": true,
+ "head": "ChatGPT tests brand pages and shopping agents with labeled paid spots",
+ "dek": "OpenAI started a beta called Businesses in ChatGPT, where brands get verified profiles and their own shopping agents, which open in a chat marked as separate from ChatGPT's answers. Brands can pay to make their agent the landing spot for ads, and each paid spot is labeled; the agents start with US online stores and digital services.",
+ "apps": [
+  "ChatGPT"
+ ],
+ "item": 80341,
+ "items": [
+  92936
+ ],
+ "idea": "news",
+ "traction": 41,
+ "sources": [
+  {
+   "name": "The Rundown AI",
+   "url": "https://www.therundown.ai/articles/openai-invites-brands-to-set-up-shop-in-chatgpt"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "hey-gemini-wake-word-xr-glasses",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "AI",
+ "tag": "Quick",
+ "quick": true,
+ "head": "\"Hey Gemini\" wake word arrives with Google's Android XR glasses",
+ "dek": "Google's Android XR smart glasses, on pre-order since November 12, answer to \"Hey Gemini\" as well as \"Hey Google\". Phones and smart speakers don't support the new wake word yet.",
+ "apps": [
+  "Gemini"
+ ],
+ "item": 91369,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/hey-gemini-3734702/"
+  }
+ ]
+}

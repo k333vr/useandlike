@@ -1,0 +1,23 @@
+{
+ "slug": "raycast-2-12-calculator-weather-flights",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Mac",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Raycast 2.12 calculator now answers weather and flight questions",
+ "dek": "Raycast's rebuilt Calculator on the Mac now handles weather, flight tracking, travel times, dates and money sums, and the company says it's 60 times faster. Its AI now needs a one-time pairing code before it can read your browser history or bookmarks.",
+ "apps": [
+  "Raycast"
+ ],
+ "item": 88706,
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/raycast-2-12-rebuilds-calculator-with-weather-and-flights/"
+  }
+ ]
+}

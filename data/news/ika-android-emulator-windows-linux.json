@@ -1,0 +1,23 @@
+{
+ "slug": "ika-android-emulator-windows-linux",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "topic": "Android",
+ "tag": "Quick",
+ "head": "Ika: free Android 16 emulator for Linux and Windows PCs",
+ "dek": "Ika runs Android 16 (LineageOS 23.2) in a window on Linux and on Windows PCs through WSL2, with graphics on your computer's GPU. You can pick a build with Google Play, with microG or without Google services.",
+ "quick": true,
+ "apps": [
+  "Ika"
+ ],
+ "item": 93095,
+ "sources": [
+  {
+   "name": "GitHub",
+   "url": "https://github.com/DesktopECHO/ika"
+  }
+ ],
+ "idea": "news",
+ "traction": 0,
+ "checked": "2026-11-14"
+}

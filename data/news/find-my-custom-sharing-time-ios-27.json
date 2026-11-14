@@ -1,0 +1,23 @@
+{
+ "slug": "find-my-custom-sharing-time-ios-27",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Apple",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Find My in iOS 27 lets you share your location for a custom time",
+ "dek": "A new Custom option in Find My on iOS 27 shares your location for a number of minutes, hours or days, or until a set date and time. Before, the choices were one hour, until the end of the day, or indefinitely.",
+ "apps": [
+  "Find My"
+ ],
+ "item": 88822,
+ "idea": "news",
+ "traction": 52,
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/12/ios-27s-find-my-app-adds-convenient-feature-ive-long-wished-for/"
+  }
+ ]
+}

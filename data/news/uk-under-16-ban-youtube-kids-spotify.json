@@ -1,0 +1,24 @@
+{
+ "slug": "uk-under-16-ban-youtube-kids-spotify",
+ "date": "2026-11-10",
+ "added": "2026-11-14",
+ "topic": "Social",
+ "tag": "Quick",
+ "head": "UK under-16 social media ban may also cover YouTube Kids and Spotify",
+ "dek": "UK ministers are considering widening the planned under-16 ban to any service with recommendations and user content, which could include YouTube Kids, Lego Play and Spotify, The Guardian reported; nothing is decided yet.",
+ "quick": true,
+ "apps": [
+  "YouTube Kids",
+  "Spotify"
+ ],
+ "item": 79670,
+ "idea": "news",
+ "traction": 15,
+ "sources": [
+  {
+   "name": "AI Weekly",
+   "url": "https://aiweekly.co/alerts/uk-weighs-expanding-under-16-social-media-ban-to-youtube-kids-spotify-and-lego"
+  }
+ ],
+ "checked": "2026-11-14"
+}

@@ -1,0 +1,27 @@
+{
+ "slug": "snow-day-radar-school-closing-app",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Snow day predictor app Snow Day Radar shows your school district's odds",
+ "dek": "Snow Day Radar gives the chance of a snow day, delay or virtual day for every public school district in the lower 48 US states, with the reason in plain words. The free app came out on 11 November and was #2 among free Weather apps on the US App Store on 13 November.",
+ "details": "Odds run from 20% to 80% and never reach 100%, because only the district decides. It adds a two- and three-day outlook, alerts when odds jump and a live map, with no account, ads or tracking. In version 1.1, verified district staff can post their own call in the app, marked as verified. The listing is signed 'By Ryan Hall, Y'all' and the seller is Hall Enterprises LLC.",
+ "where": "US (lower 48 states), iPhone, App Store, free",
+ "means": "If you have kids in a US public school, you can see how likely a closing is before the district announces it.",
+ "todo": "Pick your district in the app and turn on alerts; wait for the district's own call before changing plans.",
+ "apps": [
+  "Snow Day Radar"
+ ],
+ "item": 98025,
+ "idea": "newcomer",
+ "traction": 34,
+ "thumb_words": "SNOW DAY ODDS FOR YOUR SCHOOL",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/snow-day-radar/id6832336159"
+  }
+ ]
+}

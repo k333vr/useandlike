@@ -1,0 +1,27 @@
+{
+ "slug": "tablinker-mac-firefox-tabs",
+ "date": "2026-11-12",
+ "added": "2026-11-14",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "TabLinker tab manager for Mac now imports Firefox tabs",
+ "dek": "TabLinker, which saves and restores browser tabs and windows on Mac with iPhone and iPad apps, now lists Firefox among 14 browsers it imports from; it's free for up to 50 tabs, with a one-time Pro unlock.",
+ "quick": true,
+ "apps": [
+  "TabLinker"
+ ],
+ "item": 88075,
+ "idea": "news",
+ "traction": 15,
+ "sources": [
+  {
+   "name": "TabLinker",
+   "url": "https://www.tablinker.app/"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/tablinker-tabs-manager/id6758283574"
+  }
+ ],
+ "checked": "2026-11-14"
+}

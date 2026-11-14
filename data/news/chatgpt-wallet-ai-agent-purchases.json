@@ -1,0 +1,31 @@
+{
+ "slug": "chatgpt-wallet-ai-agent-purchases",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "ChatGPT Wallet lets AI agents buy things for you after you approve",
+ "dek": "OpenAI launched ChatGPT Wallet on 13 November, a payment feature that lets its Dots agents shop for you: you save a card once, and you approve every purchase with a security check such as Face ID or a fingerprint. It starts with ChatGPT Pro subscribers in the US who are over 18.",
+ "details": "It was built with American Express, Mastercard and Visa and takes US-issued cards from those three. The Dot never sees your card number: each purchase gets a payment token that works for that one transaction, and each purchase leaves a record. OpenAI says card rewards and protections for eligible disputes stay as they are, and it takes no cut of purchases at launch. Some sellers keep agents out: Amazon blocks them, and United Airlines said on 11 November it will block agents from booking tickets.",
+ "where": "US, ChatGPT Pro subscribers over 18, with a US-issued Visa, Mastercard or American Express card",
+ "means": "If you pay for ChatGPT Pro, your Dot can now take a purchase through to checkout, but nothing is bought until you review the items, see the total and approve it.",
+ "todo": "Check the items and the total before you approve each purchase. If you'd rather not store a card in ChatGPT, you don't have to: the feature only works once you add one.",
+ "apps": [
+  "ChatGPT"
+ ],
+ "item": 95273,
+ "thumb_words": "CHATGPT CAN NOW BUY THINGS FOR YOU",
+ "idea": "news",
+ "traction": 29,
+ "sources": [
+  {
+   "name": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html"
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/chatgpt-wallet-3735154/"
+  }
+ ]
+}

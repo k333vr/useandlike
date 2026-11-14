@@ -1,0 +1,23 @@
+{
+ "slug": "substack-website-editor-themes",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Substack adds website editors with seven themes",
+ "dek": "Substack's new Mini-Editor and Full Editor let writers change the look of their publication's website, with seven themes, layout, color and font controls and phone, tablet and desktop previews; the Substack app's layout stays the same.",
+ "quick": true,
+ "apps": [
+  "Substack"
+ ],
+ "item": 96213,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/substack-adds-mini-editor-and-full-editor-website-tools/"
+  }
+ ],
+ "checked": "2026-11-14"
+}

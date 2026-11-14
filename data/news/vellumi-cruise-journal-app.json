@@ -1,0 +1,27 @@
+{
+ "slug": "vellumi-cruise-journal-app",
+ "date": "2026-11-13",
+ "added": "2026-11-14",
+ "checked": "2026-11-14",
+ "topic": "Travel",
+ "tag": "New app",
+ "head": "Vellumi cruise journal app keeps your ports, photos and notes offline",
+ "dek": "Vellumi is a $3.99 iPhone and iPad app for keeping a private diary of a cruise: plan the ports and sea days, then add photos, videos, voice notes, meals and shows to each day. It was #61 in Travel on the US App Store's paid chart on 13 November.",
+ "details": "It works offline, needs no account and keeps entries encrypted on the device behind a passcode, with optional biometric unlock. Sharing only happens when you choose. Optional live ship tracking opens CruiseMapper's site and needs internet. It's made by Lemon Street Enterprises and came out on 30 September.",
+ "where": "iPhone and iPad, $3.99",
+ "means": "If you're going on a cruise, it's a paid, private alternative to a notes app for keeping the trip day by day.",
+ "todo": "Set up the itinerary before you sail, since the app works without internet on board.",
+ "apps": [
+  "Vellumi"
+ ],
+ "item": 98014,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "A PRIVATE DIARY FOR YOUR CRUISE",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/vellumi-cruise-journal/id6816422842"
+  }
+ ]
+}
