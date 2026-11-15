@@ -259,8 +259,37 @@ people type).
 6. Check one new page on useandlike.com after a minute or two (curl it for its headline).
 7. Scripts: write one for every new full story of today (see "Scripts for the presenter" below) into
    `/tmp/scripts.json`, then `python3 scripts/news-scripts.py save /tmp/scripts.json` (fix what it reports).
+   Then `python3 scripts/x-reactions.py` (X posts about today's stories for the presenter's "What people say" box and the
+   video's "ON X" card; known companies and products only, about 1-2 cents a run, it stops by itself at $3 a month; see
+   "What people say" below). If it reports an Apify error, say so in the last line and go on.
 8. End with one line: how many full stories and one-liners went up (headlines of the top 3), how many scripts, how many candidates were
    already covered or skipped. A day without new stories is fine: say so and push nothing.
+
+## What people say (reactions to each story, 15 Nov 2026)
+
+Kevin, 13-14 Nov: "track those also in some way for each article to might find interesting reviews, opinions or
+comments"; "if something goes viral and we credited (or showed the X user name) we might get exposure ... as long as its
+100% safe for youtube". The Studio's table `reactions` collects, per script of the last 2 days: top YouTube comments under
+other channels' videos about the app and Hacker News comments (the Studio's cron, src/reactions.js, every 30 minutes),
+Bluesky once Kevin adds its account, and X (the daily run, `scripts/x-reactions.py`). Filters: English, 40-400 letters,
+no links, no spam, a few likes on YouTube; X: the app named, the maker's account or 10k+ followers or many likes. Rows are
+deleted after 30 days.
+- The presenter sees 3-5 of them under each story ("What people say"). **Her take can answer a real reaction**
+  ("Some people say it's just a cash grab. I think …"): their words are opinions, never facts for the script, and a
+  `takes` line may pick up a reaction's point but never quotes a person by name.
+- Never on the website: other people's words. In a video only as the "ON X" card (below), never a YouTube, Hacker News
+  or Bluesky comment.
+- **ON X card** (useandlike-ops/studio/tools/autoedit/cutins.py; Kevin, 15 Nov: "safe methods only: if the post has slurs or
+  very harsh opinions or something outlandish we can censor it and make a joke over it"): a clean re-drawn card of a text
+  post (name, @handle as credit, date, likes, the post's own words; shortened with "…", never a changed meaning; never
+  its photos or videos), at most 1 (2 from 55 s) per video, only where it fits what she says. Strong, harsh or outlandish
+  opinions are welcome (with her take or joke next to it); swear words are starred on the card (f***, s***). Never on
+  screen, even starred: slurs or attacks on people for who they are (race, religion, gender, sexuality, disability ...),
+  threats, harassment of a private person, adult content, personal data, children, politics, medical or money claims,
+  rumours about a named person (YouTube's hate and harassment rules apply to the whole video; starring doesn't fix
+  those, and ads would be limited). The maker's or a company's own posts are always fine. `x-reactions.py` marks
+  `on_screen_ok` by these rules (text only, not a reply, a filter for the never-list); a video with a card gets
+  `info.x_card` = the post's address (video_edits), and Kevin gets the day's list at 19:17 Bangkok (until 22 Nov).
 
 ## Instant scripts (the Studio writes them when her list runs low)
 
