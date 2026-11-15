@@ -153,6 +153,10 @@ const LEAD_PICS = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROO
 // for stories with rank 1; a style the story has no picture for is skipped.
 const LEAD_STYLE = "";
 const LEAD_STYLES = [["1", "-art", 1200, 600], ["2", "-lead2", 1200, 400], ["4", "-lead4", 1200, 600], ["5", "", 1200, 630], ["7", "-lead7", 1200, 400]];
+// Kevin, 14 Nov 2026: "Watch our video" opens the same video inside our news playlist, so the next one plays after it
+// (not YouTube's own pick). News channel playlists: Latest App News, New Apps (new-app stories).
+const NEWS_PLAYLISTS = { latest: "PLVxOMA7Cb888", newApps: "PLY7Pu3-1RQ8k" };
+
 function leadPicture(s) {
   if (s.image) return { src: s.image, w: 1200, h: 600, style: "own" };
   // by the story's date, not the clock, so a rebuild on another day gives the same page (check.js compares them)
@@ -727,7 +731,7 @@ for (const s of NEWS) {
     s.todo ? `<div class="todo"><h2>What to do</h2><p>${esc(s.todo)}</p></div>` : "",
     s.details && !s.details_in_todo ? `<div class="details"><h2>The details</h2><p>${esc(s.details)}</p>` +
       (s.where ? `<p class="meta">Where and when: ${esc(s.where)}</p>` : "") + "</div>" : (s.where ? `<p class="meta">Where and when: ${esc(s.where)}</p>` : ""),
-    s.video ? `<p class="watch"><a class="visit" href="https://www.youtube.com/watch?v=${esc(s.video)}"${newTab}>${PLAY} Watch our video about this</a></p>` : "",
+    s.video ? `<p class="watch"><a class="visit" href="https://www.youtube.com/watch?v=${esc(s.video)}&amp;list=${s.tag === "New app" ? NEWS_PLAYLISTS.newApps : NEWS_PLAYLISTS.latest}"${newTab}>${PLAY} Watch our video about this</a></p>` : "",
     newsletterBox(),
     `<section aria-labelledby="ht-h">${secHead("ht-h", "How-tos from our channels", '<a href="/how-tos/">Search all how-tos ›</a>')}\n${grid(howtosFor(s, 3))}</section>`,
     DEALS.length ? `<section aria-labelledby="dl-h">${secHead("dl-h", "Deals we checked", `<a href="/deals/">All ${DEALS.length} ›</a>`)}\n${dealMinis(DEALS.slice(0, 4))}</section>` : "",
