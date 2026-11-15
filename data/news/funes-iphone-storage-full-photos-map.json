@@ -1,0 +1,28 @@
+{
+ "slug": "funes-iphone-storage-full-photos-map",
+ "date": "2026-11-14",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "iPhone storage full of photos: Funes app shows which videos take the space",
+ "dek": "Funes is a free iPhone app that draws your whole photo library as one map, with each photo and video sized by its file size, so the few big videos filling your storage stand out. Its latest update marks which items are only in iCloud and which are on the phone.",
+ "details": "You tap a year, then a month, then a single item. Funes never deletes on its own: you pick the large items and confirm each one, and they go to Recently Deleted in Photos for up to 30 days. It has no account, ads or tracking and reads the library on the phone without uploading it. It came out on November 8 from Chapiware, one developer in Spain; version 1.1 came on November 13.",
+ "where": "App Store, iPhone (iOS 17 or later); free",
+ "means": "If your iPhone says storage is full and deleting photos doesn't help, Funes shows whether a handful of long videos is the reason, and whether they're even on the phone.",
+ "todo": "Look at the striped tiles first: those items are only in iCloud, so deleting them won't free space on the phone.",
+ "apps": [
+  "Funes"
+ ],
+ "category": "Cloud Storage",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/id6831999052"
+  }
+ ],
+ "item": 100633,
+ "thumb_words": "SEE WHAT FILLS YOUR IPHONE",
+ "idea": "news",
+ "traction": 15
+}

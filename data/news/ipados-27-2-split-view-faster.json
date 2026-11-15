@@ -1,0 +1,23 @@
+{
+ "slug": "ipados-27-2-split-view-faster",
+ "date": "2026-11-14",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Apple",
+ "tag": "Quick",
+ "head": "iPadOS 27.2 makes Split View quicker, like on the iPhone Duo",
+ "dek": "In iPadOS 27.2, tiling an app to the left or right opens the Home Screen right away so you can tap the second app, instead of resizing and swiping for it.",
+ "quick": true,
+ "apps": [
+  "iPad"
+ ],
+ "item": 101782,
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/?p=1076954"
+  }
+ ],
+ "idea": "news",
+ "traction": 0
+}

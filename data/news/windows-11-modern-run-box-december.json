@@ -1,0 +1,23 @@
+{
+ "slug": "windows-11-modern-run-box-december",
+ "date": "2026-11-14",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Windows",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Windows 11's new Run box comes to all PCs with the December update",
+ "dek": "The redesigned Win+R box, with dark mode and recent commands but no Browse button, arrives as an optional update later in November and in the 8 December update; switch it on or off in Settings > System > Advanced.",
+ "apps": [
+  "Windows 11"
+ ],
+ "item": 98501,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "Windows Latest",
+   "url": "https://www.windowslatest.com/2026/11/14/windows-11s-modern-run-box-arrives-for-everyone-in-december-and-microsoft-found-almost-nobody-ever-clicked-browse-in-the-old-one/"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "chrome-157-update-83-security-fixes",
+ "date": "2026-11-14",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Security",
+ "tag": "Quick",
+ "head": "Chrome update fixes 83 security flaws, five of them critical",
+ "dek": "Google's Chrome 157.0.8103.78 update for Windows, Mac and Linux fixes 83 security flaws, five rated critical, with no attacks known so far. Open About Chrome to check for it and restart the browser to install it.",
+ "quick": true,
+ "apps": [
+  "Chrome"
+ ],
+ "sources": [
+  {
+   "name": "AOL (Mirror)",
+   "url": "https://www.aol.co.uk/articles/critical-warning-issued-chrome-users-111236000.html"
+  }
+ ],
+ "item": 100064,
+ "idea": "news",
+ "traction": 23
+}

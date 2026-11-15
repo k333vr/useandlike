@@ -1,0 +1,28 @@
+{
+ "slug": "radarvar-speed-camera-app",
+ "date": "2026-11-13",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Travel",
+ "tag": "New app",
+ "category": "Travel",
+ "head": "Radarvar speed camera app warns of cameras, works offline and in CarPlay",
+ "dek": "Radarvar is a new iPhone app that warns you ahead of speed cameras, red-light cameras and average speed zones and tells you the speed limit of the road you're on. It costs 12.99 dollars once and was #90 among paid Navigation apps on the US App Store on 13 November.",
+ "details": "The listing covers 17 countries, including the US, the UK, Germany and Australia, with more than 25,000 fixed cameras from OpenStreetMap and official open data; the data is kept on the phone, so alerts work without a connection. It speaks alerts in the background, shows cameras and the limit in CarPlay, offers turn-by-turn navigation built on Apple Maps and lets drivers report speed traps and hazards anonymously. There's no subscription and no in-app purchase. It's made by Ali Can, and it isn't a radar detector.",
+ "where": "App Store, iPhone, 12.99 dollars one-time",
+ "means": "If you want camera and speed limit warnings without a monthly fee, this is a one-time purchase that keeps working offline.",
+ "todo": "Check that camera warning apps are allowed where you drive before using one, and remember the listing says coverage depends on public data in each region.",
+ "apps": [
+  "Radarvar"
+ ],
+ "item": 98024,
+ "thumb_words": "RADARVAR WARNS OF SPEED CAMERAS",
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/radarvar-speed-cameras/id6818256075"
+  }
+ ]
+}

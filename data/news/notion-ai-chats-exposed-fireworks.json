@@ -1,0 +1,32 @@
+{
+ "slug": "notion-ai-chats-exposed-fireworks",
+ "date": "2026-11-10",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "Notion AI chats exposed in Fireworks AI breach for under 1% of workspaces",
+ "dek": "Some Notion AI chat transcripts were exposed when attackers got into Fireworks AI, a company Notion used to run AI tasks. Notion says fewer than 1% of workspaces are affected and it has emailed the ones it found.",
+ "details": "The chats came from Notion's Insights feature, and for most affected workspaces they carry no author or workspace name. Fireworks told Notion on 6 November that customer data may have been accessed and confirmed it on 8 November. Notion cut its systems off from Fireworks on 3 November, turned Insights off and says no other Notion features were affected. Notion says its own systems weren't breached.",
+ "where": "Fewer than 1% of Notion workspaces worldwide; affected customers were contacted by email",
+ "means": "If you typed passwords, keys or private details into Notion AI, they could be in the exposed chats, even without your name on them.",
+ "todo": "Check your email for a message from Notion. If you got one, follow its steps to see the affected data in your workspace and treat it as exposed. If you pasted a password or API key into Notion AI, change it. No email means Notion hasn't found your workspace among the affected ones.",
+ "apps": [
+  "Notion"
+ ],
+ "category": "Productivity & Design",
+ "sources": [
+  {
+   "name": "Notion",
+   "url": "https://www.notion.com/security/advisories/security-incident-involving-a-third-party-ai-vendor-nov9"
+  },
+  {
+   "name": "The Register",
+   "url": "https://www.theregister.com/a/5308722"
+  }
+ ],
+ "item": 102210,
+ "thumb_words": "NOTION AI CHATS EXPOSED",
+ "idea": "news",
+ "traction": 21
+}

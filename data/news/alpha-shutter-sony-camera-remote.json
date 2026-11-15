@@ -1,0 +1,23 @@
+{
+ "slug": "alpha-shutter-sony-camera-remote",
+ "date": "2026-11-14",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Photo",
+ "tag": "Quick",
+ "head": "Alpha Shutter turns an iPhone into a Bluetooth remote for Sony cameras",
+ "dek": "Alpha Shutter (9.99 dollars, by Kevin Adam) controls the shutter, autofocus and timelapse intervals of compatible Sony cameras over Bluetooth, so the phone keeps its internet. It was #58 among paid Photo & Video apps on the US App Store on 14 November.",
+ "quick": true,
+ "apps": [
+  "Alpha Shutter"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/alpha-shutter/id6804771420"
+  }
+ ],
+ "item": 102385,
+ "idea": "newcomer",
+ "traction": 0
+}

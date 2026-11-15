@@ -1,0 +1,31 @@
+{
+ "slug": "happyshrimp-ai-music-app-china",
+ "date": "2026-11-13",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Alibaba's HappyShrimp AI song maker is now an iPhone and Android app",
+ "dek": "HappyShrimp, which writes lyrics, music and vocals for a whole song from a short description, came out as an app on 13 November after a web beta in August. In China a plan costs 30 yuan a month for 150 songs; outside China plans start at 14.90 dollars a month.",
+ "quick": true,
+ "apps": [
+  "HappyShrimp"
+ ],
+ "sources": [
+  {
+   "name": "AIbase",
+   "url": "https://news.aibase.com/news/32309"
+  },
+  {
+   "name": "BigGo Finance",
+   "url": "https://finance.biggo.com/news/d9ceea84-a2de-4490-bbad-8efba6d8d075"
+  },
+  {
+   "name": "App Store (China)",
+   "url": "https://apps.apple.com/cn/app/id6776488496"
+  }
+ ],
+ "item": 97404,
+ "idea": "news",
+ "traction": 15
+}

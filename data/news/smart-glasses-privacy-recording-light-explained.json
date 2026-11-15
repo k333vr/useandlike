@@ -1,0 +1,73 @@
+{
+ "slug": "smart-glasses-privacy-recording-light-explained",
+ "date": "2026-11-15",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Privacy",
+ "tag": "Explainer",
+ "head": "Smart glasses privacy concerns: how Google's new glasses handle them",
+ "dek": "Google's Gemini glasses, on pre-order since 12 November, turn on an outside light when they take a photo or video, are designed to block the camera if that light is covered, and blur bystanders' faces before images go to Gemini; Google calls these design measures, and no independent tests have been published yet.",
+ "sections": [
+  {
+   "h": "Why this comes up now",
+   "p": [
+    "Google and Samsung's Intelligent Eyewear opened for pre-order on 12 November through Warby Parker and Gentle Monster, first in the US and South Korea, with delivery expected in mid-December, according to Android Headlines.",
+    "The same day, Google's head of XR, Shahram Izadi, published a post on how the glasses deal with privacy. It follows months of pressure on Meta over its camera glasses: US senators Ron Wyden and Ed Markey wrote to Meta asking about tampering with its recording light and about people being filmed without consent."
+   ]
+  },
+  {
+   "h": "The recording light",
+   "p": [
+    "Every pair has a light on the outside that turns on when the glasses take a photo or video for your gallery. Google says its research with wearers, bystanders and privacy experts found that bystanders were helped most by a clear recording light.",
+    "If the light is covered or tampered with, sensors are designed to notice and block photos and videos. 9to5Google reports that the glasses check the light regularly, that it may blink white and blue while charging as part of that check, and that the camera is turned off if the light isn't working. Google Shopping and Google Ads also ban listings and ads for products that hide or disable recording lights.",
+    "One gap: according to 9to5Google, the light stays off when the wearer uses the camera only to ask Gemini about what's in front of them. Images captured that way are deleted right after use and don't appear in Gemini's chat history."
+   ]
+  },
+  {
+   "h": "What Gemini sees and what's kept",
+   "p": [
+    "Google says the glasses are designed to blur the faces of people nearby before an image goes to Gemini; 9to5Google reports this happens on the phone, inside the glasses app, before the image is sent. Camera images used for Gemini questions aren't saved in Gemini History and aren't used to train AI or target ads. A photo or video you ask Gemini to take goes to your gallery.",
+    "Data on the glasses is encrypted, and so is data sent to the phone or the cloud. The microphones point at the wearer's voice by default rather than other voices nearby, and 9to5Google says live translation listens in a 60-degree area in front of the wearer."
+   ]
+  },
+  {
+   "h": "Rules for apps and for wearers",
+   "p": [
+    "Google Play's rules bar apps on the glasses from using the camera for live streaming to social media or for recognising faces in real time, and from changing how the light works. Apps must ask before they use the camera for the first time, and you can take that permission back for each app at any time. Android Headlines points out that Ray-Ban Meta glasses can stream straight to Instagram and Facebook.",
+    "Before using the glasses, wearers must agree not to record people without permission, not to record in sensitive places and not to cover the light. Breaking these rules breaks Google's terms and can cost the wearer access to the glasses. Setup needs a Google account for someone 18 or older. Videos are limited to 90 seconds, compared with up to 5 minutes on Meta's glasses, and a switch on the frame turns the glasses off completely."
+   ]
+  },
+  {
+   "h": "What's still open",
+   "p": [
+    "Help Net Security notes that the tamper check, the face blurring and the voice focus are described as design intentions, so they will need testing once the glasses ship. Google's Private AI Compute, its sealed-off system for processing data, isn't on the glasses yet; Google says it's coming soon, without a date."
+   ]
+  }
+ ],
+ "means": "If you're near someone wearing these glasses, the light tells you a photo or video is being taken, but it stays off when the wearer only asks Gemini about the scene. If you buy a pair, you agree to recording rules that Google can enforce by disabling the glasses.",
+ "todo": "If you get a pair, check which apps may use the camera, review or delete your Gemini History, and use the power switch in private places. If you're bothered by someone's glasses, look for the light and ask them to stop recording.",
+ "apps": [
+  "Gemini"
+ ],
+ "idea": "competitor",
+ "traction": 0,
+ "thumb_words": "GOOGLE GLASSES: THE RECORDING LIGHT",
+ "sources": [
+  {
+   "name": "Google",
+   "url": "https://blog.google/innovation-and-ai/technology/safety-security/intelligent-eyewear-privacy-protections/"
+  },
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/12/google-android-xr-glasses-camera-privacy/"
+  },
+  {
+   "name": "Android Headlines",
+   "url": "https://www.androidheadlines.com/2026/11/samsung-intelligent-eyewear-privacy-live-streaming.html"
+  },
+  {
+   "name": "Help Net Security",
+   "url": "https://www.helpnetsecurity.com/2026/11/13/google-smart-glasses-privacy-protections/"
+  }
+ ]
+}

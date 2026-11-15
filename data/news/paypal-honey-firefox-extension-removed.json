@@ -1,0 +1,32 @@
+{
+ "slug": "paypal-honey-firefox-extension-removed",
+ "date": "2026-11-14",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Shopping",
+ "tag": "Heads-up",
+ "head": "PayPal Honey Firefox extension pulled from Mozilla's add-on store",
+ "dek": "The PayPal Honey coupon extension is no longer on Firefox's add-on store: Mozilla's add-on listing marks it as disabled by the developer, not removed by Mozilla. PayPal had emailed Firefox users that Honey would stop being available in Firefox from December 30, 2026.",
+ "details": "In the email, PayPal said it is focusing on the browsers most Honey users rely on. The extension stays available for Chrome, Safari, Edge and Opera. PayPal said Honey rewards, Droplist items and settings are not affected, and the Honey website still works in any browser, Firefox included, to manage your account, redeem rewards and browse deals.",
+ "where": "Firefox on computers; the Chrome, Safari, Edge and Opera versions stay",
+ "means": "If you shop with Honey in Firefox, the extension won't find coupons there for much longer, but the points you've collected aren't lost.",
+ "todo": "Redeem or check your Honey rewards on the Honey website, which still works in Firefox. If you want the extension itself, it's only offered for Chrome, Safari, Edge and Opera now.",
+ "apps": [
+  "PayPal Honey",
+  "Firefox"
+ ],
+ "item": 101248,
+ "thumb_words": "HONEY LEAVES FIREFOX",
+ "idea": "news",
+ "traction": 15,
+ "sources": [
+  {
+   "name": "Firefox Add-ons",
+   "url": "https://addons.mozilla.org/en-US/firefox/addon/honey/"
+  },
+  {
+   "name": "PiunikaWeb",
+   "url": "https://piunikaweb.com/2026/11/09/paypal-honey-ending-firefox-support/"
+  }
+ ]
+}

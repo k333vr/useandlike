@@ -1,0 +1,24 @@
+{
+ "slug": "gemini-task-automation-app-list",
+ "date": "2026-11-13",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Gemini task automation may work with 134 apps, a hidden list shows",
+ "dek": "A hidden list on Android 17, reported by Android Authority, names at least 134 apps such as Uber, Airbnb, Slack and Starbucks for Gemini's task automation, grouped by country; Google's own page only says \"select apps\" and hasn't confirmed the list.",
+ "quick": true,
+ "rumor": true,
+ "apps": [
+  "Gemini"
+ ],
+ "item": 96231,
+ "sources": [
+  {
+   "name": "Android Headlines",
+   "url": "https://www.androidheadlines.com/2026/11/apps-gemini-task-automation-lined-up-to-handle.html"
+  }
+ ],
+ "idea": "news",
+ "traction": 0
+}

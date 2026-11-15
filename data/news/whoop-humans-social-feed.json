@@ -1,0 +1,23 @@
+{
+ "slug": "whoop-humans-social-feed",
+ "date": "2026-11-13",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Health",
+ "tag": "Quick",
+ "quick": true,
+ "head": "WHOOP Humans lets you follow friends' sleep and recovery",
+ "dek": "WHOOP's new Humans feature in its app lets members follow friends and family and see the sleep, recovery, strain and workouts they choose to share, with photos, notes and privacy controls.",
+ "apps": [
+  "WHOOP"
+ ],
+ "item": 93489,
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "Product Hunt",
+   "url": "https://www.producthunt.com/products/whoop"
+  }
+ ]
+}

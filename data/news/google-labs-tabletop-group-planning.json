@@ -1,0 +1,23 @@
+{
+ "slug": "google-labs-tabletop-group-planning",
+ "date": "2026-11-11",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Google Labs Tabletop builds polls and trip plans for group chats",
+ "dek": "Tabletop, a Google Labs experiment, lets a group share links and ideas in one space and ask its AI for itineraries, dinner polls, expense splitters or brackets; it's opening through a waitlist in the US for people 18 and older.",
+ "quick": true,
+ "apps": [
+  "Google Labs"
+ ],
+ "sources": [
+  {
+   "name": "Google",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/"
+  }
+ ],
+ "item": 99524,
+ "idea": "newcomer",
+ "traction": 0
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "snowflaker-name-snowflake-app",
+ "date": "2026-11-14",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Design",
+ "tag": "Quick",
+ "head": "Snowflaker turns any name into its own snowflake design",
+ "dek": "Snowflaker, a new 99-cent iPhone and iPad app by Floyd Hayes, makes a snowflake from a name for cards, wallpapers and stickers, with no in-app purchases; it was number 10 among paid Graphics & Design apps in the US on 14 November.",
+ "quick": true,
+ "apps": [
+  "Snowflaker"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/snowflaker/id6823347789"
+  }
+ ],
+ "item": 102390,
+ "idea": "newcomer",
+ "traction": 0
+}

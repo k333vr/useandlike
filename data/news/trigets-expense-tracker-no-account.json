@@ -1,0 +1,27 @@
+{
+ "slug": "trigets-expense-tracker-no-account",
+ "date": "2026-11-13",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Money",
+ "tag": "New app",
+ "head": "TriGets: an expense tracker app with no account and no ads",
+ "dek": "TriGets is a new Android budget app that keeps your income, expenses, budgets and cards in a database on your phone instead of a server, with no account and no ads. The basics are free; bill splitting, trip costs and receipt scanning need the Pro subscription, with a 7-day free trial.",
+ "details": "It tracks recurring payments, credit card due dates and installments, and shows a balance widget. Backups are encrypted and go to a folder you choose; exports are JSON, CSV or PDF, and a PIN or fingerprint can lock the app. Receipt scanning uses your own AI key (Gemini, OpenAI, Claude or OpenRouter). The developer describes himself as a solo accountant; the app is new, with 10+ downloads on Google Play.",
+ "where": "Android, Google Play; Pro is a monthly or yearly subscription",
+ "means": "If you don't want to sign up or hand your spending data to a company just to track a budget, this app keeps it on your phone; you're responsible for your own backups.",
+ "todo": "Search TriGets on Google Play. If you try Pro, cancel the trial in Google Play's Subscriptions at least 24 hours before it renews if you don't want to pay.",
+ "apps": [
+  "TriGets"
+ ],
+ "item": 98963,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "TRIGETS: BUDGET APP, NO ACCOUNT",
+ "sources": [
+  {
+   "name": "Google Play",
+   "url": "https://play.google.com/store/apps/details?id=com.trigets.app"
+  }
+ ]
+}

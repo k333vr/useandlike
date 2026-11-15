@@ -1,0 +1,27 @@
+{
+ "slug": "tallied-time-tracker-iphone",
+ "date": "2026-11-14",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Productivity",
+ "tag": "New app",
+ "head": "Tallied time tracker app for iPhone: one button to start and stop",
+ "dek": "Tallied is a new 1.99 dollar time tracking app for iPhone and iPad: press Start when you begin a task and Stop when you finish, and it logs your day and week. It was number 66 among paid Productivity apps on the US App Store on 14 November.",
+ "details": "You can say how long a task should take and get an alert when you pass it, and the gaps between tasks show as personal time you can turn into work. There's a weekly chart by day and by client, a task list, a to-do list, companies for people with several clients, and CSV export and import. Your times are encrypted on the phone and the sync service only sees scrambled data; a recovery code adds a second device. It's made by Blokhaus Inc. and came out on 13 November.",
+ "where": "iPhone and iPad, 1.99 dollars, out since 13 November",
+ "means": "If you bill by the hour or want to see where your day goes, Tallied tracks it without projects, tags or timesheets to set up.",
+ "todo": "Keep the recovery code somewhere safe: the listing says it's how you get your times back on a new phone.",
+ "apps": [
+  "Tallied Time Tracker"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/tallied-time-tracker/id6834472922"
+  }
+ ],
+ "item": 102380,
+ "thumb_words": "ONE-TAP TIME TRACKER",
+ "idea": "newcomer",
+ "traction": 0
+}

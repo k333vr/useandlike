@@ -1,0 +1,74 @@
+{
+ "slug": "iphone-charger-watts-explained",
+ "date": "2026-11-15",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Apple",
+ "tag": "Explainer",
+ "head": "iPhone charger watts explained: what iPhone, iPad and Mac need",
+ "dek": "Depending on the model, an iPhone needs a USB-C adapter of 18 to 60 watts to fast charge, and Apple says a Mac charges from any USB Power Delivery adapter, even one with fewer watts than recommended, so one strong enough USB-C adapter can charge several of your devices, though not always at full speed.",
+ "sections": [
+  {
+   "h": "Watts by iPhone model",
+   "p": [
+    "Apple's fast charging page, last updated on 22 October 2026, lists what each iPhone needs. The iPhone 18 Pro, 18 Pro Max and iPhone Duo need an adapter that can give 60 watts, such as Apple's 40W Dynamic Power Adapter with 60W Max or another maker's 60-watt adapter with Adjustable Voltage Supply and USB-PD 3.2. With the cable from the box, Apple says the 18 Pro models reach 50% in about 15 minutes and the Duo in about 20.",
+    "The iPhone 17, 17 Pro and 17 Pro Max need 40 watts or more for 50% in about 20 minutes. The iPhone 17e and iPhone Air need 20 watts or more for 50% in about 30 minutes. For iPhone 15 and later in general, Apple says an 18-watt USB-C Power Delivery adapter and a USB-C cable fast charge; older iPhones with Lightning use a USB-C to Lightning cable with the same kind of adapter."
+   ]
+  },
+  {
+   "h": "Wireless charging with MagSafe",
+   "p": [
+    "On the iPhone 18 Pro models and the Duo, a MagSafe Charger with an adapter of 35 watts or more reaches 50% in about 30 minutes. The iPhone 16, 17 and Air need a 30-watt adapter behind the MagSafe Charger. iPhone 15 and earlier charge wirelessly at up to 15 watts with a 20-watt adapter.",
+    "Apple's times come from its own tests with drained phones, and it says real times vary with the adapter, settings, use and temperature. Fast charging may not work when the phone is too hot or too cold. The wattage of an Apple adapter is printed on its label."
+   ]
+  },
+  {
+   "h": "What a Mac needs",
+   "p": [
+    "Apple's Mac page, updated on 21 May 2026, says a Mac that charges over USB-C can use any USB-C adapter or display that supports USB Power Delivery, and adapters with higher or lower wattage than Apple's own will charge it. To charge at full speed, Apple recommends at least the wattage it lists for your model.",
+    "That's 20 watts for the MacBook Neo and 30 watts for the 13-inch MacBook Air from 2022 on, which also works with the 40W Dynamic Power Adapter. For the 14-inch MacBook Pro from 2021 on, Apple lists 67, 70 or 96 watts, and for the 16-inch MacBook Pro from 2021 on, 140 watts.",
+    "To see what a connected adapter gives your Mac, hold the Option key, open the Apple menu, choose System Information, select Power and look under AC Charger Information."
+   ]
+  },
+  {
+   "h": "Apple's 40-watt adapter",
+   "p": [
+    "Apple's 40W Dynamic Power Adapter with 60W Max is the size of its 20-watt charger and can give up to 60 watts in short bursts, according to MacRumors. It came out in the US in September 2025 with the iPhone 17, in a UK plug version in November 2025, and on 25 August 2026 in a European two-pin version for countries including Austria, Germany, France, Italy, Spain and Poland, plus Vietnam, at 45 euros in most eurozone countries. MacRumors lists the iPhone 17 models, iPhone Air and iPad Pro models as devices it works with.",
+    "Apple's own page names adapters from other makers as an option too, as long as they meet the same standards."
+   ]
+  },
+  {
+   "h": "Charging habits and the battery",
+   "p": [
+    "On iPhone 15 and later, Apple lets you set a charge limit between 80% and 100% in steps of 5%. The phone stops close to the limit and starts again if the level drops more than 5% while it's plugged in; now and then it charges to 100% to keep its battery estimate accurate.",
+    "With the limit at 100%, Optimized Battery Charging can hold the charge at 80% when the phone expects to stay plugged in for a long time, such as overnight. Apple says it needs at least 14 days and nine charges of five hours or more in one place before it starts."
+   ]
+  }
+ ],
+ "means": "If you have several Apple devices, the number that matters is the watts on the adapter: enough for your biggest device and it can charge all of them, while a smaller one still charges, only more slowly.",
+ "todo": "Check the wattage printed on the adapters you already own and compare it with your iPhone or Mac model above. On a Mac, check AC Charger Information in System Information. On iPhone 15 or later, look at the charge limit in the battery settings.",
+ "apps": [
+  "iPhone"
+ ],
+ "idea": "competitor",
+ "traction": 0,
+ "thumb_words": "HOW MANY WATTS YOUR IPHONE NEEDS",
+ "sources": [
+  {
+   "name": "Apple Support: fast charging",
+   "url": "https://support.apple.com/en-us/102574"
+  },
+  {
+   "name": "Apple Support: Mac power adapters",
+   "url": "https://support.apple.com/en-us/109509"
+  },
+  {
+   "name": "Apple Support: iPhone battery charging",
+   "url": "https://support.apple.com/en-us/108055"
+  },
+  {
+   "name": "MacRumors",
+   "url": "https://macrumors.com/2026/08/25/apple-40w-dynamic-power-adapter-europe"
+  }
+ ]
+}

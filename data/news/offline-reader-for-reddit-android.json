@@ -1,0 +1,27 @@
+{
+ "slug": "offline-reader-for-reddit-android",
+ "date": "2026-11-12",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Social",
+ "tag": "New app",
+ "head": "Reddit offline reader app for Android saves subreddits for flights",
+ "dek": "Offline Reader for Reddit is a new Android app that saves whole subreddits to your phone while you're on Wi-Fi, so you can read them later with no connection. The demo is free, and unlimited downloads cost 2.99 dollars once.",
+ "details": "Each saved subreddit keeps its posts and all their comments, plus pictures, GIFs, galleries and videos. The app has no ads. It's made by MapleBase Technologies, not by Reddit, and its Google Play listing was last updated on 3 November.",
+ "where": "Android, Google Play; free demo, 2.99 dollars once for unlimited downloads",
+ "means": "If you lose signal on planes or the subway, you can still scroll the subreddits you saved before you left.",
+ "todo": "Open the subreddits you want and pull down to save them while you still have Wi-Fi. Try the free demo before paying.",
+ "apps": [
+  "Offline Reader for Reddit"
+ ],
+ "sources": [
+  {
+   "name": "Google Play",
+   "url": "https://play.google.com/store/apps/details?id=app.redditoffline"
+  }
+ ],
+ "item": 88234,
+ "thumb_words": "READ REDDIT WITH NO INTERNET",
+ "idea": "newcomer",
+ "traction": 0
+}

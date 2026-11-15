@@ -1,0 +1,27 @@
+{
+ "slug": "moxie-raw-photo-editor-iphone",
+ "date": "2026-11-14",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Photo",
+ "tag": "New app",
+ "head": "Moxie RAW photo editor for iPhone Pro comes from a professional colorist",
+ "dek": "Moxie is a new 4.99 dollar RAW photo editor for iPhone, built around a color engine designed by a professional colorist. It edits only Apple ProRAW photos, so it needs an iPhone Pro or Pro Max.",
+ "details": "You start from one of its ready-made looks, then adjust exposure, white balance, contrast, saturation, shadows and highlights, with radial and linear masks and film-style grain, diffusion and halation. Edits save as you go and the RAW original stays untouched. It came out on 13 November and was #17 among paid Photo & Video apps on the US App Store on 14 November. It's made by Ryan Callahan, needs iOS 27, and its privacy label says no data is collected.",
+ "where": "iPhone Pro and Pro Max with ProRAW, iOS 27, 4.99 dollars on the App Store",
+ "means": "If you shoot ProRAW on an iPhone Pro, Moxie is a one-time purchase editor made for those files; JPEG and HEIF photos won't open in it.",
+ "todo": "Turn on ProRAW in your iPhone's camera settings before you shoot, since Moxie can't edit other photos. Check the App Store listing before you buy.",
+ "apps": [
+  "Moxie - RAW Photo Editor"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/moxie-raw-photo-editor/id6815185034"
+  }
+ ],
+ "item": 102384,
+ "thumb_words": "RAW EDITOR FROM A COLORIST",
+ "idea": "newcomer",
+ "traction": 0
+}

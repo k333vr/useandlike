@@ -1,0 +1,27 @@
+{
+ "slug": "recimora-recipe-keeper-app",
+ "date": "2026-11-13",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Food",
+ "tag": "New app",
+ "head": "Recimora app saves recipes from TikTok and Instagram screenshots",
+ "dek": "Recimora is a new iPhone and iPad app that turns a screenshot of a TikTok or Instagram recipe into a written recipe with ingredients and steps, finds a photo of the dish and files it in your own cookbook. It also reads food blog links, cookbook pages and handwritten recipe cards.",
+ "details": "It can scale a recipe to the number of people, has a cooking mode with large text that keeps the screen on, plans the week and builds shopping lists sorted by store aisle. The free version imports up to 5 recipes; writing recipes by hand, cooking mode and shopping lists stay free. Premium, a monthly or yearly subscription, unlocks unlimited imports, all twelve cookbook styles and menu suggestions. Recipes are stored on the phone; signing in with Apple or Google is optional and keeps a copy in your account.",
+ "where": "App Store, iPhone and iPad, free with a Premium subscription",
+ "means": "If your camera roll is full of recipe screenshots you never find again, this app puts them in one place as recipes you can cook from.",
+ "todo": "Try it with up to five of your saved screenshots on the free version before you decide on Premium; the listing doesn't show the subscription price.",
+ "apps": [
+  "Recimora"
+ ],
+ "item": 98473,
+ "thumb_words": "RECIPE SCREENSHOTS BECOME A COOKBOOK",
+ "idea": "newcomer",
+ "traction": 15,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/recimora-recipe-keeper/id6829491910"
+  }
+ ]
+}

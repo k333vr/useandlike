@@ -1,0 +1,27 @@
+{
+ "slug": "passport-country-counter-app",
+ "date": "2026-11-13",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Travel",
+ "tag": "New app",
+ "head": "PASSPORT countries visited app turns trips into passport stamps",
+ "dek": "PASSPORT: Country Counter is a free iPhone app that turns every country you've visited into a stamp in a digital passport, with maps of the countries and US states you've seen. On a folding iPhone Duo it opens like a real passport, two pages at a time.",
+ "details": "You can log return trips with dates, add notes and photos to a stamp, and share a card of your travels. The World Passport is free and needs no account. Version 1.2 on November 13 added two optional one-time purchases: a Parks Passport for all 64 US national parks and a Flight Log with airport stamps and estimated flight hours. It's made by Otas Temelis and needs iOS 18 or later.",
+ "where": "App Store, iPhone, iOS 18 or later",
+ "means": "If you like counting the countries you've been to, this keeps them as a stamp collection instead of a plain list.",
+ "todo": "The World Passport is free, so you can add your countries before deciding whether the paid books are worth it.",
+ "apps": [
+  "PASSPORT: Country Counter"
+ ],
+ "item": 96908,
+ "thumb_words": "YOUR TRIPS AS PASSPORT STAMPS",
+ "idea": "newcomer",
+ "traction": 24,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/passport-country-counter/id6822753543"
+  }
+ ]
+}

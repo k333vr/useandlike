@@ -1,0 +1,28 @@
+{
+ "slug": "simple-subway-nyc-map-app",
+ "date": "2026-11-14",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Travel",
+ "tag": "New app",
+ "category": "Travel",
+ "head": "Simple Subway NYC app puts the subway on a real street map",
+ "dek": "Simple Subway NYC is a new 1.99 dollar iPhone and iPad app that draws New York's subway lines and stations where they really are on a street map, plans a route and follows your ride stop by stop. It was number 60 among paid Navigation apps on the US App Store on 14 November.",
+ "details": "Tap a station to see every train that stops there and its next arrivals from the MTA's real-time feeds. During a trip the app confirms each station when your phone actually reaches it, since GPS often doesn't work underground; a 'Just Ride' mode follows any train without a destination. There's also a photo gallery of New York sorted by subway station, where you can post your own pictures with Sign in with Apple. It's made by Edward Brayman, has no ads, needs no account for the map, and isn't affiliated with the MTA.",
+ "where": "iPhone and iPad (iOS 17 or later), 1.99 dollars, out since 30 October",
+ "means": "If the classic subway diagram confuses you, this shows which streets and neighborhoods each station is actually in.",
+ "todo": "Get it on the App Store if you ride the New York subway. The map, arrivals and photos need an internet connection.",
+ "apps": [
+  "Simple Subway NYC"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/simple-subway-nyc/id6828502801"
+  }
+ ],
+ "item": 102406,
+ "thumb_words": "NYC SUBWAY ON A REAL MAP",
+ "idea": "newcomer",
+ "traction": 0
+}

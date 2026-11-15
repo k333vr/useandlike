@@ -1,0 +1,24 @@
+{
+ "slug": "pixel-11-pro-hilight-whatsapp",
+ "date": "2026-11-13",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Android",
+ "tag": "Quick",
+ "head": "Pixel 11 Pro's HiLight light now works for WhatsApp messages",
+ "dek": "HiLight, the Pixel 11 Pro's coloured light for chosen contacts, now also lights up for WhatsApp messages, a Google product manager confirmed; Google Messages support came with the November Pixel Drop.",
+ "quick": true,
+ "apps": [
+  "Pixel 11 Pro",
+  "WhatsApp"
+ ],
+ "item": 98499,
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/13/pixel-11-pro-hilight-whatsapp/"
+  }
+ ],
+ "idea": "news",
+ "traction": 0
+}

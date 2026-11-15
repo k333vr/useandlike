@@ -1,0 +1,27 @@
+{
+ "slug": "pixel-drop-november-bugs-camera",
+ "date": "2026-11-13",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Android",
+ "tag": "Quick",
+ "head": "November Pixel Drop bugs: camera errors, stuck notifications",
+ "dek": "Some Pixel owners report the camera failing, a sluggish notification drawer and accidental touches after the November Pixel Drop; for the camera, MobileSyrup suggests powering the phone off for five minutes, and Google hasn't commented.",
+ "quick": true,
+ "apps": [
+  "Pixel"
+ ],
+ "sources": [
+  {
+   "name": "MobileSyrup",
+   "url": "https://mobilesyrup.com/2026/11/13/googles-november-pixel-drop-update-is-already-loaded-with-bugs/"
+  },
+  {
+   "name": "Tech Advisor",
+   "url": "https://www.techadvisor.com/article/3284801/psa-dont-install-google-november-pixel-drop-yet.html"
+  }
+ ],
+ "item": 94397,
+ "idea": "news",
+ "traction": 21
+}

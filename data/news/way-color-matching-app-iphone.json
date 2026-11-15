@@ -1,0 +1,23 @@
+{
+ "slug": "way-color-matching-app-iphone",
+ "date": "2026-11-14",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Apple",
+ "tag": "Quick",
+ "quick": true,
+ "head": "WAY picks a color from a photo and shows the colors that match it",
+ "dek": "WAY: Color Your Way ($19.99, iPhone and iPad) suggests matching colors with HEX and RGB codes and saves palettes offline with no account; it was #39 among paid Graphics & Design apps on the US App Store on 14 November.",
+ "apps": [
+  "WAY: COLOR YOUR WAY"
+ ],
+ "item": 102392,
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/way-color-your-way/id6833586010"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "slug": "kickstand-cam-old-iphone-webcam",
+ "date": "2026-11-11",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "Use an old iPhone as a webcam on Windows or Mac with Kickstand Cam",
+ "dek": "Kickstand Cam is a new free app that turns an iPhone you no longer use into a webcam for a Windows PC or Mac, over Wi-Fi or a USB cable. It can also watch a room for motion and scan documents to the computer.",
+ "details": "Your computer sees a camera called Kickstand Cam, which you can pick in Zoom, Teams, Meet or OBS; video runs at 720p and 30 frames per second. In camera monitor mode the computer records clips when it sees motion and can send an alert; clips stay on the computer, not in a cloud. The scanner makes searchable PDFs, copies text to the computer's clipboard and reads barcodes and QR codes. There's no account: you pair once by scanning a QR code, and the developer, Gurwinder Singh, says there are no ads or tracking.",
+ "where": "iPhone X or later with iOS 16 or later, plus a free companion app for Windows 11 (22H2 or later) or macOS 13 or later",
+ "means": "If an old iPhone sits in a drawer, it can stand in for a webcam on calls instead of buying one.",
+ "todo": "Install Kickstand Cam on the iPhone from the App Store and the free companion app from kickstand.recno.app on the computer, then pair them with the QR code. Keep the app open on the phone while you use it; on Windows, a USB cable needs Apple Devices or iTunes.",
+ "apps": [
+  "Kickstand Cam"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/kickstand-cam/id6826891797"
+  },
+  {
+   "name": "Kickstand Cam",
+   "url": "https://kickstand.recno.app/"
+  }
+ ],
+ "item": 100411,
+ "thumb_words": "OLD IPHONE = FREE WEBCAM",
+ "idea": "newcomer",
+ "traction": 24
+}

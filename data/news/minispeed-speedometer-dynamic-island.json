@@ -1,0 +1,23 @@
+{
+ "slug": "minispeed-speedometer-dynamic-island",
+ "date": "2026-11-14",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Navigation",
+ "tag": "Quick",
+ "head": "MiniSpeed puts your driving speed in the iPhone's Dynamic Island",
+ "dek": "MiniSpeed (99 cents once, no subscription or ads) shows your speed in mph, km/h or knots as a Live Activity on the Lock Screen and Dynamic Island, using GPS on your phone only; it was #68 among paid Navigation apps in the US on 14 November.",
+ "quick": true,
+ "apps": [
+  "MiniSpeed"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/minispeed-speedometer/id6807212051"
+  }
+ ],
+ "item": 102407,
+ "idea": "newcomer",
+ "traction": 0
+}

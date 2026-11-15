@@ -1,0 +1,25 @@
+{
+ "slug": "zen-browser-drm-netflix-spotify",
+ "date": "2026-11-14",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Apps",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Zen browser will soon play Netflix and Spotify on Windows and Mac",
+ "dek": "Zen says DRM support is coming very soon to its Windows and macOS versions, so Netflix and Spotify will play in the browser; there's no date yet.",
+ "apps": [
+  "Zen Browser",
+  "Netflix",
+  "Spotify"
+ ],
+ "item": 100949,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "PiunikaWeb",
+   "url": "https://piunikaweb.com/2026/11/14/zen-browser-drm-support-netflix-spotify-playback/"
+  }
+ ]
+}

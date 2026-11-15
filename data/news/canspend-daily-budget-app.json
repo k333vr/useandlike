@@ -1,0 +1,27 @@
+{
+ "slug": "canspend-daily-budget-app",
+ "date": "2026-11-13",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Money",
+ "tag": "New app",
+ "head": "CanSpend daily budget app for iPhone shows one number: what you can spend today",
+ "dek": "CanSpend turns a monthly budget into a daily one and shows a single number for what you can spend today; whatever you don't spend moves to tomorrow. It's free with ads on iPhone and came out on November 4.",
+ "details": "You log a purchase by typing the amount, and money coming in raises the number. A calendar marks days under budget in green and over budget in red. It needs no account and keeps records on your phone by default, with backup files and Home Screen widgets. CanSpend Pro (monthly or yearly) adds shared categories for two, cloud backup, sync and no ads; a one-time purchase removes ads. It's made by Son Sangmin.",
+ "where": "iPhone, App Store, free with ads and in-app purchases",
+ "means": "If budget apps with charts and categories lose you after a week, this one asks only for the amount you spent.",
+ "todo": "Set your monthly budget, then log each purchase as you make it so the daily number stays right.",
+ "apps": [
+  "CanSpend"
+ ],
+ "item": 92304,
+ "thumb_words": "CANSPEND: ONE NUMBER FOR TODAY",
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store: CanSpend - Daily Budget",
+   "url": "https://apps.apple.com/us/app/canspend-daily-budget/id6821758083"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "att-app-down-november-13",
+ "date": "2026-11-13",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Phones",
+ "tag": "Quick",
+ "head": "AT&T app down on November 13 with network problems in some cities",
+ "dek": "The AT&T app wouldn't load or sign in for about three hours on 13 November while some customers reported network outages; Android Authority says the app was back by the afternoon, and AT&T gave no cause.",
+ "quick": true,
+ "apps": [
+  "AT&T"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/att-app-down-3735059/"
+  }
+ ],
+ "item": 95158,
+ "idea": "news",
+ "traction": 0
+}

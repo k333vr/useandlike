@@ -1,0 +1,24 @@
+{
+ "slug": "call-e-ai-agents-phone-calls",
+ "date": "2026-11-13",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "CALL-E lets AI agents in ChatGPT make phone calls for you",
+ "dek": "AI Rudder launched CALL-E, which lets AI agents in ChatGPT, Muse and OpenClaw place real phone calls after you approve each one and then report what was agreed; new users get 100 free credits.",
+ "quick": true,
+ "apps": [
+  "CALL-E",
+  "ChatGPT"
+ ],
+ "item": 94995,
+ "sources": [
+  {
+   "name": "LiveNews.co.nz (Media OutReach release)",
+   "url": "https://livenews.co.nz/2026/11/14/call-e-lets-ai-agents-in-chatgpt-muse-and-openclaw-make-real-phone-calls-on-their-users-behalf/"
+  }
+ ],
+ "idea": "news",
+ "traction": 0
+}

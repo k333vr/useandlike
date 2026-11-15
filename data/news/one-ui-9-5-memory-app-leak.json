@@ -1,0 +1,23 @@
+{
+ "slug": "one-ui-9-5-memory-app-leak",
+ "date": "2026-11-14",
+ "added": "2026-11-15",
+ "topic": "Android",
+ "tag": "Leak",
+ "rumor": true,
+ "head": "One UI 9.5 leaked feature: Memory app may save screenshots and notes",
+ "dek": "Samsung appears to be preparing Memory, a Galaxy AI app for One UI 9.5 that collects your screenshots, voice notes, links and text in one searchable place, according to onboarding screens SamMobile found. Samsung hasn't confirmed it.",
+ "details": "The leaked screens show AI-written titles, summaries and tags for each item, collections that group related items, and link detection in screenshots. You'd add things through the share sheet, by pasting or by recording a voice note, and you could rename, delete or favourite them. An on-device processing option is reportedly there, and the app can be turned off. Engadget compares it to Google's Pixel Screenshots.",
+ "where": "Galaxy phones with One UI 9.5; not confirmed, expected with the Galaxy S27 in early 2027",
+ "means": "If you keep screenshots and voice memos to remember things, a later Galaxy update may sort and search them for you.",
+ "todo": "Nothing to do yet. A One UI 9.5 beta is expected soon, which may show whether Memory is in it.",
+ "apps": ["One UI", "Samsung"],
+ "item": 100469,
+ "idea": "news",
+ "traction": 18,
+ "thumb_words": "SAMSUNG MEMORY APP COMING?",
+ "sources": [
+  {"name": "Engadget", "url": "https://www.engadget.com/2316348/samsung-one-ui-9-5-feature-memory-app-from-pixel-playbook/"}
+ ],
+ "checked": "2026-11-15"
+}

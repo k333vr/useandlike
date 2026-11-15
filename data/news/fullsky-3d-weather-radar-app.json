@@ -1,0 +1,27 @@
+{
+ "slug": "fullsky-3d-weather-radar-app",
+ "date": "2026-11-14",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Weather",
+ "tag": "New app",
+ "head": "FullSky 3D weather radar app lets you slice through US storms",
+ "dek": "FullSky shows live US weather radar in 3D, so you can turn a storm around and cut through it to see hail cores or signs of rotation. It costs 4.99 dollars and was #30 among paid Weather apps on the US App Store on November 14.",
+ "details": "It uses Level II data from every working National Weather Service NEXRAD radar, updated as each radar scans, and can open past storms from the NOAA archive for any day. Tornado and severe thunderstorm warnings stand in 3D over the warned area. You can save screenshots, orbiting videos and time-lapses. It came out on November 13 from Create Modern LLC and works only with US radar.",
+ "where": "App Store, iPhone and iPad (iOS 26 or later), US radar only; 4.99 dollars",
+ "means": "If you follow storms, FullSky shows what's inside them in 3D instead of a flat map, for live and past storms.",
+ "todo": "Use it to learn and explore; during severe weather, the app itself says to follow the National Weather Service and local officials.",
+ "apps": [
+  "FullSky"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/fullsky-3d-weather-radar/id6821435812"
+  }
+ ],
+ "item": 102408,
+ "thumb_words": "SEE INSIDE STORMS IN 3D",
+ "idea": "newcomer",
+ "traction": 0
+}

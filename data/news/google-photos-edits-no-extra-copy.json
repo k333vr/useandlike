@@ -1,0 +1,23 @@
+{
+ "slug": "google-photos-edits-no-extra-copy",
+ "date": "2026-11-11",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Google",
+ "tag": "Quick",
+ "head": "Google Photos stops making a second copy for some edits on Android",
+ "dek": "Google Photos on Android 11 and newer no longer saves a separate copy after edits like Magic Eraser or Unblur, and saved edits can be reopened and changed later. Google hasn't given a rollout date.",
+ "quick": true,
+ "apps": [
+  "Google Photos"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/google-photos-save-upgrade-3733730/"
+  }
+ ],
+ "item": 90488,
+ "idea": "news",
+ "traction": 0
+}

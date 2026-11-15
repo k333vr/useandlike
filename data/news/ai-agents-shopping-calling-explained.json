@@ -1,0 +1,76 @@
+{
+ "slug": "ai-agents-shopping-calling-explained",
+ "date": "2026-11-15",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "AI",
+ "tag": "Explainer",
+ "category": "AI Tools",
+ "head": "AI agents shopping for you: what ChatGPT, Gemini and Meta Muse can do",
+ "dek": "Since this week, ChatGPT's Dots agents can buy things for US Pro subscribers once you approve each purchase, Meta's Muse can phone US businesses for paying users, and Gemini can read your Google Wallet spending without touching your money; some sellers, Amazon and United Airlines among them, block agents.",
+ "sections": [
+  {
+   "h": "Paying: ChatGPT Wallet",
+   "p": [
+    "OpenAI launched ChatGPT Wallet on 13 November. It lets Dots, the personal AI agents OpenAI introduced in late September, make purchases for you. It starts with ChatGPT Pro subscribers in the US who are 18 or older and have a US-issued Visa, Mastercard or American Express card.",
+    "You add a card once. When a Dot has found something, you check the items and the total, pick the card and approve with Face ID or a fingerprint. The Dot never gets your card number: the card networks issue a payment token that works for that one purchase, and each purchase leaves a record. OpenAI says your card rewards and protections for eligible disputes stay as they are, and it takes no cut of purchases at launch.",
+    "It's OpenAI's second try. CNBC reports that its Instant Checkout feature from fall 2025 was dropped soon after launch."
+   ]
+  },
+  {
+   "h": "Calling: Meta Muse",
+   "p": [
+    "On 12 November, Meta made phone calls to US businesses available to every paying Muse subscriber in the US. Meta had tested calling since September with early users who asked for access. Muse plans start at 20 dollars a month for 500 million Muse tokens a week; a 100-dollar plan gives 3 billion.",
+    "Meta's chief AI officer Alexandr Wang suggested calls to a cable company, the DMV, an insurer or a restaurant that doesn't take bookings online. TechCrunch notes that many businesses hang up once they realise an AI is calling, and its report doesn't say whether Muse tells the business it's an AI. Google's Gemini can also make calls."
+   ]
+  },
+  {
+   "h": "Reading: Gemini and Google Wallet",
+   "p": [
+    "Google announced on Thursday, 12 November, that Gemini app users in the US can connect Google Wallet. You tag Wallet in a chat and ask, for example, for a chart of last quarter's spending, the subscriptions that went up in price or a holiday budget based on last year. Bank and card accounts linked through Plaid give Gemini more to work with.",
+    "The connection is off until you turn it on, and it only reads: Gemini can't move, manage or invest money or pay for anything. Google says it doesn't train its AI directly on Wallet data, but its help pages say it may train on summaries of your transactions if Gemini activity is on, and some chats may be read by human reviewers. Paying is a separate Google feature, Universal Cart."
+   ]
+  },
+  {
+   "h": "Where agents are turned away",
+   "p": [
+    "Not every store lets agents in. Amazon stops AI agents from buying on its site, and Android Authority reports that it blocked Meta's Muse. United Airlines said on 11 November that it will block AI agents from booking tickets in its systems.",
+    "OpenAI has published a playbook for businesses, including how to check that a website isn't blocking its agents by accident. OpenAI's product lead Chaya Nayak told CNBC that it will take time for the industry to build what's needed."
+   ]
+  },
+  {
+   "h": "What isn't here yet",
+   "p": [
+    "OpenAI says it expects people to eventually let an agent buy things without approving each one, inside limits such as a spending cap, certain kinds of purchases or a time period. That's a plan, not a feature. For now, American Express told CNBC the limited start is on purpose, so the companies can watch how it works before going further."
+   ]
+  }
+ ],
+ "means": "For now, AI agents that spend money or make calls are for paying US subscribers, and ChatGPT asks you to approve every purchase. Letting Gemini read your spending is free in the US, but your data may be used in ways the settings decide.",
+ "todo": "If you try one, start with read-only connections, keep the approval step on, and check that each purchase record matches your card statement. In Gemini, look at your Gemini activity setting before you connect Wallet.",
+ "apps": [
+  "ChatGPT",
+  "Gemini",
+  "Muse"
+ ],
+ "idea": "explainer",
+ "traction": 0,
+ "thumb_words": "AI AGENTS THAT SHOP AND CALL",
+ "sources": [
+  {
+   "name": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html"
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/chatgpt-wallet-3735154/"
+  },
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
+  },
+  {
+   "name": "The Next Web",
+   "url": "https://thenextweb.com/news/google-gemini-wallet-spending-insights-plaid"
+  }
+ ]
+}

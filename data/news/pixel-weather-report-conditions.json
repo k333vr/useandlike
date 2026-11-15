@@ -1,0 +1,23 @@
+{
+ "slug": "pixel-weather-report-conditions",
+ "date": "2026-11-13",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Google",
+ "tag": "Quick",
+ "head": "Pixel Weather now lets you report a wrong forecast",
+ "dek": "A new \"Report current weather\" option in the Pixel Weather app lets you say whether the forecast looks right, whether it feels warmer or colder and what the conditions are. Google collects the feedback, your device location and diagnostic data with it.",
+ "quick": true,
+ "apps": [
+  "Pixel Weather"
+ ],
+ "item": 93867,
+ "sources": [
+  {
+   "name": "Android Police",
+   "url": "https://www.androidpolice.com/you-can-report-inaccurate-weather-conditions-in-pixel-weather/"
+  }
+ ],
+ "idea": "news",
+ "traction": 0
+}

@@ -1,0 +1,32 @@
+{
+ "slug": "vela-maps-google-maps-alternative",
+ "date": "2026-11-14",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Android",
+ "tag": "New app",
+ "head": "Vela Maps: an open-source Google Maps alternative for Android",
+ "dek": "Vela Maps is a free, open-source navigation app for Android that looks and works much like Google Maps but runs without Google Play Services. It's still in beta and isn't on the Play Store; you install it from GitHub.",
+ "details": "It builds on OpenStreetMap data and only asks Google's public web services for search, place details, routes and traffic, and you can see a log of those requests or turn them off. It has turn-by-turn navigation with lane guidance and a speedometer, offline maps for downloaded regions, saved places you can import from Google Takeout, a parking button and Street View. Android Auto works only in some setups, and you can't post reviews or report hazards.",
+ "where": "Android, from GitHub (not the Play Store), in beta",
+ "means": "If you want Google-style maps on a phone without Google services, such as GrapheneOS, this is one to try; on a regular phone, expect beta bugs.",
+ "todo": "Download the APK from the project's GitHub Releases page (most phones need the arm64 file), or add it to Obtainium to get updates. Download your country's map if you want offline navigation.",
+ "apps": [
+  "Vela Maps",
+  "Google Maps"
+ ],
+ "item": 99843,
+ "idea": "news",
+ "traction": 18,
+ "thumb_words": "VELA MAPS: GOOGLE MAPS WITHOUT GOOGLE",
+ "sources": [
+  {
+   "name": "Vela on GitHub",
+   "url": "https://github.com/PimpinPumpkin/Vela"
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/vela-maps-vs-google-maps-android-3733791/"
+  }
+ ]
+}

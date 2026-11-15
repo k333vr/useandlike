@@ -1,0 +1,24 @@
+{
+ "slug": "whatsapp-instants-disappearing-photos-testing",
+ "date": "2026-11-13",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "WhatsApp is working on Instants, photos that vanish once seen",
+ "dek": "WABetaInfo spotted a lightning-bolt camera button in WhatsApp's Android beta 2.26.45.13 for photos and videos up to 30 seconds that disappear after viewing, with screenshots blocked; it's still in development and WhatsApp hasn't announced it.",
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 96354,
+ "idea": "news",
+ "traction": 23,
+ "sources": [
+  {
+   "name": "WABetaInfo",
+   "url": "https://wabetainfo.com/whatsapp-is-testing-instants-to-share-live-photos-and-videos/"
+  }
+ ]
+}

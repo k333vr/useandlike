@@ -1,0 +1,28 @@
+{
+ "slug": "crowcards-flashcards-no-subscription",
+ "date": "2026-11-14",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Education",
+ "tag": "New app",
+ "head": "CrowCards flashcard app with no subscription and no account",
+ "dek": "CrowCards is a flashcard app for iPhone and iPad that you buy once for 3.99 dollars: no account, no login and no subscription. It was #30 among paid Education apps on the US App Store on November 14.",
+ "details": "Each card gets a score from 0 to 10 as you rate it, and the cards you struggle with come back first. There are four modes: flashcards, multiple-choice quizzes with wrong answers that look plausible, Mix and Match, and a five-minute Chaos Mode that mixes all three. Decks can be shared with a QR code and imported or exported through iCloud Drive, Google Drive or OneDrive. It's a rebuild of the maker's older EasyCards app, by Joseph Flanigan.",
+ "where": "App Store, iPhone and iPad (iOS 16.4 or later); 3.99 dollars once",
+ "means": "If you're tired of study apps that want a monthly fee, CrowCards is a one-time purchase and keeps your decks on your device.",
+ "todo": "Bring your existing decks in with the import option; the maker says photo flashcards and note scanning are being worked on.",
+ "apps": [
+  "CrowCards"
+ ],
+ "category": "Education",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/crowcards/id6760564165"
+  }
+ ],
+ "item": 102401,
+ "thumb_words": "FLASHCARDS, NO SUBSCRIPTION",
+ "idea": "newcomer",
+ "traction": 0
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "chatgpt-dots-custom-instructions",
+ "date": "2026-11-13",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "ChatGPT dots get their own custom instructions",
+ "dek": "You can now give your ChatGPT dot standing instructions, such as how to write and when to ask before acting, separate from ChatGPT's own; on mobile they're under Customize > Behavior, and desktop and web also work.",
+ "quick": true,
+ "apps": [
+  "ChatGPT"
+ ],
+ "item": 94271,
+ "sources": [
+  {
+   "name": "OpenAI: Control your dot",
+   "url": "https://learn.chatgpt.com/docs/dots/controls"
+  }
+ ],
+ "idea": "news",
+ "traction": 15
+}

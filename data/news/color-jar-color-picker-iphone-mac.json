@@ -1,0 +1,27 @@
+{
+ "slug": "color-jar-color-picker-iphone-mac",
+ "date": "2026-11-14",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Design",
+ "tag": "New app",
+ "head": "Color Jar color picker app for iPhone saves colors from camera or photos",
+ "dek": "Color Jar is a new color picker app that grabs a color from your camera, a photo or a screenshot and saves it with a name, ready to copy as hex, rgb or hsl. It costs 4.99 dollars once and was #27 among paid Graphics & Design apps on the US App Store on November 14.",
+ "details": "It pulls the main colors out of an image, keeps colors in folders with favorites and search, and builds palettes from a color or from a few words using Apple Intelligence. Whole palettes copy as CSS variables, Tailwind, SCSS or JSON. A pick can start from Control Center, the Lock Screen or the Action button, and there are 20 Shortcuts actions. One purchase covers iPhone, iPad and Mac, where it can pick colors from anywhere on the screen.",
+ "where": "App Store, iPhone, iPad and Mac (iOS 26 or later); 4.99 dollars, one purchase for all three",
+ "means": "If you design posts, slides or websites, Color Jar keeps every color you spot in one place and copies it in the format your tool needs.",
+ "todo": "Colors stay on your devices and in your own iCloud; the app has no accounts and doesn't keep camera photos, according to its listing.",
+ "apps": [
+  "Color Jar"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/color-jar-picker-palettes/id6823753758"
+  }
+ ],
+ "item": 102391,
+ "thumb_words": "COLOR JAR: PICK ANY COLOR",
+ "idea": "newcomer",
+ "traction": 0
+}

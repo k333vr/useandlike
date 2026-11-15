@@ -1,0 +1,23 @@
+{
+ "slug": "red-eye-remover-app",
+ "date": "2026-11-14",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Photo",
+ "tag": "Quick",
+ "head": "Red Eye Remover fixes red eyes in photos on your iPhone, offline",
+ "dek": "Red Eye Remover & Corrector, a 1.99 dollar iPhone app, fixes red eyes automatically with manual touch-ups and never uploads your photos; it was #67 among paid Photo & Video apps on the US App Store on 14 November.",
+ "quick": true,
+ "apps": [
+  "Red Eye Remover & Corrector"
+ ],
+ "item": 102386,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/red-eye-remover-corrector/id6825742080"
+  }
+ ],
+ "idea": "newcomer",
+ "traction": 0
+}

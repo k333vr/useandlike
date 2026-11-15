@@ -1,0 +1,27 @@
+{
+ "slug": "habitosaur-dinosaur-habit-tracker",
+ "date": "2026-11-13",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Productivity",
+ "tag": "New app",
+ "head": "Habitosaur habit tracker app grows a dinosaur pet as you keep habits",
+ "dek": "Habitosaur is a new free habit tracker for Android with a dinosaur companion that grows as you check off habits. It sorts habits into morning, afternoon and evening routines and works offline without an account.",
+ "details": "Completed habits and daily quests earn XP and gems, which buy hats, glasses and other accessories for the dinosaur. You can set reminders, follow streaks and turn on an optional step counter that uses the phone's sensor, without GPS. Habit records stay on the phone, and you can export a backup. The Google Play listing says it contains ads; it's made by Lanternlight Labs.",
+ "where": "Android, Google Play, free with ads",
+ "means": "If streaks alone don't keep you going, a pet that grows with each habit is another reason to tick the box.",
+ "todo": "Export a backup from time to time, since your habits are kept only on your phone.",
+ "apps": [
+  "Habitosaur"
+ ],
+ "sources": [
+  {
+   "name": "Google Play",
+   "url": "https://play.google.com/store/apps/details?id=com.habitosaur"
+  }
+ ],
+ "item": 95171,
+ "thumb_words": "YOUR HABITS GROW A DINOSAUR",
+ "idea": "newcomer",
+ "traction": 0
+}

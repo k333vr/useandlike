@@ -15,7 +15,9 @@
   "Chrome"
  ],
  "item": 71886,
- "items": [83700],
+ "items": [
+  83700
+ ],
  "thumb_words": "UPDATE CHROME NOW",
  "sources": [
   {
@@ -23,5 +25,6 @@
    "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
   }
  ],
- "checked": "2026-11-11"
+ "checked": "2026-11-11",
+ "video": "w91Ejy4cc7g"
 }

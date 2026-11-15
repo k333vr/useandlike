@@ -1,0 +1,40 @@
+{
+ "slug": "att-copper-landline-shutdown-november-15",
+ "date": "2026-11-14",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Phones",
+ "tag": "Heads-up",
+ "head": "AT&T landline shutdown starts November 15, Verizon copper on November 16",
+ "dek": "AT&T is allowed to start shutting off old copper landlines in parts of 18 US states from November 15, and Verizon starts similar steps in 8 states on November 16. DSL internet over the same copper lines is being retired too.",
+ "details": "The FCC approval for AT&T covers parts of more than 1,000 local service areas and about 90,000 remaining customers, including 53 communities in Louisiana. AT&T's states are Alabama, Arkansas, Florida, Georgia, Indiana, Kansas, Kentucky, Louisiana, Michigan, Missouri, Mississippi, North Carolina, Ohio, Oklahoma, South Carolina, Tennessee, Texas and Wisconsin; Verizon's are Florida, Indiana, Minnesota, Nebraska, Nevada, North Carolina, Texas and Wisconsin. It happens area by area, not all at once, and affected customers get a letter first. Verizon says it won't cut service where no adequate replacement is available.",
+ "where": "Parts of 18 US states (AT&T) from November 15 and 8 states (Verizon) from November 16, area by area",
+ "means": "If you still have an AT&T or Verizon landline or DSL on copper, your line may stop working on the date in your letter. Alarms, fax machines and medical monitors on that line need a new connection too.",
+ "todo": "Look for the letter from your provider and check its date. Compare the replacements: AT&T offers Phone - Advanced, which keeps your number and existing home phones (not rotary phones) and has 24-hour battery backup for 911, plus fiber and wireless plans; Verizon offers fiber, fixed wireless and 5G home phone. Switch before the date, and check on older neighbors who still use a landline.",
+ "apps": [
+  "AT&T",
+  "Verizon"
+ ],
+ "item": 100172,
+ "items": [
+  92225
+ ],
+ "thumb_words": "AT&T LANDLINES SHUT OFF NOV 15",
+ "idea": "news",
+ "traction": 15,
+ "rank": 1,
+ "sources": [
+  {
+   "name": "Cord Cutters News",
+   "url": "https://cordcuttersnews.com/tomorrow-att-verizon-will-start-to-shut-down-their-traditional-copper-phone-service-dsl-internet/"
+  },
+  {
+   "name": "KNOE",
+   "url": "https://www.knoe.com/2026/11/13/att-begins-shutting-off-landlines-53-louisiana-communities/"
+  },
+  {
+   "name": "AT&T: Phone - Advanced",
+   "url": "https://www.att.com/home-phone/phone-advanced/"
+  }
+ ]
+}

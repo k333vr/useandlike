@@ -1,0 +1,25 @@
+{
+ "slug": "orchard-youtube-music-player",
+ "date": "2026-11-12",
+ "added": "2026-11-15",
+ "checked": "2026-11-15",
+ "topic": "Music",
+ "tag": "Quick",
+ "head": "Orchard is an unofficial YouTube Music and Apple Music player",
+ "dek": "Orchard, an open-source player for Windows, Linux and Android, plays your YouTube Music library or, with a subscription, Apple Music and Qobuz, with synced lyrics, a 10-band equalizer and Last.fm scrobbling. It's an independent project, not made or endorsed by Google or Apple, and the Android app is an APK from its own site.",
+ "quick": true,
+ "apps": [
+  "Orchard",
+  "YouTube Music",
+  "Apple Music"
+ ],
+ "item": 90122,
+ "sources": [
+  {
+   "name": "Orchard on GitHub",
+   "url": "https://github.com/SFG5453/Orchard"
+  }
+ ],
+ "idea": "news",
+ "traction": 0
+}
