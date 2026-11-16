@@ -1,0 +1,35 @@
+{
+ "slug": "remindly-notes-app-reminders",
+ "date": "2026-11-15",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Productivity",
+ "tag": "New app",
+ "head": "Remindly notes app: any note can carry a reminder, on iPhone and Mac",
+ "dek": "Remindly is a new notes app where a note can remind you once, on repeat, all day or when you arrive somewhere; it launched on Product Hunt on 15 November. It's free on two devices, and Pro costs $49 a year or $5.99 a month.",
+ "details": "Notes are saved on the device first, so they open and can be searched without a connection, then sync to the Mac app and remindly.com. You can add notes with Siri, Shortcuts or the Action button, scan paper notes, and clip articles from Safari, Chrome or Firefox. Pro adds place-based reminders, Read Aloud, locked notes, note history and unlimited devices. There's no Android app.",
+ "where": "iPhone, iPad, Mac and web; free plan for two devices",
+ "means": "If your notes and your to-dos live in two apps, this puts the reminder on the note itself.",
+ "todo": "Try the free plan from the App Store or remindly.com. Coming from Evernote, the site says an .enex import gets your first Pro year for $29.",
+ "apps": [
+  "Remindly"
+ ],
+ "item": 103479,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "REMINDLY: NOTES THAT REMIND YOU",
+ "sources": [
+  {
+   "name": "Remindly",
+   "url": "https://www.remindly.com"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/notes-reminders-remindly/id6826950120"
+  },
+  {
+   "name": "Product Hunt",
+   "url": "https://www.producthunt.com/products/remindly-6"
+  }
+ ]
+}

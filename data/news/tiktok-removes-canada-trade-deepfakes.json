@@ -1,0 +1,24 @@
+{
+ "slug": "tiktok-removes-canada-trade-deepfakes",
+ "date": "2026-11-13",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Social",
+ "tag": "Quick",
+ "head": "TikTok bans accounts behind deepfake videos about US-Canada trade",
+ "dek": "TikTok permanently banned accounts named in a McGill University report on a network using deepfakes of real influencers to spread false trade claims to Canadians. Meta confirmed the Instagram accounts were removed too.",
+ "quick": true,
+ "apps": [
+  "TikTok",
+  "Instagram"
+ ],
+ "sources": [
+  {
+   "name": "The Canadian Press via Penticton Herald",
+   "url": "https://www.pentictonherald.ca/news/national_news/article_fd6caa7f-ddf4-5baf-acba-6e76ec10471c.html"
+  }
+ ],
+ "item": 97252,
+ "idea": "news",
+ "traction": 0
+}

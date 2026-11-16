@@ -1,0 +1,29 @@
+{
+ "slug": "lyricsnow-synced-lyrics-app",
+ "date": "2026-11-15",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Music",
+ "tag": "New app",
+ "head": "LyricsNow: free synced lyrics app for Apple Music and Spotify",
+ "dek": "LyricsNow is a free app that shows lyrics line by line in time with your music, for songs from Apple Music or a connected Spotify account. It was #97 among free apps on the US Mac App Store on 15 November.",
+ "details": "You can change the timing, text size and background, and turn on translations and romanization. Lyrics can stay on screen in Picture in Picture while you use other apps, and Shazam can identify songs playing around you. The latest update, version 1.2.3, added a light or dark look, auto-hiding controls and six languages, including Spanish, French and German. It's made by a developer listed as 洁伟 薛 and has been out since 15 October.",
+ "where": "iPhone, iPad and Mac, free on the App Store",
+ "means": "If you like singing along or following songs in another language, this puts the lyrics in sync with what's playing, with translations.",
+ "todo": "Install LyricsNow from the App Store, then allow Apple Music access or connect Spotify in the app.",
+ "apps": [
+  "LyricsNow",
+  "Apple Music",
+  "Spotify"
+ ],
+ "item": 106153,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "LYRICSNOW: SING ALONG IN SYNC",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/lyricsnow-synced-lyrics/id6741103724"
+  }
+ ]
+}

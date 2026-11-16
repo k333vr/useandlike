@@ -1,0 +1,28 @@
+{
+ "slug": "windows-11-kb5132061-printer-problems",
+ "date": "2026-11-13",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Windows",
+ "tag": "Heads-up",
+ "head": "Printer not working after Windows 11 update KB5132061 for some users",
+ "dek": "Some documents with pictures may fail to print after Windows 11's November update, KB5132061. Microsoft has seen it in Word and says it's still investigating, with no fix yet.",
+ "details": "The problem hits documents with an image whose height or width is zero; Microsoft says apps other than Word may be affected too. Its support page also lists a fix for adding a printer published in Active Directory through Settings, which had failed with Error 87 since the October update; Microsoft says that one doesn't usually touch printers you already use. Separately, some PCs with October's optional preview update KB5127936 couldn't install KB5132061, with errors like 0x800f0993 that can cause a restart loop; Microsoft said it would fix that automatically.",
+ "where": "Windows 11 PCs with the November 2026 update",
+ "means": "If a Word document with pictures won't print since the update, it's a known Windows problem, not your printer.",
+ "todo": "Nothing to change on your printer yet. If an install error keeps coming back, let Windows Update retry: Microsoft says the fix comes automatically.",
+ "apps": [
+  "Windows 11",
+  "Microsoft Word"
+ ],
+ "sources": [
+  {
+   "name": "PCWorld",
+   "url": "https://www.pcworld.com/article/3285306/latest-windows-update-renders-printers-inoperable.html"
+  }
+ ],
+ "item": 95709,
+ "thumb_words": "WINDOWS UPDATE BREAKS SOME PRINTING",
+ "idea": "news",
+ "traction": 15
+}

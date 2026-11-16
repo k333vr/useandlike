@@ -1,0 +1,32 @@
+{
+ "slug": "pixel-family-hub-settings-rollout",
+ "date": "2026-11-14",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Android",
+ "tag": "New feature",
+ "head": "Google Family Hub comes to Pixel Settings for family plans and location",
+ "dek": "Pixel phones now show a Family section near the top of Settings that puts a Google family group's members, shared Google One storage, Play Family Library, shared payments and live location in one place. 9to5Google says it appeared widely on Pixels by 14 November.",
+ "details": "Each member has a page with their shared benefits, their location if they share it, and whether they're a parent; parents can remove a member or transfer an account from there. Google listed it in the release notes for Google Play services 26.43, dated 2 November. It has been seen on the Pixel 11 series and the Pixel 10 Pro, some still on the October update. Google hasn't said whether Samsung or other phone makers will get it.",
+ "where": "Pixel phones, rolling out through Google Play services",
+ "means": "If you run a Google family plan, you can manage members, storage and location sharing from your phone's Settings instead of Google's account pages. Without a family group, the page mostly invites you to create one.",
+ "todo": "Open Settings and look for Family under your Google account. If it isn't there yet, check for a Google Play system update under Settings, Security & privacy, System & updates.",
+ "apps": [
+  "Google Pixel",
+  "Google Family Link"
+ ],
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/14/google-pixel-family-hub-feature-rolled-out/"
+  },
+  {
+   "name": "TalkAndroid",
+   "url": "https://www.talkandroid.com/535038-google-pixel-family-hub-settings-rollout/"
+  }
+ ],
+ "item": 102441,
+ "thumb_words": "PIXEL SETTINGS GET FAMILY HUB",
+ "idea": "news",
+ "traction": 23
+}

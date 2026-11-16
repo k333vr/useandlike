@@ -1,0 +1,31 @@
+{
+ "slug": "gotemail-email-app-iphone-mac",
+ "date": "2026-11-14",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Email",
+ "tag": "New app",
+ "head": "GotEmail: new email app for iPhone and Mac puts all your accounts in one inbox",
+ "dek": "GotEmail is a new email app for iPhone, iPad and Mac that gathers Gmail, iCloud, Outlook, Yahoo and other accounts into one inbox. The iPhone app came to the App Store on 11 November, and it costs $6.99 a month or $79 a year after download.",
+ "details": "It pulls sign-in codes out of messages so one tap copies them, blocks tracking pixels in mail you receive and shows how many it blocked. AI can draft emails, summarize long threads and suggest replies, but only when you ask, and the app asks permission first. Version 1.2.0 added GotAI, an assistant that finds, sums up and files mail, plus Workspaces to group accounts. Your accounts and settings sync between Mac and iPhone by scanning a code, with end-to-end encryption.",
+ "where": "iPhone and iPad (iOS 18 or later) and Mac (macOS 15 or later); the iPhone app is included with the Mac plans",
+ "means": "If you juggle several email addresses and want them in one app that blocks read trackers, this is a new option, but it's a paid one.",
+ "todo": "Download GotEmail from the App Store and add your accounts; Outlook and Microsoft 365 use Sign in with Microsoft. Check the price on gotemail.net before you subscribe: plans run $6.99 a month or $79 a year, and a one-time purchase is also offered.",
+ "apps": [
+  "GotEmail"
+ ],
+ "item": 103481,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "GOTEMAIL: ALL INBOXES IN ONE APP",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/gotemail-email-with-ai/id6821502305"
+  },
+  {
+   "name": "GotEmail",
+   "url": "https://gotemail.net/"
+  }
+ ]
+}

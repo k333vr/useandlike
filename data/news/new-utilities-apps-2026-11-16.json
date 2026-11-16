@@ -1,0 +1,122 @@
+{
+ "slug": "new-utilities-apps-2026-11-16",
+ "date": "2026-11-16",
+ "added": "2026-11-16",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "8 new utility apps climbing the App Store this week",
+ "dek": "These utility apps came out in the last 60 days and rose into the US App Store's Utilities charts this week, most of them made for the foldable iPhone Duo, from Safari extensions to desk clocks and a fold counter.",
+ "where": "iPhone, US App Store Utilities charts (paid, plus WorkBuddy in free) this week",
+ "means": "If you have an iPhone Duo, several of these were made for its folding screen; the clocks, roam and WorkBuddy work on other iPhones too.",
+ "todo": "Check each App Store page before you buy: Desky needs an iPhone Duo for its Safari extension, and Fold Counter needs iOS 27.2 or later to count folds while it's closed.",
+ "apps": [
+  "Desky - Desktop Mode Switching",
+  "Clackity – Duo Flip Clock",
+  "Sidefill: Wide View for Safari",
+  "Fold Counter: Hinge Tracker",
+  "Grandeur Link",
+  "roam - one tap travel alarms",
+  "Tunnel Time – Duo Desk Clock",
+  "WorkBuddy - AI Work Agent"
+ ],
+ "list": [
+  {
+   "name": "Desky - Desktop Mode Switching",
+   "what": "A Safari extension that shows websites in desktop mode when your iPhone Duo is open and mobile mode when it's folded.",
+   "price": "$1.99",
+   "maker": "Vincent Neo",
+   "url": "https://apps.apple.com/us/app/desky-desktop-mode-switching/id6833103142"
+  },
+  {
+   "name": "Clackity – Duo Flip Clock",
+   "what": "A split-flap clock like an old train station board, with the date, weather and battery around it.",
+   "price": "$2.99",
+   "maker": "Brian Lowen",
+   "url": "https://apps.apple.com/us/app/clackity-duo-flip-clock/id6833613428"
+  },
+  {
+   "name": "Sidefill: Wide View for Safari",
+   "what": "A Safari extension that stretches web pages under Safari's side controls on the iPhone Duo's outer screen.",
+   "price": "$0.89",
+   "maker": "Seokyong Kim",
+   "url": "https://apps.apple.com/us/app/sidefill-wide-view-for-safari/id6830004679"
+  },
+  {
+   "name": "Fold Counter: Hinge Tracker",
+   "what": "Counts every fold and unfold of a foldable iPhone and estimates how much of the hinge's life you've used.",
+   "price": "$0.99",
+   "maker": "Julian Christopher Siebert",
+   "url": "https://apps.apple.com/us/app/fold-counter-hinge-tracker/id6827677447"
+  },
+  {
+   "name": "Grandeur Link",
+   "what": "Shows your Mac's screen on your iPhone over your home network, with a keyboard and trackpad to control it.",
+   "price": "$9.99",
+   "maker": "Grandeur france",
+   "url": "https://apps.apple.com/us/app/grandeur-link/id6829832826"
+  },
+  {
+   "name": "roam - one tap travel alarms",
+   "what": "Alarms tied to time zones: each one rings only while your phone is in that zone.",
+   "price": "$14.99",
+   "maker": "Blake Ziolkowski",
+   "url": "https://apps.apple.com/us/app/roam-one-tap-travel-alarms/id6830828485"
+  },
+  {
+   "name": "Tunnel Time – Duo Desk Clock",
+   "what": "A desk clock where ants dig each digit of the time, with the real sky and weather above.",
+   "price": "$2.99",
+   "maker": "Brian Lowen",
+   "url": "https://apps.apple.com/us/app/tunnel-time-duo-desk-clock/id6832188081"
+  },
+  {
+   "name": "WorkBuddy - AI Work Agent",
+   "what": "Tencent's AI work agent that plans the steps of a task and hands back reports, tables or videos.",
+   "price": "Free, in-app purchases",
+   "maker": "Tencent Technology (Shanghai) Company Limited",
+   "url": "https://apps.apple.com/us/app/workbuddy-ai-work-agent/id6761374913"
+  }
+ ],
+ "thumb_words": "8 NEW UTILITY APPS",
+ "sources": [
+  {
+   "name": "App Store chart",
+   "url": "https://apps.apple.com/us/iphone/charts/6002"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/desky-desktop-mode-switching/id6833103142"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/clackity-duo-flip-clock/id6833613428"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/sidefill-wide-view-for-safari/id6830004679"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/fold-counter-hinge-tracker/id6827677447"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/grandeur-link/id6829832826"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/roam-one-tap-travel-alarms/id6830828485"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/tunnel-time-duo-desk-clock/id6832188081"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/workbuddy-ai-work-agent/id6761374913"
+  }
+ ],
+ "idea": "newcomer",
+ "traction": 0,
+ "checked": "2026-11-16"
+}

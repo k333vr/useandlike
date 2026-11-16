@@ -1,0 +1,28 @@
+{
+ "slug": "tidymap-neighborhood-collection-app",
+ "date": "2026-11-15",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Travel",
+ "tag": "New app",
+ "category": "Travel",
+ "head": "TidyMap neighborhood map app colors in the city areas you've visited",
+ "dek": "TidyMap is a new $3.99 iPhone and iPad app that splits a city into neighborhoods and colors in each one you mark as visited, lived in or want to go. It was #61 among paid Travel apps on the US App Store on 15 November.",
+ "details": "Each neighborhood has a short local guide in most areas, nearby schools, parks, markets and stations, and tips. It can add places from your trip photos, matched on the phone without uploading them, and keeps private notes per area. It covers 1,400+ neighborhoods in Tokyo, Bangkok, Dubai and cities in Taiwan such as Taipei, Taichung and Kaohsiung. Browsing needs no account; signing in with Apple or Google syncs your collection to other devices and the web.",
+ "where": "iPhone and iPad (iOS 17 or later), $3.99",
+ "means": "If you travel to Tokyo, Bangkok, Dubai or Taiwan, it turns your trips into a map you fill in area by area.",
+ "todo": "Check that your city is on the list before paying: it covers only a few cities so far.",
+ "apps": [
+  "TidyMap"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/tidymap-neighborhood-guide/id6818741282"
+  }
+ ],
+ "item": 106109,
+ "thumb_words": "COLLECT EVERY NEIGHBORHOOD",
+ "idea": "newcomer",
+ "traction": 0
+}

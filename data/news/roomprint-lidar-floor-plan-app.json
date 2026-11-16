@@ -1,0 +1,27 @@
+{
+ "slug": "roomprint-lidar-floor-plan-app",
+ "date": "2026-11-14",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Roomprint: LiDAR floor plan app for iPhone, pay once to export",
+ "dek": "Roomprint draws a measured floor plan and a 3D model of your home as you walk slowly around each room with a Pro iPhone or iPad Pro. Scanning, measuring and decorating are free; printing, exporting and sharing is a one-time $9.99 unlock.",
+ "details": "You can fix walls by hand, try paint colours and flooring, and move the furniture the scan found. It works out how much paint, flooring, carpet or wallpaper you need, prints scaled drawings on Letter or A4 paper and exports DXF, IFC and USDZ files. Scanning needs LiDAR: an iPhone 12 Pro or later Pro model, or an iPad Pro from 2020 on; other iPhones can open and print plans. Plans stay on your device or your own iCloud Drive, with no account, and the maker says LiDAR is accurate to about an inch in most rooms.",
+ "where": "iPhone and iPad, free on the App Store, $9.99 one-time unlock (out since 14 November)",
+ "means": "If you're moving, renovating or buying furniture, you can get room sizes and a printable plan from your phone without a subscription.",
+ "todo": "Install Roomprint and scan one room first to see the result. For anything made to measure, check the key sizes with a tape, as the maker advises.",
+ "apps": [
+  "Roomprint"
+ ],
+ "item": 103928,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "ROOMPRINT: FLOOR PLANS WITH LIDAR",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/roomprint-floor-plan-scanner/id6826913434"
+  }
+ ]
+}

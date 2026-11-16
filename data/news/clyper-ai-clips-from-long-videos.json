@@ -1,0 +1,31 @@
+{
+ "slug": "clyper-ai-clips-from-long-videos",
+ "date": "2026-11-14",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Video",
+ "tag": "New app",
+ "head": "Clyper AI clip maker turns long videos into vertical Shorts and Reels",
+ "dek": "Clyper is a new AI clip maker on the web: paste a YouTube, Twitch, Google Drive or Dropbox link, or upload a file, and it cuts the video into vertical 9:16 clips with word-by-word captions. Paid plans start at 19 dollars a month.",
+ "details": "It scores each clip by how strong its opening is and lists the strongest first, keeps the person talking in frame, and exports in 1080p without a watermark. Captions work in more than 50 languages. Every clip opens in an editor where you can trim to the word or extend either end, and edits don't use up credits.",
+ "where": "Web, from $19 a month",
+ "means": "If you turn podcasts, streams or long videos into Shorts, TikToks or Reels, this does the cutting and captions for you, for a monthly fee.",
+ "todo": "Compare its plans on Clyper's pricing page with the clip tool you use now before paying.",
+ "apps": [
+  "Clyper"
+ ],
+ "item": 102522,
+ "thumb_words": "CLYPER: LONG VIDEOS TO SHORTS",
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "Clyper: pricing",
+   "url": "https://www.clyper.io/pricing"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/clyper"
+  }
+ ]
+}

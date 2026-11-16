@@ -1,0 +1,27 @@
+{
+ "slug": "hashtag-dupe-designer-lookalikes-site",
+ "date": "2026-11-15",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Shopping",
+ "tag": "Quick",
+ "head": "#dupe compares designer items with cheaper lookalikes",
+ "dek": "#dupe is a free website, in early testing, that puts designer products next to cheaper dupes in beauty, bags, shoes, home and tech, with prices and shop links. It earns a commission on some purchases, and its phone apps are listed as coming soon.",
+ "quick": true,
+ "apps": [
+  "#dupe"
+ ],
+ "sources": [
+  {
+   "name": "#dupe",
+   "url": "https://hashtagdupe.com/"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/dupe"
+  }
+ ],
+ "item": 103105,
+ "idea": "newcomer",
+ "traction": 0
+}

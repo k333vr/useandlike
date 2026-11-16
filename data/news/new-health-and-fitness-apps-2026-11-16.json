@@ -1,0 +1,134 @@
+{
+ "slug": "new-health-and-fitness-apps-2026-11-16",
+ "date": "2026-11-16",
+ "added": "2026-11-16",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "9 new health and fitness apps climbing the App Store this week",
+ "dek": "These health and fitness apps came out in the last 60 days and rose into the US App Store's Health & Fitness charts this week, from lifting logs and a calorie tracker to Apple Watch tools for naps, counting and blood oxygen.",
+ "where": "iPhone (several also Apple Watch), US App Store paid Health & Fitness chart this week",
+ "means": "If you track workouts, food or sleep, these are new paid apps people in the US are buying, several of them one-time purchases.",
+ "todo": "Check each App Store page for what it needs: Glucose Relay needs a LibreLinkUp account that follows your FreeStyle Libre sensor, and Crown Counter and Nappuccino are built for Apple Watch.",
+ "apps": [
+  "Setomi",
+  "Cheiron",
+  "Fituous",
+  "Glucose Relay",
+  "PulseO2: Blood Oxygen Tracker",
+  "Circles: Workout Log",
+  "DakiniSpace",
+  "Crown Counter: Tally Clicker",
+  "Nappuccino: Coffee & Power Nap"
+ ],
+ "list": [
+  {
+   "name": "Setomi",
+   "what": "A lifting log that imports your plan from a PDF, spreadsheet, photo or note, on iPhone and Apple Watch.",
+   "price": "$1.99",
+   "maker": "Dylan McCoy",
+   "url": "https://apps.apple.com/us/app/setomi/id6824551730"
+  },
+  {
+   "name": "Cheiron",
+   "what": "Tracks a bodybuilder's food, training, supplements, weight and cardio in one app.",
+   "price": "$4.99",
+   "maker": "Elliot Milco",
+   "url": "https://apps.apple.com/us/app/cheiron/id6825576174"
+  },
+  {
+   "name": "Fituous",
+   "what": "A calorie and nutrition tracker with macros, water, fasting and weight, kept on your device.",
+   "price": "$19.99",
+   "maker": "Joshua Ludahl",
+   "url": "https://apps.apple.com/us/app/fituous/id6819063462"
+  },
+  {
+   "name": "Glucose Relay",
+   "what": "Copies FreeStyle Libre glucose readings into Apple Health automatically through LibreLinkUp.",
+   "price": "$1.99",
+   "maker": "Bruce Elgort",
+   "url": "https://apps.apple.com/us/app/glucose-relay/id6830945020"
+  },
+  {
+   "name": "PulseO2: Blood Oxygen Tracker",
+   "what": "Shows your Apple Watch blood oxygen readings on your watch face and iPhone.",
+   "price": "$4.99",
+   "maker": "Get Happy, LLC",
+   "url": "https://apps.apple.com/us/app/pulseo2-blood-oxygen-tracker/id6821124504"
+  },
+  {
+   "name": "Circles: Workout Log",
+   "what": "A workout log with templates, your last weights on every set and a rest timer.",
+   "price": "$2.99",
+   "maker": "Christopher Maguire",
+   "url": "https://apps.apple.com/us/app/circles-workout-log/id6822941695"
+  },
+  {
+   "name": "DakiniSpace",
+   "what": "Plays slowly changing drones made from real gongs over nature sounds, for headphones or speakers.",
+   "price": "$6.99",
+   "maker": "Zangpo LLC",
+   "url": "https://apps.apple.com/us/app/dakinispace/id6817584731"
+  },
+  {
+   "name": "Crown Counter: Tally Clicker",
+   "what": "Turns your Apple Watch into a tally counter you use with the Digital Crown.",
+   "price": "$0.99",
+   "maker": "Lavanya Tatiparthi",
+   "url": "https://apps.apple.com/us/app/crown-counter-tally-clicker/id6825875386"
+  },
+  {
+   "name": "Nappuccino: Coffee & Power Nap",
+   "what": "A nap timer for Apple Watch that starts counting when you fall asleep, with a coffee nap mode.",
+   "price": "$3.99",
+   "maker": "Dmytro Shaniuk",
+   "url": "https://apps.apple.com/us/app/nappuccino-coffee-power-nap/id6820108899"
+  }
+ ],
+ "thumb_words": "9 NEW HEALTH & FITNESS APPS",
+ "sources": [
+  {
+   "name": "App Store chart",
+   "url": "https://apps.apple.com/us/iphone/charts/6013"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/setomi/id6824551730"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/cheiron/id6825576174"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/fituous/id6819063462"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/glucose-relay/id6830945020"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/pulseo2-blood-oxygen-tracker/id6821124504"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/circles-workout-log/id6822941695"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/dakinispace/id6817584731"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/crown-counter-tally-clicker/id6825875386"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/nappuccino-coffee-power-nap/id6820108899"
+  }
+ ],
+ "idea": "newcomer",
+ "traction": 0,
+ "checked": "2026-11-16"
+}

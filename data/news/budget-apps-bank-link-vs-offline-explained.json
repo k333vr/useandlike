@@ -1,0 +1,82 @@
+{
+ "slug": "budget-apps-bank-link-vs-offline-explained",
+ "date": "2026-11-16",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Money",
+ "tag": "Explainer",
+ "head": "Budget apps that connect to your bank vs offline trackers explained",
+ "dek": "A budget app either reads your bank and card transactions through a link, as Gemini now can through Google Wallet, or works only with what you type in, and that choice decides how much it sees, where your numbers are stored and what you give up in return.",
+ "sections": [
+  {
+   "h": "Two ways a budget app gets your numbers",
+   "p": [
+    "Some apps link to your bank and cards and pull in every purchase on their own. Others start empty: you type each expense, payday or bill yourself, and the app only knows what you tell it.",
+    "Both kinds had news this month. On November 13, Google let Gemini app users in the US connect Google Wallet, on the web, Android and iPhone. At the same time, several new budget apps came out that work without any bank link or even an account."
+   ]
+  },
+  {
+   "h": "What an AI assistant with your bank data can do",
+   "p": [
+    "Once you turn on the Wallet connection, which is off by default, you tag @Google Wallet in a Gemini chat and ask. Gemini can chart your spending, find recurring charges and subscriptions that went up in price, and suggest a budget, for example for the holidays based on last year. Bank and credit card accounts linked to Wallet through Plaid give it more transactions to work with.",
+    "Google says the access is read-only: Gemini can't move, manage or invest your money, and it can't make payments. Google isn't alone, The Next Web reports: OpenAI began letting some ChatGPT users link bank accounts in May, and Anthropic launched a read-only finance feature for Claude the week before Google."
+   ]
+  },
+  {
+   "h": "What the AI company may keep",
+   "p": [
+    "Google says it doesn't train its AI directly on Wallet data. Its help pages say it may train on summaries of your transactions if Gemini activity is kept on, and some chats can be read by human reviewers, according to The Next Web.",
+    "Gemini also keeps a Memory Summary of what it remembers about you, such as goals and preferences. You find it under Profile, Personal Intelligence, Memory Summary, and you can edit or delete items there. The Wallet connection itself can be switched off at any time under Connected Apps in the Personal Intelligence settings."
+   ]
+  },
+  {
+   "h": "Apps that keep your numbers on your phone",
+   "p": [
+    "TriGets, a new Android app, stores income, expenses, budgets and cards in a database on your phone, not on its servers. It has no account, no ads and no analytics. Bill splitting, trip costs and receipt scanning are in its Pro subscription, with a 7-day free trial; for scanning you add your own Gemini, OpenAI, Claude or OpenRouter key, and the photo goes only to that company.",
+    "CanSpend on iPhone turns a monthly budget into one number for today. It needs no account and keeps records on the phone by default. It's free with ads, though, and its App Store privacy label lists identifiers and usage data used to track you for third-party advertising. Removing the ads costs $2.99 once; Pro, at $1.99 a month or $16.99 a year, adds cloud backup and sync.",
+    "Lunda, a budget calendar that runs in the browser, doesn't mention a bank link: you add bills and paydays yourself. Its $69-a-year plan can sync with Lunch Money or YNAB or import a bank's CSV file, and Lunda says it reads them only when you ask."
+   ]
+  },
+  {
+   "h": "Questions to ask before you connect anything",
+   "p": [
+    "Is the access read-only, or can the app move money? Where are the numbers stored: on your phone, in your account on the company's servers, or with an AI company that may use them? What does the app's privacy label or data safety section list, especially tracking for ads? And how do you disconnect it and delete what it saved?",
+    "A linked app saves typing and catches charges you forgot. A typed-in app sees less, but only what you choose to give it."
+   ]
+  }
+ ],
+ "means": "If you link your bank to a budget app or an AI assistant, it can spot subscriptions and spending patterns for you, but your transactions leave your phone; an app you type into sees only what you enter, and a free one may still track you for ads.",
+ "todo": "Before linking a bank, read the app's privacy label (App Store) or data safety section (Google Play) and check whether access is read-only. In Gemini, the Wallet connection is under Personal Intelligence, Connected Apps, where you can also switch it off; check your Gemini activity setting if you don't want transaction summaries used for training.",
+ "apps": [
+  "Gemini",
+  "Google Wallet",
+  "CanSpend",
+  "TriGets",
+  "Lunda"
+ ],
+ "idea": "explainer",
+ "traction": 0,
+ "thumb_words": "WHAT BUDGET APPS SEE OF YOUR MONEY",
+ "sources": [
+  {
+   "name": "The Next Web",
+   "url": "https://thenextweb.com/news/google-gemini-wallet-spending-insights-plaid"
+  },
+  {
+   "name": "MakeUseOf",
+   "url": "https://www.makeuseof.com/gemini-google-wallet-personal-intelligence/"
+  },
+  {
+   "name": "TriGets on Google Play",
+   "url": "https://play.google.com/store/apps/details?id=com.trigets.app"
+  },
+  {
+   "name": "CanSpend on the App Store",
+   "url": "https://apps.apple.com/us/app/canspend-daily-budget/id6821758083"
+  },
+  {
+   "name": "Lunda",
+   "url": "https://lundaapp.com/"
+  }
+ ]
+}

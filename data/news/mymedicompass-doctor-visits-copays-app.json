@@ -1,0 +1,27 @@
+{
+ "slug": "mymedicompass-doctor-visits-copays-app",
+ "date": "2026-11-15",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Health",
+ "tag": "New app",
+ "head": "MyMediCompass app keeps track of doctor appointments and copays",
+ "dek": "MyMediCompass is a new iPhone app for people who see several doctors: it ties each visit to its copay, notes and prescriptions, and gathers what happened at other doctors before your next appointment. It was #91 in Health & Fitness on the US App Store's top paid chart on 15 November.",
+ "details": "The App Store lists it at $4.99. A free tier covers visits, copays, reminders, questions for each doctor and a care circle of up to three family members, invited with a single-use code. MyMediCompass Plus, a monthly or yearly subscription with a 14-day trial for eligible accounts, adds unlimited care circle members, more cost types and PDF summaries. The listing says it records only what you type, gives no medical advice and isn't a medical device; it's made by Jannet Ward and came out on 11 November.",
+ "where": "iPhone and iPad, US App Store, $4.99 with an optional subscription",
+ "means": "If you or a parent juggle several specialists, it puts visits, bills still owed and questions for each doctor in one list the family can share.",
+ "todo": "Read the listing's price and subscription terms before buying, and keep your doctors' own records as the official ones.",
+ "apps": [
+  "MyMediCompass"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/mymedicompass/id6818144855"
+  }
+ ],
+ "item": 106107,
+ "thumb_words": "EVERY DOCTOR VISIT IN ONE APP",
+ "idea": "newcomer",
+ "traction": 0
+}

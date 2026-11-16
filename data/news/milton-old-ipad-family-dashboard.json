@@ -1,0 +1,31 @@
+{
+ "slug": "milton-old-ipad-family-dashboard",
+ "date": "2026-11-14",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "Milton app turns an old iPad into a family home dashboard",
+ "dek": "Milton is a new iPad app that turns an older iPad running iPadOS 17 or later into a wall screen for the family's calendar, chores, meals and shopping list. The core features are free.",
+ "details": "You draw your own layout from 19 tiles, such as weather, clock, photo frame, shopping and kids' savings goals, and the same family can follow along on iPhone. Kids earn points for chores that parents sign off, and a photo of a cookbook page becomes a step-by-step recipe. Milton Individual is a one-time $4.99 purchase for more people and syncing across devices; Milton Family, $14.99, shares with your iCloud Family Sharing group. It's made by Deschutech LLC.",
+ "where": "iPad (iPadOS 17 or later) and iPhone, App Store, free with one-time purchases",
+ "means": "If an old iPad sits in a drawer, it can become the screen the whole household checks for the day's plan, without buying a smart display.",
+ "todo": "Check that the iPad runs iPadOS 17 or later, then try the free version before buying an upgrade.",
+ "apps": [
+  "Milton: Run the House"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/milton-run-the-house/id6819070484"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/14/indie-app-spotlight-milton-lets-you-turn-your-old-ipad-into-a-home-dashboard/"
+  }
+ ],
+ "item": 101410,
+ "thumb_words": "OLD IPAD BECOMES HOME DASHBOARD",
+ "idea": "newcomer",
+ "traction": 0
+}

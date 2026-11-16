@@ -1,0 +1,146 @@
+{
+ "slug": "new-photo-and-video-apps-2026-11-16",
+ "date": "2026-11-16",
+ "added": "2026-11-16",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "10 new photo and video apps climbing the App Store this week",
+ "dek": "These photo and video apps came out in the last 60 days and rose into the US App Store's Photo & Video charts this week, from RAW editors and film looks to a photo booth and a camera trick that gets kids to look at the lens.",
+ "where": "iPhone and iPad, US App Store Photo & Video charts (paid, plus Sunday in free) this week",
+ "means": "If you shoot on your iPhone, these are new camera and editing apps people in the US are paying for right now.",
+ "todo": "Read what each app needs first: Moxie only edits Apple ProRAW photos from an iPhone Pro, and Alpha Shutter only works with compatible Sony cameras.",
+ "apps": [
+  "Moxie - RAW Photo Editor",
+  "LayerLoops",
+  "Lil Booth",
+  "LAB Cam Pro",
+  "GiggleCam: Say Cheese Camera",
+  "Alpha Shutter",
+  "Local Video Upscaler",
+  "Matrix Dot Camera",
+  "Heliodial: Sun Path & Position",
+  "Sunday: Photo & Video Editor"
+ ],
+ "list": [
+  {
+   "name": "Moxie - RAW Photo Editor",
+   "what": "A RAW photo editor with ready-made looks and masks; it needs an iPhone Pro that shoots Apple ProRAW.",
+   "price": "$4.99",
+   "maker": "Ryan Callahan",
+   "url": "https://apps.apple.com/us/app/moxie-raw-photo-editor/id6815185034"
+  },
+  {
+   "name": "LayerLoops",
+   "what": "A camera app where you draw shapes and record live video into them, layer by layer.",
+   "price": "$5.99",
+   "maker": "Anton Repponen",
+   "url": "https://apps.apple.com/us/app/layerloops/id6804750337"
+  },
+  {
+   "name": "Lil Booth",
+   "what": "A photo booth that takes four photos in a row and saves the strip to Photos.",
+   "price": "$0.99",
+   "maker": "Jon Schlueter",
+   "url": "https://apps.apple.com/us/app/lil-booth/id6826711431"
+  },
+  {
+   "name": "LAB Cam Pro",
+   "what": "A film camera and darkroom that develops your RAW photos through film stocks like Portra 400.",
+   "price": "$4.99, in-app purchases",
+   "maker": "Aiden Magarian",
+   "url": "https://apps.apple.com/us/app/lab-cam-pro/id6809077779"
+  },
+  {
+   "name": "GiggleCam: Say Cheese Camera",
+   "what": "Plays silly animations next to the lens so kids look at the camera; on iPhone Duo they show on the back screen.",
+   "price": "$2.99",
+   "maker": "eric Hernandez",
+   "url": "https://apps.apple.com/us/app/gigglecam-say-cheese-camera/id6832747797"
+  },
+  {
+   "name": "Alpha Shutter",
+   "what": "A Bluetooth remote for compatible Sony cameras, with timelapse and long-exposure tools.",
+   "price": "$9.99",
+   "maker": "Kevin Adam",
+   "url": "https://apps.apple.com/us/app/alpha-shutter/id6804771420"
+  },
+  {
+   "name": "Local Video Upscaler",
+   "what": "Upscales old or low-resolution videos to HD or 4K on your device, without uploading them.",
+   "price": "$9.99",
+   "maker": "David Balderston",
+   "url": "https://apps.apple.com/us/app/local-video-upscaler/id6816320447"
+  },
+  {
+   "name": "Matrix Dot Camera",
+   "what": "A toy camera that shoots 96 by 128 pixel dot-matrix photos and prints them on Bluetooth thermal printers.",
+   "price": "$1.99",
+   "maker": "Joseph Liechty",
+   "url": "https://apps.apple.com/us/app/matrix-dot-camera/id6832800836"
+  },
+  {
+   "name": "Heliodial: Sun Path & Position",
+   "what": "Shows the sun's path, golden hour and blue hour for any place and date on one dial.",
+   "price": "$9.99",
+   "maker": "Yaniv van der Stigchel",
+   "url": "https://apps.apple.com/us/app/heliodial-sun-path-position/id6815969504"
+  },
+  {
+   "name": "Sunday: Photo & Video Editor",
+   "what": "A photo and video editor with presets made by creator Alexa Jean Brown and a feed planner.",
+   "price": "Free, in-app purchases",
+   "maker": "Preset Filters, Inc.",
+   "url": "https://apps.apple.com/us/app/sunday-photo-video-editor/id6786753767"
+  }
+ ],
+ "thumb_words": "10 NEW PHOTO & VIDEO APPS",
+ "sources": [
+  {
+   "name": "App Store chart",
+   "url": "https://apps.apple.com/us/iphone/charts/6008"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/moxie-raw-photo-editor/id6815185034"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/layerloops/id6804750337"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/lil-booth/id6826711431"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/lab-cam-pro/id6809077779"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/gigglecam-say-cheese-camera/id6832747797"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/alpha-shutter/id6804771420"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/local-video-upscaler/id6816320447"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/matrix-dot-camera/id6832800836"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/heliodial-sun-path-position/id6815969504"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/sunday-photo-video-editor/id6786753767"
+  }
+ ],
+ "idea": "newcomer",
+ "traction": 0,
+ "checked": "2026-11-16"
+}

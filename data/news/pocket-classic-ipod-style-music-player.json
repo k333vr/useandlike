@@ -1,0 +1,28 @@
+{
+ "slug": "pocket-classic-ipod-style-music-player",
+ "date": "2026-11-15",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Music",
+ "tag": "New app",
+ "head": "Pocket Classic turns your iPhone into an iPod-style music player",
+ "dek": "Pocket Classic is a 99-cent app that lets you browse your Apple Music library with an on-screen click wheel and a cover carousel. It was #57 among paid Music apps on the US App Store on 15 November, a day after it came out.",
+ "details": "You can change the casing, the wheel colour and the screen tint, and choose how the clock and battery show. Solitaire and Brick Breaker are built in and played with the wheel. Version 1.6 added a landscape layout for the unfolded iPhone Duo with a flip clock or Now Playing view beside the player. The app needs access to your music library, and streaming Apple Music songs needs an active Apple Music subscription.",
+ "where": "iPhone and iPad, $0.99 on the App Store (iOS 18 or later)",
+ "means": "If you miss the old iPod, this gives your Apple Music library that look and feel on the phone you already have.",
+ "todo": "Get Pocket Classic from the App Store and allow library access when it asks. It plays your Apple Music songs, so you need a subscription to stream them.",
+ "apps": [
+  "Pocket Classic",
+  "Apple Music"
+ ],
+ "item": 106111,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "POCKET CLASSIC: IPOD WHEEL ON IPHONE",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/pocket-classic/id6830041681"
+  }
+ ]
+}

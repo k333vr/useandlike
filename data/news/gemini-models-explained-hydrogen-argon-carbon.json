@@ -1,0 +1,83 @@
+{
+ "slug": "gemini-models-explained-hydrogen-argon-carbon",
+ "date": "2026-11-16",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "AI",
+ "tag": "Explainer",
+ "head": "Gemini models explained: Flash-Lite, Hydrogen, Pro, Argon and Carbon",
+ "dek": "The Gemini app now lists five models, and which ones you can pick depends on your plan: without a Google AI plan you get Auto or Flash-Lite, AI Plus adds Hydrogen, AI Pro adds Pro and Argon, and only AI Ultra gets Carbon.",
+ "sections": [
+  {
+   "h": "Five names in one menu",
+   "p": [
+    "Google's Gemini help page lists five models in the app's picker. Flash-Lite is for quick answers and light tasks. Hydrogen balances speed and ability in chats and tasks. Pro is for complex prompts, coding and problems that need more thought.",
+    "Argon is meant for complex, multi-step work, and Carbon for long, difficult problems. Google says Carbon uses more tokens than Argon to explore a problem and check its own work, so it points most everyday knowledge work to Argon and the harder, open-ended jobs to Carbon."
+   ]
+  },
+  {
+   "h": "Three new models in five weeks",
+   "p": [
+    "Gemini 4 Argon was announced on October 13 for Google AI Pro and Ultra subscribers in the Gemini app and in AI Mode in Search. Gemini 4 Carbon followed on November 10: it had gone to cybersecurity defenders two weeks earlier, and it is rolling out to AI Ultra subscribers in the Gemini app, AI Mode and Google Antigravity.",
+    "Gemini 4 Hydrogen came out on November 12. It reaches far more people than the other two: Google says it now powers answers in Google Search for all users worldwide, and free users of the Gemini app get it through automatic model selection."
+   ]
+  },
+  {
+   "h": "What you get without paying",
+   "p": [
+    "An account without a Google AI plan can choose Auto or Flash-Lite. With Auto on, Gemini picks the model and thinking level for each prompt: most prompts go to Flash-Lite, and ones that need more reasoning may go to Hydrogen. With Auto off, every answer comes from Flash-Lite.",
+    "So on the free tier you can't pick Hydrogen yourself, and you can't tell in advance which model will answer. You can check afterwards: tap More on an answer, then See response details, and it names the model used."
+   ]
+  },
+  {
+   "h": "What each plan adds",
+   "p": [
+    "Google AI Plus costs $4.99 a month in the US and lets you chat with Flash-Lite or Hydrogen. Google AI Pro, at $19.99 a month, adds Pro and Argon, and its Task Mode can use Hydrogen and Argon. Google AI Ultra starts at $99.99 a month, with a $199.99 tier for 20 times the usage; it has Flash-Lite, Hydrogen, Argon and Carbon for chats, and Hydrogen, Argon and Carbon for tasks.",
+    "Google gives no exact message limits on the help page. It says larger models and higher thinking levels use up more of your allowance, and that a paid plan's chat carries on with Flash-Lite once you reach the limit. Work and school accounts depend on their Workspace license, and Google notes that availability can change."
+   ]
+  },
+  {
+   "h": "How to switch models and thinking levels",
+   "p": [
+    "With a plan, tap the model name at the bottom of the chat box and pick another; a lock icon means the model needs a higher plan. You can also pick a thinking level of Low, Medium or High. If you don't, it stays on Low. Your choice sticks to that conversation, also when you come back to it later.",
+    "To turn automatic selection on or off, open the menu, then Settings and Usage limits; the switch is at the bottom of that page."
+   ]
+  },
+  {
+   "h": "For developers and apps built on Gemini",
+   "p": [
+    "Apps that use Gemini through Google's API pay per million tokens. Hydrogen costs $1.50 for input and $7.50 for output. Argon and Carbon cost $2 and $10 at their introductory price, which rises to $4 and $20 on November 30, 2026."
+   ]
+  }
+ ],
+ "means": "If you use Gemini for free, Auto decides whether you get Flash-Lite or Hydrogen for each prompt, and Google Search answers now run on Hydrogen. Picking a model yourself starts with the $4.99 AI Plus plan.",
+ "todo": "To see which model answered, tap More on a response and choose See response details. On a paid plan, pick the model and thinking level at the bottom of the chat box, and remember that High thinking and larger models use up your allowance faster.",
+ "apps": [
+  "Gemini"
+ ],
+ "idea": "competitor",
+ "traction": 0,
+ "thumb_words": "GEMINI'S 5 AI MODELS EXPLAINED",
+ "sources": [
+  {
+   "name": "Gemini Help: choose a model",
+   "url": "https://support.google.com/gemini/answer/18648722"
+  },
+  {
+   "name": "Google: Gemini 4 Hydrogen",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+  },
+  {
+   "name": "Google: Gemini 4 Carbon",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+  },
+  {
+   "name": "Google: Gemini 4 Argon",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+  },
+  {
+   "name": "Google AI plans",
+   "url": "https://gemini.google/subscriptions/"
+  }
+ ]
+}

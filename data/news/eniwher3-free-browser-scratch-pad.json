@@ -1,0 +1,31 @@
+{
+ "slug": "eniwher3-free-browser-scratch-pad",
+ "date": "2026-11-15",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Productivity",
+ "tag": "New app",
+ "head": "eniwher3 is a free online scratch pad for notes and to-dos",
+ "dek": "eniwher3 is a new free scratch pad that runs in any browser: double-click empty space or paste to drop a note, then drag it anywhere on the board. Sign in with your email and the board syncs between your laptop and phone.",
+ "details": "Widgets add a to-do list, calendar, clock, stopwatch and code pad, and you can tuck them into a dock. The cream theme turns dark when your device is set to dark mode, with options for high contrast, a plainer font and larger text. The free plan has one board; Premium costs $5 a month and adds more boards, themes and a calculator, and a lifetime plan is $39 once. It went on BetaList on 15 November.",
+ "where": "Any web browser, free; Premium $5 a month",
+ "means": "If you jot things on sticky notes or random text files, this keeps them on one board you can open on any device.",
+ "todo": "You can try it in one browser without an account; sign in only if you want it on your phone too.",
+ "apps": [
+  "eniwher3"
+ ],
+ "sources": [
+  {
+   "name": "eniwher3",
+   "url": "https://eni3.com/"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/eniwher3"
+  }
+ ],
+ "item": 104601,
+ "thumb_words": "FREE NOTE BOARD FOR ANY BROWSER",
+ "idea": "newcomer",
+ "traction": 0
+}

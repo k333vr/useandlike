@@ -1,0 +1,34 @@
+{
+ "slug": "tripmo-ai-group-trip-planner",
+ "date": "2026-11-15",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Travel",
+ "tag": "New app",
+ "category": "Travel",
+ "head": "Tripmo AI group trip planner lets each friend plan through ChatGPT or Claude",
+ "dek": "Tripmo is a new shared trip plan that each person in a group fills in by talking to their own AI, such as ChatGPT, Claude or Grok. Places, flights and bookings land in one plan on a map, sorted by day.",
+ "details": "Tripmo has no AI of its own: you connect it once through a connector in your AI's settings. The group rates the places being considered, and the plan tracks bookings, costs and receipts; tickets and files are kept for offline use. A Trip Pass costs $7.49 for one trip with up to 5 people, and Frequent Flyer costs $34.90 a year; friends join free, and both have a 14-day refund for anything unused. It runs as a web app.",
+ "where": "Web app, works with ChatGPT, Claude and Grok; $7.49 per trip or $34.90 a year",
+ "means": "If group trips end in a messy chat thread, this puts everyone's finds in one plan without making them learn a new app.",
+ "todo": "Only the trip owner pays, so one person can try it with a single Trip Pass before the group commits.",
+ "apps": [
+  "Tripmo",
+  "ChatGPT",
+  "Claude"
+ ],
+ "sources": [
+  {
+   "name": "Tripmo",
+   "url": "https://tripmo.me/"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/tripmo"
+  }
+ ],
+ "item": 104604,
+ "thumb_words": "PLAN GROUP TRIPS WITH YOUR OWN AI",
+ "idea": "newcomer",
+ "traction": 15
+}

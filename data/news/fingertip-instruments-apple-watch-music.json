@@ -1,0 +1,27 @@
+{
+ "slug": "fingertip-instruments-apple-watch-music",
+ "date": "2026-11-15",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Music",
+ "tag": "New app",
+ "head": "Apple Watch piano app Fingertip Instruments plays a tune as you tap",
+ "dek": "Fingertip Instruments is a new 99-cent app: you write a melody on your iPhone, send it to your Apple Watch and play it one note at a time by tapping your fingers. It came out on 14 November and was #24 in paid Music apps on the US App Store the next day.",
+ "details": "It starts with a piano and offers 12 instruments in all, such as guitar, violin, kalimba and drums. You can enter notes yourself or photograph a score written in numbered notation, then fix the notes, change the key and save melodies up to 30 seconds long. Once the melodies are on the watch it plays offline, with no account; the app is in English and Chinese.",
+ "where": "iPhone and Apple Watch, App Store, $0.99",
+ "means": "If you'd like to play a simple tune without an instrument, your watch can do it with taps.",
+ "todo": "You need an Apple Watch paired with your iPhone; it's a one-time 99-cent purchase.",
+ "apps": [
+  "Fingertip Instruments"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/fingertip-instruments/id6832405958"
+  }
+ ],
+ "item": 106110,
+ "thumb_words": "PLAY MUSIC BY TAPPING YOUR WATCH",
+ "idea": "newcomer",
+ "traction": 0
+}

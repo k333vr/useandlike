@@ -1,0 +1,78 @@
+{
+ "slug": "copper-landline-switch-off-explained",
+ "date": "2026-11-16",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Phones",
+ "tag": "Explainer",
+ "head": "Copper landline switch off: what replaces your home phone and alarm",
+ "dek": "AT&T and Verizon have started switching off old copper landlines area by area, and their replacements keep your number but run on home power with a backup battery, so alarms, medical alert devices and cordless phones need a check before your date.",
+ "sections": [
+  {
+   "h": "What is switching off, and where",
+   "p": [
+    "Since November 15, 2026, AT&T may end copper landline service in parts of more than 1,000 local service areas in 18 US states, covering about 90,000 remaining customers. AT&T asked the FCC on December 1, 2025, the request was granted on January 12, 2026, and affected customers were told in November 2025. Verizon can end copper landline service in eight states on or after November 16, and its requests for other states are still pending or under review.",
+    "It doesn't happen everywhere on one day. Each area has its own date, and the companies say affected customers get a letter first. AT&T plans to retire the large majority of its copper outside California by the end of 2029. DSL internet that runs over the same copper lines goes away in the same areas."
+   ]
+  },
+  {
+   "h": "Why the phone companies are doing it",
+   "p": [
+    "AT&T spends about 6 billion dollars a year keeping roughly 4,600 copper exchange buildings running, according to Broadband Breakfast. The carriers point to repair costs, failing equipment, weather damage, copper theft and falling demand: about 1% of eligible AT&T customers still use a copper voice line, Cord Cutters News reports.",
+    "For the people who still do, the line often matters a lot. About 24% of Americans aged 65 and older use a landline, according to 2024 government health statistics cited by WDBJ, and more in rural areas where mobile coverage is weak."
+   ]
+  },
+  {
+   "h": "What replaces the line",
+   "p": [
+    "AT&T's main replacement is Phone - Advanced. You keep your number and your current home phones, up to six devices, with voicemail, caller ID and call waiting. Rotary and pulse-dial phones don't work with it. AT&T also offers fiber and mobile plans.",
+    "Verizon offers fiber where it has it, and elsewhere a home phone service that uses your existing phone over its wireless network, or fixed wireless. You can keep your number with Verizon, or take it to another provider."
+   ]
+  },
+  {
+   "h": "Power cuts: what changes",
+   "p": [
+    "AT&T's replacement runs on your home's electricity. It comes with a battery backup that keeps 911 location detection working for 24 hours, but it doesn't power the phones plugged into it. AT&T says cordless phones may need their own backup power to make calls, 911 included, during an outage.",
+    "Verizon says its fiber and fixed wireless equipment has a backup battery that keeps service going in a power cut, and that the batteries are sold in stores and can be replaced."
+   ]
+  },
+  {
+   "h": "Alarms, medical alerts and fax machines",
+   "p": [
+    "Verizon says its newer services work with many older alarm systems, many medical devices and faxes, which means not necessarily all of them. AT&T's Phone - Advanced is designed to work with fax machines, alarm systems and medical monitors, Cord Cutters News reports.",
+    "Verizon says it won't disconnect copper until an FCC-approved replacement is available at your address. If there is none, you keep your copper voice service, which Verizon says applies to a very small number of customers."
+   ]
+  }
+ ],
+ "means": "If you still have an AT&T or Verizon landline on copper, your line keeps its number but will need home power and a battery to work in an outage, and an alarm panel or medical alert button on it may need to be tested or set up again.",
+ "todo": "Look for the letter from your phone company and note the date for your address. Before that date, ask your alarm or medical alert company whether their device works on the new service, plan a separate backup for cordless phones, and keep a charged mobile phone for power cuts. If an older relative or neighbor still uses a landline, go through the letter with them.",
+ "apps": [
+  "AT&T",
+  "Verizon"
+ ],
+ "idea": "explainer",
+ "traction": 0,
+ "thumb_words": "COPPER LANDLINES SWITCHING OFF",
+ "sources": [
+  {
+   "name": "AT&T: Phone - Advanced",
+   "url": "https://www.att.com/home-phone/phone-advanced/"
+  },
+  {
+   "name": "Verizon: network modernization",
+   "url": "https://www.verizon.com/copper/"
+  },
+  {
+   "name": "Cord Cutters News",
+   "url": "https://cordcuttersnews.com/tomorrow-att-verizon-will-start-to-shut-down-their-traditional-copper-phone-service-dsl-internet/"
+  },
+  {
+   "name": "Broadband Breakfast",
+   "url": "https://broadbandbreakfast.com/at-t-approved-to-discontinue-service-at-more-than-30-of-copper-footprint-this-year/"
+  },
+  {
+   "name": "WDBJ",
+   "url": "https://www.wdbj7.com/2026/09/15/end-traditional-landlines-what-shift-away-copper-means-you/"
+  }
+ ]
+}

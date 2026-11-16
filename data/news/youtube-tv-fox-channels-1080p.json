@@ -1,0 +1,23 @@
+{
+ "slug": "youtube-tv-fox-channels-1080p",
+ "date": "2026-11-15",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Streaming",
+ "tag": "Quick",
+ "head": "YouTube TV now streams FS1, FS2, Fox News and Fox Weather in 1080p",
+ "dek": "The four Fox channels moved from 720p to 1080p on YouTube TV, with no plan change or extra cost for subscribers who already get them.",
+ "quick": true,
+ "apps": [
+  "YouTube TV"
+ ],
+ "sources": [
+  {
+   "name": "Cord Cutters News",
+   "url": "https://cordcuttersnews.com/youtube-tv-rolls-out-a-big-upgrade/"
+  }
+ ],
+ "item": 103891,
+ "idea": "news",
+ "traction": 0
+}

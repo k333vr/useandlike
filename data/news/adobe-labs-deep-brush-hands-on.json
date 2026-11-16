@@ -1,0 +1,23 @@
+{
+ "slug": "adobe-labs-deep-brush-hands-on",
+ "date": "2026-11-13",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Two Adobe MAX Sneaks experiments are open to try in Adobe Labs",
+ "dek": "Project Deep Brush, which makes paint strokes follow the shapes and light in a photo, and Project Hands On, which edits a photo by dragging controls on it instead of typing prompts, can be tried now in Adobe Labs Playground.",
+ "quick": true,
+ "apps": [
+  "Adobe Photoshop"
+ ],
+ "sources": [
+  {
+   "name": "MakeUseOf",
+   "url": "https://www.makeuseof.com/saw-adobes-wildest-experiments-at-max-and-you-can-try-two-of-them-right-now/"
+  }
+ ],
+ "item": 98951,
+ "idea": "news",
+ "traction": 0
+}

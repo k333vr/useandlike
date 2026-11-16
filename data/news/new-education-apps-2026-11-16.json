@@ -1,0 +1,98 @@
+{
+ "slug": "new-education-apps-2026-11-16",
+ "date": "2026-11-16",
+ "added": "2026-11-16",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "6 new education apps climbing the App Store this week",
+ "dek": "Six learning apps released in the last 60 days rose into the US App Store's Education charts this week, from the CrowCards flashcards to a plant explorer.",
+ "where": "iPhone and iPad, US App Store Education charts this week",
+ "means": "If you're learning something or teaching kids, most of these are one-time purchases with no subscription.",
+ "todo": "Check the App Store page for the price and in-app purchases: KnowYourNotes sells optional passes.",
+ "apps": [
+  "CrowCards",
+  "KnowYourNotes™ Guitar Edition",
+  "Animal Explorers 4-in-1",
+  "KidKode",
+  "Pinu Club – AI Language Buddy",
+  "botanist by THIX"
+ ],
+ "list": [
+  {
+   "name": "CrowCards",
+   "what": "A flashcard app with no account or subscription that brings the cards you struggle with back first.",
+   "price": "$3.99",
+   "maker": "Joseph Flanigan",
+   "url": "https://apps.apple.com/us/app/crowcards/id6760564165"
+  },
+  {
+   "name": "KnowYourNotes™ Guitar Edition",
+   "what": "Teaches where the notes sit on a guitar fretboard through short games.",
+   "price": "$2.99, in-app purchases",
+   "maker": "Kieron Connelly",
+   "url": "https://apps.apple.com/us/app/knowyournotes-guitar-edition/id6824565300"
+  },
+  {
+   "name": "Animal Explorers 4-in-1",
+   "what": "Four animal games for kids with real photos and a voice that names each animal in English or Spanish.",
+   "price": "$3.99",
+   "maker": "RightSTEP Kids",
+   "url": "https://apps.apple.com/us/app/animal-explorers-4-in-1/id6833246057"
+  },
+  {
+   "name": "KidKode",
+   "what": "Teaches kids the basics of coding by helping a robot solve small problems, in 42 lessons.",
+   "price": "$0.99",
+   "maker": "Daniel Vetan",
+   "url": "https://apps.apple.com/us/app/kidkode/id6823067429"
+  },
+  {
+   "name": "Pinu Club – AI Language Buddy",
+   "what": "Short language lessons with AI feedback on your pronunciation, streaks and weekly leagues.",
+   "price": "Free",
+   "maker": "Christopher Frantz Schulz",
+   "url": "https://apps.apple.com/us/app/pinu-club-ai-language-buddy/id6824851234"
+  },
+  {
+   "name": "botanist by THIX",
+   "what": "Lets you explore more than 1,400 plant species and grow your own digital botanical garden.",
+   "price": "$5.99",
+   "maker": "THIX LLC",
+   "url": "https://apps.apple.com/us/app/botanist-by-thix/id6814701938"
+  }
+ ],
+ "thumb_words": "6 NEW EDUCATION APPS",
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store chart",
+   "url": "https://apps.apple.com/us/iphone/charts/6017"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/crowcards/id6760564165"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/knowyournotes-guitar-edition/id6824565300"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/animal-explorers-4-in-1/id6833246057"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/kidkode/id6823067429"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/pinu-club-ai-language-buddy/id6824851234"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/botanist-by-thix/id6814701938"
+  }
+ ],
+ "checked": "2026-11-16"
+}

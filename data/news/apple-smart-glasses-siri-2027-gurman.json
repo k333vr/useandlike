@@ -1,0 +1,29 @@
+{
+ "slug": "apple-smart-glasses-siri-2027-gurman",
+ "date": "2026-11-15",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Apple",
+ "tag": "Rumor",
+ "rumor": true,
+ "head": "Apple smart glasses rumors: Siri, iPhone apps and a 2027 release",
+ "dek": "Apple's first smart glasses would be run by Siri using built-in cameras, with no display, according to Bloomberg's Mark Gurman as reported by MacRumors. Apple hasn't announced them; the report points to a WWDC unveiling in June 2027 and shipping later that year.",
+ "details": "The prototypes, code-named N50, reportedly run on a paired recent iPhone, which does the processing, and there are no separate glasses apps; Android isn't supported in current plans. Siri would answer questions about what the cameras see, give directions, translate signs and conversations, and handle calls, messages, notifications, music and smart home controls. App makers would have to let Siri control features of their iPhone apps, such as booking a table, ordering a ride or buying movie tickets; those Siri controls first appeared in the iOS 27.3 beta. A front light shows when the glasses are in use, and late software and AI work could delay the 2027 plan.",
+ "where": "Not announced; reportedly WWDC in June 2027, shipping later that year, iPhone only",
+ "means": "If you're thinking about smart glasses, Apple's would reportedly need a recent iPhone and wouldn't show anything in front of your eyes. Nothing about price is known yet.",
+ "todo": "Nothing to do yet. It's a report, not an announcement, and the timing could still slip.",
+ "apps": [
+  "Apple",
+  "Siri"
+ ],
+ "item": 104330,
+ "thumb_words": "APPLE GLASSES IN 2027?",
+ "idea": "news",
+ "traction": 52,
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/15/apple-smart-glasses-hinge-on-siri/"
+  }
+ ]
+}

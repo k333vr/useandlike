@@ -1,0 +1,23 @@
+{
+ "slug": "whatsapp-investment-scam-release-fee",
+ "date": "2026-11-15",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Security",
+ "tag": "Quick",
+ "head": "WhatsApp investment scam asks for RM50,000 more to 'release' profits",
+ "dek": "A 63-year-old retiree in Kuala Terengganu, Malaysia, lost RM80,000 to an investment scheme promoted on WhatsApp: after a first payout of RM18,000, he was told to pay another RM50,000 to get his profits, police said.",
+ "quick": true,
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 106054,
+ "sources": [
+  {
+   "name": "The Star",
+   "url": "https://www.thestar.com.my/news/nation/2026/11/15/retiree-duped-into-fake-investment-scheme-loses-rm80000"
+  }
+ ],
+ "idea": "news",
+ "traction": 21
+}

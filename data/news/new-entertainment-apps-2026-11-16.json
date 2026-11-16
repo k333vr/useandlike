@@ -1,0 +1,122 @@
+{
+ "slug": "new-entertainment-apps-2026-11-16",
+ "date": "2026-11-16",
+ "added": "2026-11-16",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "8 new entertainment apps for iPhone climbing the App Store this week",
+ "dek": "Eight entertainment apps released in the last 60 days rose into the US App Store's Entertainment charts this week, including Jitless for PC games and Roku's new official app.",
+ "where": "iPhone and iPad, US App Store Entertainment charts this week",
+ "means": "If you're after something to play with, watch or give, these are small new apps people are buying now; two of them are made for the folding iPhone Duo.",
+ "todo": "Check the App Store page for the price, in-app purchases and the iPhone it needs: Wowie works with the iPhone Duo.",
+ "apps": [
+  "Face Witness",
+  "Jitless",
+  "Koimono: ASCII Koi Fish Pond",
+  "reVRide Bike Sounds",
+  "Roku App (Official)",
+  "Eyes Down: Bingo Caller",
+  "Bobara: Calm Moments & Boba",
+  "Wowie: Surprise Gift Box"
+ ],
+ "list": [
+  {
+   "name": "Face Witness",
+   "what": "Builds a face from separate eyes, nose, mouth and hair that you move and resize on a canvas.",
+   "price": "$0.99",
+   "maker": "Denis Michkarev",
+   "url": "https://apps.apple.com/us/app/face-witness/id6822738484"
+  },
+  {
+   "name": "Jitless",
+   "what": "Plays PC and classic iOS games you own on iPhone and iPad, with touch, controller or keyboard and mouse.",
+   "price": "$4.99, in-app purchases",
+   "maker": "Tomer Cohen",
+   "url": "https://apps.apple.com/us/app/jitless/id6820164431"
+  },
+  {
+   "name": "Koimono: ASCII Koi Fish Pond",
+   "what": "A calm koi pond drawn entirely in text characters that reacts when you touch the water.",
+   "price": "$0.99",
+   "maker": "Individuation Labs LLC",
+   "url": "https://apps.apple.com/us/app/koimono-ascii-koi-fish-pond/id6832278639"
+  },
+  {
+   "name": "reVRide Bike Sounds",
+   "what": "Makes a kid's bike sound like a motorcycle, a horse, a dragon or a train, following the bike's speed.",
+   "price": "$3.99",
+   "maker": "Frank Karas",
+   "url": "https://apps.apple.com/us/app/revride-bike-sounds/id6830442111"
+  },
+  {
+   "name": "Roku App (Official)",
+   "what": "Streams free movies, shows and more than 500 live channels with no account or subscription needed.",
+   "price": "Free",
+   "maker": "Roku",
+   "url": "https://apps.apple.com/us/app/roku-app-official/id6770735315"
+  },
+  {
+   "name": "Eyes Down: Bingo Caller",
+   "what": "Turns an iPhone or iPad into a bingo caller and shows the board on a TV or projector.",
+   "price": "$2.99",
+   "maker": "Alexander Scott",
+   "url": "https://apps.apple.com/us/app/eyes-down-bingo-caller/id6828438474"
+  },
+  {
+   "name": "Bobara: Calm Moments & Boba",
+   "what": "A calm companion app with a capybara whose hot spring follows your local weather.",
+   "price": "$4.99, in-app purchases",
+   "maker": "Lotus Apps, LLC",
+   "url": "https://apps.apple.com/us/app/bobara-calm-moments-boba/id6809059449"
+  },
+  {
+   "name": "Wowie: Surprise Gift Box",
+   "what": "Turns an iPhone Duo into a gift box with a message that opens when the other person unfolds the phone.",
+   "price": "$1.99",
+   "maker": "Berke Keser",
+   "url": "https://apps.apple.com/us/app/wowie-surprise-gift-box/id6827736649"
+  }
+ ],
+ "thumb_words": "8 NEW ENTERTAINMENT APPS",
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store chart",
+   "url": "https://apps.apple.com/us/iphone/charts/6016"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/face-witness/id6822738484"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/jitless/id6820164431"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/koimono-ascii-koi-fish-pond/id6832278639"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/revride-bike-sounds/id6830442111"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/roku-app-official/id6770735315"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/eyes-down-bingo-caller/id6828438474"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/bobara-calm-moments-boba/id6809059449"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/wowie-surprise-gift-box/id6827736649"
+  }
+ ],
+ "checked": "2026-11-16"
+}

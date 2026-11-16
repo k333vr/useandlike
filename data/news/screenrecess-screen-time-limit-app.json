@@ -1,0 +1,27 @@
+{
+ "slug": "screenrecess-screen-time-limit-app",
+ "date": "2026-11-15",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Productivity",
+ "tag": "New app",
+ "head": "ScreenRecess screen time app for iPhone pauses a group of apps",
+ "dek": "ScreenRecess is a new $4.99 iPhone and iPad app that gives a group of apps one shared time allowance, then locks them for a break. It was #62 in Productivity among paid apps on the US App Store on 15 November.",
+ "details": "You pick the apps, set an allowance of 1 to 60 minutes and a break of 15 to 60 minutes, or use presets such as 10 minutes on, 15 off. You can also start a break early. The listing says it counts use in whole minutes, so a block can start a little late, and there's no countdown timer. It's a one-time purchase with no subscription, needs iOS 26 and Screen Time permission, and its maker Abdulazeez Otori says it collects no data.",
+ "where": "iPhone and iPad, App Store, $4.99 one-time",
+ "means": "If Apple's own app limits are too easy to wave away, this puts several apps on one shared clock and forces a pause.",
+ "todo": "Start with one of the presets for a few days before setting your own numbers.",
+ "apps": [
+  "ScreenRecess"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/screenrecess-gentle-rhythm/id6821574406"
+  }
+ ],
+ "item": 106097,
+ "thumb_words": "ONE TIME LIMIT FOR ALL YOUR APPS",
+ "idea": "newcomer",
+ "traction": 0
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "horizon-nav-android-auto-open-source",
+ "date": "2026-11-15",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Android",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Horizon Nav: free open-source navigation app with Android Auto",
+ "dek": "Horizon Nav is a free, ad-free navigation app built on OpenStreetMap and Mapbox that works on phones, car head units and Android Auto. It isn't on the Play Store: you install it from GitHub and need your own free Mapbox key, XDA reports.",
+ "apps": [
+  "Horizon Nav",
+  "Google Maps",
+  "Android Auto"
+ ],
+ "item": 103998,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "XDA",
+   "url": "https://www.xda-developers.com/i-ditched-google-maps-for-a-community-built-android-auto-navigation-app-and-its-surprisingly-good/"
+  }
+ ]
+}

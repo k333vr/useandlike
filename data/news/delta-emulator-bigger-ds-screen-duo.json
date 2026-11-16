@@ -1,0 +1,23 @@
+{
+ "slug": "delta-emulator-bigger-ds-screen-duo",
+ "date": "2026-11-13",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Games",
+ "tag": "Quick",
+ "head": "Delta emulator's new update gives iPhone Duo a bigger DS screen",
+ "dek": "Delta 2.0.2b adds a DS skin with a larger top screen that uses the iPhone Duo's extra space, plus a six-button Genesis skin and an 8x fast-forward limit. It's out for Patrons first and comes to the free app later.",
+ "quick": true,
+ "apps": [
+  "Delta"
+ ],
+ "sources": [
+  {
+   "name": "Retro Dodo",
+   "url": "https://retrododo.com/delta-emulator-on-ios-gets-a-bigger-ds-screen-for-iphone-duo-users-in-new-update/"
+  }
+ ],
+ "item": 97359,
+ "idea": "news",
+ "traction": 49
+}

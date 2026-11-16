@@ -1,0 +1,27 @@
+{
+ "slug": "playermap-game-style-gps-app",
+ "date": "2026-11-15",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Travel",
+ "tag": "New app",
+ "head": "PlayerMap GPS app with CarPlay redraws your streets like a video game",
+ "dek": "PlayerMap is a new iPhone navigation app that shows real roads and addresses in video-game styles, such as a neon night city or a fantasy atlas, with turn-by-turn voice directions. It was #71 in Navigation on the US App Store's free chart on 15 November.",
+ "details": "It plans driving, cycling and walking routes with live arrival times, reroutes when you leave the route and works on CarPlay. Finished trips earn mileage that unlocks new app icons. It needs no account and keeps saved places on the iPhone. The download is free but the app needs a monthly or yearly subscription to use; the yearly plan may include a free trial. It's made by Jiseop Han, needs iOS 26 and uses OpenStreetMap data.",
+ "where": "iPhone with iOS 26 and CarPlay, App Store, subscription",
+ "means": "If your daily drive feels dull, it gives the same route a game look, but you'll pay a subscription after any trial.",
+ "todo": "If you start the free trial, note its end date and cancel in your Apple Account settings if you don't want to pay.",
+ "apps": [
+  "PlayerMap"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/playermap-gps-for-gamers/id6821392318"
+  }
+ ],
+ "item": 106119,
+ "thumb_words": "GPS THAT LOOKS LIKE A GAME",
+ "idea": "newcomer",
+ "traction": 0
+}

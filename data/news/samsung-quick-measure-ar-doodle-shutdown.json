@@ -1,0 +1,32 @@
+{
+ "slug": "samsung-quick-measure-ar-doodle-shutdown",
+ "date": "2026-11-15",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Samsung",
+ "tag": "Shutdown",
+ "head": "Samsung Quick Measure and AR Doodle apps discontinued on December 31",
+ "dek": "Samsung is pulling its Quick Measure and AR Doodle apps for Galaxy phones from the Galaxy Store on December 31, 2026. After that date there are no new downloads and no more updates.",
+ "details": "Quick Measure uses the camera to measure distances and areas, and AR Doodle lets you draw on photos, videos and real-world scenes through the camera. Samsung posted the notice on each app's Galaxy Store listing; 9to5Google first reported it in September. Copies already installed keep running, but Samsung says some features may not work properly and it won't adapt the apps to future software versions. Samsung says it plans to return with improved services but gives no date.",
+ "where": "Galaxy phones, Galaxy Store, until December 31, 2026",
+ "means": "If you use Quick Measure or AR Doodle, they stop getting fixes after this year, and a later One UI update could break them.",
+ "todo": "If you want to keep either app and the Galaxy Store still offers it on your phone, install it before December 31. On the latest One UI versions both apps are already hidden in the store, and a future system update may stop them working.",
+ "apps": [
+  "Samsung Quick Measure",
+  "Samsung AR Doodle"
+ ],
+ "sources": [
+  {
+   "name": "Engadget",
+   "url": "https://www.engadget.com/2313930/samsung-is-discontinuing-these-useful-mobile-apps-in-december/"
+  },
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/09/07/samsung-is-shutting-down-quick-measure-and-ar-doodle-apps-for-galaxy-phones/"
+  }
+ ],
+ "item": 105255,
+ "thumb_words": "SAMSUNG ENDS QUICK MEASURE, AR DOODLE",
+ "idea": "news",
+ "traction": 15
+}

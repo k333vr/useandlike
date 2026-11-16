@@ -1,0 +1,29 @@
+{
+ "slug": "chatgpt-gemini-shopping-fake-stores-study",
+ "date": "2026-11-14",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Shopping",
+ "tag": "Safety",
+ "head": "ChatGPT shopping answers can point to fake online stores, study says",
+ "dek": "About 9% of 6,795 shopping answers from ChatGPT, Gemini and Perplexity named fake, suspicious or dead shopping sites, a study by US brand-protection firm Podqi found. Perplexity did so in 15% of its answers, ChatGPT in 8% and Gemini in 4%.",
+ "details": "The researchers checked 4,437 web addresses that came up in the answers and flagged 718 as risky: 351 fraudulent and 367 no longer working. Fake stores, counterfeit sellers and sites pretending to be well-known brands counted as fraudulent. In answers that named a risky site, the chatbot recommended it 57% of the time and warned against it 9% of the time. Questions about shipping abroad or a store for one country gave the most risky results, 16%. OpenAI said it is working on stronger safeguards; Google said Gemini can be wrong and shows source links so people can check.",
+ "where": "ChatGPT, Gemini and Perplexity; study reported on 14 November",
+ "means": "If you ask a chatbot where to buy something for the holidays, a shop it names may not be real, even when the link looks right.",
+ "todo": "Open the sources under the chatbot's answer and check the full web address before you pay. Be most careful with country-specific or overseas stores of a big brand, which came up most in the study.",
+ "apps": [
+  "ChatGPT",
+  "Gemini",
+  "Perplexity"
+ ],
+ "item": 99533,
+ "thumb_words": "CHATBOTS CAN SEND YOU TO FAKE SHOPS",
+ "idea": "news",
+ "traction": 15,
+ "sources": [
+  {
+   "name": "Daily Pakistan",
+   "url": "https://en.dailypakistan.com.pk/14-Nov-2026/online-shopping-through-chatgpt-could-lead-users-to-scam-websites-study-warns"
+  }
+ ]
+}

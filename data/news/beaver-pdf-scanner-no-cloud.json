@@ -1,0 +1,27 @@
+{
+ "slug": "beaver-pdf-scanner-no-cloud",
+ "date": "2026-11-14",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Privacy",
+ "tag": "New app",
+ "head": "Beaver PDF scanner app for iPhone, iPad and Mac keeps scans offline",
+ "dek": "Beaver is a new PDF scanner app for iPhone, iPad and Mac that does everything on your device: no account, no upload and no tracking. It costs $1.99 on the App Store, and its code is open source.",
+ "details": "On iPhone and iPad it scans paper with the camera, finds the page edges and straightens them. It also turns photos into one PDF, splits and merges PDFs, pulls out selected pages, saves pages as PNG or JPEG and reads text with on-device OCR. It's made by developer Eldar Tutnjic and came out on 11 November.",
+ "where": "App Store, iPhone, iPad and Mac, $1.99",
+ "means": "If you scan contracts, receipts or medical papers and don't want them on someone's server, this app keeps the files on your device.",
+ "todo": "Look up Beaver: PDF Scanner & OCR on the App Store if you want a scanner without an account.",
+ "apps": [
+  "Beaver: PDF Scanner & OCR"
+ ],
+ "item": 104556,
+ "thumb_words": "BEAVER: PDF SCANNER, NO CLOUD",
+ "idea": "newcomer",
+ "traction": 15,
+ "sources": [
+  {
+   "name": "App Store: Beaver: PDF Scanner & OCR",
+   "url": "https://apps.apple.com/us/app/beaver-pdf-scanner-ocr/id6743547992"
+  }
+ ]
+}

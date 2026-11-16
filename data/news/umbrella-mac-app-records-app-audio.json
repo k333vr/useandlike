@@ -1,0 +1,23 @@
+{
+ "slug": "umbrella-mac-app-records-app-audio",
+ "date": "2026-11-15",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Mac",
+ "tag": "Quick",
+ "head": "Umbrella Mac app records the sound of one app at a time",
+ "dek": "Umbrella, from Pixel Egg Studio, records audio from a single Mac app such as Spotify, Zoom or Safari and saves it as MP3 or AAC, processed on the Mac. Downloads for Apple Silicon and Intel Macs are on GitHub; the site doesn't show a price.",
+ "quick": true,
+ "apps": [
+  "Umbrella"
+ ],
+ "sources": [
+  {
+   "name": "Umbrella",
+   "url": "https://umbrella.pixelegg.me/"
+  }
+ ],
+ "item": 104134,
+ "idea": "newcomer",
+ "traction": 0
+}

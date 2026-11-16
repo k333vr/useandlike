@@ -1,0 +1,134 @@
+{
+ "slug": "new-lifestyle-apps-2026-11-16",
+ "date": "2026-11-16",
+ "added": "2026-11-16",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "9 new lifestyle apps climbing the App Store this week",
+ "dek": "These lifestyle apps came out in the last 60 days and rose into the US App Store's Lifestyle charts this week, from a retro fridge wallpaper to a phone lock for nights out.",
+ "where": "iPhone and iPad, US App Store paid Lifestyle chart this week",
+ "means": "If you're after something new for home, pets or your routine, these are small apps people in the US are paying for right now.",
+ "todo": "Open each app's App Store page to check the price, any in-app purchases and what it needs before you buy. The Laika App's health answers don't replace a vet.",
+ "apps": [
+  "DuoFridge",
+  "murmur daily",
+  "Ears Up: Dog Whistle & Clicker",
+  "FindMyItaly",
+  "Loud Alarm Clock: Actually Up",
+  "The Laika App",
+  "PCS Destination Guide",
+  "Sell My Room",
+  "Drunk Proof"
+ ],
+ "list": [
+  {
+   "name": "DuoFridge",
+   "what": "Turns your iPhone into a retro fridge wallpaper you decorate with magnets and your own photos.",
+   "price": "$1.99",
+   "maker": "Bigear Company Co., Ltd.",
+   "url": "https://apps.apple.com/us/app/duofridge/id6828383349"
+  },
+  {
+   "name": "murmur daily",
+   "what": "Asks how you feel each morning, then sends three short messages for that mood through the day.",
+   "price": "$2.99, in-app purchases",
+   "maker": "REUBEN LEWIS HOLMES",
+   "url": "https://apps.apple.com/us/app/murmur-daily/id6789626561"
+  },
+  {
+   "name": "Ears Up: Dog Whistle & Clicker",
+   "what": "A dog clicker, an adjustable dog whistle and attention sounds like a squeaky toy in one app.",
+   "price": "$2.99",
+   "maker": "Kelly King",
+   "url": "https://apps.apple.com/us/app/ears-up-dog-whistle-clicker/id6824000831"
+  },
+  {
+   "name": "FindMyItaly",
+   "what": "Compares Italian towns by healthcare, cost, transport, climate and safety for people thinking of moving there.",
+   "price": "$5.99",
+   "maker": "Stefano Paternuosto",
+   "url": "https://apps.apple.com/us/app/findmyitaly/id6832060832"
+  },
+  {
+   "name": "Loud Alarm Clock: Actually Up",
+   "what": "An alarm clock that only stops once you've stood up and walked, counted by your Apple Watch or phone.",
+   "price": "Free, in-app purchases",
+   "maker": "Hemal Modi",
+   "url": "https://apps.apple.com/us/app/loud-alarm-clock-actually-up/id6823312822"
+  },
+  {
+   "name": "The Laika App",
+   "what": "Answers questions about your dog's health based on its breed, age and weight, and keeps vet records in one place.",
+   "price": "Free",
+   "maker": "Off Leash Behavior LLC",
+   "url": "https://apps.apple.com/us/app/the-laika-app/id6794529156"
+  },
+  {
+   "name": "PCS Destination Guide",
+   "what": "A relocation guide for US military families moving to a new base, covering more than 215 installations.",
+   "price": "$0.99",
+   "maker": "BLUEPITT14 LLC",
+   "url": "https://apps.apple.com/us/app/pcs-destination-guide/id6829540405"
+  },
+  {
+   "name": "Sell My Room",
+   "what": "Turns photos of household items into organized listings you can prepare for Facebook Marketplace.",
+   "price": "$2.99",
+   "maker": "Jason Deaver",
+   "url": "https://apps.apple.com/us/app/sell-my-room/id6830937634"
+  },
+  {
+   "name": "Drunk Proof",
+   "what": "Locks everything except the apps and contacts you chose until the morning, for a night out.",
+   "price": "$2.99",
+   "maker": "SARAH ANN CARMODY",
+   "url": "https://apps.apple.com/us/app/drunk-proof/id6829707103"
+  }
+ ],
+ "thumb_words": "9 NEW LIFESTYLE APPS",
+ "sources": [
+  {
+   "name": "App Store chart",
+   "url": "https://apps.apple.com/us/iphone/charts/6012"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/duofridge/id6828383349"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/murmur-daily/id6789626561"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/ears-up-dog-whistle-clicker/id6824000831"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/findmyitaly/id6832060832"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/loud-alarm-clock-actually-up/id6823312822"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/the-laika-app/id6794529156"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/pcs-destination-guide/id6829540405"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/sell-my-room/id6830937634"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/drunk-proof/id6829707103"
+  }
+ ],
+ "idea": "newcomer",
+ "traction": 0,
+ "checked": "2026-11-16"
+}

@@ -1,0 +1,110 @@
+{
+ "slug": "new-navigation-apps-2026-11-16",
+ "date": "2026-11-16",
+ "added": "2026-11-16",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "7 new navigation and GPS apps climbing the App Store this week",
+ "dek": "Seven navigation apps released in the last 60 days rose into the US App Store's Navigation charts this week, from a trail ride tracker to a speed camera warner.",
+ "where": "iPhone, iPad and CarPlay, US App Store Navigation charts this week",
+ "means": "If you drive, ride or walk a lot, these are new single-purpose map and speed apps; most cost a few dollars once.",
+ "todo": "Check the App Store page for the price and the iPhone or iOS version an app needs: MiniSpeed needs iOS 26.",
+ "apps": [
+  "Northwoods Trail Tracker",
+  "Simple Subway NYC",
+  "ShadeClock",
+  "SeeMe Walk",
+  "MiniSpeed - Speedometer",
+  "PlayerMap: GPS for Gamers",
+  "Radarvar: Speed Cameras"
+ ],
+ "list": [
+  {
+   "name": "Northwoods Trail Tracker",
+   "what": "Records rides and routes and navigates with Apple Maps on iPhone, iPad and CarPlay.",
+   "price": "$9.99",
+   "maker": "David Bridegan",
+   "url": "https://apps.apple.com/us/app/northwoods-trail-tracker/id6824643353"
+  },
+  {
+   "name": "Simple Subway NYC",
+   "what": "Draws New York's subway on a real street map, plans your trip and follows your ride.",
+   "price": "$1.99",
+   "maker": "Edward Brayman",
+   "url": "https://apps.apple.com/us/app/simple-subway-nyc/id6828502801"
+  },
+  {
+   "name": "ShadeClock",
+   "what": "Shows where the sun and the shade will be for any place, date and time, on a map and in AR.",
+   "price": "$3.99",
+   "maker": "Thomas Entner",
+   "url": "https://apps.apple.com/us/app/shadeclock/id6811853770"
+  },
+  {
+   "name": "SeeMe Walk",
+   "what": "Makes your screen flash bright orange dots so drivers can see you when you walk at night.",
+   "price": "$2.99",
+   "maker": "Melinda Fouts",
+   "url": "https://apps.apple.com/us/app/seeme-walk/id6826450272"
+  },
+  {
+   "name": "MiniSpeed - Speedometer",
+   "what": "Shows your current speed in the Dynamic Island and on the Lock Screen.",
+   "price": "$0.99",
+   "maker": "Jeff Rogers",
+   "url": "https://apps.apple.com/us/app/minispeed-speedometer/id6807212051"
+  },
+  {
+   "name": "PlayerMap: GPS for Gamers",
+   "what": "Gives turn-by-turn directions on real streets redrawn in the style of video game maps.",
+   "price": "Free, in-app purchases",
+   "maker": "Jiseop Han",
+   "url": "https://apps.apple.com/us/app/playermap-gps-for-gamers/id6821392318"
+  },
+  {
+   "name": "Radarvar: Speed Cameras",
+   "what": "Warns ahead of speed and red-light cameras and shows the speed limit, with navigation built on Apple Maps.",
+   "price": "$12.99",
+   "maker": "Ali Can",
+   "url": "https://apps.apple.com/us/app/radarvar-speed-cameras/id6818256075"
+  }
+ ],
+ "thumb_words": "7 NEW NAVIGATION APPS",
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store chart",
+   "url": "https://apps.apple.com/us/iphone/charts/6010"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/northwoods-trail-tracker/id6824643353"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/simple-subway-nyc/id6828502801"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/shadeclock/id6811853770"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/seeme-walk/id6826450272"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/minispeed-speedometer/id6807212051"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/playermap-gps-for-gamers/id6821392318"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/radarvar-speed-cameras/id6818256075"
+  }
+ ],
+ "checked": "2026-11-16"
+}

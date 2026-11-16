@@ -1,0 +1,27 @@
+{
+ "slug": "skywx-weather-radar-app",
+ "date": "2026-11-15",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Weather",
+ "tag": "New app",
+ "head": "SkyWX free weather radar app with severe weather alerts",
+ "dek": "SkyWX is a new free weather app with US radar, forecasts and severe weather alerts, made by former St. Louis TV meteorologist Anthony Slaughter. It was #68 in Weather among free apps on the US App Store on 15 November.",
+ "details": "The radar can be national or local, and tapping an alert takes you to the affected area on the map. Forecasts use National Weather Service data, and the app shows lightning and live SkyWX coverage when it's on. It focuses on St. Louis but covers the whole US. The listing shows no in-app purchases; it runs on iPhone, iPad, Apple silicon Macs and Vision Pro and uses your precise location.",
+ "where": "US, iPhone, iPad, Mac and Vision Pro, free",
+ "means": "If you live around St. Louis, this puts a local meteorologist's alerts and radar in one free app.",
+ "todo": "Set which alerts you want in the notification settings so you only get the warnings that matter to you.",
+ "apps": [
+  "SkyWX"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/skywx-by-anthony-slaughter/id6805099138"
+  }
+ ],
+ "item": 106120,
+ "thumb_words": "SKYWX: FREE RADAR AND STORM ALERTS",
+ "idea": "newcomer",
+ "traction": 0
+}

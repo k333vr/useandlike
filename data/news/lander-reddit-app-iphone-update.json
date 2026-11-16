@@ -1,0 +1,24 @@
+{
+ "slug": "lander-reddit-app-iphone-update",
+ "date": "2026-11-13",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Social",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Lander, a free Reddit app for iPhone, iPad and Mac, adds a text-only feed",
+ "dek": "Lander, an unofficial Reddit app by William Smolen, got version 2.3.14 on 13 November with a Text Only feed, side-by-side media and comments, and separate layouts for the iPhone Duo's screens. It's free, with optional tips.",
+ "apps": [
+  "Lander",
+  "Reddit"
+ ],
+ "item": 102854,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/lander-app/id6747955211"
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "slug": "new-travel-apps-2026-11-16",
+ "date": "2026-11-16",
+ "added": "2026-11-16",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "7 new travel apps for iPhone climbing the App Store this week",
+ "dek": "Seven travel apps released in the last 60 days rose into the US App Store's Travel charts this week, from Watchmen's camera map to an offline voice translator.",
+ "where": "iPhone and iPad, US App Store Travel charts this week",
+ "means": "If you're planning a trip, an RV weekend or a cruise, a few of these do one travel job for a one-time price.",
+ "todo": "Check the App Store page for the price and in-app purchases first: My City Days charges for each trip plan.",
+ "apps": [
+  "Watchmen: what's watching you?",
+  "Chocka: RV Leveling Checklist",
+  "TidyMap - Neighborhood Guide",
+  "Vellumi: Cruise Journal",
+  "Offline AI Voice Translator",
+  "Peak Finder, Mountain ID: MONS",
+  "My City Days"
+ ],
+ "list": [
+  {
+   "name": "Watchmen: what's watching you?",
+   "what": "Maps public surveillance cameras such as license plate readers and traffic cameras, from OpenStreetMap data.",
+   "price": "$4.99",
+   "maker": "Fearless design, LLC",
+   "url": "https://apps.apple.com/us/app/watchmen-whats-watching-you/id6813092274"
+  },
+  {
+   "name": "Chocka: RV Leveling Checklist",
+   "what": "Tells you which RV or trailer wheel goes on the leveling blocks and how high, using your phone's tilt sensor.",
+   "price": "$3.99",
+   "maker": "Yaniv van der Stigchel",
+   "url": "https://apps.apple.com/us/app/chocka-rv-leveling-checklist/id6817094122"
+  },
+  {
+   "name": "TidyMap - Neighborhood Guide",
+   "what": "Lets you collect the city neighborhoods you've visited, with a short local guide for each one.",
+   "price": "$3.99",
+   "maker": "Tsung Yueh Tsai",
+   "url": "https://apps.apple.com/us/app/tidymap-neighborhood-guide/id6818741282"
+  },
+  {
+   "name": "Vellumi: Cruise Journal",
+   "what": "A private cruise journal with photos, voice notes and a day-by-day itinerary that works without ship Wi-Fi.",
+   "price": "$3.99",
+   "maker": "Lemon Street Enterprises, LLC",
+   "url": "https://apps.apple.com/us/app/vellumi-cruise-journal/id6816422842"
+  },
+  {
+   "name": "Offline AI Voice Translator",
+   "what": "Translates speech out loud without internet once you've downloaded a language model.",
+   "price": "$3.59",
+   "maker": "Joshua Baums",
+   "url": "https://apps.apple.com/us/app/offline-ai-voice-translator/id6803804808"
+  },
+  {
+   "name": "Peak Finder, Mountain ID: MONS",
+   "what": "Names the mountains on the skyline through your camera, from about 1 million peaks, and works offline.",
+   "price": "$2.99",
+   "maker": "Ostreum",
+   "url": "https://apps.apple.com/us/app/peak-finder-mountain-id-mons/id6824520147"
+  },
+  {
+   "name": "My City Days",
+   "what": "Makes an AI trip plan for a city from your dates and interests; each plan is bought separately.",
+   "price": "Free, in-app purchases",
+   "maker": "Aliya Abisheva",
+   "url": "https://apps.apple.com/us/app/my-city-days/id6815060549"
+  }
+ ],
+ "thumb_words": "7 NEW TRAVEL APPS",
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store chart",
+   "url": "https://apps.apple.com/us/iphone/charts/6003"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/watchmen-whats-watching-you/id6813092274"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/chocka-rv-leveling-checklist/id6817094122"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/tidymap-neighborhood-guide/id6818741282"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/vellumi-cruise-journal/id6816422842"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/offline-ai-voice-translator/id6803804808"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/peak-finder-mountain-id-mons/id6824520147"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/my-city-days/id6815060549"
+  }
+ ],
+ "checked": "2026-11-16"
+}

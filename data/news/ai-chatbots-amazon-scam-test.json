@@ -1,0 +1,25 @@
+{
+ "slug": "ai-chatbots-amazon-scam-test",
+ "date": "2026-11-15",
+ "added": "2026-11-16",
+ "checked": "2026-11-16",
+ "topic": "Security",
+ "tag": "Quick",
+ "head": "Gemini, ChatGPT and Claude tested on fake Amazon messages",
+ "dek": "Android Police gave the free versions 20 emails and texts, 15 modeled on known scams; all three caught every scam, but only ChatGPT kept calling the real Amazon messages real. Amazon's own check: your account's Message Center, or forward the message to verify@amazon.com.",
+ "quick": true,
+ "apps": [
+  "Gemini",
+  "ChatGPT",
+  "Claude"
+ ],
+ "item": 104357,
+ "sources": [
+  {
+   "name": "Android Police",
+   "url": "https://www.androidpolice.com/asked-gemini-chatgpt-claude-to-spot-amazon-scams/"
+  }
+ ],
+ "idea": "news",
+ "traction": 18
+}
