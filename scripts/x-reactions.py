@@ -5,8 +5,8 @@ Kevin, 13-14 Nov: "track those also in some way for each article to might find i
 comments"; "if something goes viral and we credited (or showed the X user name) we might get exposure ... as long as its
 100% safe for youtube". Rules: NEWS.md "What people say".
 
-One X search per full story about a known company or product (small new App Store apps are skipped: on 14 Nov 16 of
-~25 had no posts or only name clashes), through Apify (Kevin's account; the key is the cloud environment's network
+One X search per full story (known companies and products by name + a headline word over 3 days; since 16 Nov also
+small new apps, by name over 14 days, keeping the maker's own posts and clear talk about the app; roundups are skipped), through Apify (Kevin's account; the key is the cloud environment's network
 secret for api.apify.com, so this runs in the news session, not in the Studio's Worker): scrape.badger's
 twitter-tweets-scraper, Advanced Search, Top, the last 3 days, 15 posts at most (about $0.15 per 1,000 posts; it stops
 at $3 a month, the free credit is $5). Kept: English, the app or company named in the text, the maker's own account or
@@ -91,8 +91,13 @@ def plan(s):
         return None, "a roundup"
     # a known company or product: the press has it, or people search it or make videos about it
     known = (info.get("outlets") or 0) >= 3 or (info.get("suggest") or 0) >= 5 or (info.get("videos") or 0) >= 1
-    if not known or (page.get("tag") == "New app" and (info.get("outlets") or 0) < 3):
-        return None, "a small app"
+    small = not known or (page.get("tag") == "New app" and (info.get("outlets") or 0) < 3)
+    if small:
+        # Kevin, 16 Nov: "I thought we search all posts and accounts for infos regardless from whom and then decide":
+        # small new apps are searched too, by their name alone over 14 days (a launch post is often older than the
+        # story); judge() keeps the maker's own posts and clear talk about the app, and drops name clashes.
+        since = (datetime.now(timezone.utc) - timedelta(days=14)).strftime("%Y-%m-%d")
+        return app, '"%s" lang:en since:%s' % (app, since)
     words = [w for w in re.findall(r"[A-Za-z][\w.+-]*", s.get("head") or "")
              if len(w) > 3 and w.lower() not in STOP and alnum(w) not in alnum(app)]
     since = (datetime.now(timezone.utc) - timedelta(days=3)).strftime("%Y-%m-%d")
@@ -109,8 +114,13 @@ def search(q):
     return [t for t in d if isinstance(t, dict) and t.get("text") and not t.get("noResults")] if isinstance(d, list) else []
 
 
-def judge(t, app, head):
-    """-> None (not kept) or (row fields, on_screen_ok)."""
+APP_WORDS = re.compile(r"\b(app|apps|ios|iphone|ipad|android|mac|macos|app store|play store|download|launch\w*|beta|update|"
+                       r"subscription|free trial|testflight|indie|built|made|shipped)\b", re.I)
+
+
+def judge(t, app, head, small=False):
+    """-> None (not kept) or (row fields, on_screen_ok). small = a small new app (16 Nov): the maker's own account
+    counts at any size; other posts need app words (no name clashes like "Bobara" -> "Nobara") and a little traction."""
     text = html.unescape(re.sub(r"https?://\S+", "", t.get("full_text") or t.get("text") or "")).strip()
     letters = len(re.findall(r"[^\W\d_]", text))
     if t.get("lang") not in (None, "en") or t.get("is_retweet") or letters < 40 or letters > 700:
@@ -120,12 +130,18 @@ def judge(t, app, head):
     handle, name, fol, likes = t.get("username") or "", t.get("user_name") or "", t.get("user_followers_count") or 0, t.get("favorite_count") or 0
     key = alnum(handle)[:6] or "-"
     maker = len(key) >= 4 and fol >= 5000 and (key in alnum(head) or alnum(app)[:6] in alnum(handle + name))
-    if not (maker or fol >= 10000 or likes >= 200):
+    if small:
+        maker = (len(alnum(app)) >= 4 and alnum(app)[:8] in alnum(handle + name)) or bool(re.search(
+            r"\b(introducing|we(?:'ve| have)? (?:just )?(?:launched|built|made|shipped)|i(?:'ve| have)? (?:just )?(?:launched|built|made|shipped))\b[^.!?]{0,40}"
+            + re.escape(app), text, re.I))           # the founder: "Introducing GotEmail", "I launched Remindly"
+        if not maker and not (APP_WORDS.search(text) and (fol >= 1000 or likes >= 20)):
+            return None
+    elif not (maker or fol >= 10000 or likes >= 200):
         return None
     mentions = [m.get("username", "").lower() for m in (t.get("user_mentions") or [])]
     reply = t.get("conversation_id") and t.get("conversation_id") != t.get("id")
-    ok = (not t.get("media") and not reply and not NEVER.search(text) and not PERSONAL.search(text)
-          and (maker or fol >= 10000 or likes >= 500)
+    ok = ((not t.get("media") or (small and maker)) and not reply and not NEVER.search(text) and not PERSONAL.search(text)
+          and (maker or fol >= 10000 or likes >= 500 or (small and likes >= 50))
           and all(alnum(m)[:5] in alnum(head) for m in mentions))        # @mentions only of the companies in the story
     try:
         posted = datetime.strptime(t.get("created_at", ""), "%a %b %d %H:%M:%S %z %Y").astimezone(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
@@ -157,6 +173,7 @@ def main():
         app, q = plan(s)
         if app:
             todo.append((s, app, q))
+            s["small"] = q.split('"')[2].strip().startswith("lang:en")     # small apps: name only, no headline word
         else:
             skipped[q] = skipped.get(q, 0) + 1
     todo = todo[:min(limit, max(0, left // 15))]
@@ -176,7 +193,7 @@ def main():
         got += len(posts)
         best = []
         for t in posts:
-            j = judge(t, app, s["head"])
+            j = judge(t, app, s["head"], s.get("small", False))
             if j:
                 best.append(j)
         best.sort(key=lambda j: (not j[0]["maker"], -(j[0]["likes"] or 0)))
