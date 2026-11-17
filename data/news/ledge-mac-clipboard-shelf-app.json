@@ -4,10 +4,9 @@
  "added": "2026-11-17",
  "checked": "2026-11-17",
  "topic": "Productivity",
- "tag": "Quick",
- "quick": true,
- "head": "Ledge for Mac keeps clipboard history and a file shelf in one panel",
- "dek": "Ledge is a Mac app with searchable clipboard history and a shelf you drag files onto, which keeps them until you clear it. It costs $8.99 once after a 7-day trial and needs macOS 14 or later.",
+ "tag": "New app",
+ "head": "Ledge: Mac clipboard manager with a file shelf for $8.99 once",
+ "dek": "Ledge is a new Mac app that keeps a searchable clipboard history and a shelf you drag files onto, both in one floating panel. It costs $8.99 once after a 7-day trial and needs macOS 14 or later.",
  "apps": [
   "Ledge"
  ],
@@ -22,6 +21,11 @@
   }
  ],
  "item": 101187,
- "idea": "newcomer",
- "traction": 15
+ "idea": "request",
+ "traction": 15,
+ "details": "The history holds text, images, links, colors and screenshots, and Ledge picks up screenshots by itself. It skips items that apps such as password managers mark as hidden, deletes history after 30 days unless you pin an item, and keeps everything on the Mac, with iCloud sync off by default. It needs no account and the site says it has no tracking. After the trial it stops capturing, but what you saved stays browsable.",
+ "where": "Mac, macOS 14 Sonoma or later, download from ledgemac.com",
+ "means": "If you copy and paste a lot on a Mac, Ledge keeps what you copied and the files you're moving in one place, for a one-time price instead of a subscription.",
+ "todo": "Download it from ledgemac.com and try it for 7 days; one license works on one Mac at a time.",
+ "thumb_words": "LEDGE: CLIPBOARD + FILE SHELF FOR MAC"
 }

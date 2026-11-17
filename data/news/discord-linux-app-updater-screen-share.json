@@ -1,0 +1,31 @@
+{
+ "slug": "discord-linux-app-updater-screen-share",
+ "date": "2026-11-12",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Games",
+ "tag": "Update",
+ "head": "Discord Linux app: self-updates, screen share and push-to-talk fixed",
+ "dek": "Discord's Linux app now updates itself without a fresh download, shares your screen on Wayland with hardware encoding, and keeps push-to-talk working when Discord isn't in front. Discord listed the changes in a blog post on 12 November.",
+ "details": "You install once from the .deb, .rpm, Arch package or tarball on Discord's download page; after that the app updates in your home folder without admin rights, and Discord says updates are about 23% faster on average. Screen sharing uses Intel and AMD GPUs through VA-API and Nvidia GPUs through NVENC, and works on GNOME, KDE and gamescope. Go Live now works on the Steam Deck in Game Mode and Desktop Mode. Next, Discord is working with Igalia on sharing the sound of a single app instead of all desktop audio or none.",
+ "where": "Discord desktop app on Linux and Steam Deck, out now",
+ "means": "If you use Discord on a Linux PC or a Steam Deck, streaming games to friends and push-to-talk now work much like on Windows, and you no longer reinstall for each update.",
+ "todo": "Install Discord once from its download page in the package for your system; it keeps itself updated after that. On a Steam Deck, try Go Live from Game Mode.",
+ "apps": [
+  "Discord"
+ ],
+ "sources": [
+  {
+   "name": "Discord",
+   "url": "https://discord.com/blog/discord-linux-a-year-of-upgrades"
+  },
+  {
+   "name": "GamingOnLinux",
+   "url": "https://www.gamingonlinux.com/2026/11/discord-go-into-more-detail-on-their-linux-upgrades-with-more-to-come/"
+  }
+ ],
+ "item": 112372,
+ "thumb_words": "DISCORD FIXES ITS LINUX APP",
+ "idea": "request",
+ "traction": 0
+}

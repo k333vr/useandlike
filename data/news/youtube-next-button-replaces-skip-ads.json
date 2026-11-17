@@ -1,0 +1,28 @@
+{
+ "slug": "youtube-next-button-replaces-skip-ads",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Video",
+ "tag": "In testing",
+ "rumor": true,
+ "head": "YouTube skip ad button says Next instead of Skip on some ads",
+ "dek": "Some YouTube video ads now show a Next button where Skip usually sits, according to screenshots shared by marketers in early November and reported by PPC Land. YouTube and Google haven't announced the change or said what a tap on Next does.",
+ "details": "The example shared by ADSQUIRE's Anthony Higman is a vertical ad on a phone, with the button in the lower right corner and a line above the ad reading \"Fewer interruptions after this break\". It's not known whether Next ends the ad or moves to another ad in the same break, or which countries and accounts see it. As of 15 November, Google's own page on video ad formats still describes a skip after 5 seconds and non-skippable ads of up to 60 seconds.",
+ "where": "Some YouTube ads on phones, seen since early November; not confirmed by YouTube",
+ "means": "If you're used to tapping Skip, the same button may read Next on some ads. Nobody outside Google knows yet whether it still skips the ad.",
+ "todo": "Nothing to do. Tap Next where Skip used to be and see whether the ad ends; YouTube Premium remains the way to watch without ads.",
+ "apps": [
+  "YouTube"
+ ],
+ "sources": [
+  {
+   "name": "PPC Land",
+   "url": "https://ppc.land/youtube-drops-the-word-skip-from-some-ad-buttons-in-favour-of-next/"
+  }
+ ],
+ "item": 112312,
+ "thumb_words": "YOUTUBE SKIP BUTTON NOW SAYS NEXT?",
+ "idea": "request",
+ "traction": 37
+}

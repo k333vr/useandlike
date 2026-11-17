@@ -4,15 +4,19 @@
  "added": "2026-11-17",
  "checked": "2026-11-17",
  "topic": "AI",
- "tag": "Quick",
- "head": "Alibaba launches Qwen4-Max AI model, weights stay closed",
- "dek": "Alibaba's new Qwen4-Max takes text, images and video and is available through its QwenCloud API, Qwen Studio, QwenWork and Qoder from 16 November. Unlike many earlier Qwen models, it can't be downloaded; Alibaba says smaller Qwen4 models will get open weights later.",
- "quick": true,
+ "tag": "Update",
+ "head": "Qwen4-Max out now from Alibaba, not open source this time",
+ "dek": "Alibaba released Qwen4-Max on 16 November, the new top model of its Qwen family, which reads text, images and video. You can use it in Qwen Studio, QwenWork and Qoder or through the QwenCloud API, but unlike many earlier Qwen models you can't download it.",
+ "details": "Alibaba says the model takes prompts of up to a million tokens and gets more done with fewer tokens than Qwen3.8-Max; in its own test, the average cost of a task fell from $4.43 to $1.67. The API costs $1.50 per million input tokens and $4.50 per million output tokens. Alibaba says smaller Qwen4 models will get open weights later, with no date, and its benchmark results haven't been checked by others. A limited preview had opened on 11 November.",
+ "where": "Qwen Studio, QwenWork, Qoder and the QwenCloud API, from 16 November; countries not given",
+ "means": "If you use Qwen's apps, the new model is there now; if you run Qwen models on your own computer, this one isn't available to download.",
+ "todo": "Open Qwen Studio, QwenWork or Qoder to try it. If you need a model you can run yourself, wait for the smaller Qwen4 models Alibaba says will be open.",
  "apps": [
   "Qwen"
  ],
  "item": 107977,
- "idea": "news",
+ "thumb_words": "ALIBABA LAUNCHES QWEN4-MAX",
+ "idea": "request",
  "traction": 21,
  "sources": [
   {

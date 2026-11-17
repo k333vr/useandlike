@@ -4,21 +4,25 @@
  "added": "2026-11-17",
  "checked": "2026-11-17",
  "topic": "Privacy",
- "tag": "Quick",
- "head": "Gemini in Android Auto: passengers can ask it about your data",
- "dek": "With Personal Intelligence on, a passenger saying \"Hey Google\" could get Gemini to pull from your Gmail, Calendar or Photos, Android Police points out. You can switch it off in the Gemini app under Settings & help, Personal Intelligence, retrain Voice Match, and hide message notifications in Android Auto's settings.",
- "quick": true,
+ "tag": "Privacy",
+ "head": "Android Auto Gemini privacy: passengers can reach your Gmail and Photos",
+ "dek": "With Personal Intelligence on, Gemini in Android Auto can draw on your Gmail, Calendar, Photos, Maps and YouTube, and it doesn't seem to tell whether you're alone in the car. A passenger who says \"Hey Google\" could get answers from your account.",
  "apps": [
   "Gemini",
   "Android Auto"
  ],
  "item": 102539,
- "idea": "news",
+ "idea": "request",
  "traction": 15,
  "sources": [
   {
    "name": "Android Police",
    "url": "https://www.androidpolice.com/gemini-android-auto-privacy-tweak/"
   }
- ]
+ ],
+ "details": "Google started rolling out Personal Intelligence for Gemini in cars on 20 October, beginning with Android Auto; cars with Google built-in are expected to follow in the coming months. It works with personal Google accounts of people 18 and over, not Workspace work or school accounts. Android Police lists four settings to change. In the Connected Apps list, one Google Workspace switch covers Gmail, Drive, Calendar, Keep and Tasks together.",
+ "where": "Android Auto with Gemini Personal Intelligence, personal accounts 18+; not in the EEA, Switzerland, the UK or Nigeria",
+ "means": "If you share your car, a passenger's voice question could bring up your email, appointments or where your photos were taken.",
+ "todo": "In the Gemini app, open Menu, Settings & help, Personal Intelligence and turn it off, or switch off Google Workspace and Google Photos under Connected Apps. Retrain your voice model under Talk to Gemini hands-free (on some phones \"Hey Google & Voice Match\"). In Android Auto's settings, under Notifications, turn off \"Show message notifications\" and \"Notifications with Assistant\".",
+ "thumb_words": "GEMINI IN CARS: PASSENGER PRIVACY GAP"
 }

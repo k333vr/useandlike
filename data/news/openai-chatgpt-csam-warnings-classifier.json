@@ -4,10 +4,9 @@
  "added": "2026-11-17",
  "checked": "2026-11-17",
  "topic": "Safety",
- "tag": "Quick",
- "head": "ChatGPT now suspends accounts for 24 hours over child abuse requests",
- "dek": "ChatGPT shows a warning and suspends an account for 24 hours when someone tries to get content that sexualizes children, and removes it for good if it happens again; OpenAI also gave selected companies a free tool that spots such images.",
- "quick": true,
+ "tag": "Safety",
+ "head": "ChatGPT account suspended for 24 hours over child abuse prompts",
+ "dek": "ChatGPT now warns people who try prompts that sexualize children, points them to support, and suspends the account for 24 hours; doing it again can get the account removed for good. OpenAI announced it on 16 November with a free image classifier for selected companies.",
  "apps": [
   "ChatGPT"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 110089,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "ChatGPT already blocked such content and requests. The new classifier, built with the National Center for Missing and Exploited Children, spots abuse images including AI-made ones and gives each a score for reviewers; selected companies get it through OpenAI's API at no cost. In early tests with partners it flagged 48% fewer images while finding the same number of abusive ones. OpenAI also published guidance for developers and tools and training for investigators.",
+ "where": "ChatGPT, announced 16 November 2026",
+ "means": "For ordinary ChatGPT users nothing changes; the warning and the 24-hour suspension only hit accounts that ask for this content.",
+ "todo": "Nothing to do for ordinary use; the warning appears only when someone tries such a prompt.",
+ "thumb_words": "CHATGPT: 24-HOUR BANS FOR ABUSE PROMPTS"
 }

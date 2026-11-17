@@ -2,12 +2,11 @@
  "slug": "youtube-tv-fox-channels-1080p",
  "date": "2026-11-15",
  "added": "2026-11-16",
- "checked": "2026-11-16",
+ "checked": "2026-11-17",
  "topic": "Streaming",
- "tag": "Quick",
- "head": "YouTube TV now streams FS1, FS2, Fox News and Fox Weather in 1080p",
- "dek": "The four Fox channels moved from 720p to 1080p on YouTube TV, with no plan change or extra cost for subscribers who already get them.",
- "quick": true,
+ "tag": "Update",
+ "head": "YouTube TV 1080p channels: FS1, FS2, Fox News and Fox Weather upgraded",
+ "dek": "FS1, FS2, Fox News and Fox Weather now stream in 1080p on YouTube TV instead of 720p, at no extra cost and with no plan change for subscribers who already get them.",
  "apps": [
   "YouTube TV"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 103891,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "The change rolls out by itself on smart TVs, streaming boxes, computers and the phone apps, and most people don't need to change a setting or restart the app. A slower internet connection can still drop the picture to a lower resolution. The 4K Plus add-on isn't needed for these four channels.",
+ "where": "YouTube TV in the US, plans that include the Fox channels",
+ "means": "If you watch sports on FS1 or FS2, or Fox News and Fox Weather, the picture should look sharper without paying more.",
+ "todo": "Nothing to do; if it still looks soft, check your internet speed.",
+ "thumb_words": "YOUTUBE TV: FOX CHANNELS NOW 1080P"
 }

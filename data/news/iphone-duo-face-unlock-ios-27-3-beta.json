@@ -4,10 +4,9 @@
  "added": "2026-11-17",
  "checked": "2026-11-17",
  "topic": "Apple",
- "tag": "Quick",
- "quick": true,
- "head": "iPhone Duo gets face unlock with the front camera in iOS 27.3 beta 2",
- "dek": "In the second iOS 27.3 beta, the iPhone Duo can unlock with its front camera, but only when folded and on the Lock Screen; Touch ID is still needed for Apple Pay and passwords. It's turned on under Touch ID and Passcode in Settings.",
+ "tag": "In testing",
+ "head": "iPhone Duo face unlock arrives in iOS 27.3 beta 2, closed only",
+ "dek": "The second iOS 27.3 developer beta lets the iPhone Duo unlock with its front camera, but only when the phone is folded shut and only on the Lock Screen. Touch ID is still needed for Apple Pay and for passwords.",
  "apps": [
   "iPhone Duo"
  ],
@@ -22,6 +21,12 @@
   }
  ],
  "item": 110805,
- "idea": "news",
- "traction": 55
+ "idea": "request",
+ "traction": 55,
+ "rumor": true,
+ "details": "It's switched on in Settings under Touch ID and Passcode. Face unlock only works after a recent Touch ID or passcode unlock, and after about 45 minutes without use the phone asks for Touch ID again. It doesn't work with the phone open; MacRumors suspects the camera under the inner screen isn't good enough. The same beta adds Close to Lock, which locks the Duo when you fold it instead of moving your screen to the front display.",
+ "where": "iPhone Duo, iOS 27.3 developer beta 2 (16 November); public release date not announced",
+ "means": "If Touch ID in the power button bothers you, the folded iPhone Duo can now unlock by looking at it, once iOS 27.3 is out. It's a beta feature, so Apple can still change it before release.",
+ "todo": "Nothing to do yet unless you run the developer beta. Once iOS 27.3 reaches you, turn it on under Settings, Touch ID and Passcode.",
+ "thumb_words": "IPHONE DUO GETS FACE UNLOCK"
 }

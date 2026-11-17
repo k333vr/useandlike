@@ -4,15 +4,19 @@
  "added": "2026-11-17",
  "checked": "2026-11-17",
  "topic": "Messaging",
- "tag": "Quick",
- "head": "WhatsApp on iPhone brings Liquid Glass to chat info and the drawing tools",
- "dek": "The buttons on WhatsApp's chat info screen and the drawing editor's toolbar now get Apple's glass-like look on iPhone; some App Store users have it, with more accounts over the coming weeks.",
- "quick": true,
+ "tag": "Update",
+ "head": "WhatsApp Liquid Glass update reaches chat info on iPhone",
+ "dek": "The call, status, add and search buttons on WhatsApp's chat info screen now have Apple's see-through glass look on iPhone, and so does the drawing editor's top toolbar. Some App Store users have it now; more accounts get it over the coming weeks.",
+ "details": "WABetaInfo spotted the change in WhatsApp beta for iOS 26.45.10.70 on TestFlight. The chat list, tab bar, navigation bar, message menu and video player already use the design; the video player's progress bar now floats at the top with rounded corners. WhatsApp hasn't said when everyone gets it, and more Liquid Glass changes are in the works with no date.",
+ "where": "iPhone; some beta testers and some App Store users now, more accounts over the coming weeks",
+ "means": "If you use WhatsApp on an iPhone, the buttons under a contact's or group's name and the drawing tools will look different, but they do the same things.",
+ "todo": "Keep WhatsApp updated from the App Store. If you don't have the new look yet, WABetaInfo says to wait for a later update.",
  "apps": [
   "WhatsApp"
  ],
  "item": 106776,
- "idea": "news",
+ "thumb_words": "WHATSAPP: MORE LIQUID GLASS ON IPHONE",
+ "idea": "request",
  "traction": 26,
  "sources": [
   {

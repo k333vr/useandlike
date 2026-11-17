@@ -4,21 +4,33 @@
  "added": "2026-11-17",
  "checked": "2026-11-17",
  "topic": "Streaming",
- "tag": "Quick",
- "head": "Apple TV app is getting a video podcasts section",
- "dek": "Apple is adding a section for video podcasts to the Apple TV app, starting with developer testing, The New York Times reports; MacRumors expects it in the iOS 27.3 beta 2. Apple also plans more video podcasts in its Podcasts app, with no public date yet.",
- "quick": true,
+ "tag": "New feature",
+ "head": "Apple TV app adds free video podcasts in iOS 27.3 beta 2",
+ "dek": "The Apple TV app has a new section for video podcasts in Apple's second iOS 27.3 developer beta, and only free shows appear there. Apple also plans more video podcasts in its Podcasts app.",
  "apps": [
   "Apple TV",
   "Apple Podcasts"
  ],
  "item": 108123,
- "idea": "news",
+ "idea": "request",
  "traction": 0,
  "sources": [
   {
    "name": "MacRumors",
    "url": "https://www.macrumors.com/2026/11/16/apple-tv-app-to-get-video-podcasts-section/"
+  },
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/16/ios-27-3-beta-2-everything-new/"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/16/everything-new-in-ios-27-3-beta-2-so-far/"
   }
- ]
+ ],
+ "details": "The New York Times reported the section first; Apple's services head Oliver Schusser told the paper the aim is podcasts on small and large screens and helping creators reach new viewers. MacRumors says the Apple TV app is on more than 1 billion devices. Apple hasn't said when iOS 27.3 comes out for everyone.",
+ "where": "iOS 27.3 beta 2 for developers now; everyone later, no date given",
+ "means": "If you watch podcasts on YouTube, the Apple TV app will put free video episodes next to your shows and films.",
+ "todo": "Nothing to do yet; it comes with the iOS 27.3 update.",
+ "thumb_words": "APPLE TV APP GETS VIDEO PODCASTS"
 }

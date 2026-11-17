@@ -2,22 +2,30 @@
  "slug": "whatsapp-investment-scam-release-fee",
  "date": "2026-11-15",
  "added": "2026-11-16",
- "checked": "2026-11-16",
+ "checked": "2026-11-17",
  "topic": "Security",
- "tag": "Quick",
- "head": "WhatsApp investment scam asks for RM50,000 more to 'release' profits",
- "dek": "A 63-year-old retiree in Kuala Terengganu, Malaysia, lost RM80,000 to an investment scheme promoted on WhatsApp: after a first payout of RM18,000, he was told to pay another RM50,000 to get his profits, police said.",
- "quick": true,
+ "tag": "Safety",
+ "head": "WhatsApp investment scam asks retiree for RM50,000 'release fee'",
+ "dek": "A 63-year-old retiree in Kuala Terengganu, Malaysia, lost RM80,000 to a fake investment scheme promoted on WhatsApp, police said on 15 November. After an early payout of RM18,000, he was told to pay another RM50,000 before he could get his profits.",
+ "details": "An acquaintance introduced him to the scheme in early November, with promises of large returns in a short time. He put in RM93,525 of his retirement savings and got RM18,000 back on 11 November, then sent RM80,000 more in three transfers on 12 November. Nothing came back after that: he was told his investment hadn't reached a RM100,000 threshold. Kuala Terengganu police chief ACP Azli Mohd Noor said the case is being investigated as cheating under Section 420 of the Penal Code.",
+ "where": "Kuala Terengganu, Malaysia; the scheme was promoted on WhatsApp",
+ "means": "If someone on WhatsApp offers big returns fast, a small first payout doesn't prove it's real; in this case it was what got the victim to send more.",
+ "todo": "Never pay a fee or top-up to 'release' profits. Stop sending money and report the scheme to the police, as this victim did.",
  "apps": [
   "WhatsApp"
  ],
  "item": 106054,
+ "thumb_words": "WHATSAPP SCAM: PAY TO GET YOUR PROFITS",
+ "idea": "request",
+ "traction": 21,
  "sources": [
   {
    "name": "The Star",
    "url": "https://www.thestar.com.my/news/nation/2026/11/15/retiree-duped-into-fake-investment-scheme-loses-rm80000"
+  },
+  {
+   "name": "Malay Mail",
+   "url": "https://www.malaymail.com/news/malaysia/2026/11/15/after-pocketing-early-returns-retiree-sinks-more-savings-into-whatsapp-investment-trap/243333"
   }
- ],
- "idea": "news",
- "traction": 21
+ ]
 }

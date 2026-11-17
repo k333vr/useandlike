@@ -4,10 +4,9 @@
  "added": "2026-11-17",
  "checked": "2026-11-17",
  "topic": "Games",
- "tag": "Quick",
- "quick": true,
- "head": "Xbox Project Helix is a console that can play your PC games",
- "dek": "Xbox's Jason Ronald says the next Xbox, Project Helix, is a console first that can also run games from your PC, and that your library and progress from four Xbox generations come with you. No release date was given.",
+ "tag": "Update",
+ "head": "Xbox Project Helix console details: it can play your PC games too",
+ "dek": "Xbox's Jason Ronald says the next Xbox, Project Helix, is a console first that can also play games from your PC, and that your library and progress from four Xbox generations come with you. He spoke in an in-house magazine for Xbox's 25th birthday.",
  "apps": [
   "Xbox"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 106824,
- "idea": "trend",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "Ronald, Xbox's vice president of next generation, said Helix should not make players manage system updates, drivers or game settings, while power users can still change settings and performance options. To keep costs down during the component shortage, Xbox is working on neural rendering, a way to make frames without more processing power or memory. Xbox gave no release date or price.",
+ "where": "Next Xbox, no release date or price announced",
+ "means": "If you buy games on PC and on Xbox, the next console is meant to play both and carry over what you already own and your progress.",
+ "todo": "Nothing to do yet; there's no date or price.",
+ "thumb_words": "NEXT XBOX WILL PLAY YOUR PC GAMES"
 }

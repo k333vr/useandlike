@@ -4,21 +4,29 @@
  "added": "2026-11-17",
  "checked": "2026-11-17",
  "topic": "Apple",
- "tag": "Quick",
- "quick": true,
- "head": "Siri AI can answer questions about a whole web page in iOS 27.3 beta 2",
- "dek": "A new Ask About Page feature lets Siri AI read an entire page in Safari, also the parts not on screen, for example to pick the gluten-free dishes from a long menu. It's in the second iOS 27.3 developer beta.",
+ "tag": "New feature",
+ "head": "Siri Ask About Page: Siri AI reads a whole web page in iOS 27.3 beta",
+ "dek": "In the second iOS 27.3 developer beta, out 16 November, Siri AI in Safari can read an entire web page, also the parts you haven't scrolled to. Until now it only worked with what was on screen.",
+ "details": "MacRumors' examples: ask for the gluten-free dishes on a long menu, or have Siri turn a long travel guide into a packing list. Seeing the whole page should also make its summaries better. The first iOS 27.3 beta already let Siri AI clear Safari's history, manage tabs and windows, save articles to the Reading List and close duplicate tabs. Which iPhones get it isn't stated; 9to5Mac expects iOS 27.3 out around early December.",
+ "where": "iOS 27.3 developer beta 2; public release expected around early December",
+ "means": "If you read long pages on your iPhone, you'll be able to ask Siri about the whole page instead of scrolling to find the part you need.",
+ "todo": "Nothing to do yet: it comes with iOS 27.3. Betas are for testers and can have bugs.",
  "apps": [
   "Siri",
   "Safari"
  ],
+ "item": 110934,
+ "thumb_words": "SIRI AI TO READ WHOLE WEB PAGES",
+ "idea": "request",
+ "traction": 18,
  "sources": [
   {
    "name": "MacRumors",
    "url": "https://www.macrumors.com/2026/11/16/siri-ai-ask-about-page-safari/"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/16/siri-ai-health-app-questions-ios-27/"
   }
- ],
- "item": 110934,
- "idea": "news",
- "traction": 18
+ ]
 }

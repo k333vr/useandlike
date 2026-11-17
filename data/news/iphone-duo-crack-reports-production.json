@@ -4,20 +4,28 @@
  "added": "2026-11-17",
  "checked": "2026-11-17",
  "topic": "Apple",
- "tag": "Quick",
- "head": "Apple keeps iPhone Duo production plans despite screen crack reports",
- "dek": "Apple is sticking to its target of 7 to 8 million iPhone Duo units this year, according to Korea's Electronic Times, as owners keep reporting cracks along the inner screen's fold. Suppliers say Apple hasn't cut or delayed orders.",
- "quick": true,
+ "tag": "Heads-up",
+ "head": "iPhone Duo cracked screen reports: Apple keeps production on track",
+ "dek": "Apple is keeping its target of 7 to 8 million iPhone Duo units for the rest of the year, Korea's Electronic Times reports, even as owners keep reporting cracks along the inner screen's fold. Suppliers say Apple hasn't cut or delayed any orders.",
  "apps": [
   "iPhone Duo"
  ],
  "item": 110960,
- "idea": "news",
+ "idea": "request",
  "traction": 55,
  "sources": [
   {
    "name": "iPhone in Canada",
    "url": "https://www.iphoneincanada.ca/2026/11/16/apple-isnt-cutting-iphone-duo-shipments-despite-crack-defect/"
+  },
+  {
+   "name": "The Standard",
+   "url": "https://www.thestandard.com.hk/news/article/346642/Apple-confirms-display-issue-affecting-small-number-of-iPhone-Duo-units"
   }
- ]
+ ],
+ "details": "Owners describe cracks along the crease, black or bright white lines, stiffness when unfolding, a popping sound and a bump under the inner screen. Apple said in late October that it is aware of an issue affecting the inner display on a small number of units and pointed affected owners to AppleCare for a replacement. Analysts quoted by iPhone in Canada suspect the hinge puts uneven stress on the panel; Apple hasn't named a cause or said how many phones are affected.",
+ "where": "iPhone Duo owners everywhere; Apple's production target is for the rest of 2026",
+ "means": "If you own an iPhone Duo or plan to buy one, Apple isn't pausing the phone, so a cracked inner screen is handled one phone at a time through AppleCare.",
+ "todo": "If your inner screen shows a crack, lines or a bump near the fold, contact AppleCare for a replacement. Open and close the phone with both hands and even pressure, and check that nothing hard is on the screen before you fold it.",
+ "thumb_words": "IPHONE DUO CRACKS: NO PRODUCTION CUT"
 }

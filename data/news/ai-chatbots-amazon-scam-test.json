@@ -2,24 +2,28 @@
  "slug": "ai-chatbots-amazon-scam-test",
  "date": "2026-11-15",
  "added": "2026-11-16",
- "checked": "2026-11-16",
+ "checked": "2026-11-17",
  "topic": "Security",
- "tag": "Quick",
- "head": "Gemini, ChatGPT and Claude tested on fake Amazon messages",
- "dek": "Android Police gave the free versions 20 emails and texts, 15 modeled on known scams; all three caught every scam, but only ChatGPT kept calling the real Amazon messages real. Amazon's own check: your account's Message Center, or forward the message to verify@amazon.com.",
- "quick": true,
+ "tag": "Safety",
+ "head": "Amazon scam texts: Gemini, ChatGPT and Claude caught all 15 in a test",
+ "dek": "Android Police tried the free versions of all three on 20 messages, 15 of them built like known Amazon scams, and each one flagged every scam. Asked about single real Amazon emails, only ChatGPT kept calling them real, while Gemini and Claude hedged or doubted them.",
+ "details": "The fakes included order confirmations, Prime renewal threats, refund phishing, a WhatsApp 'Amazon recruiter' message, a gift card demand and an Instagram DM asking for a password; all three caught the lookalike address amazon.com.order-review[.]net. After a pretend click on a scam link, Gemini gave a long checklist, ChatGPT was the only one to say to secure your email and check it for forwarding rules, and Claude named reportphishing@amazon.com, an address the tester couldn't find on Amazon's pages. According to the article, Amazon took down more than 70,000 phishing sites and 14,000 scam phone numbers in 2025.",
+ "where": "Free versions of Gemini, ChatGPT and Claude, tested by Android Police (15 November)",
+ "means": "If you ask an AI chatbot about a suspicious message, it will likely catch a scam, but it may also wrongly call a real Amazon message fake.",
+ "todo": "To check a message, look in your Amazon account's Message Center or forward it to verify@amazon.com; report scams to reportascam@amazon.com. If you clicked and entered details, call your bank, change your password and turn on two-step verification.",
  "apps": [
   "Gemini",
   "ChatGPT",
   "Claude"
  ],
  "item": 104357,
+ "thumb_words": "AI CHATBOTS VS AMAZON SCAMS",
+ "idea": "request",
+ "traction": 18,
  "sources": [
   {
    "name": "Android Police",
    "url": "https://www.androidpolice.com/asked-gemini-chatgpt-claude-to-spot-amazon-scams/"
   }
- ],
- "idea": "news",
- "traction": 18
+ ]
 }

@@ -4,10 +4,9 @@
  "added": "2026-11-17",
  "checked": "2026-11-17",
  "topic": "Apple",
- "tag": "Quick",
- "quick": true,
- "head": "iOS 27.3 beta 2 moves Calendar's buttons down and adds Close to Lock",
- "dek": "Apple's second iOS 27.3 developer beta puts Calendar's search and add buttons at the bottom, lets the iPhone Duo lock when you close it, and adds free video podcasts to the Apple TV app. Apple News+ Puzzles also come to Australia, the UK and French Canada.",
+ "tag": "In testing",
+ "head": "iOS 27.3 beta 2: Calendar buttons move down, iPhone Duo Close to Lock",
+ "dek": "Apple's second iOS 27.3 developer beta moves Calendar's search and add-event buttons to the bottom of the screen and adds Close to Lock for the iPhone Duo. It also brings free video podcasts to the Apple TV app.",
  "apps": [
   "iPhone",
   "Calendar"
@@ -23,6 +22,12 @@
   }
  ],
  "item": 111389,
- "idea": "news",
- "traction": 36
+ "idea": "request",
+ "traction": 36,
+ "rumor": true,
+ "details": "In Calendar, the Today button now shows the current date. Close to Lock, under Settings, Display and Brightness, locks the iPhone Duo when you fold it instead of moving what's open to the front screen. Apple News+ Puzzles come to Australia (crosswords, Sudoku, Quartiles, Emoji Game), the UK (crosswords and Sudoku) and French Canada (Quartiles, Emoji Game). 9to5Mac expects a public beta in the coming days; Apple hasn't given a release date.",
+ "where": "iOS 27.3 developer beta 2 (16 November); public beta expected soon, release date not announced",
+ "means": "If you use Calendar a lot, the buttons you tap most will sit where your thumb reaches once iOS 27.3 is out. Duo owners get a way to lock the phone just by closing it.",
+ "todo": "Nothing to do yet. Developers can install it under Settings, General, Software Update, Beta Updates; everyone else waits for the public beta or the release.",
+ "thumb_words": "IOS 27.3: NEW CALENDAR LAYOUT"
 }

@@ -2,12 +2,11 @@
  "slug": "delta-emulator-bigger-ds-screen-duo",
  "date": "2026-11-13",
  "added": "2026-11-16",
- "checked": "2026-11-16",
+ "checked": "2026-11-17",
  "topic": "Games",
- "tag": "Quick",
- "head": "Delta emulator's new update gives iPhone Duo a bigger DS screen",
- "dek": "Delta 2.0.2b adds a DS skin with a larger top screen that uses the iPhone Duo's extra space, plus a six-button Genesis skin and an 8x fast-forward limit. It's out for Patrons first and comes to the free app later.",
- "quick": true,
+ "tag": "Update",
+ "head": "Delta emulator on iPhone Duo: bigger DS screen in update 2.0.2b",
+ "dek": "Delta's 2.0.2b update adds a DS skin with a larger top screen that fills more of the iPhone Duo's inner display, a six-button Genesis skin and a speed limit for fast-forward up to 8x. Patrons get it first; the free app gets it later.",
  "apps": [
   "Delta"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 97359,
- "idea": "news",
- "traction": 49
+ "idea": "request",
+ "traction": 49,
+ "details": "The update also lets you hide Favorites and Recently Played in the game library and turns off RetroAchievements Hardcore mode for games that don't support it. Fixes include full-screen play over AirPlay and external displays on iOS 27, working Genesis Game Genie and Action Replay codes, and the DS CheatBase. The Delta team says it has started on a larger 2.1 update. No date was given for the free version.",
+ "where": "Delta on iPhone, for Patrons now; the free app later",
+ "means": "If you play DS games in Delta on an iPhone Duo, the top screen no longer has to stay small on the big inner display.",
+ "todo": "Patrons can update now. Everyone else: keep Delta updated and look for 2.0.2b in the free app; the speed limit sits in Advanced Settings.",
+ "thumb_words": "DELTA: BIGGER DS SCREEN ON DUO"
 }

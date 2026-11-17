@@ -4,16 +4,20 @@
  "added": "2026-11-17",
  "checked": "2026-11-17",
  "topic": "AI",
- "tag": "Quick",
- "head": "Google AI Pro subscribers now get Gemini 4 Carbon in AI Mode",
- "dek": "Gemini 4 Carbon in Google Search's AI Mode, until now only for AI Ultra, is open to AI Pro subscribers too; the AI Mode bar also no longer names the model, which Google's Rajan Patel confirmed.",
- "quick": true,
+ "tag": "Update",
+ "head": "Google AI Mode: Gemini 4 Carbon now for AI Pro, model name gone",
+ "dek": "Gemini 4 Carbon in Google Search's AI Mode, which had reached only AI Ultra subscribers less than a week earlier, now shows up for AI Pro subscribers too. The AI Mode bar has also stopped naming the model it's using.",
+ "details": "Gagan Ghotra spotted both changes and Rajan Patel, Google's VP of Engineering for Search, confirmed them on 16 November: the Pro rollout is 'not a bug', and the missing label is intended, though Google is thinking about how to bring back a model indicator. Gemini 4 Hydrogen had already come to AI Mode for everyone. Countries and prices weren't given.",
+ "where": "Google AI Pro and AI Ultra subscribers; countries not given",
+ "means": "If you pay for Google AI Pro, AI Mode can now use Gemini 4 Carbon, but the bar won't tell you which model is answering.",
+ "todo": "Open AI Mode in Google Search while signed in with your AI Pro account. Google hasn't said yet how you'll see which model is in use.",
  "apps": [
   "Google Search",
   "Gemini"
  ],
  "item": 110077,
- "idea": "news",
+ "thumb_words": "GEMINI 4 CARBON COMES TO AI PRO",
+ "idea": "request",
  "traction": 15,
  "sources": [
   {
