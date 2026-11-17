@@ -1,0 +1,88 @@
+{
+ "slug": "iphone-game-emulators-explained",
+ "date": "2026-11-17",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Games",
+ "tag": "Explainer",
+ "head": "Emulators on iPhone explained: Delta, RetroArch and what's allowed",
+ "dek": "Since April 2024 Apple has let retro game emulators like Delta and RetroArch into the App Store, but the apps come without games, and playing copies of games you download from the web is usually against copyright law.",
+ "sections": [
+  {
+   "h": "What an emulator is",
+   "p": [
+    "An emulator is an app that copies how an old console works, so its games can run on your phone. On the iPhone, the App Store now has several: Delta, which plays Nintendo games from the NES to the Nintendo DS plus Sega Genesis, and RetroArch, a free, ad-free and open-source app that runs dozens of systems, from Game Boy to PlayStation, PSP and Sega Saturn, through add-ons it calls cores.",
+    "None of them come with games. Manic EMU, another emulator on the App Store, says in its listing that it includes no games, BIOS or game data, and asks users to load only games they legally own, homebrew or public-domain software."
+   ]
+  },
+  {
+   "h": "How Apple's rules changed",
+   "p": [
+    "On 5 April 2024 Apple reversed course and changed its App Review Guidelines to allow retro game console emulators, MacRumors reported, and Delta arrived on 17 April 2024. RetroArch followed on 15 May 2024, according to its App Store listing.",
+    "PC emulators came next. Apple first rejected UTM SE in June 2024 because, in its words then, a PC is not a console. It approved the app in July, and on 1 August 2024 it added PC emulators to guideline 4.7, 9to5Mac reported.",
+    "The rule today says retro console and PC emulator apps can offer to download games, but the app's maker is responsible for everything it offers, including following the law. Apple's guideline 5.2 says apps may only contain content their makers created or are licensed to use."
+   ]
+  },
+  {
+   "h": "Where the games come from, and the legal line",
+   "p": [
+    "MacRumors summed up the legal picture in April 2024: a US court has ruled that emulators themselves are legal, but downloading copyrighted game files, called ROMs, is typically against the law. Nintendo's US support site says uploading and downloading pirate copies of Nintendo games is illegal. Playing homebrew games released by their makers, or public-domain games, is generally legal.",
+    "Apple has also removed apps that crossed lines. In April 2024 it pulled iGBA, a Game Boy Advance emulator, for copying code from Delta and its predecessor, and the developer of the NES emulator Bimmy removed it to avoid possible legal action from Nintendo.",
+    "Delta offers one more way in: an experimental feature in version 2.0 works with Epilogue's GB and SN Operator, which connect real Game Boy and Super Nintendo cartridges to an iPhone or iPad, so you can play your own cartridges and keep saves on them."
+   ]
+  },
+  {
+   "h": "What changed in Delta this autumn",
+   "p": [
+    "Delta 2.0 added Sega Genesis games, a new design, recently played and favourites pages, and support for the iPhone Duo, where folding the phone puts a DS game to sleep like closing a real DS. Version 2.0.1 came out on 5 November 2026, according to its App Store listing.",
+    "Retro Dodo reported on 13 November that Delta 2.0.2b, out first for Patrons, adds a DS layout with a bigger top screen on the iPhone Duo, a six-button Genesis layout and a cap on fast-forward of up to 8 times; it comes to the free app later. The listing says Delta is free, works with Switch, PlayStation and Xbox controllers, and syncs saves through Google Drive or Dropbox; Retro Dodo mentions a 3-dollar-a-month membership that removes ads."
+   ]
+  },
+  {
+   "h": "Things to know before you download one",
+   "p": [
+    "Look for the emulator in the App Store rather than on a website: Apple reviews those apps, and RetroArch's own listing notes that it isn't affiliated with Nintendo. Check what the listing says it includes; a real emulator says it comes without games.",
+    "If you want something to play without a legal question, homebrew games shared by their makers and public-domain games are an option, and Delta's cartridge support lets you use games you already own."
+   ]
+  }
+ ],
+ "means": "If you want to play old console games on your iPhone, apps like Delta and RetroArch are in the App Store and free, but you have to bring your own games, and downloading copies of commercial games from the web usually breaks copyright law.",
+ "todo": "Get emulators only from the App Store, read the listing to see which systems it covers, and play homebrew, public-domain games or games from cartridges you own.",
+ "apps": [
+  "Delta",
+  "RetroArch"
+ ],
+ "idea": "explainer",
+ "traction": 0,
+ "thumb_words": "IPHONE EMULATORS: WHAT'S ALLOWED",
+ "sources": [
+  {
+   "name": "Apple App Review Guidelines",
+   "url": "https://developer.apple.com/app-store/review/guidelines/"
+  },
+  {
+   "name": "App Store: Delta",
+   "url": "https://apps.apple.com/us/app/delta-game-emulator/id1048524688"
+  },
+  {
+   "name": "App Store: RetroArch",
+   "url": "https://apps.apple.com/us/app/retroarch/id6499539433"
+  },
+  {
+   "name": "App Store: Manic EMU",
+   "url": "https://apps.apple.com/us/app/manic-emu-game-emulator/id6743335790"
+  },
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2024/04/17/what-to-know-about-iphone-app-store-emulators"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2024/08/01/app-review-guidelines-changed-to-allow-pc-emulators-for-games/"
+  },
+  {
+   "name": "Retro Dodo",
+   "url": "https://retrododo.com/delta-emulator-on-ios-gets-a-bigger-ds-screen-for-iphone-duo-users-in-new-update/"
+  }
+ ]
+}

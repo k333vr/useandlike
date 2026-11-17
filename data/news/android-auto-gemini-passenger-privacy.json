@@ -1,0 +1,24 @@
+{
+ "slug": "android-auto-gemini-passenger-privacy",
+ "date": "2026-11-14",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Privacy",
+ "tag": "Quick",
+ "head": "Gemini in Android Auto: passengers can ask it about your data",
+ "dek": "With Personal Intelligence on, a passenger saying \"Hey Google\" could get Gemini to pull from your Gmail, Calendar or Photos, Android Police points out. You can switch it off in the Gemini app under Settings & help, Personal Intelligence, retrain Voice Match, and hide message notifications in Android Auto's settings.",
+ "quick": true,
+ "apps": [
+  "Gemini",
+  "Android Auto"
+ ],
+ "item": 102539,
+ "idea": "news",
+ "traction": 15,
+ "sources": [
+  {
+   "name": "Android Police",
+   "url": "https://www.androidpolice.com/gemini-android-auto-privacy-tweak/"
+  }
+ ]
+}

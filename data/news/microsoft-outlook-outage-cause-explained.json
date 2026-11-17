@@ -1,0 +1,32 @@
+{
+ "slug": "microsoft-outlook-outage-cause-explained",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Email",
+ "tag": "Update",
+ "head": "Outlook outage cause: Microsoft blames a hidden bug from July",
+ "dek": "Microsoft says the Outlook outage of 12 and 13 November came from a bug that had sat unnoticed in its network servers since July. A jump in traffic and fewer working servers set it off.",
+ "details": "Charles Lamanna, who runs Copilot, Agents and Platform at Microsoft, explained it in a post on Monday and said Microsoft was deeply sorry. About 15 hours before the outage, Teams traffic was moved automatically onto the servers that handle Exchange Online email, while nearly 14% of server capacity was unavailable. Within two hours more than 80% of the affected servers stopped responding; restarts failed because waiting traffic overloaded them again, so engineers put the earlier code back. Microsoft says emails held in queues have been delivered, there was no cyberattack, and a final report is due on 20 November.",
+ "where": "Outlook, Teams, SharePoint and Microsoft 365 Copilot, worldwide, 12-13 November",
+ "means": "If your email went missing or Teams stopped working that Thursday and Friday, the cause was on Microsoft's servers, and the bug doesn't affect ordinary Windows PCs.",
+ "todo": "Check that emails you sent during the outage arrived, and resend any that bounced.",
+ "apps": [
+  "Outlook",
+  "Microsoft Teams"
+ ],
+ "sources": [
+  {
+   "name": "PCWorld",
+   "url": "https://www.pcworld.com/article/3286960/microsoft-why-outlook-teams-and-other-services-went-down.html"
+  },
+  {
+   "name": "ABC News",
+   "url": "https://abcnews.com/US/outlook-outage-cause-microsoft-reason-teams-down/story?id=138174626"
+  }
+ ],
+ "item": 108904,
+ "thumb_words": "WHY OUTLOOK WENT DOWN",
+ "idea": "news",
+ "traction": 24
+}

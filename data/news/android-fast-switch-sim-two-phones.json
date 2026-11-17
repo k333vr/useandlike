@@ -1,0 +1,28 @@
+{
+ "slug": "android-fast-switch-sim-two-phones",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Android",
+ "tag": "In testing",
+ "head": "Android Fast Switch may let you use one SIM on two phones",
+ "dek": "Code in a recent update of Google's SIM Manager app points to Android Fast Switch, which would move your mobile service to whichever of your phones you unlock, according to an APK teardown by Android Authority. Google hasn't confirmed it.",
+ "details": "The text in the app is titled \"Use a SIM on two phones\". Both phones would need the same Google Account, and the other phone has to accept the sharing request; some SIMs would show \"Can't be shared\". The code hints at Pixel phones, but which models, and whether call history follows you, is unknown. There's no launch date, and features found in code don't always ship.",
+ "where": "Spotted in Google's SIM Manager app; not released",
+ "means": "If you carry two Android phones, one number could follow you to whichever one you pick up, without moving the eSIM by hand.",
+ "todo": "Nothing to do yet; for now, moving an eSIM between phones is still done by hand.",
+ "apps": [
+  "Android"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/android-fast-switch-handoff-3735737/"
+  }
+ ],
+ "item": 111871,
+ "rumor": true,
+ "thumb_words": "ONE SIM, TWO ANDROID PHONES?",
+ "idea": "news",
+ "traction": 0
+}

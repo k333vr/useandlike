@@ -1,0 +1,28 @@
+{
+ "slug": "emailyst-apple-mail-junk-mac",
+ "date": "2026-11-15",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Email",
+ "tag": "New app",
+ "head": "Emailyst moves Apple Mail junk and fake emails out of your inbox",
+ "dek": "Emailyst is a new Mac app that sorts your Apple Mail inbox into groups like ads, newsletters, receipts and login codes, then moves the ones you choose out of the way, including fake \"subscription expired\" emails. It's free for 1,000 emails per account; the full version is $29 once.",
+ "details": "It uses the accounts already in Apple Mail and learns from what you keep. It never deletes anything, and one click puts back everything it moved. It runs on the Mac with macOS's built-in AI, works offline and needs no account or email password. It needs a Mac with Apple silicon and macOS 26.",
+ "where": "Mac (Apple silicon, macOS 26), free for 1,000 emails, $29 full version",
+ "means": "If ads and fake renewal emails still slip into your Mac inbox, this sorts them out without sending your mail anywhere.",
+ "todo": "Try the free version on one account first; nothing is deleted, so you can undo every move.",
+ "apps": [
+  "Emailyst",
+  "Apple Mail"
+ ],
+ "sources": [
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/emailyst"
+  }
+ ],
+ "item": 106321,
+ "thumb_words": "APPLE MAIL JUNK, SORTED ON YOUR MAC",
+ "idea": "newcomer",
+ "traction": 0
+}

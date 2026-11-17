@@ -4,18 +4,23 @@
  "added": "2026-11-14",
  "topic": "Apple",
  "tag": "Quick",
+ "updated": "2026-11-17",
  "head": "iPhone Duo delivery dates move up from January to December for some buyers",
- "dek": "Some people who ordered an iPhone Duo from Apple with a 25 January estimate now see 14 to 21 December, a few even 12 to 14 December, according to MacRumors readers. New orders on 12 November still showed 25 January.",
+ "dek": "Some people who ordered an iPhone Duo from Apple with a 25 January estimate now see 14 to 21 December, a few even 12 to 14 December, according to MacRumors readers. New orders on 12 November still showed 25 January; by 16 November, new orders in the US and elsewhere showed 16 to 23 December, according to 9to5Mac.",
  "quick": true,
  "apps": [
   "iPhone Duo"
  ],
  "item": 89393,
- "items": [99431],
+ "items": [99431, 111711],
  "sources": [
   {
    "name": "MacRumors",
    "url": "https://www.macrumors.com/2026/11/12/iphone-duo-delivery-dates-continue-to-move-up/"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/16/new-iphone-duo-orders-now-deliver-a-month-earlier-than-before/"
   }
  ],
  "idea": "news",

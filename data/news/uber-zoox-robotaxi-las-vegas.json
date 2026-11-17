@@ -1,0 +1,28 @@
+{
+ "slug": "uber-zoox-robotaxi-las-vegas",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Travel",
+ "tag": "New feature",
+ "head": "Uber robotaxi in Las Vegas: Zoox rides now in the Uber app",
+ "dek": "Amazon's Zoox robotaxis can now pick up Uber riders in Las Vegas, starting 16 November. You can't book one directly yet: riders who request UberX, Uber Comfort, Uber Electric, Comfort Electric or Wait & Save may be matched with a Zoox.",
+ "details": "It's the first time Zoox has worked with a ride-hailing app, and Uber starts with a limited fleet that it plans to grow over the coming months. Uber, Zoox and MGM Resorts have a multi-year deal covering MGM's Las Vegas properties, with better pickup spots and signs planned there. Uber rides with Zoox in Los Angeles are expected next year. Prices weren't given.",
+ "where": "Las Vegas, in the Uber app, from 16 November; limited fleet at first",
+ "means": "If you ride Uber in Las Vegas, your car may turn up with no driver. You won't pick a Zoox yourself for now; the app matches you.",
+ "todo": "To make a robotaxi match more likely, turn on autonomous rides under ride preferences in the Uber app's settings. If you'd rather not ride without a driver, leave that setting off.",
+ "apps": [
+  "Uber",
+  "Zoox"
+ ],
+ "item": 108625,
+ "idea": "news",
+ "traction": 40,
+ "thumb_words": "UBER ADDS ZOOX ROBOTAXIS IN VEGAS",
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas/"
+  }
+ ]
+}

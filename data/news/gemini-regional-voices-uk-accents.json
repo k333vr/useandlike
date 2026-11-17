@@ -1,0 +1,31 @@
+{
+ "slug": "gemini-regional-voices-uk-accents",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "Gemini voice change: 66 new regional accents in the Gemini app",
+ "dek": "The Gemini app is getting 66 new voices tuned to local accents and rhythm, across US, UK and Indian English, Hindi, Brazilian Portuguese, Indonesian and Korean. Google started rolling them out on Android and iPhone on 16 November.",
+ "details": "UK English alone gets more than 10 options; 9to5Google names Geordie, Scouse, Brummie, Scottish, Welsh, Northern Irish, Modern RP and Multicultural London English. Google says the voices aim for natural local pitch and cadence, not exaggerated accents, and responses don't add local slang. The voice you pick is used across the app: Gemini Live, language practice and the Listen button that reads chat answers aloud. The menu doesn't label the voices by city or region.",
+ "where": "Gemini app on Android and iPhone, rolling out from 16 November",
+ "means": "If you talk to Gemini or let it read answers aloud, you can now pick a voice that sounds closer to how people speak where you live.",
+ "todo": "Open the Gemini app's settings and choose Gemini's voice, or tap the three-dot menu in Gemini Live, then preview the voices before picking one.",
+ "apps": [
+  "Gemini"
+ ],
+ "item": 110346,
+ "idea": "news",
+ "traction": 21,
+ "thumb_words": "GEMINI GETS 66 REGIONAL VOICES",
+ "sources": [
+  {
+   "name": "Google blog",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/"
+  },
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/16/gemini-rolling-out-66-new-regional-voices-on-android-and-ios-including-10-uk-dialects/"
+  }
+ ],
+ "checked": "2026-11-17"
+}

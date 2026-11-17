@@ -1,0 +1,23 @@
+{
+ "slug": "qwen4-max-alibaba-ai-model",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Alibaba launches Qwen4-Max AI model, weights stay closed",
+ "dek": "Alibaba's new Qwen4-Max takes text, images and video and is available through its QwenCloud API, Qwen Studio, QwenWork and Qoder from 16 November. Unlike many earlier Qwen models, it can't be downloaded; Alibaba says smaller Qwen4 models will get open weights later.",
+ "quick": true,
+ "apps": [
+  "Qwen"
+ ],
+ "item": 107977,
+ "idea": "news",
+ "traction": 21,
+ "sources": [
+  {
+   "name": "The Next Web",
+   "url": "https://thenextweb.com/news/alibaba-launches-qwen4-max-flagship-ai-model-without-open-weights"
+  }
+ ]
+}

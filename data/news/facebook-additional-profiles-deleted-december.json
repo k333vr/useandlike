@@ -1,0 +1,32 @@
+{
+ "slug": "facebook-additional-profiles-deleted-december",
+ "date": "2026-11-15",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Social",
+ "tag": "Heads-up",
+ "head": "Facebook additional profiles going away: deleted after December 14",
+ "dek": "Meta is ending the extra profiles you could add under one Facebook account, and every additional profile will be permanently deleted after December 14, 2026. Your main profile and business Pages stay as they are.",
+ "details": "The option to run several profiles under one account launched in September 2023. Before the deadline you can export each additional profile's information; exports take time to prepare, so Meta suggests starting early. A group run only by an additional profile is paused until a new admin is added.",
+ "where": "Facebook, everywhere, until December 14, 2026",
+ "means": "If you post, run a group or keep friends on an additional profile, that profile and what's on it disappear after December 14.",
+ "todo": "Switch into the additional profile, open Settings & privacy > Settings and export its information (one export per profile). Make your main profile an admin of any group the extra profile runs, then use Review connections if Facebook shows it, or rejoin groups, add friends and follow Pages from your main profile.",
+ "apps": [
+  "Facebook"
+ ],
+ "sources": [
+  {
+   "name": "Facebook Help Center",
+   "url": "https://www.facebook.com/help/2053558612102773/"
+  },
+  {
+   "name": "Social Media Today",
+   "url": "https://www.socialmediatoday.com/news/facebook-shelves-additional-profile-option/874710/"
+  }
+ ],
+ "item": 106773,
+ "thumb_words": "FACEBOOK DELETES EXTRA PROFILES",
+ "idea": "news",
+ "traction": 37,
+ "rank": 1
+}

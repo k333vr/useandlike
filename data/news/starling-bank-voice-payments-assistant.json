@@ -1,0 +1,31 @@
+{
+ "slug": "starling-bank-voice-payments-assistant",
+ "date": "2026-11-13",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Money",
+ "tag": "New feature",
+ "head": "Starling Bank voice payments: tell the app who to pay, then approve",
+ "dek": "Starling Bank customers in the UK can set up a payment by typing or saying it to the Starling Assistant in the app, for example 'Send Mum £20 for lunch'. The assistant prepares the payment and you confirm it with a tap.",
+ "details": "It's for personal and joint accounts and reaches all retail customers by the end of 2026. Voice works through your phone keyboard's dictation. Small business customers get a similar feature later: upload a photo of an invoice and the assistant sets up the payee and the amount. The assistant can already look at your direct debits and subscriptions, build budgets and create Spaces.",
+ "where": "UK, Starling personal and joint accounts, rolling out by the end of 2026",
+ "means": "If you bank with Starling, you can skip the payment screens and set up a transfer in one sentence, but nothing is sent until you approve it.",
+ "todo": "Tap the Assistant icon at the top left of the Starling app's home screen once the feature reaches you, and check the payee and amount before you approve.",
+ "apps": [
+  "Starling Bank"
+ ],
+ "item": 112576,
+ "idea": "newcomer",
+ "traction": 24,
+ "thumb_words": "STARLING: PAY BY VOICE",
+ "sources": [
+  {
+   "name": "Starling Bank",
+   "url": "https://www.starlingbank.com/news/-talk-to-transact-starling-customers-can-use-their-voice-to-send-money/"
+  },
+  {
+   "name": "The Paypers",
+   "url": "https://thepaypers.com/payments/news/starling-bank-rolls-out-voice-payments-via-agentic-ai-assistant"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "slug": "chatgpt-travel-team-booking-rumor",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "AI",
+ "tag": "Rumor",
+ "head": "ChatGPT travel booking may come: OpenAI hires a travel team",
+ "dek": "OpenAI is hiring engineers to build travel into ChatGPT, with a job listing for screens that compare stays and transport using live prices and availability, Skift reports. OpenAI hasn't announced a travel feature.",
+ "details": "Francis Davidson, who now calls himself OpenAI's head of travel, posted the call on LinkedIn days after OpenAI bought his AI travel startup Odessia. The listing asks for experience with travel, marketplaces and links to outside providers. Today ChatGPT's travel answers come through apps from Expedia, Booking.com, Viator and others.",
+ "where": "Not announced; job listing in San Francisco",
+ "means": "If you plan trips in ChatGPT today, booking happens through partner apps; a built-in way to compare and book may follow, but there's no date.",
+ "todo": "Nothing to do yet.",
+ "apps": [
+  "ChatGPT"
+ ],
+ "rumor": true,
+ "category": "Travel",
+ "sources": [
+  {
+   "name": "Skift",
+   "url": "https://skift.com/2026/11/16/openai-is-hiring-engineers-to-build-travel-into-chatgpt/"
+  }
+ ],
+ "item": 111908,
+ "thumb_words": "CHATGPT MAY BOOK YOUR TRIPS",
+ "idea": "news",
+ "traction": 0
+}

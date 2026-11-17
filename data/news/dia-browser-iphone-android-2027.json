@@ -1,0 +1,28 @@
+{
+ "slug": "dia-browser-iphone-android-2027",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "AI",
+ "tag": "Heads-up",
+ "head": "Dia browser for iOS and Android coming in 2027, Arc shuts down 22 December",
+ "dek": "The Browser Company's CEO Josh Miller said on 15 November that its Dia browser will come to iPhone and Android in 2027. Meanwhile its older Arc browser loses its AI features on 23 November and shuts down on 22 December.",
+ "details": "Miller said lessons from ClacketyClack, a voice-first notes prototype now on TestFlight, will go into Dia. After 23 November a Lite version of Arc without Browse for Me and the other AI features stays available until the shutdown; on Android, Arc stops working after 22 December. The company had said earlier that Arc Search would be folded into Dia.",
+ "where": "Dia on iPhone and Android in 2027 (no exact date); Arc ends 22 December",
+ "means": "If you use Arc or Arc Search, you have about five weeks before it stops, and Dia won't be on your phone until sometime next year.",
+ "todo": "If you use Arc, export your bookmarks and passwords before 22 December and pick another browser for now.",
+ "apps": [
+  "Dia",
+  "Arc"
+ ],
+ "item": 107477,
+ "idea": "news",
+ "traction": 0,
+ "thumb_words": "DIA BROWSER COMING TO PHONES",
+ "sources": [
+  {
+   "name": "PiunikaWeb",
+   "url": "https://piunikaweb.com/2026/11/16/dia-is-officially-coming-to-iphone-and-android-in-2027/"
+  }
+ ]
+}

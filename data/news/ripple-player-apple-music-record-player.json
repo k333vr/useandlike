@@ -1,0 +1,28 @@
+{
+ "slug": "ripple-player-apple-music-record-player",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Music",
+ "tag": "New app",
+ "head": "Ripple Player: Apple Music record player app plays whole albums",
+ "dek": "Ripple Player, a new $4.99 iPhone app, shows the full albums in your Apple Music library as records on a shelf and plays each one from the first track to the last, with no shuffle or playlists. It was #19 in Music on the US App Store's paid chart on 16 November, its first day out.",
+ "details": "A tonearm moves across the record as it plays, and you can lift the needle onto another track; tapping the sleeve turns it over to show the track list. Only fully saved albums show by default, with a switch for singles. The turntable floats on water that can ripple with the music, and the maker says nothing is recorded. It has no account, ads or tracking, and most albums need an Apple Music subscription.",
+ "where": "iPhone and iPad, $4.99 on the App Store, needs iOS 26 and Apple Music (out since 16 November)",
+ "means": "If you like listening to albums in order, this puts your Apple Music albums in a record-shelf view that plays them front to back.",
+ "todo": "Check that you use Apple Music before you buy: it doesn't work with other music apps.",
+ "apps": [
+  "Ripple Player",
+  "Apple Music"
+ ],
+ "item": 113105,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "RIPPLE PLAYER: ALBUMS ON VINYL",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/ripple-player/id6828347986"
+  }
+ ]
+}

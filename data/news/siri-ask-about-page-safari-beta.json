@@ -1,0 +1,24 @@
+{
+ "slug": "siri-ask-about-page-safari-beta",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Apple",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Siri AI can answer questions about a whole web page in iOS 27.3 beta 2",
+ "dek": "A new Ask About Page feature lets Siri AI read an entire page in Safari, also the parts not on screen, for example to pick the gluten-free dishes from a long menu. It's in the second iOS 27.3 developer beta.",
+ "apps": [
+  "Siri",
+  "Safari"
+ ],
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/16/siri-ai-ask-about-page-safari/"
+  }
+ ],
+ "item": 110934,
+ "idea": "news",
+ "traction": 18
+}

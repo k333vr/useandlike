@@ -1,0 +1,27 @@
+{
+ "slug": "open-screen-sharing-mac-remote-app",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Productivity",
+ "tag": "New app",
+ "head": "Open Screen Sharing app controls your Mac from iPhone and iPad",
+ "dek": "Open Screen Sharing is a remote desktop app for iPhone and iPad that connects to a Mac's built-in screen sharing, and also to VNC and RDP computers. It was #91 in Utilities on the US App Store's paid chart on 16 November.",
+ "details": "The App Store version costs $1.99 with no in-app purchases; the app's code is open source. Recent updates added touch control for Macs, a Quick Input option, keeping the Mac awake during a session, iPhone Duo support, and microphone and touch support for RDP. It's made by Metamerism LLC and came out on 16 October.",
+ "where": "iPhone and iPad, App Store, $1.99",
+ "means": "If you need a file or app on your Mac while you're away from it, this lets you see and use its screen from your phone.",
+ "todo": "Turn on Screen Sharing in your Mac's settings before you leave, then add the Mac in the app.",
+ "apps": [
+  "Open Screen Sharing"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/open-screen-sharing/id6818992574"
+  }
+ ],
+ "item": 113092,
+ "thumb_words": "CONTROL YOUR MAC FROM YOUR PHONE",
+ "idea": "newcomer",
+ "traction": 0
+}

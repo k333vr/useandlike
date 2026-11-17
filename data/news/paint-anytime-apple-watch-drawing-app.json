@@ -1,0 +1,27 @@
+{
+ "slug": "paint-anytime-apple-watch-drawing-app",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "Paint Anytime: a drawing app for Apple Watch with layers",
+ "dek": "Paint Anytime lets you draw and paint on your Apple Watch, with brushes, layers, a lasso and a fill tool. It was #28 in Graphics & Design on the US App Store's paid chart on 16 November.",
+ "details": "It costs $2.99 with no in-app purchases and needs watchOS 10 or later. There are six brush presets, custom colour palettes, draw-and-hold shape correction, undo and redo, a gallery of saved drawings and watch face widgets; you can share drawings by iMessage or email. It's made by Denis Kolchev, and its code is open source.",
+ "where": "Apple Watch, App Store, $2.99",
+ "means": "If you like to doodle while you wait, this turns the watch on your wrist into a small sketchpad.",
+ "todo": "Start with the built-in tutorial: it shows the brushes and gestures on the small screen.",
+ "apps": [
+  "Paint Anytime"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/paint-anytime/id6816100087"
+  }
+ ],
+ "item": 113096,
+ "thumb_words": "PAINTING ON YOUR APPLE WATCH",
+ "idea": "newcomer",
+ "traction": 0
+}

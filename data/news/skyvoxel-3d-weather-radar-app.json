@@ -1,0 +1,27 @@
+{
+ "slug": "skyvoxel-3d-weather-radar-app",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Weather",
+ "tag": "New app",
+ "head": "SkyVoxel: 3D weather radar app shows storms you can spin and slice",
+ "dek": "SkyVoxel, a new $2.99 iPhone and iPad app, turns US Doppler radar from NOAA's NEXRAD network into a 3D model of a storm that you can rotate, tilt and cut through. It was #14 in Weather on the US App Store's paid chart on 16 November.",
+ "details": "It has three views: a full 3D volume, solid shells at the radar levels you pick, and a cross-section from the ground to the top of the scan along a line you draw. You pick any NEXRAD site for its latest scan, and the app explains radar terms. It's a one-time purchase with no subscription. The maker says it's a tool for enthusiasts and not a replacement for official warnings.",
+ "where": "iPhone and iPad, $2.99 one-time on the App Store, US radar sites (out since 15 November)",
+ "means": "If you follow storms in the US, you can see how tall a storm is and where its strongest parts sit instead of a flat radar map.",
+ "todo": "Use it alongside official alerts: in severe weather, follow the National Weather Service and local authorities, as the maker advises.",
+ "apps": [
+  "SkyVoxel"
+ ],
+ "item": 113117,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "SKYVOXEL: STORM RADAR IN 3D",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/skyvoxel/id6835014749"
+  }
+ ]
+}

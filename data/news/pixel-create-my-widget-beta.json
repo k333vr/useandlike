@@ -1,0 +1,31 @@
+{
+ "slug": "pixel-create-my-widget-beta",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "topic": "Android",
+ "tag": "New feature",
+ "head": "Create My Widget on Pixel 10 and 11: how to get it early",
+ "dek": "Google's Create My Widget app, which builds a home screen widget from a description you type, can now be installed early through a beta on the Google Play Store. It works on the Pixel 10 and Pixel 11 series, not the Pixel 10a.",
+ "details": "The feature was announced with the November Pixel Drop but hadn't reached many phones. Android Police lists examples such as a countdown to an event, your team's next game or weekly spending pulled from Gmail. It's for English-speaking users aged 18 and older in Australia, Canada, India, the UK and the US. You can also start from a template instead of a description.",
+ "where": "Pixel 10 and 11 series (not 10a), English, US, UK, Canada, Australia and India, beta from 16 November",
+ "means": "If you have a Pixel 10 or 11 and haven't seen Create My Widget yet, you don't have to wait for it to arrive on its own.",
+ "todo": "Open the Create My Widget listing on Google Play, scroll down and tap Join Beta, then install the update when it appears. After that, long-press the home screen, tap Widgets, then Create, and describe your widget or pick a template.",
+ "apps": [
+  "Google Pixel"
+ ],
+ "item": 111077,
+ "idea": "news",
+ "traction": 29,
+ "thumb_words": "PIXEL: CREATE MY WIDGET EARLY",
+ "sources": [
+  {
+   "name": "Droid Life",
+   "url": "https://www.droid-life.com/2026/11/16/your-pixel-can-early-test-its-new-create-my-widget-app-heres-how/"
+  },
+  {
+   "name": "Android Police",
+   "url": "https://www.androidpolice.com/how-to-get-create-my-widget-on-pixel/"
+  }
+ ],
+ "checked": "2026-11-17"
+}

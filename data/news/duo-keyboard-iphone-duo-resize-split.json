@@ -1,0 +1,28 @@
+{
+ "slug": "duo-keyboard-iphone-duo-resize-split",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "Duo Keyboard app lets iPhone Duo owners resize and split the keyboard",
+ "dek": "Duo Keyboard is a new $2.99 keyboard for the iPhone Duo that sits lower on the closed phone, so more of your message stays in view, and splits between your thumbs on the open screen. It was #98 in paid Utilities apps on the US App Store on 16 November.",
+ "details": "A swipe on the language key moves it to the left or right hand; holding the key changes height and width, saved separately for the narrow and wide screens. You pick two of 30 languages or emoji, and there are QWERTY, 12-key and Korean layouts. It has no autocorrect or word suggestions, doesn't need Full Access and, the listing says, doesn't log keystrokes. Password fields and some apps fall back to the system keyboard. Out since 28 October, from Connectzero.",
+ "where": "iPhone Duo, App Store, $2.99 one-time",
+ "means": "If typing on the closed iPhone Duo hides too much of your message, this keyboard gives you more room to see it.",
+ "todo": "Buy it on the App Store, then add it under Settings > General > Keyboard > Keyboards and pick it with the globe key.",
+ "apps": [
+  "Duo Keyboard",
+  "iPhone Duo"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/duo-keyboard-resize-split/id6826541573"
+  }
+ ],
+ "item": 113093,
+ "thumb_words": "IPHONE DUO KEYBOARD YOU CAN SPLIT",
+ "idea": "newcomer",
+ "traction": 0
+}

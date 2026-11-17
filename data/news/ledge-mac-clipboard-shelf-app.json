@@ -1,0 +1,27 @@
+{
+ "slug": "ledge-mac-clipboard-shelf-app",
+ "date": "2026-11-14",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Productivity",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Ledge for Mac keeps clipboard history and a file shelf in one panel",
+ "dek": "Ledge is a Mac app with searchable clipboard history and a shelf you drag files onto, which keeps them until you clear it. It costs $8.99 once after a 7-day trial and needs macOS 14 or later.",
+ "apps": [
+  "Ledge"
+ ],
+ "sources": [
+  {
+   "name": "Ledge",
+   "url": "https://ledgemac.com"
+  },
+  {
+   "name": "Product Hunt",
+   "url": "https://www.producthunt.com/products/ledge-5"
+  }
+ ],
+ "item": 101187,
+ "idea": "newcomer",
+ "traction": 15
+}

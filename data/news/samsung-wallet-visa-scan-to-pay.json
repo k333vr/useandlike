@@ -1,0 +1,28 @@
+{
+ "slug": "samsung-wallet-visa-scan-to-pay",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Money",
+ "tag": "New feature",
+ "head": "Samsung Wallet QR code payments with Visa start in Australia and Singapore",
+ "dek": "Galaxy phone owners in Australia and Singapore can now pay with a Visa card in Samsung Wallet by scanning a shop's QR code, Visa and Samsung announced on 16 November. More Asia Pacific countries are to follow over the next few quarters.",
+ "details": "You swipe to open QR payments in Samsung Wallet, scan the merchant's code and approve. It works where shops show supported QR marks such as Alipay+, FOMO Pay, Lakala, VNPay, OpenRice or Octopus, depending on the place, including when you travel abroad. It's part of Visa Pay.",
+ "where": "Australia and Singapore first, Samsung Wallet on Galaxy phones with a Visa card",
+ "means": "If you have a Galaxy phone and a Visa card, you can pay at shops that only take QR codes, at home or abroad, without another payment app.",
+ "todo": "Open Samsung Wallet and check that your Visa card is added; look for a supported QR mark at the till.",
+ "apps": [
+  "Samsung Wallet",
+  "Visa"
+ ],
+ "item": 106875,
+ "idea": "news",
+ "traction": 26,
+ "thumb_words": "SAMSUNG WALLET ADDS QR PAY",
+ "sources": [
+  {
+   "name": "The Manila Times (Visa and Samsung press release)",
+   "url": "https://www.manilatimes.net/2026/11/16/tmt-newswire/pr-newswire/visa-and-samsung-bring-scan-to-pay-to-mobile-devices-across-asia-pacific-with-samsung-wallet/2470457"
+  }
+ ]
+}

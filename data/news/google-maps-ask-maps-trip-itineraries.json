@@ -1,0 +1,32 @@
+{
+ "slug": "google-maps-ask-maps-trip-itineraries",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "topic": "Travel",
+ "tag": "New feature",
+ "head": "Google Maps itinerary planner: Ask Maps now plans whole trips",
+ "dek": "Ask Maps, the Gemini-powered chat inside Google Maps, can now build a plan for a day out or a trip of several days, with numbered stops on the map and live details for each one. It started rolling out on Android and iPhone on 16 November.",
+ "details": "During the trip, the plan shows traffic, opening hours and what each stop is like, and you can ask Maps to add a stop such as a lunch spot or a viewpoint. Itineraries can be shared with friends, exported to Google Docs on a computer, and found again under an itinerary badge in your Ask Maps history. Ask Maps can also look for open appointment slots at nearby beauty, pet care, car and home repair businesses, call businesses for you, and check which places in your saved lists have room for a group soon. TechCrunch reports Ask Maps is also expanding to 30 countries in Europe, including Spain, Germany and the UK.",
+ "where": "Google Maps on Android and iPhone, rolling out from 16 November",
+ "means": "If you plan day trips or holidays, Google Maps can now draft the route and stops for you, and you can change the plan by asking.",
+ "todo": "Update Google Maps, open Ask Maps and describe the trip you want, for example a three-day road trip; tap a stop for directions.",
+ "category": "Travel",
+ "apps": [
+  "Google Maps"
+ ],
+ "item": 109028,
+ "idea": "news",
+ "traction": 23,
+ "thumb_words": "GOOGLE MAPS NOW PLANS YOUR TRIP",
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/"
+  },
+  {
+   "name": "Droid Life",
+   "url": "https://www.droid-life.com/2026/11/16/google-maps-new-ask-maps-ai-features/"
+  }
+ ],
+ "checked": "2026-11-17"
+}

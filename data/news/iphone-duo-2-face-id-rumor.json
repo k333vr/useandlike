@@ -1,0 +1,32 @@
+{
+ "slug": "iphone-duo-2-face-id-rumor",
+ "date": "2026-11-15",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Apple",
+ "tag": "Rumor",
+ "head": "iPhone Duo 2 rumors: Face ID is Apple's top priority, says Gurman",
+ "dek": "Apple has iPhone Duo 2 prototypes with Face ID on the outer screen, according to Bloomberg's Mark Gurman, but he isn't sure it will be ready in time. Apple hasn't confirmed anything about a second Duo.",
+ "details": "Gurman says Apple's two priorities for the next Duo are Face ID and an Action button, with Face ID first. The Action button may come as a software option for Camera Control that lets you swap the press-and-hold shortcut for an app you choose. If Face ID misses the Duo 2, he expects it on an iPhone Duo 3 in 2028. Over the next couple of generations Apple also wants a telephoto camera and a thinner, lighter phone.",
+ "where": "Rumor for the iPhone Duo 2, expected next fall; not confirmed by Apple",
+ "means": "If you're deciding whether to buy the first iPhone Duo or wait, Face ID on the next one is reported but not certain.",
+ "todo": "Nothing to do yet. Today's Duo unlocks with Touch ID in its side button.",
+ "apps": [
+  "iPhone Duo"
+ ],
+ "rumor": true,
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/15/apple-engineers-actively-working-on-face-id-for-iphone-duo-2s-outer-display-report/"
+  },
+  {
+   "name": "iClarified",
+   "url": "https://www.iclarified.com/102972/apple-tests-face-id-and-action-button-for-iphone-duo-considers-larger-display-gurman"
+  }
+ ],
+ "item": 107282,
+ "thumb_words": "IPHONE DUO 2 MAY GET FACE ID",
+ "idea": "news",
+ "traction": 0
+}

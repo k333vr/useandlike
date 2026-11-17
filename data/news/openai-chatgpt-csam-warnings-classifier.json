@@ -1,0 +1,23 @@
+{
+ "slug": "openai-chatgpt-csam-warnings-classifier",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Safety",
+ "tag": "Quick",
+ "head": "ChatGPT now suspends accounts for 24 hours over child abuse requests",
+ "dek": "ChatGPT shows a warning and suspends an account for 24 hours when someone tries to get content that sexualizes children, and removes it for good if it happens again; OpenAI also gave selected companies a free tool that spots such images.",
+ "quick": true,
+ "apps": [
+  "ChatGPT"
+ ],
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/"
+  }
+ ],
+ "item": 110089,
+ "idea": "news",
+ "traction": 0
+}

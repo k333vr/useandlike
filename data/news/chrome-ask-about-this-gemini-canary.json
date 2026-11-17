@@ -1,0 +1,25 @@
+{
+ "slug": "chrome-ask-about-this-gemini-canary",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Google",
+ "tag": "Quick",
+ "head": "Chrome is testing an Ask about this button for Gemini",
+ "dek": "A button spotted in Chrome Canary lets you select text, a picture or part of a page and ask Gemini about it; Google hasn't confirmed the button or a release date, and it may reach Windows first.",
+ "quick": true,
+ "rumor": true,
+ "apps": [
+  "Chrome",
+  "Gemini"
+ ],
+ "sources": [
+  {
+   "name": "MakeUseOf",
+   "url": "https://www.makeuseof.com/chrome-ask-about-this-gemini-button/"
+  }
+ ],
+ "item": 111838,
+ "idea": "news",
+ "traction": 18
+}

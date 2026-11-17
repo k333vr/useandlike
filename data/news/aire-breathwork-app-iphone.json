@@ -1,0 +1,27 @@
+{
+ "slug": "aire-breathwork-app-iphone",
+ "date": "2026-11-15",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Health",
+ "tag": "New app",
+ "head": "aire breathwork app for iPhone picks sessions from your health data",
+ "dek": "aire is a new breathing exercise app for iPhone and Apple Watch that suggests a session for relaxation, recovery, focus or sleep. It costs $5.99 once and was #48 among paid Health & Fitness apps on the US App Store on 17 November.",
+ "details": "If you connect Apple Health, it looks at sleep, heart rate variability, resting heart rate and training, plus your feedback, and sorts you into a state such as Ready, Load Strain or Recovery Required. Guided video sessions cover box breathing, coherent breathing, slow breathing and physiological sighs, and short lessons explain the basics, including a BOLT score test. The maker, AIRE AG, pitches it at athletes and says it's for general wellbeing, not medical use. It came out on 15 November and needs iOS 17 or watchOS 10.",
+ "where": "iPhone and Apple Watch, $5.99 on the App Store, out since 15 November",
+ "means": "If you want guided breathing that adapts to how you slept or trained, this is a one-time purchase rather than a subscription.",
+ "todo": "Check the listing's screenshots before paying. Connecting Apple Health is optional, so you can try the sessions without sharing your data.",
+ "apps": [
+  "aire"
+ ],
+ "item": 113102,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "AIRE: BREATHING TIPS FROM YOUR SLEEP",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/aire/id6794430541"
+  }
+ ]
+}

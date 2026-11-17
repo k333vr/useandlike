@@ -1,0 +1,27 @@
+{
+ "slug": "iphone-duo-face-unlock-ios-27-3-beta",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Apple",
+ "tag": "Quick",
+ "quick": true,
+ "head": "iPhone Duo gets face unlock with the front camera in iOS 27.3 beta 2",
+ "dek": "In the second iOS 27.3 beta, the iPhone Duo can unlock with its front camera, but only when folded and on the Lock Screen; Touch ID is still needed for Apple Pay and passwords. It's turned on under Touch ID and Passcode in Settings.",
+ "apps": [
+  "iPhone Duo"
+ ],
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/16/ios-27-3-beta-2-everything-new/"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/16/everything-new-in-ios-27-3-beta-2-so-far/"
+  }
+ ],
+ "item": 110805,
+ "idea": "news",
+ "traction": 55
+}

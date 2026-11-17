@@ -1,0 +1,88 @@
+{
+ "slug": "airtag-checked-luggage-tsa-airlines-explained",
+ "date": "2026-11-17",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Travel",
+ "tag": "Explainer",
+ "category": "Travel",
+ "head": "AirTag in checked luggage: TSA rules and sharing it with your airline",
+ "dek": "An AirTag is allowed in checked and carry-on bags in the US, because its small coin battery stays inside the tracker, and since iOS 18.2 you can send its location to more than 50 airlines when a bag goes missing.",
+ "sections": [
+  {
+   "h": "Why people ask before they fly",
+   "p": [
+    "Lithium batteries are the reason. TSA's page on spare lithium batteries says loose spares must go in carry-on bags only, and for batteries inside a device it points to the FAA's rules. Many travellers then wonder whether a tracker in a suitcase counts.",
+    "The question got loud in October 2022, when Lufthansa first appeared to ban active AirTags in checked bags. Engadget reported on 13 October 2022 that the FAA said AirTags are allowed in checked baggage, and that trackers with under 0.3 grams of lithium in their battery may fly. Lufthansa then said Apple's trackers are allowed, after it and German regulators found that trackers with small, low-power batteries don't pose a safety risk."
+   ]
+  },
+  {
+   "h": "What the battery rules say",
+   "p": [
+    "An AirTag runs on a CR2032 coin cell. Your Mileage May Vary wrote on 5 March 2026 that this battery holds less than 0.7 watt-hours and about 0.1 grams of lithium, while the general limits for lithium batteries on planes are under 100 watt-hours and no more than 2 grams of lithium.",
+    "TSA's What Can I Bring? list allows smart luggage in checked bags and in carry-on bags with special instructions; the page was last updated on 20 July 2026. The page also says the final decision rests with the TSA officer at the checkpoint. Spare coin cells are a different case: as loose batteries, they go in your carry-on."
+   ]
+  },
+  {
+   "h": "Sending the location to your airline",
+   "p": [
+    "Apple announced Share Item Location on 11 November 2024 and released it with iOS 18.2 for iPhone Xs and newer. It makes a web page with a map of where your AirTag or other Find My item is, which updates with a time stamp when a new location comes in.",
+    "On 26 January 2026, with its new AirTag, Apple said more than 50 airlines accept these links. The first list in 2024 named carriers such as Delta, United, Lufthansa, British Airways, Air Canada, Qantas, KLM and Singapore Airlines. Baggage company SITA also added the links to WorldTracer, the bag-tracing system that Apple says over 500 airlines and ground handlers use.",
+    "Apple quotes SITA as saying carriers report 26 percent fewer baggage delays and 90 percent fewer bags that are truly lost with the feature. These are the airlines' own figures, passed on by Apple."
+   ]
+  },
+  {
+   "h": "Who can see the map, and for how long",
+   "p": [
+    "Only people you send the link to can open it, and they must sign in with an Apple Account or a partner airline's email address. Apple says each link is limited to a small number of people, and the Find My app shows who has visited it.",
+    "Sharing ends when you get the item back, when you stop it, or after seven days. The page only gets new locations while at least one of your Apple devices, signed in to your Apple Account, is online."
+   ]
+  },
+  {
+   "h": "How to share it",
+   "p": [
+    "Open Find My on your iPhone, tap Items, tap the AirTag, tap the More button and then Share Item Location. Follow the steps to create the page and send the link, for example in the airline's chat or with the bag report. To end it early, go back to the same item and tap Stop Sharing Item Location.",
+    "The second-generation AirTag Apple sold from January 2026 costs 29 dollars, or 99 dollars for four in the US, and needs iOS 26 or later. Apple says its Precision Finding works from up to 50 percent farther away than the first one."
+   ]
+  }
+ ],
+ "means": "If you fly with an AirTag in your suitcase, US rules allow it in checked bags, and if the bag goes missing you can let the airline see its location instead of only describing where you think it is.",
+ "todo": "Before your trip, check that your iPhone has iOS 18.2 or later and that the AirTag shows in Find My. If a bag is delayed, file the report with the airline, then share the AirTag's location from Find My and send the link to their baggage team. Pack spare coin cells in your carry-on.",
+ "apps": [
+  "AirTag",
+  "Find My"
+ ],
+ "idea": "competitor",
+ "traction": 0,
+ "thumb_words": "AIRTAG IN YOUR SUITCASE: THE RULES",
+ "sources": [
+  {
+   "name": "Apple Newsroom",
+   "url": "https://www.apple.com/newsroom/2024/11/apples-find-my-enables-sharing-location-of-lost-items-with-third-parties/"
+  },
+  {
+   "name": "Apple Newsroom",
+   "url": "https://www.apple.com/newsroom/2026/01/apple-introduces-new-airtag-with-expanded-range-and-improved-findability/"
+  },
+  {
+   "name": "Apple Support",
+   "url": "https://support.apple.com/guide/iphone/share-location-of-a-lost-item-iph3bedf2cc5/ios"
+  },
+  {
+   "name": "TSA",
+   "url": "https://www.tsa.gov/travel/security-screening/whatcanibring/items/smart-luggage"
+  },
+  {
+   "name": "TSA",
+   "url": "https://www.tsa.gov/travel/security-screening/whatcanibring/items/lithium-batteries-100-watt-hours-or-less-device"
+  },
+  {
+   "name": "Engadget",
+   "url": "https://engadget.com/faa-apple-airtags-allowed-in-checked-baggage-181915494.html"
+  },
+  {
+   "name": "Your Mileage May Vary",
+   "url": "https://yourmileagemayvary.com/2026/03/05/airtags-lithium-battery-airline-rules/"
+  }
+ ]
+}

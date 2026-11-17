@@ -1,0 +1,28 @@
+{
+ "slug": "crate-apple-music-library-records-app",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Music",
+ "tag": "New app",
+ "head": "Crate Apple Music library app shows your albums as records",
+ "dek": "Crate is a new $14.99 app that turns your Apple Music library into a room of records, picking albums back up at the song and second you stopped. It was #73 in paid Music apps on the US App Store on 16 November.",
+ "details": "Each Friday it puts together a box of new releases linked to music you already have, with a reason for each and 30-second previews. An assistant called the Clerk builds playlists from your library, and playlists can sync to the Music app. It works on iPhone, iPad, CarPlay and Apple Watch, reads your library on the device and has no server; songs you don't own need an Apple Music subscription. Out since 19 October, from Eric Linder.",
+ "where": "iPhone, iPad, Apple Watch and CarPlay, App Store, $14.99",
+ "means": "If your Apple Music library is big and you lose track of albums you started, this lays them out like a record shelf.",
+ "todo": "It's a one-time $14.99 on the App Store; you need an Apple Music library, and a subscription for songs you don't own.",
+ "apps": [
+  "Crate Music Library",
+  "Apple Music"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/crate-music-library/id6814223022"
+  }
+ ],
+ "item": 113106,
+ "thumb_words": "APPLE MUSIC AS A RECORD SHELF",
+ "idea": "newcomer",
+ "traction": 0
+}

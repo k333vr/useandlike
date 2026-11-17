@@ -1,0 +1,24 @@
+{
+ "slug": "ai-mode-gemini-4-carbon-pro",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Google AI Pro subscribers now get Gemini 4 Carbon in AI Mode",
+ "dek": "Gemini 4 Carbon in Google Search's AI Mode, until now only for AI Ultra, is open to AI Pro subscribers too; the AI Mode bar also no longer names the model, which Google's Rajan Patel confirmed.",
+ "quick": true,
+ "apps": [
+  "Google Search",
+  "Gemini"
+ ],
+ "item": 110077,
+ "idea": "news",
+ "traction": 15,
+ "sources": [
+  {
+   "name": "Search Engine Roundtable",
+   "url": "https://www.seroundtable.com/google-ai-mode-drops-gemini-label-42540.html"
+  }
+ ]
+}

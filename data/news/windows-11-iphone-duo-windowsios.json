@@ -1,0 +1,32 @@
+{
+ "slug": "windows-11-iphone-duo-windowsios",
+ "date": "2026-11-15",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Apple",
+ "tag": "Update",
+ "head": "Windows 11 on iPhone Duo runs without a jailbreak in a new project",
+ "dek": "A developer has shown a regular copy of Windows 11 running on Apple's foldable iPhone Duo without a jailbreak, and shared the code as WindowsiOS on GitHub. It isn't an app you can download: setting it up takes a Mac and developer tools.",
+ "details": "The project comes from Ammaar Reshi, who works on product and design at Google AI Studio; his demo shows Windows 11 24H2 for ARM with Microsoft Edge and Google's Antigravity coding app. Half-folded, the lower screen works as a keyboard and trackpad; fully open, Windows fills the 7.6-inch screen. Windows gets 4.5 GB of the phone's 12 GB of memory, and more than 35 background services, Windows Defender among them, are removed to keep it usable. You need a Mac with Apple silicon, Xcode, your own Windows 11 ARM image and a debugger connected at every launch; it's only been tested on the iPhone Duo, with no independent speed tests yet.",
+ "where": "iPhone Duo only, open-source code on GitHub; not on the App Store",
+ "means": "If you own an iPhone Duo, this shows what its hardware can do, but it isn't a way to get Windows on your phone with a tap.",
+ "todo": "Nothing to do for most owners. The project strips out Windows Defender, so it's a test for developers, not a setup for everyday use.",
+ "apps": [
+  "iPhone Duo",
+  "Windows 11"
+ ],
+ "item": 104725,
+ "idea": "news",
+ "traction": 61,
+ "thumb_words": "WINDOWS 11 ON THE IPHONE DUO",
+ "sources": [
+  {
+   "name": "GitHub (WindowsiOS)",
+   "url": "https://github.com/ammaarreshi/WindowsiOS"
+  },
+  {
+   "name": "WinFuture",
+   "url": "https://winfuture.de/news,162688.html"
+  }
+ ]
+}

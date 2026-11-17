@@ -1,0 +1,33 @@
+{
+ "slug": "one-ui-9-5-leaks-galaxy-claw",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Samsung",
+ "tag": "Leak",
+ "rumor": true,
+ "head": "One UI 9.5 leaked features: Galaxy Claw AI agent, Bixby Memory and more",
+ "dek": "Leaks and app teardowns point to an AI agent called Galaxy Claw in Samsung's One UI 9.5 that could use apps such as Calendar, Gmail, Messages and Phone for you. 9to5Google collected what has leaked so far; Samsung hasn't announced any of it.",
+ "details": "Galaxy Claw could also set up scheduled tasks and is reportedly tied to Samsung's rumored $4.99-a-month AI Premium plan. Other leaked features: Bixby Memory, which remembers details from earlier requests; Daily Brief, which groups notifications such as payments and bookings; Meal Scan in Samsung Health, which estimates calories from a photo; custom greetings in Call Screening and Tap to Share. One UI 9.5 is based on Android 17.",
+ "where": "Expected first on the Galaxy S27 series, then more Galaxy phones; a beta may reach the Galaxy S26 soon",
+ "means": "If you have a recent Galaxy phone, the next big update may bring an AI that acts in your apps, possibly as a paid extra.",
+ "todo": "Nothing to do yet. Samsung hasn't confirmed these features, their price or a date.",
+ "apps": [
+  "One UI",
+  "Galaxy AI",
+  "Bixby"
+ ],
+ "item": 109965,
+ "items": [
+  107921
+ ],
+ "thumb_words": "ONE UI 9.5: GALAXY CLAW AI AGENT?",
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/16/samsung-galaxy-one-ui-9-5-update-leak/"
+  }
+ ],
+ "idea": "news",
+ "traction": 18
+}

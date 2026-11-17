@@ -1,0 +1,23 @@
+{
+ "slug": "chatgpt-health-mac-android-dots",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "AI",
+ "tag": "Quick",
+ "quick": true,
+ "head": "ChatGPT Health is coming to the Mac app, Android and Dots",
+ "dek": "OpenAI says ChatGPT Health, which can use your Apple Health data and medical records with your permission, will come to the Mac app, Android, Sites and Dots. It's US-only on iPhone, iPad and the web for now, with no date given.",
+ "apps": [
+  "ChatGPT"
+ ],
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/16/chatgpt-health-feature-will-soon-work-with-mac-app-dots-more/"
+  }
+ ],
+ "item": 109964,
+ "idea": "news",
+ "traction": 0
+}

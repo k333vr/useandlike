@@ -1,0 +1,27 @@
+{
+ "slug": "fourtrack-cassette-recorder-app",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "topic": "Music",
+ "tag": "New app",
+ "head": "FourTrack: a four-track cassette recorder app for iPhone, iPad and Mac",
+ "dek": "FourTrack lets you record a song in four layers like an old tape machine: play one part, then record the next on top of it. It came out on 13 November for $5.99 and was #87 among paid Music apps on the US App Store on 16 November.",
+ "details": "Each of the four channels has volume, pan, mute, solo, a three-band EQ and one effect (reverb, echo or chorus). A tape setting adds saturation, wow, flutter and hiss, with two tape speeds, plus compression and a limiter. Every take is kept, so recording over a part doesn't lose the old one. Mixes save as WAV or AAC; the listing says there's no account, no ads and no tracking, and recordings stay on the device. It's made by Milo Devereux and needs iOS 17 or later.",
+ "where": "iPhone, iPad and Mac, $5.99, out since 13 November",
+ "means": "If you write songs or want to sketch ideas with a tape sound, this is a one-time purchase that records and mixes four tracks on your phone.",
+ "todo": "The listing recommends wired or USB headphones while recording over earlier parts, because Bluetooth adds a delay.",
+ "apps": [
+  "FourTrack"
+ ],
+ "item": 113108,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "FOURTRACK: TAPE RECORDER ON IPHONE",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/fourtrack-cassette-recorder/id6833702871"
+  }
+ ],
+ "checked": "2026-11-17"
+}

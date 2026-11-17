@@ -1,0 +1,28 @@
+{
+ "slug": "ios-27-3-beta-2-calendar-close-to-lock",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Apple",
+ "tag": "Quick",
+ "quick": true,
+ "head": "iOS 27.3 beta 2 moves Calendar's buttons down and adds Close to Lock",
+ "dek": "Apple's second iOS 27.3 developer beta puts Calendar's search and add buttons at the bottom, lets the iPhone Duo lock when you close it, and adds free video podcasts to the Apple TV app. Apple News+ Puzzles also come to Australia, the UK and French Canada.",
+ "apps": [
+  "iPhone",
+  "Calendar"
+ ],
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/16/ios-27-3-beta-2-everything-new/"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/16/everything-new-in-ios-27-3-beta-2-so-far/"
+  }
+ ],
+ "item": 111389,
+ "idea": "news",
+ "traction": 36
+}

@@ -1,0 +1,30 @@
+{
+ "slug": "iphone-duo-200000-apps",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Apple",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Apple: over 200,000 apps now fit the iPhone Duo's screens",
+ "dek": "Apple's Greg Joswiak says more than 200,000 apps are now built for the iPhone Duo's inner and outer screens, up from 100,000 on 6 November. Older apps still show black bars on the inner screen.",
+ "apps": [
+  "iPhone Duo"
+ ],
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/16/apple-says-200k-apps-optimized-for-iphone-duo/"
+  },
+  {
+   "name": "IBTimes UK",
+   "url": "https://www.ibtimes.co.uk/new-apple-iphone-duo-owners-slam-app-situation-unoptimised-apps-suffer-letterboxing-1832470"
+  }
+ ],
+ "item": 111121,
+ "items": [
+  108148
+ ],
+ "idea": "news",
+ "traction": 0
+}

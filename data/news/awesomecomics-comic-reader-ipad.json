@@ -1,0 +1,27 @@
+{
+ "slug": "awesomecomics-comic-reader-ipad",
+ "date": "2026-11-15",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Reading",
+ "tag": "New app",
+ "head": "AwesomeComics comic reader for iPad turns pages like paper",
+ "dek": "AwesomeComics is a new free comic reader for iPad: pages curl under your finger, landscape shows a two-page spread with a spine, and Guided View moves panel by panel. It reads your own CBZ, CBR and PDF files.",
+ "details": "It came out on 3 November from Hrvoje Gjurin and doesn't sell comics. Your collection sits in longboxes by publisher and series, with manga right-to-left and webtoon scrolling, plus a reading journal. Pro (5.99 euros a year with a 7-day trial, or 14.99 euros once) adds home servers like Komga, Kavita and calibre-web, iCloud sync and more share cards. No account, no ads, no tracking.",
+ "where": "iPad, App Store, free with optional Pro",
+ "means": "If you keep comic files and want them to feel more like printed issues on your iPad, this is a free way to read them.",
+ "todo": "Get it from the App Store and add your own comic files; Pro is only needed for home servers and sync.",
+ "apps": [
+  "AwesomeComics"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/awesomecomics-comic-reader/id6829184940"
+  }
+ ],
+ "item": 106176,
+ "thumb_words": "COMICS THAT TURN LIKE PAPER",
+ "idea": "newcomer",
+ "traction": 0
+}

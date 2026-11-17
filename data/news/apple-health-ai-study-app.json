@@ -1,0 +1,36 @@
+{
+ "slug": "apple-health-ai-study-app",
+ "date": "2026-11-15",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "Apple Health AI Study app: ask health questions, join in the US",
+ "dek": "Apple's new Apple Health AI Study app answers everyday health questions in plain language, with links to the medical research behind each answer. It's part of a US research study open to people 21 and older, with room for up to 200,000 participants.",
+ "details": "The answers come from OpenEvidence, a clinical AI company that draws on journals such as NEJM, JAMA and Nature. You can choose to share Health app data like resting heart rate, sleep, activity or lab results for more personal answers, rate the answers and fill in monthly surveys. Apple says study data won't be used to train AI models, and OpenEvidence deletes questions and answers after 24 hours. The app doesn't diagnose or treat anything and flags worrying questions with a suggestion to see a doctor.",
+ "where": "US only, free on the App Store from 15 November; iPhone 15 Pro or later with Apple Intelligence, iOS 26 or later",
+ "means": "If you're in the US with a recent iPhone, you can try an AI health helper from Apple now, as a study participant rather than a regular user.",
+ "todo": "Download the Apple Health AI Study app, read about the study and enrol if you want to take part. Sharing your Health data is optional, and the app is not a replacement for medical advice.",
+ "apps": [
+  "Apple Health AI Study",
+  "Apple Health"
+ ],
+ "item": 106581,
+ "idea": "news",
+ "traction": 40,
+ "thumb_words": "APPLE'S NEW AI HEALTH APP",
+ "sources": [
+  {
+   "name": "Apple Newsroom",
+   "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/"
+  },
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/apple-health-ai-study-app/id6800060365"
+  }
+ ]
+}

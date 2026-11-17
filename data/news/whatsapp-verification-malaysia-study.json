@@ -1,0 +1,23 @@
+{
+ "slug": "whatsapp-verification-malaysia-study",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Malaysia studies making WhatsApp verify users' identities and numbers",
+ "dek": "Malaysia's Communications Ministry is studying whether WhatsApp should have to verify the identity and phone number behind each account, because scam groups use the app, Minister Fahmi Fadzil said. There's no decision or timeline yet.",
+ "apps": [
+  "WhatsApp"
+ ],
+ "sources": [
+  {
+   "name": "The Star",
+   "url": "https://www.thestar.com.my/news/nation/2026/11/16/whatsapp-verification-under-study"
+  }
+ ],
+ "item": 105368,
+ "idea": "news",
+ "traction": 0
+}

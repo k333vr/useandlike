@@ -1,0 +1,24 @@
+{
+ "slug": "gemini-live-pikachu-camera-effects-test",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Gemini Live may get Pikachu and Thanksgiving camera effects",
+ "dek": "Android Authority found unfinished code in the Google app for Android for camera effects in Gemini Live, including a 3D Pikachu and an autumn Thanksgiving theme; none worked in its test and Google hasn't confirmed them.",
+ "quick": true,
+ "rumor": true,
+ "apps": [
+  "Gemini"
+ ],
+ "item": 108300,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/gemini-live-genie-video-effects-apk-teardown-3735308/"
+  }
+ ]
+}

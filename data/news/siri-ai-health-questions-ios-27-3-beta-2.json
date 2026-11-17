@@ -1,0 +1,24 @@
+{
+ "slug": "siri-ai-health-questions-ios-27-3-beta-2",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Apple",
+ "tag": "Quick",
+ "head": "Siri AI can answer questions about your Health data in iOS 27.3 beta 2",
+ "dek": "In the second developer beta of iOS 27.3, Siri AI answers questions about steps, heart rate, activity rings and medications, which it couldn't do since iOS 27.0; 9to5Mac expects iOS 27.3 out around early December.",
+ "quick": true,
+ "apps": [
+  "Siri",
+  "Apple Health"
+ ],
+ "item": 111391,
+ "idea": "news",
+ "traction": 15,
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/16/siri-ai-health-app-questions-ios-27/"
+  }
+ ]
+}

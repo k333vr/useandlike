@@ -1,0 +1,36 @@
+{
+ "slug": "siri-ai-daily-limits-icloud-plans",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Apple",
+ "tag": "Price change",
+ "head": "Siri AI usage limits: iCloud+ 200 GB and up raise the daily limit",
+ "dek": "Siri AI and some Apple Intelligence features have a daily usage limit on each device, and with iOS 27.3 an iCloud+ plan of 200 GB or more raises it. Apple's support page lists up to 2x for 200 GB, 5x for 2 TB, 10x for 6 TB and 20x for 12 TB.",
+ "details": "The limits cover Siri AI, the photo tools Clean Up, Extend, Spatial Reframing and Image Playground, Apple's cloud models in Shortcuts, and other apps that use Apple's models in Private Cloud Compute. Apple gives no exact numbers; limits depend on the feature, how complex the request is and demand. Free iCloud and the 50 GB plan keep the standard limit. The extra use is shared, first come first served, across your devices and your Family Sharing group, and it resets around midnight local time without rolling over. Timers and other basic Siri requests keep working after the limit; requests with personal context or several steps pause until the reset.",
+ "where": "iOS, iPadOS and macOS 27.3 (in beta since 16 November); the extra Siri AI use isn't offered in the EU, UK, Brazil or South Korea",
+ "means": "If you lean on Siri AI or Image Playground a lot, you may see a 'daily limit' alert. If you already pay for 200 GB or more of iCloud+, you get the higher limit at no extra cost.",
+ "todo": "Nothing to do yet: the change comes with iOS 27.3. Check which iCloud+ plan you already pay for, and only upgrade if you keep hitting the limit.",
+ "apps": [
+  "Siri",
+  "iCloud"
+ ],
+ "item": 110929,
+ "idea": "news",
+ "traction": 21,
+ "thumb_words": "SIRI AI LIMITS: ICLOUD+ RAISES THEM",
+ "sources": [
+  {
+   "name": "Apple Support",
+   "url": "https://support.apple.com/en-us/127901"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/16/apple-intelligence-siri-ai-usage-limits/"
+  },
+  {
+   "name": "iPhone in Canada",
+   "url": "https://www.iphoneincanada.ca/2026/11/16/siri-ai-daily-limits-icloud-canada/"
+  }
+ ]
+}

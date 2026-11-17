@@ -1,0 +1,32 @@
+{
+ "slug": "instagram-amazon-affiliate-links-reels",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "topic": "Social",
+ "tag": "New feature",
+ "head": "Instagram Amazon affiliate links now work in Reels and feed posts",
+ "dek": "Instagram creators in the US who are in Amazon's influencer program can now tag Amazon products with their affiliate link right in Reels and feed posts, not only in stories, DMs and bios. Meta announced it on 16 November.",
+ "details": "A creator can tag up to 30 products in a Reel and up to 20 in a feed post. Creators connect their Amazon account in the Monetization section of the Professional Dashboard; they need a professional account and must be 18 or older. Tapping a link opens the Amazon app, and the app shows each item's expected commission before it's added. Meta says it takes no cut and charges no fees; Amazon pays the commission.",
+ "where": "US creators in Amazon's influencer program, from 16 November",
+ "means": "If you earn from Amazon links, you can put them on the Reel or post itself instead of sending viewers to your bio. As a viewer, a tagged product in a post may be an affiliate link.",
+ "todo": "Creators: open the Professional Dashboard, go to Monetization and connect your Amazon account, then tag products when you post.",
+ "apps": [
+  "Instagram",
+  "Amazon"
+ ],
+ "item": 110088,
+ "idea": "news",
+ "traction": 40,
+ "thumb_words": "INSTAGRAM ADDS AMAZON LINKS TO REELS",
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/16/instagram-now-lets-creators-add-amazon-affiliate-links-in-reels-and-feed-posts/"
+  },
+  {
+   "name": "Engadget",
+   "url": "https://www.engadget.com/2316714/instagram-will-let-creators-add-amazon-affiliate-links-directly-to-their-posts-and-reels/"
+  }
+ ],
+ "checked": "2026-11-17"
+}

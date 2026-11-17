@@ -1,0 +1,28 @@
+{
+ "slug": "tidylist-youtube-playlist-organizer",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Video",
+ "tag": "New app",
+ "head": "TidyList: YouTube playlist organizer finds duplicates and deleted videos",
+ "dek": "TidyList is a new web tool that lets you sort, filter and bulk-move videos between your YouTube playlists after signing in with Google. It also flags duplicate, private, removed and hidden videos so you can clear them in one go.",
+ "details": "You can filter by category or search by title, then save the result as a new playlist or copy and move videos in bulk. Nothing changes on YouTube until you confirm. It has no ads and nothing to install; saving changes needs Pro, a one-time £4.99 payment that doesn't renew.",
+ "where": "Web, with a Google sign-in; Pro £4.99 one-time",
+ "means": "If your Watch Later or music playlists have grown into a mess of repeats and dead videos, this cleans them up faster than doing it one by one in YouTube.",
+ "todo": "Try the free view to see what it finds in your playlists before paying for Pro to save changes.",
+ "apps": [
+  "TidyList",
+  "YouTube"
+ ],
+ "item": 108596,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "TIDYLIST CLEANS YOUTUBE PLAYLISTS",
+ "sources": [
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/tidylist"
+  }
+ ]
+}

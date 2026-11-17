@@ -1,0 +1,86 @@
+{
+ "slug": "iphone-duo-face-unlock-vs-face-id-explained",
+ "date": "2026-11-17",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Apple",
+ "tag": "Explainer",
+ "head": "iPhone Duo face unlock vs Face ID: how the new option differs",
+ "dek": "The iPhone Duo's new face unlock in the iOS 27.3 beta uses an ordinary front camera instead of Face ID's depth sensors, so Apple keeps it to the Lock Screen, asks for Touch ID again after about 45 minutes and warns that it's less secure than Touch ID or Face ID.",
+ "sections": [
+  {
+   "h": "What Apple added on 16 November",
+   "p": [
+    "Apple's second iOS 27.3 beta, build 24C5049d, adds a setting called Unlock with Front Camera for the iPhone Duo, under Settings, Touch ID and Passcode. MacRumors and iClarified reported it on 16 November. It's in the developer beta only, and Apple hasn't announced a date for the public release.",
+    "Until now, Notebookcheck notes, Duo owners could skip the passcode only with the fingerprint reader in the side button or with a paired Apple Watch. The Duo has no Face ID hardware."
+   ]
+  },
+  {
+   "h": "How Face ID works",
+   "p": [
+    "Face ID uses the TrueDepth camera on other iPhones. Apple's support page says it projects thousands of invisible dots to build a depth map of your face and takes an infrared picture as well. Both are turned into a mathematical model inside the Secure Enclave and compared with the face you set up.",
+    "Because it measures depth, Face ID is designed to resist photos and masks, and to work in total darkness, with hats, glasses and many sunglasses. It's attention-aware, so it checks that your eyes are open. Apple puts the chance that a random person unlocks your iPhone at less than 1 in 1,000,000, higher for identical twins, siblings who look like you and children under 13."
+   ]
+  },
+  {
+   "h": "How the Duo's face unlock is different",
+   "p": [
+    "The new option uses the camera on the Duo's outer screen, not depth sensors, which Notebookcheck describes as a 2D face unlock. It works only while the phone is closed and only on the Lock Screen. Notebookcheck thinks the inner screen is left out because its under-display camera has a lower resolution; Apple hasn't said why.",
+    "Setup asks you to hold your face in the frame and slowly turn your head left, right, up and down, according to iClarified. Apple says the face data stays on the device, and its setup screen warns that the option isn't as secure as Touch ID or Face ID. Apple hasn't published a number for it."
+   ]
+  },
+  {
+   "h": "The limits Apple built in",
+   "p": [
+    "Face unlock only works after a recent Touch ID or passcode unlock. After about 45 minutes without one, the Duo asks for your fingerprint or passcode again. Apple Pay, saved passwords and app logins still need Touch ID.",
+    "For comparison, Apple says Touch ID's chance of a random match is 1 in 50,000 for one finger, and it asks for the passcode after a restart, after 48 hours without an unlock or after five failed tries. Google's Pixel phones also offer face unlock: on the Pixel 7 and later it unlocks the phone, and from the Pixel 8 it can also approve app sign-ins and purchases. Google warns that someone who looks a lot like you, such as an identical sibling, could unlock it."
+   ]
+  },
+  {
+   "h": "A second new setting, and what's still open",
+   "p": [
+    "The same beta adds an option under Display and Brightness that locks the Duo when you fold it, instead of moving what's on the inner screen to the outer one.",
+    "Notebookcheck mentions reports by Bloomberg's Mark Gurman that Apple is testing real Face ID on prototypes of a second-generation Duo. Apple hasn't announced such a model, so that remains a report."
+   ]
+  }
+ ],
+ "means": "If you own an iPhone Duo, face unlock will save you a fingerprint tap on the Lock Screen once iOS 27.3 is out, but anything with money or passwords still goes through Touch ID.",
+ "todo": "Nothing to do until iOS 27.3 comes out; betas are for testers. When it arrives, turn on Unlock with Front Camera under Touch ID and Passcode only if you're fine with a weaker check than your fingerprint, and turn on the lock-when-closed option under Display and Brightness if others use your phone.",
+ "apps": [
+  "iPhone Duo",
+  "Face ID"
+ ],
+ "idea": "competitor",
+ "traction": 0,
+ "thumb_words": "IPHONE DUO FACE UNLOCK VS FACE ID",
+ "sources": [
+  {
+   "name": "Apple Support",
+   "url": "https://support.apple.com/en-us/102381"
+  },
+  {
+   "name": "Apple Support",
+   "url": "https://support.apple.com/en-us/105095"
+  },
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/16/iphone-duo-face-unlock/"
+  },
+  {
+   "name": "iClarified",
+   "url": "https://www.iclarified.com/103584/ios-273-beta-2-adds-face-unlock-and-lock-when-closed-to-iphone-duo"
+  },
+  {
+   "name": "Notebookcheck",
+   "url": "https://www.notebookcheck.net/iOS-27-3-beta-2-adds-camera-based-face-unlock-to-iPhone-Duo-but-with-a-catch.1451718.0.html"
+  },
+  {
+   "name": "Digital Trends",
+   "url": "https://www.digitaltrends.com/phones/apple-adds-face-id-like-unlocking-to-the-iphone-duo-with-ios-27-3-beta/"
+  },
+  {
+   "name": "Google Pixel Help",
+   "url": "https://support.google.com/pixelphone/answer/9517039?hl=en"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "expert-raw-redesign-one-ui-9-5-leak",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Samsung",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "Samsung Expert RAW may get a redesign with One UI 9.5",
+ "dek": "An early One UI 9.5 build of Samsung's Expert RAW camera app, obtained by SamMobile, shows a new layout, two custom shutter shortcuts, an aperture range to f/22 and bursts of up to 30 RAW shots; Samsung hasn't announced it, and it's expected with the Galaxy S27 in early 2027.",
+ "apps": [
+  "Expert RAW"
+ ],
+ "item": 101844,
+ "idea": "news",
+ "traction": 18,
+ "sources": [
+  {
+   "name": "Android Headlines",
+   "url": "https://www.androidheadlines.com/2026/11/samsung-expert-raw-redesign-galaxy-s27-one-ui-9-5.html"
+  }
+ ]
+}

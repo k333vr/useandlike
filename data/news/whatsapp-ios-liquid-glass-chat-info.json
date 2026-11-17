@@ -1,0 +1,23 @@
+{
+ "slug": "whatsapp-ios-liquid-glass-chat-info",
+ "date": "2026-11-16",
+ "added": "2026-11-17",
+ "checked": "2026-11-17",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "head": "WhatsApp on iPhone brings Liquid Glass to chat info and the drawing tools",
+ "dek": "The buttons on WhatsApp's chat info screen and the drawing editor's toolbar now get Apple's glass-like look on iPhone; some App Store users have it, with more accounts over the coming weeks.",
+ "quick": true,
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 106776,
+ "idea": "news",
+ "traction": 26,
+ "sources": [
+  {
+   "name": "WABetaInfo",
+   "url": "https://wabetainfo.com/whatsapp-launches-more-liquid-glass-updates-on-ios/"
+  }
+ ]
+}
