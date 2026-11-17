@@ -708,6 +708,28 @@
     "jow": ["@meal"],
 
     "eharmony": ["@dating"],
-    "luxy": ["@luxdating", "@dating"]
+    "luxy": ["@luxdating", "@dating"],
+    "monday": ["project management", "task management", "work management", "@crm"],
+    "gamma": ["@present"],
+    "pimsleur": ["@languages"],
+    "rosettastone": ["@languages"],
+    "singaporeair": ["krisflyer", "singapore flight"],
+    "krispcall": ["@voip"],
+    "12go": ["@bus", "@ferries", "train in thailand", "train in vietnam"],
+    "sider": ["@browserai"],
+    "quillbot": ["@aiwrite"],
+    "pipedrive": ["@crm", "sales pipeline"],
+    "hubspot": ["@crm", "@emailmkt"],
+    "printify": ["@pod"],
+    "gelato": ["@pod"],
+    "zendrop": ["@dropship"],
+    "softr": ["@appbuild", "client portal"],
+    "todoist": ["to do list", "to-do list", "todo list", "task manager"],
+    "socialbee": ["social media scheduler", "schedule posts", "social media management"],
+    "citbank": ["high yield savings", "high-yield savings", "hysa", "savings account"],
+    "moomoo": ["@invest"],
+    "mintmobile": ["@phoneplan"],
+    "netgear": ["wifi router", "mesh wifi", "mobile hotspot"],
+    "taobao": ["order from china"]
   }
 }

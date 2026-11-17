@@ -9,6 +9,15 @@
   "worth": 0.01,
   "added": "2026-10-13"
  },
+ "12go": {
+  "name": "12Go",
+  "group": "Travel",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "19.2% per booking",
+  "countries": "Asia",
+  "added": "2026-11-17"
+ },
  "99designs": {
   "name": "99designs",
   "group": "Freelancers",
@@ -513,6 +522,24 @@
   "worth": 0.03,
   "added": "2026-10-13"
  },
+ "cider": {
+  "name": "Cider",
+  "group": "Shopping & Mobile",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "2.4% of new customers' orders",
+  "countries": "worldwide",
+  "added": "2026-11-17"
+ },
+ "citbank": {
+  "name": "CIT Bank",
+  "group": "Money & Trading",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "$28-100 per approved account",
+  "countries": "US",
+  "added": "2026-11-17"
+ },
  "classpass": {
   "name": "ClassPass",
   "group": "Health & Fitness",
@@ -918,6 +945,15 @@
   "countries": "US only",
   "worth": 1.12,
   "added": "2026-10-13"
+ },
+ "easemytrip": {
+  "name": "EaseMyTrip",
+  "group": "Travel",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "$12-180 per app lead",
+  "countries": "India",
+  "added": "2026-11-17"
  },
  "easeus": {
   "name": "EaseUS",
@@ -1418,6 +1454,15 @@
   "worth": 0.15,
   "added": "2026-10-13"
  },
+ "gamma": {
+  "name": "Gamma",
+  "group": "AI Tools",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "15% per sale",
+  "countries": "worldwide",
+  "added": "2026-11-17"
+ },
  "gearup": {
   "name": "GearUP",
   "group": "Games",
@@ -1437,6 +1482,15 @@
   "countries": "worldwide",
   "worth": 0.38,
   "added": "2026-10-13"
+ },
+ "gelato": {
+  "name": "Gelato",
+  "group": "Online Stores & Funnels",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "12% per sale",
+  "countries": "worldwide",
+  "added": "2026-11-17"
  },
  "genmobile": {
   "name": "GenMobile",
@@ -1742,6 +1796,15 @@
   "added": "2026-10-13",
   "line_name": "Hotels com"
  },
+ "hubspot": {
+  "name": "HubSpot",
+  "group": "Business & Legal",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "24-40% of a purchase",
+  "countries": "worldwide",
+  "added": "2026-11-17"
+ },
  "humblebundle": {
   "name": "Humble Bundle",
   "group": "Games",
@@ -1973,6 +2036,15 @@
   "countries": "US only",
   "worth": 0.02,
   "added": "2026-10-13"
+ },
+ "krispcall": {
+  "name": "KrispCall",
+  "group": "Phone Plans & Internet",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "24% of a subscription",
+  "countries": "worldwide",
+  "added": "2026-11-17"
  },
  "last-fiefdom": {
   "name": "Last Fiefdom",
@@ -2209,6 +2281,15 @@
   "worth": 1.31,
   "added": "2026-10-13"
  },
+ "mintmobile": {
+  "name": "Mint Mobile",
+  "group": "Phone Plans & Internet",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "$1.60 per sale",
+  "countries": "US",
+  "added": "2026-11-17"
+ },
  "mixbook": {
   "name": "Mixbook",
   "group": "Photo Books & Prints",
@@ -2229,6 +2310,15 @@
   "countries": "US",
   "added": "2026-10-29"
  },
+ "monday": {
+  "name": "monday.com",
+  "group": "Productivity & Design",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "80% of sales",
+  "countries": "worldwide",
+  "added": "2026-11-17"
+ },
  "moneygram": {
   "name": "MoneyGram",
   "group": "Money & Trading",
@@ -2248,6 +2338,15 @@
   "countries": "worldwide",
   "worth": 1.38,
   "added": "2026-10-13"
+ },
+ "moomoo": {
+  "name": "moomoo",
+  "group": "Money & Trading",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "$40 per funded account",
+  "countries": "US",
+  "added": "2026-11-17"
  },
  "movavi": {
   "name": "Movavi",
@@ -2365,6 +2464,15 @@
   "countries": "US only",
   "worth": 0.14,
   "added": "2026-10-13"
+ },
+ "netgear": {
+  "name": "NETGEAR",
+  "group": "Phone Plans & Internet",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "7.2% of sales",
+  "countries": "US",
+  "added": "2026-11-17"
  },
  "newspaperscom": {
   "name": "Newspapers.com",
@@ -2685,6 +2793,15 @@
   "worth": 4.8,
   "added": "2026-10-13"
  },
+ "pimsleur": {
+  "name": "Pimsleur",
+  "group": "Learning",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "$4 per 7-day free trial (8% of app sales)",
+  "countries": "US, CA, UK, AU",
+  "added": "2026-11-17"
+ },
  "pinnaclestudio": {
   "name": "Pinnacle Studio",
   "group": "Video Creation",
@@ -2694,6 +2811,15 @@
   "countries": "worldwide",
   "worth": 0.68,
   "added": "2026-10-13"
+ },
+ "pipedrive": {
+  "name": "Pipedrive",
+  "group": "Business & Legal",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "16% for the first 12 months",
+  "countries": "worldwide",
+  "added": "2026-11-17"
  },
  "plants-on-fire": {
   "name": "Plants on Fire: Clash & Defend",
@@ -2743,6 +2869,15 @@
   "countries": "US only",
   "worth": 0.01,
   "added": "2026-10-13"
+ },
+ "printify": {
+  "name": "Printify",
+  "group": "Online Stores & Funnels",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "4% of orders",
+  "countries": "worldwide",
+  "added": "2026-11-17"
  },
  "printique": {
   "name": "Printique",
@@ -2823,6 +2958,15 @@
   "countries": "worldwide",
   "worth": 2.0,
   "added": "2026-10-13"
+ },
+ "quillbot": {
+  "name": "QuillBot",
+  "group": "AI Tools",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "8-16% per sale",
+  "countries": "worldwide",
+  "added": "2026-11-17"
  },
  "qustodio": {
   "name": "Qustodio",
@@ -2959,6 +3103,15 @@
   "worth": 1.8,
   "added": "2026-10-13"
  },
+ "rosettastone": {
+  "name": "Rosetta Stone",
+  "group": "Learning",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "12% of subscriptions",
+  "countries": "worldwide",
+  "added": "2026-11-17"
+ },
  "rover": {
   "name": "Rover",
   "group": "Other",
@@ -3047,6 +3200,15 @@
   "worth": 0.06,
   "added": "2026-10-13"
  },
+ "sider": {
+  "name": "Sider",
+  "group": "AI Tools",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "12% per sale",
+  "countries": "worldwide",
+  "added": "2026-11-17"
+ },
  "simplifi": {
   "name": "Simplifi",
   "group": "Money & Trading",
@@ -3076,6 +3238,15 @@
   "countries": "worldwide",
   "worth": 2.0,
   "added": "2026-10-13"
+ },
+ "singaporeair": {
+  "name": "Singapore Airlines",
+  "group": "Travel",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "0.8% of a booking",
+  "countries": "worldwide",
+  "added": "2026-11-17"
  },
  "skylum": {
   "name": "Skylum",
@@ -3146,6 +3317,24 @@
   "countries": "US only",
   "worth": 0.06,
   "added": "2026-10-13"
+ },
+ "socialbee": {
+  "name": "SocialBee",
+  "group": "Productivity & Design",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "16% per sale",
+  "countries": "worldwide",
+  "added": "2026-11-17"
+ },
+ "softr": {
+  "name": "Softr",
+  "group": "Website & App Builders",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "16% per sale",
+  "countries": "worldwide",
+  "added": "2026-11-17"
  },
  "soundpaint": {
   "name": "SOUNDPAINT",
@@ -3277,6 +3466,15 @@
   "worth": 7.5,
   "added": "2026-10-13"
  },
+ "taobao": {
+  "name": "Taobao",
+  "group": "Shopping & Mobile",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "60% per sale (FlexOffers' figure)",
+  "countries": "worldwide",
+  "added": "2026-11-17"
+ },
  "taskrabbit": {
   "name": "TaskRabbit",
   "group": "Freelancers",
@@ -3367,6 +3565,15 @@
   "countries": "US only",
   "worth": 0.35,
   "added": "2026-10-13"
+ },
+ "todoist": {
+  "name": "Todoist",
+  "group": "Productivity & Design",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "20% of the first year",
+  "countries": "worldwide",
+  "added": "2026-11-17"
  },
  "topresume": {
   "name": "TopResume",
@@ -3876,6 +4083,15 @@
   "countries": "worldwide",
   "worth": 0.92,
   "added": "2026-10-13"
+ },
+ "zendrop": {
+  "name": "Zendrop",
+  "group": "Online Stores & Funnels",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "$20 per paid plan",
+  "countries": "worldwide",
+  "added": "2026-11-17"
  },
  "zenfolio": {
   "name": "Zenfolio",
