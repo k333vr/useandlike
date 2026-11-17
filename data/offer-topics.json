@@ -582,6 +582,7 @@
     "gamsgo": ["cheap subscriptions", "subscription deals"],
     "airalo": ["@esim"],
     "aliexpress": ["@gadgets", "@cheapshop"],
+    "aliexpress-htr": ["@gadgets", "@cheapshop"],
     "cardcash": ["@giftcards"],
     "dhgate": ["@wholesale", "@gadgets"],
     "egifter": ["@giftcards"],

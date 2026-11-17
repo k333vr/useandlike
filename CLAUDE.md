@@ -259,6 +259,9 @@ The owner is a beginner. Explain things in plain language and do as much as poss
    group in `data/short-links.json` (the team's links page reads them).
    - Keep the link exactly as given (tracking parameters included). Slugs: short, lowercase, e.g. `/wise`.
    - If a link's tool is unclear, ask which tool it belongs to rather than guessing.
+   - Two links for the same brand: the better offer for the viewer wins (discount, credits, trial, coupon); equal offers ->
+     the better paying one (Kevin, 17 Nov). A How To Rocket-only FlexOffers twin keeps the brand's name, gets `-htr` in its slug
+     and `"only": "htr"` (e.g. /aliexpress-htr); the existing link stays for the site and Guide Glimpse.
    - Then `python3 scripts/build-videos.py` for a new or renamed tool (finds its videos, then rebuilds the pages),
      otherwise `node scripts/build-pages.js`.
    - Then `python3 scripts/build-editor-lists.py`, so the team's links page (useandlike.com/team-links/) shows the new link.

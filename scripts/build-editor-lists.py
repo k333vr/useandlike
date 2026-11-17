@@ -148,7 +148,11 @@ def make_matcher(tools, links=None):
     guides.sort(key=lambda k: -len(k[0]))
     gpat = [(re.compile(r"(?<![a-z0-9])" + re.escape(k) + r"(?![a-z0-9])"), s) for k, s in guides]
     keys = [(k, t["name"]) for t in tools for k in bv.ALIASES.get(t["name"], [t["name"].lower()])]
-    for l in links or []:
+    alt = {}   # (name, channel) -> that channel's own link for a brand that has one (17 Nov: /aliexpress-htr)
+    for l in sorted(links or [], key=lambda l: bool(l["only"])):   # every-channel links first, so a twin becomes alt
+        if not l["tool"] and l["name"] in href and l["only"]:
+            alt[(l["name"], l["only"])] = l["href"]
+            continue
         if not l["tool"] and l["name"] not in href:
             href[l["name"]], written[l["name"]], only[l["name"]] = l["href"], l["written"], l["only"]
             if l.get("play"):
@@ -185,7 +189,7 @@ def make_matcher(tools, links=None):
             if len(found) < 2:
                 found = [t for t in [tool_in(title, title, channel)] if t]
             if found:
-                return "tool", [line_for(written[t], href[t], t in play) for t in found] + [NEWSLETTER_LINE]
+                return "tool", [line_for(written[t], alt.get((t, channel), href[t]), t in play) for t in found] + [NEWSLETTER_LINE]
         return "newsletter only", [NEWSLETTER_LINE]
     return lines_for
 
@@ -908,7 +912,8 @@ BOX_JS = r"""  // New video box: title -> pinned comment and the lines for the d
     it.k.forEach(function (k) { keys.push({ k: k, it: it, rx: word(k) }); });
   });
   BOX.guides.forEach(function (g) { g.k.forEach(function (k) { gkeys.push({ k: k, g: g, rx: word(k) }); }); });
-  keys.sort(function (a, b) { return b.k.length - a.k.length; });
+  // same name twice (a brand with its own How To Rocket link, 17 Nov): the channel's link first, the other one when it isn't picked
+  keys.sort(function (a, b) { return b.k.length - a.k.length || (b.it.c ? 1 : 0) - (a.it.c ? 1 : 0); });
   gkeys.sort(function (a, b) { return b.k.length - a.k.length; });
 
   // Topics (data/offer-topics.json, Kevin 29 Oct): a title that names none of our tools but a topic ("How to Create a

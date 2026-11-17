@@ -109,7 +109,17 @@
   "countries": "worldwide",
   "worth": 0.03,
   "added": "2026-10-13"
+ }, "aliexpress-htr": {
+  "name": "AliExpress",
+  "group": "Shopping & Mobile",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "0.8-16.83% of sales (max $34.40)",
+  "countries": "worldwide",
+  "added": "2026-11-17",
+  "note": "How To Rocket's AliExpress link: FlexOffers pays more, the viewer gets the same AliExpress offers; /aliexpress stays for the site and Guide Glimpse"
  },
+
  "alison": {
   "name": "Alison",
   "group": "Learning",
