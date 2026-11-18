@@ -3978,13 +3978,13 @@
  "winzip": {
   "name": "WinZip",
   "group": "Productivity & Design",
-  "source": "Left Yazing",
+  "source": "Partnerize",
   "yazing": "winzip",
-  "pays": "10% of Sales",
+  "pays": "10% of sales (Partnerize; SKUs 192463 and 90167 pay 0%)",
   "countries": "worldwide",
   "worth": 0.3,
-  "added": "2026-10-13",
-  "paused": "2026-11-01: Yazing dropped the brand (its Yazing page opens Yazing's Top Coupons), so the short link opens the brand's own site and earns nothing; off the team page until there is a new program"
+  "added": "2026-11-18",
+  "note": "Back from 18 Nov: Partnerize link (was Yazing until 1 Nov); keeps its \"yazing\" field so yazing-add.py gives it no second slug"
  },
  "wondershare": {
   "name": "Wondershare",
