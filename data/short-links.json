@@ -109,7 +109,8 @@
   "countries": "worldwide",
   "worth": 0.03,
   "added": "2026-10-13"
- }, "aliexpress-htr": {
+ },
+ "aliexpress-htr": {
   "name": "AliExpress",
   "group": "Shopping & Mobile",
   "source": "FlexOffers",
@@ -119,7 +120,6 @@
   "added": "2026-11-17",
   "note": "How To Rocket's AliExpress link: FlexOffers pays more, the viewer gets the same AliExpress offers; /aliexpress stays for the site and Guide Glimpse"
  },
-
  "alison": {
   "name": "Alison",
   "group": "Learning",
@@ -4132,5 +4132,11 @@
   "countries": "US only",
   "worth": 0.13,
   "added": "2026-10-13"
+ },
+ "fishaudio": {
+  "name": "Fish Audio",
+  "group": "Voice & Audio",
+  "source": "own program (fish.audio), Kevin 18 Nov",
+  "added": "2026-11-18"
  }
 }

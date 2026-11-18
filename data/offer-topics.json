@@ -675,6 +675,7 @@
     "snapfish": ["@photobooks"],
 
     "elevenlabs": ["@voice"],
+    "fishaudio": ["@voice"],
     "murf": ["@voice"],
     "ttsfree": ["@voice"],
     "epidemicsound": ["@music"],
