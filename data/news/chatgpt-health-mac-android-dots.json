@@ -2,12 +2,11 @@
  "slug": "chatgpt-health-mac-android-dots",
  "date": "2026-11-16",
  "added": "2026-11-17",
- "checked": "2026-11-17",
+ "checked": "2026-11-18",
  "topic": "AI",
- "tag": "Quick",
- "quick": true,
- "head": "ChatGPT Health is coming to the Mac app, Android and Dots",
- "dek": "OpenAI says ChatGPT Health, which can use your Apple Health data and medical records with your permission, will come to the Mac app, Android, Sites and Dots. It's US-only on iPhone, iPad and the web for now, with no date given.",
+ "tag": "Update",
+ "head": "ChatGPT Health app coming to Mac, Android and Dots",
+ "dek": "OpenAI has told users that ChatGPT Health will come to the ChatGPT Mac app, Android, ChatGPT Sites and Dots, its proactive assistant. No date was given; today it works only in the US on iPhone, iPad and the web.",
  "apps": [
   "ChatGPT"
  ],
@@ -15,9 +14,18 @@
   {
    "name": "9to5Mac",
    "url": "https://9to5mac.com/2026/11/16/chatgpt-health-feature-will-soon-work-with-mac-app-dots-more/"
+  },
+  {
+   "name": "9to5Mac (July relaunch)",
+   "url": "https://9to5mac.com/2026/07/23/openai-relaunches-apple-health-connected-chatgpt-feature-with-expanded-access/"
   }
  ],
  "item": 109964,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "ChatGPT Health connects, if you allow it, to Apple Health on iPhone and to supported medical records, so ChatGPT can compare test results over time or summarise changes since a doctor's visit. Since its relaunch in July it is open to logged-in users aged 18 and up in the US on the Free, Go, Plus and Pro plans. The Mac app would be its first desktop app. OpenAI sent the notice earlier in November.",
+ "where": "US only; iPhone, iPad and web now, Mac, Android, Sites and Dots later (no date)",
+ "means": "If you use ChatGPT on a Mac or an Android phone in the US, the Health section should reach you there too, but not yet.",
+ "todo": "Nothing to do yet. On iPhone, iPad or the web in the US, Health is in ChatGPT's sidebar; connecting Apple Health or records is optional.",
+ "thumb_words": "CHATGPT HEALTH COMING TO MAC"
 }

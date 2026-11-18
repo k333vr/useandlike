@@ -4,10 +4,9 @@
  "added": "2026-11-18",
  "checked": "2026-11-18",
  "topic": "Money",
- "tag": "Quick",
- "quick": true,
- "head": "Klarna opens a waitlist for its AI assistant",
- "dek": "Klarna's new assistant can compare products and prices, handle returns, book restaurants and babysitters, draft email replies and file receipts. It's live for a small group of early users, with a waitlist opening this week.",
+ "tag": "New feature",
+ "head": "Klarna AI assistant waitlist opens for bookings, returns and shopping",
+ "dek": "Klarna's new AI assistant can compare products and prices, handle returns, and book things like restaurants and babysitters. A small group of early users has it now, and a waitlist opens this week.",
  "apps": [
   "Klarna"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 121727,
- "idea": "newcomer",
- "traction": 18
+ "idea": "request",
+ "traction": 18,
+ "details": "It builds on the shopping assistant already in the Klarna app. It can also draft email replies for you to approve, file receipts and remind you of upcoming birthdays with gift ideas. Klarna hasn't said which countries get it or whether it costs anything.",
+ "where": "Small group of early users; waitlist this week; countries not announced",
+ "means": "If you use Klarna, its app may soon do errands for you beyond paying, but it's only for early users so far.",
+ "todo": "Watch for Klarna's waitlist this week if you want to try it, and check what it asks permission for before you let it act for you.",
+ "thumb_words": "KLARNA'S AI ASSISTANT BOOKS AND RETURNS"
 }

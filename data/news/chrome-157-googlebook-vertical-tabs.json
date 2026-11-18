@@ -4,10 +4,9 @@
  "added": "2026-11-18",
  "checked": "2026-11-18",
  "topic": "Google",
- "tag": "Quick",
- "quick": true,
- "head": "Chrome 157 on Googlebook adds resizable vertical tabs",
- "dek": "Chrome 157 for Googlebook lets you widen the vertical tab bar and opens it on hover, gives each Settings page its own address, and uses the system Save As window so you can pick a folder. Google published the full list of changes on 16 November.",
+ "tag": "Update",
+ "head": "Chrome vertical tabs expand on hover in Chrome 157 on Googlebook",
+ "dek": "Chrome 157 for Googlebook opens the collapsed vertical tab bar when you hover over it and lets you drag it wider to read full page titles. The version rolled out last week, and Google published its full list of changes on 16 November.",
  "apps": [
   "Chrome",
   "Googlebook"
@@ -19,6 +18,11 @@
   }
  ],
  "item": 113431,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "Hover expansion is on by default and can be turned off in Settings, Appearance, or by right-clicking the tab bar; Chrome remembers a custom width only while hover expansion is off. Save link as, Save image as and Save page as now use the system window, so you can rename a file and pick a folder, Google Drive or external storage. Each Settings page has its own address, and sharing a tab in Google Meet shows a bar to stop or switch tabs. Google lists 22 smaller fixes, among them downloaded PDFs opening in a Chrome tab and Ctrl+L selecting the full web address.",
+ "where": "Googlebook, Chrome 157, rolled out the week of 9 November",
+ "means": "If you use vertical tabs on a Googlebook, the bar no longer has to stay narrow, and saving files now asks where they should go.",
+ "todo": "Restart Chrome to finish the update. If the bar opening on hover gets in your way, right-click the tab bar or go to Settings, Appearance to turn it off.",
+ "thumb_words": "CHROME 157: WIDER VERTICAL TABS"
 }

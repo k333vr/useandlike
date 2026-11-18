@@ -4,10 +4,14 @@
  "added": "2026-11-18",
  "checked": "2026-11-18",
  "topic": "Apple",
- "tag": "Quick",
- "quick": true,
- "head": "New Apple Health app in iOS 27.3 needs an iPhone 15 Pro or newer",
- "dek": "The redesigned Health app with Insights and Longevity tabs relies on Apple Intelligence, so it needs an iPhone 15 Pro or newer with Apple Intelligence turned on. iOS 27.3 is due in December, in select languages at first.",
+ "tag": "Heads-up",
+ "head": "Apple Health app redesign in iOS 27.3 needs an iPhone 15 Pro or newer",
+ "dek": "The new Health app coming with iOS 27.3 in December runs on Apple Intelligence, so it only shows up on an iPhone 15 Pro or newer with Apple Intelligence turned on. Older iPhones keep the current app.",
+ "details": "The redesign adds an Insights tab with daily summaries of heart, sleep, readiness, fitness, vitals and cycle data, and a Longevity tab that looks at long-term trends. Apple also lists Health Age, a score from Apple Watch data compared with your real age, and at-home movement checks with the iPhone camera and Apple Watch that run on the device without recording video. At first it comes in 10 languages, including English, Chinese, French, Japanese, Korean, Portuguese and Spanish. The update is free; Health Age needs an Apple Watch and some features are for people 18 and over.",
+ "where": "iPhone 15 Pro or newer with Apple Intelligence on, with iOS 27.3 (due in December); select languages first",
+ "means": "If your iPhone is older than the iPhone 15 Pro, or Apple Intelligence is off, iOS 27.3 won't change your Health app. On a newer iPhone you'll get the new tabs once Apple Intelligence is on.",
+ "todo": "Check your model in Settings, General, About. On an iPhone 15 Pro or newer, turn on Apple Intelligence in Settings before iOS 27.3 arrives.",
+ "thumb_words": "NEW APPLE HEALTH NEEDS IPHONE 15 PRO",
  "apps": [
   "Apple Health"
  ],
@@ -15,9 +19,13 @@
   {
    "name": "9to5Mac",
    "url": "https://9to5mac.com/2026/11/17/ios-27-3s-redesigned-apple-health-app-requires-newer-iphone-model/"
+  },
+  {
+   "name": "Apple Newsroom",
+   "url": "https://www.apple.com/newsroom/2026/11/redesigned-health-app-expands-language-support/"
   }
  ],
  "item": 120499,
- "idea": "news",
+ "idea": "request",
  "traction": 15
 }

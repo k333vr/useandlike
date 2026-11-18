@@ -4,10 +4,9 @@
  "added": "2026-11-18",
  "checked": "2026-11-18",
  "topic": "Music",
- "tag": "Quick",
- "quick": true,
- "head": "YouTube Music removes the Samples tab from its bottom bar",
- "dek": "On Android and iPhone the bottom bar now shows Home, Search and Library (plus Upgrade for free users); Samples is still there from an icon on artist, album and playlist pages.",
+ "tag": "Update",
+ "head": "YouTube Music Samples tab removed: where to find Samples now",
+ "dek": "YouTube Music has taken the Samples tab out of the bottom bar on Android and iPhone, and the change is now reaching more people. The short vertical song clips are still in the app, behind an icon at the top right of artist, album and playlist pages.",
  "apps": [
   "YouTube Music"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 120907,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "The bottom bar now shows Home, Search and Library for Premium subscribers; free users also see an Upgrade tab. Samples arrived in 2023 as a Shorts-style feed of new songs and older tracks. The change comes from YouTube's side and has rolled out slowly over the past weeks. Album and playlist pages also moved the Play button to the right, with Download, Add to library and Comments on the left.",
+ "where": "Android and iPhone, rolling out; no app update needed",
+ "means": "If you used the Samples tab to find new music and it is gone, the feature still exists: it now starts from the page of an artist, album or playlist.",
+ "todo": "Open an artist, album or playlist page and tap the Samples icon in the top right corner.",
+ "thumb_words": "YOUTUBE MUSIC DROPS SAMPLES TAB"
 }

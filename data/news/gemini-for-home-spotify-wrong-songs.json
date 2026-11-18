@@ -4,21 +4,29 @@
  "added": "2026-11-18",
  "checked": "2026-11-18",
  "topic": "Music",
- "tag": "Quick",
- "quick": true,
- "head": "Gemini for Home plays the wrong Spotify songs for some users",
- "dek": "Owners of Nest speakers report that Gemini for Home picks the wrong album, artist or version when they ask for a Spotify song, alarm routines included, despite an August update meant to fix recognition. Google hadn't commented when Android Authority reported it.",
+ "tag": "Heads-up",
+ "head": "Google Home plays the wrong song on Spotify for some Gemini users",
+ "dek": "Owners of Nest speakers and displays say Gemini for Home often plays a different song, album or artist than the one they asked for on Spotify, and alarm routines tied to songs are hit too. Most of the reports came in on 16 and 17 November.",
  "apps": [
   "Gemini",
   "Spotify"
  ],
  "item": 119791,
- "idea": "news",
+ "idea": "request",
  "traction": 0,
  "sources": [
   {
    "name": "Android Authority",
    "url": "https://www.androidauthority.com/gemini-for-home-spotify-issues-3736194/"
+  },
+  {
+   "name": "Android Authority (August fix)",
+   "url": "https://www.androidauthority.com/google-home-playlist-problem-fixed-3703662/"
   }
- ]
+ ],
+ "details": "Users say the assistant seems to match only some words of a request: asking for \"Yellow Submarine\" by the Beatles started an album called \"Live in the Yellow Submarine\", and a Black Sabbath song in an alarm routine turned into a Ryan Adams album. A Nest Mini owner says the speaker now picks remixes or acoustic versions instead of the original track. Google said on 26 August that it had fixed wrong playlists playing, after a summer update meant to improve Spotify recognition. Android Authority asked Google about the new reports; no answer had come when it published.",
+ "where": "Google Nest speakers and displays with Gemini for Home; reports since 16 November",
+ "means": "If your Nest speaker plays the wrong track or your music alarm starts something else, it is a problem others are seeing too, not a setting you changed.",
+ "todo": "Test the songs in your alarm routines before you rely on them. If the wrong music keeps playing, report it to Google in the Google Nest Community, where it answered the August reports.",
+ "thumb_words": "GOOGLE HOME PLAYS THE WRONG SONGS"
 }

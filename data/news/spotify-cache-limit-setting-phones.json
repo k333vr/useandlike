@@ -4,10 +4,14 @@
  "added": "2026-11-18",
  "checked": "2026-11-18",
  "topic": "Music",
- "tag": "Quick",
- "quick": true,
- "head": "Spotify adds a cache limit to save storage on phones",
- "dek": "Spotify's help page now lists a Cache limit slider for its phone and tablet apps, under Settings and privacy, Data-saving and offline, Storage, to cap how much space temporary files take. A smaller limit may affect playback and use more data, Spotify says.",
+ "tag": "New feature",
+ "head": "Spotify cache limit: new setting caps how much storage it uses",
+ "dek": "Spotify's help page now lists a Cache limit slider in its phone and tablet apps, so you can set how much space temporary playback files take. Downloaded songs and podcasts aren't part of the cache.",
+ "details": "The slider is under your profile picture, Settings and privacy, Data-saving and offline, Storage, Cache limit; pick a limit and tap Set limit, or Reset to go back to Spotify's automatic setting. Spotify warns that a smaller limit may affect playback and use more data, and the cache can go over the limit for a while before its regular cleanup. In September, Android Authority found the setting in the Android app's code, as Digital Trends reported then, and noted that downloads are stored separately.",
+ "where": "Spotify's phone and tablet apps (not desktop); may not show on every phone yet",
+ "means": "If Spotify fills your phone's storage, you can now cap its cache instead of clearing it again and again.",
+ "todo": "Open the setting at Settings and privacy, Data-saving and offline, Storage, Cache limit. If it isn't there yet, update the app, or use Clear cache in the same place.",
+ "thumb_words": "SPOTIFY ADDS A CACHE LIMIT",
  "apps": [
   "Spotify"
  ],
@@ -15,9 +19,13 @@
   {
    "name": "Spotify Support",
    "url": "https://support.spotify.com/sg-en/article/storage-information/"
+  },
+  {
+   "name": "Digital Trends",
+   "url": "https://www.digitaltrends.com/home-theater/spotify-is-finally-fixing-one-of-the-most-annoying-ways-it-eats-your-phone-storage/"
   }
  ],
  "item": 111959,
- "idea": "news",
+ "idea": "request",
  "traction": 0
 }

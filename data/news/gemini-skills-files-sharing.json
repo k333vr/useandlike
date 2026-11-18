@@ -4,20 +4,24 @@
  "added": "2026-11-18",
  "checked": "2026-11-18",
  "topic": "AI",
- "tag": "Quick",
- "quick": true,
- "head": "Gemini Skills can now use files and be shared as Gems retire",
- "dek": "Gemini Skills can now draw on files of up to 100 MB from your device, Drive, Gemini Notebook or Google Photos, and you can share a skill with view or edit rights from Customize > Skills on the web. Both roll out over the coming weeks as Google starts shutting down Gems.",
+ "tag": "New feature",
+ "head": "Gemini skills can now use your files and be shared, as Gems shut down",
+ "dek": "Gemini skills, Google's reusable instructions that replace Gems, can now draw on files up to 100 MB and be shared with other people. Both features roll out over the coming weeks, as the Gems shutdown begins.",
  "apps": [
   "Gemini"
  ],
  "item": 112032,
- "idea": "news",
+ "idea": "request",
  "traction": 21,
  "sources": [
   {
    "name": "9to5Google",
    "url": "https://9to5google.com/2026/11/16/gemini-skills-files-sharing/"
   }
- ]
+ ],
+ "details": "Files can come from your device, Google Drive, Gemini Notebook or Google Photos, and Gemini uses them every time the skill runs. Drive and Notebook files stay up to date, so a skill always sees the latest version. Sharing works from Customize > Skills in Gemini on the web, with view or edit rights; the other person gets an email and can review the skill before adding it. It's for personal Google accounts and all Google Workspace customers.",
+ "where": "Personal Google accounts and Workspace; rolling out over the coming weeks",
+ "means": "If you used Gems with your own documents, skills can now do the same with files you attach, and you can pass a skill to a classmate or colleague.",
+ "todo": "Move your Gems over to skills. Open Customize > Skills in Gemini on the web to add files or share a skill.",
+ "thumb_words": "GEMINI SKILLS GET FILES AND SHARING"
 }

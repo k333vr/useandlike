@@ -4,22 +4,26 @@
  "added": "2026-11-18",
  "checked": "2026-11-18",
  "topic": "Streaming",
- "tag": "Quick",
- "quick": true,
- "head": "Fubo Pro and Elite now include Disney+ and Hulu with ads",
- "dek": "Fubo is adding the ad-supported Disney+ and Hulu bundle to its Pro and Elite plans this week at no extra cost; current subscribers get it once their eligibility is confirmed and watch in the Disney+ and Hulu apps.",
+ "tag": "Update",
+ "head": "Fubo now includes Disney+ and Hulu with ads on Pro and Elite plans",
+ "dek": "Fubo is adding the ad-supported Disney+ and Hulu bundle, a 12.99 dollar a month value, to its Pro and Elite plans from this week without raising their prices. Current subscribers get it once their eligibility is confirmed.",
+ "details": "Disney+ and Hulu shows are watched in their own apps, while live channels and Fubo's on-demand titles stay in the Fubo app. ESPN Unlimited carries on for eligible subscribers. Both plans keep unlimited cloud DVR and streaming on several devices at once; Elite adds 4K where available and extra channel packs. The report doesn't say how new subscribers or other Fubo plans get the bundle.",
+ "where": "US, Fubo Pro and Elite subscribers, starting this week",
+ "means": "If you're on Fubo Pro or Elite and also pay for Disney+ or Hulu with ads, you may be paying twice for the same shows.",
+ "todo": "Watch for Fubo's message that your account is eligible, then sign in to the Disney+ and Hulu apps. Before cancelling a separate Disney+ or Hulu plan, check that the access is active and that you don't need the ad-free tier.",
+ "thumb_words": "FUBO ADDS DISNEY+ AND HULU",
  "apps": [
   "Fubo",
   "Disney+",
   "Hulu"
  ],
- "item": 116831,
- "idea": "news",
- "traction": 0,
  "sources": [
   {
    "name": "Cord Cutters News",
    "url": "https://cordcuttersnews.com/fubo-subscribers-now-get-free-disney-hulu/"
   }
- ]
+ ],
+ "item": 116831,
+ "idea": "request",
+ "traction": 0
 }

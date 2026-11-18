@@ -1,0 +1,27 @@
+{
+ "slug": "snapchat-mutual-friends-list-profile",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Social",
+ "tag": "New feature",
+ "head": "Snapchat mutual friends list now shows on profiles",
+ "dek": "Snapchat profiles can now list the friends two people have in common, not only how many there are. It's rolling out on iPhone and Android in the US, Australia, France and Sweden.",
+ "details": "Until now Snapchat only showed a count of shared friends. The list appears on a person's profile. It only shows when both you and your friends have opted in.",
+ "where": "US, Australia, France and Sweden; iPhone and Android",
+ "means": "If you and your friends opt in, people who visit your profile can see which friends they share with you.",
+ "todo": "Nothing changes unless you opt in. If you'd rather keep your friend list private, don't turn it on.",
+ "apps": [
+  "Snapchat"
+ ],
+ "sources": [
+  {
+   "name": "Social Media Today",
+   "url": "https://www.socialmediatoday.com/news/snapchat-will-show-more-info-on-mutual-friends/874967/"
+  }
+ ],
+ "item": 121487,
+ "thumb_words": "SNAPCHAT SHOWS YOUR MUTUAL FRIENDS",
+ "idea": "request",
+ "traction": 23
+}

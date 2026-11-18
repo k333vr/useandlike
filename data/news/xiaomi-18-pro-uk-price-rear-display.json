@@ -4,10 +4,14 @@
  "added": "2026-11-18",
  "checked": "2026-11-18",
  "topic": "Android",
- "tag": "Quick",
- "quick": true,
- "head": "Xiaomi 18 Pro with a rear display launches from £1,199",
- "dek": "Xiaomi launched the 18 Pro (from £1,199) and 18 Pro Max (from £1,399), both with a second screen on the back for media controls, selfie previews and watch faces, and Leica cameras.",
+ "tag": "New feature",
+ "head": "Xiaomi 18 Pro and Pro Max UK price: from £1,199, with a rear display",
+ "dek": "Xiaomi launched the 18 Pro from £1,199 and the 18 Pro Max from £1,399, both with a small second screen on the back. It shows media controls, a live camera view for easier selfies and watch-style faces.",
+ "details": "The 18 Pro has a 6.4-inch 120Hz screen, a Snapdragon 8 Elite Gen 6 chip, 12GB of memory, a 6,000mAh battery and 90W charging. The 18 Pro Max has a 6.9-inch screen, the Snapdragon 8 Elite Extreme Gen 6, up to 16GB and 1TB, a 7,050mAh battery and 100W charging. Both have three Leica cameras (200MP main, 200MP periscope zoom, 50MP ultra-wide) and Xiaomi's new privacy display on the front screen. Colours are black, white, Velvet Red and Cosmic Blue; Xiaomi skipped the 17 Pro models in the West last year.",
+ "where": "UK prices announced 17 November; other countries and sale dates not given",
+ "means": "If you're choosing a new Android phone in the UK, Xiaomi now sells two models with a screen on the back, from £1,199.",
+ "todo": "Nothing to do unless you're buying. Check UK stores for stock and compare storage options, as £1,399 is the 256GB Pro Max.",
+ "thumb_words": "XIAOMI 18 PRO: SCREEN ON THE BACK",
  "apps": [
   "Xiaomi"
  ],
@@ -18,6 +22,6 @@
   }
  ],
  "item": 117835,
- "idea": "news",
+ "idea": "request",
  "traction": 0
 }

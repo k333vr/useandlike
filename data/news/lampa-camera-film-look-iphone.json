@@ -4,10 +4,9 @@
  "added": "2026-11-18",
  "checked": "2026-11-18",
  "topic": "Photo",
- "tag": "Quick",
- "quick": true,
- "head": "Lampa: iPhone camera app for a film look without AI edits",
- "dek": "Lampa takes photos and video with minimal processing and film or digicam colour profiles, and can export RAW. Free for 5 shots a day; a subscription or lifetime purchase unlocks the rest.",
+ "tag": "Update",
+ "head": "Lampa camera app: film look photos on iPhone without AI processing",
+ "dek": "Lampa is an iPhone camera app that skips HDR and AI effects and develops each shot from RAW data with colour profiles inspired by 35mm film and old compact digital cameras. Its October update added full support for the iPhone Duo.",
  "apps": [
   "Lampa"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 115621,
- "idea": "newcomer",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "It also records video up to 4K at 60 frames a second with grain and stabilisation options; fully natural video needs Log recording on iPhone 15, 16 or 17 Pro models. The free version allows 5 captures a day; a membership costs $4.99 a month, $29.99 a year or $59.99 once, and unlocks unlimited shots, all profiles, re-editing and RAW export. It is made by developer Alexey Teplonogov, needs iOS 17 or later and is rated 4.7 from 357 ratings. The developer says it doesn't collect or store your photos.",
+ "where": "iPhone, iOS 17 or later; free with in-app purchases (US prices)",
+ "means": "If iPhone photos look too sharp and processed to you, Lampa gives a softer film or digicam look straight from the camera instead of a filter added later.",
+ "todo": "Try the free 5 shots a day first to see if you like the profiles before paying; RAW export and unlimited shots need the membership.",
+ "thumb_words": "LAMPA: FILM LOOK, NO AI EDITS"
 }

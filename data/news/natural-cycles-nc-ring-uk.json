@@ -4,20 +4,24 @@
  "added": "2026-11-18",
  "checked": "2026-11-18",
  "topic": "Health",
- "tag": "Quick",
- "quick": true,
- "head": "Natural Cycles launches NC Ring, its own smart ring, in the UK",
- "dek": "The ring measures body temperature overnight for the Natural Cycles app and lasts up to 14 days per charge. New annual subscribers (89.99 pounds) get it at no extra cost until 31 December.",
+ "tag": "New feature",
+ "head": "Natural Cycles ring launches in the UK, included with the annual plan",
+ "dek": "Natural Cycles has started selling the NC Ring in the UK, a smart ring that measures body temperature overnight for its contraception app. New annual subscribers at 89.99 pounds get the ring at no extra cost until 31 December.",
+ "details": "The ring weighs from 1.9 grams depending on size, is 5.8 mm wide, can go under water and lasts up to 14 days per charge on a magnetic wireless charger. The app combines the overnight temperature with cycle data to show a daily fertility status; Natural Cycles says the method is 93% effective with typical use. The app is registered with the UK's medicines regulator, the MHRA. Orders and shipping started on 17 November; a price for the ring alone and plans for other countries weren't given.",
+ "where": "UK, on sale and shipping from 17 November",
+ "means": "If you use Natural Cycles in the UK, or are thinking about it, the annual plan now comes with its own temperature ring instead of a thermometer or another brand's ring.",
+ "todo": "If you want the ring included, sign up for the annual plan before 31 December. Already a subscriber? Check the Natural Cycles app or website for what applies to you, as the offer is for new customers.",
+ "thumb_words": "NATURAL CYCLES LAUNCHES ITS OWN RING",
  "apps": [
   "Natural Cycles"
  ],
- "item": 115741,
- "idea": "news",
- "traction": 0,
  "sources": [
   {
    "name": "T3",
    "url": "https://www.t3.com/home-living/wellness/natural-cycles-has-launched-its-first-ever-smart-ring-and-its-designed-specifically-for-women"
   }
- ]
+ ],
+ "item": 115741,
+ "idea": "request",
+ "traction": 0
 }

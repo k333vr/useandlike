@@ -4,10 +4,14 @@
  "added": "2026-11-18",
  "checked": "2026-11-18",
  "topic": "Video",
- "tag": "Quick",
- "quick": true,
- "head": "YouTube Studio app gets the Ask Studio AI helper on Android and iPhone",
- "dek": "YouTube's AI assistant for creators, Ask Studio, is now in the YouTube Studio app on Android and iPhone, with voice prompts and image uploads for thumbnail feedback; its suggestions and outlines are still limited to some countries and languages.",
+ "tag": "New feature",
+ "head": "Ask Studio AI now in the YouTube Studio app on Android and iPhone",
+ "dek": "YouTube has put Ask Studio, its AI helper for creators, into the YouTube Studio app on Android and iPhone. You can type or speak a question and upload pictures for ideas.",
+ "details": "On the phone it can sum up how recent uploads are doing, including what viewers say in comments, and help note ideas, outline scripts and draft titles. Creators can upload sketches or photos for thumbnail ideas and still frames from an edit for notes on framing. Work started in the app shows up on desktop too. The suggestions and outlines are only available in some countries and languages so far, which YouTube says it is working to widen.",
+ "where": "YouTube Studio app on Android and iPhone; suggestions and outlines in select countries and languages",
+ "means": "If you post on YouTube, you can now check your channel and plan videos with the AI helper from your phone instead of only on a computer.",
+ "todo": "Update the YouTube Studio app and look for Ask Studio. If the suggestions don't appear, they may not be in your country or language yet.",
+ "thumb_words": "YOUTUBE STUDIO APP GETS ASK STUDIO",
  "apps": [
   "YouTube Studio",
   "YouTube"
@@ -19,6 +23,6 @@
   }
  ],
  "item": 113890,
- "idea": "news",
+ "idea": "request",
  "traction": 0
 }

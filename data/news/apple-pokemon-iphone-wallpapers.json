@@ -4,10 +4,9 @@
  "added": "2026-11-18",
  "checked": "2026-11-18",
  "topic": "Apple",
- "tag": "Quick",
- "quick": true,
- "head": "Apple releases four Pokémon wallpapers for iPhone and iPhone Duo",
- "dek": "For Pokémon's 30th anniversary, Apple put four free wallpapers with Applin and Pikachu online, one sized for the iPhone Duo. Apple Stores in Japan also sell an Applin gift card until 30 November, three per customer.",
+ "tag": "Offer",
+ "head": "Pokémon iPhone wallpapers: Apple releases four free designs",
+ "dek": "Apple has put four free Pokémon wallpapers for iPhone online for the series' 30th anniversary, with Applin and Pikachu. One of them is sized for the iPhone Duo.",
  "apps": [
   "iPhone"
  ],
@@ -22,6 +21,11 @@
   }
  ],
  "item": 111386,
- "idea": "news",
- "traction": 21
+ "idea": "request",
+ "traction": 21,
+ "details": "The set is called Applin 1, Applin 2, Pikachu and Friends, and an Applin design for the iPhone Duo. In Japan, Apple Stores sell an Applin gift card until 30 November, loadable with 1,000 to 250,000 yen, three per customer while supplies last. Until the same date, every Apple Store in Japan is a PokéStop in Pokémon GO.",
+ "where": "Wallpapers worldwide; gift card and PokéStops in Japan until 30 November",
+ "means": "If you like Pokémon, you can give your iPhone an official Apple design for free.",
+ "todo": "Open Apple's Pokémon wallpaper page on your iPhone, save the picture you like and set it as your wallpaper.",
+ "thumb_words": "APPLE'S FREE POKÉMON WALLPAPERS"
 }

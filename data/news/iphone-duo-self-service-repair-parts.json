@@ -4,10 +4,14 @@
  "added": "2026-11-18",
  "checked": "2026-11-18",
  "topic": "Apple",
- "tag": "Quick",
- "quick": true,
- "head": "iPhone Duo repair parts and tools now sold by Apple",
- "dek": "Apple's Self Service Repair Store now sells iPhone Duo parts, including both batteries, the inner and outer displays, back glass and cameras, plus the tools for each repair. It's available in the US, Canada and Europe.",
+ "tag": "Update",
+ "head": "iPhone Duo repair: Apple now sells parts and tools to fix it yourself",
+ "dek": "Apple's Self Service Repair Store now sells iPhone Duo parts and the tools for each repair, for owners and independent repair shops in the US, Canada and Europe. That includes both batteries, the inner and outer displays, back glass and the cameras.",
+ "details": "About 20 parts are listed, also the speakers, USB-C port, logic board and volume buttons. The tools include adhesive cutters, suction cups, torque drivers and screws, also sold separately. Apple's step-by-step repair manuals for the iPhone Duo came out when the phone launched in October. Prices weren't given in the reports.",
+ "where": "US, Canada and Europe, from 17 November, on Apple's Self Service Repair Store",
+ "means": "If your iPhone Duo's screen or battery needs replacing, you can now order Apple's own parts and do the repair yourself or at an independent shop.",
+ "todo": "Read Apple's iPhone Duo repair manual first to see what each repair involves, then compare the part's price with Apple's own repair before ordering.",
+ "thumb_words": "IPHONE DUO PARTS NOW ON SALE",
  "apps": [
   "iPhone Duo"
  ],
@@ -22,6 +26,6 @@
   }
  ],
  "item": 117583,
- "idea": "news",
+ "idea": "request",
  "traction": 0
 }

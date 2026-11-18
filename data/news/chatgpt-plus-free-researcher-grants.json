@@ -4,20 +4,28 @@
  "added": "2026-11-18",
  "checked": "2026-11-18",
  "topic": "AI",
- "tag": "Quick",
- "quick": true,
- "head": "OpenAI adds 50,000 free ChatGPT Plus grants for researchers",
- "dek": "Each grant covers a researcher and up to two collaborators, goes to the first eligible applicants, and now includes ChatGPT Plus instead of Pro. Applications open on 23 November.",
+ "tag": "Offer",
+ "head": "Free ChatGPT Plus for researchers: OpenAI opens 50,000 grants on 23 November",
+ "dek": "OpenAI is giving 50,000 new grants of ChatGPT Plus to academic researchers, each covering the researcher and up to two collaborators. Applications open on 23 November and go to the first eligible applicants.",
  "apps": [
   "ChatGPT"
  ],
  "item": 110763,
- "idea": "news",
+ "idea": "request",
  "traction": 34,
  "sources": [
   {
    "name": "The Next Web",
    "url": "https://thenextweb.com/news/openai-chatgpt-academic-researchers-50000-grants-plus"
+  },
+  {
+   "name": "Magica",
+   "url": "https://magica.com/news/openai-expands-researcher-grants-switches-plus"
   }
- ]
+ ],
+ "details": "Pilot members since July got ChatGPT Pro; the new grants include Plus, which OpenAI says covers what most pilot users needed. The program has about 20,000 researchers in 33 countries so far, and OpenAI's goal is now 200,000. At launch it was limited to verified researchers at degree-granting universities with high research activity. OpenAI says program data isn't used to train its models by default; how long a grant lasts isn't stated.",
+ "where": "Academic researchers; applications from 23 November",
+ "means": "If you do research at a university, you and two collaborators may get ChatGPT Plus free, but places go in order of application.",
+ "todo": "Get your university affiliation ready to verify and apply when applications open on 23 November. If you're on the waitlist, watch for OpenAI's activation email.",
+ "thumb_words": "FREE CHATGPT PLUS FOR RESEARCHERS"
 }

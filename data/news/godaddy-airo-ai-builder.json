@@ -4,21 +4,25 @@
  "added": "2026-11-18",
  "checked": "2026-11-18",
  "topic": "Business",
- "tag": "Quick",
- "quick": true,
- "head": "GoDaddy Airo AI Builder makes sites and stores from a prompt",
- "dek": "GoDaddy's new Airo AI Builder turns a written or spoken description into a website, web app or online store, with domain and hosting included; it's free to start, paid plans begin at 9.99 dollars a month, and full store features are US and Canada only.",
+ "tag": "New app",
+ "head": "GoDaddy Airo AI Builder: websites, apps and stores from a prompt",
+ "dek": "GoDaddy's Airo AI Builder makes a website, web app or online store from a written or spoken description, with domain and hosting included. It's free to start, and paid plans begin at 9.99 dollars a month.",
  "apps": [
   "GoDaddy"
  ],
  "category": "Website & App Builders",
  "item": 109138,
- "idea": "news",
+ "idea": "request",
  "traction": 21,
  "sources": [
   {
    "name": "GoDaddy (PR Newswire)",
    "url": "https://www.prnewswire.com/news-releases/new-godaddy-airo-ai-builder-lets-small-businesses-turn-ideas-into-websites-and-apps-302940437.html"
   }
- ]
+ ],
+ "details": "You change the result by chatting with it, and you can download your code at any time. It includes logo creation, analytics, a database and admin panel, and connections to more than 90 tools such as Slack, Notion and HubSpot. It works in more than 150 countries, but the full store (catalogue, cart, checkout, shipping and sales tax) is only in the US and Canada; elsewhere you can take payments through Stripe. Higher plans give more credits and sites; GoDaddy hasn't listed the limits.",
+ "where": "More than 150 countries; full online store in the US and Canada only",
+ "means": "If you need a simple site or shop and can't code, you can describe it and get a working first version with hosting included.",
+ "todo": "Try the free start first and check what each plan's credits cover before paying. Outside the US and Canada, plan on Stripe for payments.",
+ "thumb_words": "GODADDY AI BUILDS SITES FROM A PROMPT"
 }
