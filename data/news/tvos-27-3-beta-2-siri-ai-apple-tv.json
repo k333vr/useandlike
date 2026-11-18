@@ -1,0 +1,24 @@
+{
+ "slug": "tvos-27-3-beta-2-siri-ai-apple-tv",
+ "date": "2026-11-16",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Apple",
+ "tag": "Quick",
+ "quick": true,
+ "head": "tvOS 27.3 beta 2 brings Siri AI to Apple TV developer testers",
+ "dek": "Apple's second tvOS 27.3 developer beta adds a setup screen to try Siri AI or keep Siri Classic. Siri AI needs a nearby paired device with Siri AI turned on.",
+ "apps": [
+  "Apple TV",
+  "Siri"
+ ],
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/16/tvos-27-3-beta-2-brings-siri-ai-to-apple-tv-beta-testers/"
+  }
+ ],
+ "item": 114002,
+ "idea": "news",
+ "traction": 0
+}

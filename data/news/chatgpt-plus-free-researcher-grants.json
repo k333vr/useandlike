@@ -1,0 +1,23 @@
+{
+ "slug": "chatgpt-plus-free-researcher-grants",
+ "date": "2026-11-16",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "AI",
+ "tag": "Quick",
+ "quick": true,
+ "head": "OpenAI adds 50,000 free ChatGPT Plus grants for researchers",
+ "dek": "Each grant covers a researcher and up to two collaborators, goes to the first eligible applicants, and now includes ChatGPT Plus instead of Pro. Applications open on 23 November.",
+ "apps": [
+  "ChatGPT"
+ ],
+ "item": 110763,
+ "idea": "news",
+ "traction": 34,
+ "sources": [
+  {
+   "name": "The Next Web",
+   "url": "https://thenextweb.com/news/openai-chatgpt-academic-researchers-50000-grants-plus"
+  }
+ ]
+}

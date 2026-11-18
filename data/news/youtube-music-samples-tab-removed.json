@@ -1,0 +1,23 @@
+{
+ "slug": "youtube-music-samples-tab-removed",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Music",
+ "tag": "Quick",
+ "quick": true,
+ "head": "YouTube Music removes the Samples tab from its bottom bar",
+ "dek": "On Android and iPhone the bottom bar now shows Home, Search and Library (plus Upgrade for free users); Samples is still there from an icon on artist, album and playlist pages.",
+ "apps": [
+  "YouTube Music"
+ ],
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/17/youtube-music-no-samples-tab/"
+  }
+ ],
+ "item": 120907,
+ "idea": "news",
+ "traction": 0
+}

@@ -1,0 +1,27 @@
+{
+ "slug": "tripod-podcast-app-iphone",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Music",
+ "tag": "New app",
+ "head": "Tripod podcast app for iPhone: an inbox and automatic queues",
+ "dek": "Tripod, a new iPhone podcast player from indie developer Ben McCarthy, puts new episodes in an inbox where you keep or skip each one. It came out on 11 November and is free to download.",
+ "details": "Kept episodes go into automatic queues: a main queue, favourites, short episodes, ones you started, one per genre and a Someday list for episodes you want to save for later. It can trim silence, balance volume between shows, skip chapters and jump to a line in the transcript. On supported iPhones it uses Apple Intelligence to transcribe episodes and make chapters. There's an Apple Watch app, CarPlay, widgets and Shortcuts actions, and the app works on both screens of the iPhone Duo.",
+ "where": "iPhone, App Store, out since 11 November 2026",
+ "means": "If you follow many podcasts but only listen to some episodes, Tripod lets you pick from a list instead of working through everything that arrives.",
+ "todo": "Search for Tripod Podcast Player in the App Store; it's made by Ben McCarthy.",
+ "apps": [
+  "Tripod"
+ ],
+ "item": 120404,
+ "idea": "newcomer",
+ "traction": 15,
+ "thumb_words": "TRIPOD: PODCASTS IN A QUEUE",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/tripod-podcast-player/id6824844745"
+  }
+ ]
+}

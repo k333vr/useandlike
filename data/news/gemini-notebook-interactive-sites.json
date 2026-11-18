@@ -1,0 +1,27 @@
+{
+ "slug": "gemini-notebook-interactive-sites",
+ "date": "2026-11-16",
+ "added": "2026-11-18",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "Gemini Notebook website maker turns your notes into interactive sites",
+ "dek": "Gemini Notebook can now build a small interactive site from the sources in a notebook, such as a periodic table to study with, a timeline, a data dashboard or a project tracker. It's rolling out worldwide on the web for users 18 and over, Workspace subscribers included.",
+ "details": "In a notebook's chat you type \"make me a site\" and describe what you want. When it's built, you can open it in a new tab or share it with others. Google says the mobile app gets it soon.",
+ "where": "Gemini Notebook on the web, worldwide, 18+; mobile app later",
+ "means": "If you study or plan projects in Gemini Notebook, you can turn your notes into something you click through instead of reading another summary.",
+ "todo": "Open a notebook on the web, type \"make me a site\" in its chat and say what it should show. Check the facts on the site against your sources before you share it.",
+ "apps": [
+  "Gemini"
+ ],
+ "item": 111353,
+ "idea": "news",
+ "traction": 40,
+ "thumb_words": "GEMINI NOTEBOOK BUILDS WEBSITES",
+ "sources": [
+  {
+   "name": "Google blog",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/"
+  }
+ ],
+ "checked": "2026-11-18"
+}

@@ -1,0 +1,27 @@
+{
+ "slug": "opera-neon-ai-extension-builder",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "Opera Neon builds browser extensions from a chat, no coding needed",
+ "dek": "Opera's AI browser Neon can now make a browser extension from a description you type in its chat. It shows a preview first, and you install the result with one click.",
+ "details": "To change the extension later, you ask in the same chat and reinstall it. Extensions you want to share can be sent to Opera's add-ons store through its developer portal. Opera plans to bring the builder to its other desktop browsers later. Opera Neon is a paid browser.",
+ "where": "Opera Neon, out now; Opera's other desktop browsers later",
+ "means": "If you use Opera Neon, you can make small browser tools for your own needs without writing code.",
+ "todo": "In Opera Neon, describe the extension you want in the chat, check the preview, then install it. Only install extensions you understand.",
+ "apps": [
+  "Opera"
+ ],
+ "item": 116177,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "OPERA NEON: EXTENSIONS FROM A CHAT",
+ "sources": [
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/opera-now-lets-anyone-build-browser-extensions-by-chatting-with-its-ai-in-opera-neon/"
+  }
+ ]
+}

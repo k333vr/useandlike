@@ -1,0 +1,27 @@
+{
+ "slug": "remoqa-free-remote-desktop-app-beta",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Productivity",
+ "tag": "New app",
+ "head": "Remoqa: free remote desktop app to help family with their PC",
+ "dek": "Remoqa is a new remote desktop app in public beta for Windows, Mac and Linux that lets you reach your own computer or help friends and family, with end-to-end encrypted sessions. The free plan covers up to 3 devices and one session at a time.",
+ "details": "You can also share your screen from a desktop browser without installing anything, but that mode is view-only. Paid plans aren't listed yet. It's made by Pavel Mikhailiuk.",
+ "where": "Windows, Mac and Linux, public beta",
+ "means": "If you're the one who fixes your parents' computer, Remoqa is another free way to see and control their screen from afar.",
+ "todo": "It's a beta, so keep the remote tool you already use as a backup; only give remote access to people you know.",
+ "apps": [
+  "Remoqa"
+ ],
+ "sources": [
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/remoqa"
+  }
+ ],
+ "item": 114953,
+ "idea": "newcomer",
+ "traction": 15,
+ "thumb_words": "REMOQA: FREE REMOTE DESKTOP BETA"
+}

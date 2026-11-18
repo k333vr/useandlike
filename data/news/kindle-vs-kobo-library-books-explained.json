@@ -1,0 +1,61 @@
+{
+ "slug": "kindle-vs-kobo-library-books-explained",
+ "date": "2026-11-18",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Reading",
+ "tag": "Explainer",
+ "head": "Kindle vs Kobo for Libby library books and EPUB files explained",
+ "dek": "The main difference between a Kindle and a Kobo is how you get books onto it: Libby library loans reach a Kindle only in the US, while Kobo has Libby built in for 13 countries and opens EPUB files directly.",
+ "sections": [
+  {
+   "h": "What's new on the Kindle side",
+   "p": [
+    "Amazon announced a new Kindle family on 1 October 2026. The 6-inch Kindle costs $149.99 with 16 GB, and an aluminium version with 32 GB costs $189.99; according to The eBook Reader, neither has a warm front light or waterproofing. The 7-inch Paperwhite costs $199.99, or $249.99 as a Signature Edition with 32 GB and an aluminium back. The colour Kindle Colorsoft costs $289.99, or $319.99 as a Signature Edition.",
+    "The Paperwhite and Colorsoft models started shipping on 28 October. Amazon also added Kindle Click, a $34.99 Bluetooth page-turn remote that works with Kindles released in 2024 or later, and a $79.99 cover with page buttons for the two Signature Editions."
+   ]
+  },
+  {
+   "h": "What Kobo offers right now",
+   "p": [
+    "Kobo's colour model, the Libra Colour, costs $259.99 in Kobo's US store. It has a 7-inch colour E Ink screen, 32 GB of storage, physical page-turn buttons and an IPX8 waterproof rating. It also works with the Kobo Stylus 2, which is sold separately for $69.99, and its notebooks can sync with Dropbox or Google Drive.",
+    "Kobo says the Libra Colour opens 15 file formats natively, including EPUB, PDF, MOBI and the comic formats CBZ and CBR."
+   ]
+  },
+  {
+   "h": "Library books: the biggest difference",
+   "p": [
+    "Libby's own help page says you can read most Libby books on a Kindle e-reader, but only in the US. You borrow the book in the Libby app, open Shelf, then Loans, tap Read With and pick Kindle. Libby sends you to Amazon's website, where you tap Get Library Book, and the loan shows up on the Kindles linked to your Amazon account.",
+    "Kobo builds Libby into the e-reader itself. Kobo's help page lists 13 countries where it works: Canada, the US, the UK, Australia, New Zealand, Denmark, Finland, Norway, Sweden, Taiwan, Hong Kong, Singapore and Thailand. You add your library card under My Account, then Library Cards, and borrow from Discover on the e-reader. If a book is out, you can place a hold and Kobo emails you when it's ready; loans return themselves when the lending period ends.",
+    "There are limits on both sides. Libby says most books, not all, can go to a Kindle. Kobo says some library titles aren't available through Kobo, and the built-in feature needs a supported model, from the Libra Colour and Clara models back to the Aura ONE."
+   ]
+  },
+  {
+   "h": "Your own EPUB files",
+   "p": [
+    "EPUB is the common file format for e-books bought outside Amazon. A Kobo opens EPUB files directly. On a Kindle, you send them through Amazon's Send to Kindle service, which converts them.",
+    "Liliputing reported on 30 April 2022 that Send to Kindle started accepting EPUB files by email, and that Amazon planned to stop accepting the older MOBI and AZW formats for new documents later that year. Files you send this way must be free of copy protection, known as DRM, so a book bought with DRM from another store won't go through."
+   ]
+  },
+  {
+   "h": "How to decide",
+   "p": [
+    "If you're in the US and mostly buy from Amazon or borrow through Libby, both work for library books. If you live outside the US and want library books on the e-reader itself, Kobo's built-in Libby covers more countries. If you already have EPUB files from other stores, a Kobo opens them as they are, while a Kindle needs them sent through Amazon without DRM."
+   ]
+  }
+ ],
+ "means": "If you borrow e-books from your library or buy them outside Amazon, the country you live in and where your books come from matter more than the screen when you choose between a Kindle and a Kobo.",
+ "todo": "Check whether your library offers Libby and which country your card is from. In the US, both e-readers can take library loans; elsewhere, check Kobo's list of supported countries. Before buying, check whether the e-books you already own have DRM, because only DRM-free files can go to a Kindle through Send to Kindle.",
+ "apps": ["Kindle", "Kobo", "Libby"],
+ "idea": "competitor",
+ "traction": 0,
+ "thumb_words": "KINDLE VS KOBO: LIBRARY BOOKS",
+ "sources": [
+  {"name": "Libby Help", "url": "https://help.libbyapp.com/en-us/6017.htm"},
+  {"name": "Kobo Help", "url": "https://help.kobo.com/hc/en-us/articles/360017677053-Borrow-eBooks-from-the-public-library-using-your-Kobo-eReader"},
+  {"name": "Kobo", "url": "https://ereader.kobo.com/en-us/products/kobo-libra-colour"},
+  {"name": "The eBook Reader", "url": "https://blog.the-ebook-reader.com/2026/10/01/new-kindle-lineup-officially-unveiled-with-new-page-turn-accessories/"},
+  {"name": "Techlicious", "url": "https://www.techlicious.com/blog/amazon-new-kindle-lineup-kindle-click/"},
+  {"name": "Liliputing", "url": "https://liliputing.com/amazon-kindles-now-support-epub-books-sort-of-but-mobi-and-azw-support-is-ending-in-2022/"}
+ ]
+}

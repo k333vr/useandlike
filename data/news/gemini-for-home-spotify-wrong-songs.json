@@ -1,0 +1,24 @@
+{
+ "slug": "gemini-for-home-spotify-wrong-songs",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Music",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Gemini for Home plays the wrong Spotify songs for some users",
+ "dek": "Owners of Nest speakers report that Gemini for Home picks the wrong album, artist or version when they ask for a Spotify song, alarm routines included, despite an August update meant to fix recognition. Google hadn't commented when Android Authority reported it.",
+ "apps": [
+  "Gemini",
+  "Spotify"
+ ],
+ "item": 119791,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/gemini-for-home-spotify-issues-3736194/"
+  }
+ ]
+}

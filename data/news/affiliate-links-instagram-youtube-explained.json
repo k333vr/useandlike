@@ -1,0 +1,61 @@
+{
+ "slug": "affiliate-links-instagram-youtube-explained",
+ "date": "2026-11-18",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Social",
+ "tag": "Explainer",
+ "head": "Affiliate links on Instagram Reels and YouTube explained",
+ "dek": "An affiliate link pays the creator a commission when you buy through it, and since 16 November US creators can put Amazon affiliate links right into Instagram Reels and feed posts, as YouTube creators already can with tagged products.",
+ "sections": [
+  {
+   "h": "What an affiliate link is",
+   "p": [
+    "An affiliate link is a product link with a tag that tells the shop who sent you. If you buy, the shop pays that person a commission. The shop sets the rate, and on YouTube each brand or retailer sets its own rate and how long a click counts.",
+    "For you as a viewer, it's a normal link to a shop. The difference is that the person who recommended the product earns money if you buy, and US rules say they have to tell you."
+   ]
+  },
+  {
+   "h": "What changed on Instagram this week",
+   "p": [
+    "Meta announced on 16 November 2026 that creators can add Amazon affiliate links directly to Reels and feed posts. Until now, they mostly shared them in stories, DMs and their bio. A creator can tag up to 30 products in a Reel and up to 20 in a feed post, and tapping one opens the Amazon app.",
+    "According to Engadget, it's for creators in the US who are in Amazon's influencer program, have a professional Instagram account and are 18 or older. They connect their Amazon account in the Monetization section of the Professional Dashboard, and the app shows the expected commission for each item before they add it. Meta says it takes no cut and charges no fees; Amazon pays the commission.",
+    "Instagram told TechCrunch that product links on Reels and posts have drawn about twice as many clicks as links in a bio."
+   ]
+  },
+  {
+   "h": "How it works on YouTube",
+   "p": [
+    "YouTube's Shopping affiliate program lets creators tag products in videos and Shorts, so you see the items while the video keeps playing and can tap through to the shop. YouTube's creators page says a channel needs to be in the YouTube Partner Program with at least 500 subscribers in an available market, and can tag up to 60 products.",
+    "YouTube's help page lists 18 countries where creators can join, including the US, the UK, Germany, India, Japan, Brazil and Mexico. Music channels and channels made for kids can't join. Commissions are paid through AdSense 60 to 120 days after the purchase, and a return cancels the commission."
+   ]
+  },
+  {
+   "h": "How you can tell a link pays the creator",
+   "p": [
+    "In the US, the Federal Trade Commission says creators must disclose when they're paid for purchases through their links, close to the recommendation and in a way that's hard to miss. Its example wording is \"I get commissions for purchases made through links in this post.\"",
+    "The FTC says the words \"affiliate link\" alone may not be clear enough, and a \"buy now\" button isn't a disclosure. \"Paid link\" right next to the link should be enough. On YouTube, it says the creator should mention it in the video and in the description near the links. Hashtags such as #ad or #sponsored are fine, but a disclosure hidden behind \"more\" or in a pile of hashtags is likely to be missed."
+   ]
+  },
+  {
+   "h": "What it means when you shop",
+   "p": [
+    "An affiliate link doesn't make a recommendation wrong, but it's a reason to check the product yourself before buying: read the shop's own page for the price, the return rules and reviews. If a post pushes a product and you can't find any disclosure, keep in mind that the creator may still be earning from it."
+   ]
+  }
+ ],
+ "means": "If you buy things you see in Reels or YouTube videos, more of those product links now pay the creator a commission, so the post is partly a recommendation and partly a sale.",
+ "todo": "Look for a disclosure such as \"paid link\", \"ad\" or \"I earn a commission\" near the link or in the video. Check the price and the return rules on the shop's own page before you buy. If you're a US creator in Amazon's influencer program, connect your Amazon account under Monetization in Instagram's Professional Dashboard and add a clear disclosure to every post with links.",
+ "apps": ["Instagram", "YouTube", "Amazon"],
+ "idea": "explainer",
+ "traction": 0,
+ "thumb_words": "INSTAGRAM REELS GET AFFILIATE LINKS",
+ "sources": [
+  {"name": "TechCrunch", "url": "https://techcrunch.com/2026/11/16/instagram-now-lets-creators-add-amazon-affiliate-links-in-reels-and-feed-posts/"},
+  {"name": "Engadget", "url": "https://www.engadget.com/2316714/instagram-will-let-creators-add-amazon-affiliate-links-directly-to-their-posts-and-reels/"},
+  {"name": "YouTube Help", "url": "https://support.google.com/youtube/answer/13376398?hl=en"},
+  {"name": "YouTube Creators", "url": "https://www.youtube.com/creators/partner-program/shopping/"},
+  {"name": "FTC", "url": "https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking"},
+  {"name": "FTC", "url": "https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers"}
+ ]
+}

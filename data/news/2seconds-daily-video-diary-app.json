@@ -1,0 +1,27 @@
+{
+ "slug": "2seconds-daily-video-diary-app",
+ "date": "2026-11-14",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Video",
+ "tag": "New app",
+ "head": "2Seconds Daily turns one moment a day into a film of your days",
+ "dek": "2Seconds Daily picks a short clip, photo or Live Photo for each day from your Photos library and joins them into one movie. It was #74 in Photo & Video on the US App Store's paid chart on 17 November.",
+ "details": "It costs $12.99 and came out on 14 November for iPhone and iPad with iOS 26 or later. You can swap the suggested moment, trim the part you want, add several clips per day, pick portrait, square or landscape, and add date captions. A calendar view and a Back in Time view show moments from earlier years, and a widget and daily reminders help you keep going. It needs no account; it's made by Alex Kotliarsky.",
+ "where": "iPhone and iPad, App Store, $12.99",
+ "means": "If you've wanted a video diary but never kept one up, this builds it from photos you already take.",
+ "todo": "Choose which Photos access to give it when you start; the app also has an optional lock for your moments.",
+ "apps": [
+  "2Seconds Daily"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/2seconds-daily/id6800865418"
+  }
+ ],
+ "item": 122247,
+ "thumb_words": "ONE CLIP A DAY, ONE FILM",
+ "idea": "newcomer",
+ "traction": 0
+}

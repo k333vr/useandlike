@@ -1,0 +1,23 @@
+{
+ "slug": "samsung-galaxy-a-price-increase-report",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Android",
+ "tag": "Quick",
+ "head": "Samsung Galaxy A phones reportedly cost up to 19% more",
+ "dek": "Samsung has raised prices of the Galaxy A07, A17, A27, A37 and A57 by up to 19% depending on region, storage and RAM, because of higher memory costs, according to South Korea's SE Daily as reported by iPhone in Canada. Samsung hasn't commented, and no country prices were given.",
+ "quick": true,
+ "apps": [
+  "Samsung Galaxy"
+ ],
+ "sources": [
+  {
+   "name": "iPhone in Canada",
+   "url": "https://www.iphoneincanada.ca/2026/11/17/samsung-to-raise-galaxy-a-prices-by-up-to-19-because-of-memory-costs/"
+  }
+ ],
+ "item": 119894,
+ "idea": "news",
+ "traction": 6
+}

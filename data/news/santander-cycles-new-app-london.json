@@ -1,0 +1,32 @@
+{
+ "slug": "santander-cycles-new-app-london",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Travel",
+ "tag": "New app",
+ "head": "Santander Cycles app: new London bike hire app with QR unlock",
+ "dek": "London's Santander Cycles bike hire moved to a new app, TfL Santander Cycles, made by Lyft, on 17 November; the old app is no longer available. You unlock a bike by scanning its QR code and can pay with Apple Pay or Google Pay.",
+ "details": "Hire was offline from the evening of 13 November to the evening of 17 November for the switch. New customers who register in the app get one free single ride with the code NEWAPP, e-bikes included; rides over 30 minutes cost £1.65 per extra 30 minutes on pedal bikes and £3 on e-bikes. Annual Pass holders get 7 extra days and Monthly Pass holders 5. The app is free and shows nearby bikes, docks and your ride history. On 17 November it led the UK App Store's chart of free apps.",
+ "where": "London, iPhone and Android, from 17 November",
+ "means": "If you hire Santander Cycles in London, the old app no longer works for you; the new one is how you unlock bikes now.",
+ "todo": "Download TfL Santander Cycles, sign in or register, and enter NEWAPP for a free ride if you're a new customer.",
+ "category": "Travel",
+ "apps": [
+  "TfL Santander Cycles"
+ ],
+ "item": 117144,
+ "idea": "newcomer",
+ "traction": 15,
+ "thumb_words": "SANTANDER CYCLES: NEW APP, QR UNLOCK",
+ "sources": [
+  {
+   "name": "TfL",
+   "url": "https://tfl-newsroom.prgloo.com/news/tfl-and-santander-to-launch-brand-new-santander-cycles-app-with-major-upgrades-to-make-bike-hire-quicker-and-easier-than-ever"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/gb/app/tfl-santander-cycles/id6748404131"
+  }
+ ]
+}

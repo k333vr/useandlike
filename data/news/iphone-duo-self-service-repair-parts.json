@@ -1,0 +1,27 @@
+{
+ "slug": "iphone-duo-self-service-repair-parts",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Apple",
+ "tag": "Quick",
+ "quick": true,
+ "head": "iPhone Duo repair parts and tools now sold by Apple",
+ "dek": "Apple's Self Service Repair Store now sells iPhone Duo parts, including both batteries, the inner and outer displays, back glass and cameras, plus the tools for each repair. It's available in the US, Canada and Europe.",
+ "apps": [
+  "iPhone Duo"
+ ],
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/17/apple-now-selling-iphone-duo-replacement-parts-and-tools/"
+  },
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/17/apple-now-sells-iphone-duo-repair-parts/"
+  }
+ ],
+ "item": 117583,
+ "idea": "news",
+ "traction": 0
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "godaddy-airo-ai-builder",
+ "date": "2026-11-16",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Business",
+ "tag": "Quick",
+ "quick": true,
+ "head": "GoDaddy Airo AI Builder makes sites and stores from a prompt",
+ "dek": "GoDaddy's new Airo AI Builder turns a written or spoken description into a website, web app or online store, with domain and hosting included; it's free to start, paid plans begin at 9.99 dollars a month, and full store features are US and Canada only.",
+ "apps": [
+  "GoDaddy"
+ ],
+ "category": "Website & App Builders",
+ "item": 109138,
+ "idea": "news",
+ "traction": 21,
+ "sources": [
+  {
+   "name": "GoDaddy (PR Newswire)",
+   "url": "https://www.prnewswire.com/news-releases/new-godaddy-airo-ai-builder-lets-small-businesses-turn-ideas-into-websites-and-apps-302940437.html"
+  }
+ ]
+}

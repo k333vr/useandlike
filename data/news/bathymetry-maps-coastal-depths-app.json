@@ -1,0 +1,23 @@
+{
+ "slug": "bathymetry-maps-coastal-depths-app",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Travel",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Bathymetry Maps shows US coastal water depths for trip planning",
+ "dek": "Bathymetry Maps, a new $1.99 iPhone app, pulls water depths from NOAA charts and Army Corps surveys for any area you draw on US coastal waters, with a 3D seafloor view. The maker says it's for planning only, not navigation; it was #18 in Navigation on the US paid chart on 17 November.",
+ "apps": [
+  "Bathymetry Maps"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/bathymetry-maps/id6819808974"
+  }
+ ],
+ "item": 122263,
+ "idea": "newcomer",
+ "traction": 0
+}

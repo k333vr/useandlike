@@ -1,0 +1,32 @@
+{
+ "slug": "whatsapp-cloud-backup-android-2gb-beta",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Messaging",
+ "tag": "In testing",
+ "rumor": true,
+ "head": "WhatsApp cloud backup on Android in testing: 2 GB free storage",
+ "dek": "WhatsApp is testing its own cloud backup on Android, so chats can be backed up on WhatsApp's servers instead of Google Drive, with 2 GB free. It's in beta version 2.26.46.4 for some testers, spotted by WABetaInfo; WhatsApp hasn't said when everyone gets it.",
+ "details": "The backup screen shows two choices, WhatsApp cloud storage and Google storage, and you can switch at any time. End-to-end encryption is required for backups on WhatsApp's servers, with a passkey or a 64-digit key. More space comes with WhatsApp Plus (100 GB, $2.99 a month, according to 9to5Google) or Meta One (up to 4 TB). After a subscription ends, the latest backup is kept for 4 months, then deleted if you don't renew.",
+ "where": "Android, WhatsApp beta 2.26.46.4, some testers; more over the coming weeks",
+ "means": "If your Google Drive is nearly full or you have no Google account, WhatsApp's own backup could give you a second place for your chats once it reaches you.",
+ "todo": "Nothing to do yet. When it shows up in your chat backup settings, set up the passkey or write down the 64-digit key before the first backup, or you can't restore it.",
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 114331,
+ "idea": "news",
+ "traction": 40,
+ "thumb_words": "WHATSAPP TESTS 2 GB FREE BACKUP",
+ "sources": [
+  {
+   "name": "WABetaInfo",
+   "url": "https://wabetainfo.com/whatsapp-is-rolling-out-a-new-cloud-backup-storage-on-android/"
+  },
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/17/whatsapp-cloud-backups-free-beta/"
+  }
+ ]
+}

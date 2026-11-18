@@ -1,0 +1,23 @@
+{
+ "slug": "privacynotes-browser-extensions-dead-mans-switch",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Privacy",
+ "tag": "Quick",
+ "head": "PrivacyNotes adds browser extensions and a dead man's switch",
+ "dek": "PrivacyNotes now has Chrome, Edge and Firefox extensions that save pages as encrypted notes and fill logins from its vault, plus an optional switch that deletes your notes if none of your devices comes online for one month to five years. Pro can now also be paid in Bitcoin and other cryptocurrencies at the card price.",
+ "quick": true,
+ "apps": [
+  "PrivacyNotes"
+ ],
+ "sources": [
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/privacynotes-brings-major-updates-browser-extensions-dead-man-s-switch-and-crypto-payments/"
+  }
+ ],
+ "item": 114967,
+ "idea": "newcomer",
+ "traction": 0
+}

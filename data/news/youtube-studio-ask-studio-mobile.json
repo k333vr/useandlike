@@ -1,0 +1,24 @@
+{
+ "slug": "youtube-studio-ask-studio-mobile",
+ "date": "2026-11-16",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Video",
+ "tag": "Quick",
+ "quick": true,
+ "head": "YouTube Studio app gets the Ask Studio AI helper on Android and iPhone",
+ "dek": "YouTube's AI assistant for creators, Ask Studio, is now in the YouTube Studio app on Android and iPhone, with voice prompts and image uploads for thumbnail feedback; its suggestions and outlines are still limited to some countries and languages.",
+ "apps": [
+  "YouTube Studio",
+  "YouTube"
+ ],
+ "sources": [
+  {
+   "name": "Social Media Today",
+   "url": "https://www.socialmediatoday.com/news/youtube-expands-ai-powered-creative-chatbot-to-all-mobile-users/874802/"
+  }
+ ],
+ "item": 113890,
+ "idea": "news",
+ "traction": 0
+}

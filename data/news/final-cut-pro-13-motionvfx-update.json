@@ -1,0 +1,32 @@
+{
+ "slug": "final-cut-pro-13-motionvfx-update",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "topic": "Video",
+ "tag": "Update",
+ "category": "Video Creation",
+ "head": "Final Cut Pro 13 update adds MotionVFX effects for Creator Studio",
+ "dek": "Final Cut Pro 13 now includes thousands of MotionVFX themes, transitions, titles and effects, which used to cost up to 350 dollars a year on their own. The new features are only in the Creator Studio version, not the one-time purchase.",
+ "details": "Apple bought MotionVFX in March. The update also adds the Content Hub with stock video, photos and graphics, image generation from a text description with a round trip to Pixelmator Pro, finer keyframing and easing, more transcription languages and a command that detaches a clip from the main storyline. MacRumors says Apple's outage on 17 November held the release back for a while. Creator Studio costs 12.99 dollars a month or 129 dollars a year and also includes Logic Pro, Motion, Compressor and Pixelmator Pro.",
+ "where": "Mac, Final Cut Pro in Creator Studio; not in the one-time purchase version",
+ "means": "If you edit on Final Cut Pro through Creator Studio, a large effects library comes with your subscription now. If you bought the app once, these additions aren't included.",
+ "todo": "Update Final Cut Pro from the Mac App Store and look for the MotionVFX content and the Content Hub. Before buying effect packs elsewhere, check what's already included.",
+ "apps": [
+  "Final Cut Pro"
+ ],
+ "item": 119285,
+ "idea": "newcomer",
+ "traction": 41,
+ "thumb_words": "FINAL CUT PRO 13 ADDS MOTIONVFX",
+ "sources": [
+  {
+   "name": "MacStories",
+   "url": "https://www.macstories.net/news/final-cut-pro-13-adds-motionvfx-and-more-to-creator-studio/"
+  },
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/17/final-cut-pro-motionvfx/"
+  }
+ ],
+ "checked": "2026-11-18"
+}

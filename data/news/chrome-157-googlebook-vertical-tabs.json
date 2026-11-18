@@ -1,0 +1,24 @@
+{
+ "slug": "chrome-157-googlebook-vertical-tabs",
+ "date": "2026-11-16",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Google",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Chrome 157 on Googlebook adds resizable vertical tabs",
+ "dek": "Chrome 157 for Googlebook lets you widen the vertical tab bar and opens it on hover, gives each Settings page its own address, and uses the system Save As window so you can pick a folder. Google published the full list of changes on 16 November.",
+ "apps": [
+  "Chrome",
+  "Googlebook"
+ ],
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/16/chrome-157-googlebook/"
+  }
+ ],
+ "item": 113431,
+ "idea": "news",
+ "traction": 0
+}

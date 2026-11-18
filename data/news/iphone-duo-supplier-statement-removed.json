@@ -1,0 +1,23 @@
+{
+ "slug": "iphone-duo-supplier-statement-removed",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Apple",
+ "tag": "Quick",
+ "quick": true,
+ "head": "iPhone Duo supplier's statement on screen cracks taken down",
+ "dek": "Korea's The Elec reports that Apple pressed Fine M-Tec, which makes metal plates under the iPhone Duo's folding screen, to remove an October statement saying its parts didn't cause the cracks. Apple hasn't commented.",
+ "apps": [
+  "iPhone Duo"
+ ],
+ "item": 118894,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/17/apple-silencing-iphone-duo-supplier-crackgate/"
+  }
+ ]
+}

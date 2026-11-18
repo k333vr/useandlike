@@ -1,0 +1,27 @@
+{
+ "slug": "aurora-chance-northern-lights-app",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Travel",
+ "tag": "New app",
+ "head": "Northern lights app Aurora Chance gives one number for tonight",
+ "dek": "Aurora Chance is a new free iPhone app that turns aurora, cloud and darkness data into one 0 to 100% chance of seeing the northern lights tonight where you are, with a verdict of Go out, Maybe or Not tonight. It was #60 in Weather on the US App Store's free chart on 17 November.",
+ "details": "It uses NOAA aurora data (the Kp index and the OVATION model), cloud cover from MET Norway, darkness and the moon's phase. The free version shows the hours with the highest chance, an hour-by-hour timeline, a three-night outlook and a red night mode for any city. Aurora Pro, a monthly or yearly subscription (the yearly one with a 7-day free trial) or a one-time purchase, adds evening alerts and your own thresholds. It has no ads or account, and the maker says forecasts are not guarantees.",
+ "where": "iPhone and iPad, free on the App Store with optional Aurora Pro (out since 14 November)",
+ "means": "If you're hoping to see the northern lights this season, this tells you in one number whether tonight is worth going outside.",
+ "todo": "Check the free chance and timeline for your location before paying for alerts.",
+ "apps": [
+  "Aurora Chance"
+ ],
+ "item": 122264,
+ "idea": "newcomer",
+ "traction": 24,
+ "thumb_words": "AURORA CHANCE: NORTHERN LIGHTS TONIGHT?",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/aurora-chance-northern-lights/id6833542167"
+  }
+ ]
+}

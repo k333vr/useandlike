@@ -1,0 +1,28 @@
+{
+ "slug": "samsung-bezel-less-galaxy-display-leak",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Android",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "Leak: Samsung may be working on a nearly bezel-less Galaxy screen",
+ "dek": "Leaker Lanzuk says a Samsung supplier mentions an extremely bezel-less display; 9to5Google guesses it could be for the Galaxy S27 Ultra, which Samsung hasn't confirmed.",
+ "apps": [
+  "Samsung Galaxy"
+ ],
+ "item": 116509,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/17/leak-rumors-bezel-less-galaxy-s27-display/"
+  },
+  {
+   "name": "Gadgets 360",
+   "url": "https://www.gadgets360.com/mobiles/news/samsung-bezel-free-display-development-future-galaxy-flagships-report-12338436"
+  }
+ ]
+}

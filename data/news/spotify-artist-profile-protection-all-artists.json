@@ -1,0 +1,23 @@
+{
+ "slug": "spotify-artist-profile-protection-all-artists",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Music",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Spotify lets all artists remove fake releases from their profile",
+ "dek": "Since 17 November every artist can turn on Artist Profile Protection in Spotify for Artists and take their name off releases that aren't theirs, such as AI fakes; removed releases don't show on the profile or get recommended to listeners.",
+ "apps": [
+  "Spotify"
+ ],
+ "sources": [
+  {
+   "name": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/spotify-expands-access-to-artist-profile-protection-letting-all-artists-remove-their-name-from-ai-fakes-and-other-misattributed-releases/"
+  }
+ ],
+ "item": 117715,
+ "idea": "news",
+ "traction": 0
+}

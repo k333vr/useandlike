@@ -17,6 +17,9 @@
   }
  ],
  "item": 110089,
+ "items": [
+  113330
+ ],
  "idea": "request",
  "traction": 0,
  "details": "ChatGPT already blocked such content and requests. The new classifier, built with the National Center for Missing and Exploited Children, spots abuse images including AI-made ones and gives each a score for reviewers; selected companies get it through OpenAI's API at no cost. In early tests with partners it flagged 48% fewer images while finding the same number of abusive ones. OpenAI also published guidance for developers and tools and training for investigators.",

@@ -1,0 +1,27 @@
+{
+ "slug": "diitr-dithering-camera-app",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Photo",
+ "tag": "New app",
+ "head": "Dithering camera app DIITR shoots retro pixel photos and video",
+ "dek": "DIITR is a new $1.99 iPhone camera app that applies dithering, the dotted pixel look of old screens and printers, live in the viewfinder for photos and videos. It was #61 in Photo & Video on the US App Store's paid chart on 17 November.",
+ "details": "You pick from 11 dithering methods, including Atkinson, Floyd-Steinberg and Bayer, and adjust the pixel texture and colours before you shoot. Photos can be saved as JPG or as SVG. It came out on 12 November and needs iOS 17 or later; the listing doesn't mention in-app purchases.",
+ "where": "iPhone and iPad, $1.99 on the App Store, iOS 17 or later (out since 12 November)",
+ "means": "If you like the retro pixel look, this shows it while you shoot instead of adding a filter afterwards.",
+ "todo": "Try a few of the 11 modes on the same scene; they give quite different textures.",
+ "apps": [
+  "DIITR"
+ ],
+ "item": 122246,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "DIITR: RETRO PIXEL CAMERA",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/diitr-dithering-camera/id6823458563"
+  }
+ ]
+}

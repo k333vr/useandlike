@@ -1,0 +1,24 @@
+{
+ "slug": "samsung-tap-to-share-one-ui-9-5-leak",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Samsung",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "Leak: Samsung's Tap to Share may wait for One UI 9.5",
+ "dek": "Tap to Share, which sends files by touching two phones together, shows up in Samsung's Quick Share app only on phones made to look like they run the unreleased One UI 9.5, according to the Telegram channel The Cipher Project. Samsung hasn't confirmed when Galaxy phones get it.",
+ "apps": [
+  "Quick Share"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-one-ui-9-5-quick-share-tap-to-share-leak-3735920/"
+  }
+ ],
+ "item": 115418,
+ "idea": "news",
+ "traction": 0
+}

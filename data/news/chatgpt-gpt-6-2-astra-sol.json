@@ -1,0 +1,31 @@
+{
+ "slug": "chatgpt-gpt-6-2-astra-sol",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "AI",
+ "tag": "Big news",
+ "head": "ChatGPT GPT-6.2: new Astra and Sol models for Plus and Pro users",
+ "dek": "OpenAI released GPT-6.2 Astra and GPT-6.2 Sol in ChatGPT and Codex on 17 November for Plus, Pro, Enterprise and Edu users. Astra is meant for hard, long projects, Sol for everyday writing and coding.",
+ "details": "OpenAI says both models finish demanding tasks with fewer output tokens, so you can do more before reaching your plan's usage limit. Astra can take a screenshot of a slide and copy its layout, colours and font sizes. Pro subscribers at 200 dollars a month get the faster Ultrafast mode with Sol, and the 500-dollar Pro plan gets it on both models; Ultrafast answers up to 4.5 times faster but uses more of your allowance. The sources don't mention the free plan or Go.",
+ "where": "ChatGPT Plus, Pro, Enterprise and Edu, and Codex, from 17 November 2026",
+ "means": "If you pay for ChatGPT Plus or Pro, two new models are in your model menu, and longer tasks may use less of your limit than before.",
+ "todo": "Open ChatGPT's model picker and try Sol for everyday questions; switch to Astra for long documents, slides or bigger projects.",
+ "apps": [
+  "ChatGPT"
+ ],
+ "item": 119423,
+ "idea": "news",
+ "traction": 40,
+ "thumb_words": "CHATGPT GETS GPT-6.2 ASTRA AND SOL",
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/17/openai-upgrades-chatgpt-and-codex-with-new-gpt-6-2-astra-and-sol-models/"
+  },
+  {
+   "name": "TestingCatalog",
+   "url": "https://www.testingcatalog.com/openai-launches-gpt-6-2-astra-and-sol-on-chatgpt-and-apis/"
+  }
+ ]
+}

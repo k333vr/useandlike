@@ -1,0 +1,23 @@
+{
+ "slug": "spotify-cache-limit-setting-phones",
+ "date": "2026-11-16",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Music",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Spotify adds a cache limit to save storage on phones",
+ "dek": "Spotify's help page now lists a Cache limit slider for its phone and tablet apps, under Settings and privacy, Data-saving and offline, Storage, to cap how much space temporary files take. A smaller limit may affect playback and use more data, Spotify says.",
+ "apps": [
+  "Spotify"
+ ],
+ "sources": [
+  {
+   "name": "Spotify Support",
+   "url": "https://support.spotify.com/sg-en/article/storage-information/"
+  }
+ ],
+ "item": 111959,
+ "idea": "news",
+ "traction": 0
+}

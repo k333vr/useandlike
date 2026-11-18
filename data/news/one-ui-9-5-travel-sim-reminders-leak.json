@@ -1,0 +1,29 @@
+{
+ "slug": "one-ui-9-5-travel-sim-reminders-leak",
+ "date": "2026-11-16",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Travel",
+ "tag": "Leak",
+ "rumor": true,
+ "head": "Samsung One UI 9.5 may remind you to switch to your travel SIM abroad",
+ "dek": "An early One UI 9.5 build has tools for travelers with a second SIM or eSIM: a welcome alert in a new country that reminds you to turn on your travel SIM, and a prompt to switch back to your home line when the trip ends, according to an Android Authority teardown reported by Android Headlines. Samsung hasn't announced them.",
+ "details": "You'd label each SIM as Home or International. Plans would be sorted into active, paused, ready to use and past trips, with data use grouped by destination and travel dates. For prepaid eSIMs it would show data used today, the daily average, the busiest day and call time, with optional daily usage alerts. Samsung could still change how it works before release.",
+ "where": "Samsung Galaxy phones with One UI 9.5; found in an early build, not confirmed",
+ "means": "If you buy travel eSIMs, a later Galaxy update may remind you to switch lines, which helps avoid roaming on your home plan.",
+ "todo": "Nothing to do yet. On your next trip, check your SIM settings by hand when you land and when you get home.",
+ "apps": [
+  "One UI",
+  "Galaxy"
+ ],
+ "item": 113650,
+ "idea": "news",
+ "traction": 15,
+ "thumb_words": "GALAXY TRAVEL SIM REMINDERS COMING?",
+ "sources": [
+  {
+   "name": "Android Headlines",
+   "url": "https://www.androidheadlines.com/2026/11/samsung-one-ui-9-5-international-travel-sim-tools.html"
+  }
+ ]
+}

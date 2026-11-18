@@ -1,0 +1,23 @@
+{
+ "slug": "apple-health-redesign-iphone-15-pro",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Apple",
+ "tag": "Quick",
+ "quick": true,
+ "head": "New Apple Health app in iOS 27.3 needs an iPhone 15 Pro or newer",
+ "dek": "The redesigned Health app with Insights and Longevity tabs relies on Apple Intelligence, so it needs an iPhone 15 Pro or newer with Apple Intelligence turned on. iOS 27.3 is due in December, in select languages at first.",
+ "apps": [
+  "Apple Health"
+ ],
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/17/ios-27-3s-redesigned-apple-health-app-requires-newer-iphone-model/"
+  }
+ ],
+ "item": 120499,
+ "idea": "news",
+ "traction": 15
+}

@@ -1,0 +1,35 @@
+{
+ "slug": "gemini-ai-training-setting-chat-history",
+ "date": "2026-11-16",
+ "added": "2026-11-18",
+ "topic": "Privacy",
+ "tag": "Privacy",
+ "head": "Gemini AI training opt out: keep chat history, turn training off",
+ "dek": "Google is splitting Gemini's Keep Activity setting in two, so you can keep your chat history and separately stop your chats from being used to train its AI models. At the same time, chats made with history off and temporary chats will be kept for about two months instead of 72 hours.",
+ "details": "One setting decides whether and how long your history is saved; the other decides whether your chat content, text and attachments included, is used for generative AI training. If you had Keep Activity off, both new settings start off; if it was on, history stays on and you choose about training on its own. Google says the longer storage is for answering you, handling feedback and protecting its services, and that temporary chats aren't used for training. The change rolls out worldwide in the Gemini app over the coming weeks, and Google is telling users by email.",
+ "where": "Gemini app worldwide, rolling out over the coming weeks",
+ "means": "If you turned history off to keep Gemini from training on your chats, you can now keep your history and still say no to training. Chats you make with history off will now sit on Google's side for about two months.",
+ "todo": "When the update reaches you, open the History part of Gemini's settings and check both switches: history, and the use of your chats for AI training.",
+ "apps": [
+  "Gemini"
+ ],
+ "item": 113432,
+ "idea": "news",
+ "traction": 40,
+ "thumb_words": "GEMINI: SAY NO TO AI TRAINING",
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/16/gemini-history-ai-training/"
+  },
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/"
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/gemini-new-chat-history-settings-3736303/"
+  }
+ ],
+ "checked": "2026-11-18"
+}

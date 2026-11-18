@@ -1,0 +1,23 @@
+{
+ "slug": "loronote-offline-transcription-iphone",
+ "date": "2026-11-16",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "AI",
+ "tag": "Quick",
+ "quick": true,
+ "head": "LoroNote turns recordings into text offline on iPhone and iPad",
+ "dek": "LoroNote transcribes meetings and lectures on the device with Whisper, labels speakers and works in airplane mode. Its latest update adds importing audio from other apps and exporting subtitles.",
+ "apps": [
+  "LoroNote"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/loronote-speech-to-text/id6749249346"
+  }
+ ],
+ "item": 109078,
+ "idea": "news",
+ "traction": 0
+}

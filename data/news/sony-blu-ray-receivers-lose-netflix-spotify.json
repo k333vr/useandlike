@@ -1,0 +1,28 @@
+{
+ "slug": "sony-blu-ray-receivers-lose-netflix-spotify",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Streaming",
+ "tag": "Shutdown",
+ "head": "Netflix no longer available on older Sony Blu-ray players and receivers",
+ "dek": "Sony switched off network services such as Netflix and Spotify on a list of older Blu-ray players, AV receivers, soundbars, home theatre systems and speakers on 17 November. Downloaded services and their icons may stop working or disappear from 18 November.",
+ "details": "Which services end depends on the model; the list includes Netflix, Spotify, Pandora, Slacker Radio and Vudu. Models named include the STR-DN1050, STR-DN1060, STR-DN1070 and STR-DN1080 receivers, the HT-CT790, HT-CT800 and HT-ST5000 soundbars, the BDP-S370, BDP-S570 and BDP-S780 Blu-ray players and the SRS-X7 speaker. Sony first posted the notice in mid-May and updated it on 6 August; it's Sony support article 00398725. Not every listed model was sold in every country, and it's not every Sony product.",
+ "where": "Listed older Sony audio and video products, from 17 November 2026",
+ "means": "If you watch Netflix or play Spotify through an older Sony player, receiver or soundbar, those apps may be gone from it now, and you'll need another device for them.",
+ "todo": "Look up your model in Sony support article 00398725. If it's listed, use a streaming stick, a smart TV's own apps or your phone for those services.",
+ "apps": [
+  "Netflix",
+  "Spotify"
+ ],
+ "item": 119891,
+ "idea": "news",
+ "traction": 26,
+ "thumb_words": "OLDER SONY PLAYERS LOSE NETFLIX",
+ "sources": [
+  {
+   "name": "iPhone in Canada",
+   "url": "https://www.iphoneincanada.ca/2026/11/17/sony-older-devices-streaming-services-shutdown/"
+  }
+ ]
+}

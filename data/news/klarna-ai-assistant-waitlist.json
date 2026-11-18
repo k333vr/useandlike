@@ -1,0 +1,23 @@
+{
+ "slug": "klarna-ai-assistant-waitlist",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Money",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Klarna opens a waitlist for its AI assistant",
+ "dek": "Klarna's new assistant can compare products and prices, handle returns, book restaurants and babysitters, draft email replies and file receipts. It's live for a small group of early users, with a waitlist opening this week.",
+ "apps": [
+  "Klarna"
+ ],
+ "sources": [
+  {
+   "name": "Seeking Alpha (TradingView)",
+   "url": "https://www.tradingview.com/news/seekingalpha:29a8a2222094b:0-klarna-rolls-out-ai-assistant-for-shopping-bookings-and-everyday-tasks/"
+  }
+ ],
+ "item": 121727,
+ "idea": "newcomer",
+ "traction": 18
+}

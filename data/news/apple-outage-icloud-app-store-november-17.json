@@ -1,0 +1,39 @@
+{
+ "slug": "apple-outage-icloud-app-store-november-17",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Apple",
+ "tag": "Heads-up",
+ "head": "Apple outage on 17 November: iCloud sign-in, App Store and Apple Pay hit",
+ "dek": "Many Apple users couldn't sign in to iCloud, download apps or use Apple Music on 17 November, and some were signed out of their iPhone or Mac. Apple said an internal update caused the outage and that many systems were back up later that day.",
+ "details": "Reports on Downdetector started around 11:30 a.m. Eastern and reached the thousands within an hour, also for Apple Pay, Sign in with Apple and setting up new iPhones. Apple's System Status page later said iCloud account sign-in may be slow or unavailable and that AppleCare on device was temporarily unavailable. Apple said it was working to bring the remaining systems back as soon as possible; according to 9to5Mac, the company said it wasn't a cyberattack. Services for app developers took longer to recover.",
+ "where": "Worldwide reports, mostly from the US; 17 November",
+ "means": "If your iPhone or Mac asked you to sign in again, or an app download or payment failed on Tuesday, it was this outage, not your device.",
+ "todo": "Check Apple's System Status page before changing settings. If you're still signed out, sign in to your Apple Account again in Settings; retry failed downloads and payments once the status page shows green.",
+ "apps": [
+  "iCloud",
+  "App Store",
+  "Apple Pay",
+  "Apple Music"
+ ],
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/17/icloud-app-store-and-other-apple-services-hit-by-ongoing-outage/"
+  },
+  {
+   "name": "Engadget",
+   "url": "https://www.engadget.com/2319504/icloud-and-other-apple-services-are-down-in-an-apparent-outage/"
+  },
+  {
+   "name": "Digital Trends",
+   "url": "https://www.digitaltrends.com/phones/apple-services-hit-by-widespread-outage-reports-users-flag-problems-with-icloud-app-store-and-apple-pay/"
+  }
+ ],
+ "item": 119417,
+ "thumb_words": "APPLE OUTAGE: ICLOUD SIGNS USERS OUT",
+ "idea": "news",
+ "traction": 40,
+ "rank": 1
+}

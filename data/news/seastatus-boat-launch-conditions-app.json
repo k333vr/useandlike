@@ -1,0 +1,23 @@
+{
+ "slug": "seastatus-boat-launch-conditions-app",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Weather",
+ "tag": "Quick",
+ "head": "SeaStatus tells boaters whether to launch: go, caution or no-go",
+ "dek": "SeaStatus, a free iPhone and iPad app, turns NOAA wind, wave and tide data and marine warnings into one answer for your boat ramp; a Pro subscription adds a 7-day outlook, route checks and live cameras. It was #91 among free Weather apps on the US App Store on 17 November.",
+ "quick": true,
+ "apps": [
+  "SeaStatus"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/seastatus-launch-conditions/id6811217650"
+  }
+ ],
+ "item": 122265,
+ "idea": "newcomer",
+ "traction": 0
+}

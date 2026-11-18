@@ -1,0 +1,32 @@
+{
+ "slug": "uber-eats-drone-delivery-zipline-houston",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Shopping",
+ "tag": "New feature",
+ "head": "Uber Eats drone delivery starts near Houston with Zipline",
+ "dek": "Uber Eats drone delivery with Zipline started on 17 November in Spring, Texas, a suburb of Houston: you tap a new Drone icon in the app and the order is lowered into your yard on a tether. Dallas is next, and dozens more US cities are planned.",
+ "details": "Drones carry orders of up to 8 pounds in a sealed pod, fly about 300 feet up at up to 70 mph and don't land. In Spring the service runs from 8 a.m. to 10 p.m. for eligible customers within 10 miles of a participating restaurant, such as Jersey Mike's, Zaxby's, Urban Bird and Abu Omar Halal. No tip is needed for a drone order, and you can still pick a regular driver. Delivery fees weren't given; Uber and Zipline aim for one million drone deliveries a day by the end of 2029.",
+ "where": "Uber Eats app, Spring, Texas now; Dallas next",
+ "means": "If you live in the Spring area, some restaurant orders can now arrive by drone instead of a driver, as long as you have an open spot outside to drop it.",
+ "todo": "Open Uber Eats and look for the Drone icon on the home page; pick a restaurant, order, and confirm an open drop-off spot such as a lawn.",
+ "apps": [
+  "Uber Eats",
+  "Uber"
+ ],
+ "item": 117053,
+ "idea": "news",
+ "traction": 40,
+ "thumb_words": "UBER EATS DRONES START IN TEXAS",
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/17/uber-and-ziplines-drone-delivery-service-takes-off-in-texas-with-dozens-of-cities-to-follow/"
+  },
+  {
+   "name": "ABC13",
+   "url": "https://abc13.com/story/what-know-uber-eat-new-drone-delivery-service/20048048/"
+  }
+ ]
+}

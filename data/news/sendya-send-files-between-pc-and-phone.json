@@ -1,0 +1,27 @@
+{
+ "slug": "sendya-send-files-between-pc-and-phone",
+ "date": "2026-11-16",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Productivity",
+ "tag": "New app",
+ "head": "Sendya: send files between PC and phone without an account",
+ "dek": "Sendya sends files, folders, photos and notes between your own Android, iPhone, Windows, Mac and Linux devices with no account, email or password. Transfers on the same network are unlimited, and the free plan allows 10 GB a month through its server.",
+ "details": "On the same Wi-Fi files go straight from device to device; elsewhere they pass through Sendya's server, encrypted end to end, the site says. Paid plans: Plus €9.99 a year for 150 GB a month, Pro €2.99 a month for 600 GB, Max from €9.99 a month with 3 or 20 TB. It's made by a solo developer.",
+ "where": "Android, iPhone, Windows, Mac and Linux; free plan, paid plans from €9.99 a year",
+ "means": "If you still email files to yourself to get them from your phone to your computer, Sendya does it without signing up for anything.",
+ "todo": "Install Sendya on two of your devices from sendya.app and send a test file; same-network transfers don't count toward the monthly limit.",
+ "apps": [
+  "Sendya"
+ ],
+ "sources": [
+  {
+   "name": "Sendya",
+   "url": "https://sendya.app/"
+  }
+ ],
+ "item": 114795,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "SENDYA: FILES PC TO PHONE, NO ACCOUNT"
+}

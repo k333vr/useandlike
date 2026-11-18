@@ -1,0 +1,23 @@
+{
+ "slug": "lightscroll-screen-time-limits-app",
+ "date": "2026-11-16",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Productivity",
+ "tag": "Quick",
+ "quick": true,
+ "head": "LightScroll limits distracting apps and websites on iPhone",
+ "dek": "LightScroll sets daily or per-session limits and adds a wait, a minigame or a friend's unlock code before a blocked app opens. Free on iOS 26 or later, with some features in LightScroll Plus.",
+ "apps": [
+  "LightScroll"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/lightscroll-limit-screen-time/id6763098515"
+  }
+ ],
+ "item": 111199,
+ "idea": "news",
+ "traction": 0
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "flintnotes-meeting-notes-apple",
+ "date": "2026-11-16",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Productivity",
+ "tag": "Quick",
+ "quick": true,
+ "head": "FlintNotes transcribes meetings on your Mac, iPhone and iPad",
+ "dek": "FlintNotes records meetings and writes transcripts, decisions and action items on the device, saving them as ordinary files in a folder you choose; it also has voice notes and 15 AI summary styles.",
+ "apps": [
+  "FlintNotes"
+ ],
+ "item": 113724,
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/flintnotes"
+  }
+ ]
+}

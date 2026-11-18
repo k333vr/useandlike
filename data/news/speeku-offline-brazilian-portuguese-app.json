@@ -1,0 +1,31 @@
+{
+ "slug": "speeku-offline-brazilian-portuguese-app",
+ "date": "2026-11-16",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Education",
+ "tag": "New app",
+ "head": "Speeku: offline Brazilian Portuguese course app with no subscription",
+ "dek": "Speeku: Brazilian Portuguese is a new course app for iPhone and Android whose lessons, dictionary and speaking checks all run on the phone, with no internet needed. The first ten lessons are free and one in-app purchase unlocks the rest for good.",
+ "details": "It has more than 1,500 short lessons from beginner (A1) to intermediate (B1), over 16,000 exercises, an 8,000-entry dictionary, flashcards and more than 70 culture lessons. Four more lessons unlock free each week. The speaking check tells you which word it heard but doesn't grade pronunciation, and nothing is recorded or uploaded, the listing says. It's made by Data Stand AI GmbH; there's also a separate European Portuguese app.",
+ "where": "App Store (iOS 16.4 or later) and Google Play",
+ "means": "If you want to learn Brazilian Portuguese on a plane or without a monthly fee, this course works offline and is paid once.",
+ "todo": "Try the free lessons first, then decide on the one-time unlock; pick the Brazilian app, not the European one, if that's the Portuguese you need.",
+ "apps": [
+  "Speeku"
+ ],
+ "item": 116102,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "SPEEKU: PORTUGUESE OFFLINE",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/speeku-brazilian-portuguese/id6833935974"
+  },
+  {
+   "name": "Speeku",
+   "url": "https://speeku.com"
+  }
+ ]
+}

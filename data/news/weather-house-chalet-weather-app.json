@@ -1,0 +1,27 @@
+{
+ "slug": "weather-house-chalet-weather-app",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Weather",
+ "tag": "New app",
+ "head": "The Weather House: weather app with a wooden chalet for iPhone and Mac",
+ "dek": "The Weather House shows your local weather under an illustrated wooden chalet, with figures that step out as the air gets drier or more humid, for $3.99 on iPhone, iPad and Mac. It was #26 among paid Weather apps on the US App Store on 17 November.",
+ "details": "Under the house it shows temperature, humidity and wind speed; a tap opens hourly and five-day forecasts. The figures follow humidity and don't predict rain on their own, the listing says. You can use an animated sky or your own photos as the background, and switch between Celsius and Fahrenheit. It's made by Edwin George van Zeeland, needs iOS 17 or macOS 14 or later, and works with Family Sharing.",
+ "where": "App Store, iPhone, iPad and Mac, $3.99",
+ "means": "If you like a weather app that looks like a little ornament on your screen, this one costs once instead of a subscription.",
+ "todo": "Find The Weather House on the App Store; it needs location access and an internet connection for local weather.",
+ "apps": [
+  "The Weather House"
+ ],
+ "item": 122267,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "A WEATHER HOUSE ON YOUR IPHONE",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/the-weather-house/id6827988367"
+  }
+ ]
+}

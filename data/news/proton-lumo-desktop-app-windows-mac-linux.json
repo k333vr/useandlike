@@ -1,0 +1,32 @@
+{
+ "slug": "proton-lumo-desktop-app-windows-mac-linux",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "AI",
+ "tag": "New app",
+ "head": "Proton Lumo desktop app for Windows, Mac and Linux can work with your files",
+ "dek": "Proton's AI assistant Lumo now has a desktop app for Windows, Mac and Linux that can use your local files, connected apps and scheduled tasks. For each connection you decide whether Lumo acts by itself, asks first or is blocked.",
+ "details": "Connectors include file access, running commands, fetching web pages, Proton's email app, Dropbox, Jira and Confluence. Proton says Connectors and Schedules are only in the desktop app for now. You can start with a free Proton account; paid plans add features and higher limits. Proton says it keeps no server-side logs and doesn't use conversations to train AI models or for ads.",
+ "where": "Windows, Mac and Linux, out now; free Proton account to start",
+ "means": "If you want an AI helper that can sort files or run tasks on your computer but worry about privacy, Lumo lets you choose exactly what it may touch.",
+ "todo": "Download Lumo from Proton's Lumo download page, sign in with a Proton account, and set each connector to \"needs approval\" until you trust it.",
+ "apps": [
+  "Lumo",
+  "Proton"
+ ],
+ "sources": [
+  {
+   "name": "Proton",
+   "url": "https://proton.me/lumo/download"
+  },
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/"
+  }
+ ],
+ "item": 119249,
+ "idea": "news",
+ "traction": 15,
+ "thumb_words": "PROTON LUMO AI COMES TO DESKTOP"
+}

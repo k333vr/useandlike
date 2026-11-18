@@ -1,0 +1,27 @@
+{
+ "slug": "pixel-camera-not-working-android-17-update",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Android",
+ "tag": "Heads-up",
+ "head": "Pixel camera not working after Android 17 November update",
+ "dek": "Some Pixel 11 Pro and Pixel 11 Pro XL owners report a black camera screen or a Camera app that won't open after Google's November update, Android 17 QPR2. Google hasn't confirmed the problem or released a fix.",
+ "details": "One Pixel 11 Pro XL owner saw the message \"Something went wrong. Close and open the Camera app again.\" Other owners report a missing Desktop Mode icon, Alt + Tab not working, a Pixel 9 Pro Fold whose main screen stays dark after unfolding, and a Pixel 10 Pro whose lock screen can't be changed. The update is rolling out in stages. The reports come from Google's community forum and Reddit.",
+ "where": "Pixel phones on Android 17 QPR2, November 2026; mostly Pixel 11 Pro and 11 Pro XL",
+ "means": "If your Pixel hasn't installed the November update yet and you rely on its camera, you may want to wait for a fix.",
+ "todo": "If the camera stops working, turn the phone off, wait one to two minutes and turn it back on: a Google forum moderator suggested this, and it brought the camera back for at least one owner.",
+ "apps": [
+  "Pixel"
+ ],
+ "item": 114948,
+ "idea": "news",
+ "traction": 18,
+ "thumb_words": "PIXEL CAMERA BROKEN AFTER UPDATE",
+ "sources": [
+  {
+   "name": "Android Police",
+   "url": "https://www.androidpolice.com/android-17-november-update-leaving-pixel-cameras-completely-unusable/"
+  }
+ ]
+}

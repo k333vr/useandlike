@@ -1,0 +1,29 @@
+{
+ "slug": "samsung-caller-device-check-spoofed-calls",
+ "date": "2026-11-16",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Security",
+ "tag": "In testing",
+ "rumor": true,
+ "head": "Samsung Phone app may warn about spoofed calls from your contacts",
+ "dek": "Code in Samsung's Phone app points to a Caller device check that would warn you when a call showing a saved contact's name may not come from that person's phone, Android Authority found. Samsung hasn't announced it, and it may not ship.",
+ "details": "The check would send a hidden RCS message of up to 48 bytes to the contact's device to confirm the call is real; if it can't, you'd get a notice that the call may be harmful. Contact details and call content aren't sent to a server, according to the code, but both phones need an active RCS connection. It only covers saved contacts, not unknown numbers. Google added a similar check to Pixel phones in June 2026 and said it would bring it to other devices.",
+ "where": "Samsung Galaxy phones, possibly with One UI 9.5; found in work-in-progress code, not confirmed",
+ "means": "Scammers sometimes fake a family member's number. If this ships, your Galaxy could flag those calls before you trust them.",
+ "todo": "Nothing to change yet. Until then, if a call from a family member asks for money or codes, hang up and call them back on their usual number.",
+ "apps": [
+  "Samsung Phone",
+  "Galaxy"
+ ],
+ "item": 108619,
+ "idea": "news",
+ "traction": 23,
+ "thumb_words": "SAMSUNG TO FLAG FAKE CONTACT CALLS?",
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-one-ui-phone-fake-call-scam-3735478/"
+  }
+ ]
+}

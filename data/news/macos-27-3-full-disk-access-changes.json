@@ -1,0 +1,31 @@
+{
+ "slug": "macos-27-3-full-disk-access-changes",
+ "date": "2026-11-16",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Privacy",
+ "tag": "Privacy",
+ "head": "macOS full disk access changes in 27.3: pick folders, not the whole Mac",
+ "dek": "The macOS 27.3 beta lets you give an app access to chosen folders instead of your whole Mac, and shows a clearer warning before full access. Apple says it's tightening these controls as AI agents get more capable.",
+ "details": "The old Device Control and Data Access setting splits into Accessibility and System & App Protection Override, where you can choose which apps a tool may control, for example Mail but not Messages. Apps can be set to ask every time, and an indicator shows when one app is controlling another. Permissions you already gave stay in place. Apple hasn't given a release date for macOS 27.3.",
+ "where": "macOS 27.3, in beta 2 since 16 November",
+ "means": "If you use AI apps or automation tools on a Mac, you'll see more detailed prompts and can limit what each one reaches.",
+ "todo": "Nothing to do yet. Once 27.3 is out, grant new apps only the folders they need when the prompt appears.",
+ "apps": [
+  "macOS"
+ ],
+ "item": 110928,
+ "idea": "news",
+ "traction": 29,
+ "thumb_words": "MACOS LIMITS WHAT AI APPS CAN SEE",
+ "sources": [
+  {
+   "name": "Apple Developer",
+   "url": "https://developer.apple.com/news/?id=oqng0zjk"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/16/macos-27-3-includes-new-privacy-controls-for-full-disk-access-and-more/"
+  }
+ ]
+}

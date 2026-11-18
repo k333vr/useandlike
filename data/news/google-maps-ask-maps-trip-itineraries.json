@@ -18,6 +18,9 @@
  "idea": "news",
  "traction": 23,
  "thumb_words": "GOOGLE MAPS NOW PLANS YOUR TRIP",
+ "items": [
+  109111
+ ],
  "sources": [
   {
    "name": "TechCrunch",
@@ -28,5 +31,6 @@
    "url": "https://www.droid-life.com/2026/11/16/google-maps-new-ask-maps-ai-features/"
   }
  ],
- "checked": "2026-11-17"
+ "checked": "2026-11-17",
+ "video": "dxA59gkxy3g"
 }

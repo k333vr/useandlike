@@ -1,0 +1,23 @@
+{
+ "slug": "gemini-skills-files-sharing",
+ "date": "2026-11-16",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "AI",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Gemini Skills can now use files and be shared as Gems retire",
+ "dek": "Gemini Skills can now draw on files of up to 100 MB from your device, Drive, Gemini Notebook or Google Photos, and you can share a skill with view or edit rights from Customize > Skills on the web. Both roll out over the coming weeks as Google starts shutting down Gems.",
+ "apps": [
+  "Gemini"
+ ],
+ "item": 112032,
+ "idea": "news",
+ "traction": 21,
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/16/gemini-skills-files-sharing/"
+  }
+ ]
+}

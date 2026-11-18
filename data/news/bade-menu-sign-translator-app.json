@@ -1,0 +1,28 @@
+{
+ "slug": "bade-menu-sign-translator-app",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Travel",
+ "tag": "New app",
+ "category": "Travel",
+ "head": "Menu translator app BADè reads menus and signs on your photo",
+ "dek": "BADè is a new $9.99 iPhone app for travelers that shows the translation of a menu, street sign or pharmacy label right on the photo you take. It was #83 in Travel on the US App Store's paid chart on 17 November, a day after it came out.",
+ "details": "For menus it shows each dish's original text, translation, how to say it, a plain explanation and the price, and points out allergens and warnings. You can also type or speak a phrase to hear it translated, save phrases in a phrasebook and show one full screen to someone. The maker says it detects more than 30 languages, including Japanese, Korean, Chinese and Arabic. It has no account, no in-app purchases and no tracking, and scans are kept on the phone.",
+ "where": "iPhone and iPad, $9.99 one-time on the App Store (out since 16 November)",
+ "means": "If you travel where you can't read the menu, this translates it on the photo and flags allergens, for a one-time price with no subscription.",
+ "todo": "Make sure the language of your next trip is covered before buying; the listing names some of them.",
+ "apps": [
+  "BADè"
+ ],
+ "item": 122253,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "BADÈ TRANSLATES MENUS ON PHOTOS",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/bad%C3%A8-translator-reader/id6818886404"
+  }
+ ]
+}

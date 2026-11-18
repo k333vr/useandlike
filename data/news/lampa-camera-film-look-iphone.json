@@ -1,0 +1,23 @@
+{
+ "slug": "lampa-camera-film-look-iphone",
+ "date": "2026-11-16",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Photo",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Lampa: iPhone camera app for a film look without AI edits",
+ "dek": "Lampa takes photos and video with minimal processing and film or digicam colour profiles, and can export RAW. Free for 5 shots a day; a subscription or lifetime purchase unlocks the rest.",
+ "apps": [
+  "Lampa"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/lampa-digital-film-camera/id6478854930"
+  }
+ ],
+ "item": 115621,
+ "idea": "newcomer",
+ "traction": 0
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "chatgpt-down-november-16-reports",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "AI",
+ "tag": "Quick",
+ "quick": true,
+ "head": "ChatGPT problems reported for hours on Monday evening",
+ "dek": "ChatGPT users reported the app not loading and failed file uploads from about 4 p.m. ET on Monday, 16 November, into the night, according to Downdetector reports. OpenAI's status page listed no incident at the time.",
+ "apps": [
+  "ChatGPT"
+ ],
+ "sources": [
+  {
+   "name": "IBTimes Australia",
+   "url": "https://www.ibtimes.com.au/openai-users-report-chatgpt-service-problems-1878735"
+  }
+ ],
+ "item": 114129,
+ "idea": "news",
+ "traction": 0
+}

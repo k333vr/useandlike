@@ -1,0 +1,31 @@
+{
+ "slug": "instagram-direct-messaging-app-test",
+ "date": "2026-11-16",
+ "added": "2026-11-18",
+ "checked": "2026-11-18",
+ "topic": "Messaging",
+ "tag": "New app",
+ "head": "Instagram Direct app: Meta tests chats without an Instagram account",
+ "dek": "Meta is testing Direct, a separate messaging app from Instagram, in Turkey and Thailand on Android and iPhone. You can sign up with an email address or phone number, with or without an Instagram account.",
+ "details": "If you already use Instagram, you log in with the same username and password and your chats sync between both apps. Without an Instagram account, only your contacts can message you or add you to groups, and you add people by their exact username or a QR code. The app has drawing in chats, Notes, custom stickers, voice effects and chat themes; parents can see who their teen messages and set daily limits. Meta hasn't said whether Direct will come to other countries.",
+ "where": "Turkey and Thailand only, Android and iPhone, test from 16 November 2026",
+ "means": "If you use Instagram mostly for messages, Meta is trying out an app for just that, but outside Turkey and Thailand nothing changes for now.",
+ "todo": "Nothing to do outside the two test countries; your Instagram messages stay in Instagram.",
+ "apps": [
+  "Instagram"
+ ],
+ "item": 113891,
+ "idea": "news",
+ "traction": 40,
+ "thumb_words": "INSTAGRAM TESTS DIRECT APP",
+ "sources": [
+  {
+   "name": "Meta Newsroom",
+   "url": "https://about.fb.com/news/2026/11/introducing-direct-an-app-just-for-messaging/"
+  },
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/17/meta-launches-direct-a-standalone-messaging-app-for-instagram/"
+  }
+ ]
+}

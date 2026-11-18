@@ -1,0 +1,27 @@
+{
+ "slug": "gemini-tasks-free-six-countries",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "Gemini Tasks now free: the AI agent no longer needs AI Pro",
+ "dek": "Tasks, the Gemini app's agent that carries out jobs for you, is free from 17 November in the US, Japan, Korea, Canada, Australia and India; before, it needed an AI Pro plan. It used to be called Spark.",
+ "details": "You pick Task instead of Chat next to the prompt box (above it on phones, below it on the web) and describe the job. Google's examples: finding why a utility bill is high and comparing products while applying a discount code. Gemini can use what's already in Google's services, such as email, calendar, saved passwords, photos, files and payment cards, asks when an instruction is unclear and asks you to confirm before it buys anything. Tasks run in an isolated virtual machine with protection against prompt injection, and web browsing goes through Google Safe Browsing.",
+ "where": "Gemini app on phones and the web; free in the US, Japan, Korea, Canada, Australia and India from 17 November",
+ "means": "If you live in one of the six countries, you can try Gemini's agent without paying for AI Pro. It can reach your Google data and payment cards, so it's worth knowing what you let it do.",
+ "todo": "Open the Gemini app, switch from Chat to Task and start with a small job. Read the confirmation carefully before you approve any purchase.",
+ "apps": [
+  "Gemini"
+ ],
+ "item": 118887,
+ "idea": "news",
+ "traction": 21,
+ "thumb_words": "GEMINI TASKS: NOW FREE",
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/17/gemini-tasks-free/"
+  }
+ ],
+ "checked": "2026-11-18"
+}

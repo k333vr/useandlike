@@ -1,0 +1,27 @@
+{
+ "slug": "dreadcast-radar-weather-app",
+ "date": "2026-11-17",
+ "added": "2026-11-18",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Dreadcast weather radar app puts storms and wildfires on one map",
+ "dek": "Dreadcast is a free weather app that starts with the radar map, with layers for satellite, wind, temperature, tropical storms, wildfires, earthquakes and volcanoes. It was #100 among free Weather apps on the US App Store on 17 November.",
+ "details": "It shows current conditions and forecasts for saved places, alerts for conditions you choose and illustrated map themes. Version 1.1.5 on 17 November added winter storm layers, official warnings for Canada and New Zealand, two hours of radar history for everyone and support for the iPhone Duo's displays. Dreadcast Pro costs 3.99 dollars a month or 29.99 dollars a year for more radar history, layers, themes and iCloud sync. It's made by Kevin Fleming, runs on iPhone, iPad and Mac, and says it isn't an emergency service.",
+ "where": "iPhone, iPad and Mac; free, Pro optional; out since 6 November",
+ "means": "If you watch storms or wildfire smoke closely, this puts the radar and those events on one map without paying.",
+ "todo": "During dangerous weather, follow official warnings first; the app itself says it isn't an emergency service.",
+ "apps": [
+  "Dreadcast"
+ ],
+ "item": 122266,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "DREADCAST: STORMS ON ONE MAP",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/dreadcast-radar-and-weather/id6821114339"
+  }
+ ],
+ "checked": "2026-11-18"
+}
