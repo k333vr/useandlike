@@ -4138,5 +4138,36 @@
   "group": "Voice & Audio",
   "source": "own program (fish.audio), Kevin 18 Nov",
   "added": "2026-11-18"
+ },
+ "instarem": {
+  "name": "Instarem",
+  "group": "Money & Trading",
+  "source": "Partnerize",
+  "added": "2026-11-18",
+  "pays": "Partnerize: $10 per first transfer"
+ },
+ "fsecure": {
+  "name": "F-Secure",
+  "group": "VPN & Privacy",
+  "source": "Partnerize",
+  "added": "2026-11-18"
+ },
+ "sophos": {
+  "name": "Sophos Home & HitmanPro",
+  "group": "VPN & Privacy",
+  "source": "Partnerize",
+  "added": "2026-11-18"
+ },
+ "vipre": {
+  "name": "VIPRE",
+  "group": "VPN & Privacy",
+  "source": "Partnerize",
+  "added": "2026-11-18"
+ },
+ "corel": {
+  "name": "Corel (CorelDRAW, Roxio, Pinnacle)",
+  "group": "Productivity & Design",
+  "source": "Partnerize",
+  "added": "2026-11-18"
  }
 }
