@@ -1,0 +1,31 @@
+{
+ "slug": "invitejam-online-invitations-rsvp",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Productivity",
+ "tag": "New app",
+ "head": "InviteJam: free online invitations with RSVP tracking",
+ "dek": "InviteJam is a new website for making digital invitations from more than 300 designs and tracking who's coming. Guests reply through a link without an app or an account.",
+ "details": "You can also upload your own design. You can add questions for meal choices, dietary needs and plus-ones, and a dashboard shows a live count of yes, no and maybe replies plus who hasn't answered. Editing an invitation updates it at the same link. The free plan covers up to 3 events with 15 guests each and shows a small InviteJam banner; an event pass or a Pro plan removes it, raises the guest limit and adds reminders, but the site's main page doesn't list their prices.",
+ "where": "Web, out now; free plan available",
+ "means": "If you're planning a birthday or a wedding, this keeps invites and replies in one place, and guests don't have to sign up for anything. Bigger guest lists need a paid plan.",
+ "todo": "Try the free plan for a small party first and check the paid prices on the site before a big event.",
+ "apps": [
+  "InviteJam"
+ ],
+ "sources": [
+  {
+   "name": "InviteJam",
+   "url": "https://invitejam.com/"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/invitejam"
+  }
+ ],
+ "item": 125791,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "INVITEJAM: INVITES AND RSVPS"
+}

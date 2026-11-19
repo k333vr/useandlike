@@ -2,13 +2,13 @@
  "slug": "samsung-tap-to-share-one-ui-9-5-leak",
  "date": "2026-11-17",
  "added": "2026-11-18",
- "checked": "2026-11-18",
+ "checked": "2026-11-19",
+ "updated": "2026-11-19",
  "topic": "Samsung",
  "tag": "Quick",
  "quick": true,
- "rumor": true,
- "head": "Leak: Samsung's Tap to Share may wait for One UI 9.5",
- "dek": "Tap to Share, which sends files by touching two phones together, shows up in Samsung's Quick Share app only on phones made to look like they run the unreleased One UI 9.5, according to the Telegram channel The Cipher Project. Samsung hasn't confirmed when Galaxy phones get it.",
+ "head": "Samsung's Tap to Share arrives in the One UI 9.5 beta for Galaxy S26",
+ "dek": "Tap to Share, which sends files by touching the backs of two unlocked phones, is in Quick Share in the One UI 9.5 beta for the Galaxy S26 series, which has reached users in six countries, Android Headlines reports; both phones need NFC, Bluetooth and Wi-Fi on. Samsung hasn't said when it comes to other phones.",
  "apps": [
   "Quick Share"
  ],
@@ -16,9 +16,17 @@
   {
    "name": "Android Authority",
    "url": "https://www.androidauthority.com/samsung-one-ui-9-5-quick-share-tap-to-share-leak-3735920/"
+  },
+  {
+   "name": "Android Headlines",
+   "url": "https://www.androidheadlines.com/2026/11/galaxy-s26-gets-airdrop-like-tap-to-share-one-ui-9-5.html"
   }
  ],
  "item": 115418,
+ "items": [
+  127606,
+  116980
+ ],
  "idea": "news",
  "traction": 0
 }

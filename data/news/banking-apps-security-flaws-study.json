@@ -1,0 +1,28 @@
+{
+ "slug": "banking-apps-security-flaws-study",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "Banking app security issues: half of 2,686 apps had serious flaws",
+ "dek": "Security firm Ostorlab tested 2,686 mobile banking apps from 487 banks in 64 countries and found that 51.5% had at least one high or critical security problem. Its scanner got past the fingerprint or face login in 35.1% of the Android apps.",
+ "details": "About one in five apps (20.3%) contained private keys, cloud passwords or access tokens inside the app. Only 4.9% supported passkeys, and 99.5% of the Android apps still run on Android versions that no longer get security updates. Ostorlab says a finding shows a problem is there, not that it can be used in a real attack, and the report names no banks.",
+ "where": "Android, iPhone and HarmonyOS banking apps worldwide",
+ "means": "If you bank on your phone, your bank's app may be less protected than you assume, and an old phone that no longer gets updates adds to the risk.",
+ "todo": "Keep your phone's system and your bank app updated. If your bank offers passkeys, turn them on.",
+ "apps": [
+  "Android",
+  "iPhone"
+ ],
+ "item": 127920,
+ "idea": "news",
+ "traction": 0,
+ "thumb_words": "HALF OF BANKING APPS HAVE FLAWS",
+ "sources": [
+  {
+   "name": "TechRadar",
+   "url": "https://www.techradar.com/pro/security/over-half-of-android-and-ios-banking-apps-have-serious-security-flaws-2-686-apps-across-top-global-banks-expose-bypassable-biometric-logins-and-hardcoded-secret-keys"
+  }
+ ]
+}

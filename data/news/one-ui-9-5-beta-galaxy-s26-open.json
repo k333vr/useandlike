@@ -1,0 +1,23 @@
+{
+ "slug": "one-ui-9-5-beta-galaxy-s26-open",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Samsung",
+ "tag": "Quick",
+ "quick": true,
+ "head": "One UI 9.5 beta opens for Galaxy S26 owners",
+ "dek": "Samsung's One UI 9.5 beta is open from 18 November for the Galaxy S26 series in the US, UK, Germany, India, Korea and Poland, through the Samsung Members app. It brings finer Pro camera controls, an App Lock and medication reminders in Samsung Health.",
+ "apps": [
+  "One UI"
+ ],
+ "sources": [
+  {
+   "name": "Samsung Newsroom",
+   "url": "https://news.samsung.com/global/samsung-begins-one-ui-9-5-beta-program"
+  }
+ ],
+ "item": 124874,
+ "idea": "news",
+ "traction": 23
+}

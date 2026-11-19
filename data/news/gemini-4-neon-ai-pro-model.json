@@ -1,0 +1,27 @@
+{
+ "slug": "gemini-4-neon-ai-pro-model",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "Gemini 4 Neon: new model in the Gemini app for AI Pro and Ultra",
+ "dek": "Gemini 4 Neon is rolling out from 18 November in the Gemini app for AI Pro and AI Ultra subscribers, where it shows up as Deeper analysis in the model picker. It takes the place of Gemini 4 Argon, and Gemini 3.1 Pro is going away.",
+ "details": "Google places Neon between Hydrogen, the everyday model, and Carbon, the one for the most complex work, and says it performs about as well as Carbon on coding, reasoning and agent tasks at the speed of a Flash model. The picker now reads Auto, Everyday help (Hydrogen), Deeper analysis (Neon) and Code & complex work (Carbon); for paid users, Gemini 3.5 Flash-Lite becomes Auto. Neon has a context window of 1 million tokens and four thinking levels, from Low to Extra High. It's also in Google Antigravity for paid AI Pro and Ultra subscribers.",
+ "where": "Gemini app, AI Pro and AI Ultra subscribers, rolling out from 18 November",
+ "means": "If you pay for AI Pro or Ultra, the model you used for harder questions changes: Deeper analysis now means Neon instead of Argon. On the free plan nothing changes for now.",
+ "todo": "Open the model picker in the Gemini app and pick Deeper analysis when you want Neon; leave it on Auto if you don't want to choose each time.",
+ "apps": [
+  "Gemini"
+ ],
+ "item": 128371,
+ "idea": "news",
+ "traction": 28,
+ "thumb_words": "GEMINI 4 NEON REPLACES ARGON",
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/18/gemini-4-neon-announcement/"
+  }
+ ]
+}

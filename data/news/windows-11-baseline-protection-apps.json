@@ -1,0 +1,23 @@
+{
+ "slug": "windows-11-baseline-protection-apps",
+ "date": "2026-11-17",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Windows",
+ "tag": "Quick",
+ "head": "Windows 11 tests a security check that apps can use to block PCs",
+ "dek": "Windows baseline protection, in preview for Insiders, rolls eight security features such as Secure Boot and Memory Integrity into one pass-or-fail signal; Adobe, Battle.net, 1Password and Schoolyear are testing it, and none has said it will block PCs that fail.",
+ "quick": true,
+ "apps": [
+  "Windows 11"
+ ],
+ "sources": [
+  {
+   "name": "Windows Latest",
+   "url": "https://www.windowslatest.com/2026/11/18/apps-could-soon-refuse-to-run-on-your-windows-11-pc-if-it-fails-microsofts-new-security-check-and-adobe-and-battle-net-are-already-on-board/"
+  }
+ ],
+ "item": 122734,
+ "idea": "news",
+ "traction": 23
+}

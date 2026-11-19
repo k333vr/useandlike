@@ -1,0 +1,31 @@
+{
+ "slug": "avos-news-ai-morning-email-brief",
+ "date": "2026-11-17",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "AI",
+ "tag": "New app",
+ "head": "Avos News: AI news brief by email from the sources you pick",
+ "dek": "Avos reads the feeds, YouTube channels and X accounts you choose overnight and sends one email with the news at the time you set. Each story shows up once, even if several of your sources cover it.",
+ "details": "It has a free plan with ads; paid plans add more credits, no ads and more settings. Briefs can be daily or weekly and written in about 50 languages. Avos is made by Alburn Technologies in the EU and says it doesn't sell personal data and may make mistakes.",
+ "where": "Web and email, free plan with ads",
+ "means": "If you follow many news sites and channels, you could get them in one morning email instead of checking each one.",
+ "todo": "Try the free plan with a few sources and check the summaries against the original stories.",
+ "apps": [
+  "Avos"
+ ],
+ "item": 122991,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "AVOS: YOUR NEWS IN ONE EMAIL",
+ "sources": [
+  {
+   "name": "Avos",
+   "url": "https://avos.news/"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/avos-news"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "slug": "mcdonalds-discord-order-uber-eats",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Food",
+ "tag": "New feature",
+ "head": "McDonald's Discord order: get McDelivery through Uber Eats in chat",
+ "dek": "McDonald's added an Order McDonald's activity to Discord that lets you order McDelivery through Uber Eats in a server, channel or direct message, without leaving the chat or your game. It was announced on 18 November.",
+ "details": "You start it from Discord's Apps and Activities menu and pick Order Food. The same activity has a mini-game, Fast Lane Feast, where you collect virtual burgers and fries for a leaderboard while you wait. The report doesn't say which countries or devices it works in or whether there are discounts.",
+ "where": "Discord, from 18 November; countries not stated",
+ "means": "If you game with friends on Discord, you can order food in the same window instead of switching to the Uber Eats app.",
+ "todo": "In a server, channel or DM, open Apps and Activities, start Order McDonald's and pick Order Food. Check that delivery works where you live before you count on it.",
+ "apps": [
+  "Discord",
+  "McDonald's",
+  "Uber Eats"
+ ],
+ "sources": [
+  {
+   "name": "Dexerto",
+   "url": "https://www.dexerto.com/food/you-can-now-order-mcdonalds-through-discord-just-in-time-for-gta-6-3429402/"
+  }
+ ],
+ "item": 126803,
+ "idea": "news",
+ "traction": 23,
+ "thumb_words": "ORDER MCDONALD'S INSIDE DISCORD"
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "sweetgreen-order-chatgpt-claude",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "AI",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Sweetgreen orders now work inside ChatGPT and Claude",
+ "dek": "Sweetgreen's app in ChatGPT and Claude suggests meals with prices and nutrition facts from what you describe, and adds them to your cart; you pay in the Sweetgreen app or on its website. Turn it on by searching for Sweetgreen in the chatbot's app directory.",
+ "apps": [
+  "Sweetgreen",
+  "ChatGPT",
+  "Claude"
+ ],
+ "sources": [
+  {
+   "name": "NBC Bay Area",
+   "url": "https://www.nbcbayarea.com/news/national-international/order-lunch-sweegreen-chatgpt-claude/4178195/"
+  }
+ ],
+ "item": 128323,
+ "idea": "news",
+ "traction": 0
+}

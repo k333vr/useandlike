@@ -1,0 +1,27 @@
+{
+ "slug": "duodometer-iphone-duo-battery-cells",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "iPhone Duo battery: Duodometer estimates each of the two cells",
+ "dek": "Duodometer is a $0.99 app made for the iPhone Duo's two batteries: next to the combined charge it estimates how full the main and cover cells are. It was #92 among paid Utilities apps on the US App Store on 18 November.",
+ "details": "iOS only reports one battery level, so the app splits it by each cell's rated size: 2,962 mAh in the main half and 1,921 mAh in the cover, 4,883 mAh in all; every per-cell figure is labelled an estimate. It also shows drain and charge speed per hour, a level history chart, Low Power Mode and heat state. Version 1.1 added background refresh. The developer, Colin Morgan, says it collects no data and makes no network connections. It needs iOS 27.",
+ "where": "iPhone Duo, iOS 27 or later, $0.99 (US price)",
+ "means": "If you own an iPhone Duo and wonder how the charge splits between its two halves, this gives an estimate, not a measurement.",
+ "todo": "For the real health of the cells, use Settings, then Battery Health, which the app itself points to.",
+ "apps": [
+  "Duodometer"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/duodometer/id6833699309"
+  }
+ ],
+ "item": 129424,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "IPHONE DUO: BATTERY PER HALF"
+}

@@ -1,0 +1,28 @@
+{
+ "slug": "wandrer-ios-app-garmin-edge",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Travel",
+ "tag": "New app",
+ "head": "Wandrer iOS app is out, plus a Garmin Edge app and new routing",
+ "dek": "Wandrer, which tracks the new roads you ride, run or walk, has launched its iPhone app, which records activities and shows your new-road progress live. A Garmin Edge app and two new route planners came with it.",
+ "details": "The Garmin app and data field load your Wandrer map from the cloud and count new roads during a ride, with an Arcade Mode for collecting roads you haven't been on. Point-to-point routing plans an A-to-B route through untravelled roads within the extra distance you allow; another tool plans a route over every road inside a shape you draw. An Android app and destination routing are coming soon. The report doesn't give prices.",
+ "where": "iPhone now; Garmin Edge bike computers; Android coming soon",
+ "means": "If you like exploring roads you've never been on by bike or on foot, you can now track them live on your iPhone and on a Garmin Edge.",
+ "todo": "iPhone users can get the app now. Android users wait for the coming app.",
+ "apps": [
+  "Wandrer",
+  "Garmin"
+ ],
+ "item": 125197,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "WANDRER LAUNCHES IPHONE APP",
+ "sources": [
+  {
+   "name": "BikeBiz",
+   "url": "https://bikebiz.com/wandrer-launches-ios-app-and-garmin-edge-integration-alongside-new-routing-tools/"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "google-home-gemini-live-faster-premium",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Google",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Gemini Live on Google Home speakers is getting faster, for Premium users",
+ "dek": "Google says Gemini Live on its speakers and smart displays moves to a faster speech-to-speech system soon and will let you set timers or control devices without ending the chat; it needs Google Home Premium, from 10 dollars a month, or Google AI Pro.",
+ "apps": [
+  "Google Home",
+  "Gemini"
+ ],
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/18/google-home-gemini-live-update-coming/"
+  }
+ ],
+ "item": 125299,
+ "idea": "news",
+ "traction": 0
+}

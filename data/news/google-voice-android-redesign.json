@@ -1,0 +1,23 @@
+{
+ "slug": "google-voice-android-redesign",
+ "date": "2026-11-17",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Google Voice gets a redesign on Android that looks like Google Messages",
+ "dek": "The US-only Google Voice app is rolling out a new look on Android with a rounded search bar, bolder fonts and a message box like Google Messages; an SMS label on the send button hints at RCS support, which Google hasn't announced.",
+ "apps": [
+  "Google Voice"
+ ],
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/17/google-voice-redesign-rcs-coming/"
+  }
+ ],
+ "item": 118232,
+ "idea": "news",
+ "traction": 0
+}

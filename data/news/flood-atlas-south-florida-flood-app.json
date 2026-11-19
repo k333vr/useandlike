@@ -1,0 +1,27 @@
+{
+ "slug": "flood-atlas-south-florida-flood-app",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Weather",
+ "tag": "New app",
+ "head": "Flood Atlas: free South Florida flood map app with alerts and routes",
+ "dek": "Flood Atlas is a free iPhone app that puts National Weather Service flood alerts, NOAA tide and river gauges and neighbours' flooded-street reports for South Florida on one map. It was #39 among free Weather apps on the US App Store on 18 November.",
+ "details": "It covers Palm Beach, Broward and Miami-Dade counties and the Florida Keys. It can plan driving or walking routes around reported flooding and closures, look up an address's FEMA flood zone and ground elevation, and list shelters; reports can be posted anonymously with the photo's location removed. The app, from RADOSOFT LLC, says it isn't an emergency service and that no route is guaranteed passable. An account is only needed for confirming reports and alerts for saved places.",
+ "where": "South Florida, iPhone and iPad (iOS 16.4 or later), free",
+ "means": "If you live or drive in South Florida, you can check warnings, water levels and street reports in one place before heading out.",
+ "todo": "Keep your phone's Wireless Emergency Alerts on and follow local officials; never drive or walk into floodwater, whatever a route says.",
+ "apps": [
+  "Flood Atlas"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/flood-atlas/id6823785414"
+  }
+ ],
+ "item": 129440,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "SOUTH FLORIDA FLOOD MAP APP"
+}

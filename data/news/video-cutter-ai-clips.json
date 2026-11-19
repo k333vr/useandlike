@@ -1,0 +1,27 @@
+{
+ "slug": "video-cutter-ai-clips",
+ "date": "2026-11-17",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Video",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Video Cutter AI turns long videos into captioned short clips",
+ "dek": "The new web tool Video Cutter AI picks highlights from a long video or a YouTube link, reframes them to vertical and adds captions for TikTok, Shorts and Reels. You can start with free clips; its page doesn't list plan prices.",
+ "apps": [
+  "Video Cutter AI"
+ ],
+ "sources": [
+  {
+   "name": "Video Cutter AI",
+   "url": "https://video-cutter.ai/"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/video-cutter-ai"
+  }
+ ],
+ "item": 116853,
+ "idea": "newcomer",
+ "traction": 0
+}

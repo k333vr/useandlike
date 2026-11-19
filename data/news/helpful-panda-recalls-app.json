@@ -1,0 +1,27 @@
+{
+ "slug": "helpful-panda-recalls-app",
+ "date": "2026-11-13",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Shopping",
+ "tag": "New app",
+ "head": "Recall app for iPhone checks food, pet and product recalls by barcode",
+ "dek": "Helpful Panda Recalls, out since 13 November, gathers US recall notices for food, pet products and household goods from the FDA, the USDA's food safety service and the Consumer Product Safety Commission. It costs 1.99 dollars and was #74 among paid Reference apps on the US App Store on 19 November.",
+ "details": "You can search by product name, scan a barcode to compare it with the recall records, or enter a ZIP code to see notices that may matter nearby; the listing says the ZIP results are approximate. It needs no account, and the maker says it's independent of the agencies. The listing also warns that a scan with no match doesn't prove a product is safe.",
+ "where": "iPhone and iPad, US recalls, 1.99 dollars",
+ "means": "If you want to check whether something in your fridge or your pet's food has been recalled, this app looks it up across three US agencies at once.",
+ "todo": "Search for Helpful Panda Recalls in the App Store. A product with no match isn't proof that it's safe, so still follow official recall notices.",
+ "apps": [
+  "Helpful Panda Recalls"
+ ],
+ "item": 129446,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "NEW APP CHECKS PRODUCT RECALLS",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/helpful-panda-recalls/id6831961661"
+  }
+ ]
+}

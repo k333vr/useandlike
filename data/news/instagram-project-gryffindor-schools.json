@@ -1,0 +1,23 @@
+{
+ "slug": "instagram-project-gryffindor-schools",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Social",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Meta's \"Project Gryffindor\" used schools to grow teen Instagram use",
+ "dek": "Internal Meta documents from a US lawsuit, reported by NPR, show a plan to bring more teens to Instagram through school banners, a student directory and its school partnership program, which nearly 17,000 schools had joined by September. Meta says the story mischaracterizes a program that helps schools protect students.",
+ "apps": [
+  "Instagram"
+ ],
+ "item": 124906,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "NPR (via WCSU)",
+   "url": "https://www.wcsufm.org/latest-from-npr/2026-11-18/project-gryffindor-metas-plan-to-get-more-school-kids-using-instagram"
+  }
+ ]
+}

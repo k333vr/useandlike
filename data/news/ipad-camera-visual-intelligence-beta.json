@@ -1,0 +1,24 @@
+{
+ "slug": "ipad-camera-visual-intelligence-beta",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Apple",
+ "tag": "Quick",
+ "quick": true,
+ "head": "iPad Camera app gets the Siri mode for Visual Intelligence in the 27.3 beta",
+ "dek": "In Apple's second iPadOS 27.3 developer beta, the Camera app has the Siri mode the iPhone got with iOS 27: Siri describes the scene, and you can circle things with a finger or Apple Pencil to search for them. Apple hasn't given a release date.",
+ "apps": [
+  "Camera",
+  "Siri"
+ ],
+ "sources": [
+  {
+   "name": "MacStories",
+   "url": "https://www.macstories.net/news/visual-intelligence-is-coming-to-the-ipads-camera-app/"
+  }
+ ],
+ "item": 127594,
+ "idea": "news",
+ "traction": 0
+}

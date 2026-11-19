@@ -1,0 +1,24 @@
+{
+ "slug": "youtube-music-gemini-ask-music-button",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Music",
+ "tag": "Quick",
+ "quick": true,
+ "head": "YouTube Music adds a Gemini button for Ask Music on almost every screen",
+ "dek": "A Gemini icon at the top right of YouTube Music on Android and iPhone now opens Ask Music, which builds mixes and playlists and answers questions about your listening. It needs YouTube Premium or Music Premium and is reaching more phones through a server-side rollout.",
+ "apps": [
+  "YouTube Music",
+  "Gemini"
+ ],
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/18/youtube-music-ask-gemini-2/"
+  }
+ ],
+ "item": 126984,
+ "idea": "news",
+ "traction": 42
+}

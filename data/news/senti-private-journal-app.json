@@ -1,0 +1,27 @@
+{
+ "slug": "senti-private-journal-app",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Senti private journal app for iPhone keeps entries on your phone",
+ "dek": "Senti is a new journal for iPhone and iPad where you type, speak or add photos, with no account, no ads and no subscription. It was #78 among paid Lifestyle apps on the US App Store on 18 November.",
+ "details": "It costs $4.99 once until 25 November, then $9.99, made by Marcellot Digital Marketing LLC. Entries are encrypted on the device, the app locks with Face ID, Touch ID or a PIN, and a separate vault has its own PIN. Voice typing, search by meaning and mood analysis run on the phone; iCloud sync is optional and off by default. It adds a daily question, letters to your future self and exports to PDF, text or JSON; an optional Claude plug-in works only with your own API key.",
+ "where": "iPhone and iPad (iOS 26 or later), App Store",
+ "means": "If you want a diary that doesn't send your writing anywhere and doesn't charge monthly, this is a one-time purchase.",
+ "todo": "Look it up on the App Store; the $4.99 price is listed until 25 November.",
+ "apps": [
+  "Senti: Private Journal"
+ ],
+ "item": 129429,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "SENTI: A JOURNAL THAT STAYS PRIVATE",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/senti-private-journal/id6825490942"
+  }
+ ],
+ "checked": "2026-11-19"
+}

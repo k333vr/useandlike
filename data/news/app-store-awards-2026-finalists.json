@@ -1,0 +1,33 @@
+{
+ "slug": "app-store-awards-2026-finalists",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Apple",
+ "tag": "Big news",
+ "head": "App Store Awards 2026 finalists: 45 apps and games picked by Apple",
+ "dek": "Apple named 45 finalists for its 2026 App Store Awards across iPhone, iPad, Mac, Apple Watch, Apple TV, Vision Pro and Apple Arcade, plus a Cultural Impact group. The iPhone App of the Year finalists are ElevenReader, (Not Boring) Camera and Raylie.",
+ "details": "ElevenReader reads text aloud in AI voices, (Not Boring) Camera turns the iPhone into an old-style camera you can adjust, and Raylie guides you through each flight. On Apple Watch the finalists are Bevel, Moonlitt and StressWatch; on Mac, Paste, Things 3 and Ulysses. Apple says the winners come in the coming weeks.",
+ "where": "Announced 18 November; winners in the coming weeks",
+ "means": "If you're looking for new apps to try, the list is a ready shortlist across Apple's devices.",
+ "todo": "Search the App Store for the finalists on your device; check each app's price and in-app purchases first.",
+ "apps": [
+  "ElevenReader",
+  "Raylie",
+  "Things 3"
+ ],
+ "item": 126819,
+ "idea": "news",
+ "traction": 18,
+ "thumb_words": "APPLE'S 45 APP OF THE YEAR FINALISTS",
+ "sources": [
+  {
+   "name": "Apple Newsroom",
+   "url": "https://www.apple.com/newsroom/2026/11/meet-the-2026-app-store-award-finalists/"
+  },
+  {
+   "name": "Pocket-lint",
+   "url": "https://www.pocket-lint.com/apple-app-store-award-finalists-2026/"
+  }
+ ]
+}

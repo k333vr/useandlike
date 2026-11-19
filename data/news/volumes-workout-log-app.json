@@ -1,0 +1,35 @@
+{
+ "slug": "volumes-workout-log-app",
+ "date": "2026-11-17",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Health",
+ "tag": "New app",
+ "head": "Volumes workout log app: track sets and progressive overload",
+ "dek": "Volumes is a new strength training log for iPhone, iPad and Apple Watch that records weight, reps and rest for each set and shows your last session next to it. It's free, with a one-time 2.99 dollar Pro unlock instead of a subscription.",
+ "details": "It has more than 300 exercises, ready-made programmes and custom routines with supersets, and tracks personal records and estimated one-rep max. The free version allows up to 5 routines, 1 folder and 5 custom exercises; Pro removes those limits and adds more statistics and widgets. It works with Apple Health and syncs through iCloud. It needs iOS, iPadOS or watchOS 26; Apple Intelligence is optional and only used for summaries. It's made by David White and came out on the App Store on 14 October.",
+ "where": "iPhone, iPad and Apple Watch (version 26 or later), App Store",
+ "means": "If you log your gym sessions and don't want another subscription, this one covers the basics free and costs 2.99 dollars once for the rest.",
+ "todo": "Try the free version first; it covers logging, rest timers and progress, and buy Pro only if you need more than 5 routines.",
+ "apps": [
+  "Volumes"
+ ],
+ "item": 122993,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "VOLUMES: GYM LOG, NO SUBSCRIPTION",
+ "sources": [
+  {
+   "name": "Volumes",
+   "url": "https://volumes.fit/"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/app/volumes/id6777389741"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/volumes"
+  }
+ ]
+}

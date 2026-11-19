@@ -1,0 +1,65 @@
+{
+ "slug": "phone-overheating-carplay-android-auto-explained",
+ "date": "2026-11-19",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Phones",
+ "tag": "Explainer",
+ "head": "Phone overheating with CarPlay or Android Auto: why and what helps",
+ "dek": "A phone running CarPlay or Android Auto often does several heavy jobs at once (navigation, music, mobile data and charging) in a warm car, and Apple and Google both say long navigation sessions, sunlight and hot cars make phones heat up, so a cable, a shaded spot and a lighter load usually help.",
+ "sections": [
+  {
+   "h": "Why the phone gets hot in the car",
+   "p": [
+    "With CarPlay or Android Auto, the phone does the work and the car's screen only shows it. The phone keeps GPS on, loads map data over mobile data, streams music and often charges, all at the same time. Gadget Hacks describes it as a stack of demanding tasks rather than one app at fault, and names navigation as the heaviest single job.",
+    "Apple's support page on hot and cold iPhones, published on 14 May 2026, tells owners to avoid extended GPS navigation in hot conditions, long periods in direct sunlight and hot cars. Google's Pixel help page lists extended use of navigation apps, streaming and heavy apps while charging among the things that can make a phone overheat, and also warns against leaving it in a hot vehicle."
+   ]
+  },
+  {
+   "h": "Wireless setups add heat",
+   "p": [
+    "A fully wireless setup, wireless CarPlay or Android Auto on a wireless charging pad, comes up again and again in owners' reports. Gadget Hacks points out that wireless charging is less efficient than a cable and loses more of its energy as heat, which matters most when the car is already warm.",
+    "Reports don't all agree. Some owners say a cable made things cooler, others saw warnings only when wired. Gadget Hacks also mentions a test of 12 wireless CarPlay and Android Auto adapters that measured surface temperatures from about 26 to 47 degrees Celsius, but it notes the test measured the adapters, not the phones, so it doesn't show that an adapter heats your phone."
+   ]
+  },
+  {
+   "h": "What your phone does when it's too hot",
+   "p": [
+    "Both systems protect themselves. Apple says a hot iPhone may slow or stop charging, including wireless charging, dim or turn off the screen, get a weaker mobile signal, turn off the camera flash and run apps more slowly. While you navigate, it can show \"Temperature: iPhone needs to cool down\" and switch the screen off; spoken turn-by-turn directions keep going and the screen lights up again before a turn.",
+    "Google says a hot Pixel lowers its processor speed and charging speed, may turn off the camera or flash, may partly or fully switch off mobile data or Wi-Fi, including 5G, and can go into low power mode. If it keeps getting hotter, it shows a warning and turns itself off to protect you and the phone.",
+    "Apple designs iPhones for use between 0 and 35 degrees Celsius (32 to 95 Fahrenheit) and says to store them between minus 20 and 45 degrees Celsius. It warns that a parked car can get hotter than that, and that very hot conditions can shorten battery life for good."
+   ]
+  },
+  {
+   "h": "What helps",
+   "p": [
+    "Where your car supports it, use a cable for both the connection and charging instead of a wireless pad. Keep the phone out of direct sun and off the dashboard; a mount in front of an air vent gives it airflow, but Gadget Hacks advises against blasting it with the coldest setting for hours.",
+    "Lighten the load: download maps and music before you leave, skip extra audio apps, and start the drive with a charged phone so it doesn't have to charge hard on the way. Google also suggests lowering screen brightness, using only cases made for your model and stopping heavy apps until the phone cools.",
+    "If a warning appears, pull over when it's safe, unplug the phone and let it cool somewhere shaded. On a Pixel 6 or later, Settings, Battery, Battery diagnostics and \"Phone is very warm\" shows how warm it is. If it overheats often outside the car too, Google says the causes are often the same as for fast battery drain."
+   ]
+  }
+ ],
+ "means": "If your phone gets hot or stops charging on drives, it's usually protecting itself from heat and workload, not broken; the setup in your car and where the phone sits make the biggest difference.",
+ "todo": "Try a cable instead of wireless charging on your next long drive, move the phone out of the sun, download your maps and music before you leave, and if a heat warning appears, stop safely and let the phone cool before you use it again.",
+ "apps": [
+  "CarPlay",
+  "Android Auto"
+ ],
+ "idea": "competitor",
+ "traction": 0,
+ "thumb_words": "WHY CARPLAY MAKES YOUR PHONE HOT",
+ "sources": [
+  {
+   "name": "Apple Support: iPhone too hot or too cold",
+   "url": "https://support.apple.com/en-us/118431"
+  },
+  {
+   "name": "Google Pixel Help: phone feels warm or hot",
+   "url": "https://support.google.com/pixelphone/answer/3333708?hl=en"
+  },
+  {
+   "name": "Gadget Hacks",
+   "url": "https://smartphones.gadgethacks.com/news/phone-overheating-while-using-carplay-or-android-auto-fixes/"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "slug": "bitwarden-passkeys-windows-11-macos",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Security",
+ "tag": "New feature",
+ "head": "Bitwarden passkey manager now works natively in Windows 11 and macOS",
+ "dek": "Bitwarden's desktop app can now be set as the passkey provider in Windows 11 and macOS, so the system's own passkey window saves and uses passkeys from your Bitwarden vault. It works in websites without the browser extension.",
+ "details": "Each passkey made this way is saved as a login in your vault and can be used from any Bitwarden app. If a saved login with the same username exists, the passkey is added to it; a login holds one passkey, and Bitwarden warns before replacing one. On Windows 11 the Bitwarden app has to come from the Microsoft Store. Bitwarden says a Bitwarden account and the desktop app are all you need; it doesn't say whether a paid plan is required.",
+ "where": "Windows 11 (Microsoft Store app) and macOS, Bitwarden desktop app, from 18 November",
+ "means": "If you keep your logins in Bitwarden, passkeys you create on your computer can land in the same vault as your passwords instead of in Windows Hello or Apple's Passwords app.",
+ "todo": "In the Bitwarden desktop app open Settings, then App settings, then Passkey provider, click Manage in system settings and follow the steps to approve Bitwarden. You can then turn off the browser extension's passkey prompts if you prefer the system window.",
+ "apps": [
+  "Bitwarden"
+ ],
+ "sources": [
+  {
+   "name": "Bitwarden blog",
+   "url": "https://bitwarden.com/blog/integrate-bitwarden-native-passkeys/"
+  }
+ ],
+ "item": 125746,
+ "idea": "news",
+ "traction": 0,
+ "thumb_words": "BITWARDEN PASSKEYS IN WINDOWS & MAC"
+}

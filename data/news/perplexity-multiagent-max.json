@@ -1,0 +1,23 @@
+{
+ "slug": "perplexity-multiagent-max",
+ "date": "2026-11-17",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "AI",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Perplexity Computer adds Multiagent for Max subscribers",
+ "dek": "Multiagent, a new effort level in Perplexity Computer on the web, has a lead agent hand parts of a task to up to 16 agents on different AI models that check each other's work. It's for Perplexity Max subscribers.",
+ "apps": [
+  "Perplexity"
+ ],
+ "sources": [
+  {
+   "name": "Perplexity",
+   "url": "https://www.perplexity.ai/hub/blog/introducing-computer-multiagent"
+  }
+ ],
+ "item": 121242,
+ "idea": "news",
+ "traction": 18
+}

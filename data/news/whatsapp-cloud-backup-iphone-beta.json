@@ -1,0 +1,25 @@
+{
+ "slug": "whatsapp-cloud-backup-iphone-beta",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "quick": true,
+ "head": "WhatsApp tests its own chat backup on iPhone as an iCloud alternative",
+ "dek": "Some iPhone beta testers (version 26.45.10.71) can now back up chats to WhatsApp's own servers instead of iCloud, end-to-end encrypted, with 2 GB free and 100 GB on WhatsApp Plus. iCloud stays the default, and WhatsApp hasn't said when everyone gets it.",
+ "apps": [
+  "WhatsApp",
+  "iCloud"
+ ],
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/18/whatsapp-backup-alternative-rolls-out-beta-ios/"
+  }
+ ],
+ "item": 125946,
+ "idea": "news",
+ "traction": 18,
+ "rumor": true
+}

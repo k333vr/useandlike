@@ -1,0 +1,28 @@
+{
+ "slug": "powday-snow-forecast-app",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Travel",
+ "tag": "New app",
+ "head": "Powday snow forecast app gives ski areas a 15-day snowfall outlook",
+ "dek": "Powday is a free snow forecast app for skiers and snowboarders that gives every ski area worldwide a snowfall forecast for up to 15 days, blended from six or more weather models. It was #62 among free Weather apps on the US App Store on 18 November.",
+ "details": "Days 1 to 7 are free, with unlimited resorts, radar, resort snow reports, storm alerts when a forecast passes your snow threshold, and webcams for your first three resorts. Powday Pro, a monthly or yearly subscription, adds days 8 to 15, hour-by-hour snow, all webcams and webcam timelapses. An AI forecaster writes a daily snow discussion for your resorts. The app came out on 9 November and is made by Shredder Inc.",
+ "where": "App Store, iPhone, free with Pro subscription",
+ "means": "If you plan ski days around fresh snow, you get one snowfall number per day for your resorts, with the first week free.",
+ "todo": "Search Powday on the App Store, add your resorts and set a snow alert; it needs iOS 18 or later.",
+ "apps": [
+  "Powday - Snow Forecasts"
+ ],
+ "category": "Travel",
+ "thumb_words": "POWDAY: SNOW FORECAST 15 DAYS OUT",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/powday-snow-forecasts/id6827649633"
+  }
+ ],
+ "item": 129441,
+ "idea": "newcomer",
+ "traction": 0
+}

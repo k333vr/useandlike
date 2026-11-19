@@ -1,0 +1,28 @@
+{
+ "slug": "moonlock-iphone-scam-checker",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Security",
+ "tag": "New app",
+ "head": "Moonlock for iPhone checks scam texts, links and QR codes",
+ "dek": "MacPaw's security app Moonlock is now on iPhone: it checks suspicious texts, screenshots, links and QR codes for signs of phishing and explains why something looks like a scam. It also tells you if your email address showed up in a data breach.",
+ "details": "Scam Detect checks content you paste, scan or share into the app. Safe SMS, which you switch on yourself, filters scam texts and keeps a record of what it caught and why. A Security Score from 0 to 100 rates your iPhone's setup and checks things like Wi-Fi security, passcode and iOS updates, with step-by-step fixes. One device costs $13.50 a month billed monthly or $4.50 a month billed yearly; a one-time purchase is also offered, and Setapp subscribers get it for Mac and iPhone included.",
+ "where": "iPhone, App Store, out now since 18 November",
+ "means": "If you often get texts that might be scams, Moonlock gives a second opinion with a reason, instead of you guessing. It's a paid app, from $4.50 a month on the yearly plan.",
+ "todo": "When a message looks suspicious, don't tap its link; share or paste it into a checker like this first. Check whether your email was in a breach and change the passwords of the accounts it names.",
+ "apps": [
+  "Moonlock"
+ ],
+ "category": "Security",
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/18/macpaw-moonlock-cybersecurity-app-iphone/"
+  }
+ ],
+ "item": 125599,
+ "idea": "news",
+ "traction": 15,
+ "thumb_words": "MOONLOCK CHECKS SCAM TEXTS ON IPHONE"
+}

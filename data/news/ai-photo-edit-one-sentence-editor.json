@@ -1,0 +1,31 @@
+{
+ "slug": "ai-photo-edit-one-sentence-editor",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "AI",
+ "tag": "New app",
+ "head": "AI Photo Edit: online AI photo editor that works from one sentence",
+ "dek": "AI Photo Edit is a web photo editor where you upload a picture, type the change you want, and it redraws only that part. It can swap outfits or backgrounds, remove people or text and restore old prints.",
+ "details": "New accounts get 5 free edits in 2K without a card; credit packs start at $4.99 for 30 edits, and yearly plans at $7.50 a month for 110 edits. You can pick Google's Nano Banana or OpenAI's GPT Image 2.5 model, and results download in 2K or 4K. The site, run by ONETU LTD, says uploads are deleted after 7 days and photos aren't used to train AI.",
+ "where": "Any browser on phone or computer",
+ "means": "If you want to fix or change a photo without learning an editing app, you can describe the change in plain words instead.",
+ "todo": "Try the 5 free edits first; only edit photos of other people with their permission.",
+ "apps": [
+  "AI Photo Edit"
+ ],
+ "item": 124209,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "EDIT PHOTOS BY TYPING ONE SENTENCE",
+ "sources": [
+  {
+   "name": "AI Photo Edit",
+   "url": "https://aiphotoedit.ai/"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/ai-photo-edit"
+  }
+ ]
+}

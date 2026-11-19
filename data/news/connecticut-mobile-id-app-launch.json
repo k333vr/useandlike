@@ -1,0 +1,35 @@
+{
+ "slug": "connecticut-mobile-id-app-launch",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Travel",
+ "tag": "New app",
+ "head": "Connecticut Mobile ID app: your driver's license on your phone",
+ "dek": "Connecticut's free Mobile ID app puts your driver's license, learner's permit or state ID on your phone from 18 November. The TSA accepts it at participating airport checkpoints, but police and polling places don't.",
+ "details": "The app is on the App Store and Google Play and is made by IDEMIA for the Connecticut DMV. Setup takes five steps: allow permissions, verify your phone number, scan the front and back of your card, take a selfie and set a Face ID, Touch ID or six-digit PIN lock. Businesses don't have to accept it, and it can't be used as a flash pass. The DMV says your data is stored on your device and you approve each request before anything is shared. On 18 November it was #20 among free Travel apps on the US App Store.",
+ "where": "Connecticut residents, iPhone (iOS 17 or later) and Android, free",
+ "means": "If you live in Connecticut, you can show ID from your phone at TSA checkpoints and places that accept it, but you still need the plastic card for police stops and voting.",
+ "todo": "Have your physical license or ID card with you when you set up the app, and keep carrying the card.",
+ "apps": [
+  "Connecticut Mobile ID"
+ ],
+ "sources": [
+  {
+   "name": "Connecticut DMV",
+   "url": "https://portal.ct.gov/dmv/mobile-id"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/connecticut-mobile-id/id6757445743"
+  },
+  {
+   "name": "NBC Connecticut",
+   "url": "https://www.nbcconnecticut.com/news/local/connecticut-dmv-launching-mobile-id-app-nov-18/3789953/"
+  }
+ ],
+ "item": 129432,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "CONNECTICUT ID NOW ON YOUR PHONE"
+}

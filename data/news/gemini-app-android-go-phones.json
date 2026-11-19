@@ -1,0 +1,31 @@
+{
+ "slug": "gemini-app-android-go-phones",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "Gemini app now works on Android Go phones with less memory",
+ "dek": "Google has rebuilt the Gemini app so it runs on eligible Android Go edition phones, which until now only had basic voice commands. Gemini Live, camera help and image creation come with it.",
+ "details": "Gemini Live lets you talk with the assistant out loud in more than 45 languages. You can point the camera at notes or forms to understand or translate them, and make images with Nano Banana. Phandroid reports it needs at least 2GB of RAM. Google says Gemini will also come preloaded on upcoming phones from partners such as Transsion.",
+ "where": "Eligible Android Go phones, from Google Play; out now",
+ "means": "If you have a low-cost Android phone, you can now use the full Gemini app instead of only simple voice commands.",
+ "todo": "Download the Gemini app from Google Play. On supported phones, press and hold the power button to open it.",
+ "apps": [
+  "Gemini"
+ ],
+ "item": 126944,
+ "idea": "news",
+ "traction": 37,
+ "thumb_words": "GEMINI COMES TO ANDROID GO",
+ "sources": [
+  {
+   "name": "Google blog",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/"
+  },
+  {
+   "name": "Phandroid",
+   "url": "https://phandroid.com/2026/11/18/google-manages-to-get-gemini-working-on-underpowered-phones-we-re-architected-the-app/"
+  }
+ ],
+ "checked": "2026-11-19"
+}

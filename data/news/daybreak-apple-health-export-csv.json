@@ -1,0 +1,27 @@
+{
+ "slug": "daybreak-apple-health-export-csv",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Health",
+ "tag": "New app",
+ "head": "Daybreak exports Apple Health data to CSV and JSON files",
+ "dek": "Daybreak is a new $0.99 iPhone and iPad app that copies up to 80 daily Apple Health metrics into CSV and JSON files in a folder you pick. It was #80 among paid Health & Fitness apps on the US App Store on 18 November.",
+ "details": "Metrics come in eight groups: fitness, nutrition, sleep, body measurements, heart and vitals, mindfulness, mobility and alcohol. It reads Health data only, never changes it and leaves out GPS routes; files can go on the device or in iCloud Drive. You can sync by hand, with a reminder or with a Shortcuts action. It's a one-time purchase with no account, ads or analytics, made by 137 Ventures Ltd, and needs iOS 26 or later.",
+ "where": "iPhone and iPad, iOS 26 or later, $0.99 once (US price)",
+ "means": "If you want your own copy of your Apple Health history to open in a spreadsheet or keep as a backup, this does it without a subscription.",
+ "todo": "Pick only the Health categories you want to export when the app asks for access; if you share one export folder across devices, update all of them first.",
+ "apps": [
+  "Daybreak: Health Export"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/daybreak-health-export/id6833011805"
+  }
+ ],
+ "item": 129431,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "APPLE HEALTH DATA TO SPREADSHEETS"
+}

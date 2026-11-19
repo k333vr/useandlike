@@ -1,0 +1,70 @@
+{
+ "slug": "black-friday-scams-2026-explained",
+ "date": "2026-11-19",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Shopping",
+ "tag": "Explainer",
+ "head": "Black Friday scams 2026: fake shops, delivery texts and fake numbers",
+ "dek": "The Black Friday scams warned about this month copy real shops, carriers and customer service lines, and going straight to the shop's own app or website and paying by credit card protects against most of them.",
+ "sections": [
+  {
+   "h": "Fake shops that look real",
+   "p": [
+    "On 7 November, Cord Cutters News reported that NordVPN's threat intelligence team had found more than 10,000 fake shop websites built from one template, copying 166 fashion and luxury brands in 26 countries. As of 3 November, 1,549 of the stores were live. Adidas, Ralph Lauren and Dr. Martens were among the brands copied most often.",
+    "These shops mostly rely on search results rather than ads, and some reached AI answers: Perplexity named two of them as trustworthy shops, and ChatGPT and Gemini cited other sites from the same network. The fake shops also show payment logos for methods they don't accept.",
+    "Other fake shops come through social media ads. The FTC's holiday alert from 25 November 2025 warns about ads for brand-name products at unusually low prices, sometimes posing as real companies, that lead to fakes, the wrong item or nothing at all. InvestigateTV, on 12 November 2026, quoted ConsumerAffairs writer Kyle James on \"ghost websites\" and \"store closing\" ads that send shoppers to fake sites that take card details or personal information."
+   ]
+  },
+  {
+   "h": "Delivery texts and order emails",
+   "p": [
+    "Texts saying a package couldn't be delivered or that there's a problem with an order are the other big group. Fox News's CyberGuy, on 3 November, described fake USPS, UPS and FedEx messages that ask you to confirm your address and lead to tracking pages asking for personal or card details, sometimes with a redelivery fee. It says USPS doesn't charge a redelivery fee, so a text that asks for one is a warning sign. Kyle James told InvestigateTV that real companies don't text you to verify a tracking number or an address.",
+    "A related trick is the email about a failed payment, a locked account or a purchase you didn't make, with a phone number to call. According to CyberGuy, that number can lead to a scammer who asks for your card, a one-time code or remote access to your computer."
+   ]
+  },
+  {
+   "h": "Fake customer service numbers",
+   "p": [
+    "InvestigateTV also describes scammers buying sponsored search listings for big retailers' customer service, which can show above the real phone number. Whoever answers tries to get your card details. The fix it gives is simple: find the number in the shop's own app or on its official website, not in a search ad."
+   ]
+  },
+  {
+   "h": "Gift cards, marketplaces and charities",
+   "p": [
+    "A request to pay with gift cards, a wire transfer or crypto is a red flag in every source. The FTC adds payment apps to that list. CyberGuy says urgent requests to buy gift cards and send the numbers or PINs, from someone posing as a seller, a relative, a company or a government office, are strong signs of fraud.",
+    "On marketplaces, CyberGuy warns about sellers who want payment before you see the item, move the chat off the platform, send fake payment confirmations or add shipping fees. Keep messages and payments inside the platform where it offers them, and check what buyer protection it has. Fake charities are also common in the holiday season; check an unfamiliar charity on its own website before you give."
+   ]
+  },
+  {
+   "h": "How to check before you pay",
+   "p": [
+    "Type the shop's address yourself or open its app instead of following links from ads, texts, search results or AI chatbots. Look closely at the address for misspellings or extra words like \"outlet\" or \"sale\". A padlock or https only means the connection is encrypted; scam sites have it too.",
+    "Search the shop's name with words like \"scam\", \"complaint\" or \"review\". Pay by credit card when you can: the FTC says you can dispute charges for items that never arrived, wrong or damaged goods and double billing. Keep the receipt and order number; sellers have to ship by the date they promise or offer a refund."
+   ]
+  }
+ ],
+ "means": "If you shop the Black Friday sales on your phone, most scams reach you through a link (an ad, a text, a search result or an AI answer), so the safe habit is to go to the shop yourself rather than follow the link.",
+ "todo": "Open shops through their own app or a web address you type, track parcels only in the carrier's or shop's app, find support numbers on the official website, pay by credit card, and never pay with gift cards. In the US, forward scam texts to 7726 if your carrier supports it and report fraud at ReportFraud.ftc.gov. If you typed card details into a suspicious site, call your bank to block the card and dispute the charge.",
+ "idea": "explainer",
+ "traction": 0,
+ "thumb_words": "BLACK FRIDAY SCAMS TO WATCH",
+ "sources": [
+  {
+   "name": "FTC Consumer Advice",
+   "url": "https://consumer.ftc.gov/consumer-alerts/2025/11/how-avoid-online-shopping-scam-holiday-season"
+  },
+  {
+   "name": "Fox News (CyberGuy)",
+   "url": "https://www.foxnews.com/tech/7-holiday-shopping-scams-watch-season.print"
+  },
+  {
+   "name": "InvestigateTV",
+   "url": "https://www.mysuncoast.com/2026/11/12/black-friday-scams-watch-how-avoid-them/"
+  },
+  {
+   "name": "Cord Cutters News",
+   "url": "https://cordcuttersnews.com/beware-online-shoppers-chatgpt-and-other-ai-tools-have-cited-over-10000-fake-shopping-websites-in-a-massive-black-friday-scam/"
+  }
+ ]
+}

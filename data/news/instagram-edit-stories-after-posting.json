@@ -1,0 +1,31 @@
+{
+ "slug": "instagram-edit-stories-after-posting",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Social",
+ "tag": "New feature",
+ "head": "Instagram edit story after posting: 15 minutes to fix text and music",
+ "dek": "You can now edit an Instagram Story after posting it, changing its text, music, stickers and drawings for up to 15 minutes. Views, likes and replies stay on the Story, and an Edited label shows in the top right corner.",
+ "details": "Instagram head Adam Mosseri announced the change on 18 November in a post on his Instagram account. The edit option sits behind the three-dot button at the bottom of the Story. The reports list text, music, stickers and drawings as editable, not the photo or video itself. After the 15 minutes are up, a change still means deleting the Story and posting it again, which starts its view count from zero.",
+ "where": "Rolling out from 18 November; Instagram hasn't said which countries get it first",
+ "means": "If you spot a typo or the wrong song right after posting a Story, you can fix it without losing the views and replies it already has. Viewers will see that it was edited.",
+ "todo": "Open your Story, tap the three dots at the bottom, choose Edit story, make the change and share it again within 15 minutes. If you don't see the option yet, update the app and check again over the next days.",
+ "apps": [
+  "Instagram"
+ ],
+ "sources": [
+  {
+   "name": "Gizmodo",
+   "url": "https://gizmodo.com/instagram-now-lets-you-edit-stories-you-already-posted-2000841943"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/18/instagram-finally-lets-users-edit-stories-after-publishing-but-theres-a-catch/"
+  }
+ ],
+ "item": 127671,
+ "idea": "news",
+ "traction": 29,
+ "thumb_words": "INSTAGRAM: EDIT STORIES AFTER POSTING"
+}

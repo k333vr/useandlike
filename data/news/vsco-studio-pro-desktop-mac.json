@@ -1,0 +1,27 @@
+{
+ "slug": "vsco-studio-pro-desktop-mac",
+ "date": "2026-11-17",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "VSCO desktop app for Mac: Studio Pro Desktop is out now",
+ "dek": "VSCO has released Studio Pro Desktop, a Mac version of its Studio Pro photo editor, as a free download. It edits RAW photos in batches and comes with more than 200 presets.",
+ "details": "Finished photos can be published straight to VSCO Galleries. VSCO says the full Studio Pro experience needs a VSCO Pro membership; its page doesn't list the price. Studio Pro is also on iPhone through the App Store. VSCO's page doesn't mention a Windows version.",
+ "where": "Mac, free download from VSCO's website; iPhone on the App Store",
+ "means": "If you edit many photos at once on a Mac, there's now a VSCO app made for that, with RAW files and the presets you may know from the phone app.",
+ "todo": "Download it from VSCO's Studio page and try it free. Check what the VSCO Pro membership adds and costs before you pay.",
+ "apps": [
+  "VSCO"
+ ],
+ "item": 119269,
+ "idea": "news",
+ "traction": 15,
+ "thumb_words": "VSCO STUDIO PRO COMES TO MAC",
+ "sources": [
+  {
+   "name": "VSCO",
+   "url": "https://www.vsco.co/studio"
+  }
+ ]
+}

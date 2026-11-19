@@ -1,0 +1,33 @@
+{
+ "slug": "qobuz-apple-tv-app",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Music",
+ "tag": "New app",
+ "head": "Qobuz Apple TV app is out, with hi-res music up to 24-bit/192 kHz",
+ "dek": "The Qobuz Apple TV app came out on 18 November in every country where Qobuz runs, for Apple TV 4th generation and later with tvOS 26 or newer. It plays the whole catalogue lossless, up to 24-bit/192 kHz.",
+ "details": "On the second-generation Apple TV 4K, playback stops at 48 kHz. The app has synced lyrics with translations, album pages with the track list and credits, editorial picks and personal mixes, and your library syncs with your other Qobuz devices. With Qobuz Connect you can pick the Apple TV as the player from the Qobuz app on your phone or tablet. The app is free to download; listening needs a Qobuz subscription (Studio Solo is 12.99 dollars a month in the US), and Dolby Atmos music isn't supported.",
+ "where": "All Qobuz countries, Apple TV 4th generation and later with tvOS 26",
+ "means": "If you pay for Qobuz and have an Apple TV, you can now play it on your TV or speakers without casting from your phone.",
+ "todo": "Update your Apple TV to tvOS 26, then download Qobuz from the App Store on the Apple TV and sign in.",
+ "apps": [
+  "Qobuz",
+  "Apple TV"
+ ],
+ "category": "Streaming",
+ "thumb_words": "QOBUZ ARRIVES ON APPLE TV",
+ "sources": [
+  {
+   "name": "Qobuz",
+   "url": "https://community.qobuz.com/press-fr/qobuz-est-disponible-sur-apple-tv"
+  },
+  {
+   "name": "ecoustics",
+   "url": "https://www.ecoustics.com/news/qobuz-apple-tv-app-2026/"
+  }
+ ],
+ "item": 126706,
+ "idea": "news",
+ "traction": 53
+}

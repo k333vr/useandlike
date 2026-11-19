@@ -1,0 +1,24 @@
+{
+ "slug": "uber-eats-kohls-delivery",
+ "date": "2026-11-17",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Shopping",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Kohl's now delivers through Uber Eats from 1,100 stores",
+ "dek": "Kohl's clothes, home goods, gifts and Sephora at Kohl's beauty products can now be ordered on Uber Eats from more than 1,100 stores, on demand or scheduled. New Kohl's orders of $50 or more get $10 off until 3 December.",
+ "apps": [
+  "Uber Eats",
+  "Kohl's"
+ ],
+ "sources": [
+  {
+   "name": "RTTNews",
+   "url": "https://www.rttnews.com/3715519/uber-partners-with-kohl-s-to-launch-nationwide-on-demand-delivery.aspx"
+  }
+ ],
+ "item": 117415,
+ "idea": "news",
+ "traction": 0
+}

@@ -1,0 +1,28 @@
+{
+ "slug": "guide-to-tromso-aurora-app",
+ "date": "2026-11-19",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Travel",
+ "tag": "New app",
+ "category": "Travel",
+ "head": "Tromsø northern lights app made by local aurora guides",
+ "dek": "Guide To Tromsø is an iPhone and iPad app for the northern lights in Tromsø, Norway, made by local aurora guides: it shows live aurora data, a cloud map, recent sightings from other users and viewing spots. It costs 49 cents once, with no subscription, and was #96 among paid Travel apps on the US App Store on 19 November.",
+ "details": "The aurora data covers the Kp index, Bz and solar wind. Besides viewing spots, the app lists local restaurants, tours and events. Version 2.0.3 from 11 November added a layers menu in its Live Sky view, a loading sign for clouds, rain and radar, and a softer colour theme for the home screen widgets. The app came out on 24 September and has no ratings yet.",
+ "where": "iPhone and iPad, App Store, 49 cents",
+ "means": "If you're planning a trip to Tromsø to see the northern lights, this app puts the aurora forecast, cloud cover and places to watch from in one place for less than a dollar.",
+ "todo": "Search for Guide To Tromsø in the App Store; it needs iOS 16.4 or later.",
+ "apps": [
+  "Guide To Tromsø"
+ ],
+ "item": 129433,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "TROMSØ AURORA APP BY LOCAL GUIDES",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/guide-to-troms%C3%B8/id6787402095"
+  }
+ ]
+}

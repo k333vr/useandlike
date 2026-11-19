@@ -1,0 +1,26 @@
+{
+ "slug": "meta-muse-ai-agent-australia",
+ "date": "2026-11-17",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Meta's Muse AI agent launches in Australia",
+ "dek": "Meta's AI agent Muse is out in Australia on iPhone, Android, the web and Mac, free for most everyday use with paid plans for more; local connectors such as Canva, Kogan, Officeworks and Ticketek arrive in stages.",
+ "quick": true,
+ "apps": [
+  "Muse"
+ ],
+ "sources": [
+  {
+   "name": "Meta Newsroom",
+   "url": "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/"
+  }
+ ],
+ "item": 119945,
+ "items": [
+  121722
+ ],
+ "idea": "news",
+ "traction": 21
+}

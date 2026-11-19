@@ -1,0 +1,32 @@
+{
+ "slug": "marvel-unlimited-shutdown-marvel-comics-app",
+ "date": "2026-11-17",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Reading",
+ "tag": "Shutdown",
+ "head": "Marvel Unlimited shutting down December 7: new Marvel Comics app",
+ "dek": "Marvel Unlimited shuts down on December 7, and its replacement, a new Marvel Comics app built by WEBTOON, came out on November 16. Subscribers who register in the new app can bring over their library and reading history.",
+ "details": "The new app has comics from Marvel, Star Wars and 20th Century Studios on iPhone, Android, a new desktop website and the mobile web. The Base plan costs $9.99 a month or $69.99 a year, the Ultimate plan $12.49 a month or $99.99 a year, plus tax. New comics arrive one month after their release, instead of the three months Marvel Unlimited had.",
+ "where": "iPhone, Android and web, out now; Marvel Unlimited ends December 7",
+ "means": "If you pay for Marvel Unlimited, it stops on December 7, and the new app is a separate subscription. Your purchases and reading history only come along if you register in the new app.",
+ "todo": "Install the Marvel Comics app, register, and import your Marvel Unlimited purchases and reading history before December 7. Then pick the Base or Ultimate plan if you want to keep reading.",
+ "apps": [
+  "Marvel Unlimited",
+  "Marvel Comics"
+ ],
+ "sources": [
+  {
+   "name": "Good e-Reader",
+   "url": "https://goodereader.com/blog/digital-comic-news/marvel-comics-is-launching-a-new-app"
+  },
+  {
+   "name": "The Beat",
+   "url": "https://www.comicsbeat.com/marvel-webtoon-app/"
+  }
+ ],
+ "item": 120118,
+ "idea": "newcomer",
+ "traction": 18,
+ "thumb_words": "MARVEL UNLIMITED ENDS DECEMBER 7"
+}

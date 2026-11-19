@@ -1,0 +1,24 @@
+{
+ "slug": "microsoft-365-outage-phishing-emails",
+ "date": "2026-11-17",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Security",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Fake Microsoft 365 outage emails try to steal your login",
+ "dek": "Microsoft warns of phishing emails posing as service notices about the 12 November outage: the subject starts with \"Outage\" and a \"Restore messages\" button claims held mail will be deleted in 24 hours. Real Microsoft notices don't send you to other websites to get mail back, so don't click.",
+ "apps": [
+  "Microsoft 365",
+  "Outlook"
+ ],
+ "sources": [
+  {
+   "name": "CSO Online",
+   "url": "https://www.csoonline.com/article/4249611/hackers-exploit-microsoft-365-outage-to-launch-credential-phishing-campaign-2.html"
+  }
+ ],
+ "item": 116252,
+ "idea": "news",
+ "traction": 0
+}

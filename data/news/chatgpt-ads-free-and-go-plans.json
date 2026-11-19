@@ -1,0 +1,32 @@
+{
+ "slug": "chatgpt-ads-free-and-go-plans",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "AI",
+ "tag": "Heads-up",
+ "head": "ChatGPT ads on Free and Go plans: what they look like and who sees them",
+ "dek": "ChatGPT shows ads to people on its Free plan and the $8-a-month Go plan, now in 89 countries, while Plus, Pro and Enterprise stay ad-free. An Android Police writer says the ads now show up after nearly every reply on Go.",
+ "details": "OpenAI announced on 21 October that ChatGPT ads had reached 89 countries, 26 of them new, and that more than 100,000 advertisers had run campaigns. Ads sit at the bottom of replies, and OpenAI says they're labelled and kept separate from ChatGPT's answers and don't change them. A setting OpenAI calls creative enhancements is on by default for every ad: it lets AI rewrite the ad's text to fit your conversation and resize its pictures. OpenAI says advertisers don't see your conversations.",
+ "where": "ChatGPT Free and Go, 89 countries; Plus ($20 a month), Pro ($100) and Enterprise have no ads",
+ "means": "If you use ChatGPT for free or on Go, some text under an answer is paid for, and it can be worded to match what you just asked about.",
+ "todo": "Look for the ad label before you act on a suggestion under a reply. If you'd rather have no ads, only the Plus, Pro and Enterprise plans are ad-free; none of the sources mention a setting to switch ads off.",
+ "apps": [
+  "ChatGPT"
+ ],
+ "sources": [
+  {
+   "name": "Android Police",
+   "url": "https://www.androidpolice.com/chatgpt-go-ads-vs-gemini-ai-plus/"
+  },
+  {
+   "name": "The Next Web",
+   "url": "https://thenextweb.com/news/chatgpt-ads-89-countries-100000-advertisers"
+  }
+ ],
+ "item": 128375,
+ "idea": "news",
+ "traction": 48,
+ "rank": 1,
+ "thumb_words": "CHATGPT ADS: WHO SEES THEM"
+}

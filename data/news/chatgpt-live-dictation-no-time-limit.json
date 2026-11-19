@@ -1,0 +1,27 @@
+{
+ "slug": "chatgpt-live-dictation-no-time-limit",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "AI",
+ "tag": "Update",
+ "head": "ChatGPT dictation time limit removed with new Live Dictation",
+ "dek": "ChatGPT's dictation now writes your words on screen while you're still speaking, and the old 10-minute recording limit is gone. OpenAI is rolling it out on all plans, free included, on iPhone, Android, the web and the desktop app.",
+ "details": "OpenAI says Live Dictation is faster and more reliable than the old dictation, which made you wait for the whole message to be transcribed. Tapping or clicking the waveform shows or hides the text as it appears. OpenAI's release notes confirm the 10-minute limit was removed.",
+ "where": "All ChatGPT plans, iOS, Android, web and desktop, rolling out from 18 November",
+ "means": "If long voice messages to ChatGPT got cut off or took a while to turn into text, you can now talk for longer and watch the text build as you go.",
+ "todo": "Update the ChatGPT app; the change is rolling out, so it may reach your account later than others.",
+ "apps": [
+  "ChatGPT"
+ ],
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/18/chatgpt-app-gains-enhanced-live-dictation-streaming-without-10-minute-limit/"
+  }
+ ],
+ "item": 127297,
+ "idea": "news",
+ "traction": 45,
+ "thumb_words": "CHATGPT DICTATION: NO 10-MIN LIMIT"
+}

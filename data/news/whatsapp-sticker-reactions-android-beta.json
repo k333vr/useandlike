@@ -1,0 +1,28 @@
+{
+ "slug": "whatsapp-sticker-reactions-android-beta",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Messaging",
+ "tag": "In testing",
+ "rumor": true,
+ "head": "WhatsApp sticker reactions in testing: up to 20 stickers a message",
+ "dek": "WhatsApp is testing reactions with stickers on Android, so you can react to a message with stickers from your own collection instead of only one emoji. It's in beta 2.26.46.5 for some testers, according to WABetaInfo; WhatsApp hasn't announced it.",
+ "details": "A message can carry up to 20 sticker reactions, and the same sticker can be added more than once. They show under the message and spread around the bubble as more are added. You open the sticker keyboard from a button in the message's menu; static and animated stickers both work. The message's info screen shows who reacted, and you can remove a sticker reaction there.",
+ "where": "Android, WhatsApp beta 2.26.46.5, some testers; more over the coming weeks",
+ "means": "If you like answering with stickers, you may soon be able to stick them right on a message in chats and groups.",
+ "todo": "Nothing to do yet. Keep WhatsApp updated; it reaches beta testers first.",
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 123291,
+ "idea": "news",
+ "traction": 29,
+ "thumb_words": "WHATSAPP TESTS STICKER REACTIONS",
+ "sources": [
+  {
+   "name": "WABetaInfo",
+   "url": "https://wabetainfo.com/whatsapp-is-rolling-out-message-sticker-reactions-on-android/"
+  }
+ ]
+}

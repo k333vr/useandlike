@@ -1,0 +1,24 @@
+{
+ "slug": "sling-boost-mobile-9-99-line",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Money",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Sling TV subscribers can get a Boost Mobile line for $9.99",
+ "dek": "New Boost Mobile customers with a Sling account get unlimited talk and text with 30GB of premium data for $9.99 a month for six months, then $25, if they bring an unlocked phone. Only in some US markets, for a limited time.",
+ "apps": [
+  "Sling TV",
+  "Boost Mobile"
+ ],
+ "sources": [
+  {
+   "name": "Cord Cutters News",
+   "url": "https://cordcuttersnews.com/sling-tv-subscribers-can-now-get-unlimited-data-talk-text-for-just-9-99-a-month/"
+  }
+ ],
+ "item": 123019,
+ "idea": "news",
+ "traction": 0
+}

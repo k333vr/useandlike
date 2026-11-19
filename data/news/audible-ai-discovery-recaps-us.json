@@ -1,0 +1,23 @@
+{
+ "slug": "audible-ai-discovery-recaps-us",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Books",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Audible adds AI audio discovery, recaps and Ask a Question in the US",
+ "dek": "Audible is rolling out an AI way to find your next audiobook on select English titles in the US, and expanding spoiler-free recaps and in-book questions to more US titles, with a broad rollout from December.",
+ "apps": [
+  "Audible"
+ ],
+ "item": 125046,
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/audible-rolls-out-ai-powered-discovery-tools-to-help-listeners-find-and-return-to-stories/"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "now-brief-custom-cards-limit-leak",
+ "date": "2026-11-17",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Samsung",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Now Brief may limit free users to three custom cards",
+ "dek": "A page in an early One UI 9.5 build says free users get three custom cards in Now Brief and a paid plan adds more, with AI credits to create or edit them, Android Authority reports. Samsung hasn't announced it.",
+ "apps": [
+  "Now Brief",
+  "Galaxy AI"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-galaxy-ai-custom-cards-now-brief-limit-credits-3736153/"
+  }
+ ],
+ "item": 119262,
+ "idea": "news",
+ "traction": 0
+}

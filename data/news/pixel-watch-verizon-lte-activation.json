@@ -1,0 +1,23 @@
+{
+ "slug": "pixel-watch-verizon-lte-activation",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Google",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Some Pixel Watch owners can't activate LTE on Verizon",
+ "dek": "Owners of the Pixel Watch 5 and older models report that LTE service won't activate on Verizon, so the watch only works through the phone, Android Authority reports. Verizon hadn't commented when the article went up.",
+ "apps": [
+  "Pixel Watch"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/pixel-watch-verizon-connectivity-issues-3736793/"
+  }
+ ],
+ "item": 127000,
+ "idea": "news",
+ "traction": 0
+}

@@ -1,0 +1,31 @@
+{
+ "slug": "chrome-158-update-204-security-fixes",
+ "date": "2026-11-17",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Security",
+ "tag": "Update",
+ "head": "Chrome 158 update: 204 security fixes for Windows, Mac and Android",
+ "dek": "Google's Chrome 158 is rolling out to everyone with 204 security fixes, six of them rated critical, on Windows, Mac, Linux and Android. Computers get version 158.0.8127.36 or .37 over the next few days, Android gets 158.0.8127.42.",
+ "details": "Most of the critical flaws are memory problems in the code that handles graphics, audio and video playback, according to PiunikaWeb. Google posted the stable updates for desktop and Android on 17 November. The reports don't say whether any of the flaws were already being used by attackers.",
+ "where": "Windows, Mac, Linux and Android, rolling out from 17 November",
+ "means": "If you use Chrome, the fixes only protect you once the new version is installed and the browser has restarted.",
+ "todo": "Let Chrome install the update, then close it completely and open it again, since the fixes only apply after a full restart. On Android the update comes through the Play Store.",
+ "apps": [
+  "Google Chrome"
+ ],
+ "sources": [
+  {
+   "name": "PiunikaWeb",
+   "url": "https://piunikaweb.com/2026/11/18/chrome-158-update-204-security-fixes/"
+  },
+  {
+   "name": "Chrome Releases",
+   "url": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01699533288.html"
+  }
+ ],
+ "item": 123911,
+ "idea": "news",
+ "traction": 18,
+ "thumb_words": "CHROME 158: 204 SECURITY FIXES"
+}

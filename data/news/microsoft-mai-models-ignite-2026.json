@@ -1,0 +1,32 @@
+{
+ "slug": "microsoft-mai-models-ignite-2026",
+ "date": "2026-11-17",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "AI",
+ "tag": "Big news",
+ "head": "Microsoft MAI models: seven new AI models, some in GitHub Copilot",
+ "dek": "Microsoft announced seven of its own AI models, called MAI, at its Ignite event on 17 November, for coding, image editing, real-time voice, transcription and security. Microsoft says they cost a fraction of rival models from OpenAI and others.",
+ "details": "MAI Code 2 is live in GitHub Copilot's paid plans, and MAI Code 2 Flash also in its Free and Student plans. MAI Image 2.7 and a cheaper Flash version are in public preview on Microsoft Foundry and partner services such as Genspark, OpenRouter and Vercel. MAI Realtime 1, a voice model, is open for sign-up through MAI Labs. The comparisons with other models are Microsoft's own numbers. The reports don't mention the Copilot app for everyday users.",
+ "where": "GitHub Copilot and Microsoft's developer services now; nothing announced for the Copilot app",
+ "means": "For most people nothing changes today: these models go to developers and companies first. If you use GitHub Copilot, even on the free plan, you can now pick one of Microsoft's own coding models.",
+ "todo": "Nothing to do in the Copilot app. If you code with GitHub Copilot, look for MAI Code 2 Flash in its model picker.",
+ "apps": [
+  "Microsoft Copilot",
+  "GitHub Copilot"
+ ],
+ "sources": [
+  {
+   "name": "Thurrott",
+   "url": "https://www.thurrott.com/a-i/microsoft-ai/343999/ignite-2026-microsoft-ai-announces-7-new-models"
+  },
+  {
+   "name": "TestingCatalog",
+   "url": "https://www.testingcatalog.com/microsoft-launches-seven-mai-models-at-ignite-2026/"
+  }
+ ],
+ "item": 120419,
+ "idea": "news",
+ "traction": 71,
+ "thumb_words": "MICROSOFT LAUNCHES 7 OWN AI MODELS"
+}

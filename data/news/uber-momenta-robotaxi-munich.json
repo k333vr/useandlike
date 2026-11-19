@@ -1,0 +1,23 @@
+{
+ "slug": "uber-momenta-robotaxi-munich",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Travel",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Uber starts free robotaxi rides in Munich with Momenta",
+ "dek": "Uber riders in northern Munich can now be matched with a Momenta self-driving car when they order UberX, Electric or Comfort. Rides are free during the pilot, and a safety operator sits in every car.",
+ "apps": [
+  "Uber"
+ ],
+ "sources": [
+  {
+   "name": "Gasgoo",
+   "url": "https://autonews.gasgoo.com/articles/news/2122981275715166208"
+  }
+ ],
+ "item": 125230,
+ "idea": "news",
+ "traction": 0
+}

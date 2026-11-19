@@ -1,0 +1,35 @@
+{
+ "slug": "vwfndr-mbl-camera-app-iphone",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "checked": "2026-11-19",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "VWFNDR + MBL camera app now on iPhone with new color grades",
+ "dek": "The VWFNDR + MBL camera app, which launched on Android in May, is now on iPhone with version 2.0. It saves an untouched RAW (DNG) file next to each photo and adds three color grades: NATURAL, NIHON and B+W.",
+ "details": "The app is free to download; taking photos needs a one-time purchase of 4.99 US dollars, which covers the app for life. Early Android users get 2.0 and future updates free. You switch grades in the settings or by swiping on the viewfinder, and the grades adapt across the frame instead of laying one fixed look over it. Each photo carries Content Credentials, a signed record of where it came from and how it was edited.",
+ "where": "iPhone and Android, out now (version 2.0, 18 November)",
+ "means": "If your phone's photos look too processed, this app keeps a plain RAW file and gives you a lighter look for the JPG, now on iPhone too.",
+ "todo": "Download it free from the App Store or Google Play and look at the 4.99 dollar unlock before you start shooting.",
+ "apps": [
+  "VWFNDR + MBL"
+ ],
+ "item": 125300,
+ "idea": "newcomer",
+ "traction": 18,
+ "thumb_words": "VWFNDR CAMERA APP LANDS ON IPHONE",
+ "sources": [
+  {
+   "name": "VWFNDR",
+   "url": "https://vwfndr.camera/news/mbl-004"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/vwfndr-mbl/id6761257174"
+  },
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/18/vwfndr-mbl-camera-app-color-grading-android-iphone-release/"
+  }
+ ]
+}

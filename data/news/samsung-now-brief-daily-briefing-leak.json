@@ -1,0 +1,29 @@
+{
+ "slug": "samsung-now-brief-daily-briefing-leak",
+ "date": "2026-11-18",
+ "added": "2026-11-19",
+ "topic": "Samsung",
+ "tag": "Leak",
+ "rumor": true,
+ "head": "Samsung Now Brief may get Daily Briefing with automatic reminders",
+ "dek": "Screenshots shared by SamMobile show a Daily Briefing in Now Brief that pulls bills, deadlines and appointments from your apps and turns them into reminders, Android Authority reports. Samsung hasn't confirmed it.",
+ "details": "The leaked cards sort items into Finance, Work and Productivity, and Mobility and Traffic, with countdowns. Examples include a Netflix payment notice with the amount, an apartment maintenance fee, a work training deadline from an email and service appointments. It is tied to One UI 9.5, and it appeared on a leaked list of Galaxy AI Premium features, so it may need the paid plan. No release date is known.",
+ "where": "Galaxy phones with One UI 9.5, not announced",
+ "means": "If you use a Galaxy phone, Now Brief may start reminding you of bills and deadlines on its own, possibly only with a paid AI plan.",
+ "todo": "Nothing to do yet; the feature isn't out or confirmed.",
+ "apps": [
+  "Now Brief",
+  "Galaxy AI"
+ ],
+ "item": 124227,
+ "idea": "news",
+ "traction": 0,
+ "thumb_words": "NOW BRIEF: AUTO REMINDERS?",
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-one-ui-9-5-now-brief-daily-briefing-leak-3736393/"
+  }
+ ],
+ "checked": "2026-11-19"
+}
