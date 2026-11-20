@@ -2,12 +2,11 @@
  "slug": "one-ui-9-5-beta-galaxy-s26-open",
  "date": "2026-11-18",
  "added": "2026-11-19",
- "checked": "2026-11-19",
+ "checked": "2026-11-20",
  "topic": "Samsung",
- "tag": "Quick",
- "quick": true,
- "head": "One UI 9.5 beta opens for Galaxy S26 owners",
- "dek": "Samsung's One UI 9.5 beta is open from 18 November for the Galaxy S26 series in the US, UK, Germany, India, Korea and Poland, through the Samsung Members app. It brings finer Pro camera controls, an App Lock and medication reminders in Samsung Health.",
+ "tag": "Update",
+ "head": "One UI 9.5 beta for Galaxy S26: App Lock, Pro camera and Medications",
+ "dek": "Samsung opened the One UI 9.5 beta on 18 November for Galaxy S26 series owners in Germany, India, Korea, Poland, the UK and the US, who can apply in the Samsung Members app. It adds App Lock for single apps, finer Pro camera controls and medication reminders in Samsung Health.",
  "apps": [
   "One UI"
  ],
@@ -18,6 +17,14 @@
   }
  ],
  "item": 124874,
- "idea": "news",
- "traction": 23
+ "items": [
+  137300
+ ],
+ "idea": "request",
+ "traction": 23,
+ "details": "App Lock locks individual apps with your fingerprint, face or screen lock, and hides their notification content and widgets while they're locked. Pro and Pro video modes get custom controls and presets, and the default camera gets a zoom bar with key settings on one screen. Samsung Health adds Medications (prescriptions, vitamins and supplements with reminders) and Mindful Note for journaling; a floating shortcut and hearing aid volume controls in the notification panel come too. Samsung didn't give a date for the final release.",
+ "where": "Galaxy S26 series in Germany, India, Korea, Poland, the UK and the US, beta from 18 November",
+ "means": "If you own a Galaxy S26 in one of the six countries, you can try App Lock and the new camera and health features now, with the usual beta risk of bugs. Everyone else waits for the official release.",
+ "todo": "Open Samsung Members, find the One UI 9.5 beta banner and apply. Back up your phone first, because beta software can have bugs. Medications may not be offered in every country.",
+ "thumb_words": "ONE UI 9.5 BETA IS OPEN"
 }

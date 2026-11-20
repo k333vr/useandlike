@@ -24,5 +24,6 @@
  "where": "Android Auto with Gemini Personal Intelligence, personal accounts 18+; not in the EEA, Switzerland, the UK or Nigeria",
  "means": "If you share your car, a passenger's voice question could bring up your email, appointments or where your photos were taken.",
  "todo": "In the Gemini app, open Menu, Settings & help, Personal Intelligence and turn it off, or switch off Google Workspace and Google Photos under Connected Apps. Retrain your voice model under Talk to Gemini hands-free (on some phones \"Hey Google & Voice Match\"). In Android Auto's settings, under Notifications, turn off \"Show message notifications\" and \"Notifications with Assistant\".",
- "thumb_words": "GEMINI IN CARS: PASSENGER PRIVACY GAP"
+ "thumb_words": "GEMINI IN CARS: PASSENGER PRIVACY GAP",
+ "video": "2HfU3V2Vf-0"
 }

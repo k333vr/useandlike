@@ -2,12 +2,11 @@
  "slug": "google-voice-android-redesign",
  "date": "2026-11-17",
  "added": "2026-11-19",
- "checked": "2026-11-19",
+ "checked": "2026-11-20",
  "topic": "Messaging",
- "tag": "Quick",
- "quick": true,
- "head": "Google Voice gets a redesign on Android that looks like Google Messages",
- "dek": "The US-only Google Voice app is rolling out a new look on Android with a rounded search bar, bolder fonts and a message box like Google Messages; an SMS label on the send button hints at RCS support, which Google hasn't announced.",
+ "tag": "Update",
+ "head": "Google Voice update brings a new Android design like Google Messages",
+ "dek": "The Google Voice app for Android is getting a new look borrowed from Google Messages: a rounded search bar, slightly bolder fonts and a rounded message box with the same plus and camera buttons. It's the app's first noticeable update since 2023.",
  "apps": [
   "Google Voice"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 118232,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "9to5Google saw the design in version 2026-11-01 of the app. The send button now shows an \"SMS\" label, as in Google Messages, where it tells you whether a text goes as SMS or RCS. Code found in an 11 November update also mentions RCS, but Google hasn't announced RCS for Voice or given a date. Material You colours apply unevenly: fully on a Pixel, only on the message box on a Galaxy Z Fold 8.",
+ "where": "US only (Google Voice is a US service), Android, rolling out now",
+ "means": "If you use a Google Voice number on Android, the app will look more like Messages; calls and texts work as before.",
+ "todo": "Update Google Voice from the Play Store to get the new design; RCS chat isn't there yet.",
+ "thumb_words": "GOOGLE VOICE GETS A NEW LOOK"
 }

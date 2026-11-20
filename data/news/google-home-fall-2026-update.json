@@ -2,12 +2,11 @@
  "slug": "google-home-fall-2026-update",
  "date": "2026-11-17",
  "added": "2026-11-19",
- "checked": "2026-11-19",
+ "checked": "2026-11-20",
  "topic": "Google",
- "tag": "Quick",
- "quick": true,
- "head": "Google Home fall update: thermostat savings and Gemini in six more countries",
- "dek": "From December, Nest thermostats in the US and Canada show estimated dollar savings in the Google Home app, and Gemini for Home is set to reach India, Taiwan, Singapore, Colombia, South Korea and Brazil next month. Camera alerts with Home Premium Advanced can now describe sounds like sirens or barking.",
+ "tag": "Update",
+ "head": "Google Home update 2026: thermostat savings, Gemini in 6 more countries",
+ "dek": "Google's Fall 2026 update for Google Home adds estimated dollar savings for Nest thermostats in the US and Canada from December, and Gemini for Home reaches India, Taiwan, Singapore, Colombia, South Korea and Brazil next month. Camera alerts for Home Premium Advanced subscribers now also describe sounds like sirens or barking.",
  "apps": [
   "Google Home"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 120724,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "The Nest Learning Thermostat (4th gen) gets Matter sensors from brands such as IKEA, Eve and Aqara, and new faces including moon phases, in December. Select Nest thermostats can warn early about heat pump or AC compressor problems, and one setting now switches Fahrenheit or Celsius everywhere. Android users can keep one home key in Google Wallet for compatible Matter and Aliro locks, and Gemini Live moves to a faster speech-to-speech system.",
+ "where": "Google Home app; thermostat features US and Canada from December; Gemini for Home in six more countries next month",
+ "means": "If you have a Nest thermostat, the Google Home app will show roughly how much money it saved you, and Eco mode sits at the top of the controller. If you live in one of the six countries, Gemini for Home is on its way.",
+ "todo": "Keep the Google Home app updated. Premium Advanced subscribers can search camera events for sounds with Ask Home.",
+ "thumb_words": "GOOGLE HOME: THERMOSTAT SAVINGS"
 }

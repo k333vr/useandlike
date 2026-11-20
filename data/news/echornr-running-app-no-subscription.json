@@ -1,0 +1,27 @@
+{
+ "slug": "echornr-running-app-no-subscription",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "Running app without subscription: echoRnr costs $9.99 once",
+ "dek": "echoRnr is a running app you buy once, with no ads and no monthly fee, and it lets you race a past run of your own or a friend's in real time. It came out on 19 November and was #18 among paid Health & Fitness apps on the US App Store the same day.",
+ "details": "It maps runs, walks and bike rides by GPS, shows pace and mile splits, tracks personal records and works with Apple Watch. Friends' runs show up in a feed. Runs stay on your phone unless you share them, and you choose which ones friends see. It is made by Mark Kincaid Preyer.",
+ "where": "iPhone and Apple Watch, App Store, $9.99 once",
+ "means": "If you're tired of paying monthly just to see your own running stats, this app charges once.",
+ "todo": "Find echoRnr in the App Store.",
+ "apps": [
+  "echoRnr"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/echornr/id6806840194"
+  }
+ ],
+ "item": 137981,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "RUNNING APP, NO SUBSCRIPTION"
+}

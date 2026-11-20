@@ -1,0 +1,86 @@
+{
+ "slug": "streaming-bundles-2026-explained",
+ "date": "2026-11-20",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Streaming",
+ "tag": "Explainer",
+ "head": "Streaming bundles 2026 explained: Disney+ Hulu app, HBO Max, Fubo",
+ "dek": "Streaming services are folding into each other: Hulu's live TV moves into the Disney+ app in December, Paramount+ and HBO Max are due as one bundle in early 2027, and Fubo now adds Disney+ and Hulu to two of its plans at no extra cost.",
+ "sections": [
+  {
+   "h": "Disney+ and Hulu become one app in December",
+   "p": [
+    "Disney said with its quarterly results on 17 November that Hulu's live TV service and some premium add-ons, the last Hulu parts missing from the Disney+ app, move into Disney+ in December. Disney calls it a fully unified experience. It gave no exact date.",
+    "It's the end of a long road. Disney took full control of Hulu in 2019, and its purchase of Comcast's remaining stake closed in June 2025. It added a Hulu tab to the Disney+ app in 2023, which stayed in beta until March 2024, and then-CEO Bob Iger had promised one combined app in 2026. Disney hasn't said when, or whether, the standalone Hulu app shuts down, and a spokesperson told Engadget that standalone Disney+ and Hulu plans will continue.",
+    "More is coming to the same app. From December, Disney+ shows videos from TikTok creators under a deal with TikTok, and Disney says vertical video, live sports and podcasts are on the way, without dates. Disney also says next February's Super Bowl will air on Disney+ as well as ESPN, ABC, ESPN Deportes and the ESPN app."
+   ]
+  },
+  {
+   "h": "Paramount+ and HBO Max: one bundle in early 2027",
+   "p": [
+    "Skydance, which now owns both services, told shareholders on 9 November that it plans to sell Paramount+ and HBO Max together for one price from as early as the first part of 2027, and to merge the two services fully by the end of September 2027.",
+    "Together the two services have more than 200 million subscribers around the world. HBO Max carries shows like House of the Dragon and The White Lotus, and Paramount+ has the Yellowstone shows, Tulsa King and CBS programming.",
+    "No prices have been given yet. In the near term both brands stay separate, and the bundle gives you both without separate accounts. Skydance hasn't said whether Discovery+ will be part of it or whether current subscribers get special pricing."
+   ]
+  },
+  {
+   "h": "Live TV services are adding them too",
+   "p": [
+    "Fubo is adding the ad-supported Disney+ and Hulu bundle, which Cord Cutters News values at 12.99 dollars a month, to its Pro and Elite plans from this week, without raising their prices. Current subscribers get it once their eligibility is confirmed.",
+    "You watch Disney+ and Hulu shows in their own apps, while live channels and Fubo's on-demand titles stay in the Fubo app. ESPN Unlimited stays for eligible subscribers. Both plans keep unlimited cloud DVR and streaming on several devices at once, and Elite adds 4K where available and extra channel packs."
+   ]
+  },
+  {
+   "h": "Why the companies are doing this",
+   "p": [
+    "Engadget reports that Iger said combining Disney+ and Hulu would cut costs and give Disney more ways to package ads. For you, that mostly means fewer separate apps and accounts, and more bundles to compare when a price changes."
+   ]
+  },
+  {
+   "h": "A free Disney+ plan is only a report",
+   "p": [
+    "On 10 November, Cord Cutters News reported, citing Business Insider, that an internal Disney presentation describes a free Disney+ plan with always-on channels that carry ads and some titles you can sample without paying. Disney hasn't announced it, and no launch date, price or countries were reported.",
+    "Disney+ already shows a few such always-on channels, like Disney princess and Pixar feeds, to people who pay for it."
+   ]
+  }
+ ],
+ "means": "If you pay for several streaming services, more of them are coming as bundles or inside one app, so you may soon be able to drop a separate subscription; prices for the new bundles aren't known yet.",
+ "todo": "If you have Disney+ and Hulu, look for live TV and add-ons in the Disney+ app in December. Fubo Pro or Elite subscribers can check whether Disney+ and Hulu are already in their account. Hold off on yearly HBO Max or Paramount+ plans until the bundle prices are out.",
+ "apps": [
+  "Disney+",
+  "Hulu",
+  "HBO Max",
+  "Paramount+",
+  "Fubo"
+ ],
+ "idea": "explainer",
+ "traction": 0,
+ "thumb_words": "STREAMING APPS ARE MERGING",
+ "sources": [
+  {
+   "name": "The Walt Disney Company",
+   "url": "https://thewaltdisneycompany.com/news/disney-q4-earnings-2026/"
+  },
+  {
+   "name": "Engadget",
+   "url": "https://www.engadget.com/2319193/unified-disney-plus-and-hulu-app-is-set-to-arrive-in-december/"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/17/disney-and-hulus-fully-unified-app-is-coming-next-month/"
+  },
+  {
+   "name": "Cord Cutters News: Paramount+ and HBO Max",
+   "url": "https://cordcuttersnews.com/skydance-unveils-plans-for-paramount-and-hbo-max-merger-launching-in-early-2027/"
+  },
+  {
+   "name": "Cord Cutters News: Fubo",
+   "url": "https://cordcuttersnews.com/fubo-subscribers-now-get-free-disney-hulu/"
+  },
+  {
+   "name": "Cord Cutters News: free Disney+ plan",
+   "url": "https://cordcuttersnews.com/disneys-new-free-tier-with-24-7-live-free-channels-is-coming/"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "slug": "proton-drive-easy-switch-google-drive",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Cloud",
+ "tag": "New feature",
+ "category": "Cloud Storage",
+ "head": "Proton Drive import from Google Drive: Easy Switch moves your files",
+ "dek": "Proton Drive can now import your Google Drive files and folders through Easy Switch on the web, keeping your folder structure. It's for all plans and rolling out gradually.",
+ "details": "The transfer runs between Google's and Proton's servers in the background, so it doesn't need free space on your device. Google Docs and Sheets arrive as Word (DOCX) and Excel (XLSX) files. Proton emails you when the import is done, and the imported files get Proton Drive's end-to-end encryption. Proton says Google Drive is the first service it supports; it hasn't said which come next.",
+ "where": "Proton Drive on the web, all plans, rolling out gradually",
+ "means": "If you've wanted to leave Google Drive but dreaded moving everything by hand, Proton now copies the files and folders for you.",
+ "todo": "Sign in to Proton Drive on the web, pick Easy Switch in the left menu (or Settings, then Import via Easy Switch), choose your Google account and start the import. If you don't see it yet, it hasn't reached your account.",
+ "apps": [
+  "Proton Drive",
+  "Google Drive"
+ ],
+ "sources": [
+  {
+   "name": "Proton blog",
+   "url": "https://proton.me/blog/introducing-easy-switch-drive"
+  }
+ ],
+ "item": 133749,
+ "idea": "news",
+ "traction": 18,
+ "thumb_words": "PROTON DRIVE IMPORTS GOOGLE DRIVE"
+}

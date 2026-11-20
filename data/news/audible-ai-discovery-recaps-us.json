@@ -2,22 +2,30 @@
  "slug": "audible-ai-discovery-recaps-us",
  "date": "2026-11-18",
  "added": "2026-11-19",
- "checked": "2026-11-19",
+ "checked": "2026-11-20",
  "topic": "Books",
- "tag": "Quick",
- "quick": true,
- "head": "Audible adds AI audio discovery, recaps and Ask a Question in the US",
- "dek": "Audible is rolling out an AI way to find your next audiobook on select English titles in the US, and expanding spoiler-free recaps and in-book questions to more US titles, with a broad rollout from December.",
+ "tag": "New feature",
+ "head": "Audible AI features: audio discovery, recaps and Ask a Question in the US",
+ "dek": "Audible is rolling out audio discovery in the US, short clips that mix an AI overview of a book, comments from its author or an Audible editor and a narrated sample, starting with select English titles. Recaps and Ask a Question, which were in beta, reach more US titles now and roll out widely from December.",
  "apps": [
   "Audible"
  ],
  "item": 125046,
- "idea": "newcomer",
+ "idea": "request",
  "traction": 0,
  "sources": [
   {
    "name": "AlternativeTo",
    "url": "https://alternativeto.net/news/2026/11/audible-rolls-out-ai-powered-discovery-tools-to-help-listeners-find-and-return-to-stories/"
+  },
+  {
+   "name": "Digital Trends",
+   "url": "https://digitaltrends.com/home-theater/amazon-audible-new-discovery-tricks-you-can-talk-to-audiobooks"
   }
- ]
+ ],
+ "details": "Recaps gives a short spoiler-free audio summary up to where you paused; Ask a Question answers questions about a character, plot point or historical reference while you listen. Both work only on titles you bought or get through your membership. Personalized collections based on your tastes are also new for US customers.",
+ "where": "US, Audible app, select titles now, wider rollout from December",
+ "means": "If you listen on Audible in the US, you can catch up on a book you left weeks ago or ask who a character was without leaving the app.",
+ "todo": "Update the Audible app. The features show on supported titles you own or get through your membership; more titles follow from December.",
+ "thumb_words": "AUDIBLE ADDS AI BOOK RECAPS"
 }

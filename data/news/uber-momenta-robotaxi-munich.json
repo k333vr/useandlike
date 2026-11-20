@@ -2,12 +2,11 @@
  "slug": "uber-momenta-robotaxi-munich",
  "date": "2026-11-18",
  "added": "2026-11-19",
- "checked": "2026-11-19",
+ "checked": "2026-11-20",
  "topic": "Travel",
- "tag": "Quick",
- "quick": true,
- "head": "Uber starts free robotaxi rides in Munich with Momenta",
- "dek": "Uber riders in northern Munich can now be matched with a Momenta self-driving car when they order UberX, Electric or Comfort. Rides are free during the pilot, and a safety operator sits in every car.",
+ "tag": "New feature",
+ "head": "Uber robotaxi in Munich: free Momenta self-driving rides in the Uber app",
+ "dek": "Since 18 November Uber riders in much of northern Munich, including the area around the Olympic Park, can be matched with a Momenta self-driving car when they order UberX, Electric or Comfort. It's the first time people in Germany can book an autonomous ride in the Uber app.",
  "apps": [
   "Uber"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 125230,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "Rides are free during the pilot, and a trained safety operator rides in every car. Momenta holds a German approval for Level 4 testing on public roads. Uber and Momenta plan to grow the area to more of Munich step by step.",
+ "where": "Northern Munich, Germany, Uber app, pilot since 18 November",
+ "means": "If you take Uber in northern Munich, your next UberX, Electric or Comfort ride may be a self-driving car, at no cost while the pilot runs.",
+ "todo": "Order a ride as usual in the Uber app; the source says riders register in the app and may then be matched with a robotaxi.",
+ "thumb_words": "UBER ROBOTAXIS START IN MUNICH"
 }

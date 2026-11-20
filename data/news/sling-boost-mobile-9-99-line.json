@@ -2,12 +2,11 @@
  "slug": "sling-boost-mobile-9-99-line",
  "date": "2026-11-18",
  "added": "2026-11-19",
- "checked": "2026-11-19",
+ "checked": "2026-11-20",
  "topic": "Money",
- "tag": "Quick",
- "quick": true,
- "head": "Sling TV subscribers can get a Boost Mobile line for $9.99",
- "dek": "New Boost Mobile customers with a Sling account get unlimited talk and text with 30GB of premium data for $9.99 a month for six months, then $25, if they bring an unlocked phone. Only in some US markets, for a limited time.",
+ "tag": "Offer",
+ "head": "Sling Boost Mobile deal: unlimited line for $9.99 a month",
+ "dek": "Sling TV subscribers who are new to Boost Mobile can get unlimited talk and text with 30GB of premium 5G/4G LTE data for $9.99 a month for six months, then $25 a month, according to Cord Cutters News (17 November). Only in some US markets, for a limited time.",
  "apps": [
   "Sling TV",
   "Boost Mobile"
@@ -19,6 +18,11 @@
   }
  ],
  "item": 123019,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "You need an unlocked compatible phone and must check out with the email address of your verified Sling account. There's no contract; after 30GB, speeds may slow when the network is busy, and taxes and fees may apply. Up to three lines per online order; lines added later don't get the full six months at $9.99. No end date was given.",
+ "where": "Select US markets, new Boost Mobile customers with a Sling account, limited time",
+ "means": "If you pay for Sling and want a cheaper phone line, this cuts the first six months to $9.99 a month, as long as you bring your own unlocked phone.",
+ "todo": "Check that your phone is unlocked, then sign up on Boost Mobile's website with the email of your Sling account. Note the price goes to $25 a month after six months.",
+ "thumb_words": "SLING USERS: $9.99 BOOST LINE"
 }

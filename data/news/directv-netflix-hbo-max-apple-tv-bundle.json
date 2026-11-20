@@ -1,0 +1,33 @@
+{
+ "slug": "directv-netflix-hbo-max-apple-tv-bundle",
+ "date": "2026-11-18",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Streaming",
+ "tag": "Price change",
+ "head": "DirecTV Netflix, HBO Max and Apple TV bundle from $27.99 a month",
+ "dek": "DirecTV streaming customers can now get Netflix, HBO Max and Apple TV in one monthly bundle. The Value plan costs $27.99 plus tax with ads on Netflix and HBO Max; Deluxe costs $43.49 plus tax without them.",
+ "details": "DirecTV says the bundle saves up to 20% against paying for the three services separately. Both plans renew monthly and can be cancelled anytime. Satellite customers can't get it yet; DirecTV says they will in 2027. Customers on the MyEntertainment Genre Pack or PREMIER, which already include HBO Max, are left out.",
+ "where": "US, DirecTV streaming customers",
+ "means": "If you already pay for Netflix, HBO Max and Apple TV and have DirecTV streaming, one bill could cost less. Subscriptions you pay directly to Netflix, HBO Max or Apple TV don't stop by themselves, so you could pay twice.",
+ "todo": "Before adding the bundle, cancel any of the three you pay for directly. Netflix and Apple TV send activation steps; for HBO Max, choose DirecTV as your TV provider in the app.",
+ "apps": [
+  "DirecTV",
+  "Netflix",
+  "HBO Max",
+  "Apple TV"
+ ],
+ "sources": [
+  {
+   "name": "Cord Cutters News",
+   "url": "https://cordcuttersnews.com/netflix-hbo-max-and-apple-tv-in-one-package-directv-just-made-it-happen/"
+  }
+ ],
+ "item": 129112,
+ "items": [
+  137607
+ ],
+ "idea": "news",
+ "traction": 21,
+ "thumb_words": "DIRECTV: NETFLIX + HBO MAX + APPLE TV"
+}

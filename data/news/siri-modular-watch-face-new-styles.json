@@ -1,0 +1,23 @@
+{
+ "slug": "siri-modular-watch-face-new-styles",
+ "date": "2026-11-18",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Apple",
+ "tag": "Quick",
+ "quick": true,
+ "head": "watchOS 27.3 beta adds two Siri styles to the Siri Modular watch face",
+ "dek": "The watchOS 27.3 beta gives the Siri Modular face two more styles, a large or compact clock with a three-button Siri shortcut module, for five styles in all. The update is expected in December.",
+ "apps": [
+  "Apple Watch"
+ ],
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/18/siri-modular-apple-watch-face-gains-two-new-styles-with-watchos-27-3/"
+  }
+ ],
+ "item": 129920,
+ "idea": "news",
+ "traction": 0
+}

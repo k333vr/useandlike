@@ -1,0 +1,30 @@
+{
+ "slug": "homeview-27-2-1-update-ios-27-3-beta",
+ "date": "2026-11-18",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Apple",
+ "tag": "Quick",
+ "quick": true,
+ "head": "HomeView 27.2.1 update out; iOS 27.3 beta can break Siri requests",
+ "dek": "Apple's first HomeView update, 27.2.1, installs from the Home app or HomeView's Settings, and its notes say pairing with an iPhone or iPad on the iOS 27.3 beta may make Siri requests fail. Personal requests won't work with the beta for now; timers and other on-device requests still do.",
+ "apps": [
+  "HomeView"
+ ],
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/19/ios-27-3-beta-can-cause-homeview-issues-apple-confirms/"
+  },
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/18/homeview-27-2-1-software/"
+  }
+ ],
+ "item": 127296,
+ "items": [
+  134210
+ ],
+ "idea": "news",
+ "traction": 0
+}

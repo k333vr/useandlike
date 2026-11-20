@@ -1,0 +1,23 @@
+{
+ "slug": "ao3-back-online-drafts-november-29",
+ "date": "2026-11-15",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Security",
+ "tag": "Quick",
+ "quick": true,
+ "head": "AO3 is back after 17 days; draft cleanup returns 29 November",
+ "dek": "Archive of Our Own returned on 15 November after a security incident took it offline on 29 October; icons, imports and some downloads are still limited. Its team advises changing your password, and automatic deletion of old drafts restarts on 29 November.",
+ "apps": [
+  "AO3"
+ ],
+ "item": 133324,
+ "idea": "trend",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "Digital Trends",
+   "url": "https://www.digitaltrends.com/computing/ao3-is-back-online-after-a-17-day-outage-but-the-fan-fiction-site-isnt-fully-healed-yet/"
+  }
+ ]
+}

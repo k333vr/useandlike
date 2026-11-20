@@ -1,0 +1,32 @@
+{
+ "slug": "instagram-save-songs-apple-music",
+ "date": "2026-11-18",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Music",
+ "tag": "New feature",
+ "head": "Instagram Apple Music integration: save songs from posts to a playlist",
+ "dek": "Instagram now lets you link your Apple Music account and save a song you hear in a post or Story with an Add to Apple Music button. Saved songs land in a new playlist called Instagram Songs in your Apple Music library.",
+ "details": "MacRumors spotted the option on 18 November and says it arrived some time in the week or two before. Until now you could share Apple Music songs in Stories and messages, but not save them from Instagram. Spotify users could already send songs from Instagram to their Liked Songs. Instagram and Apple haven't announced the change, and some people don't see the option yet.",
+ "where": "Rolling out quietly; no countries or dates announced",
+ "means": "If you use Apple Music, a song you like in a Reel or Story can go straight into your library instead of being lost when you scroll on. The songs collect in one playlist, not in one of your own.",
+ "todo": "Tap the song name on a post or Story, connect Apple Music when Instagram asks, then tap Add to Apple Music. Look for the Instagram Songs playlist in the Library section of the Music app. If the button doesn't show yet, update Instagram and try again later.",
+ "apps": [
+  "Instagram",
+  "Apple Music"
+ ],
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/18/apple-music-instagram-playlist/"
+  },
+  {
+   "name": "iPhone in Canada",
+   "url": "https://www.iphoneincanada.ca/2026/11/19/instagram-save-songs-directly-apple-music/"
+  }
+ ],
+ "item": 130287,
+ "idea": "news",
+ "traction": 29,
+ "thumb_words": "INSTAGRAM SONGS TO APPLE MUSIC"
+}

@@ -1,0 +1,28 @@
+{
+ "slug": "openai-phone-foxconn-report",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "AI",
+ "tag": "Rumor",
+ "rumor": true,
+ "head": "OpenAI phone: Foxconn unit reportedly got an order to build it",
+ "dek": "China's Securities Times reports that FIH Mobile, part of iPhone assembler Foxconn, has an order to help build a smartphone for ChatGPT maker OpenAI. The report cites unnamed supply chain sources, and OpenAI hasn't confirmed any phone.",
+ "details": "Analyst Ming-Chi Kuo said earlier that OpenAI is working on a phone built around AI agents, with a MediaTek or Qualcomm chip, and named Luxshare, not Foxconn, as its maker; it's unclear how the two reports fit together. The order's size, the specs and a launch date are not known. Separately, OpenAI is making AI hardware with io, the company started by former Apple designer Jony Ive.",
+ "where": "Not announced; no date or price",
+ "means": "If you use ChatGPT on your phone, a phone made by OpenAI itself may be in the works, but nothing about it is confirmed.",
+ "todo": "Nothing to do yet.",
+ "apps": [
+  "ChatGPT"
+ ],
+ "sources": [
+  {
+   "name": "Digital Trends",
+   "url": "https://www.digitaltrends.com/phones/openai-smartphone-foxconn-assembly-report/"
+  }
+ ],
+ "item": 134157,
+ "idea": "news",
+ "traction": 15,
+ "thumb_words": "OPENAI PHONE IN PRODUCTION?"
+}

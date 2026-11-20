@@ -1,0 +1,28 @@
+{
+ "slug": "avant-camera-cinematic-video-app",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Apps",
+ "tag": "New app",
+ "category": "Video Creation",
+ "head": "AVANT CAMERA is a cinematic video camera app for iPhone",
+ "dek": "AVANT CAMERA adds film-style colour to your videos while you record, so you see the look before you edit. It was #88 among paid Photo & Video apps on the US App Store on 19 November.",
+ "details": "It records in 24 or 30 frames per second, in Full HD or 4K depending on the iPhone, and can shoot Apple Log on phones that support it. You can lock exposure and white balance, and switch the colour look on or off. The latest update reads which lenses your iPhone has and saves each video's colour settings in the gallery. It came out on 10 November, costs $9.99 and is made by Hayata Sato.",
+ "where": "iPhone, App Store, $9.99",
+ "means": "If you want a film look on phone videos without colour grading afterwards, this app bakes it in while you shoot.",
+ "todo": "Find AVANT CAMERA in the App Store; it needs iOS 17 or later.",
+ "apps": [
+  "AVANT CAMERA"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/avant-camera/id6832453062"
+  }
+ ],
+ "item": 137976,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "FILM LOOK WHILE YOU RECORD"
+}

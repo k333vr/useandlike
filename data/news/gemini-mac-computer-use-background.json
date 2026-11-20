@@ -1,0 +1,32 @@
+{
+ "slug": "gemini-mac-computer-use-background",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "Gemini for Mac computer use: it now works your apps in the background",
+ "dek": "The Gemini app for Mac can now click, type and fill in forms across your Mac's apps, files and websites to finish a task you describe. It's rolling out from 19 November in the US, in English, for Google AI Plus, Pro and Ultra subscribers.",
+ "details": "Gemini works in a separate background window, so your own screen and cursor stay free, and the chat shows a live preview of each step. You pick which apps it may use, can pause it at any time and approve key actions before they happen. It needs a personal Google account, age 18 or older, and a Mac with Apple Silicon on macOS Sequoia 15.0 or later. Google's examples include filling in shipping quotes from PDFs and building a Google Slides deck from dashboards.",
+ "where": "US, English, Google AI Plus, Pro and Ultra, Gemini app for Mac (Apple Silicon, macOS 15 or later)",
+ "means": "If you pay for Google AI and use a Mac, Gemini can take over repetitive clicking work, but it acts inside the apps you allow, so it can also make mistakes there.",
+ "todo": "Get the Gemini app for Mac from gemini.google/mac, allow only the apps a task needs, and read each action before you approve it.",
+ "apps": [
+  "Gemini",
+  "macOS"
+ ],
+ "item": 135569,
+ "idea": "news",
+ "traction": 57,
+ "thumb_words": "GEMINI CAN NOW USE YOUR MAC",
+ "sources": [
+  {
+   "name": "Google blog",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/"
+  },
+  {
+   "name": "PPC Land",
+   "url": "https://ppc.land/gemini-can-now-operate-mac-apps-in-a-background-window-from-4-99/"
+  }
+ ]
+}

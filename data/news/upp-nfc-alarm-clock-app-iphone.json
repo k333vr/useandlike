@@ -1,0 +1,27 @@
+{
+ "slug": "upp-nfc-alarm-clock-app-iphone",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Productivity",
+ "tag": "New app",
+ "head": "Upp NFC alarm clock app for iPhone only stops when you scan a tag",
+ "dek": "Upp is a 99-cent iPhone alarm clock that keeps ringing until you scan an NFC sticker you've placed somewhere else, like the coffee machine or the bathroom mirror. It was #82 among paid Productivity apps on the US App Store on 19 November.",
+ "details": "You can chain up to four tags in a row, set a snooze budget the night before, and use snoozes that shrink from nine to six to three minutes. It rings through silent mode and Focus, starts quietly and gets louder, plays sleep sounds made on the phone (rain, brown noise and more), has streaks, widgets and Action Button support, and gives you a printable backup code in case a tag gets lost. It works with standard NTAG stickers, has no account or subscription, and the listing says no data is collected. Made by developer Joe Hilton, out since 12 November, it needs iOS 26.",
+ "where": "App Store, iPhone, $0.99 one-time; NFC stickers sold separately",
+ "means": "If you switch off your alarm and fall back asleep, this one makes you walk to another room first.",
+ "todo": "Search Upp: NFC Alarm Clock on the App Store, buy a pack of NTAG stickers and stick one where you want to end up in the morning.",
+ "apps": [
+  "Upp: NFC Alarm Clock"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/upp-nfc-alarm-clock/id6833498249"
+  }
+ ],
+ "item": 137970,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "ALARM STOPS ONLY IN THE KITCHEN"
+}

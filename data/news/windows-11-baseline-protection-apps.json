@@ -2,12 +2,11 @@
  "slug": "windows-11-baseline-protection-apps",
  "date": "2026-11-17",
  "added": "2026-11-19",
- "checked": "2026-11-19",
+ "checked": "2026-11-20",
  "topic": "Windows",
- "tag": "Quick",
- "head": "Windows 11 tests a security check that apps can use to block PCs",
- "dek": "Windows baseline protection, in preview for Insiders, rolls eight security features such as Secure Boot and Memory Integrity into one pass-or-fail signal; Adobe, Battle.net, 1Password and Schoolyear are testing it, and none has said it will block PCs that fail.",
- "quick": true,
+ "tag": "Heads-up",
+ "head": "Windows 11 baseline protection: apps may check your PC's security",
+ "dek": "Windows baseline protection, now in preview for Windows Insiders, rolls security features such as TPM 2.0, Secure Boot and Memory Integrity into one pass-or-fail result that apps can read. Adobe, Battle.net, 1Password and Schoolyear are testing it, and each app decides what happens on a PC that fails.",
  "apps": [
   "Windows 11"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 122734,
- "idea": "news",
- "traction": 23
+ "idea": "request",
+ "traction": 23,
+ "details": "An app could show a warning, limit features or refuse to run, Windows Latest reports; none of the four testers has said it will block PCs. Microsoft plans general availability in 2027 and wants to raise the bar with each version. Schoolyear uses it to confirm a student's PC meets the standard before an exam. Memory Integrity matters for gamers: if you turned it off yourself, your PC fails the check.",
+ "where": "Windows 11 Insider preview now, for everyone from 2027 (Microsoft's plan)",
+ "means": "If you switched off Secure Boot or Memory Integrity, some apps may later warn you or stop working until you turn them back on. Passing the check doesn't make a PC safe from malware.",
+ "todo": "On Insider builds, open Settings, then Security, then Baseline protection: a green shield means all protected, a yellow one shows what needs attention. Turn on protections switches on what Windows can and asks for a restart; Secure Boot has to be enabled in the PC's UEFI. On a work PC, ask your IT admin.",
+ "thumb_words": "WINDOWS 11 SECURITY CHECK FOR APPS"
 }

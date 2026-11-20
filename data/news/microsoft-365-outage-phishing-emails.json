@@ -2,12 +2,11 @@
  "slug": "microsoft-365-outage-phishing-emails",
  "date": "2026-11-17",
  "added": "2026-11-19",
- "checked": "2026-11-19",
+ "checked": "2026-11-20",
  "topic": "Security",
- "tag": "Quick",
- "quick": true,
- "head": "Fake Microsoft 365 outage emails try to steal your login",
- "dek": "Microsoft warns of phishing emails posing as service notices about the 12 November outage: the subject starts with \"Outage\" and a \"Restore messages\" button claims held mail will be deleted in 24 hours. Real Microsoft notices don't send you to other websites to get mail back, so don't click.",
+ "tag": "Safety",
+ "head": "Microsoft 365 outage email scam: fake notice asks you to restore mail",
+ "dek": "Emails posing as Microsoft 365 service notices about the 12 November outage claim that held messages will be deleted in 24 hours unless you press \"Restore messages\". Microsoft Threat Intelligence says they are likely credential phishing aimed at work logins.",
  "apps": [
   "Microsoft 365",
   "Outlook"
@@ -16,9 +15,18 @@
   {
    "name": "CSO Online",
    "url": "https://www.csoonline.com/article/4249611/hackers-exploit-microsoft-365-outage-to-launch-credential-phishing-campaign-2.html"
+  },
+  {
+   "name": "Khaleej Times",
+   "url": "https://www.khaleejtimes.com/business/tech/microsoft-finds-active-phishing-campaign-exploiting-service-disruption"
   }
  ],
  "item": 116252,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "The subject starts with \"Outage\" plus a short code, and the sender name ends in \"Outage Notification\" or \"Service Health\". Some emails cite the real Exchange Online incident number EX1550543 to look genuine. The button leads through tracking links to a site that has nothing to do with Microsoft. Microsoft says it has seen no accounts taken over so far, and messages caught by Defender for Office 365 were blocked or quarantined.",
+ "where": "Work Microsoft 365 accounts (Outlook, Exchange Online), US organisations in several sectors, since 13 November",
+ "means": "If you use Outlook or Teams through work, an email about lost outage mail is a trap: Microsoft's real service notices don't send you to other websites to get messages back.",
+ "todo": "Don't press the button; report the email to your IT team. If you already typed your password there, tell IT right away so they can reset it and sign you out everywhere.",
+ "thumb_words": "FAKE MICROSOFT OUTAGE EMAILS"
 }

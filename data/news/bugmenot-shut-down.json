@@ -1,0 +1,27 @@
+{
+ "slug": "bugmenot-shut-down",
+ "date": "2026-11-18",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Privacy",
+ "tag": "Shutdown",
+ "head": "BugMeNot shut down after more than 20 years",
+ "dek": "BugMeNot, the site where people shared logins for websites that force you to register, has closed. Its homepage now only says it has closed and thanks everyone who envisioned a better internet; no reason was given.",
+ "details": "Australian developer Guy King started BugMeNot in August 2003, at first without giving his name. Its creators later launched the coupon site RetailMeNot in 2006. The closing page also shows a block of letter groups that look random.",
+ "where": "Worldwide, the website is closed",
+ "means": "If you used BugMeNot to skip sign-up forms on news sites and forums, those shared logins are no longer available there.",
+ "todo": "Nothing to do. If you signed up for sites with your own email instead, a password manager keeps those logins in one place.",
+ "apps": [
+  "BugMeNot"
+ ],
+ "sources": [
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/bugmenot-the-veteran-site-that-helped-bypass-mandatory-web-registration-has-shut-down/"
+  }
+ ],
+ "item": 124522,
+ "idea": "news",
+ "traction": 0,
+ "thumb_words": "BUGMENOT SHUTS DOWN AFTER 23 YEARS"
+}

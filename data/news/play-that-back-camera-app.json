@@ -1,0 +1,31 @@
+{
+ "slug": "play-that-back-camera-app",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Video",
+ "tag": "New app",
+ "head": "Play That Back camera app: film with live looks on iPhone and Duo",
+ "dek": "Play That Back is a new free camera app for iPhone and iPad that shows a colour look live while you film and keeps a clean original of every shot. On the iPhone Duo, the person you're filming sees the look on the outer screen and can pick it.",
+ "details": "The free version has manual controls for ISO, shutter, white balance and focus, four of its 17 looks and two looks it learns from 6 to 12 photos you edited. Plus is a one-time purchase, not a subscription, with all the looks, curves and colour wheels and more fixes. It can import .cube LUT files, and a check shows what an app's compression and crop will do to a clip before you post it. It's made by Storytailor Inc., needs iOS 26, and a separate Mac app syncs your looks through iCloud Drive.",
+ "where": "iPhone and iPad, iOS 26 or later; free with a one-time Plus purchase",
+ "means": "If you film videos for social apps on your phone, this gives you a finished look while you shoot instead of editing it in later.",
+ "todo": "Try the free version first; Plus is one payment if you want all 17 looks.",
+ "apps": [
+  "Play That Back"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/play-that-back/id6832516286"
+  },
+  {
+   "name": "Product Hunt",
+   "url": "https://www.producthunt.com/products/play-that-back"
+  }
+ ],
+ "item": 131973,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "PLAY THAT BACK: LIVE FILM LOOKS"
+}

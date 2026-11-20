@@ -1,0 +1,23 @@
+{
+ "date": "2026-11-17",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "quick": true,
+ "tag": "Quick",
+ "slug": "instagram-content-protection-reposts",
+ "topic": "Social",
+ "head": "Instagram content protection finds reposted copies of creators' videos",
+ "dek": "Eligible creators can now have Instagram scan Instagram and Facebook for copies of their original videos, then track, hide or add an Original by credit to each copy. Instagram tells eligible creators in their activity feed.",
+ "apps": [
+  "Instagram"
+ ],
+ "sources": [
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/instagram-rolls-out-automatic-content-protection-to-help-creators-track-reposted-videos/"
+  }
+ ],
+ "item": 124461,
+ "idea": "news",
+ "traction": 21
+}

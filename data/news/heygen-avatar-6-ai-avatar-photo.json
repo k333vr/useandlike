@@ -1,0 +1,31 @@
+{
+ "slug": "heygen-avatar-6-ai-avatar-photo",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "HeyGen Avatar 6: make an AI avatar video of yourself from a photo",
+ "dek": "HeyGen launched Avatar 6, a model that turns one photo of you and a short recording of your voice into a video of you reading a script. It makes 2K video, matches hand gestures to what you say and can put two avatars in one conversation.",
+ "details": "HeyGen says raters couldn't reliably tell its videos from real footage 84.4 percent of the time, its own test. The first video is free without a card; after that HeyGen uses credits, with paid plans from 29 dollars a month for 600 credits. You can only make an avatar of yourself or of someone who clearly agreed, and you can ask HeyGen to remove your likeness.",
+ "where": "HeyGen website and app, worldwide, free first video",
+ "means": "If you make videos and don't want to film yourself every time, you can type a script and get a clip with your own face and voice.",
+ "todo": "To try it, upload a clear photo of your face, verify it's you, record at least 15 to 30 seconds of yourself talking, then add a script.",
+ "apps": [
+  "HeyGen"
+ ],
+ "item": 131853,
+ "idea": "newcomer",
+ "traction": 15,
+ "thumb_words": "HEYGEN AVATAR 6: YOU FROM ONE PHOTO",
+ "sources": [
+  {
+   "name": "HeyGen",
+   "url": "https://www.heygen.com/models/heygen-avatar-6"
+  },
+  {
+   "name": "Product Hunt",
+   "url": "https://www.producthunt.com/products/heygen"
+  }
+ ]
+}

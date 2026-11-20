@@ -1,0 +1,28 @@
+{
+ "slug": "fernshift-shift-calendar-app",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Productivity",
+ "tag": "New app",
+ "head": "FernShift shift calendar app for iPhone plans rotating work shifts",
+ "dek": "FernShift is a 2.99 dollar iPhone and iPad calendar for people who work rotating shifts, with repeating patterns of up to eight weeks and 12-hour or 8-hour schedules. It was #87 among paid Productivity apps on the US App Store on 19 November.",
+ "details": "You can change single days and add overtime, vacation, holidays, paydays and notes, and share the calendar with family or friends. It's a one-time purchase with no account, ads, subscription or tracking, and the schedule stays on the phone. Fernique LLC released it on 23 October; it needs iOS 17 or later.",
+ "where": "App Store, iPhone and iPad, 2.99 dollars",
+ "means": "If you work days, nights or a rotating pattern, the app shows which shifts are coming without filling in your calendar by hand.",
+ "todo": "Search FernShift on the App Store and enter your shift pattern once; it repeats forward from there.",
+ "apps": [
+  "FernShift"
+ ],
+ "category": "Productivity",
+ "item": 137971,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "SHIFT WORK CALENDAR, NO SUBSCRIPTION",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/fernshift-shift-calendar/id6820214620"
+  }
+ ]
+}

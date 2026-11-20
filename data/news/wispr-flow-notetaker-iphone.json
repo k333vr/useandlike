@@ -1,0 +1,35 @@
+{
+ "slug": "wispr-flow-notetaker-iphone",
+ "date": "2026-11-18",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "Wispr Flow Notetaker on iPhone: free AI notes for in-person meetings",
+ "dek": "Wispr Flow's Notetaker, its AI meeting notes tool, is now in the free Wispr Flow iPhone app: you record a meeting in the room and get a transcript, a summary and action items. Notes sync with the Mac and Windows apps.",
+ "details": "The update came out on the App Store on 18 November (version 2.0.3); dictation keeps working as before. No bot joins your calls, and you can ask the AI questions about past meetings from your phone. The free plan includes a set number of meeting notes each week, recordings under five minutes don't count, and meetings older than 30 days lock until you upgrade. Wispr says Android support is coming soon.",
+ "where": "iPhone (free, in-app purchases), with Mac and Windows; Android not yet",
+ "means": "If you sit in meetings, interviews or classes, your phone can now take the notes and hand you the to-do list afterwards, free up to a weekly limit.",
+ "todo": "Update Wispr Flow on the App Store or download it. Tell everyone in the room before you start recording; Wispr asks you to do so.",
+ "apps": [
+  "Wispr Flow"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/id6497229487"
+  },
+  {
+   "name": "Wispr Flow",
+   "url": "https://wisprflow.ai/notetaker/free-ai-notetaker"
+  },
+  {
+   "name": "Product Hunt",
+   "url": "https://www.producthunt.com/products/wisprflow"
+  }
+ ],
+ "item": 131856,
+ "idea": "newcomer",
+ "traction": 15,
+ "thumb_words": "WISPR FLOW NOTETAKER COMES TO IPHONE"
+}

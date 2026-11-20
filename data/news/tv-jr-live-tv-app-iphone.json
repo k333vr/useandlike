@@ -1,0 +1,28 @@
+{
+ "slug": "tv-jr-live-tv-app-iphone",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Streaming",
+ "tag": "New app",
+ "head": "TV Jr. app puts your HDHomeRun live TV channels on iPhone",
+ "dek": "TV Jr. is a new 1.99-dollar iPhone app that lays out live TV you already have, from an HDHomeRun antenna tuner, your own playlists or streams, as a simple channel list that also works on HomeView. It brings no channels of its own and was #9 among paid Entertainment apps on the US App Store on 19 November.",
+ "details": "The channel you pick plays at the top while you scroll the rest, and turning the phone makes it full screen. It finds an HDHomeRun tuner on your Wi-Fi without a DVR or server, shows what's on now with time left, and supports captions, AirPlay and picture in picture. It's made by developer Ben Markowitz, came out on 18 November and needs iOS 27. The listing asks you to add only streams you have the right to watch.",
+ "where": "iPhone and iPad (iOS 27), US App Store, 1.99 dollars",
+ "means": "If you watch antenna TV through an HDHomeRun box, you get a channel-flipping view on your phone; without a tuner or your own streams, the app has nothing to show.",
+ "todo": "Only buy it if you already have an HDHomeRun tuner, a home media server playlist or other live streams you're allowed to watch.",
+ "apps": [
+  "TV Jr.",
+  "HDHomeRun"
+ ],
+ "sources": [
+  {
+   "name": "App Store: TV Jr.",
+   "url": "https://apps.apple.com/us/app/tv-jr/id6818644922"
+  }
+ ],
+ "item": 137988,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "TV JR.: ANTENNA TV ON YOUR IPHONE"
+}

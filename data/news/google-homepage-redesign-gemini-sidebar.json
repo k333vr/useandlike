@@ -1,0 +1,28 @@
+{
+ "slug": "google-homepage-redesign-gemini-sidebar",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Google",
+ "tag": "Update",
+ "head": "Google homepage redesign: Gemini sidebar with your chats on desktop",
+ "dek": "The Google Search homepage on computers is getting Gemini shortcuts under the search bar for making images, analysing files and brainstorming, in place of the Google Search button. A new sidebar lists your Gemini chats and tasks with a New chat button.",
+ "details": "Google's Robby Stein said the redesign is rolling out worldwide; 9to5Google confirmed it on 19 November but didn't see it on its own devices yet. The report covers the desktop page only and doesn't mention a way to switch it off.",
+ "where": "google.com on computers, rolling out worldwide from 19 November",
+ "means": "If your Google page suddenly looks different, this is why: the Gemini sidebar and shortcuts are part of Google's new layout, and the search bar is still there.",
+ "todo": "Nothing to do. The sources don't mention a setting to bring back the old page.",
+ "apps": [
+  "Google Search",
+  "Gemini"
+ ],
+ "item": 136933,
+ "idea": "news",
+ "traction": 60,
+ "thumb_words": "GOOGLE HOMEPAGE GETS GEMINI SIDEBAR",
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/19/google-search-homepage-gemini-sidebar-update/"
+  }
+ ]
+}

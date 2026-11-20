@@ -1,0 +1,25 @@
+{
+ "slug": "microsoft-365-problems-november-19",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Email",
+ "tag": "Quick",
+ "head": "Some Microsoft 365 users report new problems a week after outage",
+ "dek": "Users reported fresh trouble with Microsoft 365 a week after the 12 November outage; Microsoft hadn't confirmed a new outage. Its service health page and the Microsoft 365 Status account on X show official updates.",
+ "quick": true,
+ "apps": [
+  "Microsoft 365",
+  "Outlook",
+  "Teams"
+ ],
+ "sources": [
+  {
+   "name": "IBTimes Australia",
+   "url": "https://www.ibtimes.com.au/microsoft-365-users-report-new-problems-after-global-outage-1878965"
+  }
+ ],
+ "item": 134647,
+ "idea": "news",
+ "traction": 15
+}

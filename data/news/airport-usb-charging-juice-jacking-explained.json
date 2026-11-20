@@ -1,0 +1,70 @@
+{
+ "slug": "airport-usb-charging-juice-jacking-explained",
+ "date": "2026-11-20",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Security",
+ "tag": "Explainer",
+ "head": "Is it safe to charge your phone at the airport? Juice jacking explained",
+ "dek": "Charging from an airport USB port carries a small risk known as juice jacking, where a rigged port tries to reach your phone's data, but security researchers know of no credible real attacks, and your own charger or a battery pack takes the risk away.",
+ "sections": [
+  {
+   "h": "What juice jacking is",
+   "p": [
+    "A USB cable carries power and data on separate wires inside the same plug. Juice jacking is the idea that someone tampers with a public USB charging port so it uses the data wires too, to put malware on a phone or copy data from it while it charges.",
+    "The idea isn't new. Engadget points to a 2013 Black Hat USA talk where Georgia Tech researchers showed a fake charger called Mactans that could install malware on an iPhone running iOS 6. That demonstration is a big part of why the warnings still come back every travel season."
+   ]
+  },
+  {
+   "h": "What the warnings say, and how real the risk is",
+   "p": [
+    "In March 2025 the TSA told travelers in a Facebook post not to plug their phone directly into a USB port at the airport, and to carry a power bank or battery pack that follows its rules instead. The FBI's Denver office and the FCC have posted similar warnings in the past, and the Los Angeles County District Attorney warned about it in 2019.",
+    "The risk is real in theory but rare in practice. In an Engadget article from 2 November 2026, security researchers say there are no credible reports of successful attacks, only proof-of-concept demonstrations. Engadget notes that the FCC later withdrew its warning after experts disputed how big the threat is, and the Los Angeles County District Attorney later said it had no cases.",
+    "Paul Ducklin, writing for Sophos, tested an iPhone on iOS 16 and a Pixel on Android 13: neither phone opened a data connection on its own, and files stayed locked until the phone was unlocked and the connection approved. He sees poor-quality power supplies as the more likely problem, along with small leaks such as the phone's name."
+   ]
+  },
+  {
+   "h": "What your phone already does to protect you",
+   "p": [
+    "On an iPhone or iPad, connecting to a computer or another device for the first time brings up a Trust This Computer alert. Apple says a trusted computer can sync with your device and get to your photos, videos, contacts and other content, so tap Don't Trust on anything that is only meant to charge your phone.",
+    "If you trusted something by mistake, Apple's support page shows how to undo it: Settings, General, Transfer or Reset iPhone, Reset, then Reset Location & Privacy. After that, every computer has to ask again. It also resets your location and privacy choices for apps.",
+    "On Android, a USB connection starts as charging. Google's help page says you only get file access after you tap the Charging this device via USB notification and pick File Transfer under Use USB for, so leave that alone at a public port."
+   ]
+  },
+  {
+   "h": "Safer ways to charge on a trip",
+   "p": [
+    "For no risk at all, skip public USB ports: plug your own charger and cable into a wall socket, or charge from a battery pack. Some places have secure charging points that block data completely.",
+    "If you have to use a public USB port, lock your phone first and decline any trust prompt. Engadget also mentions small USB data blockers, which pass power but not data. It notes that USB-A blockers can slow fast charging, because chargers use the data connection to agree on power, while USB-C blockers don't have that problem.",
+    "Sophos adds a few more ideas: carry a charger you trust, avoid unknown cables and cheap chargers, or use a power-only cable. Engadget's general travel advice goes beyond chargers: keep sensitive tasks off public Wi-Fi, install updates and turn on two-step sign-in for important accounts."
+   ]
+  }
+ ],
+ "means": "If you charge at airport USB ports, the chance of your phone being hacked that way is small, and your phone asks before it shares data; your own charger in a wall socket or a battery pack removes the risk entirely.",
+ "todo": "Pack your own charger and cable or a charged battery pack. At a public USB port, lock the phone and tap Don't Trust on an iPhone, or leave Android on charging only. If you once trusted an unknown device, reset Location & Privacy on your iPhone.",
+ "apps": [
+  "iPhone",
+  "Android"
+ ],
+ "idea": "competitor",
+ "traction": 0,
+ "thumb_words": "AIRPORT USB PORTS: SAFE TO CHARGE?",
+ "sources": [
+  {
+   "name": "Apple Support: Trust This Computer alert",
+   "url": "https://support.apple.com/en-us/109054"
+  },
+  {
+   "name": "Android Help: transfer files by USB",
+   "url": "https://support.google.com/android/answer/9064445?hl=en"
+  },
+  {
+   "name": "Engadget",
+   "url": "https://engadget.com/2279347/is-it-safe-to-charge-phone-with-airport-usb-port/"
+  },
+  {
+   "name": "Sophos",
+   "url": "https://www.sophos.com/en-us/blog/fbi-and-fcc-warn-about-juicejacking-but-just-how-useful-is-their-advice"
+  }
+ ]
+}

@@ -2,12 +2,11 @@
  "slug": "whatsapp-cloud-backup-iphone-beta",
  "date": "2026-11-18",
  "added": "2026-11-19",
- "checked": "2026-11-19",
+ "checked": "2026-11-20",
  "topic": "Messaging",
- "tag": "Quick",
- "quick": true,
- "head": "WhatsApp tests its own chat backup on iPhone as an iCloud alternative",
- "dek": "Some iPhone beta testers (version 26.45.10.71) can now back up chats to WhatsApp's own servers instead of iCloud, end-to-end encrypted, with 2 GB free and 100 GB on WhatsApp Plus. iCloud stays the default, and WhatsApp hasn't said when everyone gets it.",
+ "tag": "In testing",
+ "head": "WhatsApp backup on iPhone without iCloud: beta tests its own servers",
+ "dek": "Some WhatsApp beta testers on iPhone (version 26.45.10.71) can now back up their chats to WhatsApp's own end-to-end encrypted servers instead of iCloud. WhatsApp hasn't said when everyone gets it, and iCloud stays the default.",
  "apps": [
   "WhatsApp",
   "iCloud"
@@ -19,7 +18,15 @@
   }
  ],
  "item": 125946,
- "idea": "news",
+ "items": [
+  136915
+ ],
+ "idea": "request",
  "traction": 18,
- "rumor": true
+ "rumor": true,
+ "details": "The WhatsApp option includes 2 GB free; WhatsApp Plus at $2.49 a month gives 100 GB, and Meta One plans up to 4 TB, according to MacRumors. It covers chat backups only. Code for the choice of backup place first showed up in beta builds in July, and Android already has this option.",
+ "where": "Some iPhone beta testers on TestFlight now; no date for everyone",
+ "means": "If your iCloud storage is full and WhatsApp backups keep failing, a free 2 GB backup on WhatsApp's servers may help once it comes out for everyone.",
+ "todo": "Nothing to do yet unless you're in the TestFlight beta, where the choice sits in the chat backup settings. Until then, keep your iCloud backup on.",
+ "thumb_words": "WHATSAPP BACKUP WITHOUT ICLOUD?"
 }

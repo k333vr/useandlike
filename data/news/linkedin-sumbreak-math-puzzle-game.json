@@ -1,0 +1,23 @@
+{
+ "date": "2026-11-18",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "quick": true,
+ "tag": "Quick",
+ "slug": "linkedin-sumbreak-math-puzzle-game",
+ "topic": "Social",
+ "head": "LinkedIn adds Sumbreak, a number-merging puzzle game",
+ "dek": "Sumbreak, LinkedIn's ninth in-app game, has you merge matching numbers on a grid until one tile is left, and you can challenge other people to it.",
+ "apps": [
+  "LinkedIn"
+ ],
+ "sources": [
+  {
+   "name": "Social Media Today",
+   "url": "https://www.socialmediatoday.com/news/linkedin-adds-ninth-in-stream-game/875119/"
+  }
+ ],
+ "item": 131112,
+ "idea": "news",
+ "traction": 0
+}

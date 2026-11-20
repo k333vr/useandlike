@@ -1,0 +1,74 @@
+{
+ "slug": "gta-6-cloud-gaming-remote-play-explained",
+ "date": "2026-11-20",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Games",
+ "tag": "Explainer",
+ "head": "GTA 6 cloud gaming explained: Xbox One, PC, Remote Play and size",
+ "dek": "GTA 6 came out on 19 November for PS5 and Xbox Series X and S, Xbox One owners can only stream it through Xbox Cloud Gaming, there's no PC version or PC streaming, and Remote Play lets you stream it from your own console to another screen.",
+ "sections": [
+  {
+   "h": "Where GTA 6 runs",
+   "p": [
+    "Grand Theft Auto VI launched on 19 November 2026 for PlayStation 5 and Xbox Series X and S. Those are the only consoles with a version you install. There is no native Xbox One version and no PC version.",
+    "GamingBolt reports that the game runs at 30 frames a second on the consoles, PS5 Pro included, where it also uses PlayStation's own upscaling and adds ray-traced shadows."
+   ]
+  },
+  {
+   "h": "Streaming it with Xbox Cloud Gaming",
+   "p": [
+    "Rockstar confirmed on 10 November that GTA 6 streams through Xbox Cloud Gaming on Xbox Series X and S and on Xbox One, and streaming started at 1 a.m. Eastern time on launch day. For Xbox One owners, the cloud is the only way to play it.",
+    "Cloud access doesn't include the game: you still have to buy GTA 6. Xbox Cloud Gaming comes with Game Pass Ultimate, and since 11 November players in supported markets can also buy cloud playtime without Game Pass. Xbox says options, supported devices and features vary by market and device.",
+    "The streamed game uses Xbox Series S graphics settings on every console, even when you stream it on a Series X, and your internet connection affects how it plays."
+   ]
+  },
+  {
+   "h": "What about PC and phones?",
+   "p": [
+    "Xbox Cloud Gaming normally works on Windows PCs, but not for GTA 6 at launch. Xbox's chief strategist Matthew Ball said the game won't stream to PC, and he also denied reports of an exclusive cloud deal for Xbox. Rockstar's cloud announcement only names Xbox consoles.",
+    "Rockstar says GTA 6 fully supports Remote Play on PlayStation and Xbox. Remote Play streams the game from a console you own to another screen, and GamingBolt names the PlayStation Portal and phones as uses. Rockstar hasn't confirmed which PCs or handhelds work with it.",
+    "A rumor says a PC version could follow in the first quarter of 2027. Rockstar and its owner Take-Two haven't confirmed that, so for now any GTA 6 PC download is fake. NordVPN has warned that fake GTA 6 PC downloads are spreading malware."
+   ]
+  },
+  {
+   "h": "The download is big",
+   "p": [
+    "Dexerto reports the game needs up to 212 GB, roughly a third of a base PS5's usable storage. Rockstar opened pre-loads on 10 November, so check your free space before you start.",
+    "In the US, Xfinity gives eligible internet customers a free 15-day boost to download speeds of up to 2 Gbps, which they turn on in the Xfinity app or on Xfinity's membership page. Claims close on 3 December, and anyone who claims that day keeps the faster speed until 18 December."
+   ]
+  }
+ ],
+ "means": "If you have a PS5 or an Xbox Series console, you can install and play GTA 6 now; on an Xbox One you need cloud access plus the game, and on a PC there's no official way to play except Remote Play from a console you own.",
+ "todo": "Free up about 212 GB before downloading. On an Xbox One, buy the game and check that you have Game Pass Ultimate or cloud playtime. Ignore any site offering a GTA 6 PC download.",
+ "apps": [
+  "GTA 6",
+  "Xbox Cloud Gaming",
+  "PS Remote Play"
+ ],
+ "idea": "competitor",
+ "traction": 0,
+ "thumb_words": "GTA 6 ON XBOX ONE AND PC?",
+ "sources": [
+  {
+   "name": "Dexerto: GTA 6 cloud gaming",
+   "url": "https://www.dexerto.com/gta/gta-6-confirms-xbox-cloud-gaming-support-but-pc-players-face-a-catch-3427015/"
+  },
+  {
+   "name": "games.gg",
+   "url": "https://games.gg/news/gta-6-xbox-one-cloud-gaming-launch/"
+  },
+  {
+   "name": "GamingBolt",
+   "url": "https://gamingbolt.com/gta-6-supports-xbox-cloud-gaming-including-on-xbox-one-and-remote-play"
+  },
+  {
+   "name": "Dexerto: GTA 6 download size",
+   "url": "https://www.dexerto.com/gta/xfinity-offers-free-gta-6-speed-boost-to-download-the-massive-212gb-game-in-30-minutes-3427043/"
+  },
+  {
+   "name": "TechRadar",
+   "url": "https://www.techradar.com/vpn/vpn-privacy-security/fake-gta-6-pc-downloads-are-spreading-malware-through-dark-web-scam-bundle-nordvpn-warns"
+  }
+ ]
+}

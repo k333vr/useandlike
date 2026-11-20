@@ -1,0 +1,28 @@
+{
+ "slug": "canva-turn-off-ai-features",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "AI",
+ "tag": "New feature",
+ "category": "Productivity & Design",
+ "head": "Canva turn off AI features: new switch for free and paid users",
+ "dek": "Canva now has a setting that switches off its generative AI tools, such as Magic Expand (which extends a photo), Magic Write and image making in its chatbot. It's there for free and paid accounts, with a second option to see less AI-made content in the library.",
+ "details": "The switch also turns off Magic Design, Magic Layers, Magic Edit, Dream Lab, Canva Code and AI Shapes, among others. The background remover and Magic Grab, which moves an object within a photo, stay on; Canva says they speed up everyday tasks without generating anything new. With the library option on, human-made templates and graphics come first in search; Canva says a small part of its library is AI-generated and labelled as such in its metadata.",
+ "where": "Free and paid Canva accounts",
+ "means": "If Canva's AI buttons and suggestions get in your way, you can now hide most of them in one place.",
+ "todo": "Go to Profile > Settings > Permission and turn off Enable generative AI features. For less AI content in search, go to Profile > Your account > AI personalization and turn on the option to show less AI content.",
+ "apps": [
+  "Canva"
+ ],
+ "sources": [
+  {
+   "name": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button"
+  }
+ ],
+ "item": 132979,
+ "idea": "news",
+ "traction": 34,
+ "thumb_words": "CANVA ADDS AN AI OFF SWITCH"
+}

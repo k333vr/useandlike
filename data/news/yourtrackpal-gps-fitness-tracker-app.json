@@ -1,0 +1,27 @@
+{
+ "slug": "yourtrackpal-gps-fitness-tracker-app",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Health",
+ "tag": "New app",
+ "head": "YourTrackPal GPS fitness tracker app: 10 sports, no subscription",
+ "dek": "YourTrackPal is a $1.99 GPS workout tracker for iPhone that covers ten sports, from running and cycling to swimming and skiing, with no subscription, ads or account. It was #66 among paid Health & Fitness apps on the US App Store on 19 November.",
+ "details": "Your route fills the screen on a live map with distance, pace, time and elevation on top, using Google Maps or Apple Maps. For mountain biking and skiing it detects chairlift and gondola rides so they don't count in your stats, and you can trim the start or end of a route or race a ghost runner at your target pace. It pairs Bluetooth heart-rate and cadence sensors, can save workouts to Apple Health (off unless you turn it on), imports GPX, FIT and TCX files and exports GPX. Workouts stay on the phone; weather uses a rough location sent to Apple Weather, and with Google Maps, Google sees the map area you view. Made by developer Jeremy Dixon, out since 5 November; the listing says no in-app purchases.",
+ "where": "App Store, iPhone, $1.99 one-time, iOS 15.1 or later",
+ "means": "If you want to track runs, rides or ski days without another monthly fee, this one costs once.",
+ "todo": "Search YourTrackPal on the App Store; to keep Google out of your map data, switch to Apple Maps in its settings.",
+ "apps": [
+  "YourTrackPal: GPS Tracker"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/yourtrackpal-gps-tracker/id6775038069"
+  }
+ ],
+ "item": 137982,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "GPS TRACKER, 10 SPORTS, PAY ONCE"
+}

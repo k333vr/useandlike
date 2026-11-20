@@ -1,0 +1,24 @@
+{
+ "slug": "razr-fold-android-17-update",
+ "date": "2026-11-18",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Android",
+ "tag": "Quick",
+ "head": "Motorola Razr Fold gets its Android 17 update, Europe first",
+ "dek": "Razr Fold owners in Europe are getting Android 17, a download of about 4.15 GB with a new design, tidier notifications and faster multitasking; the US date isn't confirmed.",
+ "quick": true,
+ "apps": [
+  "Android 17",
+  "Motorola Razr Fold"
+ ],
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/18/motorola-razr-fold-android-17-update/"
+  }
+ ],
+ "item": 127765,
+ "idea": "news",
+ "traction": 0
+}

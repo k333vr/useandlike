@@ -1,0 +1,27 @@
+{
+ "slug": "translatebuff-ai-translation-extension",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "AI",
+ "tag": "Quick",
+ "quick": true,
+ "head": "TranslateBuff translates web pages and compares 20+ AI models",
+ "dek": "TranslateBuff is a browser extension for Chrome, Edge and Firefox that shows a page's original and translated text side by side, free with Google and Microsoft translation. Its paid Pro plan adds AI models such as GPT, Gemini, Claude and DeepL and lets you compare their results.",
+ "apps": [
+  "TranslateBuff"
+ ],
+ "sources": [
+  {
+   "name": "TranslateBuff",
+   "url": "https://translatebuff.com"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/translatebuff"
+  }
+ ],
+ "item": 133821,
+ "idea": "newcomer",
+ "traction": 0
+}

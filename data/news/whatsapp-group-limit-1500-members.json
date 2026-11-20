@@ -1,0 +1,31 @@
+{
+ "slug": "whatsapp-group-limit-1500-members",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Messaging",
+ "tag": "Update",
+ "head": "WhatsApp group limit increase: groups now hold up to 1,500 members",
+ "dek": "WhatsApp is raising the maximum group size from 1,024 to 1,500 members on Android and iPhone, for regular groups and the group chats inside Communities. It's rolling out gradually on the latest app versions, so only some accounts have it so far.",
+ "details": "Existing groups move to the new limit by themselves, so admins don't need to do anything and can add up to 476 more people. A Community's announcement group isn't affected, because it already allows 2,000 members. Accounts still capped at 1,024 should get the change over the coming weeks; WhatsApp hasn't given a date for everyone. WABetaInfo reported the rollout on 19 November.",
+ "where": "Android and iPhone, latest WhatsApp versions, rolling out to some accounts now",
+ "means": "If you run a big family, school or work group that kept hitting 1,024 people, you may soon fit everyone into one chat instead of splitting it.",
+ "todo": "Update WhatsApp from the App Store or Google Play. If your group still stops at 1,024, wait: the higher limit is reaching more accounts over the next weeks.",
+ "apps": [
+  "WhatsApp"
+ ],
+ "sources": [
+  {
+   "name": "WABetaInfo",
+   "url": "https://wabetainfo.com/whatsapp-is-rolling-out-larger-group-chats-with-1500-members/"
+  },
+  {
+   "name": "The News",
+   "url": "https://www.thenews.com.pk/latest/1424302-whatsapp-raises-group-chat-limit-from-1024-to-1500-members"
+  }
+ ],
+ "item": 130593,
+ "idea": "news",
+ "traction": 37,
+ "thumb_words": "WHATSAPP GROUPS: NOW 1,500 MEMBERS"
+}

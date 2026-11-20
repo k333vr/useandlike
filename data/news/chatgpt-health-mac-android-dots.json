@@ -2,11 +2,12 @@
  "slug": "chatgpt-health-mac-android-dots",
  "date": "2026-11-16",
  "added": "2026-11-17",
- "checked": "2026-11-18",
+ "checked": "2026-11-20",
+ "updated": "2026-11-19",
  "topic": "AI",
  "tag": "Update",
- "head": "ChatGPT Health app coming to Mac, Android and Dots",
- "dek": "OpenAI has told users that ChatGPT Health will come to the ChatGPT Mac app, Android, ChatGPT Sites and Dots, its proactive assistant. No date was given; today it works only in the US on iPhone, iPad and the web.",
+ "head": "ChatGPT Health now on the desktop app, Android and Dots",
+ "dek": "ChatGPT Health now works in the ChatGPT desktop app, on Android, in ChatGPT Sites and in Dots, its proactive assistant, OpenAI said on 19 November. Earlier in the month it had only said these were coming; Health is for US users.",
  "apps": [
   "ChatGPT"
  ],
@@ -16,16 +17,21 @@
    "url": "https://9to5mac.com/2026/11/16/chatgpt-health-feature-will-soon-work-with-mac-app-dots-more/"
   },
   {
+   "name": "9to5Mac (update, 19 November)",
+   "url": "https://9to5mac.com/2026/11/19/chatgpt-health-feature-will-soon-work-with-mac-app-dots-more/"
+  },
+  {
    "name": "9to5Mac (July relaunch)",
    "url": "https://9to5mac.com/2026/07/23/openai-relaunches-apple-health-connected-chatgpt-feature-with-expanded-access/"
   }
  ],
  "item": 109964,
+ "items": [137248],
  "idea": "request",
  "traction": 0,
- "details": "ChatGPT Health connects, if you allow it, to Apple Health on iPhone and to supported medical records, so ChatGPT can compare test results over time or summarise changes since a doctor's visit. Since its relaunch in July it is open to logged-in users aged 18 and up in the US on the Free, Go, Plus and Pro plans. The Mac app would be its first desktop app. OpenAI sent the notice earlier in November.",
- "where": "US only; iPhone, iPad and web now, Mac, Android, Sites and Dots later (no date)",
- "means": "If you use ChatGPT on a Mac or an Android phone in the US, the Health section should reach you there too, but not yet.",
- "todo": "Nothing to do yet. On iPhone, iPad or the web in the US, Health is in ChatGPT's sidebar; connecting Apple Health or records is optional.",
- "thumb_words": "CHATGPT HEALTH COMING TO MAC"
+ "details": "ChatGPT Health connects, if you allow it, to Apple Health on iPhone and to supported medical records, so ChatGPT can compare test results over time or summarise changes since a doctor's visit. Since its relaunch in July it is open to logged-in users aged 18 and up in the US on the Free, Go, Plus and Pro plans. On the desktop app it can look at sleep and workout patterns, such as how sleep differs after morning or evening workouts. OpenAI sent a notice earlier in November and confirmed the launch on 19 November.",
+ "where": "US; iPhone, iPad, web, desktop app, Android, Sites and Dots",
+ "means": "If you use ChatGPT on a computer or an Android phone in the US, the Health section is now there too.",
+ "todo": "Update the ChatGPT app. Health is in ChatGPT's sidebar; connecting Apple Health or medical records is optional.",
+ "thumb_words": "CHATGPT HEALTH NOW ON DESKTOP"
 }

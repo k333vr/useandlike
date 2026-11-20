@@ -1,0 +1,27 @@
+{
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "quick": true,
+ "tag": "Quick",
+ "slug": "meshynet-social-feed-android-app",
+ "topic": "Social",
+ "head": "MeshyNet puts nine social apps into one feed without suggested posts",
+ "dek": "MeshyNet, an Android app from Slovak company Digital media consulting, shows posts from public profiles you pick on Instagram, Facebook, YouTube, TikTok, Threads, Pinterest, Bluesky, Spotify podcasts and Google News in one feed with no ranking. An iPhone version is coming; it has a paid Unlimited upgrade.",
+ "apps": [
+  "MeshyNet"
+ ],
+ "sources": [
+  {
+   "name": "MeshyNet",
+   "url": "https://meshynet.com"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/meshynet"
+  }
+ ],
+ "item": 133818,
+ "idea": "newcomer",
+ "traction": 0
+}

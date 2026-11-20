@@ -1,0 +1,23 @@
+{
+ "slug": "galaxy-s25-s24-november-security-update",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Samsung",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Galaxy S25 and S24 get the November security update in Korea first",
+ "dek": "Samsung's November 2026 security patch, with 20 critical Android fixes plus Samsung's own fixes for the bootloader and camera, is rolling out to the Galaxy S25 and S24 series in South Korea. There's no date yet for US models.",
+ "apps": [
+  "One UI"
+ ],
+ "sources": [
+  {
+   "name": "TalkAndroid",
+   "url": "https://www.talkandroid.com/535699-galaxy-s25-s24-november-2026-security-update/"
+  }
+ ],
+ "item": 132306,
+ "idea": "news",
+ "traction": 26
+}

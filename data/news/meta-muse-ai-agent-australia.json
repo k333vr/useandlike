@@ -2,12 +2,11 @@
  "slug": "meta-muse-ai-agent-australia",
  "date": "2026-11-17",
  "added": "2026-11-19",
- "checked": "2026-11-19",
+ "checked": "2026-11-20",
  "topic": "AI",
- "tag": "Quick",
- "head": "Meta's Muse AI agent launches in Australia",
- "dek": "Meta's AI agent Muse is out in Australia on iPhone, Android, the web and Mac, free for most everyday use with paid plans for more; local connectors such as Canva, Kogan, Officeworks and Ticketek arrive in stages.",
- "quick": true,
+ "tag": "New app",
+ "head": "Meta Muse AI agent launches in Australia: free, with paid plans",
+ "dek": "Meta's AI agent Muse, which can send emails, plan your schedule and shop for you with your permission, is out in Australia from 17 November on iPhone, Android, the web and Mac. It's free for most everyday use, with subscription plans for more.",
  "apps": [
   "Muse"
  ],
@@ -15,12 +14,22 @@
   {
    "name": "Meta Newsroom",
    "url": "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/"
+  },
+  {
+   "name": "EFTM",
+   "url": "https://eftm.com/2026/11/meta-muse-ai-agent-launches-today-in-australia-my-muse-lloyd-is-already-hard-at-work-283490/"
   }
  ],
  "item": 119945,
  "items": [
-  121722
+  121722,
+  137428
  ],
- "idea": "news",
- "traction": 21
+ "idea": "request",
+ "traction": 21,
+ "details": "At launch it connects to Gmail, Google Calendar, Instagram and OpenTable; Australian connectors from Canva, Domain, Kogan, MECCA, Officeworks, realestate.com.au, SWEAT, ShopBack and Ticketek arrive in stages, some after launch. You can talk to it by voice with the phone icon at the top right, and Spaces lets you describe a custom hub such as a trip or wedding planner. Meta says passwords and payment methods stay out of the agent's view and Muse asks before sending an email or buying something. EFTM lists the paid tiers at $31 and $149 a month.",
+ "where": "Australia from 17 November; iPhone, Android, muse.ai and a Mac app",
+ "means": "If you're in Australia, you can hand Muse everyday jobs like booking a table or keeping track of emails for free, and decide which accounts it may use.",
+ "todo": "Download Muse on iPhone or Android, or use muse.ai or the Mac app. Connect only the accounts you want it to use, and check each purchase or email before you approve it.",
+ "thumb_words": "META MUSE LANDS IN AUSTRALIA"
 }

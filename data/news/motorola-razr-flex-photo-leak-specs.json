@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "quick": true,
+ "tag": "Quick",
+ "slug": "motorola-razr-flex-photo-leak-specs",
+ "topic": "Android",
+ "rumor": true,
+ "head": "Motorola Razr Flex shows up in a real photo with leaked specs",
+ "dek": "A photo shared on Reddit shows the wide Razr Flex foldable with two cameras, and filings point to Android 17, a 5,000 mAh battery and two 50MP cameras, 9to5Google reports. Motorola hasn't announced the phone; a 2027 launch is expected.",
+ "apps": [
+  "Motorola Razr"
+ ],
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/19/motorola-razr-flex-leak-image-specs/"
+  }
+ ],
+ "item": 134215,
+ "idea": "news",
+ "traction": 0
+}

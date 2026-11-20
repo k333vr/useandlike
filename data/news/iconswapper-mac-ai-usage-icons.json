@@ -1,0 +1,33 @@
+{
+ "slug": "iconswapper-mac-ai-usage-icons",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "AI",
+ "tag": "New app",
+ "head": "IconSwapper Mac app shows your ChatGPT and Claude usage on Dock icons",
+ "dek": "IconSwapper is a new Mac app that changes the icons in your Dock, including live icons that show how much of your ChatGPT, Claude or Cursor allowance you've used and when it resets. It costs 19 dollars once at launch, later 29 dollars.",
+ "details": "It's made by icon designer Michael Flarup. Besides the AI meters, it can reshape any app icon with artwork, decorations and moving shader effects, and show live activity such as the album playing in Music. One license covers up to three Macs. It needs macOS 14 or later and runs on Intel and Apple silicon Macs.",
+ "where": "Mac (macOS 14 or later), from the maker's website",
+ "means": "If you pay for ChatGPT, Claude or Cursor and keep hitting your limit, you can see how close you are right in the Dock instead of opening each app.",
+ "todo": "If you want it, buy it on iconswapper.app while the 19-dollar launch price lasts; it's a one-time payment, not a subscription.",
+ "apps": [
+  "IconSwapper",
+  "ChatGPT",
+  "Claude"
+ ],
+ "sources": [
+  {
+   "name": "IconSwapper",
+   "url": "https://iconswapper.app"
+  },
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/19/want-to-see-your-live-ai-usage-on-your-macs-icons-this-clever-new-app-lets-you/"
+  }
+ ],
+ "item": 137435,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "YOUR AI LIMITS ON MAC DOCK ICONS"
+}

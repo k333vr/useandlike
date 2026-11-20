@@ -1,0 +1,23 @@
+{
+ "slug": "android-17-app-lock-returns-beta",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Android",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Android's App Lock is back in the Android 17 beta for Pixel phones",
+ "dek": "App Lock, which hides chosen apps, their notifications and widgets behind your fingerprint or PIN, is back in the Android 17 QPR3 beta after Google pulled it for more testing; Google says it should reach stable Android early next year.",
+ "apps": [
+  "Android"
+ ],
+ "sources": [
+  {
+   "name": "Tech Advisor",
+   "url": "https://www.techadvisor.com/article/3290604/app-lock-coming-back-to-pixel-and-galaxy-phones.html"
+  }
+ ],
+ "item": 134344,
+ "idea": "news",
+ "traction": 18
+}

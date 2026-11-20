@@ -1,0 +1,39 @@
+{
+ "slug": "gemini-task-mode-free-calls-purchases",
+ "date": "2026-11-17",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "Gemini Task mode is free: it can call businesses and shop for you",
+ "dek": "Google's Gemini app now has a free Task mode that can phone businesses, sort out bills and buy things for you, rolling out from 17 November in the US, Japan, South Korea, Canada, Australia and India. It runs on the Gemini 4 Hydrogen model.",
+ "details": "When Gemini calls a business it says it's an AI, it can wait on hold and it adds appointments to your calendar; businesses can opt out, and calls don't work in Indiana, Louisiana, Minnesota, Montana or Nebraska. Purchases go through Mastercard and Visa cards (American Express is coming), you can set a hard spending cap, Gemini asks before steps like pressing Buy, and you keep your card's rewards. Receipts and tracking go to Google Wallet, which now has an Agents page for these purchases on the web and iPhone in the US; the Android app doesn't show it yet. Some websites block agents, so Gemini may stop before the last click and hand over to you.",
+ "where": "Gemini app, free, rolling out in the US, Japan, South Korea, Canada, Australia and India; Wallet's Agents page US only",
+ "means": "If you use Gemini, it can now take over errands like booking an appointment or reordering groceries, but it can also spend money once you let it.",
+ "todo": "In the Gemini app, switch the toggle on the home screen from Chat to Task. Set a spending cap before you let it buy anything, and check its purchases under Agents in Google Wallet (on Android, at wallet.google.com in a browser).",
+ "apps": [
+  "Gemini",
+  "Google Wallet"
+ ],
+ "item": 134906,
+ "items": [
+  134368
+ ],
+ "idea": "news",
+ "traction": 60,
+ "thumb_words": "GEMINI CAN NOW CALL AND SHOP FOR YOU",
+ "sources": [
+  {
+   "name": "Google blog",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+  },
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/google-gemini-can-now-handle-real-world-tasks-calling-businesses-making-purchases-and-more/"
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/google-wallet-agents-web-rollout-us-3737203/"
+  }
+ ]
+}

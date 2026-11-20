@@ -1,0 +1,32 @@
+{
+ "slug": "halide-3-4-iphone-duo-fill-flash",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Photo",
+ "tag": "Update",
+ "head": "Halide camera app on iPhone Duo: bigger viewfinder and fill flash",
+ "dek": "Halide 3.4, out on 19 November, adds an XL viewfinder for the iPhone Duo when it's open, and can turn the outer screen into a live preview for the person you photograph or into a soft fill light.",
+ "details": "The outer screen can also mirror Halide's controls. The histogram now sits along the Duo's fold, and the Photo Lab editor has a new layout for the half-open phone. On other iPhones the update brings back the colour and luminance histograms and the shutter timer from Halide Mark II. Halide comes from Lux Optics and is free to download, with a 7-day trial on the yearly membership or a one-time purchase.",
+ "where": "App Store, Halide Mark III version 3.4, iPhone Duo and other iPhones",
+ "means": "If you shoot with an iPhone Duo, the people in front of the camera can see the shot, and the outer screen can light faces in dim rooms.",
+ "todo": "Update Halide in the App Store. For fill flash, the developers suggest turning screen brightness all the way up.",
+ "apps": [
+  "Halide",
+  "iPhone Duo"
+ ],
+ "item": 134778,
+ "idea": "news",
+ "traction": 0,
+ "thumb_words": "HALIDE TURNS DUO SCREEN INTO A FLASH",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/halide-mark-iii-pro-camera/id885697368"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/19/halide-3-4-adds-a-bigger-viewfinder-and-fill-flash-for-iphone-duo/"
+  }
+ ]
+}

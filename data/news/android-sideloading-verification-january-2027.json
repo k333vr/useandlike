@@ -1,0 +1,36 @@
+{
+ "slug": "android-sideloading-verification-january-2027",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Android",
+ "tag": "Heads-up",
+ "head": "Android sideloading verification goes worldwide from January 2027",
+ "dek": "Google will start requiring a verified developer for Android apps installed from outside the Play Store in every region from January 2027, Ars Technica reports, with the rollout to all devices taking several months. Until now the rule applied only in Brazil, Indonesia, Singapore and Thailand, where it began on 30 September 2026.",
+ "details": "Developers verify with a government ID and a 25 dollar fee; Google says millions of apps from outside Play are already registered, covering more than 99 percent of Android app installs. It applies to certified Android devices. Students, teachers and hobbyists can share an app with up to 20 devices without an ID or fee through a limited distribution account. For apps from unverified developers, Google offers an advanced flow: turn on developer mode, restart, wait one day, confirm with your fingerprint, face or PIN, then allow such installs for 7 days or for good.",
+ "where": "All regions from January 2027, rolling out over several months; certified Android devices",
+ "means": "If you install apps from F-Droid, a game site or a developer's own page, an app from an unregistered developer won't install the usual way once the rule reaches your country. Play Store apps aren't affected.",
+ "todo": "Nothing to do yet. If you rely on an app from outside the Play Store, check whether its developer has registered; if not, the advanced flow in developer mode is the way to keep installing it.",
+ "apps": [
+  "Android",
+  "Google Play"
+ ],
+ "thumb_words": "ANDROID SIDELOADING: ID CHECK IN 2027",
+ "sources": [
+  {
+   "name": "Android Developers",
+   "url": "https://developer.android.com/developer-verification"
+  },
+  {
+   "name": "Android Developers Blog",
+   "url": "https://android-developers.googleblog.com/2026/03/android-developer-verification.html"
+  },
+  {
+   "name": "Slashdot (citing Ars Technica)",
+   "url": "https://tech.slashdot.org/story/26/11/19/1940232/google-will-launch-android-app-verification-requirement-globally-in-january-2027"
+  }
+ ],
+ "item": 135407,
+ "idea": "news",
+ "traction": 32
+}

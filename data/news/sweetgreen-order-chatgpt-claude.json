@@ -2,12 +2,11 @@
  "slug": "sweetgreen-order-chatgpt-claude",
  "date": "2026-11-18",
  "added": "2026-11-19",
- "checked": "2026-11-19",
+ "checked": "2026-11-20",
  "topic": "AI",
- "tag": "Quick",
- "quick": true,
- "head": "Sweetgreen orders now work inside ChatGPT and Claude",
- "dek": "Sweetgreen's app in ChatGPT and Claude suggests meals with prices and nutrition facts from what you describe, and adds them to your cart; you pay in the Sweetgreen app or on its website. Turn it on by searching for Sweetgreen in the chatbot's app directory.",
+ "tag": "New feature",
+ "head": "Sweetgreen ChatGPT and Claude app builds your lunch order in the chat",
+ "dek": "Sweetgreen launched an app inside ChatGPT and Claude on 18 November that suggests meals from what you describe, with prices, calories and nutrition facts, and puts them in your cart. You still pay in the Sweetgreen app or on its website.",
  "apps": [
   "Sweetgreen",
   "ChatGPT",
@@ -20,6 +19,11 @@
   }
  ],
  "item": 128323,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "You can ask by allergies, diet, cravings or fitness goals; Sweetgreen rewrote its menu so the chatbots can read ingredients, allergens and prices. The company calls it agentic ordering. The report doesn't say which countries get it or whether rewards work through the chat.",
+ "where": "ChatGPT and Claude, on phone or computer, from 18 November",
+ "means": "If you order Sweetgreen, you can tell a chatbot what you want to eat and get a ready cart instead of building the bowl yourself.",
+ "todo": "In ChatGPT or Claude, search the app directory for Sweetgreen and turn it on, then describe what you want. Check the cart and pay in the Sweetgreen app or website.",
+ "thumb_words": "ORDER SWEETGREEN IN CHATGPT"
 }

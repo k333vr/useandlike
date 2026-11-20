@@ -1,0 +1,32 @@
+{
+ "slug": "surfshark-call-protection-iphone",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Security",
+ "tag": "New feature",
+ "head": "Surfshark scam call protection comes to the iPhone app",
+ "dek": "Surfshark's iPhone app now has Call protection, which filters spam and possible scam calls in real time. It came with version 5.3.0 on 19 November and, according to TechRadar, needs a premium Surfshark plan.",
+ "details": "The same update shows when your next IP change happens on the VPN details screen if rotating IP is turned on. Version 5.3.0 needs iOS 17 or later. Surfshark's App Store listing puts Call protection next to its phone number masking and text message protection.",
+ "where": "iPhone, Surfshark app version 5.3.0, from 19 November; premium plan",
+ "means": "If you pay for one of Surfshark's premium plans and get a lot of spam calls, your iPhone can now get help filtering them from the VPN app you already have.",
+ "todo": "Update the Surfshark app from the App Store to version 5.3.0 and look for Call protection in the app. If you're on the basic plan, it won't be included.",
+ "apps": [
+  "Surfshark"
+ ],
+ "category": "VPN & Privacy",
+ "sources": [
+  {
+   "name": "App Store: Surfshark VPN",
+   "url": "https://apps.apple.com/us/app/surfshark-vpn-fast-private/id1391782046"
+  },
+  {
+   "name": "TechRadar",
+   "url": "https://www.techradar.com/vpn/vpn-services/surfshark-updates-its-iphone-vpn-app-to-filter-out-scam-callers-but-you-need-a-premium-plan"
+  }
+ ],
+ "item": 134935,
+ "idea": "news",
+ "traction": 34,
+ "thumb_words": "SURFSHARK BLOCKS SCAM CALLS ON IPHONE"
+}

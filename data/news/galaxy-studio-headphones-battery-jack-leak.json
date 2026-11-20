@@ -1,0 +1,28 @@
+{
+ "slug": "galaxy-studio-headphones-battery-jack-leak",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Samsung",
+ "tag": "Leak",
+ "rumor": true,
+ "head": "Samsung Galaxy Studio headphones leak: 870mAh battery and 3.5mm jack",
+ "dek": "Samsung's unannounced Galaxy Studio over-ear headphones may have an 870mAh battery and a 3.5mm headphone jack next to USB-C, according to One UI 9.5 beta code found by SammyGuru and reported by Android Authority. Samsung hasn't confirmed them.",
+ "details": "The code also lists noise cancelling with ambient sound controls, wear detection that pauses music, 360-degree audio with head tracking, Auracast, Find My and auto power-off after 30, 60 or 120 minutes. It doesn't mention head gestures or voice controls. Battery hours, price and launch date aren't known.",
+ "where": "Not announced; spotted in One UI 9.5 beta code",
+ "means": "If you want wired listening as well as Bluetooth, Samsung's first over-ear headphones may support both.",
+ "todo": "Nothing to do yet; wait for Samsung's announcement.",
+ "apps": [
+  "Samsung"
+ ],
+ "thumb_words": "GALAXY STUDIO: HEADPHONE JACK?",
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-galaxy-studio-leak-specs-3737013/"
+  }
+ ],
+ "item": 129815,
+ "idea": "news",
+ "traction": 0
+}

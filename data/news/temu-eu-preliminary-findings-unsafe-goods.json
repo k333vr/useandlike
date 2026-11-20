@@ -1,0 +1,23 @@
+{
+ "slug": "temu-eu-preliminary-findings-unsafe-goods",
+ "date": "2026-11-17",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Shopping",
+ "tag": "Quick",
+ "quick": true,
+ "head": "EU says Temu doesn't do enough to stop unsafe products",
+ "dek": "In preliminary findings on 17 November, the European Commission said Temu's checks miss unsafe items, naming toys and cosmetics as high-risk. It's not a final decision; a confirmed breach could mean a fine of up to 6% of Temu's yearly turnover.",
+ "apps": [
+  "Temu"
+ ],
+ "sources": [
+  {
+   "name": "The Nightly",
+   "url": "https://thenightly.com.au/business/temu-online-retailer-faces-a326-million-fine-over-illegal-and-unsafe-goods-c-23176553"
+  }
+ ],
+ "item": 117760,
+ "idea": "news",
+ "traction": 40
+}

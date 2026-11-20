@@ -1,0 +1,27 @@
+{
+ "slug": "room-ai-chat-room-redesign",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Room AI redesigns a photo of your room one request at a time",
+ "dek": "Room AI relaunched as a chat: upload a room photo, ask for a change and get the same room back with only that change, every version kept. You can try it free; the plan for your own home is 29 dollars a month, or 19 a month paid yearly.",
+ "quick": true,
+ "apps": [
+  "Room AI"
+ ],
+ "sources": [
+  {
+   "name": "Room AI",
+   "url": "https://roomai.com"
+  },
+  {
+   "name": "Product Hunt",
+   "url": "https://www.producthunt.com/products/room-ai-2"
+  }
+ ],
+ "item": 131849,
+ "idea": "newcomer",
+ "traction": 0
+}

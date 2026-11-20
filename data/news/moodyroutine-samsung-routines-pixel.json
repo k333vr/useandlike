@@ -1,0 +1,27 @@
+{
+ "slug": "moodyroutine-samsung-routines-pixel",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Android",
+ "tag": "New app",
+ "head": "MoodyRoutine brings Samsung-style Modes and Routines to Pixel phones",
+ "dek": "MoodyRoutine is a free Android app that copies the idea of Samsung's Modes and Routines for other phones such as Google Pixels: modes like Sleep or Exercise switch on by time or when headphones connect and change your settings.",
+ "details": "It combines more than 40 if-triggers and then-actions, and a mode can put your settings back when it ends. It needs Android 8.0 or newer and isn't on Google Play: it comes from F-Droid or its GitHub page. Android Authority notes it has no NFC tag or mobile network triggers yet, less smartwatch support than Samsung's version, and is a young project.",
+ "where": "Android 8.0 and newer, through F-Droid or GitHub",
+ "means": "If you moved from a Galaxy to a Pixel and miss Modes and Routines, this is a free way to get something similar.",
+ "todo": "Install F-Droid, search for MoodyRoutine and tap Install; edit the Sleep and Exercise modes or add your own.",
+ "apps": [
+  "MoodyRoutine"
+ ],
+ "thumb_words": "SAMSUNG ROUTINES ON ANY ANDROID",
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/get-samsung-modes-and-routines-on-pixel-moodyroutine-3736454/"
+  }
+ ],
+ "item": 132724,
+ "idea": "news",
+ "traction": 18
+}

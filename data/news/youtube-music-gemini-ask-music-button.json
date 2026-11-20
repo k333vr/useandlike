@@ -2,12 +2,11 @@
  "slug": "youtube-music-gemini-ask-music-button",
  "date": "2026-11-18",
  "added": "2026-11-19",
- "checked": "2026-11-19",
+ "checked": "2026-11-20",
  "topic": "Music",
- "tag": "Quick",
- "quick": true,
- "head": "YouTube Music adds a Gemini button for Ask Music on almost every screen",
- "dek": "A Gemini icon at the top right of YouTube Music on Android and iPhone now opens Ask Music, which builds mixes and playlists and answers questions about your listening. It needs YouTube Premium or Music Premium and is reaching more phones through a server-side rollout.",
+ "tag": "New feature",
+ "head": "YouTube Music Gemini button: Ask Music now on almost every screen",
+ "dek": "YouTube Music on Android and iPhone now has a Gemini icon in the top-right corner that opens Ask Music, the AI helper that builds mixes and playlists. It shows on Home, Library, Now Playing, albums and playlists, and needs YouTube Premium or YouTube Music Premium.",
  "apps": [
   "YouTube Music",
   "Gemini"
@@ -19,6 +18,14 @@
   }
  ],
  "item": 126984,
- "idea": "news",
- "traction": 42
+ "items": [
+  138096
+ ],
+ "idea": "request",
+ "traction": 42,
+ "details": "Tapping the icon opens Ask Music as a full-screen sheet, where you type or speak a request: make a mix, find artists or podcasts, build a playlist, change your queue or ask about your listening history. Ask Music launched in 2024 and until now sat in a card in the Home feed. The new button is a server-side change that started rolling out in the last few days, according to 9to5Google, and YouTube had previewed it in September.",
+ "where": "Android and iPhone, YouTube Premium and Music Premium subscribers, rolling out now",
+ "means": "If you pay for Premium, you can ask for a playlist or a mix from whatever screen you're on, without going back to Home first. Without Premium, Ask Music isn't available.",
+ "todo": "Update YouTube Music and look for the Gemini spark at the top right. If it isn't there yet, it arrives through a server-side rollout, so there's nothing to install.",
+ "thumb_words": "YOUTUBE MUSIC ADDS GEMINI BUTTON"
 }

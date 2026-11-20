@@ -1,0 +1,27 @@
+{
+ "slug": "proton-vpn-8-iphone-kill-switch",
+ "date": "2026-11-18",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Security",
+ "tag": "Quick",
+ "head": "Proton VPN 8.0 for iPhone adds an advanced kill switch",
+ "dek": "Version 8.0 of Proton VPN for iPhone brings Proton's new connection protocols, an advanced kill switch and a globe map, and you can now reach CarPlay and devices on your home network with the kill switch on.",
+ "quick": true,
+ "apps": [
+  "Proton VPN"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/proton-vpn-fast-secure/id1437005085"
+  },
+  {
+   "name": "TechRadar",
+   "url": "https://www.techradar.com/vpn/vpn-services/your-proton-vpns-iphone-app-has-just-changed-its-look-heres-all-you-need-to-know"
+  }
+ ],
+ "item": 126820,
+ "idea": "news",
+ "traction": 18
+}

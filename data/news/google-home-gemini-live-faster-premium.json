@@ -2,12 +2,11 @@
  "slug": "google-home-gemini-live-faster-premium",
  "date": "2026-11-18",
  "added": "2026-11-19",
- "checked": "2026-11-19",
+ "checked": "2026-11-20",
  "topic": "Google",
- "tag": "Quick",
- "quick": true,
- "head": "Gemini Live on Google Home speakers is getting faster, for Premium users",
- "dek": "Google says Gemini Live on its speakers and smart displays moves to a faster speech-to-speech system soon and will let you set timers or control devices without ending the chat; it needs Google Home Premium, from 10 dollars a month, or Google AI Pro.",
+ "tag": "New feature",
+ "head": "Gemini Live on Google Home speakers gets faster, for Premium users",
+ "dek": "Google says Gemini Live on its speakers and smart displays will soon move to its newer speech-to-speech system, which it says answers much faster. You'll also be able to set timers and control smart home devices without leaving the conversation.",
  "apps": [
   "Google Home",
   "Gemini"
@@ -19,6 +18,11 @@
   }
  ],
  "item": 125299,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "Until now, Live was mainly for longer chats and couldn't take commands mid-session. You can also interrupt it to change the topic. Live still isn't what \"Hey Google\" starts by default: you open it with a phrase like \"let's chat\". Google gave no date beyond \"soon\" and no list of countries.",
+ "where": "Google Home speakers and smart displays, \"soon\"; needs Google Home Premium (10 dollars a month) or Google AI Pro",
+ "means": "If you pay for Google Home Premium or Google AI Pro, talking to your speaker should feel quicker, and you can switch the lights or set a timer mid-chat. Without a subscription nothing changes: Gemini Live on these devices has always needed one.",
+ "todo": "Nothing to do yet; once it arrives, say \"let's chat\" to your speaker to try it.",
+ "thumb_words": "GEMINI LIVE GETS FASTER ON NEST"
 }

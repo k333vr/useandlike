@@ -1,0 +1,28 @@
+{
+ "date": "2026-11-18",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "quick": true,
+ "tag": "Quick",
+ "slug": "copilot-windows-11-pc-problem-scan",
+ "topic": "AI",
+ "head": "Copilot will check your Windows 11 PC for the cause of a problem",
+ "dek": "Microsoft says Copilot will scan a Windows 11 PC, with your permission, to find what's behind a problem and suggest steps, and later work with your files; it doesn't fix things by itself. No rollout date yet.",
+ "apps": [
+  "Copilot",
+  "Windows 11"
+ ],
+ "sources": [
+  {
+   "name": "Windows Latest",
+   "url": "https://www.windowslatest.com/2026/11/18/helpful-ai-doesnt-stop-at-answers-microsofts-copilot-scan-for-windows-11-finds-whats-wrong-with-your-pc-then-leaves-the-fixing-to-you/"
+  }
+ ],
+ "item": 121014,
+ "items": [
+  127925,
+  132226
+ ],
+ "idea": "news",
+ "traction": 15
+}

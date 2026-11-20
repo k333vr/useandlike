@@ -2,22 +2,26 @@
  "slug": "whatsapp-canada-bill-c-22-warning",
  "date": "2026-11-16",
  "added": "2026-11-18",
- "checked": "2026-11-18",
+ "checked": "2026-11-20",
  "topic": "Messaging",
- "tag": "Quick",
- "quick": true,
+ "tag": "Heads-up",
  "head": "WhatsApp could leave Canada over bill C-22, Meta warns",
- "dek": "Meta told Canada's Senate on 16 November that it can't keep end-to-end encryption and meet the lawful access bill C-22, and would review all options, including taking WhatsApp out of Canada. The bill is still before the Senate, and Meta hasn't announced any shutdown.",
+ "dek": "Meta told a Canadian Senate committee on 16 November that it can't meet the lawful access bill C-22 and keep end-to-end encryption, and would review all its options, including taking WhatsApp out of Canada. The bill passed the House of Commons in June and is still before the Senate.",
  "apps": [
   "WhatsApp"
  ],
  "item": 109152,
- "idea": "news",
+ "idea": "request",
  "traction": 0,
  "sources": [
   {
    "name": "iPhone in Canada",
    "url": "https://www.iphoneincanada.ca/2026/11/17/meta-warns-whatsapp-could-leave-canada-over-spy-bill/"
   }
- ]
+ ],
+ "details": "Bill C-22 would let the Public Safety minister order providers to build ways to hand over information when police or CSIS have legal authority. Ottawa says it requires no backdoors, and amendments cut metadata storage from one year to six months. Signal has also said it could leave Canada, and Apple told CBC News the amended bill still puts its privacy features at risk. Meta hasn't announced a shutdown or a date.",
+ "where": "Canada; the bill is before the Senate, no change for users now",
+ "means": "If you're in Canada, WhatsApp works as usual today; the warning only matters if the bill passes without the changes Meta wants.",
+ "todo": "Nothing to do yet. If you rely on WhatsApp in Canada, keep your chat backup current so you could move your chats if anything changes.",
+ "thumb_words": "WHATSAPP MAY LEAVE CANADA"
 }

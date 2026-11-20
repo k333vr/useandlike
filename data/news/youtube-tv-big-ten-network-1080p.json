@@ -1,0 +1,23 @@
+{
+ "slug": "youtube-tv-big-ten-network-1080p",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Streaming",
+ "tag": "Quick",
+ "quick": true,
+ "head": "YouTube TV now streams Big Ten Network in 1080p",
+ "dek": "Big Ten Network moved from 720p to 1080p on YouTube TV, at no extra cost for plans that already include it. A slow connection can still drop the picture to a lower resolution.",
+ "apps": [
+  "YouTube TV"
+ ],
+ "sources": [
+  {
+   "name": "Cord Cutters News",
+   "url": "https://cordcuttersnews.com/youtube-tv-is-rolling-out-a-big-upgrade-in-video-quality/"
+  }
+ ],
+ "item": 133132,
+ "idea": "news",
+ "traction": 0
+}

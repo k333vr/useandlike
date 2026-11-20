@@ -1,0 +1,37 @@
+{
+ "slug": "samsung-open-gate-video-one-ui-9-5-leak",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Samsung",
+ "tag": "Leak",
+ "rumor": true,
+ "head": "Samsung Open Gate video and 360 panorama may come with One UI 9.5",
+ "dek": "Code in the One UI 9.5 beta's Camera app points to Open Gate video, which records with the whole camera sensor, and a Dual cam panorama that uses the front and rear cameras for up to 360 degrees, Android Authority found. Samsung hasn't announced either, and neither works in the beta.",
+ "details": "The Open Gate strings list 24, 25, 30, 48, 50 and 60 frames a second, a switch in the camera preview and a setting for Pro video or Video too; the taller frame leaves room to crop later. For the panorama, you'd pick your shooting hand and turn the phone until it vibrates; turning the wrong way cancels it, and stopping early saves part of it. Which Galaxy phones would get them is unknown. The One UI 9.5 beta is open for the Galaxy S26 series.",
+ "where": "Spotted in the One UI 9.5 beta's code; not live, not confirmed",
+ "means": "If you film on a Galaxy phone and edit for both vertical and wide videos, Open Gate would let you crop one clip both ways, if Samsung ships it.",
+ "todo": "Nothing to do yet; the features aren't switched on in the beta.",
+ "apps": [
+  "One UI",
+  "Samsung Camera"
+ ],
+ "item": 133623,
+ "idea": "news",
+ "traction": 0,
+ "thumb_words": "GALAXY OPEN GATE VIDEO COMING?",
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/one-ui-9-5-native-open-gate-recording-camera-apk-teardown-3736993/"
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/one-ui-9-5-dual-cam-panorama-apk-teardown-3737019/"
+  },
+  {
+   "name": "GSMArena",
+   "url": "https://www.gsmarena.com/samsung_one_ui_9_5_open_gate_video_recording_dual_cam_panorama-news-75538.php"
+  }
+ ]
+}

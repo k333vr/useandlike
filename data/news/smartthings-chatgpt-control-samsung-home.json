@@ -1,0 +1,24 @@
+{
+ "slug": "smartthings-chatgpt-control-samsung-home",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "AI",
+ "tag": "Quick",
+ "quick": true,
+ "head": "ChatGPT can now control SmartThings homes in a Samsung test",
+ "dek": "In an experimental link-up, ChatGPT users can connect their Samsung account to switch lights and TVs, check appliances, run routines and set Away or Night mode in SmartThings. It can check a smart lock but not unlock it, and connecting shares SmartThings data with OpenAI.",
+ "apps": [
+  "SmartThings",
+  "ChatGPT"
+ ],
+ "sources": [
+  {
+   "name": "The Korea Herald",
+   "url": "https://www.koreaherald.com/article/10942592"
+  }
+ ],
+ "item": 130447,
+ "idea": "news",
+ "traction": 0
+}

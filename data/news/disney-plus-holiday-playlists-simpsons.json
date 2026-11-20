@@ -1,0 +1,23 @@
+{
+ "slug": "disney-plus-holiday-playlists-simpsons",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Streaming",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Disney+ adds 10 holiday playlists in December, with 24/7 Simpsons",
+ "dek": "From early December Disney+ shows 10 holiday playlists, including Home Alone, Festive Fireplaces and a round-the-clock stream of The Simpsons' Christmas episodes, where the titles are licensed.",
+ "apps": [
+  "Disney+"
+ ],
+ "sources": [
+  {
+   "name": "Cord Cutters News",
+   "url": "https://cordcuttersnews.com/disney-unveils-10-new-holiday-playlists-for-december-featuring-24-7-simpsons-christmas-stream-dedicated-seasonal-collections/"
+  }
+ ],
+ "item": 135924,
+ "idea": "news",
+ "traction": 0
+}

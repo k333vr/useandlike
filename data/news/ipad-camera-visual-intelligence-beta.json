@@ -2,12 +2,11 @@
  "slug": "ipad-camera-visual-intelligence-beta",
  "date": "2026-11-18",
  "added": "2026-11-19",
- "checked": "2026-11-19",
+ "checked": "2026-11-20",
  "topic": "Apple",
- "tag": "Quick",
- "quick": true,
- "head": "iPad Camera app gets the Siri mode for Visual Intelligence in the 27.3 beta",
- "dek": "In Apple's second iPadOS 27.3 developer beta, the Camera app has the Siri mode the iPhone got with iOS 27: Siri describes the scene, and you can circle things with a finger or Apple Pencil to search for them. Apple hasn't given a release date.",
+ "tag": "New feature",
+ "head": "iPad Visual Intelligence comes to the Camera app in iPadOS 27.3 beta",
+ "dek": "Apple's second iPadOS 27.3 developer beta adds the Siri mode to the iPad's Camera app that iPhones got with iOS 27. Tap the Siri button where the shutter usually is, and Siri describes what the camera sees.",
  "apps": [
   "Camera",
   "Siri"
@@ -19,6 +18,11 @@
   }
  ],
  "item": 127594,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "You can then circle or scrub over an item with your finger or an Apple Pencil, and Visual Intelligence searches for it in Google, Amazon or other apps that support it. MacStories tried it on the latest iPad mini; it didn't list other models. Apple hasn't said when iPadOS 27.3 comes out for everyone.",
+ "where": "iPad, iPadOS 27.3 developer beta 2 now; no public release date",
+ "means": "If you use an iPad, you'll be able to point the camera at a product and circle it to look it up, as iPhone owners already can.",
+ "todo": "Wait for the iPadOS 27.3 update unless you run developer betas; then open Camera and switch to the Siri mode.",
+ "thumb_words": "IPAD CAMERA GETS SIRI MODE"
 }

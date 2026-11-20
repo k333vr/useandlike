@@ -1,0 +1,31 @@
+{
+ "slug": "alfred-6-mac-alfred-ui-query-history",
+ "date": "2026-11-18",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Productivity",
+ "tag": "Update",
+ "head": "Alfred 6 for Mac: new features, query history and Alfred UI",
+ "dek": "Alfred 6, the Mac app launcher from Running with Crayons, came out on 18 November with Query History, a longer Clipboard History and Alfred UI, a toolkit that lets workflows show their own windows and controls.",
+ "details": "Custom fallback searches are now free instead of needing the paid Powerpack, and new themes are open to all users. Contact search is faster and shows contact pictures, and the settings were redesigned for macOS 27 with a light mode. Sample workflows built with Alfred UI include Launchpad, Text Transformer, an SF Symbols browser and Brain Outsourcing, which can use an AI model with your own API key. The announcement doesn't list upgrade prices.",
+ "where": "Mac, out now",
+ "means": "If you use Alfred on your Mac, the update adds a history of what you searched and workflows that can look like small apps of their own.",
+ "todo": "Download Alfred 6 from Alfred's website; Powerpack owners can check the upgrade page for their licence.",
+ "apps": [
+  "Alfred"
+ ],
+ "thumb_words": "ALFRED 6 IS OUT FOR MAC",
+ "sources": [
+  {
+   "name": "Alfred blog",
+   "url": "https://www.alfredapp.com/blog/announcements/alfred-6-is-here/"
+  },
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/alfred-6-adds-native-workflow-interfaces-and-query-history/"
+  }
+ ],
+ "item": 131349,
+ "idea": "newcomer",
+ "traction": 0
+}

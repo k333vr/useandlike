@@ -1,0 +1,28 @@
+{
+ "slug": "raylie-flight-view-app",
+ "date": "2026-11-19",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Travel",
+ "tag": "New app",
+ "category": "Travel",
+ "head": "Raylie flight view app shows which side of the plane to sit on",
+ "dek": "Raylie is a free iPhone app that turns a boarding pass into a timeline of what you'll see from the window, from sunrise to cities below, and on which side. It was #96 among free Travel apps on the US App Store on 19 November.",
+ "details": "It lists sunrise, sunset, moonrise and moonset, landmarks and cities with the time you pass them, and the aurora when your route crosses its belt, on a globe with real cloud cover and the actual day-night line. Flights can come from a boarding pass, Wallet, your calendar, a photo, a file or a link, and a Live Activity shows on the Lock Screen in the air. Raylie Elite, a subscription or a one-time Lifetime purchase, adds your full flight history and more flight information. It's from ooo.engineering Inc., needs iOS 26, uses FlightAware flight data and works without an account.",
+ "where": "iPhone, iOS 26 or later; free, Raylie Elite optional",
+ "means": "If you like a window seat, Raylie tells you which side gets the sunset or the view before you pick your seat.",
+ "todo": "Add an upcoming flight before you choose seats, then pick the side it suggests.",
+ "apps": [
+  "Raylie"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/raylie-flight-view-guide/id6793443320"
+  }
+ ],
+ "item": 137985,
+ "idea": "newcomer",
+ "traction": 15,
+ "thumb_words": "WHICH WINDOW SEAT? RAYLIE KNOWS"
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "galaxy-a24-one-ui-9-android-17",
+ "date": "2026-11-17",
+ "added": "2026-11-20",
+ "checked": "2026-11-20",
+ "topic": "Samsung",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Galaxy A24 gets One UI 9 with Android 17, starting in South Korea",
+ "dek": "Samsung's One UI 9 update based on Android 17 (firmware A245NKSUBGZJA) is out for the Galaxy A24 in South Korea, with more countries, Brazil among them, expected soon. It brings more Quick Panel options and a location privacy indicator, but not the newest Galaxy AI features.",
+ "apps": [
+  "One UI"
+ ],
+ "sources": [
+  {
+   "name": "Oficina da Net",
+   "url": "https://www.oficinadanet.com.br/samsung/74227-galaxy-a24-comeca-receber-one-ui-9-android-17"
+  }
+ ],
+ "item": 121618,
+ "idea": "news",
+ "traction": 18
+}
