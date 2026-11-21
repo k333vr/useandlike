@@ -608,6 +608,10 @@
 /easemytrip         https://track.flexlinkspro.com/g.ashx?foid=156392.80705.0&trid=1579752.257004&foc=11&fot=9999&fos=2  302
 /taobao             https://taobao.fxo.co/g/1579752/245760/1000000022/DwuPTgc  302
 /cider              https://shopcider.fxo.co/g/1579752/243922/2086984/DwuPTgc  302
+/tiktokshop         https://tiktok.fxo.co/g/1579752/242531/4611686018427605898/DwuPTgc  302
+/taxslayer          https://taxslayer.fxo.co/g/1579752/198633/DxGPTgc?URL=https%3A%2F%2Ftaxslayer.com  302
+/nordvpn-htr        https://nordvpn.fxo.co/g/1579752/190708/DxGPTgc?URL=https%3A%2F%2Fnordvpn.com  302
+/taxact-htr         https://taxact.fxo.co/g/1579752/160450/4611686018427604095/DwuPTgc  302
 
 # >>> newsletter-links: one link per section of each newsletter issue (/n1-... = issue 1), so the click counter
 # (useandlike-ops/analysis/clicks.py) shows which topics readers click. Not on the team page; never FlexOffers links.

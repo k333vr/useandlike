@@ -2515,6 +2515,16 @@
   "worth": 7.0,
   "added": "2026-10-13"
  },
+ "nordvpn-htr": {
+  "name": "NordVPN",
+  "group": "VPN & Privacy",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "42% of new subscriptions",
+  "countries": "worldwide",
+  "added": "2026-11-20",
+  "note": "How To Rocket's NordVPN link: FlexOffers pays 42% vs Yazing's up to 40%, the viewer gets the same NordVPN offers; /nordvpn stays for the site and Guide Glimpse"
+ },
  "nova-space-armada": {
   "name": "Nova: Space Armada",
   "group": "Games",
@@ -3505,6 +3515,25 @@
   "worth": 0.25,
   "added": "2026-10-13"
  },
+ "taxact-htr": {
+  "name": "TaxACT",
+  "group": "Money & Trading",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "16% of tax return purchases",
+  "countries": "US only",
+  "added": "2026-11-20",
+  "note": "How To Rocket's TaxAct link: FlexOffers pays 16% vs Yazing's 5%, the viewer gets the same TaxAct offers; /taxact stays for Guide Glimpse"
+ },
+ "taxslayer": {
+  "name": "TaxSlayer",
+  "group": "Money & Trading",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "0.8% of paid e-files",
+  "countries": "US only",
+  "added": "2026-11-20"
+ },
  "teepublic": {
   "name": "TeePublic",
   "group": "Online Stores & Funnels",
@@ -3554,6 +3583,15 @@
   "countries": "worldwide",
   "worth": 0.47,
   "added": "2026-10-13"
+ },
+ "tiktokshop": {
+  "name": "TikTok Shop",
+  "group": "Shopping & Mobile",
+  "source": "FlexOffers",
+  "only": "htr",
+  "pays": "0.8-39.2% of sales (by item)",
+  "countries": "US only",
+  "added": "2026-11-20"
  },
  "tiqets": {
   "name": "Tiqets",
