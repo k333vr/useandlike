@@ -1,0 +1,23 @@
+{
+ "slug": "acorns-invest-instead-chrome-extension",
+ "date": "2026-11-19",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Money",
+ "tag": "Quick",
+ "head": "Acorns Invest Instead extension shows what a purchase could grow to",
+ "dek": "Acorns' free Invest Instead extension for Chrome adds a button next to Buy Now and Add to Cart on shopping sites that estimates what the price could be worth if invested instead, assuming 8% a year over 30 years. The estimate is hypothetical, not a promised return.",
+ "quick": true,
+ "apps": [
+  "Acorns"
+ ],
+ "sources": [
+  {
+   "name": "Acorns",
+   "url": "https://www.acorns.com/learn/acorns-launches-invest-instead-checkout-button-money-therapy-holiday/"
+  }
+ ],
+ "item": 137782,
+ "idea": "news",
+ "traction": 18
+}

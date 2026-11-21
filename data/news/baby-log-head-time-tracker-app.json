@@ -1,0 +1,27 @@
+{
+ "slug": "baby-log-head-time-tracker-app",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Health",
+ "tag": "New app",
+ "head": "Baby tracker app with no subscription: Baby Log & Head Time",
+ "dek": "Baby Log & Head Time is a $4.99 one-time iPhone app for logging feedings, naps, diapers, baths and doctor visits with one tap each. It was #42 among paid Health & Fitness apps on the US App Store on 20 November.",
+ "details": "Version 1.1, out on 20 November, added Head Time: it tracks how long the baby lies on the left, middle and right of the head, with a daily balance bar, a next-sleep hint and a seven-day view, plus a tummy time timer. Feeding and nap lengths are added automatically, and the list can be filtered by type. The log stays on the phone with no account, no ads and, according to the listing, no data collected. It is made by Ghenadie Deliu and came out on 19 November.",
+ "where": "App Store, iPhone (iOS 17 or later), $4.99 one-time",
+ "means": "If you're tracking a newborn's day and don't want another monthly fee, this is a one-payment option that keeps the data on your phone.",
+ "todo": "Search Baby Log & Head Time on the App Store; it works from the first tap, no sign-up.",
+ "apps": [
+  "Baby Log & Head Time"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/baby-log-head-time/id6835030296"
+  }
+ ],
+ "item": 145814,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "BABY TRACKER, NO SUBSCRIPTION"
+}

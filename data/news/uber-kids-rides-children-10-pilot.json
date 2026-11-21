@@ -1,0 +1,27 @@
+{
+ "slug": "uber-kids-rides-children-10-pilot",
+ "date": "2026-11-19",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Travel",
+ "tag": "New feature",
+ "head": "Uber Kids: Uber tests rides for children as young as 10 in 3 US cities",
+ "dek": "Uber Kids lets a parent or guardian book a ride for a child as young as 10, with live video of the trip and a PIN check every time. The limited pilot runs in Austin, Nashville and Madison.",
+ "details": "The parent adds the child to their family profile, goes through a required safety onboarding, must be at the pickup spot for the trip to start and leaves a note about the drop-off. Video recordings are encrypted and the driver can't see them; GPS and sensors flag a ride that goes off course, stops or ends early. Only invited, highly rated drivers who finish a training module and agree to video take these trips; they get 7 dollars more per trip and 20 dollars extra for their first one. TechCrunch's report doesn't mention fares for families.",
+ "where": "US pilot: Austin, Texas; Nashville, Tennessee; Madison, Wisconsin",
+ "means": "If you live in one of the three cities, Uber may become another way to get a 10 to 12-year-old to school or activities, while you watch the ride live.",
+ "todo": "Look for the option in your Uber family profile if you're in Austin, Nashville or Madison. Elsewhere, nothing to do yet: Uber hasn't said when or where it expands.",
+ "apps": [
+  "Uber"
+ ],
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/19/uber-tests-rides-for-kids-as-young-as-10-with-extra-pay-for-drivers/"
+  }
+ ],
+ "item": 136722,
+ "idea": "news",
+ "traction": 34,
+ "thumb_words": "UBER TESTS RIDES FOR KIDS 10+"
+}

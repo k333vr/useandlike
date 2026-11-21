@@ -1,0 +1,23 @@
+{
+ "slug": "telegram-iphone-duo-two-columns",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "head": "Telegram adds iPhone Duo support with a two-column layout",
+ "dek": "Telegram now supports Apple's foldable iPhone Duo: opened up, it shows the chat list and the conversation side by side like on the iPad; closed, it looks like the usual iPhone app.",
+ "quick": true,
+ "apps": [
+  "Telegram"
+ ],
+ "sources": [
+  {
+   "name": "The Next Web",
+   "url": "https://thenextweb.com/news/telegram-durov-iphone-duo-foldable-too-big-too-small"
+  }
+ ],
+ "item": 143233,
+ "idea": "news",
+ "traction": 0
+}

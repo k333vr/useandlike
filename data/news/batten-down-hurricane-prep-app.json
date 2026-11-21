@@ -1,0 +1,27 @@
+{
+ "slug": "batten-down-hurricane-prep-app",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Weather",
+ "tag": "New app",
+ "head": "Hurricane preparedness app Batten Down plans before and after a storm",
+ "dek": "Batten Down is a $1.99 iPhone app for families and small businesses that covers getting ready for a hurricane, checking in during one and making insurance claims after. It was #26 among paid Weather apps on the US App Store on 20 November.",
+ "details": "It has prep checklists with a readiness score, a supply tracker that counts days of water and food, an evacuation plan with links to official zone and shelter information, and US National Weather Service alerts. A family check-in sends an \"I'm safe\" or \"Need help\" text through Messages. After a storm it keeps a room-by-room inventory with photos and a damage and claim log, and makes PDF reports for your insurer. There's no account, no ads and no tracking; it's made by Take The Wheel LLC, came out on 19 November and says it isn't an official emergency service.",
+ "where": "App Store, iPhone (iOS 15 or later), $1.99; alerts for the US",
+ "means": "If you live where hurricanes hit, it keeps your checklist, supplies, plan and insurance records in one place on your phone.",
+ "todo": "Search Batten Down on the App Store and fill in the home inventory with photos now, before a storm; in an emergency, follow local officials and call 911.",
+ "apps": [
+  "Batten Down"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/batten-down/id6829116562"
+  }
+ ],
+ "item": 145829,
+ "idea": "newcomer",
+ "traction": 26,
+ "thumb_words": "HURRICANE PLAN IN ONE APP"
+}

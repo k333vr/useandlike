@@ -1,0 +1,23 @@
+{
+ "slug": "google-play-foldable-apps-april-2027",
+ "date": "2026-11-18",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Android",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Google Play will require apps to fill foldable screens from April 2027",
+ "dek": "From April 2027, apps on Google Play must fill the whole screen of a foldable without black bars and keep your place when you fold, unfold or rotate; apps that don't can't be updated on Play, while older un-updated apps stay downloadable.",
+ "apps": [
+  "Google Play"
+ ],
+ "sources": [
+  {
+   "name": "Android Developers Blog",
+   "url": "https://developer.android.com/blog/posts/google-play-adaptive-quality-standards"
+  }
+ ],
+ "item": 132860,
+ "idea": "news",
+ "traction": 0
+}

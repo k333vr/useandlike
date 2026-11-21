@@ -1,0 +1,24 @@
+{
+ "slug": "chrome-setup-music-testing",
+ "date": "2026-11-19",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Google",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "Chrome is testing music for its setup screen on computers",
+ "dek": "Sound files in Chrome's code point to ambient music during the redesigned first-time setup on desktop, PiunikaWeb reports; it's only in some experimental builds, plays once at setup and isn't in Chrome 158.",
+ "apps": [
+  "Chrome"
+ ],
+ "sources": [
+  {
+   "name": "PiunikaWeb",
+   "url": "https://piunikaweb.com/2026/11/19/google-is-giving-chrome-an-onboarding-soundtrack/"
+  }
+ ],
+ "item": 135246,
+ "idea": "news",
+ "traction": 0
+}

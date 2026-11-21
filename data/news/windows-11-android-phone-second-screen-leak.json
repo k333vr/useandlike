@@ -1,0 +1,25 @@
+{
+ "slug": "windows-11-android-phone-second-screen-leak",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Windows",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "Windows 11 may let an Android phone work as a second screen",
+ "dek": "Windows Latest found code for a Phone as Display mode in the Link to Windows Android app, which would show part of your PC's desktop on the phone. Microsoft hasn't announced it, and which phones would work is unknown.",
+ "apps": [
+  "Windows 11",
+  "Link to Windows"
+ ],
+ "sources": [
+  {
+   "name": "Windows Latest",
+   "url": "https://www.windowslatest.com/2026/11/20/windows-11-could-soon-turn-your-android-phone-into-a-second-monitor-something-apples-sidecar-cant-do-with-an-iphone/"
+  }
+ ],
+ "item": 140782,
+ "idea": "news",
+ "traction": 21
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "now-brief-audio-brief-moments-removed",
+ "date": "2026-11-19",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "quick": true,
+ "tag": "Quick",
+ "topic": "Samsung",
+ "head": "One UI 9.5 removes Audio Brief and Moments from Samsung Now Brief",
+ "dek": "Samsung's One UI 9.5 beta changelog for the Galaxy S26 series confirms that Now Brief loses Audio Brief, which read your cards aloud, and Moments, the daily recap of your photos and videos. Samsung hasn't said why or whether they'll return.",
+ "apps": [
+  "Now Brief",
+  "One UI"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-one-ui-9-5-now-brief-audio-moments-removal-3737117/"
+  }
+ ],
+ "item": 132720,
+ "idea": "news",
+ "traction": 0
+}

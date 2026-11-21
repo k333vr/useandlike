@@ -1,0 +1,32 @@
+{
+ "slug": "cryptomator-android-3-files-app-vaults",
+ "date": "2026-11-19",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Security",
+ "tag": "Update",
+ "category": "Cloud Storage",
+ "head": "Cryptomator Android 3.0 puts encrypted vaults in the Files app",
+ "dek": "Cryptomator's Android app, which encrypts files on your phone before they go to cloud storage, now shows its vaults in Android's Files app and file picker. Other apps can open and save files in a vault directly; version 3.0 is rolling out on Google Play.",
+ "details": "Each vault gets its own entry in the Files app and unlocks with a tap; images show thumbnails. Files saved from other apps upload in the background, and if the cloud copy changed meanwhile, your version is kept as a separate conflict copy. The lock timer now counts from the last use, and a new Wait for transfers setting, on by default, keeps a vault open until uploads finish. In the free version the Files app access is read-only; saving and editing need the paid version.",
+ "where": "Android, rolling out now on Google Play, Cryptomator's website and F-Droid",
+ "means": "If you keep private files in Dropbox, Google Drive or OneDrive through Cryptomator, you no longer have to copy them in and out of the app to work on them in other apps.",
+ "todo": "Update Cryptomator from Google Play. If you don't want vaults to show in the Files app, turn off Show vaults in the Files app in Cryptomator's settings.",
+ "apps": [
+  "Cryptomator"
+ ],
+ "sources": [
+  {
+   "name": "Cryptomator",
+   "url": "https://cryptomator.org/blog/2026/11/19/android-document-provider-release/"
+  },
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/cryptomator-3-0-brings-encrypted-vaults-directly-into-android-s-files-app-and-file-picker/"
+  }
+ ],
+ "item": 141436,
+ "idea": "news",
+ "traction": 0,
+ "thumb_words": "CRYPTOMATOR VAULTS IN ANDROID FILES"
+}

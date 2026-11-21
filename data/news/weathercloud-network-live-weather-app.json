@@ -1,0 +1,27 @@
+{
+ "slug": "weathercloud-network-live-weather-app",
+ "date": "2026-11-21",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Weather",
+ "tag": "New app",
+ "head": "Weathercloud app for iPhone shows live weather from real stations",
+ "dek": "Weathercloud Network is a free iPhone app that shows live readings from more than 150,000 weather stations around the world, run by professionals and hobbyists. It was #70 among free Weather apps on the US App Store on 21 November.",
+ "details": "It shows temperature, wind, rain, humidity, air pressure, solar radiation and the UV index, with a map of stations, favourites and charts over time. You can browse without an account, and owners of a home weather station can link it to watch their readings remotely. Version 1.0.2 added indoor temperature and humidity, wind chill or heat index and the chance of rain per day. It's made by Darrera, S.A. (weathercloud.net), out since 21 October and needs iOS 15.1.",
+ "where": "App Store, iPhone, free",
+ "means": "If the forecast in your usual app doesn't match your street, a nearby station shows what's actually being measured right now.",
+ "todo": "Search Weathercloud Network on the App Store and open the map to find a station near you; check the units, since one review says it starts in Celsius.",
+ "apps": [
+  "Weathercloud Network"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/weathercloud-network/id6792674145"
+  }
+ ],
+ "item": 145827,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "LIVE WEATHER FROM 150,000 STATIONS"
+}

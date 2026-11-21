@@ -1,0 +1,28 @@
+{
+ "slug": "frame-pro-camera-raw-iphone-app",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Photo",
+ "tag": "New app",
+ "category": "Video & Photo Editing",
+ "head": "Frame Pro Camera app: RAW iPhone photos with film-style looks",
+ "dek": "Frame: Pro Camera is a $9.99 iPhone camera app that shoots RAW and develops the photos with film-style colour and grain instead of the iPhone's usual processing. It was #77 among paid Photo & Video apps on the US App Store on 20 November.",
+ "details": "It uses 48-megapixel ProRAW on iPhones that support it and plain RAW on others, with three looks made by the photographer WAVO. There are manual controls for ISO, shutter speed, white balance and focus, a histogram and focus peaking, an editor with ten tabs and a gallery search that runs on the phone. The listing says there's no account, no ads and no tracking. It's made by Christopher Slater, needs iOS 26 and used to be called CaptureOS.",
+ "where": "iPhone and iPad, App Store, $9.99",
+ "means": "If your iPhone photos look too smoothed, this app skips that processing and gives you manual control.",
+ "todo": "Look at the sample photos and the list of supported iPhones on the App Store page before you pay.",
+ "apps": [
+  "Frame: Pro Camera"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/frame-pro-camera/id6834287872"
+  }
+ ],
+ "item": 145808,
+ "idea": "newcomer",
+ "traction": 30,
+ "thumb_words": "FRAME: RAW CAMERA FOR IPHONE"
+}

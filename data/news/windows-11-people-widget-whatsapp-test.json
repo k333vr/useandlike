@@ -1,0 +1,25 @@
+{
+ "slug": "windows-11-people-widget-whatsapp-test",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "quick": true,
+ "tag": "Quick",
+ "topic": "Windows",
+ "rumor": true,
+ "head": "Windows 11 tests a People widget with WhatsApp and Outlook contacts",
+ "dek": "Microsoft is testing a People widget that shows your top contacts from WhatsApp, Phone Link and Outlook and opens a chat in the right app. It's rolling out gradually to Windows Insiders in the Experimental channel with build 26340.10032.",
+ "apps": [
+  "Windows 11",
+  "WhatsApp"
+ ],
+ "sources": [
+  {
+   "name": "Thurrott",
+   "url": "https://www.thurrott.com/windows/344127/microsofts-new-people-widget-on-windows-11-can-show-contacts-from-whatsapp-and-other-apps"
+  }
+ ],
+ "item": 143609,
+ "idea": "news",
+ "traction": 0
+}

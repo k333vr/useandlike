@@ -1,0 +1,27 @@
+{
+ "slug": "on-pace-steps-vs-average-apple-watch",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Health",
+ "tag": "New app",
+ "head": "On Pace step counter for Apple Watch compares today with your average",
+ "dek": "On Pace: Steps vs Average is a new 99-cent step counter that shows on your Apple Watch face and iPhone Home Screen whether you're walking more or less than on a usual day. It was #1 in Health & Fitness among paid apps on the US App Store on 20 November.",
+ "details": "It uses the same four-week hourly average as Apple's Health app, so its numbers match Health's. You can compare by day, week, month or year, or today against your usual Mondays, and there are graphs for distance, active energy, flights climbed and, for wheelchair users, pushes. The app only reads from Health with your permission and keeps data on your devices: no account, servers, ads or analytics. It's made by Alejandro Lopez Albertos, came out on 18 November and needs iOS 17 or later; the Watch part needs watchOS 10.",
+ "where": "App Store, iPhone with optional Apple Watch, 99 cents, no in-app purchases listed",
+ "means": "If you check the Health app to see whether you're behind on steps today, On Pace puts that comparison on your wrist or Home Screen at a glance.",
+ "todo": "Look for On Pace: Steps vs Average on the App Store, allow it to read your Health data, then add its watch complication or Home Screen widget.",
+ "apps": [
+  "On Pace: Steps vs Average"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/on-pace-steps-vs-average/id6835619709"
+  }
+ ],
+ "item": 145813,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "ON PACE: STEPS VS YOUR AVERAGE"
+}

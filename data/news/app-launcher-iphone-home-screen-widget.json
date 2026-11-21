@@ -1,0 +1,27 @@
+{
+ "slug": "app-launcher-iphone-home-screen-widget",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "App Launcher widget for iPhone puts 100+ apps on one home screen page",
+ "dek": "App Launcher: Home Screen is a free iPhone and iPad app that turns one full-page widget into a grid of more than 100 app icons, plus two lock screen widgets with eight apps each. It was #89 among free Graphics & Design apps on the US App Store on 20 November.",
+ "details": "The free version gives a 6 by 10 grid; Launcher Pro unlocks grids up to 8 by 13 on iPhone (16 by 8 on iPad), hides icon names, adds icon shapes and outlines and removes the ads, as a yearly subscription with three free days, a monthly one or a one-time lifetime purchase. You can place icons anywhere, leave gaps, add websites as icons and back up your layout to a file. It needs iOS 27, has no account, and is made by developer Andrei Terekhin; it came out on 12 November.",
+ "where": "App Store, iPhone and iPad with iOS 27, free with ads; Pro by subscription or one-time purchase",
+ "means": "If your apps are spread over many home screen pages, this fits far more of them on one.",
+ "todo": "Search App Launcher: Home Screen on the App Store, add its full-page widget and tap the empty spots to place your apps.",
+ "apps": [
+  "App Launcher: Home Screen"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/app-launcher-home-screen/id6831404723"
+  }
+ ],
+ "item": 145810,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "100 APPS ON ONE IPHONE PAGE"
+}

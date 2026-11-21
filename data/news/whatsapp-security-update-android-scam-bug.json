@@ -1,0 +1,28 @@
+{
+ "slug": "whatsapp-security-update-android-scam-bug",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "WhatsApp security update fixes Android bug used in scam messages",
+ "dek": "WhatsApp fixed three security flaws, one of which it believes a scammer used: a fake ad-reply message could reveal an Android user's IP address. WhatsApp and WhatsApp Business for Android before version 2.26.17.4 had that bug.",
+ "details": "WhatsApp says it found the bug while disrupting a scam campaign and thinks it was used to make scam messages look more credible; it hasn't said how many people were targeted. A second Android bug (before 2.26.35.74) let a crafted \"order details\" message from an unofficial app delete files WhatsApp stores on the phone; there's no sign it was used. A third flaw, in Meta AI's private processing checks, affected Android, iPhone and Mac versions; WhatsApp says its records show it wasn't exploited.",
+ "where": "WhatsApp and WhatsApp Business on Android, iPhone and Mac; fixed versions out now",
+ "means": "If you use WhatsApp on Android and haven't updated in a while, an older version could let a scam message see your IP address.",
+ "todo": "Update WhatsApp and WhatsApp Business in Google Play or the App Store, and keep your phone's system updates on. Be careful with messages that come from ads.",
+ "apps": [
+  "WhatsApp",
+  "WhatsApp Business"
+ ],
+ "sources": [
+  {
+   "name": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
+  }
+ ],
+ "item": 143766,
+ "idea": "news",
+ "traction": 23,
+ "thumb_words": "UPDATE WHATSAPP: SCAM BUG FIXED"
+}

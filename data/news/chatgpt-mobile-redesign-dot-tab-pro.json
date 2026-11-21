@@ -1,0 +1,23 @@
+{
+ "slug": "chatgpt-mobile-redesign-dot-tab-pro",
+ "date": "2026-11-19",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "AI",
+ "tag": "Quick",
+ "quick": true,
+ "head": "ChatGPT tests a new phone layout with a tab bar and a Dot tab",
+ "dek": "OpenAI is rolling out a new ChatGPT mobile design with a bottom tab bar, a tab for your dot and tools you can pin, first to Pro users and a small group of Plus users (not in the EEA, UK, Switzerland or South Korea). If New ChatGPT Design appears in Settings, you can switch it on or off there.",
+ "apps": [
+  "ChatGPT"
+ ],
+ "sources": [
+  {
+   "name": "Digital Trends",
+   "url": "https://www.digitaltrends.com/computing/chatgpt-new-mobile-design/"
+  }
+ ],
+ "item": 139647,
+ "idea": "news",
+ "traction": 15
+}

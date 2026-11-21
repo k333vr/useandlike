@@ -1,0 +1,36 @@
+{
+ "slug": "hippomaps-google-maps-alternative-search",
+ "date": "2026-11-19",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Travel",
+ "tag": "New app",
+ "head": "HippoMaps: Google Maps alternative where you search in plain words",
+ "dek": "HippoMaps is a new open-source map built on OpenStreetMap that understands searches like \"pharmacies open now in Bern\" or \"cafes in Zurich by the Limmat\". Its maker showed it on Hacker News on 19 November; it runs in the browser and as an Android app.",
+ "details": "The search doesn't use AI chatbots: it splits your words into what you want and where, and can find things near, between or next to places. Besides search it has directions by car, bike or on foot with up to 8 stops, turn-by-turn navigation with spoken directions in 18 languages, routes saved for offline use, and public transport connections across Europe. Live traffic covers only Switzerland so far, and place pages show opening hours, phone numbers and wheelchair access. No price is listed; the website offers an optional donation, and the Android app is on F-Droid.",
+ "where": "Web at hippomaps.ch (works in a phone browser); Android app via F-Droid; no iPhone app",
+ "means": "If you want a privacy-minded map without Google, this one lets you search the way you'd ask a person, and it's strongest in Europe, especially Switzerland.",
+ "todo": "Try a search in your own words on the website; the maker is asking for feedback on searches that work or don't.",
+ "apps": [
+  "HippoMaps",
+  "Google Maps"
+ ],
+ "thumb_words": "HIPPOMAPS: SEARCH MAPS IN PLAIN WORDS",
+ "sources": [
+  {
+   "name": "HippoMaps on GitHub",
+   "url": "https://github.com/cdutsov/hippomaps"
+  },
+  {
+   "name": "HippoMaps",
+   "url": "https://hippomaps.ch/"
+  },
+  {
+   "name": "Hacker News",
+   "url": "https://news.ycombinator.com/item?id=50561199"
+  }
+ ],
+ "item": 141612,
+ "idea": "newcomer",
+ "traction": 0
+}

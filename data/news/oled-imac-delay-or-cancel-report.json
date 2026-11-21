@@ -1,0 +1,24 @@
+{
+ "slug": "oled-imac-delay-or-cancel-report",
+ "date": "2026-11-19",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Apple",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "Apple may delay or drop its OLED iMac, report says",
+ "dek": "Apple is discussing delaying or shelving a 24-inch iMac with an OLED screen over panel costs and weaker demand for OLED devices, Korea's The Elec reports, citing industry sources. Apple hasn't commented.",
+ "apps": [
+  "iMac"
+ ],
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/19/apple-may-cancel-oled-imac/"
+  }
+ ],
+ "item": 132985,
+ "idea": "news",
+ "traction": 0
+}

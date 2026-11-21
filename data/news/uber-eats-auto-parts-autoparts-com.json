@@ -1,0 +1,23 @@
+{
+ "slug": "uber-eats-auto-parts-autoparts-com",
+ "date": "2026-11-19",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Shopping",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Uber Eats adds auto parts delivery in the US with AutoParts.com",
+ "dek": "Uber Eats now has an auto parts category in the US, supplied by AutoParts.com from nearly 7,000 locations, with on-demand or scheduled delivery.",
+ "apps": [
+  "Uber Eats"
+ ],
+ "sources": [
+  {
+   "name": "finanzen.ch",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/uber-eats-adds-auto-parts-through-autoparts-com-partnership-1036783627"
+  }
+ ],
+ "item": 133360,
+ "idea": "news",
+ "traction": 0
+}

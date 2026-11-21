@@ -1,0 +1,24 @@
+{
+ "slug": "samsung-driving-report-sleep-warning-leak",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Samsung",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "Samsung Driving Report may warn you after poor sleep, code shows",
+ "dek": "Code in the One UI 9.5 beta, found by Android Authority, points to driving tips based on weather and your Samsung Health sleep score (with a Galaxy Watch or Ring), plus the floor you parked on. The features may not ship.",
+ "apps": [
+  "One UI"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/one-ui-9-5-driving-report-weather-sleep-before-trip-3737538/"
+  }
+ ],
+ "item": 140358,
+ "idea": "news",
+ "traction": 0
+}

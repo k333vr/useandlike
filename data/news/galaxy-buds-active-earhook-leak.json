@@ -1,0 +1,24 @@
+{
+ "slug": "galaxy-buds-active-earhook-leak",
+ "date": "2026-11-19",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Samsung",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "Leak: Samsung Galaxy Buds Active with ear hooks and noise cancelling",
+ "dek": "References in the One UI 9.5 beta point to Galaxy Buds Active earbuds with ear hooks, active noise cancellation and an IP68 rating, SammyGuru found. Samsung hasn't announced them, and no price or date is known.",
+ "apps": [
+  "Galaxy Buds"
+ ],
+ "sources": [
+  {
+   "name": "Gizmodo",
+   "url": "https://gizmodo.com/samsung-galaxy-active-wireless-earbuds-leak-2000843094"
+  }
+ ],
+ "item": 137294,
+ "idea": "news",
+ "traction": 0
+}

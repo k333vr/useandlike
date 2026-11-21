@@ -1,0 +1,31 @@
+{
+ "slug": "subwhere-ar-tube-trains-beneath-you",
+ "date": "2026-11-19",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Travel",
+ "tag": "New app",
+ "head": "Live Tube map in AR: Subwhere shows trains moving under London",
+ "dek": "Subwhere AR is a £3.99 app that shows London Underground trains moving below you when you point your phone at the ground. An 18 November update added Paris and Tokyo to Stockholm, and its London view covers all 11 Tube lines from TfL's live arrival predictions.",
+ "details": "Tap a train to see its line, destination, speed, depth and how far it is from you; the depths are rebuilt station by station from published figures. The AR view only works above ground, where the phone can recognise nearby buildings, and a live map of each network works from anywhere. It also has a ride mode that follows one train, next departures from your nearest station and widgets. It is made by Aesboe AB, an independent developer in Sweden, has no account, ads or tracking, and isn't an official TfL app.",
+ "where": "App Store (iPhone, iOS 18.6 or later) and Google Play, £3.99",
+ "means": "If you live in or visit London, Paris, Stockholm or Tokyo, you can see where the metro runs under the street you're on.",
+ "todo": "Search Subwhere AR on the App Store or Google Play, step outside and tilt your phone toward the ground; underground, use the live map instead.",
+ "apps": [
+  "Subwhere AR"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/gb/app/subwhere-ar/id6767013763"
+  },
+  {
+   "name": "Time Out",
+   "url": "https://www.timeout.com/london/news/subwhere-ar-app-tube-trains-real-time-launch-london-111926"
+  }
+ ],
+ "item": 137442,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "SEE TUBE TRAINS UNDER YOUR FEET"
+}

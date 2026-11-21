@@ -1,0 +1,23 @@
+{
+ "slug": "tiktok-likeness-detection-deepfakes",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Social",
+ "tag": "Quick",
+ "quick": true,
+ "head": "TikTok rolls out deepfake detection tool for public figures worldwide",
+ "dek": "TikTok's likeness detection tool lets politicians and accounts with many followers find and report AI-made videos that use their face without consent. It's rolling out gradually around the world, TikTok said at an event in London on 20 November.",
+ "apps": [
+  "TikTok"
+ ],
+ "sources": [
+  {
+   "name": "NZ Herald",
+   "url": "https://www.nzherald.co.nz/world/tiktok-launches-tool-worldwide-to-help-public-figures-detect-deepfakes/EN6ET5PPYREYBNUK5DHTHBU2EA/"
+  }
+ ],
+ "item": 139732,
+ "idea": "news",
+ "traction": 0
+}

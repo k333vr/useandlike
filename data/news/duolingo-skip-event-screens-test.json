@@ -1,0 +1,27 @@
+{
+ "slug": "duolingo-skip-event-screens-test",
+ "date": "2026-11-19",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Education",
+ "tag": "Update",
+ "head": "Duolingo event screens: option to skip them coming in December",
+ "dek": "Duolingo says it will test a way to skip the event screens that appear after each lesson, such as avatar outfit events, starting with a small group of users next week. A wider rollout is planned for December.",
+ "details": "A Duolingo representative announced the test in a post on the app's Reddit community, after users said the screens get in the way of learning. Today, finishing a lesson can mean tapping through several screens: milestone rewards, treasure chests, event games and, on the free plan, ads. Duolingo hasn't said how the opt-out will work or which platforms get it first.",
+ "where": "Small test group from next week, wider rollout planned for December",
+ "means": "If you tap through several screens after every lesson, you may soon be able to go straight to the next one.",
+ "todo": "Nothing to do yet. Keep the app updated; the option should show up for more people in December.",
+ "apps": [
+  "Duolingo"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/duolingo-event-screen-opt-out-3737299/"
+  }
+ ],
+ "item": 134367,
+ "idea": "news",
+ "traction": 0,
+ "thumb_words": "DUOLINGO LETS YOU SKIP EVENT SCREENS"
+}

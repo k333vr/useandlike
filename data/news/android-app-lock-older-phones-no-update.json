@@ -1,0 +1,31 @@
+{
+ "slug": "android-app-lock-older-phones-no-update",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Android",
+ "tag": "Heads-up",
+ "head": "Android App Lock won't come to older Android versions, Google says",
+ "dek": "Android's built-in App Lock needs a full Android update and can't be added to older versions through Google Play system updates, Google's Mishaal Rahman said on 20 November. Google plans to ship it with Android 17 QPR3 in the first quarter of 2027.",
+ "details": "App Lock relies on new parts of the core Android system, which Play system updates can't deliver. A locked app opens only with your phone's PIN, pattern, password or fingerprint, hides its notification text, loses its home screen widgets and shortcuts, and gets a blurred preview in Recents. It's in the Android 17 QPR3 beta for Pixel phones since Beta 3 in late October, and Samsung announced its own App Lock in the One UI 9.5 beta on 18 November for Galaxy S26 owners in some countries, without saying which older Galaxy phones get it. Phone makers can build their own app locks, as Xiaomi has for years.",
+ "where": "Android 17 QPR3 and later, planned for early 2027; Pixel beta now; Samsung One UI 9.5 beta on the Galaxy S26",
+ "means": "If your phone won't get Android 17 QPR3 or a maker update with an app lock, you won't get this feature. App locker apps from the Play Store can lock apps, but they can't hide notifications, Recents previews or share targets the way the built-in one does.",
+ "todo": "Check whether your phone's maker already has an app lock in its settings. Pixel owners who want it now can join the Android 17 QPR3 beta; everyone else can wait for the update early next year.",
+ "apps": [
+  "Android"
+ ],
+ "thumb_words": "NO APP LOCK FOR OLDER ANDROID",
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/android-native-app-lock-older-versions-3737530/"
+  },
+  {
+   "name": "TalkAndroid",
+   "url": "https://www.talkandroid.com/536041-android-app-lock-older-versions-no-backport/"
+  }
+ ],
+ "item": 140136,
+ "idea": "news",
+ "traction": 26
+}

@@ -1,0 +1,77 @@
+{
+ "slug": "parental-controls-iphone-vs-android-explained",
+ "date": "2026-11-21",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Family",
+ "tag": "Explainer",
+ "head": "Parental controls on iPhone vs Android: setting up a kid's phone",
+ "dek": "On an iPhone, parental controls come from a Child Account in Family Sharing and Screen Time; on Android, from Google's Family Link, and Family Link can't supervise an iPhone, so the child's phone decides which system you use.",
+ "sections": [
+  {
+   "h": "Start with the child's own account",
+   "p": [
+    "Both systems want the child to have an account of their own instead of sharing a parent's. Apple says a parent or guardian has to create the Apple Account for a child under 13 (the age differs by country), and Child Accounts can be used up to 18. On an iPhone you go to Settings, Family, Add Member, Create Child Account, then enter the name and birthday.",
+    "Apple stresses the birthday: the child's age decides which protections switch on by default. Google's Family Link likewise lets a parent create a Google Account for a child under 13, and the parent must be 18 or older and live in the same country."
+   ]
+  },
+  {
+   "h": "Setting up an iPhone for a child",
+   "p": [
+    "Apple's child safety guide uses Quick Start: turn on the child's iPhone, hold your own iPhone (iOS 16 or later, Bluetooth on) next to it, then pick your child's name or Create New Child Account. If you're passing down an old iPhone, back it up, sign out of your Apple Account and remove your personal data first.",
+    "Afterwards the controls live in Settings, Family, your child's name. Time Allowances set a daily budget across app categories; Screen Time Schedules set which apps work when, with separate weekday and weekend routines. Allowed Contacts limits who your child can reach, and messages from new senders wait for your approval. Communication Safety blurs photos and videos with detected nudity, gore or violence in Messages and FaceTime, and Content and Privacy Restrictions set age ratings for apps, music and films.",
+    "Apple says Ask to Buy, which sends downloads and purchases to you for approval, is on by default for children under 13, and Limit Adult Websites is on by default for under-18s."
+   ]
+  },
+  {
+   "h": "Setting up an Android phone with Family Link",
+   "p": [
+    "Google's Family Link app runs on the parent's Android phone (Android 6 or later), iPhone or iPad (iOS 16 or later), and some settings work at familylink.google.com. The child's device has to be an Android phone, a Chromebook or a compatible Fitbit. Google says iPhones, iPads and other computers can't be supervised with Family Link.",
+    "To set a limit, open Family Link, pick your child, tap Screen time, then Time limits, turn on Daily limit and fill in the weekly schedule. Google points out the limit counts per device: a child with a phone and a Chromebook gets the full time on each. A locked phone can still take calls, and you can give bonus time.",
+    "You can also block or allow apps across all the child's devices and see the location of their Android phone or Fitbit. Purchase approval only covers purchases made through Google Play's billing, not payments made inside an app another way."
+   ]
+  },
+  {
+   "h": "What changed on Android this month",
+   "p": [
+    "In early November 2026 Google added a Family section near the top of Settings on Pixel phones, which 9to5Google reported widely on 14 November. It lists your family group, including child accounts, with shared Google One storage, the Play Family Library, shared payment methods and the live location of members who share it. It sits next to Family Link rather than replacing its screen time and app controls."
+   ]
+  }
+ ],
+ "means": "If your child gets an iPhone, you'll manage it through Family Sharing and Screen Time; if it's an Android phone, through Family Link, which you can run from your own iPhone. Getting the birthday right on the child's account turns on most age-based protections for you.",
+ "todo": "Create the child's own account with the correct birthday before setup, then set a daily limit, a bedtime schedule and purchase approval. On iPhone, also check Allowed Contacts and Communication Safety; on Android, remember the daily limit applies to each device separately.",
+ "apps": [
+  "Screen Time",
+  "Family Link",
+  "Family Sharing"
+ ],
+ "idea": "explainer",
+ "traction": 0,
+ "thumb_words": "KID'S FIRST PHONE: PARENTAL CONTROLS",
+ "sources": [
+  {
+   "name": "Apple Support: parental controls",
+   "url": "https://support.apple.com/en-us/105121"
+  },
+  {
+   "name": "Apple Support: child's Apple Account",
+   "url": "https://support.apple.com/102617"
+  },
+  {
+   "name": "Apple child safety guide",
+   "url": "https://support.apple.com/guide/child-safety/grzxvj0yrbnm/web"
+  },
+  {
+   "name": "Google Family Link Help",
+   "url": "https://support.google.com/families/answer/7101025?hl=en"
+  },
+  {
+   "name": "Google Family Link Help: screen time",
+   "url": "https://support.google.com/families/answer/7103340?hl=en"
+  },
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/14/google-pixel-family-hub-feature-rolled-out/"
+  }
+ ]
+}

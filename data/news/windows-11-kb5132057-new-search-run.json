@@ -1,0 +1,27 @@
+{
+ "slug": "windows-11-kb5132057-new-search-run",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Windows",
+ "tag": "Update",
+ "head": "Windows 11 KB5132057 update features: new Search without Edge, new Run",
+ "dek": "The optional Windows 11 update KB5132057 brings a rebuilt Search that no longer runs on Edge's web parts, a new Run box you can switch on and a way to turn off the Sticky Keys shortcut. Everyone gets these changes with the 8 December update.",
+ "details": "Search is now a smaller single list with quick actions, such as turning Bluetooth on or off; Windows Latest measured 15 to 20 percent less memory use. The new Run box is turned on in Settings, System, Advanced and has no Browse button. Searching This PC in File Explorer now uses the Windows search index, and Windows Hello can briefly raise screen brightness to see you (off by default). It's build 26300.10075 on 26H2 and 26200.10075 on 25H2; some features roll out gradually after installing.",
+ "where": "Windows 11 25H2 and 26H2, optional now; in the 8 December update for everyone",
+ "means": "If you use the Start menu search a lot, it will look different and simpler on your PC by December, whether you install this now or not.",
+ "todo": "To try it now, open Settings, Windows Update, and install the optional 2026-11 preview update. Skipping it is fine: the 8 December update brings the same changes.",
+ "apps": [
+  "Windows 11"
+ ],
+ "sources": [
+  {
+   "name": "Windows Latest",
+   "url": "https://www.windowslatest.com/2026/11/20/windows-11-kb5132057-out-with-native-search-that-ditches-edge-modern-run-and-a-way-to-kill-sticky-keys-direct-download-links-for-offline-installer-msu/"
+  }
+ ],
+ "item": 138466,
+ "idea": "news",
+ "traction": 18,
+ "thumb_words": "WINDOWS 11 GETS A NEW SEARCH"
+}

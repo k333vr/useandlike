@@ -1,0 +1,24 @@
+{
+ "slug": "apple-ai-agent-job-listings-report",
+ "date": "2026-11-19",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Apple",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "Apple may be building an AI agent that uses apps, job listings show",
+ "dek": "Apple job listings spotted by Bloomberg describe an AI agent that can browse the web, work across apps, run commands and write code, built with the Siri team. Apple hasn't announced it.",
+ "apps": [
+  "Siri"
+ ],
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/19/apple-ai-agent-development/"
+  }
+ ],
+ "item": 138000,
+ "idea": "news",
+ "traction": 0
+}

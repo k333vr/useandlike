@@ -1,0 +1,23 @@
+{
+ "slug": "samsung-repair-vans-50000-europe",
+ "date": "2026-11-18",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Samsung",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Samsung's repair vans pass 50,000 Galaxy repairs in Europe",
+ "dek": "Samsung says its on-demand repair service, where a technician comes to you in a van, did more than 50,000 repairs in its first 18 months across 12 European countries, including the UK, Germany, France, Italy and Spain. In some countries it only picks up and returns devices.",
+ "apps": [
+  "Samsung"
+ ],
+ "sources": [
+  {
+   "name": "SammyGuru",
+   "url": "https://sammyguru.com/samsung-on-demand-mobile-repair-service-crosses-50000-repairs-europe/"
+  }
+ ],
+ "item": 140107,
+ "idea": "news",
+ "traction": 0
+}

@@ -1,0 +1,86 @@
+{
+ "slug": "digital-id-tsa-airports-explained",
+ "date": "2026-11-21",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Travel",
+ "tag": "Explainer",
+ "head": "Digital ID at TSA explained: Apple Wallet, Google Wallet, state apps",
+ "dek": "You can show a digital ID on your phone at TSA checkpoints in more than 250 US airports, by tapping the reader or scanning a QR code, but TSA still wants every traveler to carry a physical ID as well.",
+ "sections": [
+  {
+   "h": "How it works at the checkpoint",
+   "p": [
+    "TSA's digital ID page says it accepts IDs in Apple Wallet, Google Wallet, Samsung Wallet and approved state apps at more than 250 airports. At the podium you either tap your phone on the digital ID reader or scan the ID's QR code.",
+    "On an iPhone, Apple's support page describes the steps: double-click the side button, unlock with Face ID or Touch ID, tap your ID, hold the top of the phone near the reader and double-click again to agree to share. You see which details are being sent before you approve. Apple says neither your state nor Apple can see when and where you use it.",
+    "TSA then takes a photo and compares it with your ID. That photo is optional: tell the officer before you present your ID, and TSA says you keep your place in line while they check you the usual way. TSA says photos and data are deleted after the check."
+   ]
+  },
+  {
+   "h": "Which states work, and in which wallet",
+   "p": [
+    "On 21 November 2026, TSA's list showed 22 states plus Puerto Rico. Some work only in Apple Wallet (Hawaii, Illinois, Oklahoma), some in Apple, Google and Samsung (Arizona, Georgia, Maryland, North Dakota and others), and some only in the state's own app: Alaska Mobile ID, Kentucky's KY Mobile ID, LA Wallet in Louisiana, the NY MiD app, Utah's GET Mobile and Connecticut's new Mobile ID app, which launched on 18 November.",
+    "Two dates are worth knowing. TSA says Utah's mobile license won't be accepted from 1 January 2027, and West Virginia's from 4 May 2027."
+   ]
+  },
+  {
+   "h": "No license in your wallet? A passport works too",
+   "p": [
+    "If your state isn't on the list, a US passport can stand in. Apple's Digital ID is made from a US passport and needs an iPhone 11 or later on iOS 26.1 or later (or an Apple Watch Series 6 on watchOS 26.1). You scan the photo page and hold the iPhone on the passport's chip. Apple says it works only at select TSA checkpoints for domestic flights and can't be used for international travel or border crossings.",
+    "Google Wallet's ID pass works the same way on Android 9 or later with NFC. Google says only passes made from a US passport work at TSA, you can make one pass per passport, and Bluetooth and Nearby devices must be on to use it. A pass made from a UK passport can't be used at TSA. TSA also lists Samsung ID with CLEAR and Clear ID for passport holders."
+   ]
+  },
+  {
+   "h": "Why you still need the plastic card",
+   "p": [
+    "TSA's page says all passengers must still carry an acceptable physical ID. Apple and Google both say their digital IDs don't replace your physical documents, and Google's help page adds that a digital ID may not be accepted everywhere.",
+    "This matters more since REAL ID enforcement began on 7 May 2025. Since 1 February 2026, a traveler without an acceptable ID can pay 45 dollars for TSA ConfirmID, a separate identity check that is valid for 10 days and that TSA says may not always succeed."
+   ]
+  }
+ ],
+ "means": "If your state or passport is supported, your phone can get you through the ID check without handing over a card, but you still need the physical ID with you in case the reader, the airport or your battery doesn't cooperate.",
+ "todo": "Check TSA's Participating States list for your state and wallet, add your license or passport before the trip (the state has to approve a license), keep your phone charged, and pack your physical REAL ID or passport anyway. Say so before you present your ID if you don't want your photo taken.",
+ "apps": [
+  "Apple Wallet",
+  "Google Wallet",
+  "Samsung Wallet"
+ ],
+ "category": "Travel",
+ "idea": "explainer",
+ "traction": 0,
+ "thumb_words": "DIGITAL ID AT TSA: WHAT WORKS",
+ "sources": [
+  {
+   "name": "TSA: Digital ID",
+   "url": "https://www.tsa.gov/digital-id"
+  },
+  {
+   "name": "TSA: Participating states",
+   "url": "https://www.tsa.gov/digital-id/participating-states"
+  },
+  {
+   "name": "Apple Support: ID in Wallet",
+   "url": "https://support.apple.com/en-us/118237"
+  },
+  {
+   "name": "Apple Wallet: ID",
+   "url": "https://learn.wallet.apple/id"
+  },
+  {
+   "name": "Google Wallet Help: ID pass",
+   "url": "https://support.google.com/wallet/answer/15284332?hl=en"
+  },
+  {
+   "name": "TSA: ConfirmID",
+   "url": "https://www.tsa.gov/confirmid"
+  },
+  {
+   "name": "TSA holiday travel release",
+   "url": "https://content.govdelivery.com/accounts/USDHSTSA/bulletins/4010d74"
+  },
+  {
+   "name": "Connecticut DMV",
+   "url": "https://portal.ct.gov/dmv/mobile-id"
+  }
+ ]
+}

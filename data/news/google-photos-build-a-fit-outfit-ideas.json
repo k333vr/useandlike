@@ -1,0 +1,24 @@
+{
+ "slug": "google-photos-build-a-fit-outfit-ideas",
+ "date": "2026-11-18",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Google",
+ "tag": "Quick",
+ "head": "Google Photos may suggest outfits with a Build a fit option",
+ "dek": "Code in Google Photos 8.2 for Android, found by NerdsChalk, points to Build a fit in the Wardrobe section, with Pick an outfit vibe, Surprise me and Choose items manually. Google hasn't announced it, and it may change or never ship.",
+ "quick": true,
+ "apps": [
+  "Google Photos"
+ ],
+ "sources": [
+  {
+   "name": "NerdsChalk",
+   "url": "https://nerdschalk.com/google-photos-prepares-build-a-fit-outfit-suggestions-for-wardrobe-apk-teardown/"
+  }
+ ],
+ "item": 131345,
+ "idea": "news",
+ "traction": 0,
+ "rumor": true
+}

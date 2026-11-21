@@ -1,0 +1,32 @@
+{
+ "slug": "iphone-duo-2-touch-id-screens-leak",
+ "date": "2026-11-18",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Apple",
+ "tag": "Leak",
+ "rumor": true,
+ "head": "iPhone Duo 2 leaks: same screen sizes, Touch ID may stay",
+ "dek": "iPhone Duo 2 test units keep the 7.6-inch inner screen, the 5.4-inch outer screen and a fingerprint sensor in the side button, according to the leaker Digital Chat Station on Weibo. Apple hasn't confirmed anything about a second Duo.",
+ "details": "The leaker says he sees no clear sign of Face ID and doubts it would work well on the outer screen, which faces away from you when the phone is open. That differs from Bloomberg's Mark Gurman, who reported on 15 November that Apple has prototypes with Face ID on the outer screen but may run out of time. The iPhone Duo 2 is expected in fall 2027.",
+ "where": "Rumor for the iPhone Duo 2, expected in fall 2027; not confirmed by Apple",
+ "means": "If you're waiting for a second Duo, it may look and unlock much like today's model; Face ID on it is reported both ways.",
+ "todo": "Nothing to do yet. The current iPhone Duo unlocks with Touch ID in its side button.",
+ "apps": [
+  "iPhone Duo"
+ ],
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://macrumors.com/2026/11/18/iphone-duo-2-likely-to-retain-touch-id"
+  },
+  {
+   "name": "iThinkDifferent",
+   "url": "https://www.ithinkdiff.com/?p=356924"
+  }
+ ],
+ "item": 137218,
+ "idea": "news",
+ "traction": 50,
+ "thumb_words": "IPHONE DUO 2: TOUCH ID STAYS?"
+}

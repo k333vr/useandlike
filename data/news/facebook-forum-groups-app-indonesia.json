@@ -1,0 +1,24 @@
+{
+ "slug": "facebook-forum-groups-app-indonesia",
+ "date": "2026-11-18",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Social",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Facebook's Forum app for Groups launches in Indonesia",
+ "dek": "Meta's Forum app, which puts Facebook Groups in a separate app with an AI Ask feature and topic controls, is now out in Indonesia on Android, with an iPhone version coming.",
+ "apps": [
+  "Forum",
+  "Facebook"
+ ],
+ "sources": [
+  {
+   "name": "Meta",
+   "url": "https://about.fb.com/news/2026/11/forum-a-dedicated-app-for-facebook-groups-is-now-available-in-indonesia/"
+  }
+ ],
+ "item": 131717,
+ "idea": "news",
+ "traction": 0
+}

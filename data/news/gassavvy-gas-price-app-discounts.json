@@ -1,0 +1,27 @@
+{
+ "slug": "gassavvy-gas-price-app-discounts",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Money",
+ "tag": "New app",
+ "head": "GasSavvy gas price app counts your discounts before ranking stations",
+ "dek": "GasSavvy is a new 1.99 dollar iPhone app that ranks nearby gas stations by what a full tank would cost you after the discounts you already have, such as Walmart+, Shell Fuel Rewards, Exxon Mobil Rewards+, T-Mobile Tuesdays, AAA or AARP. It came out on 19 November and was #12 among paid Travel apps on the US App Store on 20 November.",
+ "details": "For each station it gives a Go, Skip or Closest verdict and counts the gas you'd burn driving there. You can log fill-ups and trips to see your miles per gallon, cost per mile, monthly gas spend and a business-mileage total at the current IRS rate, and export them as a CSV file. There's no account, no subscription, no ads and no in-app purchases; the listing says your data stays on the phone and your location is used only when you search. Station data comes from Google, and version 1.0.1 added daily search limits to its terms without saying how many.",
+ "where": "iPhone and iPad (iOS 16.4 or later), App Store; the discount programs are US ones",
+ "means": "If you're signed up to fuel discounts through a store, a card or your phone plan, the lowest price on the sign isn't always the lowest cost for your tank, and this app does that sum for you.",
+ "todo": "Pick the discount programs you belong to in the app, then search before you fill up. The listing says to confirm discounts at the pump and never to use it while driving.",
+ "apps": [
+  "GasSavvy"
+ ],
+ "thumb_words": "GAS APP THAT COUNTS YOUR DISCOUNTS",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/gassavvy/id6833317883"
+  }
+ ],
+ "item": 145816,
+ "idea": "newcomer",
+ "traction": 0
+}

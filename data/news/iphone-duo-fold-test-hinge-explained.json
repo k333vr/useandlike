@@ -1,0 +1,80 @@
+{
+ "slug": "iphone-duo-fold-test-hinge-explained",
+ "date": "2026-11-21",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Apple",
+ "tag": "Explainer",
+ "head": "iPhone Duo fold test explained: how many folds the hinge can take",
+ "dek": "CNET's folding machine passed 451,000 folds on the iPhone Duo by 13 November with the phone still working but the hinge loosening, while Apple hasn't published a fold rating of its own.",
+ "sections": [
+  {
+   "h": "What the CNET machine found",
+   "p": [
+    "CNET put a 1,999 dollar iPhone Duo on its Fold-a-Phone machine the day after the phone went on sale on 23 October and streams the test live. According to TweakTown, the machine opens and closes it about 20,000 times a day.",
+    "MacRumors reported on 13 November that the count had passed 451,000. The hinge started to feel looser at about 390,000 folds. From about 440,300, the screen no longer opened all the way before the machine closed it again, and it now stops 5 to 10 degrees short of flat, though it still opens fully by hand. The phone still works, holds other positions and showed no cracks. CNET keeps going until the phone loses power, its sensors stop detecting the screen, or the display goes black."
+   ]
+  },
+  {
+   "h": "Why other tests got other results",
+   "p": [
+    "Not every test lines up. TweakTown collected three: YouTuber Kuba Klawiter folded one Duo by hand about 75,000 times and saw a bright white line along the inner crease, while Joanna Stern's machine did 32,000 folds over four nights with a case on and without closing the phone fully; the hinge measured stiffer, but she noticed no difference in daily use.",
+    "Machines repeat the same motion exactly, hands don't, and a case or a half-closed fold changes the load. One phone per test also says little about every phone. That's why the numbers sit far apart."
+   ]
+  },
+  {
+   "h": "What 500,000 folds means on other foldables",
+   "p": [
+    "The figure people compare with comes from Samsung. Bureau Veritas said on 31 July 2025 that Samsung Display's 8-inch foldable panel for the Galaxy Z Fold7 completed 500,000 folds in 13 days at 25 degrees Celsius, 2.5 times the industry standard of 200,000. That test covered the screen panel, not a whole phone with its hinge, and Bureau Veritas described it as about 10 years of average use.",
+    "MacRumors notes the Duo's OLED panels also come from Samsung Display. Its own math says 450,000 folds would last more than a decade at 100 folds a day. Apple hasn't shared its internal hinge tests or an expected fold lifespan."
+   ]
+  },
+  {
+   "h": "Cracks, the crease layer and what Apple covers",
+   "p": [
+    "The fold count is a different question from the cracked inner screens some owners reported. On 26 October Apple told 9to5Mac it was aware of an issue affecting the inner display on a small number of units and that people with display problems should contact AppleCare for a replacement. AppleCare+ isn't required, and if you bought from a carrier, you go to AppleCare directly.",
+    "The inner screen also has a cover layer that hides the crease. Apple says it's replaceable if it wears or the crease shows more over time; MacRumors reported on 1 October that Apple lists the swap at 19 dollars in the US with AppleCare+."
+   ]
+  },
+  {
+   "h": "Looking after the hinge",
+   "p": [
+    "Apple's hinge troubleshooting page lists noise, a loose or bent hinge, and a phone that won't open or close fully. Its steps: take off any non-Apple case or screen protector, check the hinge for dust, and clean the screens with a soft, slightly damp, lint-free cloth with the phone off. Apple says not to use compressed air or cleaners with bleach or hydrogen peroxide, and that no restart or update fixes a hinge problem; the fix is a repair."
+   ]
+  }
+ ],
+ "means": "If you own an iPhone Duo or are thinking about one, the longest machine test so far shows the hinge wearing before the screen, after far more folds than most people make in a few years; cracks near the hinge are a separate issue Apple replaces through AppleCare.",
+ "todo": "If your inner screen cracks or the hinge creaks, gets loose or won't close, contact AppleCare (AppleCare+ isn't needed for the crack replacement). Keep the hinge free of dust, skip compressed air, and take off third-party cases and protectors when checking a problem.",
+ "apps": [
+  "iPhone Duo"
+ ],
+ "idea": "competitor",
+ "traction": 0,
+ "thumb_words": "IPHONE DUO: 451,000 FOLDS LATER",
+ "sources": [
+  {
+   "name": "Apple Support: iPhone Duo hinge issues",
+   "url": "https://support.apple.com/en-us/148323"
+  },
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/13/iphone-duo-fold-testing/"
+  },
+  {
+   "name": "TweakTown",
+   "url": "https://www.tweaktown.com/news/114322/everyone-is-folding-apples-iphone-duo-until-something-breaks-and-the-results-are-all-over-the-place/index.html"
+  },
+  {
+   "name": "Bureau Veritas",
+   "url": "https://www.cps.bureauveritas.com/newsroom/bureau-veritas-verifies-samsung-displays-industry-leading-foldable-oled-durability"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/10/26/apple-responds-to-reports-of-iphone-duos-inner-display-cracking/"
+  },
+  {
+   "name": "MacRumors: cover layer",
+   "url": "https://www.macrumors.com/2026/10/01/iphone-duo-cover-layer-is-replaceable/"
+  }
+ ]
+}

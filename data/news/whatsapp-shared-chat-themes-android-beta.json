@@ -1,0 +1,24 @@
+{
+ "slug": "whatsapp-shared-chat-themes-android-beta",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "WhatsApp beta for Android lets you share a chat theme with everyone",
+ "dek": "Some WhatsApp beta testers on Android (2.26.46.8) can set a wallpaper and bubble colour for both sides of a chat or a group at once, WABetaInfo reports; more testers get it over the coming weeks, with no date for everyone.",
+ "apps": [
+  "WhatsApp"
+ ],
+ "sources": [
+  {
+   "name": "WABetaInfo",
+   "url": "https://wabetainfo.com/whatsapp-is-rolling-out-shared-chat-themes-on-android/"
+  }
+ ],
+ "item": 139466,
+ "idea": "news",
+ "traction": 21
+}

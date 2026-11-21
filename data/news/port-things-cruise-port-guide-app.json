@@ -1,0 +1,28 @@
+{
+ "slug": "port-things-cruise-port-guide-app",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Travel",
+ "tag": "New app",
+ "category": "Travel",
+ "head": "Port Things: an offline cruise port guide app for iPhone",
+ "dek": "Port Things is a new iPhone and iPad app with offline guides to cruise ports, made by Incmplte L.L.C. It costs $4.99 and was #60 among paid Travel apps on the US App Store on 20 November.",
+ "details": "The price includes five destination guides you choose; more ports or all guides are optional in-app purchases, with no subscription. The app has 20 guides so far, with more promised as free updates. You can pick your pier to see walking times, plan a day around the ship's all-aboard time and follow a compass back to the pier. It needs no account, shows no ads and works in eleven languages.",
+ "where": "iPhone and iPad (iOS 18 or later), App Store, out since 18 November",
+ "means": "If you're going on a cruise, you can keep port maps, opening hours and day plans on your phone without needing mobile data in port.",
+ "todo": "Check the app's list of guides for your itinerary's ports before you buy, and download the guide photos over Wi-Fi before you sail.",
+ "apps": [
+  "Port Things"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/port-things-cruise-port-guide/id6817518505"
+  }
+ ],
+ "item": 145817,
+ "idea": "newcomer",
+ "traction": 23,
+ "thumb_words": "OFFLINE CRUISE PORT GUIDES"
+}

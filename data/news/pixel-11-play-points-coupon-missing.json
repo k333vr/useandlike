@@ -1,0 +1,24 @@
+{
+ "slug": "pixel-11-play-points-coupon-missing",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Shopping",
+ "tag": "Quick",
+ "head": "Some Pixel 11 buyers can't find their Play Points Gold coupon",
+ "dek": "Play Points Gold members get coupons of 200 dollars off the Pixel 11 and 225 dollars off the Pro models, on top of Black Friday prices, but some who unlocked Gold with a 4.99-dollar Play Pass say the coupons are missing or stuck at Bronze. Google hasn't commented; the sale runs to 5 December.",
+ "quick": true,
+ "apps": [
+  "Google Play",
+  "Pixel"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/google-play-points-pixel-11-black-friday-discount-issues-3737592/"
+  }
+ ],
+ "item": 140605,
+ "idea": "news",
+ "traction": 0
+}

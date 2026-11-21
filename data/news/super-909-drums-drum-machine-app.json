@@ -1,0 +1,27 @@
+{
+ "slug": "super-909-drums-drum-machine-app",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Music",
+ "tag": "New app",
+ "head": "Super 909 Drums: free 909-style drum machine app for iPhone and Mac",
+ "dek": "AudioKit Pro released Super 909 Drums on 20 November, a free synth-based drum machine modelled on the classic 909 sound, for iPhone, iPad and Mac. The same day it was #65 in Music on the US App Store's free chart.",
+ "details": "You can tap beats on drum pads, add flams, ratchets and swing, and set a last step per track for polyrhythms. It works on its own or as an AUv3 plug-in, sends MIDI and syncs by MIDI clock or Ableton Link, and presets sync between Mac, iPhone and iPad. The listing says it isn't affiliated with Roland, which owns the TR-909 name, and that VoiceOver works in 14 languages.",
+ "where": "iPhone, iPad (iOS 15 or later) and Mac (macOS 12 or later); free",
+ "means": "If you make beats on a phone or in a music app that takes AUv3 plug-ins, you can try a 909-style drum machine without paying for it.",
+ "todo": "Download it from the App Store and open it on its own, or load it as an AUv3 plug-in in your music app.",
+ "apps": [
+  "Super 909 Drums"
+ ],
+ "sources": [
+  {
+   "name": "App Store: Super 909 Drums",
+   "url": "https://apps.apple.com/us/app/super-909-drums-drum-machine/id6812908495"
+  }
+ ],
+ "item": 145818,
+ "idea": "newcomer",
+ "traction": 27,
+ "thumb_words": "FREE 909 DRUM MACHINE APP"
+}

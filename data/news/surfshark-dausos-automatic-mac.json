@@ -1,0 +1,27 @@
+{
+ "slug": "surfshark-dausos-automatic-mac",
+ "date": "2026-11-16",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Security",
+ "tag": "Quick",
+ "head": "Surfshark's Mac app can now pick its Dausos protocol automatically",
+ "dek": "Surfshark added its own Dausos protocol to the Auto Protocol setting of its macOS app, so the app can choose it when it suits the connection; you can also pick it under Settings, VPN Settings, Protocol. Other platforms are coming, without a date.",
+ "quick": true,
+ "apps": [
+  "Surfshark"
+ ],
+ "sources": [
+  {
+   "name": "Surfshark blog",
+   "url": "https://surfshark.com/blog/dausos-is-automatic-now"
+  },
+  {
+   "name": "TechRadar",
+   "url": "https://www.techradar.com/vpn/vpn-services/surfsharks-proprietary-dausos-protocol-now-powers-automatic-connections-on-mac"
+  }
+ ],
+ "item": 126361,
+ "idea": "news",
+ "traction": 19
+}

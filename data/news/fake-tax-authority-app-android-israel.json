@@ -1,0 +1,27 @@
+{
+ "slug": "fake-tax-authority-app-android-israel",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "Fake Tax Authority app hijacks Android phones, Israel warns",
+ "dek": "Israel's National Cyber Directorate warned on 19 November about messages that lead to a fake Google Play page offering a Tax Authority app. Once installed and given permissions, it lets attackers read text messages and one-time codes, turn on the camera and control the phone.",
+ "details": "The app poses as the official Israel Tax Authority app. The report doesn't say whether the messages come by text, email or another way. The directorate says deleting the app isn't enough if it's already on a phone.",
+ "where": "Android phones in Israel; spread through links in messages",
+ "means": "If a message about your taxes asks you to install an app from a link, it may be this scam, even when the page looks like Google Play.",
+ "todo": "Install apps only from the app store already on your phone, opened directly, and never allow installs from unknown sources. Check tax messages on the authority's own website, not through the link. If you installed the app: turn off Wi-Fi and mobile data, don't log in or bank on the phone, change passwords from another device, log out unknown devices from your accounts, then factory reset the phone and reinstall apps from the official store without restoring an old backup.",
+ "apps": [
+  "Android"
+ ],
+ "sources": [
+  {
+   "name": "The Yeshiva World",
+   "url": "https://www.theyeshivaworld.com/news/israel-news/2625745/cyber-alert-fake-tax-authority-app-lets-hackers-hijack-android-phones-israel-warns.html"
+  }
+ ],
+ "item": 139713,
+ "idea": "news",
+ "traction": 30,
+ "thumb_words": "FAKE TAX APP HIJACKS ANDROID PHONES"
+}

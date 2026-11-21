@@ -17,6 +17,9 @@
   }
  ],
  "item": 121242,
+ "items": [
+  136951
+ ],
  "idea": "request",
  "traction": 18,
  "details": "Claude Fable 5.2 leads and plans the task; the default team is Claude Opus 5.5, GPT 6.1 Sol and Gemini 4 Carbon, and you can name other models in your request. You can see which agents and models are running, and stopping the thread stops the whole team. Perplexity suggests it for long jobs such as checking an annual report, comparing financial scenarios or organizing records for a tax professional.",

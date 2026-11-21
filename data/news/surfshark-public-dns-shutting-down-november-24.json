@@ -1,0 +1,32 @@
+{
+ "slug": "surfshark-public-dns-shutting-down-november-24",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Security",
+ "tag": "Shutdown",
+ "head": "Surfshark DNS shutting down on 24 November: switch your DNS servers",
+ "dek": "Surfshark is retiring its free public DNS service from 24 November 2026, according to its support page. Anyone who typed its DNS addresses into a phone, computer or router should move to another resolver.",
+ "details": "The service used the addresses 194.169.169.169 (IPv4) and 2a09:a707:169:: (IPv6). Surfshark's page names Google or Cloudflare as resolvers to switch to. TechRadar reports the service ran for about 19 months and that Surfshark cited limited adoption.",
+ "where": "Everyone who set Surfshark's public DNS by hand, from 24 November 2026",
+ "means": "If your phone, computer or router uses 194.169.169.169 as its DNS server, websites may stop loading once the service is retired.",
+ "todo": "Check your device's or router's DNS settings. If you see 194.169.169.169 or 2a09:a707:169::, replace them with another resolver, for example Google's or Cloudflare's, before 24 November.",
+ "apps": [
+  "Surfshark"
+ ],
+ "category": "VPN & Privacy",
+ "sources": [
+  {
+   "name": "Surfshark support",
+   "url": "https://support.surfshark.com/hc/en-us/articles/26246613550610-What-is-Surfshark-public-DNS"
+  },
+  {
+   "name": "TechRadar",
+   "url": "https://www.techradar.com/vpn/vpn-services/surfshark-is-shutting-down-its-free-public-dns-service-after-just-19-months-citing-limited-adoption"
+  }
+ ],
+ "item": 143137,
+ "idea": "news",
+ "traction": 34,
+ "thumb_words": "SURFSHARK DNS ENDS NOVEMBER 24"
+}

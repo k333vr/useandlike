@@ -1,0 +1,25 @@
+{
+ "slug": "samsung-selfie-horizontal-leveling-leak",
+ "date": "2026-11-19",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "quick": true,
+ "tag": "Quick",
+ "topic": "Samsung",
+ "rumor": true,
+ "head": "Samsung may add Horizontal Leveling for steadier selfie videos",
+ "dek": "Code in the One UI 9.5 beta describes Horizontal Leveling, which keeps front-camera videos level when the phone tilts, Android Authority found; today's Horizontal Lock only works on rear cameras. Samsung hasn't announced it, and which phones would get it is unknown.",
+ "apps": [
+  "One UI",
+  "Samsung Camera"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-horizontal-leveling-selfie-videos-one-ui-9-5-3736963/"
+  }
+ ],
+ "item": 130594,
+ "idea": "news",
+ "traction": 0
+}

@@ -1,0 +1,27 @@
+{
+ "slug": "adobe-project-indigo-long-exposure-iphone",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Photo",
+ "tag": "New feature",
+ "head": "Long exposure on iPhone: Adobe Project Indigo adds a Long mode",
+ "dek": "Adobe's free Project Indigo camera app for iPhone now has a separate Long Exposure mode, called Long, next to Photo and Night. It merges many short frames into one picture and shows the result building up live in the viewfinder.",
+ "details": "There are two styles: Average smooths waterfalls, waves and clouds and can remove passing people or traffic, while Blend keeps short bright lights such as car light trails, fireworks or light painting. You pick the number of frames, and an infinite setting runs past 1,000 frames until you stop it. The frames aren't aligned, so the phone has to stay completely still, ideally on a tripod; Adobe's forum says handheld shots aren't supported in this mode yet. On iPhone 18 Pro and Pro Max the app can also use the main camera's variable aperture.",
+ "where": "App Store, free; iPhone 12 Pro and 13 Pro and every iPhone from the 14 series on, iOS 18.5 or later",
+ "means": "If you want silky water or light trails without buying an app or a filter, you can try it now with a tripod.",
+ "todo": "Update or install Project Indigo from the App Store, put your iPhone on a tripod or a steady surface, switch to Long and choose Average for water or Blend for lights.",
+ "apps": [
+  "Project Indigo"
+ ],
+ "sources": [
+  {
+   "name": "The Next Web",
+   "url": "https://thenextweb.com/news/adobe-project-indigo-long-exposure-mode-iphone"
+  }
+ ],
+ "item": 140329,
+ "idea": "news",
+ "traction": 15,
+ "thumb_words": "ADOBE INDIGO ADDS LONG EXPOSURE"
+}

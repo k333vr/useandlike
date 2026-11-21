@@ -1,0 +1,24 @@
+{
+ "slug": "galaxy-s27-pro-exynos-geekbench-leak",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Android",
+ "tag": "Quick",
+ "head": "Galaxy S27 Pro may use Samsung's Exynos 2700 chip, leak suggests",
+ "dek": "A Geekbench listing shared on X by tipster Abhishek Yadav shows a phone with model number SM-S957B, believed to be the Galaxy S27 Pro, with the Exynos 2700, 12GB of RAM and Android 17. Samsung hasn't announced the phone or which chip goes to which country.",
+ "quick": true,
+ "apps": [
+  "Samsung Galaxy"
+ ],
+ "sources": [
+  {
+   "name": "TalkAndroid",
+   "url": "https://www.talkandroid.com/536035-galaxy-s27-pro-geekbench-exynos-2700/"
+  }
+ ],
+ "item": 140225,
+ "idea": "news",
+ "traction": 0,
+ "rumor": true
+}

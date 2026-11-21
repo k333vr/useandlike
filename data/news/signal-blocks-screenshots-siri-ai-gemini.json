@@ -1,0 +1,39 @@
+{
+ "slug": "signal-blocks-screenshots-siri-ai-gemini",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Privacy",
+ "tag": "Privacy",
+ "head": "Signal blocks screenshots to keep Siri AI and Gemini out of chats",
+ "dek": "Signal now stops screenshots inside its app on iPhone and Android, so AI assistants built into the phone can't read your messages off the screen. On Android it switches on Screen security by itself when it detects an assistant trying to read the screen; on iOS 27 a new Block Siri AI setting does the job.",
+ "details": "Signal announced the change on its blog on 20 November. You can turn the protection off in Signal's settings if you want screenshots back, but Signal says that may let AI agents see your and your contacts' messages. It isn't blocking Siri AI on the Mac, because it can't reliably stop screenshots there; on macOS 27 it suggests adding Signal to the Excluded Apps list under System Settings, Siri. Signal is asking Apple, Google and Microsoft for a simple, documented way for apps to opt out of AI data access.",
+ "where": "Signal on Android and on iPhone with iOS 27, from 20 November; not on the Mac",
+ "means": "If screenshots of Signal chats suddenly come out blocked, this is why. The block is there to keep phone AI assistants from reading what's on screen, not a fault in your phone.",
+ "todo": "Nothing to do if you're fine without screenshots. If you need them, turn the protection off in Signal's settings (on iPhone it's called Block Siri AI), knowing assistants may then read the screen. On a Mac with macOS 27, add Signal to Excluded Apps under System Settings, Siri.",
+ "apps": [
+  "Signal",
+  "Siri",
+  "Gemini"
+ ],
+ "category": "VPN & Privacy",
+ "sources": [
+  {
+   "name": "Signal blog",
+   "url": "https://signal.org/blog/protecting-your-privacy/"
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/signal-blocks-gemini-siri-ai-private-messages-3737647/"
+  },
+  {
+   "name": "Neowin",
+   "url": "https://www.neowin.net/news/signal-moves-to-stop-gemini-and-siri-ai-from-reading-your-private-conversations/"
+  }
+ ],
+ "item": 141363,
+ "idea": "news",
+ "traction": 74,
+ "rank": 1,
+ "thumb_words": "SIGNAL BLOCKS SCREENSHOTS FROM AI"
+}

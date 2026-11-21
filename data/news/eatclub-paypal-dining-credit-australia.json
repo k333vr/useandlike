@@ -1,0 +1,24 @@
+{
+ "slug": "eatclub-paypal-dining-credit-australia",
+ "date": "2026-11-18",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Money",
+ "tag": "Quick",
+ "quick": true,
+ "head": "EatClub adds PayPal as a payment option in Australia",
+ "dek": "EatClub users in Australia can now pick PayPal on their EatClub Pay card for dine-in bills; for a limited time, eligible users get 10 Australian dollars in dining credit on each of their first three bills over 30 dollars.",
+ "apps": [
+  "EatClub",
+  "PayPal"
+ ],
+ "sources": [
+  {
+   "name": "IT Brief Australia",
+   "url": "https://itbrief.com.au/story/paypal-teams-up-with-eatclub-on-australia-dining-offer"
+  }
+ ],
+ "item": 145366,
+ "idea": "news",
+ "traction": 0
+}

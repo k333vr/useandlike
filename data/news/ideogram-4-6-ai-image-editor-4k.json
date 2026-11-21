@@ -1,0 +1,31 @@
+{
+ "slug": "ideogram-4-6-ai-image-editor-4k",
+ "date": "2026-11-19",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "Ideogram 4.6 AI image generator edits pictures step by step in 4K",
+ "dek": "Ideogram released version 4.6 of its AI image model on 19 November: it makes and edits pictures at up to 4K, and a Precise Edit tool lets you change one part of a picture over several steps, optionally only inside an area you paint. You can also give it up to five reference images.",
+ "details": "Ideogram says the pictures are made at full 4K, not enlarged afterwards, and Precise Edit keeps the original picture's size. In its own tests at High quality, usable results rose against version 4.5, for example from 46 to 83 percent for exact colours and from 69 to 85 percent for keeping a character the same. On the website you pick Ideogram 4.6 in the model menu instead of Auto when your account has it; the page doesn't say which plans include it, and each run's credit cost shows on the Generate button. Ideogram's terms allow commercial use of the pictures.",
+ "where": "Ideogram's website (Image app), when 4.6 shows in your account's model menu; also for developers through its API",
+ "means": "If you make product shots, thumbnails or characters with AI, you can now fix one detail of a picture without the rest changing, and print or crop at a larger size.",
+ "todo": "Open Ideogram, choose Ideogram 4.6 in the model menu instead of Auto, and check the credit cost on the Generate button before you run large 4K edits.",
+ "apps": [
+  "Ideogram"
+ ],
+ "thumb_words": "IDEOGRAM 4.6: AI EDITS IN 4K",
+ "sources": [
+  {
+   "name": "Ideogram",
+   "url": "https://ideogram.ai/models/4.6"
+  },
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/ideogram-4-6-brings-multi-step-image-edits-up-to-4k/"
+  }
+ ],
+ "item": 141956,
+ "idea": "newcomer",
+ "traction": 2
+}

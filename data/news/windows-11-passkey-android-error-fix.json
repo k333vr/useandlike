@@ -1,0 +1,23 @@
+{
+ "slug": "windows-11-passkey-android-error-fix",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Security",
+ "tag": "Quick",
+ "head": "Windows 11 update fixes false passkey error on Android phones",
+ "dek": "Signing in on a Windows 11 PC with a passkey stored on an Android phone could show \"Something went wrong\" on the phone even though the sign-in worked; Microsoft says the error can be ignored. Optional update KB5132057 for Windows 11 25H2 and 26H2, out on 19 November, fixes it.",
+ "quick": true,
+ "apps": [
+  "Windows 11"
+ ],
+ "sources": [
+  {
+   "name": "The Register",
+   "url": "https://www.theregister.com/security/2026/11/20/windows-11-passkey-bug-cries-failure-after-successful-sign-in/5311263"
+  }
+ ],
+ "item": 140962,
+ "idea": "news",
+ "traction": 0
+}

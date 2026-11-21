@@ -1,0 +1,24 @@
+{
+ "slug": "samsung-auto-blocker-calls-one-ui-9-5",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Security",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Samsung's Auto Blocker can't be switched off during calls in One UI 9.5 beta",
+ "dek": "In the first One UI 9.5 beta on the Galaxy S26, Auto Blocker's settings are locked while you're on a call, so a scam caller can't talk you into turning it off to install a harmful app. You can still change them outside a call.",
+ "apps": [
+  "Samsung Galaxy",
+  "One UI"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/one-ui-9-5-auto-blocker-anti-scam-3737564/"
+  }
+ ],
+ "item": 140609,
+ "idea": "news",
+ "traction": 30
+}

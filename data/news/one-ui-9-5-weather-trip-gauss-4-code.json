@@ -1,0 +1,28 @@
+{
+ "slug": "one-ui-9-5-weather-trip-gauss-4-code",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Samsung",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "One UI 9.5 beta code hints at weather trip prompts and Gauss 4 AI",
+ "dek": "Code in the One UI 9.5 beta for the Galaxy S26 shows a Weather app prompt to check the forecast in a city you're travelling to, and mentions a Gauss 4 E2B AI model that may run on the phone, Gizchina reports. Samsung hasn't announced either.",
+ "apps": [
+  "One UI",
+  "Samsung Weather"
+ ],
+ "sources": [
+  {
+   "name": "Gizchina",
+   "url": "https://www.gizchina.com/samsung/one-ui-95-could-bring-two-new-ai-tricks-to-galaxy-phones"
+  }
+ ],
+ "item": 142090,
+ "items": [
+  145210
+ ],
+ "idea": "news",
+ "traction": 0
+}

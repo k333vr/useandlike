@@ -1,0 +1,23 @@
+{
+ "slug": "brave-ios-1-99-iphone-duo-top-sites",
+ "date": "2026-11-20",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Browser",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Brave 1.99 for iPhone adds iPhone Duo support and Top Sites options",
+ "dek": "Brave's iPhone browser now fits the foldable iPhone Duo's screen, and you can choose whether the new tab page shows favourite sites, frequently visited ones or nothing (Settings > New Tab Page > Top Sites).",
+ "apps": [
+  "Brave"
+ ],
+ "sources": [
+  {
+   "name": "PiunikaWeb",
+   "url": "https://piunikaweb.com/2026/11/20/brave-ios-iphone-duo-support-top-sites-update/"
+  }
+ ],
+ "item": 140460,
+ "idea": "news",
+ "traction": 0
+}

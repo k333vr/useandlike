@@ -8,7 +8,7 @@
  "rumor": true,
  "head": "Samsung Android laptop leak: 14- and 16-inch 'Origin' models",
  "dek": "Code in the One UI 9.5 beta points to two Samsung laptops running Android, codenamed Origin, in 14- and 16-inch sizes with Qualcomm's Snapdragon X Elite chip, Android Authority found. Samsung hasn't announced an Android laptop.",
- "details": "The build names suggest Wi-Fi-only models, likely numbered XE940 and XE960. A Geekbench listing from October showed the XE940 with Android 17 and 16 GB of memory. The code mentions keyboard backlight, touchpad and lid settings, Circle to Search in the taskbar and links to Galaxy phones; the 16-inch model shows signs of a touchscreen and S Pen. No launch date is known.",
+ "details": "The build names suggest Wi-Fi-only models, likely numbered XE940 and XE960. A Geekbench listing from October showed the XE940 with Android 17 and 16 GB of memory. The code mentions keyboard backlight, touchpad and lid settings, Circle to Search in the taskbar and links to Galaxy phones; the 16-inch model shows signs of a touchscreen and S Pen. No launch date is known. A second teardown found code for taking a photo or scan on a Galaxy phone and inserting it into a document on the laptop, and for calls and texts with the phone's number after pairing by QR code.",
  "where": "Not announced; spotted in One UI 9.5 beta code",
  "means": "If you're shopping for a laptop, Samsung may offer one that runs your Android apps, but nothing is official yet.",
  "todo": "Nothing to do yet; this comes from code, not from Samsung.",
@@ -21,9 +21,16 @@
   {
    "name": "Android Authority",
    "url": "https://www.androidauthority.com/samsung-origin-android-laptops-one-ui-9-5-apk-teardown-3737102/"
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-origin-android-laptops-camera-continuity-app-streaming-apk-teardown-3737626/"
   }
  ],
  "item": 132722,
+ "items": [
+  141093
+ ],
  "idea": "news",
  "traction": 0
 }

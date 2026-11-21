@@ -1,0 +1,31 @@
+{
+ "slug": "windows-11-26h2-automatic-install",
+ "date": "2026-11-19",
+ "added": "2026-11-21",
+ "checked": "2026-11-21",
+ "topic": "Windows",
+ "tag": "Update",
+ "head": "Windows 11 26H2 automatic install starts on personal PCs",
+ "dek": "Microsoft started installing Windows 11 version 26H2 by itself on personal PCs and business PCs that no IT department manages, beginning 18 November with devices on 24H2 and 25H2. The rollout is gradual and follows each PC's Windows Update settings.",
+ "details": "26H2 came out in September; since late October anyone could get it by checking for updates. It arrives as a small enablement package and brings no features of its own: it switches on what Microsoft is already rolling out to 24H2 and 25H2, and restarts the support clock (24 months for Home and Pro; BleepingComputer gives October 2029 as its end of support). PCs managed by IT aren't in this phase, and ARM PCs on 26H1 can't get 26H2.",
+ "where": "Personal and unmanaged Windows 11 PCs on 24H2 or 25H2, rolling out gradually since 18 November",
+ "means": "If your PC runs Windows 11 at home, it may move to 26H2 on its own over the coming weeks; your apps and files stay, and you get updates for longer.",
+ "todo": "To get it now, open Settings, Windows Update and select Check for Windows updates; turning on \"Get the latest updates as soon as they're available\" brings it sooner. Otherwise just let it arrive.",
+ "apps": [
+  "Windows 11"
+ ],
+ "sources": [
+  {
+   "name": "Thurrott",
+   "url": "https://www.thurrott.com/windows/344065/windows-11-version-26h2-availability-expands-to-all-eligible-pcs"
+  },
+  {
+   "name": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/"
+  }
+ ],
+ "item": 134510,
+ "idea": "news",
+ "traction": 26,
+ "thumb_words": "WINDOWS 11 26H2 INSTALLS ITSELF"
+}
