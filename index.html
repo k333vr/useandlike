@@ -953,7 +953,7 @@ html[data-test="fp1-b"] .fp-search { display: grid; justify-items: center; gap: 
     <aside class="wwu" id="wwu" hidden aria-label="For brands"><p>Run an app or a brand?</p><a href="/c-work-strip">See how to work with us ›</a></aside>
     <p>Some links on this page are affiliate links. If you sign up through them, we may earn a commission at no extra cost to you.</p>
     <p id="foot-channels"></p>
-    <p><a href="/c-about">About</a> · <a href="/c-choose">How we choose tools</a> · <a href="/c-money">How we make money</a> · <a href="/c-work">Work with us</a> · <a href="/#privacy">Privacy</a> · &copy; <span id="year"></span> useandlike.com</p>
+    <p><a href="/c-about">About</a> · <a href="/c-choose">How we choose tools</a> · <a href="/c-money">How we make money</a> · <a href="/c-work">Work with us</a> · <a href="/#privacy">Privacy</a> · <a href="/#terms">Terms</a> · &copy; <span id="year"></span> useandlike.com</p>
   </footer>
 </div>
 
@@ -1496,6 +1496,18 @@ html[data-test="fp1-b"] .fp-search { display: grid; justify-items: center; gap: 
       paragraphs: ["It's free and needs no sign-up. Open it on your phone or computer and add your first subscription."],
       link: { text: "Open the free tracker", url: "https://subscriptionchef.app/" }
     },
+    terms: {
+      title: "Terms of use",
+      paragraphs: [
+        "This site is run by Kevin Redl. Contact: HTRocket@proton.me",
+        "The site and its newsletter are free. We describe apps and tools as carefully as we can, but we give no guarantee that the information is complete or still correct, and what you do with it is your own decision.",
+        "Some links are affiliate links: if you buy through them, we may earn a commission at no extra cost to you. Each tool's own terms and prices apply on its website.",
+        "Our texts, pictures and videos are ours; you may link to them and quote short parts with our name. App names and logos belong to their owners.",
+        "Our internal publishing tool (useandlike tools) is used only by our own team on our own YouTube channels. It uses YouTube API Services; by using it, our team members agree to be bound by the YouTube Terms of Service (https://www.youtube.com/t/terms). The Google Privacy Policy (https://policies.google.com/privacy) applies to YouTube. What the tool stores and how access is removed is described on our Privacy page (/#privacy).",
+        "We may change these terms; the date below shows the latest version.",
+        "Last updated: 22 November 2026."
+      ]
+    },
     privacy: {
       title: "Privacy",
       paragraphs: [
@@ -1506,7 +1518,8 @@ html[data-test="fp1-b"] .fp-search { display: grid; justify-items: center; gap: 
         "We count how often some of our own links are clicked (for example \"Work with us\"), as totals: these links pass through a short address on this site, which Cloudflare, our host, counts. A few page parts are shown to about half of all visits at random, so we can see which works better; the version is kept only in the note for the open tab described above, so the pages of one visit match. The newsletter sign-up step is one of two versions picked at random each time: we count sign-ups and confirmations per version as totals, and Beehiiv keeps the version's name with your sign-up (as a campaign tag).",
         "The site is hosted by Cloudflare, which processes technical data such as your IP address to deliver the pages and protect them against abuse.",
         "The newsletter signup field is provided by Beehiiv, our newsletter provider, and loads from their servers. Beehiiv may set cookies to remember where you came from and that you have subscribed. If you join, your email address is sent to Beehiiv and their privacy policy applies. You can unsubscribe in any email.",
-        "We publish and manage the videos on our own YouTube channels with an internal tool that uses YouTube API Services. It only works with our own channels and handles no visitor data. For YouTube itself, the YouTube Terms of Service (https://www.youtube.com/t/terms) and the Google Privacy Policy (https://policies.google.com/privacy) apply.",
+        "Our own YouTube channels. We publish and manage the videos on our own YouTube channels with an internal tool that uses YouTube API Services. It only works with channels we own and handles no visitor data. For YouTube itself, the YouTube Terms of Service (https://www.youtube.com/t/terms) and the Google Privacy Policy (https://policies.google.com/privacy) apply.",
+        "What that tool stores: the sign-in permission for our own channels, and our own videos' IDs, titles and statistics, which are refreshed from YouTube regularly. It stores no data about viewers or other YouTube users. The permission can be removed at any time on Google's security settings page (https://myaccount.google.com/connections); the tool then stops working for that channel. To have stored data deleted, write to the contact address above and we delete it within 30 days.",
         "When you click a tool or video link, you leave this site. The tool's website, its affiliate partner or YouTube may then set their own cookies, and their privacy policies apply.",
         "Last updated: 22 November 2026."
       ]
@@ -1569,7 +1582,7 @@ html[data-test="fp1-b"] .fp-search { display: grid; justify-items: center; gap: 
     }
   }
 
-  // Pages live in the address after "#": "" home, "videos", "videos-email", "join", "welcome", "privacy",
+  // Pages live in the address after "#": "" home, "videos", "videos-email", "join", "welcome", "privacy", "terms",
   // "tracker", "thanks". Categories and About are real pages now (/category/email/, /about/): their old "#" links
   // (e.g. in YouTube descriptions) forward there.
   var view = document.getElementById("view");
