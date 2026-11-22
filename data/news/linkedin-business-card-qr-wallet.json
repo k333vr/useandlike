@@ -1,0 +1,31 @@
+{
+ "slug": "linkedin-business-card-qr-wallet",
+ "date": "2026-11-20",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Social",
+ "tag": "New feature",
+ "head": "LinkedIn business card: digital card with a QR code for your wallet",
+ "dek": "LinkedIn's mobile app now lets you design a digital business card, add it to Apple Wallet or Google Wallet and swap it with someone by scanning a QR code. It's in English in the app for now.",
+ "details": "You open it from the QR code on your profile, then change the layout, font, colours, pattern and add stickers or doodles on the back. Turning on auto-swap in Share settings exchanges both cards with one scan. Swapping cards doesn't send a connection request or a follow, and changes you make show up in other people's saved copies. LinkedIn says more devices and languages come later; neither source mentions a price.",
+ "where": "LinkedIn app on iPhone and Android, in English",
+ "means": "If you meet people at events, you can share your details with a scan instead of a paper card.",
+ "todo": "In the app, tap your profile photo, then the QR code, then Edit; save the card and tap Add to Wallet.",
+ "apps": [
+  "LinkedIn"
+ ],
+ "sources": [
+  {
+   "name": "LinkedIn Help",
+   "url": "https://www.linkedin.com/help/linkedin/answer/a16648713"
+  },
+  {
+   "name": "Digital Trends",
+   "url": "https://www.digitaltrends.com/social-media/linkedin-now-lets-you-make-your-own-snazzy-business-card-heres-how-to-make-one/"
+  }
+ ],
+ "item": 147443,
+ "idea": "news",
+ "traction": 18,
+ "thumb_words": "LINKEDIN ADDS DIGITAL BUSINESS CARDS"
+}

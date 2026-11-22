@@ -1,0 +1,33 @@
+{
+ "slug": "nest-app-shutting-down-january-2027",
+ "date": "2026-11-20",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Google",
+ "tag": "Shutdown",
+ "head": "Nest app shutting down January 25, Google Assistant on speakers next August",
+ "dek": "Google's Nest app stops working on Android, iPhone and the web on 25 January 2027, and Nest devices move to the Google Home app. Google Assistant on Google's smart speakers and displays ends on 2 August 2027, replaced by Gemini for Home.",
+ "details": "Nest devices move to Google Home on their own, with their schedules and settings; supported devices include Nest thermostats, cameras, doorbells, Nest Protect (2nd gen) and the Nest x Yale Lock, and Google says none of them loses support. Custom video clips you saved don't move over, so download them first; Google offers a Download All button, and home.nest.com shuts down too. Nest accounts must be moved to Google accounts by 25 March 2027, or data may be deleted, according to Android Authority. Nest Aware (1st gen) plans become Google Home Premium at no extra cost.",
+ "where": "Everyone with the Nest app (Android, iPhone, web); speakers and smart displays worldwide",
+ "means": "If you still open the Nest app for your thermostat, camera or doorbell, you'll need the Google Home app and a Google account to keep controlling them and getting alerts.",
+ "todo": "Download any saved Nest video clips now, move your Nest account to a Google account, and install Google Home. To switch a speaker to Gemini, open Google Home, tap your profile picture, then Home Settings, and tap Get Started on the Set up Gemini for Home banner.",
+ "apps": [
+  "Google Nest",
+  "Google Home",
+  "Google Assistant"
+ ],
+ "thumb_words": "NEST APP SHUTS DOWN JANUARY 25",
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/20/nest-app-google-assistant/"
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/nest-app-deadline-3737880/"
+  }
+ ],
+ "item": 143614,
+ "idea": "news",
+ "traction": 40
+}

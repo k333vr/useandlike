@@ -1,0 +1,36 @@
+{
+ "slug": "claude-riemann-hypothesis-proof-claim",
+ "date": "2026-11-20",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "AI",
+ "tag": "Rumor",
+ "rumor": true,
+ "head": "Claude and the Riemann hypothesis: Anthropic mathematician claims a proof",
+ "dek": "Levent Alpöge, a mathematician at Anthropic, says he found a proof of the Riemann hypothesis while working with Claude and posted it on November 20 as a four-page statement plus a proof written in Lean, a language that checks every step. Mathematicians haven't accepted it yet, and the Clay Mathematics Institute still lists the problem as unsolved.",
+ "details": "The hypothesis, from 1859, is about where the zeros of the Riemann zeta function lie, which ties to how prime numbers are spread out. MIT mathematician Andrew Sutherland checked the release with Claude Code: the Lean code compiles without errors, a separate checker accepts the exported proof, and two more checks were still running on Friday afternoon. Alpöge plans a conventional write-up; Clay's $1 million prize needs publication, two years and general acceptance by mathematicians. In August, Anthropic said a research version of Claude had raised the known share of zeta zeros on the critical line from 41.6% to 67.2%.",
+ "where": "Claim posted November 20; checks by other mathematicians still under way",
+ "means": "If you use Claude, nothing changes in the app. It's a test of how far AI can go in maths, and the result is still open until experts finish checking.",
+ "todo": "Nothing to do. Treat headlines saying the problem is solved with care until mathematicians confirm it.",
+ "apps": [
+  "Claude"
+ ],
+ "sources": [
+  {
+   "name": "WBAP",
+   "url": "https://www.wbap.com/2026/11/21/anthropic-mathematician-claims-claude-helped-prove-167-year-old-riemann-hypothesis/"
+  },
+  {
+   "name": "KLIF",
+   "url": "https://www.klif.com/2026/11/21/anthropic-mathematician-claims-claude-helped-prove-167-year-old-riemann-hypothesis/"
+  },
+  {
+   "name": "Anthropic",
+   "url": "https://www.anthropic.com/research/riemann-zeta"
+  }
+ ],
+ "item": 142264,
+ "idea": "news",
+ "traction": 56,
+ "thumb_words": "RIEMANN PROOF WITH CLAUDE?"
+}

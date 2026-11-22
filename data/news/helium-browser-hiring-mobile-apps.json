@@ -1,0 +1,23 @@
+{
+ "slug": "helium-browser-hiring-mobile-apps",
+ "date": "2026-11-20",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "tag": "Quick",
+ "quick": true,
+ "topic": "Privacy",
+ "head": "Helium browser plans Android and iPhone apps again",
+ "dek": "The developer of Helium, a privacy-focused browser for Windows, Mac and Linux, is hiring two engineers to build native Android and iOS apps. An earlier iPhone version was dropped in September; there's no release date.",
+ "apps": [
+  "Helium"
+ ],
+ "sources": [
+  {
+   "name": "PiunikaWeb",
+   "url": "https://piunikaweb.com/2026/11/20/helium-browser-hiring-android-ios-developers/"
+  }
+ ],
+ "item": 141377,
+ "idea": "news",
+ "traction": 0
+}

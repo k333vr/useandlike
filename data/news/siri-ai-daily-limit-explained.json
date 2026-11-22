@@ -1,0 +1,80 @@
+{
+ "slug": "siri-ai-daily-limit-explained",
+ "date": "2026-11-22",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "AI",
+ "tag": "Explainer",
+ "head": "Siri AI daily limit explained: what counts and how to get more",
+ "dek": "With iOS 27.3, Siri AI keeps simple requests unlimited but pauses multi-step and writing requests once a device hits its daily limit, and only an iCloud+ plan of 200 GB or more raises that limit, much like Gemini and ChatGPT tie heavier use to paid plans.",
+ "sections": [
+  {
+   "h": "What changed this month",
+   "p": [
+    "Apple published a support page on 16 November explaining that Siri AI and several Apple Intelligence features have a daily usage limit on each device. The page says a higher limit through iCloud+ starts with the 27.3 releases for iPhone, iPad and Mac, which are in beta now.",
+    "The limits cover more than Siri. Apple lists the photo tools Clean Up, Extend and Spatial Reframing, Image Playground, Apple's cloud models in Shortcuts, and other apps that use Apple's models on its Private Cloud Compute servers. Apple gives no numbers: it says limits depend on the feature, how complex a request is and how busy its systems are, and that the standard amount may change over time."
+   ]
+  },
+  {
+   "h": "Which Siri requests count",
+   "p": [
+    "Apple says that after the limit, everyday requests such as setting a timer or sending a text still work. Advanced requests, such as tasks with several steps or summaries, pause until the reset. Apple's own examples of advanced requests are texting a friend an address and the time to leave for a party, and adding a summary of a trip note to an email draft.",
+    "Apple hasn't published a full list. 9to5Mac reported on 18 November a set of rules shared by the leaker pdfu, which Apple hasn't confirmed: a request would count as advanced when it pulls in information from another app or the screen, asks for two things in one sentence, summarizes a photo or attachment, changes a whole group of emails or photos at once, builds a Shortcut or automation, or asks Siri to write something new such as a story, plan or recipe. Alarms, timers and photo searches would not count."
+   ]
+  },
+  {
+   "h": "How fast you can reach it",
+   "p": [
+    "Macworld's Mahmoud Itani wrote on 19 November that he reached the limit in about 20 minutes of Siri requests on an Apple TV, roughly one a minute, on a 2 TB iCloud+ plan. His iPhone then showed a daily limit banner, multi-step requests such as checking the weather and texting the result stopped, and single-step ones kept working. His iPad and Mac also warned that they were near their limit, because the devices had drawn on the same shared extra allowance."
+   ]
+  },
+  {
+   "h": "Resets and iCloud+ plans",
+   "p": [
+    "Limits reset once a day around midnight in your time zone and don't roll over. When you travel abroad, the reset follows the central time zone of your Apple Account's country; in Family Sharing, it follows the time zone of whoever pays for iCloud+.",
+    "Free iCloud and the 50 GB plan keep the standard limit. Apple lists up to 2x for 200 GB, up to 5x for 2 TB, up to 10x for 6 TB and up to 20x for 12 TB. The extra allowance is shared, first come first served, by all your devices and your family group. Apple says the higher Siri AI limit with iCloud+ isn't offered in Brazil, the EU, the UK or South Korea."
+   ]
+  },
+  {
+   "h": "How ChatGPT and Gemini handle limits",
+   "p": [
+    "Google's Gemini help page lists standard limits without a plan, twice that on AI Plus, four times on AI Pro and five or twenty times the AI Pro limit on AI Ultra. It says a five-hour limit refreshes every five hours until you reach a weekly limit, and that Deep Research and video generation use the most. Subscribers who hit a limit can keep chatting with the smaller Flash-Lite model.",
+    "OpenAI's help page says free ChatGPT accounts get everyday text chats without a fixed cap, subject to abuse safeguards, while file uploads, data analysis and image creation have their own limits; Plus has higher limits, with no numbers given. In all three, simple chat is cheap and heavier tasks are what run into the cap."
+   ]
+  }
+ ],
+ "means": "If you use Siri AI for quick commands, you'll probably never see the limit. If you ask it to write, summarize or chain several steps, you may reach it within a day, and only a 200 GB or larger iCloud+ plan raises it outside the EU, UK, Brazil and South Korea.",
+ "todo": "Nothing to do before iOS 27.3. If the limit banner shows up, split multi-step requests into single ones; check which iCloud+ plan you already pay for before upgrading, and remember family members share the extra allowance.",
+ "where": "iPhone, iPad and Mac with iOS, iPadOS and macOS 27.3 (in beta since 16 November)",
+ "apps": [
+  "Siri",
+  "iCloud",
+  "Gemini",
+  "ChatGPT"
+ ],
+ "idea": "competitor",
+ "traction": 0,
+ "thumb_words": "SIRI AI LIMIT: WHAT COUNTS",
+ "sources": [
+  {
+   "name": "Apple Support",
+   "url": "https://support.apple.com/en-us/127901"
+  },
+  {
+   "name": "Google Gemini Help",
+   "url": "https://support.google.com/gemini/answer/16275805?hl=en"
+  },
+  {
+   "name": "OpenAI Help Center",
+   "url": "https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/18/ios-27-3-adds-siri-ai-usage-limits-heres-what-counts-toward-your-limit/"
+  },
+  {
+   "name": "Macworld",
+   "url": "https://www.macworld.com/article/3291137/its-shockingly-easily-to-hit-siri-ais-daily-usage-limit.html"
+  }
+ ]
+}

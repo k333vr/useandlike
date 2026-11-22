@@ -1,0 +1,23 @@
+{
+ "slug": "meta-horizon-app-worlds-move-horizon-create",
+ "date": "2026-11-19",
+ "added": "2026-11-22",
+ "topic": "VR",
+ "tag": "Quick",
+ "head": "Meta Horizon app drops Worlds feed as games move to Horizon Create",
+ "dek": "A redesign of the Meta Horizon phone app now opens on the VR Store and hides Worlds, whose mobile games are moving to the new Horizon Create app. Code in the app calls it the \"Meta VR app\", a name Meta hasn't confirmed.",
+ "quick": true,
+ "apps": [
+  "Meta Horizon"
+ ],
+ "sources": [
+  {
+   "name": "UploadVR",
+   "url": "https://www.uploadvr.com/meta-begins-removing-worlds-from-the-horizon-mobile-app-may-rebrand-it-as-meta-vr/"
+  }
+ ],
+ "item": 145352,
+ "idea": "news",
+ "traction": 0,
+ "checked": "2026-11-22"
+}

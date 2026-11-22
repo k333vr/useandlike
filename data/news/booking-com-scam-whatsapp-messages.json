@@ -1,0 +1,30 @@
+{
+ "slug": "booking-com-scam-whatsapp-messages",
+ "date": "2026-11-20",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Travel",
+ "tag": "Safety",
+ "head": "Booking.com scam on WhatsApp uses real booking details to demand payment",
+ "dek": "Scammers are messaging travellers on WhatsApp with their real names, emails and hotel details, claiming to be Booking.com or Expedia and demanding a quick payment through a link or the booking gets cancelled. New Zealand's Travel Agents Association says it's happening daily.",
+ "details": "The NZ Herald reports cases where the payment request came in an unexpected currency, such as euros for a Copenhagen stay, and one where a traveller got 24 hours to pay. Booking.com had a data breach in April, Expedia Group is investigating a cyber attack it says came through a third-party provider, and New Zealand booking site Bookit says it was hacked in early November. Netsafe says the scams involve many travel and accommodation sites, not just one.",
+ "where": "Reported in New Zealand; travellers using Booking.com, Expedia and other booking sites",
+ "means": "If a message knows your booking, that doesn't make it real: your details may have leaked, and a payment outside the booking app can be lost for good.",
+ "todo": "Don't pay through a link sent on WhatsApp or by email. Open your original booking confirmation or the booking app to check, look for odd web addresses, spelling mistakes or a different currency, and don't let a deadline rush you.",
+ "apps": [
+  "Booking.com",
+  "Expedia",
+  "WhatsApp"
+ ],
+ "category": "Travel",
+ "thumb_words": "BOOKING.COM WHATSAPP SCAM",
+ "sources": [
+  {
+   "name": "NZ Herald",
+   "url": "https://www.nzherald.co.nz/nz/travel-scams-happening-daily-expedia-bookingcom-hacked-along-with-bookit/4NDVLM7T2VD3VAOMGSLH2HXMF4/"
+  }
+ ],
+ "item": 142517,
+ "idea": "news",
+ "traction": 15
+}

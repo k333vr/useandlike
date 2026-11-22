@@ -1,0 +1,32 @@
+{
+ "slug": "waypoints-travel-log-app-iphone",
+ "date": "2026-11-21",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Travel",
+ "tag": "New app",
+ "category": "Travel",
+ "head": "Waypoints travel log app for iPhone saves places you want to visit",
+ "dek": "Waypoints is a $2.99 travel log app for iPhone, iPad and Mac where you save restaurants, cafes, hotels and sights, grouped by city and trip. It was #59 among paid Travel apps on the US App Store on 21 November.",
+ "details": "You find a place through Apple Maps search, which fills in the address, phone number and website, then mark it as Want to Go and later Love it, Like it or Don't like. Each place can hold notes, who recommended it and up to two photos, and city headers show the weather. Lists sync through your own iCloud; there's no account, no ads and no tracking. It's made by Hunter App Studio, the developer Jonathan Hunter, and needs iOS 17.",
+ "where": "iPhone, iPad and Mac, App Store, $2.99",
+ "means": "If you keep a list of places friends told you about, this app keeps them sorted by city with notes and a map, without an account.",
+ "todo": "Nothing to set up: add places from Apple Maps search, and use the export option now and then as a backup.",
+ "apps": [
+  "Waypoints: Travel Log"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/waypoints-travel-log/id6819680074"
+  },
+  {
+   "name": "Hunter App Studio",
+   "url": "https://hunterappstudio.com/waypoints.html"
+  }
+ ],
+ "item": 150602,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "WAYPOINTS: YOUR TRAVEL LIST"
+}

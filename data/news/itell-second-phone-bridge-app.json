@@ -1,0 +1,27 @@
+{
+ "slug": "itell-second-phone-bridge-app",
+ "date": "2026-11-22",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "iTell app: use your Android phone's second number on your iPhone",
+ "dek": "iTell connects an Android phone to your iPhone over Bluetooth, so you can take and make its calls, read and answer its texts and see its contacts from the iPhone. The free iPhone app came out on 8 November and was #55 in Utilities on the US App Store's free chart on 22 November.",
+ "details": "The Android phone needs Android 13 or later, the iTell Android app and to stay within Bluetooth range; the iPhone needs iOS 17 or later. The listing says the phones pair with a QR code and talk directly with end-to-end encryption, with no server between them, and the iPhone app needs no account. The Android app has its own free trial and licence, with no price on the listing. Version 1.4 added file sharing and calls over Wi-Fi when Bluetooth is weak, and call sound depends on the Android phone.",
+ "where": "iPhone with iOS 17 or later, free; needs an Android phone with Android 13 and the paid iTell Android app",
+ "means": "If you carry a second Android phone for work or a travel SIM, it can stay in your bag while its calls and texts reach your iPhone.",
+ "todo": "Install iTell on the iPhone and the iTell app on the Android phone, scan the QR code to pair them, and check the Android app's price after its free trial.",
+ "apps": [
+  "iTell"
+ ],
+ "item": 150592,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "ANDROID CALLS ON YOUR IPHONE",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/itell-second-phone-bridge/id6831699886"
+  }
+ ]
+}

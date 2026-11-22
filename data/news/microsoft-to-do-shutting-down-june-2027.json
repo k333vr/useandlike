@@ -1,0 +1,32 @@
+{
+ "slug": "microsoft-to-do-shutting-down-june-2027",
+ "date": "2026-11-18",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Productivity",
+ "tag": "Shutdown",
+ "head": "Microsoft To Do shutting down on June 30, 2027: move your tasks",
+ "dek": "Microsoft To Do is shutting down on June 30, 2027 on Windows, Mac, iPhone, Android and the web. Work and school accounts move to Planner, but people with a personal Microsoft account get no Microsoft replacement.",
+ "details": "Microsoft announced the change on 18 November as part of folding its task apps into Planner. Your To Do tasks won't move into a private plan in Planner on their own, though work and school users can already see them there. AlternativeTo reports that Microsoft plans an export option before the shutdown, without details yet, and that Planner has no Windows or Mac app and lacks some To Do features. Apps that connect to To Do keep working after June 30, 2027 until Microsoft gives separate notice.",
+ "where": "Everyone: Windows, Mac, iPhone, Android and web, until June 30, 2027",
+ "means": "If you keep your lists in To Do with a personal account, you'll need another to-do app before the end of June 2027.",
+ "todo": "Read Microsoft's transition guidance and start choosing another app now; with a work or school account, check that you have access to Planner.",
+ "apps": [
+  "Microsoft To Do",
+  "Microsoft Planner"
+ ],
+ "sources": [
+  {
+   "name": "Microsoft Tech Community",
+   "url": "https://techcommunity.microsoft.com/blog/plannerblog/introducing-unified-tasks-and-plans-for-copilot-and-microsoft-365/4573958"
+  },
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/microsoft-is-replacing-its-to-do-with-planner-leaving-personal-users-without-an-option/"
+  }
+ ],
+ "item": 149340,
+ "idea": "news",
+ "traction": 15,
+ "thumb_words": "MICROSOFT TO DO SHUTS DOWN 2027"
+}

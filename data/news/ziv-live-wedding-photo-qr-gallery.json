@@ -1,0 +1,31 @@
+{
+ "slug": "ziv-live-wedding-photo-qr-gallery",
+ "date": "2026-11-21",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Photo",
+ "tag": "New app",
+ "head": "ZIV Live: wedding photo sharing with a QR code, no app needed",
+ "dek": "ZIV Live collects the photos and videos guests take at a wedding or party into one private gallery: they scan a QR code and upload, with no app or account. You pay once per event, from $5.",
+ "details": "Moment costs $5 and stays live for three days with videos up to 1 GB; Memory costs $20 for three weeks, 2 GB videos and a big-screen mode; Milestone costs $60 for three months and 4 GB videos. The clock starts at the first upload, every original stays in full resolution, and uploads are screened automatically. Galleries are invite-only and deleted when the time runs out. It's made by ZIV Live, Inc.",
+ "where": "Web, works on any phone; one payment per event",
+ "means": "If you're planning a wedding or party, guests can share their pictures in one place without installing anything.",
+ "todo": "Pick the plan by how long you need the gallery, and download the originals before it's deleted.",
+ "apps": [
+  "ZIV Live"
+ ],
+ "sources": [
+  {
+   "name": "ZIV Live",
+   "url": "https://ziv.live/pricing"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/ziv-live"
+  }
+ ],
+ "item": 147718,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "WEDDING PHOTOS BY QR CODE"
+}

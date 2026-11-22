@@ -1,0 +1,76 @@
+{
+ "slug": "turn-off-ai-features-apps-explained",
+ "date": "2026-11-22",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Privacy",
+ "tag": "Explainer",
+ "head": "How to turn off AI features in Canva, Gemini and Signal explained",
+ "dek": "In one week Canva added a switch that turns off its generative AI tools, Google split Gemini's settings so you can keep chat history but stop AI training, and Signal began blocking screenshots so phone assistants can't read your chats, but each switch covers less than its name suggests.",
+ "sections": [
+  {
+   "h": "Three off switches in one week",
+   "p": [
+    "On 16 November Google said it would split Gemini's Keep Activity setting in two. On 19 November Canva added a setting that switches off its generative AI tools for free and paid accounts. On 20 November Signal said it now blocks screenshots in its app so AI assistants built into phones can't read messages off the screen.",
+    "The three changes do different things: one hides AI tools, one decides whether your chats train a model, and one keeps an assistant from seeing an app. Knowing which is which helps you pick the right switch."
+   ]
+  },
+  {
+   "h": "Canva: hide the tools that make new content",
+   "p": [
+    "In Canva, go to Profile, Settings, Permissions and turn off Enable generative AI features. PetaPixel reported that this turns off Magic Expand, Magic Write, Magic Design, Magic Layers, Magic Edit, Dream Lab, Canva Code and AI Shapes, and stops image making in Canva's AI chatbot.",
+    "Background Remover and Magic Grab stay on, because Canva says they speed up everyday edits without generating anything new. A second option, under Profile, Your Account, AI Personalization, puts human-made templates and graphics first in search. Canva says only a small part of its library is AI-made, and those items carry an AI label in their data."
+   ]
+  },
+  {
+   "h": "Gemini: keep your history, stop the training",
+   "p": [
+    "Until now one Keep Activity setting decided both whether Gemini saved your chats and whether they could train Google's AI models. 9to5Google reported on 16 November that it becomes two settings, rolling out over the coming weeks with an email from Google: one for how long your history is saved, one for whether your chats, attachments included, are used for training. If Keep Activity was off, both start off.",
+    "Google's Gemini privacy page, updated on 16 and 19 November, says chat history is deleted after 18 months by default, which you can change to 3 or 36 months or keep. With training off, future chats aren't used for training unless you send feedback. Temporary chats are never used for training."
+   ]
+  },
+  {
+   "h": "Signal: keeping on-screen assistants out",
+   "p": [
+    "Signal's Meredith Whittaker wrote that on iOS 27 a new Block Siri AI setting stops screenshots inside Signal, so Siri AI can't capture your chats. On Android, Signal turns on its Screen security setting by itself when it sees an AI assistant trying to read the screen. Signal already blocked screenshots by default on Windows 11 last year, against Microsoft Recall.",
+    "On a Mac, Signal says it can't reliably block screenshots, so it suggests adding Signal to the Excluded Apps list under System Settings, Siri on macOS 27. You can turn the protection off in Signal's settings, but Signal warns that assistants may then see your and your contacts' messages."
+   ]
+  },
+  {
+   "h": "What these switches don't do",
+   "p": [
+    "Turning off Gemini's history doesn't mean chats vanish at once: Google's page says it still keeps them for about two months to answer you, handle feedback and protect its services, and chats picked for human review are kept for up to three years, even if you delete them. Signal says its protection is incomplete too, because AI tools could still reach content stored on the device in other ways, and it is asking Apple, Google and Microsoft for a documented way for apps to opt out of AI access.",
+    "Canva's switch hides tools in your account, but it doesn't remove AI-made items from the library; the search option only moves human-made ones up."
+   ]
+  }
+ ],
+ "means": "If you'd rather not use AI tools, or don't want your chats used to train models, the switches are there now, but each one covers a single thing: Canva's hides tools, Gemini's controls training and history, Signal's keeps assistants from reading the screen.",
+ "todo": "In Canva, turn off Enable generative AI features under Profile, Settings, Permissions. In Gemini, open the History settings once the update reaches you and check both switches. In Signal, leave Block Siri AI or Screen security on unless you need screenshots, and on a Mac with macOS 27 add Signal to Siri's Excluded Apps.",
+ "where": "Canva on free and paid accounts; Gemini worldwide over the coming weeks; Signal on iPhone with iOS 27 and on Android",
+ "apps": [
+  "Canva",
+  "Gemini",
+  "Signal"
+ ],
+ "idea": "explainer",
+ "traction": 0,
+ "thumb_words": "HOW TO TURN OFF AI IN YOUR APPS",
+ "sources": [
+  {
+   "name": "Signal blog",
+   "url": "https://signal.org/blog/protecting-your-privacy/"
+  },
+  {
+   "name": "Google Gemini privacy help",
+   "url": "https://support.google.com/gemini/answer/13594961?hl=en"
+  },
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/16/gemini-history-ai-training/"
+  },
+  {
+   "name": "PetaPixel",
+   "url": "https://petapixel.com/2026/11/19/canva-now-lets-users-turn-off-generative-ai-features/"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "slug": "duo-spatial-iphone-duo-3d-camera",
+ "date": "2026-11-21",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Photo",
+ "tag": "New app",
+ "head": "iPhone Duo spatial photos and videos: Duo Spatial camera app",
+ "dek": "Duo Spatial is a $1.99 camera app made only for the foldable iPhone Duo that takes spatial photos and videos for Apple Vision Pro, picking the camera pair by how far the phone is unfolded. It was #97 among paid Photo & Video apps on the US App Store on 21 November.",
+ "details": "It shoots 12-megapixel spatial photos and spatial videos in portrait 3:4 at 30 frames a second with stereo sound. It has calibration for each camera pair, a level and a side-by-side live preview, works with Camera Control and can be run from an Apple Watch. It needs iOS 27.1, came out on 6 November and is made by Artur Janowicz.",
+ "where": "iPhone Duo only (iOS 27.1 or later), App Store, $1.99",
+ "means": "If you own an iPhone Duo and an Apple Vision Pro, this app turns the folding phone into a 3D camera for the headset.",
+ "todo": "Only buy it if you have an iPhone Duo: the listing says it's made for that phone only.",
+ "apps": [
+  "Duo Spatial"
+ ],
+ "category": "Video & Photo Editing",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/duo-spatial/id6827122813"
+  }
+ ],
+ "item": 150599,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "IPHONE DUO 3D CAMERA APP"
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "gemini-android-camera-redesign",
+ "date": "2026-11-21",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "tag": "Quick",
+ "quick": true,
+ "topic": "AI",
+ "head": "Gemini app on Android gets a new camera for adding photos to prompts",
+ "dek": "The camera you open from the plus menu in Gemini's prompt box now slides up as a sheet inside your chat, with flash and the front camera behind a three-dot button. It's rolling out widely with Google app version 17.76, after reaching the iPhone app first.",
+ "apps": [
+  "Gemini"
+ ],
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/21/gemini-camera-redesign/"
+  }
+ ],
+ "item": 149643,
+ "idea": "news",
+ "traction": 52
+}

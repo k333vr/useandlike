@@ -1,0 +1,69 @@
+{
+ "slug": "alexa-plus-cost-features-explained",
+ "date": "2026-11-22",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Smart home",
+ "tag": "Explainer",
+ "head": "Alexa Plus explained: cost, free with Prime, devices and countries",
+ "dek": "Alexa+ is Amazon's AI version of Alexa: it's included with Prime and costs $19.99 a month without it in the US, it's open to everyone in the US and Canada, and this year it has reached 11 more countries through early access, Japan last on 29 October.",
+ "sections": [
+  {
+   "h": "What Alexa+ is",
+   "p": [
+    "Amazon introduced Alexa+ on 26 February 2025 as a rebuilt, conversational version of its assistant. You talk to it in full sentences, it remembers preferences you share, and a conversation carries over when you move from one device to another, for example from an Echo in the kitchen to the Alexa app on your phone.",
+    "It runs on Echo speakers and displays, on Fire TV, in the Alexa app, in the Amazon Music app and in a web browser at Alexa.com. Amazon says there are more than 600 million Alexa devices in use, but its announcement doesn't list which older models support Alexa+."
+   ]
+  },
+  {
+   "h": "What it can do now",
+   "p": [
+    "Amazon lists smart home control, with brands such as Philips Hue and Roborock, and music across rooms from Amazon Music, Spotify, Apple Music and iHeartRadio. It can book restaurant tables through OpenTable and appointments through Vagaro, order groceries from Amazon Fresh and Whole Foods, and order food from Grubhub and Uber Eats.",
+    "You can also upload a document, email or photo and ask for a summary or have dates added to your calendar, get reminders when Ticketmaster tickets go on sale, and pick one of four personality styles: Brief, Chill, Sweet or Sassy. Amazon describes booking a service provider for you as something Alexa+ will be able to do, so that part isn't promised for today. Privacy settings sit in the Alexa Privacy dashboard."
+   ]
+  },
+  {
+   "h": "What it costs",
+   "p": [
+    "In the US, Amazon says Alexa+ costs $19.99 a month and every Prime member gets it at no extra cost. Prices after early access elsewhere, according to Amazon's international page: CA$27.99 in Canada, £19.99 in the UK, €22.99 in Italy, Spain, Germany, Austria and France, MXN 399 in Mexico, R$99.90 in Brazil (with 2 TB of Amazon Photos storage), AU$29.99 in Australia and ¥3,000 in Japan, each a month.",
+    "Amazon says Prime includes it in Canada, Brazil, Australia and Japan. In India it's free for Prime members, while Prime Lite, Prime Shopping Edition and non-Prime customers pay INR 2,000 a month with no automatic renewal. Amazon's page doesn't state the Prime terms for the UK and the European countries."
+   ]
+  },
+  {
+   "h": "Where it's available",
+   "p": [
+    "Amazon's Alexa+ page, updated on 21 July 2026, says it's fully available to all customers in the US and Canada. Early access then started country by country: Mexico on 22 January 2026, the UK on 19 March, Italy on 15 April, Spain on 23 April, Germany and Austria on 7 May, France on 26 May, Brazil on 18 June, Australia on 6 August and India on 16 September.",
+    "Japan followed on 29 October. Amazon's Japanese announcement says early access there is free, works on compatible Echo devices, Fire TV and some Panasonic and JVC TVs with Fire TV built in, and is also in the Alexa app and at alexa.jp. Amazon says features vary by country."
+   ]
+  },
+  {
+   "h": "How to get it",
+   "p": [
+    "Amazon gives two routes in the early-access countries: buy a new eligible Echo device, or register a compatible device you already own online and wait for an invitation, which goes out on a rolling basis. Each country has its own sign-up page on its Amazon site, such as amazon.co.uk/newalexa in the UK and amazon.co.jp/newalexa in Japan."
+   ]
+  }
+ ],
+ "means": "If you have Prime in the US or Canada and an Echo or Fire TV, Alexa+ costs you nothing extra; without Prime it's a monthly fee. In the early-access countries you may wait for an invitation, and the price after early access depends on your country.",
+ "todo": "Check whether you already pay for Prime before thinking about the monthly fee. Outside the US and Canada, request access on your country's Amazon sign-up page and set your privacy choices in the Alexa Privacy dashboard once it's on.",
+ "where": "US and Canada for everyone; early access in Mexico, the UK, Italy, Spain, Germany, Austria, France, Brazil, Australia, India and Japan",
+ "apps": [
+  "Alexa"
+ ],
+ "idea": "competitor",
+ "traction": 0,
+ "thumb_words": "ALEXA+: WHAT IT COSTS AND DOES",
+ "sources": [
+  {
+   "name": "About Amazon: Alexa+",
+   "url": "https://www.aboutamazon.com/news/devices/new-alexa-generative-artificial-intelligence"
+  },
+  {
+   "name": "About Amazon: Alexa+ countries",
+   "url": "https://aboutamazon.com/news/devices/alexa-plus-international-launch"
+  },
+  {
+   "name": "Amazon Japan press release",
+   "url": "https://press.aboutamazon.com/jp/2026/10/amazon-launches-alexa-its-generative-ai-powered-next-generation-personal-assistant-in-japan"
+  }
+ ]
+}

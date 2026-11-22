@@ -1,0 +1,28 @@
+{
+ "slug": "billable-timer-time-tracker-app",
+ "date": "2026-11-21",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Business",
+ "tag": "New app",
+ "category": "Productivity",
+ "head": "Billable Timer app: track billable hours on iPhone and iPad",
+ "dek": "Billable Timer: Time Tracker is a $4.99 app for people who bill by the hour, such as lawyers, accountants and consultants, with no in-app purchases. It was #33 among paid Business apps on the US App Store on 22 November.",
+ "details": "It runs up to four timers, one at a time, and shows the elapsed time next to the billable time rounded to tenths or quarters of an hour. Entries go into a daily timesheet with totals, can be added or edited by hand and exported as CSV or plain text. Timers can be labelled Case, Matter or Client. It's made by LMWA Holdings LLC, came out on September 24, needs iOS 26.5 and says it collects no data.",
+ "where": "iPhone and iPad (Mac with M1 or later too), App Store, $4.99",
+ "means": "If you charge clients by the hour, it keeps your time in billable units without a subscription.",
+ "todo": "Check that your iPhone or iPad runs iOS 26.5 or later before you buy.",
+ "apps": [
+  "Billable Timer: Time Tracker"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/billable-timer-time-tracker/id6811426486"
+  }
+ ],
+ "item": 150611,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "BILLABLE TIMER: HOURS FOR CLIENTS"
+}

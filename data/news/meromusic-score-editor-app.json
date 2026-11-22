@@ -1,0 +1,27 @@
+{
+ "slug": "meromusic-score-editor-app",
+ "date": "2026-11-21",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Music",
+ "tag": "New app",
+ "head": "MeroMusic: music notation app for iPhone with VoiceOver support",
+ "dek": "MeroMusic is a $10 app for iPhone and iPad that puts a score editor, playable instruments and a recording studio in one place. It came out on 18 November and was #60 among paid Music apps on the US App Store on 21 November.",
+ "details": "You can write notes on the staff, play them back, use a touch piano or a MIDI keyboard, and record. Scores can be read note by note with VoiceOver, and Braille music files can be imported. It opens and saves MusicXML and MIDI, exports PDF and can scan printed single-voice lines. Online score recognition needs your own key from an AI provider, whose fees apply; editing and playback work offline. It's made by Meric Karaca.",
+ "where": "iPhone and iPad (iOS 16 or later), App Store, $10",
+ "means": "If you write music, including with VoiceOver, this app lets you write, hear and record it on a phone.",
+ "todo": "Check on the App Store page that it opens the file types you use; the AI scanning needs your own key.",
+ "apps": [
+  "MeroMusic"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/meromusic/id6831978428"
+  }
+ ],
+ "item": 150607,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "MEROMUSIC: WRITE MUSIC ON IPHONE"
+}

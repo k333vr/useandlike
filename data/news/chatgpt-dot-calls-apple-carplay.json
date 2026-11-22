@@ -1,0 +1,23 @@
+{
+ "slug": "chatgpt-dot-calls-apple-carplay",
+ "date": "2026-11-20",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "ChatGPT dot users can now call their dot from Apple CarPlay",
+ "dek": "OpenAI staff showed on 20 November that you can call your ChatGPT dot from CarPlay to pick up a task it's already working on, unlike a regular ChatGPT Voice chat, which starts fresh. Dots are for ChatGPT Pro users in supported countries and still rolling out to some Plus accounts.",
+ "quick": true,
+ "apps": [
+  "ChatGPT"
+ ],
+ "sources": [
+  {
+   "name": "iPhone in Canada",
+   "url": "https://www.iphoneincanada.ca/2026/11/21/chatgpt-dot-apple-carplay-calls/"
+  }
+ ],
+ "item": 148853,
+ "idea": "news",
+ "traction": 18
+}

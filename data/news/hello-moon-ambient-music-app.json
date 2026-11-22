@@ -1,0 +1,28 @@
+{
+ "slug": "hello-moon-ambient-music-app",
+ "date": "2026-11-22",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Music",
+ "tag": "New app",
+ "head": "Hello Moon: ambient music app for iPhone that follows the Moon's phase",
+ "dek": "Hello Moon plays ambient music that changes with the Moon's current phase, with its own composed themes for each of the eight phases. The $3.99 app came out on 7 November and was #31 in Music on the US App Store's paid chart on 22 November.",
+ "details": "Composer Jesse Solomon Clark wrote the music, and the listing says no AI was used to make it and that it never repeats exactly. The screen shows the Moon in its real phase, worked out from astronomical data, with rings that pulse in time with the music; a tap hides everything else. It's made to keep playing in the background and has no in-app purchases. It needs iOS 26.4 or later.",
+ "where": "App Store, iPhone and iPad with iOS 26.4 or later, $3.99 once",
+ "means": "If you like quiet music while you work or wind down, this is a one-off purchase with no subscription, and the sound shifts slowly through the month.",
+ "todo": "Look for Hello Moon: Ambient Music on the App Store; check you're on iOS 26.4 or later before you pay.",
+ "apps": [
+  "Hello Moon"
+ ],
+ "category": "Music",
+ "item": 150606,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "MUSIC THAT FOLLOWS THE MOON",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/hello-moon-ambient-music/id6829027279"
+  }
+ ]
+}

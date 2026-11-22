@@ -1,0 +1,27 @@
+{
+ "slug": "windows-11-new-search-bar-kb5132057",
+ "date": "2026-11-21",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Windows",
+ "tag": "New feature",
+ "head": "Windows 11 new search bar arrives in optional update KB5132057",
+ "dek": "Windows 11's new taskbar search, rebuilt without web parts, is coming to PCs with the optional November update KB5132057. It opens faster, shows one short list of results and can switch brightness, Bluetooth or dark mode from there.",
+ "details": "The update brings builds 26200.10075 (25H2) and 26300.10075 (26H2); PCs on 24H2 need to move to a newer version first. It's switched on slowly, so it may not show up right after installing, and it's English only. Microsoft says it uses about 15 to 20 percent less memory. It always opens at the bottom centre even with a vertical taskbar, which Microsoft says it is fixing, and the Start menu still uses the old search.",
+ "where": "Windows 11 25H2 and 26H2, optional update, rolling out gradually, English",
+ "means": "If you use the taskbar search box, it may soon look simpler and let you change settings without opening Settings.",
+ "todo": "Install the optional update in Windows Update if you want it early; otherwise it comes with a later regular update.",
+ "apps": [
+  "Windows 11"
+ ],
+ "sources": [
+  {
+   "name": "Windows Latest",
+   "url": "https://www.windowslatest.com/2026/11/21/windows-11s-web-free-native-winui-search-released-enable-it-right-now-using-these-steps/"
+  }
+ ],
+ "item": 146355,
+ "idea": "news",
+ "traction": 8,
+ "thumb_words": "WINDOWS 11 GETS NEW SEARCH"
+}

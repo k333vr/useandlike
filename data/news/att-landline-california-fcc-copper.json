@@ -1,0 +1,27 @@
+{
+ "slug": "att-landline-california-fcc-copper",
+ "date": "2026-11-20",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Phones",
+ "tag": "Heads-up",
+ "head": "AT&T landline in California: FCC backs plan to end copper phone lines",
+ "dek": "The FCC has overruled California rules that made AT&T get the state's approval before ending old copper landline service. AT&T has proposed ending that service in California on or after 1 June 2027, according to the state's utilities commission.",
+ "details": "The FCC kept California's carrier-of-last-resort rules in place for now; AT&T is also suing the state over them, and that case is still open. Copper lines serve about 3% of California households, according to the FCC. AT&T says it wants to put its money into fiber and 5G, and some residents worry that patchy cell service would be their only option. It's not yet clear whether AT&T will go ahead with the phase-out.",
+ "where": "California, AT&T copper landline customers; earliest date 1 June 2027",
+ "means": "If you have an AT&T landline on copper in California, it may be switched off from mid-2027, so you'd need another way to call, including for 911.",
+ "todo": "Nothing to do yet. Check whether fiber or good cell coverage reaches your home, and watch for letters from AT&T about your line.",
+ "apps": [
+  "AT&T"
+ ],
+ "thumb_words": "AT&T CALIFORNIA LANDLINES: FCC SAYS YES",
+ "sources": [
+  {
+   "name": "Slashdot",
+   "url": "https://slashdot.org/story/26/11/20/2357248/fcc-backs-atts-plan-to-remove-copper-landlines-in-california"
+  }
+ ],
+ "item": 146283,
+ "idea": "news",
+ "traction": 0
+}

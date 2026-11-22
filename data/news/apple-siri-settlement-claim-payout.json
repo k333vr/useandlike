@@ -1,0 +1,28 @@
+{
+ "slug": "apple-siri-settlement-claim-payout",
+ "date": "2026-11-21",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Money",
+ "tag": "Heads-up",
+ "head": "Apple Siri settlement claim: about $61 per iPhone, deadline December 21",
+ "dek": "US buyers of an iPhone 15 Pro, 15 Pro Max or any iPhone 16 model can claim money from Apple's $250 million Siri settlement until December 21. Lawyers for the buyers estimated on November 16 that each eligible iPhone will likely get at least $61, with $95 as the most per phone.",
+ "details": "The class action was about the delayed launch of the personalized Siri; Apple agreed to settle in May and denies the claims. Phones count if they were bought in the US, not for resale, between June 10, 2024 and March 29, 2025. The final amount depends on how many valid claims come in. The court's final approval hearing is on February 24, 2027, and payments aren't expected before then.",
+ "where": "US residents only, claims at smartphoneaisettlement.com until December 21, 2026",
+ "means": "If you bought one of these iPhones in the US in that window, you can file for each eligible phone, even if you never got the settlement email.",
+ "todo": "File at smartphoneaisettlement.com before December 21. With the email, use its claim ID and PIN; without it, have the iPhone's serial number, or your Apple Account email and the phone's number, ready.",
+ "apps": [
+  "Siri"
+ ],
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/21/apple-siri-ai-settlement-payment-amount/"
+  }
+ ],
+ "item": 149146,
+ "idea": "news",
+ "traction": 48,
+ "rank": 1,
+ "thumb_words": "SIRI SETTLEMENT: CLAIM BY DEC 21"
+}

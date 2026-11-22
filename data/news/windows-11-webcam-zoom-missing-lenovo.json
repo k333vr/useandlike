@@ -1,0 +1,27 @@
+{
+ "slug": "windows-11-webcam-zoom-missing-lenovo",
+ "date": "2026-11-19",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Windows",
+ "tag": "Heads-up",
+ "head": "Windows 11 webcam zoom missing after update on some Lenovo laptops",
+ "dek": "Some owners of Lenovo laptops say their webcam's zoom, pan, tilt or automatic framing options disappeared after a Windows 11 update, while the camera itself still works. Microsoft hasn't confirmed a problem.",
+ "details": "The reports name a ThinkPad T14 Gen 3 and an IdeaPad. One ThinkPad owner says the zoom control was there on build 26200.9168, gone on 26200.9278, and still missing after the November security update KB5132061; going back to the older build brought it back each time. Microsoft's release-health page listed no known issue for these controls on 19 November. The reports come from a few users, and the cause is unknown.",
+ "where": "Windows 11, some Lenovo laptops",
+ "means": "If your laptop's camera zoom or framing options vanished after an update, you're not alone, but there's no official fix yet.",
+ "todo": "Use your video app's own crop or zoom for now, and check your camera maker's app for extra settings. Note your Windows build (Settings, System, About) before asking for support.",
+ "apps": [
+  "Windows 11"
+ ],
+ "sources": [
+  {
+   "name": "Help Desk Geek",
+   "url": "https://helpdeskgeek.com/windows-11-webcam-controls-missing-after-updates/"
+  }
+ ],
+ "item": 137333,
+ "idea": "news",
+ "traction": 15,
+ "thumb_words": "WINDOWS 11 UPDATE: WEBCAM ZOOM GONE"
+}

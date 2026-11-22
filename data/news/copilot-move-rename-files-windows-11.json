@@ -1,0 +1,24 @@
+{
+ "slug": "copilot-move-rename-files-windows-11",
+ "date": "2026-11-21",
+ "added": "2026-11-22",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Copilot on Windows 11 will move and rename files in your folders",
+ "dek": "Microsoft showed at Ignite that Copilot will soon sort, move and rename files in folders like Downloads and Desktop when you ask in plain words. It's optional, asks permission for each session and shows an Undo for every move; no date yet.",
+ "quick": true,
+ "apps": [
+  "Copilot",
+  "Windows 11"
+ ],
+ "sources": [
+  {
+   "name": "Windows Latest",
+   "url": "https://www.windowslatest.com/2026/11/21/copilot-will-dig-through-your-windows-11-downloads-folder-and-move-files-for-you-and-in-microsofts-demo-it-decided-which-ones/"
+  }
+ ],
+ "item": 146667,
+ "idea": "news",
+ "traction": 18,
+ "checked": "2026-11-22"
+}

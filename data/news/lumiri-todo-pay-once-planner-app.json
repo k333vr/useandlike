@@ -1,0 +1,27 @@
+{
+ "slug": "lumiri-todo-pay-once-planner-app",
+ "date": "2026-11-21",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Productivity",
+ "tag": "New app",
+ "head": "Lumiri Todo: a pay-once to-do and daily planner app for iPhone and Mac",
+ "dek": "Lumiri Todo: Daily Planner is a $2.99 to-do app with no subscription and no in-app purchases, for iPhone, iPad and Mac. It was #89 among paid Productivity apps on the US App Store on 21 November.",
+ "details": "Its Today screen shows the next three days together with calendar events, and tasks are never marked as overdue. It has notes with attachments, reusable lists, repeating tasks, colour categories, reminders and calendar import from Apple Calendar or ICS files. The listing says it works offline, syncs through iCloud and has no ads or analytics. It's made by MMC Project Mateusz Maj (Lumiri Apps) and came out on 14 October.",
+ "where": "iPhone, iPad and Mac, App Store, $2.99",
+ "means": "If you want a to-do app without a monthly fee, this one costs once and keeps your tasks in iCloud.",
+ "todo": "Read the App Store listing to see whether its Today screen fits how you plan; it has no reviews yet.",
+ "apps": [
+  "Lumiri Todo: Daily Planner"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/lumiri-todo-daily-planner/id6811378281"
+  }
+ ],
+ "item": 150590,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "LUMIRI: TO-DO APP, NO SUBSCRIPTION"
+}

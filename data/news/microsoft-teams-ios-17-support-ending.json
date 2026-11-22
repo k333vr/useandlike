@@ -1,0 +1,27 @@
+{
+ "slug": "microsoft-teams-ios-17-support-ending",
+ "date": "2026-11-19",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Business",
+ "tag": "Heads-up",
+ "head": "Microsoft Teams ending support for iOS 17 and iPadOS 17 by January 2",
+ "dek": "Microsoft Teams will stop supporting iPhones on iOS 17 and iPads on iPadOS 17, starting in December 2026 and finishing on January 2, 2027. The Teams app already installed keeps working, but new versions won't install.",
+ "details": "The change was posted in the Microsoft 365 Message Center. It doesn't block opening or signing in to an existing Teams app; it only runs without official support. XDA notes that many devices on iOS 17 can already update to iOS 18 or iPadOS 18.",
+ "where": "iPhone and iPad on iOS 17 or iPadOS 17, from December 2026",
+ "means": "If your iPhone or iPad is still on iOS 17 and you use Teams, you'll stop getting Teams updates.",
+ "todo": "Open Settings, General, Software Update and see whether your device can move to a newer iOS before you think about a new one.",
+ "apps": [
+  "Microsoft Teams"
+ ],
+ "sources": [
+  {
+   "name": "XDA",
+   "url": "https://www.xda-developers.com/microsoft-is-killing-off-teams-support-for-ios-17-and-ipados-17-only-three-years-after-it-was-released/"
+  }
+ ],
+ "item": 138450,
+ "idea": "news",
+ "traction": 0,
+ "thumb_words": "TEAMS DROPS IOS 17"
+}

@@ -1,0 +1,27 @@
+{
+ "slug": "planescope-flight-radar-app-iphone",
+ "date": "2026-11-21",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Travel",
+ "tag": "New app",
+ "head": "Planescope flight radar app for iPhone shows the planes above you",
+ "dek": "Planescope: Live Air Traffic is a $1.99 flight radar app that shows the aircraft flying around you on an animated radar, turned to the direction you face. It was #62 among paid Travel apps on the US App Store on 21 November.",
+ "details": "Tap a plane to see the airline, the aircraft model, a photo, where it's flying from and to, and its altitude and speed. The range goes from 5 to 300 km, there are six radar styles or a map view, and a vibration when a new plane enters your area. The same purchase includes an Apple Watch app, widgets and the Mac version. The flight data comes from community ADS-B receivers (adsb.lol), so coverage depends on your area; the listing says there's no account, no ads and no tracking. It came out on 4 November.",
+ "where": "iPhone, iPad, Apple Watch and Mac, App Store, $1.99 once",
+ "means": "If you often wonder where the plane overhead is going, this app answers it by pointing your phone at the sky.",
+ "todo": "Coverage depends on volunteer receivers near you, so check that planes show up in your area soon after you buy.",
+ "apps": [
+  "Planescope: Live Air Traffic"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/planescope-live-air-traffic/id6819464608"
+  }
+ ],
+ "item": 150603,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "PLANESCOPE: RADAR FOR PLANES ABOVE YOU"
+}

@@ -1,0 +1,27 @@
+{
+ "slug": "freedom-forge-today-planner-app",
+ "date": "2026-11-21",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Productivity",
+ "tag": "New app",
+ "head": "Today planner app: tasks, recipes and links in one box",
+ "dek": "Freedom Forge Today is a $1.99 planner for iPhone, iPad, Mac and Apple Watch that sorts what you type, paste or share into Today, Soon and Someday instead of due dates. It came out on 21 November and was #31 among paid Productivity apps on the US App Store the same day.",
+ "details": "It can save recipes from web pages, videos or cookbook photos, with a cook mode, timers and a shopping list sorted by aisle that can go to Reminders. A Later list keeps links to read or watch, and shared household lists sync through iCloud. Your data is kept as plain Markdown files in your own iCloud Drive, with no account, ads or in-app purchases. The listing calls $1.99 a launch price until 15 January; it's made by Frederick Heinemann.",
+ "where": "iPhone, iPad, Mac and Apple Watch, App Store, $1.99 launch price",
+ "means": "If due dates and red overdue tasks put you off, this planner works with three loose buckets and keeps your lists as files you own.",
+ "todo": "If you want it, the listing says the $1.99 price is for launch only; it needs iOS 26 or later.",
+ "apps": [
+  "Freedom Forge Today"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/freedom-forge-today/id6827819727"
+  }
+ ],
+ "item": 150587,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "A PLANNER WITHOUT DUE DATES"
+}

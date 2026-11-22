@@ -1,0 +1,23 @@
+{
+ "slug": "android-earthquake-alerts-italy",
+ "date": "2026-11-19",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Android",
+ "tag": "Quick",
+ "head": "Android Earthquake Alerts now work in Italy",
+ "dek": "Google switched on its Android Earthquake Alerts System in Italy on 19 November, with Be Aware, Prepare and full-screen Act alerts depending on how strong the shaking is expected to be.",
+ "quick": true,
+ "apps": [
+  "Android"
+ ],
+ "sources": [
+  {
+   "name": "Google",
+   "url": "https://blog.google/intl/it-it/prodotti/android-chrome-play/il-sistema-di-allerte-terremoti-di-android-e-ora-disponibile-anche-in-italia/"
+  }
+ ],
+ "item": 140100,
+ "idea": "trend",
+ "traction": 0
+}

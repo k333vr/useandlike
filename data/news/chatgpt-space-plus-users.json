@@ -1,0 +1,31 @@
+{
+ "slug": "chatgpt-space-plus-users",
+ "date": "2026-11-20",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "ChatGPT Space rolls out to Plus users with pages and presentations",
+ "dek": "OpenAI started rolling out ChatGPT Space to Plus subscribers aged 18 and over worldwide on November 20; until now it was for Pro, Business and Enterprise plans. In Space you build interactive pages and presentations with ChatGPT, and they can update themselves from connected apps and tools.",
+ "details": "Space sits in the sidebar and replaces Library as the home for your pages, slides, images and uploaded files. People you invite who also have Space access can work on a page with you, and you can tag ChatGPT in a comment to ask for changes. Pages can be made and edited on the web, in the desktop app and in the iPhone and Android apps. Free users can't open shared pages, and there are no public links.",
+ "where": "Plus, Pro, Business and Enterprise, 18+, worldwide; rolling out from November 20",
+ "means": "If you pay for Plus, you get a place to keep documents and slides that ChatGPT can keep up to date. Anyone you share with needs a paid plan with Space too.",
+ "todo": "Look for Space in ChatGPT's sidebar; if it isn't there yet, the rollout hasn't reached your account.",
+ "apps": [
+  "ChatGPT"
+ ],
+ "sources": [
+  {
+   "name": "OpenAI release notes",
+   "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+  },
+  {
+   "name": "Tom's Guide",
+   "url": "https://www.tomsguide.com/ai/chatgpt/chatgpt-just-got-a-massive-upgrade-it-can-now-create-documents-that-update-themselves"
+  }
+ ],
+ "item": 146915,
+ "idea": "news",
+ "traction": 18,
+ "thumb_words": "CHATGPT SPACE COMES TO PLUS"
+}

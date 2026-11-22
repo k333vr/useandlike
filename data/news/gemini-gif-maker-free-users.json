@@ -1,0 +1,31 @@
+{
+ "slug": "gemini-gif-maker-free-users",
+ "date": "2026-11-20",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "Gemini GIF maker: Gemini now creates animated GIFs from a prompt",
+ "dek": "The Gemini app can now make short looping GIFs from a text prompt, a photo or a video. Google announced it on 20 November: it's rolling out to Google AI subscribers worldwide and to free users in eight countries, including the US and the UK.",
+ "details": "The GIFs run about three seconds and loop by themselves; Google uses its video model Gemini Omni 1.2 Flash for them. You can describe the animation in the chat, or pick GIF in the format picker of the image and video tools, and use meme templates or your own pictures as a starting point. Finished GIFs can be copied into messages, emails and documents or downloaded as .gif files. Digital Trends notes that Gemini's help page still lists a Google AI plan as a requirement, and the rollout is gradual. ChatGPT added GIFs about two weeks earlier.",
+ "where": "Google AI subscribers worldwide; free users in the US, Canada, UK, Australia, Japan, South Korea, Germany and France; rolling out",
+ "means": "If you send GIFs in chats, you can now make your own in Gemini instead of searching for one, though it may take a few days to reach your account.",
+ "todo": "Update the Gemini app and look for GIF in the image or video tools' format picker; if it isn't there yet, check again in a few days.",
+ "apps": [
+  "Gemini"
+ ],
+ "sources": [
+  {
+   "name": "Digital Trends",
+   "url": "https://www.digitaltrends.com/cool-tech/google-gemini-ai-gif-generation/"
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/gemini-gif-generation-rollout-3737901/"
+  }
+ ],
+ "item": 149016,
+ "idea": "news",
+ "traction": 15,
+ "thumb_words": "GEMINI NOW MAKES GIFS"
+}

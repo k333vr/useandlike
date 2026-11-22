@@ -1,0 +1,32 @@
+{
+ "slug": "motorola-android-17-update-list-29-phones",
+ "date": "2026-11-20",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Android",
+ "tag": "Update",
+ "head": "Motorola Android 17 update list: 29 eligible phones, 9 getting it now",
+ "dek": "Motorola has listed 29 phones that get Android 17: nine are getting the stable update now and 20 more follow in the coming months, without dates. The list comes from Motorola's Brazil newsroom.",
+ "details": "Getting it now: Motorola Signature, Edge 70, Edge 70 Fusion, Edge 70 Fusion Plus, Edge 60 Pro, Razr 70 Ultra, Razr 50 Ultra (Razr Plus 2024 in the US), Razr Fold and Moto G86. Later: Edge 70 Pro, Edge 60, Edge 60 Neo, Edge 60 Fusion, Edge 50 Neo, Edge 50 Fusion, Edge 50 Pro, Edge 50 Ultra, Razr 70, Razr 60, Razr 60 Ultra, Razr 50, and Moto G77, G75, G67, G57, G56, G47, G37 and G Max. Motorola's changelog lists redesigned Quick Settings, stackable widgets, wider file sharing with iPhones, scam protection and more HDR brightness control. US-only Moto G models aren't on the list, and timing differs by country.",
+ "where": "Motorola phones, rolling out by model and country",
+ "means": "If you have a recent Motorola, Edge or Razr, you can see here whether Android 17 is coming to your phone.",
+ "todo": "Check Settings for a system update; if your phone is on the later list, there's nothing to do yet.",
+ "apps": [
+  "Android 17",
+  "Motorola"
+ ],
+ "sources": [
+  {
+   "name": "Motorola News (Brazil)",
+   "url": "https://motorolanews.com/br/motorola-atualizacao-android-17-novidades-modelos-compativeis/"
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/motorola-android-17-update-rollout-status-3737510/"
+  }
+ ],
+ "item": 139893,
+ "idea": "news",
+ "traction": 35,
+ "thumb_words": "ANDROID 17: 29 MOTOROLA PHONES"
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "chatgpt-mac-control-14-steps-beta",
+ "date": "2026-11-19",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Report: macOS 27.3 beta makes ChatGPT Mac control a 14-step setup",
+ "dek": "Bloomberg's Mark Gurman reports that turning on ChatGPT's Mac control in the macOS 27.3 beta now takes 14 steps instead of four, with warning screens; Apple hasn't commented, and it's still possible to switch it on.",
+ "quick": true,
+ "rumor": true,
+ "apps": [
+  "ChatGPT",
+  "macOS"
+ ],
+ "sources": [
+  {
+   "name": "Digg",
+   "url": "https://digg.com/ai/18clo946"
+  }
+ ],
+ "item": 138488,
+ "idea": "news",
+ "traction": 0
+}

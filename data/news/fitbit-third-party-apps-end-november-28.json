@@ -1,0 +1,36 @@
+{
+ "slug": "fitbit-third-party-apps-end-november-28",
+ "date": "2026-11-21",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Google",
+ "tag": "Heads-up",
+ "head": "Fitbit third-party apps and clock faces end on November 28",
+ "dek": "From 28 November you can't install or update third-party apps and clock faces on Fitbit Sense and Versa watches; only Fitbit's and Google's own stay in the gallery. What's already on your watch keeps working, but a deleted app or a factory reset means it's gone for good.",
+ "details": "Google's help page lists the Fitbit Sense and Sense 2, Versa, Versa Lite, Versa 2, Versa 3 and Versa 4, and the recalled Ionic. The Sense 2 and Versa 4 never had third-party apps, so for them the change is about clock faces. Developers can no longer upload or update apps from that day. Google advises updating the Google Health app to version 5.12 so its own Fitbit and Google apps keep working.",
+ "where": "Worldwide, Fitbit Sense, Versa and Ionic watches, from 28 November 2026",
+ "means": "If you use a third-party clock face or app on one of these watches, you have until 27 November to install anything you still want, and after that you should avoid deleting it or resetting the watch.",
+ "todo": "Before 28 November, install the third-party apps and clock faces you want to keep, update the Google Health app to 5.12 or later, and don't factory reset the watch afterwards unless you have to.",
+ "apps": [
+  "Fitbit",
+  "Google Health"
+ ],
+ "sources": [
+  {
+   "name": "Google Health Help",
+   "url": "https://support.google.com/googlehealth/answer/14237121?hl=en"
+  },
+  {
+   "name": "Gadgets & Wearables",
+   "url": "https://www.gadgetsandwearables.com/2026/11/09/fitbit-third-party-apps-shutting-down/"
+  },
+  {
+   "name": "the5krunner",
+   "url": "https://the5krunner.com/2026/11/09/quick-read-fitbit-shuts-third-party-apps-out-of-its-gallery/"
+  }
+ ],
+ "item": 149315,
+ "idea": "news",
+ "traction": 15,
+ "thumb_words": "FITBIT ENDS THIRD-PARTY APPS NOV 28"
+}

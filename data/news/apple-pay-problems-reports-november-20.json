@@ -1,0 +1,23 @@
+{
+ "slug": "apple-pay-problems-reports-november-20",
+ "date": "2026-11-20",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Money",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Apple Pay problem reports rise again on 20 November",
+ "dek": "Downdetector showed a new rise in Apple Pay complaints on 20 November, three days after Apple's outage, but Apple hadn't confirmed a new problem. Tap-to-pay in stores is expected to keep working for many users; carrying a physical card as a backup helps if online payments fail.",
+ "apps": [
+  "Apple Pay"
+ ],
+ "sources": [
+  {
+   "name": "IBTimes Australia",
+   "url": "https://www.ibtimes.com.au/apple-pay-users-report-new-problems-after-outage-1879026"
+  }
+ ],
+ "item": 143057,
+ "idea": "news",
+ "traction": 21
+}

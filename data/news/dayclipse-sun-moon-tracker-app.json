@@ -1,0 +1,28 @@
+{
+ "slug": "dayclipse-sun-moon-tracker-app",
+ "date": "2026-11-21",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Photo",
+ "tag": "New app",
+ "head": "Dayclipse app: sunrise, golden hour and moon phase tracker",
+ "dek": "Dayclipse: Sun & Moon Tracker is a $4.99 app that shows sunrise, sunset, golden hour, blue hour and moon phases for any place, and works offline. It was #29 among paid Weather apps on the US App Store on 21 November.",
+ "details": "It also shows twilight times on a daily timeline, moonrise and moonset, a lunar calendar, an AR sky view with a live compass and a planner with a time slider for photos. City search works offline without GPS, and the calculations run on the phone; the listing notes they assume a flat horizon and don't count buildings, hills or weather. It came out on 31 October, added iPhone Duo support on 8 November and is made by Akila Mendis. The listing shows no in-app purchases.",
+ "where": "iPhone and iPad (also Apple silicon Macs), App Store, $4.99",
+ "means": "If you plan photos or walks around sunset or the moon, this app shows the times and the sun's direction without a subscription.",
+ "todo": "Check the App Store page's screenshots and device list before paying; for mountains or tall buildings, allow for the earlier sunset the app can't see.",
+ "apps": [
+  "Dayclipse"
+ ],
+ "category": "Video & Photo Editing",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/dayclipse-sun-moon-tracker/id6825253145"
+  }
+ ],
+ "item": 150610,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "DAYCLIPSE: GOLDEN HOUR TRACKER"
+}

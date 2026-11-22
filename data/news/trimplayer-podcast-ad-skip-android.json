@@ -1,0 +1,28 @@
+{
+ "slug": "trimplayer-podcast-ad-skip-android",
+ "date": "2026-11-20",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Android",
+ "tag": "New app",
+ "category": "Music",
+ "head": "TrimPlayer: Android podcast app that skips ads, intros and outros",
+ "dek": "TrimPlayer is a free Android podcast player that maps each episode before you listen and then jumps over the ads, intros, outros and other breaks it found. Android Authority picked it in its weekly roundup of new AI apps on 20 November.",
+ "details": "It learns what to skip for every show you follow, and a \"Mark a skip we missed\" button lets you teach it when something slips through. It doesn't rely on lists made by other listeners, the way SponsorBlock does on YouTube. The app is built on the open-source podcast player AntennaPod. It's free, with an optional way to support its development.",
+ "where": "Android, Google Play, free",
+ "means": "If you listen to podcasts on an Android phone, this player can cut the breaks out of episodes without you skipping by hand.",
+ "todo": "Install it from Google Play and use \"Mark a skip we missed\" when it lets an ad through; it still misses some ads.",
+ "apps": [
+  "TrimPlayer"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/new-ai-apps-services-trimplayer-3737704/"
+  }
+ ],
+ "item": 141675,
+ "idea": "newcomer",
+ "traction": 27,
+ "thumb_words": "TRIMPLAYER SKIPS PODCAST ADS"
+}

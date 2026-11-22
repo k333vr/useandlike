@@ -1,0 +1,23 @@
+{
+ "slug": "google-fi-app-redesign-ask-fi",
+ "date": "2026-11-20",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "tag": "Quick",
+ "quick": true,
+ "topic": "Android",
+ "head": "Google Fi Android app gets a new look and an Ask Fi AI help button",
+ "dek": "Google Fi's Android app moves its five tabs into a floating bar and adds an Ask Fi button that opens an AI support chat, which can pass you to a person without repeating yourself. It's arriving from the server with app version 171, so it may take a while after updating.",
+ "apps": [
+  "Google Fi"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/google-fi-app-redesign-3737549/"
+  }
+ ],
+ "item": 140357,
+ "idea": "news",
+ "traction": 0
+}

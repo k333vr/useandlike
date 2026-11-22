@@ -1,0 +1,32 @@
+{
+ "slug": "windows-antivirus-outside-kernel-ignite",
+ "date": "2026-11-22",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Security",
+ "tag": "Update",
+ "head": "Windows 11 lets antivirus run outside the kernel to cut blue screens",
+ "dek": "Microsoft's new Windows endpoint security platform, now generally available on Windows 11, lets security apps do their checks outside the Windows kernel, so a faulty update is less likely to crash the PC. Bitdefender Antivirus Free and Sophos plan support by the end of 2026.",
+ "details": "Microsoft announced it at Ignite on 17 November. Windows Latest lists the plans: Bitdefender Antivirus Free and Sophos Endpoint in the last quarter of 2026, CrowdStrike Falcon and a Microsoft Defender preview in the first quarter of 2027, ESET in February 2027, and SentinelOne, Trellix and TrendAI in the first half of 2027. CrowdStrike says it adds this to its kernel protection rather than replacing it. If a bad security update or driver stops a PC from starting, Quick Machine Recovery or Cloud Rebuild can bring it back without losing your files, according to Windows Latest.",
+ "where": "Windows 11, as each security app adds support",
+ "means": "If you use antivirus on Windows 11, a bad update from it should be less likely to leave your PC on a blue screen.",
+ "todo": "Nothing to do yet: keep your security app updated, and its maker will add support in its own updates.",
+ "apps": [
+  "Windows 11",
+  "Bitdefender"
+ ],
+ "sources": [
+  {
+   "name": "Windows Experience Blog",
+   "url": "https://blogs.windows.com/windowsexperience/2026/11/17/windows-security-at-ignite-2026-start-secure-protect-what-matters-prepare-for-ai/"
+  },
+  {
+   "name": "Windows Latest",
+   "url": "https://www.windowslatest.com/2026/11/22/after-a-bad-security-update-blue-screened-millions-of-pcs-microsoft-now-lets-antivirus-run-outside-the-windows-kernel-and-windows-can-recover-if-one-breaks-startup/"
+  }
+ ],
+ "item": 149644,
+ "idea": "news",
+ "traction": 18,
+ "thumb_words": "WINDOWS MOVES ANTIVIRUS OUT OF KERNEL"
+}

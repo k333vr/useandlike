@@ -1,0 +1,32 @@
+{
+ "slug": "salon-apple-tv-art-frame-app",
+ "date": "2026-11-21",
+ "added": "2026-11-22",
+ "checked": "2026-11-22",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "Salon app turns Apple TV into an art frame with museum paintings",
+ "dek": "Salon is an Apple TV app that keeps one picture on your TV screen like a frame on the wall: over 1,000 open-access museum paintings, or your own photos from iCloud. It costs 9.99 dollars once, with no subscription mentioned.",
+ "details": "Its developer, Rene Haavre, says every picture was checked by hand and cut to 3840 x 2160, so the TV neither crops nor letterboxes it. Galleries run from the Renaissance to Impressionism and Ukiyo-e, plus space, Earth from above, early colour photos and old maps. Photos can fill the screen or sit inside a border, and a clock and date can show in a corner. The developer built it to work like the art mode of Samsung's Frame TV.",
+ "where": "Apple TV with tvOS 17 or later, 9.99 dollars on the App Store",
+ "means": "If your TV sits black most of the day, Salon gives it something to show without a monthly fee.",
+ "todo": "Search for Salon: Museum Art Frame in the App Store on your Apple TV.",
+ "apps": [
+  "Salon: Museum Art Frame",
+  "Apple TV"
+ ],
+ "thumb_words": "APPLE TV BECOMES AN ART FRAME",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/salon-museum-art-frame/id6804220412"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/21/indie-app-spotlight-salon-is-an-apple-tv-app-that-turns-your-tv-into-a-picture-frame/"
+  }
+ ],
+ "item": 149642,
+ "idea": "news",
+ "traction": 18
+}
