@@ -123,6 +123,19 @@ const { CHANNELS, NEWSLETTER, OPEN_IN_NEW_TAB, VISIBLE_COUNT, CATEGORIES, TOOLS,
 const STYLE = indexHtml.match(/<style>([\s\S]*?)<\/style>/)[1];
 // The box after signing up and the sign-up A/B test: one block in index.html ("signup-step"), copied into every page.
 const SIGNUP_STEP = indexHtml.slice(indexHtml.indexOf("  // >>> signup-step"), indexHtml.indexOf("  // <<< signup-step"));
+
+// Privacy and Terms as real pages too (22 Nov 2026: Google's app checks want a privacy policy and terms at their own
+// addresses, /privacy/ and /terms/). One text only: the paragraphs come from index.html's INFO.privacy / INFO.terms
+// (the "#privacy" and "#terms" pages), so the two can't drift apart.
+for (const [key, title, description] of [
+  ["privacy", "Privacy", "What Use & Like counts and stores, which services it uses, and how our own publishing tool uses YouTube API Services."],
+  ["terms", "Terms of use", "The terms for using Use & Like, its newsletter and links, and for our internal publishing tool."]]) {
+  const at = indexHtml.indexOf("\n    " + key + ": {");
+  const from = indexHtml.indexOf("paragraphs: [", at), to = indexHtml.indexOf("\n      ]", from);
+  const paragraphs = new Function("return " + indexHtml.slice(from + "paragraphs: ".length, to + 8))()
+    .map(t => String(t).replace(/\(\/#(privacy|terms)\)/g, "([/$1/](/$1/))").replace(/\((https:\/\/[^\s)]+)\)/g, "([$1]($1))"));
+  PAGES.push({ path: key + "/", title, description, lead: "", paragraphs });
+}
 if (!SIGNUP_STEP.includes("beehiiv:submitted")) throw new Error('index.html: the "signup-step" block is missing');
 const VISIT_COUNT = indexHtml.slice(indexHtml.indexOf("  // >>> visit-count"), indexHtml.indexOf("  // <<< visit-count"));
 if (!VISIT_COUNT.includes("ul-visit")) throw new Error('index.html: the "visit-count" block is missing');
