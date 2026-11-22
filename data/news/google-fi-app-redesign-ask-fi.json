@@ -3,21 +3,29 @@
  "date": "2026-11-20",
  "added": "2026-11-22",
  "checked": "2026-11-22",
- "tag": "Quick",
- "quick": true,
  "topic": "Android",
- "head": "Google Fi Android app gets a new look and an Ask Fi AI help button",
- "dek": "Google Fi's Android app moves its five tabs into a floating bar and adds an Ask Fi button that opens an AI support chat, which can pass you to a person without repeating yourself. It's arriving from the server with app version 171, so it may take a while after updating.",
+ "tag": "Update",
+ "head": "Google Fi app redesign on Android adds Ask Fi AI support button",
+ "dek": "Google Fi's Android app has moved its tabs into a floating bar and added an Ask Fi button that opens Google's AI support chat. It's rolling out with app version 171.",
+ "details": "The five tabs stay the same: Home, Plan, Billing, Shop and Support. Ask Fi gives account help and troubleshooting, and if you ask for a person, your chat goes along so you don't have to repeat yourself. The new look is switched on from Google's side, so it may not show right after you update. Wi-Fi Auto Connect+, so far only on Pixel phones, is coming to select Samsung and Motorola phones.",
+ "where": "Google Fi app for Android, version 171, rolling out from Google's side",
+ "means": "If you're on Google Fi, questions about your bill or plan can start in the app's AI chat, and a person can pick up the same conversation if you need one.",
+ "todo": "Update the Google Fi app from Google Play; if the new look isn't there yet, check again in a few days.",
  "apps": [
   "Google Fi"
  ],
  "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/?p=738719"
+  },
   {
    "name": "Android Authority",
    "url": "https://www.androidauthority.com/google-fi-app-redesign-3737549/"
   }
  ],
  "item": 140357,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "thumb_words": "GOOGLE FI APP ADDS ASK FI AI HELP"
 }

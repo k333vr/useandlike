@@ -2,12 +2,16 @@
  "slug": "quickstar-one-ui-9-5-panel-image",
  "date": "2026-11-18",
  "added": "2026-11-21",
- "checked": "2026-11-21",
+ "checked": "2026-11-22",
  "topic": "Samsung",
- "tag": "Quick",
- "quick": true,
- "head": "QuickStar can put one picture behind your Quick Panel on One UI 9.5",
- "dek": "Samsung's QuickStar module in Good Lock has a Set all option on One UI 9.5 that spreads one image across the Quick Panel buttons, with zoom and a choice of rows. It isn't there on One UI 9 or older.",
+ "tag": "New feature",
+ "head": "QuickStar on One UI 9.5: one picture across your whole Quick Panel",
+ "dek": "Samsung's QuickStar module in Good Lock now has a Set all option on One UI 9.5 that stretches one picture across the Quick Panel buttons. Until now, each button could only get its own background.",
+ "details": "You can pinch to zoom, drag the picture and choose which rows of buttons it covers. It works with QuickStar 12.0.02.28 and isn't there on One UI 9 or older. The same update adds grid tile settings and renames Ongoing Chip to Ongoing activities. Samsung's changelog didn't mention the new option.",
+ "where": "Galaxy phones on One UI 9.5, through Good Lock's QuickStar module",
+ "means": "If your Galaxy phone runs One UI 9.5, you can theme the whole Quick Panel with one photo instead of setting each button.",
+ "todo": "Open Good Lock, go to QuickStar and tap Edit panel style. On the Panel button layout screen tap Set all, pick a picture, adjust it and tap Apply. If the preview is empty, open the Quick Panel once, go back and tap Sync.",
+ "thumb_words": "QUICKSTAR: ONE PHOTO, WHOLE PANEL",
  "apps": [
   "Good Lock",
   "One UI"
@@ -22,6 +26,6 @@
  "items": [
   142378
  ],
- "idea": "news",
+ "idea": "request",
  "traction": 15
 }

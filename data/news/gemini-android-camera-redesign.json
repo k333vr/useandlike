@@ -3,11 +3,14 @@
  "date": "2026-11-21",
  "added": "2026-11-22",
  "checked": "2026-11-22",
- "tag": "Quick",
- "quick": true,
  "topic": "AI",
- "head": "Gemini app on Android gets a new camera for adding photos to prompts",
- "dek": "The camera you open from the plus menu in Gemini's prompt box now slides up as a sheet inside your chat, with flash and the front camera behind a three-dot button. It's rolling out widely with Google app version 17.76, after reaching the iPhone app first.",
+ "tag": "Update",
+ "head": "Gemini camera on Android redesigned: it now opens inside your chat",
+ "dek": "The camera you open from the plus menu in Gemini's prompt box now slides up as a sheet over your chat on Android, instead of a separate full-screen viewfinder. It has rolled out widely with Google app version 17.76 and later, after reaching the iPhone app first.",
+ "details": "You can drag the sheet up to fill most of the screen, and it runs almost edge to edge. The capture button sits in the middle, with a three-dot button beside it for flash and the front camera, and a back button on the other side; swiping down also closes it. Opening the camera from the Gemini overlay still shows the old full-screen viewfinder. 9to5Google reported the change on 21 November, a day after Gemini added GIF making.",
+ "where": "Android (Google app 17.76 and later, beta and stable); already on iPhone",
+ "means": "If you show Gemini photos to ask about them, you can now take the picture without leaving the conversation.",
+ "todo": "Tap the plus in Gemini's prompt box and pick the camera. If you still see the old one, 9to5Google suggests force-stopping the Google app and opening Gemini again.",
  "apps": [
   "Gemini"
  ],
@@ -18,6 +21,7 @@
   }
  ],
  "item": 149643,
- "idea": "news",
- "traction": 52
+ "idea": "request",
+ "traction": 52,
+ "thumb_words": "GEMINI CAMERA GETS A NEW LOOK"
 }

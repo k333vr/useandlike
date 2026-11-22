@@ -4,10 +4,13 @@
  "added": "2026-11-22",
  "checked": "2026-11-22",
  "topic": "Android",
- "tag": "Quick",
- "head": "Android Earthquake Alerts now work in Italy",
- "dek": "Google switched on its Android Earthquake Alerts System in Italy on 19 November, with Be Aware, Prepare and full-screen Act alerts depending on how strong the shaking is expected to be.",
- "quick": true,
+ "tag": "Safety",
+ "head": "Android Earthquake Alerts System now in Italy: how to get the alerts",
+ "dek": "Google switched on Android's earthquake alerts in Italy on 19 November, so Android phones there can warn of nearby shaking a few seconds before it arrives.",
+ "details": "Android phones work together to detect earthquakes; the system has run since 2021 and has sent more than a billion alerts. There are three levels: a simple alert for light shaking, a more detailed one telling you to get ready for stronger shaking, and a full-screen alert with steps to protect yourself for moderate to strong shaking. In the coming months the middle alert will add a map of the area, the estimated magnitude, what to do and a button for updates. Alerts are on by default, need Wi-Fi or mobile data and use your approximate location.",
+ "where": "Italy, Android phones, on by default",
+ "means": "If you live in or visit Italy with an Android phone, you may get a few seconds to take cover before the shaking reaches you.",
+ "todo": "Check that it's on: Settings > Safety & emergency > Earthquake alerts (or Settings > Location > Advanced > Earthquake alerts), and keep Wi-Fi or mobile data switched on.",
  "apps": [
   "Android"
  ],
@@ -15,9 +18,14 @@
   {
    "name": "Google",
    "url": "https://blog.google/intl/it-it/prodotti/android-chrome-play/il-sistema-di-allerte-terremoti-di-android-e-ora-disponibile-anche-in-italia/"
+  },
+  {
+   "name": "Google Help",
+   "url": "https://support.google.com/android/answer/9319337"
   }
  ],
  "item": 140100,
- "idea": "trend",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "thumb_words": "ANDROID QUAKE ALERTS REACH ITALY"
 }

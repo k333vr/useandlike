@@ -2,22 +2,30 @@
  "slug": "uber-eats-auto-parts-autoparts-com",
  "date": "2026-11-19",
  "added": "2026-11-21",
- "checked": "2026-11-21",
+ "checked": "2026-11-22",
  "topic": "Shopping",
- "tag": "Quick",
- "quick": true,
- "head": "Uber Eats adds auto parts delivery in the US with AutoParts.com",
- "dek": "Uber Eats now has an auto parts category in the US, supplied by AutoParts.com from nearly 7,000 locations, with on-demand or scheduled delivery.",
+ "tag": "New feature",
+ "head": "Uber Eats now delivers car parts in the US from AutoParts.com",
+ "dek": "Since 19 November, Uber Eats in the US sells car parts from AutoParts.com, stocked from nearly 7,000 participating locations, for delivery right away or at a time you pick.",
+ "details": "AutoParts.com is the first auto parts seller on Uber Eats; it pulls stock from distributors, independent suppliers and stores. For a limited time, orders of $60 or more before taxes and fees get 20% off, up to $20; the offer is for US orders in the app's Retail section and can't be combined with other offers. Uber One members keep $0 delivery fees on eligible orders. Orders can be tracked live.",
+ "where": "US, Uber Eats app, Retail section",
+ "means": "If your car needs a part for a repair or routine maintenance, you can have it brought to you instead of driving to a store.",
+ "todo": "In Uber Eats, search for AutoParts.com, pick the nearest location, add the parts and choose delivery now or at a set time. The launch offer has no end date given, so check the app before you order.",
  "apps": [
   "Uber Eats"
  ],
  "sources": [
+  {
+   "name": "Uber (press release)",
+   "url": "https://finviz.com/news/425183/uber-eats-launches-auto-parts-category-with-autopartscom"
+  },
   {
    "name": "finanzen.ch",
    "url": "https://www.finanzen.ch/nachrichten/aktien/uber-eats-adds-auto-parts-through-autoparts-com-partnership-1036783627"
   }
  ],
  "item": 133360,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "thumb_words": "UBER EATS NOW DELIVERS CAR PARTS"
 }

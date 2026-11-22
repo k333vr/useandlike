@@ -2,12 +2,15 @@
  "slug": "surfshark-dausos-automatic-mac",
  "date": "2026-11-16",
  "added": "2026-11-21",
- "checked": "2026-11-21",
+ "checked": "2026-11-22",
  "topic": "Security",
- "tag": "Quick",
- "head": "Surfshark's Mac app can now pick its Dausos protocol automatically",
- "dek": "Surfshark added its own Dausos protocol to the Auto Protocol setting of its macOS app, so the app can choose it when it suits the connection; you can also pick it under Settings, VPN Settings, Protocol. Other platforms are coming, without a date.",
- "quick": true,
+ "tag": "Update",
+ "head": "Surfshark Dausos protocol now picked automatically on Mac",
+ "dek": "Surfshark's own Dausos protocol is now the default in its macOS app, and the Auto Protocol setting can choose it when it suits your connection. Surfshark announced it on 16 November.",
+ "details": "Instead of one shared tunnel for many users, Dausos gives each user a private tunnel, and it encrypts with AEGIS-256X2. Surfshark says it is up to 30% faster than other standard protocols and resistant to future quantum computers; those are the company's own claims. Dausos is only in the Mac app for now; Surfshark says other platforms are coming soon, without a date.",
+ "where": "Surfshark's macOS app (App Store or Surfshark's site); other platforms later",
+ "means": "If you use Surfshark on a Mac, the app may now connect with Dausos without you changing anything.",
+ "todo": "To choose it yourself, open Settings, then VPN Settings, then Protocol, and pick Auto Protocol or Dausos, then connect to a server.",
  "apps": [
   "Surfshark"
  ],
@@ -22,6 +25,7 @@
   }
  ],
  "item": 126361,
- "idea": "news",
- "traction": 19
+ "idea": "request",
+ "traction": 19,
+ "thumb_words": "SURFSHARK DAUSOS GOES AUTOMATIC ON MAC"
 }

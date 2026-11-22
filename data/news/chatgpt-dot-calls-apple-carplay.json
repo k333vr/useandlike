@@ -4,10 +4,14 @@
  "added": "2026-11-22",
  "checked": "2026-11-22",
  "topic": "AI",
- "tag": "Quick",
- "head": "ChatGPT dot users can now call their dot from Apple CarPlay",
- "dek": "OpenAI staff showed on 20 November that you can call your ChatGPT dot from CarPlay to pick up a task it's already working on, unlike a regular ChatGPT Voice chat, which starts fresh. Dots are for ChatGPT Pro users in supported countries and still rolling out to some Plus accounts.",
- "quick": true,
+ "tag": "New feature",
+ "head": "ChatGPT CarPlay: dot users can now call their dot from the car",
+ "dek": "You can now call your ChatGPT dot from Apple CarPlay and ask about a task it's already working on, as OpenAI's Romain Huet showed in a video on 20 November. A regular ChatGPT Voice chat in CarPlay starts fresh each time.",
+ "details": "A dot is an assistant in ChatGPT that keeps working between conversations and can use apps you connect. Regular ChatGPT Voice chats have worked in CarPlay since April 2026. Dots are for adults on ChatGPT Pro in supported regions, including Canada, and are still rolling out to some Plus accounts. OpenAI hasn't shared setup steps or a timeline for the CarPlay calls.",
+ "where": "ChatGPT Pro (and some Plus) users with a dot, iPhone with CarPlay, supported regions",
+ "means": "If you have a dot, you can ask where a task stands while you drive, without explaining it again.",
+ "todo": "If you have a dot, update the ChatGPT app on your iPhone; OpenAI hasn't published steps for calling it from CarPlay yet.",
+ "thumb_words": "CHATGPT DOT NOW CALLS FROM CARPLAY",
  "apps": [
   "ChatGPT"
  ],
@@ -18,6 +22,6 @@
   }
  ],
  "item": 148853,
- "idea": "news",
+ "idea": "request",
  "traction": 18
 }

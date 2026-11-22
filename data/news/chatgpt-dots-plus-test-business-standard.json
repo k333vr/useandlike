@@ -2,12 +2,15 @@
  "slug": "chatgpt-dots-plus-test-business-standard",
  "date": "2026-11-19",
  "added": "2026-11-21",
- "checked": "2026-11-21",
+ "checked": "2026-11-22",
  "topic": "AI",
- "tag": "Quick",
- "quick": true,
- "head": "ChatGPT dots: OpenAI tests the assistant with some Plus users",
- "dek": "OpenAI began testing dots, its always-on ChatGPT assistant, with a small number of Plus subscribers on 19 November and started rolling it out to all Business Standard users. Until now it was for Pro, Business Premium and Enterprise plans.",
+ "tag": "Update",
+ "head": "ChatGPT dots for Plus: OpenAI starts a small test with subscribers",
+ "dek": "OpenAI began testing dots, ChatGPT's always-on assistant, with a small number of Plus subscribers on 19 November. It is also rolling out to all ChatGPT Business Standard users.",
+ "details": "Dots launched in September for Pro, Business Premium and Enterprise. It runs on its own cloud computer, keeps working on tasks and projects without you, learns from your feedback and connects to more than 4,000 apps through plugins. On iPhone it has widgets, Shortcuts and replies from notifications; texting it over iMessage and RCS is in beta for US Pro users. OpenAI hasn't said whether Plus and Business Standard users get the same usage allowances as the higher plans.",
+ "where": "ChatGPT Plus (small test), Business Standard (rolling out to all)",
+ "means": "If you pay for ChatGPT Plus, dots may show up in your account as part of the test, but most Plus users don't have it yet.",
+ "todo": "Nothing to do: OpenAI picks the Plus testers. Business Standard users can look for dots in ChatGPT as the rollout reaches them.",
  "apps": [
   "ChatGPT"
  ],
@@ -18,6 +21,7 @@
   }
  ],
  "item": 138462,
- "idea": "news",
- "traction": 23
+ "idea": "request",
+ "traction": 23,
+ "thumb_words": "CHATGPT DOTS COMES TO PLUS (TEST)"
 }

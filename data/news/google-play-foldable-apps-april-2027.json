@@ -2,12 +2,15 @@
  "slug": "google-play-foldable-apps-april-2027",
  "date": "2026-11-18",
  "added": "2026-11-21",
- "checked": "2026-11-21",
+ "checked": "2026-11-22",
  "topic": "Android",
- "tag": "Quick",
- "quick": true,
- "head": "Google Play will require apps to fill foldable screens from April 2027",
- "dek": "From April 2027, apps on Google Play must fill the whole screen of a foldable without black bars and keep your place when you fold, unfold or rotate; apps that don't can't be updated on Play, while older un-updated apps stay downloadable.",
+ "tag": "Heads-up",
+ "head": "Google Play foldable apps rule: full screen required from April 2027",
+ "dek": "Google said on 18 November that from April 2027, apps on Google Play must fill a foldable's whole screen without black bars and keep your place when you fold, unfold or rotate the phone.",
+ "details": "Apps that miss the rule can't publish updates on Play and may be shown less in the store, while older apps that aren't updated stay downloadable. App makers can already add screenshots taken on foldables, which will appear on Play Store listings over the next few weeks; from April 2027, new apps and updates need three of them. Apps that do more for big screens can apply for a badge on Google Play, and games get their own large-screen rules. Google counts more than 580 million large-screen Android devices in use.",
+ "where": "Google Play, from April 2027; foldable screenshots in the coming weeks",
+ "means": "If you use a foldable, more apps should fill the screen and keep your place from April 2027, and store pages will show how an app looks unfolded.",
+ "todo": "Nothing to do yet. Before installing an app on a foldable, look for its foldable screenshots on the Play Store page once they appear.",
  "apps": [
   "Google Play"
  ],
@@ -18,6 +21,7 @@
   }
  ],
  "item": 132860,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "thumb_words": "GOOGLE PLAY: FOLDABLE APPS BY 2027"
 }

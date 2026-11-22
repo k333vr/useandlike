@@ -4,10 +4,14 @@
  "added": "2026-11-22",
  "checked": "2026-11-22",
  "topic": "Music",
- "tag": "Quick",
- "quick": true,
- "head": "Apple Music streams GTA 6's CircoLoco radio live on 22 November",
- "dek": "Apple Music Club radio is streaming sets from CircoLoco Records Radio, the radio station in Grand Theft Auto VI, on Sunday 22 November at 8 PM, with DJs such as Seth Troxler, Skream and DJ Tennis. Digital Music News says fans can tune in for free.",
+ "tag": "Update",
+ "head": "Apple Music streams GTA 6 CircoLoco radio DJ sets live on 22 November",
+ "dek": "Apple Music Club radio is livestreaming DJ sets from The Vault Presents CircoLoco Records Radio, tied to Grand Theft Auto VI's in-game station, on Sunday 22 November at 8 PM. Digital Music News says fans can listen for free.",
+ "details": "Miami's Club Space is dressed as The Vault, the nightclub in GTA VI, for a takeover from 20 to 22 November. The lineup includes Seth Troxler, Skream, DJ Tennis, Chloé Caillet and PAWSA; select sets stream on Apple Music. The whole weekend is recorded in Spatial Audio, and the sets come to Apple Music after the event. The source doesn't name the time zone for 8 PM.",
+ "where": "Apple Music Club radio, worldwide, 22 November",
+ "means": "If you like the game's dance station, you can hear its DJs play live, or catch the recorded sets on Apple Music later.",
+ "todo": "Open Apple Music on Sunday evening and look for Apple Music Club radio; the recordings follow after the weekend.",
+ "thumb_words": "GTA 6 RADIO DJS LIVE ON APPLE MUSIC",
  "apps": [
   "Apple Music"
  ],
@@ -18,6 +22,6 @@
   }
  ],
  "item": 146911,
- "idea": "news",
+ "idea": "request",
  "traction": 0
 }

@@ -2,12 +2,15 @@
  "slug": "spotify-wrapped-2026-not-out-yet",
  "date": "2026-11-19",
  "added": "2026-11-21",
- "checked": "2026-11-21",
+ "checked": "2026-11-22",
  "topic": "Music",
- "tag": "Quick",
- "head": "Spotify Wrapped 2026 isn't out yet: Spotify only shows a teaser",
- "dek": "Spotify hasn't given a date for Wrapped 2026; its site says it will get in touch when it's ready. Last year's came on 3 December and 2024's on 4 December, and listening after about mid-November usually isn't counted.",
- "quick": true,
+ "tag": "Heads-up",
+ "head": "Spotify Wrapped 2026 release date: not announced yet",
+ "dek": "Spotify hasn't given a date for Wrapped 2026; its site only says it will get in touch when it's ready. Wrapped came on 3 December last year and on 4 December in 2024.",
+ "details": "Wrapped counts listening from 1 January to around mid-November, so what you play in late November and December usually isn't in it; offline listening counts if the phone goes online again before the launch. For a top-songs list you need at least 30 songs played for more than 30 seconds each, and for top artists at least five artists. It shows minutes listened, top songs, artists, genres, podcasts and audiobooks, and your Listening Age. FOX 35 Orlando reported the details on 19 November.",
+ "where": "Spotify app, worldwide; date not announced",
+ "means": "If you're waiting for your Wrapped, it isn't out yet, and messages or links claiming to show it early aren't from Spotify's launch.",
+ "todo": "Nothing to do yet. Keep the Spotify app updated; Wrapped opens in the app once Spotify releases it.",
  "apps": [
   "Spotify"
  ],
@@ -18,6 +21,7 @@
   }
  ],
  "item": 134072,
- "idea": "news",
- "traction": 40
+ "idea": "request",
+ "traction": 40,
+ "thumb_words": "SPOTIFY WRAPPED 2026: NO DATE YET"
 }

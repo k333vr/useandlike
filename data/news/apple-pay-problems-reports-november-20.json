@@ -4,10 +4,13 @@
  "added": "2026-11-22",
  "checked": "2026-11-22",
  "topic": "Money",
- "tag": "Quick",
- "quick": true,
- "head": "Apple Pay problem reports rise again on 20 November",
- "dek": "Downdetector showed a new rise in Apple Pay complaints on 20 November, three days after Apple's outage, but Apple hadn't confirmed a new problem. Tap-to-pay in stores is expected to keep working for many users; carrying a physical card as a backup helps if online payments fail.",
+ "tag": "Heads-up",
+ "head": "Apple Pay not working: new reports on 20 November after the outage",
+ "dek": "Downdetector showed a new rise in Apple Pay complaints on Friday, 20 November, three days after Apple's outage on Tuesday. Apple hadn't confirmed a new problem.",
+ "details": "On Tuesday, 17 November, Apple Pay, iCloud, Apple Music, the App Store and other services went down from late morning US Eastern time; Apple blamed an internal update and said it wasn't a cyberattack, and its status page showed no outages by 6 p.m. Eastern. One outage tracker counted seven Apple Pay spikes in the past 30 days, and some users reported payments timing out or being rejected. How many people were hit on Friday isn't known.",
+ "where": "Reports mostly from the US; Apple hasn't confirmed a new outage",
+ "means": "If Apple Pay fails at the till or in an app, it may not be your phone or card; tap-to-pay in shops kept working for many people during Tuesday's outage, while online payments and adding cards were hit.",
+ "todo": "Check Apple's System Status page, restart your iPhone and make sure it runs the latest software, and carry a physical card as a backup.",
  "apps": [
   "Apple Pay"
  ],
@@ -18,6 +21,7 @@
   }
  ],
  "item": 143057,
- "idea": "news",
- "traction": 21
+ "idea": "request",
+ "traction": 21,
+ "thumb_words": "APPLE PAY PROBLEMS AGAIN?"
 }

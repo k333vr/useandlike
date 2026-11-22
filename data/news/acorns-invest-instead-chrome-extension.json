@@ -2,12 +2,16 @@
  "slug": "acorns-invest-instead-chrome-extension",
  "date": "2026-11-19",
  "added": "2026-11-21",
- "checked": "2026-11-21",
+ "checked": "2026-11-22",
  "topic": "Money",
- "tag": "Quick",
- "head": "Acorns Invest Instead extension shows what a purchase could grow to",
- "dek": "Acorns' free Invest Instead extension for Chrome adds a button next to Buy Now and Add to Cart on shopping sites that estimates what the price could be worth if invested instead, assuming 8% a year over 30 years. The estimate is hypothetical, not a promised return.",
- "quick": true,
+ "tag": "New app",
+ "head": "Acorns Invest Instead: Chrome button shows what a buy could grow to",
+ "dek": "Acorns released Invest Instead, a free Chrome extension that puts a button next to Buy Now, Add to Cart and Add to Bag on shopping sites. It shows what the price could grow to if you invested it instead, assuming 8% a year for 30 years.",
+ "details": "Acorns announced it on 19 November 2026; the extension is in the Chrome Web Store. The 8% return is an assumption, not a projection, and investing can lose money. In an Acorns survey of 3,242 of its customers, 61% said they'd likely use a button like this. Acorns also started season 2 of its comedy series Money Therapy on YouTube and Instagram on 18 November.",
+ "where": "Chrome, free, out now",
+ "means": "If you shop online in Chrome, you'll see a rough long-term figure next to the buy button; it's an estimate, not a promised return.",
+ "todo": "To try it, add Acorns Invest Instead from the Chrome Web Store. Treat the number as a what-if, not advice.",
+ "thumb_words": "ACORNS ADDS AN INVEST INSTEAD BUTTON",
  "apps": [
   "Acorns"
  ],
@@ -18,6 +22,6 @@
   }
  ],
  "item": 137782,
- "idea": "news",
+ "idea": "request",
  "traction": 18
 }

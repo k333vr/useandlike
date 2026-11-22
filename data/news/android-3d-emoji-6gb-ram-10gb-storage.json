@@ -2,12 +2,16 @@
  "slug": "android-3d-emoji-6gb-ram-10gb-storage",
  "date": "2026-11-19",
  "added": "2026-11-21",
- "checked": "2026-11-21",
+ "checked": "2026-11-22",
  "topic": "Android",
- "tag": "Quick",
- "quick": true,
- "head": "Google's 3D emoji on Android need 6 GB of RAM and 10 GB free space",
- "dek": "Google's support page lists Android 17, at least 6 GB of RAM, 128 GB of storage and 10 GB free for its 3D emoji; Google says that applies to the automatic download on phones that didn't ship with them. Samsung phones and apps like WhatsApp keep their own emoji.",
+ "tag": "Heads-up",
+ "head": "Android 3D emoji requirements: Android 17, 6 GB RAM and 10 GB free",
+ "dek": "Google's support page lists Android 17, at least 6 GB of RAM, 128 GB of storage and 10 GB free for its 3D emoji. Google later said those figures apply to the automatic download on Android 17 phones that didn't come with them.",
+ "details": "The 3D emoji take under 220 MB; the extra free space is room Google Play services needs while it copies the file. The download starts by itself on Wi-Fi while the phone charges, and there's no way to force it. Phones with less than 6 GB of RAM stay on the flat 2D emoji. Samsung phones and apps like WhatsApp use their own emoji and don't get the 3D set.",
+ "where": "Android 17 phones from supported brands, not Samsung; Pixel 11 has them built in",
+ "means": "If your phone has less than 6 GB of RAM or is short on space, you'll keep the 2D emoji.",
+ "todo": "Keep at least 10 GB free and leave the phone on Wi-Fi while it charges; there's no button to start the download.",
+ "thumb_words": "ANDROID 3D EMOJI NEED 6 GB RAM",
  "apps": [
   "Android"
  ],
@@ -18,7 +22,9 @@
   }
  ],
  "item": 138464,
- "items": [140607],
- "idea": "news",
+ "items": [
+  140607
+ ],
+ "idea": "request",
  "traction": 0
 }

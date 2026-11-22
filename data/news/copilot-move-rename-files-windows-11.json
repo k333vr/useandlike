@@ -2,11 +2,15 @@
  "slug": "copilot-move-rename-files-windows-11",
  "date": "2026-11-21",
  "added": "2026-11-22",
+ "checked": "2026-11-22",
  "topic": "AI",
- "tag": "Quick",
- "head": "Copilot on Windows 11 will move and rename files in your folders",
- "dek": "Microsoft showed at Ignite that Copilot will soon sort, move and rename files in folders like Downloads and Desktop when you ask in plain words. It's optional, asks permission for each session and shows an Undo for every move; no date yet.",
- "quick": true,
+ "tag": "New feature",
+ "head": "Copilot will rename and move files for you on Windows 11",
+ "dek": "Microsoft showed at Ignite 2026 that Copilot will soon move, rename and sort files in folders like Downloads and Desktop when you ask in plain words. Microsoft calls it local file actions and hasn't given a date.",
+ "details": "In Microsoft's demo, Copilot read eight PDFs in Downloads whose names didn't say what they were, made an Analyst Reports folder in OneDrive and moved them one by one, listing each move with an Undo button. It asks first, with Not now or Allow for this session, and there is no Always allow; renaming by content means it reads the files. Digit reports the local features are coming to Copilot+ PCs. The feature and the Copilot app are optional.",
+ "where": "Windows 11, Copilot+ PCs; coming soon, no date",
+ "means": "If your Downloads folder is a mess, you'll be able to ask Copilot to tidy it, but only after you let it read the files in that folder.",
+ "todo": "Nothing to do yet. When it arrives, allow access one session at a time and check the list of moves; use Undo if a file landed in the wrong place.",
  "apps": [
   "Copilot",
   "Windows 11"
@@ -15,10 +19,14 @@
   {
    "name": "Windows Latest",
    "url": "https://www.windowslatest.com/2026/11/21/copilot-will-dig-through-your-windows-11-downloads-folder-and-move-files-for-you-and-in-microsofts-demo-it-decided-which-ones/"
+  },
+  {
+   "name": "Digit",
+   "url": "https://www.digit.in/features/laptops/your-copilot-pc-will-soon-organise-files-and-diagnose-windows-issues-locally.html"
   }
  ],
  "item": 146667,
- "idea": "news",
+ "idea": "request",
  "traction": 18,
- "checked": "2026-11-22"
+ "thumb_words": "COPILOT WILL TIDY YOUR FILES"
 }

@@ -2,12 +2,15 @@
  "slug": "facebook-forum-groups-app-indonesia",
  "date": "2026-11-18",
  "added": "2026-11-21",
- "checked": "2026-11-21",
+ "checked": "2026-11-22",
  "topic": "Social",
- "tag": "Quick",
- "quick": true,
- "head": "Facebook's Forum app for Groups launches in Indonesia",
- "dek": "Meta's Forum app, which puts Facebook Groups in a separate app with an AI Ask feature and topic controls, is now out in Indonesia on Android, with an iPhone version coming.",
+ "tag": "New app",
+ "head": "Facebook Forum app for Groups launches in Indonesia on Android",
+ "dek": "Meta's Forum app, a separate app just for Facebook Groups, came out in Indonesia on 18 November on Android through Google Play, with an iPhone version promised soon. It was already available in the US on iPhone and Android.",
+ "details": "You sign in with your Facebook account, and posts sync between Forum and your Facebook groups. Ask uses AI to pull up existing posts and comments from your groups and from public groups you haven't joined, and Your Algorithm lets you choose topics you want to see more or less of. A new Top voice role replaces the Contributor badges and the Group Expert role. Admins get AI help too: group insights, suggestions on which waiting posts to approve, and draft posts they can edit.",
+ "where": "Indonesia: Android now, iPhone soon; US: iPhone and Android",
+ "means": "If you're in Indonesia and spend a lot of time in Facebook Groups, you can now read and post in them in an app of their own, away from the main Facebook feed.",
+ "todo": "On Android in Indonesia, install Forum from Google Play and sign in with your Facebook account. iPhone users there have to wait; Meta gave no date.",
  "apps": [
   "Forum",
   "Facebook"
@@ -16,9 +19,14 @@
   {
    "name": "Meta",
    "url": "https://about.fb.com/news/2026/11/forum-a-dedicated-app-for-facebook-groups-is-now-available-in-indonesia/"
+  },
+  {
+   "name": "Meta (September)",
+   "url": "https://about.fb.com/news/2026/09/find-community-forum-dedicated-app-facebook-groups/"
   }
  ],
  "item": 131717,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "thumb_words": "FACEBOOK FORUM APP HITS INDONESIA"
 }

@@ -2,12 +2,15 @@
  "slug": "telegram-iphone-duo-two-columns",
  "date": "2026-11-20",
  "added": "2026-11-21",
- "checked": "2026-11-21",
+ "checked": "2026-11-22",
  "topic": "Messaging",
- "tag": "Quick",
- "head": "Telegram adds iPhone Duo support with a two-column layout",
- "dek": "Telegram now supports Apple's foldable iPhone Duo: opened up, it shows the chat list and the conversation side by side like on the iPad; closed, it looks like the usual iPhone app.",
- "quick": true,
+ "tag": "Update",
+ "head": "Telegram iPhone Duo support: two-column layout on Apple's foldable",
+ "dek": "Telegram now works on Apple's foldable iPhone Duo: unfolded, it shows your chat list and the open chat side by side, as on the iPad, and folded it looks like the normal iPhone app.",
+ "details": "Telegram's founder Pavel Durov showed it in a short video on X, joking that Apple had made a phone that is both too big and too small. The iPhone Duo starts at $1,999, with a 5.4-inch outer screen and a 7.6-inch inner screen. Reviewers have said many apps still need updates for its bigger screen.",
+ "where": "iPhone Duo, Telegram for iPhone",
+ "means": "If you have an iPhone Duo, Telegram uses the big inner screen for two panes instead of a stretched phone layout.",
+ "todo": "Update Telegram from the App Store and open it with the phone unfolded.",
  "apps": [
   "Telegram"
  ],
@@ -18,6 +21,7 @@
   }
  ],
  "item": 143233,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "thumb_words": "TELEGRAM GOES TWO-COLUMN ON IPHONE DUO"
 }

@@ -2,22 +2,30 @@
  "slug": "brave-ios-1-99-iphone-duo-top-sites",
  "date": "2026-11-20",
  "added": "2026-11-21",
- "checked": "2026-11-21",
+ "checked": "2026-11-22",
  "topic": "Browser",
- "tag": "Quick",
- "quick": true,
- "head": "Brave 1.99 for iPhone adds iPhone Duo support and Top Sites options",
- "dek": "Brave's iPhone browser now fits the foldable iPhone Duo's screen, and you can choose whether the new tab page shows favourite sites, frequently visited ones or nothing (Settings > New Tab Page > Top Sites).",
+ "tag": "Update",
+ "head": "Brave iPhone update 1.99 adds iPhone Duo support and Top Sites choice",
+ "dek": "Brave version 1.99 for iPhone, on the App Store since 18 November, now fits Apple's foldable iPhone Duo and lets you choose what the new tab page shows.",
+ "details": "The Top Sites setting has three choices: None, Frequently Visited and Top Sites (your favourite sites). QuickView now opens links from Ask Brave and Leo chats without taking you out of the chat. Brave had confirmed it was working on the Duo in early November, after clips showed the browser cramped with black bars on the foldable, especially in split screen. The update also brings stability and security fixes.",
+ "where": "iPhone and iPad, App Store, free, version 1.99",
+ "means": "If you use Brave on an iPhone Duo, it should now use the whole screen; on any iPhone, you can tidy up or switch off the shortcuts on a new tab.",
+ "todo": "Update Brave in the App Store. Then tap the three dots, go to All Settings > New Tab Page > Top Sites and pick None, Frequently Visited or Top Sites.",
  "apps": [
   "Brave"
  ],
  "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/brave-browser-search-engine/id1052879175"
+  },
   {
    "name": "PiunikaWeb",
    "url": "https://piunikaweb.com/2026/11/20/brave-ios-iphone-duo-support-top-sites-update/"
   }
  ],
  "item": 140460,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "thumb_words": "BRAVE ON IPHONE NOW FITS IPHONE DUO"
 }

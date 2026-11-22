@@ -2,12 +2,16 @@
  "slug": "chatgpt-mobile-redesign-dot-tab-pro",
  "date": "2026-11-19",
  "added": "2026-11-21",
- "checked": "2026-11-21",
+ "checked": "2026-11-22",
  "topic": "AI",
- "tag": "Quick",
- "quick": true,
- "head": "ChatGPT tests a new phone layout with a tab bar and a Dot tab",
- "dek": "OpenAI is rolling out a new ChatGPT mobile design with a bottom tab bar, a tab for your dot and tools you can pin, first to Pro users and a small group of Plus users (not in the EEA, UK, Switzerland or South Korea). If New ChatGPT Design appears in Settings, you can switch it on or off there.",
+ "tag": "Update",
+ "head": "ChatGPT new design on phones: a tab bar, a Dot tab and pinned tools",
+ "dek": "OpenAI is rolling out a new ChatGPT phone layout with a tab bar at the bottom: Home, a tab for your dot and a grid of the other tools, which you can pin. Pro users get it first, along with a small group of Plus users.",
+ "details": "The grid holds Projects, Images, Scheduled, Codex, Plugins, Finance, Health, Sites and more; tap and hold one to pin it to the tab bar. It's for users 18 or older who have a dot or can make one, in regions where dots are offered, so not in the EEA, the UK, Switzerland or South Korea. OpenAI's Thibault Sottiaux showed it on 19 November. OpenAI wants feedback before a wider rollout and hasn't given a date.",
+ "where": "ChatGPT Pro and some Plus users on phones, outside the EEA, UK, Switzerland and South Korea",
+ "means": "If you pay for Pro, your ChatGPT app may look different now: tools like Projects and Images move into one grid.",
+ "todo": "If New ChatGPT Design shows up in Settings, you can turn it on or off there. To pin a tool, tap and hold it in the grid and choose Pin to tab bar.",
+ "thumb_words": "CHATGPT GETS A NEW PHONE LAYOUT",
  "apps": [
   "ChatGPT"
  ],
@@ -18,7 +22,9 @@
   }
  ],
  "item": 139647,
- "items": [145273],
- "idea": "news",
+ "items": [
+  145273
+ ],
+ "idea": "request",
  "traction": 15
 }
