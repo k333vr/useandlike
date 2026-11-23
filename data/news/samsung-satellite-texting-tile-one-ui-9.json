@@ -1,0 +1,28 @@
+{
+ "slug": "samsung-satellite-texting-tile-one-ui-9",
+ "date": "2026-11-20",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "Samsung",
+ "tag": "New feature",
+ "head": "Samsung satellite texting: how to turn on the hidden tile in One UI 9",
+ "dek": "Galaxy phones on One UI 9 have a hidden Satellite tile in developer options that lets you send texts and share your location where there's no cell signal, if your carrier supports satellite messaging. MakeUseOf tested it on a Galaxy Z Flip 6 and Z Flip 8.",
+ "details": "Supported carriers include T-Mobile's T-Satellite and Verizon in the US, O2 in the UK and KDDI in Japan. On T-Mobile it covers the Galaxy S21 to S26, Z Flip 5 to 7, Z Fold 3 to 7 and some A models such as the A16 and A56; on Verizon the S25 series and newer. It handles basic texts and location only, needs a clear view of the sky and works with Google Messages, not Samsung Messages. Samsung's own emergency satellite feature is expected with One UI 9.5.",
+ "where": "Galaxy phones on One UI 9 with T-Mobile, Verizon, O2 or KDDI",
+ "means": "If you hike, drive or live where the signal drops, your Galaxy may already be able to text by satellite once the tile is on.",
+ "todo": "Go to Settings, About phone, Software information and tap Build number seven times. Then open Developer options, Quick setting developer tiles, and turn on Satellite. Add the tile to your Quick Panel if it doesn't show. You can switch developer options off again afterwards (some banking apps don't like it), and the tile stays.",
+ "apps": [
+  "One UI",
+  "Google Messages"
+ ],
+ "thumb_words": "GALAXY HIDDEN SATELLITE TEXTING",
+ "sources": [
+  {
+   "name": "MakeUseOf",
+   "url": "https://www.makeuseof.com/samsung-galaxy-satellite-texting-setup/"
+  }
+ ],
+ "item": 144242,
+ "idea": "news",
+ "traction": 30
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "outlook-outage-report-bounced-emails",
+ "date": "2026-11-22",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "Email",
+ "tag": "Quick",
+ "head": "Outlook outage report: some emails to unused inboxes bounced",
+ "dek": "Microsoft's final report on the 12 November outage says delayed emails to personal Outlook inboxes unused for more than 30 days expired and senders got a non-delivery notice; work and school emails were all delivered.",
+ "quick": true,
+ "apps": [
+  "Outlook"
+ ],
+ "sources": [
+  {
+   "name": "Slashdot",
+   "url": "https://tech.slashdot.org/story/26/11/22/1949204/microsoft-admits-some-emails-bounced-during-global-outlook-outage-reveals-new-failures"
+  }
+ ],
+ "item": 151205,
+ "idea": "news",
+ "traction": 0
+}

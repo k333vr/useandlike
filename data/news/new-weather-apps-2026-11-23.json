@@ -1,0 +1,146 @@
+{
+ "slug": "new-weather-apps-2026-11-23",
+ "date": "2026-11-23",
+ "added": "2026-11-23",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "10 new weather apps climbing the App Store this week",
+ "dek": "These weather apps came out in the last 60 days and rose into the US App Store's Weather charts this week, from 3D storm radar and hurricane prep to northern lights odds and snow forecasts.",
+ "where": "iPhone (some also iPad and Mac), US App Store Weather charts (paid and free) this week",
+ "means": "If you want more than the forecast in your phone's own weather app, these new apps cover storms, floods, snow and the night sky; six of them are free to download.",
+ "todo": "Look at the App Store page before you rely on one: Flood Atlas covers South Florida only, SkyVoxel uses US NEXRAD radar, and Aurora Chance and Powday keep some features for paid plans.",
+ "apps": [
+  "SkyVoxel",
+  "The Weather House",
+  "Batten Down",
+  "Dayclipse: Sun & Moon Tracker",
+  "Flood Atlas",
+  "Aurora Chance: Northern Lights",
+  "Powday - Snow Forecasts",
+  "Weathercloud Network",
+  "SnowBrains News & Weather",
+  "SeaStatus: Launch Conditions"
+ ],
+ "list": [
+  {
+   "name": "SkyVoxel",
+   "what": "Turns NEXRAD Doppler radar into a 3D view of a storm you can spin, tilt and slice through.",
+   "price": "$2.99",
+   "maker": "MICHAEL BRIAN BROPHY",
+   "url": "https://apps.apple.com/us/app/skyvoxel/id6835014749"
+  },
+  {
+   "name": "The Weather House",
+   "what": "Shows your local weather as an illustrated wooden weather house whose figures move with the outdoor humidity, on iPhone, iPad and Mac.",
+   "price": "$3.99",
+   "maker": "Edwin George van Zeeland",
+   "url": "https://apps.apple.com/us/app/the-weather-house/id6827988367"
+  },
+  {
+   "name": "Batten Down",
+   "what": "Helps families and small businesses get ready for a hurricane and recover after one, with checklists, a supply tracker, an evacuation plan and National Weather Service alerts.",
+   "price": "$1.99",
+   "maker": "Take The Wheel LLC",
+   "url": "https://apps.apple.com/us/app/batten-down/id6829116562"
+  },
+  {
+   "name": "Dayclipse: Sun & Moon Tracker",
+   "what": "An offline tracker for sunrise, sunset, golden hour, blue hour and Moon phases, for planning photos, walks and nights outside.",
+   "price": "$4.99",
+   "maker": "Akila Mendis",
+   "url": "https://apps.apple.com/us/app/dayclipse-sun-moon-tracker/id6825253145"
+  },
+  {
+   "name": "Flood Atlas",
+   "what": "Shows flood alerts, tide and river gauges and neighbors' reports of flooded streets in South Florida.",
+   "price": "Free",
+   "maker": "RADOSOFT LLC",
+   "url": "https://apps.apple.com/us/app/flood-atlas/id6823785414"
+  },
+  {
+   "name": "Aurora Chance: Northern Lights",
+   "what": "Gives one 0 to 100% chance of seeing the northern lights tonight where you are, from aurora activity, cloud cover, darkness and the Moon.",
+   "price": "Free, in-app purchases",
+   "maker": "DMYTRO ZHUKOV",
+   "url": "https://apps.apple.com/us/app/aurora-chance-northern-lights/id6833542167"
+  },
+  {
+   "name": "Powday - Snow Forecasts",
+   "what": "Snowfall forecasts for ski areas worldwide from several weather models; days 1 to 7 are free, days 8 to 15 are in Powday Pro.",
+   "price": "Free, in-app purchases",
+   "maker": "Shredder Inc.",
+   "url": "https://apps.apple.com/us/app/powday-snow-forecasts/id6827649633"
+  },
+  {
+   "name": "Weathercloud Network",
+   "what": "Live readings from more than 150,000 weather stations worldwide: temperature, wind, rain, humidity, pressure and UV index.",
+   "price": "Free",
+   "maker": "Darrera S.A.",
+   "url": "https://apps.apple.com/us/app/weathercloud-network/id6792674145"
+  },
+  {
+   "name": "SnowBrains News & Weather",
+   "what": "Ski news from SnowBrains.com and snow forecasts in one app, with free powder alerts for up to five resorts.",
+   "price": "Free",
+   "maker": "SnowBrains LLC",
+   "url": "https://apps.apple.com/us/app/snowbrains-news-weather/id6825064751"
+  },
+  {
+   "name": "SeaStatus: Launch Conditions",
+   "what": "Reads live wind, waves and tide for the boat ramp you launch from and your boat's size, then answers Go, Caution or No-go.",
+   "price": "Free, in-app purchases",
+   "maker": "Andrew Kelley",
+   "url": "https://apps.apple.com/us/app/seastatus-launch-conditions/id6811217650"
+  }
+ ],
+ "thumb_words": "10 NEW WEATHER APPS",
+ "sources": [
+  {
+   "name": "App Store chart",
+   "url": "https://apps.apple.com/us/iphone/charts/6001"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/skyvoxel/id6835014749"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/the-weather-house/id6827988367"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/batten-down/id6829116562"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/dayclipse-sun-moon-tracker/id6825253145"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/flood-atlas/id6823785414"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/aurora-chance-northern-lights/id6833542167"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/powday-snow-forecasts/id6827649633"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/weathercloud-network/id6792674145"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/snowbrains-news-weather/id6825064751"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/seastatus-launch-conditions/id6811217650"
+  }
+ ],
+ "idea": "newcomer",
+ "traction": 0,
+ "checked": "2026-11-23"
+}

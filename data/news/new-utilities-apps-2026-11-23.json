@@ -1,0 +1,111 @@
+{
+ "slug": "new-utilities-apps-2026-11-23",
+ "date": "2026-11-23",
+ "added": "2026-11-23",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "7 new utility apps for iPhone climbing the App Store this week",
+ "dek": "These utility apps came out in the last 60 days and rose into the US App Store's Utilities charts this week, from widgets and a keyboard for the foldable iPhone Duo to Google Wallet's new iPhone app.",
+ "details": "FoldTick's counter comes in five styles, from split flaps to amber Nixie tubes, and counts automatically on an iPhone Duo with iOS 27.1 or later after a one-time setup in Shortcuts.",
+ "where": "iPhone, iPad and Mac, US App Store Utilities charts (paid and free) this week",
+ "means": "If you just got an iPhone Duo or carry a second phone, several of these small apps were made for exactly that; most cost a dollar or two.",
+ "todo": "Check each App Store page before you buy: FoldTick, Duodometer and Duo Keyboard are built for the iPhone Duo, iTell needs an Android phone with its paid Android app, and Google Wallet on iPhone can't tap to pay in stores.",
+ "apps": [
+  "FoldTick: Duo Fold Counter",
+  "Google Wallet",
+  "Widezilla Browser",
+  "iTell: Second Phone Bridge",
+  "Open Screen Sharing",
+  "Duodometer",
+  "Duo Keyboard: Resize & Split"
+ ],
+ "list": [
+  {
+   "name": "FoldTick: Duo Fold Counter",
+   "what": "Counts how often you fold your iPhone Duo and shows it in Home Screen and Lock Screen widgets, in five counter styles.",
+   "price": "$0.99",
+   "maker": "Tan Teck Hean",
+   "url": "https://apps.apple.com/us/app/foldtick-duo-fold-counter/id6827445474"
+  },
+  {
+   "name": "Google Wallet",
+   "what": "Google's iPhone app that gathers orders, receipts, boarding passes, tickets and loyalty cards from Gmail; tap-to-pay in stores isn't supported on iPhone.",
+   "price": "Free",
+   "maker": "Google",
+   "url": "https://apps.apple.com/us/app/google-wallet/id6761386270"
+  },
+  {
+   "name": "Widezilla Browser",
+   "what": "A compact web browser for iPhone, iPad and Mac with a floating address bar that tucks into a corner, and separate layouts for both iPhone Duo screens.",
+   "price": "$0.99",
+   "maker": "Matteo Dall'Ombra",
+   "url": "https://apps.apple.com/us/app/widezilla-browser/id6827308965"
+  },
+  {
+   "name": "iTell: Second Phone Bridge",
+   "what": "Brings calls, texts and contacts from an Android phone in your bag to your iPhone over Bluetooth.",
+   "price": "Free (the Android app has its own trial and license)",
+   "maker": "Amir AKBARZADEH",
+   "url": "https://apps.apple.com/us/app/itell-second-phone-bridge/id6831699886"
+  },
+  {
+   "name": "Open Screen Sharing",
+   "what": "An open-source remote desktop app for Mac screen sharing that also connects over VNC and RDP.",
+   "price": "$1.99",
+   "maker": "Metamerism LLC",
+   "url": "https://apps.apple.com/us/app/open-screen-sharing/id6818992574"
+  },
+  {
+   "name": "Duodometer",
+   "what": "Shows the estimated charge of each of the iPhone Duo's two battery cells, plus drain rate and a battery history chart.",
+   "price": "$0.99",
+   "maker": "Colin Morgan",
+   "url": "https://apps.apple.com/us/app/duodometer/id6833699309"
+  },
+  {
+   "name": "Duo Keyboard: Resize & Split",
+   "what": "A keyboard for the iPhone Duo you can make lower or narrower, move to one side or split on the wide screen, with 30 languages.",
+   "price": "$2.99",
+   "maker": "Connectzero. inc",
+   "url": "https://apps.apple.com/us/app/duo-keyboard-resize-split/id6826541573"
+  }
+ ],
+ "thumb_words": "7 NEW UTILITY APPS",
+ "sources": [
+  {
+   "name": "App Store chart",
+   "url": "https://apps.apple.com/us/iphone/charts/6002"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/foldtick-duo-fold-counter/id6827445474"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/google-wallet/id6761386270"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/widezilla-browser/id6827308965"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/itell-second-phone-bridge/id6831699886"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/open-screen-sharing/id6818992574"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/duodometer/id6833699309"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/duo-keyboard-resize-split/id6826541573"
+  }
+ ],
+ "idea": "newcomer",
+ "traction": 0,
+ "checked": "2026-11-23"
+}

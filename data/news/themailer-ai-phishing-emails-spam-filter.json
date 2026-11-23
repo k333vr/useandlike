@@ -1,0 +1,33 @@
+{
+ "slug": "themailer-ai-phishing-emails-spam-filter",
+ "date": "2026-11-22",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "AI phishing emails: TheMailer kit rewrites scams until they pass spam filters",
+ "dek": "Security firm Varonis found TheMailer, a phishing kit sold to criminals that uses AI services such as ChatGPT, Claude and Gemini to write scam emails and keeps rewriting them until they land in the inbox instead of spam. Good grammar is no longer a sign that an email is real.",
+ "details": "The kit sends test emails, checks whether they reached the inbox and lets the AI change the text before the next try; an option strips signs of machine-written text. It writes a different email for each person and can attach PDFs, SVG files or calendar invites with the recipient's name in the file name, and hide links behind Google addresses. It has been advertised on a cybercrime forum since March 2026 for 3,000 to 6,000 dollars as a lifetime license. Lures Varonis saw include account security alerts, a Robinhood copy and hotel booking messages; one target list had 145,133 email addresses, mostly at Japanese companies and universities.",
+ "where": "Emails to any provider, including Gmail and Microsoft; reported on 22 November",
+ "means": "If an email warns about unusual activity on your account or sends an invoice you didn't expect, a clean, professional text doesn't prove it's from the company.",
+ "todo": "Don't log in through a link in an unexpected alert: open the app or type the company's address yourself. Be careful with surprise invoices, PDFs, SVG files and calendar invites, and don't let an urgent tone rush you.",
+ "apps": [
+  "Gmail",
+  "Outlook"
+ ],
+ "category": "Email",
+ "thumb_words": "AI SCAM EMAILS DODGE SPAM FILTERS",
+ "sources": [
+  {
+   "name": "Varonis",
+   "url": "https://www.varonis.com/blog/themailer-ai-phishing-kit"
+  },
+  {
+   "name": "TechRadar",
+   "url": "https://www.techradar.com/pro/security/while-attackers-use-ai-to-create-better-phishing-lures-todays-cybercrime-tools-do-much-more-experts-warn-themailer-ai-phishing-kit-runs-on-claude-and-chatgpt-and-constantly-evolves-until-it-gets-past-your-spam-filter"
+  }
+ ],
+ "item": 153011,
+ "idea": "news",
+ "traction": 15
+}

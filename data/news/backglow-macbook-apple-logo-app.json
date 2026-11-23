@@ -1,0 +1,32 @@
+{
+ "slug": "backglow-macbook-apple-logo-app",
+ "date": "2026-11-22",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "MacBook Apple logo light: Backglow app lets you turn it off or dim it",
+ "dek": "Backglow is a Mac app that lets you dim, switch off or animate the glowing Apple logo on the back of the new MacBook Pro with the PROLED XDR display, which macOS has no setting for. The basic modes are free.",
+ "details": "Free: brightness, on and off, Steady, Breathe (a slow fade like the old sleep light) and Battery (the logo dims as the battery runs down). Pro costs 9 dollars once at launch, later 15, per Mac, and adds Music, where the logo pulses with what's playing, and Agents, which shows whether Claude Code or Codex is working or waiting. It's made by indie developer Juan Buis, runs from the menu bar, needs no account and has a 14-day refund for Pro.",
+ "where": "New MacBook Pro with glowing logo only, from backglow.app",
+ "means": "If the lit logo on your new MacBook Pro bothers you, or you want it to do more, this is a way to control it that Apple doesn't offer.",
+ "todo": "Download it from the maker's website; the free version covers turning the logo off or dimming it. Other Macs aren't supported.",
+ "apps": [
+  "Backglow",
+  "MacBook Pro"
+ ],
+ "sources": [
+  {
+   "name": "Backglow",
+   "url": "https://backglow.app/"
+  },
+  {
+   "name": "BGR",
+   "url": "https://www.bgr.com/2321873/backglow-app-control-macbook-glowing-apple-logo/"
+  }
+ ],
+ "item": 153015,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "CONTROL YOUR MACBOOK'S GLOWING LOGO"
+}

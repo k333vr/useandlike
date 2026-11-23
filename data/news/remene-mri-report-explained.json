@@ -1,0 +1,27 @@
+{
+ "slug": "remene-mri-report-explained",
+ "date": "2026-11-20",
+ "topic": "Health",
+ "head": "Remene explains your MRI images and report in plain words",
+ "dek": "Remene is a new website that opens the files of an MRI study from a CD, USB stick or download in your browser, explains what each part shows and translates the radiology report; viewing is free, the rest is paid, with a refund within 7 days. Its optional AI second opinion isn't reviewed by a doctor and doesn't replace a visit.",
+ "apps": [
+  "Remene"
+ ],
+ "item": 146727,
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "Remene",
+   "url": "https://remene.si/"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/remene"
+  }
+ ],
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "tag": "Quick",
+ "quick": true
+}

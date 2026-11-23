@@ -1,0 +1,28 @@
+{
+ "slug": "metro-global-transit-arrivals-app",
+ "date": "2026-11-22",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "Travel",
+ "tag": "New app",
+ "category": "Travel",
+ "head": "Metro Global transit app: live arrivals in the Americas and Europe",
+ "dek": "Metro Global is a 99-cent iPhone app that shows nearby stations, schedules, live arrivals and departure boards for transit in the Americas and Europe. It was #35 among paid Navigation apps on the US App Store on 22 November.",
+ "details": "The Americas region covers the US, Canada and Mexico; the Europe region covers the UK, France, Belgium, Spain, Germany, Turkey, the Netherlands and Sweden, with more planned. The download includes one region, picked when you first open it, and other regions are one-time purchases in Settings. Version 2.1 of 22 November improves live arrivals for SEPTA Regional Rail. It's made by Larry Donnell Haile, came out on 29 October and needs iOS 17.",
+ "where": "iPhone and iPad, App Store, $0.99 with one region; more regions as in-app purchases",
+ "means": "If you ride trains or buses in more than one country, one app can show the departures instead of a different app per city.",
+ "todo": "Pick the region you use most when you first open it; the second region costs extra. It has no ratings yet.",
+ "apps": [
+  "Metro Global"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/metro-global/id6818547990"
+  }
+ ],
+ "item": 153884,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "METRO GLOBAL: LIVE TRAIN TIMES"
+}

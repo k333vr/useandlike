@@ -1,0 +1,24 @@
+{
+ "slug": "apple-ai-agent-late-2027-gurman",
+ "date": "2026-11-22",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "Apple",
+ "tag": "Quick",
+ "head": "Apple's AI agent may not arrive before late 2027, Gurman says",
+ "dek": "Bloomberg's Mark Gurman doesn't expect Apple's agent that would use apps and the web for you before the end of 2027; Apple hasn't announced it. Siri's multistep control of Apple's own apps is still expected in December.",
+ "quick": true,
+ "rumor": true,
+ "apps": [
+  "Siri"
+ ],
+ "sources": [
+  {
+   "name": "Digital Trends",
+   "url": "https://www.digitaltrends.com/computing/apple-ai-agent-delayed-2027/"
+  }
+ ],
+ "item": 152259,
+ "idea": "news",
+ "traction": 0
+}

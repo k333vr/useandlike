@@ -1,0 +1,111 @@
+{
+ "slug": "new-music-apps-2026-11-23",
+ "date": "2026-11-23",
+ "added": "2026-11-23",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "7 new music apps for iPhone climbing the App Store this week",
+ "dek": "These music apps came out in the last 60 days and rose into the US App Store's Music charts this week, from record and cassette players for your Apple Music library to a free drum machine and a four-track recorder.",
+ "details": "Deck-Man has no ads, subscriptions or in-app purchases. Hello Moon was composed by Jesse Solomon Clark, who says no AI was used in its music.",
+ "where": "iPhone, iPad and Mac, US App Store Music charts (paid and free) this week",
+ "means": "If you want a slower, album-first way to listen or a simple way to record music, these are new paid apps with no subscription of their own; Super 909 Drums is free.",
+ "todo": "Check each App Store page first: Ripple Player needs an Apple Music subscription for most albums, Crate needs Apple Music for records you don't own, and Deck-Man is made for the iPhone Duo.",
+ "apps": [
+  "Deck-Man: Cassette Player",
+  "Ripple Player",
+  "Hello Moon: Ambient Music",
+  "MeroMusic",
+  "Super 909 Drums - Drum Machine",
+  "Crate Music Library",
+  "FourTrack: Cassette Recorder"
+ ],
+ "list": [
+  {
+   "name": "Deck-Man: Cassette Player",
+   "what": "Shows your albums as cassette tapes you load into a retro player on the iPhone Duo, with Apple Music and your own music files.",
+   "price": "$4.99",
+   "maker": "Squircle Apps LLP",
+   "url": "https://apps.apple.com/us/app/deck-man-cassette-player/id6817070335"
+  },
+  {
+   "name": "Ripple Player",
+   "what": "A record player for the albums in your Apple Music library that plays whole albums front to back, with no shuffle or playlists.",
+   "price": "$4.99",
+   "maker": "Recital Records Ltd",
+   "url": "https://apps.apple.com/us/app/ripple-player/id6828347986"
+  },
+  {
+   "name": "Hello Moon: Ambient Music",
+   "what": "Plays ambient music that changes with the Moon's eight phases, beside a picture of tonight's Moon.",
+   "price": "$3.99",
+   "maker": "JESSE SOLOMON CLARK",
+   "url": "https://apps.apple.com/us/app/hello-moon-ambient-music/id6829027279"
+  },
+  {
+   "name": "MeroMusic",
+   "what": "A score editor, touch piano and recording studio for iPhone and iPad that also works note by note with VoiceOver.",
+   "price": "$10.00",
+   "maker": "MERIC KARACA",
+   "url": "https://apps.apple.com/us/app/meromusic/id6831978428"
+  },
+  {
+   "name": "Super 909 Drums - Drum Machine",
+   "what": "A drum machine in the style of the 909, for iPhone, iPad and Mac, also as an AUv3 plug-in.",
+   "price": "Free",
+   "maker": "AudioKit Pro",
+   "url": "https://apps.apple.com/us/app/super-909-drums-drum-machine/id6812908495"
+  },
+  {
+   "name": "Crate Music Library",
+   "what": "Turns your Apple Music library into a room of records that remembers where you stopped in your last five albums and playlists.",
+   "price": "$14.99",
+   "maker": "Eric Linder",
+   "url": "https://apps.apple.com/us/app/crate-music-library/id6814223022"
+  },
+  {
+   "name": "FourTrack: Cassette Recorder",
+   "what": "A four-track cassette recorder for iPhone, iPad and Mac for layering parts one on top of another, with a mixer and tape sound.",
+   "price": "$5.99",
+   "maker": "Milo Devereux",
+   "url": "https://apps.apple.com/us/app/fourtrack-cassette-recorder/id6833702871"
+  }
+ ],
+ "thumb_words": "7 NEW MUSIC APPS",
+ "sources": [
+  {
+   "name": "App Store chart",
+   "url": "https://apps.apple.com/us/iphone/charts/6011"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/deck-man-cassette-player/id6817070335"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/ripple-player/id6828347986"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/hello-moon-ambient-music/id6829027279"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/meromusic/id6831978428"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/super-909-drums-drum-machine/id6812908495"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/crate-music-library/id6814223022"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/fourtrack-cassette-recorder/id6833702871"
+  }
+ ],
+ "idea": "newcomer",
+ "traction": 0,
+ "checked": "2026-11-23"
+}

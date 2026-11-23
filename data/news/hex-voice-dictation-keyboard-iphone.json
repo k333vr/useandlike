@@ -1,0 +1,28 @@
+{
+ "slug": "hex-voice-dictation-keyboard-iphone",
+ "date": "2026-11-22",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "AI",
+ "tag": "New app",
+ "category": "Productivity",
+ "head": "Hex voice to text keyboard for iPhone: dictate in any app, free",
+ "thumb_words": "HEX: A KEYBOARD YOU TALK TO",
+ "dek": "Hex is a free voice to text keyboard for iPhone that turns your speech into text right where you're typing, in any app, with no account or subscription. It was #51 among free Productivity apps on the US App Store on 22 November.",
+ "details": "The speech is turned into text on the iPhone and not sent anywhere, and dictation works offline once a language's model is downloaded. It drops filler words and the words you corrected, takes spoken punctuation and has writing styles (Polished, Casual, Notes, Verbatim); it's also a full keyboard with autocorrect, swipe typing in English and Spanish and emoji search. It's made by Anomaly Innovations, came out on 20 November, needs iOS 18 (iOS 26 to dictate inside the keyboard) and lists no in-app purchases. Dictating from the keyboard needs Full Access turned on.",
+ "where": "iPhone, App Store, free",
+ "means": "If you'd rather talk than type, you can dictate into any app without copying text over from another app or paying for a plan.",
+ "todo": "Install it, add Hex Keyboard in Settings and allow Full Access if you want to dictate from the keyboard; check you're on iOS 26 for in-keyboard dictation.",
+ "apps": [
+  "Hex: voice dictation keyboard"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/hex-voice-dictation-keyboard/id6836837368"
+  }
+ ],
+ "item": 153862,
+ "idea": "newcomer",
+ "traction": 15
+}

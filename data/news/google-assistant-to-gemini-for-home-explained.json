@@ -1,0 +1,79 @@
+{
+ "slug": "google-assistant-to-gemini-for-home-explained",
+ "date": "2026-11-23",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "Google",
+ "tag": "Explainer",
+ "head": "Google Assistant vs Gemini for Home: what changes on your speakers",
+ "dek": "Google Assistant stops working on Google's smart speakers and displays on 2 August 2027 and the Nest app closes on 25 January 2027, so Nest owners move to the Google Home app and Gemini for Home, with some features behind a Home Premium plan from $10 a month.",
+ "sections": [
+  {
+   "h": "Two dates to remember",
+   "p": [
+    "On 20 November Google set the end dates. The Nest app stops working on Android, iPhone and the web on 25 January 2027, and the home.nest.com website shuts down too. Google Assistant on Google's smart speakers and displays ends on 2 August 2027, replaced by Gemini for Home.",
+    "Google says no Nest thermostat, camera, doorbell, smoke alarm or lock loses support. Devices such as the Nest Thermostat, Nest cameras and doorbells, Nest Protect (2nd gen) and the Nest x Yale Lock are managed in the Google Home app, which needs a Google account."
+   ]
+  },
+  {
+   "h": "What moves by itself, and what doesn't",
+   "p": [
+    "Settings and schedules move to Google Home automatically, according to 9to5Google. Custom video clips you saved in the Nest app don't move over, so download them before 25 January; Google Home has a Download All button for that.",
+    "If you pay for Nest Aware (1st gen), the plan switches to Google Home Premium at no extra cost, and Google said you don't need to enter your card again for now."
+   ]
+  },
+  {
+   "h": "How Gemini for Home differs from Assistant",
+   "p": [
+    "Google started rolling out Gemini for Home in early access in October 2025. Google says it understands everyday speech instead of fixed voice commands: you can pause, change your mind in the middle of a sentence, and it keeps track of the conversation.",
+    "You can switch now instead of waiting. On a phone, update the Google Home app, tap your profile picture, open Home Settings and tap Get Started on the Set up Gemini for Home banner; on a computer, go to home.google.com/gemini. Google says more countries follow over the coming months, and Droid Life reported that India, Taiwan, Singapore, Colombia, South Korea and Brazil are among the countries getting it in December."
+   ]
+  },
+  {
+   "h": "What's free and what costs money",
+   "p": [
+    "Some features need Google Home Premium, which replaced Nest Aware in October 2025. In the US, Standard costs $10 a month or $100 a year and includes Gemini Live (talking without saying the wake word each time), Ask Home for help with automations, 30 days of video history and camera alerts. Advanced costs $20 a month or $200 a year and adds AI descriptions of camera events, Home Brief summaries and video history you can search. Google AI Pro includes Standard, and AI Ultra includes Advanced.",
+    "Gemini Live on speakers is getting faster: on 18 November Google said it moves to a newer speech-to-speech system soon, and you'll be able to set timers and control devices without leaving the chat. You start it with a phrase like \"Hey Google, let's chat\"; a plain \"Hey Google\" doesn't open it."
+   ]
+  },
+  {
+   "h": "What's still unclear",
+   "p": [
+    "Google hasn't given every country's timing for Gemini for Home and says it will share more details closer to the August deadline. It also gave no exact date for the faster Gemini Live beyond \"soon\"."
+   ]
+  }
+ ],
+ "means": "If you control Nest devices in the Nest app, you'll have to use the Google Home app from 25 January 2027, and your Google speakers will answer with Gemini instead of Assistant by August 2027. The basics move over by themselves, but saved camera clips don't, and Gemini Live costs extra.",
+ "todo": "Install the Google Home app and sign in with your Google account. Download any saved Nest video clips with Download All before 25 January 2027. To try Gemini for Home now, open Home Settings in the app and tap Get Started on the Set up Gemini for Home banner.",
+ "where": "Nest app ends worldwide on 25 January 2027; Assistant on Google speakers and displays ends on 2 August 2027; Home Premium prices are US",
+ "apps": [
+  "Google Home",
+  "Google Nest",
+  "Gemini"
+ ],
+ "sources": [
+  {
+   "name": "Google (Home Premium)",
+   "url": "https://blog.google/products/google-nest/googe-home-premium-google-ai-pro-subscription/"
+  },
+  {
+   "name": "Google (Gemini for Home launch)",
+   "url": "https://blog.google/products/google-nest/next-era-gemini-google-home-launch/"
+  },
+  {
+   "name": "9to5Google (Nest app and Assistant)",
+   "url": "https://9to5google.com/2026/11/20/nest-app-google-assistant/"
+  },
+  {
+   "name": "9to5Google (Gemini Live)",
+   "url": "https://9to5google.com/2026/11/18/google-home-gemini-live-update-coming/"
+  },
+  {
+   "name": "Droid Life",
+   "url": "https://www.droid-life.com/2026/11/17/google-home-rolls-out-huge-fall-2026-update/"
+  }
+ ],
+ "idea": "explainer",
+ "traction": 0,
+ "thumb_words": "GOOGLE ASSISTANT ENDS: GEMINI NEXT"
+}

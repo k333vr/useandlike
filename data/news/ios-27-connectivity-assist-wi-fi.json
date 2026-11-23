@@ -1,0 +1,23 @@
+{
+ "slug": "ios-27-connectivity-assist-wi-fi",
+ "date": "2026-11-22",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "Apple",
+ "tag": "Quick",
+ "head": "iOS 27's Connectivity Assist switches to cellular when Wi-Fi is weak",
+ "dek": "iOS 27 has a Connectivity Assist switch under Settings, Wi-Fi that uses cellular data when Wi-Fi is slow or unusable; it can be turned off per network and isn't used while roaming abroad or in Low Data Mode.",
+ "quick": true,
+ "apps": [
+  "iPhone"
+ ],
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/22/ios-27-has-a-clever-fix-for-unreliable-wi-fi-connections/"
+  }
+ ],
+ "item": 152966,
+ "idea": "news",
+ "traction": 0
+}

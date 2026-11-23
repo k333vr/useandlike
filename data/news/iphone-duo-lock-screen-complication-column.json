@@ -1,0 +1,25 @@
+{
+ "slug": "iphone-duo-lock-screen-complication-column",
+ "date": "2026-11-22",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "Apple",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "Leak: Apple tested a column of Lock Screen widgets for iPhone Duo",
+ "dek": "According to a leak shared by pdfu, iOS 27.1 holds a hidden \"complication column\" of two round widgets on the right edge of the iPhone Duo's Lock Screen. It's switched off and Apple hasn't said whether it will ship.",
+ "apps": [
+  "iPhone Duo",
+  "iOS"
+ ],
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/22/iphone-duo-could-get-more-lock-screen-widgets/"
+  }
+ ],
+ "item": 152432,
+ "idea": "news",
+ "traction": 0
+}

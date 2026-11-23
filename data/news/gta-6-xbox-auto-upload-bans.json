@@ -1,0 +1,32 @@
+{
+ "slug": "gta-6-xbox-auto-upload-bans",
+ "date": "2026-11-21",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "Games",
+ "tag": "Heads-up",
+ "head": "GTA 6 Xbox auto upload bans: how to turn off clip uploads",
+ "thumb_words": "GTA 6 XBOX: TURN OFF AUTO UPLOADS",
+ "dek": "Some GTA 6 players on Xbox say they got temporary account suspensions after the console uploaded their game clips automatically. Turning off automatic uploads stops clips from going online, and you can still record and save them on the console.",
+ "details": "One player told Beebom about a two-day suspension after a 28-second clip of a Vice City beach, with characters in swimsuits and no nudity, was uploaded from an Xbox Series X; the email named a breach of Microsoft's rules without saying which. Neither outlet has a statement from Xbox or Microsoft, and it isn't confirmed what triggers the suspensions. VGC says it's not known how widespread it is and that PS5 players haven't reported the same so far.",
+ "where": "Xbox Series X and Series S, reports since 21 November",
+ "means": "If you play GTA 6 on Xbox with automatic uploads on, your clips go online without you choosing them, and some players say that cost them a suspension.",
+ "todo": "Press the Xbox button, go to Profile & system, Settings, Preferences, Capture & share, and set automatic uploads to Don't upload, for both the Xbox network and OneDrive if you see both. Your clips stay saved on the console, and you can still upload one by hand.",
+ "apps": [
+  "Xbox",
+  "GTA 6"
+ ],
+ "sources": [
+  {
+   "name": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-xbox-psa-how-to-stop-automatic-clip-uploads-and-avoid-bans/"
+  },
+  {
+   "name": "Beebom",
+   "url": "https://beebom.com/gta-6-players-banned-xbox-how-to-turn-off-auto-uploads/"
+  }
+ ],
+ "item": 148722,
+ "idea": "trend",
+ "traction": 0
+}

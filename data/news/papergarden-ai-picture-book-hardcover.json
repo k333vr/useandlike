@@ -1,0 +1,31 @@
+{
+ "slug": "papergarden-ai-picture-book-hardcover",
+ "date": "2026-11-22",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "AI",
+ "tag": "New app",
+ "head": "Personalized children's book made with AI, printed as a hardcover",
+ "dek": "papergarden is a new website that writes and illustrates a picture book with your child as the hero, then sells it as an eBook for €9.95 or a hardcover for €39 plus shipping.",
+ "details": "You pick an age group from 0-2 to 9+, add the characters (from a photo or a description) and describe the story, and you can edit the words before ordering. You can also make the book in ChatGPT, free with a paid ChatGPT plan, or in Claude with credits: 40 for €6, and a book uses about 20 to 30. Hardcovers have 24 to 84 pages at 21.6 cm square and ship to 215 countries and territories; outside the EU the buyer may pay customs. Books come in 20 languages.",
+ "where": "Web; ships to 215 countries and territories",
+ "means": "If you're looking for a gift for a child, you can now make a picture book starring them from a short description, and get it printed.",
+ "todo": "Check the shipping cost shown before you pay, and read the words of the book before you order. Outside the EU, allow for possible customs charges.",
+ "apps": [
+  "papergarden"
+ ],
+ "item": 152341,
+ "thumb_words": "AI PICTURE BOOK STARRING YOUR CHILD",
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "papergarden",
+   "url": "https://papergarden.ai/"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/papergarden"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "slug": "whatsapp-fca-bank-video-call-scam",
+ "date": "2026-11-22",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "WhatsApp video call scam: fake bank and FCA staff, police warn",
+ "dek": "Nottinghamshire Police in England say they've had a rise in reports of fraudsters on WhatsApp messages, voice calls and video calls who claim to be from a bank or the Financial Conduct Authority (FCA). Some victims lost hundreds of pounds.",
+ "details": "The callers show a bank or FCA logo and often say your bank account has been compromised. Some asked victims to share their screen, which can give them access to online banking. In some cases it led to courier fraud: an Uber taxi was sent to collect bank cards and PINs, which were then used to buy goods in shops, Apple among them. Fraud protect officer Dale Richardson of the force's Economic and Cyber Crime Unit gave the warning.",
+ "where": "Nottinghamshire, England; the calls come through WhatsApp",
+ "means": "If a WhatsApp call or video call shows a bank or FCA logo, that proves nothing: anyone can put a logo on a profile.",
+ "todo": "Hang up and call your bank on the number you already know. Never share a PIN or password, never share your screen with a caller, and never hand cards to a courier. Turn on two-step verification in WhatsApp and change your password if you think someone has it.",
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 150237,
+ "thumb_words": "WHATSAPP SCAM: FAKE BANK VIDEO CALLS",
+ "idea": "news",
+ "traction": 18,
+ "rank": 1,
+ "sources": [
+  {
+   "name": "The Independent (on AOL)",
+   "url": "https://www.aol.co.uk/articles/police-warning-whatsapp-scam-sees-131635000.html"
+  }
+ ]
+}

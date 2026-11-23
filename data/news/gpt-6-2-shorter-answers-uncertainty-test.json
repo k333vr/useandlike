@@ -1,0 +1,23 @@
+{
+ "slug": "gpt-6-2-shorter-answers-uncertainty-test",
+ "date": "2026-11-22",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "GPT-6.2 models give shorter answers but admit doubt less, test finds",
+ "dek": "In Artificial Analysis' personality test, GPT-6.2 Astra's answers were 40% shorter than its predecessor's and Sol's 34% shorter, but both scored much lower on admitting uncertainty, The Decoder reports. The scores describe answer style, not whether answers are correct.",
+ "quick": true,
+ "apps": [
+  "ChatGPT"
+ ],
+ "sources": [
+  {
+   "name": "The Decoder",
+   "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/"
+  }
+ ],
+ "item": 151670,
+ "idea": "news",
+ "traction": 0
+}

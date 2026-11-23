@@ -1,0 +1,134 @@
+{
+ "slug": "new-health-and-fitness-apps-2026-11-23",
+ "date": "2026-11-23",
+ "added": "2026-11-23",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "9 new health and fitness apps climbing the App Store this week",
+ "dek": "These health and fitness apps came out in the last 60 days and rose into the US App Store's paid Health & Fitness charts this week, from a step graph for the Apple Watch and a running app to a newborn log and breathing exercises.",
+ "where": "iPhone (some also Apple Watch or iPad), US App Store Health & Fitness charts (paid) this week",
+ "means": "If you're tired of fitness apps with monthly fees, most of these new ones are a single purchase between 99 cents and $9.99.",
+ "todo": "Read the App Store page before you buy: On Pace is made for the Apple Watch face, and The Birth Bag says it is a support tool for birth partners, not medical advice.",
+ "apps": [
+  "On Pace: Steps vs Average",
+  "echoRnr",
+  "FitIn7",
+  "The Birth Bag",
+  "Baby Log & Head Time",
+  "aire",
+  "Second Wind: Breathwork",
+  "YourTrackPal: GPS Tracker",
+  "Daybreak: Health Export"
+ ],
+ "list": [
+  {
+   "name": "On Pace: Steps vs Average",
+   "what": "Shows today's steps against your average day, the same comparison as the Health app, on your Apple Watch face and iPhone Home Screen.",
+   "price": "$0.99",
+   "maker": "ALEJANDRO LOPEZ ALBERTOS",
+   "url": "https://apps.apple.com/us/app/on-pace-steps-vs-average/id6835619709"
+  },
+  {
+   "name": "echoRnr",
+   "what": "A running app you pay for once that lets you race one of your past runs or a friend's in real time, with GPS maps and Apple Watch support.",
+   "price": "$9.99",
+   "maker": "MARK KINCAID PREYER",
+   "url": "https://apps.apple.com/us/app/echornr/id6806840194"
+  },
+  {
+   "name": "FitIn7",
+   "what": "A 7-minute home workout of 12 bodyweight exercises, 30 seconds each, with an animated figure showing every move.",
+   "price": "$0.99",
+   "maker": "ASHAY SURESH MANJURE",
+   "url": "https://apps.apple.com/us/app/fitin7/id6835284709"
+  },
+  {
+   "name": "The Birth Bag",
+   "what": "A labor support tool made by a doula for birth partners, doulas and nurses, with a contraction timer, 74 position guides and comfort ideas.",
+   "price": "$4.99",
+   "maker": "Nurture and Connect Doula Services LLC",
+   "url": "https://apps.apple.com/us/app/the-birth-bag/id6826440643"
+  },
+  {
+   "name": "Baby Log & Head Time",
+   "what": "Logs a newborn's feedings, sleep and diapers with one tap each, and tracks how long the baby lies on each side of the head.",
+   "price": "$4.99",
+   "maker": "Ghenadie Deliu",
+   "url": "https://apps.apple.com/us/app/baby-log-head-time/id6835030296"
+  },
+  {
+   "name": "aire",
+   "what": "Guided breathing sessions for relaxation, focus and sleep, with suggestions that can use your Apple Health sleep and heart rate data.",
+   "price": "$5.99",
+   "maker": "AIRE AG",
+   "url": "https://apps.apple.com/us/app/aire/id6794430541"
+  },
+  {
+   "name": "Second Wind: Breathwork",
+   "what": "Breathwork sessions for athletes, shaped by your sleep, training, heart rate variability and resting heart rate.",
+   "price": "$2.99",
+   "maker": "Willie Morris",
+   "url": "https://apps.apple.com/us/app/second-wind-breathwork/id6822914533"
+  },
+  {
+   "name": "YourTrackPal: GPS Tracker",
+   "what": "A GPS tracker for ten sports, from running and cycling to skiing, paddling and swimming, with your stats over a live map.",
+   "price": "$1.99",
+   "maker": "Jeremy Dixon",
+   "url": "https://apps.apple.com/us/app/yourtrackpal-gps-tracker/id6775038069"
+  },
+  {
+   "name": "Daybreak: Health Export",
+   "what": "Exports your Apple Health history to JSON and CSV files in a folder you choose, up to 80 daily metrics.",
+   "price": "$0.99",
+   "maker": "137 Ventures Ltd",
+   "url": "https://apps.apple.com/us/app/daybreak-health-export/id6833011805"
+  }
+ ],
+ "thumb_words": "9 NEW HEALTH AND FITNESS APPS",
+ "sources": [
+  {
+   "name": "App Store chart",
+   "url": "https://apps.apple.com/us/iphone/charts/6013"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/on-pace-steps-vs-average/id6835619709"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/echornr/id6806840194"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/fitin7/id6835284709"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/the-birth-bag/id6826440643"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/baby-log-head-time/id6835030296"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/aire/id6794430541"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/second-wind-breathwork/id6822914533"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/yourtrackpal-gps-tracker/id6775038069"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/daybreak-health-export/id6833011805"
+  }
+ ],
+ "idea": "newcomer",
+ "traction": 0,
+ "checked": "2026-11-23"
+}

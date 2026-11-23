@@ -1,6 +1,6 @@
 {
  "_about": "Written by scripts/partner-offers.py from the Studio's deal tracker (the brands' offer lists on our partner network, Yazing). Don't edit by hand: the next daily run rewrites it. Hand-checked deals live in data/deals.json.",
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "offers": [
   {
    "slug": "meshy",
@@ -309,7 +309,7 @@
    "group": "More",
    "text": "Up to 60% off End Year Sale",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "godaddy",
@@ -317,7 +317,7 @@
    "group": "More",
    "text": "Managed Hosting for Wordpress: Up to 53% off Managed Hosting for Wordpress Plans",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "att",
@@ -325,7 +325,7 @@
    "group": "More",
    "text": "Learn how to get up to 50% off moto watch ultra",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "expedia",
@@ -333,7 +333,7 @@
    "group": "More",
    "text": "Black Friday Sale - Up to 50% off Select Stays",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "nordpass",
@@ -341,7 +341,7 @@
    "group": "More",
    "text": "Save 50% on the Password Manager",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "preply",
@@ -357,7 +357,7 @@
    "group": "More",
    "text": "Up to 42% off Nolo's Start & Run a Business Bundle",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "booking",
@@ -373,7 +373,7 @@
    "group": "More",
    "text": "Black Friday Sale 2026 - Get Up to 40% off Most Powerful Plans",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "legalzoom",
@@ -389,7 +389,7 @@
    "group": "More",
    "text": "Cyber Monday - 20% off All Annual Plans",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "agoda",
@@ -421,7 +421,7 @@
    "group": "More",
    "text": "2 Year Subscription + 2 Months Free Now: $2.19/Month",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "easyship",
@@ -558,7 +558,7 @@
    "group": "Phone Plans & Internet",
    "text": "Thanksgiving Offer: 20% off any Plan",
    "code": "THANKFUL20",
-   "seen": "2026-11-21",
+   "seen": "2026-11-22",
    "where": "US only"
   },
   {
@@ -877,7 +877,7 @@
    "group": "Travel",
    "text": "Car Rental - Up to 70% off When You Search and Compare",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "flightnetwork",
@@ -885,7 +885,7 @@
    "group": "Travel",
    "text": "Save Up to 60% on Flights",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "gotogate",
@@ -893,7 +893,7 @@
    "group": "Travel",
    "text": "Save Up to 60% on Flights Anywhere",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "priceline",
@@ -901,7 +901,7 @@
    "group": "Travel",
    "text": "Save Up to 60% on Hotels with Express Deals",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "travelocity",
@@ -909,7 +909,15 @@
    "group": "Travel",
    "text": "Up to 60% off Vacation Rentals",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
+  },
+  {
+   "slug": "hotelscom",
+   "brand": "Hotels.com",
+   "group": "Travel",
+   "text": "Black Friday Sale - Up to 50% off",
+   "code": null,
+   "seen": "2026-11-22"
   },
   {
    "slug": "tiqets",
@@ -917,7 +925,7 @@
    "group": "Travel",
    "text": "Christmas Pre-sale: Up to 40% off Parque De Atracciones Madrid Tickets",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "travelup",
@@ -925,7 +933,7 @@
    "group": "Travel",
    "text": "Sri Lanka Holidays Deals: Save Up to 40% + Extra £50 on Bookings Over £1,299",
    "code": "TU50",
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "efultimatebreak",
@@ -933,7 +941,7 @@
    "group": "Travel",
    "text": "Up to 35% Off for Black Friday",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "gadventures",
@@ -941,15 +949,7 @@
    "group": "Travel",
    "text": "Save Up to 30% on Selected Tours",
    "code": null,
-   "seen": "2026-11-21"
-  },
-  {
-   "slug": "hotelscom",
-   "brand": "Hotels.com",
-   "group": "Travel",
-   "text": "Get Huge Savings of at Least 30% on Bookings",
-   "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "tours4fun",
@@ -957,7 +957,7 @@
    "group": "Travel",
    "text": "Save 30% on 17-Day Nordic & Baltic Discovery Tour",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "europcar",
@@ -965,7 +965,7 @@
    "group": "Travel",
    "text": "Black Friday - Up to 25% off Rates",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "hertz",
@@ -973,7 +973,7 @@
    "group": "Travel",
    "text": "Save Up to 25% on Base Rates When You Pay Now",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "flighthub",
@@ -981,7 +981,7 @@
    "group": "Travel",
    "text": "Save Up to 20% When You Book Flight + Hotel Together",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "greenmotion",
@@ -989,7 +989,7 @@
    "group": "Travel",
    "text": "Book Your Next Car Rental and Save 20%",
    "code": "BLACKFRIDAY20",
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "roadtrippers",
@@ -997,7 +997,7 @@
    "group": "Travel",
    "text": "20% off All Memberships",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "qeeq",
@@ -1005,7 +1005,7 @@
    "group": "Travel",
    "text": "8% off Car Rentals",
    "code": "IMEN8",
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "trainpal",
@@ -1013,7 +1013,7 @@
    "group": "Travel",
    "text": "New Customers Can Take 5% off European Train Tickets and Existing Customers Can Take 2% off",
    "code": "ITOFERTA26",
-   "seen": "2026-11-21",
+   "seen": "2026-11-22",
    "where": "UK only"
   },
   {
@@ -1038,7 +1038,7 @@
    "group": "Travel",
    "text": "Make Memories Together: Save on Family Travel!",
    "code": "FAMILY40",
-   "seen": "2026-11-21",
+   "seen": "2026-11-22",
    "where": "Canada only"
   },
   {
@@ -1047,7 +1047,7 @@
    "group": "Travel",
    "text": "Black Friday & Cyber Deals - Get Up to An Extra $500 off 3+ Night Vacation Packages Sitewide",
    "code": "BLKFRI26",
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "greatvaluevacations",
@@ -1055,7 +1055,7 @@
    "group": "Travel",
    "text": "Multi-Europe Vacation Sale: Save Up to $600 Per Person with Air, Hotel & More Included",
    "code": "MCEURO",
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "onetravel",
@@ -1063,7 +1063,7 @@
    "group": "Travel",
    "text": "Save on Last Minute Flights",
    "code": "LM45",
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "oojo",
@@ -1071,7 +1071,7 @@
    "group": "Travel",
    "text": "Book Your Flight and Get $175 off All Flights",
    "code": "BLACKFRIDAY175",
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "ovago",
@@ -1079,7 +1079,7 @@
    "group": "Travel",
    "text": "Save Up to $50 on Thanksgiving Flights",
    "code": "THANKSGIVING50",
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "wingbuddy",
@@ -1087,7 +1087,7 @@
    "group": "Travel",
    "text": "WINGBUDDY CA BLACK FRIDAY STARTS NOW! Get $100 off per passenger on all packages + up to $500 off select departures.…",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "wondershare",
@@ -1095,7 +1095,7 @@
    "group": "Video Creation",
    "text": "Black Friday: Save Up to 84% on Your PDF Editor",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "videogen",
@@ -1103,7 +1103,7 @@
    "group": "Video Creation",
    "text": "Get 50% off All Annual Plans",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "movavi",
@@ -1111,7 +1111,7 @@
    "group": "Video Creation",
    "text": "15% off Sitewide",
    "code": "PTNAFFDIS011126ALLLC",
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "tunnelbear",
@@ -1119,7 +1119,7 @@
    "group": "VPN & Privacy",
    "text": "Save 70% on 3-year Plans",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "bitdefender",
@@ -1127,7 +1127,7 @@
    "group": "VPN & Privacy",
    "text": "57% off Antivirus Plus",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "incogni",
@@ -1135,7 +1135,7 @@
    "group": "VPN & Privacy",
    "text": "55% off Your Order",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "intego",
@@ -1143,7 +1143,7 @@
    "group": "VPN & Privacy",
    "text": "Save 30% on Intego One Advanced",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "qustodio",
@@ -1151,7 +1151,7 @@
    "group": "VPN & Privacy",
    "text": "Get 15% off Leading Edge",
    "code": "LEADING15",
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "bark",
@@ -1159,7 +1159,7 @@
    "group": "VPN & Privacy",
    "text": "Holiday Sale: $100 off the Bark Phone, $150 off the Phone Pro and $50 off the Bark Watch",
    "code": "BIGDEAL",
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "eset",
@@ -1167,7 +1167,7 @@
    "group": "VPN & Privacy",
    "text": "Free Home Trial - Multilayered Security Protection and Free Shipping",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "superantispyware",
@@ -1175,7 +1175,7 @@
    "group": "VPN & Privacy",
    "text": "Professional X Edition Was: $74.95 Now: $19.99",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "tenable",
@@ -1183,7 +1183,7 @@
    "group": "VPN & Privacy",
    "text": "Free Trial",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "databasemart",
@@ -1191,7 +1191,7 @@
    "group": "Web Hosting",
    "text": "Black Friday Sale – Save Up to 75% on Selected VPS, GPU VPS, and Dedicated Server Plans",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "namecheap",
@@ -1199,7 +1199,7 @@
    "group": "Web Hosting",
    "text": "Black Friday Deal: Up to 50% off Business Email",
    "code": "THEGAMESMAIL26",
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "cloudways",
@@ -1207,7 +1207,7 @@
    "group": "Web Hosting",
    "text": "Get 30% off for First 3 Months",
    "code": "SAVE303",
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "domaincom",
@@ -1215,7 +1215,7 @@
    "group": "Web Hosting",
    "text": "Shop $5 Domains + 1 month free of Google Workspace",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "kamatera",
@@ -1223,7 +1223,7 @@
    "group": "Web Hosting",
    "text": "Free Trial",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "brizy",
@@ -1231,7 +1231,7 @@
    "group": "Website & App Builders",
    "text": "14-day Free Trial",
    "code": null,
-   "seen": "2026-11-21"
+   "seen": "2026-11-22"
   },
   {
    "slug": "knack",
@@ -1239,7 +1239,7 @@
    "group": "Website & App Builders",
    "text": "Free Shipping on $50 Orders",
    "code": null,
-   "seen": "2026-11-21",
+   "seen": "2026-11-22",
    "where": "US only"
   }
  ]

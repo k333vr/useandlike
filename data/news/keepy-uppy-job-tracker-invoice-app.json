@@ -1,0 +1,28 @@
+{
+ "slug": "keepy-uppy-job-tracker-invoice-app",
+ "date": "2026-11-22",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "Business",
+ "tag": "New app",
+ "category": "Productivity",
+ "head": "Keepy Uppy Job Tracker: log jobs and send invoices if you're self-employed",
+ "dek": "Keepy Uppy Job Tracker is a new $2.99 iPhone app for self-employed people that logs a finished job in one tap and tracks who still owes you money. It was #15 among paid Business apps on the US App Store on 22 November.",
+ "details": "You save the services you offer with their prices, then tap one when a job is done; quantity, hours and discounts can be added. Each job moves from Open to To invoice, Invoiced and Paid, and PDF invoices go out by email or text. Yearly reports show income by month and service, unpaid balances and hours, with a CSV export for taxes. It needs no account, has no ads or tracking, keeps its data on the phone, needs iOS 17 and came out on 21 November from Joshua Daniel Hoover.",
+ "where": "iPhone and iPad, App Store, $2.99, no in-app purchases listed",
+ "means": "If you mow lawns, clean, paint or freelance, it keeps jobs, invoices and unpaid bills in one place for a one-time price.",
+ "todo": "It's version 1.0 with no ratings yet; check that your iPhone runs iOS 17 or later before you buy.",
+ "apps": [
+  "Keepy Uppy Job Tracker"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/keepy-uppy-job-tracker/id6837553119"
+  }
+ ],
+ "item": 153886,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "KEEPY UPPY: JOBS AND INVOICES"
+}

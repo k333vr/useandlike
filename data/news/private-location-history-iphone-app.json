@@ -1,0 +1,28 @@
+{
+ "slug": "private-location-history-iphone-app",
+ "date": "2026-11-22",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "Privacy",
+ "tag": "New app",
+ "category": "Travel",
+ "head": "Location history app for iPhone keeps your timeline in iCloud",
+ "dek": "Private Location History, a 99-cent iPhone app, records the places you visit and the trips between them as a daily timeline that stays on your device and your own iCloud, without an account. It was #58 in Travel among paid apps on the US App Store on 22 November.",
+ "details": "The timeline shows stops and journeys on a map, with search by date, place or trip, and weekly, monthly and yearly summaries. You can ask questions like when you were last at a place; the listing says no history goes to an outside AI service. You can set privacy areas, hide periods and export your history. It works on iPhone, iPad and Mac, has no ads, analytics or subscription, and is made by developer Anish Haris; it came out on 13 October.",
+ "where": "App Store, iPhone, iPad and Mac, $0.99",
+ "means": "If you want a timeline of where you've been, like Google Maps Timeline, but stored in your own iCloud, this one-time 99-cent app does that.",
+ "todo": "Look at the listing first, then decide which recording mode you want: the app offers Balanced, High Fidelity and a Pause button.",
+ "apps": [
+  "Private Location History"
+ ],
+ "item": 153873,
+ "thumb_words": "PRIVATE LOCATION TIMELINE FOR IPHONE",
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/private-location-history/id6795397540"
+  }
+ ]
+}

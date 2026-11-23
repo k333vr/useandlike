@@ -1,0 +1,146 @@
+{
+ "slug": "new-travel-apps-2026-11-23",
+ "date": "2026-11-23",
+ "added": "2026-11-23",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "10 new travel apps climbing the App Store this week",
+ "dek": "These travel apps came out in the last 60 days and rose into the US App Store's Travel charts this week, from a gas price finder and Connecticut's mobile ID to translators, cruise port guides and a plane radar.",
+ "where": "iPhone (some also iPad, Mac or Apple Watch), US App Store Travel charts (paid, plus Connecticut Mobile ID in free) this week",
+ "means": "If you're planning a road trip, a cruise or a trip abroad, these are the new travel apps people in the US are downloading right now, most for a one-time price under $10.",
+ "todo": "Read the App Store page first: Connecticut Mobile ID is a companion to your physical ID, which the state says to keep carrying, and RV Site Snag is only for Thousand Trails members and doesn't book sites itself.",
+ "apps": [
+  "GasSavvy",
+  "Connecticut Mobile ID",
+  "PS Speak: Voice Interpreter",
+  "RV Site Snag",
+  "Private Location History",
+  "Waypoints: Travel Log",
+  "Port Things: Cruise Port Guide",
+  "Planescope: Live Air Traffic",
+  "BADè Translator : Reader",
+  "Guide To Tromsø"
+ ],
+ "list": [
+  {
+   "name": "GasSavvy",
+   "what": "Ranks nearby gas stations by what a full tank costs you after discounts you already have, like Walmart+, Shell Fuel Rewards or AAA.",
+   "price": "$1.99",
+   "maker": "yared solomon",
+   "url": "https://apps.apple.com/us/app/gassavvy/id6833317883"
+  },
+  {
+   "name": "Connecticut Mobile ID",
+   "what": "Connecticut's official state mobile ID, a companion on your phone to your driver license or ID card.",
+   "price": "Free",
+   "maker": "IDEMIA Group",
+   "url": "https://apps.apple.com/us/app/connecticut-mobile-id/id6757445743"
+  },
+  {
+   "name": "PS Speak: Voice Interpreter",
+   "what": "Translates a conversation between two people out loud with split-screen captions, and turns talks or announcements into captions.",
+   "price": "$1.99",
+   "maker": "PYI SOE LTD",
+   "url": "https://apps.apple.com/us/app/ps-speak-voice-interpreter/id6834825938"
+  },
+  {
+   "name": "RV Site Snag",
+   "what": "For Thousand Trails members: works out the night a booking window opens for your membership level and park, and reminds you before it opens.",
+   "price": "$6.99",
+   "maker": "Wanderhaus Media LLC",
+   "url": "https://apps.apple.com/us/app/rv-site-snag/id6822555859"
+  },
+  {
+   "name": "Private Location History",
+   "what": "Keeps a private timeline of the places you visit, saved on your device and your own iCloud, with iPad and Mac apps to look through it.",
+   "price": "$0.99",
+   "maker": "Anish Haris",
+   "url": "https://apps.apple.com/us/app/private-location-history/id6795397540"
+  },
+  {
+   "name": "Waypoints: Travel Log",
+   "what": "Saves restaurants, hotels and sights you've found or want to try, sorted into trips with your photos, notes and a love, like or dislike mark.",
+   "price": "$2.99",
+   "maker": "Jonathan Hunter",
+   "url": "https://apps.apple.com/us/app/waypoints-travel-log/id6819680074"
+  },
+  {
+   "name": "Port Things: Cruise Port Guide",
+   "what": "Offline guides to cruise ports and places like Cozumel, Nassau and Iceland; the price includes five guides, more cost extra.",
+   "price": "$4.99, in-app purchases",
+   "maker": "Incmplte L.L.C.",
+   "url": "https://apps.apple.com/us/app/port-things-cruise-port-guide/id6817518505"
+  },
+  {
+   "name": "Planescope: Live Air Traffic",
+   "what": "Shows the planes flying around you on a live radar that turns with your phone, with each flight's airline, aircraft and route; the Mac app is included.",
+   "price": "$1.99",
+   "maker": "Grupo Minas",
+   "url": "https://apps.apple.com/us/app/planescope-live-air-traffic/id6819464608"
+  },
+  {
+   "name": "BADè Translator : Reader",
+   "what": "Point the camera at a menu, street sign or pharmacy label and see the translation placed on the photo, in more than 30 languages.",
+   "price": "$9.99",
+   "maker": "VALERY PITON",
+   "url": "https://apps.apple.com/us/app/bad%C3%A8-translator-reader/id6818886404"
+  },
+  {
+   "name": "Guide To Tromsø",
+   "what": "A northern lights guide for Tromsø in Norway from local aurora guides, with live aurora data, a cloud cover map and viewing spots.",
+   "price": "$0.49",
+   "maker": "REIDAR DARRE ARNESEN",
+   "url": "https://apps.apple.com/us/app/guide-to-troms%C3%B8/id6787402095"
+  }
+ ],
+ "thumb_words": "10 NEW TRAVEL APPS",
+ "sources": [
+  {
+   "name": "App Store chart",
+   "url": "https://apps.apple.com/us/iphone/charts/6003"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/gassavvy/id6833317883"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/connecticut-mobile-id/id6757445743"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/ps-speak-voice-interpreter/id6834825938"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/rv-site-snag/id6822555859"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/private-location-history/id6795397540"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/waypoints-travel-log/id6819680074"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/port-things-cruise-port-guide/id6817518505"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/planescope-live-air-traffic/id6819464608"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/bad%C3%A8-translator-reader/id6818886404"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/guide-to-troms%C3%B8/id6787402095"
+  }
+ ],
+ "idea": "newcomer",
+ "traction": 0,
+ "checked": "2026-11-23"
+}

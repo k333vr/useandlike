@@ -1,0 +1,24 @@
+{
+ "slug": "fitbit-air-notifications-cuff-app",
+ "date": "2026-11-22",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "Android",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Cuff app adds call and app alerts to the Fitbit Air on Android",
+ "dek": "The Fitbit Air can only buzz for silent alarms, and Cuff, an Android app made by a Reddit user, makes it vibrate for calls, chosen contacts and apps like Slack. It's a community project, not from Google, and installing it may set off a Play Protect warning.",
+ "apps": [
+  "Fitbit Air",
+  "Cuff"
+ ],
+ "sources": [
+  {
+   "name": "Android Police",
+   "url": "https://www.androidpolice.com/fitbit-air-lacks-notification-alerts-found-android-app-adds-them/"
+  }
+ ],
+ "item": 151744,
+ "idea": "newcomer",
+ "traction": 0
+}

@@ -1,0 +1,27 @@
+{
+ "slug": "quick-share-app-lan-cloud-transfer",
+ "date": "2026-11-21",
+ "topic": "Apps",
+ "head": "Quick Share app sends files between phones and computers",
+ "dek": "A new app called Quick Share (not Samsung's or Google's feature of the same name) sends files between Android, iPhone, Windows, Linux and the browser: free and unlimited on the same Wi-Fi, or through cloud links up to 1 GB free and 5 GB with Premium at $2.99 a month.",
+ "apps": [
+  "Quick Share"
+ ],
+ "item": 151025,
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "Quick Share",
+   "url": "https://quick-share.app/"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/quick-share"
+  }
+ ],
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "tag": "Quick",
+ "quick": true
+}

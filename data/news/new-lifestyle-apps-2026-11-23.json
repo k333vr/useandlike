@@ -1,0 +1,87 @@
+{
+ "slug": "new-lifestyle-apps-2026-11-23",
+ "date": "2026-11-23",
+ "added": "2026-11-23",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "5 new lifestyle apps climbing the App Store this week",
+ "dek": "These lifestyle apps came out in the last 60 days and rose into the US App Store's paid Lifestyle chart this week, from a pocket typewriter for letters to a Christmas countdown and a private journal.",
+ "details": "Post Club's holiday papers and greeting cards are included in the price. Open Chair Finder asks the next friend when someone can't make it and puts the game on your calendar. Santa's Christmas Countdown also has an Apple Watch app. Memoaday Pro adds more albums and iCloud sync as a monthly or yearly subscription.",
+ "where": "iPhone and iPad, US App Store paid Lifestyle chart this week",
+ "means": "If you want a small app for letters, game nights, the holidays or a daily photo, these are one-time purchases people in the US are buying right now; only Memoaday adds an optional subscription.",
+ "todo": "Open each App Store page to check the price and what it needs before you buy: Memoaday's Pro features are a monthly or yearly subscription, and Santa's Christmas Countdown is in English only.",
+ "apps": [
+  "Post Club: Pocket Typewriter",
+  "Open Chair Finder",
+  "Santa's Christmas Countdown",
+  "Memoaday: Quick Photo Calendar",
+  "Senti: Private Journal"
+ ],
+ "list": [
+  {
+   "name": "Post Club: Pocket Typewriter",
+   "what": "A typewriter on your phone for writing letters, cards and notes with key sounds, then saving or sharing them.",
+   "price": "$4.99",
+   "maker": "LARRY LE CHEN",
+   "url": "https://apps.apple.com/us/app/post-club-pocket-typewriter/id6820756745"
+  },
+  {
+   "name": "Open Chair Finder",
+   "what": "Asks your friends one by one, or all at once, to fill the missing spot in a game such as mahjong, bridge or pickleball.",
+   "price": "$2.99",
+   "maker": "Melissa Wolf",
+   "url": "https://apps.apple.com/us/app/open-chair-finder/id6833175434"
+  },
+  {
+   "name": "Santa's Christmas Countdown",
+   "what": "Counts down to Christmas Eve or Christmas Day over a painted North Pole village, with a Christmas tradition each day from 1 November to 6 January.",
+   "price": "$3.79",
+   "maker": "S.C. The CoffeePot S.r.l.",
+   "url": "https://apps.apple.com/us/app/santas-christmas-countdown/id6833008073"
+  },
+  {
+   "name": "Memoaday: Quick Photo Calendar",
+   "what": "A photo diary that puts one photo a day on a month calendar, for outfits, a growing child or a plant.",
+   "price": "$5.00, in-app purchases",
+   "maker": "Soaring Platypus LLC",
+   "url": "https://apps.apple.com/us/app/memoaday-quick-photo-calendar/id6834173353"
+  },
+  {
+   "name": "Senti: Private Journal",
+   "what": "A journal that stays on your phone: type, speak, draw or add photos, with no account and no subscription.",
+   "price": "$4.99",
+   "maker": "Marcellot Digital Marketing LLC",
+   "url": "https://apps.apple.com/us/app/senti-private-journal/id6825490942"
+  }
+ ],
+ "thumb_words": "5 NEW LIFESTYLE APPS",
+ "sources": [
+  {
+   "name": "App Store chart",
+   "url": "https://apps.apple.com/us/iphone/charts/6012"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/post-club-pocket-typewriter/id6820756745"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/open-chair-finder/id6833175434"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/santas-christmas-countdown/id6833008073"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/memoaday-quick-photo-calendar/id6834173353"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/senti-private-journal/id6825490942"
+  }
+ ],
+ "idea": "newcomer",
+ "traction": 0,
+ "checked": "2026-11-23"
+}

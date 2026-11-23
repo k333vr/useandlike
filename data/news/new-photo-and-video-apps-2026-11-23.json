@@ -1,0 +1,146 @@
+{
+ "slug": "new-photo-and-video-apps-2026-11-23",
+ "date": "2026-11-23",
+ "added": "2026-11-23",
+ "topic": "Apps",
+ "tag": "New app",
+ "head": "10 new photo and video apps climbing the App Store this week",
+ "dek": "These camera and editing apps came out in the last 60 days and rose into the US App Store's Photo & Video charts this week, from film-look cameras and a VHS camcorder to a teleprompter and a RAW editor.",
+ "where": "iPhone (some also iPad), US App Store Photo & Video charts (paid) this week",
+ "means": "If your iPhone photos all look the same, these are the new camera and editing apps people in the US are paying for right now, all with a one-time price.",
+ "todo": "Check the App Store page for your iPhone model first: Frame shoots 48 MP ProRAW only where the iPhone supports it, and AVANT CAMERA's Apple Log works on compatible devices.",
+ "apps": [
+  "Very Good Camera",
+  "VHS Camcorder: 90s Retro Cam",
+  "Monochrome Lab",
+  "DIITR - Dithering Camera",
+  "2Seconds Daily",
+  "TruePrompter: Teleprompter",
+  "Frame: Pro Camera",
+  "AVANT CAMERA",
+  "BurstReel",
+  "Recipe Lab Studio: RAW Editor"
+ ],
+ "list": [
+  {
+   "name": "Very Good Camera",
+   "what": "A camera app built on Very Good Co.'s film color grades: VG400, VG800 for low light and VGTX for black and white, with manual exposure and RAW files.",
+   "price": "$9.99",
+   "maker": "Gray Ribbon, Inc.",
+   "url": "https://apps.apple.com/us/app/very-good-camera/id6760676546"
+  },
+  {
+   "name": "VHS Camcorder: 90s Retro Cam",
+   "what": "Records video with the look of six old cameras, from a 1994 camcorder to Super 8 and night vision, with the look recorded into the file as you shoot.",
+   "price": "$4.99",
+   "maker": "Efuare Okougbo",
+   "url": "https://apps.apple.com/us/app/vhs-camcorder-90s-retro-cam/id6796873275"
+  },
+  {
+   "name": "Monochrome Lab",
+   "what": "A black-and-white camera and photo editor that previews the look live, shoots JPEG or RAW and edits without changing the original.",
+   "price": "$9.99",
+   "maker": "Tony Shepherd",
+   "url": "https://apps.apple.com/us/app/monochrome-lab/id6830954416"
+  },
+  {
+   "name": "DIITR - Dithering Camera",
+   "what": "A camera that turns photos and videos into dotted pixel patterns as you shoot, with 11 dithering styles and your own colors.",
+   "price": "$1.99",
+   "maker": "Dachan Jeong",
+   "url": "https://apps.apple.com/us/app/diitr-dithering-camera/id6823458563"
+  },
+  {
+   "name": "2Seconds Daily",
+   "what": "Makes a film of your life from one short clip per day and can fill in past days from your photo library.",
+   "price": "$12.99",
+   "maker": "Alex Kotliarsky",
+   "url": "https://apps.apple.com/us/app/2seconds-daily/id6800865418"
+  },
+  {
+   "name": "TruePrompter: Teleprompter",
+   "what": "A teleprompter for iPhone and iPad that floats over the Camera app and social apps and scrolls along with your voice.",
+   "price": "$9.99",
+   "maker": "MICHAEL ANTHONY BARTLETT",
+   "url": "https://apps.apple.com/us/app/trueprompter-teleprompter/id6828691448"
+  },
+  {
+   "name": "Frame: Pro Camera",
+   "what": "A camera that shoots RAW, 48 MP ProRAW where the iPhone supports it, with three film looks made by London photographer WAVO.",
+   "price": "$9.99",
+   "maker": "Christopher Slater",
+   "url": "https://apps.apple.com/us/app/frame-pro-camera/id6834287872"
+  },
+  {
+   "name": "AVANT CAMERA",
+   "what": "A video camera app that shows film-style color live while you record, with Apple Log on compatible iPhones.",
+   "price": "$9.99",
+   "maker": "Hayata Sato",
+   "url": "https://apps.apple.com/us/app/avant-camera/id6832453062"
+  },
+  {
+   "name": "BurstReel",
+   "what": "Turns a burst of photos into a short video at 1 to 60 photos per second, with loops and 1080p export.",
+   "price": "$4.99",
+   "maker": "Kazobe LLC",
+   "url": "https://apps.apple.com/us/app/burstreel/id6817106479"
+  },
+  {
+   "name": "Recipe Lab Studio: RAW Editor",
+   "what": "Develops RAW photos from your camera on your phone, brought in over Wi-Fi or from Photos, with film looks and grain; one payment, no subscription.",
+   "price": "$22.99",
+   "maker": "Imaginary Narrative, Lda",
+   "url": "https://apps.apple.com/us/app/recipe-lab-studio-raw-editor/id6824447459"
+  }
+ ],
+ "thumb_words": "10 NEW PHOTO AND VIDEO APPS",
+ "sources": [
+  {
+   "name": "App Store chart",
+   "url": "https://apps.apple.com/us/iphone/charts/6008"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/very-good-camera/id6760676546"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/vhs-camcorder-90s-retro-cam/id6796873275"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/monochrome-lab/id6830954416"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/diitr-dithering-camera/id6823458563"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/2seconds-daily/id6800865418"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/trueprompter-teleprompter/id6828691448"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/frame-pro-camera/id6834287872"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/avant-camera/id6832453062"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/burstreel/id6817106479"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/recipe-lab-studio-raw-editor/id6824447459"
+  }
+ ],
+ "idea": "newcomer",
+ "traction": 0,
+ "checked": "2026-11-23"
+}

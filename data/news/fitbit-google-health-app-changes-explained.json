@@ -1,0 +1,75 @@
+{
+ "slug": "fitbit-google-health-app-changes-explained",
+ "date": "2026-11-23",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "Health",
+ "tag": "Explainer",
+ "head": "Fitbit vs Google Health app: what changed for Fitbit users in 2026",
+ "dek": "In 2026 the Fitbit app became the Google Health app, Fitbit accounts gave way to Google accounts, and from 28 November third-party apps and clock faces can no longer be installed on Fitbit watches.",
+ "sections": [
+  {
+   "h": "Three changes in one year",
+   "p": [
+    "Fitbit owners have had a busy year. On 19 May the Fitbit app turned into the Google Health app, and on the same day Fitbit accounts stopped working: you now need a Google account. On 28 November the gallery closes to third-party apps and clock faces on Fitbit's smartwatches.",
+    "The Fitbit name stays on the hardware, such as the new Google Fitbit Air tracker, while the app and the subscription carry the Google Health name."
+   ]
+  },
+  {
+   "h": "The app: new name, new tabs, some features gone",
+   "p": [
+    "Google announced the Google Health app on 7 May, and it arrived as an update to the Fitbit app from 19 May, with your data moved over automatically. With a Fitbit or Pixel Watch connected, it has four tabs: Today, Fitness, Sleep and Health; without a device, only Today and Health.",
+    "Some features were removed, according to Google's help page: badges (past badges were deleted), Groups, the Community Feed and direct messages, Sleep Profile and monthly sleep animals, Snore Detection on the Sense and Versa 3, and minute-by-minute skin temperature data, among others. Some names changed too: the cardio fitness score is now VO2 max, worked out during runs with GPS, and Stress score is now Resilience.",
+    "Fitbit Premium is now Google Health Premium. It includes Google Health Coach, built with Gemini, which needs a Fitbit or Pixel Watch, an age of 18 or older, and is offered in 37 countries. Google says new or returning users can get a 3-month Premium trial after updating."
+   ]
+  },
+  {
+   "h": "Accounts: the deadline has passed",
+   "p": [
+    "Google moved the deadline for switching from a Fitbit account to a Google account several times; 9to5Google reported in January that it moved from 2 February to 19 May 2026. Since 19 May you can't sign in with a Fitbit account. People who didn't switch could download their data until 15 July, when Google said it would be deleted.",
+    "Google says it doesn't use Fitbit health and wellness data for Google Ads. Data from features that were removed in the app could also be downloaded or deleted until 15 July; Google's page says that data has since been deleted."
+   ]
+  },
+  {
+   "h": "Watches: third-party apps and clock faces end on 28 November",
+   "p": [
+    "From 28 November you can't install or update third-party apps and clock faces on the Fitbit Sense and Sense 2, Versa, Versa Lite, Versa 2, Versa 3 and Versa 4, and the recalled Ionic. Fitbit's and Google's own apps and clock faces stay in the gallery.",
+    "What's already on your watch keeps working. But if you delete a third-party app or clock face, or reset the watch to factory settings, you can't put it back. Google asks owners to update the app to version 5.12 so Fitbit's and Google's own apps keep working as expected."
+   ]
+  },
+  {
+   "h": "Apps you connected",
+   "p": [
+    "Google's page says some connections, such as Strava and Withings, may need to be set up again in the Google Health app, and LifeScan glucose meters no longer connect, though glucose readings can still be typed in by hand. Google Fit users will be invited to move their data to Google Health later this year, Google said in May."
+   ]
+  }
+ ],
+ "means": "If you wear a Fitbit, it keeps working with the Google Health app and a Google account, but some old features are gone and your watch's third-party apps and clock faces become frozen in place from 28 November: keep them installed and avoid a factory reset if you want to keep them.",
+ "todo": "Update the Google Health app to version 5.12 or later. Before 28 November, install any third-party clock face or app you still want on your Sense or Versa, and don't delete it or reset the watch afterwards. Check that Strava, Withings or other connected apps still sync, and connect them again if not.",
+ "where": "Google Health app on Android and iPhone since 19 May 2026; third-party app change on Fitbit Sense, Versa and Ionic watches from 28 November 2026",
+ "apps": [
+  "Google Health",
+  "Fitbit"
+ ],
+ "sources": [
+  {
+   "name": "Google Health Help (the new app)",
+   "url": "https://support.google.com/googlehealth/answer/17068213?hl=en"
+  },
+  {
+   "name": "Google Health Help (third-party apps)",
+   "url": "https://support.google.com/googlehealth/answer/14237121?hl=en"
+  },
+  {
+   "name": "Google",
+   "url": "https://blog.google/products-and-platforms/products/google-health/google-health-app/"
+  },
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/01/31/fitbit-google-account-may-2026-deadline/"
+  }
+ ],
+ "idea": "explainer",
+ "traction": 0,
+ "thumb_words": "FITBIT IS NOW GOOGLE HEALTH"
+}

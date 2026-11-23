@@ -1,0 +1,32 @@
+{
+ "slug": "discord-phoenix-rust-app-android-alpha",
+ "date": "2026-11-22",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "Apps",
+ "tag": "In testing",
+ "rumor": true,
+ "head": "Discord new app Phoenix spotted in Android alpha test",
+ "dek": "Discord's rebuilt app, code-named Phoenix and written in Rust, is already inside the Android alpha version next to the current app, Notebookcheck reports; it's limited to Discord staff for now, and Discord hasn't given a release date.",
+ "details": "Notebookcheck ran it on four phones and a tablet using a community patch that unlocks it for normal accounts, and found it smooth, using about 440 to 550 MB of memory. It also saw one freeze in a busy channel and, on two Xiaomi phones with HyperOS 3, the app drew twice as many frames as the screen shows, which wastes battery. Earlier in November, Discord's CTO Stanislav Vishnevskiy showed the new Android app opening in under a second on old phones, against about three seconds for today's app. The same Rust code is behind a new desktop app.",
+ "where": "Android alpha, Discord staff only; no release date",
+ "means": "If Discord feels slow on your phone, a faster app is being tested, but it isn't out for regular users yet.",
+ "todo": "Wait for the official update. Don't install patched Discord apps: Notebookcheck notes that running a modified client breaks Discord's terms and can put your account at risk.",
+ "apps": [
+  "Discord"
+ ],
+ "item": 153306,
+ "thumb_words": "DISCORD'S FASTER APP IN TESTING",
+ "idea": "news",
+ "traction": 23,
+ "sources": [
+  {
+   "name": "Notebookcheck",
+   "url": "https://www.notebookcheck.net/Discord-s-Rust-rewrite-Phoenix-is-already-in-its-Android-alpha-and-we-got-it-running-on-retail-phones.1456836.0.html"
+  },
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/06/discord-is-about-to-get-way-way-faster-on-your-android-phone/"
+  }
+ ]
+}

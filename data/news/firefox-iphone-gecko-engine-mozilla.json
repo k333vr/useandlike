@@ -1,0 +1,23 @@
+{
+ "slug": "firefox-iphone-gecko-engine-mozilla",
+ "date": "2026-11-23",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "Apple",
+ "tag": "Quick",
+ "head": "Firefox on iPhone keeps Apple's engine: Mozilla explains why",
+ "dek": "Mozilla says Apple's EU rules would make it ship its own Gecko engine as a separate app, so iPhone users would have to move bookmarks, passwords and history by hand; Firefox stays on WebKit for now.",
+ "quick": true,
+ "apps": [
+  "Firefox"
+ ],
+ "sources": [
+  {
+   "name": "PiunikaWeb",
+   "url": "https://piunikaweb.com/2026/11/23/mozilla-explains-why-firefox-cant-bring-gecko-engine-ios/"
+  }
+ ],
+ "item": 152889,
+ "idea": "news",
+ "traction": 0
+}

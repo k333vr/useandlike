@@ -1,0 +1,32 @@
+{
+ "slug": "amazfit-glucosex-cgm-watch-app",
+ "date": "2026-11-20",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "Health",
+ "tag": "New app",
+ "head": "Amazfit glucose monitor app GlucoseX shows Dexcom and Libre readings",
+ "dek": "GlucoseX, a free app in Amazfit's watch app store, puts readings from a Dexcom or Libre glucose sensor on 12 Amazfit watches, including the Bip 6, Balance 3 and T-Rex 3. The watch itself doesn't measure glucose.",
+ "details": "It reads the data through Dexcom Share or Follow, or LibreLinkUp. On the watch you see the current value, which way it's moving, recent history and how long ago the last reading came in, also during a workout next to heart rate and pace. The supported watches are the Active 3 Premium, Bip 6, Bip Max, Balance 2, Balance 3, Balance Ultra, Cheetah 2 Pro, Cheetah 2 Ultra, T-Rex 3, T-Rex 3 Pro, T-Rex Ultra 2 and T-Rex Dual Solar. Gadgets & Wearables says it appears to come from an outside developer with support from Zepp Health, Amazfit's parent company.",
+ "where": "12 Amazfit watches, free in the Amazfit app store",
+ "means": "If you wear a Dexcom or Libre sensor and own one of these Amazfit watches, you can check your glucose on your wrist during sport without pulling out your phone.",
+ "todo": "Turn on sharing in your Dexcom (Share or Follow) or Libre (LibreLinkUp) app, then get GlucoseX from the app store in the Zepp app. You still need the sensor on your body.",
+ "apps": [
+  "Amazfit",
+  "Zepp"
+ ],
+ "sources": [
+  {
+   "name": "Gadgets & Wearables",
+   "url": "https://gadgetsandwearables.com/?p=18602979"
+  },
+  {
+   "name": "Monitor Versorgungsforschung",
+   "url": "https://www.monitor-versorgungsforschung.de/?p=96807"
+  }
+ ],
+ "item": 150196,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "AMAZFIT WATCHES NOW SHOW GLUCOSE"
+}

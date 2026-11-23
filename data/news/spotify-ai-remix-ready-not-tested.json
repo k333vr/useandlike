@@ -1,0 +1,23 @@
+{
+ "slug": "spotify-ai-remix-ready-not-tested",
+ "date": "2026-11-22",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "Music",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Spotify's AI remix tool is ready but untested, with no launch date",
+ "dek": "Spotify's finance chief Christian Luiga said the tool for fan-made AI covers and remixes is ready but hasn't been tried by any users, because Spotify still needs consent from individual artists. He gave no launch window or price.",
+ "apps": [
+  "Spotify"
+ ],
+ "sources": [
+  {
+   "name": "AllHipHop",
+   "url": "https://allhiphop.com/news/spotify-ai-remixes-no-user-testing-artist-opt-in/"
+  }
+ ],
+ "item": 152085,
+ "idea": "news",
+ "traction": 0
+}

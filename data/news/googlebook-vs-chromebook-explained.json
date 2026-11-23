@@ -1,0 +1,78 @@
+{
+ "slug": "googlebook-vs-chromebook-explained",
+ "date": "2026-11-23",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "Google",
+ "tag": "Explainer",
+ "head": "Googlebook vs Chromebook: what Google's new laptops mean for you",
+ "dek": "Googlebooks are Android-based laptops from $899 that went on sale in October, while existing Chromebooks keep getting updates for their supported lifetime, with ChromeOS patches promised through mid-2034.",
+ "sections": [
+  {
+   "h": "What a Googlebook is",
+   "p": [
+    "Googlebook is Google's new kind of laptop, built on Android with desktop parts taken from ChromeOS. Google opened pre-orders on 21 September, starting at $899, and the first models went on sale on 4 October in the US and on 5 October in Canada, the UK, Ireland, France, Germany and Australia.",
+    "Acer, ASUS, Dell, HP and Lenovo make the first models. Google lists touchscreens up to 2.8K OLED, Intel and Qualcomm chips, backlit keyboards and up to 14 hours of battery life. They run desktop Chrome with extensions plus Android apps, such as Photoshop, Lightroom, CapCut, Netflix and HBO Max, with offline viewing."
+   ]
+  },
+  {
+   "h": "Built around your Android phone",
+   "p": [
+    "The main idea is that the laptop works with an Android phone. When you sign in, Google says your phone's settings, saved passwords, Wi-Fi networks and messages move over, protected by end-to-end encryption. Continue On picks up a task from the phone in the taskbar, you can open the phone's files and photos, and Cast My Apps shows a phone app in a window, for example to read a one-time code in Messages.",
+    "Gemini is built in too: Magic Pointer brings Gemini to what's on screen when you wiggle the cursor (Google says it acts only when asked and can be turned off), Rambler turns spoken notes into text, and Create My Widget makes a desktop widget from a description. Each Googlebook comes with 12 months of Google AI Pro with 5 TB of storage, 3 months of YouTube Premium and a year of GeForce NOW, and Google promises updates for up to 10 years."
+   ]
+  },
+  {
+   "h": "What happens to your Chromebook",
+   "p": [
+    "Nothing changes right away. Google's help page, updated on 23 September, says Chromebooks keep getting updates for their supported lifetime under Google's Auto Update policy, and ChromeOS gets regular updates and security patches through mid-2034. 9to5Google noted that 2034 was the year mentioned earlier in a court case as when Google would phase out ChromeOS.",
+    "Some Chromebooks can move to Googlebook OS later. Google says many newer commercial Chromebook models will be able to upgrade, and devices bought now with a 10-year support window that runs past 2034 get a path to Googlebook OS. It hasn't published which models or when. For older Chromebooks, Google has named no upgrade path."
+   ]
+  },
+  {
+   "h": "Schools and work laptops wait longer",
+   "p": [
+    "This year's Googlebooks are for personal use: they can't be enrolled in a school or company domain yet. Google says management tools for Googlebooks start rolling out in the second half of 2027, and Chromebooks stay available for schools and businesses in the meantime, with their existing upgrade licences still working."
+   ]
+  },
+  {
+   "h": "The first updates after launch",
+   "p": [
+    "Early owners reported display glitches, audio problems and lock screen issues. On 6 November Chrome Unboxed reported a Googlebook update with 31 fixes, among them keystrokes not registering after opening the lid, Netflix showing a black screen on external displays on HP and Dell models, Bluetooth earbud sound lagging behind video, and memory problems with many tabs open.",
+    "Chrome 157 for Googlebook followed, described by 9to5Google on 16 November: the collapsed vertical tab bar opens when you hover over it and can be dragged wider, and Save as now uses the system window, so you can rename a file and pick a folder or Google Drive."
+   ]
+  }
+ ],
+ "means": "If you have a Chromebook, it keeps working and getting updates until its own end date; a Googlebook is a new, pricier laptop, not an update you have to take. If you're shopping for a laptop and use an Android phone, Googlebooks start at $899, while Chromebooks stay on sale.",
+ "todo": "On a Chromebook, check its Auto Update end date before you decide to replace it. If you buy a Googlebook, install the latest system update, which fixes many launch problems. Schools and companies should wait for Google's Googlebook management tools, planned for the second half of 2027.",
+ "where": "Googlebooks on sale in the US, Canada, the UK, Ireland, France, Germany and Australia since 4-5 October; Chromebook updates continue worldwide",
+ "apps": [
+  "Googlebook",
+  "Chrome"
+ ],
+ "sources": [
+  {
+   "name": "Google",
+   "url": "https://blog.google/products-and-platforms/devices/googlebook/pre-order-googlebook/"
+  },
+  {
+   "name": "Google Chrome Enterprise Help",
+   "url": "https://support.google.com/chrome/a/answer/16634428"
+  },
+  {
+   "name": "9to5Google (Chromebook updates)",
+   "url": "https://9to5google.com/2026/09/28/google-details-chromebook-updates-through-2034-many-models-move-to-googlebook-os/"
+  },
+  {
+   "name": "Chrome Unboxed",
+   "url": "https://chromeunboxed.com/a-big-new-googlebook-os-update-is-here-and-it-wipes-out-over-30-launch-headaches/"
+  },
+  {
+   "name": "9to5Google (Chrome 157)",
+   "url": "https://9to5google.com/2026/11/16/chrome-157-googlebook/"
+  }
+ ],
+ "idea": "competitor",
+ "traction": 0,
+ "thumb_words": "GOOGLEBOOK VS CHROMEBOOK"
+}

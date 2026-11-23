@@ -1,0 +1,23 @@
+{
+ "slug": "iphone-duo-two-battery-health-values",
+ "date": "2026-11-21",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
+ "topic": "Apple",
+ "tag": "Quick",
+ "head": "iPhone Duo shows battery health for each of its two batteries",
+ "dek": "On Apple's foldable, Battery Health in Settings lists Battery 1 and Battery 2 separately, each with its own maximum capacity and cycle count, BGR reports; Battery 1 tends to show more cycles.",
+ "quick": true,
+ "apps": [
+  "iPhone Duo"
+ ],
+ "sources": [
+  {
+   "name": "BGR",
+   "url": "https://www.bgr.com/2320609/iphone-duo-two-battery-health-values-explained/"
+  }
+ ],
+ "item": 150944,
+ "idea": "news",
+ "traction": 0
+}
