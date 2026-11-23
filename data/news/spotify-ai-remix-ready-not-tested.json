@@ -4,20 +4,24 @@
  "added": "2026-11-23",
  "checked": "2026-11-23",
  "topic": "Music",
- "tag": "Quick",
- "quick": true,
- "head": "Spotify's AI remix tool is ready but untested, with no launch date",
- "dek": "Spotify's finance chief Christian Luiga said the tool for fan-made AI covers and remixes is ready but hasn't been tried by any users, because Spotify still needs consent from individual artists. He gave no launch window or price.",
+ "tag": "Update",
+ "head": "Spotify AI remix feature: ready, but no release date yet",
+ "dek": "Spotify's finance chief Christian Luiga said the tool that lets fans make AI covers and remixes is ready, but no users have tried it yet, because Spotify still needs consent from enough individual artists. He gave no launch window and no price.",
+ "details": "Luiga spoke at Morgan Stanley's technology and media conference in Barcelona. Spotify has deals with Universal Music Group (announced 21 May), Believe and TuneCore (20 October) and Kobalt; artists opt in to take part. Spotify says the tool will come as a paid add-on for Premium, each remix links back to the original song, and plays pay the artists and rights holders.",
+ "where": "Not out yet; planned as a paid add-on for Spotify Premium",
+ "means": "If you were waiting to make your own AI remix of a song on Spotify, there's still no date, and only songs from artists who agree will be in it.",
+ "todo": "Nothing to do yet. When it comes, expect it as an extra paid option on top of Premium.",
  "apps": [
   "Spotify"
  ],
+ "item": 152085,
+ "thumb_words": "SPOTIFY AI REMIXES: NO DATE YET",
+ "idea": "request",
+ "traction": 0,
  "sources": [
   {
    "name": "AllHipHop",
    "url": "https://allhiphop.com/news/spotify-ai-remixes-no-user-testing-artist-opt-in/"
   }
- ],
- "item": 152085,
- "idea": "news",
- "traction": 0
+ ]
 }

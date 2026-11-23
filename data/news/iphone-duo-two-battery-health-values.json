@@ -4,10 +4,9 @@
  "added": "2026-11-23",
  "checked": "2026-11-23",
  "topic": "Apple",
- "tag": "Quick",
- "head": "iPhone Duo shows battery health for each of its two batteries",
- "dek": "On Apple's foldable, Battery Health in Settings lists Battery 1 and Battery 2 separately, each with its own maximum capacity and cycle count, BGR reports; Battery 1 tends to show more cycles.",
- "quick": true,
+ "tag": "Update",
+ "head": "iPhone Duo battery health: two batteries, two separate readings",
+ "dek": "Apple's foldable iPhone Duo shows each of its two batteries on its own in Settings, with a separate maximum capacity and cycle count, BGR reports. In a picture shared by Engadget, Battery 1 shows more charge cycles than Battery 2.",
  "apps": [
   "iPhone Duo"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 150944,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "The phone uses two smaller cells, one in each half: 2,962 and 1,921 mAh, 4,883 mAh together, according to teardowns. Apple says iOS manages them as one unit but hasn't explained how it shares the load. The batteries should keep at least 80% of their capacity through 1,000 full cycles. Apple lists battery service at $229 but hasn't said whether that covers both.",
+ "where": "iPhone Duo owners, Settings > Battery > Battery Health",
+ "means": "If you own an iPhone Duo, two different numbers in Battery Health are expected and don't mean one battery is failing.",
+ "todo": "Check Settings > Battery > Battery Health to see both batteries. To save power, use the outer screen where you can: Apple rates video playback at up to 44 hours there and 31 hours on the inner screen. With AppleCare+, Apple replaces the battery free when capacity falls below 80%.",
+ "thumb_words": "IPHONE DUO: TWO BATTERY HEALTH NUMBERS"
 }

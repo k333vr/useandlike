@@ -4,10 +4,9 @@
  "added": "2026-11-23",
  "checked": "2026-11-23",
  "topic": "AI",
- "tag": "Quick",
- "head": "GPT-6.2 models give shorter answers but admit doubt less, test finds",
- "dek": "In Artificial Analysis' personality test, GPT-6.2 Astra's answers were 40% shorter than its predecessor's and Sol's 34% shorter, but both scored much lower on admitting uncertainty, The Decoder reports. The scores describe answer style, not whether answers are correct.",
- "quick": true,
+ "tag": "Update",
+ "head": "GPT-6.2 Astra and Sol: shorter answers, admit doubt less in test",
+ "dek": "In Artificial Analysis' personality test, OpenAI's GPT-6.2 Astra gave answers 40% shorter than GPT-6 Astra and GPT-6.2 Sol 34% shorter than GPT-6.1 Sol, but both scored much lower on admitting uncertainty, The Decoder reports. The scores describe answer style, not whether answers are correct.",
  "apps": [
   "ChatGPT"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 151670,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "Astra's average answer fell from 352 to 210 words and Sol's from 337 to 223, with far fewer headings. On admitting uncertainty, Astra dropped from 96 to 24 and Sol from 98 to 51; the scores are rankings among the tested models, not percentages. Both now answer first and sound more natural in the test. Anthropic's Claude models scored higher on transparency; the test used 900 English questions judged by three AI models.",
+ "where": "OpenAI's GPT-6.2 Astra and Sol models; benchmark by Artificial Analysis",
+ "means": "If you use these models, expect tighter answers with less structure, and fewer lines that say the AI isn't sure.",
+ "todo": "For important questions, ask the AI how sure it is and check the facts in a second source.",
+ "thumb_words": "GPT-6.2: SHORTER ANSWERS, LESS DOUBT"
 }

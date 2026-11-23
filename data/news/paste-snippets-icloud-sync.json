@@ -1,23 +1,27 @@
 {
  "slug": "paste-snippets-icloud-sync",
  "date": "2026-11-22",
+ "added": "2026-11-23",
+ "checked": "2026-11-23",
  "topic": "Apple",
- "head": "Paste Snippets keyboard app adds iCloud sync for iPhone and Mac",
- "dek": "Paste Snippets, iDownloadBlog's own keyboard app for saved text, can now sync your snippets across iPhone, iPad and Mac through iCloud, encrypted; turn on Sync with iCloud in its settings on each device after updating.",
+ "tag": "Update",
+ "head": "Paste Snippets iCloud sync: saved text on iPhone, iPad and Mac",
+ "dek": "Paste Snippets, a keyboard app from iDownloadBlog that puts your saved bits of text under the keyboard, now keeps those snippets the same on iPhone, iPad and Mac through iCloud. Apple encrypts them in your iCloud.",
+ "details": "New, edited and deleted snippets show up on every device signed in to the same Apple Account, usually within a minute; if two devices change at once, the newest change wins. People with different Apple Accounts can still export snippets as a file and import them. The update also lets you hide the automatic All and Top categories and adds full-width buttons and light keyboard haptics.",
+ "where": "iPhone, iPad and Mac, latest version from the App Store",
+ "means": "If you keep addresses, replies or codes in Paste Snippets, you no longer have to copy them to each device yourself.",
+ "todo": "Update the app on every device, tap the settings icon in the top-left corner and turn on Sync with iCloud on each one, signed in to the same Apple Account.",
  "apps": [
   "Paste Snippets"
  ],
  "item": 152555,
- "idea": "news",
+ "thumb_words": "PASTE SNIPPETS ADDS ICLOUD SYNC",
+ "idea": "request",
  "traction": 0,
  "sources": [
   {
    "name": "iDownloadBlog",
    "url": "https://www.idownloadblog.com/2026/11/22/paste-snippets-icloud-sync/"
   }
- ],
- "added": "2026-11-23",
- "checked": "2026-11-23",
- "tag": "Quick",
- "quick": true
+ ]
 }

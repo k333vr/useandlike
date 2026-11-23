@@ -4,10 +4,9 @@
  "added": "2026-11-23",
  "checked": "2026-11-23",
  "topic": "Android",
- "tag": "Quick",
- "quick": true,
- "head": "Cuff app adds call and app alerts to the Fitbit Air on Android",
- "dek": "The Fitbit Air can only buzz for silent alarms, and Cuff, an Android app made by a Reddit user, makes it vibrate for calls, chosen contacts and apps like Slack. It's a community project, not from Google, and installing it may set off a Play Protect warning.",
+ "tag": "New app",
+ "head": "Fitbit Air notifications: Cuff app makes the band buzz for calls",
+ "dek": "The Fitbit Air has a vibration motor, but Google only uses it for silent alarms. Cuff, an Android app built by a Reddit user, connects to the band over Bluetooth and makes it vibrate for calls, chosen contacts and apps like Slack and Telegram.",
  "apps": [
   "Fitbit Air",
   "Cuff"
@@ -19,6 +18,11 @@
   }
  ],
  "item": 151744,
- "idea": "newcomer",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "You pick which apps and contacts get through and set a vibration pattern and strength for each, so a message from family can feel different from a work chat. The band still doesn't show or read the notification; it only buzzes. Cuff also has a health section that tracks sleep debt over the week and can save meals you eat often. It's a community project, not from Google, and Android Police says installing it may set off a Google Play Protect warning.",
+ "where": "Android phones with a Fitbit Air; installed from outside Google Play",
+ "means": "If you missed calls because your Fitbit Air stayed silent, Cuff can fix that, but it's an unofficial app from one person, not from Google.",
+ "todo": "Only install it if you're fine with a sideloaded app and the Play Protect warning. Keep the list of apps short, or the band will buzz all day.",
+ "thumb_words": "FITBIT AIR GETS CALL ALERTS"
 }

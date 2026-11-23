@@ -2,12 +2,11 @@
  "slug": "galaxy-studio-headphones-india-certification",
  "date": "2026-11-21",
  "added": "2026-11-22",
- "checked": "2026-11-22",
+ "checked": "2026-11-23",
  "topic": "Samsung",
- "tag": "Quick",
- "head": "Samsung Galaxy Studio headphones pass India's BIS certification",
- "dek": "Samsung's unannounced over-ear headphones, model SM-U700 and reportedly called Galaxy Studio, got India's BIS approval on 20 November, after FCC and Korean approvals. Samsung hasn't confirmed them or a launch date.",
- "quick": true,
+ "tag": "Leak",
+ "head": "Samsung Galaxy Studio headphones leak: India approval, features in code",
+ "dek": "Samsung's unannounced over-ear headphones, model SM-U700 and believed to be called Galaxy Studio, got India's BIS approval on 20 November, after FCC, Korean and TUV approvals, TalkAndroid reports. Samsung hasn't confirmed them, a name or a launch date.",
  "rumor": true,
  "apps": [
   "Samsung Galaxy"
@@ -19,6 +18,11 @@
   }
  ],
  "item": 149076,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "Code in the One UI 9.5 beta, found by SammyGuru, points to noise cancelling, an ambient mode, 360 Audio with head tracking, an 870 mAh battery, wired listening over USB-C and 3.5 mm, wear detection, multipoint, Auracast and Find support. Samsung filed a US trademark for \"Galaxy Studio\" in September. Reports point to a January 2027 Unpacked next to the Galaxy S27, which is unconfirmed. No price has leaked.",
+ "where": "Not announced; certified in India, the US and South Korea",
+ "means": "If you want Samsung over-ear headphones to go with a Galaxy phone, a launch may be close, but nothing is official yet.",
+ "todo": "Nothing to do yet. Wait for Samsung's announcement and price before you buy other headphones just for this.",
+ "thumb_words": "SAMSUNG GALAXY STUDIO HEADPHONES?"
 }

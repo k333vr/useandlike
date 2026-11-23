@@ -4,10 +4,9 @@
  "added": "2026-11-23",
  "checked": "2026-11-23",
  "topic": "Design",
- "tag": "Quick",
- "head": "Aurora – Wallpaper Studio lets you make your own abstract wallpapers",
- "dek": "The $14.99 app draws abstract wallpapers on your device from 16 styles, each with a light and a dark version, with one purchase for iPhone, iPad and Mac and no subscription. It was #33 among paid Graphics & Design apps on the US App Store on 22 November.",
- "quick": true,
+ "tag": "New app",
+ "head": "Aurora wallpaper app makes your own abstract wallpapers on iPhone and Mac",
+ "dek": "Aurora – Wallpaper Studio draws abstract wallpapers on your own device from 16 styles, each in a light and a dark version, for $14.99 once across iPhone, iPad and Mac. It was #33 among paid Graphics & Design apps on the US App Store on 22 November.",
  "apps": [
   "Aurora – Wallpaper Studio"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 153866,
- "idea": "newcomer",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "You start from a style such as Folds, Peaks, Rings or Ranges, then change the shape, colors and mood, or press Surprise Me. On the Mac it sets the desktop picture in one click, follows light and dark mode and can change the wallpaper every hour or every day from the menu bar. On iPhone and iPad you save both versions to Photos, or let Shortcuts set a new Lock Screen each morning. Made by Wells Code Ltd, it needs no account, collects no data according to its listing, syncs collections through iCloud and includes Family Sharing; version 1.2 on 20 November added a sidebar you can arrange.",
+ "where": "iPhone, iPad and Mac (version 26 or later), App Store, $14.99 one-time purchase",
+ "means": "If you're tired of the same stock wallpapers, this app makes new ones that fit your screen, with no subscription.",
+ "todo": "Check that your devices run version 26 or later before you buy. On iPhone, set up the Shortcuts automation if you want a new Lock Screen every morning.",
+ "thumb_words": "AURORA: MAKE YOUR OWN WALLPAPERS"
 }

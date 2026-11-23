@@ -4,20 +4,24 @@
  "added": "2026-11-23",
  "checked": "2026-11-23",
  "topic": "Health",
- "tag": "Quick",
- "quick": true,
- "head": "Second Wind: breathwork app for athletes that reads sleep and HRV",
- "dek": "Second Wind, out since 18 November, builds breathing sessions from your sleep, training, HRV and resting heart rate in Apple Health, and was #51 in Health & Fitness paid on the US App Store on 22 November. It costs 2.99 dollars once, with no account or subscription.",
+ "tag": "New app",
+ "head": "Breathwork app for athletes: Second Wind adapts to your sleep and HRV",
+ "dek": "Second Wind is a new iPhone app, out since 18 November, with guided breathing for athletes that adapts each session to last night's sleep, the day's training and your HRV and resting heart rate against your own baseline. It costs 2.99 dollars once, with no subscription or account.",
+ "details": "It's made for winding down after hard training, settling the night before a big event and calming nerves before a race. The maker, Willie Morris, says the breathing patterns come from published research. On the foldable iPhone Duo it can stand folded as a dim bedside pacer. It has no ads or tracking, health data stays on the phone, it doesn't write to Apple Health, and it calls itself a practice tool, not a medical device.",
+ "where": "iPhone and iPad (iOS 17 or later), App Store, English",
+ "means": "If you train hard and want breathing sessions that change with how recovered you are, this is a one-off purchase instead of another subscription.",
+ "todo": "Find Second Wind: Breathwork on the App Store; it costs 2.99 dollars, and Family Sharing covers up to six people.",
  "apps": [
   "Second Wind: Breathwork"
  ],
+ "item": 153870,
+ "thumb_words": "SECOND WIND: BREATHWORK FOR ATHLETES",
+ "idea": "request",
+ "traction": 0,
  "sources": [
   {
    "name": "App Store",
    "url": "https://apps.apple.com/us/app/second-wind-breathwork/id6822914533"
   }
- ],
- "item": 153870,
- "idea": "newcomer",
- "traction": 0
+ ]
 }

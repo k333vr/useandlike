@@ -2,13 +2,13 @@
  "slug": "quick-share-app-lan-cloud-transfer",
  "date": "2026-11-21",
  "topic": "Apps",
- "head": "Quick Share app sends files between phones and computers",
- "dek": "A new app called Quick Share (not Samsung's or Google's feature of the same name) sends files between Android, iPhone, Windows, Linux and the browser: free and unlimited on the same Wi-Fi, or through cloud links up to 1 GB free and 5 GB with Premium at $2.99 a month.",
+ "head": "Quick Share app sends files between iPhone, Android and Windows",
+ "dek": "A new app called Quick Share, not Samsung's or Google's feature of the same name, moves files between Android, iPhone, Windows, Linux and a web browser: free and unlimited on the same Wi-Fi, or as cloud links of up to 1 GB free and 5 GB with Premium at $2.99 a month.",
  "apps": [
   "Quick Share"
  ],
  "item": 151025,
- "idea": "newcomer",
+ "idea": "request",
  "traction": 0,
  "sources": [
   {
@@ -22,6 +22,10 @@
  ],
  "added": "2026-11-23",
  "checked": "2026-11-23",
- "tag": "Quick",
- "quick": true
+ "tag": "New app",
+ "details": "On the same Wi-Fi or network, devices find each other and send files directly without a server or an internet connection, to several devices at once, and stopped transfers pick up again. Cloud Transfer makes a link anyone can open, with an optional password; free links show ads, and Premium removes them and keeps links longer. The site says it uses end-to-end encryption and needs no account for local transfers. BetaList names Jump Dong as the maker and featured the app on 21 November.",
+ "where": "Android (Google Play), iPhone (App Store), Windows (Microsoft Store), Linux (Snap Store) and the web",
+ "means": "If you often move photos or files between an iPhone and a Windows PC or an Android phone, this is one app for all of them, free when both are on the same Wi-Fi.",
+ "todo": "Install it on both devices from their app store, or open the web version, and keep both on the same Wi-Fi for free transfers; use a password on cloud links you share.",
+ "thumb_words": "QUICK SHARE APP: IPHONE TO WINDOWS"
 }

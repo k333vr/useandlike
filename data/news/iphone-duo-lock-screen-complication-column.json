@@ -4,11 +4,10 @@
  "added": "2026-11-23",
  "checked": "2026-11-23",
  "topic": "Apple",
- "tag": "Quick",
- "quick": true,
+ "tag": "Leak",
  "rumor": true,
- "head": "Leak: Apple tested a column of Lock Screen widgets for iPhone Duo",
- "dek": "According to a leak shared by pdfu, iOS 27.1 holds a hidden \"complication column\" of two round widgets on the right edge of the iPhone Duo's Lock Screen. It's switched off and Apple hasn't said whether it will ship.",
+ "head": "iPhone Duo Lock Screen widgets: Apple tested an extra column, leak says",
+ "dek": "According to the leaker pdfu, iOS 27.1 contains a hidden \"Complication Column\" that puts two round widgets, one above the other, on the right edge of the iPhone Duo's Lock Screen. It's switched off, and Apple hasn't said whether it will ship.",
  "apps": [
   "iPhone Duo",
   "iOS"
@@ -20,6 +19,11 @@
   }
  ],
  "item": 152432,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "The column sits above the flashlight and camera buttons, below the network status icons, and pdfu says it can work together with the existing widget row at the bottom. It's controlled by an internal setting and was first found in iOS 27.1. No later code changes have been spotted, so it's unclear whether Apple is still working on it, MacRumors reports.",
+ "where": "iPhone Duo; hidden in iOS 27.1, not switched on",
+ "means": "If you own an iPhone Duo, you may one day get two more Lock Screen widgets, but nothing changes on your phone now.",
+ "todo": "Nothing to do; the column can't be turned on in normal iOS settings.",
+ "thumb_words": "IPHONE DUO: MORE LOCK SCREEN WIDGETS?"
 }

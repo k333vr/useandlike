@@ -4,20 +4,24 @@
  "added": "2026-11-23",
  "checked": "2026-11-23",
  "topic": "Apple",
- "tag": "Quick",
- "head": "Firefox on iPhone keeps Apple's engine: Mozilla explains why",
- "dek": "Mozilla says Apple's EU rules would make it ship its own Gecko engine as a separate app, so iPhone users would have to move bookmarks, passwords and history by hand; Firefox stays on WebKit for now.",
- "quick": true,
+ "tag": "Update",
+ "head": "Firefox iOS Gecko engine: why Firefox on iPhone still uses WebKit",
+ "dek": "Mozilla says Apple's EU rules would make it ship Firefox with its own Gecko engine as a separate new app instead of an update, so iPhone users would have to move bookmarks, passwords and history by hand. For now Firefox on iPhone stays on Apple's WebKit.",
+ "details": "Under the EU's Digital Markets Act, users there have been able to choose their default browser since 2024, and Apple allows other browser engines in the EU under several conditions. Mozilla says Firefox use on iOS has grown, especially in the EU, with daily use doubling. It will keep pushing for conditions that let independent engines reach iPhone users rather than build a separate app. In September it had explained why it won't make an EU-only Gecko version.",
+ "where": "Firefox on iPhone and iPad; the engine rules apply in the EU",
+ "means": "If you use Firefox on iPhone, nothing changes: it keeps working as it does, on the same engine as Safari.",
+ "todo": "Nothing to do. If you want your Firefox data safe for any future app switch, set up Firefox Sync in the app's settings.",
  "apps": [
   "Firefox"
  ],
+ "item": 152889,
+ "thumb_words": "FIREFOX ON IPHONE KEEPS WEBKIT",
+ "idea": "request",
+ "traction": 0,
  "sources": [
   {
    "name": "PiunikaWeb",
    "url": "https://piunikaweb.com/2026/11/23/mozilla-explains-why-firefox-cant-bring-gecko-engine-ios/"
   }
- ],
- "item": 152889,
- "idea": "news",
- "traction": 0
+ ]
 }

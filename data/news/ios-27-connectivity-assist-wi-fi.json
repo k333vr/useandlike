@@ -4,20 +4,24 @@
  "added": "2026-11-23",
  "checked": "2026-11-23",
  "topic": "Apple",
- "tag": "Quick",
- "head": "iOS 27's Connectivity Assist switches to cellular when Wi-Fi is weak",
- "dek": "iOS 27 has a Connectivity Assist switch under Settings, Wi-Fi that uses cellular data when Wi-Fi is slow or unusable; it can be turned off per network and isn't used while roaming abroad or in Low Data Mode.",
- "quick": true,
+ "tag": "New feature",
+ "head": "iOS 27 Connectivity Assist: iPhone uses cellular when Wi-Fi is weak",
+ "dek": "iOS 27 has a switch called Connectivity Assist that lets your iPhone use cellular data when the Wi-Fi it's connected to is slow or unusable. You find it in Settings, Wi-Fi.",
+ "details": "Apple's support page names places like the backyard, the driveway, coffee shops, airports and sports venues, where Wi-Fi is often there but too weak. It isn't used while the iPhone is roaming abroad, in cellular Low Data Mode, or with some third-party apps that stream audio and video. You can turn it off for one network to always stay on that Wi-Fi. With it on, the phone may use more cellular data.",
+ "where": "iPhones on iOS 27",
+ "means": "If pages stall when you're at the edge of your Wi-Fi, the phone can now fall back to mobile data by itself. On a small data plan, that can eat into your allowance.",
+ "todo": "Open Settings, tap Wi-Fi and scroll down to Connectivity Assist to switch it on or off; turn it off for a single network if you always want to stay on that Wi-Fi. Keep an eye on your data use in Settings or your carrier's app.",
  "apps": [
   "iPhone"
  ],
+ "item": 152966,
+ "thumb_words": "IPHONE SWITCHES OFF WEAK WI-FI",
+ "idea": "request",
+ "traction": 0,
  "sources": [
   {
    "name": "9to5Mac",
    "url": "https://9to5mac.com/2026/11/22/ios-27-has-a-clever-fix-for-unreliable-wi-fi-connections/"
   }
- ],
- "item": 152966,
- "idea": "news",
- "traction": 0
+ ]
 }

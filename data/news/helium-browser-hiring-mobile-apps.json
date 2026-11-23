@@ -2,22 +2,30 @@
  "slug": "helium-browser-hiring-mobile-apps",
  "date": "2026-11-20",
  "added": "2026-11-22",
- "checked": "2026-11-22",
- "tag": "Quick",
- "quick": true,
+ "checked": "2026-11-23",
+ "tag": "Update",
  "topic": "Privacy",
- "head": "Helium browser plans Android and iPhone apps again",
- "dek": "The developer of Helium, a privacy-focused browser for Windows, Mac and Linux, is hiring two engineers to build native Android and iOS apps. An earlier iPhone version was dropped in September; there's no release date.",
+ "head": "Helium browser for Android and iOS: developer hiring app engineers",
+ "dek": "The developer of Helium, a free, open-source browser for Windows, Mac and Linux that blocks ads and trackers, is hiring two engineers to build native Android and iOS apps. An earlier iPhone version was dropped in September, and there's no release date.",
  "apps": [
   "Helium"
  ],
  "sources": [
+  {
+   "name": "Helium",
+   "url": "https://helium.computer/"
+  },
   {
    "name": "PiunikaWeb",
    "url": "https://piunikaweb.com/2026/11/20/helium-browser-hiring-android-ios-developers/"
   }
  ],
  "item": 141377,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "Helium is based on Chromium and is still in beta on desktop. Its developer, known as wukko, announced the jobs on X. He teased an iPhone app in August, then scrapped it a month later, calling it a cheaper-feeling Safari with an ad blocker. On desktop, Helium blocks ads, trackers and cookie banners by default, but has no built-in password manager or sync yet.",
+ "where": "Desktop now (Windows, Mac, Linux, beta); phone apps planned, no date",
+ "means": "If you use Helium on your computer and want it on your phone, it's planned again, but there's nothing to download yet.",
+ "todo": "Nothing to do yet. Keep your current phone browser and watch for an announcement from the developer.",
+ "thumb_words": "HELIUM BROWSER COMING TO PHONES"
 }

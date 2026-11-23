@@ -4,10 +4,9 @@
  "added": "2026-11-23",
  "checked": "2026-11-23",
  "topic": "Music",
- "tag": "Quick",
+ "tag": "New app",
  "head": "KAE KING Studio turns a 30-second phone vocal into a full song",
- "dek": "The new service lets you hum a melody, pick a genre and mood, add or generate lyrics and share the track for free; releasing it on Spotify, Boomplay or YouTube means buying the master.",
- "quick": true,
+ "dek": "KAE KING Studio is a new service that takes a short melody you sing or hum into your phone and builds a finished track and music video from it. Making and sharing a song is free; releasing it on Spotify, Boomplay or YouTube means buying the master.",
  "apps": [
   "KAE KING Studio"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 147719,
- "idea": "newcomer",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "The steps: record a 30-second melody, choose a genre and a mood, write lyrics or let the service generate them, then create and share. The listing gives no prices for the master. The makers also offer a residency at a licensed studio in Zanzibar with booth recording and 4K video shoots. It was featured on BetaList on 21 November.",
+ "where": "Online, out now; free to create and share, paid master for release",
+ "means": "If you have a tune in your head but no instruments or studio, you can hear a full version of it without paying anything.",
+ "todo": "Try a song for free first. Check the price of the master before you plan a release on Spotify or YouTube.",
+ "thumb_words": "HUM A TUNE, GET A FULL SONG"
 }

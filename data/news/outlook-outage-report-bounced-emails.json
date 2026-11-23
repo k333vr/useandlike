@@ -4,10 +4,9 @@
  "added": "2026-11-23",
  "checked": "2026-11-23",
  "topic": "Email",
- "tag": "Quick",
- "head": "Outlook outage report: some emails to unused inboxes bounced",
- "dek": "Microsoft's final report on the 12 November outage says delayed emails to personal Outlook inboxes unused for more than 30 days expired and senders got a non-delivery notice; work and school emails were all delivered.",
- "quick": true,
+ "tag": "Heads-up",
+ "head": "Outlook outage report: emails to inactive inboxes bounced",
+ "dek": "Microsoft's final report on the 12 November Microsoft 365 outage says delayed emails to personal Outlook inboxes that hadn't been used for more than 30 days expired, and their senders got a non-delivery notice. Work and school emails were all delivered in the end.",
  "apps": [
   "Outlook"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 151205,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "The outage cut access to Outlook and other Microsoft 365 services for about 12 hours. The report also says Defender's automatic removal of malicious emails ran slower than usual, and some users of Safe Links may have seen a \"Skip verification\" option. Microsoft didn't say how many emails were affected. It sent its first notice about 20 minutes after the outage began and plans better automatic outage notices by the end of 2026.",
+ "where": "Personal Outlook accounts unused for 30+ days; outage on 12 November",
+ "means": "If you emailed someone's personal Outlook address on 12 November and got a bounce notice, that message never arrived.",
+ "todo": "Look for non-delivery notices from 12 November in your inbox and send those emails again. Be careful with links in emails you got that day.",
+ "thumb_words": "OUTLOOK OUTAGE: SOME EMAILS BOUNCED"
 }

@@ -2,13 +2,13 @@
  "slug": "noticed-communication-skills-app",
  "date": "2026-11-22",
  "topic": "Education",
- "head": "Noticed app helps you practice small talk and speaking",
- "dek": "Noticed, a free iPhone and iPad app, teaches communication with lessons, quizzes, video small-talk scenarios and a speech analyzer that gives feedback on how you sound. It was #87 in Education among free apps on the US App Store on 22 November.",
+ "head": "Noticed app: practice small talk and communication skills on iPhone",
+ "dek": "Noticed is a free iPhone and iPad app that teaches communication skills with lessons, quizzes, small-talk video scenarios and a speech analyzer that tells you how you sound. It was #87 among free Education apps on the US App Store on 22 November.",
  "apps": [
   "Noticed"
  ],
  "item": 153882,
- "idea": "newcomer",
+ "idea": "request",
  "traction": 0,
  "sources": [
   {
@@ -18,6 +18,10 @@
  ],
  "added": "2026-11-23",
  "checked": "2026-11-23",
- "tag": "Quick",
- "quick": true
+ "tag": "New app",
+ "details": "The app came out on 22 October and follows a set learning path of reading and video lessons, flashcards, quizzes and practice exercises. In the Small Talk Game you watch a short conversation on video and answer questions about how to respond. The Speech Analyzer listens while you speak out loud and gives feedback on clarity and articulation. It's made by Deep Flow Software Services and had a 4.7-star average from 165 ratings when we checked.",
+ "where": "iPhone and iPad (iOS 15 or later), App Store, free to download",
+ "means": "If you freeze up in small talk or want to speak more clearly at work, this is a way to practice on your phone before the real conversation.",
+ "todo": "Download it from the App Store and start with the Speech Analyzer to hear how you come across; read the listing's terms before you sign up for anything paid.",
+ "thumb_words": "NOTICED: PRACTICE SMALL TALK"
 }

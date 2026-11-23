@@ -4,10 +4,9 @@
  "added": "2026-11-23",
  "checked": "2026-11-23",
  "topic": "Apple",
- "tag": "Quick",
- "head": "Apple's AI agent may not arrive before late 2027, Gurman says",
- "dek": "Bloomberg's Mark Gurman doesn't expect Apple's agent that would use apps and the web for you before the end of 2027; Apple hasn't announced it. Siri's multistep control of Apple's own apps is still expected in December.",
- "quick": true,
+ "tag": "Rumor",
+ "head": "Apple AI agent may not come before late 2027, Gurman says",
+ "dek": "Bloomberg's Mark Gurman doesn't expect Apple's AI agent, which would click and type its way through apps and websites for you, before the end of 2027 at the earliest. Apple hasn't announced the agent.",
  "rumor": true,
  "apps": [
   "Siri"
@@ -16,9 +15,18 @@
   {
    "name": "Digital Trends",
    "url": "https://www.digitaltrends.com/computing/apple-ai-agent-delayed-2027/"
+  },
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/19/apple-ai-agent-development/"
   }
  ],
  "item": 152259,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "Apple job listings spotted by Bloomberg describe a general-purpose computer-use agent that browses the web, works across apps, runs commands, writes code and hands steps to sub-agents, built with the Siri, UI frameworks and Apple Foundation Models teams. The listings say safety, privacy and security must be central to the design. Siri's multistep control of Apple's own apps is expected in December, and support for other companies' apps next year, according to Digital Trends. ChatGPT, Claude and Gemini already offer computer-use agents.",
+ "where": "Not announced; reported for late 2027 at the earliest",
+ "means": "If you were waiting for Siri to do whole tasks in any app for you, it may take another year or more; the smaller step for Apple's own apps is expected first.",
+ "todo": "Nothing to do yet. Watch for Siri's multistep control of Apple's apps in December's update.",
+ "thumb_words": "APPLE AI AGENT NOT UNTIL 2027?"
 }

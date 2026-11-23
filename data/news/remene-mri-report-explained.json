@@ -2,13 +2,13 @@
  "slug": "remene-mri-report-explained",
  "date": "2026-11-20",
  "topic": "Health",
- "head": "Remene explains your MRI images and report in plain words",
- "dek": "Remene is a new website that opens the files of an MRI study from a CD, USB stick or download in your browser, explains what each part shows and translates the radiology report; viewing is free, the rest is paid, with a refund within 7 days. Its optional AI second opinion isn't reviewed by a doctor and doesn't replace a visit.",
+ "head": "MRI report explained: Remene puts your scan and report in plain words",
+ "dek": "Remene is a new website that opens the folder of an MRI study from a CD, USB stick or archive, explains what each part of the images shows and translates the radiology report into plain language. Viewing the images is free; the rest is paid, with a full refund within 7 days if it doesn't help.",
  "apps": [
   "Remene"
  ],
  "item": 146727,
- "idea": "newcomer",
+ "idea": "request",
  "traction": 0,
  "sources": [
   {
@@ -22,6 +22,10 @@
  ],
  "added": "2026-11-23",
  "checked": "2026-11-23",
- "tag": "Quick",
- "quick": true
+ "tag": "New app",
+ "details": "Each body structure gets one of three labels: typical appearance, worth asking your doctor, or cannot be assessed on these images. The original report text stays unchanged, a question assistant answers from your study, and a 15-20 page PDF helps you prepare for your appointment. Remene says names and personal details are removed before the AI analysis and the uploaded archive is deleted after processing. Its optional AI second opinion is not reviewed by a doctor and does not replace a consultation; the site gives no prices.",
+ "where": "Website in a computer or phone browser; English, French, Spanish, Italian, Hungarian and Romanian",
+ "means": "If you got your MRI on a disc and a report full of medical terms, Remene can help you understand the words and prepare questions before you see your doctor. It doesn't replace that visit.",
+ "todo": "Start with the free viewer. Take your questions and the PDF to your doctor, and check anything that differs from your report with them.",
+ "thumb_words": "MRI REPORT IN PLAIN WORDS"
 }

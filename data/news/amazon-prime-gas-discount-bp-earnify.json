@@ -4,21 +4,25 @@
  "added": "2026-11-23",
  "checked": "2026-11-23",
  "topic": "Shopping",
- "tag": "Quick",
- "quick": true,
- "head": "Amazon Prime gas discount: 20 cents a gallon on Fridays at BP until January",
- "dek": "Prime members who link an earnify account get 10 cents off a gallon at BP, Amoco and participating ampm and Thorntons stations in the US, and 20 cents on Fridays (one fill-up, up to 35 gallons) until 29 January. You switch it on once on Amazon's Fuel page or under Partner Offers in the Amazon app.",
+ "tag": "Offer",
+ "head": "Amazon Prime gas discount Fridays: 20 cents off at BP until 29 January",
+ "dek": "Amazon Prime members who link an earnify account get 10 cents off a gallon every day at BP, Amoco and participating ampm and Thorntons stations in the US, and 20 cents off on Fridays until 29 January. The Friday price counts for one fill-up of up to 35 gallons.",
+ "details": "Without Prime, earnify members get 5 cents off a gallon. The offer covers more than 7,500 stations across the US. The Friday deal, called Fuel Up Fridays, has run since 2 October; earlier rounds ran from 17 October to 26 December 2025 and from 3 April to 29 May. BP's earnify app and the Amazon partnership both started in 2024.",
+ "where": "US, Amazon Prime members with an earnify account, until 29 January",
+ "means": "If you have Prime and fill up at BP or Amoco, a Friday tank of 35 gallons saves you up to 7 dollars, and every other day half that rate.",
+ "todo": "Switch it on once: on Amazon's Fuel page in a browser, or in the Amazon app under Partner Offers in the Prime section, and link your earnify account. Then fill up on a Friday for the 20 cents.",
  "apps": [
   "Amazon",
   "earnify"
  ],
+ "item": 152842,
+ "thumb_words": "PRIME: 20 CENTS OFF GAS ON FRIDAYS",
+ "idea": "request",
+ "traction": 0,
  "sources": [
   {
    "name": "Jalopnik via AOL",
    "url": "https://www.aol.com/articles/amazon-prime-members-additional-gas-182500000.html"
   }
- ],
- "item": 152842,
- "idea": "news",
- "traction": 0
+ ]
 }
