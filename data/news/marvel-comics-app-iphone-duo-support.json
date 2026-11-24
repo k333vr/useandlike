@@ -1,0 +1,23 @@
+{
+ "slug": "marvel-comics-app-iphone-duo-support",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Entertainment",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Marvel Comics app now fits the iPhone Duo and allows screenshots",
+ "dek": "The new Marvel Comics app, which replaced Marvel Unlimited on 16 November, adjusted its margins for the foldable iPhone Duo and dropped its block on screenshots and screen recording on all devices; landscape reading is planned.",
+ "apps": [
+  "Marvel Comics"
+ ],
+ "item": 159118,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "Good e-Reader",
+   "url": "https://goodereader.com/blog/digital-comic-news/new-marvel-app-has-iphone-duo-support"
+  }
+ ]
+}

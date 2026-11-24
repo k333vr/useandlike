@@ -1,0 +1,23 @@
+{
+ "slug": "handbill-flyer-distribution-tracker-app",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Business",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Handbill app tracks which streets you covered with flyers",
+ "dek": "Handbill ($1.99, iPhone and iPad) colours the streets you walk while handing out flyers or canvassing and makes a PDF coverage report, with no account. It was #36 among paid Business apps on the US App Store on 23 November.",
+ "apps": [
+  "Handbill: Flyer Distribution"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/handbill-flyer-distribution/id6820955409"
+  }
+ ],
+ "item": 160360,
+ "idea": "newcomer",
+ "traction": 0
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "plainapp-android-files-pc-browser",
+ "date": "2026-11-22",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Android",
+ "tag": "Quick",
+ "quick": true,
+ "head": "PlainApp lets you manage Android phone files from a PC browser",
+ "dek": "Engadget points to PlainApp, a free, open-source Android app (Android 9 or later) that lets a computer on the same Wi-Fi open your photos, videos, music and contacts in any browser, with no account and no software on the PC. Screen mirroring is included, but Engadget couldn't get remote control to work.",
+ "apps": [
+  "PlainApp"
+ ],
+ "sources": [
+  {
+   "name": "Engadget",
+   "url": "https://www.engadget.com/2319544/free-app-connects-android-phone-windows-pc-wirelessly-plainapp/"
+  }
+ ],
+ "item": 153003,
+ "idea": "news",
+ "traction": 66
+}

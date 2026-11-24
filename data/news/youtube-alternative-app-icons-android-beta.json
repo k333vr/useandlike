@@ -1,0 +1,24 @@
+{
+ "slug": "youtube-alternative-app-icons-android-beta",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Video",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "YouTube is testing seven alternative app icons on Android",
+ "dek": "A teardown of YouTube beta 21.47.483 for Android found an \"App icon\" option under General settings with seven icons, among them a version of the original logo and a retro TV shape. Google hasn't announced it, and it's not clear whether it will need Premium.",
+ "apps": [
+  "YouTube"
+ ],
+ "sources": [
+  {
+   "name": "The Mobile Indian",
+   "url": "https://themobileindian.com/news/youtube-app-icon-customisation-with-7-new-options-could-be-coming"
+  }
+ ],
+ "item": 155044,
+ "idea": "news",
+ "traction": 23
+}

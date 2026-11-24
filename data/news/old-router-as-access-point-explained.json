@@ -1,0 +1,73 @@
+{
+ "slug": "old-router-as-access-point-explained",
+ "date": "2026-11-24",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Internet",
+ "tag": "Explainer",
+ "head": "Use old router as access point: how it works and what you lose",
+ "dek": "An old router can add Wi-Fi to a weak room as an access point, connected to your main router by cable, while the main router keeps running the network; set up as a second full router, it can break gaming, port forwarding and printer sharing.",
+ "sections": [
+  {
+   "h": "Why two routers can get in each other's way",
+   "p": [
+    "A router does two jobs: it sends out Wi-Fi, and it runs your home network, handing every device an address and sharing one internet connection. If you plug an old router into your main one and leave it in its normal router mode, it builds a second private network behind the first. Engadget explained the problem on 6 September 2026: this is called double NAT.",
+    "For browsing and streaming, double NAT makes little difference. It can break things that need a connection to reach one particular device: online gaming, port forwarding and UPnP. Devices can also end up on two different networks, so a laptop on the main router may not find a printer on the old one."
+   ]
+  },
+  {
+   "h": "Access point mode: more Wi-Fi, one network",
+   "p": [
+    "In access point mode, the old router only sends out Wi-Fi. Your main router keeps handing out addresses and runs the firewall, so everything stays on one network. Engadget names this, along with mesh Wi-Fi, as the cleaner fix for weak coverage, and points out that a room with an Ethernet socket but poor Wi-Fi is where an old router in this mode helps most.",
+    "You give up some features on the old router. TP-Link's help page, updated on 17 April 2026, lists parental controls, QoS, bandwidth control, NAT forwarding, IPv6 and VPN as unavailable in access point mode; those stay with the main router. Its guest network is no longer kept apart from the main network, so guests on it can reach your other devices. Night mode for the lights, Wi-Fi schedules, automatic restarts and USB sharing still work."
+   ]
+  },
+  {
+   "h": "How the setup usually goes",
+   "p": [
+    "Many routers have a setting called operation mode, where you pick access point. TP-Link says models without it can still work as an access point once you turn off the DHCP server, the part that hands out addresses. Menus differ by brand and model, so the router's own manual has the exact steps.",
+    "Which? describes the manual way: reset the old router, connect it to a computer with a network cable, log in to its settings page in a browser, turn off DHCP, and give it a fixed address in the same range as the main router but not the same one (for example 192.168.1.2 when the main router is 192.168.1.1). Then use the same Wi-Fi name and password as your main network, so phones can move between the two, and connect the old router to the main one with a network cable. Which? suggests a powerline adapter when a cable isn't practical, and says the method works on most routers from the past five to 10 years."
+   ]
+  },
+  {
+   "h": "If your internet box is a router too",
+   "p": [
+    "Many internet providers give you one box that is modem, router and Wi-Fi in one. Plugging your own router into it in router mode causes double NAT as well. Engadget lists two ways out: put the provider's box in bridge mode, so your own router runs the network, or leave the box in charge and put your own router in access point mode. Bridge mode works differently from provider to provider and can switch off other features of the box, so Engadget says to read the provider's instructions first.",
+    "If your Wi-Fi reaches everywhere and you only need more wired ports, Engadget points to a simple Ethernet switch instead, which adds sockets without adding a second network."
+   ]
+  },
+  {
+   "h": "Why not a Wi-Fi extender",
+   "p": [
+    "An extender repeats the signal it receives without a cable. In an article on 29 September 2026, Engadget explained that basic single-band extenders receive and send on the same band, which can cut speed by up to half, and that an extender can only pass on the signal strength it gets, so the usual advice is to place it about halfway between the router and the weak spot. Mesh systems share one network name and move devices to the nearest unit; tri-band mesh uses a separate band to link its units, and a cable between units is a common way to get more speed. An old router in access point mode with a cable avoids the wireless hop altogether."
+   ]
+  }
+ ],
+ "means": "If one room has weak Wi-Fi but a network socket or a cable run, a spare router you already own may cover it without buying an extender, as long as it's set up as an access point and not as a second router.",
+ "todo": "Check whether the old router has an access point or operation mode setting in its manual. Connect it to the main router with a network cable, use the same Wi-Fi name and password, and keep parental controls and guest Wi-Fi on the main router, because they don't work the same in access point mode.",
+ "where": "Any home network; menu names differ by router brand",
+ "apps": [
+  "TP-Link"
+ ],
+ "sources": [
+  {
+   "name": "TP-Link",
+   "url": "https://www.tp-link.com/support/faq/2420/"
+  },
+  {
+   "name": "Engadget",
+   "url": "https://engadget.com/2246469/two-routers-probably-dont-need-do-this-instead/"
+  },
+  {
+   "name": "Engadget",
+   "url": "https://engadget.com/2270517/why-wifi-extenders-not-worth-buying"
+  },
+  {
+   "name": "Which?",
+   "url": "https://www.which.co.uk/news/article/extend-your-wi-fi-for-free-how-to-turn-an-old-router-into-an-access-point-abFJI9x7t3zI"
+  }
+ ],
+ "idea": "competitor",
+ "traction": 0,
+ "thumb_words": "OLD ROUTER AS A WI-FI ACCESS POINT"
+}

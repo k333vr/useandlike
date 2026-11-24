@@ -1,0 +1,23 @@
+{
+ "slug": "typefully-20-media-x-posts",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Social",
+ "tag": "Quick",
+ "head": "Typefully now fits up to 20 photos and videos in one X post",
+ "dek": "The post scheduler raised its limit for X posts from four to 20 photos, videos and GIFs, and teams can now schedule quotes before the original post goes out on X, LinkedIn, Threads, Bluesky, Mastodon and Substack.",
+ "quick": true,
+ "apps": [
+  "Typefully"
+ ],
+ "sources": [
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/typefully-brings-20-media-x-posts-and-scheduled-quotes/"
+  }
+ ],
+ "item": 156850,
+ "idea": "newcomer",
+ "traction": 0
+}

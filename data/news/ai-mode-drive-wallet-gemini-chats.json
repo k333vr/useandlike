@@ -1,0 +1,26 @@
+{
+ "slug": "ai-mode-drive-wallet-gemini-chats",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Google",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Google's AI Mode can now use your Drive files and Wallet cards",
+ "dek": "Personal Intelligence in Google's AI Mode can now draw on your Docs, Sheets and PDFs in Drive and read (not move) data from cards linked in Google Wallet; linking your Gemini app chats is optional and starts working in the coming weeks. You can manage it at myactivity.google.com.",
+ "apps": [
+  "Google Search",
+  "Google Drive",
+  "Google Wallet",
+  "Gemini"
+ ],
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/23/ai-mode-wallet-gemini/"
+  }
+ ],
+ "item": 157885,
+ "idea": "news",
+ "traction": 18
+}

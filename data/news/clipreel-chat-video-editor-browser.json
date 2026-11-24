@@ -1,0 +1,27 @@
+{
+ "slug": "clipreel-chat-video-editor-browser",
+ "date": "2026-11-23",
+ "topic": "Video",
+ "head": "ClipReel edits videos in your browser when you describe the change",
+ "dek": "ClipReel is a new browser video editor where you type an edit, such as a trim, captions or a vertical crop, preview it and then add it to the timeline. You can try it without an account; saving projects online needs one, and the site lists no prices on its home page.",
+ "apps": [
+  "ClipReel"
+ ],
+ "sources": [
+  {
+   "name": "ClipReel",
+   "url": "https://www.clipreel.com/"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/clipreel"
+  }
+ ],
+ "item": 155494,
+ "idea": "newcomer",
+ "traction": 0,
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "tag": "Quick",
+ "quick": true
+}

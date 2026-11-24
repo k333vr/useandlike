@@ -1,0 +1,32 @@
+{
+ "slug": "whatsapp-web-shared-computer-log-out-warning",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "WhatsApp Web: India warns to log out on shared computers",
+ "dek": "India's Indian Cyber Crime Coordination Centre (I4C) says WhatsApp Web sessions left open on office, cyber café or other shared computers are being used to take over accounts and commit fraud. Closing the browser window doesn't end the session, so the advisory asks users to log out by hand every time.",
+ "details": "The warning came on 23 November from the National Cybercrime Threat Analytics Unit, part of I4C under India's Ministry of Home Affairs. It names office computers, cyber cafés, public kiosks and hotel business centres. It also advises against sending sensitive, work or confidential information through WhatsApp Web on devices other people can use.",
+ "where": "Advisory from India, 23 November; the steps apply to WhatsApp Web everywhere",
+ "means": "If you ever opened WhatsApp Web on a computer you don't own, your chats may still be open there for the next person.",
+ "todo": "On your phone, open WhatsApp Settings, tap Linked devices, tap any computer you don't recognise or no longer use, then tap Log out. On a shared computer, log out inside WhatsApp Web before you leave instead of just closing the window.",
+ "apps": [
+  "WhatsApp"
+ ],
+ "sources": [
+  {
+   "name": "Sentinel Assam",
+   "url": "https://www.sentinelassam.com/north-east-india-news/assam-news/whatsapp-web-security-advisory-mha-warns-users-against-active-sessions-on-shared-computers"
+  },
+  {
+   "name": "WhatsApp Help Center",
+   "url": "https://faq.whatsapp.com/378279804439436"
+  }
+ ],
+ "item": 155629,
+ "idea": "news",
+ "traction": 40,
+ "rank": 1,
+ "thumb_words": "WHATSAPP WEB: LOG OUT ON SHARED PCS"
+}

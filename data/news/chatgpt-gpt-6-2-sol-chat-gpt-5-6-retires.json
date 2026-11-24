@@ -1,0 +1,27 @@
+{
+ "slug": "chatgpt-gpt-6-2-sol-chat-gpt-5-6-retires",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "AI",
+ "tag": "Update",
+ "head": "ChatGPT new model: GPT-6.2 Sol in Chat, GPT-5.6 Sol retires 23 December",
+ "dek": "OpenAI is adding GPT-6.2 Sol to the Chat tab in ChatGPT from 23 November for Plus, Pro, Business and Enterprise users, less than a week after it arrived in Work and Codex. The older GPT-5.6 Sol leaves Chat, Work and Codex on 23 December.",
+ "details": "OpenAI says this version of Sol is tuned for everyday conversation. It's meant to pick out details in photos more reliably, such as the symbols on a parking sign, and to follow instructions more closely when it searches the web; OpenAI's example is weighing a shorter walk against a lower nightly rate when comparing hotels, and it can offer to alert you when something you're shopping for drops in price. GPT-5.6 Terra also leaves ChatGPT Work and Codex on 23 December. The source doesn't mention the free plan.",
+ "where": "ChatGPT Plus, Pro, Business and Enterprise, Chat tab, from 23 November 2026",
+ "means": "If you pay for ChatGPT, GPT-6.2 Sol is now in the Chat tab, and chats that rely on GPT-5.6 Sol have one month left on that model.",
+ "todo": "Pick GPT-6.2 Sol in the model menu and try it on your usual questions before 23 December, so the switch doesn't surprise you.",
+ "apps": [
+  "ChatGPT"
+ ],
+ "item": 159105,
+ "idea": "news",
+ "traction": 18,
+ "thumb_words": "CHATGPT: GPT-5.6 SOL RETIRES DEC 23",
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/23/chatgpt-expands-gpt-6-2-sol-as-openai-sets-retirement-date-for-two-models/"
+  }
+ ]
+}

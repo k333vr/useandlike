@@ -1,0 +1,24 @@
+{
+ "slug": "obsidian-grok-bot-vault-notes",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "AI",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Grok Bot can now create and search notes in Obsidian vaults",
+ "dek": "Grok Bot can connect to an Obsidian vault to create, search and manage notes, update links, save content from the web and make Bases and Canvas files; changes sync to your devices through Obsidian Sync.",
+ "apps": [
+  "Obsidian",
+  "Grok"
+ ],
+ "sources": [
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/grok-bot-connects-to-obsidian-vaults-to-manage-notes-and-files/"
+  }
+ ],
+ "item": 156851,
+ "idea": "newcomer",
+ "traction": 0
+}

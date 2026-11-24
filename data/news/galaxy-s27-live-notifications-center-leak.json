@@ -1,0 +1,27 @@
+{
+ "slug": "galaxy-s27-live-notifications-center-leak",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Samsung",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "Galaxy S27 may move Live Notifications to the center, like Dynamic Island",
+ "dek": "Changes spotted by SamMobile in One UI 9.5 suggest the Now Bar's Live Notifications, such as timers and directions, would move from the top-left corner to around the centered selfie camera, with left and right swipes between them, Tech Advisor reports. Samsung hasn't confirmed it.",
+ "apps": [
+  "One UI"
+ ],
+ "sources": [
+  {
+   "name": "Tech Advisor",
+   "url": "https://www.techadvisor.com/article/3293566/samsung-galaxy-s27-now-bar-could-copy-iphone-dynamic-island.html"
+  }
+ ],
+ "item": 155546,
+ "items": [
+  153351
+ ],
+ "idea": "news",
+ "traction": 23
+}

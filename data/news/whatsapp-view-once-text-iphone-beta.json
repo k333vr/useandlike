@@ -1,0 +1,28 @@
+{
+ "slug": "whatsapp-view-once-text-iphone-beta",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Messaging",
+ "tag": "In testing",
+ "rumor": true,
+ "head": "WhatsApp view once text messages reach iPhone beta testers",
+ "dek": "Some iPhone users in WhatsApp's TestFlight beta can now send a text that the other person can read only once, with screenshots, copying and forwarding blocked. WABetaInfo found it in beta 26.45.10.73 and says more accounts get it over the coming weeks; WhatsApp hasn't announced a date for everyone.",
+ "details": "To send one, type the message, press and hold the send button and pick the view-once option. The recipient taps the bubble to open it; once closed, the text is gone and both sides only see that it was opened. Unlike disappearing messages, which go after a set time, these go as soon as they're read. The feature has already reached Android beta testers.",
+ "where": "WhatsApp beta for iPhone (TestFlight), some testers now; Android beta already",
+ "means": "If you share a code, an address or anything private by text, you'll be able to send it so it can't be saved or passed on.",
+ "todo": "Nothing to do yet unless you're in the beta: look for a notice above the chat bar, then hold the send button.",
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 154452,
+ "thumb_words": "WHATSAPP VIEW-ONCE TEXTS ON IPHONE",
+ "idea": "news",
+ "traction": 40,
+ "sources": [
+  {
+   "name": "WABetaInfo",
+   "url": "https://wabetainfo.com/whatsapp-introduces-view-once-text-messages-on-ios/"
+  }
+ ]
+}

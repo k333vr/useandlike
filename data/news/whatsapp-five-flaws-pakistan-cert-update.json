@@ -1,0 +1,24 @@
+{
+ "slug": "whatsapp-five-flaws-pakistan-cert-update",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Security",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Pakistan's National CERT urges WhatsApp updates over five flaws",
+ "dek": "Pakistan's National CERT says five WhatsApp flaws, fixed in updates from May and November, could expose IP addresses or run disguised files on Android, iPhone, Mac and Windows; most need you to open a crafted message or file. Update WhatsApp and WhatsApp Business from the official store and avoid modified versions.",
+ "apps": [
+  "WhatsApp",
+  "WhatsApp Business"
+ ],
+ "sources": [
+  {
+   "name": "ARY News",
+   "url": "https://arynews.tv/national-cert-urges-immediate-whatsapp-updates-over-five-security-vulnerabilities"
+  }
+ ],
+ "item": 155706,
+ "idea": "news",
+ "traction": 0
+}

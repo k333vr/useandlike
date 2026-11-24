@@ -1,0 +1,23 @@
+{
+ "slug": "one-ui-9-5-quick-panel-search",
+ "date": "2026-11-23",
+ "topic": "Samsung",
+ "head": "One UI 9.5 beta adds search when you edit the Quick Panel",
+ "dek": "In the One UI 9.5 beta for the Galaxy S26 series, you can search for a button by app or feature name while editing the Quick Panel instead of scrolling the whole list. Samsung didn't mention it in its notes; the stable update is expected with the Galaxy S27 in early 2027.",
+ "apps": [
+  "One UI"
+ ],
+ "sources": [
+  {
+   "name": "Android Headlines",
+   "url": "https://www.androidheadlines.com/2026/11/one-ui-9-5-has-a-hidden-quick-panel-upgrade-that-samsung-forgot-to-tell-us-about.html"
+  }
+ ],
+ "item": 156866,
+ "idea": "news",
+ "traction": 0,
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "tag": "Quick",
+ "quick": true
+}

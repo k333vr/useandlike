@@ -1,0 +1,27 @@
+{
+ "slug": "claude-android-app-redesign-bottom-bar",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "AI",
+ "tag": "Update",
+ "head": "Claude Android app redesign moves menus to a bottom bar",
+ "dek": "Anthropic is rolling out a new version of its Claude app for Android with a bottom navigation bar and Material 3 Expressive design touches. The side menu stays, but it's now mainly for your chat history.",
+ "details": "Anthropic product manager Robert Bye confirmed the rollout on X, 9to5Google reports. Material 3 elements show up in the model switcher and the chat background, while the colors keep Anthropic's own look instead of following your wallpaper. 9to5Google saw one rough edge: the back gesture moves the search bar instead of previewing the previous screen. No new features were listed with the redesign.",
+ "where": "Android, rolling out now",
+ "means": "If you use Claude on an Android phone, the buttons you're used to may sit in new places, mostly at the bottom of the screen. Your chats are still in the side menu.",
+ "todo": "Update Claude from the Google Play Store. If you don't see the new look yet, it may not have reached your phone; the rollout is gradual.",
+ "apps": [
+  "Claude"
+ ],
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/23/claude-android-material-3-update/"
+  }
+ ],
+ "item": 159114,
+ "idea": "news",
+ "traction": 58,
+ "thumb_words": "CLAUDE ANDROID APP GETS A NEW LOOK"
+}

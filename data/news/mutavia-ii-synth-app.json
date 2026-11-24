@@ -1,0 +1,23 @@
+{
+ "slug": "mutavia-ii-synth-app",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Music",
+ "tag": "Quick",
+ "quick": true,
+ "head": "MUTAVIA II synth app out on iPhone and iPad at a launch price",
+ "dek": "MUTAVIA II, a patchable synthesizer with two mutation lanes, a sequencer and 32 patch sockets, costs 7.99 dollars until 6 December, then more; it works on its own or as an AUv3 instrument.",
+ "apps": [
+  "MUTAVIA II"
+ ],
+ "item": 160351,
+ "idea": "newcomer",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/mutavia-ii/id6811014336"
+  }
+ ]
+}

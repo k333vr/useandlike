@@ -1,0 +1,27 @@
+{
+ "slug": "uber-recorded-rides-four-cities-pilot",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Travel",
+ "tag": "New feature",
+ "head": "Uber recording rides: Recorded Rides pilot films the whole trip in 4 US cities",
+ "dek": "Uber is testing Recorded Rides, trips where the driver's phone films the whole drive with its front camera. The US pilot runs in Baltimore, Raleigh, Indianapolis and St. Louis.",
+ "details": "The rides come from drivers who have switched on Uber's Record My Ride feature, and they show up as \"Recorded Rides\" in the app. Riders can say no to the recording through a notification in the app, and drivers can turn recording off in their settings. Uber says more places will follow later and is also testing recorded rides for late-night trips and for trips with teens. TechCrunch's report doesn't say who can watch the videos or how long they're kept.",
+ "where": "US pilot: Baltimore, Raleigh, Indianapolis and St. Louis",
+ "means": "If you ride Uber in one of the four cities, your next trip may be filmed from the driver's phone, which can help settle a dispute but also means you're on camera.",
+ "todo": "Watch for the Recorded Rides label and the in-app notification when you book in these cities; decline it there if you don't want the trip filmed.",
+ "apps": [
+  "Uber"
+ ],
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/23/uber-now-lets-you-book-rides-that-record-the-drive-by-default/"
+  }
+ ],
+ "item": 156886,
+ "idea": "news",
+ "traction": 18,
+ "thumb_words": "UBER TESTS FILMED RIDES"
+}

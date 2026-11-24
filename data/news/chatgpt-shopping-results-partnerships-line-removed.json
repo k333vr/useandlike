@@ -1,0 +1,27 @@
+{
+ "slug": "chatgpt-shopping-results-partnerships-line-removed",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Shopping",
+ "tag": "Quick",
+ "quick": true,
+ "head": "ChatGPT shopping help page drops 'not influenced by partnerships' line",
+ "dek": "OpenAI's help page for shopping in ChatGPT no longer says product results aren't influenced by OpenAI partnerships; it now only says they aren't ads, Search Engine Roundtable reports. OpenAI hasn't said whether partnerships now play a part.",
+ "apps": [
+  "ChatGPT"
+ ],
+ "sources": [
+  {
+   "name": "OpenAI Help Center",
+   "url": "https://help.openai.com/en/articles/11128490"
+  },
+  {
+   "name": "Search Engine Roundtable",
+   "url": "https://www.seroundtable.com/chatgpt-product-results-may-be-influenced-by-openai-partnerships-42588.html"
+  }
+ ],
+ "item": 156562,
+ "idea": "news",
+ "traction": 18
+}

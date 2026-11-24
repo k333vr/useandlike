@@ -1,0 +1,27 @@
+{
+ "slug": "getyourvibeon-apple-music-hue-app",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Smart home",
+ "tag": "New app",
+ "head": "GetYourVibeOn syncs Apple Music playlists with Philips Hue scenes",
+ "dek": "GetYourVibeOn saves an Apple Music playlist and a lighting scene from Apple Home or Philips Hue together as one \"Vibe\" that starts with a single tap, for $3.99 on iPhone and iPad. It was #55 among paid Lifestyle apps on the US App Store on 23 November, two days after it came out.",
+ "details": "You can start a Vibe with Siri or from a Home Screen widget, pick the speaker or headphones each time, and add an Apple Shortcut to it. Playing music from Apple Music's catalog needs an Apple Music subscription, and direct Hue scenes need a Philips Hue Bridge on your Wi-Fi. Made by FuriousDee Media Solutions LLC, it needs iOS 17 or later and collects no data according to its listing.",
+ "where": "iPhone and iPad (iOS 17 or later), App Store, $3.99",
+ "means": "If you already have smart lights and Apple Music, this saves you from setting the music and the lights one by one for dinner, a party or winding down.",
+ "todo": "Check that you have an Apple Music subscription and, for Hue scenes, a Hue Bridge before you buy.",
+ "apps": [
+  "GetYourVibeOn"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/getyourvibeon/id6825252615"
+  }
+ ],
+ "item": 160346,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "ONE TAP: MUSIC AND LIGHTS TOGETHER"
+}

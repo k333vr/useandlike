@@ -1,0 +1,23 @@
+{
+ "slug": "grapheneos-rcs-encrypted-messaging-test",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Privacy",
+ "tag": "Quick",
+ "quick": true,
+ "head": "GrapheneOS shows a test RCS app with end-to-end encryption",
+ "dek": "GrapheneOS, the privacy-focused Android system, has built an early proof-of-concept RCS app with MLS end-to-end encryption that's meant to work with Google Messages and Apple's iPhone RCS. It isn't released; the team says what it learns will go into its upcoming messaging app.",
+ "apps": [
+  "GrapheneOS"
+ ],
+ "sources": [
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/grapheneos-has-unveiled-a-proof-of-concept-rcs-messaging-app-with-end-to-end-encryption/"
+  }
+ ],
+ "item": 157635,
+ "idea": "newcomer",
+ "traction": 0
+}

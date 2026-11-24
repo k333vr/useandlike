@@ -1,0 +1,23 @@
+{
+ "slug": "apple-wallet-id-connecticut-2027",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Apple",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Connecticut driver's licenses come to Apple Wallet in 2027",
+ "dek": "Connecticut residents will be able to add a driver's license or state ID to Apple Wallet on iPhone and Apple Watch starting next year, for TSA checkpoints, some businesses and some apps; 16 US states already have it.",
+ "apps": [
+  "Apple Wallet"
+ ],
+ "item": 157160,
+ "idea": "news",
+ "traction": 23,
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/23/apple-wallet-ids-coming-to-connecticut/"
+  }
+ ]
+}

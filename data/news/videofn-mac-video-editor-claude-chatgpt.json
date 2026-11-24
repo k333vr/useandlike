@@ -1,0 +1,33 @@
+{
+ "slug": "videofn-mac-video-editor-claude-chatgpt",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "AI",
+ "tag": "New app",
+ "head": "videoFn: AI video editor for Mac that edits by chat with Claude or ChatGPT",
+ "dek": "videoFn is a new AI video editor for Mac that takes instructions from your own Claude or ChatGPT account and builds an editable first cut. Making videos is free with a watermark; removing it costs a one-time €13.99.",
+ "details": "It records your screen, camera and microphone with zooms on clicks (up to 4K), and you can add clips, photos, music and documents such as PDFs, Word files or spreadsheets, which it turns into narrated scenes and charts. It cuts footage, removes filler words and noise, adds word-timed captions, makes voiceovers in six languages and crops for vertical video. Rendering, captions and voiceovers happen on the Mac itself. You can talk to it inside videoFn or from the Claude, Claude Code or ChatGPT apps; the AI provider's charges are separate.",
+ "where": "Macs with Apple silicon; free with a watermark, €13.99 one-time to remove it",
+ "means": "If you make screen recordings or short videos on a Mac and already pay for Claude or ChatGPT, you can describe the edit in words instead of cutting by hand, and every change stays on a timeline you can adjust.",
+ "todo": "Check that your Mac has Apple silicon, try it free first, and keep in mind that your Claude or ChatGPT plan is billed on its own.",
+ "apps": [
+  "videoFn",
+  "ChatGPT",
+  "Claude"
+ ],
+ "sources": [
+  {
+   "name": "videoFn",
+   "url": "https://videofn.com/"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/videofn"
+  }
+ ],
+ "item": 157712,
+ "idea": "newcomer",
+ "traction": 15,
+ "thumb_words": "VIDEOFN: EDIT VIDEOS BY CHAT ON MAC"
+}

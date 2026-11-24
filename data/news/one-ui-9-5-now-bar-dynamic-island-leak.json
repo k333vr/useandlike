@@ -1,0 +1,28 @@
+{
+ "slug": "one-ui-9-5-now-bar-dynamic-island-leak",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Samsung",
+ "tag": "Leak",
+ "rumor": true,
+ "head": "One UI 9.5 may move the Now Bar around the camera, like the Dynamic Island",
+ "dek": "Samsung's live notifications pill, the Now Bar, may move from beside the clock to the middle of the screen, wrapped around the front camera, according to a One UI 9.5 build SamMobile obtained. Samsung hasn't announced it, and it isn't in the current One UI 9.5 beta.",
+ "details": "Tapping the pill would still open more details and controls, and you'd swipe left and right on it to switch between activities instead of up and down. A new Moment Effects option would add animations, for now around sports events such as a team scoring. The report expects it on the Galaxy S27 phones early in 2027 and on older Galaxy phones with the stable One UI 9.5 update.",
+ "where": "Leak; expected with the Galaxy S27 in early 2027, later for older Galaxy phones",
+ "means": "If you use the Now Bar for timers, music or deliveries, it may sit in a new place at the top of the screen after the update.",
+ "todo": "Nothing to do yet; the change isn't in any update you can install.",
+ "apps": [
+  "One UI"
+ ],
+ "item": 158812,
+ "thumb_words": "GALAXY NOW BAR AROUND THE CAMERA?",
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "Android Police",
+   "url": "https://www.androidpolice.com/samsung-could-copy-iphones-dynamic-island-makeover/"
+  }
+ ]
+}

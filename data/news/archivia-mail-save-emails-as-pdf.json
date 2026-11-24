@@ -1,0 +1,27 @@
+{
+ "slug": "archivia-mail-save-emails-as-pdf",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Email",
+ "tag": "New app",
+ "head": "Save emails as PDF on iPhone and Mac with the new Archivia Mail app",
+ "dek": "Archivia Mail turns your emails into PDF files, with attachments and the original messages, in folders on your iPhone, iPad or Mac, then can free up space on the mail server once it has checked every copy. It costs $1 once and was #82 among paid Productivity apps on the US App Store on 23 November.",
+ "details": "It works with Gmail, Outlook and Hotmail, iCloud, Yahoo, GMX and most mailboxes that use IMAP; Gmail and iCloud need an app-specific password, and Proton Mail isn't supported. You pick all emails, only older ones or a date range; the archive keeps one folder per mailbox folder and month, plus each message's .eml file. Version 1.4 on 23 November added whole conversations as one PDF and export as .mbox files for Thunderbird or Apple Mail. It can also copy the archive to another mailbox, show which newsletters take the most space and unsubscribe from them. Made by Maurizio Pizzolante, out since 15 November, in English, German and Italian, with no account and no ads.",
+ "where": "iPhone, iPad and Mac, App Store, $1.00 one-time purchase (one purchase covers all three)",
+ "means": "If your mailbox is full and you're afraid to delete old emails, this keeps a readable copy of everything on your own device first.",
+ "todo": "Archive first and check the PDFs before you tap the option to free up server space. By default the app removes nothing it hasn't saved, and you choose between Trash and deleting for good.",
+ "apps": [
+  "Archivia Mail"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/archivia-mail/id6835124667"
+  }
+ ],
+ "item": 160336,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "ARCHIVIA: YOUR EMAILS AS PDFS"
+}

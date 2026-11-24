@@ -1,0 +1,24 @@
+{
+ "slug": "gymkit-iphone-airpods-ios-27",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Apple",
+ "tag": "Quick",
+ "head": "iOS 27 brings GymKit to iPhone and AirPods Pro 3, no Apple Watch needed",
+ "dek": "With iOS 27 you can tap an iPhone on a GymKit treadmill while AirPods Pro 3 send your heart rate, and the machine's distance, pace, incline and calories go into the Fitness app, 9to5Mac found in a test.",
+ "quick": true,
+ "apps": [
+  "iOS 27",
+  "AirPods"
+ ],
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/23/ios-27-basically-turns-your-iphone-and-airpods-into-an-apple-watch-at-the-gym/"
+  }
+ ],
+ "item": 157876,
+ "idea": "news",
+ "traction": 0
+}

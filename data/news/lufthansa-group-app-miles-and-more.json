@@ -1,0 +1,32 @@
+{
+ "slug": "lufthansa-group-app-miles-and-more",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Travel",
+ "tag": "New app",
+ "head": "Lufthansa Group app brings six airlines and Miles & More together",
+ "dek": "The new Lufthansa Group app lets you book, check in and keep boarding passes for Lufthansa, SWISS, Austrian Airlines, Brussels Airlines, ITA Airways and Discover Airlines in one place. It also shows your Miles & More balance and status, and it's free on the App Store and Google Play from 23 November.",
+ "details": "You can search and book flights from the group's airlines and many partners, book Miles & More award flights, reserve or change seats and add baggage. During the trip it gives online check-in, mobile boarding passes that also work offline, flight updates and notifications, and baggage tracking after arrival. Miles & More members see their points, status, transactions, partner offers and a personal inbox. The airlines' own apps stay available, and the group says more Miles & More features will follow.",
+ "where": "iPhone and Android, free; App Store and Google Play from 23 November 2026",
+ "means": "If you fly with more than one of these airlines, one app can now hold all your bookings, boarding passes and miles instead of several.",
+ "todo": "Download the Lufthansa Group app, sign in and add your existing bookings. Keep your current airline app for now if you use features the new app doesn't have yet.",
+ "apps": [
+  "Lufthansa Group",
+  "Miles & More"
+ ],
+ "sources": [
+  {
+   "name": "Lufthansa Group",
+   "url": "https://newsroom.lufthansagroup.com/en/new-lufthansa-group-app-brings-together-airline-services-and-miles--more/"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/lufthansa-group/id6820402551"
+  }
+ ],
+ "item": 159747,
+ "idea": "newcomer",
+ "traction": 12,
+ "thumb_words": "LUFTHANSA: ONE APP, SIX AIRLINES"
+}

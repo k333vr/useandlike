@@ -1,0 +1,27 @@
+{
+ "slug": "threema-security-audit-2026",
+ "date": "2026-11-20",
+ "topic": "Security",
+ "head": "Threema's Android and iPhone apps pass an outside security audit",
+ "dek": "Assured Security Consultants checked Threema's mobile apps, including Threema Work, and found no critical, high or medium problems. The one low-risk finding is set to be fixed in Android version 6.7.0 in December.",
+ "apps": [
+  "Threema"
+ ],
+ "sources": [
+  {
+   "name": "Threema",
+   "url": "https://threema.com/en/blog/app-audit-2026"
+  },
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/threema-s-mobile-apps-pass-independent-security-audit-with-no-significant-vulnerabilities/"
+  }
+ ],
+ "item": 155000,
+ "idea": "news",
+ "traction": 0,
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "tag": "Quick",
+ "quick": true
+}

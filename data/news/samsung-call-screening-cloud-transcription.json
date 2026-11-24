@@ -1,0 +1,24 @@
+{
+ "slug": "samsung-call-screening-cloud-transcription",
+ "date": "2026-11-23",
+ "topic": "Samsung",
+ "head": "Samsung Call Screening may get an optional cloud transcription mode",
+ "dek": "Code in the One UI 9.5 beta, found by Android Authority, shows an opt-in setting that would send call audio to Samsung's servers for more accurate English and Chinese transcripts. On-device processing would stay the default; Samsung hasn't announced it.",
+ "apps": [
+  "One UI"
+ ],
+ "sources": [
+  {
+   "name": "Android Headlines",
+   "url": "https://www.androidheadlines.com/2026/11/samsungs-call-screening-could-soon-get-more-accurate-with-cloud-transcription.html"
+  }
+ ],
+ "item": 155555,
+ "idea": "news",
+ "traction": 0,
+ "rumor": true,
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "tag": "Quick",
+ "quick": true
+}

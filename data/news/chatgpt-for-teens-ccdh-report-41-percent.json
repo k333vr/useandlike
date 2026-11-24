@@ -1,0 +1,27 @@
+{
+ "slug": "chatgpt-for-teens-ccdh-report-41-percent",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "AI",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Report: ChatGPT for Teens gave harmful answers in 41% of tests",
+ "dek": "The Center for Countering Digital Harm ran 120 prompt tests on teen accounts about self-harm, eating disorders and drugs and rated 41% of the answers harmful, 82% after simple workarounds. Of four linked parent accounts, two got no safety notification.",
+ "apps": [
+  "ChatGPT"
+ ],
+ "sources": [
+  {
+   "name": "Center for Countering Digital Harm",
+   "url": "https://www.counterharm.com/research/safety-not-found/findings"
+  },
+  {
+   "name": "Newsroom America",
+   "url": "https://newsroomamerica.com/a/TmaafLvWL21K0SeCtVHo6aN4uyo/center_for_countering_digital_harm_says_its_safety_not_found_report_found_41_of_chatgpt_responses_to_simulated_child_users_were_harmful_rising_to_82_with_simple_bypass_techniques.html"
+  }
+ ],
+ "item": 158695,
+ "idea": "news",
+ "traction": 0
+}

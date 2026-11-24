@@ -1,0 +1,24 @@
+{
+ "slug": "microsoft-365-problems-november-22",
+ "date": "2026-11-22",
+ "topic": "Microsoft",
+ "head": "Microsoft 365 problem reports on Sunday night, 22 November",
+ "dek": "Downdetector showed user reports of Microsoft 365 trouble from 9:14 pm Eastern time on 22 November, ten days after the long Outlook and Teams outage. Microsoft hadn't confirmed a new incident.",
+ "apps": [
+  "Microsoft 365",
+  "Outlook"
+ ],
+ "sources": [
+  {
+   "name": "IBTimes Australia",
+   "url": "https://www.ibtimes.com.au/microsoft-365-users-report-new-problems-1879182"
+  }
+ ],
+ "item": 154586,
+ "idea": "news",
+ "traction": 0,
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "tag": "Quick",
+ "quick": true
+}

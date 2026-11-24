@@ -1,0 +1,27 @@
+{
+ "slug": "dualweather-celsius-fahrenheit-weather-app",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Weather",
+ "tag": "New app",
+ "head": "DualWeather: free weather app shows Celsius and Fahrenheit at once",
+ "dek": "DualWeather shows every temperature in Celsius and Fahrenheit side by side, in the app and in its widgets, with your own unit first. It's free with no ads or in-app purchases, and was #28 among free Weather apps on the US App Store on 23 November.",
+ "details": "Besides a 10-day forecast it has rain alerts, official severe weather warnings in the US, Canada and Europe, air quality and pollen, tropical storm tracking and a trip planner with a forecast for each stop. Five narrator voices can comment on the forecast; on devices with on-device AI the text is written locally, and the forecast and location aren't sent to an AI service. It runs on iPhone, iPad, Mac, Apple Watch, Apple TV and Vision Pro and needs version 26.2 or later. Made by Alexander J White and out since 23 October, it has no account; forecasts come from Open-Meteo.",
+ "where": "iPhone, iPad, Mac, Apple Watch, Apple TV and Vision Pro (version 26.2 or later), App Store, free",
+ "means": "If you travel or talk weather with people who use the other unit, you no longer have to convert temperatures in your head.",
+ "todo": "Check that your iPhone runs version 26.2 or later. Tap a temperature in the app to put the other unit first.",
+ "apps": [
+  "DualWeather (°C+°F)"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/dualweather-c-f/id6758376373"
+  }
+ ],
+ "item": 160359,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "CELSIUS AND FAHRENHEIT AT ONCE"
+}

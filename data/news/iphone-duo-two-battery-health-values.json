@@ -23,5 +23,6 @@
  "where": "iPhone Duo owners, Settings > Battery > Battery Health",
  "means": "If you own an iPhone Duo, two different numbers in Battery Health are expected and don't mean one battery is failing.",
  "todo": "Check Settings > Battery > Battery Health to see both batteries. To save power, use the outer screen where you can: Apple rates video playback at up to 44 hours there and 31 hours on the inner screen. With AppleCare+, Apple replaces the battery free when capacity falls below 80%.",
- "thumb_words": "IPHONE DUO: TWO BATTERY HEALTH NUMBERS"
+ "thumb_words": "IPHONE DUO: TWO BATTERY HEALTH NUMBERS",
+ "video": "g2WfaAnvo9E"
 }

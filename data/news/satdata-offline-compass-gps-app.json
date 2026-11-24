@@ -1,0 +1,28 @@
+{
+ "slug": "satdata-offline-compass-gps-app",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Travel",
+ "tag": "New app",
+ "category": "Travel",
+ "head": "SatData: offline compass and GPS app for iPhone that works without signal",
+ "dek": "SatData is a 4.99-dollar iPhone app from developer Matthew Avery that shows your position, altitude, heading and sun and moon times with no mobile signal, explained in plain words. It was #37 in Navigation on the US App Store's paid chart on 23 November.",
+ "details": "It also shows speed and air pressure, gives each reading a quality rating from Excellent to Poor, and its compass shows true and magnetic north. A sky section lists sunrise, sunset, golden hour and the moon's phase. You can mark up to 20 waypoints and follow an arrow, with distance and bearing, back to a car, tent or trailhead in a straight line. A survey mode averages GPS readings for 30 seconds to 2 minutes, and data can be exported as GPX, CSV, JSON, NMEA or text. It's a one-time purchase with no subscription, in-app purchases or ads, and the listing says it collects no data; only Apple's map tiles need a connection. The developer says it's a reference tool, not a safety or certified navigation device.",
+ "where": "iPhone (iOS 18 or later), also Mac with Apple silicon and Vision Pro; out since 10 October 2026",
+ "means": "If you hike, camp or go geocaching where there's no coverage, this app gives you a compass, altitude and a way back to a saved spot without a connection.",
+ "todo": "Check the App Store listing; save a waypoint before you set off, and carry a map too, since the developer says readings can be wrong.",
+ "apps": [
+  "SatData: Compass & Waypoints"
+ ],
+ "item": 160358,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "OFFLINE COMPASS APP: NO SIGNAL NEEDED",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/satdata-compass-waypoints/id6816728950"
+  }
+ ]
+}

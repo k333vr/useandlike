@@ -1,0 +1,27 @@
+{
+ "slug": "photosynth-photo-to-music-app",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Music",
+ "tag": "New app",
+ "head": "PhotoSynth photo to music app turns any picture into a song on iPhone",
+ "dek": "PhotoSynth turns a photo into a short piece of music: a line sweeps across the picture and plays a melody with chords and bass, in a key and tempo picked from the image. It came out on 21 November for $4.99 and was #97 among paid Music apps on the US App Store on 23 November.",
+ "details": "The listing says the sound comes from a synthesizer built from the photo's colours, light and texture, not from AI. You can change the key, scale, tempo and length, edit every note, and export the result as WAV, AIFF or FLAC audio or as MIDI. It's made by Joseph Musselman's GhostKick Audio, has no subscription, ads or account, and collects no data according to its listing.",
+ "where": "iPhone and iPad (iOS 17 or later), App Store, $4.99 one-time purchase",
+ "means": "If you like playing with sound, any photo on your phone becomes a tune you can keep, edit or take into a music app.",
+ "todo": "Check that your device runs iOS 17 or later before you buy. Try a few very different photos: each one sets its own key and sound.",
+ "apps": [
+  "PhotoSynth: Picture Synth"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/photosynth-picture-synth/id6836682191"
+  }
+ ],
+ "item": 160353,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "PHOTOSYNTH TURNS PHOTOS INTO MUSIC"
+}

@@ -1,0 +1,79 @@
+{
+ "slug": "rcs-encryption-iphone-android-explained",
+ "date": "2026-11-24",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Privacy",
+ "tag": "Explainer",
+ "head": "Encrypted RCS messaging between iPhone and Android explained",
+ "dek": "Texts between iPhones and Android phones can be end-to-end encrypted since Apple and Google started rolling it out in beta on 11 May 2026, but only over RCS, with iOS 26.5 or later, the latest Google Messages and a supported carrier.",
+ "sections": [
+  {
+   "h": "What changed in May",
+   "p": [
+    "For years, iMessage between Apple devices was end-to-end encrypted, while texts between an iPhone and an Android phone were not. On 11 May 2026, Apple and Google announced that end-to-end encrypted RCS messaging was rolling out in beta between the two. On the iPhone it needs iOS 26.5 and a supported carrier; on Android, the latest version of Google Messages.",
+    "Both companies say encryption is on by default and will be switched on over time for new and existing RCS chats, so nobody has to sign up. 9to5Google reported that the rollout would take the coming months."
+   ]
+  },
+  {
+   "h": "How to tell a chat is encrypted",
+   "p": [
+    "Look for the lock. In Google Messages, encrypted chats with iPhone users show the same lock icon Android-to-Android chats already had. On the iPhone, an encrypted chat shows a lock and the word Encrypted next to Text Message and RCS in the middle of the screen.",
+    "On the iPhone, the switch is in Settings, Messages, RCS Messaging, called End-to-End Encryption (Beta), and 9to5Google says it is on by default."
+   ]
+  },
+  {
+   "h": "When a chat stays unencrypted",
+   "p": [
+    "Encryption needs every part to be ready. Your carrier has to support it: Apple's list for the US includes AT&T, T-Mobile, Verizon and smaller carriers such as Mint Mobile, Visible, Cricket and Xfinity Mobile. Everyone in the chat needs current software, and the Electronic Frontier Foundation (EFF) notes that until they do, that conversation isn't encrypted.",
+    "Plain SMS stays unencrypted. The EFF points out that only RCS chats get the encryption; a conversation that isn't over RCS shows no lock."
+   ]
+  },
+  {
+   "h": "What encryption doesn't hide",
+   "p": [
+    "End-to-end encryption means Apple, Google and the carriers shouldn't be able to read what you write. The EFF wrote on 12 May that metadata, such as who you message and when, is likely still collected.",
+    "Backups are a separate question. The EFF says iCloud backups of your messages may not be end-to-end encrypted unless you turn on Advanced Data Protection, and that Google Messages encrypts the text of messages in its backups but not photos and videos. For conversations that need more protection, including of metadata, the EFF suggests Signal where both people use it."
+   ]
+  },
+  {
+   "h": "Why it's in the news again",
+   "p": [
+    "On 23 November, AlternativeTo reported that GrapheneOS, a privacy-focused version of Android, has built an early test app for RCS with end-to-end encryption that is meant to work with Google Messages and with RCS on the iPhone. It isn't released; the team says what it learns will go into its upcoming messaging app.",
+    "It can talk to both because the encryption is a shared standard: the GSMA's RCS Universal Profile 3.0, which uses the Messaging Layer Security (MLS) protocol, according to the EFF."
+   ]
+  }
+ ],
+ "means": "If you text friends who use the other kind of phone, your RCS chats can now be encrypted without an extra app, but only when both phones are up to date and your carrier supports it; a missing lock means that chat isn't protected.",
+ "todo": "Update your iPhone to iOS 26.5 or later, or update Google Messages on Android. On the iPhone, check that End-to-End Encryption (Beta) is on under Settings, Messages, RCS Messaging. Look for the lock in each chat, and turn on Advanced Data Protection if you want your iCloud backups encrypted too.",
+ "where": "iPhone with iOS 26.5 or later and Android with Google Messages, rolling out in beta since 11 May 2026 with supported carriers",
+ "apps": [
+  "Messages",
+  "Google Messages"
+ ],
+ "sources": [
+  {
+   "name": "Apple",
+   "url": "https://www.apple.com/ca/newsroom/2026/05/end-to-end-encrypted-rcs-messaging-begins-rolling-out-today-in-beta/"
+  },
+  {
+   "name": "Google",
+   "url": "https://blog.google/products-and-platforms/platforms/android/android-ios-end-to-end-encrypted-rcs-messaging"
+  },
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/05/11/iphone-android-encrypted-rcs-ios-26-5/"
+  },
+  {
+   "name": "EFF",
+   "url": "https://www.eff.org/deeplinks/2026/05/victory-end-end-encrypted-rcs-comes-apple-and-android-chats"
+  },
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/grapheneos-has-unveiled-a-proof-of-concept-rcs-messaging-app-with-end-to-end-encryption/"
+  }
+ ],
+ "idea": "explainer",
+ "traction": 0,
+ "thumb_words": "IPHONE-ANDROID TEXTS NOW ENCRYPTED"
+}

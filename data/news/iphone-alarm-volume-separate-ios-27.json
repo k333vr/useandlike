@@ -1,0 +1,28 @@
+{
+ "slug": "iphone-alarm-volume-separate-ios-27",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Apple",
+ "tag": "New feature",
+ "head": "iPhone alarm volume too low? iOS 27 has a separate alarm slider",
+ "dek": "iOS 27 lets your iPhone alarm ring at its own volume, separate from your ringtone, so a quiet ringer no longer means a quiet alarm. The setting is off by default, so alarms still follow the ringtone volume until you change it.",
+ "details": "In Settings, Sounds & Haptics now has two sections: Alarms and Timers, and Alerts and System Sounds. Each has a Match Ringtone Volume switch that's on by default. Turn it off under Alarms and Timers and a slider appears that sets only the volume of alarms and timers, so you can put alarms at full volume while calls and notifications stay quiet.",
+ "where": "iPhone with iOS 27, in Settings now",
+ "means": "If you've slept through an alarm because your ringer was turned down, you can now keep the alarm loud without making every call and notification just as loud.",
+ "todo": "Open Settings, then Sounds & Haptics. Under Alarms and Timers, turn off Match Ringtone Volume and move the new slider to the level you want.",
+ "apps": [
+  "iOS 27",
+  "iPhone"
+ ],
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/23/ios-27-gave-your-iphone-an-alarm-feature-thats-long-been-missing/"
+  }
+ ],
+ "item": 158282,
+ "idea": "news",
+ "traction": 51,
+ "thumb_words": "IPHONE ALARM GETS ITS OWN VOLUME"
+}

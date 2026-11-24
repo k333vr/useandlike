@@ -1,0 +1,23 @@
+{
+ "slug": "tiktok-ai-check-family-pairing-alerts",
+ "date": "2026-11-22",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Social",
+ "tag": "Quick",
+ "head": "TikTok adds an AI content check and new Family Pairing alerts",
+ "dek": "Anyone can now upload a video or image on TikTok's Transparency Center to see if it was made with TikTok's AI tools, even without an account. Family Pairing shows parents more about what their teen posts and watches and will alert them to repeated searches for self-harm terms.",
+ "quick": true,
+ "apps": [
+  "TikTok"
+ ],
+ "sources": [
+  {
+   "name": "Social Media Today",
+   "url": "https://www.socialmediatoday.com/news/tiktok-adds-new-ai-transparency-and-parental-controls/875424/"
+  }
+ ],
+ "item": 154951,
+ "idea": "news",
+ "traction": 23
+}

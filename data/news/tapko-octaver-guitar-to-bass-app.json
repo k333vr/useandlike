@@ -1,0 +1,27 @@
+{
+ "slug": "tapko-octaver-guitar-to-bass-app",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Music",
+ "tag": "New app",
+ "head": "Tapko Octaver guitar octave app turns your guitar into bass on iPhone",
+ "dek": "Tapko Octaver shifts a guitar signal one octave down into bass range, for single-note bass lines and riffs, for $2.99 on iPhone and iPad. It came out on 23 November and was #41 among paid Music apps on the US App Store that day.",
+ "details": "Controls set the bass and sub levels, pick attack, tone, saturation, compression and the mix between guitar and octave, with a low-latency mode. A second pitch voice goes from one octave down to one octave up for fifths and harmonies, and there's a three-band EQ, a noise gate and four starter presets. It runs on its own with headphones and an audio interface or the built-in mic, or as an Audio Unit plugin in apps such as GarageBand, AUM, Loopy Pro and Cubasis. It's made by David Lars Guva and needs iOS 17 or later.",
+ "where": "iPhone and iPad (iOS 17 or later), App Store, $2.99",
+ "means": "If you play guitar and want bass lines without a bass or a pedal, this app does it on a phone or tablet you already have.",
+ "todo": "Use headphones or an audio interface for the cleanest sound, and try it inside GarageBand if you record there.",
+ "apps": [
+  "Tapko Octaver"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/tapko-octaver/id6826722299"
+  }
+ ],
+ "item": 160350,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "TAPKO OCTAVER: GUITAR TO BASS"
+}

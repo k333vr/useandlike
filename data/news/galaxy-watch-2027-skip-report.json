@@ -1,0 +1,32 @@
+{
+ "slug": "galaxy-watch-2027-skip-report",
+ "date": "2026-11-23",
+ "added": "2026-11-24",
+ "checked": "2026-11-24",
+ "topic": "Samsung",
+ "tag": "Rumor",
+ "rumor": true,
+ "head": "Samsung Galaxy Watch 2027: no new model, a report says",
+ "dek": "Samsung won't release a new Galaxy Watch in 2027 and will move to a new model every other year, according to Korea's ETNews; the next one would come in 2028. Samsung hasn't confirmed it.",
+ "details": "Samsung has released a new Galaxy Watch every year since 2018; the 2027 model would likely have been called the Galaxy Watch 10. The report links the change to a push for profit after two quarters of losses in Samsung's mobile division and to Galaxy Watch 9 sales below expectations. Samsung plans software updates and more health features for its watches in 2027, and a Galaxy Fit 4 tracker is expected that year.",
+ "where": "Report only; Samsung hasn't announced its plans",
+ "means": "If you were waiting for next year's model, the current Galaxy Watch may stay the newest one until 2028, with updates instead.",
+ "todo": "Nothing to do yet; if you need a watch now, there's no sign of a 2027 model to wait for.",
+ "apps": [
+  "Galaxy Watch"
+ ],
+ "item": 152019,
+ "thumb_words": "NO NEW GALAXY WATCH IN 2027?",
+ "idea": "news",
+ "traction": 21,
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/23/samsung-galaxy-watch-10-new-schedule-report/"
+  },
+  {
+   "name": "Sammy Fans",
+   "url": "https://www.sammyfans.com/2026/11/22/samsung-may-skip-galaxy-watch-2027-launch-in-major-strategy-shift/"
+  }
+ ]
+}
