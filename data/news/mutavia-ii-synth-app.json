@@ -4,20 +4,24 @@
  "added": "2026-11-24",
  "checked": "2026-11-24",
  "topic": "Music",
- "tag": "Quick",
- "quick": true,
- "head": "MUTAVIA II synth app out on iPhone and iPad at a launch price",
- "dek": "MUTAVIA II, a patchable synthesizer with two mutation lanes, a sequencer and 32 patch sockets, costs 7.99 dollars until 6 December, then more; it works on its own or as an AUv3 instrument.",
+ "tag": "New app",
+ "head": "MUTAVIA II synth app for iPhone and iPad: $7.99 launch price",
+ "dek": "MUTAVIA II is a new synthesizer app that keeps changing a sound and its sequence through two linked mutation lanes, with 32 patch sockets and seven memory slots. It costs $7.99 until 6 December, and the price goes up on 7 December.",
+ "details": "It runs on its own or as an AUv3 instrument inside music apps, on iPhone and iPad with iOS 17 or later, and also installs on Macs with an M1 chip or later and on Apple Vision Pro. ANCHOR saves a sound you like and RETURN pulls the mutations back toward it. Version 2.0.10 added an interactive guide, a full-screen preset browser and iCloud sync for your own presets. It's made by Alessandro Guardascione, has no in-app purchases and, according to the developer, collects no data.",
+ "where": "iPhone, iPad, Mac (M1 or later) and Vision Pro, App Store, $7.99 until 6 December",
+ "means": "If you make music on an iPad and like sounds that evolve on their own, the launch price runs for about two more weeks.",
+ "todo": "Buy before 7 December for the launch price. Start with the built-in guide, which walks through the lanes, ANCHOR and RETURN.",
  "apps": [
   "MUTAVIA II"
  ],
  "item": 160351,
- "idea": "newcomer",
+ "idea": "request",
  "traction": 0,
  "sources": [
   {
    "name": "App Store",
    "url": "https://apps.apple.com/us/app/mutavia-ii/id6811014336"
   }
- ]
+ ],
+ "thumb_words": "MUTAVIA II: A SYNTH THAT MUTATES"
 }

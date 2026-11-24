@@ -2,8 +2,12 @@
  "slug": "one-ui-9-5-quick-panel-search",
  "date": "2026-11-23",
  "topic": "Samsung",
- "head": "One UI 9.5 beta adds search when you edit the Quick Panel",
- "dek": "In the One UI 9.5 beta for the Galaxy S26 series, you can search for a button by app or feature name while editing the Quick Panel instead of scrolling the whole list. Samsung didn't mention it in its notes; the stable update is expected with the Galaxy S27 in early 2027.",
+ "head": "One UI 9.5 Quick Panel: new search when you edit the buttons",
+ "dek": "The One UI 9.5 beta lets you search for a Quick Panel button by app or feature name while you edit the panel, instead of scrolling through the whole list. Samsung didn't list it in the beta's notes; it showed up in a video posted on X by Tarun Vats.",
+ "details": "The One UI 9.5 beta started rolling out the week before 23 November, with the Galaxy S26 series first and more phones expected later. The same beta brings Pro and Pro video mode changes, Mindful Note and Medications in Samsung Health, a floating accessibility shortcut and App Lock. Samsung says 21 Good Lock modules already work with it. The stable update isn't coming in 2026; it's expected with the Galaxy S27 series in January or February 2027.",
+ "where": "Galaxy S26 series in the One UI 9.5 beta; stable version expected in early 2027",
+ "means": "If you keep a lot of Quick Panel buttons, finding the one you want to add or move gets quicker after the update.",
+ "todo": "On the beta, open the Quick Panel's edit view and type the button's name into the search. On other Galaxy phones, nothing to do yet.",
  "apps": [
   "One UI"
  ],
@@ -14,10 +18,10 @@
   }
  ],
  "item": 156866,
- "idea": "news",
+ "idea": "request",
  "traction": 0,
  "added": "2026-11-24",
  "checked": "2026-11-24",
- "tag": "Quick",
- "quick": true
+ "tag": "New feature",
+ "thumb_words": "ONE UI 9.5: QUICK PANEL SEARCH"
 }

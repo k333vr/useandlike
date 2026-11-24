@@ -2,8 +2,8 @@
  "slug": "samsung-call-screening-cloud-transcription",
  "date": "2026-11-23",
  "topic": "Samsung",
- "head": "Samsung Call Screening may get an optional cloud transcription mode",
- "dek": "Code in the One UI 9.5 beta, found by Android Authority, shows an opt-in setting that would send call audio to Samsung's servers for more accurate English and Chinese transcripts. On-device processing would stay the default; Samsung hasn't announced it.",
+ "head": "Samsung Call Screening may get cloud transcription in One UI 9.5",
+ "dek": "Unfinished code in the One UI 9.5 beta, found in an Android Authority teardown, points to an opt-in \"Cloud transcription\" setting that would send incoming call audio to Samsung's servers for more accurate transcripts. Samsung hasn't announced it, and it can't be turned on yet.",
  "apps": [
   "One UI"
  ],
@@ -14,11 +14,15 @@
   }
  ],
  "item": 155555,
- "idea": "news",
+ "idea": "request",
  "traction": 0,
  "rumor": true,
  "added": "2026-11-24",
  "checked": "2026-11-24",
- "tag": "Quick",
- "quick": true
+ "tag": "In testing",
+ "details": "Call Screening answers calls for you and shows a live transcript; since One UI 8.5 it runs fully on the phone, which keeps audio private but struggles with fast talkers and background noise. The code mentions English and Chinese first. On-device processing would stay the default, and the phone would fall back to it if the connection or Samsung's service drops. A first-use notice says the voice data would be used only to make the text transcripts.",
+ "where": "Spotted in the One UI 9.5 beta on Galaxy phones; no release date, and it may not ship",
+ "means": "If transcripts from screened calls come out garbled, a later update may offer a more accurate option, at the cost of sending call audio to Samsung.",
+ "todo": "Nothing to do yet. If it arrives, it stays off unless you switch it on.",
+ "thumb_words": "SAMSUNG CALL SCREENING GOES CLOUD?"
 }

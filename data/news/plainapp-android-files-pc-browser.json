@@ -4,10 +4,9 @@
  "added": "2026-11-24",
  "checked": "2026-11-24",
  "topic": "Android",
- "tag": "Quick",
- "quick": true,
- "head": "PlainApp lets you manage Android phone files from a PC browser",
- "dek": "Engadget points to PlainApp, a free, open-source Android app (Android 9 or later) that lets a computer on the same Wi-Fi open your photos, videos, music and contacts in any browser, with no account and no software on the PC. Screen mirroring is included, but Engadget couldn't get remote control to work.",
+ "tag": "New app",
+ "head": "PlainApp: free Android app opens your phone's files in a PC browser",
+ "dek": "PlainApp is a free, open-source Android app that lets a computer on the same Wi-Fi open your phone's photos, videos, music, contacts and folders in a web browser, with no account and nothing to install on the PC. Engadget tried it and found most of it works, though remote control didn't.",
  "apps": [
   "PlainApp"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 153003,
- "idea": "news",
- "traction": 66
+ "idea": "request",
+ "traction": 66,
+ "details": "It needs Android 9 or newer and is on Google Play. Files move both ways, and it has a photo and video viewer, an image editor, a music player, screen mirroring, and can send text to the phone's clipboard or call a number. The first visit shows a browser warning because the app uses its own certificate. Engadget found Quick Share faster for moving photos and videos.",
+ "where": "Android 9 or newer, free on Google Play; any computer with a browser on the same Wi-Fi",
+ "means": "If you move files between your Android phone and a computer without a cable, PlainApp does it in a browser tab with no sign-up.",
+ "todo": "Install PlainApp from Google Play, allow notification and file access, connect the PC to the same Wi-Fi, open the address the app shows, get past the certificate warning (Advanced, then Proceed), click Log in and allow it on the phone.",
+ "thumb_words": "PLAINAPP: PHONE FILES IN A BROWSER"
 }

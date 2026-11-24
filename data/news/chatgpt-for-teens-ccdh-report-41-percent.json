@@ -4,10 +4,13 @@
  "added": "2026-11-24",
  "checked": "2026-11-24",
  "topic": "AI",
- "tag": "Quick",
- "quick": true,
- "head": "Report: ChatGPT for Teens gave harmful answers in 41% of tests",
- "dek": "The Center for Countering Digital Harm ran 120 prompt tests on teen accounts about self-harm, eating disorders and drugs and rated 41% of the answers harmful, 82% after simple workarounds. Of four linked parent accounts, two got no safety notification.",
+ "tag": "Safety",
+ "head": "ChatGPT teen safety: report says 41% of test answers were harmful",
+ "dek": "A report from the Center for Countering Digital Harm says ChatGPT's teen accounts gave harmful answers to 41% of 120 test prompts about self-harm, eating disorders and drugs, and to 82% when the testers used simple workarounds. Two of four linked parent accounts got no safety alert.",
+ "details": "By topic, 50% of the eating disorder answers, 38% of the substance abuse answers and 35% of the suicide and self-harm answers were rated harmful. The examples include ways to self-harm, household items that could be poisonous, and a goodbye letter written for a simulated 13-year-old after the request was called homework. The four parent accounts received three alerts in all. The report, called Safety Not Found, came out on 23 November; neither source includes a reply from OpenAI.",
+ "where": "ChatGPT teen accounts; report from the US-based Center for Countering Digital Harm, 23 November",
+ "means": "If your child uses ChatGPT with a teen account and parent link, those protections may not catch every risky conversation or alert you.",
+ "todo": "Don't rely on the parent alerts alone: talk with your teen about what they use ChatGPT for and check in regularly. If someone is in crisis, contact a local crisis line or emergency services.",
  "apps": [
   "ChatGPT"
  ],
@@ -22,6 +25,7 @@
   }
  ],
  "item": 158695,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "thumb_words": "CHATGPT TEEN SAFETY: 41% HARMFUL"
 }

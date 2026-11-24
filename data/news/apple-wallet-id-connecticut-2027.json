@@ -4,20 +4,24 @@
  "added": "2026-11-24",
  "checked": "2026-11-24",
  "topic": "Apple",
- "tag": "Quick",
- "quick": true,
- "head": "Connecticut driver's licenses come to Apple Wallet in 2027",
- "dek": "Connecticut residents will be able to add a driver's license or state ID to Apple Wallet on iPhone and Apple Watch starting next year, for TSA checkpoints, some businesses and some apps; 16 US states already have it.",
+ "tag": "Update",
+ "head": "Apple Wallet Connecticut driver's license and ID coming in 2027",
+ "dek": "Connecticut residents will be able to add a driver's license or state ID to Apple Wallet on iPhone and Apple Watch starting in 2027, after the state's governor set a target of August 2027 for Apple, Google and Samsung wallets.",
  "apps": [
   "Apple Wallet"
  ],
  "item": 157160,
- "idea": "news",
+ "idea": "request",
  "traction": 23,
  "sources": [
   {
    "name": "MacRumors",
    "url": "https://www.macrumors.com/2026/11/23/apple-wallet-ids-coming-to-connecticut/"
   }
- ]
+ ],
+ "details": "Connecticut released its own mobile ID app for iPhone and Android last week, and its developer IDEMIA says wallet support is coming soon. Apple Wallet IDs work at TSA checkpoints at more than 250 US airports for domestic travel, at some businesses and in some apps, but police generally don't accept them, so keep the physical card. 16 states and Puerto Rico already have it; North Carolina and Utah are expected in the coming months. Apple first said Connecticut had signed up in September 2021.",
+ "where": "Connecticut, iPhone and Apple Watch, in 2027 (target August 2027)",
+ "means": "If you live in Connecticut, you'll be able to show your ID at many airport security lines with a tap of your iPhone or Watch, but you'll still need the card for traffic stops.",
+ "todo": "Once your state is listed: open Wallet, tap the plus sign, tap Driver's License and ID Cards, pick your state and follow the steps. You approve each request with Face ID or Touch ID.",
+ "thumb_words": "CONNECTICUT ID IN APPLE WALLET"
 }

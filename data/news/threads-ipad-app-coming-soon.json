@@ -4,10 +4,9 @@
  "added": "2026-11-24",
  "checked": "2026-11-24",
  "topic": "Social",
- "tag": "Quick",
- "quick": true,
- "head": "Threads is getting its own iPad app soon",
- "dek": "Threads head of design Christopher Clare posted a first look on 23 November and said the iPad app is coming very soon, built for the larger screen; Meta hasn't given a date.",
+ "tag": "Update",
+ "head": "Threads iPad app is coming soon, built for the bigger screen",
+ "dek": "Threads head of design Christopher Clare shared a first look at an iPad app on 23 November and said it is coming very soon, designed for the larger display rather than a stretched iPhone app. Meta hasn't given a date.",
  "apps": [
   "Threads"
  ],
@@ -22,6 +21,11 @@
   }
  ],
  "item": 158283,
- "idea": "news",
- "traction": 59
+ "idea": "request",
+ "traction": 59,
+ "details": "Clare said the team focused on getting a first version out, with more changes still in the works, and that he will post when it goes live. Threads has been around for more than three years; Instagram took nearly 15 years to get an iPad app. MacRumors suggests watching the App Store for a Threads update that adds iPad support.",
+ "where": "iPad, \"very soon\"; no date yet",
+ "means": "If you use Threads on an iPad, a version made for the larger screen is on the way.",
+ "todo": "Nothing to do yet. Keep the Threads app updated and look for an update that adds iPad support.",
+ "thumb_words": "THREADS IPAD APP COMING SOON"
 }

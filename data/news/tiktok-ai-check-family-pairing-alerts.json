@@ -4,10 +4,9 @@
  "added": "2026-11-24",
  "checked": "2026-11-24",
  "topic": "Social",
- "tag": "Quick",
- "head": "TikTok adds an AI content check and new Family Pairing alerts",
- "dek": "Anyone can now upload a video or image on TikTok's Transparency Center to see if it was made with TikTok's AI tools, even without an account. Family Pairing shows parents more about what their teen posts and watches and will alert them to repeated searches for self-harm terms.",
- "quick": true,
+ "tag": "New feature",
+ "head": "TikTok AI checker and new Family Pairing tools for parents",
+ "dek": "Anyone can now upload a video or image on TikTok's Transparency Center to see if it was made or edited with TikTok's own AI tools, even without an account. Family Pairing shows parents more about what their teen posts and watches, and TikTok is working on an alert for repeated self-harm searches.",
  "apps": [
   "TikTok"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 154951,
- "idea": "news",
- "traction": 23
+ "idea": "request",
+ "traction": 23,
+ "details": "The checker looks for the watermark TikTok puts on content made with its AI features; the source doesn't say it detects other companies' AI. Parents can now watch a sample of videos from verified creators their teen follows, see more about the teen's posts, and see screen time more clearly. The self-harm alert goes to parents, with tips on starting a conversation. TikTok announced it at its third Safety and Innovation Summit, along with a likeness check for eligible creators and a guide for teachers.",
+ "where": "AI checker: out now on TikTok's Transparency Center; Family Pairing changes: regions not given",
+ "means": "If you're unsure whether a clip was made with TikTok's AI, you can check it; if you're a parent using Family Pairing, you'll see more of your teen's activity.",
+ "todo": "Parents: open Family Pairing in TikTok's settings to see the new details. To check a clip, upload it on TikTok's Transparency Center.",
+ "thumb_words": "TIKTOK ADDS AI CHECKER FOR ALL"
 }

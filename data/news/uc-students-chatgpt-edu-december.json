@@ -4,10 +4,9 @@
  "added": "2026-11-24",
  "checked": "2026-11-24",
  "topic": "AI",
- "tag": "Quick",
- "quick": true,
- "head": "University of California students get ChatGPT Edu from December",
- "dek": "Under a one-year, $1.2 million deal with OpenAI, UC students, staff and faculty get ChatGPT Edu and the Codex coding agent from December; the faculty senate objected, and UC says no one has to use the tools.",
+ "tag": "Update",
+ "head": "ChatGPT Edu for University of California students from December",
+ "dek": "The University of California is paying OpenAI $1.2 million for one year of ChatGPT Edu for all its students, staff and faculty, starting in December. They also get OpenAI's Codex coding agent.",
  "apps": [
   "ChatGPT"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 149372,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "The deal extends an agreement UC signed with OpenAI in 2024. UC's Academic Senate objected in an October letter over data privacy, intellectual property and student learning, and its chair asked that ChatGPT not be used for coursework until faculty can set limits. UC says no student or teacher has to use the tools, and it is adding AI training. UC President James Milliken wrote on 19 November that all UC chancellors back the decision.",
+ "where": "University of California campuses, from December, for one year",
+ "means": "If you study or work at a UC campus, you'll get ChatGPT Edu and Codex through the university instead of paying for your own plan.",
+ "todo": "Check your course rules before using it for assignments: some professors limit AI in class. Watch for your campus's sign-in instructions in December.",
+ "thumb_words": "UC STUDENTS GET CHATGPT EDU"
 }

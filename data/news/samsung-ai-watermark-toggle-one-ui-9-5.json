@@ -2,8 +2,8 @@
  "slug": "samsung-ai-watermark-toggle-one-ui-9-5",
  "date": "2026-11-23",
  "topic": "Samsung",
- "head": "Samsung may let you hide the AI watermark on edited photos",
- "dek": "Text in the One UI 9.5 beta, spotted by Android Authority, points to a \"Show visible AI watermark\" setting that would hide the star badge Galaxy AI adds after edits. Samsung hasn't confirmed it, and edited photos would still carry hidden Content Credentials.",
+ "head": "Samsung AI watermark may get an off switch in One UI 9.5",
+ "dek": "Text in the One UI 9.5 beta for the Galaxy S26, found by Android Authority, points to a \"Show visible AI watermark\" setting that would hide the star badge Galaxy AI adds to edited photos. Samsung hasn't confirmed it will reach the final update.",
  "apps": [
   "Galaxy AI",
   "One UI"
@@ -15,11 +15,15 @@
   }
  ],
  "item": 155551,
- "idea": "news",
+ "idea": "request",
  "traction": 48,
  "rumor": true,
  "added": "2026-11-24",
  "checked": "2026-11-24",
- "tag": "Quick",
- "quick": true
+ "tag": "In testing",
+ "details": "Today, removing an object or person with Generative Edit adds a small star watermark to the photo. Turning the new setting off would show a warning that you are responsible for following any laws that require AI labels. Photos edited with some Galaxy AI tools would still carry hidden C2PA Content Credentials that record how the picture was made and edited. No release date for One UI 9.5 is known.",
+ "where": "Seen only in the One UI 9.5 beta for the Galaxy S26 series; not confirmed",
+ "means": "If the star badge on your Galaxy AI edits bothers you, a switch to hide it may come, but the photo's hidden edit record would stay.",
+ "todo": "Nothing to do yet. The visible watermark stays on in current software.",
+ "thumb_words": "SAMSUNG AI WATERMARK OFF SWITCH?"
 }

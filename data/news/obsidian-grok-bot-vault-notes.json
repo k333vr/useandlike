@@ -4,10 +4,13 @@
  "added": "2026-11-24",
  "checked": "2026-11-24",
  "topic": "AI",
- "tag": "Quick",
- "quick": true,
- "head": "Grok Bot can now create and search notes in Obsidian vaults",
- "dek": "Grok Bot can connect to an Obsidian vault to create, search and manage notes, update links, save content from the web and make Bases and Canvas files; changes sync to your devices through Obsidian Sync.",
+ "tag": "New feature",
+ "head": "Obsidian Grok Bot: xAI's agent can now manage notes in your vault",
+ "dek": "Grok Bot, xAI's paid AI agent, can now connect to an Obsidian vault to create, search and manage notes, update links and save things from the web. It can also make Bases and Canvas files, and the changes reach your other devices through Obsidian Sync.",
+ "details": "Obsidian announced the connection in a thread on X on 23 November. Grok Bot launched in beta on 11 August: each bot has its own cloud computer, signs into the tools you use and keeps working when your device is off. xAI's launch post names SuperGrok, SuperGrok Plus and SuperGrok Heavy, plus Cursor plans, and says bot usage is billed separately from those plans. It runs on Mac and iPhone.",
+ "where": "Grok Bot subscribers on Mac and iPhone; syncing to other devices needs Obsidian Sync",
+ "means": "If you keep your notes in Obsidian and already pay for Grok Bot, it can now file, search and link notes for you.",
+ "todo": "Try it on a test vault or a copy of your notes first, since the bot can change files. To see its edits on your phone, Obsidian Sync must be on.",
  "apps": [
   "Obsidian",
   "Grok"
@@ -16,9 +19,14 @@
   {
    "name": "AlternativeTo",
    "url": "https://alternativeto.net/news/2026/11/grok-bot-connects-to-obsidian-vaults-to-manage-notes-and-files/"
+  },
+  {
+   "name": "xAI",
+   "url": "https://x.ai/news/introducing-grok-bot"
   }
  ],
  "item": 156851,
- "idea": "newcomer",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "thumb_words": "GROK BOT NOW WORKS IN OBSIDIAN"
 }

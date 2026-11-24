@@ -4,10 +4,9 @@
  "added": "2026-11-24",
  "checked": "2026-11-24",
  "topic": "Security",
- "tag": "Quick",
- "quick": true,
- "head": "Pakistan's National CERT urges WhatsApp updates over five flaws",
- "dek": "Pakistan's National CERT says five WhatsApp flaws, fixed in updates from May and November, could expose IP addresses or run disguised files on Android, iPhone, Mac and Windows; most need you to open a crafted message or file. Update WhatsApp and WhatsApp Business from the official store and avoid modified versions.",
+ "tag": "Safety",
+ "head": "WhatsApp security update: Pakistan's CERT warns of five flaws",
+ "dek": "Pakistan's National CERT says five WhatsApp flaws, fixed in updates from May and November 2026, could expose your IP address, delete files stored on the device or run harmful files disguised as documents. They affect WhatsApp and WhatsApp Business on Android, iPhone, Mac and Windows.",
  "apps": [
   "WhatsApp",
   "WhatsApp Business"
@@ -19,6 +18,11 @@
   }
  ],
  "item": 155706,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "The advisory came out on 23 November. It names one flaw, CVE-2026-23871, which may have been used through certain spam messages; WhatsApp says the other four haven't been seen in attacks. Most of them only work if you open or tap a specially made message, link or file. Other possible effects include reading limited chat database details and handling harmful media files or links.",
+ "where": "WhatsApp and WhatsApp Business on Android, iPhone, Mac and Windows; advisory from Pakistan, the fixes apply everywhere",
+ "means": "If your WhatsApp hasn't updated since spring, a message or file from a stranger could do more than it should.",
+ "todo": "Update WhatsApp and WhatsApp Business from the App Store, Google Play or WhatsApp's own site, and turn on automatic updates. Don't use modified versions of WhatsApp. Don't open unexpected files or links from unknown senders, and on Windows check a file's type before you open it. Block and report suspicious accounts in the app.",
+ "thumb_words": "WHATSAPP: 5 FLAWS, UPDATE NOW"
 }

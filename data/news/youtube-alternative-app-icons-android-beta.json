@@ -4,11 +4,10 @@
  "added": "2026-11-24",
  "checked": "2026-11-24",
  "topic": "Video",
- "tag": "Quick",
- "quick": true,
+ "tag": "In testing",
  "rumor": true,
- "head": "YouTube is testing seven alternative app icons on Android",
- "dek": "A teardown of YouTube beta 21.47.483 for Android found an \"App icon\" option under General settings with seven icons, among them a version of the original logo and a retro TV shape. Google hasn't announced it, and it's not clear whether it will need Premium.",
+ "head": "YouTube app icon change spotted in Android beta, with seven icons",
+ "dek": "YouTube beta 21.47.483 for Android has a hidden \"App icon\" option under General settings, below Appearance, with seven icons to pick from, The Mobile Indian found after turning it on. Google hasn't announced it.",
  "apps": [
   "YouTube"
  ],
@@ -16,9 +15,18 @@
   {
    "name": "The Mobile Indian",
    "url": "https://themobileindian.com/news/youtube-app-icon-customisation-with-7-new-options-could-be-coming"
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/new-youtube-icons-3722271/"
   }
  ],
  "item": 155044,
- "idea": "news",
- "traction": 23
+ "idea": "request",
+ "traction": 23,
+ "details": "Android Authority first found three of the icons in YouTube 21.41.525 in October: a monochrome play button, a glossy frosting-like one and one with an old CRT screen effect. The newer beta adds four: the original \"You Tube\" logo, the TV-shaped icon of YouTube's first iPhone app, and two experimental textured designs. It's not known whether it will need YouTube Premium, and features found in test builds may never ship.",
+ "where": "Hidden in YouTube's Android beta; not available to users yet",
+ "means": "If you like changing how your home screen looks, YouTube may let you swap its icon for a retro one, but it isn't out.",
+ "todo": "Nothing to do yet; the option is hidden even in the beta.",
+ "thumb_words": "YOUTUBE RETRO APP ICONS COMING?"
 }

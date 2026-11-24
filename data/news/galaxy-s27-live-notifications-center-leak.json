@@ -4,11 +4,10 @@
  "added": "2026-11-24",
  "checked": "2026-11-24",
  "topic": "Samsung",
- "tag": "Quick",
- "quick": true,
+ "tag": "Leak",
  "rumor": true,
- "head": "Galaxy S27 may move Live Notifications to the center, like Dynamic Island",
- "dek": "Changes spotted by SamMobile in One UI 9.5 suggest the Now Bar's Live Notifications, such as timers and directions, would move from the top-left corner to around the centered selfie camera, with left and right swipes between them, Tech Advisor reports. Samsung hasn't confirmed it.",
+ "head": "Galaxy S27 may get a Dynamic Island-style Now Bar, leak suggests",
+ "dek": "Changes spotted by SamMobile in One UI 9.5 suggest the Now Bar's Live Notifications, such as timers and directions, would move from the top-left corner to the top center around the selfie camera, Tech Advisor reports. Samsung hasn't confirmed it.",
  "apps": [
   "One UI"
  ],
@@ -22,6 +21,11 @@
  "items": [
   153351
  ],
- "idea": "news",
- "traction": 23
+ "idea": "request",
+ "traction": 23,
+ "details": "Instead of moving up and down through them, you would swipe left and right through a stack of Live Notifications, without opening the bar first, as on the iPhone's Dynamic Island. One UI 9.5 is expected to debut on the Galaxy S27 series. Xiaomi, Honor, Oppo, OnePlus and Realme already have similar designs.",
+ "where": "Seen in One UI 9.5; expected with the Galaxy S27, not confirmed",
+ "means": "If you own or plan to buy a Galaxy, timers, directions and other live updates may sit at the top center with a swipe between them.",
+ "todo": "Nothing to do yet.",
+ "thumb_words": "GALAXY S27 GETS DYNAMIC ISLAND?"
 }

@@ -2,8 +2,8 @@
  "slug": "tetsuo-percussion-synth-app",
  "date": "2026-11-23",
  "topic": "Music",
- "head": "TETSUO, a $3.99 percussion synth, enters the paid Music chart",
- "dek": "TETSUO is a drum machine for iPhone and iPad that builds every hit from one synthesized voice, with no samples, and records knob settings into up to eight sections. It was #85 among paid Music apps on the US App Store on 23 November.",
+ "head": "TETSUO app: a $3.99 drum synth for iPhone and iPad with no samples",
+ "dek": "TETSUO builds every drum sound from one synthesized voice instead of samples, with a filter, bitcrusher and waveshaper to push it, and records knob settings into up to eight sections that play back in a loop. It was #85 among paid Music apps on the US App Store on 23 November.",
  "apps": [
   "TETSUO"
  ],
@@ -14,10 +14,14 @@
   }
  ],
  "item": 160352,
- "idea": "newcomer",
+ "idea": "request",
  "traction": 0,
  "added": "2026-11-24",
  "checked": "2026-11-24",
- "tag": "Quick",
- "quick": true
+ "tag": "New app",
+ "details": "The app came out on 30 September and costs $3.99 with no in-app purchases listed. Version 1.1 added a reworked sound engine and 15 factory presets, and a Classic switch keeps the old sound for earlier work. It works as a standalone app and as an AUv3 plugin in music apps, follows the host's tempo, and supports MIDI control. It's made by Anthony Moran and needs iOS or iPadOS 15.6 or later.",
+ "where": "iPhone and iPad, $3.99 on the App Store",
+ "means": "If you make beats on an iPhone or iPad, this is a sample-free drum voice for $3.99 that you can play on its own or inside your music app.",
+ "todo": "Get it from the App Store, start from one of the 15 presets and save your own changes under a new name.",
+ "thumb_words": "TETSUO: $3.99 DRUM SYNTH, NO SAMPLES"
 }

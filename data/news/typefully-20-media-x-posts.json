@@ -4,20 +4,28 @@
  "added": "2026-11-24",
  "checked": "2026-11-24",
  "topic": "Social",
- "tag": "Quick",
- "head": "Typefully now fits up to 20 photos and videos in one X post",
- "dek": "The post scheduler raised its limit for X posts from four to 20 photos, videos and GIFs, and teams can now schedule quotes before the original post goes out on X, LinkedIn, Threads, Bluesky, Mastodon and Substack.",
- "quick": true,
+ "tag": "New feature",
+ "head": "Typefully now lets you add up to 20 photos and videos to an X post",
+ "dek": "The post scheduler Typefully raised its limit for a single X post from four to 20 photos, videos and GIFs, and teams can now schedule quotes of a post before the original goes out. Typefully added both on 18 November.",
  "apps": [
   "Typefully"
  ],
  "sources": [
+  {
+   "name": "Typefully changelog",
+   "url": "https://typefully.com/changelog/schedule-quotes"
+  },
   {
    "name": "AlternativeTo",
    "url": "https://alternativeto.net/news/2026/11/typefully-brings-20-media-x-posts-and-scheduled-quotes/"
   }
  ],
  "item": 156850,
- "idea": "newcomer",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "The 20-item limit also covers drafts made through Typefully's API and its MCP connection. A scheduled quote is set with a delay, such as 30 minutes after the post, and can come from any account set in the workspace. If the post is rescheduled or goes out early, its quotes follow; if it's deleted, they stay as posts of their own. Quotes work on X, LinkedIn, Threads, Bluesky, Mastodon and Substack.",
+ "where": "Typefully on the web, for X posts; scheduled quotes on six networks, out now",
+ "means": "If you post photo dumps or product shots to X through Typefully, one post can now hold up to 20 of them instead of four.",
+ "todo": "In the editor, use the Quote button (Repost on LinkedIn), pick the account, write the quote and set its delay.",
+ "thumb_words": "TYPEFULLY: 20 PHOTOS PER X POST"
 }

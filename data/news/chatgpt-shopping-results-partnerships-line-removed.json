@@ -4,10 +4,9 @@
  "added": "2026-11-24",
  "checked": "2026-11-24",
  "topic": "Shopping",
- "tag": "Quick",
- "quick": true,
- "head": "ChatGPT shopping help page drops 'not influenced by partnerships' line",
- "dek": "OpenAI's help page for shopping in ChatGPT no longer says product results aren't influenced by OpenAI partnerships; it now only says they aren't ads, Search Engine Roundtable reports. OpenAI hasn't said whether partnerships now play a part.",
+ "tag": "Heads-up",
+ "head": "ChatGPT shopping: help page drops 'no partnership influence' line",
+ "dek": "OpenAI's help page on shopping in ChatGPT used to say product results were picked independently and not influenced by any OpenAI partnerships; that line is gone. The page now says only that product results aren't ads and explains how products and merchants are picked.",
  "apps": [
   "ChatGPT"
  ],
@@ -22,6 +21,11 @@
   }
  ],
  "item": 156562,
- "idea": "news",
- "traction": 18
+ "idea": "request",
+ "traction": 18,
+ "details": "An archived copy from 4 November still had the old wording; Search Engine Roundtable reported the change on 23 November. The page now says ChatGPT weighs your question and context such as Memory and custom instructions, plus product data from the merchants themselves and other providers, and ranks merchants by things like availability, price and quality. Shopify shop data reaches ChatGPT through Shopify Catalog, and merchants can apply to send their own feeds. OpenAI hasn't said whether partnerships now play a part.",
+ "where": "ChatGPT on the web and in the mobile apps, everywhere shopping results show",
+ "means": "If you use ChatGPT to pick what to buy, the page no longer promises that OpenAI's business deals stay out of the results.",
+ "todo": "Compare prices and reviews on a second site before you buy. Use the thumbs up or down icon on a result, or the in-product report menu, if a result looks wrong.",
+ "thumb_words": "CHATGPT DROPS 'NO PARTNERSHIPS' LINE"
 }

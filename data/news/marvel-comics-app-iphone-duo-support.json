@@ -4,20 +4,24 @@
  "added": "2026-11-24",
  "checked": "2026-11-24",
  "topic": "Entertainment",
- "tag": "Quick",
- "quick": true,
- "head": "Marvel Comics app now fits the iPhone Duo and allows screenshots",
- "dek": "The new Marvel Comics app, which replaced Marvel Unlimited on 16 November, adjusted its margins for the foldable iPhone Duo and dropped its block on screenshots and screen recording on all devices; landscape reading is planned.",
+ "tag": "Update",
+ "head": "Marvel Comics app update: iPhone Duo support and screenshots allowed",
+ "dek": "The new Marvel Comics app, which launched on 16 November to replace Marvel Unlimited, now fits the foldable iPhone Duo's screen and no longer blocks screenshots and screen recording. Landscape reading on all devices is planned for a later update.",
+ "details": "At launch, iPhone Duo readers got a narrow portrait window with black bars at the sides; the margins are now adjusted. The screenshot block is gone on Android and iPhone, after readers asked to share panels. Marvel Unlimited is being shut down. Annual plans are 30% off until 2 December at 11:59 pm Eastern: Standard $48.99 instead of $69.99, Ultimate $69.99 instead of $99.99, renewing at the regular price after a year.",
+ "where": "Marvel Comics app on iPhone, Android and desktop; annual-plan offer until 2 December",
+ "means": "If you read on an iPhone Duo or want to share a favourite panel, the app now lets you.",
+ "todo": "Update the Marvel Comics app. If you're moving from Marvel Unlimited and want a yearly plan, the discount shows by itself until 2 December, with no code.",
  "apps": [
   "Marvel Comics"
  ],
  "item": 159118,
- "idea": "news",
+ "idea": "request",
  "traction": 0,
  "sources": [
   {
    "name": "Good e-Reader",
    "url": "https://goodereader.com/blog/digital-comic-news/new-marvel-app-has-iphone-duo-support"
   }
- ]
+ ],
+ "thumb_words": "MARVEL APP NOW FITS IPHONE DUO"
 }

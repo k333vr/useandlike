@@ -2,8 +2,12 @@
  "slug": "samsung-gallery-photo-stitching-one-ui-9-5",
  "date": "2026-11-23",
  "topic": "Samsung",
- "head": "Samsung Gallery adds photo stitching in the One UI 9.5 beta",
- "dek": "The One UI 9.5 beta for the Galaxy S26 series lets Samsung Gallery join screenshots and photos side by side or top to bottom without cropping them. Select the pictures, tap Create, then Collage, and pick one of the stitching layouts.",
+ "head": "Samsung Gallery can stitch photos together in the One UI 9.5 beta",
+ "dek": "Samsung Gallery in the One UI 9.5 beta can now combine photos and screenshots into one picture, side by side or stacked, without cropping them. The option sits in the Collage menu, so you no longer need a separate stitching app.",
+ "details": "Each picture keeps its original size, unlike the fixed collage grids that cut off edges. An X user called @smasithick found it while testing the first One UI 9.5 beta on a Galaxy S26 Ultra. The beta is open for the Galaxy S26 series in some markets, with more Galaxy phones expected in the next few weeks. The final One UI 9.5 is expected with the Galaxy S27 series in early 2027.",
+ "where": "Galaxy S26 series in the One UI 9.5 beta, some markets; stable version expected in early 2027",
+ "means": "If you join long chat screenshots or receipts with another app, Samsung's own Gallery will do it once One UI 9.5 reaches your phone.",
+ "todo": "On the beta: select the pictures in Gallery, tap Create, then Collage, and tap the third or fourth layout icon from the left. Zoom into the preview to check the edges before you save. On other Galaxy phones, nothing to do yet.",
  "apps": [
   "Samsung Gallery",
   "One UI"
@@ -15,10 +19,10 @@
   }
  ],
  "item": 158256,
- "idea": "news",
+ "idea": "request",
  "traction": 0,
  "added": "2026-11-24",
  "checked": "2026-11-24",
- "tag": "Quick",
- "quick": true
+ "tag": "New feature",
+ "thumb_words": "SAMSUNG GALLERY STITCHES PHOTOS"
 }
