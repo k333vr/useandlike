@@ -4,10 +4,9 @@
  "added": "2026-11-25",
  "checked": "2026-11-25",
  "topic": "Google",
- "tag": "Quick",
- "head": "Android Auto bug shows a black screen instead of Google Maps for some drivers",
- "dek": "Some drivers, most of them in Ford cars, report that Google Maps doesn't load when Android Auto starts, leaving the map black. Google hasn't commented; tapping the phone's screen or clearing the Maps and Android Auto cache and restarting helped some users.",
- "quick": true,
+ "tag": "Heads-up",
+ "head": "Android Auto black screen: Google Maps not loading for some drivers",
+ "dek": "Some Android Auto users report that Google Maps doesn't load when Android Auto starts, so the car's screen shows black where the map should be. Most reports come from Ford owners, and Google hasn't commented yet.",
  "apps": [
   "Android Auto",
   "Google Maps"
@@ -19,6 +18,11 @@
   }
  ],
  "item": 166542,
- "idea": "news",
- "traction": 22
+ "idea": "request",
+ "traction": 22,
+ "details": "The problem shows up at random. In a second version of it, a black bar covers part of the map or the whole map area goes blank. Android Authority says it isn't clear whether only Ford cars are affected, and no phone models or Android versions are named. The fixes so far come from users and may only work for a while.",
+ "where": "Some Android Auto users, most reports from Ford owners; no fix from Google yet",
+ "means": "If your car's screen goes black when Android Auto opens Google Maps, you're not alone, and it may not be your phone or your car.",
+ "todo": "Try what helped other drivers: tap your phone's screen to wake it, or switch to another screen on the car (one Ford driver used zone lighting) and back to Android Auto. If a black bar or blank map keeps coming back, clear the cache of Google Maps and Android Auto in your phone's app settings, then restart the phone.",
+ "thumb_words": "ANDROID AUTO: GOOGLE MAPS GOES BLACK"
 }

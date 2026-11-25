@@ -2,8 +2,8 @@
  "slug": "ruke-knit-knitting-pattern-app",
  "date": "2026-11-24",
  "topic": "Lifestyle",
- "head": "Ruke Knit: knitting pattern app with step-by-step instructions",
- "dek": "Ruke Knit, new on iPhone and iPad, has knitting patterns you follow and check off step by step in the app, plus some video tutorials; it costs $9.99, and a $9.99 monthly subscription unlocks all its subscription patterns.",
+ "head": "Ruke Knit knitting pattern app: follow patterns step by step on iPhone",
+ "dek": "Ruke Knit, out since 24 November for iPhone and iPad, lets you pick a knitting pattern and size, then follow the instructions in the app and check off each step as you go. It costs $9.99, and a $9.99 monthly subscription opens all its subscription patterns.",
  "apps": [
   "Ruke Knit"
  ],
@@ -14,10 +14,14 @@
   }
  ],
  "item": 168311,
- "idea": "newcomer",
+ "idea": "request",
  "traction": 0,
  "added": "2026-11-25",
  "checked": "2026-11-25",
- "tag": "Quick",
- "quick": true
+ "tag": "New app",
+ "details": "You can preview a pattern's sizes and materials before you start; some patterns have video tutorials for harder techniques and linked articles that explain them. Finished and started projects are kept in your profile. Subscription patterns are read in the app, not downloaded as PDFs. The maker is MB Ruke; on 25 November it was #25 among paid Lifestyle apps on the US App Store.",
+ "where": "iPhone and iPad (iOS 15 or later), $9.99, out since 24 November",
+ "means": "If you knit from paper or PDF patterns and lose your place, the app keeps the steps as a checklist, but you pay for the app and again for the pattern library.",
+ "todo": "Read the App Store listing before buying. If you take the monthly plan, cancel at least 24 hours before it renews; deleting the app doesn't cancel it.",
+ "thumb_words": "RUKE KNIT: PATTERNS STEP BY STEP"
 }

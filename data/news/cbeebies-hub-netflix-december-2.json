@@ -4,20 +4,24 @@
  "added": "2026-11-25",
  "checked": "2026-11-25",
  "topic": "Streaming",
- "tag": "Quick",
- "quick": true,
- "head": "CBeebies hub comes to Netflix on 2 December",
- "dek": "The BBC is putting 24 CBeebies preschool shows, including Hey Duggee, Numberblocks and Teletubbies, in their own hub on Netflix from 2 December in the UK, Ireland, the US, Canada and Australia, as a six-month trial. The full CBeebies library stays on BBC iPlayer.",
+ "tag": "New feature",
+ "head": "CBeebies shows on Netflix from 2 December in a new hub",
+ "dek": "The BBC is putting 24 CBeebies preschool shows, including Hey Duggee, Numberblocks and Teletubbies, in their own hub on Netflix from 2 December in the UK, Ireland, the US, Canada and Australia, as a six-month trial.",
  "apps": [
   "Netflix"
  ],
  "item": 163964,
- "idea": "news",
+ "idea": "request",
  "traction": 0,
  "sources": [
   {
    "name": "Memorable TV",
    "url": "https://www.memorabletv.com/news/cbeebies-opens-branded-hub-netflix-six-month-trial-bbc/"
   }
- ]
+ ],
+ "details": "The full CBeebies library stays on BBC iPlayer; Netflix gets a selection. Netflix is also paying for a small number of new CBeebies shows. The BBC says it will judge the trial by how many more families it reaches and whether viewers know the shows come from the BBC.",
+ "where": "Netflix in the UK, Ireland, the US, Canada and Australia, from 2 December, for six months",
+ "means": "If your kids watch CBeebies and you have Netflix, two dozen of its shows will sit in one place in the app from 2 December.",
+ "todo": "Look for the CBeebies hub in Netflix from 2 December; for the full library, use BBC iPlayer in the UK.",
+ "thumb_words": "CBEEBIES HUB ON NETFLIX DEC 2"
 }

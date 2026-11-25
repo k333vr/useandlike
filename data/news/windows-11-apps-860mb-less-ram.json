@@ -4,10 +4,9 @@
  "added": "2026-11-25",
  "checked": "2026-11-25",
  "topic": "Windows",
- "tag": "Quick",
- "head": "Microsoft 365, Defender and OneDrive now use about 860 MB less RAM",
- "dek": "Microsoft said at Ignite 2026 that Office now uses 360 MB less memory on Windows 11 and Defender, Purview and OneDrive together over half a gigabyte less.",
- "quick": true,
+ "tag": "Update",
+ "head": "Windows 11 RAM usage: Microsoft's own apps now use 860 MB less",
+ "dek": "Microsoft said at Ignite 2026 that its own apps on Windows 11 now use over 860 MB less memory: Office 360 MB less, and Defender, Purview and OneDrive together over half a gigabyte less.",
  "apps": [
   "Windows 11",
   "Microsoft 365",
@@ -20,6 +19,11 @@
   }
  ],
  "item": 168354,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "Windows also skips loading some parts it used to load, and parts built on the same frameworks now share memory. Microsoft says Office apps run about 10% faster on 8 GB PCs, and that some of the changes came with the October 2026 update. The work since January aimed at 8 GB and 16 GB PCs, partly because memory prices have gone up. In Windows Latest's own test, an 8 GB laptop used about 3.3 GB after a restart on 26H2, down from about 5 GB on 25H2.",
+ "where": "Windows 11 PCs, part of it with the October 2026 update",
+ "means": "If your PC has 8 or 16 GB of memory, more of it is left for your own apps and browser tabs once the updates are in.",
+ "todo": "Install the latest Windows and Microsoft 365 updates in Settings, Windows Update, then restart the PC.",
+ "thumb_words": "WINDOWS 11 APPS USE 860 MB LESS RAM"
 }

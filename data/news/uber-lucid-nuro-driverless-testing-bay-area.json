@@ -2,10 +2,9 @@
  "slug": "uber-lucid-nuro-driverless-testing-bay-area",
  "date": "2026-11-24",
  "topic": "Travel",
- "tag": "Quick",
- "quick": true,
- "head": "Uber's Lucid robotaxis start driverless tests in the Bay Area",
- "dek": "Uber, Lucid and Nuro began testing their robotaxis with no one at the wheel in Palo Alto, Mountain View, Los Altos and Sunnyvale. Rides for the public through the Uber app are planned for early 2027.",
+ "tag": "Update",
+ "head": "Uber robotaxi with Lucid starts driverless tests in the Bay Area",
+ "dek": "Uber, Lucid and Nuro began testing their robotaxis with no one at the wheel in Palo Alto, Mountain View, Los Altos and Sunnyvale. Public rides through the Uber app are planned for early 2027.",
  "apps": [
   "Uber"
  ],
@@ -16,8 +15,13 @@
   }
  ],
  "item": 163767,
- "idea": "news",
+ "idea": "request",
  "traction": 0,
  "added": "2026-11-25",
- "checked": "2026-11-25"
+ "checked": "2026-11-25",
+ "details": "The car is a modified Lucid Gravity driven by Nuro's self-driving system, with cameras, lidar and radar. Tests with a driver at the wheel began in December 2025, and California's DMV gave a driverless testing permit in May 2026. Employee rides come next, and more Bay Area cities are planned for next year. Uber has committed to buying 35,000 of these robotaxis.",
+ "where": "US, Bay Area: testing now, public rides planned for the first quarter of 2027",
+ "means": "If you use Uber in the Bay Area, you may be able to call a car with no driver through the app from early 2027.",
+ "todo": "Nothing to do yet: public rides haven't started.",
+ "thumb_words": "UBER ROBOTAXI: NO DRIVER AT THE WHEEL"
 }

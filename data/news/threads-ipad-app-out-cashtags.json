@@ -4,10 +4,9 @@
  "added": "2026-11-25",
  "checked": "2026-11-25",
  "topic": "Social",
- "tag": "Quick",
+ "tag": "New feature",
  "head": "Threads iPad app is out, and cashtags show live stock prices",
- "dek": "Threads now has its own iPad app, released in an overnight update. Cashtags such as a $ and a ticker open a page with live quotes and charts for NYSE and Nasdaq stocks, ETFs and crypto, rolling out on web, iPhone and Android.",
- "quick": true,
+ "dek": "Meta's Threads now has its own app for the iPad's big screen, released in an overnight update on 24 November. Threads is also adding cashtags: a $ sign and a stock ticker that open a page with live prices and charts.",
  "apps": [
   "Threads"
  ],
@@ -15,9 +14,18 @@
   {
    "name": "TechCrunch",
    "url": "https://techcrunch.com/2026/11/24/threads-comes-to-ipad-and-takes-a-page-from-xs-playbook-with-cashtags/"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/threads/id6446901002"
   }
  ],
  "item": 165500,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "On iPad, the app fits well upright; turned sideways it keeps one column with the main feed, not the several columns of the web version. Swipe right for search and left for the feeds menu. Cashtags cover stocks on the NYSE and Nasdaq, ETFs and crypto, and search suggestions show a stock's current price and its change in percent. Meta said earlier this year that Threads has more than 500 million monthly users.",
+ "where": "iPad app out now (free on the App Store); cashtags rolling out on web, iPhone and Android",
+ "means": "If you use Threads on an iPad, you no longer need the stretched iPhone version. If you follow stocks or crypto, cashtags give you prices and the talk about them in one place.",
+ "todo": "Update Threads from the App Store to get the iPad version. Type $ and a ticker in a post or in search to try cashtags; if nothing shows yet, it's still rolling out.",
+ "thumb_words": "THREADS LANDS ON IPAD"
 }

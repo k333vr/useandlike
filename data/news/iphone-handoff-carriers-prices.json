@@ -4,10 +4,9 @@
  "added": "2026-11-25",
  "checked": "2026-11-25",
  "topic": "Apple",
- "tag": "Quick",
- "head": "iPhone Handoff carriers: T-Mobile, EE and Telekom charge for one number on two iPhones",
+ "tag": "Price change",
+ "head": "iPhone Handoff on iOS 27: which carriers support it and what it costs",
  "dek": "iOS 27's iPhone Handoff, which moves your number between two iPhones, works on T-Mobile ($5 a month), EE (£5) and Telekom in Germany (€6.95). Verizon says it will add it for $10 a month with no date, and AT&T has no plans.",
- "quick": true,
  "apps": [
   "iPhone"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 164078,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "Your number moves to whichever iPhone you unlock, with calls, voicemail, messages and Find My location. Both phones need iOS 27, Wi-Fi, the same Apple Account, Messages in iCloud, and FaceTime and iMessage on that account. AT&T points customers to its eSIM transfer options instead. No other carrier has promised support yet.",
+ "where": "T-Mobile (US), EE (UK) and Telekom (Germany) now; Verizon later",
+ "means": "If you carry two iPhones, you can keep one number on both, but only on these carriers and for a monthly fee.",
+ "todo": "Check that both iPhones run iOS 27 and that Messages in iCloud is on, then ask your carrier whether it offers iPhone Handoff.",
+ "thumb_words": "IPHONE HANDOFF: $5 TO $10 A MONTH"
 }

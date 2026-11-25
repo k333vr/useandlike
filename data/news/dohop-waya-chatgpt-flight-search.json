@@ -2,8 +2,8 @@
  "slug": "dohop-waya-chatgpt-flight-search",
  "date": "2026-11-24",
  "topic": "Travel",
- "head": "Dohop's WAYA flight search now works inside ChatGPT",
- "dek": "Travel company Dohop added its WAYA flight search to ChatGPT: you pick a direct or multi-airline trip in the chat, then book it on the airline's checkout page, where you can add seats and bags.",
+ "head": "ChatGPT flight search: Dohop's WAYA plugin finds bookable flights",
+ "dek": "Travel company Dohop added its WAYA flight search to ChatGPT: you pick a direct or multi-airline trip in the chat, then book it on the airline's own checkout page, where you can add seats and bags.",
  "apps": [
   "ChatGPT",
   "WAYA"
@@ -15,10 +15,15 @@
   }
  ],
  "item": 162537,
- "idea": "news",
+ "idea": "request",
  "traction": 0,
  "added": "2026-11-25",
  "checked": "2026-11-25",
- "tag": "Quick",
- "quick": true
+ "tag": "New feature",
+ "details": "Dohop runs connected-flight booking for more than 15 airline sites, including easyJet's Flight Connections and Wizz Air's WIZZ LINK. Airlines on its platform can turn the plugin on now. Dohop plans to let an AI assistant finish a booking for you later. The release doesn't give prices, countries or whether a paid ChatGPT plan is needed.",
+ "where": "ChatGPT, through the WAYA flight search plugin, available now",
+ "means": "If you plan trips in ChatGPT, you can look for flights there and still pay the airline directly instead of a middleman.",
+ "todo": "Add the WAYA flight search plugin in ChatGPT and compare the price on the airline's checkout page before you pay.",
+ "thumb_words": "CHATGPT NOW FINDS BOOKABLE FLIGHTS",
+ "category": "Travel"
 }

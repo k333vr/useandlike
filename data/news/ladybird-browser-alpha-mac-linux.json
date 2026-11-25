@@ -4,20 +4,28 @@
  "added": "2026-11-25",
  "checked": "2026-11-25",
  "topic": "Apps",
- "tag": "Quick",
- "head": "Ladybird browser alpha is out for Mac and Linux",
- "dek": "The independent Ladybird browser, built on its own engine rather than Chrome's, Firefox's or Safari's, now has a free alpha download for macOS and Linux; the team warns some sites won't work and crashes are expected.",
- "quick": true,
+ "tag": "New app",
+ "head": "Ladybird browser alpha: first download for Mac and Linux",
+ "dek": "Ladybird, an independent browser with its own engine rather than one based on Chrome, Firefox or Safari, released its first alpha on 23 November, the first version you can download instead of building it yourself. It's for macOS and Linux.",
  "apps": [
   "Ladybird"
  ],
  "sources": [
+  {
+   "name": "Ladybird",
+   "url": "https://ladybird.org/posts/alpha/"
+  },
   {
    "name": "AlternativeTo",
    "url": "https://alternativeto.net/news/2026/11/ladybird-web-browser-enters-alpha-offering-first-public-downloads-for-macos-and-linux-users/"
   }
  ],
  "item": 158295,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "The team says some websites won't work and the browser will sometimes crash. You can report a broken site from inside the browser, and after a crash you can read the report and choose whether to send it. The alpha updates itself regularly; AlternativeTo lists it as free and open source. The project makes no security promises yet, gives no date for a beta or full release, and doesn't mention Windows.",
+ "where": "macOS and Linux, alpha out since 23 November; no Windows version mentioned",
+ "means": "If you like trying new software, you can test a browser that doesn't share its engine with Chrome, Firefox or Safari. It isn't meant to be your only browser yet.",
+ "todo": "Download it from ladybird.org on a Mac or Linux computer if you want to try it, and keep your usual browser for banking and anything important, since the team makes no security promises yet.",
+ "thumb_words": "LADYBIRD BROWSER ALPHA IS OUT"
 }

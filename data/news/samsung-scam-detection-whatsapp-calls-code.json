@@ -3,8 +3,8 @@
  "date": "2026-11-23",
  "topic": "Security",
  "rumor": true,
- "head": "Samsung may warn of scam and deepfake voices in WhatsApp and Telegram calls",
- "dek": "Code in One UI 9.5 Beta 1, found by Android Authority, shows Scam Detection checking calls in 14 apps such as WhatsApp, Telegram, Signal and Messenger, on the phone itself; it's set for South Korea and China first, and Samsung hasn't announced it.",
+ "head": "Samsung scam call detection may cover WhatsApp and Telegram calls",
+ "dek": "Code in One UI 9.5 Beta 1, found by Android Authority, shows Samsung's Scam Detection checking calls in other apps such as WhatsApp, Telegram, Signal and Messenger, with warnings about known scams and AI-faked voices. Samsung hasn't announced it.",
  "apps": [
   "Samsung",
   "WhatsApp",
@@ -17,10 +17,14 @@
   }
  ],
  "item": 155978,
- "idea": "news",
+ "idea": "request",
  "traction": 21,
  "added": "2026-11-25",
  "checked": "2026-11-25",
- "tag": "Quick",
- "quick": true
+ "tag": "In testing",
+ "details": "The code lists 14 apps, also KakaoTalk, Google Meet, LINE, WeChat and Instagram, but the final list could be much shorter and only installed apps would show. During a call, a notification would offer a check with Start and Stop buttons, and the analysis runs on the phone. South Korea would get it first, with China possibly next. The option doesn't show on the Galaxy S26 Ultra; the code points to a newer Galaxy AI version that may arrive around the Galaxy S27.",
+ "where": "Not out; found in One UI 9.5 Beta 1 code, South Korea first, then possibly China",
+ "means": "If you take calls on WhatsApp or Telegram, a future Galaxy phone may warn you during the call when it hears a known scam or a faked voice. Scam warnings on Galaxy phones today only cover regular phone calls.",
+ "todo": "Nothing to switch on yet. Until then, be careful with any call that asks for money or codes, and call the person back on a number you know.",
+ "thumb_words": "SAMSUNG SCAM ALERTS FOR WHATSAPP?"
 }

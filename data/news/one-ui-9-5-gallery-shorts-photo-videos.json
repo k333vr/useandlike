@@ -2,11 +2,10 @@
  "slug": "one-ui-9-5-gallery-shorts-photo-videos",
  "date": "2026-11-23",
  "topic": "Samsung",
- "tag": "Quick",
- "quick": true,
+ "tag": "Rumor",
  "rumor": true,
- "head": "Samsung Gallery may turn photos into short videos with a paid feature",
- "dek": "A feature called Shorts, reported by SamMobile, would make short clips from your photos and videos in Samsung Gallery, possibly as a paid Galaxy AI extra. It's still in development, isn't in the One UI 9.5 beta and Samsung hasn't confirmed it.",
+ "head": "Samsung Galaxy AI may turn Gallery photos into short videos",
+ "dek": "Samsung is reportedly working on Shorts, a Galaxy AI feature in the Gallery app that would make shareable clips from your photos and videos, according to SamMobile as reported by Android Authority. Samsung hasn't confirmed it, and it may cost extra.",
  "apps": [
   "Samsung Gallery"
  ],
@@ -17,8 +16,13 @@
   }
  ],
  "item": 155092,
- "idea": "news",
+ "idea": "request",
  "traction": 34,
  "added": "2026-11-25",
- "checked": "2026-11-25"
+ "checked": "2026-11-25",
+ "details": "You could describe what you want, such as photos from a recent trip, and Shorts would gather matching pictures and clips into a video, or make and edit one yourself; extra fonts and music may be downloadable. Finished clips would show in Gallery's Stories. The report suggests it could be part of a paid Galaxy AI Premium plan Samsung is said to be testing; Samsung has said basic Galaxy AI features stay free. It isn't in the One UI 9.5 beta for the Galaxy S26 and could come with the Galaxy S27 series, rumored for as early as January.",
+ "where": "Not out; reportedly in development, possibly with the Galaxy S27",
+ "means": "If you own a Galaxy phone, trip videos made from your photos may come built into Gallery, but possibly behind a subscription.",
+ "todo": "Nothing to do yet: it isn't in any released update, and Samsung hasn't said whether it will be paid.",
+ "thumb_words": "SAMSUNG GALLERY AI VIDEOS COMING?"
 }

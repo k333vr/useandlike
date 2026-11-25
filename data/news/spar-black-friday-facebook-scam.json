@@ -4,10 +4,9 @@
  "added": "2026-11-25",
  "checked": "2026-11-25",
  "topic": "Security",
- "tag": "Quick",
- "head": "Spar Black Friday giveaway link on Facebook is a scam",
- "dek": "A \"MySpar Black Friday Sale\" prize link shared in big South African Facebook groups leads to a phishing site; Spar says it isn't its promotion and it never asks people to claim prizes through random links.",
- "quick": true,
+ "tag": "Safety",
+ "head": "Spar Black Friday giveaway on Facebook is a phishing scam",
+ "dek": "A link going around Facebook in South Africa promises a free \"MySpar Black Friday Sale\" prize, but it leads to a phishing site that collects personal details. Spar says it isn't its promotion.",
  "apps": [
   "Facebook"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 164362,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "The post has spread in Facebook groups with hundreds of thousands of followers. Its preview promises that \"Spar Rewards\" will fill your wallet for free. Africa Check's antivirus flagged the site as phishing; scammers use such fake giveaways to collect details for fraud, and no prize comes. Spar says it will never ask people to claim a prize through a random link. Black Friday is on 27 November, and Africa Check expects more scams like this before the holidays.",
+ "where": "South Africa, on Facebook, before Black Friday on 27 November",
+ "means": "If you see a free Spar prize or Black Friday giveaway on Facebook, treat it as a scam unless Spar's own pages post it.",
+ "todo": "Don't open the link or type any personal details into it. Check competitions on Spar's own website (spar.co.za) or its official social media pages. Antivirus software on your phone or computer can block phishing pages like this one. If you already entered details, watch your accounts for anything unusual.",
+ "thumb_words": "SPAR BLACK FRIDAY GIVEAWAY IS A SCAM"
 }

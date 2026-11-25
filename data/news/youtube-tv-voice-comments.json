@@ -4,10 +4,9 @@
  "added": "2026-11-25",
  "checked": "2026-11-25",
  "topic": "Video",
- "tag": "Quick",
- "head": "YouTube on smart TVs now lets you comment with your voice",
- "dek": "Voice comments are live worldwide on supported smart TVs: open the comments, pick Use Voice and speak into the remote's microphone; Use your phone opens the same comments in the YouTube phone app. Not every TV has it, and YouTube hasn't listed which do.",
- "quick": true,
+ "tag": "New feature",
+ "head": "YouTube comments on TV: you can now comment with your voice",
+ "dek": "The YouTube app on supported smart TVs now lets you write a comment by speaking into your remote, with your words shown as text before you post. YouTube CEO Neal Mohan said on 23 November that it's live worldwide.",
  "apps": [
   "YouTube"
  ],
@@ -18,6 +17,11 @@
    "url": "https://www.digitaltrends.com/home-theater/youtube-now-lets-you-comment-from-the-tv-with-your-voice/"
   }
  ],
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "YouTube first said in early October that it was rolling out on most supported smart TVs. It hasn't published a list of TVs that have it and says many TVs do, but not all. A second option, Use your phone, opens the comments of what's playing in the YouTube app on your phone, if both are signed in to the same Google Account.",
+ "where": "Worldwide, YouTube app on supported smart TVs, out now",
+ "means": "If typing with the remote kept you from commenting, you can now speak a comment, or type a longer one on your phone.",
+ "todo": "Select the video's title, open the comments, choose Comment as, then Use Voice. Press or hold the remote's microphone button, speak, then choose Send or Redo. If there's no Use Voice option, your TV doesn't have it.",
+ "thumb_words": "YOUTUBE ON TV: COMMENT BY VOICE"
 }

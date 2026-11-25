@@ -4,10 +4,9 @@
  "added": "2026-11-25",
  "checked": "2026-11-25",
  "topic": "Android",
- "tag": "Quick",
- "head": "Pixel November update still missing on T-Mobile, Mint and Tello",
- "dek": "Two weeks after Google's 10 November release, many Pixel phones on T-Mobile and the Mint and Tello networks are still on the October update, though a few owners now report it installing.",
- "quick": true,
+ "tag": "Heads-up",
+ "head": "Pixel November update not showing on T-Mobile, Mint and Tello",
+ "dek": "Two weeks after Google released the November Pixel Drop on 10 November, many Pixel phones on T-Mobile and the Mint and Tello networks are still on the October update, though a few owners now report it installing.",
  "apps": [
   "Google Pixel"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 164457,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "The delay reportedly hits several Pixel generations, including the Pixel 11 series. A few owners report it on a Pixel 11 Pro, Pixel 8a, Pixel 9a and Pixel 10 on T-Mobile. Neither Google nor T-Mobile has explained the delay. Some owners who installed it by hand report problems afterwards, such as wireless charging not working.",
+ "where": "US, Pixel phones on T-Mobile, Mint Mobile and Tello",
+ "means": "If your Pixel is on T-Mobile, Mint or Tello and still shows the October update, you're not alone: the update hasn't reached many phones on these networks yet.",
+ "todo": "Check Settings, System, Software updates from time to time. Installing it by hand has caused problems for some owners.",
+ "thumb_words": "PIXEL UPDATE LATE ON T-MOBILE"
 }

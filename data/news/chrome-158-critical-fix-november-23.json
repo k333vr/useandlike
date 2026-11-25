@@ -2,8 +2,8 @@
  "slug": "chrome-158-critical-fix-november-23",
  "date": "2026-11-23",
  "topic": "Security",
- "head": "Chrome 158 update fixes a critical bug on Windows, Mac and Linux",
- "dek": "Google's Chrome update of 23 November (158.0.8127.88/89 on desktop, 158.0.8127.92 on Android) fixes a critical flaw that could let code run outside Chrome's sandbox; no attacks using it were reported. Check under Help, About Google Chrome.",
+ "head": "Chrome update: version 158 fixes a critical sandbox bug",
+ "dek": "Google's Chrome update of 23 November fixes a critical flaw that could let code run outside the browser's sandbox, on Windows, Mac, Linux and Android. Google's release notes don't report any attacks using it.",
  "apps": [
   "Google Chrome"
  ],
@@ -14,10 +14,14 @@
   }
  ],
  "item": 166354,
- "idea": "news",
+ "idea": "request",
  "traction": 0,
  "added": "2026-11-25",
  "checked": "2026-11-25",
- "tag": "Quick",
- "quick": true
+ "tag": "Safety",
+ "details": "The fixed builds are 158.0.8127.88 or .89 on Windows and Mac, 158.0.8127.88 on Linux and 158.0.8127.92 on Android; managed computers on the Extended Stable channel get the same fix in 156.0.8078.114. The bug, CVE-2026-134401, is an input check problem in Chrome's Variations component and the only security fix in this release. Android gets it over several days, computers over days or weeks.",
+ "where": "Chrome on Windows, Mac, Linux and Android, rolling out from 23 November",
+ "means": "If Chrome hasn't restarted in a while, you may still be on an older build. Updating Chrome on your laptop doesn't update it on your phone.",
+ "todo": "On a computer, open the menu, then Help, About Google Chrome, let it update and click Relaunch. On Android, open Google Play, tap your profile, then Manage apps & device, and update Chrome. Check every device you use; on a work computer you can't update, tell IT.",
+ "thumb_words": "CHROME 158: CRITICAL BUG FIXED"
 }

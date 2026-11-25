@@ -2,8 +2,8 @@
  "slug": "disney-plus-fandango-avengers-doomsday-tickets",
  "date": "2026-11-23",
  "topic": "Streaming",
- "head": "Disney+ app now sells Avengers: Doomsday movie tickets in the US",
- "dek": "Since 23 November, US Disney+ subscribers, including bundle plans, can buy cinema tickets for Avengers: Doomsday (out 18 December) inside the app on TVs, phones and the web, through Fandango.",
+ "head": "Disney+ movie tickets: buy Avengers: Doomsday in the app (US)",
+ "dek": "Since 23 November, Disney+ subscribers in the US, on a standalone plan or a bundle, can buy cinema tickets for Avengers: Doomsday from inside the app on TVs, phones and the web, with Fandango handling the sale. The film opens on 18 December.",
  "apps": [
   "Disney+",
   "Fandango"
@@ -15,10 +15,14 @@
   }
  ],
  "item": 159961,
- "idea": "news",
+ "idea": "request",
  "traction": 0,
  "added": "2026-11-25",
  "checked": "2026-11-25",
- "tag": "Quick",
- "quick": true
+ "tag": "New feature",
+ "details": "After the film's newest trailer, the app offers a notification on your phone or a QR code on screen that leads to Fandango. Pausing shows a pause ad with the film's details and ways to buy on phone or web, and the Avengers: Doomsday page and other Marvel titles get a new Tickets tab. Disney+ Perks tied to the film, such as digital comics, products and in-game rewards, start in December. The report doesn't mention ticket prices or fees.",
+ "where": "US, Disney+ standalone and bundle plans, on TV, phone and web, from 23 November",
+ "means": "If you plan to see Avengers: Doomsday in a cinema, you can go from the trailer to a Fandango ticket without looking it up yourself.",
+ "todo": "Open the Avengers: Doomsday page in Disney+ and look for the Tickets tab, or watch the trailer and scan the QR code. Check the price and any fees on Fandango before you pay.",
+ "thumb_words": "DISNEY+ NOW SELLS AVENGERS TICKETS"
 }

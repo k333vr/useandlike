@@ -2,8 +2,8 @@
  "slug": "niva-free-browser-design-studio",
  "date": "2026-11-24",
  "topic": "Design",
- "head": "NIVA: free browser design studio with no templates and no AI",
- "dek": "Artist Stuart Semple launched NIVA, a free design tool in the browser that mixes photo editing, vector drawing and layout, with no subscription, templates or AI generation; TechRadar reports about 30,000 people tried it in the first 48 hours.",
+ "head": "NIVA free design tool: a browser studio with no templates or AI",
+ "dek": "British artist Stuart Semple has launched NIVA, a free design tool that runs in the browser and puts photo editing, vector drawing and page layout in one place. It has no subscription, no templates and no AI that makes the design for you.",
  "apps": [
   "NIVA"
  ],
@@ -14,10 +14,14 @@
   }
  ],
  "item": 166884,
- "idea": "news",
+ "idea": "request",
  "traction": 15,
  "added": "2026-11-25",
  "checked": "2026-11-25",
- "tag": "Quick",
- "quick": true
+ "tag": "New app",
+ "details": "Semple says he built it because he was worried about AI coming into professional design software. TechRadar reports about 30,000 people used it in the first 48 hours, and 56% of early users made something within 40 seconds of opening it. Nothing needs to be installed, and it's open to people worldwide. Semple said legal reasons made him start over partway through building it, without giving details.",
+ "where": "Free in the browser, worldwide; no download",
+ "means": "If you make flyers, posts or simple graphics and don't want a subscription or AI-made designs, NIVA is another free option to try next to tools like Canva.",
+ "todo": "Try it in your browser if you design things yourself. TechRadar doesn't list file formats or detailed features, so check that it saves the files you need before moving a project over.",
+ "thumb_words": "NIVA: FREE DESIGN TOOL, NO AI"
 }

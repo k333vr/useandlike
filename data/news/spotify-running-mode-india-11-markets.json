@@ -4,20 +4,28 @@
  "added": "2026-11-25",
  "checked": "2026-11-25",
  "topic": "Music",
- "tag": "Quick",
- "head": "Spotify's Running Mode reaches India and 10 more new markets",
- "dek": "From 24 November, Premium subscribers in India and 10 other new markets get Running Mode, which matches songs to your running pace, on iPhone and Android. It's in the Fitness hub, or search \"Running Mode\" in the app.",
- "quick": true,
+ "tag": "New feature",
+ "head": "Spotify Running Mode now in India and 10 more countries",
+ "dek": "Spotify Premium subscribers in India, Germany, the Netherlands, the Philippines, South Africa, Nigeria and five more countries can now use Running Mode, which builds a soundtrack that matches the beat to your running pace.",
  "apps": [
   "Spotify"
  ],
  "sources": [
+  {
+   "name": "Spotify Newsroom",
+   "url": "https://newsroom.spotify.com/2026-07-30/running-mode-playlist/"
+  },
   {
    "name": "Deccan Chronicle",
    "url": "https://www.deccanchronicle.com/entertainment/spotify-launches-running-mode-in-india-2007384"
   }
  ],
  "item": 159987,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "You pick one of 25 running presets, then set the workout type (interval, steady or pyramid), length, beats per minute and music mood. An optional coach in English gives cues while you run. The other new countries are Norway, Denmark, Finland, Austria and Switzerland. It launched in July in the US, Canada, the UK, Ireland, Australia, New Zealand and Sweden.",
+ "where": "Premium subscribers, iPhone and Android, 18 countries in all",
+ "means": "If you have Spotify Premium in one of the new countries, you can set up a guided run with music at your pace without making a playlist.",
+ "todo": "Open the Fitness hub in the Spotify app, or search \"Running Mode\".",
+ "thumb_words": "SPOTIFY RUNNING MODE IN 11 NEW COUNTRIES"
 }
