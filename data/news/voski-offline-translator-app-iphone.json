@@ -1,0 +1,27 @@
+{
+ "slug": "voski-offline-translator-app-iphone",
+ "date": "2026-11-24",
+ "topic": "Travel",
+ "tag": "New app",
+ "head": "VOSKI: offline translator app for iPhone for two people, one phone",
+ "dek": "VOSKI is a new 99-cent offline translator app for two people talking on one iPhone or iPad: each person speaks in turn and the app reads the translation aloud. It was #64 in paid Travel apps on the US App Store on 24 November.",
+ "details": "You pick two languages and tap the mic; the app works out who is speaking. Speech recognition, translation and voices run on the phone, without an AI chatbot or a server, after the language files download once. Which languages work depends on what your phone can translate on its own. It's a one-time purchase with no subscription, made by Dean Turpin, and needs iOS 26 or iPadOS 26; the listing says it collects no data.",
+ "where": "iPhone and iPad (iOS 26 or later), $0.99 one-time",
+ "means": "If you travel where data is expensive or patchy, this lets you have a back-and-forth conversation with someone without an internet connection.",
+ "todo": "Pick your two languages while you still have Wi-Fi, so the language files are on your phone before the trip.",
+ "apps": [
+  "VOSKI - offline translator"
+ ],
+ "sources": [
+  {
+   "name": "App Store: VOSKI - offline translator",
+   "url": "https://apps.apple.com/us/app/voski-offline-translator/id6825493421"
+  }
+ ],
+ "item": 168315,
+ "idea": "newcomer",
+ "traction": 0,
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "thumb_words": "VOSKI TRANSLATES WITHOUT INTERNET"
+}

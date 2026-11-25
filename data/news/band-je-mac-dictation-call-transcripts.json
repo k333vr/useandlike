@@ -1,0 +1,23 @@
+{
+ "slug": "band-je-mac-dictation-call-transcripts",
+ "date": "2026-11-23",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Productivity",
+ "tag": "Quick",
+ "head": "Band·je: Mac app for on-device dictation and call transcripts",
+ "dek": "Band·je types what you say into any app on a Mac in 25 languages and transcribes Zoom, Teams, Meet, FaceTime and phone calls without a bot joining, all on the device. It's free to try, then a one-time payment, and its code is open source.",
+ "quick": true,
+ "apps": [
+  "Band·je"
+ ],
+ "sources": [
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/band-je"
+  }
+ ],
+ "item": 160505,
+ "idea": "newcomer",
+ "traction": 0
+}

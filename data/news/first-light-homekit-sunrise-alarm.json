@@ -1,0 +1,27 @@
+{
+ "slug": "first-light-homekit-sunrise-alarm",
+ "date": "2026-11-24",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "First Light: sunrise alarm app for iPhone using your HomeKit lights",
+ "dek": "First Light fades your dimmable HomeKit lights up from red to daylight each morning, so you wake without an alarm sound. It costs 3.99 dollars once and was #87 among paid Lifestyle apps on the US App Store on 24 November.",
+ "details": "It needs an Apple TV or HomePod as a home hub; the sunrise runs on the hub, so it works when the iPhone is off. It works with lights from Philips Hue, IKEA, Nanoleaf, LIFX and Eve, with schedules, presets and Siri and Shortcuts support. There's no subscription, account, ads or tracking. The app, by Kevin Beckers, came out on 3 November; it plays no sound, so the maker suggests keeping a normal alarm as a backup.",
+ "where": "iPhone and iPad, App Store; 3.99 dollars, one-time purchase",
+ "means": "If you already have smart bulbs in the bedroom, you can use them as a wake-up light instead of buying a sunrise lamp.",
+ "todo": "Check that your lights are dimmable and in the Home app, and that you have an Apple TV or HomePod set up as a home hub, before you buy.",
+ "apps": [
+  "First Light"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/first-light-sunrise-wake-up/id6826940438"
+  }
+ ],
+ "item": 168310,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "FIRST LIGHT: HOMEKIT SUNRISE ALARM"
+}

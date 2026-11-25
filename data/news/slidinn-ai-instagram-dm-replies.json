@@ -1,0 +1,23 @@
+{
+ "slug": "slidinn-ai-instagram-dm-replies",
+ "date": "2026-11-23",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Slidinn suggests three Instagram DM replies in a tone you pick",
+ "dek": "New app Slidinn reads a chat and writes three reply options, flirty, casual, witty or polite among them, that you can edit before sending. It needs an Instagram Creator or Business account, and nothing is sent until you tap.",
+ "quick": true,
+ "apps": [
+  "Slidinn"
+ ],
+ "sources": [
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/slidinn"
+  }
+ ],
+ "item": 160503,
+ "idea": "newcomer",
+ "traction": 0
+}

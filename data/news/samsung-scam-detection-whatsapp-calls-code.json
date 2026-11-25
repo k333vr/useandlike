@@ -1,0 +1,26 @@
+{
+ "slug": "samsung-scam-detection-whatsapp-calls-code",
+ "date": "2026-11-23",
+ "topic": "Security",
+ "rumor": true,
+ "head": "Samsung may warn of scam and deepfake voices in WhatsApp and Telegram calls",
+ "dek": "Code in One UI 9.5 Beta 1, found by Android Authority, shows Scam Detection checking calls in 14 apps such as WhatsApp, Telegram, Signal and Messenger, on the phone itself; it's set for South Korea and China first, and Samsung hasn't announced it.",
+ "apps": [
+  "Samsung",
+  "WhatsApp",
+  "Telegram"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-one-ui-9-5-scam-detection-third-party-apps-apk-teardown-3738222/"
+  }
+ ],
+ "item": 155978,
+ "idea": "news",
+ "traction": 21,
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "tag": "Quick",
+ "quick": true
+}

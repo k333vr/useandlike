@@ -1,0 +1,31 @@
+{
+ "slug": "kagi-mail-gmail-alternative-beta",
+ "date": "2026-11-24",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Email",
+ "tag": "New app",
+ "head": "Kagi Mail: new Gmail alternative with no ads opens public beta",
+ "dek": "Kagi, the company behind a paid search engine and the Orion browser, opened a public beta of Kagi Mail, an email and calendar service with no ads and no user profiling. It costs 99 dollars a year after a 60-day free trial and comes at no extra cost with Kagi Ultimate.",
+ "details": "You get 50 GB of storage, a @kagimail.com address, unlimited aliases and your own domains. It blocks or proxies tracking pixels, screens unknown senders and shows verified sender logos. Optional AI features sort mail with plain-language rules, flag what needs a reply and answer questions about your emails; one switch turns them all off. It works with mail apps such as Apple Mail and Thunderbird through IMAP, JMAP and CalDAV; Kagi's own phone apps are planned for the third quarter of 2027.",
+ "where": "Public beta, web plus standard mail apps; no Kagi phone app yet",
+ "means": "If you want email without ads or tracking pixels and don't mind paying, you can try Kagi Mail for 60 days, though the trial needs a card and there's no end-to-end encryption.",
+ "todo": "Start the 60-day trial on Kagi's site if you want to test it, and use Apple Mail, Thunderbird or another mail app on your phone until Kagi's own app arrives.",
+ "apps": [
+  "Kagi"
+ ],
+ "sources": [
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/kagi-launches-a-new-privacy-focused-email-and-calendar-service-in-beta-with-no-ads/"
+  },
+  {
+   "name": "PiunikaWeb",
+   "url": "https://piunikaweb.com/2026/11/24/orion-browser-maker-launches-own-email-service-kagi-mail/"
+  }
+ ],
+ "item": 160954,
+ "idea": "news",
+ "traction": 23,
+ "thumb_words": "KAGI LAUNCHES AD-FREE EMAIL"
+}

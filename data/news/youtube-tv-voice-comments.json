@@ -1,0 +1,23 @@
+{
+ "slug": "youtube-tv-voice-comments",
+ "date": "2026-11-23",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Video",
+ "tag": "Quick",
+ "head": "YouTube on smart TVs now lets you comment with your voice",
+ "dek": "Voice comments are live worldwide on supported smart TVs: open the comments, pick Use Voice and speak into the remote's microphone; Use your phone opens the same comments in the YouTube phone app. Not every TV has it, and YouTube hasn't listed which do.",
+ "quick": true,
+ "apps": [
+  "YouTube"
+ ],
+ "item": 162946,
+ "sources": [
+  {
+   "name": "Digital Trends",
+   "url": "https://www.digitaltrends.com/home-theater/youtube-now-lets-you-comment-from-the-tv-with-your-voice/"
+  }
+ ],
+ "idea": "news",
+ "traction": 0
+}

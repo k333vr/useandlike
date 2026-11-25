@@ -1,0 +1,24 @@
+{
+ "slug": "whatsapp-emoji-gif-sticker-picker-redesign",
+ "date": "2026-11-24",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "WhatsApp is working on new emoji, GIF and sticker pickers for Android",
+ "dek": "Code in WhatsApp beta 2.26.47.6 for Android shows redesigned pickers with search bars and a floating bar to switch between emoji, GIFs and stickers, Android Authority found. Testers can't use them yet.",
+ "apps": [
+  "WhatsApp"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/whatsapp-emoji-gif-sticker-picker-redesign-3738712/"
+  }
+ ],
+ "item": 163368,
+ "idea": "news",
+ "traction": 0,
+ "added": "2026-11-25",
+ "checked": "2026-11-25"
+}

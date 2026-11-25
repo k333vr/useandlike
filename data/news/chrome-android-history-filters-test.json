@@ -1,0 +1,24 @@
+{
+ "slug": "chrome-android-history-filters-test",
+ "date": "2026-11-23",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Google",
+ "tag": "Quick",
+ "head": "Chrome for Android is testing history filters by device, date and Gemini",
+ "dek": "Tipster Leopeva64 spotted filters in Chrome Dev and Canary that sort your history by device, by date (yesterday, earlier this week, last week, two weeks ago) and by whether you or Gemini opened a page. Google hasn't said when they'll reach everyone.",
+ "quick": true,
+ "rumor": true,
+ "apps": [
+  "Google Chrome"
+ ],
+ "item": 163067,
+ "sources": [
+  {
+   "name": "PiunikaWeb",
+   "url": "https://piunikaweb.com/2026/11/24/chrome-android-new-history-filters-device-date-gemini/"
+  }
+ ],
+ "idea": "news",
+ "traction": 0
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "android-canary-scroll-to-top-shortcut",
+ "date": "2026-11-24",
+ "topic": "Android",
+ "rumor": true,
+ "head": "Android Canary 2611 hides an iPhone-style scroll-to-top shortcut",
+ "dek": "Android Authority found code for a system-wide jump to the top of a page, like tapping an iPhone's status bar; there's no way to turn it on yet, and Google hasn't announced it.",
+ "apps": [
+  "Android"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/android-scroll-to-top-feature-canary-2611-apk-teardown-3738735/"
+  }
+ ],
+ "item": 163365,
+ "idea": "news",
+ "traction": 0,
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "tag": "Quick",
+ "quick": true
+}

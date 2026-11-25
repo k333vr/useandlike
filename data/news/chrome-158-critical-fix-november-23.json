@@ -1,0 +1,23 @@
+{
+ "slug": "chrome-158-critical-fix-november-23",
+ "date": "2026-11-23",
+ "topic": "Security",
+ "head": "Chrome 158 update fixes a critical bug on Windows, Mac and Linux",
+ "dek": "Google's Chrome update of 23 November (158.0.8127.88/89 on desktop, 158.0.8127.92 on Android) fixes a critical flaw that could let code run outside Chrome's sandbox; no attacks using it were reported. Check under Help, About Google Chrome.",
+ "apps": [
+  "Google Chrome"
+ ],
+ "sources": [
+  {
+   "name": "eSecurity Planet",
+   "url": "https://www.esecurityplanet.com/trends/news-chrome-security-update-android-desktop-november-2026/"
+  }
+ ],
+ "item": 166354,
+ "idea": "news",
+ "traction": 0,
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "tag": "Quick",
+ "quick": true
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "dohop-waya-chatgpt-flight-search",
+ "date": "2026-11-24",
+ "topic": "Travel",
+ "head": "Dohop's WAYA flight search now works inside ChatGPT",
+ "dek": "Travel company Dohop added its WAYA flight search to ChatGPT: you pick a direct or multi-airline trip in the chat, then book it on the airline's checkout page, where you can add seats and bags.",
+ "apps": [
+  "ChatGPT",
+  "WAYA"
+ ],
+ "sources": [
+  {
+   "name": "Thailand Business News (Dohop press release)",
+   "url": "https://www.thailand-business-news.com/pr-news/dohop-launches-one-of-the-first-chatgpt-plugins-for-bookable-direct-flights-and-multi-carrier-itineraries"
+  }
+ ],
+ "item": 162537,
+ "idea": "news",
+ "traction": 0,
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "tag": "Quick",
+ "quick": true
+}

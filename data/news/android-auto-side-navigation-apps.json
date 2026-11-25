@@ -1,0 +1,25 @@
+{
+ "slug": "android-auto-side-navigation-apps",
+ "date": "2026-11-24",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Android",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Android Auto apps start moving their menus to the side",
+ "dek": "On Android Auto 18.2, Spotify, YouTube Music and the phone dialer are starting to show their navigation as a list along the side of the screen instead of across the top, with larger items and a bigger now-playing bar in Spotify, Android Authority reports.",
+ "apps": [
+  "Android Auto",
+  "Spotify",
+  "YouTube Music"
+ ],
+ "item": 166869,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/android-auto-app-layout-3739081/"
+  }
+ ]
+}

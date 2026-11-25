@@ -1,0 +1,35 @@
+{
+ "slug": "meta-muse-uk-launch",
+ "date": "2026-11-23",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "AI",
+ "tag": "New app",
+ "head": "Meta Muse UK release: the AI agent app is out for adults in the UK",
+ "dek": "Meta's AI agent Muse is available to adults in the UK from 23 November on iPhone, Android, the web and WhatsApp. It can shop, plan trips and chase tasks like a refund for you, asking before it buys anything or sends an email.",
+ "details": "UK partners include Marks & Spencer, Sainsbury's, ASOS, Trainline and easyJet: with some you connect an account so Muse can repeat a grocery order or find a booking, on others it browses the site for you. At checkout it can pay with Stripe's Link or Shop Pay where a store supports them; PayPal is planned. The app is free with in-app purchases, and paid plans give more usage; Meta didn't give UK prices. On 25 November it was #1 among free Productivity apps on the UK App Store.",
+ "where": "UK, adults 18 and over; iPhone, Android, the web and WhatsApp",
+ "means": "If you're in the UK, you can now hand Muse everyday jobs like a shopping order or a train booking, and you decide which accounts it may use and for how long.",
+ "todo": "Download Muse from the App Store or Google Play, or use it on the web. Connect only the accounts you need, and if you don't want your chats used for AI training, turn that off under Data controls in Settings.",
+ "apps": [
+  "Muse"
+ ],
+ "sources": [
+  {
+   "name": "Meta Newsroom",
+   "url": "https://about.fb.com/news/2026/11/muse-now-available-in-the-uk-muse-does-the-work-you-stay-in-control/"
+  },
+  {
+   "name": "iClarified",
+   "url": "https://www.iclarified.com/103773/meta-brings-its-muse-ai-agent-to-the-uk"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/gb/app/muse-from-meta/id6760173601"
+  }
+ ],
+ "item": 165083,
+ "idea": "newcomer",
+ "traction": 22,
+ "thumb_words": "META MUSE AI AGENT HITS THE UK"
+}

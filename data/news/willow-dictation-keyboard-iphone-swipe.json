@@ -1,0 +1,31 @@
+{
+ "slug": "willow-dictation-keyboard-iphone-swipe",
+ "date": "2026-11-24",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "AI",
+ "tag": "Update",
+ "head": "Willow dictation keyboard on iPhone: dictate without switching apps",
+ "dek": "Willow's iPhone keyboard now lets you dictate right inside the app you're typing in, instead of jumping to Willow and back. Version 2.0 for iOS, launched on Product Hunt on 24 November, also adds swipe typing, smarter autocorrect, emoji and cursor control.",
+ "details": "Willow is an AI dictation keyboard that turns speech into cleaned-up text for email, chats and documents, with AI rewrites for tone, grammar and length and a custom dictionary for names. The app is free with a weekly word limit; Willow Pro costs 15 dollars a month or 143.99 dollars a year, removes the limit and syncs with the Mac app. It's made by Willow Care Inc., a Y Combinator company, and needs iOS 18 or later.",
+ "where": "iPhone, App Store, update out now (version 2.13.4 from 23 November)",
+ "means": "If you already dictate with Willow, you no longer have to leave a chat or email to talk; if you type a lot on your phone, it's a free voice keyboard to try.",
+ "todo": "Update Willow from the App Store, then switch to its keyboard in a chat and tap the mic to dictate in place.",
+ "apps": [
+  "Willow Dictation & AI Keyboard"
+ ],
+ "item": 162950,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "WILLOW: DICTATE IN ANY IPHONE APP",
+ "sources": [
+  {
+   "name": "App Store: Willow Dictation & AI Keyboard",
+   "url": "https://apps.apple.com/us/app/willow-dictation-ai-keyboard/id6753057525"
+  },
+  {
+   "name": "Product Hunt",
+   "url": "https://www.producthunt.com/products/willow-voice"
+  }
+ ]
+}

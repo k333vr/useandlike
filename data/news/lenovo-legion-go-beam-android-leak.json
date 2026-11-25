@@ -1,0 +1,24 @@
+{
+ "slug": "lenovo-legion-go-beam-android-leak",
+ "date": "2026-11-24",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Games",
+ "tag": "Quick",
+ "head": "Leak: Lenovo Legion Go Beam may be an Android handheld for game streaming",
+ "dek": "Windows Latest says material it obtained shows a 7-inch, 120Hz handheld that appears to run Android, streams games from a PC or console and plays Android and cloud games, likely on a Snapdragon G2 Gen 1 chip. Lenovo hasn't announced it, and there's no price or date.",
+ "quick": true,
+ "rumor": true,
+ "apps": [
+  "Lenovo Legion Go"
+ ],
+ "item": 164966,
+ "sources": [
+  {
+   "name": "Windows Latest",
+   "url": "https://www.windowslatest.com/2026/11/24/exclusive-lenovos-legion-go-beam-skips-windows-11-and-steamos-for-android-with-a-7-inch-120hz-screen-and-pc-game-streaming/"
+  }
+ ],
+ "idea": "news",
+ "traction": 0
+}

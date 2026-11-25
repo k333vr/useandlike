@@ -18,6 +18,7 @@
   }
  ],
  "item": 155706,
+ "items": [167273],
  "idea": "request",
  "traction": 0,
  "details": "The advisory came out on 23 November. It names one flaw, CVE-2026-23871, which may have been used through certain spam messages; WhatsApp says the other four haven't been seen in attacks. Most of them only work if you open or tap a specially made message, link or file. Other possible effects include reading limited chat database details and handling harmful media files or links.",

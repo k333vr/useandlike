@@ -1,0 +1,24 @@
+{
+ "slug": "galaxy-s27-zoom-enhancer-one-ui-9-5",
+ "date": "2026-11-24",
+ "topic": "Samsung",
+ "rumor": true,
+ "head": "One UI 9.5 beta hints at AI Zoom enhancer, possibly for Galaxy S27 Ultra",
+ "dek": "Samsung's Gallery app in the One UI 9.5 beta describes a cloud-based Zoom enhancer that sharpens photos taken at high zoom, much like Pixel's Pro Res Zoom; it can't be used yet and Samsung hasn't said which phones get it.",
+ "apps": [
+  "Samsung Gallery"
+ ],
+ "sources": [
+  {
+   "name": "Tech Advisor",
+   "url": "https://www.techadvisor.com/article/3295364/samsung-galaxy-s27-ai-zoom-feature-revealed-in-one-ui-9-5.html"
+  }
+ ],
+ "item": 163919,
+ "idea": "news",
+ "traction": 0,
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "tag": "Quick",
+ "quick": true
+}

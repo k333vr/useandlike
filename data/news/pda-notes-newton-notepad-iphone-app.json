@@ -1,0 +1,27 @@
+{
+ "slug": "pda-notes-newton-notepad-iphone-app",
+ "date": "2026-11-24",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "PDA Notes app brings the Newton notepad back on iPhone and iPad",
+ "dek": "PDA Notes from Enfour recreates the notepad of Apple's 1990s Newton pen computer, drawn pixel for pixel, for iPhone and iPad. Out since 19 November for 19.99 dollars, it was #47 among paid Productivity apps on the US App Store on 24 November.",
+ "details": "You write with a finger, stylus or Apple Pencil and choose whether handwriting turns into typed text, stays as ink that wraps like words, or becomes shapes and sketches; you delete by scrubbing and start a new note by drawing a line across the page. It also has checklists, outlines, a call log, folders and search, and its Names, Dates and To Do views link to Contacts, Calendar and Reminders. Assist can set up a meeting from a written line, and Siri and Shortcuts can create, find and read notes. Notes move over Bluetooth to another device with PDA Notes or Enfour PDA; the listing shows no in-app purchases.",
+ "where": "iPhone and iPad (iOS 18.6 or later), also Apple silicon Macs and Vision Pro, App Store, 19.99 dollars",
+ "means": "If you miss handwriting-first notes or the Newton look, this is a one-time purchase with no subscription; if you want a free notes app, it isn't one.",
+ "todo": "Look at the screenshots on the App Store page before buying: it's 19.99 dollars up front.",
+ "apps": [
+  "PDA Notes"
+ ],
+ "item": 168299,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "NEWTON NOTEPAD RETURNS ON IPHONE",
+ "sources": [
+  {
+   "name": "App Store: PDA Notes",
+   "url": "https://apps.apple.com/us/app/pda-notes/id6832219586"
+  }
+ ]
+}

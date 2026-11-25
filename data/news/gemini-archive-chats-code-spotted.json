@@ -1,0 +1,24 @@
+{
+ "slug": "gemini-archive-chats-code-spotted",
+ "date": "2026-11-23",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Gemini may let you archive chats instead of deleting them",
+ "dek": "Android Authority found code in the Google app (version 17.78.13) for an Archive option: long-press a Gemini chat to hide it from your history and find it later under an \"Archived\" filter. Google hasn't announced it, and it may not ship.",
+ "quick": true,
+ "apps": [
+  "Gemini"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/google-gemini-chat-archiving-feature-3738433/"
+  }
+ ],
+ "item": 158008,
+ "idea": "news",
+ "traction": 18,
+ "rumor": true
+}

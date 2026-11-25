@@ -1,0 +1,24 @@
+{
+ "slug": "gemini-sticker-packs-google-app-code",
+ "date": "2026-11-24",
+ "topic": "AI",
+ "rumor": true,
+ "head": "Gemini may soon make AI sticker packs you can share in chats",
+ "dek": "Code in the Google app (version 17.78.13), found by Android Authority, points to Gemini making sticker packs you can copy, share or download; a direct import into WhatsApp or Telegram wasn't found, and Google hasn't announced it.",
+ "apps": [
+  "Gemini"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/google-gemini-sticker-creation-apk-teardown-3738636/"
+  }
+ ],
+ "item": 162465,
+ "idea": "news",
+ "traction": 0,
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "tag": "Quick",
+ "quick": true
+}

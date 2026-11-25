@@ -1,0 +1,31 @@
+{
+ "slug": "tiktok-down-outage-november-24",
+ "date": "2026-11-24",
+ "topic": "Social",
+ "tag": "Heads-up",
+ "head": "TikTok down on 24 November: feed, search and profiles stopped loading",
+ "dek": "TikTok was down for many users on Tuesday afternoon, US time: For You videos, search results, favorites and profile pages didn't load in the iPhone and Android apps or on the web. It worked again by about 3:45 p.m. Eastern time.",
+ "details": "Downdetector showed about 25,000 reports around 2:56 p.m. Eastern time. Links to single videos also failed for some people. A TikTok spokesperson told The Verge it was a brief technical issue that affected access to TikTok, that it was fixed, and apologized. TikTok didn't give a cause.",
+ "where": "iPhone and Android apps and the website, Tuesday 24 November",
+ "means": "If TikTok wouldn't load for you on Tuesday afternoon, the problem was on TikTok's side, not your phone or account.",
+ "todo": "Nothing to do: the problem is fixed. If the app still acts up, close and reopen it.",
+ "apps": [
+  "TikTok"
+ ],
+ "sources": [
+  {
+   "name": "Interesting Engineering",
+   "url": "https://interestingengineering.com/culture/tiktok-outage-videos-search-profiles"
+  },
+  {
+   "name": "Wilson's Media (The Verge's report)",
+   "url": "https://www.wilsonsmedia.com/tiktok-was-down/"
+  }
+ ],
+ "item": 166296,
+ "idea": "news",
+ "traction": 15,
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "thumb_words": "TIKTOK WAS DOWN FOR AN HOUR"
+}

@@ -1,0 +1,32 @@
+{
+ "slug": "instagram-edits-ipad-app",
+ "date": "2026-11-23",
+ "topic": "Video",
+ "tag": "New app",
+ "head": "Instagram Edits app now on iPad, free with a bigger timeline",
+ "dek": "Instagram's Edits video editor now runs on iPad with more room for the timeline and tools, two weeks after it came to Mac. It's free on the App Store, with in-app purchases, and needs iPadOS 16.3 or later.",
+ "details": "The same update, version 457.0, lets you trim a clip before adding it, keeps generating captions while you edit, adds three filters and, in Labs, imports .cube LUT files and converts log footage. Instagram's post also says a Threads app made for iPad is coming soon, without a date.",
+ "where": "iPad, free, out now",
+ "means": "If you cut Reels on your iPhone, you can now edit them in Edits on the larger iPad screen.",
+ "todo": "Download or update Edits from the App Store on your iPad and sign in with your Instagram account.",
+ "apps": [
+  "Edits",
+  "Instagram"
+ ],
+ "sources": [
+  {
+   "name": "App Store: Edits",
+   "url": "https://apps.apple.com/us/app/edits-video-editor/id6738967378"
+  },
+  {
+   "name": "Digital Trends",
+   "url": "https://www.digitaltrends.com/social-media/instagrams-edits-app-is-now-on-ipad-and-it-gives-you-a-larger-canvas-to-edit-on-the-go/"
+  }
+ ],
+ "item": 162674,
+ "idea": "news",
+ "traction": 18,
+ "thumb_words": "INSTAGRAM EDITS NOW ON IPAD",
+ "added": "2026-11-25",
+ "checked": "2026-11-25"
+}

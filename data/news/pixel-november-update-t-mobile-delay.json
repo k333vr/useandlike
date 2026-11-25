@@ -1,0 +1,23 @@
+{
+ "slug": "pixel-november-update-t-mobile-delay",
+ "date": "2026-11-24",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Android",
+ "tag": "Quick",
+ "head": "Pixel November update still missing on T-Mobile, Mint and Tello",
+ "dek": "Two weeks after Google's 10 November release, many Pixel phones on T-Mobile and the Mint and Tello networks are still on the October update, though a few owners now report it installing.",
+ "quick": true,
+ "apps": [
+  "Google Pixel"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/t-mobile-pixel-november-update-delay-3738808/"
+  }
+ ],
+ "item": 164457,
+ "idea": "news",
+ "traction": 0
+}

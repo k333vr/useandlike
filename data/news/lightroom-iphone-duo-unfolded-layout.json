@@ -1,0 +1,23 @@
+{
+ "slug": "lightroom-iphone-duo-unfolded-layout",
+ "date": "2026-11-24",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Photo",
+ "tag": "Quick",
+ "head": "Adobe Lightroom adds an iPhone Duo layout for the big inner screen",
+ "dek": "Adobe's Lightroom update this week shows photos larger with tools at the side when the iPhone Duo is open, and puts tools along the bottom when it's half folded. Curves still opens over the photo; Adobe says a later update fixes that.",
+ "quick": true,
+ "apps": [
+  "Adobe Lightroom"
+ ],
+ "sources": [
+  {
+   "name": "PetaPixel",
+   "url": "https://petapixel.com/2026/11/24/adobe-lightrooms-new-native-iphone-duo-support-is-fantastic/"
+  }
+ ],
+ "item": 168374,
+ "idea": "news",
+ "traction": 0
+}

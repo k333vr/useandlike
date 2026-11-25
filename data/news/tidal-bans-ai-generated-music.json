@@ -1,0 +1,35 @@
+{
+ "slug": "tidal-bans-ai-generated-music",
+ "date": "2026-11-24",
+ "topic": "Music",
+ "tag": "Big news",
+ "head": "Tidal AI music ban: fully AI-generated tracks removed from 9 December",
+ "dek": "Tidal will reject and remove tracks made entirely with AI from 9 December; songs where artists only used AI tools along the way stay. Until now Tidal tagged fully AI tracks and paid them no royalties.",
+ "details": "About 27 million tracks, around 6% of Tidal's catalog, carry its AI tag, and Tidal says 96% of them had no streams in the last three months. It found 43% of tracks sent to Tidal in the past 90 days were wholly AI-generated. A track goes when its distributor says it was made only with AI tools or Tidal's detection, built with Ircam Amplify, flags it. Digital Trends reports the catalog should be cleared by the start of the year.",
+ "where": "Tidal, worldwide, from 9 December",
+ "means": "If you listen on Tidal, songs made entirely by AI should disappear from searches, playlists and recommendations over the coming weeks.",
+ "todo": "Nothing to do. If a playlist you saved loses tracks after 9 December, they were likely tagged as fully AI-made.",
+ "apps": [
+  "Tidal"
+ ],
+ "sources": [
+  {
+   "name": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/tidal-bans-fully-ai-generated-music-from-its-platform/"
+  },
+  {
+   "name": "Digital Trends",
+   "url": "https://www.digitaltrends.com/movies/tidal-to-enforce-a-platform-wide-ban-on-ai-generated-music-starting-next-month/"
+  },
+  {
+   "name": "Music Ally",
+   "url": "https://musically.com/2026/11/24/tidal-banning-ai-music/"
+  }
+ ],
+ "item": 164925,
+ "idea": "news",
+ "traction": 40,
+ "thumb_words": "TIDAL BANS FULLY AI MUSIC",
+ "added": "2026-11-25",
+ "checked": "2026-11-25"
+}

@@ -1,0 +1,80 @@
+{
+ "slug": "monitor-refresh-rate-60hz-explained",
+ "date": "2026-11-25",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Windows",
+ "tag": "Explainer",
+ "head": "Monitor refresh rate stuck at 60Hz: how to check it on Windows and Mac",
+ "dek": "A monitor sold as 120Hz or 144Hz only runs that fast when the computer is set to it, and the Refresh Rate setting in Windows or macOS shows what yours uses; if the higher number is missing, the cable, the port or the driver is often the limit.",
+ "sections": [
+  {
+   "h": "What the number means",
+   "p": [
+    "Refresh rate is how many times a second the screen draws a new picture. Microsoft's example: a 60Hz display updates 60 times a second.",
+    "Microsoft says a higher rate can cut motion blur, screen tearing and input lag in games, and makes scrolling and pen writing look smoother. A lower rate uses less power, which helps a laptop's battery last longer."
+   ]
+  },
+  {
+   "h": "How to check it on Windows",
+   "p": [
+    "On Windows 11, go to Start, Settings, System, Display, Advanced display, and look at Choose a refresh rate. Pick the highest number your monitor lists if you want the smoothest picture. With more than one monitor, first pick the right one under Select a display, because a 60Hz second screen won't offer 144Hz, Help Desk Geek notes.",
+    "On Windows 10, the setting is under Settings, System, Display, Advanced display settings, then Refresh rate. Microsoft warns that a rate marked with an asterisk doesn't work at your current resolution, and choosing it changes the resolution."
+   ]
+  },
+  {
+   "h": "Dynamic refresh rate on Windows 11",
+   "p": [
+    "Windows 11 can also change the rate by itself with Dynamic refresh rate, a switch on the same Advanced display page. It only shows up when the display supports variable refresh rate and at least 120Hz. Windows 10 doesn't have it.",
+    "Microsoft says it shouldn't affect games made for variable refresh rate, but it can cap other games. If a game seems stuck at a lower rate, turn Dynamic refresh rate off."
+   ]
+  },
+  {
+   "h": "How to check it on a Mac",
+   "p": [
+    "On a Mac, open the Apple menu, System Settings, Displays, and use the Refresh Rate menu. On the 14-inch and 16-inch MacBook Pro with Apple silicon, Apple's adaptive option is called ProMotion and goes up to 120Hz. On macOS Catalina and Big Sur, hold Option and click Scaled to see the menu.",
+    "For an external monitor with Adaptive Sync, Apple lists macOS Monterey or later, any Mac with Apple silicon and some Intel models. Choose Variable or Adaptive in the Refresh Rate menu. Apple says to use the Thunderbolt port with a Thunderbolt, USB-C or DisplayPort cable, not HDMI, and to pick a fixed rate if the screen flickers."
+   ]
+  },
+  {
+   "h": "When the higher number is missing",
+   "p": [
+    "The cable is a common limit. Intel's support page says older HDMI cables may not have the bandwidth for 144Hz. Help Desk Geek, in a guide from 25 September 2026, says HDMI should be 2.0 or newer, that 4K at 120Hz needs HDMI 2.1 on both sides plus an Ultra High Speed HDMI cable, that HDMI 1.4 stops at 30Hz at 4K, and that many USB-C adapters and hubs stop at 60Hz.",
+    "On a desktop with a graphics card, plug the monitor into the card, not the motherboard. If Device Manager shows Microsoft Basic Display Adapter, install the current driver from NVIDIA, AMD or Intel. Some monitors only offer their top rate after you turn on an option such as Overclock in their own on-screen menu.",
+    "One quick test from the same guide: lower the resolution for a moment. If higher rates appear, the cable or port is what holds you back."
+   ]
+  }
+ ],
+ "means": "If you paid for a 120Hz or 144Hz monitor or laptop, it may still be showing 60 pictures a second until the setting, cable or driver allows more. Checking takes a minute and costs nothing.",
+ "todo": "On Windows 11, open Settings, System, Display, Advanced display and pick the highest rate under Choose a refresh rate. On a Mac, open System Settings, Displays, Refresh Rate. If the number you expect isn't there, try a newer HDMI 2.0 or 2.1 cable or DisplayPort, plug into the graphics card, update the graphics driver, and look for a high refresh or Overclock option in the monitor's menu.",
+ "where": "Windows 11, Windows 10 and macOS; Dynamic refresh rate on Windows 11 only",
+ "apps": [
+  "Windows 11",
+  "macOS"
+ ],
+ "sources": [
+  {
+   "name": "Microsoft Support",
+   "url": "https://support.microsoft.com/en-us/windows/change-the-refresh-rate-on-your-monitor-in-windows-c8ea729e-0678-015c-c415-f806f04aae5a"
+  },
+  {
+   "name": "Apple Support: MacBook Pro and Apple displays",
+   "url": "https://support.apple.com/HT210742"
+  },
+  {
+   "name": "Apple Support: Adaptive Sync displays",
+   "url": "https://support.apple.com/102144"
+  },
+  {
+   "name": "Intel Support",
+   "url": "https://www.intel.com/content/www/us/en/support/articles/000098297/graphics.html"
+  },
+  {
+   "name": "Help Desk Geek",
+   "url": "https://helpdeskgeek.com/change-refresh-rate-windows-11/"
+  }
+ ],
+ "idea": "competitor",
+ "traction": 0,
+ "thumb_words": "YOUR MONITOR MAY BE STUCK AT 60HZ"
+}

@@ -1,0 +1,36 @@
+{
+ "slug": "claude-install-artifacts-as-desktop-apps",
+ "date": "2026-11-24",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "Claude install as app: turn Artifacts into Mac and Windows desktop apps",
+ "dek": "Claude can now install an Artifact you built in chat as its own app on a Mac or Windows PC, with an icon and window that open outside Claude. It's a beta for all plans, including free accounts.",
+ "details": "To install one, update the Claude app, open an Artifact and pick \"Install as app\" from the Share menu. Installed apps update by themselves when the Artifact changes, can be shared by link, use Claude and your connectors, and count toward your plan's usage limits. With your approval an app can send notifications, use keyboard shortcuts or add a menu bar or tray icon; full computer access, which lets it run programs and change or delete files, is only for apps you made yourself (or your organization's on Team and Enterprise). Claude Docs, Slides and Sheets can't be installed, and you need to be online and signed in to open an app.",
+ "where": "Claude app for Mac and Windows, all plans, beta from 24 November",
+ "means": "If you've made a small tool in Claude, such as a timer, a tracker or an image editor, you can now keep it in your dock or taskbar like any other app.",
+ "todo": "Update the Claude desktop app, open an Artifact and choose Share, then Install as app. Anthropic doesn't review apps before they're installed, so only give full computer access to apps you built.",
+ "apps": [
+  "Claude"
+ ],
+ "sources": [
+  {
+   "name": "Anthropic",
+   "url": "https://claude.com/resources/articles/install-as-app"
+  },
+  {
+   "name": "The Decoder",
+   "url": "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows/"
+  },
+  {
+   "name": "iClarified",
+   "url": "https://www.iclarified.com/103785/claude-can-now-build-installable-apps-for-mac-and-windows"
+  }
+ ],
+ "item": 166319,
+ "idea": "news",
+ "traction": 64,
+ "rank": 1,
+ "thumb_words": "CLAUDE CHATS BECOME DESKTOP APPS",
+ "added": "2026-11-25",
+ "checked": "2026-11-25"
+}

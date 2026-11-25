@@ -1,0 +1,23 @@
+{
+ "slug": "threads-ipad-app-out-cashtags",
+ "date": "2026-11-24",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Social",
+ "tag": "Quick",
+ "head": "Threads iPad app is out, and cashtags show live stock prices",
+ "dek": "Threads now has its own iPad app, released in an overnight update. Cashtags such as a $ and a ticker open a page with live quotes and charts for NYSE and Nasdaq stocks, ETFs and crypto, rolling out on web, iPhone and Android.",
+ "quick": true,
+ "apps": [
+  "Threads"
+ ],
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/24/threads-comes-to-ipad-and-takes-a-page-from-xs-playbook-with-cashtags/"
+  }
+ ],
+ "item": 165500,
+ "idea": "news",
+ "traction": 0
+}

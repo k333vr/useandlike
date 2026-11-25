@@ -1,0 +1,24 @@
+{
+ "slug": "gemini-create-a-voice-testing",
+ "date": "2026-11-24",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "AI",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "Gemini may let you describe and create your own voice",
+ "dek": "Code in version 17.78.13 of the Google app points to a \"Create a voice\" option where you'd describe how Gemini should sound, such as accent, tone or speed, or tap \"Surprise me\", Android Authority found. It couldn't turn it on, and Google hasn't announced it.",
+ "apps": [
+  "Gemini"
+ ],
+ "item": 162464,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/gemini-custom-voice-creation-3738635/"
+  }
+ ]
+}

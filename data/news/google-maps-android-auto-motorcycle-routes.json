@@ -1,0 +1,29 @@
+{
+ "slug": "google-maps-android-auto-motorcycle-routes",
+ "date": "2026-11-23",
+ "topic": "Google",
+ "rumor": true,
+ "head": "Google Maps on Android Auto shows motorcycle routes for some riders",
+ "dek": "Some Android Auto users report Google Maps offering a motorcycle mode with two-wheeler routes and shortcuts that avoid expressways; Google hasn't announced it, and it may be a test.",
+ "apps": [
+  "Google Maps",
+  "Android Auto"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/android-auto-motorcycle-mode-3738531/"
+  },
+  {
+   "name": "Android Police",
+   "url": "https://www.androidpolice.com/motorcycle-mode-spotted-in-android-autos-google-maps/"
+  }
+ ],
+ "item": 158869,
+ "idea": "news",
+ "traction": 24,
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "tag": "Quick",
+ "quick": true
+}

@@ -1,0 +1,28 @@
+{
+ "slug": "galaxy-s27-ultra-laser-autofocus-leak",
+ "date": "2026-11-24",
+ "topic": "Samsung",
+ "tag": "Leak",
+ "rumor": true,
+ "head": "Galaxy S27 Ultra camera downgrade leak: no laser autofocus or 3x zoom",
+ "dek": "Leaker Ice Universe says Samsung will remove the laser autofocus from the Galaxy S27 Ultra, and he and OnLeaks both expect the 3x telephoto camera to go, leaving three rear cameras. Samsung hasn't confirmed either.",
+ "details": "Samsung's Ultra phones have had laser autofocus since the Galaxy S21 Ultra; it measures distance with infrared light and helps in low light over a few meters. The leak doesn't say what would replace it. Earlier leaks point to a new ISOCELL HP6 main sensor for the S27 Ultra and S27 Pro, after the HP2 in the S26 Ultra. The S27 series is expected in early 2027.",
+ "where": "Rumored for early 2027",
+ "means": "If you zoom a lot at 3x or shoot close-ups in dim light, wait for real tests of the S27 Ultra before trading in your current phone.",
+ "todo": "Nothing to do yet; it's a leak, and Samsung hasn't announced the phone.",
+ "apps": [
+  "Galaxy S27"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/galaxy-s27-ultra-laser-autofocus-leak-3738654/"
+  }
+ ],
+ "item": 162409,
+ "idea": "news",
+ "traction": 0,
+ "thumb_words": "S27 ULTRA LOSES LASER AUTOFOCUS?",
+ "added": "2026-11-25",
+ "checked": "2026-11-25"
+}

@@ -1,0 +1,27 @@
+{
+ "slug": "tapkeep-apple-watch-voice-recorder-ai",
+ "date": "2026-11-24",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "Apple Watch voice recorder app Tapkeep turns your day into text",
+ "dek": "Tapkeep records your day from an Apple Watch with one tap, then turns the audio into text on your iPhone, split into titled conversations you can search. It costs $9.99 once with no subscription, and was #86 among paid Lifestyle apps on the US App Store on 24 November.",
+ "details": "You can search by word, meaning or person, ask questions about a day or a week, and get daily, weekly and monthly journals; the AI journal and questions have usage limits unless you add your own key for a service such as OpenAI or DeepSeek. For transcription the audio goes to the developer's service and isn't kept, the listing says; an on-device option is in Settings, and text sent to an AI service (named as DeepSeek) is only sent if you agree. Recording on the watch needs a Series 6, SE (2nd generation), Ultra or newer with watchOS 11, paired with an iPhone on iOS 18. Made by Wuxi Huaxiaoman Technology, it came out on 14 November.",
+ "where": "Apple Watch and iPhone, App Store, $9.99 one-time",
+ "means": "If you forget what was said in meetings or chats, this keeps a searchable written record. It also records the people around you, so think about who is in the room.",
+ "todo": "Check your watch model and iOS version first. If you'd rather keep audio on your phone, turn on on-device transcription in the app's Settings.",
+ "apps": [
+  "Tapkeep"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/tapkeep-watch-voice-recorder/id6830261493"
+  }
+ ],
+ "item": 168309,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "APPLE WATCH RECORDS YOUR WHOLE DAY"
+}

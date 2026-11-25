@@ -1,0 +1,23 @@
+{
+ "slug": "wise-malaysia-holding-limit-rm50000",
+ "date": "2026-11-24",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Money",
+ "tag": "Quick",
+ "head": "Wise lets personal accounts in Malaysia hold up to RM50,000",
+ "dek": "Wise's help page now puts the holding limit for personal customers with a Malaysian address at 50,000 ringgit, counted across all currencies and Jars; Wise's older guides said 20,000. Business accounts have no such limit.",
+ "quick": true,
+ "apps": [
+  "Wise"
+ ],
+ "item": 167960,
+ "sources": [
+  {
+   "name": "Wise Help Centre",
+   "url": "https://wise.com/help/articles/5sL5X2V2PbxUBIsQ1Fyfn4/holding-limits-if-you-live-in-malaysia"
+  }
+ ],
+ "idea": "news",
+ "traction": 0
+}

@@ -1,0 +1,32 @@
+{
+ "slug": "whatsapp-dual-camera-mode-android-beta",
+ "date": "2026-11-24",
+ "topic": "Messaging",
+ "tag": "In testing",
+ "rumor": true,
+ "head": "WhatsApp dual camera mode in testing: film with front and back camera",
+ "dek": "WhatsApp is testing a camera mode on Android that records with the front and back camera at the same time, WABetaInfo reports. It's reaching some beta testers with version 2.26.46.9; WhatsApp hasn't said when everyone gets it.",
+ "details": "A new button at the top of WhatsApp's camera turns it on: the back camera fills the screen and the front camera sits in a small box you can drag around. A rotate button swaps the two. Photos combine both views and videos record both cameras in one clip, which you can send to chats, groups, channels or Status with a caption. Nothing has been said about an iPhone version.",
+ "where": "Some Android beta testers (WhatsApp beta 2.26.46.9); not yet for everyone",
+ "means": "If you like showing your reaction and what you're looking at in one clip, WhatsApp may soon do that without another app.",
+ "todo": "Nothing to do yet: it's only with some Android beta testers. Keep WhatsApp updated from the Play Store.",
+ "apps": [
+  "WhatsApp"
+ ],
+ "sources": [
+  {
+   "name": "WABetaInfo",
+   "url": "https://wabetainfo.com/whatsapp-is-rolling-out-a-dual-camera-mode-on-android/"
+  },
+  {
+   "name": "iPhone in Canada",
+   "url": "https://www.iphoneincanada.ca/2026/11/24/whatsapp-is-adding-a-dual-camera-mode-that-films-you-and-the-scene/"
+  }
+ ],
+ "item": 161711,
+ "idea": "news",
+ "traction": 37,
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "thumb_words": "WHATSAPP TESTS DUAL CAMERA MODE"
+}

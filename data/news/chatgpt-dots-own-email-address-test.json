@@ -1,0 +1,24 @@
+{
+ "slug": "chatgpt-dots-own-email-address-test",
+ "date": "2026-11-24",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "ChatGPT Dots may get their own email addresses",
+ "dek": "A hidden Email button in a Dot's profile, spotted by TestingCatalog, points to Dots getting their own address you could CC or forward receipts to; an OpenAI staffer said on X that testing has started, but there's no date.",
+ "quick": true,
+ "apps": [
+  "ChatGPT"
+ ],
+ "sources": [
+  {
+   "name": "TestingCatalog",
+   "url": "https://www.testingcatalog.com/openai-prepares-dedicated-email-inboxes-for-chatgpt-dots/"
+  }
+ ],
+ "item": 165517,
+ "idea": "news",
+ "traction": 0,
+ "rumor": true
+}

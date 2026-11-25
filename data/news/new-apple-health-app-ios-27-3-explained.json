@@ -1,0 +1,76 @@
+{
+ "slug": "new-apple-health-app-ios-27-3-explained",
+ "date": "2026-11-25",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Apple",
+ "tag": "Explainer",
+ "head": "New Apple Health app explained: Insights, Longevity and Health Age",
+ "dek": "The new Apple Health app comes with iOS 27.3, which 9to5Mac expects in December: it adds an Insights tab with daily summaries, a Longevity tab with a Health Age score and at-home movement checks, but only on an iPhone 15 Pro or newer with Apple Intelligence turned on.",
+ "sections": [
+  {
+   "h": "Where the new Health app stands",
+   "p": [
+    "Apple first showed the redesigned Health app in September 2026, alongside its new Apple Watch models. It was tested in the iOS 27.2 beta, then taken out before iOS 27.2 came out, MacRumors reported.",
+    "On 3 November, Apple put it back into the first iOS 27.3 developer beta and said it would reach everyone as a free software update later this year. On 17 November, 9to5Mac wrote that iOS 27.3 is due next month, so in December. Apple hasn't named a release day."
+   ]
+  },
+  {
+   "h": "The Insights tab: your day at a glance",
+   "p": [
+    "Insights is the new home screen of the app. Apple says it pulls together heart, sleep, readiness, fitness, vitals and cycle tracking data into summaries that change through the day.",
+    "A For You section gives suggestions based on your habits. Apple's own example: after several nights of broken sleep, it may suggest changing your wind-down routine. It also adds videos and articles from the Health app's clinical experts.",
+    "MacRumors adds that owners of an Apple Watch Series 12 or Apple Watch Ultra 4 get a readiness score, on the watch and in Insights, that helps decide between a hard workout, a normal one or a rest day. The Vitals view now has overnight and daytime readings and adds heart rate variability (HRV)."
+   ]
+  },
+  {
+   "h": "The Longevity tab and Health Age",
+   "p": [
+    "Longevity looks at long-term trends instead of today's numbers, in seven areas: heart health, sleep, mental wellbeing, movement, metabolic health, hearing and nutrition.",
+    "Its main feature is Health Age. It turns Apple Watch data, such as VO2 max, resting heart rate, sleep and HRV, into an estimate of how your body is aging compared with your real age. Apple says Health Age needs an Apple Watch.",
+    "You can add lab results such as A1c and LDL cholesterol. MacRumors reports that Apple offers a 119-dollar lab panel from Quest Diagnostics that feeds into Health Age, and that you can also upload recent results or sync medical records instead."
+   ]
+  },
+  {
+   "h": "Movement checks with your iPhone camera",
+   "p": [
+    "With the iPhone camera and an Apple Watch, the app can measure flexibility, strength, balance, how you move and VO2 max at home, with spoken and on-screen feedback while you do it. Apple says no special equipment is needed.",
+    "Apple says the analysis runs on the device and that no video is ever recorded, stored or shared. The VO2 max estimate needs an Apple Watch, AirPods Pro 3 or a heart rate sensor from another maker."
+   ]
+  },
+  {
+   "h": "Who gets it",
+   "p": [
+    "The new app is built on Apple Intelligence. 9to5Mac reported on 17 November that it needs an iPhone 15 Pro or newer, and that people with older iPhones, or with Apple Intelligence turned off, keep a largely unchanged Health app. Apple says it also works on iPads that support Apple Intelligence, and that some features are iPhone only.",
+    "Some features are for people 18 and over. At first the app supports English, Chinese (Simplified and Traditional), French, Japanese, Korean, Norwegian, Portuguese, Spanish, Turkish and Vietnamese, and Apple plans more languages. Apple also says features may vary by region and language."
+   ]
+  }
+ ],
+ "means": "If you have an iPhone 15 Pro or newer and use Apple Intelligence, your Health app will look different after iOS 27.3, with daily summaries and a long-term Health Age score. On an older iPhone, the app stays much as it is.",
+ "todo": "Check your iPhone model in Settings, General, About. On an iPhone 15 Pro or newer, turn on Apple Intelligence before iOS 27.3 arrives, and wear your Apple Watch at night if you want sleep, HRV and Health Age data. Install iOS 27.3 when Settings, General, Software Update offers it.",
+ "where": "iPhone 15 Pro or newer and supported iPads with Apple Intelligence on, with iOS 27.3 (expected in December); select languages first",
+ "apps": [
+  "Apple Health"
+ ],
+ "sources": [
+  {
+   "name": "Apple Newsroom",
+   "url": "https://www.apple.com/newsroom/2026/11/redesigned-health-app-expands-language-support/"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/03/ios-27-3-adds-all-new-apple-health-app-details-here/"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/17/ios-27-3s-redesigned-apple-health-app-requires-newer-iphone-model/"
+  },
+  {
+   "name": "MacRumors",
+   "url": "https://macrumors.com/2026/11/03/ios-27-3-health-app"
+  }
+ ],
+ "idea": "competitor",
+ "traction": 0,
+ "thumb_words": "NEW APPLE HEALTH APP EXPLAINED"
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "youtube-mute-button-mobile",
+ "date": "2026-11-23",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Video",
+ "tag": "Quick",
+ "head": "YouTube adds a mute button above the progress bar on phones",
+ "dek": "YouTube's mobile player is getting a one-tap mute button just above the progress bar, rolling out in stages (seen on iPhone first); some users say they hit it by accident when trying to skip.",
+ "quick": true,
+ "apps": [
+  "YouTube"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/youtube-mobile-mute-button-rollout-3738385/"
+  }
+ ],
+ "item": 157686,
+ "idea": "news",
+ "traction": 21
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "ladybird-browser-alpha-mac-linux",
+ "date": "2026-11-23",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Apps",
+ "tag": "Quick",
+ "head": "Ladybird browser alpha is out for Mac and Linux",
+ "dek": "The independent Ladybird browser, built on its own engine rather than Chrome's, Firefox's or Safari's, now has a free alpha download for macOS and Linux; the team warns some sites won't work and crashes are expected.",
+ "quick": true,
+ "apps": [
+  "Ladybird"
+ ],
+ "sources": [
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/ladybird-web-browser-enters-alpha-offering-first-public-downloads-for-macos-and-linux-users/"
+  }
+ ],
+ "item": 158295,
+ "idea": "news",
+ "traction": 0
+}

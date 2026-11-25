@@ -1,0 +1,25 @@
+{
+ "slug": "windows-11-apps-860mb-less-ram",
+ "date": "2026-11-24",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Windows",
+ "tag": "Quick",
+ "head": "Microsoft 365, Defender and OneDrive now use about 860 MB less RAM",
+ "dek": "Microsoft said at Ignite 2026 that Office now uses 360 MB less memory on Windows 11 and Defender, Purview and OneDrive together over half a gigabyte less.",
+ "quick": true,
+ "apps": [
+  "Windows 11",
+  "Microsoft 365",
+  "OneDrive"
+ ],
+ "sources": [
+  {
+   "name": "Windows Latest",
+   "url": "https://www.windowslatest.com/2026/11/25/microsoft-admits-nearly-900mb-of-your-windows-11-pcs-ram-was-being-quietly-eaten-by-its-own-apps-like-defender-onedrive-and-microsoft-365-and-its-freed-it-up/"
+  }
+ ],
+ "item": 168354,
+ "idea": "news",
+ "traction": 0
+}

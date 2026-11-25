@@ -1,0 +1,28 @@
+{
+ "slug": "ios-27-notification-center-swipe-siri-ai",
+ "date": "2026-11-24",
+ "topic": "Apple",
+ "tag": "Heads-up",
+ "head": "iOS 27 Notification Center swipe changed: it now opens from the top-left",
+ "dek": "On iPhones and iPads with Siri AI turned on, a swipe down from the middle of the top edge now opens Siri, and Notification Center opens from the top-left corner instead. Without Siri AI, the swipe works as before.",
+ "details": "Notification Center has opened with a swipe down from the top since iOS 5 in 2011. On iPad, the top edge is now split: Notification Center on the left, Control Center on the right and Siri in the middle. 9to5Mac found no setting that gives the middle swipe back to Notification Center.",
+ "where": "iPhone with iOS 27 and iPad with iPadOS 27, once Siri AI is on",
+ "means": "If your notifications seem to be gone after turning on Siri AI, they're still there: they just moved to the top-left corner.",
+ "todo": "Swipe down from the top-left corner of the screen to see your notifications; there's no switch to change the middle swipe back.",
+ "apps": [
+  "iOS 27",
+  "Siri"
+ ],
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/24/ios-27-just-broke-15-years-of-muscle-memory-on-iphone-and-ipad/"
+  }
+ ],
+ "item": 166302,
+ "idea": "news",
+ "traction": 46,
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "thumb_words": "IOS 27 MOVED NOTIFICATION CENTER"
+}

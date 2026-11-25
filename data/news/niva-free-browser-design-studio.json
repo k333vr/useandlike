@@ -1,0 +1,23 @@
+{
+ "slug": "niva-free-browser-design-studio",
+ "date": "2026-11-24",
+ "topic": "Design",
+ "head": "NIVA: free browser design studio with no templates and no AI",
+ "dek": "Artist Stuart Semple launched NIVA, a free design tool in the browser that mixes photo editing, vector drawing and layout, with no subscription, templates or AI generation; TechRadar reports about 30,000 people tried it in the first 48 hours.",
+ "apps": [
+  "NIVA"
+ ],
+ "sources": [
+  {
+   "name": "TechRadar",
+   "url": "https://www.techradar.com/pro/its-not-template-based-like-canva-it-has-no-ai-to-do-it-for-you-a-free-browser-studio-launches-without-subscriptions-or-automated-shortcuts"
+  }
+ ],
+ "item": 166884,
+ "idea": "news",
+ "traction": 15,
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "tag": "Quick",
+ "quick": true
+}

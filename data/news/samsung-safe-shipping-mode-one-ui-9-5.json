@@ -1,0 +1,24 @@
+{
+ "slug": "samsung-safe-shipping-mode-one-ui-9-5",
+ "date": "2026-11-23",
+ "topic": "Samsung",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "Samsung is working on a Safe Shipping mode for phones sent to repair",
+ "dek": "Code in the One UI 9.5 beta shows a mode that drains a Galaxy's battery to 89% and caps charging at 80% before a mail-in repair, Android Authority found. Samsung hasn't announced it, and the S26 Ultra doesn't seem to support it.",
+ "apps": [
+  "One UI"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-safe-shipping-one-ui-9-5-apk-teardown-3738130/"
+  }
+ ],
+ "item": 155337,
+ "idea": "news",
+ "traction": 25,
+ "added": "2026-11-25",
+ "checked": "2026-11-25"
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "samsung-gallery-zoom-enhancer-leak",
+ "date": "2026-11-23",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Samsung",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "Samsung Gallery may get an AI Zoom enhancer for zoomed photos",
+ "dek": "Android Authority found a Zoom enhancer in the Gallery app's One UI 9.5 beta code that uses cloud AI to sharpen photos taken at high zoom, with a warning that AI details may differ from the real scene. Samsung hasn't announced it, and no phones or date are known.",
+ "apps": [
+  "Samsung Gallery"
+ ],
+ "item": 155556,
+ "idea": "news",
+ "traction": 11,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-zoom-enhancer-one-ui-9-5-3738006/"
+  }
+ ]
+}

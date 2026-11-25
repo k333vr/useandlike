@@ -1,0 +1,24 @@
+{
+ "slug": "samsung-real-time-walking-alerts-leak",
+ "date": "2026-11-23",
+ "topic": "Samsung",
+ "rumor": true,
+ "head": "Samsung may warn you in real time when you use your phone while walking",
+ "dek": "Android Authority found a \"real-time walking alerts\" option in One UI 9.5 beta code of Samsung's Digital Wellbeing app, similar to Google's Heads Up; Samsung hasn't confirmed it and it may not ship.",
+ "apps": [
+  "Samsung Digital Wellbeing"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-one-ui-9-5-real-time-walking-alerts-3738205/"
+  }
+ ],
+ "item": 155550,
+ "idea": "news",
+ "traction": 18,
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "tag": "Quick",
+ "quick": true
+}

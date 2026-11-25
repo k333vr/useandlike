@@ -1,0 +1,24 @@
+{
+ "slug": "adobe-photoshop-premiere-arm-windows-pcs",
+ "date": "2026-11-24",
+ "topic": "Windows",
+ "head": "Photoshop, Premiere and After Effects now run natively on Arm Windows PCs",
+ "dek": "Adobe says versions made for Arm-based Windows PCs are out now, with Photoshop's Remove tool working on the device; Adobe Express editing inside Windows 11 Photos reaches Windows Insiders in December.",
+ "apps": [
+  "Photoshop",
+  "Adobe Premiere"
+ ],
+ "sources": [
+  {
+   "name": "FoneArena",
+   "url": "https://www.fonearena.com/blog/497460/adobe-windows-apps-ai-editing-tools-arm-pc-optimizations.html"
+  }
+ ],
+ "item": 162313,
+ "idea": "news",
+ "traction": 0,
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "tag": "Quick",
+ "quick": true
+}

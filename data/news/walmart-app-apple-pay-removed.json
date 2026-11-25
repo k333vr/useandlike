@@ -1,0 +1,32 @@
+{
+ "slug": "walmart-app-apple-pay-removed",
+ "date": "2026-11-24",
+ "topic": "Shopping",
+ "tag": "Heads-up",
+ "head": "Walmart Apple Pay removed from the app and website weeks after adding it",
+ "dek": "Walmart no longer offers Apple Pay at checkout in its iPhone app or on its website, only weeks after it added the option. Apple Pay still works at Walmart's US stores.",
+ "details": "Appleosophy's David Becker reported the change on 19 November, and MacRumors and 9to5Mac confirmed on 24 November that the option is missing from Walmart's US app and site, including under other ways to pay. Walmart hasn't said why; MacRumors notes some users may still see it, which could mean a test. In stores, Walmart began taking contactless payments such as Apple Pay and Google Pay in August.",
+ "where": "US: Walmart app for iPhone and walmart.com; stores still take Apple Pay",
+ "means": "If you started paying for Walmart orders online with Apple Pay, you'll likely need another payment method at checkout for now.",
+ "todo": "Keep a card or another payment method saved in your Walmart account; in stores you can still tap to pay with Apple Pay.",
+ "apps": [
+  "Walmart",
+  "Apple Pay"
+ ],
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/24/walmart-app-drops-apple-pay/"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/24/walmart-drops-apple-pay-support-from-its-app-and-website/"
+  }
+ ],
+ "item": 166303,
+ "idea": "news",
+ "traction": 34,
+ "thumb_words": "WALMART APP DROPS APPLE PAY",
+ "added": "2026-11-25",
+ "checked": "2026-11-25"
+}

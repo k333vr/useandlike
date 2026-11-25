@@ -1,0 +1,23 @@
+{
+ "slug": "uber-lucid-nuro-driverless-testing-bay-area",
+ "date": "2026-11-24",
+ "topic": "Travel",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Uber's Lucid robotaxis start driverless tests in the Bay Area",
+ "dek": "Uber, Lucid and Nuro began testing their robotaxis with no one at the wheel in Palo Alto, Mountain View, Los Altos and Sunnyvale. Rides for the public through the Uber app are planned for early 2027.",
+ "apps": [
+  "Uber"
+ ],
+ "sources": [
+  {
+   "name": "Engadget",
+   "url": "https://www.engadget.com/2326365/uber-and-lucid-start-testing-fully-driverless-rides-for-their-robotaxis-in-san-francisco/"
+  }
+ ],
+ "item": 163767,
+ "idea": "news",
+ "traction": 0,
+ "added": "2026-11-25",
+ "checked": "2026-11-25"
+}

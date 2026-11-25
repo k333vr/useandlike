@@ -1,0 +1,24 @@
+{
+ "slug": "one-ui-9-5-gallery-shorts-photo-videos",
+ "date": "2026-11-23",
+ "topic": "Samsung",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "Samsung Gallery may turn photos into short videos with a paid feature",
+ "dek": "A feature called Shorts, reported by SamMobile, would make short clips from your photos and videos in Samsung Gallery, possibly as a paid Galaxy AI extra. It's still in development, isn't in the One UI 9.5 beta and Samsung hasn't confirmed it.",
+ "apps": [
+  "Samsung Gallery"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-shorts-feature-one-ui-9-5-3738063/"
+  }
+ ],
+ "item": 155092,
+ "idea": "news",
+ "traction": 34,
+ "added": "2026-11-25",
+ "checked": "2026-11-25"
+}

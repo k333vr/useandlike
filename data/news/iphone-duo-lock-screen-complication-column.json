@@ -19,6 +19,7 @@
   }
  ],
  "item": 152432,
+ "items": [163158],
  "idea": "request",
  "traction": 0,
  "details": "The column sits above the flashlight and camera buttons, below the network status icons, and pdfu says it can work together with the existing widget row at the bottom. It's controlled by an internal setting and was first found in iOS 27.1. No later code changes have been spotted, so it's unclear whether Apple is still working on it, MacRumors reports.",

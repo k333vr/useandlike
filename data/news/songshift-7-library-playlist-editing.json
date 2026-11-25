@@ -1,0 +1,31 @@
+{
+ "slug": "songshift-7-library-playlist-editing",
+ "date": "2026-11-23",
+ "topic": "Music",
+ "tag": "Update",
+ "head": "SongShift app update: browse your music library and edit playlists",
+ "dek": "SongShift 7.0, the iPhone app for moving playlists between music services, adds a library tab where you browse your connected services, add songs to playlists and edit playlist names and descriptions. The app is free to download.",
+ "details": "It works with Spotify, Apple Music, Amazon Music, YouTube, Tidal, Deezer, SoundCloud, Pandora, Qobuz and others; moving music into Apple Music needs an Apple Music subscription. Version 7 also adds new Siri and Shortcuts actions, refreshed widgets, iPhone Duo support and steadier transfers that recover after interruptions. Playlist sharing moved to a separate app, SongMix.",
+ "where": "iPhone and iPad, App Store, out now",
+ "means": "If you're switching from one music app to another, you can now tidy your playlists inside SongShift instead of opening each service.",
+ "todo": "Update SongShift from the App Store and check the new library tab; review the song matches before you start a transfer.",
+ "apps": [
+  "SongShift"
+ ],
+ "sources": [
+  {
+   "name": "App Store: SongShift",
+   "url": "https://apps.apple.com/us/app/songshift/id1097974566"
+  },
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/songshift-7-0-adds-music-library-browsing-and-playlist-editing/"
+  }
+ ],
+ "item": 156852,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "SONGSHIFT 7: EDIT PLAYLISTS IN-APP",
+ "added": "2026-11-25",
+ "checked": "2026-11-25"
+}

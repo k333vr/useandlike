@@ -1,0 +1,24 @@
+{
+ "slug": "android-auto-google-maps-black-screen",
+ "date": "2026-11-24",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Google",
+ "tag": "Quick",
+ "head": "Android Auto bug shows a black screen instead of Google Maps for some drivers",
+ "dek": "Some drivers, most of them in Ford cars, report that Google Maps doesn't load when Android Auto starts, leaving the map black. Google hasn't commented; tapping the phone's screen or clearing the Maps and Android Auto cache and restarting helped some users.",
+ "quick": true,
+ "apps": [
+  "Android Auto",
+  "Google Maps"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/android-auto-google-maps-black-screen-3739042/"
+  }
+ ],
+ "item": 166542,
+ "idea": "news",
+ "traction": 22
+}

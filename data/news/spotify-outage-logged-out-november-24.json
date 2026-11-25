@@ -1,0 +1,27 @@
+{
+ "slug": "spotify-outage-logged-out-november-24",
+ "date": "2026-11-24",
+ "topic": "Music",
+ "tag": "Heads-up",
+ "head": "Spotify logged me out: outage hit logins on 24 November, now fixed",
+ "dek": "A Spotify outage on 24 November signed people out on phones and computers and showed a false \"incorrect username and password\" error, so many thought their account had been hacked. Spotify says the problem is fixed and asks anyone still signed out to log in again.",
+ "details": "Reports rose from about 5:30 a.m. Eastern time, with more than 16,000 on Downdetector, from the US, the UK, Europe and other regions. People who stayed signed in could still play downloaded music, but streaming, search and account settings didn't work for those affected. Spotify confirmed the problem on X without naming a cause, and in an update in the afternoon said everything should be back to normal.",
+ "where": "US, UK, Europe and other regions; fixed on 24 November",
+ "means": "If Spotify signed you out and rejected your password on 24 November, your account most likely wasn't hacked: the fault was on Spotify's side.",
+ "todo": "Log in again. Don't keep resetting your password or reinstalling the app for this; if signing in still fails, check Spotify's status posts first.",
+ "apps": [
+  "Spotify"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/spotify-outage-login-issues-3738825/"
+  }
+ ],
+ "item": 163770,
+ "idea": "news",
+ "traction": 28,
+ "thumb_words": "SPOTIFY OUTAGE LOGGED USERS OUT",
+ "added": "2026-11-25",
+ "checked": "2026-11-25"
+}

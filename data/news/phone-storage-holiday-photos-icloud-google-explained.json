@@ -1,0 +1,85 @@
+{
+ "slug": "phone-storage-holiday-photos-icloud-google-explained",
+ "date": "2026-11-25",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Cloud",
+ "tag": "Explainer",
+ "category": "Cloud Storage",
+ "head": "iPhone storage full before the holidays: iCloud vs Google Photos",
+ "dek": "When your iPhone storage is full of photos, iCloud Photos with Optimize iPhone Storage and Google Photos' Free up space can both move the full-size pictures to the cloud, but each counts against a free limit, 5 GB at Apple and 15 GB at Google, and deleting works differently in each.",
+ "sections": [
+  {
+   "h": "What fills a phone",
+   "p": [
+    "On an iPhone, Settings, General, iPhone Storage lists your apps and how much each one uses. Apple says part of the space is taken by things you can't remove, such as Siri voices, fonts, logs, caches and the search index, plus the system itself, whose size depends on the model.",
+    "When the Storage Almost Full alert appears, Apple says the phone already removes some things on its own, like temporary files and items it can download again. Photos and videos are what you can move yourself, and over the holidays they grow fastest."
+   ]
+  },
+  {
+   "h": "iCloud Photos and Optimize iPhone Storage",
+   "p": [
+    "With iCloud Photos, your pictures and videos are stored in iCloud. Apple says Optimize iPhone Storage is on by default: the full-size originals stay in iCloud, and the phone keeps smaller copies when it needs the space. In iOS 27, the switch is under Settings, your name, iCloud, Photos, iPhone Storage.",
+    "The catch is space in iCloud. New accounts get 5 GB free, and more needs an iCloud+ plan. Deleting also works across devices: with iCloud Photos on, a photo you delete on the iPhone is deleted on your other Apple devices too. It stays in Recently Deleted for 30 days before it's gone for good."
+   ]
+  },
+  {
+   "h": "Google Photos' Free up space",
+   "p": [
+    "Google Photos works on Android and iPhone. Once your photos are backed up, Google says you can tap your profile picture, then Free up space on this device, and the app shows how much space you'll get back before deleting the phone's copies.",
+    "The photos stay in your library: you can still see, edit and share them in the Google Photos app and on the web. Google lists the limits: you won't see them in your phone's own gallery app, offline, or when you're signed out of Google Photos. Items less than 30 days old may stay on the phone. Make sure the backup has finished first."
+   ]
+  },
+  {
+   "h": "Google's 15 GB, shared with Gmail",
+   "p": [
+    "Every Google Account has up to 15 GB of storage, shared by Gmail, Google Drive, Google Photos and Android phone backups. Photos backed up in Original quality always count. Photos backed up in Storage saver, which used to be called High quality, only stayed free if they were uploaded before 1 June 2021; anything since then counts.",
+    "When the 15 GB is full, Google says new photo backups stop, Gmail may stop sending and receiving, and you can't create new Docs or Sheets. If an account stays over the limit for two years or more, Google may remove its content, after at least three months' notice."
+   ]
+  },
+  {
+   "h": "Quick ways to make room",
+   "p": [
+    "On the iPhone's Storage screen, tap Show All under the recommendations to see what Apple suggests, such as offloading apps you don't use. Offloading removes the app but keeps its documents and data. Since iOS 17, Recommended for You also points out photos, large files and backups you may not need, and the Photos app can merge duplicates.",
+    "In Google Photos, Google's storage tool lists blurry photos, screenshots and large videos you may want to delete."
+   ]
+  }
+ ],
+ "means": "If your phone is close to full before a trip or a family gathering, you can free space without losing your pictures, as long as they're backed up and your cloud has room. Deleting the wrong way can remove a photo from every device.",
+ "todo": "Check your space in Settings, General, iPhone Storage. With iCloud Photos, turn on Optimize iPhone Storage and check how much of your iCloud space is free. With Google Photos, wait until the backup is done, then use Free up space on this device. Offload apps you don't use and delete large videos you don't need.",
+ "where": "iPhone with iCloud Photos; Android and iPhone with Google Photos",
+ "apps": [
+  "iCloud",
+  "Google Photos",
+  "Photos"
+ ],
+ "sources": [
+  {
+   "name": "Apple Support: photo and video storage",
+   "url": "https://support.apple.com/105061"
+  },
+  {
+   "name": "Apple Support: check iPhone storage",
+   "url": "https://support.apple.com/108429"
+  },
+  {
+   "name": "Apple Support: delete photos",
+   "url": "https://support.apple.com/104967"
+  },
+  {
+   "name": "Google Photos Help: free up space",
+   "url": "https://support.google.com/photos/answer/6128843?hl=en"
+  },
+  {
+   "name": "Google Photos Help: manage storage",
+   "url": "https://support.google.com/photos/answer/9284827"
+  },
+  {
+   "name": "Google One Help",
+   "url": "https://support.google.com/googleone/answer/9312312?hl=en"
+  }
+ ],
+ "idea": "explainer",
+ "traction": 0,
+ "thumb_words": "PHONE FULL? ICLOUD VS GOOGLE PHOTOS"
+}

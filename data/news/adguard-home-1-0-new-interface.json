@@ -1,0 +1,23 @@
+{
+ "slug": "adguard-home-1-0-new-interface",
+ "date": "2026-11-23",
+ "topic": "Privacy",
+ "head": "AdGuard Home 1.0 is out with a new interface",
+ "dek": "AdGuard Home, the free, open-source ad and tracker blocker you run for your whole home network, reached version 1.0 after eight years, with a faster interface that works better on phones, per-device settings and a more detailed query log; old settings carry over.",
+ "apps": [
+  "AdGuard Home"
+ ],
+ "sources": [
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/adguard-home-finally-reaches-version-1-0-with-a-new-ui-after-eight-years-of-development/"
+  }
+ ],
+ "item": 155386,
+ "idea": "newcomer",
+ "traction": 0,
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "tag": "Quick",
+ "quick": true
+}

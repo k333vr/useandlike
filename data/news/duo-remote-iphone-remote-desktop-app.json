@@ -1,0 +1,27 @@
+{
+ "slug": "duo-remote-iphone-remote-desktop-app",
+ "date": "2026-11-24",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "Duo Remote: remote desktop iPhone app for Windows PCs and Macs",
+ "dek": "Duo Remote is a new $1.99 iPhone app that shows and controls your Windows PC over Remote Desktop or your Mac over its built-in Screen Sharing. It was #99 in paid Productivity apps on the US App Store on 24 November.",
+ "details": "A laptop mode puts the computer's screen on the top half of the phone and a keyboard and trackpad on the bottom; on the foldable iPhone Duo the Windows desktop resizes when you open or close it. There's a key bar with Ctrl, Alt, Esc, Tab, arrows and Ctrl+Alt+Del. Windows needs Remote Desktop turned on, which Pro, Enterprise and Server editions have; Azure Virtual Desktop and Windows 365 aren't supported. The listing warns that Mac Screen Sharing isn't encrypted after sign-in, so use it on a trusted network or a VPN.",
+ "where": "iPhone (iOS 17 or later), $1.99, by Robert Menzel",
+ "means": "If you sometimes need a file or program from your work computer while away from your desk, you can reach it from your iPhone.",
+ "todo": "Check that your PC runs Windows Pro or that Screen Sharing is on in your Mac's settings before you buy it.",
+ "apps": [
+  "Duo Remote"
+ ],
+ "sources": [
+  {
+   "name": "App Store: Duo Remote",
+   "url": "https://apps.apple.com/us/app/duo-remote/id6834916831"
+  }
+ ],
+ "item": 168300,
+ "idea": "newcomer",
+ "traction": 0,
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "thumb_words": "YOUR PC ON YOUR IPHONE: DUO REMOTE"
+}

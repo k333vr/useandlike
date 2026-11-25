@@ -1,0 +1,27 @@
+{
+ "slug": "expressvpn-13-iphone-app-redesign",
+ "date": "2026-11-23",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Security",
+ "tag": "Quick",
+ "head": "ExpressVPN's iPhone app gets a new look in version 13",
+ "dek": "ExpressVPN released version 13 of its iPhone app on 23 November, with a redesigned interface the company calls cleaner and smoother, and the same protection as before. A 13.0.1 update followed a day later.",
+ "quick": true,
+ "apps": [
+  "ExpressVPN"
+ ],
+ "sources": [
+  {
+   "name": "ExpressVPN release notes",
+   "url": "https://www.expressvpn.com/support/vpn-setup/release-notes/ios-app/"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/id886492891"
+  }
+ ],
+ "item": 165224,
+ "idea": "news",
+ "traction": 15
+}

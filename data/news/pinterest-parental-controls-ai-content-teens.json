@@ -1,0 +1,31 @@
+{
+ "slug": "pinterest-parental-controls-ai-content-teens",
+ "date": "2026-11-23",
+ "topic": "Social",
+ "tag": "New feature",
+ "head": "Pinterest parental controls let parents limit AI content for teens",
+ "dek": "Parents can now set how much AI-generated content shows up in their teen's Pinterest recommendations. The setting sits on a new Parental Controls page that Pinterest announced on 23 November.",
+ "details": "The same page adds controls for how many push, browser, email and in-app notifications a teen gets and whether videos play by themselves. It also gathers existing settings such as private profiles, ads personalization and comments and mentions, and links to the phone's own Screen Time and Location settings on iPhone and Android. Every setting on the page is locked by the Parental Passcode, so teens need permission to loosen them. Pinterest hasn't said which countries get it first.",
+ "where": "Pinterest on iPhone, Android and the web; countries not stated",
+ "means": "If your teen uses Pinterest, you can now turn down AI images in their feed and keep autoplay and notifications in check from one place.",
+ "todo": "Set a Parental Passcode in your teen's Pinterest account, then open the Parental Controls page and pick the AI content, notification and autoplay settings you want.",
+ "apps": [
+  "Pinterest"
+ ],
+ "sources": [
+  {
+   "name": "Pinterest Newsroom",
+   "url": "https://newsroom.pinterest.com/news/helping-families-navigate-controls-for-teens-on-pinterest/"
+  },
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/"
+  }
+ ],
+ "item": 165192,
+ "idea": "news",
+ "traction": 23,
+ "thumb_words": "PINTEREST: PARENTS CAN LIMIT AI",
+ "added": "2026-11-25",
+ "checked": "2026-11-25"
+}

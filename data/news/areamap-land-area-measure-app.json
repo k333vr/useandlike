@@ -1,0 +1,27 @@
+{
+ "slug": "areamap-land-area-measure-app",
+ "date": "2026-11-24",
+ "added": "2026-11-25",
+ "checked": "2026-11-25",
+ "topic": "Utilities",
+ "tag": "New app",
+ "head": "AreaMap: land area measure app for iPhone shows acres and lot lines",
+ "dek": "AreaMap measures a piece of land when you tap its corners on a satellite map or walk its edge with GPS, and shows county lot lines. The free iPhone and iPad app was #36 in Utilities on the US App Store on 24 November.",
+ "details": "It can also estimate materials for a job, such as fence posts, gravel, mulch or concrete, and make priced quotes and PDF reports. Measurements can be saved and exported. AreaMap Pro and AreaMap Max subscriptions, billed monthly or yearly, unlock more, such as flood zones, soils and contours. The app is by Nathan La Mar Burnett, came out on 29 September, needs iOS 17 and is in 13 languages.",
+ "where": "iPhone and iPad, App Store; free with Pro and Max subscriptions",
+ "means": "If you're planning a fence, a garden or a gravel drive, you can get the size and a materials estimate from your phone.",
+ "todo": "Search for AreaMap: Land Area Measure in the App Store. The listing shows the subscription price for your country before you subscribe.",
+ "apps": [
+  "AreaMap"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/areamap-land-area-measure/id6816359797"
+  }
+ ],
+ "item": 168301,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "AREAMAP MEASURES YOUR LAND"
+}
