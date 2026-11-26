@@ -4,21 +4,29 @@
  "added": "2026-11-26",
  "checked": "2026-11-26",
  "topic": "Security",
- "tag": "Quick",
- "head": "India's CERT-In warns of serious flaws in Windows and Microsoft 365",
- "dek": "India's cyber agency CERT-In said on 25 November that flaws fixed in Microsoft's November security updates for Windows, Office, Microsoft 365 and Azure could let attackers run their own code or get access they should not have. It advises installing Microsoft's updates on devices and apps.",
- "quick": true,
+ "tag": "Safety",
+ "head": "Windows security update November 2026: India's CERT-In warns of flaws",
+ "dek": "India's cyber agency CERT-In said on 25 November that flaws fixed in Microsoft's November updates for Windows, Office, Microsoft 365 and Azure could let attackers run their own code, see sensitive data or get access they shouldn't have. It advises installing Microsoft's updates on devices and apps.",
+ "details": "The note also lists Microsoft 365 Copilot, Entra ID and Microsoft Clarity. Microsoft released the fixes on 10 November, and the Center for Internet Security says Microsoft reported one of the flaws (CVE-2026-124194) as exploited in the wild. The center rates the risk for home users as low.",
+ "where": "Everyone using Windows, Office, Microsoft 365 or Azure",
+ "means": "If your PC or Office apps haven't installed the November updates yet, they may still have these holes.",
+ "todo": "Open Windows Update and install the latest updates, and update your Office or Microsoft 365 apps.",
+ "thumb_words": "CERT-IN: UPDATE WINDOWS AND OFFICE",
  "apps": [
   "Windows",
   "Microsoft 365"
  ],
- "item": 173003,
  "sources": [
   {
    "name": "Digit",
    "url": "https://www.digit.in/news/general/after-microsoft-issues-code-red-govt-warns-users-of-critical-vulnerabilities-across-windows-azure-and-microsoft-365.html"
+  },
+  {
+   "name": "Center for Internet Security",
+   "url": "https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-november-10-2026_2026-132"
   }
  ],
- "idea": "news",
+ "item": 173003,
+ "idea": "request",
  "traction": 15
 }

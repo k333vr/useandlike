@@ -4,10 +4,9 @@
  "added": "2026-11-26",
  "checked": "2026-11-26",
  "topic": "Shopping",
- "tag": "Quick",
- "quick": true,
- "head": "Hold'em turns Shopify Black Friday deals into a swipe game",
- "dek": "The free web app Hold'em shows live products from Shopify stores to swipe through, checks carts for automatic discounts and whether a store ships to your ZIP code; you check out on each store's site. Without an account it gives 8 rounds through Cyber Monday.",
+ "tag": "New app",
+ "head": "Hold'em turns Black Friday Shopify deals into a swipe game",
+ "dek": "The free web app Hold'em, launched on 25 November, deals you live products from Shopify stores to swipe through and checks their carts for automatic Black Friday discounts that may not show on the product page.",
  "apps": [
   "Hold'em"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 170447,
- "idea": "newcomer",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "You say what you want, swipe right to hold a product or left to fold it, and enter your ZIP code once so it checks which stores ship to you. Held items are grouped by store into a pack you can share, and you pay on each store's own site; Hold'em says it never handles payment details. Without an account you get 8 rounds of 10 cards through Cyber Monday; a free sign-in gives 40 rounds. A Chrome extension saves any Shopify product to your pack.",
+ "where": "Web and Chrome extension, free, through Cyber Monday",
+ "means": "If you shop Black Friday at smaller online stores, it can show cart discounts and shipping before you get to checkout.",
+ "todo": "Open it in your browser, enter your ZIP code once, and check out on the store's own site as usual.",
+ "thumb_words": "BLACK FRIDAY DEALS AS A SWIPE GAME"
 }

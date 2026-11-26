@@ -4,20 +4,28 @@
  "added": "2026-11-26",
  "checked": "2026-11-26",
  "topic": "Android",
- "tag": "Quick",
- "quick": true,
- "head": "Paperknife Plus, a free offline PDF toolkit, wins Android reader poll",
- "dek": "Android Authority readers picked Paperknife Plus as their favourite new Android app of 2026, with 11% of 1,460 votes by 23 November. The free app merges, splits, signs and watermarks PDFs with no account or internet connection.",
+ "tag": "New app",
+ "head": "Paperknife PDF app for Android wins reader poll: free and offline",
+ "dek": "Paperknife Plus, a free PDF toolkit that works without internet or an account, came first in Android Authority's reader poll for the new Android app of 2026, with 161 of 1,460 votes (11%) by 23 November.",
  "apps": [
   "Paperknife Plus"
  ],
  "item": 155553,
- "idea": "news",
+ "idea": "request",
  "traction": 18,
  "sources": [
   {
    "name": "Android Authority",
    "url": "https://www.androidauthority.com/best-new-android-app-2026-poll-results-3738186/"
+  },
+  {
+   "name": "GitHub: PaperKnife+",
+   "url": "https://github.com/potatameister/PaperKnifePlus"
   }
- ]
+ ],
+ "details": "No app won a clear lead: Vela Maps came second with 8.9% and AI Hub third with 8.7%. Paperknife Plus has 21 tools, among them merge, split, rotate, sign, watermark, compress, password lock and converting PDFs to and from images or text. It's open source (GPL-3.0), has no ads and asks for no internet permission. It needs Android 7.0 or later and is about 8 MB.",
+ "where": "Android 7.0 and later, from GitHub, F-Droid and IzzyOnDroid (no public Play Store release yet)",
+ "means": "If you edit PDFs on your phone and don't want to upload them to a website, this app does the common jobs on the device itself.",
+ "todo": "Get it from the project's GitHub releases page or F-Droid; it isn't in the Play Store yet.",
+ "thumb_words": "FREE OFFLINE PDF APP WINS POLL"
 }

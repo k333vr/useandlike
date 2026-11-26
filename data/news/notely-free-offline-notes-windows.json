@@ -4,10 +4,9 @@
  "added": "2026-11-26",
  "checked": "2026-11-26",
  "topic": "Productivity",
- "tag": "Quick",
- "quick": true,
- "head": "Notely is a free offline notes app for Windows 11 with optional AI",
- "dek": "Notely keeps notes on your PC with no account, offers tabs, version history and password-locked notes, and can use your own Gemini or Groq key for AI, off by default. It's free from the Microsoft Store.",
+ "tag": "New app",
+ "head": "Notely: a free offline notes app for Windows 11 with optional AI",
+ "dek": "Notely, launched on Product Hunt on 25 November, keeps notes only on your PC with no account or telemetry, and it's free from the Microsoft Store.",
  "apps": [
   "Notely"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 170467,
- "idea": "newcomer",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "It has up to 24 tabs that come back after a restart, full-text search, version history with word-by-word changes, and notes you can lock with a password and a 64-character recovery key. Exports go to Markdown, HTML, PDF and ZIP backups. AI is off by default: with your own Google Gemini or GroqCloud key it can rewrite, fix grammar, summarize and translate, and each note can be set to never go to AI. It's made by Sarowar Zamil Shawon; there's no Mac version.",
+ "where": "Windows 11, free from the Microsoft Store and GitHub",
+ "means": "If you want a notes app on Windows that doesn't need a cloud account, this keeps everything on your own computer.",
+ "todo": "Get it from the Microsoft Store; leave AI off, or add your own Gemini or Groq key if you want it.",
+ "thumb_words": "FREE OFFLINE NOTES APP FOR WINDOWS"
 }

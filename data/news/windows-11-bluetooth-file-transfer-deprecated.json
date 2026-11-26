@@ -4,10 +4,14 @@
  "added": "2026-11-26",
  "checked": "2026-11-26",
  "topic": "Windows",
- "tag": "Quick",
- "head": "Windows 11 drops work on Bluetooth file transfer and the Family Safety app",
- "dek": "Microsoft's list of deprecated Windows features now includes moving files over Bluetooth (MTP over Bluetooth), which may be removed later, and the Family Safety app for Windows; USB transfers keep working, and Family Safety stays in the phone app and on the web.",
- "quick": true,
+ "tag": "Heads-up",
+ "head": "Windows 11 Bluetooth file transfer over MTP deprecated, may be removed",
+ "dek": "Microsoft added MTP over Bluetooth, used to manage files on a connected device without a cable, to its list of deprecated Windows features in November 2026: it's no longer developed and might be removed in a later release. The Family Safety app for Windows and Telnet Client are on the list too.",
+ "details": "Microsoft says MTP over USB keeps working for managing files on connected devices. The Family Safety app is planned for removal from Windows in a future release; its features stay in the Microsoft Family Safety phone app and on the Family Safety website. Microsoft hasn't given a removal date for either.",
+ "where": "Windows 11; deprecated November 2026, no removal date yet",
+ "means": "If you move files between a device and your PC over Bluetooth with MTP, it still works for now but may stop in a later Windows version. Parents who manage Family Safety on the PC will need the phone app or the website.",
+ "todo": "Use a USB cable for MTP file transfers, and manage Family Safety from the Microsoft Family Safety phone app or its website.",
+ "thumb_words": "WINDOWS 11 PHASES OUT BLUETOOTH FILES",
  "apps": [
   "Windows 11",
   "Microsoft Family Safety"
@@ -23,6 +27,6 @@
   }
  ],
  "item": 163940,
- "idea": "news",
+ "idea": "request",
  "traction": 23
 }

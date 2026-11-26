@@ -4,20 +4,24 @@
  "added": "2026-11-26",
  "checked": "2026-11-26",
  "topic": "Productivity",
- "tag": "Quick",
- "head": "White Notes: a plain white notes app for iPhone and iPad",
- "dek": "White Notes is a $0.29 notes app with just black text on a white page, checklists, Face ID lock and Markdown export; it never connects to the internet. It was #74 among paid Productivity apps on the US App Store on 25 November.",
- "quick": true,
+ "tag": "New app",
+ "head": "White Notes: a black and white notes app for iPhone that stays offline",
+ "dek": "White Notes is a 29-cent notes app for iPhone and iPad that shows only black text on a white page and never connects to the internet. It was #74 among paid Productivity apps on the US App Store on 25 November.",
+ "details": "It has headings, bold and italic text, checklists, numbered lists, photos, categories, pinned notes and search. Any note can be locked with Face ID, Touch ID or the passcode, and deleted notes stay in Recently Deleted for 30 days. Notes can be shared as text, PDF or Markdown, or all exported at once as Markdown files. It's a one-time purchase with no in-app purchases, no account and no ads, in 45 languages; it needs iOS 17 and came out on 12 November.",
+ "where": "iPhone and iPad (iOS 17 or later), App Store, $0.29 one-time",
+ "means": "If you want a notes app without colours, sign-ups or ads, this one does the basics for a one-time 29 cents.",
+ "todo": "Search \"White Notes\" in the App Store; export your notes as Markdown now and then to keep a copy.",
+ "thumb_words": "WHITE NOTES: OFFLINE NOTES, 29 CENTS",
  "apps": [
   "White Notes"
  ],
- "item": 176141,
  "sources": [
   {
    "name": "App Store",
    "url": "https://apps.apple.com/us/app/white-notes/id6833365108"
   }
  ],
- "idea": "newcomer",
+ "item": 176141,
+ "idea": "request",
  "traction": 0
 }

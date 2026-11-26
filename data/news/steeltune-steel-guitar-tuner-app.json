@@ -4,10 +4,14 @@
  "added": "2026-11-26",
  "checked": "2026-11-26",
  "topic": "Music",
- "tag": "Quick",
- "quick": true,
- "head": "SteelTune: $5 steel guitar tuner app for iPhone and iPad",
- "dek": "SteelTune, a one-time $5 tuner with common steel guitar tunings plus guitar presets, needle or strobe display and custom tunings, was #89 among paid Music apps on the US App Store on 25 November. No account, ads or subscription.",
+ "tag": "New app",
+ "head": "Pedal steel guitar tuner app SteelTune comes to iPhone for $5",
+ "dek": "SteelTune is a $5 tuner for iPhone and iPad with the tunings steel guitar players use, from E9 and C6 pedal steel to lap steel, resophonic and slack key. It was #89 among paid Music apps on the US App Store on 25 November.",
+ "details": "It's made by Brett Thomas Lanier, who the listing says is a working steel player. Each tuning can use a needle or a strobe display, every string can be fine-tuned in half-cent steps, and whole tunings can be transposed or sent to another player with a link. It listens through the microphone or a small audio interface and also has electric and acoustic guitar presets. One price, with no account, ads or subscription; it needs iOS 16 and came out on 5 November.",
+ "where": "iPhone and iPad (iOS 16 or later), App Store, $5 one-time",
+ "means": "If you play pedal steel, lap steel or Dobro, you can keep each of your tunings as its own swipeable tuner screen instead of retuning a general tuner app.",
+ "todo": "Search \"SteelTune\" in the App Store; it works with your phone's microphone, or plug in an audio interface for a cleaner signal.",
+ "thumb_words": "STEELTUNE: STEEL GUITAR TUNER, $5",
  "apps": [
   "SteelTune"
  ],
@@ -18,6 +22,6 @@
   }
  ],
  "item": 176159,
- "idea": "newcomer",
+ "idea": "request",
  "traction": 0
 }

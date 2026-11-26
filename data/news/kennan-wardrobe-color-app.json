@@ -4,10 +4,14 @@
  "added": "2026-11-26",
  "checked": "2026-11-26",
  "topic": "Lifestyle",
- "tag": "Quick",
- "quick": true,
- "head": "Kennan app estimates fabric colors from a photo",
- "dek": "Kennan, a 29-cent iPhone and iPad app, estimates a garment's color when you photograph it next to known color references, and saves your wardrobe. It was #94 among paid Lifestyle apps on the US App Store on 25 November.",
+ "tag": "New app",
+ "head": "Kennan: fabric color matching app estimates clothing colors from photos",
+ "dek": "Kennan, a 29-cent app for iPhone and iPad, estimates the color of a piece of clothing when you photograph it next to known color references such as paint chips. It was #94 among paid Lifestyle apps on the US App Store on 25 November.",
+ "details": "You zoom in and sample the fabric and the reference patches, and the app averages the samples. Its offline library finds references by paint name, swatch code or brand. Saved garments can be searched by name or color, and a compare mode gives a color-harmony score for pieces you might wear together. Photos stay on the device, with no account, ads or subscription; the maker calls the result an estimate, not a lab measurement.",
+ "where": "iPhone and iPad (iOS 17 or later), App Store, $0.29",
+ "means": "If you want to know which clothes go together by color, Kennan gives you a saved wardrobe with color estimates for 29 cents, as long as you have reference swatches to photograph next to them.",
+ "todo": "Search \"Kennan\" in the App Store; take the photo in even light with matte reference patches, as the listing advises.",
+ "thumb_words": "KENNAN: YOUR CLOTHES' COLORS",
  "apps": [
   "Kennan"
  ],
@@ -18,6 +22,6 @@
   }
  ],
  "item": 176150,
- "idea": "newcomer",
+ "idea": "request",
  "traction": 0
 }

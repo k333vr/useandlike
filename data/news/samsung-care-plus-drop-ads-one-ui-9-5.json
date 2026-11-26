@@ -4,11 +4,15 @@
  "added": "2026-11-26",
  "checked": "2026-11-26",
  "topic": "Samsung",
- "tag": "Quick",
- "quick": true,
+ "tag": "In testing",
  "rumor": true,
- "head": "One UI 9.5 code hints at Samsung Care+ ads after you drop your phone",
- "dek": "Code in the One UI 9.5 beta's Warranty Care app could show Samsung Care+ offers after a hard fall is detected, Android Authority found. Samsung hasn't commented, and it may never ship.",
+ "head": "Samsung Care Plus ads after a phone drop may come in One UI 9.5",
+ "dek": "Code in the One UI 9.5 beta suggests Galaxy phones could push Samsung Care Plus offers after a hard fall, according to an app teardown by Android Authority. Samsung hasn't confirmed it, and the feature may never ship.",
+ "details": "The code sits in Samsung's Warranty Care app (version 1.9.50.23) in One UI 9.5 Beta 1 on a Galaxy S26 Ultra. A fall of 90 centimeters or more onto a hard surface within 24 hours, or three falls of 60 centimeters or more within 30 days, could trigger a notification such as \"Protect your phone from falls\". The offers would go only to eligible phones not yet enrolled in Care Plus, signed in to a Samsung account, between 9 AM and 8 PM, at most three times per drop rule. Drop logs stay on the phone for 30 days, and Samsung can switch the offers off from its servers.",
+ "where": "Found in the One UI 9.5 beta on the Galaxy S26 Ultra; not confirmed or released",
+ "means": "If you own a Galaxy phone without Care Plus, a future update might show you insurance offers after a drop, under the Marketing notifications of Warranty and care. Android Authority notes that Care Plus doesn't cover damage from before you sign up.",
+ "todo": "Nothing to do yet. If the offers arrive and you don't want them: Settings, Notifications, App notifications, the three-dot menu, Show system apps, then Warranty and care, Notification categories, and turn off Marketing.",
+ "thumb_words": "SAMSUNG CARE+ ADS AFTER A DROP?",
  "apps": [
   "Samsung Care+",
   "One UI"
@@ -20,6 +24,6 @@
   }
  ],
  "item": 171119,
- "idea": "news",
+ "idea": "request",
  "traction": 18
 }

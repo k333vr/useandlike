@@ -4,11 +4,10 @@
  "added": "2026-11-26",
  "checked": "2026-11-26",
  "topic": "Samsung",
- "tag": "Quick",
- "quick": true,
+ "tag": "In testing",
  "rumor": true,
- "head": "One UI 9.5 beta adds Ask AI and 7 presets to Samsung Modes and Routines",
- "dek": "In the One UI 9.5 beta, a routine can send a prompt to Perplexity or Gemini and use seven new presets like a Pomodoro timer, Android Authority found. Only Perplexity sends it on its own; features may change before release.",
+ "head": "Samsung Modes and Routines may get Ask AI and 7 presets in One UI 9.5",
+ "dek": "Code in the One UI 9.5 Beta 1 lets a routine send a prompt to Perplexity or Gemini and adds seven new preset routines, Android Authority found in a teardown on 25 November; Samsung hasn't mentioned it and it may change before release.",
  "apps": [
   "Modes and Routines",
   "One UI"
@@ -20,6 +19,11 @@
   }
  ],
  "item": 172280,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "The \"Ask AI assistant\" action works only with Perplexity and Gemini, and only when their apps are installed; Perplexity sent the prompt and read the answer aloud, while Gemini opened with the prompt typed in and needed a tap on Send. The presets are Pomodoro timer, Monthly media cleanup, Screenshot translation, Morning news briefing, Meeting recorder, Plank workout routine and Monthly storage cleanup. New actions also summarize text (on Samsung's servers, with a Samsung account), translate text on the phone, read text from images and repeat steps. Tested on a Galaxy S26 Ultra with Modes and Routines 5.2.00.69.",
+ "where": "One UI 9.5 Beta 1 (in the code, not announced); stable release date unknown",
+ "means": "If you use Samsung routines, they may soon be able to ask an AI assistant for you, for example a news briefing in the morning.",
+ "todo": "Nothing to do yet; on One UI 9.5 look under Discover in Modes and Routines for the new presets.",
+ "thumb_words": "SAMSUNG ROUTINES MAY ASK AI"
 }

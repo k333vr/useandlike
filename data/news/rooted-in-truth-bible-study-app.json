@@ -4,20 +4,24 @@
  "added": "2026-11-26",
  "checked": "2026-11-26",
  "topic": "Education",
- "tag": "Quick",
- "head": "Rooted in Truth: Bible study courses app for iPhone",
- "dek": "Rooted in Truth is a $9.99 app with five Bible courses (84 lessons with quizzes), the King James Bible and faith-based encouragement. It came out on 22 November and was #57 among paid Education apps on the US App Store on 25 November.",
- "quick": true,
+ "tag": "New app",
+ "head": "Rooted in Truth: new Bible study app for iPhone with 84 lessons",
+ "dek": "Rooted in Truth is a $9.99 Bible study app for iPhone and iPad with five courses, 84 lessons and 280 quiz questions, plus the full King James Bible. It came out on 22 November and was #57 among paid Education apps on the US App Store on 25 November.",
+ "details": "The courses include Bible Foundations, How to Study Scripture and Introduction to Christian Theology, with certificates for each course. Version 2.0 on 25 November added a black-and-gold design, 107 illustrated Bible character biographies and more faith-based support on topics like anxiety, grief and addiction. It also has a prayer journal and devotionals. It's made by Joshua Capilla, a Christian minister; the listing says the courses aren't accredited and the app doesn't replace medical or mental health care.",
+ "where": "iPhone and iPad (iOS 16.4 or later), App Store, $9.99",
+ "means": "If you want structured Bible courses with quizzes instead of a reading plan, this app bundles them with a searchable King James Bible for a one-time price.",
+ "todo": "Search \"Rooted in Truth\" in the App Store; the certificates are the app's own, not an accredited qualification.",
+ "thumb_words": "ROOTED IN TRUTH: BIBLE COURSES APP",
  "apps": [
   "Rooted in Truth"
  ],
- "item": 176165,
  "sources": [
   {
    "name": "App Store",
    "url": "https://apps.apple.com/us/app/rooted-in-truth/id6837828608"
   }
  ],
- "idea": "newcomer",
+ "item": 176165,
+ "idea": "request",
  "traction": 0
 }

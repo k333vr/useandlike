@@ -4,20 +4,32 @@
  "added": "2026-11-26",
  "checked": "2026-11-26",
  "topic": "Windows",
- "tag": "Quick",
- "head": "Microsoft 365 companion apps stop working on 16 December",
- "dek": "Microsoft's People, Files and Calendar companion apps, installed automatically on Windows 11 PCs with Microsoft 365 business plans, stop working on 16 December and have to be removed by hand. At Ignite, a Microsoft speaker said they caused a lot of memory use and issues.",
- "quick": true,
+ "tag": "Shutdown",
+ "head": "Microsoft 365 companion apps retirement: they stop working December 16",
+ "dek": "Microsoft's People, Files and Calendar companion apps, installed automatically on Windows 11 PCs with Microsoft 365 business apps, stop working on 16 December 2026 and won't remove themselves. At Ignite, a Microsoft speaker said they had been a source of a lot of memory use and issues.",
+ "details": "Microsoft installed the taskbar apps from late October to late December 2025 and stopped after its retirement notice in September 2026, and Office Watch says security fixes have already stopped. Removing one removes all three, and your files, events and contacts stay in Microsoft 365. Windows Latest had measured the apps using over 1 GB of memory. Microsoft points to Outlook and Teams for people and calendars, and to File Explorer, OneDrive and SharePoint for files.",
+ "where": "Windows 11 PCs with Microsoft 365 Business or Enterprise; ends 16 December 2026",
+ "means": "If People, Files or Calendar sit on your work PC's taskbar, they'll stop working in December; removing them frees memory and loses no data.",
+ "todo": "Go to Settings > Apps > Installed apps, search for Microsoft 365 companions, open the three-dot menu and choose Uninstall. On a work PC your IT team manages, they may remove it for you.",
+ "thumb_words": "MICROSOFT 365 COMPANION APPS END DEC 16",
  "apps": [
   "Microsoft 365"
  ],
- "item": 174786,
  "sources": [
   {
    "name": "Windows Latest",
    "url": "https://www.windowslatest.com/2026/11/26/a-lot-of-memory-and-issues-microsoft-reveals-why-its-force-installed-copilot-filled-microsoft-365-apps-are-being-removed-from-windows-11-saying-they-came-at-a-very-high-cost/"
+  },
+  {
+   "name": "Office Watch",
+   "url": "https://office-watch.com/2026/microsoft-365-companion-apps-retired/"
+  },
+  {
+   "name": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/"
   }
  ],
- "idea": "news",
+ "item": 174786,
+ "idea": "request",
  "traction": 0
 }

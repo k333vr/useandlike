@@ -4,20 +4,24 @@
  "added": "2026-11-26",
  "checked": "2026-11-26",
  "topic": "Music",
- "tag": "Quick",
- "head": "Matter / Field: a $4.99 sound app where falling fragments play notes",
- "dek": "Matter / Field, out since 22 November for iPhone and iPad, drops fragments of a sound through a field of forces and plays a grain of it at each impact, with 103 ready-made studies and 3D audio for headphones. It also works as an AUv3 instrument inside music apps.",
- "quick": true,
+ "tag": "New app",
+ "head": "Matter / Field app turns falling fragments into sound on iPhone",
+ "dek": "Matter / Field is a $4.99 app for iPhone and iPad that drops pieces of a sound through a field of forces and plays a grain of it each time one hits something. It came out on 22 November from Complex State Machines.",
+ "details": "It starts from 13 built-in sounds like glass, water and bronze bells, or your own recording, and you place forces such as wind or vortex and objects made of glass, wood or ice. It comes with 103 ready-made studies, including slow ones for rest, focus and sleep, and a keyboard to play it in key. Headphone 3D places each sound around you, with head tracking on AirPods and other headphones that track your head. It also works as an Audio Unit instrument inside music apps like GarageBand and exports 24-bit WAV files; it needs iOS 17 and collects no data.",
+ "where": "iPhone and iPad (iOS 17 or later), App Store, $4.99",
+ "means": "If you make music on an iPhone or iPad, or just like ambient sound to focus or sleep to, this is a new kind of instrument you can play by placing objects instead of keys.",
+ "todo": "Search \"Matter / Field\" in the App Store; try a study from the rest or sleep group with headphones first.",
+ "thumb_words": "MATTER / FIELD: SOUND YOU CAN DROP",
  "apps": [
   "Matter / Field"
  ],
- "item": 176160,
  "sources": [
   {
    "name": "App Store: Matter / Field",
    "url": "https://apps.apple.com/us/app/matter-field/id6823269068"
   }
  ],
- "idea": "newcomer",
+ "item": 176160,
+ "idea": "request",
  "traction": 0
 }

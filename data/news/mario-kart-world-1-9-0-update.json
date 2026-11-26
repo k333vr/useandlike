@@ -4,10 +4,9 @@
  "added": "2026-11-26",
  "checked": "2026-11-26",
  "topic": "Games",
- "tag": "Quick",
- "head": "Mario Kart World 1.9.0 update adds 8 courses and replays",
- "dek": "Mario Kart World version 1.9.0 for Nintendo Switch 2 adds eight new \"2\" versions of existing courses, two Knockout Tour rallies and a replay feature that saves races automatically.",
- "quick": true,
+ "tag": "Update",
+ "head": "Mario Kart World update 1.9.0 patch notes: 8 new tracks and replays",
+ "dek": "Nintendo released Mario Kart World version 1.9.0 for Switch 2 on 24 November, a free update with eight new \"2\" versions of existing courses, two Knockout Tour rallies and a Replay mode that saves races and battles by itself.",
  "apps": [
   "Mario Kart World"
  ],
@@ -18,6 +17,11 @@
    "url": "https://www.nintendolife.com/news/2026/11/mario-kart-world-has-been-updated-to-version-1-9-0-here-are-the-full-patch-notes"
   }
  ],
- "idea": "trend",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "The new courses are Airship Fortress 2, Desert Hills 2, Salty Salty Speedway 2, DK Pass 2, Koopa Troopa Beach 2, Shy Guy Bazaar 2, Mario Bros. Circuit 2 and Wario Stadium 2. The new rallies are Feather Rally and Lucky Cat Rally. Replay sits in the top menu; when storage is full the oldest replays go first, and races you quit from the pause menu or from before 1.9.0 aren't kept. The update also changes item box drop rates, spectating and Free Roam missions, and fixes over a dozen bugs.",
+ "where": "Nintendo Switch 2, free update out now",
+ "means": "If you play Mario Kart World, you get eight more tracks for VS Race, Time Trials and online races, and your races are now saved to watch again.",
+ "todo": "Update the game from the Switch 2 home menu, then find Replay in the top menu.",
+ "thumb_words": "MARIO KART WORLD: 8 NEW TRACKS"
 }

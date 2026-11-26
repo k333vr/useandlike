@@ -4,20 +4,29 @@
  "added": "2026-11-26",
  "checked": "2026-11-26",
  "topic": "AI",
- "tag": "Quick",
- "quick": true,
- "head": "Gemini Notebook flashcards add pictures, a stopwatch and reminders",
- "dek": "Flashcards in Gemini Notebook now pull images from your uploaded material and can time a review with a stopwatch, and the mobile app can remind you to review. It's for personal Google accounts and Workspace, from 24 November.",
+ "tag": "New feature",
+ "head": "Gemini Notebook flashcards now add pictures, a stopwatch and reminders",
+ "dek": "Flashcards in Gemini Notebook now pull pictures from your uploaded material, can time a review with a stopwatch, and the mobile app can remind you to study. Google says it's available now for personal Google accounts and Workspace, from 24 November.",
+ "details": "The images are added on their own from the sources in your notebook. The stopwatch is meant to practise under timed exam conditions. Reminders are set in the Gemini Notebook mobile app for flashcards you've already made. Flashcards are made from the Studio panel, where you can pick a difficulty and how many cards you want; you mark each card Got it or Missed it and can retry only the missed ones.",
+ "where": "Personal Google accounts, Workspace and Workspace Individual, available now",
+ "means": "If you study with Gemini Notebook, your cards can now show diagrams and photos from your notes, and the app can nudge you to review them.",
+ "todo": "Open a notebook, choose Flashcards in the Studio panel, and set a review reminder in the mobile app.",
+ "thumb_words": "GEMINI FLASHCARDS GET PICTURES",
  "apps": [
+  "Gemini Notebook",
   "Gemini"
  ],
- "item": 165602,
- "idea": "news",
- "traction": 0,
  "sources": [
   {
    "name": "Google Workspace Updates",
    "url": "https://workspaceupdates.googleblog.com/2026/11/new-study-enhancements-for-flashcards-in-Gemini-Notebook.html"
+  },
+  {
+   "name": "Gemini Notebook Help",
+   "url": "https://support.google.com/gemininotebook/answer/16958963?hl=en"
   }
- ]
+ ],
+ "item": 165602,
+ "idea": "request",
+ "traction": 0
 }

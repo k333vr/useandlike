@@ -4,10 +4,14 @@
  "added": "2026-11-26",
  "checked": "2026-11-26",
  "topic": "AI",
- "tag": "Quick",
- "quick": true,
- "head": "Hai lets ChatGPT, Claude or Gemini phone a business for you",
- "dek": "Hai, launched on Product Hunt on 25 November, connects to AI assistants and calls restaurants, clinics or salons to book or reschedule, in another language if needed, then reports back in the chat; it says it's an AI and dials only after you approve the plan. It's free to start but in testing, with new accounts on a waitlist.",
+ "tag": "New app",
+ "head": "Hai is an AI that makes phone calls for you through ChatGPT or Claude",
+ "dek": "Hai, launched on Product Hunt on 25 November, connects to AI assistants such as Claude, ChatGPT and Gemini and phones restaurants, clinics or salons to book or move an appointment, also in another language, then reports back in the chat. It says it's an AI on the call and dials only after you approve the plan.",
+ "details": "You connect your assistant to Hai's server and sign in with Google; the first time, it asks how to introduce itself and which phone number it may give out. In ChatGPT it works through dots, which needs a Pro or Business plan and isn't available in the EEA, UK or Switzerland yet. Calls end after 5 minutes, it hangs up after about a minute on hold, and it can't use phone menus yet. It never buys anything or gives out card details; it's free to start and in testing, with new accounts approved by hand from a waitlist.",
+ "where": "Claude, ChatGPT (dots, Pro or Business) and Gemini; in testing, waitlist",
+ "means": "If you dread phone calls, or can't easily make them, Hai could book a table or move an appointment for you from the chat you already use.",
+ "todo": "Join the waitlist on Hai's website if you want to try it, and read the plan your assistant shows before you approve a call.",
+ "thumb_words": "HAI MAKES PHONE CALLS FOR YOU",
  "apps": [
   "Hai"
  ],
@@ -22,6 +26,6 @@
   }
  ],
  "item": 170461,
- "idea": "newcomer",
+ "idea": "request",
  "traction": 15
 }

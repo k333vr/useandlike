@@ -4,10 +4,9 @@
  "added": "2026-11-26",
  "checked": "2026-11-26",
  "topic": "Health",
- "tag": "Quick",
- "head": "Losing It: a $0.99 weight loss journal that shows each pound as a bubble",
- "dek": "Losing It, an iPhone and iPad app out since 14 November, logs weigh-ins and shows your progress as one bubble per pound, with an optional food log, progress photos and widgets; it has no account or ads. On 25 November it was #90 among paid Health & Fitness apps on the US App Store.",
- "quick": true,
+ "tag": "New app",
+ "head": "Losing It weight loss journal app shows each pound as a bubble",
+ "dek": "Losing It, a $0.99 iPhone app out since 14 November, tracks weigh-ins with one bubble for every pound between your start and goal, with no account, no ads and no in-app purchases.",
  "apps": [
   "Losing It"
  ],
@@ -18,6 +17,11 @@
    "url": "https://apps.apple.com/us/app/losing-it/id6834622232"
   }
  ],
- "idea": "newcomer",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "It also logs meals with barcode scanning and food data from USDA and Open Food Facts, imports recipes and receipts, tracks water, and has progress photos, streaks, 21 badges and Home and Lock Screen widgets. The developer, Powerup Gaming LLC, says it collects no data; the journal syncs through your own iCloud or stays on the phone. An optional on-device coach needs Apple Intelligence and iOS 26. On 26 November it was #34 among paid Health & Fitness apps on the US App Store.",
+ "where": "iPhone (iOS 18 or later), $0.99, also runs on Apple silicon Macs",
+ "means": "If you want a simple weight journal without a subscription or an account, this one costs a dollar once.",
+ "todo": "Get it from the App Store; it needs iOS 18, and the coach feature needs an Apple Intelligence iPhone.",
+ "thumb_words": "99-CENT WEIGHT LOSS JOURNAL"
 }

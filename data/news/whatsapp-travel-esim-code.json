@@ -4,21 +4,25 @@
  "added": "2026-11-26",
  "checked": "2026-11-26",
  "topic": "Travel",
- "tag": "Quick",
- "head": "WhatsApp may let you buy travel eSIMs in the app",
- "dek": "Code in WhatsApp for Android 2.26.47.10, found by Android Authority, points to a tool to find, buy, install and manage travel eSIMs by destination, with low-data alerts. It isn't live and WhatsApp hasn't announced it.",
- "quick": true,
+ "tag": "In testing",
+ "head": "WhatsApp eSIM for travel: code hints you may buy one in the app",
+ "dek": "Code in WhatsApp for Android version 2.26.47.10, found in a teardown by Android Authority, points to a \"Travel eSIM\" tool to find, buy, install and manage data plans by destination. WhatsApp hasn't announced it, and it isn't live.",
+ "details": "Text in the app suggests global and regional plans with fixed or unlimited data, an eSIM you can install before the trip and switch on when you arrive, and warnings when data runs low or a plan is about to end. A \"Powered by\" line points to an outside provider, but its name isn't in the code. The phone would need an eSIM chip and a recent version of Android. Prices, countries and a date are unknown.",
+ "where": "Not live; found in WhatsApp for Android code",
+ "means": "If you travel abroad, WhatsApp might one day sell you a data plan for your trip next to your chats. For now nothing changes.",
+ "todo": "Nothing to do yet. If you need a travel eSIM now, check that your phone supports eSIM before you buy one anywhere.",
+ "thumb_words": "WHATSAPP TRAVEL ESIMS COMING?",
  "apps": [
   "WhatsApp"
  ],
- "item": 174508,
  "sources": [
   {
    "name": "Android Authority",
    "url": "https://www.androidauthority.com/whatsapp-travel-esim-3739505/"
   }
  ],
- "idea": "news",
+ "item": 174508,
+ "idea": "request",
  "traction": 24,
  "rumor": true
 }

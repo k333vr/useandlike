@@ -4,10 +4,9 @@
  "added": "2026-11-26",
  "checked": "2026-11-26",
  "topic": "Games",
- "tag": "Quick",
- "head": "Digimon Alysion, Bandai's free Digimon card game, is out on iPhone",
- "dek": "Bandai released Digimon Alysion on 25 November, a free card game with its own story, a tutorial for beginners, a free card pack each day and online battles; it was #12 among free games on the US App Store that day.",
- "quick": true,
+ "tag": "New app",
+ "head": "Digimon Alysion release: Bandai's free card game is out on iPhone",
+ "dek": "Bandai released Digimon Alysion on 25 November, a free Digimon card game for iPhone and iPad with its own story, a beginner tutorial, a free card pack each day and ranked online battles; it was #12 among free games on the US App Store that day.",
  "apps": [
   "Digimon Alysion"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 176197,
- "idea": "newcomer",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "You build decks, spar with friends and story characters, and raise and digivolve Digimon up to Mega to fill a Digidex of more than 100 entries. In-app purchases of DigiGems run from $0.99 to $64.99, and the listing says the game has loot boxes (random-item purchases). It's rated 9+, needs iOS 17.6 or later and is about 170 MB.",
+ "where": "iPhone and iPad (iOS 17.6 or later), free with in-app purchases",
+ "means": "If you like Digimon or card games, you can start for free with a daily pack, but the game sells random card packs for real money.",
+ "todo": "Download it from the App Store; parents can turn off in-app purchases in Screen Time.",
+ "thumb_words": "DIGIMON CARD GAME OUT ON IPHONE"
 }

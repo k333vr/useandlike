@@ -4,21 +4,25 @@
  "added": "2026-11-26",
  "checked": "2026-11-26",
  "topic": "Google",
- "tag": "Quick",
- "head": "Google Messages beta: Gemini Tasks can text you price drops and deliveries",
- "dek": "In the latest Google Messages beta in the US, Gemini Tasks can message you first with price-drop alerts, delivery updates, renewal reminders, travel reminders and a daily briefing. You turn on Tasks in the Gemini app, then set it up from the Gemini button in Messages.",
- "quick": true,
+ "tag": "New feature",
+ "head": "Google Messages Gemini Tasks update: price-drop and delivery alerts",
+ "dek": "In the latest Google Messages beta in the US, Gemini can text you first: price-drop alerts, delivery updates, subscription renewal reminders, travel reminders and a daily briefing from Gemini Tasks. You switch on Tasks in the Gemini app, then set it up from the Gemini button in Messages.",
+ "details": "The feature is in Google Messages beta version 20261120_01_RC00 and uses RCS Business Messaging. The first tap on the floating Gemini button opens Gemini's Channels page to finish the setup; after that it opens a Gemini chat inside Messages, where you can also ask questions and share photos and documents. Gemini Tasks is open to free users in six countries, but the Messages link is US only for now. Google hasn't said when it reaches the regular app.",
+ "where": "US, Google Messages beta on Android",
+ "means": "If you use Google Messages in the US, Gemini may soon send you reminders and alerts as chats next to your texts.",
+ "todo": "To try it now, install the Google Messages beta, turn on Tasks in the Gemini app, then tap the Gemini button in Messages and finish the setup. Otherwise, wait for the regular update.",
+ "thumb_words": "GEMINI TEXTS YOU FIRST IN MESSAGES",
  "apps": [
   "Google Messages",
   "Gemini"
  ],
- "item": 170029,
  "sources": [
   {
    "name": "Android Authority",
    "url": "https://www.androidauthority.com/google-messages-gemini-tasks-3739189/"
   }
  ],
- "idea": "news",
+ "item": 170029,
+ "idea": "request",
  "traction": 26
 }

@@ -4,10 +4,14 @@
  "added": "2026-11-26",
  "checked": "2026-11-26",
  "topic": "AI",
- "tag": "Quick",
- "head": "ChatGPT Health can now read Android Health Connect data",
- "dek": "In the US, adults on ChatGPT's Free, Go, Plus and Pro plans can now connect watches and trackers such as Garmin or Oura through Android's Health Connect and ask about their sleep and steps; it's rolling out gradually and you pick which data is shared.",
- "quick": true,
+ "tag": "New feature",
+ "head": "ChatGPT Health on Android now reads Health Connect and wearable data",
+ "dek": "OpenAI is rolling out ChatGPT Health on Android with Health Connect, so adults in the US can link watches and rings such as Garmin or Oura and ask about their steps and sleep. It works on the Free, Go, Plus and Pro plans and reaches accounts gradually.",
+ "details": "You open Health from the app's sidebar, connect through Health Connect and pick which kinds of data sync; then you ask in any chat or tag @Health. OpenAI says it doesn't sell health information; health chats can feed ChatGPT's memory if memory is on, and a personalization setting decides whether chats train future models. Pro subscribers also get proactive tips through OpenAI's dots agents, such as a new workout time when a meeting clashes. ChatGPT Health came to iPhone and the web in July and isn't meant for diagnosis or treatment.",
+ "where": "US, 18 and older, Android and desktop, Free, Go, Plus and Pro; rolling out gradually",
+ "means": "If you wear a fitness tracker and use ChatGPT on Android in the US, you can ask about patterns in your own sleep and activity, but the answers are only as good as the tracker's data.",
+ "todo": "When the Health tab appears, choose only the data categories you want to share, and check your memory and training settings first.",
+ "thumb_words": "CHATGPT HEALTH READS YOUR WATCH DATA",
  "apps": [
   "ChatGPT"
  ],
@@ -18,6 +22,6 @@
   }
  ],
  "item": 172492,
- "idea": "news",
+ "idea": "request",
  "traction": 18
 }
