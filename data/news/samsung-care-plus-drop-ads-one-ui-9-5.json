@@ -1,0 +1,25 @@
+{
+ "slug": "samsung-care-plus-drop-ads-one-ui-9-5",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Samsung",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "One UI 9.5 code hints at Samsung Care+ ads after you drop your phone",
+ "dek": "Code in the One UI 9.5 beta's Warranty Care app could show Samsung Care+ offers after a hard fall is detected, Android Authority found. Samsung hasn't commented, and it may never ship.",
+ "apps": [
+  "Samsung Care+",
+  "One UI"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/one-ui-9-5-samsung-care-plus-drop-notifications-apk-teardown-3739234/"
+  }
+ ],
+ "item": 171119,
+ "idea": "news",
+ "traction": 18
+}

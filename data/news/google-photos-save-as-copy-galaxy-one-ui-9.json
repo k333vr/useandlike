@@ -1,0 +1,32 @@
+{
+ "slug": "google-photos-save-as-copy-galaxy-one-ui-9",
+ "date": "2026-11-24",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Google",
+ "tag": "Heads-up",
+ "head": "Google Photos save as copy only on some Galaxy phones after One UI 9",
+ "dek": "On some Samsung Galaxy phones with One UI 9, Google Photos only offers \"Save as copy\" after an edit, even a simple crop, so every change leaves a second photo. Android Authority saw it on a Galaxy S23 FE; owners also report it on the Galaxy A35, S26 and Z Fold 8 Ultra.",
+ "details": "The normal Save option is gone, also from the three-dot menu, for camera photos, screenshots and downloaded pictures. One Fold 8 Ultra owner says it started after an \"Updating Photo Editor\" notice. Similar reports go back to September and grew in November. Samsung has reportedly passed it to its engineers; Google hasn't commented, and it's unclear whether it's a bug or a change.",
+ "where": "Some Galaxy phones on One UI 9, Google Photos",
+ "means": "If you edit photos on a Galaxy phone, each edit may now leave the original and a copy, which takes up storage.",
+ "todo": "For now, delete the extra copies you don't need after editing. There's no official fix yet.",
+ "apps": [
+  "Google Photos",
+  "One UI 9"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/google-photos-galaxy-save-as-copy-bug-3739074/"
+  },
+  {
+   "name": "Android Headlines",
+   "url": "https://www.androidheadlines.com/2026/11/one-ui-9-galaxy-phones-stuck-save-as-copy-google-photos.html"
+  }
+ ],
+ "item": 166870,
+ "idea": "news",
+ "traction": 21,
+ "thumb_words": "GOOGLE PHOTOS: SAVE AS COPY ONLY"
+}

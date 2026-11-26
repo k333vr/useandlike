@@ -17,11 +17,13 @@
   }
  ],
  "item": 157686,
+ "items": [164935],
  "idea": "request",
  "traction": 21,
  "details": "Before, the player had no mute control, so people used their phone's volume buttons. Android Authority's writer had the button on iPhone but not on Android. A Reddit post suggests testing began in early October; one user saw it on only one of three Pixel phones running the same YouTube version, 21.46.522, which points to a rollout switched on by YouTube's servers. Some users say the video mutes when they try to skip forward; YouTube hasn't commented.",
  "where": "YouTube app on iPhone and Android, rolling out in stages",
  "means": "If your videos suddenly go quiet when you tap near the bottom of the player, the new mute button may be the reason.",
  "todo": "Look for the speaker icon just above the progress bar and tap it again to bring the sound back. Nothing to do if you don't have it yet.",
- "thumb_words": "YOUTUBE ADDS A MUTE BUTTON"
+ "thumb_words": "YOUTUBE ADDS A MUTE BUTTON",
+ "video": "3azo3BT3blI"
 }

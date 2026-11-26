@@ -1,0 +1,27 @@
+{
+ "slug": "cardkeeper-business-card-scanner-iphone",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Business",
+ "tag": "New app",
+ "head": "CardKeeper: business card scanner app for iPhone, no account",
+ "dek": "CardKeeper scans the front and back of a business card, reads the details on your iPhone and keeps both sides together with your notes. The $0.99 app came out on 24 November and was #38 among paid Business apps on the US App Store on 25 November.",
+ "details": "You check and correct the name, company, title, phone numbers and email before saving, and can add people to Apple Contacts or keep them only in the app. It can look for possible duplicates in contacts you allow it to read. Recognition runs on the phone with no account, ads or outside AI service; there's no cloud sync, but you can export a backup to Files. It's made by Ruken Strategies.",
+ "where": "iPhone (iOS 18 or later), $0.99",
+ "means": "If you collect business cards at events, this keeps them on your phone without signing up for a service.",
+ "todo": "Check the details after each scan, since recognition can make mistakes, and export a backup before you change phones.",
+ "apps": [
+  "CardKeeper by Ruken"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/cardkeeper-by-ruken/id6838162190"
+  }
+ ],
+ "item": 176171,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "CARDKEEPER SCANS BUSINESS CARDS"
+}

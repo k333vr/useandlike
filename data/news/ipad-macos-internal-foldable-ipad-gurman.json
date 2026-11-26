@@ -1,0 +1,36 @@
+{
+ "slug": "ipad-macos-internal-foldable-ipad-gurman",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Apple",
+ "tag": "Rumor",
+ "rumor": true,
+ "head": "iPad with macOS: Apple tests it internally, no release planned, Gurman says",
+ "dek": "Bloomberg's Mark Gurman says on his Power On podcast that Apple has had iPads running macOS inside the company for some time, but that no work is under way to release it to customers. Apple hasn't commented.",
+ "details": "Gurman expects Apple to keep bringing Mac features and apps such as Final Cut to iPadOS piece by piece instead. He also says the large foldable iPad, codenamed J312, is still in development: about 19 to 20 inches, delayed from 2027 to 2028 and now 2029, with a possible price of 3,000 to 5,000 dollars if it ships at all. Cost and production problems could still end the project, he says.",
+ "where": "Report only; nothing announced",
+ "means": "If you've been waiting to run Mac apps on an iPad, this report says it won't happen soon; the iPad you can buy now is the one to judge.",
+ "todo": "Nothing to do. Don't hold off on an iPad or Mac purchase for macOS on iPad.",
+ "thumb_words": "MACOS ON IPAD? NOT FOR YOU YET",
+ "apps": [
+  "iPad",
+  "macOS"
+ ],
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/25/apple-has-ipads-running-macos-already-but-dont-get-too-excited/"
+  },
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/25/apple-has-ipads-running-macos-internally/"
+  }
+ ],
+ "item": 171258,
+ "items": [
+  173114
+ ],
+ "idea": "news",
+ "traction": 34
+}

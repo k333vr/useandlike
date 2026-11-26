@@ -1,0 +1,27 @@
+{
+ "slug": "cue-by-manus-ai-assistant-app",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "AI",
+ "tag": "New app",
+ "head": "Cue by Manus: AI assistant app that books, orders and plans for you",
+ "dek": "Cue, an iPhone app from Manus maker Butterfly Effect, is an AI helper that can use apps you allow to plan trips, order food and book things, with you confirming each payment. It was #97 among free Productivity apps on the US App Store on 25 November.",
+ "details": "Each Cue can get its own email address, phone number, computer and wallet, and works within the permissions you set. At supported cafés and restaurants you scan the ordering QR code and Cue helps you pick and place the order. With permission it connects to email, calendar and messaging apps, remembers preferences such as food and travel habits, and can run routines on a schedule. The app is free to download but needs an invitation code; once you're in, Plus membership is included at no charge.",
+ "where": "iPhone and iPad (iOS 18 or later), free download; invitation code needed",
+ "means": "If you'd like an assistant that takes actions rather than only answering, Cue is one to watch, but you need an invite to get in.",
+ "todo": "You can make a free account in the app now and enter a code once you have one. Only connect the apps you're comfortable sharing, and check each payment before you confirm it.",
+ "apps": [
+  "Cue by Manus"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/cue-by-manus/id6808613358"
+  }
+ ],
+ "item": 176138,
+ "idea": "newcomer",
+ "traction": 15,
+ "thumb_words": "MANUS CUE: AI THAT BOOKS FOR YOU"
+}

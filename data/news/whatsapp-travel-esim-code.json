@@ -1,0 +1,24 @@
+{
+ "slug": "whatsapp-travel-esim-code",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Travel",
+ "tag": "Quick",
+ "head": "WhatsApp may let you buy travel eSIMs in the app",
+ "dek": "Code in WhatsApp for Android 2.26.47.10, found by Android Authority, points to a tool to find, buy, install and manage travel eSIMs by destination, with low-data alerts. It isn't live and WhatsApp hasn't announced it.",
+ "quick": true,
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 174508,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/whatsapp-travel-esim-3739505/"
+  }
+ ],
+ "idea": "news",
+ "traction": 24,
+ "rumor": true
+}

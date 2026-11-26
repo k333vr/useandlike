@@ -1,0 +1,27 @@
+{
+ "slug": "notes-from-the-field-journal-app",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Productivity",
+ "tag": "New app",
+ "head": "Notes from the Field: journal app for iPhone, iPad and Mac with paper look",
+ "dek": "Notes from the Field is a 4.99 dollar journal app with leather-style covers, white pages and a page-curl effect for iPhone, iPad and Apple silicon Macs. It came out on 20 November and was #58 among paid Productivity apps on the US App Store on 25 November.",
+ "details": "You can pick fonts, sizes and ink colours, add and resize photos, and search your journals. It imports TXT, Markdown and some RTF files, each as its own journal, but not your Apple Notes library directly. iCloud sync is optional and off at the start; journals export as PDF. The maker, OFF-GRID SMART LAB, says there are no ads, no subscription and no account.",
+ "where": "iPhone, iPad and Apple silicon Macs, 4.99 dollars, out since 20 November",
+ "means": "If you like a journal that looks like a paper notebook and don't want a subscription, this one is a single purchase.",
+ "todo": "Check the App Store listing first. If you switch from another app, export your entries as text or Markdown, and keep the originals.",
+ "thumb_words": "A PAPER JOURNAL ON YOUR IPHONE",
+ "apps": [
+  "Notes from the Field"
+ ],
+ "sources": [
+  {
+   "name": "App Store: Notes from the Field",
+   "url": "https://apps.apple.com/us/app/notes-from-the-field/id6819523307"
+  }
+ ],
+ "item": 176139,
+ "idea": "newcomer",
+ "traction": 15
+}

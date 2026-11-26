@@ -1,0 +1,23 @@
+{
+ "slug": "matter-field-sound-app-iphone",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Music",
+ "tag": "Quick",
+ "head": "Matter / Field: a $4.99 sound app where falling fragments play notes",
+ "dek": "Matter / Field, out since 22 November for iPhone and iPad, drops fragments of a sound through a field of forces and plays a grain of it at each impact, with 103 ready-made studies and 3D audio for headphones. It also works as an AUv3 instrument inside music apps.",
+ "quick": true,
+ "apps": [
+  "Matter / Field"
+ ],
+ "item": 176160,
+ "sources": [
+  {
+   "name": "App Store: Matter / Field",
+   "url": "https://apps.apple.com/us/app/matter-field/id6823269068"
+  }
+ ],
+ "idea": "newcomer",
+ "traction": 0
+}

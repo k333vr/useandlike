@@ -1,0 +1,23 @@
+{
+ "slug": "paperknife-plus-android-reader-poll",
+ "date": "2026-11-23",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Android",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Paperknife Plus, a free offline PDF toolkit, wins Android reader poll",
+ "dek": "Android Authority readers picked Paperknife Plus as their favourite new Android app of 2026, with 11% of 1,460 votes by 23 November. The free app merges, splits, signs and watermarks PDFs with no account or internet connection.",
+ "apps": [
+  "Paperknife Plus"
+ ],
+ "item": 155553,
+ "idea": "news",
+ "traction": 18,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/best-new-android-app-2026-poll-results-3738186/"
+  }
+ ]
+}

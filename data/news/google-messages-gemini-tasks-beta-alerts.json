@@ -1,0 +1,24 @@
+{
+ "slug": "google-messages-gemini-tasks-beta-alerts",
+ "date": "2026-11-24",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Google",
+ "tag": "Quick",
+ "head": "Google Messages beta: Gemini Tasks can text you price drops and deliveries",
+ "dek": "In the latest Google Messages beta in the US, Gemini Tasks can message you first with price-drop alerts, delivery updates, renewal reminders, travel reminders and a daily briefing. You turn on Tasks in the Gemini app, then set it up from the Gemini button in Messages.",
+ "quick": true,
+ "apps": [
+  "Google Messages",
+  "Gemini"
+ ],
+ "item": 170029,
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/google-messages-gemini-tasks-3739189/"
+  }
+ ],
+ "idea": "news",
+ "traction": 26
+}

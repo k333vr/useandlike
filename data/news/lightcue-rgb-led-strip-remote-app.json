@@ -1,0 +1,27 @@
+{
+ "slug": "lightcue-rgb-led-strip-remote-app",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Home",
+ "tag": "New app",
+ "head": "LightCue: RGB LED strip remote app for iPhone, no account needed",
+ "dek": "LightCue is a $2.99 iPhone and iPad remote for Bluetooth LED strips, light bars and bulbs that work with ELK-BLEDOM controllers. It was #97 among paid Lifestyle apps on the US App Store on 25 November.",
+ "details": "You set power, colour and brightness per light, save colours and build scenes that fade over a set time, and it can correct strips that look too blue. It works with Siri, Shortcuts, Spotlight and the Action button, and backups go to a file. It runs offline with no account or analytics and doesn't work with Philips Hue, Govee or LIFX. Made by Dave Rogers, out since 9 November, it needs iOS 26.5 or later.",
+ "where": "iPhone and iPad, iOS 26.5 or later, App Store, $2.99",
+ "means": "If your LED strip came with a basic Bluetooth controller, LightCue is a paid alternative to its own app, with scenes and Siri control.",
+ "todo": "Check that your lights use an ELK-BLEDOM-compatible controller before buying; the app has a Demo Mode to look around.",
+ "apps": [
+  "LightCue - RGB Remote"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/lightcue-rgb-remote/id6820509841"
+  }
+ ],
+ "item": 176153,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "LIGHTCUE: ONE TAP LED SCENES"
+}

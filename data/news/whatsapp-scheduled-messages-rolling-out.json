@@ -1,0 +1,27 @@
+{
+ "slug": "whatsapp-scheduled-messages-rolling-out",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Messaging",
+ "tag": "New feature",
+ "head": "WhatsApp schedule message feature rolling out: send texts up to 14 days later",
+ "dek": "WhatsApp now lets you schedule a message by holding the send button and picking a date and time, from 10 minutes to 14 days ahead. It works in one-to-one and group chats, for text, photos and videos, and is rolling out worldwide over the coming weeks.",
+ "details": "WhatsApp announced the feature on 25 November and calls it one of its most requested. Scheduled messages go out at the chosen time even if your phone is switched off or its battery is empty, and the person gets them as a normal message. You can see all your upcoming scheduled messages and delete one before it's sent. WhatsApp says they stay end-to-end encrypted.",
+ "where": "Worldwide, rolling out over the coming weeks with the latest app update",
+ "means": "If you want to send a birthday wish or a reminder at the right moment, WhatsApp can now send it for you without a separate app.",
+ "todo": "Update WhatsApp. In a chat, type your message, press and hold the send button and pick the date and time. If the option isn't there yet, it hasn't reached your account.",
+ "apps": [
+  "WhatsApp"
+ ],
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/25/whatsapp-launches-highly-requested-new-feature-for-sending-messages-later/"
+  }
+ ],
+ "item": 173365,
+ "idea": "news",
+ "traction": 30,
+ "thumb_words": "WHATSAPP NOW SCHEDULES MESSAGES"
+}

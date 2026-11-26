@@ -1,0 +1,28 @@
+{
+ "slug": "adobe-acrobat-chrome-extension-ssd-writes",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Security",
+ "tag": "Heads-up",
+ "head": "Adobe Acrobat Chrome extension linked to heavy SSD writes on a Windows PC",
+ "dek": "A Reddit user found Chrome had written over 300GB in about three days on a mostly idle Windows 11 PC and traced it to the Adobe Acrobat extension; after removing it, idle writes dropped by more than 81%.",
+ "details": "The activity came from an Adobe service worker that kept refilling and replacing about 1GB of cached data, even overnight with Chrome's windows closed, while Chrome's own cache was only 3.5GB. Windows' write counter also includes some non-disk activity such as network transfers, so 300GB isn't an exact measure of SSD wear. In May a post on Adobe's forums reported the extension filling drives on work PCs with log files. Wccftech reports no statement from Adobe on the new findings.",
+ "where": "Chrome on Windows; one user's report, 25 November",
+ "means": "If you have the Acrobat extension in Chrome, it may be writing to your drive in the background; it's one user's measurement, not a confirmed bug.",
+ "todo": "Check chrome://extensions and remove the Acrobat extension if you don't use it. To see what writes to your drive, type resmon in the Start menu and sort the Disk tab by writes. In chrome://settings/system you can turn off running background apps when Chrome is closed.",
+ "apps": [
+  "Google Chrome",
+  "Adobe Acrobat"
+ ],
+ "sources": [
+  {
+   "name": "Wccftech",
+   "url": "https://wccftech.com/your-chrome-extensions-could-be-silently-wearing-out-your-ssd-adobe-acrobat-extension-implicated-in-over-300gb-of-write-activity-in-just-three-days/"
+  }
+ ],
+ "item": 173790,
+ "idea": "news",
+ "traction": 23,
+ "thumb_words": "ACROBAT EXTENSION: 300GB OF WRITES?"
+}

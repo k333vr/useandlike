@@ -22,6 +22,7 @@
   }
  ],
  "item": 152259,
+ "items": [175539],
  "idea": "request",
  "traction": 0,
  "details": "Apple job listings spotted by Bloomberg describe a general-purpose computer-use agent that browses the web, works across apps, runs commands, writes code and hands steps to sub-agents, built with the Siri, UI frameworks and Apple Foundation Models teams. The listings say safety, privacy and security must be central to the design. Siri's multistep control of Apple's own apps is expected in December, and support for other companies' apps next year, according to Digital Trends. ChatGPT, Claude and Gemini already offer computer-use agents.",

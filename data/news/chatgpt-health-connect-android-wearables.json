@@ -1,0 +1,23 @@
+{
+ "slug": "chatgpt-health-connect-android-wearables",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "ChatGPT Health can now read Android Health Connect data",
+ "dek": "In the US, adults on ChatGPT's Free, Go, Plus and Pro plans can now connect watches and trackers such as Garmin or Oura through Android's Health Connect and ask about their sleep and steps; it's rolling out gradually and you pick which data is shared.",
+ "quick": true,
+ "apps": [
+  "ChatGPT"
+ ],
+ "sources": [
+  {
+   "name": "Android Headlines",
+   "url": "https://www.androidheadlines.com/2026/11/chatgpt-health-android-health-connect-rollout.html"
+  }
+ ],
+ "item": 172492,
+ "idea": "news",
+ "traction": 18
+}

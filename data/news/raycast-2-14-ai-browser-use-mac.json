@@ -1,0 +1,31 @@
+{
+ "slug": "raycast-2-14-ai-browser-use-mac",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Mac",
+ "tag": "New feature",
+ "head": "Raycast browser extension 2.0 lets Raycast AI fill forms on Mac",
+ "dek": "Raycast 2.14 for Mac adds Browser Use: its AI can open pages, fill in forms and pull information from your tabs, bookmarks and history in Chrome, Firefox and Safari, in the background. It came out on 25 November and needs version 2.0 of Raycast's browser extension.",
+ "details": "You can now mention open tabs in an AI Chat message to give it their content. A Blocked Websites list in Settings, Extensions, Browser keeps Raycast AI and connected apps away from chosen sites and their subdomains. Apps connected through Raycast's MCP server can list, create, change and delete your AI Commands. Settings also suggest hotkeys for your most-used commands, and a Region setting sets location, temperature unit and currency for the Calculator.",
+ "where": "Mac, Raycast 2.14, out now",
+ "means": "If you use Raycast AI, it can now do browser chores like filling a form for you, and you decide which sites it may touch.",
+ "todo": "Update Raycast and the browser extension to 2.0, then add banking or other private sites to Blocked Websites before trying Browser Use.",
+ "apps": [
+  "Raycast"
+ ],
+ "sources": [
+  {
+   "name": "Raycast",
+   "url": "https://www.raycast.com/changelog/macos/2-14"
+  },
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/raycast-2-14-adds-browser-control-ai-commands-and-hotkeys/"
+  }
+ ],
+ "item": 173247,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "RAYCAST AI NOW USES YOUR BROWSER"
+}

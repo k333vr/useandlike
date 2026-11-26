@@ -1,0 +1,27 @@
+{
+ "slug": "putty-buddy-3d-sculpting-app-iphone",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Design",
+ "tag": "New app",
+ "head": "Putty Buddy: 3D sculpting app for iPhone and iPad with STL export",
+ "dek": "Putty Buddy lets you sculpt digital clay and build 3D models with your fingers on iPhone and iPad, then export them as STL or OBJ files. It costs $1.99 once and was #40 among paid Graphics & Design apps on the US App Store on 25 November.",
+ "details": "You can start from shapes like spheres, cubes, cylinders and all five Platonic solids, and arrange up to 32 objects in a scene. Tapping a face lets you attach a matching shape to build outward. The one purchase includes every tool and export format, with no subscription, ads or account, and it works offline. It's made by Brian McIntosh (Bad Assassin Games) and came out on 30 September.",
+ "where": "iPhone and iPad, $1.99 on the App Store",
+ "means": "If you have a 3D printer or want to try 3D modelling, you can shape a model on your phone and save a file a printer or another 3D app can open.",
+ "todo": "Find Putty Buddy on the App Store; files are exported through the Files app.",
+ "apps": [
+  "Putty Buddy"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/putty-buddy/id6816751917"
+  }
+ ],
+ "item": 176146,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "SCULPT 3D MODELS ON IPHONE"
+}

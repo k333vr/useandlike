@@ -1,0 +1,27 @@
+{
+ "slug": "dosee-pill-reminder-tracker-app",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Health",
+ "tag": "New app",
+ "head": "Dosee pill reminder app for iPhone: vitamins and medication in one list",
+ "dek": "Dosee, a pill reminder and tracker for iPhone and iPad out since 23 November, keeps your vitamins, supplements and medications in one list and logs each dose with one tap. It costs $5.99 once, with no subscription.",
+ "details": "You set up each item once; the app then sends reminders, warns when a supply runs low and has widgets for the Home Screen and Lock Screen. It needs no account and has no ads or analytics, and the listing says it isn't a medical device. It needs iOS 26.1 or later. The maker is Nicolas Demanez; on 25 November it was #38 among paid Health & Fitness apps on the US App Store.",
+ "where": "iPhone and iPad (iOS 26.1 or later), $5.99, out since 23 November",
+ "means": "If you take several pills or supplements a day and lose track of what you've had, the app keeps a log and reminds you, for one payment instead of a monthly plan.",
+ "todo": "Check that your iPhone runs iOS 26.1 or later before buying. Follow your doctor's instructions for medication; the app only reminds and logs.",
+ "apps": [
+  "Dosee"
+ ],
+ "sources": [
+  {
+   "name": "App Store: Dosee: Pill Reminder & Tracker",
+   "url": "https://apps.apple.com/us/app/dosee-pill-reminder-tracker/id6832903254"
+  }
+ ],
+ "item": 176154,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "DOSEE: PILL REMINDER, NO SUBSCRIPTION"
+}

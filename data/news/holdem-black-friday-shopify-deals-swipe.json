@@ -1,0 +1,23 @@
+{
+ "slug": "holdem-black-friday-shopify-deals-swipe",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Shopping",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Hold'em turns Shopify Black Friday deals into a swipe game",
+ "dek": "The free web app Hold'em shows live products from Shopify stores to swipe through, checks carts for automatic discounts and whether a store ships to your ZIP code; you check out on each store's site. Without an account it gives 8 rounds through Cyber Monday.",
+ "apps": [
+  "Hold'em"
+ ],
+ "sources": [
+  {
+   "name": "Product Hunt",
+   "url": "https://www.producthunt.com/products/hold-em"
+  }
+ ],
+ "item": 170447,
+ "idea": "newcomer",
+ "traction": 0
+}

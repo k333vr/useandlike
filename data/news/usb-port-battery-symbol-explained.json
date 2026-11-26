@@ -1,0 +1,76 @@
+{
+ "slug": "usb-port-battery-symbol-explained",
+ "date": "2026-11-26",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Windows",
+ "tag": "Explainer",
+ "head": "USB port with a battery symbol: what it means and how to turn it off",
+ "dek": "A small battery or lightning bolt next to a laptop's USB port usually marks a port that can charge your phone or earbuds, on some laptops even while the lid is closed or the laptop is off.",
+ "sections": [
+  {
+   "h": "What the battery symbol tells you",
+   "p": [
+    "On most laptops, the battery icon beside a USB port means that port can power other devices. BGR wrote on 22 August 2026 that it usually marks a port that keeps charging a connected device while the laptop sleeps or is shut down, and that the same icon also turns up on monitors and docking stations.",
+    "Engadget, on 5 October 2026, tied it to USB Power Delivery, or USB PD, a charging standard from 2012 that was updated in 2021 and can now carry up to 240 watts. With PD, the charger and the device agree on the right voltage and current. The USB Implementers Forum, the group behind USB, has its own official mark: a battery shape drawn in negative space."
+   ]
+  },
+  {
+   "h": "Lightning bolts, PD letters and Thunderbolt",
+   "p": [
+    "Not every maker uses the same picture. Dell's support page says its charging ports carry either a lightning bolt or a battery symbol. Engadget notes that some brands just print the letters PD, and warns not to mix up a lightning bolt that means charging with the Thunderbolt symbol.",
+    "Macs are a special case. Engadget says the Thunderbolt ports on MacBooks support USB PD without any PD mark at all. Apple's own port guide says the Thunderbolt symbol shows which ports to use for an external display, and that a USB-C port can also charge an iPhone or iPad with the right cable."
+   ]
+  },
+  {
+   "h": "How much power a port gives",
+   "p": [
+    "Don't expect laptop speeds from a phone charge. According to BGR, a USB-A port typically gives about 2.5 to 7.5 watts and a USB-C port up to 15 watts to a connected device. The 240-watt figure is what USB PD allows on some USB-C connectors, but laptop makers usually keep the high wattage for charging the laptop itself."
+   ]
+  },
+  {
+   "h": "Charging while the laptop is off, and the battery drain",
+   "p": [
+    "Dell calls the feature USB PowerShare, Lenovo calls it Always On USB. Dell's page explains when the port has power: while the laptop is on, always; in standby, on battery or on the charger; in hibernate or fully off, only when the charger is plugged in. Dell warns that charging a phone this way can drain the laptop's battery if the charger isn't connected.",
+    "To stop that, Dell lets you set a threshold. At 25%, for example, the port keeps charging your phone until the laptop's own battery is down to a quarter. Depending on the model and BIOS version, some Dell laptops stop at 50%. On many new Dell laptops, PowerShare is switched off by default."
+   ]
+  },
+  {
+   "h": "How to switch it on or off",
+   "p": [
+    "The setting lives in the BIOS, the menu you reach while the laptop starts. On a Dell, press F2 when the Dell logo appears, then look under Onboard Devices or System Configuration for USB PowerShare or USB Configuration, pick a battery threshold or Disabled, and save. On newer Dell laptops, USB PowerShare is in the Power menu.",
+    "On a Lenovo ThinkPad, Lenovo's user guide says to press F1 to open the UEFI BIOS, then go to Config and USB and turn on Always On USB and Charge in Battery Mode. Menu names differ between models, so for other brands the laptop's manual or the maker's support page has the exact steps."
+   ]
+  }
+ ],
+ "means": "If your laptop has a port with a battery or lightning bolt icon, you can charge your phone from it, sometimes even with the lid closed; left on, it can also empty your laptop's battery overnight when the charger isn't plugged in.",
+ "todo": "Look for the icon next to your laptop's USB ports. To charge with the laptop off, turn on USB PowerShare (Dell, F2 at start) or Always On USB (ThinkPad, F1 at start) and set a battery threshold. If your battery keeps running low, switch it off in the same menu or unplug devices before you close the lid.",
+ "apps": [
+  "Windows 11"
+ ],
+ "idea": "competitor",
+ "traction": 0,
+ "thumb_words": "THE BATTERY ICON ON YOUR USB PORT",
+ "sources": [
+  {
+   "name": "Dell Support: USB PowerShare",
+   "url": "https://www.dell.com/support/kbdoc/en-us/000156341/what-is-powershare"
+  },
+  {
+   "name": "Lenovo ThinkPad user guide: Charge the computer",
+   "url": "https://download.lenovo.com/pccbbs/pubs/t14s_gen4/ug/html_en/en/Charge_the_computer.html"
+  },
+  {
+   "name": "Apple Support: Identify the ports on your Mac",
+   "url": "https://support.apple.com/en-us/109523"
+  },
+  {
+   "name": "Engadget",
+   "url": "https://www.engadget.com/2273751/battery-symbol-next-to-usb-port-purpose/"
+  },
+  {
+   "name": "BGR",
+   "url": "https://bgr.com/2238967/what-does-battery-symbol-next-to-usb-port-mean/"
+  }
+ ]
+}

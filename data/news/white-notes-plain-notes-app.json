@@ -1,0 +1,23 @@
+{
+ "slug": "white-notes-plain-notes-app",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Productivity",
+ "tag": "Quick",
+ "head": "White Notes: a plain white notes app for iPhone and iPad",
+ "dek": "White Notes is a $0.29 notes app with just black text on a white page, checklists, Face ID lock and Markdown export; it never connects to the internet. It was #74 among paid Productivity apps on the US App Store on 25 November.",
+ "quick": true,
+ "apps": [
+  "White Notes"
+ ],
+ "item": 176141,
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/white-notes/id6833365108"
+  }
+ ],
+ "idea": "newcomer",
+ "traction": 0
+}

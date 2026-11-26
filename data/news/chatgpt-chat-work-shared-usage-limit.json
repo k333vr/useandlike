@@ -1,0 +1,32 @@
+{
+ "slug": "chatgpt-chat-work-shared-usage-limit",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "AI",
+ "tag": "Price change",
+ "head": "ChatGPT usage limits: Chat and Work now share one meter",
+ "dek": "OpenAI has started merging ChatGPT's Chat and Work into one place with a single usage allowance, beginning with a small group of Pro subscribers on 25 November. Its help page says Plus, Pro and Business plans share one allowance across ChatGPT and Codex from December.",
+ "details": "Usage is counted in tokens: more advanced models and more complex tasks use more of it. Instant chat doesn't draw from the allowance, and you can keep using it after you reach your limit. OpenAI told TechCrunch that most people shouldn't wait for resets more often than now, but a small share of the heaviest users may reach their limit sooner. When you run out, you can wait for the reset, upgrade or buy credits for eligible features.",
+ "where": "ChatGPT Plus, Pro and Business; a small group of Pro users first, more from December",
+ "means": "If you pay for ChatGPT and use advanced models or Work tasks a lot, your chats and your Work or Codex jobs now come out of the same allowance, so heavy use of one leaves less for the other.",
+ "todo": "Check your remaining usage and reset times under Settings > Usage in ChatGPT. Use Instant for quick questions, since it doesn't count toward the limit.",
+ "apps": [
+  "ChatGPT",
+  "Codex"
+ ],
+ "sources": [
+  {
+   "name": "OpenAI Help Center",
+   "url": "https://help.openai.com/en/articles/20001625"
+  },
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+  }
+ ],
+ "item": 174031,
+ "idea": "news",
+ "traction": 21,
+ "thumb_words": "CHATGPT: ONE USAGE LIMIT FOR ALL"
+}

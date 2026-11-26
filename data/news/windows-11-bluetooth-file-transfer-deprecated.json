@@ -1,0 +1,28 @@
+{
+ "slug": "windows-11-bluetooth-file-transfer-deprecated",
+ "date": "2026-11-24",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Windows",
+ "tag": "Quick",
+ "head": "Windows 11 drops work on Bluetooth file transfer and the Family Safety app",
+ "dek": "Microsoft's list of deprecated Windows features now includes moving files over Bluetooth (MTP over Bluetooth), which may be removed later, and the Family Safety app for Windows; USB transfers keep working, and Family Safety stays in the phone app and on the web.",
+ "quick": true,
+ "apps": [
+  "Windows 11",
+  "Microsoft Family Safety"
+ ],
+ "sources": [
+  {
+   "name": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/windows/whats-new/deprecated-features"
+  },
+  {
+   "name": "Windows Central",
+   "url": "https://www.windowscentral.com/microsoft/windows-11/microsoft-is-deprecating-windows-11s-ability-to-transfer-files-over-bluetooth-mtp-over-bluetooth-may-be-removed-in-the-future"
+  }
+ ],
+ "item": 163940,
+ "idea": "news",
+ "traction": 23
+}

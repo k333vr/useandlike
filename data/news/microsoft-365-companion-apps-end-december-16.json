@@ -1,0 +1,23 @@
+{
+ "slug": "microsoft-365-companion-apps-end-december-16",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Windows",
+ "tag": "Quick",
+ "head": "Microsoft 365 companion apps stop working on 16 December",
+ "dek": "Microsoft's People, Files and Calendar companion apps, installed automatically on Windows 11 PCs with Microsoft 365 business plans, stop working on 16 December and have to be removed by hand. At Ignite, a Microsoft speaker said they caused a lot of memory use and issues.",
+ "quick": true,
+ "apps": [
+  "Microsoft 365"
+ ],
+ "item": 174786,
+ "sources": [
+  {
+   "name": "Windows Latest",
+   "url": "https://www.windowslatest.com/2026/11/26/a-lot-of-memory-and-issues-microsoft-reveals-why-its-force-installed-copilot-filled-microsoft-365-apps-are-being-removed-from-windows-11-saying-they-came-at-a-very-high-cost/"
+  }
+ ],
+ "idea": "news",
+ "traction": 0
+}

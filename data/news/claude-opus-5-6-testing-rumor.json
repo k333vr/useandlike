@@ -1,0 +1,28 @@
+{
+ "slug": "claude-opus-5-6-testing-rumor",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "AI",
+ "tag": "In testing",
+ "head": "Claude Opus 5.6 rumors: testers say Anthropic is trying a new model",
+ "dek": "Some Claude users on X say their chats were answered by an unannounced model they call Opus 5.6, according to posts gathered by TestingCatalog on 24 and 25 November. Anthropic hasn't announced or confirmed it.",
+ "details": "One tester, Leo, wrote that the model seems to be tested with a subset of users, some in Claude Code, some in the Claude chat app and some in neither. Another tester said their run was routed from \"Opus 5.5 Extra\" and shared a Claude Code screenshot. Testers posted animations and 3D scenes they say the model made in code, but TestingCatalog notes these are early, hand-picked results and that the Opus 5.6 label can't be verified. Anthropic's newest released models are Fable 5.2 and Mythos 5.2, out since 9 November.",
+ "where": "Reportedly some Claude users in the chat app and Claude Code; not confirmed",
+ "means": "If you use Claude, a few of your answers may already come from a model in testing, but nothing changes in your plan or app settings.",
+ "todo": "Nothing to do yet. Anthropic hasn't said when or whether a new Opus model comes out.",
+ "rumor": true,
+ "apps": [
+  "Claude"
+ ],
+ "sources": [
+  {
+   "name": "TestingCatalog",
+   "url": "https://www.testingcatalog.com/testers-share-early-results-possible-claude-opus-5-6/"
+  }
+ ],
+ "item": 172582,
+ "idea": "news",
+ "traction": 60,
+ "thumb_words": "CLAUDE OPUS 5.6 IN TESTING?"
+}

@@ -1,0 +1,33 @@
+{
+ "slug": "youtube-shorts-custom-thumbnails-all-creators",
+ "date": "2026-11-24",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Video",
+ "tag": "New feature",
+ "head": "YouTube Shorts custom thumbnail: now open to all creators",
+ "dek": "Every YouTube creator can now add a custom thumbnail to a Short, not only members of the YouTube Partner Program. You can upload the image while posting, on a phone or a computer, or change it after the Short is live.",
+ "details": "YouTube first gave custom Shorts thumbnails to Partner Program creators in June and widened access step by step. If you don't upload an image, you can pick one of the suggested frames from the Short. YouTube's help page recommends a 9:16 image of 2160 x 3840 pixels (at least 640 pixels high), JPG or PNG, up to 50 MB on a computer, and says custom thumbnails need a verified account. YouTube's Ask Studio assistant can suggest thumbnail ideas.",
+ "where": "All creators with a verified YouTube account; phone and computer",
+ "means": "If you post Shorts, you can now choose the cover people see on your channel page and in search instead of a random frame.",
+ "todo": "Verify your account in YouTube Studio if you haven't. When uploading a Short, look for the Thumbnail option and upload a 9:16 image, or open a published Short in YouTube Studio to change it.",
+ "apps": [
+  "YouTube",
+  "YouTube Studio"
+ ],
+ "category": "Video Editing",
+ "sources": [
+  {
+   "name": "Social Media Today",
+   "url": "https://www.socialmediatoday.com/news/youtube-enables-custom-shorts-thumbnails/875687/"
+  },
+  {
+   "name": "YouTube Help",
+   "url": "https://support.google.com/youtube/answer/72431?hl=en"
+  }
+ ],
+ "item": 169499,
+ "idea": "news",
+ "traction": 23,
+ "thumb_words": "CUSTOM SHORTS THUMBNAILS FOR ALL"
+}

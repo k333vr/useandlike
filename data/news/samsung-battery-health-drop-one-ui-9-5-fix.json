@@ -1,0 +1,27 @@
+{
+ "slug": "samsung-battery-health-drop-one-ui-9-5-fix",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Android",
+ "tag": "Heads-up",
+ "head": "Samsung battery health dropping after One UI 9: fix due in One UI 9.5",
+ "dek": "Samsung support told a Galaxy owner that the fast drop in battery health some people see since One UI 9.0 will be addressed in the One UI 9.5 update. One owner says some phones show 94% battery health after about a month of use.",
+ "details": "The reply came about two weeks after the owner sent an error report through Samsung Members, and was posted on Samsung's Turkish community forum. It's not clear whether the batteries are really wearing faster or the phone is showing wrong readings. An update can't bring back battery capacity that is already lost; it can only fix wrong readings or software causing extra wear. One UI 9.5 is in beta now, and Android Authority expects the stable version with the Galaxy S27 series in a couple of months.",
+ "where": "Galaxy phones on One UI 9.0; fix planned for One UI 9.5, in beta now",
+ "means": "If your Galaxy's battery health number fell quickly after One UI 9.0, Samsung support says the next big update should deal with it, though real wear can't be undone.",
+ "todo": "Send an error report in the Samsung Members app so Samsung has your phone's details, then install One UI 9.5 when it reaches your phone.",
+ "apps": [
+  "Samsung"
+ ],
+ "item": 170261,
+ "idea": "news",
+ "traction": 18,
+ "thumb_words": "SAMSUNG: BATTERY HEALTH FIX IN 9.5",
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-one-ui-9-5-battery-health-fix-3739202/"
+  }
+ ]
+}

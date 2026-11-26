@@ -1,0 +1,27 @@
+{
+ "slug": "changelens-earth-satellite-before-after",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Travel",
+ "tag": "New app",
+ "head": "ChangeLens Earth: satellite before and after app for any place",
+ "dek": "ChangeLens Earth lets you pick any place and two dates, then drag a divider across free satellite images to see what changed, from a new neighborhood to a shrinking glacier. The $0.99 iPhone and iPad app was #54 among paid Navigation apps on the US App Store on 25 November.",
+ "details": "It uses Copernicus Sentinel-2 images, plus Sentinel-1 radar that sees through cloud, and frames a 1, 3 or 10 km square found by name, address or coordinates. You can switch between true color, a vegetation and water layer, radar and a blend, then save or share the comparison with dates and a scale bar. Optional Place Packs of ready-made sites are one-time purchases; there's no account, no ads and no location request. It's made by developer Marshall Tyler Frith and came out on 27 October.",
+ "where": "iPhone and iPad, $0.99 with optional one-time Place Packs",
+ "means": "If you're curious how your town, a coastline or a building site has changed over the years, this shows it side by side for under a dollar.",
+ "todo": "Search a place you know, pick an older Before date and a recent After date, and drag the divider. If a date is cloudy, the app jumps to the nearest clear image and tells you.",
+ "apps": [
+  "ChangeLens Earth"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/changelens-earth/id6826450577"
+  }
+ ],
+ "item": 176167,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "SEE HOW ANY PLACE CHANGED"
+}

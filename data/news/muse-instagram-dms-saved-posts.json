@@ -1,0 +1,28 @@
+{
+ "slug": "muse-instagram-dms-saved-posts",
+ "date": "2026-11-24",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "Muse in Instagram DMs: Meta's AI agent turns your saves into plans",
+ "dek": "Meta's Muse AI agent now works inside Instagram's direct messages: you can DM it or share a post to it and ask it to sort saved posts, find a saved Reel or turn a recipe into a grocery list. It's rolling out on iPhone and Android in the US, Canada, Mexico, Japan and Singapore.",
+ "details": "It can also answer questions about a post, sum up a chat you missed and, with your permission, help make posts and Stories or change what you see in your feed. Chats with it also show in the separate Muse app. An optional Instagram Messages connector lets it help write messages or sum up threads with other people. Chatting is free up to a usage limit; after that you wait for it to refresh or pay for a Muse subscription, and no price was given.",
+ "where": "Instagram on iPhone and Android, rolling out in the US, Canada, Mexico, Japan and Singapore",
+ "means": "If you save lots of posts and never go back to them, Muse can now sort them or turn them into lists right in your Instagram inbox, and Instagram says it won't act without your OK.",
+ "todo": "Start with a DM to Muse about your own saved posts and leave the Messages connector off unless you need it. Check what it did and change its permissions under Muse's avatar, in Activity and Approvals.",
+ "apps": [
+  "Muse",
+  "Instagram"
+ ],
+ "item": 170926,
+ "idea": "newcomer",
+ "traction": 15,
+ "thumb_words": "MUSE AI ARRIVES IN INSTAGRAM DMS",
+ "sources": [
+  {
+   "name": "Digital Trends",
+   "url": "https://www.digitaltrends.com/social-media/meta-brought-muse-directly-to-instagram-dms-now-you-dont-even-have-to-leave-the-app-to-let-an-ai-plan-your-life/"
+  }
+ ]
+}

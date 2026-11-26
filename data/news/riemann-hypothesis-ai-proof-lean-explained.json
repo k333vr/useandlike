@@ -1,0 +1,81 @@
+{
+ "slug": "riemann-hypothesis-ai-proof-lean-explained",
+ "date": "2026-11-26",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "AI",
+ "tag": "Explainer",
+ "head": "Riemann hypothesis proof explained: how the Lean proof was verified",
+ "dek": "A proof of the Riemann hypothesis that Anthropic mathematician Levent Alpöge says he found working with Claude was checked line by line by computer programs within a day, but the official prize still needs a published paper, two years and the agreement of mathematicians.",
+ "sections": [
+  {
+   "h": "What was claimed, and when",
+   "p": [
+    "On 20 November 2026, Levent Alpöge, a mathematician who works at Anthropic, said he had proven the Riemann hypothesis and wrote that he believes he found the proof \"working with Claude\", according to Scientific American. He says the proof also covers the Generalized Riemann Hypothesis, a broader version of the problem.",
+    "He didn't publish it as a normal paper first. He released it as a library for Lean, a programming language that checks every step of a mathematical argument. The Lean community puts its size at about 17 million lines of code."
+   ]
+  },
+  {
+   "h": "The problem in plain words",
+   "p": [
+    "Bernhard Riemann proposed the hypothesis in 1859. Prime numbers, the numbers that can only be divided by 1 and themselves, look scattered at random. The hypothesis says they follow a hidden order, described by where the zeros of a function called the zeta function lie. The Clay Mathematics Institute put a 1 million dollar prize on it as one of its Millennium Problems."
+   ]
+  },
+  {
+   "h": "How a computer checks a proof",
+   "p": [
+    "A Lean proof that compiles without errors is usually taken to mean every logical step holds, Scientific American explains. The open question is whether the statement written in code really is the famous problem, and not something easier that looks like it.",
+    "On 21 November, the Lean FRO and the Mathlib Initiative, the groups behind Lean and its shared maths library, published a joint statement certifying both the statement and the proof. They listed four checks: the hypothesis as written in Mathlib had been vetted by experts in Lean and number theory; dozens of people compiled Alpöge's library without errors; two separate tools confirmed that the theorem he proved matches Mathlib's statement; and the exported proof passed Lean's own kernel plus several independent checkers written in other programming languages. Those checks ran on an inert export of the proof, so hidden code in it couldn't interfere.",
+    "MIT mathematician Andrew Sutherland compiled the proof on his own and told Scientific American the chance that something is wrong is \"approximately zero\"."
+   ]
+  },
+  {
+   "h": "What isn't settled yet",
+   "p": [
+    "A checked proof isn't the same as an understood one. The Lean statement says the community looks forward to explaining the new ideas in the proof, and Scientific American notes that mathematicians still have to work through the details.",
+    "The prize is a separate matter. Clay's rules say it only considers a solution after it appears in a qualifying publication, at least two years have passed since then, and it has general acceptance among mathematicians. On 26 November, Clay's page still listed the Riemann hypothesis as an active problem, and none of the pages we read mention a journal paper yet."
+   ]
+  },
+  {
+   "h": "How AI got here",
+   "p": [
+    "This didn't come from nowhere. On 10 August 2026, Anthropic said an unreleased research version of Claude had raised the share of zeta zeros known to sit where the hypothesis says they should from 41.6% to 67.2%. About 60 Claude agents worked on it for a day and a half in Claude Code, and Anthropic mathematicians, including Alpöge, checked the paper. At the time, Anthropic said it didn't expect those methods to lead to a full proof.",
+    "Scientific American also lists earlier claims this year: in July, Alpöge posted a Claude-generated solution to the Jacobian conjecture, and in October, OpenAI published a batch of maths results, one of which made progress on prime numbers."
+   ]
+  }
+ ],
+ "means": "If you use Claude, nothing changes in the app. What's new is that a proof this long, written with AI, could be checked by machines within a day, which shifts the slow part of maths from checking a proof to understanding it.",
+ "todo": "Nothing to do. When you see headlines that the problem is solved, keep in mind that the computer checks are done, while the official prize and the explanation of the ideas will take longer.",
+ "apps": [
+  "Claude"
+ ],
+ "idea": "competitor",
+ "traction": 0,
+ "thumb_words": "RIEMANN PROOF: HOW IT WAS CHECKED",
+ "sources": [
+  {
+   "name": "Lean FRO and Mathlib Initiative",
+   "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+  },
+  {
+   "name": "Anthropic",
+   "url": "https://www.anthropic.com/research/riemann-zeta"
+  },
+  {
+   "name": "Clay Mathematics Institute: Millennium Prize rules",
+   "url": "https://www.claymath.org/millennium-problems/rules/"
+  },
+  {
+   "name": "Clay Mathematics Institute: Riemann hypothesis",
+   "url": "https://www.claymath.org/millennium/riemann-hypothesis/"
+  },
+  {
+   "name": "Scientific American",
+   "url": "https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/"
+  },
+  {
+   "name": "Scientific American on Yahoo News",
+   "url": "https://www.yahoo.com/news/science/articles/ai-riemann-hypothesis-proof-almost-210000837.html"
+  }
+ ]
+}

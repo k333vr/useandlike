@@ -1,0 +1,27 @@
+{
+ "slug": "carry-save-ai-chats-markdown",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "AI",
+ "tag": "New app",
+ "head": "Carry saves ChatGPT, Claude, Gemini and Grok chats as Markdown files",
+ "dek": "Carry is a Chrome and Edge extension that backs up your chats, projects and files from ChatGPT, Claude, Gemini and Grok as Markdown files in a folder you pick on your computer. You can search the saved chats and continue one in another AI.",
+ "details": "It costs a one-time 79 dollars for up to five computers, with no renewals; until 1 December the code BLACKFRIDAY20 brings it to 59 dollars. There's a 14-day free trial without a card and a refund within 14 days. The site says chats stay on your device, but compatibility checks contact carry.md with your IP address and browser details, usage counts go through carry.md unless you turn them off, and licence data goes to Polar. The site doesn't name the company behind it.",
+ "where": "Chrome and Edge on your computer",
+ "means": "If you rely on AI chats and want your own copy of them outside each service, Carry keeps them as plain files you can search.",
+ "todo": "Try the 14-day trial before paying, and turn off the usage counts in its settings if you'd rather send less to carry.md.",
+ "apps": [
+  "Carry"
+ ],
+ "item": 172145,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "CARRY BACKS UP YOUR AI CHATS",
+ "sources": [
+  {
+   "name": "Carry",
+   "url": "https://carry.md/"
+  }
+ ]
+}

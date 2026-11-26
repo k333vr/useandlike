@@ -1,0 +1,23 @@
+{
+ "slug": "gemini-notebook-flashcards-images-stopwatch",
+ "date": "2026-11-24",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "AI",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Gemini Notebook flashcards add pictures, a stopwatch and reminders",
+ "dek": "Flashcards in Gemini Notebook now pull images from your uploaded material and can time a review with a stopwatch, and the mobile app can remind you to review. It's for personal Google accounts and Workspace, from 24 November.",
+ "apps": [
+  "Gemini"
+ ],
+ "item": 165602,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "Google Workspace Updates",
+   "url": "https://workspaceupdates.googleblog.com/2026/11/new-study-enhancements-for-flashcards-in-Gemini-Notebook.html"
+  }
+ ]
+}

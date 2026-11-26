@@ -1,0 +1,27 @@
+{
+ "slug": "phraselab-midi-composer-app",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Music",
+ "tag": "New app",
+ "head": "PhraseLab MIDI composer app writes chords, melody and bass",
+ "dek": "PhraseLab builds a chord progression, melody, bassline and arpeggio that fit together once you choose a key, a scale and one of 32 genres. The $14.99 iPhone and iPad app came out on 23 November and was #61 among paid Music apps on the US App Store on 25 November.",
+ "details": "It writes MIDI rather than making its own sounds, so you hear it through AUv3 instruments, on its own or loaded as an Audio Unit in another music app. You can lock the parts you like, regenerate the rest and edit chords by hand from over 30 chord types. Ideas can be kept as scenes such as verse and chorus and arranged into a song. It's a one-time purchase with no subscription, ads or account, from Higher Plane Software.",
+ "where": "iPhone and iPad, $14.99 one-time",
+ "means": "If you make music on an iPad or iPhone and get stuck on ideas, this gives you parts in the same key to start from.",
+ "todo": "Make sure you have at least one AUv3 instrument app installed, since PhraseLab needs one to make sound.",
+ "apps": [
+  "PhraseLab: MIDI Composer"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/phraselab-midi-composer/id6783402454"
+  }
+ ],
+ "item": 176158,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "PHRASELAB WRITES SONG PARTS"
+}

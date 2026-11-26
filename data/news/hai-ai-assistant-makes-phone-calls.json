@@ -1,0 +1,27 @@
+{
+ "slug": "hai-ai-assistant-makes-phone-calls",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "AI",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Hai lets ChatGPT, Claude or Gemini phone a business for you",
+ "dek": "Hai, launched on Product Hunt on 25 November, connects to AI assistants and calls restaurants, clinics or salons to book or reschedule, in another language if needed, then reports back in the chat; it says it's an AI and dials only after you approve the plan. It's free to start but in testing, with new accounts on a waitlist.",
+ "apps": [
+  "Hai"
+ ],
+ "sources": [
+  {
+   "name": "Hai",
+   "url": "https://haicall.in"
+  },
+  {
+   "name": "Product Hunt",
+   "url": "https://www.producthunt.com/products/hai-4"
+  }
+ ],
+ "item": 170461,
+ "idea": "newcomer",
+ "traction": 15
+}

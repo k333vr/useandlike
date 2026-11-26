@@ -1,0 +1,27 @@
+{
+ "slug": "synchronus-91-tonewheel-organ-app",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Music",
+ "tag": "New app",
+ "head": "Synchronus 91 organ app for iPad and iPhone: tonewheel organ without samples",
+ "dek": "Synchronus 91 is a 12.99 dollar organ app for iPad and iPhone that models a classic 91-tonewheel console organ and a rotary speaker in real time instead of playing recordings. Out since 6 November, it was #45 among paid Music apps on the US App Store on 25 November.",
+ "details": "It runs on its own or as an AUv3 instrument in apps such as GarageBand, Logic Pro for iPad and AUM. It includes spring reverb, a tube preamp, drawbars on screen and ready-made settings for many drawbar MIDI controllers, plus MIDI Learn. It's a one-time purchase with no subscription or account and works offline. The maker is Abel Boquera.",
+ "where": "iPad and iPhone, 12.99 dollars, out since 6 November",
+ "means": "If you play keys and want an organ sound in GarageBand or on stage from an iPad, this is a single purchase.",
+ "todo": "Check the listing for your MIDI controller before buying.",
+ "thumb_words": "AN ORGAN IN YOUR IPAD",
+ "apps": [
+  "Synchronus 91"
+ ],
+ "sources": [
+  {
+   "name": "App Store: Synchronus 91",
+   "url": "https://apps.apple.com/us/app/synchronus-91/id6830088369"
+  }
+ ],
+ "item": 176157,
+ "idea": "newcomer",
+ "traction": 0
+}

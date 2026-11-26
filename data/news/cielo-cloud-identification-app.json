@@ -1,0 +1,27 @@
+{
+ "slug": "cielo-cloud-identification-app",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Weather",
+ "tag": "New app",
+ "head": "Cloud identification app Cielo names cloud types from your camera",
+ "dek": "Cielo, a $3.99 iPhone and iPad app, estimates which type of cloud is in the sky from your live camera, a photo or a saved video. It was #35 among paid Weather apps on the US App Store on 25 November.",
+ "details": "It shows the main cloud type, how confident it is, other possible types and a rough estimate of how much of the sky is covered. Analysis runs on the Cielo service, so it needs an internet connection; for videos only sampled still images are sent, not the file or its sound. The listing says glare, haze and mixed skies can affect results and that it isn't a forecast. The maker is Richard Podolsky; it's out since 13 October.",
+ "where": "iPhone and iPad (iOS 15.1 or later), $3.99, internet needed",
+ "means": "If you've wondered what kind of clouds you're looking at, it gives an estimate in seconds, but it's not for weather or flying decisions.",
+ "todo": "Read the App Store listing before buying; it has no ratings yet.",
+ "apps": [
+  "Cielo"
+ ],
+ "sources": [
+  {
+   "name": "App Store: Cielo",
+   "url": "https://apps.apple.com/us/app/cielo-cloud-identification/id6819444464"
+  }
+ ],
+ "item": 176170,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "CIELO NAMES THE CLOUDS"
+}

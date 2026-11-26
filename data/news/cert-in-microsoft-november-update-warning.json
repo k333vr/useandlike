@@ -1,0 +1,24 @@
+{
+ "slug": "cert-in-microsoft-november-update-warning",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Security",
+ "tag": "Quick",
+ "head": "India's CERT-In warns of serious flaws in Windows and Microsoft 365",
+ "dek": "India's cyber agency CERT-In said on 25 November that flaws fixed in Microsoft's November security updates for Windows, Office, Microsoft 365 and Azure could let attackers run their own code or get access they should not have. It advises installing Microsoft's updates on devices and apps.",
+ "quick": true,
+ "apps": [
+  "Windows",
+  "Microsoft 365"
+ ],
+ "item": 173003,
+ "sources": [
+  {
+   "name": "Digit",
+   "url": "https://www.digit.in/news/general/after-microsoft-issues-code-red-govt-warns-users-of-critical-vulnerabilities-across-windows-azure-and-microsoft-365.html"
+  }
+ ],
+ "idea": "news",
+ "traction": 15
+}

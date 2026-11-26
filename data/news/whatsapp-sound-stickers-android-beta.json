@@ -1,0 +1,32 @@
+{
+ "slug": "whatsapp-sound-stickers-android-beta",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Messaging",
+ "tag": "In testing",
+ "rumor": true,
+ "head": "WhatsApp sound stickers in testing: stickers that play audio on tap",
+ "dek": "WhatsApp is testing stickers with sound in its Android beta 2.26.41.3, according to WABetaInfo: you turn a video into a sticker and keep its audio, record a voice note or add a sound file from your phone. WhatsApp hasn't said when, or whether, everyone gets it.",
+ "details": "The sound plays only when the person who gets the sticker taps it; until then it stays silent, and a small audio icon shows that it has sound. To make one, testers open a chat, tap the sticker icon, choose Create sticker, pick a video and tap the new Sound icon at the top. The sound editor works with normal stickers too. Not every beta tester has it yet.",
+ "where": "Some WhatsApp beta testers on Android",
+ "means": "If you get this later, stickers can carry a voice note or a short sound, and nothing plays unless you tap it.",
+ "todo": "Nothing to do yet. Android users who want to try features early can join WhatsApp's beta through Google Play.",
+ "apps": [
+  "WhatsApp"
+ ],
+ "item": 171603,
+ "idea": "news",
+ "traction": 44,
+ "thumb_words": "WHATSAPP TESTS STICKERS WITH SOUND",
+ "sources": [
+  {
+   "name": "Engadget",
+   "url": "https://www.engadget.com/2327763/whatsapp-is-testing-stickers-with-sound/"
+  },
+  {
+   "name": "Android Headlines",
+   "url": "https://www.androidheadlines.com/2026/11/whatsapp-testing-sound-stickers-android-beta.html"
+  }
+ ]
+}

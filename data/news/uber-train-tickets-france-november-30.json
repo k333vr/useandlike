@@ -1,0 +1,28 @@
+{
+ "slug": "uber-train-tickets-france-november-30",
+ "date": "2026-11-24",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Travel",
+ "tag": "New feature",
+ "head": "Uber train tickets come to France on 30 November, with TGV and Eurostar",
+ "dek": "From 30 November, Uber users in France can search and buy train tickets in the Uber app through a new Train option, run with the booking company Omio. It covers SNCF trains at home and selected international routes, with no booking fee, Uber says.",
+ "details": "Domestic trains include TGV INOUI, TER, Intercités and OUIGO; selected international routes include Eurostar, Trenitalia France, Renfe and Lyria. Uber says a ticket costs the same as the equivalent ticket bought directly, though its price guarantee has conditions and leaves out some of the train companies' own promotions. Under the French offer, eligible bookings earn up to 10% back as Uber credit, usable for train tickets, rides or Uber Eats. France is Uber's third country for train tickets, after the UK and Spain; the car to or from the station is booked separately.",
+ "where": "France, in the Uber app from 30 November",
+ "means": "If you take the train in France, you can compare SNCF and some international trains in the same app you use for a ride to the station, and get part of the price back as Uber credit.",
+ "todo": "Nothing to do before 30 November. Then open the Uber app in France and choose Train. Compare the price with the train company's own app if it's running a promotion.",
+ "apps": [
+  "Uber"
+ ],
+ "category": "Travel",
+ "sources": [
+  {
+   "name": "eTurboNews",
+   "url": "https://eturbonews.com/uber-train-tickets-france-omio/"
+  }
+ ],
+ "item": 165415,
+ "idea": "news",
+ "traction": 32,
+ "thumb_words": "UBER SELLS TRAIN TICKETS IN FRANCE"
+}

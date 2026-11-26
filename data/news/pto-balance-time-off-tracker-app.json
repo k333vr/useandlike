@@ -1,0 +1,27 @@
+{
+ "slug": "pto-balance-time-off-tracker-app",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Productivity",
+ "tag": "New app",
+ "head": "PTO tracker app PTO Balance forecasts your paid time off on iPhone",
+ "dek": "PTO Balance, a $1.99 iPhone and iPad app, adds the hours you earn each payday to your time-off balance and shows how planned days off change it months ahead. It was #71 among paid Productivity apps on the US App Store on 25 November.",
+ "details": "You set your carryover limit and reset date, and the app shows how many hours you'd lose. It skips weekends and the paid US holidays you choose, tracks floating holidays and sick time, and works with weekly, biweekly, semimonthly and monthly pay. Siri, Shortcuts and a Home Screen widget show the balance. Data stays on the phone and in your own iCloud, with no account and no ads; the maker is Olemae Developers LLC, and the app is out since 3 November.",
+ "where": "iPhone and iPad (iOS 26 or later), $1.99, US holidays",
+ "means": "If you lose track of how much vacation you've built up, or forfeit hours at year end, the app does the payday math for you.",
+ "todo": "Have your current balance and hours per pay period from your payslip ready when you set it up. Read the App Store listing before buying.",
+ "apps": [
+  "PTO Balance"
+ ],
+ "sources": [
+  {
+   "name": "App Store: PTO Balance",
+   "url": "https://apps.apple.com/us/app/pto-balance/id6778962150"
+  }
+ ],
+ "item": 176140,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "PTO BALANCE: TIME OFF FORECAST"
+}

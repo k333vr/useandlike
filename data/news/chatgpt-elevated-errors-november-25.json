@@ -1,0 +1,23 @@
+{
+ "slug": "chatgpt-elevated-errors-november-25",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "ChatGPT conversation errors on 25 November, now fixed",
+ "dek": "OpenAI's status page listed elevated conversation errors in ChatGPT, ChatGPT Work and Codex Cloud on 25 November. The incident is marked resolved, with all services working normally again.",
+ "quick": true,
+ "apps": [
+  "ChatGPT"
+ ],
+ "item": 175618,
+ "sources": [
+  {
+   "name": "OpenAI Status",
+   "url": "https://status.openai.com/history"
+  }
+ ],
+ "idea": "news",
+ "traction": 15
+}

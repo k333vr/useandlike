@@ -1,0 +1,76 @@
+{
+ "slug": "uber-safety-features-explained",
+ "date": "2026-11-26",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Travel",
+ "tag": "Explainer",
+ "category": "Travel",
+ "head": "Uber safety features for riders explained: PIN, recording, teens",
+ "dek": "Uber's app already has a ride PIN, trip sharing, crash and detour checks and audio recording for every rider, and in November 2026 it started testing video-recorded rides and rides for children as young as 10 in a few US cities.",
+ "sections": [
+  {
+   "h": "What every rider can switch on",
+   "p": [
+    "Uber's safety page lists the tools in the app. Verify Your Ride gives you an optional 4-digit PIN that you tell the driver; the driver can't start the trip in the app without it. Share My Trip sends your trip's status to Trusted Contacts you pick, live. RideCheck uses GPS and the phone's sensors to notice a long detour or a possible crash and then checks in with you.",
+    "If something goes wrong, the Emergency Button calls 911 from the app and shows your location and trip details; in some US cities Uber says these are passed to the emergency service automatically. You can also record the trip's audio from the Safety Center, and drivers don't see your real phone number when you call or text through the app."
+   ]
+  },
+  {
+   "h": "Recorded Rides: video of the whole trip",
+   "p": [
+    "On 23 November 2026, TechCrunch reported a new US pilot in Baltimore, Raleigh, Indianapolis and St. Louis. Drivers who switch on Record My Ride film the whole drive with their phone's front camera, and their trips show up in the app as Recorded Rides. Riders can decline the recording through a notification in the app, and drivers can turn it off in their settings.",
+    "Uber is also testing recording for late-night trips and trips with teens, and recording that starts by itself when the app notices a detour or a possible crash. The report doesn't say who can watch the videos."
+   ]
+  },
+  {
+   "h": "Teen accounts and live video for parents",
+   "p": [
+    "Teens aged 13 to 17 can ride on a parent's Family profile. Uber's teen page says the PIN is always on for them and can't be switched off, Share My Trip is on automatically, RideCheck is more sensitive, only the teen can change the destination, and teens sit in the back seat. Parents get a notice for every ride, can follow it live, call the driver and set a monthly spending limit.",
+    "Since August 2026 in the US, a linked parent can also check in on a teen's ride through live video from the driver's phone, when the driver has turned it on. The stream is encrypted, the teen and driver are told when someone watches, and Uber says no one can see the recording after the trip, according to iPhone in Canada, which reported the feature coming to Canada this month."
+   ]
+  },
+  {
+   "h": "Uber Kids: a pilot for children from 10",
+   "p": [
+    "TechCrunch reported on 19 November 2026 that Uber is testing rides for children as young as 10 in Austin, Nashville and Madison. Only a parent or guardian can book, the parent has to be at the pickup spot for the trip to start, every trip needs the PIN, and the trip is streamed on live video. The recordings are encrypted and the driver can't open them. Only invited, highly rated drivers who complete a training module take these rides, and TechCrunch notes the pilot may not go beyond these three cities."
+   ]
+  },
+  {
+   "h": "Women drivers and senior accounts in Canada",
+   "p": [
+    "In Canada, Uber is adding Women Driver Preferences in November 2026: women, non-binary riders and teens can ask for a woman driver, booked ahead in participating cities and on demand in some areas. Uber hasn't named the cities and doesn't promise a match, so the wait can be longer. Senior accounts, with larger text and a way to tell the driver you need more time at pickup, can now be set up by seniors themselves."
+   ]
+  }
+ ],
+ "means": "If you're taking Uber rides over the holidays, the PIN, trip sharing and audio recording work for you now; video recording, Uber Kids and women driver preferences are only in a few cities so far, and the app shows them where they're offered.",
+ "todo": "Before your next ride, turn on Verify Your Ride for a PIN and set up Trusted Contacts for Share My Trip; once you've requested a ride, the Safety Toolkit has the Emergency Button and audio recording in one place. Parents of 13 to 17-year-olds can add a teen under Account, then Family and teens.",
+ "apps": [
+  "Uber"
+ ],
+ "idea": "explainer",
+ "traction": 0,
+ "thumb_words": "UBER'S SAFETY TOOLS EXPLAINED",
+ "sources": [
+  {
+   "name": "Uber: Rider safety",
+   "url": "https://www.uber.com/us/en/ride/safety/"
+  },
+  {
+   "name": "Uber: Teen accounts",
+   "url": "https://www.uber.com/us/en/ride/teens/"
+  },
+  {
+   "name": "TechCrunch: Recorded Rides",
+   "url": "https://techcrunch.com/2026/11/23/uber-now-lets-you-book-rides-that-record-the-drive-by-default/"
+  },
+  {
+   "name": "TechCrunch: Uber Kids",
+   "url": "https://techcrunch.com/2026/11/19/uber-tests-rides-for-kids-as-young-as-10-with-extra-pay-for-drivers/"
+  },
+  {
+   "name": "iPhone in Canada",
+   "url": "https://www.iphoneincanada.ca/2026/11/12/uber-canada-women-driver-preferences-teen-live-video/"
+  }
+ ]
+}

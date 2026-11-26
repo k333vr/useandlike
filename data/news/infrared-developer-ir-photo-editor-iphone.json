@@ -1,0 +1,27 @@
+{
+ "slug": "infrared-developer-ir-photo-editor-iphone",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Photo",
+ "tag": "New app",
+ "head": "Infrared Developer: infrared photo editor app for iPhone and iPad",
+ "dek": "Infrared Developer is a $12.99 photo editor for infrared pictures, doing on a phone what usually takes custom camera profiles in desktop RAW software. It was #87 among paid Photo & Video apps on the US App Store on 25 November.",
+ "details": "It has white balance per colour channel, channel swaps, a channel mixer and hue, saturation and brightness per colour band, plus presets for common infrared filters and faux-infrared looks for photos from a normal camera. It opens RAW files from many cameras as well as JPEG, PNG, HEIC and WebP, and edits never change the original. There's no account, ads or analytics. Made by Alexandre Zii Miller, out since 20 November, it needs iOS 18 or later.",
+ "where": "iPhone and iPad, iOS 18 or later, App Store, $12.99",
+ "means": "If you shoot infrared with a converted camera or a filter, you can now edit those files on your phone; without one, the faux-infrared looks still work.",
+ "todo": "Start from the preset that matches your infrared filter, then fine-tune white balance.",
+ "apps": [
+  "Infrared Developer"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/infrared-developer/id6836506151"
+  }
+ ],
+ "item": 176143,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "INFRARED PHOTO EDITING ON IPHONE"
+}

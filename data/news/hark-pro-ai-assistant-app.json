@@ -1,0 +1,27 @@
+{
+ "slug": "hark-pro-ai-assistant-app",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "AI",
+ "tag": "New app",
+ "head": "Hark Pro AI assistant app: books tables and orders groceries for you",
+ "dek": "Hark Pro, a free AI assistant app for iPhone and iPad from Hark Labs, can log in to websites for you and finish tasks there, such as booking a table on OpenTable or ordering food through DoorDash, with your approval. On 25 November it was #12 among free Lifestyle apps on the US App Store.",
+ "details": "The listing says Hark uses a computer in the cloud and remembers context, can read your calendar, email and Slack, and keeps your logins for hundreds of sites such as Target and Amazon. It can fill in web forms, return products, track longer tasks in Projects and build small tools called Panels inside the app. The listing says no subscription is needed and that Hark won't sell your data or show ads. It came out on 30 September, needs iOS 17.6 or later, is rated 17+ and had 4.8 stars from about 3,700 ratings.",
+ "where": "iPhone and iPad (iOS 17.6 or later), free, US App Store chart on 25 November",
+ "means": "If you'd like an assistant that does the clicking for you, Hark Pro tries that, but it works by holding your logins and reading your messages, so you hand it a lot of access.",
+ "todo": "Read the listing and the privacy details on its App Store page first. Start with a small task, check every order or booking before you confirm it, and only connect the accounts you need.",
+ "thumb_words": "HARK PRO: AN AI THAT ORDERS FOR YOU",
+ "apps": [
+  "Hark Pro"
+ ],
+ "sources": [
+  {
+   "name": "App Store: Hark Pro",
+   "url": "https://apps.apple.com/us/app/hark-pro/id6772362941"
+  }
+ ],
+ "item": 176148,
+ "idea": "newcomer",
+ "traction": 15
+}

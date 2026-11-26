@@ -1,0 +1,27 @@
+{
+ "slug": "new-york-times-photoshop-2027-ai-features",
+ "date": "2026-11-24",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "AI",
+ "tag": "Heads-up",
+ "head": "Photoshop 2027 AI features: New York Times tells photographers to avoid it",
+ "dek": "The New York Times now requires its contributing photographers not to use Photoshop 2027 (version 28.0.0 and later) on assignments. The paper says some features use generative AI in ways users may not notice, and that can mark a photo as AI-edited in its metadata.",
+ "details": "The rule came in an email to freelance photographers and contributors, and a Times spokesperson confirmed it to PetaPixel. The worry is that a photographer could use a generative AI tool without noticing, the file's metadata would then record it, and the paper can't run photos labeled as AI-edited. Photoshop 2027 adds generative AI for relighting and restyling photos next to older tools like Generative Remove and Generative Expand. Adobe hadn't replied to PetaPixel when it published.",
+ "where": "New York Times contributing photographers; Photoshop 2027 (28.0.0) and later",
+ "means": "If you edit photos for a client with strict rules on AI, a Photoshop 2027 tool could leave an AI mark in your file's metadata even when you didn't mean to use generative AI.",
+ "todo": "If you need to stay on the older version, the Creative Cloud app lets you reinstall an earlier build; PetaPixel says you can roll back to Photoshop 27.0, though it isn't always simple.",
+ "apps": [
+  "Photoshop"
+ ],
+ "sources": [
+  {
+   "name": "PetaPixel",
+   "url": "https://petapixel.com/2026/11/24/new-york-times-prohibits-photographers-from-using-photoshop-2027/"
+  }
+ ],
+ "item": 164927,
+ "idea": "news",
+ "traction": 40,
+ "thumb_words": "NYT: DON'T USE PHOTOSHOP 2027"
+}

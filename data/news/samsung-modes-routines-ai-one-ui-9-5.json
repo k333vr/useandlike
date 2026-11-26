@@ -1,0 +1,25 @@
+{
+ "slug": "samsung-modes-routines-ai-one-ui-9-5",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Samsung",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "One UI 9.5 beta adds Ask AI and 7 presets to Samsung Modes and Routines",
+ "dek": "In the One UI 9.5 beta, a routine can send a prompt to Perplexity or Gemini and use seven new presets like a Pomodoro timer, Android Authority found. Only Perplexity sends it on its own; features may change before release.",
+ "apps": [
+  "Modes and Routines",
+  "One UI"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-one-ui-9-5-modes-and-routines-ask-ai-presets-apk-teardown-3738354/"
+  }
+ ],
+ "item": 172280,
+ "idea": "news",
+ "traction": 0
+}

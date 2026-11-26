@@ -1,0 +1,31 @@
+{
+ "slug": "gemini-overlay-shopping-compare-prices",
+ "date": "2026-11-25",
+ "added": "2026-11-26",
+ "checked": "2026-11-26",
+ "topic": "Shopping",
+ "tag": "New feature",
+ "head": "Gemini shopping help on Android: compare prices, warranty and returns",
+ "dek": "Gemini's floating overlay on Android can now help while you shop: open it over a shopping app or website and it offers three buttons, Help me pick, Compare prices, and Check warranty and returns. It's rolling out now, and Android Police links the timing to Black Friday in the US.",
+ "details": "Gemini compares the product's details with other large retailers and can suggest buying it where you are or from another store, based on warranty, return terms and other details. Android Police's UK-based writer didn't have it yet. Google's help page says Gemini's shopping help draws on Google's Shopping Graph, needs a personal Google Account and is for people 18 and over. Neither page says whether it costs extra or which stores are compared.",
+ "where": "Android, Gemini overlay, rolling out; US first according to Android Police",
+ "means": "If you shop on your Android phone this weekend, Gemini can check other stores and return terms without you leaving the shop's page, but AI answers can be wrong.",
+ "todo": "Open a product in a shopping app, call up Gemini and tap Compare prices. Check the price and the return policy on the store's own page before you pay. If the buttons aren't there yet, wait for the rollout.",
+ "thumb_words": "GEMINI NOW COMPARES PRICES",
+ "apps": [
+  "Gemini"
+ ],
+ "sources": [
+  {
+   "name": "Android Police",
+   "url": "https://www.androidpolice.com/gemini-floating-overlay-compares-shop-prices-and-returns/"
+  },
+  {
+   "name": "Google Gemini Help",
+   "url": "https://support.google.com/gemini/answer/16730149?hl=en"
+  }
+ ],
+ "item": 170885,
+ "idea": "news",
+ "traction": 40
+}
