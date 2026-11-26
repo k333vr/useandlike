@@ -2,22 +2,34 @@
  "slug": "slidinn-ai-instagram-dm-replies",
  "date": "2026-11-23",
  "added": "2026-11-25",
- "checked": "2026-11-25",
+ "checked": "2026-11-26",
  "topic": "AI",
- "tag": "Quick",
- "head": "Slidinn suggests three Instagram DM replies in a tone you pick",
- "dek": "New app Slidinn reads a chat and writes three reply options, flirty, casual, witty or polite among them, that you can edit before sending. It needs an Instagram Creator or Business account, and nothing is sent until you tap.",
- "quick": true,
+ "tag": "New app",
+ "head": "Slidinn AI app suggests Instagram DM replies in the tone you pick",
+ "dek": "Slidinn is a new app that reads a chat from a screenshot or pasted text and writes three reply ideas in one of eight tones, from flirty and witty to polite, that you edit and send yourself. With an Instagram Creator or Business account, you can read your DMs in the app and get the ideas inside each chat.",
+ "details": "You can also set the length, how many emoji and something to mention, and each set of replies comes with a tip for keeping the chat going. The first week is free with no payment details; after that, reply ideas need Premium at 9.99 dollars a month or 29.99 dollars a year. The App Store listing says screenshots and pasted chats go to an outside AI service to write the replies and aren't saved by Slidinn, and nothing is sent until you tap Send. It's on the App Store, Google Play and the web, and isn't connected with Instagram or Meta.",
+ "where": "iPhone, Android and web; free week, then 9.99 dollars a month",
+ "means": "If you get stuck on what to text back, Slidinn writes options for you, but your chats go to an AI service to do it.",
+ "todo": "Try the free week before paying, and cancel in your Apple Account settings at least 24 hours before it renews if you don't want Premium.",
+ "thumb_words": "AI WRITES YOUR INSTAGRAM DM REPLIES",
  "apps": [
   "Slidinn"
  ],
  "sources": [
+  {
+   "name": "Slidinn",
+   "url": "https://www.slidinn.com/"
+  },
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/slidinn-slide-into-dms/id6832461666"
+  },
   {
    "name": "BetaList",
    "url": "https://betalist.com/startups/slidinn"
   }
  ],
  "item": 160503,
- "idea": "newcomer",
+ "idea": "request",
  "traction": 0
 }

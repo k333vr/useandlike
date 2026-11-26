@@ -2,23 +2,27 @@
  "slug": "gemini-create-a-voice-testing",
  "date": "2026-11-24",
  "added": "2026-11-25",
- "checked": "2026-11-25",
+ "checked": "2026-11-26",
  "topic": "AI",
- "tag": "Quick",
- "quick": true,
+ "tag": "In testing",
  "rumor": true,
- "head": "Gemini may let you describe and create your own voice",
- "dek": "Code in version 17.78.13 of the Google app points to a \"Create a voice\" option where you'd describe how Gemini should sound, such as accent, tone or speed, or tap \"Surprise me\", Android Authority found. It couldn't turn it on, and Google hasn't announced it.",
+ "head": "Gemini custom voice option spotted in the Google app's code",
+ "dek": "Gemini may let you describe the voice you want, from accent and tone to speaking speed, according to code Android Authority found in version 17.78.13 of the Google app. It couldn't turn the option on, and Google hasn't announced it.",
  "apps": [
   "Gemini"
  ],
  "item": 162464,
- "idea": "news",
+ "idea": "request",
  "traction": 0,
  "sources": [
   {
    "name": "Android Authority",
    "url": "https://www.androidauthority.com/gemini-custom-voice-creation-3738635/"
   }
- ]
+ ],
+ "details": "The code holds six lines of text, among them a \"Create a voice\" button, a box that reads \"Describe how Gemini should sound\" and a \"Surprise me\" option for when you have no idea. In July, Android Authority found sliders for speed, energy, warmth and formality that never reached users. It's unknown whether you could save more than one voice or whether accents would depend on your region. Google recently added 66 regional voices to Gemini.",
+ "where": "Not available: found in code of the Google app 17.78.13; no date",
+ "means": "If you talk to Gemini out loud, you may one day write a short description of the voice you'd like instead of picking from the preset list. It's work-in-progress code, so it may never ship.",
+ "todo": "Nothing to do yet. For now, Gemini's voice is still picked from its preset voices.",
+ "thumb_words": "GEMINI: MAKE YOUR OWN VOICE?"
 }

@@ -2,12 +2,16 @@
  "slug": "a-better-tomorrow-brain-games-app",
  "date": "2026-11-24",
  "added": "2026-11-25",
- "checked": "2026-11-25",
+ "checked": "2026-11-26",
  "topic": "Games",
- "tag": "Quick",
- "head": "A Better Tomorrow Brain Games: 20 puzzle games for a one-time $4.99",
- "dek": "This new app has 20 offline puzzles for memory, focus and words, with daily challenges and streaks, and no ads, subscriptions or in-app purchases. It runs on iPhone and iPad and was #88 among paid Entertainment apps on the US App Store on 24 November.",
- "quick": true,
+ "tag": "New app",
+ "head": "Brain games app A Better Tomorrow: 20 offline puzzles for $4.99",
+ "dek": "A Better Tomorrow Brain Games is a new app with 20 offline puzzle games for memory, focus and words, for a one-time 4.99 dollars with no ads, subscriptions or in-app purchases. It was #88 among paid Entertainment apps on the US App Store on 24 November.",
+ "details": "The games include Memory Match, N-Back Lite, Stroop Challenge, Word Scramble, Slide Puzzle, Mahjong Link and Sudoku from 4x4 to 9x9. It can suggest a game for the time and mood you have, and keeps daily challenges, streaks and your own high scores on the device, with no account. The listing says the games are for fun and general wellness, not medical advice. It's made by A Better Tomorrow Health & Wellness Services and runs on iPhone and iPad.",
+ "where": "iPhone and iPad, US App Store, 4.99 dollars one time",
+ "means": "If you want daily puzzle games without ads or a subscription, this one costs once and works offline.",
+ "todo": "Look at the list of 20 games on its App Store page before you buy; Family Sharing lets up to six family members use one purchase.",
+ "thumb_words": "20 BRAIN GAMES, PAY ONCE, NO ADS",
  "apps": [
   "A Better Tomorrow Brain Games"
  ],
@@ -18,6 +22,6 @@
   }
  ],
  "item": 168322,
- "idea": "newcomer",
+ "idea": "request",
  "traction": 0
 }

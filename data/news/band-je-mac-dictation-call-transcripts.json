@@ -2,22 +2,30 @@
  "slug": "band-je-mac-dictation-call-transcripts",
  "date": "2026-11-23",
  "added": "2026-11-25",
- "checked": "2026-11-25",
+ "checked": "2026-11-26",
  "topic": "Productivity",
- "tag": "Quick",
- "head": "Band·je: Mac app for on-device dictation and call transcripts",
- "dek": "Band·je types what you say into any app on a Mac in 25 languages and transcribes Zoom, Teams, Meet, FaceTime and phone calls without a bot joining, all on the device. It's free to try, then a one-time payment, and its code is open source.",
- "quick": true,
+ "tag": "New app",
+ "head": "Band·je Mac dictation app also transcribes calls on the device",
+ "dek": "Band·je types what you say into any app on a Mac and records and transcribes Zoom, Teams, Meet, FaceTime and phone calls without a bot joining, with all processing on the device. Recording is free and the first 5 transcriptions are free; after that it's a one-time payment.",
+ "details": "Band·je Unlimited costs 19.99 euros once for all your devices, or 9.99 euros in a Black Friday offer until 1 December. It works in 25 European languages, labels who said what, and writes summaries from your own templates. The Mac app needs macOS 15 and Apple silicon; there are also iPhone, iPad and Apple Watch apps, and iCloud sync is optional and off by default. Its maker, Neurendal, publishes the code under the GPL license.",
+ "where": "Mac with Apple silicon (macOS 15), iPhone, iPad, Apple Watch",
+ "means": "If you dictate a lot or need notes from calls, Band·je does it without sending your audio to the cloud or paying a subscription.",
+ "todo": "Try the 5 free transcriptions first; the Black Friday price runs until 1 December.",
+ "thumb_words": "MAC DICTATION THAT STAYS OFFLINE",
  "apps": [
   "Band·je"
  ],
  "sources": [
+  {
+   "name": "Band·je",
+   "url": "https://band.je/"
+  },
   {
    "name": "BetaList",
    "url": "https://betalist.com/startups/band-je"
   }
  ],
  "item": 160505,
- "idea": "newcomer",
+ "idea": "request",
  "traction": 0
 }

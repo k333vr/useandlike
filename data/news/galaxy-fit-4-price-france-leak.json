@@ -2,12 +2,11 @@
  "slug": "galaxy-fit-4-price-france-leak",
  "date": "2026-11-24",
  "added": "2026-11-25",
- "checked": "2026-11-25",
+ "checked": "2026-11-26",
  "topic": "Samsung",
- "tag": "Quick",
- "head": "Galaxy Fit 4 may cost €79.90 in France, a leak says",
- "dek": "French site Dealabs reports the Galaxy Fit 4 tracker will cost €79.90 in France, €10 more than the Fit 3, in black, silver and green; Samsung hasn't announced it or a launch date.",
- "quick": true,
+ "tag": "Leak",
+ "head": "Galaxy Fit 4 price leak: €79.90 in France, says Dealabs",
+ "dek": "Samsung's next fitness band may cost €79.90 in France, €10 more than the Galaxy Fit 3's €69.90, according to French site Dealabs. Samsung hasn't announced the Fit 4 or a launch date.",
  "apps": [
   "Galaxy Fit"
  ],
@@ -18,8 +17,15 @@
   }
  ],
  "item": 163537,
- "items": [169678],
- "idea": "news",
+ "items": [
+  169678
+ ],
+ "idea": "request",
  "traction": 0,
- "rumor": true
+ "rumor": true,
+ "details": "Dealabs says it comes to Europe in black, silver and green. FCC papers from August list a speaker, a first for the Fit line, Bluetooth 5.4 and a button on the right, with no Wi-Fi, LTE, NFC or GPS. Sammy Guru found heart-rate, blood oxygen, stress and sleep tracking, automatic workout detection and Samsung Wallet support in the Fit 4's app. The price is for France only.",
+ "where": "Not announced: leaked price for France; no date",
+ "means": "If you were waiting for the Fit 4, expect it to cost a little more than the Fit 3 in France, if the leak is right. Other countries' prices aren't known.",
+ "todo": "Nothing to do yet; Samsung hasn't set a date.",
+ "thumb_words": "GALAXY FIT 4: €79.90 LEAK"
 }

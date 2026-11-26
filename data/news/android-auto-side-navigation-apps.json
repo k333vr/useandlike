@@ -2,25 +2,31 @@
  "slug": "android-auto-side-navigation-apps",
  "date": "2026-11-24",
  "added": "2026-11-25",
- "checked": "2026-11-25",
+ "checked": "2026-11-26",
  "topic": "Android",
- "tag": "Quick",
- "quick": true,
- "head": "Android Auto apps start moving their menus to the side",
- "dek": "On Android Auto 18.2, Spotify, YouTube Music and the phone dialer are starting to show their navigation as a list along the side of the screen instead of across the top, with larger items and a bigger now-playing bar in Spotify, Android Authority reports.",
+ "tag": "Update",
+ "head": "Android Auto new design moves Spotify and YouTube Music menus to the side",
+ "dek": "On Android Auto 18.2, Spotify, YouTube Music and the phone dialer are starting to show their menus as a list down the side of the screen instead of a bar across the top, Android Authority reports. Spotify also gets a bigger now-playing bar with album art and playback buttons.",
+ "details": "Fewer items fit on the screen, but each one is larger, which Android Authority says should be easier to use while driving. It has also had reports of the new look in Amazon Music. The report doesn't say Google has confirmed it, and there's no word on how widely it's rolling out or how to turn it on. Google had previewed a bigger Android Auto update with new widgets and a more flexible layout before I/O 2026.",
+ "where": "Android Auto 18.2, appearing for some users now",
+ "means": "If your car runs Android Auto, the menus in your music app may move to the side of the screen soon, with larger buttons.",
+ "todo": "Nothing to do: keep Android Auto and your music apps updated, and the new layout appears when it reaches you.",
+ "thumb_words": "ANDROID AUTO MENUS MOVE TO THE SIDE",
  "apps": [
   "Android Auto",
   "Spotify",
   "YouTube Music"
  ],
- "item": 166869,
- "items": [175797],
- "idea": "news",
- "traction": 0,
  "sources": [
   {
    "name": "Android Authority",
    "url": "https://www.androidauthority.com/android-auto-app-layout-3739081/"
   }
- ]
+ ],
+ "item": 166869,
+ "items": [
+  175797
+ ],
+ "idea": "request",
+ "traction": 0
 }

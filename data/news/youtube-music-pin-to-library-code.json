@@ -2,12 +2,11 @@
  "slug": "youtube-music-pin-to-library-code",
  "date": "2026-11-24",
  "added": "2026-11-25",
- "checked": "2026-11-25",
+ "checked": "2026-11-26",
  "topic": "Music",
- "tag": "Quick",
- "head": "YouTube Music may let you pin albums and playlists in your Library",
- "dek": "Code in YouTube Music 9.46.55 for Android shows \"Pin to Library\" and a \"Pinned\" badge for albums and playlists, Android Authority found. Spotify already has library pinning; Google hasn't announced the feature.",
- "quick": true,
+ "tag": "In testing",
+ "head": "YouTube Music pin to Library spotted for playlists and albums",
+ "dek": "YouTube Music for Android may let you pin songs, albums, playlists and artists to the top of your Library, according to code Android Authority found in version 9.46.55. Google hasn't announced it or a date.",
  "apps": [
   "YouTube Music"
  ],
@@ -18,7 +17,12 @@
   }
  ],
  "item": 164453,
- "idea": "news",
+ "idea": "request",
  "traction": 0,
- "rumor": true
+ "rumor": true,
+ "details": "The code has \"Pin to Library\" and \"Unpin from Library\" menu lines, and pinned albums and playlists would get a small pushpin \"Pinned\" badge. Today's \"Pin to Speed dial\", added in October 2024, only puts shortcuts on the Home tab. Spotify already lets you pin playlists, albums and artists in its library.",
+ "where": "Not available: found in code of YouTube Music 9.46.55 for Android; no date",
+ "means": "If your Library is long, you may soon keep the playlists you play most at the top. It's work-in-progress code, so it may change or never ship.",
+ "todo": "Nothing to do yet. For quick access today, use \"Pin to Speed dial\" on the Home tab.",
+ "thumb_words": "YOUTUBE MUSIC: PIN TO LIBRARY?"
 }

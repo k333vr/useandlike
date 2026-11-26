@@ -2,12 +2,11 @@
  "slug": "chatgpt-dots-own-email-address-test",
  "date": "2026-11-24",
  "added": "2026-11-25",
- "checked": "2026-11-25",
+ "checked": "2026-11-26",
  "topic": "AI",
- "tag": "Quick",
- "head": "ChatGPT Dots may get their own email addresses",
- "dek": "A hidden Email button in a Dot's profile, spotted by TestingCatalog, points to Dots getting their own address you could CC or forward receipts to; an OpenAI staffer said on X that testing has started, but there's no date.",
- "quick": true,
+ "tag": "In testing",
+ "head": "ChatGPT Dots email: each Dot may get its own address",
+ "dek": "OpenAI is testing email addresses for Dots, its always-on agents in ChatGPT: an OpenAI staffer posted on 17 November that Dots will soon have their own address and that testing is starting. TestingCatalog found a hidden Email button in a Dot's profile; there's no release date.",
  "apps": [
   "ChatGPT"
  ],
@@ -18,7 +17,12 @@
   }
  ],
  "item": 165517,
- "idea": "news",
+ "idea": "request",
  "traction": 0,
- "rumor": true
+ "rumor": true,
+ "details": "The Email button sits next to Call and Slack and opens a settings window that says email isn't available for the account yet, with a \"Turn off email\" option. The staffer's examples: copy your Dot on a thread to set up a meeting, or forward it a receipt and ask it to negotiate a refund. Today a Dot can only draft or send mail from a Gmail account you connect, and OpenAI's help guide says Dots can't have their own address at launch.",
+ "where": "In testing at OpenAI; not available to users yet, no date",
+ "means": "If you use a Dot, it may soon write to people from its own address instead of your personal inbox. Until it arrives, anything it sends goes out from the email account you connected.",
+ "todo": "Nothing to do yet. If you'd rather a Dot didn't email from your own account, check which accounts you've connected to it.",
+ "thumb_words": "CHATGPT DOTS MAY GET EMAIL"
 }

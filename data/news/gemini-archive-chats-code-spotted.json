@@ -2,12 +2,11 @@
  "slug": "gemini-archive-chats-code-spotted",
  "date": "2026-11-23",
  "added": "2026-11-25",
- "checked": "2026-11-25",
+ "checked": "2026-11-26",
  "topic": "AI",
- "tag": "Quick",
- "head": "Gemini may let you archive chats instead of deleting them",
- "dek": "Android Authority found code in the Google app (version 17.78.13) for an Archive option: long-press a Gemini chat to hide it from your history and find it later under an \"Archived\" filter. Google hasn't announced it, and it may not ship.",
- "quick": true,
+ "tag": "In testing",
+ "head": "Gemini archive chats option spotted in Google app code",
+ "dek": "Android Authority found code in the Google app for Android (version 17.78.13) for archiving Gemini chats: long-press a chat in the sidebar, tap Archive, and it leaves your history without being deleted. Google hasn't announced it, and it may not ship.",
  "apps": [
   "Gemini"
  ],
@@ -18,7 +17,12 @@
   }
  ],
  "item": 158008,
- "idea": "news",
+ "idea": "request",
  "traction": 18,
- "rumor": true
+ "rumor": true,
+ "details": "Archived chats would show under an \"Archived\" filter in the sidebar; in ChatGPT, which already lets you archive, they sit under Settings, Data controls, Archived chats. The same build also has an unfinished option called Spaces, which doesn't do anything useful yet. The code was found in the Android app; nothing was said about iPhone or the web.",
+ "where": "Found in the Google app for Android, version 17.78.13; not available yet",
+ "means": "If you keep old Gemini chats you don't want to lose but don't want to scroll past, archiving would hide them without deleting them.",
+ "todo": "Nothing to do yet; for now, deleting is the way to clear old Gemini chats.",
+ "thumb_words": "GEMINI MAY LET YOU ARCHIVE CHATS"
 }

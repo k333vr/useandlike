@@ -2,11 +2,10 @@
  "slug": "whatsapp-emoji-gif-sticker-picker-redesign",
  "date": "2026-11-24",
  "topic": "Messaging",
- "tag": "Quick",
- "quick": true,
+ "tag": "In testing",
  "rumor": true,
- "head": "WhatsApp is working on new emoji, GIF and sticker pickers for Android",
- "dek": "Code in WhatsApp beta 2.26.47.6 for Android shows redesigned pickers with search bars and a floating bar to switch between emoji, GIFs and stickers, Android Authority found. Testers can't use them yet.",
+ "head": "WhatsApp sticker, GIF and emoji picker redesign spotted in Android beta",
+ "dek": "Code in WhatsApp beta 2.26.47.6 for Android shows new emoji, GIF and sticker pickers with search bars and a floating bar to switch between them, Android Authority found. Testers can't use them yet, and WhatsApp hasn't announced them.",
  "apps": [
   "WhatsApp"
  ],
@@ -17,8 +16,13 @@
   }
  ],
  "item": 163368,
- "idea": "news",
+ "idea": "request",
  "traction": 0,
  "added": "2026-11-25",
- "checked": "2026-11-25"
+ "checked": "2026-11-26",
+ "details": "Today each picker has its own tab at the top. In the new design the emoji search becomes a pill-shaped bar with the categories scrolling inside it; the GIF and sticker pickers get categories such as funny, greetings and celebrations plus Create sticker and Discover buttons, and an Organize icon replaces the pencil for stickers. Android Authority says the change would bring Android closer to the iPhone app's design. Earlier in November, some beta users got a floating navigation bar on the main screen.",
+ "where": "Found in WhatsApp beta 2.26.47.6 for Android; not switched on for testers",
+ "means": "If you send a lot of stickers and GIFs on Android, finding them may get quicker with search bars and categories.",
+ "todo": "Nothing to do yet; keep WhatsApp updated from Google Play.",
+ "thumb_words": "WHATSAPP STICKER PICKER REDESIGN SPOTTED"
 }

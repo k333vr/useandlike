@@ -3,8 +3,8 @@
  "date": "2026-11-24",
  "topic": "AI",
  "rumor": true,
- "head": "Gemini may soon make AI sticker packs you can share in chats",
- "dek": "Code in the Google app (version 17.78.13), found by Android Authority, points to Gemini making sticker packs you can copy, share or download; a direct import into WhatsApp or Telegram wasn't found, and Google hasn't announced it.",
+ "head": "Gemini stickers: Google app code points to AI sticker packs",
+ "dek": "Code in the Google app (version 17.78.13), found by Android Authority, points to Gemini making stickers you can group into packs, copy, share or download. Google hasn't announced it, and it may not ship.",
  "apps": [
   "Gemini"
  ],
@@ -15,11 +15,17 @@
   }
  ],
  "item": 162465,
- "items": [176203],
- "idea": "news",
+ "items": [
+  176203
+ ],
+ "idea": "request",
  "traction": 0,
  "added": "2026-11-25",
- "checked": "2026-11-25",
- "tag": "Quick",
- "quick": true
+ "checked": "2026-11-26",
+ "tag": "In testing",
+ "details": "Found labels include \"Copy sticker\", \"Share sticker\" and \"Download pack\"; the stickers appear to be WebP files you could save to your gallery or send to other apps through Android's share menu. Android Authority found no direct import of whole packs into WhatsApp or Telegram. Pixel Studio and Gboard made AI stickers before; Google ended the Pixel Studio feature and pointed users to Nano Banana in Gemini.",
+ "where": "Found in the Google app for Android, version 17.78.13; not available yet",
+ "means": "If you used to make AI stickers in Pixel Studio, Gemini may get a way to make whole packs you can save and send.",
+ "todo": "Nothing to do yet; Gemini doesn't make sticker packs so far.",
+ "thumb_words": "GEMINI MAY MAKE AI STICKER PACKS"
 }

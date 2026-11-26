@@ -2,11 +2,10 @@
  "slug": "samsung-safe-shipping-mode-one-ui-9-5",
  "date": "2026-11-23",
  "topic": "Samsung",
- "tag": "Quick",
- "quick": true,
+ "tag": "In testing",
  "rumor": true,
- "head": "Samsung is working on a Safe Shipping mode for phones sent to repair",
- "dek": "Code in the One UI 9.5 beta shows a mode that drains a Galaxy's battery to 89% and caps charging at 80% before a mail-in repair, Android Authority found. Samsung hasn't announced it, and the S26 Ultra doesn't seem to support it.",
+ "head": "Samsung Safe Shipping mode spotted in One UI 9.5 beta for repairs",
+ "dek": "Android Authority found a Safe Shipping mode in the Device Care app of the One UI 9.5 beta that drains a Galaxy phone's battery to 89% or less and locks charging at 80% before it's sent in for repair. Samsung hasn't announced it, and it may not ship.",
  "apps": [
   "One UI"
  ],
@@ -17,8 +16,13 @@
   }
  ],
  "item": 155337,
- "idea": "news",
+ "idea": "request",
  "traction": 25,
  "added": "2026-11-25",
- "checked": "2026-11-25"
+ "checked": "2026-11-26",
+ "details": "The code is in Device Care version 13.9.00.12; the phone warns it may get warm while the battery drains, shows progress in a notification with a button to cancel, and skips the drain if the battery is already low enough. While the mode is on, Battery Protection can't be changed, and the earlier setting comes back when it's turned off. Android Authority found no entry in Settings and thinks it may show up in Samsung's Warranty Care app for mail-in or pickup repairs. It doesn't work on the Galaxy S26 Ultra, whose battery doesn't seem to report the needed \"transport mode\"; Apple's iPhone 18 Pro Max has a similar Prepare to Ship option.",
+ "where": "Found in One UI 9.5 Beta 1 code; not usable yet, not on the Galaxy S26 Ultra",
+ "means": "If you send a Galaxy phone in for repair by mail later on, the phone may get its battery ready for shipping by itself. For now nothing changes.",
+ "todo": "Nothing to do yet; the mode isn't switched on for any phone so far.",
+ "thumb_words": "SAMSUNG SAFE SHIPPING MODE COMING?"
 }

@@ -2,22 +2,26 @@
  "slug": "marker-talker-pennsylvania-markers-app",
  "date": "2026-11-24",
  "added": "2026-11-25",
- "checked": "2026-11-25",
+ "checked": "2026-11-26",
  "topic": "Travel",
- "tag": "Quick",
- "head": "Marker Talker reads Pennsylvania's historical markers aloud as you drive",
- "dek": "The 4.99-dollar iPhone app plays a chime and reads one of nearly 2,500 Pennsylvania state markers through your car speakers as you approach, works offline once the list is downloaded, and has no account or ads. It was #18 among paid Travel apps on the US App Store on 24 November.",
- "quick": true,
+ "tag": "New app",
+ "head": "Marker Talker app reads Pennsylvania historical markers aloud as you drive",
+ "dek": "Marker Talker is a 4.99-dollar iPhone app that plays a chime and reads out one of nearly 2,500 official Pennsylvania historical markers through your car speakers, Bluetooth or phone as you drive past. It was #18 among paid Travel apps on the US App Store on 24 November.",
+ "details": "It can start by itself when you drive, and an optional Full Story adds about a minute of background from Wikipedia when an article matches the marker. There's a map of nearby markers with directions, a list of the ones you've passed, and settings for voice, speed, volume and how early it speaks. It works offline once the marker list is downloaded, has no accounts, ads or tracking, and keeps your location on the phone. Version 1.0.1 lets the steering-wheel button start the longer story and keeps reading when Waze plays an alert; it's made by Timothy Gwinn and needs iOS 17.",
+ "where": "iPhone, US App Store, 4.99 dollars one time",
+ "means": "If you drive through Pennsylvania, you can hear what a roadside marker says without stopping to read it.",
+ "todo": "Download the marker list before a trip so it works offline, and know the app may use your location in the background, which can cost battery.",
+ "thumb_words": "APP READS PA HISTORY MARKERS ALOUD",
  "apps": [
   "Marker Talker"
  ],
- "item": 168313,
  "sources": [
   {
    "name": "App Store",
    "url": "https://apps.apple.com/us/app/marker-talker/id6836716491"
   }
  ],
- "idea": "newcomer",
+ "item": 168313,
+ "idea": "request",
  "traction": 0
 }

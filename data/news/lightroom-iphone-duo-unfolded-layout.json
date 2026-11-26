@@ -2,12 +2,16 @@
  "slug": "lightroom-iphone-duo-unfolded-layout",
  "date": "2026-11-24",
  "added": "2026-11-25",
- "checked": "2026-11-25",
+ "checked": "2026-11-26",
  "topic": "Photo",
- "tag": "Quick",
- "head": "Adobe Lightroom adds an iPhone Duo layout for the big inner screen",
- "dek": "Adobe's Lightroom update this week shows photos larger with tools at the side when the iPhone Duo is open, and puts tools along the bottom when it's half folded. Curves still opens over the photo; Adobe says a later update fixes that.",
- "quick": true,
+ "tag": "Update",
+ "head": "Lightroom iPhone Duo update: bigger photos with tools at the side",
+ "dek": "Adobe's Lightroom update for the iPhone Duo shows photos much larger on the open inner screen, with the editing tools moved to the side. Half folded, which Adobe calls the laptop pose, the tools sit along the bottom under the photo.",
+ "details": "On the front screen Lightroom works as it does on other iPhones. PetaPixel found the sliders, presets and masking tools no longer cover the photo, but the Curves tool still opens over the picture. Adobe's Johannes Eckert replied on Threads that moving Curves to the side will come in the next update. There's no word yet on bringing the iPad's automatic dust removal and AI noise reduction to the phone.",
+ "where": "Lightroom on iPhone Duo, update out this week",
+ "means": "If you edit photos on an iPhone Duo, Lightroom now lays out its tools around the photo on the big inner screen.",
+ "todo": "Update Lightroom from the App Store and try editing with the phone half folded.",
+ "thumb_words": "LIGHTROOM GETS IPHONE DUO LAYOUT",
  "apps": [
   "Adobe Lightroom"
  ],
@@ -18,6 +22,6 @@
   }
  ],
  "item": 168374,
- "idea": "news",
+ "idea": "request",
  "traction": 0
 }

@@ -3,8 +3,8 @@
  "date": "2026-11-23",
  "topic": "Samsung",
  "rumor": true,
- "head": "Samsung may warn you in real time when you use your phone while walking",
- "dek": "Android Authority found a \"real-time walking alerts\" option in One UI 9.5 beta code of Samsung's Digital Wellbeing app, similar to Google's Heads Up; Samsung hasn't confirmed it and it may not ship.",
+ "head": "Samsung walking alerts spotted in One UI 9.5 code for Digital Wellbeing",
+ "dek": "Code in the One UI 9.5 beta shows a \"Get real-time walking alerts\" option in Samsung's Digital Wellbeing app that would notify you when your Galaxy notices you're using it while walking, Android Authority found. Samsung hasn't confirmed it, and it may not ship.",
  "apps": [
   "Samsung Digital Wellbeing"
  ],
@@ -15,10 +15,14 @@
   }
  ],
  "item": 155550,
- "idea": "news",
+ "idea": "request",
  "traction": 18,
  "added": "2026-11-25",
- "checked": "2026-11-25",
- "tag": "Quick",
- "quick": true
+ "checked": "2026-11-26",
+ "tag": "In testing",
+ "details": "It builds on the Walking screen time page, which today only shows daily and weekly stats afterwards. Android Authority turned the menu option on by hand on One UI 9; a found notification reads \"You've been using your phone while walking\", and a note warns that detection can take time. It hasn't confirmed the alerts work; Google's similar Heads Up feature shows a message that it \"will stop working in 2027\".",
+ "where": "Found in One UI 9.5 beta code; not available yet",
+ "means": "If you look at your phone while walking, a Galaxy may tap you on the shoulder in the moment instead of only showing a weekly number.",
+ "todo": "Nothing to do yet. Walking screen time in Digital Wellbeing already shows how much you use your phone on the move.",
+ "thumb_words": "SAMSUNG MAY WARN YOU WHILE WALKING"
 }
