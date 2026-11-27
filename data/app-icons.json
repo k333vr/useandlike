@@ -43,6 +43,17 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/60/b2/0e/60b20e3a-33e7-220e-9e25-f5186e211462/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "37 Shades of Late": {
+  "source": "appstore",
+  "file": "img/apps/37-shades-of-late.webp",
+  "color": "#c1222d",
+  "v": "32842ab2",
+  "id": 6825789256,
+  "store_name": "37 Shades of Late",
+  "developer": "Arne Gerhard",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/35/c0/ba35c06e-c323-d886-5c40-76c2a7063bbd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "4perf": {
   "source": "appstore",
   "file": "img/apps/4perf.webp",
@@ -54,6 +65,28 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/67/36/a0673668-f3be-8226-35c9-269a24bbae05/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "A Better Tomorrow Brain Games": {
+  "source": "appstore",
+  "file": "img/apps/a-better-tomorrow-brain-games.webp",
+  "color": "#734526",
+  "v": "307bc3ce",
+  "id": 6822890584,
+  "store_name": "A Better Tomorrow Brain Games",
+  "developer": "A Better Tomorrow Health & Wellness Services, LLC",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/fc/a5/35fca57e-e6f9-f363-68b8-45fc3cb9a8e1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "A Life in the Making": {
+  "source": "appstore",
+  "file": "img/apps/a-life-in-the-making.webp",
+  "color": "#0c3c8d",
+  "v": "ebb87a31",
+  "id": 6830868488,
+  "store_name": "A Life in the Making",
+  "developer": "Danica Lerner",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4e/2a/bc/4e2abcb8-5b7a-5d82-9593-e81410d6b0eb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Acorns": {
   "source": "appstore",
   "file": "img/apps/acorns.webp",
@@ -62,13 +95,38 @@
   "id": 883324671,
   "store_name": "Acorns: Save & Invest Money",
   "developer": "Acorns Grow Incorporated",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/92/c0/0992c0fd-b8c0-7e17-5b13-e7ce69a7d1df/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/5e/20/5e5e2099-d7dd-47e0-15b1-f31e272466b4/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Actually Up": {
   "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
  },
+ "AdGuard Home": {
+  "source": "appstore",
+  "file": "img/apps/adguard-home.webp",
+  "color": "#53b77a",
+  "v": "a10aa4b1",
+  "id": 1667119601,
+  "store_name": "AdGuard Home",
+  "developer": "VDP Labs LLC",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/60/dd/0c/60dd0c84-8dd9-4dcd-5efa-edb799b4caa2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Adobe Acrobat": {
+  "source": "appstore",
+  "file": "img/apps/adobe-acrobat.webp",
+  "color": "#584ccc",
+  "v": "7a4d11fe",
+  "id": 481082197,
+  "store_name": "Adobe Acrobat Sign",
+  "developer": "Adobe Inc.",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/f2/69/e6f269c4-2ab6-5fcb-769b-29ae73de8773/EchoSign_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Adobe Acrobat Reader": {
+  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+ },
+ "Adobe Lightroom": {
   "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
  },
  "Adobe Photoshop": {
@@ -135,7 +193,8 @@
   "store_name": "Agoda: Cheap Flights & Hotels",
   "developer": "Agoda.com",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/7a/d6/427ad6cf-e09c-d99e-f266-dea8744a8a4b/AppIcon-0-0-1x_U007epad-0-1-0-0-0-GLES2_U002c0-85-220.png/512x512bb.jpg",
-  "note": "picked automatically: check it"
+  "note": "picked automatically: check it",
+  "tngg_skip": 14
  },
  "Aguacero": {
   "source": "appstore",
@@ -145,7 +204,7 @@
   "id": 6756169018,
   "store_name": "Aguacero: Weather Radar+Models",
   "developer": "AguaceroWx L.L.C.",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/6b/25/dd6b2530-003b-60fa-d698-854bfcb59ba3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/86/c6/df86c6e6-7fa7-0a3a-c8b5-8fc342e74c13/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Aguacero: Weather Radar+Models": {
@@ -156,7 +215,7 @@
   "id": 6756169018,
   "store_name": "Aguacero: Weather Radar+Models",
   "developer": "AguaceroWx L.L.C.",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/6b/25/dd6b2530-003b-60fa-d698-854bfcb59ba3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/86/c6/df86c6e6-7fa7-0a3a-c8b5-8fc342e74c13/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "AI Photo Edit": {
@@ -542,6 +601,17 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/11/5f/97115f8d-e748-ff45-e7c0-5e0a2c839409/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "AreaMap": {
+  "source": "appstore",
+  "file": "img/apps/areamap.webp",
+  "color": "#336ae5",
+  "v": "ba0a0a07",
+  "id": 6816359797,
+  "store_name": "AreaMap: Land Area Measure",
+  "developer": "NATHAN LA MAR BURNETT",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1c/98/90/1c989017-e4e6-d46b-c705-1cbb51dffdf8/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Asana": {
   "source": "appstore",
   "file": "img/apps/asana.webp",
@@ -586,7 +656,7 @@
   "id": 6833542167,
   "store_name": "Aurora Chance: Northern Lights",
   "developer": "DMYTRO ZHUKOV",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/1e/e4/ee1ee455-9747-25bb-9665-536091aa415b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/c3/86/d8c3862f-7b98-4df8-ed8e-7540f1ee0b17/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Aurora Chance: Northern Lights": {
@@ -597,7 +667,7 @@
   "id": 6833542167,
   "store_name": "Aurora Chance: Northern Lights",
   "developer": "DMYTRO ZHUKOV",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/1e/e4/ee1ee455-9747-25bb-9665-536091aa415b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/c3/86/d8c3862f-7b98-4df8-ed8e-7540f1ee0b17/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Aurora – Wallpaper Studio": {
@@ -686,6 +756,9 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/cb/57/8dcb575f-8307-16d0-9e8d-e5e3d3003ac2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "Band·je": {
+  "note": "left as a letter: the closest App Store app, Band•je - Record & Transcribe by Neurendal, may be another app. Pick one here if you know the right one"
+ },
  "Bare": {
   "source": "appstore",
   "file": "img/apps/bare.webp",
@@ -730,6 +803,17 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/f6/aa/bff6aaa9-c09c-abdd-78e9-20ab7aade5fa/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "Bear": {
+  "source": "appstore",
+  "file": "img/apps/bear.webp",
+  "color": "#d34548",
+  "v": "1ef84de4",
+  "id": 1016366447,
+  "store_name": "Bear Markdown Notes & Journal",
+  "developer": "Shiny Frog Ltd.",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/36/12/02/3612022e-1679-d4bf-303c-10db0795bd87/AppIcon-26-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Beaver: PDF Scanner & OCR": {
   "source": "appstore",
   "file": "img/apps/beaver-pdf-scanner-ocr.webp",
@@ -771,7 +855,7 @@
   "id": 6820293984,
   "store_name": "Biblio Times: RSS Newspaper",
   "developer": "groov creator limited",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/fb/7b/07fb7b0d-16ed-034d-4aad-fc0901189bbd/Times-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/83/23/0e8323b7-9715-7d69-c65e-352691fdc590/Times-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Billable Timer: Time Tracker": {
@@ -840,7 +924,7 @@
   "id": 6809059449,
   "store_name": "Bobara: Calm Moments & Boba",
   "developer": "Lotus Apps, LLC",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/8a/8f/9f8a8f6d-973d-8698-c2a7-bb90c9484a1a/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/58/fe/4b58fe13-b364-05cc-100d-e27c9704ae24/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Bobara: Calm Moments & Boba": {
@@ -851,7 +935,7 @@
   "id": 6809059449,
   "store_name": "Bobara: Calm Moments & Boba",
   "developer": "Lotus Apps, LLC",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/8a/8f/9f8a8f6d-973d-8698-c2a7-bb90c9484a1a/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/58/fe/4b58fe13-b364-05cc-100d-e27c9704ae24/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Booking.com": {
@@ -862,7 +946,7 @@
   "id": 367003839,
   "store_name": "Booking.com: Hotels & Travel",
   "developer": "Booking.com",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/18/d5/5718d5c9-4c7d-285c-dd41-f96c79e8b9fc/AppIcon-0-0-1x_U007epad-0-9-0-85-220.jpeg/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/b2/cb/49b2cb76-f075-3e59-f4d6-4738b3e985fc/AppIcon-0-0-1x_U007epad-0-9-0-85-220.jpeg/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Boost Mobile": {
@@ -923,6 +1007,17 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/b4/35/e8b435ab-3028-cbb8-6820-c06005b217be/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "Calc89": {
+  "source": "appstore",
+  "file": "img/apps/calc89.webp",
+  "color": "#395c78",
+  "v": "3e036ffb",
+  "id": 6826749082,
+  "store_name": "Calc89",
+  "developer": "Joshua Wood",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/aa/c2/aaaac2fa-72b8-8af7-57f4-de57bd101414/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "CalenCards": {
   "source": "appstore",
   "file": "img/apps/calencards.webp",
@@ -958,6 +1053,17 @@
  },
  "CALL-E": {
   "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+ },
+ "Cam-Cord": {
+  "source": "appstore",
+  "file": "img/apps/cam-cord.webp",
+  "color": "#92332b",
+  "v": "a51a81af",
+  "id": 6838828844,
+  "store_name": "Cam-Cord",
+  "developer": "BROOKE CAMARDA",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6d/76/eb/6d76ebe6-0e58-e49b-b8d5-62d4793d71c4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
  },
  "Camera": {
   "source": "appstore",
@@ -1001,8 +1107,41 @@
   "store_name": "Canva",
   "hash": "058dd52f0483"
  },
+ "Capture. Focus. Reset.": {
+  "source": "appstore",
+  "file": "img/apps/capture-focus-reset.webp",
+  "color": "#bea05b",
+  "v": "bb871905",
+  "id": 6835532175,
+  "store_name": "Capture. Focus. Reset.",
+  "developer": "Peaceful Sea Productions",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/64/56/7d645664-aca9-df6e-f5bf-0e3057fb8359/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "CardKeeper by Ruken": {
+  "source": "appstore",
+  "file": "img/apps/cardkeeper-by-ruken.webp",
+  "color": "#c98d50",
+  "v": "14e61de0",
+  "id": 6838162190,
+  "store_name": "CardKeeper by Ruken",
+  "developer": "Ruken Strategies",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2c/c7/cc/2cc7ccfc-c935-edd4-fd04-e4f75fadee3d/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "CarPlay": {
   "note": "left as a letter: the closest App Store app, CarPlay Screen Mirroring by Oliver Davis, may be another app. Pick one here if you know the right one"
+ },
+ "Carry": {
+  "source": "appstore",
+  "file": "img/apps/carry.webp",
+  "color": "#ee7b2b",
+  "v": "a12ef617",
+  "id": 1504325367,
+  "store_name": "Carry: Prenatal Yoga & Fitness",
+  "developer": "Carry, LLC",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2c/d9/da/2cd9da2d-a3e9-4a13-ebf4-d5b94c336ef1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
  },
  "Census Insights": {
   "source": "appstore",
@@ -1013,6 +1152,17 @@
   "store_name": "Census Insights",
   "developer": "Jason Tamondong",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/c9/48/94c94869-7d93-7477-6a2a-9b43a11e0cd6/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "ChangeLens Earth": {
+  "source": "appstore",
+  "file": "img/apps/changelens-earth.webp",
+  "color": "#284171",
+  "v": "8f0efb81",
+  "id": 6826450577,
+  "store_name": "ChangeLens Earth",
+  "developer": "MARSHALL TYLER FRITH",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/36/a0/be/36a0bed9-5bb3-1a0a-d68a-41d2c5c8c9cb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Channel Launcher": {
@@ -1044,11 +1194,11 @@
   "file": "img/apps/chatgpt.webp",
   "color": "#5b6472",
   "source": "appstore",
-  "v": "bd44e726",
+  "v": "eb3e791c",
   "id": 6448311069,
   "store_name": "ChatGPT",
   "developer": "OpenAI OpCo, LLC",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/37/2c/84372ca4-3369-acba-280b-5eeb36b14dd9/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg"
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/d8/a7/04d8a7fa-77ca-bf40-12e4-5f32c94b8824/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg"
  },
  "Cheiron": {
   "source": "appstore",
@@ -1058,7 +1208,18 @@
   "id": 6825576174,
   "store_name": "Cheiron",
   "developer": "Elliot Milco",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/b3/a0/edb3a045-2d28-e79c-6ff6-823b16224ea3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2c/f2/5d/2cf25d65-543d-86c7-754e-b2aad148384c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Chirpy Weather": {
+  "source": "appstore",
+  "file": "img/apps/chirpy-weather.webp",
+  "color": "#2b9cee",
+  "v": "f0928a7e",
+  "id": 6823001523,
+  "store_name": "Chirpy Weather: Talk to Sky",
+  "developer": "chirpy W studio",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/76/34/f8763431-1438-f9dd-741e-8be89c44b5d3/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Chocka": {
@@ -1091,7 +1252,7 @@
   "id": 6832087760,
   "store_name": "Chord Lab: Chord Synth",
   "developer": "DANIEL TIMOTEO ALBANO PRODUCOES LTDA",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/f7/7a/e6f77a99-1043-06e7-56e3-98cacbb516b3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/ba/41/edba4108-b01f-b3cd-ce8b-1a1b7d3667d5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Chord Lab: Chord Synth": {
@@ -1102,7 +1263,7 @@
   "id": 6832087760,
   "store_name": "Chord Lab: Chord Synth",
   "developer": "DANIEL TIMOTEO ALBANO PRODUCOES LTDA",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/f7/7a/e6f77a99-1043-06e7-56e3-98cacbb516b3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/ba/41/edba4108-b01f-b3cd-ce8b-1a1b7d3667d5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Chromagraph Camera": {
@@ -1123,6 +1284,17 @@
   "tngg": 8,
   "store_name": "Google Chrome",
   "hash": "6ef0b8f22e74"
+ },
+ "Cielo": {
+  "source": "appstore",
+  "file": "img/apps/cielo.webp",
+  "color": "#11a8d1",
+  "v": "be3a6904",
+  "id": 1030282555,
+  "store_name": "Cielo Home",
+  "developer": "Cielo WiGle Inc.",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/2b/4e/da2b4e88-52b3-67bb-e8a6-448db48855d8/AppIcon-0-0-1x_U007emarketing-0-0-0-11-0-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
  },
  "Circles: Workout Log": {
   "source": "appstore",
@@ -1205,7 +1377,7 @@
   "id": 6758582026,
   "store_name": "Clipzy: Game Highlight Clip",
   "developer": "Pratapa Sanaga",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/59/19/83591942-fb74-7efe-9fa1-7b5b7e5cbe8a/AppIcon-0-0-1x_U007emarketing-0-3-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/d4/ca/7ed4ca0b-29bc-7943-3ed7-943207140257/AppIcon-0-0-1x_U007emarketing-0-3-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Club Cassette": {
@@ -1223,7 +1395,7 @@
   "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
  },
  "Codex": {
-  "note": "left as a letter: the closest App Store app, Codex Relay - Remote Codex App by Kang Sungyu, may be another app. Pick one here if you know the right one"
+  "note": "left as a letter: the closest App Store app, Codex AI - Remote Codex by Ariadni Deligianni, may be another app. Pick one here if you know the right one"
  },
  "Color Jar": {
   "source": "appstore",
@@ -1273,11 +1445,11 @@
   "source": "appstore",
   "file": "img/apps/comet.webp",
   "color": "#5b6472",
-  "v": "3154059c",
+  "v": "a5a6803a",
   "id": 6748622471,
   "store_name": "Comet - AI Browser & Assistant",
   "developer": "Perplexity AI, Inc.",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/86/4d/76/864d76be-d634-064f-6044-7051fb8a7c7a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/aa/97/53aa97f3-8b8f-e9f9-dfa3-b989d4df59e6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Companions": {
@@ -1288,7 +1460,7 @@
   "id": 6811950512,
   "store_name": "Companions - Widget Pets",
   "developer": "Tiaan Johan van der Riel",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2f/8d/39/2f8d39a1-076e-b792-89ff-f401d9faea2e/Minimal-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/92/45/7092455e-3e11-2731-e16c-8aa243fd3cdf/Minimal-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Connecticut Mobile ID": {
@@ -1332,18 +1504,29 @@
   "id": 6814223022,
   "store_name": "Crate Music Library",
   "developer": "Eric Linder",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/f9/56/09f956fb-62fc-7fbf-3e42-cc29dfe2e601/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/49/42/9e/49429e47-c977-054e-e2fd-0c1f2ff047ca/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Creaky Hinge": {
   "source": "appstore",
   "file": "img/apps/creaky-hinge.webp",
-  "color": "#734926",
-  "v": "f2d719f1",
+  "color": "#2b426e",
+  "v": "61cc3bcd",
   "id": 6818460814,
   "store_name": "Creaky Hinge: Foldable Scenes",
   "developer": "TLM Software Design, Inc.",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/79/c4/5f79c4fd-566c-1031-56ab-bf1a56625622/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/9b/ce/1a9bcef5-daa4-46a8-6530-d95ecbaf7474/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Crease Control": {
+  "source": "appstore",
+  "file": "img/apps/crease-control.webp",
+  "color": "#373e62",
+  "v": "4b02d0fd",
+  "id": 6835305167,
+  "store_name": "Crease Control: Fold Odometer",
+  "developer": "Tyson Ross",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/1a/f2/ae1af2f2-eae9-b153-e215-93f50b3d1201/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "CrowCards": {
@@ -1390,6 +1573,17 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/a4/bd/37a4bdca-a3d1-b551-a650-e9ff1c8c0129/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "Cue by Manus": {
+  "source": "appstore",
+  "file": "img/apps/cue-by-manus.webp",
+  "color": "#2b8bee",
+  "v": "c0104f2a",
+  "id": 6808613358,
+  "store_name": "Cue by Manus",
+  "developer": "BUTTERFLY EFFECT PTE. LTD.",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/c6/11/12c611ae-3e45-6d4e-1a5a-8dccd36a2ad6/IconManusAgents-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Cuff": {
   "source": "appstore",
   "file": "img/apps/cuff.webp",
@@ -1420,7 +1614,7 @@
   "id": 517914548,
   "store_name": "Dashlane Password Manager",
   "developer": "Dashlane",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/97/82/5b978291-1cc1-69bd-cce5-1b08b7b82a15/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/b7/c1/4cb7c1db-46ab-6674-11e8-7419cb01cecc/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Daybreak: Health Export": {
@@ -1467,6 +1661,17 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/79/52/eb7952a5-431d-aeef-52af-b36fd6f6f124/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "DeadZone": {
+  "source": "appstore",
+  "file": "img/apps/deadzone.webp",
+  "color": "#9b451f",
+  "v": "72e64374",
+  "id": 6762406863,
+  "store_name": "Deadzone - Maps & Satellite AI",
+  "developer": "Obsidian Design, Limited Liability Company",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/14/bb/eb14bb92-ff08-7cd6-3dec-764af783c2db/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Deck-Man": {
   "source": "appstore",
   "file": "img/apps/deck-man.webp",
@@ -1475,7 +1680,7 @@
   "id": 6817070335,
   "store_name": "Deck-Man: Cassette Player",
   "developer": "Squircle Apps LLP",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c3/aa/95/c3aa9526-734b-8e14-de24-8e4018955f30/deck-man-icon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/d4/ea/8bd4ea51-ce6e-f248-fa7f-0ede46fbc1e2/deck-man-icon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Deck-Man: Cassette Player": {
@@ -1486,7 +1691,18 @@
   "id": 6817070335,
   "store_name": "Deck-Man: Cassette Player",
   "developer": "Squircle Apps LLP",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c3/aa/95/c3aa9526-734b-8e14-de24-8e4018955f30/deck-man-icon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/d4/ea/8bd4ea51-ce6e-f248-fa7f-0ede46fbc1e2/deck-man-icon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Deevo — Journal and Prayer": {
+  "source": "appstore",
+  "file": "img/apps/deevo-journal-and-prayer.webp",
+  "color": "#1e9c67",
+  "v": "b2e4cb8b",
+  "id": 6823155915,
+  "store_name": "Deevo — Journal and Prayer",
+  "developer": "Renthel Cueto",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/cc/1a/16cc1a79-92b0-8553-ef60-891616422ee9/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Delta": {
@@ -1542,6 +1758,17 @@
   "store_name": "dia - Guitar Chord Diagram",
   "developer": "Hiroki Asano",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/3f/06/913f061f-1a03-6d70-354b-a7b45f5ee034/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Digimon Alysion": {
+  "source": "appstore",
+  "file": "img/apps/digimon-alysion.webp",
+  "color": "#5088aa",
+  "v": "df2a3386",
+  "id": 6745321429,
+  "store_name": "DIGIMON ALYSION",
+  "developer": "BANDAI Co., Ltd.",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/13/77/4013775c-0838-aebd-96e7-0ffa712e5912/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "DIITR": {
@@ -1630,6 +1857,28 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/ac/2e/6eac2ef6-258c-1072-cad1-c44bfa4158e6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "DooDay": {
+  "source": "appstore",
+  "file": "img/apps/dooday.webp",
+  "color": "#b45c2d",
+  "v": "bc97845b",
+  "id": 6824812594,
+  "store_name": "DooDay:Poop Tracker",
+  "developer": "JULIE DODY MANCUSO",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/09/3c/db093c68-a65c-26db-2651-338f5e235808/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "DoodleYak": {
+  "source": "appstore",
+  "file": "img/apps/doodleyak.webp",
+  "color": "#be6c38",
+  "v": "abb7afdf",
+  "id": 6825456925,
+  "store_name": "DoodleYak",
+  "developer": "Ted Lawson",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/ec/e2/b9ece26c-ef9b-b4ef-cd6f-8099c4769186/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "DoorDash": {
   "source": "appstore",
   "file": "img/apps/doordash.webp",
@@ -1640,6 +1889,9 @@
   "developer": "DoorDash, Inc.",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d7/1b/47/d71b4736-540c-42ce-6b6b-fce0d5d00a25/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
+ },
+ "Dosee": {
+  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
  },
  "Dove": {
   "source": "appstore",
@@ -1671,7 +1923,7 @@
   "id": 6821114339,
   "store_name": "Dreadcast: Radar and Weather",
   "developer": "Kevin Fleming",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/ca/49/66ca49dc-6701-21d9-4698-3f3b51eb11d2/DreadcastAppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/b6/f7/0cb6f7a8-2cef-eebc-b22e-fc4802bcee7b/DreadcastAppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Dropbox": {
@@ -1693,7 +1945,7 @@
   "id": 939540371,
   "store_name": "Drops: Language Learning Games",
   "developer": "PLANB LABS OU",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/4a/9f/334a9f6c-b8bb-df5c-3d1f-7464db926320/AppIconInternational-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/7a/0e/a97a0e9b-d1a2-1c45-8a5c-806a2efe1420/AppIconInternational-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Drunk Proof": {
@@ -1793,6 +2045,17 @@
   "store_name": "Duo Paint",
   "developer": "Ralph Nicolas",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/48/82/cb48828f-5ed4-995f-ebb9-0bf83dab7951/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Duo Remote": {
+  "source": "appstore",
+  "file": "img/apps/duo-remote.webp",
+  "color": "#3470c8",
+  "v": "2c358151",
+  "id": 6834916831,
+  "store_name": "Duo Remote",
+  "developer": "Robert Menzel",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/95/8e/89/958e89f6-803b-726e-a770-6d8b44c394de/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Duo Spatial": {
@@ -1900,6 +2163,17 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/10/d4/e810d421-c93f-eda0-65b2-d39c12c21e16/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "EasyFind": {
+  "source": "appstore",
+  "file": "img/apps/easyfind.webp",
+  "color": "#1b6f7e",
+  "v": "dd0bb6f2",
+  "id": 6760919658,
+  "store_name": "Easyfind - Document Finder",
+  "developer": "Salia AS",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/8b/1a/588b1a71-6828-4c2f-8e3a-66f1b80c0501/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "EatClub": {
   "source": "appstore",
   "file": "img/apps/eatclub.webp",
@@ -1950,7 +2224,7 @@
   "id": 6479373050,
   "store_name": "ElevenReader: Read Books Aloud",
   "developer": "ElevenLabs, Inc.",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/2c/5f/782c5f87-555c-af9d-2b13-c14c8eefc371/AppIcon-prod-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8a/04/5e/8a045e7c-5384-ad69-4891-bd2c270c23aa/AppIcon-prod-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Ellipsus": {
@@ -1980,6 +2254,9 @@
  "eniwher3": {
   "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
  },
+ "Enough Phone": {
+  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+ },
  "Ethos": {
   "source": "appstore",
   "file": "img/apps/ethos.webp",
@@ -1988,7 +2265,7 @@
   "id": 1178116846,
   "store_name": "Ethos - Insurance & Wills",
   "developer": "Ethos Technologies Inc",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/16/18/47161826-e086-2026-9be3-e761337fd42a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/15/c5/8d15c5eb-4962-f1cb-ab12-2ddb8472dae6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Euro-Office": {
@@ -2016,7 +2293,7 @@
   "id": 886492891,
   "store_name": "ExpressVPN · Secure & Fast VPN",
   "developer": "Express VPN",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/cd/4a/0ecd4afd-7505-ff74-b207-5c4dc9245e6f/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/e8/e7/83e8e77e-2583-61a0-80d4-435948868415/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Eyes Down": {
@@ -2089,6 +2366,17 @@
  "Family Sharing": {
   "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
  },
+ "Fandango": {
+  "source": "appstore",
+  "file": "img/apps/fandango.webp",
+  "color": "#ee822b",
+  "v": "140189d4",
+  "id": 307906541,
+  "store_name": "Fandango - Get Movie Tickets",
+  "developer": "Fandango",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/f3/a9/43f3a972-17f4-6dac-1fda-3534ceeb2475/app_icon_fandango-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "FernShift": {
   "source": "appstore",
   "file": "img/apps/fernshift.webp",
@@ -2097,7 +2385,7 @@
   "id": 6820214620,
   "store_name": "FernShift: Shift Calendar",
   "developer": "Fernique LLC",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/1b/f5/9d1bf5f6-af69-5271-8d71-4ffd221671c7/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/58/ff/ae58ff99-b62e-0ce7-5f21-48ba01dad048/ProductionAppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "FernShift: Shift Calendar": {
@@ -2108,7 +2396,7 @@
   "id": 6820214620,
   "store_name": "FernShift: Shift Calendar",
   "developer": "Fernique LLC",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/1b/f5/9d1bf5f6-af69-5271-8d71-4ffd221671c7/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/58/ff/ae58ff99-b62e-0ce7-5f21-48ba01dad048/ProductionAppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Final Cut Pro": {
@@ -2156,11 +2444,22 @@
   "id": 6832405958,
   "store_name": "Fingertip Instruments",
   "developer": "竞元 黎",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/ff/bf/f7ffbf03-e54d-49ac-f97c-c43d114ea602/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/a3/02/eda302c3-b482-7725-674a-2e30e19e421e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Firefox": {
   "note": "left as a letter: the closest App Store app, Firefox Fast & Private Browser by Mozilla, may be another app. Pick one here if you know the right one"
+ },
+ "First Light": {
+  "source": "appstore",
+  "file": "img/apps/first-light.webp",
+  "color": "#7a674c",
+  "v": "d13a69fc",
+  "id": 6761740019,
+  "store_name": "First Light: Bible & Prayer",
+  "developer": "SoftCrunchLabs Inc.",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/9e/3c/629e3caa-9416-3c0f-b64a-cce49836e454/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/512x512bb.jpg",
+  "note": "picked automatically: check it"
  },
  "Fitbit": {
   "note": "left as a letter: the closest App Store app, Fitbit to Apple Health Sync by Bickster LLC, may be another app. Pick one here if you know the right one"
@@ -2176,7 +2475,7 @@
   "id": 6835284709,
   "store_name": "FitIn7",
   "developer": "ASHAY SURESH MANJURE",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/35/ba/8b/35ba8b66-d261-e124-4f54-f163228b7519/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e9/00/54/e9005401-ba97-a8da-f853-a623c1871268/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Fituous": {
@@ -2204,7 +2503,7 @@
   "id": 6818168418,
   "store_name": "Flipcorder: Retro Camcorder",
   "developer": "Lotus Apps, LLC",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/95/f8/6b/95f86b0f-1693-03dd-458b-bba59b024db0/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/01/5f/33015faa-a563-c088-282d-d9f92c29b915/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Flipcorder: Retro Camcorder": {
@@ -2215,7 +2514,7 @@
   "id": 6818168418,
   "store_name": "Flipcorder: Retro Camcorder",
   "developer": "Lotus Apps, LLC",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/95/f8/6b/95f86b0f-1693-03dd-458b-bba59b024db0/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/01/5f/33015faa-a563-c088-282d-d9f92c29b915/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Flit": {
@@ -2292,7 +2591,7 @@
   "id": 6823937505,
   "store_name": "Fold Clock",
   "developer": "Bravely Studios",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/39/de/6c39deda-8772-bca7-1f6f-951895a0237d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/8f/cb/a28fcb5c-c87c-f9c8-83a8-90f948a8cf17/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Fold Counter": {
@@ -2303,7 +2602,7 @@
   "id": 6827677447,
   "store_name": "Fold Counter: Hinge Tracker",
   "developer": "Julian Christopher Siebert",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/2d/04/1b2d044e-6543-a3e5-9291-4e6ea8067135/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6d/4e/0c/6d4e0c60-3b88-dc44-30b9-a92915b16b32/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Fold Counter: Hinge Tracker": {
@@ -2314,7 +2613,7 @@
   "id": 6827677447,
   "store_name": "Fold Counter: Hinge Tracker",
   "developer": "Julian Christopher Siebert",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/2d/04/1b2d044e-6543-a3e5-9291-4e6ea8067135/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6d/4e/0c/6d4e0c60-3b88-dc44-30b9-a92915b16b32/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Foldable Screen Clean": {
@@ -2471,7 +2770,7 @@
   "id": 6833702871,
   "store_name": "FourTrack: Cassette Recorder",
   "developer": "Milo Devereux",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/10/02/9a100244-e8bd-bf7f-c725-a54aefd2414c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/8d/77/2b8d7768-5930-2ac1-5b88-304a697fa84e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "FourTrack: Cassette Recorder": {
@@ -2482,7 +2781,7 @@
   "id": 6833702871,
   "store_name": "FourTrack: Cassette Recorder",
   "developer": "Milo Devereux",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/10/02/9a100244-e8bd-bf7f-c725-a54aefd2414c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/8d/77/2b8d7768-5930-2ac1-5b88-304a697fa84e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Frame: Pro Camera": {
@@ -2504,7 +2803,7 @@
   "id": 1529106440,
   "store_name": "Frames - Photo & Collage Maker",
   "developer": "umer nawaz",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/05/57/ae0557b2-3a58-b258-504b-25a1225cdd07/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/4d/01/0a4d01d0-6d77-31db-c7a4-e7600d1831cb/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Frames - Edit and Organize": {
@@ -2637,6 +2936,15 @@
   "hash": "72895c5cf436",
   "note": "Samsung's logo (a device or system has no app of its own): pick another here if you like"
  },
+ "Galaxy Fit": {
+  "source": "maker",
+  "file": "img/apps/galaxy-fit.webp",
+  "color": "#2136a4",
+  "v": "d64e120e",
+  "store_name": "Samsung",
+  "hash": "72895c5cf436",
+  "note": "Samsung's logo (a device or system has no app of its own): pick another here if you like"
+ },
  "Galaxy S27": {
   "source": "maker",
   "file": "img/apps/galaxy-s27.webp",
@@ -2737,6 +3045,17 @@
   "store_name": "Gemini",
   "hash": "7eda87cc3c90"
  },
+ "Gemini Notebook": {
+  "source": "appstore",
+  "file": "img/apps/gemini-notebook.webp",
+  "color": "#2b83ee",
+  "v": "2ce232e5",
+  "id": 6737527615,
+  "store_name": "Gemini Notebook",
+  "developer": "Google",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/29/9e/16/299e1606-fdfa-4de6-eb7f-3405261553c8/gemini_notebook_ios-0-0-1x_U007epad-0-0-0-1-0-0-0-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "GetYourVibeOn": {
   "source": "appstore",
   "file": "img/apps/getyourvibeon.webp",
@@ -2778,7 +3097,7 @@
   "id": 6832747797,
   "store_name": "GiggleCam: Say Cheese Camera",
   "developer": "eric Hernandez",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/ad/20/faad207f-5e3e-8805-456c-d823cde55853/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8d/bb/1e/8dbb1ed2-30e3-2337-6124-159a26573fa8/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "GiggleCam: Say Cheese Camera": {
@@ -2789,7 +3108,7 @@
   "id": 6832747797,
   "store_name": "GiggleCam: Say Cheese Camera",
   "developer": "eric Hernandez",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/ad/20/faad207f-5e3e-8805-456c-d823cde55853/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8d/bb/1e/8dbb1ed2-30e3-2337-6124-159a26573fa8/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "GitHub Copilot": {
@@ -2803,7 +3122,7 @@
   "id": 6800377951,
   "store_name": "Glinster",
   "developer": "Uwyn, LLC",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/4c/b9/bd4cb913-c244-ca5e-d70c-500894b9f727/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/44/e8/85/44e88522-3e3a-2a87-42ae-064c78d575b9/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Glucose Relay": {
@@ -2814,7 +3133,7 @@
   "id": 6830945020,
   "store_name": "Glucose Relay",
   "developer": "Bruce Elgort",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/aa/da/28/aada2832-d0a0-a4d5-a85e-40f209887e15/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/82/39/ce/8239ce6c-9b85-76fd-d865-a6231ab3a28e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Gmail": {
@@ -2949,7 +3268,7 @@
   "id": 462638897,
   "store_name": "Google Health (Fitbit)",
   "developer": "Google",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/53/cb/2b53cb0c-807b-37fa-54e0-2f0321318c41/google_health_ios-0-0-1x_U007ephone-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/de/25/63de25e6-d7b0-c45b-ea5e-320ecf7830f4/google_health_ios-0-0-1x_U007ephone-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Google Home": {
@@ -2989,7 +3308,7 @@
   "id": 1451784328,
   "store_name": "Google One",
   "developer": "Google",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/2e/e5/dc2ee5ef-a9fe-5e46-c268-08152216c862/logo_one_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/63/df/0363dfe4-21f3-68cc-f10f-abc29df67195/logo_one_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Google Password Manager": {
@@ -3062,7 +3381,7 @@
   "id": 6821502305,
   "store_name": "GotEmail: Email with AI",
   "developer": "Abbasgulu Aghazade",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/63/db/6363db15-05f1-d168-7678-cab4c2dfc396/AppIconiOS-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/ac/f8/4eacf88f-4c74-6a0a-04fb-e3dce64cf88c/AppIconiOS-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Grandeur Link": {
@@ -3107,7 +3426,7 @@
   "id": 6835128504,
   "store_name": "GTA 6 - The Unofficial Guide",
   "developer": "Hernan Rosario",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/ca/47/38ca4713-7f80-abca-8eea-0ba8ba166c9f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/3d/53/8b3d530c-d35e-9c20-3c65-6cb786585abf/AppIcon-0-0-1x_U007epad-0-0-0-1-0-sRGB-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Guide To Tromsø": {
@@ -3118,11 +3437,22 @@
   "id": 6787402095,
   "store_name": "Guide To Tromsø",
   "developer": "REIDAR DARRE ARNESEN",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/73/b1/f773b1cb-32f5-b978-40c5-40ca3de61b70/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/0d/e6/8e0de6a9-0c5c-3be1-02e2-7850f0a0dae9/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Habitosaur": {
   "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+ },
+ "Hai": {
+  "source": "appstore",
+  "file": "img/apps/hai.webp",
+  "color": "#0c3498",
+  "v": "dfd66662",
+  "id": 1567377425,
+  "store_name": "hai - smart spa-shower system",
+  "developer": "Gethai Inc",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/b2/10/46b21014-f663-976d-9931-2274d4832efb/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
  },
  "Halide": {
   "source": "appstore",
@@ -3143,7 +3473,7 @@
   "id": 6820955409,
   "store_name": "Handbill: Flyer Distribution",
   "developer": "Hiroaki Tajima",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/ab/ca/d5abcab2-813a-9d1e-2da6-98d3545cebda/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/fe/29/97fe29bc-111d-032c-2f51-ad16a5f0ec22/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Happy Camper Checklist": {
@@ -3168,7 +3498,18 @@
   "id": 6804729626,
   "store_name": "Haptic Interval Timer",
   "developer": "FatCouple OÜ",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/2c/9f/152c9f70-90cf-db13-bda8-26307d3132ca/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/9d/e0/329de04c-fb1f-3d2f-bab7-8643339d5650/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Hark Pro": {
+  "source": "appstore",
+  "file": "img/apps/hark-pro.webp",
+  "color": "#5b6472",
+  "v": "cc42e59f",
+  "id": 6772362941,
+  "store_name": "Hark Pro",
+  "developer": "Hark Labs Inc.",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/62/74/076274eb-65ee-b303-cf4f-744e95bb4a1c/App-Icon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "HBO Max": {
@@ -3212,7 +3553,7 @@
   "id": 6815969504,
   "store_name": "Heliodial: Sun Path & Position",
   "developer": "Yaniv van der Stigchel",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/99/bc/2699bcfc-61d3-847d-f5bd-165e4d332467/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/a5/bf/73a5bfc6-dd39-3586-c216-482180674a55/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Heliodial: Sun Path & Position": {
@@ -3223,7 +3564,7 @@
   "id": 6815969504,
   "store_name": "Heliodial: Sun Path & Position",
   "developer": "Yaniv van der Stigchel",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/99/bc/2699bcfc-61d3-847d-f5bd-165e4d332467/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/a5/bf/73a5bfc6-dd39-3586-c216-482180674a55/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Helium": {
@@ -3300,7 +3641,7 @@
   "id": 6836837368,
   "store_name": "Hex: voice dictation keyboard",
   "developer": "Anomaly Innovations, Inc.",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/ab/04/0dab04d5-23f7-20a4-a54d-88aa60c2f16c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/e8/77/eee87791-6cf4-2c18-7e01-3918ee4251b7/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "HeyGen": {
@@ -3339,7 +3680,7 @@
   "id": 6822456382,
   "store_name": "HIRKA: What to Wear Today",
   "developer": "Ege Yildizli",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/c9/80/fcc9809c-ced6-6a5f-fbaf-d189b9e1634c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/11/b9/d111b9e0-7221-0ab6-29fc-de658c1748e4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "HitPaw FotorPea": {
@@ -3353,8 +3694,11 @@
   "id": 6825160013,
   "store_name": "HiWall: DIY Wallpaper Maker",
   "developer": "Bich Ngoc Tran",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/48/cc/4d48cc81-92a7-6eb5-3814-c75be9c5171e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/32/43/003243b6-a9f1-fc9d-41d1-48dd073e946c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
+ },
+ "Hold'em": {
+  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
  },
  "Homemade": {
   "source": "appstore",
@@ -3376,6 +3720,17 @@
   "store_name": "HomeView",
   "developer": "iOpt",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/ca/63/59ca6353-58b2-0a1b-3a60-36de3569330f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "HopFinder": {
+  "source": "appstore",
+  "file": "img/apps/hopfinder.webp",
+  "color": "#3f9fd9",
+  "v": "d2c8e9cf",
+  "id": 6837035216,
+  "store_name": "HopFinder: Space-A Travel App",
+  "developer": "Collin Hurlburt",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/a0/9d/87a09d85-39c0-9f2e-dca3-6133624a308d/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Horizon Nav": {
@@ -3454,7 +3809,7 @@
   "id": 6476790495,
   "store_name": "Ideogram AI - Image Generator",
   "developer": "Ideogram",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/d8/2d/62d82dc9-afcf-53bb-5341-2246a6779f9b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/13/62/36/13623600-136e-91fe-971f-2d070fb03dff/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Ika": {
@@ -3488,6 +3843,17 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/22/4d/0a224ddf-fa58-a1c8-7b02-ecabbfc315e3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "Infrared Developer": {
+  "source": "appstore",
+  "file": "img/apps/infrared-developer.webp",
+  "color": "#ca5a4e",
+  "v": "510d9496",
+  "id": 6836506151,
+  "store_name": "Infrared Developer",
+  "developer": "Alexandre Zii Miller",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/27/d7/c727d72d-9e65-1803-244c-e0a534526e26/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Instagram": {
   "file": "img/apps/instagram.webp",
   "color": "#E1306C",
@@ -3505,7 +3871,7 @@
   "id": 6787506017,
   "store_name": "Interteno",
   "developer": "David Bryce",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ba/63/7d/ba637de8-2e84-2550-f41a-0cd2bca56393/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/aa/ea/18aaeab3-b87b-a7f1-d10a-9dc611acf7c5/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "InviteJam": {
@@ -3527,7 +3893,7 @@
   "id": 6812872155,
   "store_name": "Inviting You",
   "developer": "Fly Fearless Unlimited LLC",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c8/08/db/c808dbe6-8bbc-aa1e-928f-7bbc5cef5a2d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/c7/88/f4c78882-aae7-d1ad-3a29-d1084ad575de/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Inward Photo": {
@@ -3649,7 +4015,7 @@
   "id": 6831699886,
   "store_name": "iTell: Second Phone Bridge",
   "developer": "Amir AKBARZADEH",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/d9/e6/5bd9e6e5-b895-c608-1f40-a84c9652022d/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/f0/e4/70f0e4b1-3659-66ee-0887-1c57a3802aa8/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "IvyPod": {
@@ -3674,6 +4040,17 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/8f/51/748f5190-1431-4c0b-358e-1b42822df922/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "Jidaria": {
+  "source": "appstore",
+  "file": "img/apps/jidaria.webp",
+  "color": "#c69853",
+  "v": "237ccd4c",
+  "id": 6837955899,
+  "store_name": "Jidaria: Wallpapers 4K",
+  "developer": "Hamad Alajmi",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/86/c7/8386c763-5e6a-059b-e4bd-cea4f2afe0bb/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Jitless": {
   "source": "appstore",
   "file": "img/apps/jitless.webp",
@@ -3687,6 +4064,17 @@
  },
  "KAE KING Studio": {
   "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+ },
+ "Kagi": {
+  "source": "appstore",
+  "file": "img/apps/kagi.webp",
+  "color": "#eda91e",
+  "v": "e179af0e",
+  "id": 1622835804,
+  "store_name": "Kagi for Safari",
+  "developer": "Kagi Inc.",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/7d/0f/8b7d0ffd-f83d-6f92-624e-a593161b8b3b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
  },
  "KechX": {
   "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
@@ -3703,6 +4091,28 @@
   "store_name": "Keepy Uppy Job Tracker",
   "developer": "JOSHUA DANIEL HOOVER",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/67/44/c4/6744c4b8-51a2-d1fb-1eef-dc0db5a4836b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Kennan": {
+  "source": "appstore",
+  "file": "img/apps/kennan.webp",
+  "color": "#b1a168",
+  "v": "593f0cdf",
+  "id": 6832416167,
+  "store_name": "Kennan",
+  "developer": "MARK THOMAS BOWEN",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/ff/51/4dff510f-972a-ef9b-08f3-d171ca99c329/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Keycap: Mechanical Keys": {
+  "source": "appstore",
+  "file": "img/apps/keycap-mechanical-keys.webp",
+  "color": "#0c418d",
+  "v": "07043c07",
+  "id": 6829438628,
+  "store_name": "Keycap: Mechanical Keys",
+  "developer": "Chethan Kumar Settipalli Nanjappa",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fe/c3/62/fec36298-00ca-abf4-aaa6-1c4b19db7aab/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Kickstand Cam": {
@@ -3730,6 +4140,17 @@
  "Kindle": {
   "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
  },
+ "Kiwi.com": {
+  "source": "appstore",
+  "file": "img/apps/kiwi-com.webp",
+  "color": "#10aa95",
+  "v": "6f753abc",
+  "id": 657843853,
+  "store_name": "Kiwi.com: Book Cheap Flights",
+  "developer": "Kiwi.com s.r.o",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/a3/d5/a2a3d559-f0a3-1f56-da9b-52a683401248/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Klarna": {
   "source": "appstore",
   "file": "img/apps/klarna.webp",
@@ -3738,7 +4159,18 @@
   "id": 1115120118,
   "store_name": "Klarna: Smarter everyday money",
   "developer": "Klarna Bank AB",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/02/e0/e302e028-f8b8-efca-6e0f-cf094f70eaa2/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/0b/0a/f80b0aa5-224e-6e7a-e29e-6c4cb1ef1815/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Knot Pilot": {
+  "source": "appstore",
+  "file": "img/apps/knot-pilot.webp",
+  "color": "#bf975a",
+  "v": "e7efc26b",
+  "id": 6838575391,
+  "store_name": "Knot Pilot: Knot Tying in 3D",
+  "developer": "Sergii Nesterenko",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/f7/80/87f780a0-fee7-455a-626a-12ba0f0dbf73/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "KnowYourNotes": {
@@ -3785,7 +4217,7 @@
   "id": 6832278639,
   "store_name": "Koimono: ASCII Koi Fish Pond",
   "developer": "Individuation Labs LLC",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/13/7c/a3137c24-5a2c-7fc6-1366-a486d4e10b4d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/3f/a8/0f3fa82e-ce05-7f81-6cca-6e3d786b5181/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Koimono: ASCII Koi Fish Pond": {
@@ -3796,7 +4228,7 @@
   "id": 6832278639,
   "store_name": "Koimono: ASCII Koi Fish Pond",
   "developer": "Individuation Labs LLC",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/13/7c/a3137c24-5a2c-7fc6-1366-a486d4e10b4d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/3f/a8/0f3fa82e-ce05-7f81-6cca-6e3d786b5181/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "LAB Cam Pro": {
@@ -3808,6 +4240,17 @@
   "store_name": "LAB Cam Pro",
   "developer": "Aiden Magarian",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/2f/57/312f573d-8fde-a984-fc84-56e1f609b72f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Ladybird": {
+  "source": "appstore",
+  "file": "img/apps/ladybird.webp",
+  "color": "#ada36b",
+  "v": "e1f33fb9",
+  "id": 6475171302,
+  "store_name": "Ladybird Taco",
+  "developer": "Ladybird Taco Holding, LLC",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/a3/c3/97a3c330-2af6-d35a-a261-e811181450b0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Laika": {
@@ -3834,6 +4277,17 @@
  },
  "Lander": {
   "note": "left as a letter: the closest App Store app, Lander Tracker by Rezgar Shakeri, may be another app. Pick one here if you know the right one"
+ },
+ "LastPass": {
+  "source": "appstore",
+  "file": "img/apps/lastpass.webp",
+  "color": "#e4124b",
+  "v": "faaf5f27",
+  "id": 324613447,
+  "store_name": "LastPass Password Manager",
+  "developer": "LastPass US LP",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/17/ce/3317ce26-f439-222b-1b64-33f2e1873cda/AppIcon_distribution-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
  },
  "LayerLoops": {
   "source": "appstore",
@@ -3879,6 +4333,9 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/a5/6c/a6a56cac-0d1f-1a45-f291-2b0e58e3a168/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "Lenovo Legion Go": {
+  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+ },
  "Libby": {
   "source": "appstore",
   "file": "img/apps/libby.webp",
@@ -3912,6 +4369,17 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/b9/00/4bb9002a-31c0-46fc-f2bf-083a9b644013/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "LightCue - RGB Remote": {
+  "source": "appstore",
+  "file": "img/apps/lightcue-rgb-remote.webp",
+  "color": "#2bdfee",
+  "v": "738e3786",
+  "id": 6820509841,
+  "store_name": "LightCue - RGB Remote",
+  "developer": "Dave Rogers",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/18/bd/d518bd65-b671-2db8-efeb-7d928606bfd2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "LightScroll": {
   "source": "appstore",
   "file": "img/apps/lightscroll.webp",
@@ -3931,7 +4399,7 @@
   "id": 6826711431,
   "store_name": "Lil Booth",
   "developer": "Jon Schlueter",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/51/2a/91512a91-56a6-6943-0f96-978ce32636e4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/92/40/3c/92403c17-947f-e5f9-3c79-a125998fb154/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Link to Windows": {
@@ -3998,7 +4466,7 @@
   "id": 6816320447,
   "store_name": "Local Video Upscaler",
   "developer": "David Balderston",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/f1/0b/12f10ba1-229e-984a-444e-6cbb6381915d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/6a/6a/4a6a6a7d-07e0-6f43-ef86-0ff5031656ed/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Loggerfish": {
@@ -4009,7 +4477,7 @@
   "id": 6823052889,
   "store_name": "Loggerfish: Scuba Dive Log",
   "developer": "Felix Patrick Rief",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/2a/9f/c72a9fe0-a780-6e6c-c69d-7e501c5da9be/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/a3/0c/8ca30c49-de6b-27c6-0a31-a4ae98b68135/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Logic Pro": {
@@ -4023,7 +4491,7 @@
   "id": 6820983526,
   "store_name": "LoopListen: A-B Loop Player",
   "developer": "栋 梁",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/01/6c/ee016c6a-d14c-c477-3b98-e3e4ab139cce/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/3e/d8/9e3ed85e-95b2-bbb9-ee6c-364e7b6596c0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "LoroNote": {
@@ -4035,6 +4503,17 @@
   "store_name": "LoroNote - Speech to Text",
   "developer": "Rich Soft Co., Ltd",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/73/00/be730073-7666-b6ac-c1e5-6bbb52581981/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Losing It": {
+  "source": "appstore",
+  "file": "img/apps/losing-it.webp",
+  "color": "#b49564",
+  "v": "ef25835b",
+  "id": 6834622232,
+  "store_name": "Losing It",
+  "developer": "Powerup Gaming LLC",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/af/72/31af725f-d0dd-66bf-0aa2-f80743136069/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Loud Alarm Clock: Actually Up": {
@@ -4078,7 +4557,7 @@
   "id": 6811378281,
   "store_name": "Lumiri Todo: Daily Planner",
   "developer": "Lumiri Apps",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/81/12/49811275-9631-4197-e90c-4560561be44d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/2f/75/e42f75ae-0d35-db6f-79d9-4894ed9d86dc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Lumo": {
@@ -4114,7 +4593,7 @@
   "id": 6741103724,
   "store_name": "LyricsNow - Synced Lyrics",
   "developer": "洁伟 薛",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/1d/7d/701d7dbb-0fa5-38d6-617f-aebc4ccddcf1/LyricsNow_Dark-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/79/bd/64/79bd64af-fc63-d31e-b3d7-6bccb4f0a296/LyricsNow_Dark-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "M&S": {
@@ -4168,6 +4647,21 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/e2/2f/02e22f8e-f9a2-148f-cc28-7ac9af776a44/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "Mario Kart World": {
+  "tngg_skip": 134,
+  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+ },
+ "Marker Talker": {
+  "source": "appstore",
+  "file": "img/apps/marker-talker.webp",
+  "color": "#193980",
+  "v": "103df3e1",
+  "id": 6836716491,
+  "store_name": "Marker Talker",
+  "developer": "TIMOTHY AARON GWINN",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/97/a3/f797a3de-b785-9f44-aae0-b990283656a5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Marvel Comics": {
   "source": "appstore",
   "file": "img/apps/marvel-comics.webp",
@@ -4201,6 +4695,17 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/f3/c5/e6f3c5e8-86fa-19c4-a9b3-0b2e29b82f0a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "Matter / Field": {
+  "source": "appstore",
+  "file": "img/apps/matter-field.webp",
+  "color": "#cc4217",
+  "v": "2b8b8855",
+  "id": 6823269068,
+  "store_name": "Matter / Field",
+  "developer": "Complex State Machines, LLC",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/56/ce/1f56cebe-7787-bd2c-1eb9-96626fa1efc9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "McDonald's": {
   "source": "appstore",
   "file": "img/apps/mcdonald-s.webp",
@@ -4220,7 +4725,7 @@
   "id": 6818247942,
   "store_name": "MediateMe",
   "developer": "Tesia Watkins",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/83/b6/d9/83b6d980-eb85-e7a2-0f42-6b97062a069d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/94/1f/32941f52-2e53-7cbf-9ecd-52524de5682f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "MeetETA": {
@@ -4248,6 +4753,17 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/63/6c/58636c92-8b6b-96f5-8adf-0d4eccb40c24/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "Mentalist Calculator": {
+  "source": "appstore",
+  "file": "img/apps/mentalist-calculator.webp",
+  "color": "#3b2277",
+  "v": "d095f54e",
+  "id": 6826135740,
+  "store_name": "Mentalist Calculator",
+  "developer": "FEDERICO DE FLORIO",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/4f/44/714f44c8-0495-81ac-7f2f-d457c02a4661/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "MeowDisplay": {
   "source": "appstore",
   "file": "img/apps/meowdisplay.webp",
@@ -4267,7 +4783,7 @@
   "id": 6831978428,
   "store_name": "MeroMusic",
   "developer": "MERIC KARACA",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/3d/b8/4a3db8dc-fa44-64dd-8e06-7166cf56e012/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/26/aa/9e/26aa9ed9-0986-6747-16bf-4e8acc99db44/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Meshy AI": {
@@ -4339,7 +4855,7 @@
   "id": 6818547990,
   "store_name": "Metro Global",
   "developer": "LARRY DONNELL HAILE",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/04/6e/be046ed1-8c11-b3d4-bf57-56c971d5f0bb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/5c/be/3e5cbebf-e253-626d-4231-240df4bea686/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Metronome by Audomi": {
@@ -4350,7 +4866,7 @@
   "id": 6820653905,
   "store_name": "Metronome by Audomi",
   "developer": "Audomi LLC",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/89/5a/80895a88-9e0d-8a37-9a1b-594922a6a339/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d3/36/6e/d3366ec1-7a27-f28e-b7e1-ff11bf89c62d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Microsoft 365": {
@@ -4371,6 +4887,37 @@
   "tngg": 119,
   "store_name": "Microsoft Copilot",
   "hash": "e1f265d62b41"
+ },
+ "Microsoft Excel": {
+  "source": "thumbnails",
+  "file": "img/apps/microsoft-excel.webp",
+  "color": "#107C41",
+  "v": "9a89bd98",
+  "tngg": 100,
+  "store_name": "Microsoft Excel",
+  "hash": "00bd0b65992e"
+ },
+ "Microsoft Family Safety": {
+  "source": "appstore",
+  "file": "img/apps/microsoft-family-safety.webp",
+  "color": "#1a9687",
+  "v": "5cd0413a",
+  "id": 1489209093,
+  "store_name": "Microsoft Family Safety",
+  "developer": "Microsoft Corporation",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/7f/53/037f53c3-4faf-7dcf-fea0-0c7b44136877/AppIcon-prod-1x_U007emarketing-0-6-0-0-85-220-0.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Microsoft Outlook": {
+  "source": "appstore",
+  "file": "img/apps/microsoft-outlook.webp",
+  "color": "#2ba8ee",
+  "v": "3ccbc522",
+  "id": 951937596,
+  "store_name": "Microsoft Outlook",
+  "developer": "Microsoft Corporation",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e0/87/36/e08736f5-1004-4af4-9a2b-8b6e6603bea4/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
  },
  "Microsoft Planner": {
   "source": "appstore",
@@ -4466,7 +5013,7 @@
   "id": 6821610088,
   "store_name": "Miniature Studio",
   "developer": "Jake Ellis",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/b0/c7/d5b0c731-5d7d-f4cb-d71c-cdcd7c753145/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/9e/c9/c09ec98b-7fd9-71a0-8658-407e47b9fd42/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "MiniSpeed": {
@@ -4494,6 +5041,9 @@
  "Mister Blocks": {
   "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
  },
+ "Modes and Routines": {
+  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+ },
  "Monochrome Lab": {
   "source": "appstore",
   "file": "img/apps/monochrome-lab.webp",
@@ -4502,7 +5052,7 @@
   "id": 6830954416,
   "store_name": "Monochrome Lab",
   "developer": "Tony Shepherd",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/48/2a/73/482a73d6-abed-44d6-caa0-81c13c899a37/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/e1/74/97e1749b-aedf-a902-cb6a-aecf1503bd51/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "MONS": {
@@ -4635,7 +5185,7 @@
   "id": 6760173601,
   "store_name": "Muse from Meta",
   "developer": "Meta Platforms, Inc.",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/26/47/80264783-e41c-97e5-f1ea-bc92f321b0fa/HatchAppIconPublic-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/39/e0/5b/39e05b97-ca8e-d2a5-207a-8cc40b4afce7/HatchAppIconPublic-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "MUTAVIA II": {
@@ -4646,7 +5196,7 @@
   "id": 6811014336,
   "store_name": "MUTAVIA II",
   "developer": "Alessandro Guardascione",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/ff/93/00ff93ac-0a66-f189-f4cd-16f57012d86c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/8c/78/a98c78bb-0866-780a-7185-bdd88597d17e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "My Anti-Rot Year": {
@@ -4688,9 +5238,9 @@
   "color": "#629db7",
   "v": "49b706fd",
   "id": 6833193775,
-  "store_name": "MyLilMatrix",
+  "store_name": "MyLilMatrix: Task Planner",
   "developer": "Jonty McIntyre",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/8d/66/908d66cf-23d2-3ded-176b-8118918ed66e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/ab/33/fcab33a3-ad20-1271-4092-a80c1d6d35f1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "MyMediCompass": {
@@ -4767,7 +5317,7 @@
   "id": 765535549,
   "store_name": "Natural Cycles: Fertility App",
   "developer": "NaturalCycles Nordic AB",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/63/ec/4e63ec30-2703-6900-b6c9-b36bba127b0e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/71/54/0a715431-f6c2-dd17-06c0-9179d170a616/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Netflix": {
@@ -4788,6 +5338,17 @@
   "store_name": "Nextcloud",
   "developer": "Nextcloud GmbH",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/d3/8e/e8d38e12-815d-43f1-d606-c416947b01e7/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "NIVA": {
+  "source": "appstore",
+  "file": "img/apps/niva.webp",
+  "color": "#2a93c7",
+  "v": "68e33124",
+  "id": 1383647191,
+  "store_name": "Niva Bupa Health",
+  "developer": "Niva Bupa Health Insurance Company Limited",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/bb/d7/4abbd708-3cd4-36e4-f52b-1f91b14227cf/AppIcon-0-0-1x_U007emarketing-0-8-0-0-sRGB-GLES2_U002c0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "NoAd Radar": {
@@ -4832,6 +5393,28 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/d5/7b/3bd57b7b-ab72-8905-7fb8-1741747f4d20/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "Notely": {
+  "source": "appstore",
+  "file": "img/apps/notely.webp",
+  "color": "#2b86ee",
+  "v": "539631de",
+  "id": 6670788392,
+  "store_name": "Notely - AI Note Taker",
+  "developer": "Catalytic Venture, Inc.",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/1b/f2/801bf2af-4462-0213-320f-ab87893be392/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Notes from the Field": {
+  "source": "appstore",
+  "file": "img/apps/notes-from-the-field.webp",
+  "color": "#774422",
+  "v": "4993abfb",
+  "id": 6819523307,
+  "store_name": "Notes from the Field",
+  "developer": "OFF-GRID SMART LAB LLC",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/c1/8b/29c18bdd-4ac0-2aff-546d-88d81f932dd2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Nothing": {
   "source": "maker",
   "file": "img/apps/nothing.webp",
@@ -4864,6 +5447,17 @@
  "Now Brief": {
   "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
  },
+ "Nuke Keyboard": {
+  "source": "appstore",
+  "file": "img/apps/nuke-keyboard.webp",
+  "color": "#c35952",
+  "v": "b9480b0e",
+  "id": 6838675060,
+  "store_name": "Nuke Keyboard",
+  "developer": "Sean Kelly",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/37/fa/0837fad6-78be-bcf0-0e07-756006efb449/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Nāda Brahma": {
   "source": "appstore",
   "file": "img/apps/nada-brahma.webp",
@@ -4872,7 +5466,7 @@
   "id": 6823783811,
   "store_name": "Nāda Brahma",
   "developer": "PHILIP FRANKLIN MARKS",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/0d/f8/e40df821-4cf7-30ea-2b3d-e979bd323d01/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/93/04/e393042d-ecc9-f4af-d5ee-304ba58dab3f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Nāda Brahma: Saṃyama Sessions": {
@@ -4889,7 +5483,7 @@
   "id": 6794063907,
   "store_name": "Oboe - Get smarter",
   "developer": "Oboe Labs Inc.",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/e4/e1/84e4e1b0-d5d0-b438-8708-fe83dfdeff23/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/f6/ae/edf6aedb-fcfd-714f-b0e4-bab25c528b4b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Obsidian": {
@@ -4948,6 +5542,15 @@
   "hash": "72895c5cf436",
   "note": "Samsung's logo (a device or system has no app of its own): pick another here if you like"
  },
+ "One UI 9": {
+  "source": "maker",
+  "file": "img/apps/one-ui-9.webp",
+  "color": "#2136a4",
+  "v": "d64e120e",
+  "store_name": "Samsung",
+  "hash": "72895c5cf436",
+  "note": "Samsung's logo (a device or system has no app of its own): pick another here if you like"
+ },
  "OneDrive": {
   "file": "img/apps/onedrive.webp",
   "color": "#0078D4",
@@ -4990,7 +5593,7 @@
   "id": 6818992574,
   "store_name": "Open Screen Sharing",
   "developer": "Metamerism LLC",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/91/c8/0991c89d-2582-f838-30c7-af4c3e83758d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/38/d5/4838d556-9693-4fb4-3ac3-ac40650d25b1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Opera": {
@@ -5021,7 +5624,7 @@
   "id": 6836975756,
   "store_name": "Orbit: Quick Launch Wheel",
   "developer": "P-Bon Consulting Services Incorporated",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/8b/4c/208b4c58-2e7e-a24c-631a-0dd4ef160cd7/AppIcon-1x_U007ephone-0-1-85-220-0.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/cf/6a/8bcf6a93-3079-39d9-f28f-894c0867fb3b/AppIcon-1x_U007ephone-0-1-85-220-0.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Orchard": {
@@ -5079,7 +5682,7 @@
   "id": 6826231333,
   "store_name": "Packed for It",
   "developer": "WENDY LEE REIFEL",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/59/38/5b5938f7-b374-cc59-a1b8-872c4e3cde27/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/d7/99/ffd7999e-197f-6d7c-b685-1861a3234204/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "PackGoat": {
@@ -5096,6 +5699,9 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/10/d9/8f10d933-ac78-7b9e-91a8-00be5faddc91/Paint-Anytime-0-0-1x_U007ewatch-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "Paint Jobs": {
+  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+ },
  "Paint.NET": {
   "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
  },
@@ -5107,10 +5713,13 @@
   "id": 6812409084,
   "store_name": "PaliCAD",
   "developer": "Brayden Nilsen",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/66/9e/b1669e6b-459e-e286-376d-f2170da9c715/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/6e/e8/766ee8a4-cfee-e035-2dbd-56e5892d8667/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "papergarden": {
+  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+ },
+ "Paperknife Plus": {
   "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
  },
  "Paramount+": {
@@ -5122,6 +5731,17 @@
   "store_name": "Paramount+",
   "developer": "CBS Interactive",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/37/aa/2737aab5-cbe8-12f5-c496-fb96836dd0df/P_U002bAppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Passing Gas": {
+  "source": "appstore",
+  "file": "img/apps/passing-gas.webp",
+  "color": "#3b8ac3",
+  "v": "7a409850",
+  "id": 6831979461,
+  "store_name": "Passing Gas",
+  "developer": "David McGuigan",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/f9/e5/39f9e578-cf53-d3f1-8212-33267af7cb69/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "PASSPORT: Country Counter": {
@@ -5180,6 +5800,17 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/62/53/51625329-ec3c-2472-463a-300853bfa8ea/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "PDA Notes": {
+  "source": "appstore",
+  "file": "img/apps/pda-notes.webp",
+  "color": "#87ab6e",
+  "v": "88161d6f",
+  "id": 6832219586,
+  "store_name": "PDA Notes",
+  "developer": "Enfour, Inc.",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/28/a0/8e28a0e5-c85b-b283-8d00-a5112bd5e6fd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Peacock": {
   "source": "appstore",
   "file": "img/apps/peacock.webp",
@@ -5225,6 +5856,20 @@
  "Phone Link": {
   "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
  },
+ "Photos": {
+  "source": "appstore",
+  "file": "img/apps/photos.webp",
+  "color": "#ee992b",
+  "v": "f6ec0e9a",
+  "id": 1584215428,
+  "store_name": "Photos",
+  "developer": "Apple",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/6e/79/726e7943-4a7d-091d-3c55-1d46477cdf08/photosCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Photoshop": {
+  "note": "left as a letter: the closest App Store app, Photoshop Express Photo Editor by Adobe Inc., may be another app. Pick one here if you know the right one"
+ },
  "PhotoSynth: Picture Synth": {
   "source": "appstore",
   "file": "img/apps/photosynth-picture-synth.webp",
@@ -5233,7 +5878,7 @@
   "id": 6836682191,
   "store_name": "PhotoSynth: Picture Synth",
   "developer": "Joseph Musselman",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/22/e0/f722e03f-25cd-c7f4-0fa1-de803a3bd91e/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cf/2a/33/cf2a3387-8881-bdb1-6d32-a6f23a844966/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "PhotoUnlocked": {
@@ -5247,6 +5892,17 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/9f/a7/ce9fa739-9e93-3ef5-d818-769892143037/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "PhraseLab: MIDI Composer": {
+  "source": "appstore",
+  "file": "img/apps/phraselab-midi-composer.webp",
+  "color": "#b39765",
+  "v": "5978357f",
+  "id": 6783402454,
+  "store_name": "PhraseLab: MIDI Composer",
+  "developer": "Higher Plane Software Ltd",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/7e/d9/5e7ed908-b5e7-1df5-b594-ed39ee726a49/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Pilot Live Map": {
   "source": "appstore",
   "file": "img/apps/pilot-live-map.webp",
@@ -5255,8 +5911,17 @@
   "id": 6811035364,
   "store_name": "Pilot Live Map",
   "developer": "Joseph Schubert",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/f5/a4/94f5a45f-192d-0619-2b5f-2956564f973c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/82/62/5c8262c9-f6ba-3eb1-4d7c-a6a43aa7b694/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
+ },
+ "Pinterest": {
+  "source": "thumbnails",
+  "file": "img/apps/pinterest.webp",
+  "color": "#E60023",
+  "v": "3fb676dd",
+  "tngg": 117,
+  "store_name": "Pinterest",
+  "hash": "f76b4a400ef8"
  },
  "Pinu Club": {
   "source": "appstore",
@@ -5289,6 +5954,17 @@
   "store_name": "Pinvoy",
   "developer": "Abdulmohsen Al Tulaihi",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/6a/16/726a1633-8a9a-63de-87d9-ee5e520706b1/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Pit Stop: Restroom Finder": {
+  "source": "appstore",
+  "file": "img/apps/pit-stop-restroom-finder.webp",
+  "color": "#128767",
+  "v": "669d3f8d",
+  "id": 6827688584,
+  "store_name": "Pit Stop: Restroom Finder",
+  "developer": "Justin Turing",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/b8/dd/c2b8dd87-5fe3-b8c2-23a8-a797be02b0f6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Pitch Mode": {
@@ -5386,7 +6062,7 @@
   "id": 6821392318,
   "store_name": "PlayerMap: GPS for Gamers",
   "developer": "Jiseop Han",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f4/9d/11/f49d118c-02ed-e56f-c1c6-81c267a95f1c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/ec/fd/8cecfd47-c5ca-d0c2-7af1-3470177847a1/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "PlayerMap: GPS for Gamers": {
@@ -5397,7 +6073,7 @@
   "id": 6821392318,
   "store_name": "PlayerMap: GPS for Gamers",
   "developer": "Jiseop Han",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f4/9d/11/f49d118c-02ed-e56f-c1c6-81c267a95f1c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/ec/fd/8cecfd47-c5ca-d0c2-7af1-3470177847a1/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "PlayStation": {
@@ -5419,7 +6095,7 @@
   "id": 6828029805,
   "store_name": "Plop Browser",
   "developer": "Stuck in the Sand",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7c/c8/81/7cc88110-0b54-367c-a8d0-2279ebb361bc/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/fc/2d/effc2d0a-ba56-8c06-63d0-4850b48990cc/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Pocket Classic": {
@@ -5431,6 +6107,17 @@
   "store_name": "Pocket Classic",
   "developer": "Ian Dorosh",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/dc/fb/22dcfb35-1348-24e5-7036-f749acf06106/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Pocket Paintbox": {
+  "source": "appstore",
+  "file": "img/apps/pocket-paintbox.webp",
+  "color": "#c39c56",
+  "v": "f43fd702",
+  "id": 6825566983,
+  "store_name": "Pocket Paintbox",
+  "developer": "Harrison Davies",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/ce/d5/0cced53c-f917-3077-d739-a94775e094a1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Pocket Stage": {
@@ -5488,7 +6175,7 @@
   "id": 6817518505,
   "store_name": "Port Things: Cruise Port Guide",
   "developer": "Incmplte L.L.C.",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/8a/2e/9a8a2e20-c45f-d720-7220-5ec5ae8c02ed/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/30/20/69302002-5ff5-f21e-0917-3fbb31050629/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Port Things: Cruise Port Guide": {
@@ -5499,7 +6186,7 @@
   "id": 6817518505,
   "store_name": "Port Things: Cruise Port Guide",
   "developer": "Incmplte L.L.C.",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/8a/2e/9a8a2e20-c45f-d720-7220-5ec5ae8c02ed/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/30/20/69302002-5ff5-f21e-0917-3fbb31050629/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Post Club": {
@@ -5509,8 +6196,8 @@
   "v": "3b74cb3a",
   "id": 6820756745,
   "store_name": "Post Club: Pocket Typewriter",
-  "developer": "LARRY LE CHEN",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/8a/83/b18a8343-4f82-76f9-4ae2-976410cd2d45/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "developer": "Larry Le Chen",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/e9/11/f0e91145-55bf-2bab-fcee-7e9ca9a97e98/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Post Club: A Little Typewriter": {
@@ -5523,8 +6210,8 @@
   "v": "3b74cb3a",
   "id": 6820756745,
   "store_name": "Post Club: Pocket Typewriter",
-  "developer": "LARRY LE CHEN",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/8a/83/b18a8343-4f82-76f9-4ae2-976410cd2d45/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "developer": "Larry Le Chen",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/e9/11/f0e91145-55bf-2bab-fcee-7e9ca9a97e98/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Powday - Snow Forecasts": {
@@ -5535,7 +6222,7 @@
   "id": 6827649633,
   "store_name": "Powday - Snow Forecasts",
   "developer": "Shredder Inc.",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/41/93/9f/41939f2c-8911-5399-36ef-36ac177c0715/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/53/75/c15375bc-b795-7f86-2504-f4c9519f9138/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Pragmatic Audio PEQ": {
@@ -5568,7 +6255,7 @@
   "id": 6785958812,
   "store_name": "PrivacyNotes: Encrypted Notes",
   "developer": "Lifetime Labs LLC",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/7d/0a/207d0af3-8455-db95-88d6-686acd17c4c1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/ea/d6/2dead6c9-075c-6d04-4bee-e1d252f2bffb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Private Location History": {
@@ -5661,6 +6348,17 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/83/f5/f2/83f5f2d6-a5dd-6fd5-7d7f-c5c9b8e72a5f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "PTO Balance": {
+  "source": "appstore",
+  "file": "img/apps/pto-balance.webp",
+  "color": "#283d71",
+  "v": "7740ab8e",
+  "id": 6778962150,
+  "store_name": "PTO Balance: Time Off Tracker",
+  "developer": "Olemae Developers LLC",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/45/3d/29453d5e-10cc-0704-ec13-f71900004d26/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "PUBG Mobile Flash": {
   "source": "appstore",
   "file": "img/apps/pubg-mobile-flash.webp",
@@ -5692,6 +6390,17 @@
   "store_name": "PulseO2: Blood Oxygen Tracker",
   "developer": "Get Happy, LLC",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/94/5e/10945efd-2ba8-d971-b4ab-09ff6bb9e2e9/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Putty Buddy": {
+  "source": "appstore",
+  "file": "img/apps/putty-buddy.webp",
+  "color": "#e9692f",
+  "v": "bfe9f74c",
+  "id": 6816751917,
+  "store_name": "Putty Buddy",
+  "developer": "Bad Assassin Games",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/3d/62/d23d62f2-ca55-fe33-5e54-5909797f57ec/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Qobuz": {
@@ -5727,7 +6436,7 @@
   "id": 6833652881,
   "store_name": "RaceCut: Song to Video",
   "developer": "3rd Era",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/8a/a0/3b8aa058-a84f-f6c6-3efa-d22ac5b48267/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/71/aa/e871aaca-beb0-a657-3678-adc6e0eb4e6e/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Radarvar": {
@@ -5738,7 +6447,7 @@
   "id": 6818256075,
   "store_name": "Radarvar: Speed Cameras",
   "developer": "Ali Can",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/96/0e/ed960eba-2e28-2d92-dea0-ffe692943ce0/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/31/65/d53165d9-1d1d-adce-d809-5021a6d7019f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Radarvar: Speed Cameras": {
@@ -5749,7 +6458,7 @@
   "id": 6818256075,
   "store_name": "Radarvar: Speed Cameras",
   "developer": "Ali Can",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/96/0e/ed960eba-2e28-2d92-dea0-ffe692943ce0/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/31/65/d53165d9-1d1d-adce-d809-5021a6d7019f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "RadPad": {
@@ -5760,7 +6469,7 @@
   "id": 6826067836,
   "store_name": "RadPad - 90s Notebook",
   "developer": "Safe House Studio LLC",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/0e/88/ee0e884a-b0cb-11e2-f097-7775d97dec64/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/db/d7/3ddbd72f-1469-032c-f082-fc091882ef26/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "RadPad - 90s Notebook": {
@@ -5771,7 +6480,7 @@
   "id": 6826067836,
   "store_name": "RadPad - 90s Notebook",
   "developer": "Safe House Studio LLC",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/0e/88/ee0e884a-b0cb-11e2-f097-7775d97dec64/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/db/d7/3ddbd72f-1469-032c-f082-fc091882ef26/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Rakuten": {
@@ -5782,7 +6491,7 @@
   "id": 723134859,
   "store_name": "Rakuten: Cash Back & Deals",
   "developer": "Rakuten Ebates",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/c2/a3/2ac2a305-ab9b-e1c9-4220-6c5794f204b2/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/41/ae/6541ae97-96ef-eb5f-9178-e5fb0fd3b964/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
  },
  "Raycast": {
   "source": "appstore",
@@ -5792,7 +6501,7 @@
   "id": 6503428327,
   "store_name": "Raycast: Keyboard, AI and more",
   "developer": "Raycast Technologies",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8d/87/19/8d871929-eff1-9ac4-92ec-cda5bd186a07/AppIcon-Release-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/99/82/2b998253-905b-2c62-9bac-36c3b1f287d1/AppIcon-Release-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Raylie": {
@@ -5803,7 +6512,7 @@
   "id": 6793443320,
   "store_name": "Raylie - Flight View Guide",
   "developer": "ooo.engineering Inc.",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/55/8c/0a558c69-596c-6662-c7c3-c749a45f975d/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a8/2a/e8a82af4-17d9-21e2-a7bf-f785d354d2cf/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "RAYS - 3D Path Tracer": {
@@ -5825,7 +6534,7 @@
   "id": 6820650118,
   "store_name": "ReadyAtlas: Emergency Map",
   "developer": "PATRICK BYRON HUMPHREY",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/a0/23/a7a02386-f6c9-7ceb-c399-758fe2108d72/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/1b/d1/2d1bd19a-ac4b-5199-28fd-bad2e0f0e3dc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "ReceiptLocker": {
@@ -5850,7 +6559,7 @@
   "id": 6824447459,
   "store_name": "Recipe Lab Studio: RAW Editor",
   "developer": "Imaginary Narrative, Lda",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/dc/82/57dc821c-baf6-a7ae-60f5-6295e2b4a178/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/44/d4/94/44d494b6-1675-d8c3-b4bf-efd1dc97b78a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Recipe Lab Studio: RAW Editor": {
@@ -5861,7 +6570,7 @@
   "id": 6824447459,
   "store_name": "Recipe Lab Studio: RAW Editor",
   "developer": "Imaginary Narrative, Lda",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/dc/82/57dc821c-baf6-a7ae-60f5-6295e2b4a178/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/44/d4/94/44d494b6-1675-d8c3-b4bf-efd1dc97b78a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Red Eye Remover & Corrector": {
@@ -5939,7 +6648,7 @@
   "id": 932493382,
   "store_name": "Revolut: send, spend, and save",
   "developer": "Revolut Ltd",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/33/3d/07333d65-2dd9-8af8-93f5-a8bafec6e2aa/AppIcon-Production-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/0f/5c/d50f5c86-c0cd-4350-fa99-8a540f8dcf99/AppIcon-Production-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "reVRide Bike Sounds": {
@@ -5950,7 +6659,7 @@
   "id": 6830442111,
   "store_name": "reVRide Bike Sounds",
   "developer": "Frank Karas",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/18/df/fa18df8f-ef9d-a54c-aa87-56b626dc3a1b/AppIcon-0-0-1x_U007ephone-0-1-P3-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c8/d7/a8/c8d7a80f-c5f1-b5da-efb2-415bb75021f6/AppIcon-0-0-1x_U007ephone-0-1-P3-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Ring": {
@@ -5961,7 +6670,7 @@
   "id": 926252661,
   "store_name": "Ring - Always Home",
   "developer": "Ring.com",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2f/d8/8b/2fd88b7f-dbea-74e3-ee7a-c4acf6e8fe64/AppIcon-NH-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/ca/61/2dca6115-67aa-1db8-0530-99f5dbdb1750/AppIcon-NH-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Ripple Player": {
@@ -5972,7 +6681,7 @@
   "id": 6828347986,
   "store_name": "Ripple Player",
   "developer": "Recital Records Ltd",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/c9/5b/87c95bfd-af60-2939-0b67-d0facade0b0c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/6b/96/fd6b961d-073c-967c-d79d-8f7b99d14e08/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "roam": {
@@ -6044,6 +6753,28 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dc/97/30/dc9730c5-4b44-9b3b-234a-2fa1a51c8727/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "Rooted in Truth": {
+  "source": "appstore",
+  "file": "img/apps/rooted-in-truth.webp",
+  "color": "#928643",
+  "v": "4c83826a",
+  "id": 6837828608,
+  "store_name": "Rooted in Truth",
+  "developer": "Joshua Capilla",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/39/01/0c39013b-abcb-f02a-c588-945e876ca46d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Ruke Knit": {
+  "source": "appstore",
+  "file": "img/apps/ruke-knit.webp",
+  "color": "#5b6472",
+  "v": "f2725ad4",
+  "id": 6805331687,
+  "store_name": "Ruke knit",
+  "developer": "MB Ruke",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/7b/df/787bdf88-eafe-c057-2a27-d2a162b5de63/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "RUN4": {
   "source": "appstore",
   "file": "img/apps/run4.webp",
@@ -6052,7 +6783,7 @@
   "id": 6789147144,
   "store_name": "RUN4 - Tape & Texture Machine",
   "developer": "Eugen Schott",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/86/b7/0886b796-0a74-7d2f-f438-df02cf4547c4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/ff/47/17ff47f2-6d7b-5ee2-b5c1-41703feb8943/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "RUN4 - Tape & Texture Machine": {
@@ -6063,7 +6794,7 @@
   "id": 6789147144,
   "store_name": "RUN4 - Tape & Texture Machine",
   "developer": "Eugen Schott",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/86/b7/0886b796-0a74-7d2f-f438-df02cf4547c4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/ff/47/17ff47f2-6d7b-5ee2-b5c1-41703feb8943/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "RV Site Snag": {
@@ -6118,9 +6849,27 @@
   "hash": "72895c5cf436",
   "note": "Samsung's logo (a device or system has no app of its own): pick another here if you like"
  },
+ "Samsung Care+": {
+  "source": "maker",
+  "file": "img/apps/samsung-care-plus.webp",
+  "color": "#2136a4",
+  "v": "d64e120e",
+  "store_name": "Samsung",
+  "hash": "72895c5cf436",
+  "note": "Samsung's logo (a device or system has no app of its own): pick another here if you like"
+ },
  "Samsung Contacts": {
   "source": "maker",
   "file": "img/apps/samsung-contacts.webp",
+  "color": "#2136a4",
+  "v": "d64e120e",
+  "store_name": "Samsung",
+  "hash": "72895c5cf436",
+  "note": "Samsung's logo (a device or system has no app of its own): pick another here if you like"
+ },
+ "Samsung Digital Wellbeing": {
+  "source": "maker",
+  "file": "img/apps/samsung-digital-wellbeing.webp",
   "color": "#2136a4",
   "v": "d64e120e",
   "store_name": "Samsung",
@@ -6283,7 +7032,7 @@
   "id": 6821574406,
   "store_name": "ScreenRecess: Gentle Rhythm",
   "developer": "Abdulazeez Otori",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5d/a3/92/5da3923e-c417-cb5f-7120-25124a83eaea/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/e4/4c/f1e44cc3-ce45-3995-eff8-f83ea711e857/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "ScreenRecess: Gentle Rhythm": {
@@ -6294,7 +7043,18 @@
   "id": 6821574406,
   "store_name": "ScreenRecess: Gentle Rhythm",
   "developer": "Abdulazeez Otori",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5d/a3/92/5da3923e-c417-cb5f-7120-25124a83eaea/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/e4/4c/f1e44cc3-ce45-3995-eff8-f83ea711e857/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Screens 5": {
+  "source": "appstore",
+  "file": "img/apps/screens-5.webp",
+  "color": "#d22bee",
+  "v": "9a2c8ce0",
+  "id": 1663047912,
+  "store_name": "Screens 5: VNC Remote Desktop",
+  "developer": "Edovia Inc.",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c3/e3/ee/c3e3ee62-3235-2246-ad34-fdccede7d3a3/AppIcon-iOS-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "SeaStatus": {
@@ -6317,6 +7077,17 @@
   "store_name": "SeaStatus: Launch Conditions",
   "developer": "Andrew Kelley",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/1d/bf/b71dbf5d-66ab-fce0-695b-25e3829ccc14/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Second Look Reminder": {
+  "source": "appstore",
+  "file": "img/apps/second-look-reminder.webp",
+  "color": "#2cb0ec",
+  "v": "df5baf71",
+  "id": 6798364768,
+  "store_name": "Second Look Reminder",
+  "developer": "Judith Fuller",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/ae/6c/a1ae6c6d-9bb5-5f4e-8902-8b5fa97efd0b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Second Wind: Breathwork": {
@@ -6429,18 +7200,18 @@
   "id": 6793162154,
   "store_name": "ShiftBoard",
   "developer": "Nerdens",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/87/3d/61873dc9-3705-e450-4045-1a1ff5136984/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/58/a0/5e58a0c4-0442-c458-7e66-907f886cec30/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "ShiftBoard: Shift Calendar": {
   "source": "appstore",
   "file": "img/apps/shiftboard-shift-calendar.webp",
-  "color": "#ba342a",
-  "v": "f3a0a888",
+  "color": "#d94236",
+  "v": "9d2c224f",
   "id": 6829999293,
   "store_name": "ShiftBoard: Shift Calendar",
   "developer": "Chisholm Digital LLC",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/7f/2d/997f2d6b-e587-b256-caf8-341b448963f3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/76/8e/10768ee3-44a5-456d-d276-6d6b8de5a32f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Shottr": {
@@ -6454,7 +7225,7 @@
   "id": 6827649633,
   "store_name": "Powday - Snow Forecasts",
   "developer": "Shredder Inc.",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/41/93/9f/41939f2c-8911-5399-36ef-36ac177c0715/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/53/75/c15375bc-b795-7f86-2504-f4c9519f9138/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Sidefill: Wide View for Safari": {
@@ -6466,6 +7237,17 @@
   "store_name": "Sidefill: Wide View for Safari",
   "developer": "Trappist",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/00/d4/ba00d480-b64a-b0df-2316-a599949881e8/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Sidewalk Joy": {
+  "source": "appstore",
+  "file": "img/apps/sidewalk-joy.webp",
+  "color": "#9b68b1",
+  "v": "343d30c3",
+  "id": 6824644823,
+  "store_name": "Sidewalk Joy",
+  "developer": "Sidewalk Joy",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/a9/b0/7ea9b02a-d66c-59e3-3d88-d09547f7a628/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Sightline Compass": {
@@ -6487,7 +7269,7 @@
   "id": 874139669,
   "store_name": "Signal - Private Messenger",
   "developer": "Signal Messenger, LLC",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/b8/41/4bb8410f-e607-c5c2-42ce-6f067cde7c58/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/cc/34/54cc34c2-0f7f-56f9-ffaa-7c4948c37607/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Simple Subway NYC": {
@@ -6499,6 +7281,17 @@
   "store_name": "Simple Subway NYC",
   "developer": "Edward Brayman",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/5d/15/e35d1591-e36c-bf5b-652c-8779969f90e5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Singing Santa Watchface": {
+  "source": "appstore",
+  "file": "img/apps/singing-santa-watchface.webp",
+  "color": "#963b31",
+  "v": "4d000b8b",
+  "id": 6837696731,
+  "store_name": "Singing Santa Watchface",
+  "developer": "Cristian Loloiu",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cc/f3/3d/ccf33d07-1af7-bce9-8db5-e9d7496663b0/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Siri": {
@@ -6531,7 +7324,7 @@
   "id": 6829104658,
   "store_name": "Skybits: Pixel Art Weather",
   "developer": "HAFIZ ABDUR REHMAN",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/9e/76/e89e764d-d52a-5dc8-b6ed-9b1bfc81f530/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/01/3a/1a013a0c-16e1-d9c7-97fc-74640df5b772/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "SkyVoxel": {
@@ -6565,6 +7358,17 @@
   "store_name": "SkyWX by Anthony Slaughter",
   "developer": "Anthony Slaughter",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7a/44/ef/7a44effd-aa6d-b442-3b06-446371db7ae7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Slidinn": {
+  "source": "appstore",
+  "file": "img/apps/slidinn.webp",
+  "color": "#942bee",
+  "v": "edb09752",
+  "id": 6832461666,
+  "store_name": "Slidinn: Slide Into DMs",
+  "developer": "NULLZEC Global Inc",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/33/b8/4533b89c-659f-44a7-3e07-b457f78e2f22/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Sling TV": {
@@ -6670,6 +7474,28 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/63/66/3a636696-f60e-93d3-2d34-f10d3f682d3a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "So That's AI": {
+  "source": "appstore",
+  "file": "img/apps/so-that-s-ai.webp",
+  "color": "#e2c524",
+  "v": "da562386",
+  "id": 6838175609,
+  "store_name": "So That's AI",
+  "developer": "LaShanda Hunt",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/c0/0e/bdc00e69-d229-ad35-c7c4-c375e1a51487/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "SongShift": {
+  "source": "appstore",
+  "file": "img/apps/songshift.webp",
+  "color": "#174382",
+  "v": "b246dc14",
+  "id": 1097974566,
+  "store_name": "SongShift",
+  "developer": "SongShift",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/06/c6/3106c673-731f-8644-78c5-bca49a0bf0d1/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Sony": {
   "source": "appstore",
   "file": "img/apps/sony.webp",
@@ -6679,6 +7505,17 @@
   "store_name": "Sony | Music Center",
   "developer": "Sony Corporation",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/fe/09/d5fe09bf-7fdd-59f3-e7b0-744aba1822ac/AppIcon-0-0-1x_U007emarketing-0-4-0-sRGB-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Sony a6700 Camera Academy": {
+  "source": "appstore",
+  "file": "img/apps/sony-a6700-camera-academy.webp",
+  "color": "#364963",
+  "v": "46f7c5b7",
+  "id": 6837482352,
+  "store_name": "Sony a6700 Camera Academy",
+  "developer": "Alan Boyle",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/7a/9d/e37a9d30-5de2-cd01-6327-5414b167ac07/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Sorae: Draw Music": {
@@ -6700,7 +7537,7 @@
   "id": 6756323940,
   "store_name": "Sorted: TCG Collection Manager",
   "developer": "Creative Collectible Company",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/92/02/619202b7-a814-3e00-4487-3f09d392c74f/SortedAppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/bf/07/fcbf0741-e7b5-25bd-94f3-2c29843826cd/SortedAppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "SoundCloud": {
@@ -6711,7 +7548,7 @@
   "id": 336353151,
   "store_name": "SoundCloud: Discover New Music",
   "developer": "SoundCloud Global Limited & Co KG",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/5e/1a/6e5e1a1d-ee08-4ff0-dd0f-1d9f1de34aff/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cc/a8/61/cca86124-c8f7-cd96-91c9-122ae8d29f1b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Speeku": {
@@ -6722,7 +7559,7 @@
   "id": 6819053479,
   "store_name": "Speeku: European Portuguese",
   "developer": "Speeku",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/58/c7/d058c791-5b41-53f5-6648-802156448831/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/e9/e2/b0e9e256-abb7-6708-fed0-2fd727c37d42/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "SpotiActions": {
@@ -6756,7 +7593,18 @@
   "id": 1537177988,
   "store_name": "Starlink",
   "developer": "SpaceX",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/e5/e3/e1e5e32f-5711-ac86-ca03-a49586c7cf81/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/0f/3b/cb0f3b9c-c057-bd3e-2a26-3b0f8ad4ee0c/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "SteelTune": {
+  "source": "appstore",
+  "file": "img/apps/steeltune.webp",
+  "color": "#7f4c1d",
+  "v": "43339d36",
+  "id": 6793573726,
+  "store_name": "SteelTune",
+  "developer": "BRETT THOMAS LANIER",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/19/35/f0/1935f095-8293-2256-0b1d-014d1d3bcb7f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Stellar Sky": {
@@ -6785,11 +7633,11 @@
   "source": "appstore",
   "file": "img/apps/strava.webp",
   "color": "#e95813",
-  "v": "8c4fc803",
+  "v": "275a4d7b",
   "id": 426826309,
   "store_name": "Strava: Run, Bike, Walk",
   "developer": "Strava, Inc.",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/85/b0/4185b028-0ce7-4c50-2042-6f133184e37e/AppIcon-Primary-0-0-1x_U007ephone-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/8b/e3/968be356-9081-dd0a-d8e2-160b678e2d29/AppIcon-Primary-0-0-1x_U007ephone-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Streamline: Streaming Finder": {
@@ -6839,7 +7687,7 @@
   "id": 1630128947,
   "store_name": "sunday for staff",
   "developer": "Sunday App, Inc. PBC",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/60/56/52/6056526a-6acd-6b05-4bb8-90f23a8e423e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/28/6b/06286b91-1e41-c155-3a7b-66551ff5ddd8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Sunday: Photo & Video Editor": {
@@ -6908,6 +7756,17 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/74/a4/a474a464-c827-4dae-fc32-766ef92f5283/AppIcon-0-0-1x_U007ephone-0-1-0-0-sRGB-GLES2_U002c0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "Synchronus 91": {
+  "source": "appstore",
+  "file": "img/apps/synchronus-91.webp",
+  "color": "#763f23",
+  "v": "8675ce1b",
+  "id": 6830088369,
+  "store_name": "SYNCHRONUS 91",
+  "developer": "Abel Boquera",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/ca/ae/2acaae42-32c3-ab4e-b10a-5878acc97421/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "T-Mobile": {
   "file": "img/apps/t-mobile.webp",
   "color": "#d61176",
@@ -6943,6 +7802,17 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/01/b6/b001b62f-9dc4-9f0c-cef9-6ed89c7e5b31/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "Tapkeep": {
+  "source": "appstore",
+  "file": "img/apps/tapkeep.webp",
+  "color": "#80251a",
+  "v": "63076371",
+  "id": 6830261493,
+  "store_name": "Tapkeep: All-Day Recorder",
+  "developer": "Wuxi Huaxiaoman Technology Co.,Ltd",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/17/d3/2517d38c-f584-2c19-3004-726aa2411225/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Tapko Harmony": {
   "source": "appstore",
   "file": "img/apps/tapko-harmony.webp",
@@ -6962,7 +7832,7 @@
   "id": 6826722299,
   "store_name": "Tapko Octaver",
   "developer": "David Lars Guva",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/69/0f/13690fa9-3b69-dfb8-4711-a380b5750600/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/ae/d5/0caed516-0f8a-d90f-cad5-586419c7710f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Teams": {
@@ -7024,7 +7894,7 @@
   "id": 6826440643,
   "store_name": "The Birth Bag",
   "developer": "Nurture and Connect Doula Services LLC",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/30/4a/1e304a88-bfd7-cea8-ff73-7df27c09d0eb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/30/d9/8c30d9b0-b1ab-d462-0a63-182bc1069d0b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "The Laika App": {
@@ -7079,7 +7949,7 @@
   "id": 6446901002,
   "store_name": "Threads",
   "developer": "Instagram, Inc.",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f4/85/7a/f4857a17-dd54-31c0-e82f-0e17dd67ba2e/Prod-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/a0/95/7da09558-b065-df5f-6d00-2d75f7e1b1cd/Prod-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Threema": {
@@ -7092,6 +7962,15 @@
   "developer": "Threema GmbH",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8d/72/01/8d720154-f2f1-81dd-675f-f2ae9f25a23c/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
+ },
+ "Tidal": {
+  "source": "thumbnails",
+  "file": "img/apps/tidal.webp",
+  "color": "#5b6472",
+  "v": "abd78558",
+  "tngg": 67,
+  "store_name": "Tidal",
+  "hash": "c4448547628e"
  },
  "TidyList": {
   "source": "appstore",
@@ -7112,7 +7991,7 @@
   "id": 6818741282,
   "store_name": "TidyMap - Neighborhood Guide",
   "developer": "Tsung Yueh Tsai",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/9e/19/f99e1976-c573-1d09-54ba-d7f12c39577e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/64/68/00/6468006b-e966-e947-96e2-d561c4cfd499/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "TidyMap - Neighborhood Guide": {
@@ -7123,7 +8002,7 @@
   "id": 6818741282,
   "store_name": "TidyMap - Neighborhood Guide",
   "developer": "Tsung Yueh Tsai",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/9e/19/f99e1976-c573-1d09-54ba-d7f12c39577e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/64/68/00/6468006b-e966-e947-96e2-d561c4cfd499/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "TikTok": {
@@ -7177,7 +8056,7 @@
   "id": 6812577930,
   "store_name": "TONAUT",
   "developer": "Richard Rogers",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/d8/39/30d839f7-b825-ce5f-a274-8901657c02b0/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/34/54/0b3454eb-5a4d-10ca-de74-8e9f1cd3f9dc/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "ToneBird": {
@@ -7239,7 +8118,7 @@
   "id": 6824844745,
   "store_name": "Tripod — Podcast Player",
   "developer": "Ben McCarthy",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/7f/99/b57f9960-25f2-9fd0-6fdd-7ffc7b8b5b4d/Tripod_-_Black-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e0/66/2c/e0662c33-6422-1061-0fe7-0bca196dd5f3/Tripod_-_Black-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "TruePrompter": {
@@ -7250,7 +8129,7 @@
   "id": 6828691448,
   "store_name": "TruePrompter: Teleprompter",
   "developer": "MICHAEL ANTHONY BARTLETT",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/82/17/968217ec-5d7c-3d47-0352-9c346b77416e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/42/2c/e6422c4f-27eb-853d-0c7a-a56edc7c0735/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "TruePrompter: Teleprompter": {
@@ -7261,7 +8140,18 @@
   "id": 6828691448,
   "store_name": "TruePrompter: Teleprompter",
   "developer": "MICHAEL ANTHONY BARTLETT",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/82/17/968217ec-5d7c-3d47-0352-9c346b77416e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/42/2c/e6422c4f-27eb-853d-0c7a-a56edc7c0735/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "TTStickers": {
+  "source": "appstore",
+  "file": "img/apps/ttstickers.webp",
+  "color": "#2b57ee",
+  "v": "8f226d83",
+  "id": 6835599257,
+  "store_name": "TTStickers: Animated WASticker",
+  "developer": "LDX Software",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b0/9f/55/b09f550d-a6cb-b909-bea1-7d2cd564f843/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Tunnel Time": {
@@ -7292,9 +8182,9 @@
   "color": "#3e2079",
   "v": "d22e2ca3",
   "id": 6818644922,
-  "store_name": "TV Jr.",
+  "store_name": "TV Jr. – Live TV on HomeView",
   "developer": "Ben Markowitz",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/46/c4/9046c4b2-0361-795c-5804-3cf72f99963d/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/6b/0f/dd6b0fe5-2f24-25a1-f44f-ed9c714ea24e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "TypeDraw": {
@@ -7341,7 +8231,7 @@
   "id": 6502516129,
   "store_name": "Umbrella - Productivity App",
   "developer": "Umbrella Product",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cd/a8/47/cda84761-87de-cc21-6e47-08f1a1f87835/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/3a/5b/a83a5b9a-a052-3414-2104-64ff6f5797c5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "United Airlines": {
@@ -7461,15 +8351,7 @@
   "note": "picked automatically: check it"
  },
  "VHS Camcorder: 90s Retro Cam": {
-  "source": "appstore",
-  "file": "img/apps/vhs-camcorder-90s-retro-cam.webp",
-  "color": "#ac846d",
-  "v": "23e29e4f",
-  "id": 6796873275,
-  "store_name": "VHS Camcorder: 90s Retro Cam",
-  "developer": "Efuare Okougbo",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/61/58/66615896-7d61-7368-ac5d-d30460aa3775/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-  "note": "picked automatically: check it"
+  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
  },
  "Video Cutter AI": {
   "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
@@ -7510,6 +8392,17 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/e6/c6/ebe6c641-efbc-ba9a-13a1-2e7dd4e15668/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "VOSKI - offline translator": {
+  "source": "appstore",
+  "file": "img/apps/voski-offline-translator.webp",
+  "color": "#ec8d1a",
+  "v": "6c10bf8b",
+  "id": 6825493421,
+  "store_name": "VOSKI - offline translator",
+  "developer": "Dean Turpin",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/ea/4b/acea4b98-f342-71a3-624b-11d7e942ab9d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Vrbo": {
   "source": "appstore",
   "file": "img/apps/vrbo.webp",
@@ -7529,7 +8422,7 @@
   "id": 588013838,
   "store_name": "VSCO: Photo & Video Editor",
   "developer": "Visual Supply Company",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/e7/56/04e7566a-c65a-dcc7-0ca4-21400d6c617c/app-icon-production-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/b8/9a/5cb89a70-c6a2-8785-e22a-efaabb9401a0/app-icon-production-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "VU303": {
@@ -7551,7 +8444,18 @@
   "id": 6761257174,
   "store_name": "VWFNDR™ + MBL",
   "developer": "Nuevo.Studio Ltd.",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/94/87/fd9487f3-f635-9939-3a70-5955ca702845/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/32/f8/3932f88f-83eb-6548-3a9d-9761ab6a33ca/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "WalkAware": {
+  "source": "appstore",
+  "file": "img/apps/walkaware.webp",
+  "color": "#0b1b8e",
+  "v": "c0ba8c18",
+  "id": 6834036753,
+  "store_name": "WalkAware: Nearby Places",
+  "developer": "Mohamed Abdelsalam",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/33/27/3f3327ae-2182-96c9-aaf3-2b496273fd37/AppIcon-0-0-1x_U007ewatch-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Wallmix": {
@@ -7574,6 +8478,17 @@
   "store_name": "Wallmix - Wallpapers & Widgets",
   "developer": "Timur Smailov",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/c6/24/36c6242c-81c2-36dd-d7de-9a5a1ddf9c6a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Walmart": {
+  "source": "appstore",
+  "file": "img/apps/walmart.webp",
+  "color": "#0f4bb6",
+  "v": "82691443",
+  "id": 338137227,
+  "store_name": "Walmart: Shopping & Savings",
+  "developer": "Walmart",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/74/54/09745460-dd1f-11b7-aeab-7c9822e6e759/AppIconHolidays-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Wandrer": {
@@ -7656,6 +8571,17 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/cb/fd/78cbfd96-5724-c45f-b659-0026d2fe31dc/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "WAYA": {
+  "source": "appstore",
+  "file": "img/apps/waya.webp",
+  "color": "#5b6472",
+  "v": "43c169ec",
+  "id": 6751711419,
+  "store_name": "WAYA - Shop Fashion in Africa",
+  "developer": "WAYA CLOTHINGS",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/e5/b1/a4e5b130-8da2-bb94-44c3-88d8f0c33248/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Waymo": {
   "source": "appstore",
   "file": "img/apps/waymo.webp",
@@ -7686,7 +8612,7 @@
   "id": 323229106,
   "store_name": "Waze Navigation & Live Traffic",
   "developer": "Waze Inc.",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e2/a1/1a/e2a11a28-860c-1b1c-712b-87f3bb7b530c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/46/df/db46df81-2480-d327-a469-e4a5a866ff6f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "WealthOnTrackers": {
@@ -7761,7 +8687,7 @@
   "id": 1386412985,
   "store_name": "WhatsApp Business",
   "developer": "WhatsApp Inc.",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/1d/b9/931db983-7f85-f0b7-0ae0-f5a5f1c0d584/AppIconSMB-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/10/13/f91013b0-049c-5bf6-6f3f-200df31093d7/AppIconSMB-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Whee": {
@@ -7773,6 +8699,17 @@
   "store_name": "Whee - TikTok Chat",
   "developer": "TikTok Ltd.",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/17/2a/e5172a4b-57df-c6ef-abd5-1562172f395b/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "White Notes": {
+  "source": "appstore",
+  "file": "img/apps/white-notes.webp",
+  "color": "#5b6472",
+  "v": "d2f54063",
+  "id": 6833365108,
+  "store_name": "White Notes",
+  "developer": "焕勇 周",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/9f/6c/129f6cac-1fd9-1c89-93f5-0ef5dbc0199c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "WHOOP": {
@@ -7808,7 +8745,18 @@
   "id": 6827308965,
   "store_name": "Widezilla Browser",
   "developer": "Matteo Dall'Ombra",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/0e/5d/450e5dd5-8c4f-86ea-4f62-4d9186b491be/Widezilla-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/e3/8e/74e38ee3-be1e-540c-da58-8ed912f9fe19/Widezilla-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Willow Dictation & AI Keyboard": {
+  "source": "appstore",
+  "file": "img/apps/willow-dictation-ai-keyboard.webp",
+  "color": "#5b5abe",
+  "v": "be827a10",
+  "id": 6753057525,
+  "store_name": "Willow Dictation & AI Keyboard",
+  "developer": "Willow Voice",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/85/ea/2f/85ea2fb5-2595-a236-78e1-af43761db75e/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Windows": {
@@ -7831,6 +8779,26 @@
   "hash": "16aa9e6ee68c",
   "note": "Microsoft's logo (a device or system has no app of its own): pick another here if you like"
  },
+ "Wins Garden": {
+  "source": "appstore",
+  "file": "img/apps/wins-garden.webp",
+  "color": "#79ee2b",
+  "v": "8e67bdab",
+  "id": 6832862885,
+  "store_name": "Wins Garden",
+  "developer": "April Gao",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/d9/02/5dd902eb-7cd4-c7e1-12dd-6e276a632b26/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
+ "Wise": {
+  "source": "thumbnails",
+  "file": "img/apps/wise.webp",
+  "color": "#6CE134",
+  "v": "a3b93f54",
+  "tngg": 128,
+  "store_name": "Wise",
+  "hash": "d5b246bff493"
+ },
  "Wispr Flow": {
   "source": "appstore",
   "file": "img/apps/wispr-flow.webp",
@@ -7839,7 +8807,7 @@
   "id": 6497229487,
   "store_name": "Wispr Flow",
   "developer": "Wispr AI, Inc.",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/88/90/c4889081-bbba-1920-27ec-5ee13a74031e/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/e5/b3/5ce5b392-72f0-67ee-abb6-f7ac0bee6f92/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "Wonday Only": {
@@ -7850,7 +8818,7 @@
   "id": 6831842156,
   "store_name": "Wonday Only",
   "developer": "SKC UNLIMITED LLC",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/26/2e/73/262e736f-d1ac-67e2-d549-d9b4fb33d088/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/1a/79/611a79a1-9fba-e150-a90f-15d00232a33f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "WordPress": {
@@ -7870,7 +8838,7 @@
   "id": 6761374913,
   "store_name": "WorkBuddy - AI Work Agent",
   "developer": "Tencent Technology (Shanghai) Company Limited",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/28/73/2d287343-fdea-da55-f5b9-aa8448609b66/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/52/84/a0/5284a048-5c62-07e4-64b0-19a2b907793b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "WorkBuddy - AI Work Agent": {
@@ -7881,7 +8849,7 @@
   "id": 6761374913,
   "store_name": "WorkBuddy - AI Work Agent",
   "developer": "Tencent Technology (Shanghai) Company Limited",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/28/73/2d287343-fdea-da55-f5b9-aa8448609b66/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/52/84/a0/5284a048-5c62-07e4-64b0-19a2b907793b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "World Tides": {
@@ -7917,6 +8885,17 @@
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/23/6a/3e/236a3ee6-ecca-1ac8-6906-227ba3e76bd0/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
+ "WorryTime": {
+  "source": "appstore",
+  "file": "img/apps/worrytime.webp",
+  "color": "#ed2b78",
+  "v": "5294cc8a",
+  "id": 6831730967,
+  "store_name": "WorryTime",
+  "developer": "4858921 Nova Scotia Limited",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/34/4f/eb344f9e-8942-e7fe-c881-bff511b49a98/AppIcon-1x_U007ephone-0-1-85-220-0.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
+ },
  "Wowie: Surprise Gift Box": {
   "source": "appstore",
   "file": "img/apps/wowie-surprise-gift-box.webp",
@@ -7927,6 +8906,15 @@
   "developer": "Berke Keser",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/7f/06/a87f06fc-fb12-0e2d-c47a-3e8c687976be/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
+ },
+ "X": {
+  "source": "thumbnails",
+  "file": "img/apps/x.webp",
+  "color": "#5b6472",
+  "v": "161d2d57",
+  "tngg": 69,
+  "store_name": "X",
+  "hash": "a91eef29c28e"
  },
  "Xbox": {
   "source": "appstore",
@@ -7955,6 +8943,9 @@
  },
  "Xiaomi": {
   "note": "left as a letter: the closest App Store app, Xiaomi Home by Beijing Xiaomi Co., Ltd, may be another app. Pick one here if you know the right one"
+ },
+ "Yebbi: Ink Painting Studio": {
+  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
  },
  "Your Stressy": {
   "source": "appstore",
@@ -7986,7 +8977,7 @@
   "id": 6775038069,
   "store_name": "YourTrackPal: GPS Tracker",
   "developer": "Jeremy Dixon",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/47/52/df475216-fa2c-80bc-7071-fdbde951ac10/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/50/ba/6550bace-f554-c52b-274e-3cc5b01e122d/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "YouTube": {
@@ -8051,6 +9042,9 @@
   "developer": "Google",
   "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/0c/cb/830ccb40-d023-9dcb-071a-7c53bfffd907/logo_youtube_television_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg"
  },
+ "Zas": {
+  "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+ },
  "Zen Browser": {
   "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
  },
@@ -8065,7 +9059,7 @@
   "id": 1127269366,
   "store_name": "Zepp",
   "developer": "Zepp Inc.",
-  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/2b/60/bc2b60b0-a41d-51c6-d812-13402077c7eb/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/db/63/a3/db63a3ca-642e-f075-a43f-2218d3fca4ca/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
   "note": "picked automatically: check it"
  },
  "ZeroG": {
@@ -8081,6 +9075,17 @@
  },
  "ZIV Live": {
   "note": "no App Store match: pick one in the Studio's Icons tab, or keep the letter"
+ },
+ "Zombies Aren't Real": {
+  "source": "appstore",
+  "file": "img/apps/zombies-aren-t-real.webp",
+  "color": "#55c45b",
+  "v": "437a78c4",
+  "id": 6833548041,
+  "store_name": "Zombies Aren't Real",
+  "developer": "Jordan O'Leary",
+  "art": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/86/07/07/860707c9-943f-23b4-799c-71e61558bcaa/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "note": "picked automatically: check it"
  },
  "Zoom": {
   "source": "appstore",
