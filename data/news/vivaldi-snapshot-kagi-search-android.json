@@ -4,20 +4,32 @@
  "added": "2026-11-27",
  "checked": "2026-11-27",
  "topic": "Browsers",
- "tag": "Quick",
- "head": "Vivaldi test builds add Kagi search on Android",
- "dek": "New Vivaldi Snapshot builds, which are previews, add Kagi Private Search as a choice on Android (paid after 100 free searches) and a command on desktop to jump back to your last workspace.",
+ "tag": "Update",
+ "head": "Vivaldi adds Kagi search on Android in new Snapshot builds",
+ "dek": "Vivaldi Snapshot 4242.14 for Android, a preview build out on 25 November, adds Kagi Private Search as a search engine choice; Kagi is ad-free but paid after a free trial, and PiunikaWeb says the first 100 searches are free. The desktop Snapshot 4244.3 adds a command that takes you back to the workspace you used last.",
+ "details": "On Android, long-pressing a level in the ad and tracker blocker settings now opens controls for single blocking sources, and the build fixes several crashes. On desktop, you reach the new command through the quick commands (Cmd+E on a Mac, F2 on Windows) by typing \"Previous\"; extension side panels now also work inside webviews. Snapshots are test versions and may be unstable. Kagi's price isn't given in either source.",
+ "where": "Vivaldi Snapshot for Android (Google Play or APK) and desktop Snapshot for Windows, Mac and Linux; not yet in the regular Vivaldi app",
+ "means": "If you use Vivaldi and want a search engine without ads, Kagi is now on the list in the test version; it costs money after the trial.",
+ "todo": "To try it, install \"Vivaldi Snapshot\" from Google Play next to your regular Vivaldi; otherwise wait for the change to reach the regular app.",
+ "thumb_words": "VIVALDI ADDS KAGI SEARCH",
  "apps": [
   "Vivaldi"
  ],
  "sources": [
+  {
+   "name": "Vivaldi",
+   "url": "https://vivaldi.com/blog/android/android-8-4-4242-14/"
+  },
+  {
+   "name": "Vivaldi",
+   "url": "https://vivaldi.com/blog/desktop/a-minor-chromium-bump-and-more-fixes-desktop-snapshot-4244-3/"
+  },
   {
    "name": "PiunikaWeb",
    "url": "https://piunikaweb.com/2026/11/27/vivaldi-quicker-way-workspaces-and-kagi-private-search-android/"
   }
  ],
  "item": 180130,
- "idea": "news",
- "traction": 0,
- "quick": true
+ "idea": "request",
+ "traction": 0
 }

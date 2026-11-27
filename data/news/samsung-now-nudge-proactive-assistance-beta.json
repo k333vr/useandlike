@@ -4,9 +4,9 @@
  "added": "2026-11-27",
  "checked": "2026-11-27",
  "topic": "Samsung",
- "tag": "Quick",
- "head": "Samsung tests wider Now Nudge suggestions in One UI 9.5 beta",
- "dek": "A hidden, switched-off feature in the One UI 9.5 beta for the Galaxy S26 suggests a call, calendar event or directions when you type or select a number, date or address, SamMobile found. Samsung hasn't announced it.",
+ "tag": "In testing",
+ "head": "Now Nudge on Samsung S26 tests suggestions for text you select",
+ "dek": "A hidden mode called Proactive Assistance in the One UI 9.5 beta for the Galaxy S26 series offers to call a number, add a date to your calendar or open directions when you type or select text, SamMobile found. It's switched off, and Samsung hasn't announced it.",
  "apps": [
   "One UI"
  ],
@@ -17,8 +17,12 @@
   }
  ],
  "item": 177249,
- "idea": "news",
+ "idea": "request",
  "traction": 0,
- "quick": true,
- "rumor": true
+ "rumor": true,
+ "details": "Besides what's on screen, it would also use your location, notifications and the personal details stored in Personal Data Intelligence. Today Now Nudge works mainly from the Samsung Keyboard toolbar. In the beta it also adds a shortcut for web addresses and suggests autofill for forms. A settings section for Google apps suggests they could feed it too; Samsung hasn't said which ones.",
+ "where": "Galaxy S26 series, One UI 9.5 beta (switched off); the stable One UI 9.5 is expected with the Galaxy S27 next year",
+ "means": "If you use Now Nudge on a Galaxy S26, it may later offer help wherever you highlight text, using more of your personal data, which is processed on the phone unless you agree to share it.",
+ "todo": "Nothing to do yet. To see what Now Nudge does today, open Settings > Galaxy AI > Now Nudge.",
+ "thumb_words": "NOW NUDGE: NEW MODE IN TESTING"
 }

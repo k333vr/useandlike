@@ -4,9 +4,9 @@
  "added": "2026-11-27",
  "checked": "2026-11-27",
  "topic": "Travel",
- "tag": "Quick",
- "head": "Expedia agrees to buy flight booking site Kiwi.com",
- "dek": "Expedia Group agreed on 25 November to buy Kiwi.com and plans to add its flight search and low-cost airline fares to Expedia, Hotels.com and Vrbo. The deal is expected to close in the first half of 2027.",
+ "tag": "Big news",
+ "head": "Expedia buying Kiwi.com: flight booking site to join Expedia",
+ "dek": "Expedia Group agreed on 25 November to buy Kiwi.com, the Czech flight search site, from investor General Atlantic. Expedia plans to bring Kiwi.com's flight search and low-cost airline fares to Expedia, Hotels.com and Vrbo.",
  "apps": [
   "Kiwi.com",
   "Expedia"
@@ -18,7 +18,11 @@
   }
  ],
  "item": 175862,
- "idea": "news",
+ "idea": "request",
  "traction": 18,
- "quick": true
+ "details": "Kiwi.com is known for virtual interlining, which combines flights from airlines that don't normally sell together, and it works with Ryanair and easyJet. The price wasn't disclosed. The deal still needs regulatory review and is expected to close in the first half of 2027. Nothing has been said about what happens to the Kiwi.com app or brand.",
+ "where": "Worldwide; expected to close in the first half of 2027",
+ "means": "If you book flights on Kiwi.com, nothing changes yet. Later, Expedia, Hotels.com and Vrbo may show more European low-cost fares.",
+ "todo": "Nothing to do yet: bookings on Kiwi.com and Expedia work as before while the deal waits for approval.",
+ "thumb_words": "EXPEDIA IS BUYING KIWI.COM"
 }

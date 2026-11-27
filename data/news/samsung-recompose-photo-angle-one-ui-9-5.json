@@ -4,10 +4,9 @@
  "added": "2026-11-27",
  "checked": "2026-11-27",
  "topic": "Android",
- "tag": "Quick",
- "quick": true,
- "head": "Samsung may add Recompose to change a photo's angle with AI",
- "dek": "Android Authority found a Galaxy AI tool called Recompose in One UI 9.5 Beta 1's Photo Editor code that would turn a photo into a 3D scene on the phone and use Samsung's cloud to redraw it from a new angle. Samsung hasn't announced it, and it needs a Samsung account and internet for the final step.",
+ "tag": "In testing",
+ "head": "Samsung Recompose may let Galaxy AI change a photo's angle",
+ "dek": "Code in One UI 9.5 Beta 1's Photo Editor shows a Galaxy AI tool called Recompose that would let you change a photo's angle and perspective after you've taken it, Android Authority found. Samsung hasn't announced it, and it may not ship.",
  "apps": [
   "Samsung"
  ],
@@ -18,7 +17,12 @@
   }
  ],
  "item": 178184,
- "idea": "news",
+ "idea": "request",
  "traction": 21,
- "rumor": true
+ "rumor": true,
+ "details": "The phone would build a 3D scene with the 153 MB Spatial Core add-on from the Galaxy Store, then Samsung's cloud would draw the final photo; Android Authority expects it to need internet and a Samsung account, like Samsung's other generative edits. One finger changes the perspective, two fingers pan, zoom and rotate, and a slider moves the background closer or farther away. Photos need a short side of at least 500 pixels. It didn't show up on a Galaxy S26 Ultra in testing, and it's unclear which phones will get it.",
+ "where": "Galaxy phones; found in One UI 9.5 Beta 1 code, not switched on",
+ "means": "If you have a Galaxy phone, a later Photo Assist update could let you reframe a shot after taking it, but Samsung hasn't said which phones would get it.",
+ "todo": "Nothing to do yet; it isn't available, even in the beta.",
+ "thumb_words": "SAMSUNG AI MAY CHANGE PHOTO ANGLES"
 }

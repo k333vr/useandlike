@@ -4,9 +4,9 @@
  "added": "2026-11-27",
  "checked": "2026-11-27",
  "topic": "AI",
- "tag": "Quick",
- "head": "Google says Gemini's high memory use in Chrome is fixed",
- "dek": "Google's support account said on Reddit that the Gemini web app no longer uses several gigabytes of memory in Chrome, and asked anyone still seeing it to report back. You can check a tab's memory in Chrome's Task Manager.",
+ "tag": "Update",
+ "head": "Gemini Chrome memory use: Google says the high RAM issue is fixed",
+ "dek": "Google's support account said on Reddit that the Gemini web app's high memory use in Chrome is resolved, Android Authority reported on 26 November. Users had complained about it for over a year, with one recent screenshot showing more than 5 GB of RAM.",
  "apps": [
   "Gemini",
   "Chrome"
@@ -18,7 +18,11 @@
   }
  ],
  "item": 177448,
- "idea": "news",
+ "idea": "request",
  "traction": 18,
- "quick": true
+ "details": "Earlier reports showed a Gemini tab using 3.6 GB, growing with the length of the session rather than the chat, and another user saw it peak at 8.4 GB. Google didn't say what caused it or what it changed, and Android Authority hasn't confirmed the fix itself. Google asked anyone who still sees high memory use in Chrome to report it.",
+ "where": "The Gemini web app in Chrome, on computers",
+ "means": "If Gemini in a Chrome tab has slowed your computer down, it should now use less memory.",
+ "todo": "Open Chrome's Task Manager (or hover over the tab) to see how much memory Gemini uses, and report it through Chrome's \"Report an issue\" if it's still high.",
+ "thumb_words": "GEMINI CHROME RAM ISSUE FIXED"
 }

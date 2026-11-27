@@ -4,11 +4,10 @@
  "added": "2026-11-27",
  "checked": "2026-11-27",
  "topic": "Apple",
- "tag": "Quick",
- "quick": true,
+ "tag": "Leak",
  "rumor": true,
- "head": "Leak: a limited iPhone 20 Pro may use ceramic parts",
- "dek": "Leaker Fixed Focus Digital says on Weibo they have ceramic parts for the 20th-anniversary iPhone, made in very small numbers, which points to a limited edition. Apple hasn't confirmed it, and which parts are ceramic isn't clear.",
+ "head": "iPhone 20 Pro ceramic rumor points to a limited edition",
+ "dek": "Leaker Fixed Focus Digital says on Weibo they have ceramic parts for Apple's 20th-anniversary iPhone, expected in fall 2027, and that very few will be made, which suggests a limited edition. Apple hasn't confirmed it, and the leaker didn't say which parts are ceramic.",
  "apps": [
   "iPhone"
  ],
@@ -19,6 +18,11 @@
   }
  ],
  "item": 178310,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "The leaker added that the project would go into mass production if it passes engineering validation testing. It's not clear whether that means a ceramic back, a bigger part of the case or a smaller outside part. Leakers call the phone iPhone 20 Pro, but Apple's name for it isn't known. Apple already sells ceramic cases on the Apple Watch Series 12 in Pearl White and Night Blue.",
+ "where": "iPhone, expected fall 2027; not confirmed",
+ "means": "If you're waiting for the anniversary iPhone, a ceramic version may come in small numbers, but nothing about it is confirmed.",
+ "todo": "Nothing to do yet.",
+ "thumb_words": "CERAMIC IPHONE 20 PRO?"
 }

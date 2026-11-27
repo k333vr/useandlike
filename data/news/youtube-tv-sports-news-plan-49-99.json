@@ -4,10 +4,9 @@
  "added": "2026-11-27",
  "checked": "2026-11-27",
  "topic": "Streaming",
- "tag": "Quick",
- "quick": true,
- "head": "YouTube TV Sports + News plan: $49.99 a month for new users",
- "dek": "New YouTube TV users in the US pay $49.99 a month for the first 6 months of the Sports + News plan, then $71.99 a month. YouTube's page says the offer ends on 2 December, has no refunds and eligibility rules apply.",
+ "tag": "Offer",
+ "head": "YouTube TV Sports + News plan price: $49.99 a month for 6 months",
+ "dek": "New YouTube TV users in the US can get the Sports + News plan for $49.99 a month for their first 6 months, then $71.99 a month. YouTube's page says the offer ends on 2 December.",
  "apps": [
   "YouTube TV"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 181801,
- "idea": "news",
- "traction": 15
+ "idea": "request",
+ "traction": 15,
+ "details": "YouTube says that saves $132 over the 6 months. The plan has 50+ channels, for example local NBC, CBS, FOX and ABC (depending on your ZIP code), ESPN, TNT, TBS, FOX News Channel, MS NOW, CNN and Newsmax, but no family and entertainment channels. It includes unlimited DVR, multiview and 6 household accounts with 3 streams; NFL Sunday Ticket costs extra. The terms say no refunds, eligibility rules apply and you can cancel anytime; the main YouTube TV plan is $82.99 a month.",
+ "where": "US, new YouTube TV users only, until 2 December",
+ "means": "If you mostly watch sports and news, this plan costs less than the main YouTube TV plan, but you won't get family or entertainment channels.",
+ "todo": "Check the channel list for your ZIP code on YouTube TV's page before 2 December, and keep in mind there are no refunds and the price goes to $71.99 after 6 months.",
+ "thumb_words": "YOUTUBE TV SPORTS + NEWS: $49.99"
 }

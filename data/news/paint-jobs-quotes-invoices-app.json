@@ -1,13 +1,17 @@
 {
- "added": "2026-11-27",
- "checked": "2026-11-27",
- "tag": "Quick",
- "quick": true,
  "slug": "paint-jobs-quotes-invoices-app",
  "date": "2026-11-26",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
  "topic": "Business",
- "head": "Paint Jobs: new $9.99 app for painters' quotes and invoices",
- "dek": "Paint Jobs keeps painting jobs, photos, estimates and PDF invoices in one iPhone and iPad app, with a one-time price and no account. It came out on 25 November and was #29 in paid Business apps on the US App Store on 26 November.",
+ "tag": "New app",
+ "head": "Paint Jobs: painting estimate app for quotes and invoices on iPhone",
+ "dek": "Paint Jobs keeps a painter's customers, job photos, estimates and PDF invoices in one iPhone and iPad app for a one-time $9.99, with no subscription and no account. It came out on 25 November and was #29 in paid Business apps on the US App Store on 26 November.",
+ "details": "Labor can be priced by the hour or as a flat amount, materials get quantities and unit prices, and you set tax yourself for labor, materials or both. An estimate turns into an invoice with due dates and paid status, and you send the PDF yourself by email or message. The data stays on the device; the app doesn't look up tax rates, take payments or send anything on its own, and the listing advises saving important PDFs outside the app. It needs iOS 17 or later.",
+ "where": "iPhone and iPad (iOS 17 or later), also Mac with Apple silicon, US App Store, $9.99 one-time",
+ "means": "If you paint for a living and write quotes by hand or in a spreadsheet, this app keeps the job from first photo to invoice in one place, without a monthly fee.",
+ "todo": "Search \"Paint Jobs\" in the App Store; save important PDFs somewhere outside the app, as the listing advises.",
+ "thumb_words": "PAINTERS GET A QUOTE APP",
  "apps": [
   "Paint Jobs"
  ],
@@ -18,6 +22,6 @@
   }
  ],
  "item": 181882,
- "idea": "newcomer",
+ "idea": "request",
  "traction": 0
 }

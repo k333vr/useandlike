@@ -4,10 +4,14 @@
  "added": "2026-11-27",
  "checked": "2026-11-27",
  "topic": "AI",
- "tag": "Quick",
- "quick": true,
- "head": "Chirpy Weather: a free iPhone weather app you can ask questions",
- "dek": "Chirpy Weather answers plain questions like whether it will rain before 6pm and builds a plan around the forecast for a run, commute or trip; it's free with in-app purchases. It was #87 among free Weather apps on the US App Store on 26 November.",
+ "tag": "New app",
+ "head": "Chirpy Weather: AI weather app for iPhone you can ask questions",
+ "dek": "Chirpy Weather answers plain questions such as whether it will rain before evening, and builds a plan around the forecast for a run, a commute or a weekend trip: when to leave, what to bring, whether to move it. It's free with in-app purchases and was #87 among free Weather apps on the US App Store on 26 November.",
+ "details": "It also sends alerts for rain, storms, heat and wind, saves home, work and other places, and has daily tasks, rewards and levels. In-app purchases called \"Unlock all Access\" cost $9.99, $19.99 or $29.99; the listing doesn't say what each includes. The app shows ads, and its privacy label says the device ID is used to track you for advertising. It needs iOS 15 or later and is in English and 15 more languages.",
+ "where": "iPhone (iOS 15 or later), App Store, free with in-app purchases and ads",
+ "means": "If you want a forecast that tells you when to head out, this app answers in plain words, with ads and paid unlocks.",
+ "todo": "Search \"Chirpy Weather\" in the App Store; check what an unlock includes before paying, and allow tracking only if you're fine with ad tracking.",
+ "thumb_words": "WEATHER APP YOU CAN TALK TO",
  "apps": [
   "Chirpy Weather"
  ],
@@ -18,6 +22,6 @@
   }
  ],
  "item": 181878,
- "idea": "newcomer",
+ "idea": "request",
  "traction": 0
 }

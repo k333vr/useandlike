@@ -4,10 +4,9 @@
  "added": "2026-11-27",
  "checked": "2026-11-27",
  "topic": "Google",
- "tag": "Quick",
- "head": "Gemini for Home adds \"tell me a story\" and quicker smart home commands",
- "dek": "Google's 25 November Google Home update starts rolling out storytelling with expressive voices for Gemini for Home Early Access users, and faster responses to common commands such as lights are fully out. A faster Gemini Live that can set timers and turn off lights follows over the coming weeks.",
- "quick": true,
+ "tag": "New feature",
+ "head": "Google Home \"tell me a story\": Gemini for Home adds storyteller voices",
+ "dek": "Saying \"Hey Google, tell me a story\" now gets a story with more expressive storyteller voices for Gemini for Home Early Access users, from 25 November. You can change the plot while it plays, and Google says common smart home commands now respond faster.",
  "apps": [
   "Google Home",
   "Gemini"
@@ -23,6 +22,11 @@
   }
  ],
  "item": 173744,
- "idea": "news",
- "traction": 26
+ "idea": "request",
+ "traction": 26,
+ "details": "Google's release notes say the quicker smart home commands are fully rolled out. A faster Gemini Live, started with \"Hey Google let's chat\", rolls out over the coming weeks and can now set timers and turn off lights. Google also fixed follow-ups like \"turn them back on\" losing context, and \"stop\" answering \"nothing is playing\". On supported smart displays, a \"Sources\" button shows the websites behind a web answer.",
+ "where": "Gemini for Home Early Access, from 25 November; Gemini Live changes over the coming weeks",
+ "means": "If your Google speaker or display runs Gemini for Home Early Access, bedtime stories now sound more like a storyteller and you can steer them. Everyday commands for lights should also feel quicker.",
+ "todo": "Say \"Hey Google, tell me a story\" and try asking for a twist, for example magical powers for the main character. Google's notes don't list countries or devices.",
+ "thumb_words": "GOOGLE HOME NOW TELLS STORIES"
 }

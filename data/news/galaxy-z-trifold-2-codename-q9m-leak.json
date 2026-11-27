@@ -2,12 +2,11 @@
  "slug": "galaxy-z-trifold-2-codename-q9m-leak",
  "date": "2026-11-25",
  "added": "2026-11-26",
- "checked": "2026-11-26",
+ "checked": "2026-11-27",
  "topic": "Android",
- "tag": "Quick",
- "quick": true,
- "head": "Leak: Galaxy Z TriFold 2 codename Q9m hints at another limited launch",
- "dek": "GalaxyClub reports the second tri-fold phone's codename is Q9m and suspects it will again reach only a few markets, possibly not Europe, according to Android Authority. Samsung hasn't confirmed it; its next foldables aren't expected before summer 2027.",
+ "tag": "Leak",
+ "head": "Galaxy Z TriFold 2 leak: codename hints at few markets again",
+ "dek": "Dutch site GalaxyClub reports the second tri-fold phone's codename is Q9m and suspects it will again reach only a few markets, possibly not Europe, Android Authority says. Samsung hasn't confirmed it.",
  "apps": [
   "Samsung"
  ],
@@ -21,7 +20,12 @@
  "items": [
   176679
  ],
- "idea": "news",
+ "idea": "request",
  "traction": 0,
- "rumor": true
+ "rumor": true,
+ "details": "The codename follows the first TriFold's Q7m and the Fold Special Edition's Q6a, and neither of those launched worldwide. The first Galaxy Z TriFold cost $2,899, sold in small numbers in a handful of markets and was discontinued months after launch. Earlier reports said Samsung plans to make many more TriFold 2 units in 2027, which doesn't mean more countries. Samsung's next foldables aren't expected before summer 2027.",
+ "where": "Not confirmed; Samsung's next foldables are expected in summer 2027",
+ "means": "If you'd want the TriFold 2 in Europe or another market that missed the first one, it may be hard to get again.",
+ "todo": "Nothing to do yet.",
+ "thumb_words": "TRIFOLD 2: FEW COUNTRIES AGAIN?"
 }

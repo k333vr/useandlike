@@ -1,13 +1,12 @@
 {
  "added": "2026-11-27",
  "checked": "2026-11-27",
- "tag": "Quick",
- "quick": true,
+ "tag": "Safety",
  "slug": "remus-gmail-fake-google-sheets-extension",
  "date": "2026-11-25",
  "topic": "Security",
- "head": "Remus malware reads Gmail through a fake Google Sheets extension",
- "dek": "Researchers at GenDigital found that the \"Gmail zero-day\" advertised by the Remus Stealer malware is a fake Chrome extension called Google Sheets that it installs on infected Windows PCs to read unread mail. Check chrome://extensions for an unfamiliar Google Sheets entry and scan the PC before signing back in.",
+ "head": "Gmail malware hides in a fake Google Sheets Chrome extension",
+ "dek": "Remus, password-stealing malware sold as a service, reads unread Gmail through a fake Chrome extension named \"Google Sheets\" that it installs on infected Windows PCs, researchers at GenDigital found. Its sellers had advertised it since 8 November as a \"Gmail zero-day\".",
  "apps": [
   "Gmail",
   "Chrome"
@@ -23,6 +22,11 @@
   }
  ],
  "item": 175954,
- "idea": "news",
- "traction": 18
+ "idea": "request",
+ "traction": 18,
+ "details": "The extension copies the description of Google's Docs Offline extension, asks for access to all websites and turns on Chrome's Developer Mode. Every minute it checks up to 10 signed-in Gmail accounts for unread mail and sends the text, subject and sender to the attackers, which can include verification codes and password-reset links. Signing out stops it only until you sign back in on that PC, because the extension stays installed. The sellers offered Gmail interception in a $1,000-a-month tier; GenDigital and Invoke RE published their findings on 25 November.",
+ "where": "Infected Windows PCs with Chrome; only Chrome is targeted",
+ "means": "If your PC is infected, changing your Google password alone won't stop this: the extension keeps reading new mail once you sign in again on that computer.",
+ "todo": "Open chrome://extensions in each Chrome profile and remove an unfamiliar \"Google Sheets\" entry or anything you didn't install, and check whether Developer Mode is on. Scan the PC for malware before signing back in, then change your Google password and sign out other sessions from a clean device. Look for Gmail forwarding rules or filters you didn't make, and download software only from trusted sources.",
+ "thumb_words": "FAKE GOOGLE SHEETS READS GMAIL"
 }

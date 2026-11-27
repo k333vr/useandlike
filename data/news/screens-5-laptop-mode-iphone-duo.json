@@ -4,9 +4,14 @@
  "added": "2026-11-27",
  "checked": "2026-11-27",
  "topic": "Apple",
- "tag": "Quick",
- "head": "Screens 5 adds a laptop mode for the iPhone Duo",
- "dek": "Edovia's remote desktop app Screens 5 now shows your Mac on the top half of a half-folded iPhone Duo with a keyboard and trackpad below, in version 5.10.6. The app needs a subscription, which Macworld puts at $4.99 a month.",
+ "tag": "New feature",
+ "head": "iPhone Duo laptop mode: Screens 5 shows your Mac on the top half",
+ "dek": "Edovia's remote desktop app Screens 5 has a laptop mode for the iPhone Duo in version 5.10.6, out on iPhone since 25 November: fold the phone halfway and your Mac appears on the upper half, with a keyboard and trackpad on the lower half.",
+ "details": "The trackpad takes the same gestures as the regular Screens app, and the keyboard follows your system language; swiping down on a key gives its second character, as on an iPad. The app is free to download but needs a subscription, which Macworld puts at $4.99 a month; Edovia offers a 7-day free trial. Edovia told Macworld the matching Mac update was waiting for App Store approval.",
+ "where": "iPhone Duo with Screens 5 version 5.10.6 and a Screens subscription, out now",
+ "means": "If you have an iPhone Duo and need your Mac while away from it, the phone can now work like a tiny laptop for it, as long as you pay for Screens.",
+ "todo": "Update Screens 5, fold the Duo halfway, connect to your Mac and turn on laptop mode; if you start the trial, cancel before it ends if you don't want to pay.",
+ "thumb_words": "IPHONE DUO BECOMES A LAPTOP",
  "apps": [
   "Screens 5"
  ],
@@ -14,10 +19,13 @@
   {
    "name": "Macworld",
    "url": "https://www.macworld.com/article/3298561/turn-your-iphone-duo-into-the-worlds-smallest-laptop-with-this-cute-app.html"
+  },
+  {
+   "name": "Edovia",
+   "url": "https://edovia.com/en/screens/"
   }
  ],
  "item": 179247,
- "idea": "news",
- "traction": 0,
- "quick": true
+ "idea": "request",
+ "traction": 0
 }

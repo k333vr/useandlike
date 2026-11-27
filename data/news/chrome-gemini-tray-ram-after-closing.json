@@ -1,13 +1,12 @@
 {
  "added": "2026-11-27",
  "checked": "2026-11-27",
- "tag": "Quick",
- "quick": true,
+ "tag": "Heads-up",
  "slug": "chrome-gemini-tray-ram-after-closing",
  "date": "2026-11-24",
  "topic": "Google",
- "head": "Chrome keeps running after closing on Windows? Check the Gemini tray setting",
- "dek": "A user found Chrome processes using an estimated 300 to 700 MB of RAM after closing, kept alive by Gemini's system tray option on Windows. Turning it off at chrome://settings/ai/gemini stopped them on that PC.",
+ "head": "Chrome still running after closing on Windows: the Gemini tray setting",
+ "dek": "A Windows user found that Chrome kept running in the background after being closed, using an estimated 300 to 700 MB of RAM, because of Gemini's system tray option. Turning that option off let Chrome close fully on that PC.",
  "apps": [
   "Chrome",
   "Gemini"
@@ -19,6 +18,11 @@
   }
  ],
  "item": 167185,
- "idea": "news",
- "traction": 18
+ "idea": "request",
+ "traction": 18,
+ "details": "The setting is called \"Show Gemini in system tray and turn on keyboard shortcut on Windows\"; the tray icon and the shortcut need a process that keeps running. The user had already turned off \"Continue running background apps\", removed extensions, cleared the cache and reset settings without luck, and a new, signed-out Chrome profile closed normally. MakeUseOf found the background-apps switch was the cause in its own test, with a Gemini process using over 1 GB. The fix was confirmed on one PC only.",
+ "where": "Chrome on Windows, signed-in profiles with Gemini in Chrome",
+ "means": "If your PC feels slow or Task Manager still shows chrome.exe after you close Chrome, a Gemini setting may be keeping it awake.",
+ "todo": "In Chrome, go to Settings, System and turn off \"Continue running background apps\". Then open chrome://settings/ai/gemini and turn off \"Show Gemini in system tray and turn on keyboard shortcut on Windows\". Close Chrome and check Task Manager that no Chrome processes are left.",
+ "thumb_words": "CHROME WON'T CLOSE? GEMINI SETTING"
 }

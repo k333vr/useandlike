@@ -4,10 +4,14 @@
  "added": "2026-11-27",
  "checked": "2026-11-27",
  "topic": "Android",
- "tag": "Quick",
- "quick": true,
- "head": "Enough Phone gets 12GB RAM, 256GB storage and a bigger battery",
- "dek": "The small Android phone on Kickstarter moves from 8GB to 12GB of RAM, from 128GB to 256GB of storage and gets a 3,850 mAh battery, at no extra cost to backers. Backer tiers start at $449, retail is expected at $599, and it's due around May 2027.",
+ "tag": "Update",
+ "head": "Enough Phone specs upgrade: 12GB RAM, 256GB and a bigger battery",
+ "dek": "The Enough Phone, a small Android phone with a 5.3-inch screen funding on Kickstarter, now gets 12GB of RAM instead of 8GB, 256GB of storage instead of 128GB and a 3,850 mAh battery, at no extra cost to backers. The company confirmed the changes to 9to5Google this week.",
+ "details": "The phone is about the footprint of an iPhone 13 Mini, but thicker, and runs on a MediaTek Dimensity 7500 with a user-replaceable battery, a 50MP rear camera and stock Android or the minimal OdysseyOS, with updates through 2032. Backer tiers are $449 (early bird) and $499, retail is planned at $599, and shipping is estimated for around May 2027. The campaign had about a week left and was mostly funded on 25 November.",
+ "where": "Kickstarter backers worldwide; shipping estimated around May 2027",
+ "means": "If you want a small Android phone, the one you back now comes with more memory, storage and battery for the same pledge, but it's a crowdfunded phone that ships next year.",
+ "todo": "If you're interested, read the Kickstarter page before the campaign ends; crowdfunded phones can be late or change before they ship.",
+ "thumb_words": "SMALL ANDROID PHONE GETS 12GB RAM",
  "apps": [
   "Enough Phone"
  ],
@@ -15,9 +19,13 @@
   {
    "name": "9to5Google",
    "url": "https://9to5google.com/2026/11/25/enough-phone-ram-storage-battery-upgrades/"
+  },
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/04/enough-phone-small-android-phone-2027/"
   }
  ],
  "item": 173751,
- "idea": "news",
+ "idea": "request",
  "traction": 0
 }

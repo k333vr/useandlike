@@ -4,10 +4,9 @@
  "added": "2026-11-27",
  "checked": "2026-11-27",
  "topic": "AI",
- "tag": "Quick",
- "quick": true,
- "head": "Claude adds skills and background tasks from connected apps",
- "dek": "Anthropic lets apps connected to Claude through MCP bring their own step-by-step skills (a public beta, on by default for Pro, Max and Ultra), run long jobs in the background and ask you for approval mid-task. They only show up with a connected service that supports them.",
+ "tag": "New feature",
+ "head": "Claude MCP skills: connected apps add skills and background tasks",
+ "dek": "Apps connected to Claude through MCP can now bring their own step-by-step skills, run long jobs in the background and stop to ask you before an important step, Anthropic announced on 24 November.",
  "apps": [
   "Claude"
  ],
@@ -18,6 +17,11 @@
   }
  ],
  "item": 180152,
- "idea": "news",
- "traction": 0
+ "idea": "request",
+ "traction": 0,
+ "details": "Skills over MCP is a public beta, on by default for Pro, Max and Ultra; Team needs an administrator to turn it on and Enterprise is \"coming soon\". Background tasks and the mid-task questions are out for Pro, Max and Ultra and rolling out to Team and Enterprise. Examples: Shopify skills for designing online stores, HubSpot skills for onboarding customers, ZoomInfo using background tasks for account and contact research, Supabase asking you to confirm costs before creating paid projects, and GitHub asking for a repository's name before deleting it. It applies to Claude and Claude Code; file uploads to connected apps are still rolling out.",
+ "where": "Claude and Claude Code; Pro, Max and Ultra first, Team and Enterprise later",
+ "means": "If you connect apps like Shopify or GitHub to Claude, they can now teach Claude how to use them and check with you before costly or risky steps.",
+ "todo": "Nothing to set up on Pro, Max or Ultra: the skills appear when a connected app supports them. On a Team plan, ask your administrator to turn them on.",
+ "thumb_words": "CLAUDE ADDS MCP SKILLS"
 }
