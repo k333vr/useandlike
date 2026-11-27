@@ -1,0 +1,28 @@
+{
+ "slug": "google-home-gemini-tell-me-a-story",
+ "date": "2026-11-25",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Google",
+ "tag": "Quick",
+ "head": "Gemini for Home adds \"tell me a story\" and quicker smart home commands",
+ "dek": "Google's 25 November Google Home update starts rolling out storytelling with expressive voices for Gemini for Home Early Access users, and faster responses to common commands such as lights are fully out. A faster Gemini Live that can set timers and turn off lights follows over the coming weeks.",
+ "quick": true,
+ "apps": [
+  "Google Home",
+  "Gemini"
+ ],
+ "sources": [
+  {
+   "name": "Google Home Help",
+   "url": "https://support.google.com/googlehome/answer/15962877?hl=en"
+  },
+  {
+   "name": "Droid Life",
+   "url": "https://www.droid-life.com/2026/11/25/google-and-gemini-for-home-get-19-changes-in-fresh-update/"
+  }
+ ],
+ "item": 173744,
+ "idea": "news",
+ "traction": 26
+}

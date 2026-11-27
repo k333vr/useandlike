@@ -1,0 +1,28 @@
+{
+ "slug": "deadzone-offline-navigation-app-iphone",
+ "date": "2026-11-26",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Travel",
+ "tag": "New app",
+ "head": "Offline navigation app DeadZone maps hikes and trips without signal",
+ "dek": "DeadZone: Offline Navigation, a $3.99 iPhone and iPad app, lets you download maps and track your route where there's no cell coverage, for hiking, cycling, hunting, camping and off-road trips. It was #56 among paid Navigation apps on the US App Store on 26 November.",
+ "details": "It has trail discovery, saved places, a GPS breadcrumb trail, trip checklists, a compass, a flashlight and sound signals. Searching for new trails and live conditions may not work offline. The listing says it works without an account and is an extra tool, not a replacement for emergency gear or official maps; its flashlight and signals don't call emergency services. The maker is Bella Luna Tech, and the app is out since 21 November.",
+ "where": "iPhone and iPad (iOS 16 or later), $3.99",
+ "means": "If you head into places without signal, the app keeps your map and route on the phone instead of relying on a connection.",
+ "todo": "Download the maps for your area before you leave coverage, and still carry a paper map or emergency device on remote trips.",
+ "apps": [
+  "DeadZone"
+ ],
+ "category": "Travel",
+ "sources": [
+  {
+   "name": "App Store: DeadZone: Offline Navigation",
+   "url": "https://apps.apple.com/us/app/deadzone-offline-navigation/id6833670646"
+  }
+ ],
+ "item": 181876,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "DEADZONE: MAPS WITHOUT SIGNAL"
+}

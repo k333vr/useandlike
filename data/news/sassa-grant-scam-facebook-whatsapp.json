@@ -1,0 +1,24 @@
+{
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "tag": "Quick",
+ "quick": true,
+ "slug": "sassa-grant-scam-facebook-whatsapp",
+ "date": "2026-11-25",
+ "topic": "Security",
+ "head": "SASSA warns of grant scams on Facebook and WhatsApp",
+ "dek": "South Africa's SASSA says Facebook pages and ads named \"SASSA SRD 370\" and messages on WhatsApp and SMS are trying to get grant recipients' details and PINs. A SASSA official will never ask for your PIN; check doubtful messages on the toll-free line 0800 601 011.",
+ "apps": [
+  "Facebook",
+  "WhatsApp"
+ ],
+ "sources": [
+  {
+   "name": "EWN",
+   "url": "https://www.ewn.co.za/sassa-warns-grant-recipients-about-facebookwhatsapp-scam"
+  }
+ ],
+ "item": 175644,
+ "idea": "news",
+ "traction": 0
+}

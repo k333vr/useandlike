@@ -1,0 +1,27 @@
+{
+ "slug": "gemini-live-guided-vision-iphone",
+ "date": "2026-11-25",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "AI",
+ "tag": "New feature",
+ "head": "Gemini Live Guided Vision now on iPhone: the camera describes and guides",
+ "dek": "Guided Vision in Gemini Live, which talks you through what your phone's camera sees, is now available on iPhone, Google said on 25 November. It came to Android on 1 October.",
+ "details": "Gemini describes the scene aloud, answers follow-up questions and gives cues like \"pan slowly to the right\" or \"step back\", for example to read small print on a food package or find a dropped earbud. Google built it with blind and low-vision users and the visual interpreting service Aira. Google hasn't published iPhone setup steps, an iOS version or the countries and languages it works in. It can make mistakes and isn't meant for navigation or spotting obstacles.",
+ "where": "iPhone, in the Gemini app's Gemini Live; also on Android since 1 October",
+ "means": "If you have trouble reading small print or finding things, your iPhone's camera can now describe them to you in Gemini Live. Don't rely on it to get around safely.",
+ "todo": "Update the Gemini app, open Gemini Live and point the camera at what you want described. If you don't see it yet, Google hasn't said when it reaches every country.",
+ "thumb_words": "GEMINI GUIDED VISION ON IPHONE",
+ "apps": [
+  "Gemini"
+ ],
+ "sources": [
+  {
+   "name": "Digital Trends",
+   "url": "https://www.digitaltrends.com/phones/gemini-lives-guided-vision-now-works-on-iphone-but-google-left-out-a-few-details/"
+  }
+ ],
+ "item": 177160,
+ "idea": "news",
+ "traction": 21
+}

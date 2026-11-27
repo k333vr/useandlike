@@ -1,0 +1,28 @@
+{
+ "slug": "fake-courier-tracking-scam-black-friday",
+ "date": "2026-11-26",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "Fake delivery scam: 54 fake couriers send tracking for parcels never sent",
+ "dek": "Fake online shops are giving buyers real-looking tracking numbers from made-up courier companies, so the order seems to be on its way while nothing was ever shipped. NordVPN's researchers found a network of 54 such fake couriers, most of them run from China.",
+ "details": "NordVPN's Threat Intelligence team found the network by going through victims' complaints online and says thousands of shoppers worldwide have been hit. The shop pays for a delivery record, and when the parcel doesn't come, the shop stops answering and refunds don't happen. The fake tracking also helps the scammers keep card payments and win disputes over goods marked 'delivered'. The platform behind it runs on one server in Hong Kong, which was linked to at least five of the 54 courier brands.",
+ "where": "Online shoppers worldwide, during the Black Friday sales",
+ "means": "If you bought from a shop you found through an ad and the tracking page shows a courier you've never heard of, the parcel may not exist.",
+ "todo": "Check a brand's own website instead of clicking a big-discount ad on social media. Before you buy, look at which courier the shop uses: unknown courier names, brand-new websites, no physical address and free email addresses are warning signs. Pay by credit card or a payment service with buyer protection. If a parcel shows 'Delivered' but never came, ask your local delivery service and open a dispute with your bank or payment provider quickly, with screenshots of the tracking history and the shop's website.",
+ "thumb_words": "54 FAKE COURIERS, NO PARCEL",
+ "apps": [
+  "NordVPN"
+ ],
+ "sources": [
+  {
+   "name": "TechRadar",
+   "url": "https://www.techradar.com/vpn/vpn-services/black-friday-delivery-scams-nordvpn"
+  }
+ ],
+ "item": 179802,
+ "idea": "news",
+ "traction": 34,
+ "rank": 1
+}

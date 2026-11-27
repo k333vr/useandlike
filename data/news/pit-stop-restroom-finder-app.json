@@ -1,0 +1,28 @@
+{
+ "slug": "pit-stop-restroom-finder-app",
+ "date": "2026-11-26",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Travel",
+ "tag": "New app",
+ "head": "Pit Stop: a bathroom finder app for iPhone that ranks nearby restrooms",
+ "dek": "Pit Stop finds public restrooms near you or any address and sorts them by walking or driving time, whether they're open now and how clean other users rate them. The 99-cent app was #87 among paid Navigation apps on the US App Store on 26 November.",
+ "details": "It takes its restrooms from OpenStreetMap and Refuge Restrooms and shows them on a map and in a list, within 5, 10 or 20 minutes. Filters include open now, wheelchair access, changing table, all-gender, public access and hotels, and you can hide portable toilets. You can rate a restroom from 1 to 5 and add a photo, both anonymous, and get directions in Apple Maps or Google Maps with one tap. It has no account and no ads, needs iOS 15 and came out on 5 November from developer Justin Turing.",
+ "where": "iPhone (iOS 15 or later), App Store, $0.99",
+ "means": "If you travel, drive long distances or have kids, this app shows which nearby bathrooms are open and usable, with filters for accessibility and changing tables.",
+ "todo": "Search \"Pit Stop: Restroom Finder\" in the App Store; rate the restrooms you use to help the next person.",
+ "thumb_words": "PIT STOP FINDS THE NEAREST BATHROOM",
+ "apps": [
+  "Pit Stop: Restroom Finder"
+ ],
+ "category": "Travel",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/pit-stop-restroom-finder/id6827688584"
+  }
+ ],
+ "item": 181877,
+ "idea": "newcomer",
+ "traction": 0
+}

@@ -1,0 +1,28 @@
+{
+ "slug": "samsung-private-cloud-galaxy-ai-code",
+ "date": "2026-11-26",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Privacy",
+ "tag": "In testing",
+ "rumor": true,
+ "head": "Galaxy AI privacy: Samsung private cloud spotted in One UI 9.5 code",
+ "dek": "Code in the One UI 9.5 beta shows Samsung building a system called SPAC that would send Galaxy AI requests to its servers without showing who sent them, Android Authority found. Samsung hasn't announced it or said anything about it.",
+ "details": "Android Authority found SPAC in four apps of the beta on a Galaxy S26 Ultra: Photo Editor, Smart Capture, PhotoRemasterService and IntelliVoiceService. According to the code, requests pass through an outside relay, the phone checks that Samsung's servers run unchanged software listed in a public record, and one-time anonymous passes prove it's a Galaxy phone. Android Authority says this closely matches Apple's Private Cloud Compute. The code links it to features like the cloud AI eraser, photo upscaling and live translation, but none used it in testing.",
+ "where": "Found in One UI 9.5 beta code; not switched on yet",
+ "means": "If you use Galaxy AI's cloud features, Samsung may later back its privacy promise with technical checks instead of only a policy.",
+ "todo": "Nothing to do yet. If you don't want any Galaxy AI data sent to servers, the \"Process data only on device\" setting turns cloud features off.",
+ "thumb_words": "SAMSUNG PRIVATE CLOUD FOR GALAXY AI?",
+ "apps": [
+  "Galaxy AI"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-one-ui-9-5-spac-private-cloud-galaxy-ai-apk-teardown-3739743/"
+  }
+ ],
+ "item": 179213,
+ "idea": "news",
+ "traction": 15
+}

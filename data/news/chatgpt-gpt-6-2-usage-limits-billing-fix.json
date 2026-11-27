@@ -1,0 +1,31 @@
+{
+ "slug": "chatgpt-gpt-6-2-usage-limits-billing-fix",
+ "date": "2026-11-26",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "AI",
+ "tag": "Heads-up",
+ "head": "ChatGPT usage limits run out faster on GPT-6.2 after a billing fix",
+ "dek": "ChatGPT usage limits now run out about 40% faster with GPT-6.2 Astra and about 25% faster with GPT-6.2 Sol than last week, because OpenAI fixed a launch mistake that had counted these models' usage at a discount. Go, Plus, Pro and Business subscribers get one extra usage reset in return.",
+ "details": "OpenAI's Thibault Sottiaux announced the fix on X on 26 November. OpenAI says it won't charge for the difference on past GPT-6.2 usage, and other models keep their usual usage counting. The reset is saved to your account and expires a month after it's added, BleepingComputer reports; tbreak reports it can only be used once a covered allowance is below 80% and that it isn't in the mobile app.",
+ "where": "ChatGPT Go, Plus, Pro and Business; web and desktop app",
+ "means": "If you use GPT-6.2 Astra or Sol on a paid plan, the same work now takes a bigger share of your allowance, so you may reach your limit sooner.",
+ "todo": "Open Settings, then Usage (Usage & billing in the desktop app) on ChatGPT's website or desktop app to see your allowance and use the extra reset when you need it.",
+ "thumb_words": "CHATGPT LIMITS RUN OUT 40% FASTER",
+ "apps": [
+  "ChatGPT"
+ ],
+ "sources": [
+  {
+   "name": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/"
+  },
+  {
+   "name": "tbreak",
+   "url": "https://tbreak.com/gpt-6-2-billing-fix-usage-limits/"
+  }
+ ],
+ "item": 178203,
+ "idea": "news",
+ "traction": 11
+}

@@ -23,5 +23,6 @@
  "where": "OpenAI's GPT-6.2 Astra and Sol models; benchmark by Artificial Analysis",
  "means": "If you use these models, expect tighter answers with less structure, and fewer lines that say the AI isn't sure.",
  "todo": "For important questions, ask the AI how sure it is and check the facts in a second source.",
- "thumb_words": "GPT-6.2: SHORTER ANSWERS, LESS DOUBT"
+ "thumb_words": "GPT-6.2: SHORTER ANSWERS, LESS DOUBT",
+ "video": "yuN54U9K2tc"
 }

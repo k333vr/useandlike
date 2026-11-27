@@ -1,0 +1,68 @@
+{
+ "slug": "windows-11-slow-performance-fix-explained",
+ "date": "2026-11-27",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Windows",
+ "tag": "Explainer",
+ "head": "Windows 11 slow performance fix: Microsoft's own tips explained",
+ "dek": "A slow Windows 11 PC is most often held back by apps that start with Windows, a nearly full drive, missing updates or background apps, and Microsoft's support page walks through switching each of them off.",
+ "sections": [
+  {
+   "h": "Start with a restart and updates",
+   "p": [
+    "Microsoft's support page on PC performance lists twelve steps, and the simplest comes last: close the apps and browser tabs you don't need, then restart. TechRepublic, in a cleanup guide from 8 July 2026, points out that sleep isn't the same as a restart; a restart clears memory, ends stuck processes and finishes pending updates.",
+    "Next, updates. In Settings, open Windows Update and select Check for updates. Under Advanced options, Optional updates may hold driver updates. TechRepublic adds that drivers should come from the PC maker or the graphics card maker, not from random driver sites."
+   ]
+  },
+  {
+   "h": "Apps that start with Windows",
+   "p": [
+    "Every app that launches at sign-in adds to the wait. Press Ctrl, Shift and Escape to open Task Manager, select Startup apps, right-click an app you don't need right away and choose Disable. Windows may show a Startup impact rating for each app, which eWeek, summing up Microsoft's tips on 18 August 2026, suggests checking first.",
+    "Keep your security software, drivers and apps you need for work switched on. Some apps keep running after you close their window, so Microsoft also suggests going to Settings, Apps, Installed apps, opening an app's three-dot menu, then Advanced options, and setting Let this app run in the background to Never."
+   ]
+  },
+  {
+   "h": "Free up space and remove old apps",
+   "p": [
+    "TechRepublic notes that a nearly full SSD can slow the whole system. In Settings, System, Storage, turn on Storage Sense, which can delete temporary files and empty the Recycle Bin on a schedule; Clean now runs it at once. Temporary files in the same place lets you pick what to remove. Be careful with the Downloads folder option, which deletes files you saved.",
+    "Uninstall apps you no longer use in Settings, Apps, Installed apps. Old trials, duplicate tools and one-time installers are common examples. On a work laptop, check with your company before removing security or VPN tools."
+   ]
+  },
+  {
+   "h": "Scan for malware and trim the extras",
+   "p": [
+    "Malware can slow a PC too. In Settings, Privacy and security, Windows Security, Virus and threat protection, run a Quick scan. eWeek notes that switching off your antivirus to save resources isn't advised.",
+    "Visual effects and the power mode also play a part. Search for Adjust the appearance and performance of Windows, open the Visual Effects tab and pick the performance option, which makes Windows look plainer. Under Settings, System, Power and battery, Power mode has a setting that favours speed; Microsoft warns it uses more power and drains a laptop battery faster. Turning off notifications from apps you don't need and running Defragment and Optimize Drives are the last steps on the list."
+   ]
+  },
+  {
+   "h": "When settings won't help",
+   "p": [
+    "Microsoft's page is clear that older PCs with outdated hardware may see little improvement, and that upgrading may be the better long-term fix. TechRepublic says more memory, a larger SSD or a newer processor can help more than any setting. The page also notes that support for Windows 10 ended on 14 October 2025, so a PC still on Windows 10 no longer gets regular updates."
+   ]
+  }
+ ],
+ "means": "If your Windows 11 PC feels slow, the free fixes in Windows itself cover most causes, and none of them needs a paid cleaner app.",
+ "todo": "Restart the PC, then install updates. Open Task Manager with Ctrl, Shift and Escape and disable startup apps you don't need. Run Storage Sense in Settings, System, Storage, uninstall apps you don't use and run a Quick scan in Windows Security. If it's still slow, the hardware may be the limit.",
+ "apps": [
+  "Windows 11"
+ ],
+ "idea": "competitor",
+ "traction": 0,
+ "thumb_words": "WINDOWS 11 SLOW? MICROSOFT'S FIXES",
+ "sources": [
+  {
+   "name": "Microsoft Support: Tips to improve PC performance in Windows",
+   "url": "https://support.microsoft.com/en-us/windows/tips-to-improve-pc-performance-in-windows-b3b3ef5b-5953-fb6a-2528-4bbed82fba96"
+  },
+  {
+   "name": "TechRepublic",
+   "url": "https://www.techrepublic.com/article/news-windows-11-cleanup-guide/"
+  },
+  {
+   "name": "eWeek",
+   "url": "https://www.eweek.com/news/windows-11-performance-tips/"
+  }
+ ]
+}

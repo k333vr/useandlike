@@ -1,0 +1,27 @@
+{
+ "slug": "calc89-graphing-calculator-app",
+ "date": "2026-11-26",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Education",
+ "tag": "New app",
+ "head": "Calc89 graphing calculator app for iPhone with 89-style keys",
+ "dek": "Calc89 is a computer-algebra graphing calculator for iPhone and iPad laid out like the classic 89-style calculator keyboard, so known keystrokes work the same way. It costs $2.99 and was #80 in paid Education apps on the US App Store on 26 November.",
+ "details": "It gives exact answers and covers algebra, calculus, graphing, matrices and statistics, with BASIC programming built in. The developer, Joshua Wood, says data stays on the device, with no account, ads or tracking, and it works without internet. Version 1.1 on 10 November added a way to stop long calculations, hardware keyboard support on iPad and Mac, and crash fixes. It came out on 27 October.",
+ "where": "iPhone and iPad (iOS 18 or later), $2.99",
+ "means": "If you learned on an 89-style calculator, you can use the same key layout on your phone.",
+ "todo": "Check whether your school or exam allows phone calculator apps before you rely on one.",
+ "thumb_words": "CALC89: GRAPHING CALCULATOR APP",
+ "apps": [
+  "Calc89"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/calc89/id6826749082"
+  }
+ ],
+ "item": 181872,
+ "idea": "newcomer",
+ "traction": 0
+}

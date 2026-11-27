@@ -1,0 +1,27 @@
+{
+ "slug": "nuke-keyboard-iphone-app",
+ "date": "2026-11-26",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "Nuke Keyboard: new iPhone keyboard app with on-device dictation",
+ "dek": "Nuke Keyboard is a $4.99 iPhone keyboard with autocorrect, grammar fixes and dictation that run on the phone. It came out on 25 November and was #96 in paid Utilities on the US App Store on 26 November.",
+ "details": "The listing names wider key reach, adjustable haptic and sound feedback, saved phrases you add with one tap, a full emoji panel and a number pad. It can fix grammar and show each change word by word, and rewrite a sentence shorter, friendlier or more formal. Cloud proofreading is optional and only works with your own AI model and key. It needs iOS 26 and is made by Sean Kelly.",
+ "where": "App Store, iPhone (iOS 26 or later), $4.99",
+ "means": "If you want a different keyboard on your iPhone that keeps your typing on the phone, this is a new paid option. Some extra features need Full Access.",
+ "todo": "After buying, add it in Settings, General, Keyboard, Keyboards, Add New Keyboard, then hold the globe key to switch to it.",
+ "thumb_words": "NUKE KEYBOARD FOR IPHONE",
+ "apps": [
+  "Nuke Keyboard"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/nuke-keyboard/id6838675060"
+  }
+ ],
+ "item": 181851,
+ "idea": "newcomer",
+ "traction": 0
+}

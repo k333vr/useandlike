@@ -1,0 +1,24 @@
+{
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "tag": "Quick",
+ "quick": true,
+ "slug": "chrome-gemini-tray-ram-after-closing",
+ "date": "2026-11-24",
+ "topic": "Google",
+ "head": "Chrome keeps running after closing on Windows? Check the Gemini tray setting",
+ "dek": "A user found Chrome processes using an estimated 300 to 700 MB of RAM after closing, kept alive by Gemini's system tray option on Windows. Turning it off at chrome://settings/ai/gemini stopped them on that PC.",
+ "apps": [
+  "Chrome",
+  "Gemini"
+ ],
+ "sources": [
+  {
+   "name": "Windows Forum",
+   "url": "https://windowsforum.com/news/chrome-still-running-after-closing-on-windows-check-the-gemini-system-tray-setting.453903/"
+  }
+ ],
+ "item": 167185,
+ "idea": "news",
+ "traction": 18
+}

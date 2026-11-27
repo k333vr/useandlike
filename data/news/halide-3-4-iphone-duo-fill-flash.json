@@ -16,7 +16,7 @@
   "iPhone Duo"
  ],
  "item": 134778,
- "items": [145146, 147312],
+ "items": [145146, 147312, 179636],
  "idea": "news",
  "traction": 0,
  "thumb_words": "HALIDE TURNS DUO SCREEN INTO A FLASH",
@@ -28,6 +28,7 @@
   {
    "name": "9to5Mac",
    "url": "https://9to5mac.com/2026/11/19/halide-3-4-adds-a-bigger-viewfinder-and-fill-flash-for-iphone-duo/"
-  }
+  },
+  179636
  ]
 }

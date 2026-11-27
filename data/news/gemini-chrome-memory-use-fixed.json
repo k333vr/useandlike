@@ -1,0 +1,24 @@
+{
+ "slug": "gemini-chrome-memory-use-fixed",
+ "date": "2026-11-26",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "AI",
+ "tag": "Quick",
+ "head": "Google says Gemini's high memory use in Chrome is fixed",
+ "dek": "Google's support account said on Reddit that the Gemini web app no longer uses several gigabytes of memory in Chrome, and asked anyone still seeing it to report back. You can check a tab's memory in Chrome's Task Manager.",
+ "apps": [
+  "Gemini",
+  "Chrome"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/google-gemini-chrome-ram-hogging-issue-fixed-3739606/"
+  }
+ ],
+ "item": 177448,
+ "idea": "news",
+ "traction": 18,
+ "quick": true
+}

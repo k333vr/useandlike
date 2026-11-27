@@ -18,12 +18,16 @@
   }
  ],
  "item": 155706,
- "items": [167273],
+ "items": [
+  167273,
+  179574
+ ],
  "idea": "request",
  "traction": 0,
  "details": "The advisory came out on 23 November. It names one flaw, CVE-2026-23871, which may have been used through certain spam messages; WhatsApp says the other four haven't been seen in attacks. Most of them only work if you open or tap a specially made message, link or file. Other possible effects include reading limited chat database details and handling harmful media files or links.",
  "where": "WhatsApp and WhatsApp Business on Android, iPhone, Mac and Windows; advisory from Pakistan, the fixes apply everywhere",
  "means": "If your WhatsApp hasn't updated since spring, a message or file from a stranger could do more than it should.",
  "todo": "Update WhatsApp and WhatsApp Business from the App Store, Google Play or WhatsApp's own site, and turn on automatic updates. Don't use modified versions of WhatsApp. Don't open unexpected files or links from unknown senders, and on Windows check a file's type before you open it. Block and report suspicious accounts in the app.",
- "thumb_words": "WHATSAPP: 5 FLAWS, UPDATE NOW"
+ "thumb_words": "WHATSAPP: 5 FLAWS, UPDATE NOW",
+ "video": "DBgYqfXQkK4"
 }

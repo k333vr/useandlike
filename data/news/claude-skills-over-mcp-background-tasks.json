@@ -1,0 +1,23 @@
+{
+ "slug": "claude-skills-over-mcp-background-tasks",
+ "date": "2026-11-24",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "AI",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Claude adds skills and background tasks from connected apps",
+ "dek": "Anthropic lets apps connected to Claude through MCP bring their own step-by-step skills (a public beta, on by default for Pro, Max and Ultra), run long jobs in the background and ask you for approval mid-task. They only show up with a connected service that supports them.",
+ "apps": [
+  "Claude"
+ ],
+ "sources": [
+  {
+   "name": "TechRepublic",
+   "url": "https://www.techrepublic.com/article/news-anthropic-claude-mcp-skills-background-tasks/"
+  }
+ ],
+ "item": 180152,
+ "idea": "news",
+ "traction": 0
+}

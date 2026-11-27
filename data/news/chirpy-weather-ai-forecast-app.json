@@ -1,0 +1,23 @@
+{
+ "slug": "chirpy-weather-ai-forecast-app",
+ "date": "2026-11-26",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "AI",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Chirpy Weather: a free iPhone weather app you can ask questions",
+ "dek": "Chirpy Weather answers plain questions like whether it will rain before 6pm and builds a plan around the forecast for a run, commute or trip; it's free with in-app purchases. It was #87 among free Weather apps on the US App Store on 26 November.",
+ "apps": [
+  "Chirpy Weather"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/chirpy-weather-talk-to-sky/id6823001523"
+  }
+ ],
+ "item": 181878,
+ "idea": "newcomer",
+ "traction": 0
+}

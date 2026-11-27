@@ -1,0 +1,28 @@
+{
+ "slug": "ios-28-notifications-revamp-rumor",
+ "date": "2026-11-25",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Apple",
+ "tag": "Quick",
+ "head": "iOS 28 may change iPhone notifications, report says",
+ "dek": "MacRumors says several sources told it Apple plans big changes to Notification Center in iOS 28 next year; there are no details yet and Apple hasn't confirmed it.",
+ "apps": [
+  "iOS"
+ ],
+ "sources": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/2026/11/25/rumor-ios-28-to-revamp-notifications/"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/26/ios-28-to-revamp-iphone-notifications-per-report/"
+  }
+ ],
+ "item": 173752,
+ "idea": "news",
+ "traction": 23,
+ "quick": true,
+ "rumor": true
+}

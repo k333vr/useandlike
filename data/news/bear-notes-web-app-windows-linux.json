@@ -1,0 +1,31 @@
+{
+ "slug": "bear-notes-web-app-windows-linux",
+ "date": "2026-11-24",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Productivity",
+ "tag": "New feature",
+ "head": "Bear notes web app: open your Bear notes on Windows and Linux",
+ "dek": "Bear Web lets you view, edit and search your Bear notes in a browser on Windows, Linux or Mac, at web.bear.app. It comes with Bear Pro subscriptions that start on or after 24 November.",
+ "details": "Shiny Frog, the maker of Bear, announced it on 24 November. You sign in with Apple using the same Apple Account as your iCloud, and your notes must already sync with iCloud on a Mac, iPhone or iPad. Changes save to iCloud as you type, and on a computer you mark as trusted an encrypted copy stays in the browser, so edits made offline sync later. Export and encrypted notes aren't on the web yet, it doesn't work with Apple's Advanced Data Protection, and phone browsers work but are still being refined.",
+ "where": "Any browser on Windows, Linux or Mac; Bear Pro",
+ "means": "If you use Bear on an iPhone or Mac but also work on a Windows or Linux computer, you can now reach the same notes there.",
+ "todo": "Go to web.bear.app and sign in with Apple. If your Bear Pro started before 24 November, upgrade from the Bear Pro panel in the app first; allow pop-ups for the site if the sign-in window doesn't open.",
+ "apps": [
+  "Bear"
+ ],
+ "sources": [
+  {
+   "name": "Bear blog",
+   "url": "https://blog.bear.app/2026/11/hello-bear-web/"
+  },
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/note-taking-app-bear-comes-to-the-web-going-beyond-mac-iphone-ipad-and-apple-watch/"
+  }
+ ],
+ "item": 179416,
+ "idea": "newcomer",
+ "traction": 45,
+ "thumb_words": "BEAR NOTES NOW WORK IN A BROWSER"
+}

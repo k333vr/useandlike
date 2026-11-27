@@ -1,0 +1,28 @@
+{
+ "slug": "quick-share-private-sharing-shutting-down",
+ "date": "2026-11-26",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Android",
+ "tag": "Shutdown",
+ "head": "Quick Share Private sharing shutting down on Samsung Galaxy phones",
+ "dek": "Samsung is ending Private sharing in Quick Share, the mode for sending protected files between Galaxy devices. A notice in Quick Share version 13.9.10.5 on the Galaxy Store announces it, and the option is already missing in One UI 9.5 Beta 1.",
+ "details": "Private sharing encrypted files and let the sender set an end date, take back access, and stop the other person from saving, forwarding or screenshotting them. Once it ends, you can't send or receive files this way, and people lose access to files you sent them with it. Samsung hasn't named the end date yet; code in the app still shows a placeholder for it. Normal Quick Share transfers to Android, Windows and supported iPhones aren't affected.",
+ "where": "Galaxy phones and tablets with Quick Share; end date not announced yet",
+ "means": "If you or someone you work with keeps sensitive files that arrived through Private sharing, those files will stop opening after the cutoff.",
+ "todo": "Ask the sender for another copy of any Private sharing file you still need, and plan another way to share sensitive files before the end date.",
+ "apps": [
+  "Quick Share",
+  "Samsung"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-quick-share-private-sharing-shutdown-3739652/"
+  }
+ ],
+ "item": 177668,
+ "idea": "news",
+ "traction": 23,
+ "thumb_words": "QUICK SHARE DROPS PRIVATE SHARING"
+}

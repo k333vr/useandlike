@@ -1,0 +1,78 @@
+{
+ "slug": "black-friday-price-history-check-explained",
+ "date": "2026-11-27",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Shopping",
+ "tag": "Explainer",
+ "category": "Shopping & Mobile",
+ "head": "Black Friday price history: how to check if a deal is real",
+ "dek": "A Black Friday discount is only as real as the price it's compared with, and price history tools on Amazon, in Google Chrome and on price tracking sites show what an item actually cost in the past months.",
+ "sections": [
+  {
+   "h": "Why the crossed-out price can mislead",
+   "p": [
+    "In the US, the Federal Trade Commission's guidance lets a store compare with a former price only if the item was really offered at that price, in good faith, for a reasonably substantial time, WKMG ClickOrlando reported on 30 October 2026. The same report covered research by Consumers' Checkbook, which checked prices of more than two dozen products at each of 25 large US retailers every week for six months from February 2025.",
+    "Checkbook found that 21 of the 25 stores advertised products as on sale more than half the time, and that at 12 of them more than half the tracked products showed false discounts every week or almost every week. Only Apple, Costco and Dell consistently offered real discounts in its research."
+   ]
+  },
+  {
+   "h": "What the UK numbers show",
+   "p": [
+    "Which?, the UK consumer group, tracked 175 home, tech and health products at eight retailers from May 2024 to May 2025. In its report of 25 November 2025, 83% were the same price or cheaper at least once outside the four-week sales period, and none of the deals on Black Friday itself was at its lowest price of the year.",
+    "At Amazon UK, 88% of the tracked deals were the same price or cheaper at other times, and 63% were cheaper. Which? also found Boots using recommended retail prices that had been in place for only a few days, which made some savings look bigger."
+   ]
+  },
+  {
+   "h": "Price history on Amazon",
+   "p": [
+    "Amazon has its own tool. Its help article, published 1 May 2026 and updated on 16 November, says eligible product pages on the website have a price history link right next to the price, showing 30, 90 or 365 days. You can also open Alexa for Shopping, the assistant that was called Rufus until 13 May 2026, from the product page and ask for the price history.",
+    "Amazon lists the US, UK, Canada, India, Japan, Germany, France, Italy and Spain for the feature. Price tracking sites such as camelcamelcamel and Keepa follow Amazon prices too, as both the WKMG report and Which? mention."
+   ]
+  },
+  {
+   "h": "Price history in Google Chrome and Search",
+   "p": [
+    "On a computer, Chrome shows a Shopping Insights button on the right of the address bar on supported product pages. Google's help page for shops says it opens the item's typical price range across other stores, a chart of its price over the past 90 days and a Track option for email alerts when the price drops; on desktop, it is available in the US only. On Android, Google's help page says to tap the price icon in the address bar, then Track to get alerts when the price drops; tracked items are under Bookmarks, Tracked products.",
+    "Chrome's price tracking needs a Google account signed in to Chrome, tab and history sync, and the Make searches and browsing better setting, and it works for people in Australia, Canada, India, Japan and the US."
+   ]
+  },
+  {
+   "h": "Other quick checks",
+   "p": [
+    "Compare the actual selling price at other shops, not the percentage off. The WKMG report suggests reading reviews, where buyers often mention what they paid, and asking stores about price matching. It also warns that countdown timers are there to rush you, and that items on sale now often go on sale again. Which? suggests adding items to a wish list to see price drops, and checking who is selling and shipping a product before you pay."
+   ]
+  }
+ ],
+ "means": "If a Black Friday deal shows a big percentage off, the item may have cost the same or less a few weeks ago, so the past price tells you more than the sale sticker.",
+ "todo": "Before you buy, open the price history: the link next to the price on an Amazon product page, or the Shopping Insights button in Chrome on a computer (US). Compare the price with one or two other shops, and don't let a countdown timer rush you. If the item isn't at a low point, set a price alert and wait.",
+ "apps": [
+  "Amazon",
+  "Google Chrome"
+ ],
+ "idea": "competitor",
+ "traction": 0,
+ "thumb_words": "IS THAT BLACK FRIDAY DEAL REAL?",
+ "sources": [
+  {
+   "name": "Amazon",
+   "url": "https://aboutamazon.com/news/retail/how-to-check-amazon-price-history"
+  },
+  {
+   "name": "Google Chrome Help: Track prices",
+   "url": "https://support.google.com/chrome/answer/11625545"
+  },
+  {
+   "name": "Google Merchant Center Help: Shopping Insights on Chrome",
+   "url": "https://support.google.com/merchants/answer/14198594?hl=en"
+  },
+  {
+   "name": "Which?",
+   "url": "https://www.which.co.uk/policy-and-insight/article/dont-believe-the-hype-most-black-friday-deals-the-same-price-or-cheaper-at-other-times-of-the-year-which-finds-a3TbD5x5KADs"
+  },
+  {
+   "name": "WKMG ClickOrlando",
+   "url": "https://www.clickorlando.com/news/local/2026/10/30/dollars-sense-fake-sales-the-discount-deception/"
+  }
+ ]
+}

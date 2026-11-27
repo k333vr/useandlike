@@ -1,0 +1,28 @@
+{
+ "slug": "37-shades-of-late-transit-widgets-app",
+ "date": "2026-11-26",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Travel",
+ "tag": "New app",
+ "head": "37 Shades of Late puts bus and train times on your iPhone Lock Screen",
+ "dek": "37 Shades of Late is a new 99-cent iPhone app that shows the next buses, trains and ferries at your stop as minutes in Lock Screen and Home Screen widgets. It covers San Francisco, Seattle, New York, Boston, Chicago, Washington, D.C. and Los Angeles.",
+ "details": "You pick a stop by sliding a circle over the corner where you wait on a map of the city's lines, then choose the line and direction. Live predictions show in green and scheduled times in grey, and a stop can be followed from the Dynamic Island and shared as a link that works without the app. It notices which city you're in without asking for your location. Made by Arne Gerhard, out since 25 November, with no account, ads or tracking; it was 43rd among paid Navigation apps on the US App Store on 26 November.",
+ "where": "iPhone and iPad, $0.99; seven US cities",
+ "means": "If you ride transit in one of these cities, you can see how many minutes until your bus or train without opening an app.",
+ "todo": "Get it on the App Store, add the cities you ride in, pick your stops, then add its widget to your Lock Screen.",
+ "apps": [
+  "37 Shades of Late"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/37-shades-of-late/id6825789256"
+  }
+ ],
+ "item": 181875,
+ "idea": "newcomer",
+ "traction": 0,
+ "category": "Travel",
+ "thumb_words": "BUS TIMES ON YOUR LOCK SCREEN"
+}

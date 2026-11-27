@@ -1,0 +1,27 @@
+{
+ "slug": "keycap-mechanical-keyboard-iphone",
+ "date": "2026-11-26",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "Keycap: a mechanical keyboard look for the iPhone keyboard",
+ "dek": "Keycap is a 99-cent keyboard app for iPhone that draws the keys as raised caps with metal edges and a backlight that moves as you tilt the phone. It was #53 among paid Utilities apps on the US App Store on 26 November.",
+ "details": "It comes with 12 themes, among them Noir, Cream, Retro, Midnight and Synth. It keeps autocorrect, next-word suggestions, swipe typing, emoji search, clipboard history with pinned items, a number row and three key heights; on iPhone Duo it can split for the big screen. The listing says it makes no network connections and has no accounts, ads or tracking. It's made by Chethan Kumar Settipalli Nanjappa and came out on 17 November.",
+ "where": "iPhone (also listed for iPad), App Store, $0.99, with in-app purchases",
+ "means": "If the plain iPhone keyboard bores you, this changes its look and keeps the typing help you're used to.",
+ "todo": "After installing, add it in Settings, General, Keyboard, Keyboards. Full Access is only needed for sounds, haptics, clipboard history and options; it types without it.",
+ "thumb_words": "KEYCAP: MECHANICAL KEYS FOR IPHONE",
+ "apps": [
+  "Keycap: Mechanical Keys"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/keycap-mechanical-keys/id6829438628"
+  }
+ ],
+ "item": 181849,
+ "idea": "newcomer",
+ "traction": 0
+}

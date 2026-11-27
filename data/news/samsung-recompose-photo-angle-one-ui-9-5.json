@@ -1,0 +1,24 @@
+{
+ "slug": "samsung-recompose-photo-angle-one-ui-9-5",
+ "date": "2026-11-26",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Android",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Samsung may add Recompose to change a photo's angle with AI",
+ "dek": "Android Authority found a Galaxy AI tool called Recompose in One UI 9.5 Beta 1's Photo Editor code that would turn a photo into a 3D scene on the phone and use Samsung's cloud to redraw it from a new angle. Samsung hasn't announced it, and it needs a Samsung account and internet for the final step.",
+ "apps": [
+  "Samsung"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-one-ui-9-5-recompose-photo-assist-apk-teardown-3739691/"
+  }
+ ],
+ "item": 178184,
+ "idea": "news",
+ "traction": 21,
+ "rumor": true
+}

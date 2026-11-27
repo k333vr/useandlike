@@ -1,0 +1,24 @@
+{
+ "slug": "android-17-keep-audio-in-headphones",
+ "date": "2026-11-26",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Android",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "Android 17 may get a setting to keep audio in your headphones",
+ "dek": "A \"Keep audio in headphones\" option, spotted by Android Authority in Android 17 QPR3 Beta 4, would stop playback from jumping to a car stereo or speaker when it connects. Google hasn't announced it.",
+ "apps": [
+  "Android"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/android-17-keep-audio-in-headphones-3739645/"
+  }
+ ],
+ "item": 177669,
+ "idea": "news",
+ "traction": 0
+}

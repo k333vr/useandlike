@@ -1,0 +1,27 @@
+{
+ "slug": "crease-control-fold-odometer-iphone-duo",
+ "date": "2026-11-26",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "Fold counter for iPhone Duo: Crease Control counts every hinge fold",
+ "dek": "Crease Control: Fold Odometer, a $0.99 app for foldable iPhones, keeps a running count of how often your phone has been folded, shown as a car-style odometer. It was #13 among paid Utilities apps on the US App Store on 26 November.",
+ "details": "You can pick an odometer face (Classic, '90s Analog, 2000s Digital or Modern), reset a trip meter and start from a fold count you already know. A gauge measures the hinge angle, a Garage keeps totals for old phones, and there are milestone badges, widgets and monthly statistics. Counting in the background needs a guided Shortcuts setup and iOS 27.2 or later. The listing says there's no account, no ads and no data collection; the maker is Tyson Ross, and the app is out since 18 November.",
+ "where": "Foldable iPhone, $0.99, iOS 27.2 or later for background counting",
+ "means": "If you own an iPhone Duo and wonder how much use the hinge gets, this app keeps the tally for you.",
+ "todo": "Follow the app's Shortcuts setup so it counts folds in the background, and enter your phone's earlier fold count if you know it.",
+ "apps": [
+  "Crease Control"
+ ],
+ "sources": [
+  {
+   "name": "App Store: Crease Control: Fold Odometer",
+   "url": "https://apps.apple.com/us/app/crease-control-fold-odometer/id6835305167"
+  }
+ ],
+ "item": 181848,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "CREASE CONTROL COUNTS IPHONE FOLDS"
+}

@@ -1,0 +1,27 @@
+{
+ "slug": "cam-cord-photo-video-camera-app",
+ "date": "2026-11-25",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Photo",
+ "tag": "New app",
+ "head": "Cam-Cord: iPhone camera app that saves the video before your photo",
+ "dek": "Cam-Cord starts recording when you tap once and takes the photo when you tap again, then saves a short clip of the seconds before the shot that ends on a freeze-frame of the photo. The $2.99 iPhone app came out on 25 November and was #32 among paid Photo & Video apps on the US App Store on 26 November.",
+ "details": "You can take one, two or three stills per shot, with a countdown before each. It has flash, zoom, exposure and front or back camera controls, and the volume buttons work as a shutter; the shutter sound can be turned down or muted. Both the video and the photos alone go to your Photos library. The listing says there are no accounts, ads or tracking, and it's a one-time purchase with no subscription; it needs iOS 27.2.",
+ "where": "iPhone (iOS 27.2 or later), App Store, $2.99 one-time",
+ "means": "If you often miss the moment just before a photo, this app keeps a few seconds of video leading up to the shot, for a one-time price.",
+ "todo": "Search \"Cam-Cord\" in the App Store; tap once while framing and again to take the shot.",
+ "thumb_words": "CAM-CORD FILMS THE MOMENT BEFORE",
+ "apps": [
+  "Cam-Cord"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/cam-cord/id6838828844"
+  }
+ ],
+ "item": 181853,
+ "idea": "newcomer",
+ "traction": 0
+}

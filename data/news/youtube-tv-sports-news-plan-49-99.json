@@ -1,0 +1,23 @@
+{
+ "slug": "youtube-tv-sports-news-plan-49-99",
+ "date": "2026-11-26",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Streaming",
+ "tag": "Quick",
+ "quick": true,
+ "head": "YouTube TV Sports + News plan: $49.99 a month for new users",
+ "dek": "New YouTube TV users in the US pay $49.99 a month for the first 6 months of the Sports + News plan, then $71.99 a month. YouTube's page says the offer ends on 2 December, has no refunds and eligibility rules apply.",
+ "apps": [
+  "YouTube TV"
+ ],
+ "sources": [
+  {
+   "name": "YouTube TV",
+   "url": "https://tv.youtube.com/welcome/"
+  }
+ ],
+ "item": 181801,
+ "idea": "news",
+ "traction": 15
+}

@@ -1,0 +1,28 @@
+{
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "tag": "Quick",
+ "quick": true,
+ "slug": "remus-gmail-fake-google-sheets-extension",
+ "date": "2026-11-25",
+ "topic": "Security",
+ "head": "Remus malware reads Gmail through a fake Google Sheets extension",
+ "dek": "Researchers at GenDigital found that the \"Gmail zero-day\" advertised by the Remus Stealer malware is a fake Chrome extension called Google Sheets that it installs on infected Windows PCs to read unread mail. Check chrome://extensions for an unfamiliar Google Sheets entry and scan the PC before signing back in.",
+ "apps": [
+  "Gmail",
+  "Chrome"
+ ],
+ "sources": [
+  {
+   "name": "CyberInsider",
+   "url": "https://cyberinsider.com/remus-stealer-gmail-zero-day-chrome-extension/"
+  },
+  {
+   "name": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/"
+  }
+ ],
+ "item": 175954,
+ "idea": "news",
+ "traction": 18
+}

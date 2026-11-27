@@ -1,0 +1,29 @@
+{
+ "slug": "claude-google-drive-file-browser-testing",
+ "date": "2026-11-26",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "AI",
+ "tag": "In testing",
+ "rumor": true,
+ "head": "Claude Google Drive file browser spotted in testing",
+ "dek": "Anthropic is building a way to browse, search and filter your Google Docs, Sheets and Slides without leaving Claude, according to TestingCatalog, which shared screenshots dated 25 November. Anthropic hasn't announced it.",
+ "details": "In the version TestingCatalog saw, the browser sits as its own item in Claude's sidebar, and it may also let you move files between folders. TestingCatalog thinks it could later move into Projects, where Drive files would be added to a project. Claude can already add Drive files to chats and projects through its Google Drive connector. There's no release date, and features in testing may change or never ship.",
+ "where": "In testing, not available yet; no platforms or plans named",
+ "means": "If you keep your documents in Google Drive, Claude may soon let you find and open them from inside the app instead of picking them from a menu.",
+ "todo": "Nothing to do yet. To use Drive files in Claude today, connect the Google Drive connector.",
+ "apps": [
+  "Claude",
+  "Google Drive"
+ ],
+ "sources": [
+  {
+   "name": "TestingCatalog",
+   "url": "https://www.testingcatalog.com/anthropic-prepares-google-drive-file-browser-for-claude/"
+  }
+ ],
+ "item": 180040,
+ "idea": "news",
+ "traction": 0,
+ "thumb_words": "CLAUDE GETS A GOOGLE DRIVE BROWSER?"
+}

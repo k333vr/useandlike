@@ -1,0 +1,23 @@
+{
+ "slug": "vivaldi-snapshot-kagi-search-android",
+ "date": "2026-11-26",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Browsers",
+ "tag": "Quick",
+ "head": "Vivaldi test builds add Kagi search on Android",
+ "dek": "New Vivaldi Snapshot builds, which are previews, add Kagi Private Search as a choice on Android (paid after 100 free searches) and a command on desktop to jump back to your last workspace.",
+ "apps": [
+  "Vivaldi"
+ ],
+ "sources": [
+  {
+   "name": "PiunikaWeb",
+   "url": "https://piunikaweb.com/2026/11/27/vivaldi-quicker-way-workspaces-and-kagi-private-search-android/"
+  }
+ ],
+ "item": 180130,
+ "idea": "news",
+ "traction": 0,
+ "quick": true
+}

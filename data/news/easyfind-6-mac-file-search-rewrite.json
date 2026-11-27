@@ -1,0 +1,31 @@
+{
+ "slug": "easyfind-6-mac-file-search-rewrite",
+ "date": "2026-11-24",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Productivity",
+ "tag": "Update",
+ "head": "EasyFind for Mac 6.0: free file search app rebuilt with a new window",
+ "dek": "EasyFind 6.0, DEVONtechnologies' free file search app for the Mac, is a full rewrite with a new three-part window and content searches its maker says run two to three times faster on SSD drives. It searches the folders you pick without an index, so it can find files Spotlight skips.",
+ "details": "A sidebar holds the folders and drives you drag in; results show as icons, a list, a tree or a gallery with large Quick Look previews; an inspector on the right lets you rename files, edit tags and comments, and shows the matching line after a content search. You can filter by date and size even without a search term, export results as a CSV table or a list of paths, and save searches that iCloud syncs to your other Macs. It can sit in the menu bar behind a keyboard shortcut you choose, and searches can be started from AppleScript, Shortcuts or Siri. It needs macOS 15 Sequoia or later.",
+ "where": "Mac (macOS 15 or later), free from DEVONtechnologies' website, out since 24 November",
+ "means": "If Spotlight misses files on your Mac, this free app searches the folders you choose directly, and the new version adds filters, saved searches and exports.",
+ "todo": "Download EasyFind from DEVONtechnologies' website; drag the folders you search most into its sidebar.",
+ "thumb_words": "EASYFIND 6: FREE MAC FILE SEARCH REBUILT",
+ "apps": [
+  "EasyFind"
+ ],
+ "sources": [
+  {
+   "name": "DEVONtechnologies",
+   "url": "https://www.devontechnologies.com/blog/20261125-easyfind-6-0"
+  },
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/easyfind-6-0-arrives-as-a-complete-rewrite-with-a-modernized-interface-and-faster-searches/"
+  }
+ ],
+ "item": 177300,
+ "idea": "newcomer",
+ "traction": 0
+}

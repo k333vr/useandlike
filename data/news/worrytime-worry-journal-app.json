@@ -1,0 +1,27 @@
+{
+ "slug": "worrytime-worry-journal-app",
+ "date": "2026-11-26",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Health",
+ "tag": "New app",
+ "head": "WorryTime worry journal app lets you park a thought for later",
+ "dek": "WorryTime is a 1-dollar iPhone app where you write down a worry in a few words and come back to it at a daily worry time you choose. Your notes stay on your iPhone.",
+ "details": "A reminder can tell you when your worry time starts, and its messages never show what you wrote. Swipe right on a worry to plan time for it in your calendar, or left to delete it. There's no account, no ads, no analytics and no WorryTime cloud. It's made by Bloomfield Tech Company in Nova Scotia, out since 8 November, and was 91st among paid Lifestyle apps on the US App Store on 26 November.",
+ "where": "iPhone and iPad, $1.00",
+ "means": "If worries keep interrupting your day, this app gives you one place to write them down and a set time to look at them.",
+ "todo": "Get it on the App Store, set your daily worry time and allow the reminder if you want one.",
+ "apps": [
+  "WorryTime"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/worrytime/id6831730967"
+  }
+ ],
+ "item": 181860,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "WORRYTIME: PARK A WORRY FOR LATER"
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "expedia-to-buy-kiwi-com",
+ "date": "2026-11-25",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Travel",
+ "tag": "Quick",
+ "head": "Expedia agrees to buy flight booking site Kiwi.com",
+ "dek": "Expedia Group agreed on 25 November to buy Kiwi.com and plans to add its flight search and low-cost airline fares to Expedia, Hotels.com and Vrbo. The deal is expected to close in the first half of 2027.",
+ "apps": [
+  "Kiwi.com",
+  "Expedia"
+ ],
+ "sources": [
+  {
+   "name": "Travel Extra",
+   "url": "https://www.travelextra.ie/expedia-group-agrees-to-acquire-kiwi-com/"
+  }
+ ],
+ "item": 175862,
+ "idea": "news",
+ "traction": 18,
+ "quick": true
+}

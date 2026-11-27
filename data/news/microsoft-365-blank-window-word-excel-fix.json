@@ -1,0 +1,38 @@
+{
+ "slug": "microsoft-365-blank-window-word-excel-fix",
+ "date": "2026-11-25",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Windows",
+ "tag": "Heads-up",
+ "head": "Word, Excel or Outlook won't open: Microsoft fixes blank window bug",
+ "dek": "Word, Excel, Outlook, PowerPoint, Access and OneNote for Microsoft 365 could open to an empty window with no text and no buttons that couldn't be closed, blocking the app. Microsoft says version 2611, build 16.0.20625.20142, fixes it.",
+ "details": "Microsoft's support page, updated on 23 November, marks the problem as fixed but doesn't say which versions had it or what caused it. Because the empty window can keep you from reaching the update menu, Microsoft gives a command that installs the fixed build. The Register reports that some users also tried an Office repair, rolling Office back or signing in through another app such as Edge; after an Online Repair, some reported sign-in and activation trouble.",
+ "where": "Microsoft 365 apps installed on Windows computers; fix out now",
+ "means": "If Word, Excel or Outlook shows a blank box when you start it and you can't get past it, this is a known Microsoft bug, not a problem with your files.",
+ "todo": "Save your work and close every Office app. Open Command Prompt as administrator and run the update command from Microsoft's support page, which installs version 16.0.20625.20142. Then open the app again and check the build under File > Account.",
+ "apps": [
+  "Microsoft Word",
+  "Microsoft Excel",
+  "Microsoft Outlook",
+  "Microsoft 365"
+ ],
+ "sources": [
+  {
+   "name": "Microsoft Support",
+   "url": "https://support.microsoft.com/en-gb/support/known-issues/blank-dialog-appears-open-office-app"
+  },
+  {
+   "name": "The Register",
+   "url": "https://www.theregister.com/software/2026/11/25/microsoft-fixes-office-dialog-that-had-nothing-to-say-and-wouldnt-go-away/5312057"
+  },
+  {
+   "name": "Cyber Press",
+   "url": "https://cyberpress.org/microsoft-365-bug-leaves-word-excel-outlook-powerpoint/"
+  }
+ ],
+ "item": 181199,
+ "idea": "news",
+ "traction": 18,
+ "thumb_words": "WORD & EXCEL BLANK WINDOW FIXED"
+}

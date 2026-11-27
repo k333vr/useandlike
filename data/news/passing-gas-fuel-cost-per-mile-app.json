@@ -1,0 +1,23 @@
+{
+ "slug": "passing-gas-fuel-cost-per-mile-app",
+ "date": "2026-11-26",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Money",
+ "tag": "Quick",
+ "head": "Passing Gas app compares fuels by cost per mile, not pump price",
+ "dek": "Passing Gas, a $1.99 iPhone and iPad app by David McGuigan, estimates what each fuel grade costs per mile, including Unleaded 88 (E15), so a cheaper gallon can be checked against the mileage. It was #81 among paid Utilities apps on the US App Store on 26 November.",
+ "apps": [
+  "Passing Gas"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/passing-gas/id6831979461"
+  }
+ ],
+ "item": 181850,
+ "idea": "newcomer",
+ "traction": 0,
+ "quick": true
+}

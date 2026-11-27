@@ -1,0 +1,31 @@
+{
+ "slug": "x-parental-controls-teen-accounts",
+ "date": "2026-11-25",
+ "added": "2026-11-27",
+ "checked": "2026-11-27",
+ "topic": "Social",
+ "tag": "New feature",
+ "head": "X parental controls: time limits and follower approval for teen accounts",
+ "dek": "Parents can now link to a teen's X account to see their weekly time on the app, set daily limits and approve every new follower. It works for teens aged 13 to 17, only when both the parent and the teen agree, and the teen sees every change.",
+ "details": "Parents can also limit the For You feed to accounts the teen already follows, filter words, turn off sensitive media, choose who can send the teen messages and see who the teen messages one-on-one, but not what they write. They can't see searches or viewing history and can't post as the teen. Requiring follower approval also makes the teen's account private. One parent can supervise up to five accounts, a teen account links to one parent, and supervision ends when the teen turns 18.",
+ "where": "X accounts of teens aged 13 to 17, announced by X Safety on 25 November",
+ "means": "If your teen uses X, you can now set limits on time, followers and messages without reading their chats, as long as they agree to the link.",
+ "todo": "Talk with your teen first, since the controls only work when both of you agree, then decide together which limits to turn on.",
+ "thumb_words": "X ADDS PARENTAL CONTROLS",
+ "apps": [
+  "X"
+ ],
+ "sources": [
+  {
+   "name": "Digital Trends",
+   "url": "https://www.digitaltrends.com/social-media/x-parental-controls-teen-safety/"
+  },
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/"
+  }
+ ],
+ "item": 178030,
+ "idea": "news",
+ "traction": 0
+}
