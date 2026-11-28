@@ -1,0 +1,35 @@
+{
+ "slug": "firefox-nova-design-mandatory-december-8",
+ "date": "2026-11-27",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Browser",
+ "tag": "Heads-up",
+ "head": "Firefox Nova redesign: no way to disable it from December 8",
+ "dek": "From Firefox 162 on December 8, Mozilla's rounded Nova design becomes the only look, and the hidden setting people used to switch back to the old interface stops working. Users who still have Nova turned off will be moved to it automatically.",
+ "details": "Nova first arrived with Firefox 157 in late September. Mozilla says it's locking the setting so Firefox works as designed and to prevent unexpected behaviour. Firefox 161, released on November 24, added a Classic themes section with the Proton theme, a Firefox OLED theme and solid colours, but these change colours, not the layout or spacing. Firefox 161 also added per-site control for the built-in VPN, a fire button for deleting browsing data (rolling out gradually), tab groups in the menu and saved card security codes.",
+ "where": "Firefox, everyone with Firefox 162 from December 8",
+ "means": "If you switched Firefox back to the old look, it will change to the rounded Nova design in December, and that switch won't bring it back.",
+ "todo": "To make Nova feel closer to the old Firefox, try a theme from the Classic themes section of the Add-ons Manager, or turn on Compact mode in Appearance settings. Keep Firefox updated: skipping updates leaves you without security fixes.",
+ "thumb_words": "FIREFOX: NO WAY BACK FROM NOVA",
+ "apps": [
+  "Firefox"
+ ],
+ "sources": [
+  {
+   "name": "Firefox 161 release notes",
+   "url": "https://www.firefox.com/en-US/firefox/161.0/releasenotes/"
+  },
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/mozilla-makes-firefox-s-rounded-nova-ui-mandatory-on-december-8-with-no-way-to-revert/"
+  },
+  {
+   "name": "PiunikaWeb",
+   "url": "https://piunikaweb.com/2026/11/25/firefox-nova-redesign-toggle-removed-december/"
+  }
+ ],
+ "item": 182556,
+ "idea": "news",
+ "traction": 15
+}

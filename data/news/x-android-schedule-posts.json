@@ -1,0 +1,23 @@
+{
+ "slug": "x-android-schedule-posts",
+ "date": "2026-11-26",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Social",
+ "tag": "Quick",
+ "quick": true,
+ "head": "X's Android app can now schedule posts up to 18 months ahead",
+ "dek": "Android users can now pick a publish time while writing a post in the X app, as iPhone users already could; scheduled posts wait in Drafts, where you can edit them or change the time.",
+ "apps": [
+  "X"
+ ],
+ "item": 182078,
+ "idea": "news",
+ "traction": 17,
+ "sources": [
+  {
+   "name": "Digital Trends",
+   "url": "https://www.digitaltrends.com/phones/x-scheduled-posts-android-app/"
+  }
+ ]
+}

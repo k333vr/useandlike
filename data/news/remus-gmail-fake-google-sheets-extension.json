@@ -22,6 +22,7 @@
   }
  ],
  "item": 175954,
+ "items": [187886],
  "idea": "request",
  "traction": 18,
  "details": "The extension copies the description of Google's Docs Offline extension, asks for access to all websites and turns on Chrome's Developer Mode. Every minute it checks up to 10 signed-in Gmail accounts for unread mail and sends the text, subject and sender to the attackers, which can include verification codes and password-reset links. Signing out stops it only until you sign back in on that PC, because the extension stays installed. The sellers offered Gmail interception in a $1,000-a-month tier; GenDigital and Invoke RE published their findings on 25 November.",

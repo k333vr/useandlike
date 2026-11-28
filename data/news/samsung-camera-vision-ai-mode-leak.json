@@ -1,0 +1,19 @@
+{
+ "slug": "samsung-camera-vision-ai-mode-leak",
+ "date": "2026-11-27",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Samsung",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "Samsung camera app may get an AI Vision mode, code in One UI 9.5 shows",
+ "dek": "Code in One UI 9.5 Beta 1 points to a Vision mode in the Galaxy camera app that summarises what you point at, pulls out text and can send the scene to Gemini, Android Authority found. Samsung hasn't announced it; it's expected with the Galaxy S27 early next year.",
+ "apps": ["Samsung Camera", "Gemini"],
+ "sources": [
+  {"name": "Engadget", "url": "https://www.engadget.com/2329765/samsung-is-reportedly-giving-its-camera-app-an-ai-mode/"}
+ ],
+ "item": 186510,
+ "idea": "news",
+ "traction": 0
+}

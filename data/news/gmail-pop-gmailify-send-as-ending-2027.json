@@ -1,0 +1,32 @@
+{
+ "slug": "gmail-pop-gmailify-send-as-ending-2027",
+ "date": "2026-11-27",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Email",
+ "tag": "Heads-up",
+ "head": "Gmail POP, Gmailify and Send as end for other accounts in January 2027",
+ "dek": "From January 2027, Gmail on the web stops fetching mail from Yahoo, Outlook.com and other non-Google accounts by POP, and you can no longer send from those addresses through Gmail. Gmailify, which adds Gmail's spam protection and inbox sorting to those accounts, ends too.",
+ "details": "Google's support page says the change only applies to third-party accounts: other Gmail addresses, aliases and Google Workspace Send as addresses keep working. Before January, Gmail is limiting new setups of these features, and affected users get notices in the product. Adding or syncing a third-party account on Gmail's website ends as well, but the Gmail app on Android, iPhone and iPad can still show those accounts. Android Police notes that Send as from other addresses also stops in the phone app.",
+ "where": "Gmail on the web, everywhere; January 2027",
+ "means": "If you read your Yahoo, Outlook.com or own-domain mail inside Gmail on a computer, or reply from that address through Gmail, that setup stops working in January.",
+ "todo": "Set your other provider to forward its mail to your Gmail address, so new mail still arrives there. To send from that address, use the provider's own website or app, or a desktop mail program such as Outlook or Thunderbird connected by IMAP and SMTP. You can also keep the account in the Gmail app on your phone or tablet.",
+ "thumb_words": "GMAIL DROPS POP AND SEND AS",
+ "category": "Email",
+ "apps": [
+  "Gmail"
+ ],
+ "sources": [
+  {
+   "name": "Gmail Help",
+   "url": "https://support.google.com/mail/answer/17101213"
+  },
+  {
+   "name": "Android Police",
+   "url": "https://www.androidpolice.com/gmail-2027-switch-to-thunderbird-and-outlook/"
+  }
+ ],
+ "item": 184661,
+ "idea": "news",
+ "traction": 18
+}

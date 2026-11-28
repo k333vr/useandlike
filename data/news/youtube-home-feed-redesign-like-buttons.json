@@ -1,0 +1,27 @@
+{
+ "slug": "youtube-home-feed-redesign-like-buttons",
+ "date": "2026-11-27",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Video",
+ "tag": "Update",
+ "head": "YouTube home feed redesign: Like, Comment and Save on every video",
+ "dek": "The YouTube app's home feed now puts each long video on its own card with Like, Comment and Save buttons, so you can react without opening the video. Android Authority saw the new look on Android and iPhone after an app update, along with more Shorts sections in the feed.",
+ "details": "On Android it appeared with version 21.47.483 on a Pixel 8 and an older Samsung phone, and on iPhone with version 21.47.6. A Shorts row shows up after about every three to four long videos; the rows now run edge to edge and show four Shorts instead of six. Playables, ads, playlists, photos and community posts also show up more often. YouTube hasn't announced the change, and it isn't clear whether everyone gets it or it's a test.",
+ "where": "YouTube app on Android and iPhone, after the latest app update; not announced by YouTube",
+ "means": "If your YouTube home screen suddenly looks busier, this is the new design: you can like, comment on or save a video straight from the feed, and you'll see more Shorts between videos.",
+ "todo": "Nothing to do: the new look comes with the app update. Take care with the Like button while scrolling, since a like from the feed counts like any other.",
+ "thumb_words": "YOUTUBE ADDS LIKE BUTTONS TO FEED",
+ "apps": [
+  "YouTube"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/youtube-home-feed-redesign-shorts-engagement-buttons-3740986/"
+  }
+ ],
+ "item": 186195,
+ "idea": "news",
+ "traction": 18
+}

@@ -1,0 +1,22 @@
+{
+ "slug": "pelican-gauges-carplay-speedometer-app",
+ "date": "2026-11-26",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "Pelican Gauges: free CarPlay speedometer app with a g-force meter",
+ "dek": "Pelican Gauges is a new free CarPlay speedometer app for iPhone that shows your speed on a dial of your choice, with trip time, distance, altitude and g-forces around it. It came out on 26 November and was #13 in Navigation among free iPhone apps on the US App Store on 27 November.",
+ "details": "The listing says it comes from Clutch Engineering, the maker of Pelican, and is sold by Fearless design, LLC. Speed comes from the phone's GPS. A g-meter shows the forces from braking, speeding up and turning, and its outline grows to the strongest force recorded in each direction. New dial styles arrive without an app update, and you can share anonymous road speed readings with Pelican's traffic data or turn that off in Settings.",
+ "where": "iPhone and iPad with iOS 18 or later, on the App Store; full-screen dashboard in CarPlay",
+ "means": "If you drive with CarPlay and want a bigger speed readout or trip figures on the car's screen, this app adds them for free.",
+ "todo": "Search for Pelican Gauges in the App Store, pick a dial, and turn off the anonymous speed sharing in Settings if you'd rather not take part.",
+ "apps": ["Pelican Gauges"],
+ "sources": [
+  {"name": "App Store", "url": "https://apps.apple.com/us/app/pelican-gauges/id6833801202"}
+ ],
+ "item": 188076,
+ "idea": "newcomer",
+ "traction": 6,
+ "thumb_words": "FREE CARPLAY SPEEDOMETER APP"
+}

@@ -1,0 +1,25 @@
+{
+ "quick": true,
+ "tag": "Quick",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "slug": "galaxy-s27-30-ai-features-in-code",
+ "date": "2026-11-27",
+ "topic": "Android",
+ "rumor": true,
+ "head": "Galaxy S27 may get 30+ Galaxy AI features the S26 lacks, code shows",
+ "dek": "Code in One UI 9.5 Beta 1 ties more than 30 Galaxy AI features, such as fake call detection, call recording in other apps and an audio eraser for calls, to the Galaxy S27's AI version, Android Authority found. Samsung hasn't announced them, and they may not ship.",
+ "apps": [
+  "Samsung Galaxy",
+  "One UI"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/samsung-galaxy-s27-galaxy-ai-features-20271-one-ui-9-5-apk-teardown-3740860/"
+  }
+ ],
+ "item": 182616,
+ "idea": "news",
+ "traction": 0
+}

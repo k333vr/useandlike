@@ -1,0 +1,24 @@
+{
+ "quick": true,
+ "tag": "Quick",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "slug": "chatgpt-android-calls-texts-in-code",
+ "date": "2026-11-27",
+ "topic": "AI",
+ "rumor": true,
+ "head": "ChatGPT for Android may get calls, texts and screen reading",
+ "dek": "Code in version 1.2026.328 of the ChatGPT Android app points to it placing calls, reading and sending texts, pausing or skipping music and reading what's on the screen, Android Authority found. OpenAI hasn't announced it, and the features may not ship.",
+ "apps": [
+  "ChatGPT"
+ ],
+ "sources": [
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/chatgpt-android-call-text-view-screen-3740765/"
+  }
+ ],
+ "item": 184245,
+ "idea": "news",
+ "traction": 29
+}

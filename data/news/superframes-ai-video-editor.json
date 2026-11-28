@@ -1,0 +1,27 @@
+{
+ "slug": "superframes-ai-video-editor",
+ "date": "2026-11-26",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Video",
+ "tag": "Quick",
+ "head": "Superframes edits videos from a typed description, in the browser",
+ "dek": "Superframes is an AI video editor for the web, Mac and Windows: you type the edit you want or record your screen, and it can turn long videos into Shorts. One export is free without an account; Pro costs $59.88 a year, and phone apps are listed as coming soon.",
+ "quick": true,
+ "apps": [
+  "Superframes"
+ ],
+ "item": 177697,
+ "sources": [
+  {
+   "name": "Superframes",
+   "url": "https://www.superframes.io"
+  },
+  {
+   "name": "Product Hunt",
+   "url": "https://www.producthunt.com/products/superframes-ai-video-editor"
+  }
+ ],
+ "idea": "newcomer",
+ "traction": 0
+}

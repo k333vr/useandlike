@@ -1,0 +1,23 @@
+{
+ "quick": true,
+ "tag": "Quick",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "slug": "firefox-lock-private-windows-nightly",
+ "date": "2026-11-27",
+ "topic": "Privacy",
+ "head": "Firefox Nightly can lock private windows when your computer locks",
+ "dek": "Firefox 163 Nightly on Windows and Mac has a new setting, off by default, that hides private windows when the computer locks, sleeps or starts the screen saver and asks for the device password or passkey to open them again. There's no date yet for the regular Firefox.",
+ "apps": [
+  "Firefox"
+ ],
+ "sources": [
+  {
+   "name": "PiunikaWeb",
+   "url": "https://piunikaweb.com/2026/11/27/firefox-nightly-lock-private-windows-automatically/"
+  }
+ ],
+ "item": 184064,
+ "idea": "news",
+ "traction": 0
+}

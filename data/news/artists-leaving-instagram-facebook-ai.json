@@ -1,0 +1,24 @@
+{
+ "slug": "artists-leaving-instagram-facebook-ai",
+ "date": "2026-11-26",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Social",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Some artists are deleting Instagram and Facebook over AI copying fears",
+ "dek": "Artists interviewed by CNN say AI copies of their work and fake accounts are pushing them off Meta's apps, some to Patreon and Substack. Meta paused a planned change to its terms on 5 November and says its current terms stay in effect.",
+ "apps": [
+  "Instagram",
+  "Facebook"
+ ],
+ "item": 181984,
+ "idea": "news",
+ "traction": 0,
+ "sources": [
+  {
+   "name": "KCCI (CNN)",
+   "url": "https://www.kcci.com/article/artists-quitting-instagram-facebook-ai-steal-work/74539282"
+  }
+ ]
+}

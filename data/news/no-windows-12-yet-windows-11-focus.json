@@ -1,0 +1,23 @@
+{
+ "slug": "no-windows-12-yet-windows-11-focus",
+ "date": "2026-11-27",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Windows",
+ "tag": "Quick",
+ "quick": true,
+ "head": "No Windows 12 date: Microsoft says it's focused on Windows 11 quality",
+ "dek": "Windows chief Pavan Davuluri told Axios that Microsoft is working on Windows 11's reliability and performance and must show its AI is useful before moving on; he gave no timeline for Windows 12.",
+ "apps": [
+  "Windows 11"
+ ],
+ "sources": [
+  {
+   "name": "Windows Latest",
+   "url": "https://www.windowslatest.com/2026/11/27/no-windows-12-yet-windows-boss-says-microsoft-must-prove-its-ai-is-useful-to-earn-permission-after-users-pushed-back-on-copilot-in-windows-11/"
+  }
+ ],
+ "item": 183466,
+ "idea": "news",
+ "traction": 0
+}

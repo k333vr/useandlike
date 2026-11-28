@@ -1,0 +1,23 @@
+{
+ "slug": "netflix-anime-hub-190-countries",
+ "date": "2026-11-27",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Streaming",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Netflix's anime hub reaches more than 190 countries from 1 December",
+ "dek": "The \"Home of Anime\" page, on the web at netflix.com/animehome and as a row on TV, collects anime into themed rows; Netflix is also starting a monthly anime Top 10, with October's list out first.",
+ "apps": [
+  "Netflix"
+ ],
+ "sources": [
+  {
+   "name": "What's on Netflix",
+   "url": "https://www.whats-on-netflix.com/news/anime/netflix-home-of-anime-hub-global-launch-date/"
+  }
+ ],
+ "item": 186966,
+ "idea": "news",
+ "traction": 23
+}

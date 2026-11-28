@@ -1,0 +1,23 @@
+{
+ "slug": "outlook-problems-black-friday-reports",
+ "date": "2026-11-27",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Email",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Outlook problems reported on Black Friday, no confirmation from Microsoft",
+ "dek": "Downdetector said user reports showed Outlook problems from 1:01 a.m. Eastern time on 27 November, two weeks after the 12 November outage. Microsoft hadn't confirmed an incident or given a cause by early Friday.",
+ "apps": [
+  "Outlook"
+ ],
+ "sources": [
+  {
+   "name": "International Business Times Australia",
+   "url": "https://www.ibtimes.com.au/microsoft-outlook-users-report-possible-new-outage-1879451"
+  }
+ ],
+ "item": 182804,
+ "idea": "news",
+ "traction": 18
+}

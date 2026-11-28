@@ -1,0 +1,27 @@
+{
+ "slug": "alfred-local-ai-offline-iphone-assistant",
+ "date": "2026-11-26",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "AI",
+ "tag": "New app",
+ "head": "Alfred: Local AI, an offline AI assistant app that runs on your iPhone",
+ "dek": "Alfred: Local AI is a 99-cent AI chat app whose language and image models run on the iPhone itself, so questions, photos and chats aren't sent to a cloud AI service and it works offline. It came out on 26 November and was #85 in paid Productivity apps on the US App Store on 27 November.",
+ "details": "You can ask questions or attach a photo for Alfred to look at. The models come with the app, so there's nothing extra to download, and there's no account to create. Chats are stored on the phone, a Temporary Chat isn't saved, Face ID can lock the app, and \"Synthetic Memories\" and an \"About You\" section let you shape what it remembers. It speaks English and Spanish and needs an iPhone 15 Pro, 15 Pro Max or an iPhone 16 or later with iOS 26; the seller is Manuel de la Llata Rochin.",
+ "where": "iPhone 15 Pro, 15 Pro Max, iPhone 16 and later (iOS 26), App Store, $0.99",
+ "means": "If you'd like an AI assistant but don't want your chats and photos going to a company's servers, this one keeps them on your phone and also works without a connection.",
+ "todo": "Check that your iPhone is a 15 Pro or newer and runs iOS 26, then search \"Alfred: Local AI\" in the App Store.",
+ "thumb_words": "AI CHAT THAT NEVER LEAVES YOUR PHONE",
+ "apps": [
+  "Alfred: Local AI"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/alfred-local-ai/id6820246017"
+  }
+ ],
+ "item": 188055,
+ "idea": "newcomer",
+ "traction": 15
+}

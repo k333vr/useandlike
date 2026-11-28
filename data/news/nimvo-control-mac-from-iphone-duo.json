@@ -1,0 +1,31 @@
+{
+ "slug": "nimvo-control-mac-from-iphone-duo",
+ "date": "2026-11-26",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Apple",
+ "tag": "New app",
+ "head": "Control your Mac from iPhone: Nimvo 1.2 adds iPhone Duo layouts",
+ "dek": "Nimvo, a new app from Code with Beto that shows your Mac's desktop on an iPhone or iPad, got version 1.2 on 26 November, two days after it came out, with layouts that follow the iPhone Duo's fold.",
+ "details": "On the Mac you need the free Nimvo Companion app. Version 1.2 also brings Mac audio on the phone, text copied between the two devices, photos and files sent to the Mac, and support for a connected keyboard and mouse. The app is free to download; full access costs $24.99 a year or $49.99 once for lifetime access in the US, according to Digital Trends. It needs iOS or iPadOS 26, the fold-aware layouts need iOS 27.1, and the Companion needs macOS 26.",
+ "where": "iPhone and iPad on the App Store, out now; iPhone Duo layouts with iOS 27.1",
+ "means": "If you want to click through your Mac from the couch or on the go, Nimvo is another option besides Screens, with a one-time price as well as a yearly one.",
+ "todo": "Install Nimvo on the phone and the free Nimvo Companion on the Mac; try it before paying for the yearly plan or the lifetime unlock.",
+ "thumb_words": "NIMVO: YOUR MAC ON IPHONE DUO",
+ "apps": [
+  "Nimvo"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/nimvo-remote-control/id6826649334"
+  },
+  {
+   "name": "Digital Trends",
+   "url": "https://www.digitaltrends.com/phones/the-iphone-duo-can-now-double-as-a-laptop-thanks-to-these-apps/"
+  }
+ ],
+ "item": 183641,
+ "idea": "news",
+ "traction": 55
+}

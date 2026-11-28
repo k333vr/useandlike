@@ -1,0 +1,18 @@
+{
+ "slug": "pixel-always-on-display-android-auto-bug",
+ "date": "2026-11-26",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Android",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Pixel always-on display goes dark in Android Auto after November update",
+ "dek": "Owners of Pixel 9, 10 and 11 phones report that the always-on display stays black while connected to Android Auto since the November update; tapping still wakes the phone. Google hasn't commented, and no workaround is known yet.",
+ "apps": ["Android Auto", "Google Pixel"],
+ "sources": [
+  {"name": "Android Authority", "url": "https://www.androidauthority.com/pixel-android-auto-aod-bug-3740588/"}
+ ],
+ "item": 180038,
+ "idea": "news",
+ "traction": 26
+}

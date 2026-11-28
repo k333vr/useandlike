@@ -1,0 +1,27 @@
+{
+ "slug": "cornerstone-ai-tutor-families",
+ "date": "2026-11-27",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "AI",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Cornerstone is an AI tutor for families, with parents able to read chats",
+ "dek": "One subscription gives each family member their own tutor and private history, kids sign in with a PIN, and parents get alerts when a chat needs attention; it costs $9.99 a month for the first member plus $2 for each extra one.",
+ "apps": [
+  "Cornerstone"
+ ],
+ "sources": [
+  {
+   "name": "Cornerstone",
+   "url": "https://www.cornerstone.study/"
+  },
+  {
+   "name": "BetaList",
+   "url": "https://betalist.com/startups/cornerstone"
+  }
+ ],
+ "item": 182883,
+ "idea": "newcomer",
+ "traction": 0
+}

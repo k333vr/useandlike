@@ -1,0 +1,28 @@
+{
+ "slug": "pcloud-pass-hacked-cyberattack",
+ "date": "2026-11-27",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Security",
+ "tag": "Safety",
+ "category": "VPN & Privacy",
+ "head": "pCloud hacked: pCloud Pass password manager confirms a cyberattack",
+ "dek": "pCloud says its password manager, pCloud Pass, was hit by a cyberattack that exposed a small number of users' email addresses, and attackers tried to log in to accounts. Users had received emails saying a new device had connected, some of them with two-factor authentication turned on.",
+ "details": "pCloud says the attack was contained, only affected Pass and not its cloud storage, and that saved passwords and notes are safe because they're encrypted on users' devices with their master password. It didn't say whether encrypted vaults were accessed. Users on Reddit described an unknown device called \"pd\" connecting from Luxembourg, and some got the alert without ever having used Pass. BleepingComputer found that the \"Open settings\" link in the alert emails pointed to a pCloud test address.",
+ "where": "pCloud Pass users; pCloud cloud storage not affected, the company says",
+ "means": "If you use pCloud Pass, your email address may be in attackers' hands, so expect phishing emails that look like they come from pCloud.",
+ "todo": "Never give your master password or recovery words to anyone: pCloud says it will never ask for them by email, phone or chat. Check the list of connected devices in pCloud Pass, and open the app yourself instead of tapping links in alert emails.",
+ "apps": [
+  "pCloud"
+ ],
+ "item": 187066,
+ "idea": "news",
+ "traction": 18,
+ "thumb_words": "PCLOUD PASSWORD MANAGER HACKED",
+ "sources": [
+  {
+   "name": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/"
+  }
+ ]
+}

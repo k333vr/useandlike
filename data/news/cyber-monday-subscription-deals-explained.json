@@ -1,0 +1,84 @@
+{
+ "slug": "cyber-monday-subscription-deals-explained",
+ "date": "2026-11-28",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Money",
+ "tag": "Explainer",
+ "head": "Cyber Monday subscription deals explained: intro prices and renewals",
+ "dek": "Many Cyber Monday subscription deals are an intro price for a set number of months, or a long plan paid up front, and they renew at the regular price unless you cancel in time.",
+ "sections": [
+  {
+   "h": "How a subscription deal is built",
+   "p": [
+    "A subscription deal usually lowers the price for a set time, then the regular price starts on its own. YouTube TV's US page is an example: new users get the Sports + News plan for 49.99 dollars a month for the first 6 months, then it costs 71.99 dollars a month. The main plan is 59.99 dollars a month for 2 months, then 82.99 dollars. Both offers end on 2 December 2026, and the page says you can cancel anytime but there are no refunds.",
+    "Other deals ask you to pay for a long plan at once. Gizmodo reported on 13 November that NordVPN's Basic plan costs 2.99 dollars a month, but for 27 months paid up front: 80.73 dollars on the day you buy. The extra months end on 9 December, and the plans come with a 30-day money-back guarantee. The article doesn't say what the plan costs when it renews."
+   ]
+  },
+  {
+   "h": "Free trials need a date in your calendar",
+   "p": [
+    "The US Federal Trade Commission's consumer advice says most free trials ask for a card number and start charging if you don't cancel before the deadline. It suggests putting the cancel date in your calendar the day you sign up.",
+    "The FTC also warns about pre-checked boxes on sign-up forms, about trials that are only free if you pay shipping or other fees, and about ads for trials placed by marketers who are paid per click and may overstate the offer. Before signing up, read how long the trial lasts and how to cancel; if you can't tell how to cancel, the FTC says to walk away."
+   ]
+  },
+  {
+   "h": "Cancelling a subscription in the App Store or Google Play",
+   "p": [
+    "On an iPhone, Apple's steps are: open Settings, tap your name, tap Subscriptions, pick the subscription and tap Cancel Subscription. If there's no Cancel button or you see an expiry note in red, it's already cancelled. Apple says to cancel a free trial at least 24 hours before it ends if you don't want it to renew.",
+    "On Android, open subscriptions in Google Play, pick the subscription, tap Cancel subscription and follow the steps. Google says deleting the app does not cancel the subscription. You keep access until the end of the time you already paid for."
+   ]
+  },
+  {
+   "h": "Renewal emails: real ones and fake ones",
+   "p": [
+    "The FTC says a real renewal notice is a reminder, not a bill, and it shouldn't ask for your card details if you already agreed to auto-renew. Check that the renewal price matches what you expected, since intro prices end; if it doesn't, contact the company to ask for a lower price or to cancel.",
+    "Fake renewal notices are common, the FTC warns. Don't call a number or tap a link in one. Search the company's name with the word scam or complaint, and contact the company through a number or app you already know is real."
+   ]
+  },
+  {
+   "h": "If you're charged after cancelling",
+   "p": [
+    "The FTC suggests keeping records of every cancellation request. If a charge comes after you cancelled and the company won't refund it, dispute it with your card issuer online or by phone, then follow up in writing. You can report cancellation trouble at ReportFraud.ftc.gov and to your state attorney general.",
+    "The federal click-to-cancel rule isn't in force: a US appeals court threw out the FTC's rule in July 2025, and on 30 January 2026 the FTC started the rulemaking again, the law firm Goodwin wrote on 13 February 2026. The FTC still brings cases under other laws, and state automatic renewal laws still apply."
+   ]
+  }
+ ],
+ "means": "If you sign up for a streaming, VPN or app deal this weekend, the low price usually lasts a set number of months or is paid all at once, and the regular price starts on its own afterwards.",
+ "todo": "Before you pay, note the intro period, the price after it and how to cancel. Put the cancel date in your calendar. To cancel, use Settings, your name, Subscriptions on an iPhone, or subscriptions in Google Play on Android; deleting the app isn't enough. Never pay a renewal notice through its own link.",
+ "where": "US offers and FTC advice; the App Store and Google Play steps work everywhere",
+ "apps": [
+  "App Store",
+  "Google Play",
+  "YouTube TV"
+ ],
+ "sources": [
+  {
+   "name": "FTC Consumer Advice",
+   "url": "https://consumer.ftc.gov/getting-out-free-trials-auto-renewals-negative-option-subscriptions"
+  },
+  {
+   "name": "Apple Support",
+   "url": "https://support.apple.com/en-us/118428"
+  },
+  {
+   "name": "Google Play Help",
+   "url": "https://support.google.com/googleplay/answer/7018481?hl=en"
+  },
+  {
+   "name": "YouTube TV",
+   "url": "https://tv.youtube.com/welcome/"
+  },
+  {
+   "name": "Gizmodo",
+   "url": "https://gizmodo.com/nordvpn-didnt-wait-for-black-friday-to-drop-to-2-99-so-you-dont-have-to-2000839620"
+  },
+  {
+   "name": "Goodwin",
+   "url": "https://www.goodwinlaw.com/en/insights/publications/2026/02/alerts-practices-ba-ftcs-click-to-cancel-rule-gets-new-life"
+  }
+ ],
+ "thumb_words": "CYBER MONDAY: WATCH THE RENEWAL PRICE",
+ "idea": "explainer",
+ "traction": 0
+}

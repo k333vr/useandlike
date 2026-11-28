@@ -1,0 +1,24 @@
+{
+ "quick": true,
+ "tag": "Quick",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "slug": "macos-27-3-three-features-december",
+ "date": "2026-11-27",
+ "topic": "Apple",
+ "head": "macOS 27.3 due next month: Safari vertical tabs, Markdown in Quick Look",
+ "dek": "macOS 27.3 is due in December alongside iOS 27.3, 9to5Mac reports. It brings Live Activities to the Mac menu bar, Vertical Tabs and Adaptive Dark Mode in Safari, and formatted Markdown previews in Quick Look.",
+ "apps": [
+  "macOS",
+  "Safari"
+ ],
+ "sources": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/27/macos-27-3-adds-three-new-features-to-your-mac-heres-whats-coming/"
+  }
+ ],
+ "item": 185713,
+ "idea": "news",
+ "traction": 0
+}

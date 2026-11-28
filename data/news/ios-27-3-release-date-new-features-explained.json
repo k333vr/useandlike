@@ -1,0 +1,91 @@
+{
+ "slug": "ios-27-3-release-date-new-features-explained",
+ "date": "2026-11-28",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Apple",
+ "tag": "Explainer",
+ "head": "iOS 27.3 release date and new features: what changes in 6 apps",
+ "dek": "iOS 27.3 is still in beta, Apple has only said it comes in December, and it changes Safari, Calendar, Weather, Apple Music, Apple TV and Health, plus StandBy on every iPhone that runs iOS 27.",
+ "sections": [
+  {
+   "h": "Where iOS 27.3 stands",
+   "p": [
+    "Apple released the first iOS 27.3 developer beta on 3 November and the second on 16 November. Apple's developer releases page lists a second build of beta 2, number 24C5049f, on 19 November. 9to5Mac wrote on 20 November that the update is also with public beta testers.",
+    "Apple hasn't named a release day. TechRepublic reported on 3 November that Apple plans a public release in December without a fixed date. 9to5Mac's own estimate, from 20 November, is the first half of December, because iOS 27.1 only came to the iPhone Duo. That is an estimate, not an Apple announcement."
+   ]
+  },
+  {
+   "h": "Safari: vertical tabs and a cookie setting",
+   "p": [
+    "Safari gets an optional vertical tabs layout and Adaptive Dark Mode, which darkens websites that don't have a dark design of their own, MacRumors lists.",
+    "In Safari's advanced settings there's a new Use Global Privacy Control option. 9to5Mac describes it as meant to answer cookie popups for you one day, but it only works once websites support it. With beta 2, Siri AI can also read a whole Safari page for context, including the parts that aren't on screen."
+   ]
+  },
+  {
+   "h": "Calendar and Weather look different",
+   "p": [
+    "Beta 2 moved Calendar's search and add-event buttons to the bottom of the screen, and the Today button now shows the date, according to 9to5Mac and MacRumors.",
+    "Weather gets a condition slider in Apple's Liquid Glass style, a new way of showing rain and snow, and 10 new weather symbols. Siri AI can add places to Weather and change its notifications for you."
+   ]
+  },
+  {
+   "h": "Apple Music and Apple TV",
+   "p": [
+    "Apple Music adds Selfie Sing, a karaoke mode that records a video of you singing, with voice effects. 9to5Mac also reports design changes to the lyrics view when you turn the phone sideways.",
+    "The Apple TV app gets a video podcasts section with free episodes only, and collections of vertical video clips. Both arrived with beta 2."
+   ]
+  },
+  {
+   "h": "Health and StandBy",
+   "p": [
+    "The redesigned Health app adds Insights and Longevity tabs and a Health Age score. 9to5Mac reported on 17 November that it needs an iPhone 15 Pro or newer with Apple Intelligence turned on; older iPhones keep a largely unchanged Health app.",
+    "StandBy, the clock view when an iPhone charges on its side, gets new clock, Photos, Calendar and Weather faces, and you can keep several faces of each kind. MacRumors says this comes to all iPhones that run iOS 27."
+   ]
+  },
+  {
+   "h": "Siri AI limits and the smaller changes",
+   "p": [
+    "Siri AI can do more inside Apple's apps: unsubscribe from mailing lists and undo a sent message in Mail, tidy up and delete old files in Files, close duplicate tabs in Safari. iOS 27.3 also adds a daily limit for some Siri AI and Apple Intelligence requests on each device. MacRumors lists higher limits with iCloud+: twice as much with 200 GB, five times with 2 TB.",
+    "Control Center's VPN switch can now change between VPNs. iPhone Duo owners get face unlock on the closed phone, Close to Lock and one-handed Reachability. In China, the first set of Apple Intelligence features arrives, without Siri AI."
+   ]
+  }
+ ],
+ "means": "If your iPhone runs iOS 27, iOS 27.3 will change how Safari, Calendar, Weather and StandBy look once it's out, most likely in December. The new Health app only shows up on an iPhone 15 Pro or newer with Apple Intelligence on.",
+ "todo": "Nothing to do yet unless you're on the beta. When iOS 27.3 is out, install it in Settings, General, Software Update. If you rely on Siri AI a lot, keep the new daily limit in mind; a larger iCloud+ plan raises it.",
+ "where": "iPhones that run iOS 27; in beta now, public release expected in December",
+ "apps": [
+  "iOS",
+  "Safari",
+  "Apple Music"
+ ],
+ "sources": [
+  {
+   "name": "Apple Developer",
+   "url": "https://developer.apple.com/news/releases/"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/?p=1077763"
+  },
+  {
+   "name": "MacRumors",
+   "url": "https://macrumors.com/guide/ios-27-3-beta-features/"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/16/everything-new-in-ios-27-3-beta-2-so-far/"
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/17/ios-27-3s-redesigned-apple-health-app-requires-newer-iphone-model/"
+  },
+  {
+   "name": "TechRepublic",
+   "url": "https://www.techrepublic.com/article/news-ios-27-3-release-date-features-beta-apac-china/"
+  }
+ ],
+ "thumb_words": "IOS 27.3: WHAT'S NEW AND WHEN",
+ "idea": "competitor",
+ "traction": 0
+}

@@ -1,0 +1,31 @@
+{
+ "slug": "sharex-22-5-offline-ocr-pixel-editor",
+ "date": "2026-11-26",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Windows",
+ "tag": "Update",
+ "head": "ShareX OCR update: offline text recognition in 100+ languages",
+ "dek": "ShareX 22.5.0, the free, open-source screenshot tool for Windows, now reads text from screenshots on your own PC with PaddleOCR instead of Windows' built-in OCR. It handles more than 100 languages without language packs and adds a pixel editor for pixel art and sprite animation.",
+ "details": "The OCR window now shows a preview with the found text outlined; click a part to copy it. A new option makes text in captures searchable in the history, and the Language and Scale factor options are gone. Region capture opens about twice as fast, and the Ellipse and Freehand region tools are back. The update also improves keyboard and screen reader support and moves to .NET 11.",
+ "where": "Windows, out now (version 22.5.0, 26 November)",
+ "means": "If you copy text out of screenshots, ShareX no longer needs a Windows language pack or a language switch for each language.",
+ "todo": "Update ShareX to version 22.5.0, then try the OCR tool on a screenshot: click a highlighted block to copy its text.",
+ "thumb_words": "SHAREX ADDS OFFLINE OCR",
+ "apps": [
+  "ShareX"
+ ],
+ "sources": [
+  {
+   "name": "ShareX changelog",
+   "url": "https://getsharex.com/changelog#v22.5.0"
+  },
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/sharex-22-5-0-adds-local-ai-ocr-and-a-pixel-editor/"
+  }
+ ],
+ "item": 186483,
+ "idea": "newcomer",
+ "traction": 0
+}

@@ -1,0 +1,27 @@
+{
+ "slug": "axle-energy-home-battery-earnings-app",
+ "date": "2026-11-27",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Money",
+ "tag": "New app",
+ "head": "Axle Energy app: get paid when your home battery helps the UK grid",
+ "dek": "Axle Energy's free iPhone app lets UK home battery owners see what their battery earns when it sends power to the grid at busy times, and withdraw the money to their bank. It came out on 27 November and was #33 in free apps on the UK App Store that day.",
+ "details": "A few times a month Axle asks the battery to export power for an hour or two; the listing says you earn £1 for every kWh, with at least £10 a month. You get notice before each event and can opt out of any of them. An Optimised mode plans when the battery charges and discharges around your tariff to cut bills, and you keep your supplier and tariff. Axle says it works with most major home battery brands and keeps events within the maker's limits.",
+ "where": "UK, iPhone (iOS 17 or later), free on the App Store",
+ "means": "If you have a home battery in the UK, it could earn you money a few times a month on top of what it saves you, without changing your energy supplier.",
+ "todo": "Search \"Axle Energy\" in the UK App Store and check that your battery brand is supported when you sign up. You can opt out of any event you don't want.",
+ "thumb_words": "HOME BATTERY PAYS YOU BACK",
+ "apps": [
+  "Axle Energy"
+ ],
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/gb/app/axle-energy/id6807873923"
+  }
+ ],
+ "item": 188105,
+ "idea": "newcomer",
+ "traction": 0
+}

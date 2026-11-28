@@ -1,0 +1,27 @@
+{
+ "slug": "lloyds-app-not-working-black-friday",
+ "date": "2026-11-27",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Money",
+ "tag": "Heads-up",
+ "head": "Lloyds app not working on Black Friday morning, bank apologises",
+ "dek": "Some Lloyds customers couldn't get into the bank's app on the morning of Friday 27 November, which was Black Friday and, for some, payday. Lloyds said it was sorry and was working to get things back to normal as quickly as possible.",
+ "details": "People who tried to log in saw a message saying customers were having trouble logging in to online banking and the app. The report didn't say when the problem was fixed.",
+ "where": "UK, Lloyds app and online banking, morning of 27 November",
+ "means": "If you couldn't log in to the Lloyds app on Friday morning, Lloyds has said some customers were having difficulty getting in.",
+ "todo": "If you tried to pay or move money during the problem, check in the app that it went through.",
+ "thumb_words": "LLOYDS APP DOWN ON BLACK FRIDAY",
+ "apps": [
+  "Lloyds Bank"
+ ],
+ "sources": [
+  {
+   "name": "AOL (PA)",
+   "url": "https://www.aol.co.uk/articles/lloyds-apologises-customers-face-difficulty-112342000.html"
+  }
+ ],
+ "item": 184168,
+ "idea": "news",
+ "traction": 37
+}

@@ -1,0 +1,27 @@
+{
+ "slug": "wavecast-podcast-player-app",
+ "date": "2026-11-25",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Podcasts",
+ "tag": "New app",
+ "head": "WaveCast podcast app: transcripts, summaries and colours from show art",
+ "dek": "WaveCast is a new free podcast player from Stephen Robles that takes its colours from the artwork of the show you're playing and makes transcripts and chapters on your device. It came out on 25 November and was #97 in News on the US App Store's free chart on 27 November.",
+ "details": "Playback runs from half speed to 3x, with voice levelling, silence trimming and automatic intro and outro skipping. Transcripts highlight along with the audio and can be searched; summaries need Apple Intelligence. It works on iPhone, iPad, Mac, Apple Watch, Vision Pro and CarPlay, and an optional account syncs shows and progress, also with the web app. WaveCast Plus, 1.99 dollars a month or 19.99 dollars a year, adds chapter skipping and chapter generation and removes the sponsor under Up Next.",
+ "where": "App Store, free with in-app purchases; needs iOS 27 or later",
+ "means": "If you want searchable transcripts or to skip parts of an episode, WaveCast has both; chapter skipping and chapter generation come with Plus.",
+ "todo": "To move over, export your shows from your current app as an OPML file and import it in WaveCast, or follow shows by name or feed address.",
+ "apps": [
+  "WaveCast Podcast Player"
+ ],
+ "item": 188100,
+ "idea": "newcomer",
+ "traction": 0,
+ "thumb_words": "WAVECAST: NEW PODCAST APP",
+ "sources": [
+  {
+   "name": "App Store",
+   "url": "https://apps.apple.com/us/app/wavecast-podcast-player/id6837460306"
+  }
+ ]
+}

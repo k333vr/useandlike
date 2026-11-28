@@ -1,0 +1,23 @@
+{
+ "date": "2026-11-26",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "quick": true,
+ "tag": "Quick",
+ "slug": "google-home-familiar-faces-onn-cameras",
+ "topic": "Google",
+ "head": "Google Home's Familiar Faces now works on Walmart's Onn cameras",
+ "dek": "With the latest Google Home update, the Onn Outdoor Camera Plug-In ($35) and Onn Floodlight Camera Hardwired ($77) can tell known faces from strangers in their alerts. It needs a Google Home Premium subscription.",
+ "apps": [
+  "Google Home"
+ ],
+ "sources": [
+  {
+   "name": "Northern Pen",
+   "url": "https://www.northernpen.ca/google-expands-ai-powered-familiar-faces-feature-to-walmarts-affordable-security-cameras/"
+  }
+ ],
+ "item": 176487,
+ "idea": "news",
+ "traction": 0
+}

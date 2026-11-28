@@ -1,0 +1,23 @@
+{
+ "slug": "craft-starred-pages-text-selection",
+ "date": "2026-11-27",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Productivity",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Craft notes app adds starred pages and text selection across blocks",
+ "dek": "Craft now lets you star pages, collection views and folders for quicker access, and its native apps get an optional Advanced setting to select text across several blocks (web and Windows later). The update also brings five festive styles and more than 30 fixes.",
+ "apps": [
+  "Craft"
+ ],
+ "sources": [
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/craft-adds-starred-pages-and-cross-block-text-selection/"
+  }
+ ],
+ "item": 186482,
+ "idea": "news",
+ "traction": 0
+}

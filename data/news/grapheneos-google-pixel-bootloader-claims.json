@@ -1,0 +1,24 @@
+{
+ "slug": "grapheneos-google-pixel-bootloader-claims",
+ "date": "2026-11-27",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Android",
+ "tag": "Quick",
+ "quick": true,
+ "head": "GrapheneOS says Google may lock Pixel bootloaders",
+ "dek": "In a post on X, the GrapheneOS project accused Google of pressuring phone makers not to allow bootloader unlocking and predicted Google may lock Pixel bootloaders, which would block systems like GrapheneOS. The report includes no reply from Google.",
+ "apps": [
+  "GrapheneOS",
+  "Google Pixel"
+ ],
+ "sources": [
+  {
+   "name": "AlternativeTo",
+   "url": "https://alternativeto.net/news/2026/11/grapheneos-accuses-google-of-sabotaging-rival-android-projects-could-lock-bootloader/"
+  }
+ ],
+ "item": 182844,
+ "idea": "news",
+ "traction": 0
+}

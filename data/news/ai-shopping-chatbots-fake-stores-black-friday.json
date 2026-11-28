@@ -1,0 +1,34 @@
+{
+ "slug": "ai-shopping-chatbots-fake-stores-black-friday",
+ "date": "2026-11-26",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "Fake shopping websites show up in ChatGPT and Gemini answers",
+ "dek": "When people ask AI chatbots like ChatGPT, Gemini and Perplexity where to buy a brand, some answers lead to fake copies of the brand's shop. One study found that more than 18% of such answers drew on a fake, infringing or invalid website.",
+ "details": "Spokeo, a data company, counted 65 look-alike stores copying 60 brands as of 15 November, among them UGG, L.L. Bean and Converse. The 18% figure comes from Podqi, a firm that monitors brand infringement. In one case Perplexity pointed a shopper looking for Stussy to a fake Stussy shop, and a fake Converse shop used an address ending in .us.com instead of converse.com. Microsoft research cited in the reports says such shops can now be built in minutes instead of days or weeks.",
+ "where": "Shoppers who use AI chatbots to find where to buy, during the Black Friday sales",
+ "means": "A shop link from a chatbot isn't proof that the shop is real, and the purchase is still your decision, not the chatbot's.",
+ "todo": "Before you pay, read the web address closely: misspellings or extra words around the brand name are warning signs. Look for a company phone number and address, be wary of prices far below the brand's own site, and look the shop up on ScamAdviser or the Better Business Bureau before entering your card. When in doubt, type the brand's own address yourself.",
+ "thumb_words": "AI CHATBOTS SEND SHOPPERS TO FAKES",
+ "apps": [
+  "ChatGPT",
+  "Gemini",
+  "Perplexity"
+ ],
+ "sources": [
+  {
+   "name": "News 9 (CBS News)",
+   "url": "https://www.news9.com/oklahoma-city-news/your-ai-shopping-agent-may-not-spot-a-fake-online-store-this-black-friday"
+  },
+  {
+   "name": "Capital Digest",
+   "url": "https://capitaldigest.com/ai-shopping-agents-often-miss-the-fake-stores-scammers-build-for-black-friday/"
+  }
+ ],
+ "item": 184421,
+ "idea": "news",
+ "traction": 93,
+ "rank": 1
+}

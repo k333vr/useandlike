@@ -1,0 +1,90 @@
+{
+ "slug": "switch-2-ps5-xbox-parental-controls-explained",
+ "date": "2026-11-28",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Games",
+ "tag": "Explainer",
+ "head": "Switch 2 parental controls vs PS5 and Xbox: setting up a gift console",
+ "dek": "Nintendo, Sony and Microsoft each have a phone app for parents that sets daily play time, blocks games by age rating, limits chat and caps spending, and it's easiest to set up before the console is unwrapped.",
+ "sections": [
+  {
+   "h": "One parent app per console",
+   "p": [
+    "Each console maker runs its family controls from a phone app on iPhone and Android. Nintendo has the Nintendo Switch Parental Controls app, which Nintendo calls free and which works with both the Switch 2 and the original Switch. Sony has the PlayStation Family app, which it launched on 10 September 2025, TechCrunch reported. For Xbox, Microsoft has the Xbox Family Settings app, and its family group is described as a free service.",
+    "All three tie the rules to the child's account, not to one screen. Sony says a change made on one device applies to all of them, and Microsoft's screen time limits apply across Xbox consoles and Windows PCs."
+   ]
+  },
+  {
+   "h": "Play time limits",
+   "p": [
+    "On a Switch 2, you set how long or how late the console can be used each day. When time is up, an alarm shows on screen, and you can have the app suspend the game. A parent PIN adds time or turns the limit off for the day.",
+    "On PS5, you set a daily playtime limit for each day of the week, or change today's time only. Your child can ask for more time, and you approve or decline it in the app. Xbox schedules time per day of the week and when your child can sign in; the countdown pauses when they sign out, and you can limit single games or apps."
+   ]
+  },
+  {
+   "h": "Games by age rating",
+   "p": [
+    "All three filter games by age. Nintendo uses preset age levels or your own settings based on ESRB ratings, and lets you allow single games anyway. Sony offers the levels Child, Early Teens and Late Teens or Older, and switches to Customize once you change one setting. Xbox blocks games, apps and websites by age, and your child can send a request you approve or decline."
+   ]
+  },
+  {
+   "h": "Chat and online friends",
+   "p": [
+    "On the Switch 2, GameChat is voice and video chat. Nintendo's GameChat page says it needs a Nintendo Switch Online membership and a text message check to set up. Children under 16 need a parent's approval in the Parental Controls app, can only chat with friends a parent approved, and each video chat needs the parent's OK. Video also needs a USB-C camera, sold separately.",
+    "On PS5, turning off communication blocks text and voice chat with other players; ready-made in-game messages still work. You can also block screenshots, videos and other players' creations. Xbox lets you choose who can contact your child, whether they can join multiplayer games, and who sees what they play."
+   ]
+  },
+  {
+   "h": "Spending limits",
+   "p": [
+    "Sony sets a child's monthly spending limit to 0 by default, so you raise it only if they should buy games, and purchases come out of the family manager's wallet. Sony also notes that any parent or guardian you appoint can change that limit.",
+    "Microsoft offers Ask a Parent requests for purchases, an allowance and order history. On 8 September 2026 it said approvals for purchases, apps and extra screen time now go through faster in Microsoft Family Safety. Nintendo's app manages spending in the Nintendo eShop."
+   ]
+  },
+  {
+   "h": "Setting it up before the big day",
+   "p": [
+    "Sony asks you to create a family, add your child and make sure they've verified their email and are signed in on the console, or the settings may not take effect. It also suggests blocking your child from changing parental controls in the console's settings.",
+    "Nintendo says the parent needs to be 18 or older with a Nintendo Account, and a second parent can share control from their own phone. If you move from an old Switch, System Transfer brings the parental control settings to the Switch 2."
+   ]
+  }
+ ],
+ "means": "If a Switch 2, PS5 or Xbox is under the tree for a child, you can set play time, age limits, chat and spending from your own phone before they first switch it on.",
+ "todo": "Install the parent app for that console: Nintendo Switch Parental Controls, PlayStation Family or Xbox Family Settings. Create the child's account in your family, set a daily time limit, an age level and a spending limit, and decide who they can chat with. On a Switch 2, approve GameChat friends one by one.",
+ "where": "Nintendo Switch 2 and Switch, PS5, Xbox; parent apps on iPhone and Android",
+ "apps": [
+  "Nintendo Switch",
+  "PlayStation",
+  "Xbox"
+ ],
+ "sources": [
+  {
+   "name": "Nintendo",
+   "url": "https://www.nintendo.com/us/switch/parental-controls/"
+  },
+  {
+   "name": "Nintendo",
+   "url": "https://www.nintendo.com/us/gaming-systems/switch-2/features/gamechat/"
+  },
+  {
+   "name": "PlayStation Support",
+   "url": "https://www.playstation.com/en-us/support/account/ps5-parental-controls-spending-limits/"
+  },
+  {
+   "name": "Xbox",
+   "url": "https://www.xbox.com/en-US/family-hub"
+  },
+  {
+   "name": "Windows Blog",
+   "url": "https://blogs.windows.com/windowsexperience/?p=180451"
+  },
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2025/09/10/sony-rolls-out-new-playstation-family-parental-controls-app/"
+  }
+ ],
+ "thumb_words": "GIFT CONSOLE? SET KID LIMITS FIRST",
+ "idea": "explainer",
+ "traction": 0
+}

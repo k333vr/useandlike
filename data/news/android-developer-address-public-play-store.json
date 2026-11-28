@@ -1,0 +1,23 @@
+{
+ "slug": "android-developer-address-public-play-store",
+ "date": "2026-11-27",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Android",
+ "tag": "Quick",
+ "quick": true,
+ "head": "Google Play will show Android developers' address and phone number",
+ "dek": "App makers who earn money from apps published in the UK and Europe must confirm a business address and phone number by 1 February 2027, and Google Play will show them worldwide, 9to5Google reports. The rule comes from the EU's and UK's Digital Services Act rules.",
+ "apps": [
+  "Google Play"
+ ],
+ "sources": [
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/2026/11/27/android-app-developers-will-have-to-publicly-post-address-phone-number-in-2027/"
+  }
+ ],
+ "item": 179823,
+ "idea": "news",
+ "traction": 0
+}

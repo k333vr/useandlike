@@ -1,0 +1,19 @@
+{
+ "slug": "whatsapp-iphone-tab-bar-no-labels-beta",
+ "date": "2026-11-27",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Messaging",
+ "tag": "Quick",
+ "quick": true,
+ "rumor": true,
+ "head": "WhatsApp is testing an iPhone tab bar without text labels",
+ "dek": "Some WhatsApp beta testers on iPhone see a more compact bottom bar with icons only and no words under them, WABetaInfo reports; the five tabs stay the same. It's a test in beta 26.46.10.71, and WhatsApp hasn't said when or whether everyone gets it.",
+ "apps": ["WhatsApp"],
+ "sources": [
+  {"name": "Digital Trends", "url": "https://www.digitaltrends.com/phones/whatsapps-iphone-app-is-getting-a-cleaner-look-starting-at-the-bottom/"}
+ ],
+ "item": 186531,
+ "idea": "news",
+ "traction": 21
+}

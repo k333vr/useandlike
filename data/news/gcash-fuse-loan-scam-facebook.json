@@ -1,0 +1,22 @@
+{
+ "slug": "gcash-fuse-loan-scam-facebook",
+ "date": "2026-11-27",
+ "added": "2026-11-28",
+ "checked": "2026-11-28",
+ "topic": "Security",
+ "tag": "Safety",
+ "head": "GCash loan scam: fake Fuse Facebook pages ask for upfront fees",
+ "dek": "Fake Facebook pages are using the name of Fuse, GCash's lending arm, to promise loan approvals and then ask for a verification fee before any money is paid out. Fuse says it has no Facebook page and handles loans only inside the GCash app.",
+ "details": "Fuse Financing Inc. issued the warning on 27 November. The fake pages copy its logo, office address and SEC registration number, and some even post anti-scam warnings to look trustworthy. Fuse says it never takes loan applications, ID documents or fees through Facebook, Messenger, Telegram or other social media.",
+ "where": "Philippines: Facebook, Messenger, Telegram; real loans only in the GCash app",
+ "means": "If a page on Facebook offers you a GCash loan and asks you to send money first, it's a scam, according to Fuse.",
+ "todo": "Apply for loans only in the GCash app and never pay a fee to unlock a loan. Don't share your OTP, MPIN or password. Report the page to Facebook and block it. If you already paid, stop sending money and report it in the GCash app under Transactions, then the payment, Get Help and Report as scam, or call the GCash hotline 2882 (Globe and TM). If you shared your MPIN or password, change it in the app right away.",
+ "apps": ["GCash", "Facebook"],
+ "sources": [
+  {"name": "Punto! Central Luzon", "url": "https://punto.com.ph/fuse-warns-public-against-fake-facebook-loan-offers-reminds-customers-to-transact-only-through-the-gcash-app/"}
+ ],
+ "item": 183989,
+ "idea": "news",
+ "traction": 29,
+ "thumb_words": "FAKE GCASH LOAN PAGES ON FACEBOOK"
+}
